@@ -13,7 +13,8 @@ CONTRACT_MOD=$(SIM_MOD)
 CC=gcc
 HEPTC=heptc
 HEPTS=hepts
-SIGALI=/home/ricardo/Downloads/tmc/Sigali-2.4/bin/sigali
+#SIGALI=/home/ricardo/Downloads/tmc/Sigali-2.4/bin/sigali
+SIGALI=/home/osboxes/tmc/Sigali-2.4/bin/sigali
 
 HEPT_LIB_C=/usr/local/lib/heptagon/c
 

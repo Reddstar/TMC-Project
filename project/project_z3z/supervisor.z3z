@@ -1,0 +1,606 @@
+% --- Generated the 4/7/2018 at 11:9 --- %
+% --- heptagon compiler, version 1.03.00 (compiled thu. may. 3 2:35:29 CET 2018) --- %
+% --- Command line: /usr/local/bin/heptc -target c -target z3z -s supervisor project.ept --- %
+
+set_reorder(2);read("Property.lib");read("Synthesis.lib");read("Verif_Determ.lib");read("Simul.lib");read("Synthesis_Partial_order.lib");read("Orbite.lib");
+% -- dependencies --- %
+
+% ---------- process supervisor ---------- %
+
+declare(supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+        supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+        supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+        supervisor_do_open, supervisor_c_lac, supervisor_c_rac,
+        supervisor_c_l, supervisor_c_l4, supervisor_c_l3, supervisor_c_l2,
+        supervisor_c_l1, supervisor_ck_1, supervisor_pnr_9,
+        supervisor_ck_11_1, supervisor_pnr_8, supervisor_ck_13_1,
+        supervisor_pnr_7, supervisor_ck_15_1, supervisor_pnr_6,
+        supervisor_ck_17_1, supervisor_pnr_5, supervisor_ck_19_1,
+        supervisor_pnr_4, supervisor_ck_21_1, supervisor_pnr_3,
+        supervisor_ck_23_1, supervisor_pnr_2, supervisor_v_121,
+        supervisor_v_120, supervisor_pnr_1, supervisor_v_105,
+        supervisor_v_104, supervisor_pnr, supervisor_error_state);
+conditions : [supervisor_presence, supervisor_turn_on_l1,
+              supervisor_turn_on_l2, supervisor_turn_on_rl,
+              supervisor_turn_on_l, supervisor_turn_on_rac,
+              supervisor_turn_on_lac, supervisor_turn_on_tv,
+              supervisor_turn_on_wm, supervisor_do_open, supervisor_c_lac,
+              supervisor_c_rac, supervisor_c_l, supervisor_c_l4,
+              supervisor_c_l3, supervisor_c_l2, supervisor_c_l1];
+states : [supervisor_ck_1, supervisor_pnr_9, supervisor_ck_11_1,
+          supervisor_pnr_8, supervisor_ck_13_1, supervisor_pnr_7,
+          supervisor_ck_15_1, supervisor_pnr_6, supervisor_ck_17_1,
+          supervisor_pnr_5, supervisor_ck_19_1, supervisor_pnr_4,
+          supervisor_ck_21_1, supervisor_pnr_3, supervisor_ck_23_1,
+          supervisor_pnr_2, supervisor_v_121, supervisor_v_120,
+          supervisor_pnr_1, supervisor_v_105, supervisor_v_104,
+          supervisor_pnr, supervisor_error_state];
+controllables : [supervisor_c_lac, supervisor_c_rac, supervisor_c_l,
+                 supervisor_c_l4, supervisor_c_l3, supervisor_c_l2,
+                 supervisor_c_l1];
+evolutions : [];
+initialisations : [];
+supervisor_presence_1 : supervisor_presence;
+supervisor_c_l2_1 : supervisor_c_l2;
+supervisor_c_l1_1 : supervisor_c_l1;
+supervisor_turn_on_l1_1 : supervisor_turn_on_l1;
+supervisor_c_l2_2 : supervisor_c_l4;
+supervisor_c_l1_2 : supervisor_c_l3;
+supervisor_turn_on_l1_2 : supervisor_turn_on_l2;
+supervisor_turn_on_rl_1 : supervisor_turn_on_rl;
+supervisor_c_l_1 : supervisor_c_l;
+supervisor_turn_on_l_1 : supervisor_turn_on_l;
+supervisor_turn_on_tv_1 : supervisor_turn_on_tv;
+supervisor_turn_on_wm_1 : supervisor_turn_on_wm;
+supervisor_do_open_1 : supervisor_do_open;
+supervisor_ck_25_2 : supervisor_v_121;
+supervisor_ck_25_1 : supervisor_v_120;
+supervisor_c_rac_1 : supervisor_c_rac;
+supervisor_turn_on_rac_1 : supervisor_turn_on_rac;
+supervisor_ck_27_2 : supervisor_v_105;
+supervisor_ck_27_1 : supervisor_v_104;
+supervisor_c_lac_1 : supervisor_c_lac;
+supervisor_turn_on_lac_1 : supervisor_turn_on_lac;
+supervisor_v_26 : (not supervisor_presence_1);
+supervisor_s_9_St_18_Occupied_1 : ((1 when supervisor_v_26) default -1);
+supervisor_r_9_St_18_Occupied : ((1 when supervisor_v_26)
+  default supervisor_pnr_9);
+supervisor_s_9_St_18_Empty_1 : ((-1 when supervisor_presence_1) default 1);
+supervisor_s_9_1 : ((supervisor_s_9_St_18_Empty_1 when supervisor_ck_1)
+  default supervisor_s_9_St_18_Occupied_1);
+supervisor_r_9_St_18_Empty : ((1 when supervisor_presence_1)
+  default supervisor_pnr_9);
+supervisor_r_9 : ((supervisor_r_9_St_18_Empty when supervisor_ck_1)
+  default supervisor_r_9_St_18_Occupied);
+supervisor_ck_10_1 : supervisor_s_9_1;
+supervisor_ns_9_St_18_Occupied_1 : -1;
+supervisor_nr_9_St_18_Occupied : -1;
+supervisor_has_presence_1_St_18_Occupied : 1;
+supervisor_ns_9_St_18_Empty_1 : 1;
+supervisor_ns_9_1 : ((supervisor_ns_9_St_18_Empty_1 when supervisor_ck_10_1)
+  default supervisor_ns_9_St_18_Occupied_1);
+supervisor_nr_9_St_18_Empty : -1;
+supervisor_nr_9 : ((supervisor_nr_9_St_18_Empty when supervisor_ck_10_1)
+  default supervisor_nr_9_St_18_Occupied);
+supervisor_has_presence_1_St_18_Empty : -1;
+supervisor_has_presence_1 : ((supervisor_has_presence_1_St_18_Empty
+  when supervisor_ck_10_1) default supervisor_has_presence_1_St_18_Occupied);
+supervisor_has_presence : supervisor_has_presence_1;
+supervisor_v_27 : (supervisor_turn_on_l1_1 and supervisor_c_l1_1);
+supervisor_v_28 : (supervisor_v_27 or supervisor_c_l2_1);
+supervisor_s_8_St_17_On_1 : ((1 when supervisor_v_28) default -1);
+supervisor_r_8_St_17_On : ((1 when supervisor_v_28)
+  default supervisor_pnr_8);
+supervisor_v_29 : (supervisor_turn_on_l1_1 and supervisor_c_l1_1);
+supervisor_v_30 : (supervisor_v_29 or supervisor_c_l2_1);
+supervisor_s_8_St_17_Off_1 : ((-1 when supervisor_v_30) default 1);
+supervisor_s_8_1 : ((supervisor_s_8_St_17_Off_1 when supervisor_ck_11_1)
+  default supervisor_s_8_St_17_On_1);
+supervisor_r_8_St_17_Off : ((1 when supervisor_v_30)
+  default supervisor_pnr_8);
+supervisor_r_8 : ((supervisor_r_8_St_17_Off when supervisor_ck_11_1)
+  default supervisor_r_8_St_17_On);
+supervisor_ck_12_1 : supervisor_s_8_1;
+supervisor_ns_8_St_17_On_1 : -1;
+supervisor_nr_8_St_17_On : -1;
+supervisor_is_on_l1_1_St_17_On : 1;
+supervisor_ns_8_St_17_Off_1 : 1;
+supervisor_ns_8_1 : ((supervisor_ns_8_St_17_Off_1 when supervisor_ck_12_1)
+  default supervisor_ns_8_St_17_On_1);
+supervisor_nr_8_St_17_Off : -1;
+supervisor_nr_8 : ((supervisor_nr_8_St_17_Off when supervisor_ck_12_1)
+  default supervisor_nr_8_St_17_On);
+supervisor_is_on_l1_1_St_17_Off : -1;
+supervisor_is_on_l1_1 : ((supervisor_is_on_l1_1_St_17_Off
+  when supervisor_ck_12_1) default supervisor_is_on_l1_1_St_17_On);
+supervisor_is_on_l1 : supervisor_is_on_l1_1;
+supervisor_v_31 : (supervisor_turn_on_l1_2 and supervisor_c_l1_2);
+supervisor_v_32 : (supervisor_v_31 or supervisor_c_l2_2);
+supervisor_s_7_St_16_On_1 : ((1 when supervisor_v_32) default -1);
+supervisor_r_7_St_16_On : ((1 when supervisor_v_32)
+  default supervisor_pnr_7);
+supervisor_v_33 : (supervisor_turn_on_l1_2 and supervisor_c_l1_2);
+supervisor_v_34 : (supervisor_v_33 or supervisor_c_l2_2);
+supervisor_s_7_St_16_Off_1 : ((-1 when supervisor_v_34) default 1);
+supervisor_s_7_1 : ((supervisor_s_7_St_16_Off_1 when supervisor_ck_13_1)
+  default supervisor_s_7_St_16_On_1);
+supervisor_r_7_St_16_Off : ((1 when supervisor_v_34)
+  default supervisor_pnr_7);
+supervisor_r_7 : ((supervisor_r_7_St_16_Off when supervisor_ck_13_1)
+  default supervisor_r_7_St_16_On);
+supervisor_ck_14_1 : supervisor_s_7_1;
+supervisor_ns_7_St_16_On_1 : -1;
+supervisor_nr_7_St_16_On : -1;
+supervisor_is_on_l1_2_St_16_On : 1;
+supervisor_ns_7_St_16_Off_1 : 1;
+supervisor_ns_7_1 : ((supervisor_ns_7_St_16_Off_1 when supervisor_ck_14_1)
+  default supervisor_ns_7_St_16_On_1);
+supervisor_nr_7_St_16_Off : -1;
+supervisor_nr_7 : ((supervisor_nr_7_St_16_Off when supervisor_ck_14_1)
+  default supervisor_nr_7_St_16_On);
+supervisor_is_on_l1_2_St_16_Off : -1;
+supervisor_is_on_l1_2 : ((supervisor_is_on_l1_2_St_16_Off
+  when supervisor_ck_14_1) default supervisor_is_on_l1_2_St_16_On);
+supervisor_is_on_l2 : supervisor_is_on_l1_2;
+supervisor_s_6_St_15_Off_1 : ((-1 when supervisor_turn_on_rl_1) default 1);
+supervisor_r_6_St_15_Off : ((1 when supervisor_turn_on_rl_1)
+  default supervisor_pnr_6);
+supervisor_v_35 : (not supervisor_turn_on_rl_1);
+supervisor_s_6_St_15_On_1 : ((1 when supervisor_v_35) default -1);
+supervisor_s_6_1 : ((supervisor_s_6_St_15_Off_1 when supervisor_ck_15_1)
+  default supervisor_s_6_St_15_On_1);
+supervisor_r_6_St_15_On : ((1 when supervisor_v_35)
+  default supervisor_pnr_6);
+supervisor_r_6 : ((supervisor_r_6_St_15_Off when supervisor_ck_15_1)
+  default supervisor_r_6_St_15_On);
+supervisor_ck_16_1 : supervisor_s_6_1;
+supervisor_ns_6_St_15_Off_1 : 1;
+supervisor_nr_6_St_15_Off : -1;
+supervisor_is_on_rl_1_St_15_Off : -1;
+supervisor_ns_6_St_15_On_1 : -1;
+supervisor_ns_6_1 : ((supervisor_ns_6_St_15_Off_1 when supervisor_ck_16_1)
+  default supervisor_ns_6_St_15_On_1);
+supervisor_nr_6_St_15_On : -1;
+supervisor_nr_6 : ((supervisor_nr_6_St_15_Off when supervisor_ck_16_1)
+  default supervisor_nr_6_St_15_On);
+supervisor_is_on_rl_1_St_15_On : 1;
+supervisor_is_on_rl_1 : ((supervisor_is_on_rl_1_St_15_Off
+  when supervisor_ck_16_1) default supervisor_is_on_rl_1_St_15_On);
+supervisor_is_on_rl : supervisor_is_on_rl_1;
+supervisor_v_36 : (supervisor_turn_on_l_1 and supervisor_c_l_1);
+supervisor_v_37 : (supervisor_v_36 or supervisor_c_l_1);
+supervisor_s_5_St_14_Off_1 : ((-1 when supervisor_v_37) default 1);
+supervisor_r_5_St_14_Off : ((1 when supervisor_v_37)
+  default supervisor_pnr_5);
+supervisor_v_38 : (not supervisor_turn_on_l_1);
+supervisor_v_39 : (not supervisor_c_l_1);
+supervisor_v_40 : (supervisor_v_38 and supervisor_v_39);
+supervisor_v_41 : (not supervisor_c_l_1);
+supervisor_v_42 : (supervisor_v_40 or supervisor_v_41);
+supervisor_s_5_St_14_On_1 : ((1 when supervisor_v_42) default -1);
+supervisor_s_5_1 : ((supervisor_s_5_St_14_Off_1 when supervisor_ck_17_1)
+  default supervisor_s_5_St_14_On_1);
+supervisor_r_5_St_14_On : ((1 when supervisor_v_42)
+  default supervisor_pnr_5);
+supervisor_r_5 : ((supervisor_r_5_St_14_Off when supervisor_ck_17_1)
+  default supervisor_r_5_St_14_On);
+supervisor_ck_18_1 : supervisor_s_5_1;
+supervisor_ns_5_St_14_Off_1 : 1;
+supervisor_nr_5_St_14_Off : -1;
+supervisor_is_on_l_1_St_14_Off : -1;
+supervisor_ns_5_St_14_On_1 : -1;
+supervisor_ns_5_1 : ((supervisor_ns_5_St_14_Off_1 when supervisor_ck_18_1)
+  default supervisor_ns_5_St_14_On_1);
+supervisor_nr_5_St_14_On : -1;
+supervisor_nr_5 : ((supervisor_nr_5_St_14_Off when supervisor_ck_18_1)
+  default supervisor_nr_5_St_14_On);
+supervisor_is_on_l_1_St_14_On : 1;
+supervisor_is_on_l_1 : ((supervisor_is_on_l_1_St_14_Off
+  when supervisor_ck_18_1) default supervisor_is_on_l_1_St_14_On);
+supervisor_is_on_l : supervisor_is_on_l_1;
+supervisor_s_4_St_13_Off_1 : ((-1 when supervisor_turn_on_tv_1) default 1);
+supervisor_r_4_St_13_Off : ((1 when supervisor_turn_on_tv_1)
+  default supervisor_pnr_4);
+supervisor_v_43 : (not supervisor_turn_on_tv_1);
+supervisor_s_4_St_13_On_1 : ((1 when supervisor_v_43) default -1);
+supervisor_s_4_1 : ((supervisor_s_4_St_13_Off_1 when supervisor_ck_19_1)
+  default supervisor_s_4_St_13_On_1);
+supervisor_r_4_St_13_On : ((1 when supervisor_v_43)
+  default supervisor_pnr_4);
+supervisor_r_4 : ((supervisor_r_4_St_13_Off when supervisor_ck_19_1)
+  default supervisor_r_4_St_13_On);
+supervisor_ck_20_1 : supervisor_s_4_1;
+supervisor_ns_4_St_13_Off_1 : 1;
+supervisor_nr_4_St_13_Off : -1;
+supervisor_is_tv_on_1_St_13_Off : -1;
+supervisor_ns_4_St_13_On_1 : -1;
+supervisor_ns_4_1 : ((supervisor_ns_4_St_13_Off_1 when supervisor_ck_20_1)
+  default supervisor_ns_4_St_13_On_1);
+supervisor_nr_4_St_13_On : -1;
+supervisor_nr_4 : ((supervisor_nr_4_St_13_Off when supervisor_ck_20_1)
+  default supervisor_nr_4_St_13_On);
+supervisor_is_tv_on_1_St_13_On : 1;
+supervisor_is_tv_on_1 : ((supervisor_is_tv_on_1_St_13_Off
+  when supervisor_ck_20_1) default supervisor_is_tv_on_1_St_13_On);
+supervisor_is_tv_on : supervisor_is_tv_on_1;
+supervisor_s_3_St_12_Off_1 : ((-1 when supervisor_turn_on_wm_1) default 1);
+supervisor_r_3_St_12_Off : ((1 when supervisor_turn_on_wm_1)
+  default supervisor_pnr_3);
+supervisor_v_44 : (not supervisor_turn_on_wm_1);
+supervisor_s_3_St_12_Washing_1 : ((1 when supervisor_v_44) default -1);
+supervisor_s_3_1 : ((supervisor_s_3_St_12_Off_1 when supervisor_ck_21_1)
+  default supervisor_s_3_St_12_Washing_1);
+supervisor_r_3_St_12_Washing : ((1 when supervisor_v_44)
+  default supervisor_pnr_3);
+supervisor_r_3 : ((supervisor_r_3_St_12_Off when supervisor_ck_21_1)
+  default supervisor_r_3_St_12_Washing);
+supervisor_ck_22_1 : supervisor_s_3_1;
+supervisor_ns_3_St_12_Off_1 : 1;
+supervisor_nr_3_St_12_Off : -1;
+supervisor_is_working_wm_1_St_12_Off : -1;
+supervisor_ns_3_St_12_Washing_1 : -1;
+supervisor_ns_3_1 : ((supervisor_ns_3_St_12_Off_1 when supervisor_ck_22_1)
+  default supervisor_ns_3_St_12_Washing_1);
+supervisor_nr_3_St_12_Washing : -1;
+supervisor_nr_3 : ((supervisor_nr_3_St_12_Off when supervisor_ck_22_1)
+  default supervisor_nr_3_St_12_Washing);
+supervisor_is_working_wm_1_St_12_Washing : 1;
+supervisor_is_working_wm_1 : ((supervisor_is_working_wm_1_St_12_Off
+  when supervisor_ck_22_1) default supervisor_is_working_wm_1_St_12_Washing);
+supervisor_is_working_wm : supervisor_is_working_wm_1;
+supervisor_s_2_St_11_Closed_1 : ((-1 when supervisor_do_open_1) default 1);
+supervisor_r_2_St_11_Closed : ((1 when supervisor_do_open_1)
+  default supervisor_pnr_2);
+supervisor_v_45 : (not supervisor_do_open_1);
+supervisor_s_2_St_11_Opened_1 : ((1 when supervisor_v_45) default -1);
+supervisor_s_2_1 : ((supervisor_s_2_St_11_Closed_1 when supervisor_ck_23_1)
+  default supervisor_s_2_St_11_Opened_1);
+supervisor_r_2_St_11_Opened : ((1 when supervisor_v_45)
+  default supervisor_pnr_2);
+supervisor_r_2 : ((supervisor_r_2_St_11_Closed when supervisor_ck_23_1)
+  default supervisor_r_2_St_11_Opened);
+supervisor_ck_24_1 : supervisor_s_2_1;
+supervisor_ns_2_St_11_Closed_1 : 1;
+supervisor_nr_2_St_11_Closed : -1;
+supervisor_is_w_opened_1_St_11_Closed : -1;
+supervisor_ns_2_St_11_Opened_1 : -1;
+supervisor_ns_2_1 : ((supervisor_ns_2_St_11_Closed_1 when supervisor_ck_24_1)
+  default supervisor_ns_2_St_11_Opened_1);
+supervisor_nr_2_St_11_Opened : -1;
+supervisor_nr_2 : ((supervisor_nr_2_St_11_Closed when supervisor_ck_24_1)
+  default supervisor_nr_2_St_11_Opened);
+supervisor_is_w_opened_1_St_11_Opened : 1;
+supervisor_is_w_opened_1 : ((supervisor_is_w_opened_1_St_11_Closed
+  when supervisor_ck_24_1) default supervisor_is_w_opened_1_St_11_Opened);
+supervisor_is_w_opened : supervisor_is_w_opened_1;
+supervisor_ck_25_2_0 : supervisor_ck_25_2;
+supervisor_ck_25_2_1 : supervisor_ck_25_2;
+supervisor_s_1_St_10_Wait_2 : ((-1 when supervisor_c_rac_1) default -1);
+supervisor_v_125 : ((1 when supervisor_ck_25_2_0)
+  default supervisor_s_1_St_10_Wait_2);
+supervisor_s_1_St_10_Wait_1 : ((1 when supervisor_c_rac_1) default -1);
+supervisor_v_124 : ((1 when supervisor_ck_25_2_0)
+  default supervisor_s_1_St_10_Wait_1);
+supervisor_r_1_St_10_Wait : ((1 when supervisor_c_rac_1)
+  default supervisor_pnr_1);
+supervisor_v_127 : ((1 when supervisor_ck_25_2_0)
+  default supervisor_r_1_St_10_Wait);
+supervisor_s_1_St_10_Wait_2_0 : supervisor_s_1_St_10_Wait_2;
+supervisor_s_1_St_10_Wait_2_1 : supervisor_s_1_St_10_Wait_2;
+supervisor_v_46 : (not supervisor_turn_on_rac_1);
+supervisor_v_47 : (not supervisor_c_rac_1);
+supervisor_v_48_2 : ((-1 when supervisor_v_47) default -1);
+supervisor_v_48_1 : ((-1 when supervisor_v_47) default 1);
+supervisor_v_49 : ((1 when supervisor_v_47) default supervisor_pnr_1);
+supervisor_s_1_St_10_On_2 : ((1 when supervisor_v_46)
+  default supervisor_v_48_2);
+supervisor_s_1_St_10_On_1 : ((1 when supervisor_v_46)
+  default supervisor_v_48_1);
+supervisor_r_1_St_10_On : ((1 when supervisor_v_46) default supervisor_v_49);
+supervisor_v_50 : (supervisor_turn_on_rac_1 and supervisor_c_rac_1);
+supervisor_v_51 : (not supervisor_c_rac_1);
+supervisor_v_52 : (supervisor_turn_on_rac_1 and supervisor_v_51);
+supervisor_v_53_2 : ((-1 when supervisor_v_52) default 1);
+supervisor_v_53_1 : ((-1 when supervisor_v_52) default 1);
+supervisor_v_54 : ((1 when supervisor_v_52) default supervisor_pnr_1);
+supervisor_s_1_St_10_Off_2 : ((-1 when supervisor_v_50)
+  default supervisor_v_53_2);
+supervisor_v_123 : ((supervisor_s_1_St_10_Off_2 when supervisor_ck_25_2_1)
+  default supervisor_s_1_St_10_On_2);
+supervisor_s_1_St_10_Off_1 : ((1 when supervisor_v_50)
+  default supervisor_v_53_1);
+supervisor_v_122 : ((supervisor_s_1_St_10_Off_1 when supervisor_ck_25_2_1)
+  default supervisor_s_1_St_10_On_1);
+supervisor_r_1_St_10_Off : ((1 when supervisor_v_50)
+  default supervisor_v_54);
+supervisor_v_126 : ((supervisor_r_1_St_10_Off when supervisor_ck_25_2_1)
+  default supervisor_r_1_St_10_On);
+supervisor_s_1_St_10_On_2_0 : supervisor_s_1_St_10_On_2;
+supervisor_s_1_St_10_On_2_1 : supervisor_s_1_St_10_On_2;
+supervisor_s_1_St_10_Off_2_0 : supervisor_s_1_St_10_Off_2;
+supervisor_s_1_St_10_Off_2_1 : supervisor_s_1_St_10_Off_2;
+supervisor_r_1 : ((supervisor_v_126 when supervisor_ck_25_1)
+  default supervisor_v_127);
+supervisor_s_1_2 : ((supervisor_v_123 when supervisor_ck_25_1)
+  default supervisor_v_125);
+supervisor_s_1_1 : ((supervisor_v_122 when supervisor_ck_25_1)
+  default supervisor_v_124);
+supervisor_s_1_2_0 : supervisor_s_1_2;
+supervisor_s_1_2_1 : supervisor_s_1_2;
+supervisor_v_48_2_0 : supervisor_v_48_2;
+supervisor_v_48_2_1 : supervisor_v_48_2;
+supervisor_v_53_2_0 : supervisor_v_53_2;
+supervisor_v_53_2_1 : supervisor_v_53_2;
+supervisor_ck_26_2 : supervisor_s_1_2;
+supervisor_ck_26_1 : supervisor_s_1_1;
+supervisor_ck_26_2_0 : supervisor_ck_26_2;
+supervisor_ck_26_2_1 : supervisor_ck_26_2;
+supervisor_ns_1_St_10_Wait_2 : -1;
+supervisor_v_117 : ((1 when supervisor_ck_26_2_0)
+  default supervisor_ns_1_St_10_Wait_2);
+supervisor_ns_1_St_10_Wait_1 : -1;
+supervisor_v_116 : ((1 when supervisor_ck_26_2_0)
+  default supervisor_ns_1_St_10_Wait_1);
+supervisor_nr_1_St_10_Wait : -1;
+supervisor_v_119 : ((1 when supervisor_ck_26_2_0)
+  default supervisor_nr_1_St_10_Wait);
+supervisor_working_state_rac_1_St_10_Wait : a_const(2);
+supervisor_v_113 : a_part(supervisor_ck_26_2_0, a_const(0), a_const(0),
+                          supervisor_working_state_rac_1_St_10_Wait);
+supervisor_ns_1_St_10_Wait_2_0 : supervisor_ns_1_St_10_Wait_2;
+supervisor_ns_1_St_10_Wait_2_1 : supervisor_ns_1_St_10_Wait_2;
+supervisor_ns_1_St_10_On_2 : -1;
+supervisor_ns_1_St_10_On_1 : 1;
+supervisor_nr_1_St_10_On : -1;
+supervisor_working_state_rac_1_St_10_On : a_const(1);
+supervisor_ns_1_St_10_Off_2 : 1;
+supervisor_v_115 : ((supervisor_ns_1_St_10_Off_2 when supervisor_ck_26_2_1)
+  default supervisor_ns_1_St_10_On_2);
+supervisor_ns_1_St_10_Off_1 : 1;
+supervisor_v_114 : ((supervisor_ns_1_St_10_Off_1 when supervisor_ck_26_2_1)
+  default supervisor_ns_1_St_10_On_1);
+supervisor_nr_1_St_10_Off : -1;
+supervisor_v_118 : ((supervisor_nr_1_St_10_Off when supervisor_ck_26_2_1)
+  default supervisor_nr_1_St_10_On);
+supervisor_working_state_rac_1_St_10_Off : a_const(0);
+supervisor_v_112 : a_part(supervisor_ck_26_2_1, a_const(0),
+                          supervisor_working_state_rac_1_St_10_Off,
+                          supervisor_working_state_rac_1_St_10_On);
+supervisor_ns_1_St_10_On_2_0 : supervisor_ns_1_St_10_On_2;
+supervisor_ns_1_St_10_On_2_1 : supervisor_ns_1_St_10_On_2;
+supervisor_ns_1_St_10_Off_2_0 : supervisor_ns_1_St_10_Off_2;
+supervisor_ns_1_St_10_Off_2_1 : supervisor_ns_1_St_10_Off_2;
+supervisor_nr_1 : ((supervisor_v_118 when supervisor_ck_26_1)
+  default supervisor_v_119);
+supervisor_ns_1_2 : ((supervisor_v_115 when supervisor_ck_26_1)
+  default supervisor_v_117);
+supervisor_ns_1_1 : ((supervisor_v_114 when supervisor_ck_26_1)
+  default supervisor_v_116);
+supervisor_working_state_rac_1 : a_part(supervisor_ck_26_1, a_const(0),
+                                        supervisor_v_112, supervisor_v_113);
+supervisor_ns_1_2_0 : supervisor_ns_1_2;
+supervisor_ns_1_2_1 : supervisor_ns_1_2;
+supervisor_working_state_rac : supervisor_working_state_rac_1;
+supervisor_ck_27_2_0 : supervisor_ck_27_2;
+supervisor_ck_27_2_1 : supervisor_ck_27_2;
+supervisor_s_St_9_Wait_2 : ((-1 when supervisor_c_lac_1) default -1);
+supervisor_v_109 : ((1 when supervisor_ck_27_2_0)
+  default supervisor_s_St_9_Wait_2);
+supervisor_s_St_9_Wait_1 : ((1 when supervisor_c_lac_1) default -1);
+supervisor_v_108 : ((1 when supervisor_ck_27_2_0)
+  default supervisor_s_St_9_Wait_1);
+supervisor_r_St_9_Wait : ((1 when supervisor_c_lac_1)
+  default supervisor_pnr);
+supervisor_v_111 : ((1 when supervisor_ck_27_2_0)
+  default supervisor_r_St_9_Wait);
+supervisor_s_St_9_Wait_2_0 : supervisor_s_St_9_Wait_2;
+supervisor_s_St_9_Wait_2_1 : supervisor_s_St_9_Wait_2;
+supervisor_v_55 : (not supervisor_turn_on_lac_1);
+supervisor_v_56 : (not supervisor_c_lac_1);
+supervisor_v_57_2 : ((-1 when supervisor_v_56) default -1);
+supervisor_v_57_1 : ((-1 when supervisor_v_56) default 1);
+supervisor_v_58 : ((1 when supervisor_v_56) default supervisor_pnr);
+supervisor_s_St_9_On_2 : ((1 when supervisor_v_55)
+  default supervisor_v_57_2);
+supervisor_s_St_9_On_1 : ((1 when supervisor_v_55)
+  default supervisor_v_57_1);
+supervisor_r_St_9_On : ((1 when supervisor_v_55) default supervisor_v_58);
+supervisor_v_59 : (supervisor_turn_on_lac_1 and supervisor_c_lac_1);
+supervisor_v_60 : (not supervisor_c_lac_1);
+supervisor_v_61 : (supervisor_turn_on_lac_1 and supervisor_v_60);
+supervisor_v_62_2 : ((-1 when supervisor_v_61) default 1);
+supervisor_v_62_1 : ((-1 when supervisor_v_61) default 1);
+supervisor_v_63 : ((1 when supervisor_v_61) default supervisor_pnr);
+supervisor_s_St_9_Off_2 : ((-1 when supervisor_v_59)
+  default supervisor_v_62_2);
+supervisor_v_107 : ((supervisor_s_St_9_Off_2 when supervisor_ck_27_2_1)
+  default supervisor_s_St_9_On_2);
+supervisor_s_St_9_Off_1 : ((1 when supervisor_v_59)
+  default supervisor_v_62_1);
+supervisor_v_106 : ((supervisor_s_St_9_Off_1 when supervisor_ck_27_2_1)
+  default supervisor_s_St_9_On_1);
+supervisor_r_St_9_Off : ((1 when supervisor_v_59) default supervisor_v_63);
+supervisor_v_110 : ((supervisor_r_St_9_Off when supervisor_ck_27_2_1)
+  default supervisor_r_St_9_On);
+supervisor_s_St_9_On_2_0 : supervisor_s_St_9_On_2;
+supervisor_s_St_9_On_2_1 : supervisor_s_St_9_On_2;
+supervisor_s_St_9_Off_2_0 : supervisor_s_St_9_Off_2;
+supervisor_s_St_9_Off_2_1 : supervisor_s_St_9_Off_2;
+supervisor_r : ((supervisor_v_110 when supervisor_ck_27_1)
+  default supervisor_v_111);
+supervisor_s_2_2 : ((supervisor_v_107 when supervisor_ck_27_1)
+  default supervisor_v_109);
+supervisor_s_1_3 : ((supervisor_v_106 when supervisor_ck_27_1)
+  default supervisor_v_108);
+supervisor_s_2_2_0 : supervisor_s_2_2;
+supervisor_s_2_2_1 : supervisor_s_2_2;
+supervisor_v_57_2_0 : supervisor_v_57_2;
+supervisor_v_57_2_1 : supervisor_v_57_2;
+supervisor_v_62_2_0 : supervisor_v_62_2;
+supervisor_v_62_2_1 : supervisor_v_62_2;
+supervisor_ck_28_2 : supervisor_s_2_2;
+supervisor_ck_28_1 : supervisor_s_1_3;
+supervisor_ck_28_2_0 : supervisor_ck_28_2;
+supervisor_ck_28_2_1 : supervisor_ck_28_2;
+supervisor_ns_St_9_Wait_2 : -1;
+supervisor_v_101 : ((1 when supervisor_ck_28_2_0)
+  default supervisor_ns_St_9_Wait_2);
+supervisor_ns_St_9_Wait_1 : -1;
+supervisor_v_100 : ((1 when supervisor_ck_28_2_0)
+  default supervisor_ns_St_9_Wait_1);
+supervisor_nr_St_9_Wait : -1;
+supervisor_v_103 : ((1 when supervisor_ck_28_2_0)
+  default supervisor_nr_St_9_Wait);
+supervisor_working_state_lac_1_St_9_Wait : a_const(2);
+supervisor_v_97 : a_part(supervisor_ck_28_2_0, a_const(0), a_const(0),
+                         supervisor_working_state_lac_1_St_9_Wait);
+supervisor_ns_St_9_Wait_2_0 : supervisor_ns_St_9_Wait_2;
+supervisor_ns_St_9_Wait_2_1 : supervisor_ns_St_9_Wait_2;
+supervisor_ns_St_9_On_2 : -1;
+supervisor_ns_St_9_On_1 : 1;
+supervisor_nr_St_9_On : -1;
+supervisor_working_state_lac_1_St_9_On : a_const(1);
+supervisor_ns_St_9_Off_2 : 1;
+supervisor_v_99 : ((supervisor_ns_St_9_Off_2 when supervisor_ck_28_2_1)
+  default supervisor_ns_St_9_On_2);
+supervisor_ns_St_9_Off_1 : 1;
+supervisor_v_98 : ((supervisor_ns_St_9_Off_1 when supervisor_ck_28_2_1)
+  default supervisor_ns_St_9_On_1);
+supervisor_nr_St_9_Off : -1;
+supervisor_v_102 : ((supervisor_nr_St_9_Off when supervisor_ck_28_2_1)
+  default supervisor_nr_St_9_On);
+supervisor_working_state_lac_1_St_9_Off : a_const(0);
+supervisor_v_96 : a_part(supervisor_ck_28_2_1, a_const(0),
+                         supervisor_working_state_lac_1_St_9_Off,
+                         supervisor_working_state_lac_1_St_9_On);
+supervisor_ns_St_9_On_2_0 : supervisor_ns_St_9_On_2;
+supervisor_ns_St_9_On_2_1 : supervisor_ns_St_9_On_2;
+supervisor_ns_St_9_Off_2_0 : supervisor_ns_St_9_Off_2;
+supervisor_ns_St_9_Off_2_1 : supervisor_ns_St_9_Off_2;
+supervisor_nr : ((supervisor_v_102 when supervisor_ck_28_1)
+  default supervisor_v_103);
+supervisor_ns_2_2 : ((supervisor_v_99 when supervisor_ck_28_1)
+  default supervisor_v_101);
+supervisor_ns_1_3 : ((supervisor_v_98 when supervisor_ck_28_1)
+  default supervisor_v_100);
+supervisor_working_state_lac_1 : a_part(supervisor_ck_28_1, a_const(0),
+                                        supervisor_v_96, supervisor_v_97);
+supervisor_ns_2_2_0 : supervisor_ns_2_2;
+supervisor_ns_2_2_1 : supervisor_ns_2_2;
+supervisor_working_state_lac : supervisor_working_state_lac_1;
+initialisations : concat(initialisations, [(supervisor_ck_1 = 1)]);
+evolutions : concat(evolutions, [(supervisor_ns_9_1 default supervisor_ck_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_9 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_9 default supervisor_pnr_9)]);
+initialisations : concat(initialisations, [(supervisor_ck_11_1 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_8_1 default supervisor_ck_11_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_8 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_8 default supervisor_pnr_8)]);
+initialisations : concat(initialisations, [(supervisor_ck_13_1 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_7_1 default supervisor_ck_13_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_7 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_7 default supervisor_pnr_7)]);
+initialisations : concat(initialisations, [(supervisor_ck_15_1 = -1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_6_1 default supervisor_ck_15_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_6 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_6 default supervisor_pnr_6)]);
+initialisations : concat(initialisations, [(supervisor_ck_17_1 = -1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_5_1 default supervisor_ck_17_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_5 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_5 default supervisor_pnr_5)]);
+initialisations : concat(initialisations, [(supervisor_ck_19_1 = -1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_4_1 default supervisor_ck_19_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_4 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_4 default supervisor_pnr_4)]);
+initialisations : concat(initialisations, [(supervisor_ck_21_1 = -1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_3_1 default supervisor_ck_21_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_3 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_3 default supervisor_pnr_3)]);
+initialisations : concat(initialisations, [(supervisor_ck_23_1 = -1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_2_1 default supervisor_ck_23_1)]);
+initialisations : concat(initialisations, [(supervisor_pnr_2 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_2 default supervisor_pnr_2)]);
+initialisations : concat(initialisations, [(supervisor_v_121 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_1_2 default supervisor_v_121)]);
+initialisations : concat(initialisations, [(supervisor_v_120 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_1_1 default supervisor_v_120)]);
+initialisations : concat(initialisations, [(supervisor_pnr_1 = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr_1 default supervisor_pnr_1)]);
+initialisations : concat(initialisations, [(supervisor_v_105 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_2_2 default supervisor_v_105)]);
+initialisations : concat(initialisations, [(supervisor_v_104 = 1)]);
+evolutions : concat(evolutions,
+                    [(supervisor_ns_1_3 default supervisor_v_104)]);
+initialisations : concat(initialisations, [(supervisor_pnr = -1)]);
+evolutions : concat(evolutions, [(supervisor_nr default supervisor_pnr)]);
+supervisor_v : (supervisor_is_on_l1 and supervisor_is_on_l2);
+supervisor_rule1 : (not supervisor_v);
+supervisor_assume : 1;
+supervisor_guarantee : supervisor_rule1;
+initialisations : concat(initialisations, [(supervisor_error_state = 1)]);
+evolutions : concat(evolutions, [supervisor_guarantee]);
+constraints : [((supervisor_presence^2) = 1), ((supervisor_turn_on_l1^2)
+               = 1), ((supervisor_turn_on_l2^2) = 1),
+               ((supervisor_turn_on_rl^2) = 1), ((supervisor_turn_on_l^2)
+               = 1), ((supervisor_turn_on_rac^2) = 1),
+               ((supervisor_turn_on_lac^2) = 1), ((supervisor_turn_on_tv^2)
+               = 1), ((supervisor_turn_on_wm^2) = 1), ((supervisor_do_open^2)
+               = 1), ((supervisor_c_lac^2) = 1), ((supervisor_c_rac^2) = 1),
+               ((supervisor_c_l^2) = 1), ((supervisor_c_l4^2) = 1),
+               ((supervisor_c_l3^2) = 1), ((supervisor_c_l2^2) = 1),
+               ((supervisor_c_l1^2) = 1), (supervisor_assume = 1)];
+
+% --- outputs : [supervisor_has_presence, supervisor_is_on_l1,
+                 supervisor_is_on_l2, supervisor_is_on_rl,
+                 supervisor_is_on_l, supervisor_is_tv_on,
+                 supervisor_is_working_wm, supervisor_is_w_opened,
+                 supervisor_working_state_rac, supervisor_working_state_lac] --- %
+supervisor : processus(conditions, states, evolutions, initialisations,
+                       [gen(constraints)], controllables);
+supervisor_init : initial(supervisor);
+supervisor : S_Security(supervisor,B_True(supervisor,supervisor_error_state));
+dcs_result : equal(supervisor_init,initial(supervisor));
+if dcs_result then
+    print("supervisor: synthesis succeeded.")
+else
+    print("supervisor: synthesis failed.");
+
+if dcs_result then
+    print("Triangulation and controller generation...")
+else
+    quit(1);
+declare(p_supervisor_c_lac, p_supervisor_c_rac, p_supervisor_c_l,
+        p_supervisor_c_l4, p_supervisor_c_l3, p_supervisor_c_l2,
+        p_supervisor_c_l1);
+phantom_vars : [p_supervisor_c_lac, p_supervisor_c_rac, p_supervisor_c_l,
+                p_supervisor_c_l4, p_supervisor_c_l3, p_supervisor_c_l2,
+                p_supervisor_c_l1];
+supervisor_triang : Triang(constraint(supervisor),controllables,phantom_vars);
+controller_inputs : [supervisor_presence, supervisor_turn_on_l1,
+                     supervisor_turn_on_l2, supervisor_turn_on_rl,
+                     supervisor_turn_on_l, supervisor_turn_on_rac,
+                     supervisor_turn_on_lac, supervisor_turn_on_tv,
+                     supervisor_turn_on_wm, supervisor_do_open,
+                     supervisor_ck_1, supervisor_pnr_9, supervisor_ck_11_1,
+                     supervisor_pnr_8, supervisor_ck_13_1, supervisor_pnr_7,
+                     supervisor_ck_15_1, supervisor_pnr_6,
+                     supervisor_ck_17_1, supervisor_pnr_5,
+                     supervisor_ck_19_1, supervisor_pnr_4,
+                     supervisor_ck_21_1, supervisor_pnr_3,
+                     supervisor_ck_23_1, supervisor_pnr_2, supervisor_v_121,
+                     supervisor_v_120, supervisor_pnr_1, supervisor_v_105,
+                     supervisor_v_104, supervisor_pnr, p_supervisor_c_lac,
+                     p_supervisor_c_rac, p_supervisor_c_l, p_supervisor_c_l4,
+                     p_supervisor_c_l3, p_supervisor_c_l2, p_supervisor_c_l1];
+heptagon_controller("supervisor_controller.ept","supervisor",controller_inputs,controllables,supervisor_triang);
+

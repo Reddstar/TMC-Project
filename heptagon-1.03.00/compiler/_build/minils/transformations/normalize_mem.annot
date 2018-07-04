@@ -1,0 +1,2407 @@
+"minils/transformations/normalize_mem.ml" 45 2489 2493 "minils/transformations/normalize_mem.ml" 45 2489 2510
+type(
+  bool ref
+)
+ident(
+  def normalize_outputs "minils/transformations/normalize_mem.ml" 51 2829 2829 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 45 2489 2513 "minils/transformations/normalize_mem.ml" 45 2489 2516
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"minils/transformations/normalize_mem.ml" 45 2489 2517 "minils/transformations/normalize_mem.ml" 45 2489 2521
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 45 2489 2513 "minils/transformations/normalize_mem.ml" 45 2489 2521
+type(
+  bool ref
+)
+"minils/transformations/normalize_mem.ml" 51 2829 2833 "minils/transformations/normalize_mem.ml" 51 2829 2842
+type(
+  Minils.node_dec -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  def build_env "minils/transformations/normalize_mem.ml" 73 3605 3605 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 51 2829 2843 "minils/transformations/normalize_mem.ml" 51 2829 2845
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/normalize_mem.ml" 52 2848 2850 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2854 "minils/transformations/normalize_mem.ml" 52 2848 2862
+type(
+  'a option Idents.Env.t -> Minils.var_dec list -> 'a option Idents.Env.t
+)
+ident(
+  def add_none "minils/transformations/normalize_mem.ml" 53 2939 2941 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2863 "minils/transformations/normalize_mem.ml" 52 2848 2866
+type(
+  'a option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 52 2848 2867 "minils/transformations/normalize_mem.ml" 52 2848 2935
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2867 "minils/transformations/normalize_mem.ml" 52 2848 2868
+type(
+  Minils.var_dec list
+)
+ident(
+  def l "minils/transformations/normalize_mem.ml" 52 2848 2871 "minils/transformations/normalize_mem.ml" 52 2848 2935
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2871 "minils/transformations/normalize_mem.ml" 52 2848 2885
+type(
+  ('a option Idents.Env.t -> Minils.var_dec -> 'a option Idents.Env.t) ->
+  'a option Idents.Env.t -> Minils.var_dec list -> 'a option Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2891 "minils/transformations/normalize_mem.ml" 52 2848 2894
+type(
+  'a option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 52 2848 2895 "minils/transformations/normalize_mem.ml" 52 2848 2928
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2895 "minils/transformations/normalize_mem.ml" 52 2848 2897
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/transformations/normalize_mem.ml" 52 2848 2901 "minils/transformations/normalize_mem.ml" 52 2848 2928
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2901 "minils/transformations/normalize_mem.ml" 52 2848 2908
+type(
+  Idents.Env.key ->
+  'a option -> 'a option Idents.Env.t -> 'a option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2909 "minils/transformations/normalize_mem.ml" 52 2848 2911
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 52 2848 2895 "minils/transformations/normalize_mem.ml" 52 2848 2897
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2909 "minils/transformations/normalize_mem.ml" 52 2848 2919
+type(
+  Idents.var_ident
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2920 "minils/transformations/normalize_mem.ml" 52 2848 2924
+type(
+  'a option
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2925 "minils/transformations/normalize_mem.ml" 52 2848 2928
+type(
+  'a option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 52 2848 2891 "minils/transformations/normalize_mem.ml" 52 2848 2894
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2901 "minils/transformations/normalize_mem.ml" 52 2848 2928
+call(
+  tail
+)
+type(
+  'a option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2886 "minils/transformations/normalize_mem.ml" 52 2848 2929
+type(
+  'a option Idents.Env.t -> Minils.var_dec -> 'a option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2930 "minils/transformations/normalize_mem.ml" 52 2848 2933
+type(
+  'a option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 52 2848 2863 "minils/transformations/normalize_mem.ml" 52 2848 2866
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2934 "minils/transformations/normalize_mem.ml" 52 2848 2935
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref l "minils/transformations/normalize_mem.ml" 52 2848 2867 "minils/transformations/normalize_mem.ml" 52 2848 2868
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2871 "minils/transformations/normalize_mem.ml" 52 2848 2935
+call(
+  tail
+)
+type(
+  'a option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2949 "minils/transformations/normalize_mem.ml" 53 2939 2955
+type(
+  Idents.var_ident option Idents.Env.t ->
+  Minils.eq -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  def add_eq "minils/transformations/normalize_mem.ml" 53 2939 2941 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2956 "minils/transformations/normalize_mem.ml" 53 2939 2959
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 57 3148 3226
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 53 2939 2962
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/normalize_mem.ml" 53 2939 2965 "minils/transformations/normalize_mem.ml" 57 3148 3226
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2971 "minils/transformations/normalize_mem.ml" 53 2939 2973
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 53 2939 2962
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2971 "minils/transformations/normalize_mem.ml" 53 2939 2980
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2982 "minils/transformations/normalize_mem.ml" 53 2939 2984
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 53 2939 2962
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2982 "minils/transformations/normalize_mem.ml" 53 2939 2991
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2982 "minils/transformations/normalize_mem.ml" 53 2939 2998
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2971 "minils/transformations/normalize_mem.ml" 53 2939 2998
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3010 "minils/transformations/normalize_mem.ml" 54 3004 3011
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3020 "minils/transformations/normalize_mem.ml" 54 3004 3021
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/normalize_mem.ml" 54 3004 3032 "minils/transformations/normalize_mem.ml" 54 3004 3065
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3023 "minils/transformations/normalize_mem.ml" 54 3004 3024
+type(
+  Names.constructor_name
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3026 "minils/transformations/normalize_mem.ml" 54 3004 3027
+type(
+  Idents.var_ident
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3013 "minils/transformations/normalize_mem.ml" 54 3004 3028
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3010 "minils/transformations/normalize_mem.ml" 54 3004 3028
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3032 "minils/transformations/normalize_mem.ml" 54 3004 3038
+type(
+  Idents.var_ident option Idents.Env.t ->
+  Minils.eq -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref add_eq "minils/transformations/normalize_mem.ml" 53 2939 2949 "minils/transformations/normalize_mem.ml" 53 2939 2955
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3039 "minils/transformations/normalize_mem.ml" 54 3004 3042
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 53 2939 2956 "minils/transformations/normalize_mem.ml" 53 2939 2959
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3045 "minils/transformations/normalize_mem.ml" 54 3004 3047
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 53 2939 2962
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3062 "minils/transformations/normalize_mem.ml" 54 3004 3063
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 54 3004 3020 "minils/transformations/normalize_mem.ml" 54 3004 3021
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3043 "minils/transformations/normalize_mem.ml" 54 3004 3065
+type(
+  Minils.eq
+)
+"minils/transformations/normalize_mem.ml" 54 3004 3032 "minils/transformations/normalize_mem.ml" 54 3004 3065
+call(
+  tail
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3080 "minils/transformations/normalize_mem.ml" 55 3066 3081
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/normalize_mem.ml" 55 3066 3098 "minils/transformations/normalize_mem.ml" 55 3066 3133
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3072 "minils/transformations/normalize_mem.ml" 55 3066 3081
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3089 "minils/transformations/normalize_mem.ml" 55 3066 3090
+type(
+  Types.static_exp option
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3092 "minils/transformations/normalize_mem.ml" 55 3066 3093
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/normalize_mem.ml" 55 3066 3098 "minils/transformations/normalize_mem.ml" 55 3066 3133
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3083 "minils/transformations/normalize_mem.ml" 55 3066 3094
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3072 "minils/transformations/normalize_mem.ml" 55 3066 3094
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3098 "minils/transformations/normalize_mem.ml" 55 3066 3105
+type(
+  Idents.Env.key ->
+  Idents.var_ident option ->
+  Idents.var_ident option Idents.Env.t ->
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3106 "minils/transformations/normalize_mem.ml" 55 3066 3107
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 55 3066 3080 "minils/transformations/normalize_mem.ml" 55 3066 3081
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3109 "minils/transformations/normalize_mem.ml" 55 3066 3126
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  ext_ref Mls_utils.ident_of_extvalue
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3127 "minils/transformations/normalize_mem.ml" 55 3066 3128
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/normalize_mem.ml" 55 3066 3092 "minils/transformations/normalize_mem.ml" 55 3066 3093
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3108 "minils/transformations/normalize_mem.ml" 55 3066 3129
+call(
+  stack
+)
+type(
+  Idents.var_ident option
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3130 "minils/transformations/normalize_mem.ml" 55 3066 3133
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 53 2939 2956 "minils/transformations/normalize_mem.ml" 53 2939 2959
+)
+"minils/transformations/normalize_mem.ml" 55 3066 3098 "minils/transformations/normalize_mem.ml" 55 3066 3133
+call(
+  tail
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 56 3134 3140 "minils/transformations/normalize_mem.ml" 56 3134 3141
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 56 3134 3143 "minils/transformations/normalize_mem.ml" 56 3134 3144
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 56 3134 3140 "minils/transformations/normalize_mem.ml" 56 3134 3144
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3155 "minils/transformations/normalize_mem.ml" 57 3148 3169
+type(
+  (Idents.var_ident option Idents.Env.t ->
+   Idents.Env.key -> Idents.var_ident option Idents.Env.t) ->
+  Idents.var_ident option Idents.Env.t ->
+  Idents.Env.key list -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3175 "minils/transformations/normalize_mem.ml" 57 3148 3178
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 57 3148 3179 "minils/transformations/normalize_mem.ml" 57 3148 3204
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3179 "minils/transformations/normalize_mem.ml" 57 3148 3181
+type(
+  Idents.Env.key
+)
+ident(
+  def id "minils/transformations/normalize_mem.ml" 57 3148 3185 "minils/transformations/normalize_mem.ml" 57 3148 3204
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3185 "minils/transformations/normalize_mem.ml" 57 3148 3192
+type(
+  Idents.Env.key ->
+  Idents.var_ident option ->
+  Idents.var_ident option Idents.Env.t ->
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3193 "minils/transformations/normalize_mem.ml" 57 3148 3195
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref id "minils/transformations/normalize_mem.ml" 57 3148 3179 "minils/transformations/normalize_mem.ml" 57 3148 3181
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3196 "minils/transformations/normalize_mem.ml" 57 3148 3200
+type(
+  Idents.var_ident option
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3201 "minils/transformations/normalize_mem.ml" 57 3148 3204
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 57 3148 3175 "minils/transformations/normalize_mem.ml" 57 3148 3178
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3185 "minils/transformations/normalize_mem.ml" 57 3148 3204
+call(
+  tail
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3170 "minils/transformations/normalize_mem.ml" 57 3148 3205
+type(
+  Idents.var_ident option Idents.Env.t ->
+  Idents.Env.key -> Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3206 "minils/transformations/normalize_mem.ml" 57 3148 3209
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 53 2939 2956 "minils/transformations/normalize_mem.ml" 53 2939 2959
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3211 "minils/transformations/normalize_mem.ml" 57 3148 3219
+type(
+  Idents.Env.key list -> Minils.eq -> Idents.Env.key list
+)
+ident(
+  ext_ref Mls_utils.Vars.def
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3220 "minils/transformations/normalize_mem.ml" 57 3148 3222
+type(
+  Idents.Env.key list
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3223 "minils/transformations/normalize_mem.ml" 57 3148 3225
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 53 2939 2960 "minils/transformations/normalize_mem.ml" 53 2939 2962
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3210 "minils/transformations/normalize_mem.ml" 57 3148 3226
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"minils/transformations/normalize_mem.ml" 57 3148 3155 "minils/transformations/normalize_mem.ml" 57 3148 3226
+call(
+  tail
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2965 "minils/transformations/normalize_mem.ml" 57 3148 3226
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3238 "minils/transformations/normalize_mem.ml" 59 3232 3241
+type(
+  'b option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 60 3277 3279 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3244 "minils/transformations/normalize_mem.ml" 59 3232 3252
+type(
+  'b option Idents.Env.t -> Minils.var_dec list -> 'b option Idents.Env.t
+)
+ident(
+  int_ref add_none "minils/transformations/normalize_mem.ml" 52 2848 2854 "minils/transformations/normalize_mem.ml" 52 2848 2862
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3253 "minils/transformations/normalize_mem.ml" 59 3232 3262
+type(
+  'b option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3263 "minils/transformations/normalize_mem.ml" 59 3232 3265
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 51 2829 2843 "minils/transformations/normalize_mem.ml" 51 2829 2845
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3263 "minils/transformations/normalize_mem.ml" 59 3232 3273
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3244 "minils/transformations/normalize_mem.ml" 59 3232 3273
+call(
+  stack
+)
+type(
+  'b option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 60 3277 3283 "minils/transformations/normalize_mem.ml" 60 3277 3286
+type(
+  'c option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 64 3386 3388 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 61 3289 3299 "minils/transformations/normalize_mem.ml" 61 3289 3301
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 51 2829 2843 "minils/transformations/normalize_mem.ml" 51 2829 2845
+)
+"minils/transformations/normalize_mem.ml" 61 3289 3299 "minils/transformations/normalize_mem.ml" 61 3289 3312
+type(
+  Minils.contract option
+)
+"minils/transformations/normalize_mem.ml" 62 3318 3324 "minils/transformations/normalize_mem.ml" 62 3318 3328
+type(
+  Minils.contract option
+)
+"minils/transformations/normalize_mem.ml" 62 3318 3332 "minils/transformations/normalize_mem.ml" 62 3318 3335
+type(
+  'c option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 59 3232 3238 "minils/transformations/normalize_mem.ml" 59 3232 3241
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3347 "minils/transformations/normalize_mem.ml" 63 3336 3348
+type(
+  Minils.contract
+)
+ident(
+  def c "minils/transformations/normalize_mem.ml" 63 3336 3352 "minils/transformations/normalize_mem.ml" 63 3336 3382
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3342 "minils/transformations/normalize_mem.ml" 63 3336 3348
+type(
+  Minils.contract option
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3352 "minils/transformations/normalize_mem.ml" 63 3336 3360
+type(
+  'c option Idents.Env.t -> Minils.var_dec list -> 'c option Idents.Env.t
+)
+ident(
+  int_ref add_none "minils/transformations/normalize_mem.ml" 52 2848 2854 "minils/transformations/normalize_mem.ml" 52 2848 2862
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3361 "minils/transformations/normalize_mem.ml" 63 3336 3364
+type(
+  'c option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 59 3232 3238 "minils/transformations/normalize_mem.ml" 59 3232 3241
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3365 "minils/transformations/normalize_mem.ml" 63 3336 3366
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/normalize_mem.ml" 63 3336 3347 "minils/transformations/normalize_mem.ml" 63 3336 3348
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3365 "minils/transformations/normalize_mem.ml" 63 3336 3382
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 63 3336 3352 "minils/transformations/normalize_mem.ml" 63 3336 3382
+call(
+  stack
+)
+type(
+  'c option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 61 3289 3293 "minils/transformations/normalize_mem.ml" 63 3336 3382
+type(
+  'c option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3392 "minils/transformations/normalize_mem.ml" 64 3386 3395
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 65 3437 3439 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3398 "minils/transformations/normalize_mem.ml" 64 3386 3412
+type(
+  (Idents.var_ident option Idents.Env.t ->
+   Minils.eq -> Idents.var_ident option Idents.Env.t) ->
+  Idents.var_ident option Idents.Env.t ->
+  Minils.eq list -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3413 "minils/transformations/normalize_mem.ml" 64 3386 3419
+type(
+  Idents.var_ident option Idents.Env.t ->
+  Minils.eq -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref add_eq "minils/transformations/normalize_mem.ml" 53 2939 2949 "minils/transformations/normalize_mem.ml" 53 2939 2955
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3420 "minils/transformations/normalize_mem.ml" 64 3386 3423
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 60 3277 3283 "minils/transformations/normalize_mem.ml" 60 3277 3286
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3424 "minils/transformations/normalize_mem.ml" 64 3386 3426
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 51 2829 2843 "minils/transformations/normalize_mem.ml" 51 2829 2845
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3424 "minils/transformations/normalize_mem.ml" 64 3386 3433
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3398 "minils/transformations/normalize_mem.ml" 64 3386 3433
+call(
+  stack
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 65 3437 3443 "minils/transformations/normalize_mem.ml" 65 3437 3446
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 71 3598 3600 "minils/transformations/normalize_mem.ml" 71 3598 3603
+)
+"minils/transformations/normalize_mem.ml" 66 3449 3456 "minils/transformations/normalize_mem.ml" 66 3449 3457
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"minils/transformations/normalize_mem.ml" 66 3449 3457 "minils/transformations/normalize_mem.ml" 66 3449 3474
+type(
+  bool ref
+)
+ident(
+  int_ref normalize_outputs "minils/transformations/normalize_mem.ml" 45 2489 2493 "minils/transformations/normalize_mem.ml" 45 2489 2510
+)
+"minils/transformations/normalize_mem.ml" 66 3449 3456 "minils/transformations/normalize_mem.ml" 66 3449 3474
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3486 "minils/transformations/normalize_mem.ml" 67 3480 3500
+type(
+  (Idents.var_ident option Idents.Env.t ->
+   Minils.var_dec -> Idents.var_ident option Idents.Env.t) ->
+  Idents.var_ident option Idents.Env.t ->
+  Minils.var_dec list -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3506 "minils/transformations/normalize_mem.ml" 67 3480 3509
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 67 3480 3510 "minils/transformations/normalize_mem.ml" 67 3480 3556
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3510 "minils/transformations/normalize_mem.ml" 67 3480 3512
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/transformations/normalize_mem.ml" 67 3480 3516 "minils/transformations/normalize_mem.ml" 67 3480 3556
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3516 "minils/transformations/normalize_mem.ml" 67 3480 3523
+type(
+  Idents.Env.key ->
+  Idents.var_ident option ->
+  Idents.var_ident option Idents.Env.t ->
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3524 "minils/transformations/normalize_mem.ml" 67 3480 3526
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 67 3480 3510 "minils/transformations/normalize_mem.ml" 67 3480 3512
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3524 "minils/transformations/normalize_mem.ml" 67 3480 3534
+type(
+  Idents.var_ident
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3541 "minils/transformations/normalize_mem.ml" 67 3480 3543
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 67 3480 3510 "minils/transformations/normalize_mem.ml" 67 3480 3512
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3541 "minils/transformations/normalize_mem.ml" 67 3480 3551
+type(
+  Idents.var_ident
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3535 "minils/transformations/normalize_mem.ml" 67 3480 3552
+type(
+  Idents.var_ident option
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3553 "minils/transformations/normalize_mem.ml" 67 3480 3556
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 67 3480 3506 "minils/transformations/normalize_mem.ml" 67 3480 3509
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3516 "minils/transformations/normalize_mem.ml" 67 3480 3556
+call(
+  tail
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3501 "minils/transformations/normalize_mem.ml" 67 3480 3557
+type(
+  Idents.var_ident option Idents.Env.t ->
+  Minils.var_dec -> Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3558 "minils/transformations/normalize_mem.ml" 67 3480 3561
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 64 3386 3392 "minils/transformations/normalize_mem.ml" 64 3386 3395
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3562 "minils/transformations/normalize_mem.ml" 67 3480 3564
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 51 2829 2843 "minils/transformations/normalize_mem.ml" 51 2829 2845
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3562 "minils/transformations/normalize_mem.ml" 67 3480 3573
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 67 3480 3486 "minils/transformations/normalize_mem.ml" 67 3480 3573
+call(
+  stack
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 69 3583 3589 "minils/transformations/normalize_mem.ml" 69 3583 3592
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 64 3386 3392 "minils/transformations/normalize_mem.ml" 64 3386 3395
+)
+"minils/transformations/normalize_mem.ml" 66 3449 3453 "minils/transformations/normalize_mem.ml" 69 3583 3592
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 71 3598 3600 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 65 3437 3443 "minils/transformations/normalize_mem.ml" 65 3437 3446
+)
+"minils/transformations/normalize_mem.ml" 65 3437 3439 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 64 3386 3388 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 60 3277 3279 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 59 3232 3234 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 53 2939 2941 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 52 2848 2850 "minils/transformations/normalize_mem.ml" 71 3598 3603
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3613 "minils/transformations/normalize_mem.ml" 73 3605 3624
+type(
+  Minils.exp -> Minils.exp -> Minils.exp
+)
+ident(
+  def replace_fby "minils/transformations/normalize_mem.ml" 73 3605 3605 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3625 "minils/transformations/normalize_mem.ml" 73 3605 3626
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/normalize_mem.ml" 73 3605 3627 "minils/transformations/normalize_mem.ml" 76 3771 3792
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3627 "minils/transformations/normalize_mem.ml" 73 3605 3636
+type(
+  Minils.exp
+)
+ident(
+  def exp_mem_x "minils/transformations/normalize_mem.ml" 73 3605 3639 "minils/transformations/normalize_mem.ml" 76 3771 3792
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3645 "minils/transformations/normalize_mem.ml" 73 3605 3646
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 73 3605 3625 "minils/transformations/normalize_mem.ml" 73 3605 3626
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3645 "minils/transformations/normalize_mem.ml" 73 3605 3653
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3670 "minils/transformations/normalize_mem.ml" 74 3659 3672
+type(
+  Minils.exp
+)
+ident(
+  def e1 "minils/transformations/normalize_mem.ml" 74 3659 3683 "minils/transformations/normalize_mem.ml" 74 3659 3741
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3674 "minils/transformations/normalize_mem.ml" 74 3659 3675
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/transformations/normalize_mem.ml" 74 3659 3683 "minils/transformations/normalize_mem.ml" 74 3659 3741
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3677 "minils/transformations/normalize_mem.ml" 74 3659 3678
+type(
+  Idents.var_ident
+)
+ident(
+  def y "minils/transformations/normalize_mem.ml" 74 3659 3683 "minils/transformations/normalize_mem.ml" 74 3659 3741
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3663 "minils/transformations/normalize_mem.ml" 74 3659 3679
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3685 "minils/transformations/normalize_mem.ml" 74 3659 3686
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 73 3605 3625 "minils/transformations/normalize_mem.ml" 73 3605 3626
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3708 "minils/transformations/normalize_mem.ml" 74 3659 3719
+type(
+  Minils.exp -> Minils.exp -> Minils.exp
+)
+ident(
+  int_ref replace_fby "minils/transformations/normalize_mem.ml" 73 3605 3613 "minils/transformations/normalize_mem.ml" 73 3605 3624
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3720 "minils/transformations/normalize_mem.ml" 74 3659 3722
+type(
+  Minils.exp
+)
+ident(
+  int_ref e1 "minils/transformations/normalize_mem.ml" 74 3659 3670 "minils/transformations/normalize_mem.ml" 74 3659 3672
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3723 "minils/transformations/normalize_mem.ml" 74 3659 3732
+type(
+  Minils.exp
+)
+ident(
+  int_ref exp_mem_x "minils/transformations/normalize_mem.ml" 73 3605 3627 "minils/transformations/normalize_mem.ml" 73 3605 3636
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3708 "minils/transformations/normalize_mem.ml" 74 3659 3732
+call(
+  stack
+)
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3734 "minils/transformations/normalize_mem.ml" 74 3659 3735
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/transformations/normalize_mem.ml" 74 3659 3674 "minils/transformations/normalize_mem.ml" 74 3659 3675
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3737 "minils/transformations/normalize_mem.ml" 74 3659 3738
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref y "minils/transformations/normalize_mem.ml" 74 3659 3677 "minils/transformations/normalize_mem.ml" 74 3659 3678
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3701 "minils/transformations/normalize_mem.ml" 74 3659 3739
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 74 3659 3683 "minils/transformations/normalize_mem.ml" 74 3659 3741
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 75 3742 3752 "minils/transformations/normalize_mem.ml" 75 3742 3753
+type(
+  Types.static_exp option
+)
+"minils/transformations/normalize_mem.ml" 75 3742 3755 "minils/transformations/normalize_mem.ml" 75 3742 3756
+type(
+  Minils.extvalue
+)
+"minils/transformations/normalize_mem.ml" 75 3742 3746 "minils/transformations/normalize_mem.ml" 75 3742 3757
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 75 3742 3761 "minils/transformations/normalize_mem.ml" 75 3742 3770
+type(
+  Minils.exp
+)
+ident(
+  int_ref exp_mem_x "minils/transformations/normalize_mem.ml" 73 3605 3627 "minils/transformations/normalize_mem.ml" 73 3605 3636
+)
+"minils/transformations/normalize_mem.ml" 76 3771 3775 "minils/transformations/normalize_mem.ml" 76 3771 3776
+type(
+  Minils.edesc
+)
+"minils/transformations/normalize_mem.ml" 76 3771 3787 "minils/transformations/normalize_mem.ml" 76 3771 3792
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 76 3771 3780 "minils/transformations/normalize_mem.ml" 76 3771 3792
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 73 3605 3639 "minils/transformations/normalize_mem.ml" 76 3771 3792
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 78 3794 3802 "minils/transformations/normalize_mem.ml" 78 3794 3812
+type(
+  Idents.ident ->
+  Idents.Env.key -> Idents.Env.key option Idents.Env.t -> bool
+)
+ident(
+  def depends_on "minils/transformations/normalize_mem.ml" 78 3794 3794 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 78 3794 3813 "minils/transformations/normalize_mem.ml" 78 3794 3814
+type(
+  Idents.ident
+)
+ident(
+  def x "minils/transformations/normalize_mem.ml" 78 3794 3815 "minils/transformations/normalize_mem.ml" 84 3975 4004
+)
+"minils/transformations/normalize_mem.ml" 78 3794 3815 "minils/transformations/normalize_mem.ml" 78 3794 3816
+type(
+  Idents.Env.key
+)
+ident(
+  def y "minils/transformations/normalize_mem.ml" 78 3794 3817 "minils/transformations/normalize_mem.ml" 84 3975 4004
+)
+"minils/transformations/normalize_mem.ml" 78 3794 3817 "minils/transformations/normalize_mem.ml" 78 3794 3820
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 79 3823 3825 "minils/transformations/normalize_mem.ml" 84 3975 4004
+)
+"minils/transformations/normalize_mem.ml" 79 3823 3831 "minils/transformations/normalize_mem.ml" 79 3823 3839
+type(
+  Idents.Env.key ->
+  Idents.Env.key option Idents.Env.t -> Idents.Env.key option
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/normalize_mem.ml" 79 3823 3840 "minils/transformations/normalize_mem.ml" 79 3823 3841
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref y "minils/transformations/normalize_mem.ml" 78 3794 3815 "minils/transformations/normalize_mem.ml" 78 3794 3816
+)
+"minils/transformations/normalize_mem.ml" 79 3823 3842 "minils/transformations/normalize_mem.ml" 79 3823 3845
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 78 3794 3817 "minils/transformations/normalize_mem.ml" 78 3794 3820
+)
+"minils/transformations/normalize_mem.ml" 79 3823 3831 "minils/transformations/normalize_mem.ml" 79 3823 3845
+call(
+  stack
+)
+type(
+  Idents.Env.key option
+)
+"minils/transformations/normalize_mem.ml" 80 3851 3857 "minils/transformations/normalize_mem.ml" 80 3851 3861
+type(
+  Idents.Env.key option
+)
+"minils/transformations/normalize_mem.ml" 80 3851 3865 "minils/transformations/normalize_mem.ml" 80 3851 3870
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 81 3871 3882 "minils/transformations/normalize_mem.ml" 81 3871 3883
+type(
+  Idents.Env.key
+)
+ident(
+  def z "minils/transformations/normalize_mem.ml" 82 3887 3893 "minils/transformations/normalize_mem.ml" 84 3975 4004
+)
+"minils/transformations/normalize_mem.ml" 81 3871 3877 "minils/transformations/normalize_mem.ml" 81 3871 3883
+type(
+  Idents.Env.key option
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3896 "minils/transformations/normalize_mem.ml" 82 3887 3909
+type(
+  Idents.ident -> Idents.Env.key -> int
+)
+ident(
+  ext_ref Idents.ident_compare
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3910 "minils/transformations/normalize_mem.ml" 82 3887 3911
+type(
+  Idents.ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 78 3794 3813 "minils/transformations/normalize_mem.ml" 78 3794 3814
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3912 "minils/transformations/normalize_mem.ml" 82 3887 3913
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref z "minils/transformations/normalize_mem.ml" 81 3871 3882 "minils/transformations/normalize_mem.ml" 81 3871 3883
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3896 "minils/transformations/normalize_mem.ml" 82 3887 3913
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3914 "minils/transformations/normalize_mem.ml" 82 3887 3915
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3916 "minils/transformations/normalize_mem.ml" 82 3887 3917
+type(
+  int
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3896 "minils/transformations/normalize_mem.ml" 82 3887 3917
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3923 "minils/transformations/normalize_mem.ml" 82 3887 3927
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3942 "minils/transformations/normalize_mem.ml" 83 3928 3955
+type(
+  Idents.Env.key -> Idents.Env.key -> int
+)
+ident(
+  ext_ref Idents.ident_compare
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3956 "minils/transformations/normalize_mem.ml" 83 3928 3957
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref y "minils/transformations/normalize_mem.ml" 78 3794 3815 "minils/transformations/normalize_mem.ml" 78 3794 3816
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3958 "minils/transformations/normalize_mem.ml" 83 3928 3959
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref z "minils/transformations/normalize_mem.ml" 81 3871 3882 "minils/transformations/normalize_mem.ml" 81 3871 3883
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3942 "minils/transformations/normalize_mem.ml" 83 3928 3959
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3960 "minils/transformations/normalize_mem.ml" 83 3928 3961
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3962 "minils/transformations/normalize_mem.ml" 83 3928 3963
+type(
+  int
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3942 "minils/transformations/normalize_mem.ml" 83 3928 3963
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3969 "minils/transformations/normalize_mem.ml" 83 3928 3974
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 84 3975 3986 "minils/transformations/normalize_mem.ml" 84 3975 3996
+type(
+  Idents.ident ->
+  Idents.Env.key -> Idents.Env.key option Idents.Env.t -> bool
+)
+ident(
+  int_ref depends_on "minils/transformations/normalize_mem.ml" 78 3794 3802 "minils/transformations/normalize_mem.ml" 78 3794 3812
+)
+"minils/transformations/normalize_mem.ml" 84 3975 3997 "minils/transformations/normalize_mem.ml" 84 3975 3998
+type(
+  Idents.ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 78 3794 3813 "minils/transformations/normalize_mem.ml" 78 3794 3814
+)
+"minils/transformations/normalize_mem.ml" 84 3975 3999 "minils/transformations/normalize_mem.ml" 84 3975 4000
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref z "minils/transformations/normalize_mem.ml" 81 3871 3882 "minils/transformations/normalize_mem.ml" 81 3871 3883
+)
+"minils/transformations/normalize_mem.ml" 84 3975 4001 "minils/transformations/normalize_mem.ml" 84 3975 4004
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 78 3794 3817 "minils/transformations/normalize_mem.ml" 78 3794 3820
+)
+"minils/transformations/normalize_mem.ml" 84 3975 3986 "minils/transformations/normalize_mem.ml" 84 3975 4004
+call(
+  tail
+)
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 83 3928 3939 "minils/transformations/normalize_mem.ml" 84 3975 4004
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 82 3887 3893 "minils/transformations/normalize_mem.ml" 84 3975 4004
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 79 3823 3825 "minils/transformations/normalize_mem.ml" 84 3975 4004
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4010 "minils/transformations/normalize_mem.ml" 86 4006 4012
+type(
+  'a ->
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.eq ->
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  def eq "minils/transformations/normalize_mem.ml" 105 4900 4900 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4013 "minils/transformations/normalize_mem.ml" 86 4006 4018
+type(
+  'a
+)
+ident(
+  def _funs "minils/transformations/normalize_mem.ml" 86 4006 4019 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4020 "minils/transformations/normalize_mem.ml" 86 4006 4023
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4025 "minils/transformations/normalize_mem.ml" 86 4006 4028
+type(
+  Minils.var_dec list
+)
+ident(
+  def vds "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4030 "minils/transformations/normalize_mem.ml" 86 4006 4031
+type(
+  Minils.var_dec list
+)
+ident(
+  def v "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4033 "minils/transformations/normalize_mem.ml" 86 4006 4036
+type(
+  Minils.eq list
+)
+ident(
+  def eqs "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4019 "minils/transformations/normalize_mem.ml" 86 4006 4037
+type(
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/normalize_mem.ml" 86 4006 4043 "minils/transformations/normalize_mem.ml" 102 4809 4841
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4049 "minils/transformations/normalize_mem.ml" 86 4006 4051
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4049 "minils/transformations/normalize_mem.ml" 86 4006 4058
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4060 "minils/transformations/normalize_mem.ml" 86 4006 4062
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4060 "minils/transformations/normalize_mem.ml" 86 4006 4069
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4049 "minils/transformations/normalize_mem.ml" 86 4006 4069
+type(
+  Minils.pat * Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/normalize_mem.ml" 87 4075 4097 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4079 "minils/transformations/normalize_mem.ml" 87 4075 4088
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4090 "minils/transformations/normalize_mem.ml" 87 4075 4091
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/normalize_mem.ml" 87 4075 4097 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4079 "minils/transformations/normalize_mem.ml" 87 4075 4091
+type(
+  Minils.pat * Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4097 "minils/transformations/normalize_mem.ml" 87 4075 4108
+type(
+  Minils.exp -> bool
+)
+ident(
+  ext_ref Mls_utils.Vars.is_fby
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4109 "minils/transformations/normalize_mem.ml" 87 4075 4110
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 87 4075 4090 "minils/transformations/normalize_mem.ml" 87 4075 4091
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4097 "minils/transformations/normalize_mem.ml" 87 4075 4110
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4111 "minils/transformations/normalize_mem.ml" 87 4075 4113
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4114 "minils/transformations/normalize_mem.ml" 87 4075 4124
+type(
+  Idents.var_ident ->
+  Idents.Env.key -> Idents.Env.key option Idents.Env.t -> bool
+)
+ident(
+  int_ref depends_on "minils/transformations/normalize_mem.ml" 78 3794 3802 "minils/transformations/normalize_mem.ml" 78 3794 3812
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4125 "minils/transformations/normalize_mem.ml" 87 4075 4126
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4127 "minils/transformations/normalize_mem.ml" 87 4075 4128
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4129 "minils/transformations/normalize_mem.ml" 87 4075 4132
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 86 4006 4020 "minils/transformations/normalize_mem.ml" 86 4006 4023
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4114 "minils/transformations/normalize_mem.ml" 87 4075 4132
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 87 4075 4097 "minils/transformations/normalize_mem.ml" 87 4075 4132
+type(
+  bool
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4148 "minils/transformations/normalize_mem.ml" 88 4136 4150
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/transformations/normalize_mem.ml" 89 4170 4178 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4153 "minils/transformations/normalize_mem.ml" 88 4136 4160
+type(
+  Idents.var_ident -> Minils.var_dec list -> Minils.var_dec
+)
+ident(
+  ext_ref Mls_utils.vd_find
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4161 "minils/transformations/normalize_mem.ml" 88 4136 4162
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4163 "minils/transformations/normalize_mem.ml" 88 4136 4166
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref vds "minils/transformations/normalize_mem.ml" 86 4006 4025 "minils/transformations/normalize_mem.ml" 86 4006 4028
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4153 "minils/transformations/normalize_mem.ml" 88 4136 4166
+call(
+  stack
+)
+type(
+  Minils.var_dec
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4182 "minils/transformations/normalize_mem.ml" 89 4170 4187
+type(
+  Idents.ident
+)
+ident(
+  def x_mem "minils/transformations/normalize_mem.ml" 90 4249 4257 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4190 "minils/transformations/normalize_mem.ml" 89 4170 4204
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4205 "minils/transformations/normalize_mem.ml" 89 4170 4220
+type(
+  string
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4222 "minils/transformations/normalize_mem.ml" 89 4170 4228
+type(
+  string
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4228 "minils/transformations/normalize_mem.ml" 89 4170 4229
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4230 "minils/transformations/normalize_mem.ml" 89 4170 4241
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4242 "minils/transformations/normalize_mem.ml" 89 4170 4243
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4229 "minils/transformations/normalize_mem.ml" 89 4170 4244
+call(
+  stack
+)
+type(
+  string
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4221 "minils/transformations/normalize_mem.ml" 89 4170 4245
+call(
+  stack
+)
+type(
+  string
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4190 "minils/transformations/normalize_mem.ml" 89 4170 4245
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"minils/transformations/normalize_mem.ml" 90 4249 4261 "minils/transformations/normalize_mem.ml" 90 4249 4267
+type(
+  Minils.var_dec
+)
+ident(
+  def vd_mem "minils/transformations/normalize_mem.ml" 91 4301 4309 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 90 4249 4272 "minils/transformations/normalize_mem.ml" 90 4249 4274
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 88 4136 4148 "minils/transformations/normalize_mem.ml" 88 4136 4150
+)
+"minils/transformations/normalize_mem.ml" 90 4249 4290 "minils/transformations/normalize_mem.ml" 90 4249 4295
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x_mem "minils/transformations/normalize_mem.ml" 89 4170 4182 "minils/transformations/normalize_mem.ml" 89 4170 4187
+)
+"minils/transformations/normalize_mem.ml" 90 4249 4270 "minils/transformations/normalize_mem.ml" 90 4249 4297
+type(
+  Minils.var_dec
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4313 "minils/transformations/normalize_mem.ml" 91 4301 4315
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/normalize_mem.ml" 92 4358 4366 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4318 "minils/transformations/normalize_mem.ml" 91 4301 4331
+type(
+  Clocks.ck list -> Clocks.ck
+)
+ident(
+  ext_ref Misc.assert_1
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4333 "minils/transformations/normalize_mem.ml" 91 4301 4346
+type(
+  Clocks.ct -> Clocks.ck list
+)
+ident(
+  ext_ref Clocks.unprod
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4347 "minils/transformations/normalize_mem.ml" 91 4301 4348
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 87 4075 4090 "minils/transformations/normalize_mem.ml" 87 4075 4091
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4347 "minils/transformations/normalize_mem.ml" 91 4301 4353
+type(
+  Clocks.ct
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4332 "minils/transformations/normalize_mem.ml" 91 4301 4354
+call(
+  stack
+)
+type(
+  Clocks.ck list
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4318 "minils/transformations/normalize_mem.ml" 91 4301 4354
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4370 "minils/transformations/normalize_mem.ml" 92 4358 4379
+type(
+  Minils.exp
+)
+ident(
+  def exp_mem_x "minils/transformations/normalize_mem.ml" 95 4513 4521 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4382 "minils/transformations/normalize_mem.ml" 92 4358 4397
+type(
+  ?clock:Clocks.ck ->
+  ?loc:Location.location ->
+  Clocks.ck ->
+  Types.ty ->
+  linearity:Linearity.linearity -> Minils.extvalue_desc -> Minils.exp
+)
+ident(
+  ext_ref Minils.mk_extvalue_exp
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4398 "minils/transformations/normalize_mem.ml" 92 4358 4399
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 87 4075 4090 "minils/transformations/normalize_mem.ml" 87 4075 4091
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4398 "minils/transformations/normalize_mem.ml" 92 4358 4410
+type(
+  Clocks.ck
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4411 "minils/transformations/normalize_mem.ml" 92 4358 4413
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 88 4136 4148 "minils/transformations/normalize_mem.ml" 88 4136 4150
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4411 "minils/transformations/normalize_mem.ml" 92 4358 4420
+type(
+  Types.ty
+)
+"minils/transformations/normalize_mem.ml" 93 4421 4438 "minils/transformations/normalize_mem.ml" 93 4421 4440
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/normalize_mem.ml" 91 4301 4313 "minils/transformations/normalize_mem.ml" 91 4301 4315
+)
+"minils/transformations/normalize_mem.ml" 93 4421 4452 "minils/transformations/normalize_mem.ml" 93 4421 4454
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/normalize_mem.ml" 88 4136 4148 "minils/transformations/normalize_mem.ml" 88 4136 4150
+)
+"minils/transformations/normalize_mem.ml" 93 4421 4452 "minils/transformations/normalize_mem.ml" 93 4421 4466
+type(
+  Linearity.linearity
+)
+"minils/transformations/normalize_mem.ml" 93 4421 4473 "minils/transformations/normalize_mem.ml" 93 4421 4478
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x_mem "minils/transformations/normalize_mem.ml" 89 4170 4182 "minils/transformations/normalize_mem.ml" 89 4170 4187
+)
+"minils/transformations/normalize_mem.ml" 93 4421 4467 "minils/transformations/normalize_mem.ml" 93 4421 4479
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4382 "minils/transformations/normalize_mem.ml" 93 4421 4479
+call(
+  stack
+)
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4525 "minils/transformations/normalize_mem.ml" 95 4513 4532
+type(
+  Minils.eq
+)
+ident(
+  def eq_copy "minils/transformations/normalize_mem.ml" 97 4597 4605 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4537 "minils/transformations/normalize_mem.ml" 95 4513 4539
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4562 "minils/transformations/normalize_mem.ml" 95 4513 4567
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x_mem "minils/transformations/normalize_mem.ml" 89 4170 4182 "minils/transformations/normalize_mem.ml" 89 4170 4187
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4554 "minils/transformations/normalize_mem.ml" 95 4513 4567
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4535 "minils/transformations/normalize_mem.ml" 95 4513 4569
+type(
+  Minils.eq
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4609 "minils/transformations/normalize_mem.ml" 97 4597 4611
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/normalize_mem.ml" 99 4705 4713 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4616 "minils/transformations/normalize_mem.ml" 97 4597 4618
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4633 "minils/transformations/normalize_mem.ml" 97 4597 4644
+type(
+  Minils.exp -> Minils.exp -> Minils.exp
+)
+ident(
+  int_ref replace_fby "minils/transformations/normalize_mem.ml" 73 3605 3613 "minils/transformations/normalize_mem.ml" 73 3605 3624
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4645 "minils/transformations/normalize_mem.ml" 97 4597 4646
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/normalize_mem.ml" 87 4075 4090 "minils/transformations/normalize_mem.ml" 87 4075 4091
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4647 "minils/transformations/normalize_mem.ml" 97 4597 4656
+type(
+  Minils.exp
+)
+ident(
+  int_ref exp_mem_x "minils/transformations/normalize_mem.ml" 92 4358 4370 "minils/transformations/normalize_mem.ml" 92 4358 4379
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4633 "minils/transformations/normalize_mem.ml" 97 4597 4656
+call(
+  stack
+)
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4614 "minils/transformations/normalize_mem.ml" 97 4597 4658
+type(
+  Minils.eq
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4717 "minils/transformations/normalize_mem.ml" 99 4705 4720
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 100 4745 4753 "minils/transformations/normalize_mem.ml" 100 4745 4796
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4723 "minils/transformations/normalize_mem.ml" 99 4705 4730
+type(
+  Idents.Env.key ->
+  Idents.Env.key option ->
+  Idents.Env.key option Idents.Env.t -> Idents.Env.key option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4731 "minils/transformations/normalize_mem.ml" 99 4705 4732
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/normalize_mem.ml" 87 4075 4087 "minils/transformations/normalize_mem.ml" 87 4075 4088
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4733 "minils/transformations/normalize_mem.ml" 99 4705 4737
+type(
+  Idents.Env.key option
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4738 "minils/transformations/normalize_mem.ml" 99 4705 4741
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 86 4006 4020 "minils/transformations/normalize_mem.ml" 86 4006 4023
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4723 "minils/transformations/normalize_mem.ml" 99 4705 4741
+call(
+  stack
+)
+type(
+  Idents.Env.key option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4753 "minils/transformations/normalize_mem.ml" 100 4745 4755
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 97 4597 4609 "minils/transformations/normalize_mem.ml" 97 4597 4611
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4758 "minils/transformations/normalize_mem.ml" 100 4745 4761
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 99 4705 4717 "minils/transformations/normalize_mem.ml" 99 4705 4720
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4763 "minils/transformations/normalize_mem.ml" 100 4745 4766
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref vds "minils/transformations/normalize_mem.ml" 86 4006 4025 "minils/transformations/normalize_mem.ml" 86 4006 4028
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4768 "minils/transformations/normalize_mem.ml" 100 4745 4774
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd_mem "minils/transformations/normalize_mem.ml" 90 4249 4261 "minils/transformations/normalize_mem.ml" 90 4249 4267
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4776 "minils/transformations/normalize_mem.ml" 100 4745 4777
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref v "minils/transformations/normalize_mem.ml" 86 4006 4030 "minils/transformations/normalize_mem.ml" 86 4006 4031
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4768 "minils/transformations/normalize_mem.ml" 100 4745 4777
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4779 "minils/transformations/normalize_mem.ml" 100 4745 4781
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 97 4597 4609 "minils/transformations/normalize_mem.ml" 97 4597 4611
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4783 "minils/transformations/normalize_mem.ml" 100 4745 4790
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq_copy "minils/transformations/normalize_mem.ml" 95 4513 4525 "minils/transformations/normalize_mem.ml" 95 4513 4532
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4792 "minils/transformations/normalize_mem.ml" 100 4745 4795
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eqs "minils/transformations/normalize_mem.ml" 86 4006 4033 "minils/transformations/normalize_mem.ml" 86 4006 4036
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4783 "minils/transformations/normalize_mem.ml" 100 4745 4795
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4779 "minils/transformations/normalize_mem.ml" 100 4745 4795
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4757 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 100 4745 4753 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 99 4705 4713 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 97 4597 4605 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 95 4513 4521 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 92 4358 4366 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 91 4301 4309 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 90 4249 4257 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 89 4170 4178 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 88 4136 4144 "minils/transformations/normalize_mem.ml" 100 4745 4796
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 101 4797 4801 "minils/transformations/normalize_mem.ml" 101 4797 4802
+type(
+  Minils.pat
+)
+"minils/transformations/normalize_mem.ml" 101 4797 4804 "minils/transformations/normalize_mem.ml" 101 4797 4805
+type(
+  Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 101 4797 4801 "minils/transformations/normalize_mem.ml" 101 4797 4805
+type(
+  Minils.pat * Minils.exp
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4815 "minils/transformations/normalize_mem.ml" 102 4809 4817
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4820 "minils/transformations/normalize_mem.ml" 102 4809 4823
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 86 4006 4020 "minils/transformations/normalize_mem.ml" 86 4006 4023
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4825 "minils/transformations/normalize_mem.ml" 102 4809 4828
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref vds "minils/transformations/normalize_mem.ml" 86 4006 4025 "minils/transformations/normalize_mem.ml" 86 4006 4028
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4830 "minils/transformations/normalize_mem.ml" 102 4809 4831
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref v "minils/transformations/normalize_mem.ml" 86 4006 4030 "minils/transformations/normalize_mem.ml" 86 4006 4031
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4833 "minils/transformations/normalize_mem.ml" 102 4809 4835
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4038 "minils/transformations/normalize_mem.ml" 86 4006 4040
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4837 "minils/transformations/normalize_mem.ml" 102 4809 4840
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eqs "minils/transformations/normalize_mem.ml" 86 4006 4033 "minils/transformations/normalize_mem.ml" 86 4006 4036
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4833 "minils/transformations/normalize_mem.ml" 102 4809 4840
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4819 "minils/transformations/normalize_mem.ml" 102 4809 4841
+type(
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 102 4809 4815 "minils/transformations/normalize_mem.ml" 102 4809 4841
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 86 4006 4043 "minils/transformations/normalize_mem.ml" 102 4809 4841
+type(
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4904 "minils/transformations/normalize_mem.ml" 105 4900 4912
+type(
+  'a -> 'b -> 'c -> 'c * 'b
+)
+ident(
+  def contract "minils/transformations/normalize_mem.ml" 107 4931 4931 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4913 "minils/transformations/normalize_mem.ml" 105 4900 4914
+type(
+  'a
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4915 "minils/transformations/normalize_mem.ml" 105 4900 4918
+type(
+  'b
+)
+ident(
+  def acc "minils/transformations/normalize_mem.ml" 105 4900 4919 "minils/transformations/normalize_mem.ml" 105 4900 4929
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4919 "minils/transformations/normalize_mem.ml" 105 4900 4920
+type(
+  'c
+)
+ident(
+  def c "minils/transformations/normalize_mem.ml" 105 4900 4923 "minils/transformations/normalize_mem.ml" 105 4900 4929
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4923 "minils/transformations/normalize_mem.ml" 105 4900 4924
+type(
+  'c
+)
+ident(
+  int_ref c "minils/transformations/normalize_mem.ml" 105 4900 4919 "minils/transformations/normalize_mem.ml" 105 4900 4920
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4926 "minils/transformations/normalize_mem.ml" 105 4900 4929
+type(
+  'b
+)
+ident(
+  int_ref acc "minils/transformations/normalize_mem.ml" 105 4900 4915 "minils/transformations/normalize_mem.ml" 105 4900 4918
+)
+"minils/transformations/normalize_mem.ml" 105 4900 4923 "minils/transformations/normalize_mem.ml" 105 4900 4929
+type(
+  'c * 'b
+)
+"minils/transformations/normalize_mem.ml" 107 4931 4935 "minils/transformations/normalize_mem.ml" 107 4931 4939
+type(
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs -> 'a -> Minils.node_dec -> Minils.node_dec * 'a
+)
+ident(
+  def node "minils/transformations/normalize_mem.ml" 115 5183 5183 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 107 4931 4940 "minils/transformations/normalize_mem.ml" 107 4931 4944
+type(
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/normalize_mem.ml" 107 4931 4945 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 107 4931 4945 "minils/transformations/normalize_mem.ml" 107 4931 4948
+type(
+  'a
+)
+ident(
+  def acc "minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 107 4931 4951
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/normalize_mem.ml" 108 4954 4956 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 108 4954 4960 "minils/transformations/normalize_mem.ml" 108 4954 4963
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  def env "minils/transformations/normalize_mem.ml" 109 4982 4984 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 108 4954 4966 "minils/transformations/normalize_mem.ml" 108 4954 4975
+type(
+  Minils.node_dec -> Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref build_env "minils/transformations/normalize_mem.ml" 51 2829 2833 "minils/transformations/normalize_mem.ml" 51 2829 2842
+)
+"minils/transformations/normalize_mem.ml" 108 4954 4976 "minils/transformations/normalize_mem.ml" 108 4954 4978
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 107 4931 4951
+)
+"minils/transformations/normalize_mem.ml" 108 4954 4966 "minils/transformations/normalize_mem.ml" 108 4954 4978
+call(
+  stack
+)
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4988 "minils/transformations/normalize_mem.ml" 109 4982 4990
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/normalize_mem.ml" 113 5115 5117 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4993 "minils/transformations/normalize_mem.ml" 109 4982 4994
+type(
+  Idents.var_ident option Idents.Env.t
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4996 "minils/transformations/normalize_mem.ml" 109 4982 4997
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4999 "minils/transformations/normalize_mem.ml" 109 4982 5000
+type(
+  Minils.var_dec list
+)
+ident(
+  def v "minils/transformations/normalize_mem.ml" 113 5115 5117 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 109 4982 5002 "minils/transformations/normalize_mem.ml" 109 4982 5005
+type(
+  Minils.eq list
+)
+ident(
+  def eqs "minils/transformations/normalize_mem.ml" 113 5115 5117 "minils/transformations/normalize_mem.ml" 113 5115 5181
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4992 "minils/transformations/normalize_mem.ml" 109 4982 5006
+type(
+  Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4988 "minils/transformations/normalize_mem.ml" 109 4982 5006
+type(
+  Minils.node_dec *
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5013 "minils/transformations/normalize_mem.ml" 110 5009 5033
+type(
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs ->
+  Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.node_dec ->
+  Minils.node_dec *
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  ext_ref Mls_mapfold.node_dec
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5034 "minils/transformations/normalize_mem.ml" 110 5009 5038
+type(
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/normalize_mem.ml" 107 4931 4940 "minils/transformations/normalize_mem.ml" 107 4931 4944
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5040 "minils/transformations/normalize_mem.ml" 110 5009 5043
+type(
+  Idents.var_ident option Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/normalize_mem.ml" 108 4954 4960 "minils/transformations/normalize_mem.ml" 108 4954 4963
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5045 "minils/transformations/normalize_mem.ml" 110 5009 5047
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 107 4931 4951
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5045 "minils/transformations/normalize_mem.ml" 110 5009 5055
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5056 "minils/transformations/normalize_mem.ml" 110 5009 5057
+type(
+  Minils.var_dec list -> Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5058 "minils/transformations/normalize_mem.ml" 110 5009 5060
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 107 4931 4951
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5058 "minils/transformations/normalize_mem.ml" 110 5009 5069
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5045 "minils/transformations/normalize_mem.ml" 110 5009 5069
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5071 "minils/transformations/normalize_mem.ml" 110 5009 5073
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5075 "minils/transformations/normalize_mem.ml" 110 5009 5077
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5039 "minils/transformations/normalize_mem.ml" 110 5009 5078
+type(
+  Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5079 "minils/transformations/normalize_mem.ml" 110 5009 5081
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 107 4931 4949 "minils/transformations/normalize_mem.ml" 107 4931 4951
+)
+"minils/transformations/normalize_mem.ml" 110 5009 5013 "minils/transformations/normalize_mem.ml" 110 5009 5081
+call(
+  stack
+)
+type(
+  Minils.node_dec *
+  (Idents.var_ident option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5119 "minils/transformations/normalize_mem.ml" 113 5115 5121
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 109 4982 4988 "minils/transformations/normalize_mem.ml" 109 4982 4990
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5137 "minils/transformations/normalize_mem.ml" 113 5115 5138
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref v "minils/transformations/normalize_mem.ml" 109 4982 4999 "minils/transformations/normalize_mem.ml" 109 4982 5000
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5139 "minils/transformations/normalize_mem.ml" 113 5115 5140
+type(
+  Minils.var_dec list -> Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5141 "minils/transformations/normalize_mem.ml" 113 5115 5143
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/normalize_mem.ml" 109 4982 4988 "minils/transformations/normalize_mem.ml" 109 4982 4990
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5141 "minils/transformations/normalize_mem.ml" 113 5115 5151
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5137 "minils/transformations/normalize_mem.ml" 113 5115 5151
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5162 "minils/transformations/normalize_mem.ml" 113 5115 5170
+type(
+  Minils.eq list -> Minils.eq list
+)
+ident(
+  ext_ref List.rev
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5171 "minils/transformations/normalize_mem.ml" 113 5115 5174
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eqs "minils/transformations/normalize_mem.ml" 109 4982 5002 "minils/transformations/normalize_mem.ml" 109 4982 5005
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5162 "minils/transformations/normalize_mem.ml" 113 5115 5174
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5117 "minils/transformations/normalize_mem.ml" 113 5115 5176
+type(
+  Minils.node_dec
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5178 "minils/transformations/normalize_mem.ml" 113 5115 5181
+type(
+  'a
+)
+ident(
+  int_ref acc "minils/transformations/normalize_mem.ml" 107 4931 4945 "minils/transformations/normalize_mem.ml" 107 4931 4948
+)
+"minils/transformations/normalize_mem.ml" 113 5115 5117 "minils/transformations/normalize_mem.ml" 113 5115 5181
+type(
+  Minils.node_dec * 'a
+)
+"minils/transformations/normalize_mem.ml" 109 4982 4984 "minils/transformations/normalize_mem.ml" 113 5115 5181
+type(
+  Minils.node_dec * 'a
+)
+"minils/transformations/normalize_mem.ml" 108 4954 4956 "minils/transformations/normalize_mem.ml" 113 5115 5181
+type(
+  Minils.node_dec * 'a
+)
+"minils/transformations/normalize_mem.ml" 115 5183 5187 "minils/transformations/normalize_mem.ml" 115 5183 5194
+type(
+  Minils.program -> Minils.program
+)
+ident(
+  def program "minils/transformations/normalize_mem.ml" 119 5365 5370 "minils/transformations/normalize_mem.ml" 1 0 -1
+)
+"minils/transformations/normalize_mem.ml" 115 5183 5195 "minils/transformations/normalize_mem.ml" 115 5183 5196
+type(
+  Minils.program
+)
+ident(
+  def p "minils/transformations/normalize_mem.ml" 116 5199 5201 "minils/transformations/normalize_mem.ml" 119 5365 5370
+)
+"minils/transformations/normalize_mem.ml" 116 5199 5205 "minils/transformations/normalize_mem.ml" 116 5199 5209
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/normalize_mem.ml" 118 5295 5297 "minils/transformations/normalize_mem.ml" 119 5365 5370
+)
+"minils/transformations/normalize_mem.ml" 116 5199 5214 "minils/transformations/normalize_mem.ml" 116 5199 5234
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/normalize_mem.ml" 117 5240 5249 "minils/transformations/normalize_mem.ml" 117 5240 5251
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs ->
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.eq ->
+  Minils.eq *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  int_ref eq "minils/transformations/normalize_mem.ml" 86 4006 4010 "minils/transformations/normalize_mem.ml" 86 4006 4012
+)
+"minils/transformations/normalize_mem.ml" 117 5240 5264 "minils/transformations/normalize_mem.ml" 117 5240 5268
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs ->
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.node_dec ->
+  Minils.node_dec *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  int_ref node "minils/transformations/normalize_mem.ml" 107 4931 4935 "minils/transformations/normalize_mem.ml" 107 4931 4939
+)
+"minils/transformations/normalize_mem.ml" 117 5240 5281 "minils/transformations/normalize_mem.ml" 117 5240 5289
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs ->
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.contract ->
+  Minils.contract *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  int_ref contract "minils/transformations/normalize_mem.ml" 105 4900 4904 "minils/transformations/normalize_mem.ml" 105 4900 4912
+)
+"minils/transformations/normalize_mem.ml" 116 5199 5212 "minils/transformations/normalize_mem.ml" 117 5240 5291
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5301 "minils/transformations/normalize_mem.ml" 118 5295 5302
+type(
+  Minils.program
+)
+ident(
+  def p "minils/transformations/normalize_mem.ml" 119 5365 5369 "minils/transformations/normalize_mem.ml" 119 5365 5370
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5304 "minils/transformations/normalize_mem.ml" 118 5295 5305
+type(
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5301 "minils/transformations/normalize_mem.ml" 118 5295 5305
+type(
+  Minils.program *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5308 "minils/transformations/normalize_mem.ml" 118 5295 5330
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs ->
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list ->
+  Minils.program ->
+  Minils.program *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+ident(
+  ext_ref Mls_mapfold.program_it
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5331 "minils/transformations/normalize_mem.ml" 118 5295 5335
+type(
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+  Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/normalize_mem.ml" 116 5199 5205 "minils/transformations/normalize_mem.ml" 116 5199 5209
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5337 "minils/transformations/normalize_mem.ml" 118 5295 5346
+type(
+  Idents.Env.key option Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5348 "minils/transformations/normalize_mem.ml" 118 5295 5350
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5352 "minils/transformations/normalize_mem.ml" 118 5295 5354
+type(
+  Minils.var_dec list
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5356 "minils/transformations/normalize_mem.ml" 118 5295 5358
+type(
+  Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5336 "minils/transformations/normalize_mem.ml" 118 5295 5359
+type(
+  Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+  Minils.var_dec list * Minils.eq list
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5360 "minils/transformations/normalize_mem.ml" 118 5295 5361
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/transformations/normalize_mem.ml" 115 5183 5195 "minils/transformations/normalize_mem.ml" 115 5183 5196
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5308 "minils/transformations/normalize_mem.ml" 118 5295 5361
+call(
+  stack
+)
+type(
+  Minils.program *
+  (Idents.Env.key option Idents.Env.t * Minils.var_dec list *
+   Minils.var_dec list * Minils.eq list)
+)
+"minils/transformations/normalize_mem.ml" 119 5365 5369 "minils/transformations/normalize_mem.ml" 119 5365 5370
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/transformations/normalize_mem.ml" 118 5295 5301 "minils/transformations/normalize_mem.ml" 118 5295 5302
+)
+"minils/transformations/normalize_mem.ml" 118 5295 5297 "minils/transformations/normalize_mem.ml" 119 5365 5370
+type(
+  Minils.program
+)
+"minils/transformations/normalize_mem.ml" 116 5199 5201 "minils/transformations/normalize_mem.ml" 119 5365 5370
+type(
+  Minils.program
+)

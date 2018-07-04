@@ -1,0 +1,5490 @@
+"obc/transformations/memalloc_apply.ml" 41 2270 2280 "obc/transformations/memalloc_apply.ml" 41 2270 2287
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "obc/transformations/memalloc_apply.ml" 41 2270 2297 "obc/transformations/memalloc_apply.ml" 42 2298 2305
+)
+"obc/transformations/memalloc_apply.ml" 41 2270 2290 "obc/transformations/memalloc_apply.ml" 41 2270 2297
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"obc/transformations/memalloc_apply.ml" 39 2211 2215 "obc/transformations/memalloc_apply.ml" 42 2298 2306
+call(
+  stack
+)
+"obc/transformations/memalloc_apply.ml" 44 2308 2316 "obc/transformations/memalloc_apply.ml" 44 2308 2327
+type(
+  Obc.pattern -> Interference_graph.ivar
+)
+ident(
+  def ivar_of_pat "obc/transformations/memalloc_apply.ml" 44 2308 2308 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 44 2308 2328 "obc/transformations/memalloc_apply.ml" 44 2308 2329
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 44 2308 2332 "obc/transformations/memalloc_apply.ml" 47 2425 2446
+)
+"obc/transformations/memalloc_apply.ml" 44 2308 2338 "obc/transformations/memalloc_apply.ml" 44 2308 2339
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 44 2308 2328 "obc/transformations/memalloc_apply.ml" 44 2308 2329
+)
+"obc/transformations/memalloc_apply.ml" 44 2308 2338 "obc/transformations/memalloc_apply.ml" 44 2308 2348
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 45 2354 2367 "obc/transformations/memalloc_apply.ml" 45 2354 2368
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 45 2354 2372 "obc/transformations/memalloc_apply.ml" 45 2354 2378
+)
+"obc/transformations/memalloc_apply.ml" 45 2354 2358 "obc/transformations/memalloc_apply.ml" 45 2354 2368
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 45 2354 2377 "obc/transformations/memalloc_apply.ml" 45 2354 2378
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 45 2354 2367 "obc/transformations/memalloc_apply.ml" 45 2354 2368
+)
+"obc/transformations/memalloc_apply.ml" 45 2354 2372 "obc/transformations/memalloc_apply.ml" 45 2354 2378
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2390 "obc/transformations/memalloc_apply.ml" 46 2379 2391
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 46 2379 2399 "obc/transformations/memalloc_apply.ml" 46 2379 2424
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2393 "obc/transformations/memalloc_apply.ml" 46 2379 2394
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/transformations/memalloc_apply.ml" 46 2379 2399 "obc/transformations/memalloc_apply.ml" 46 2379 2424
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2383 "obc/transformations/memalloc_apply.ml" 46 2379 2395
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2407 "obc/transformations/memalloc_apply.ml" 46 2379 2418
+type(
+  Obc.pattern -> Interference_graph.ivar
+)
+ident(
+  int_ref ivar_of_pat "obc/transformations/memalloc_apply.ml" 44 2308 2316 "obc/transformations/memalloc_apply.ml" 44 2308 2327
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2419 "obc/transformations/memalloc_apply.ml" 46 2379 2420
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 46 2379 2390 "obc/transformations/memalloc_apply.ml" 46 2379 2391
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2407 "obc/transformations/memalloc_apply.ml" 46 2379 2420
+call(
+  stack
+)
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2422 "obc/transformations/memalloc_apply.ml" 46 2379 2423
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/transformations/memalloc_apply.ml" 46 2379 2393 "obc/transformations/memalloc_apply.ml" 46 2379 2394
+)
+"obc/transformations/memalloc_apply.ml" 46 2379 2399 "obc/transformations/memalloc_apply.ml" 46 2379 2424
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 47 2425 2429 "obc/transformations/memalloc_apply.ml" 47 2425 2430
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 47 2425 2441 "obc/transformations/memalloc_apply.ml" 47 2425 2446
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 47 2425 2434 "obc/transformations/memalloc_apply.ml" 47 2425 2446
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 44 2308 2332 "obc/transformations/memalloc_apply.ml" 47 2425 2446
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 49 2448 2456 "obc/transformations/memalloc_apply.ml" 49 2448 2473
+type(
+  Obc.ext_value -> Interference_graph.ivar
+)
+ident(
+  def ivar_of_ext_value "obc/transformations/memalloc_apply.ml" 49 2448 2448 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 49 2448 2474 "obc/transformations/memalloc_apply.ml" 49 2448 2475
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/memalloc_apply.ml" 49 2448 2478 "obc/transformations/memalloc_apply.ml" 52 2571 2592
+)
+"obc/transformations/memalloc_apply.ml" 49 2448 2484 "obc/transformations/memalloc_apply.ml" 49 2448 2485
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 49 2448 2474 "obc/transformations/memalloc_apply.ml" 49 2448 2475
+)
+"obc/transformations/memalloc_apply.ml" 49 2448 2484 "obc/transformations/memalloc_apply.ml" 49 2448 2492
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 50 2498 2507 "obc/transformations/memalloc_apply.ml" 50 2498 2508
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 50 2498 2512 "obc/transformations/memalloc_apply.ml" 50 2498 2518
+)
+"obc/transformations/memalloc_apply.ml" 50 2498 2502 "obc/transformations/memalloc_apply.ml" 50 2498 2508
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 50 2498 2517 "obc/transformations/memalloc_apply.ml" 50 2498 2518
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 50 2498 2507 "obc/transformations/memalloc_apply.ml" 50 2498 2508
+)
+"obc/transformations/memalloc_apply.ml" 50 2498 2512 "obc/transformations/memalloc_apply.ml" 50 2498 2518
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2530 "obc/transformations/memalloc_apply.ml" 51 2519 2531
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/memalloc_apply.ml" 51 2519 2539 "obc/transformations/memalloc_apply.ml" 51 2519 2570
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2533 "obc/transformations/memalloc_apply.ml" 51 2519 2534
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/transformations/memalloc_apply.ml" 51 2519 2539 "obc/transformations/memalloc_apply.ml" 51 2519 2570
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2523 "obc/transformations/memalloc_apply.ml" 51 2519 2535
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2547 "obc/transformations/memalloc_apply.ml" 51 2519 2564
+type(
+  Obc.ext_value -> Interference_graph.ivar
+)
+ident(
+  int_ref ivar_of_ext_value "obc/transformations/memalloc_apply.ml" 49 2448 2456 "obc/transformations/memalloc_apply.ml" 49 2448 2473
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2565 "obc/transformations/memalloc_apply.ml" 51 2519 2566
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 51 2519 2530 "obc/transformations/memalloc_apply.ml" 51 2519 2531
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2547 "obc/transformations/memalloc_apply.ml" 51 2519 2566
+call(
+  stack
+)
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2568 "obc/transformations/memalloc_apply.ml" 51 2519 2569
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/transformations/memalloc_apply.ml" 51 2519 2533 "obc/transformations/memalloc_apply.ml" 51 2519 2534
+)
+"obc/transformations/memalloc_apply.ml" 51 2519 2539 "obc/transformations/memalloc_apply.ml" 51 2519 2570
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 52 2571 2575 "obc/transformations/memalloc_apply.ml" 52 2571 2576
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 52 2571 2587 "obc/transformations/memalloc_apply.ml" 52 2571 2592
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 52 2571 2580 "obc/transformations/memalloc_apply.ml" 52 2571 2592
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 49 2448 2478 "obc/transformations/memalloc_apply.ml" 52 2571 2592
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 54 2594 2602 "obc/transformations/memalloc_apply.ml" 54 2594 2616
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar -> Obc.pat_desc
+)
+ident(
+  def repr_from_ivar "obc/transformations/memalloc_apply.ml" 54 2594 2594 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 54 2594 2617 "obc/transformations/memalloc_apply.ml" 54 2594 2620
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 54 2594 2621 "obc/transformations/memalloc_apply.ml" 65 2922 2951
+)
+"obc/transformations/memalloc_apply.ml" 54 2594 2621 "obc/transformations/memalloc_apply.ml" 54 2594 2623
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 55 2626 2628 "obc/transformations/memalloc_apply.ml" 65 2922 2951
+)
+"obc/transformations/memalloc_apply.ml" 55 2626 2634 "obc/transformations/memalloc_apply.ml" 55 2626 2636
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 54 2594 2621 "obc/transformations/memalloc_apply.ml" 54 2594 2623
+)
+"obc/transformations/memalloc_apply.ml" 56 2642 2653 "obc/transformations/memalloc_apply.ml" 56 2642 2654
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 57 2667 2673 "obc/transformations/memalloc_apply.ml" 60 2740 2775
+)
+"obc/transformations/memalloc_apply.ml" 56 2642 2648 "obc/transformations/memalloc_apply.ml" 56 2642 2654
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 56 2642 2662 "obc/transformations/memalloc_apply.ml" 56 2642 2663
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 57 2667 2673 "obc/transformations/memalloc_apply.ml" 60 2740 2775
+)
+"obc/transformations/memalloc_apply.ml" 56 2642 2657 "obc/transformations/memalloc_apply.ml" 56 2642 2663
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 56 2642 2648 "obc/transformations/memalloc_apply.ml" 56 2642 2663
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2691 "obc/transformations/memalloc_apply.ml" 58 2678 2694
+type(
+  Obc.pattern
+)
+ident(
+  def lhs "obc/transformations/memalloc_apply.ml" 58 2678 2715 "obc/transformations/memalloc_apply.ml" 58 2678 2727
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2697 "obc/transformations/memalloc_apply.ml" 58 2678 2705
+type(
+  Idents.Env.key -> Obc.pattern Idents.Env.t -> Obc.pattern
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2706 "obc/transformations/memalloc_apply.ml" 58 2678 2707
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 56 2642 2653 "obc/transformations/memalloc_apply.ml" 56 2642 2654
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2708 "obc/transformations/memalloc_apply.ml" 58 2678 2711
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 54 2594 2617 "obc/transformations/memalloc_apply.ml" 54 2594 2620
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2697 "obc/transformations/memalloc_apply.ml" 58 2678 2711
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2715 "obc/transformations/memalloc_apply.ml" 58 2678 2718
+type(
+  Obc.pattern
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 58 2678 2691 "obc/transformations/memalloc_apply.ml" 58 2678 2694
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2715 "obc/transformations/memalloc_apply.ml" 58 2678 2727
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 58 2678 2687 "obc/transformations/memalloc_apply.ml" 58 2678 2727
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 60 2740 2751 "obc/transformations/memalloc_apply.ml" 60 2740 2760
+type(
+  exn
+)
+"obc/transformations/memalloc_apply.ml" 60 2740 2773 "obc/transformations/memalloc_apply.ml" 60 2740 2774
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 56 2642 2653 "obc/transformations/memalloc_apply.ml" 56 2642 2654
+)
+"obc/transformations/memalloc_apply.ml" 60 2740 2764 "obc/transformations/memalloc_apply.ml" 60 2740 2774
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 57 2667 2673 "obc/transformations/memalloc_apply.ml" 60 2740 2775
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 61 2776 2789 "obc/transformations/memalloc_apply.ml" 61 2776 2791
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 62 2799 2805 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+)
+"obc/transformations/memalloc_apply.ml" 61 2776 2793 "obc/transformations/memalloc_apply.ml" 61 2776 2794
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/transformations/memalloc_apply.ml" 62 2799 2805 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+)
+"obc/transformations/memalloc_apply.ml" 61 2776 2782 "obc/transformations/memalloc_apply.ml" 61 2776 2795
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2809 "obc/transformations/memalloc_apply.ml" 62 2799 2811
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/transformations/memalloc_apply.ml" 63 2844 2850 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2819 "obc/transformations/memalloc_apply.ml" 62 2799 2837
+type(
+  Names.QualEnv.key -> Names.type_name
+)
+ident(
+  ext_ref Modules.find_field
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2838 "obc/transformations/memalloc_apply.ml" 62 2799 2839
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/transformations/memalloc_apply.ml" 61 2776 2793 "obc/transformations/memalloc_apply.ml" 61 2776 2794
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2818 "obc/transformations/memalloc_apply.ml" 62 2799 2840
+call(
+  stack
+)
+type(
+  Names.type_name
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2814 "obc/transformations/memalloc_apply.ml" 62 2799 2840
+type(
+  Types.ty
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2854 "obc/transformations/memalloc_apply.ml" 63 2844 2857
+type(
+  Obc.pattern
+)
+ident(
+  def lhs "obc/transformations/memalloc_apply.ml" 64 2901 2907 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2860 "obc/transformations/memalloc_apply.ml" 63 2844 2870
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2871 "obc/transformations/memalloc_apply.ml" 63 2844 2873
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/transformations/memalloc_apply.ml" 62 2799 2809 "obc/transformations/memalloc_apply.ml" 62 2799 2811
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2875 "obc/transformations/memalloc_apply.ml" 63 2844 2889
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar -> Obc.pat_desc
+)
+ident(
+  int_ref repr_from_ivar "obc/transformations/memalloc_apply.ml" 54 2594 2602 "obc/transformations/memalloc_apply.ml" 54 2594 2616
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2890 "obc/transformations/memalloc_apply.ml" 63 2844 2893
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 54 2594 2617 "obc/transformations/memalloc_apply.ml" 54 2594 2620
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2894 "obc/transformations/memalloc_apply.ml" 63 2844 2896
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 61 2776 2789 "obc/transformations/memalloc_apply.ml" 61 2776 2791
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2874 "obc/transformations/memalloc_apply.ml" 63 2844 2897
+call(
+  stack
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2860 "obc/transformations/memalloc_apply.ml" 63 2844 2897
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 64 2901 2914 "obc/transformations/memalloc_apply.ml" 64 2901 2917
+type(
+  Obc.pattern
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 63 2844 2854 "obc/transformations/memalloc_apply.ml" 63 2844 2857
+)
+"obc/transformations/memalloc_apply.ml" 64 2901 2919 "obc/transformations/memalloc_apply.ml" 64 2901 2920
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/transformations/memalloc_apply.ml" 61 2776 2793 "obc/transformations/memalloc_apply.ml" 61 2776 2794
+)
+"obc/transformations/memalloc_apply.ml" 64 2901 2907 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 63 2844 2850 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 62 2799 2805 "obc/transformations/memalloc_apply.ml" 64 2901 2921
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 65 2922 2934 "obc/transformations/memalloc_apply.ml" 65 2922 2935
+type(
+  Clocks.ck
+)
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 65 2922 2928 "obc/transformations/memalloc_apply.ml" 65 2922 2935
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 65 2922 2946 "obc/transformations/memalloc_apply.ml" 65 2922 2951
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 65 2922 2939 "obc/transformations/memalloc_apply.ml" 65 2922 2951
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 55 2626 2628 "obc/transformations/memalloc_apply.ml" 65 2922 2951
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 67 2953 2961 "obc/transformations/memalloc_apply.ml" 67 2953 2980
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar list -> Obc.pat_desc
+)
+ident(
+  def choose_record_field "obc/transformations/memalloc_apply.ml" 67 2953 2953 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 67 2953 2981 "obc/transformations/memalloc_apply.ml" 67 2953 2984
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 67 2953 2985 "obc/transformations/memalloc_apply.ml" 72 3188 3210
+)
+"obc/transformations/memalloc_apply.ml" 67 2953 2985 "obc/transformations/memalloc_apply.ml" 67 2953 2986
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 67 2953 2989 "obc/transformations/memalloc_apply.ml" 72 3188 3210
+)
+"obc/transformations/memalloc_apply.ml" 67 2953 2995 "obc/transformations/memalloc_apply.ml" 67 2953 2996
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 67 2953 2985 "obc/transformations/memalloc_apply.ml" 67 2953 2986
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3007 "obc/transformations/memalloc_apply.ml" 68 3002 3009
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 68 3002 3014 "obc/transformations/memalloc_apply.ml" 68 3002 3035
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3006 "obc/transformations/memalloc_apply.ml" 68 3002 3010
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3014 "obc/transformations/memalloc_apply.ml" 68 3002 3028
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar -> Obc.pat_desc
+)
+ident(
+  int_ref repr_from_ivar "obc/transformations/memalloc_apply.ml" 54 2594 2602 "obc/transformations/memalloc_apply.ml" 54 2594 2616
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3029 "obc/transformations/memalloc_apply.ml" 68 3002 3032
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 67 2953 2981 "obc/transformations/memalloc_apply.ml" 67 2953 2984
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3033 "obc/transformations/memalloc_apply.ml" 68 3002 3035
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 68 3002 3007 "obc/transformations/memalloc_apply.ml" 68 3002 3009
+)
+"obc/transformations/memalloc_apply.ml" 68 3002 3014 "obc/transformations/memalloc_apply.ml" 68 3002 3035
+call(
+  tail
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3046 "obc/transformations/memalloc_apply.ml" 69 3036 3047
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3040 "obc/transformations/memalloc_apply.ml" 69 3036 3048
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3050 "obc/transformations/memalloc_apply.ml" 69 3036 3051
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 69 3036 3069 "obc/transformations/memalloc_apply.ml" 69 3036 3094
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3040 "obc/transformations/memalloc_apply.ml" 69 3036 3051
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3060 "obc/transformations/memalloc_apply.ml" 69 3036 3061
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3054 "obc/transformations/memalloc_apply.ml" 69 3036 3062
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3064 "obc/transformations/memalloc_apply.ml" 69 3036 3065
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 69 3036 3069 "obc/transformations/memalloc_apply.ml" 69 3036 3094
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3054 "obc/transformations/memalloc_apply.ml" 69 3036 3065
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3040 "obc/transformations/memalloc_apply.ml" 69 3036 3065
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3069 "obc/transformations/memalloc_apply.ml" 69 3036 3088
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar list -> Obc.pat_desc
+)
+ident(
+  int_ref choose_record_field "obc/transformations/memalloc_apply.ml" 67 2953 2961 "obc/transformations/memalloc_apply.ml" 67 2953 2980
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3089 "obc/transformations/memalloc_apply.ml" 69 3036 3092
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 67 2953 2981 "obc/transformations/memalloc_apply.ml" 67 2953 2984
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3093 "obc/transformations/memalloc_apply.ml" 69 3036 3094
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 69 3036 3050 "obc/transformations/memalloc_apply.ml" 69 3036 3051
+)
+"obc/transformations/memalloc_apply.ml" 69 3036 3069 "obc/transformations/memalloc_apply.ml" 69 3036 3094
+call(
+  tail
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3107 "obc/transformations/memalloc_apply.ml" 70 3095 3109
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 70 3095 3120 "obc/transformations/memalloc_apply.ml" 70 3095 3153
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3110 "obc/transformations/memalloc_apply.ml" 70 3095 3111
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/transformations/memalloc_apply.ml" 70 3095 3120 "obc/transformations/memalloc_apply.ml" 70 3095 3153
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3099 "obc/transformations/memalloc_apply.ml" 70 3095 3113
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3115 "obc/transformations/memalloc_apply.ml" 70 3095 3116
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3099 "obc/transformations/memalloc_apply.ml" 70 3095 3116
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3120 "obc/transformations/memalloc_apply.ml" 70 3095 3134
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar -> Obc.pat_desc
+)
+ident(
+  int_ref repr_from_ivar "obc/transformations/memalloc_apply.ml" 54 2594 2602 "obc/transformations/memalloc_apply.ml" 54 2594 2616
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3135 "obc/transformations/memalloc_apply.ml" 70 3095 3138
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 67 2953 2981 "obc/transformations/memalloc_apply.ml" 67 2953 2984
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3147 "obc/transformations/memalloc_apply.ml" 70 3095 3149
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 70 3095 3107 "obc/transformations/memalloc_apply.ml" 70 3095 3109
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3150 "obc/transformations/memalloc_apply.ml" 70 3095 3151
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/transformations/memalloc_apply.ml" 70 3095 3110 "obc/transformations/memalloc_apply.ml" 70 3095 3111
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3139 "obc/transformations/memalloc_apply.ml" 70 3095 3153
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 70 3095 3120 "obc/transformations/memalloc_apply.ml" 70 3095 3153
+call(
+  tail
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3165 "obc/transformations/memalloc_apply.ml" 71 3154 3166
+type(
+  Clocks.ck
+)
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3158 "obc/transformations/memalloc_apply.ml" 71 3154 3168
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3170 "obc/transformations/memalloc_apply.ml" 71 3154 3171
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3158 "obc/transformations/memalloc_apply.ml" 71 3154 3171
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3182 "obc/transformations/memalloc_apply.ml" 71 3154 3187
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 71 3154 3175 "obc/transformations/memalloc_apply.ml" 71 3154 3187
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 72 3188 3192 "obc/transformations/memalloc_apply.ml" 72 3188 3194
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 72 3188 3205 "obc/transformations/memalloc_apply.ml" 72 3188 3210
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 72 3188 3198 "obc/transformations/memalloc_apply.ml" 72 3188 3210
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 67 2953 2989 "obc/transformations/memalloc_apply.ml" 72 3188 3210
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3447 "obc/transformations/memalloc_apply.ml" 77 3443 3468
+type(
+  Obc.pattern Idents.Env.t ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Types.ty -> Interference_graph.ivar list -> Obc.pattern
+)
+ident(
+  def choose_representative "obc/transformations/memalloc_apply.ml" 97 4399 4399 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3469 "obc/transformations/memalloc_apply.ml" 77 3443 3470
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def m "obc/transformations/memalloc_apply.ml" 77 3443 3471 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3471 "obc/transformations/memalloc_apply.ml" 77 3443 3477
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def inputs "obc/transformations/memalloc_apply.ml" 77 3443 3478 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3478 "obc/transformations/memalloc_apply.ml" 77 3443 3485
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def outputs "obc/transformations/memalloc_apply.ml" 77 3443 3486 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3486 "obc/transformations/memalloc_apply.ml" 77 3443 3490
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def mems "obc/transformations/memalloc_apply.ml" 77 3443 3491 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3491 "obc/transformations/memalloc_apply.ml" 77 3443 3493
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def vars "obc/transformations/memalloc_apply.ml" 78 3501 3503 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3507 "obc/transformations/memalloc_apply.ml" 78 3501 3517
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def filter_ivs "obc/transformations/memalloc_apply.ml" 79 3573 3575 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3518 "obc/transformations/memalloc_apply.ml" 78 3501 3522
+type(
+  'a list
+)
+ident(
+  def vars "obc/transformations/memalloc_apply.ml" 78 3501 3523 "obc/transformations/memalloc_apply.ml" 78 3501 3569
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3523 "obc/transformations/memalloc_apply.ml" 78 3501 3524
+type(
+  'a list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 78 3501 3527 "obc/transformations/memalloc_apply.ml" 78 3501 3569
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3527 "obc/transformations/memalloc_apply.ml" 78 3501 3538
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3544 "obc/transformations/memalloc_apply.ml" 78 3501 3546
+type(
+  'a
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 78 3501 3550 "obc/transformations/memalloc_apply.ml" 78 3501 3563
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3550 "obc/transformations/memalloc_apply.ml" 78 3501 3558
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3559 "obc/transformations/memalloc_apply.ml" 78 3501 3561
+type(
+  'a
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 78 3501 3544 "obc/transformations/memalloc_apply.ml" 78 3501 3546
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3562 "obc/transformations/memalloc_apply.ml" 78 3501 3563
+type(
+  'a list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 78 3501 3523 "obc/transformations/memalloc_apply.ml" 78 3501 3524
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3550 "obc/transformations/memalloc_apply.ml" 78 3501 3563
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3539 "obc/transformations/memalloc_apply.ml" 78 3501 3564
+type(
+  'a -> bool
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3565 "obc/transformations/memalloc_apply.ml" 78 3501 3569
+type(
+  'a list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 78 3501 3518 "obc/transformations/memalloc_apply.ml" 78 3501 3522
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3527 "obc/transformations/memalloc_apply.ml" 78 3501 3569
+call(
+  tail
+)
+type(
+  'a list
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3579 "obc/transformations/memalloc_apply.ml" 79 3573 3585
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def inputs "obc/transformations/memalloc_apply.ml" 80 3614 3616 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3588 "obc/transformations/memalloc_apply.ml" 79 3573 3598
+type(
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list -> Interference_graph.ivar list
+)
+ident(
+  int_ref filter_ivs "obc/transformations/memalloc_apply.ml" 78 3501 3507 "obc/transformations/memalloc_apply.ml" 78 3501 3517
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3599 "obc/transformations/memalloc_apply.ml" 79 3573 3603
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3604 "obc/transformations/memalloc_apply.ml" 79 3573 3610
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref inputs "obc/transformations/memalloc_apply.ml" 77 3443 3471 "obc/transformations/memalloc_apply.ml" 77 3443 3477
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3588 "obc/transformations/memalloc_apply.ml" 79 3573 3610
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3620 "obc/transformations/memalloc_apply.ml" 80 3614 3627
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def outputs "obc/transformations/memalloc_apply.ml" 81 3657 3659 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3630 "obc/transformations/memalloc_apply.ml" 80 3614 3640
+type(
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list -> Interference_graph.ivar list
+)
+ident(
+  int_ref filter_ivs "obc/transformations/memalloc_apply.ml" 78 3501 3507 "obc/transformations/memalloc_apply.ml" 78 3501 3517
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3641 "obc/transformations/memalloc_apply.ml" 80 3614 3645
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3646 "obc/transformations/memalloc_apply.ml" 80 3614 3653
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref outputs "obc/transformations/memalloc_apply.ml" 77 3443 3478 "obc/transformations/memalloc_apply.ml" 77 3443 3485
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3630 "obc/transformations/memalloc_apply.ml" 80 3614 3653
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3663 "obc/transformations/memalloc_apply.ml" 81 3657 3667
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def mems "obc/transformations/memalloc_apply.ml" 82 3694 3696 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3670 "obc/transformations/memalloc_apply.ml" 81 3657 3680
+type(
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list -> Interference_graph.ivar list
+)
+ident(
+  int_ref filter_ivs "obc/transformations/memalloc_apply.ml" 78 3501 3507 "obc/transformations/memalloc_apply.ml" 78 3501 3517
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3681 "obc/transformations/memalloc_apply.ml" 81 3657 3685
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3686 "obc/transformations/memalloc_apply.ml" 81 3657 3690
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 77 3443 3486 "obc/transformations/memalloc_apply.ml" 77 3443 3490
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3670 "obc/transformations/memalloc_apply.ml" 81 3657 3690
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3700 "obc/transformations/memalloc_apply.ml" 82 3694 3704
+type(
+  Obc.pat_desc
+)
+ident(
+  def desc "obc/transformations/memalloc_apply.ml" 95 4375 4379 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3713 "obc/transformations/memalloc_apply.ml" 82 3694 3719
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref inputs "obc/transformations/memalloc_apply.ml" 79 3573 3579 "obc/transformations/memalloc_apply.ml" 79 3573 3585
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3721 "obc/transformations/memalloc_apply.ml" 82 3694 3728
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref outputs "obc/transformations/memalloc_apply.ml" 80 3614 3620 "obc/transformations/memalloc_apply.ml" 80 3614 3627
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3730 "obc/transformations/memalloc_apply.ml" 82 3694 3734
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 81 3657 3663 "obc/transformations/memalloc_apply.ml" 81 3657 3667
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3713 "obc/transformations/memalloc_apply.ml" 82 3694 3734
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3748 "obc/transformations/memalloc_apply.ml" 83 3740 3750
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3752 "obc/transformations/memalloc_apply.ml" 83 3740 3754
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3756 "obc/transformations/memalloc_apply.ml" 83 3740 3758
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3748 "obc/transformations/memalloc_apply.ml" 83 3740 3758
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3762 "obc/transformations/memalloc_apply.ml" 83 3740 3781
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar list -> Obc.pat_desc
+)
+ident(
+  int_ref choose_record_field "obc/transformations/memalloc_apply.ml" 67 2953 2961 "obc/transformations/memalloc_apply.ml" 67 2953 2980
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3782 "obc/transformations/memalloc_apply.ml" 83 3740 3783
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref m "obc/transformations/memalloc_apply.ml" 77 3443 3469 "obc/transformations/memalloc_apply.ml" 77 3443 3470
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3784 "obc/transformations/memalloc_apply.ml" 83 3740 3788
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+)
+"obc/transformations/memalloc_apply.ml" 83 3740 3762 "obc/transformations/memalloc_apply.ml" 83 3740 3788
+call(
+  stack
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3797 "obc/transformations/memalloc_apply.ml" 84 3789 3799
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3801 "obc/transformations/memalloc_apply.ml" 84 3789 3803
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3811 "obc/transformations/memalloc_apply.ml" 84 3789 3812
+type(
+  Idents.var_ident
+)
+ident(
+  def m "obc/transformations/memalloc_apply.ml" 84 3789 3820 "obc/transformations/memalloc_apply.ml" 84 3789 3826
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3805 "obc/transformations/memalloc_apply.ml" 84 3789 3813
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3815 "obc/transformations/memalloc_apply.ml" 84 3789 3816
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3805 "obc/transformations/memalloc_apply.ml" 84 3789 3816
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3797 "obc/transformations/memalloc_apply.ml" 84 3789 3816
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3825 "obc/transformations/memalloc_apply.ml" 84 3789 3826
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref m "obc/transformations/memalloc_apply.ml" 84 3789 3811 "obc/transformations/memalloc_apply.ml" 84 3789 3812
+)
+"obc/transformations/memalloc_apply.ml" 84 3789 3820 "obc/transformations/memalloc_apply.ml" 84 3789 3826
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3841 "obc/transformations/memalloc_apply.ml" 85 3827 3844
+type(
+  Idents.var_ident
+)
+ident(
+  def vin "obc/transformations/memalloc_apply.ml" 85 3827 3857 "obc/transformations/memalloc_apply.ml" 85 3827 3869
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3836 "obc/transformations/memalloc_apply.ml" 85 3827 3844
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3835 "obc/transformations/memalloc_apply.ml" 85 3827 3845
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3847 "obc/transformations/memalloc_apply.ml" 85 3827 3849
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3851 "obc/transformations/memalloc_apply.ml" 85 3827 3853
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3835 "obc/transformations/memalloc_apply.ml" 85 3827 3853
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3866 "obc/transformations/memalloc_apply.ml" 85 3827 3869
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref vin "obc/transformations/memalloc_apply.ml" 85 3827 3841 "obc/transformations/memalloc_apply.ml" 85 3827 3844
+)
+"obc/transformations/memalloc_apply.ml" 85 3827 3857 "obc/transformations/memalloc_apply.ml" 85 3827 3869
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3878 "obc/transformations/memalloc_apply.ml" 86 3870 3880
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3888 "obc/transformations/memalloc_apply.ml" 86 3870 3892
+type(
+  Idents.var_ident
+)
+ident(
+  def vout "obc/transformations/memalloc_apply.ml" 86 3870 3901 "obc/transformations/memalloc_apply.ml" 86 3870 3914
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3883 "obc/transformations/memalloc_apply.ml" 86 3870 3892
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3882 "obc/transformations/memalloc_apply.ml" 86 3870 3893
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3895 "obc/transformations/memalloc_apply.ml" 86 3870 3897
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3878 "obc/transformations/memalloc_apply.ml" 86 3870 3897
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3910 "obc/transformations/memalloc_apply.ml" 86 3870 3914
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref vout "obc/transformations/memalloc_apply.ml" 86 3870 3888 "obc/transformations/memalloc_apply.ml" 86 3870 3892
+)
+"obc/transformations/memalloc_apply.ml" 86 3870 3901 "obc/transformations/memalloc_apply.ml" 86 3870 3914
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3929 "obc/transformations/memalloc_apply.ml" 87 3915 3932
+type(
+  Idents.var_ident
+)
+ident(
+  def vin "obc/transformations/memalloc_apply.ml" 87 3915 3951 "obc/transformations/memalloc_apply.ml" 87 3915 3963
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3924 "obc/transformations/memalloc_apply.ml" 87 3915 3932
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3923 "obc/transformations/memalloc_apply.ml" 87 3915 3933
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3941 "obc/transformations/memalloc_apply.ml" 87 3915 3942
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3936 "obc/transformations/memalloc_apply.ml" 87 3915 3942
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3935 "obc/transformations/memalloc_apply.ml" 87 3915 3943
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3945 "obc/transformations/memalloc_apply.ml" 87 3915 3947
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3923 "obc/transformations/memalloc_apply.ml" 87 3915 3947
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3960 "obc/transformations/memalloc_apply.ml" 87 3915 3963
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref vin "obc/transformations/memalloc_apply.ml" 87 3915 3929 "obc/transformations/memalloc_apply.ml" 87 3915 3932
+)
+"obc/transformations/memalloc_apply.ml" 87 3915 3951 "obc/transformations/memalloc_apply.ml" 87 3915 3963
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 88 3964 3972 "obc/transformations/memalloc_apply.ml" 88 3964 3973
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 88 3964 3975 "obc/transformations/memalloc_apply.ml" 88 3964 3976
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 88 3964 3978 "obc/transformations/memalloc_apply.ml" 88 3964 3979
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 88 3964 3972 "obc/transformations/memalloc_apply.ml" 88 3964 3979
+type(
+  Interference_graph.ivar list * Interference_graph.ivar list *
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 3991 "obc/transformations/memalloc_apply.ml" 89 3983 4015
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Interference_graph.ivar list -> unit) ->
+  Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 4016 "obc/transformations/memalloc_apply.ml" 89 3983 4063
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 4064 "obc/transformations/memalloc_apply.ml" 89 3983 4079
+type(
+  Format.formatter -> Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference_graph.print_ivar_list
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 4080 "obc/transformations/memalloc_apply.ml" 89 3983 4084
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref vars "obc/transformations/memalloc_apply.ml" 77 3443 3494 "obc/transformations/memalloc_apply.ml" 77 3443 3498
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 3991 "obc/transformations/memalloc_apply.ml" 89 3983 4084
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4094 "obc/transformations/memalloc_apply.ml" 90 4086 4118
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Interference_graph.ivar list -> unit) ->
+  Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4119 "obc/transformations/memalloc_apply.ml" 90 4086 4136
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4137 "obc/transformations/memalloc_apply.ml" 90 4086 4152
+type(
+  Format.formatter -> Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference_graph.print_ivar_list
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4153 "obc/transformations/memalloc_apply.ml" 90 4086 4159
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref inputs "obc/transformations/memalloc_apply.ml" 79 3573 3579 "obc/transformations/memalloc_apply.ml" 79 3573 3585
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4094 "obc/transformations/memalloc_apply.ml" 90 4086 4159
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4169 "obc/transformations/memalloc_apply.ml" 91 4161 4193
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Interference_graph.ivar list -> unit) ->
+  Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4194 "obc/transformations/memalloc_apply.ml" 91 4161 4212
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4213 "obc/transformations/memalloc_apply.ml" 91 4161 4228
+type(
+  Format.formatter -> Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference_graph.print_ivar_list
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4229 "obc/transformations/memalloc_apply.ml" 91 4161 4236
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref outputs "obc/transformations/memalloc_apply.ml" 80 3614 3620 "obc/transformations/memalloc_apply.ml" 80 3614 3627
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4169 "obc/transformations/memalloc_apply.ml" 91 4161 4236
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4246 "obc/transformations/memalloc_apply.ml" 92 4238 4270
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Interference_graph.ivar list -> unit) ->
+  Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4271 "obc/transformations/memalloc_apply.ml" 92 4238 4285
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4286 "obc/transformations/memalloc_apply.ml" 92 4238 4301
+type(
+  Format.formatter -> Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference_graph.print_ivar_list
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4302 "obc/transformations/memalloc_apply.ml" 92 4238 4306
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 81 3657 3663 "obc/transformations/memalloc_apply.ml" 81 3657 3667
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4246 "obc/transformations/memalloc_apply.ml" 92 4238 4306
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/transformations/memalloc_apply.ml" 93 4308 4323 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 93 4308 4316 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 92 4238 4246 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 91 4161 4169 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 90 4086 4094 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 89 3983 3991 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3707 "obc/transformations/memalloc_apply.ml" 93 4308 4328
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 95 4375 4379 "obc/transformations/memalloc_apply.ml" 95 4375 4389
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/memalloc_apply.ml" 95 4375 4390 "obc/transformations/memalloc_apply.ml" 95 4375 4392
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/transformations/memalloc_apply.ml" 77 3443 3491 "obc/transformations/memalloc_apply.ml" 77 3443 3493
+)
+"obc/transformations/memalloc_apply.ml" 95 4375 4393 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref desc "obc/transformations/memalloc_apply.ml" 82 3694 3700 "obc/transformations/memalloc_apply.ml" 82 3694 3704
+)
+"obc/transformations/memalloc_apply.ml" 95 4375 4379 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+call(
+  tail
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 82 3694 3696 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 81 3657 3659 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 80 3614 3616 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 79 3573 3575 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 78 3501 3503 "obc/transformations/memalloc_apply.ml" 95 4375 4397
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 97 4399 4403 "obc/transformations/memalloc_apply.ml" 97 4399 4421
+type(
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+ident(
+  def memalloc_subst_map "obc/transformations/memalloc_apply.ml" 115 4986 4986 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 97 4399 4422 "obc/transformations/memalloc_apply.ml" 97 4399 4428
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def inputs "obc/transformations/memalloc_apply.ml" 97 4399 4429 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+)
+"obc/transformations/memalloc_apply.ml" 97 4399 4429 "obc/transformations/memalloc_apply.ml" 97 4399 4436
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def outputs "obc/transformations/memalloc_apply.ml" 97 4399 4437 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+)
+"obc/transformations/memalloc_apply.ml" 97 4399 4437 "obc/transformations/memalloc_apply.ml" 97 4399 4441
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def mems "obc/transformations/memalloc_apply.ml" 97 4399 4442 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+)
+"obc/transformations/memalloc_apply.ml" 97 4399 4442 "obc/transformations/memalloc_apply.ml" 97 4399 4453
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  def subst_lists "obc/transformations/memalloc_apply.ml" 98 4456 4458 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4462 "obc/transformations/memalloc_apply.ml" 98 4456 4472
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t ->
+  Types.ty * Interference_graph.ivar list ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+ident(
+  def add_to_map "obc/transformations/memalloc_apply.ml" 113 4917 4919 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4474 "obc/transformations/memalloc_apply.ml" 98 4456 4477
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 98 4456 4489 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4479 "obc/transformations/memalloc_apply.ml" 98 4456 4487
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def mutables "obc/transformations/memalloc_apply.ml" 98 4456 4489 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4473 "obc/transformations/memalloc_apply.ml" 98 4456 4488
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4490 "obc/transformations/memalloc_apply.ml" 98 4456 4492
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/transformations/memalloc_apply.ml" 99 4499 4503 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4494 "obc/transformations/memalloc_apply.ml" 98 4456 4495
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 99 4499 4503 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4489 "obc/transformations/memalloc_apply.ml" 98 4456 4496
+type(
+  Types.ty * Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4507 "obc/transformations/memalloc_apply.ml" 99 4499 4511
+type(
+  Obc.pattern
+)
+ident(
+  def repr "obc/transformations/memalloc_apply.ml" 100 4568 4572 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4514 "obc/transformations/memalloc_apply.ml" 99 4499 4535
+type(
+  Obc.pattern Idents.Env.t ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Types.ty -> Interference_graph.ivar list -> Obc.pattern
+)
+ident(
+  int_ref choose_representative "obc/transformations/memalloc_apply.ml" 77 3443 3447 "obc/transformations/memalloc_apply.ml" 77 3443 3468
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4536 "obc/transformations/memalloc_apply.ml" 99 4499 4539
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 98 4456 4474 "obc/transformations/memalloc_apply.ml" 98 4456 4477
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4540 "obc/transformations/memalloc_apply.ml" 99 4499 4546
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref inputs "obc/transformations/memalloc_apply.ml" 97 4399 4422 "obc/transformations/memalloc_apply.ml" 97 4399 4428
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4547 "obc/transformations/memalloc_apply.ml" 99 4499 4554
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref outputs "obc/transformations/memalloc_apply.ml" 97 4399 4429 "obc/transformations/memalloc_apply.ml" 97 4399 4436
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4555 "obc/transformations/memalloc_apply.ml" 99 4499 4559
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 97 4399 4437 "obc/transformations/memalloc_apply.ml" 97 4399 4441
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4560 "obc/transformations/memalloc_apply.ml" 99 4499 4562
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/transformations/memalloc_apply.ml" 98 4456 4490 "obc/transformations/memalloc_apply.ml" 98 4456 4492
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4563 "obc/transformations/memalloc_apply.ml" 99 4499 4564
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 98 4456 4494 "obc/transformations/memalloc_apply.ml" 98 4456 4495
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4514 "obc/transformations/memalloc_apply.ml" 99 4499 4564
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4576 "obc/transformations/memalloc_apply.ml" 100 4568 4579
+type(
+  'a -> 'a Idents.Env.t -> Interference_graph.ivar -> 'a Idents.Env.t
+)
+ident(
+  def add "obc/transformations/memalloc_apply.ml" 104 4669 4673 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4580 "obc/transformations/memalloc_apply.ml" 100 4568 4584
+type(
+  'a
+)
+ident(
+  def repr "obc/transformations/memalloc_apply.ml" 100 4568 4585 "obc/transformations/memalloc_apply.ml" 102 4645 4661
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4585 "obc/transformations/memalloc_apply.ml" 100 4568 4588
+type(
+  'a Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 100 4568 4589 "obc/transformations/memalloc_apply.ml" 102 4645 4661
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4589 "obc/transformations/memalloc_apply.ml" 100 4568 4591
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 100 4568 4594 "obc/transformations/memalloc_apply.ml" 102 4645 4661
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4600 "obc/transformations/memalloc_apply.ml" 100 4568 4602
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 100 4568 4589 "obc/transformations/memalloc_apply.ml" 100 4568 4591
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4621 "obc/transformations/memalloc_apply.ml" 101 4608 4622
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 101 4608 4626 "obc/transformations/memalloc_apply.ml" 101 4608 4644
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4616 "obc/transformations/memalloc_apply.ml" 101 4608 4622
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4626 "obc/transformations/memalloc_apply.ml" 101 4608 4633
+type(
+  Idents.Env.key -> 'a -> 'a Idents.Env.t -> 'a Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4634 "obc/transformations/memalloc_apply.ml" 101 4608 4635
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 101 4608 4621 "obc/transformations/memalloc_apply.ml" 101 4608 4622
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4636 "obc/transformations/memalloc_apply.ml" 101 4608 4640
+type(
+  'a
+)
+ident(
+  int_ref repr "obc/transformations/memalloc_apply.ml" 100 4568 4580 "obc/transformations/memalloc_apply.ml" 100 4568 4584
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4641 "obc/transformations/memalloc_apply.ml" 101 4608 4644
+type(
+  'a Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 100 4568 4585 "obc/transformations/memalloc_apply.ml" 100 4568 4588
+)
+"obc/transformations/memalloc_apply.ml" 101 4608 4626 "obc/transformations/memalloc_apply.ml" 101 4608 4644
+call(
+  tail
+)
+type(
+  'a Idents.Env.t
+)
+"obc/transformations/memalloc_apply.ml" 102 4645 4653 "obc/transformations/memalloc_apply.ml" 102 4645 4654
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 102 4645 4658 "obc/transformations/memalloc_apply.ml" 102 4645 4661
+type(
+  'a Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 100 4568 4585 "obc/transformations/memalloc_apply.ml" 100 4568 4588
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4594 "obc/transformations/memalloc_apply.ml" 102 4645 4661
+type(
+  'a Idents.Env.t
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4677 "obc/transformations/memalloc_apply.ml" 104 4669 4680
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 105 4718 4722 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4683 "obc/transformations/memalloc_apply.ml" 104 4669 4697
+type(
+  (Obc.pattern Idents.Env.t ->
+   Interference_graph.ivar -> Obc.pattern Idents.Env.t) ->
+  Obc.pattern Idents.Env.t ->
+  Interference_graph.ivar list -> Obc.pattern Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4699 "obc/transformations/memalloc_apply.ml" 104 4669 4702
+type(
+  Obc.pattern ->
+  Obc.pattern Idents.Env.t ->
+  Interference_graph.ivar -> Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref add "obc/transformations/memalloc_apply.ml" 100 4568 4576 "obc/transformations/memalloc_apply.ml" 100 4568 4579
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4703 "obc/transformations/memalloc_apply.ml" 104 4669 4707
+type(
+  Obc.pattern
+)
+ident(
+  int_ref repr "obc/transformations/memalloc_apply.ml" 99 4499 4507 "obc/transformations/memalloc_apply.ml" 99 4499 4511
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4698 "obc/transformations/memalloc_apply.ml" 104 4669 4708
+call(
+  stack
+)
+type(
+  Obc.pattern Idents.Env.t ->
+  Interference_graph.ivar -> Obc.pattern Idents.Env.t
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4709 "obc/transformations/memalloc_apply.ml" 104 4669 4712
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 98 4456 4474 "obc/transformations/memalloc_apply.ml" 98 4456 4477
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4713 "obc/transformations/memalloc_apply.ml" 104 4669 4714
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 98 4456 4494 "obc/transformations/memalloc_apply.ml" 98 4456 4495
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4683 "obc/transformations/memalloc_apply.ml" 104 4669 4714
+call(
+  stack
+)
+type(
+  Obc.pattern Idents.Env.t
+)
+"obc/transformations/memalloc_apply.ml" 105 4718 4726 "obc/transformations/memalloc_apply.ml" 105 4718 4734
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def mutables "obc/transformations/memalloc_apply.ml" 111 4894 4898 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4747 "obc/transformations/memalloc_apply.ml" 106 4737 4758
+type(
+  Interference_graph.ivar list -> int
+)
+ident(
+  ext_ref List.length
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4759 "obc/transformations/memalloc_apply.ml" 106 4737 4760
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 98 4456 4494 "obc/transformations/memalloc_apply.ml" 98 4456 4495
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4747 "obc/transformations/memalloc_apply.ml" 106 4737 4760
+call(
+  stack
+)
+type(
+  int
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4761 "obc/transformations/memalloc_apply.ml" 106 4737 4762
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4763 "obc/transformations/memalloc_apply.ml" 106 4737 4764
+type(
+  int
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4746 "obc/transformations/memalloc_apply.ml" 106 4737 4765
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4766 "obc/transformations/memalloc_apply.ml" 106 4737 4768
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4770 "obc/transformations/memalloc_apply.ml" 106 4737 4778
+type(
+  Interference_graph.ivar -> Interference_graph.ivar list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4786 "obc/transformations/memalloc_apply.ml" 106 4737 4794
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  ext_ref Obc_utils.var_name
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4795 "obc/transformations/memalloc_apply.ml" 106 4737 4799
+type(
+  Obc.pattern
+)
+ident(
+  int_ref repr "obc/transformations/memalloc_apply.ml" 99 4499 4507 "obc/transformations/memalloc_apply.ml" 99 4499 4511
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4785 "obc/transformations/memalloc_apply.ml" 106 4737 4800
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4779 "obc/transformations/memalloc_apply.ml" 106 4737 4801
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4802 "obc/transformations/memalloc_apply.ml" 106 4737 4806
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 97 4399 4437 "obc/transformations/memalloc_apply.ml" 97 4399 4441
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4769 "obc/transformations/memalloc_apply.ml" 106 4737 4807
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4746 "obc/transformations/memalloc_apply.ml" 106 4737 4807
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4821 "obc/transformations/memalloc_apply.ml" 107 4813 4833
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4835 "obc/transformations/memalloc_apply.ml" 107 4813 4843
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  ext_ref Obc_utils.var_name
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4844 "obc/transformations/memalloc_apply.ml" 107 4813 4848
+type(
+  Obc.pattern
+)
+ident(
+  int_ref repr "obc/transformations/memalloc_apply.ml" 99 4499 4507 "obc/transformations/memalloc_apply.ml" 99 4499 4511
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4834 "obc/transformations/memalloc_apply.ml" 107 4813 4849
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4850 "obc/transformations/memalloc_apply.ml" 107 4813 4858
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 98 4456 4479 "obc/transformations/memalloc_apply.ml" 98 4456 4487
+)
+"obc/transformations/memalloc_apply.ml" 107 4813 4821 "obc/transformations/memalloc_apply.ml" 107 4813 4858
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 109 4870 4878 "obc/transformations/memalloc_apply.ml" 109 4870 4886
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 98 4456 4479 "obc/transformations/memalloc_apply.ml" 98 4456 4487
+)
+"obc/transformations/memalloc_apply.ml" 106 4737 4743 "obc/transformations/memalloc_apply.ml" 109 4870 4886
+type(
+  Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 111 4894 4898 "obc/transformations/memalloc_apply.ml" 111 4894 4901
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 104 4669 4677 "obc/transformations/memalloc_apply.ml" 104 4669 4680
+)
+"obc/transformations/memalloc_apply.ml" 111 4894 4903 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 105 4718 4726 "obc/transformations/memalloc_apply.ml" 105 4718 4734
+)
+"obc/transformations/memalloc_apply.ml" 111 4894 4898 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 105 4718 4722 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 104 4669 4673 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 100 4568 4572 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 99 4499 4503 "obc/transformations/memalloc_apply.ml" 111 4894 4911
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4919 "obc/transformations/memalloc_apply.ml" 113 4917 4933
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t ->
+   Types.ty * Interference_graph.ivar list ->
+   Obc.pattern Idents.Env.t * Idents.IdentSet.t) ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4934 "obc/transformations/memalloc_apply.ml" 113 4917 4944
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t ->
+  Types.ty * Interference_graph.ivar list ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+ident(
+  int_ref add_to_map "obc/transformations/memalloc_apply.ml" 98 4456 4462 "obc/transformations/memalloc_apply.ml" 98 4456 4472
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4946 "obc/transformations/memalloc_apply.ml" 113 4917 4955
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4957 "obc/transformations/memalloc_apply.ml" 113 4917 4971
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4945 "obc/transformations/memalloc_apply.ml" 113 4917 4972
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4973 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  int_ref subst_lists "obc/transformations/memalloc_apply.ml" 97 4399 4442 "obc/transformations/memalloc_apply.ml" 97 4399 4453
+)
+"obc/transformations/memalloc_apply.ml" 113 4917 4919 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+call(
+  tail
+)
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 98 4456 4458 "obc/transformations/memalloc_apply.ml" 113 4917 4984
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 4994 "obc/transformations/memalloc_apply.ml" 115 4986 4997
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.pattern -> Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  def lhs "obc/transformations/memalloc_apply.ml" 115 4986 4986 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 4998 "obc/transformations/memalloc_apply.ml" 115 4986 5002
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/memalloc_apply.ml" 115 4986 5003 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5009 "obc/transformations/memalloc_apply.ml" 115 4986 5012
+type(
+  'a
+)
+ident(
+  def mut "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5014 "obc/transformations/memalloc_apply.ml" 115 4986 5015
+type(
+  'b
+)
+ident(
+  def j "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5003 "obc/transformations/memalloc_apply.ml" 115 4986 5016
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 115 4986 5021 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5027 "obc/transformations/memalloc_apply.ml" 115 4986 5028
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5027 "obc/transformations/memalloc_apply.ml" 115 4986 5037
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5052 "obc/transformations/memalloc_apply.ml" 116 5043 5053
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5047 "obc/transformations/memalloc_apply.ml" 116 5043 5053
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5057 "obc/transformations/memalloc_apply.ml" 116 5043 5058
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5061 "obc/transformations/memalloc_apply.ml" 116 5043 5064
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5066 "obc/transformations/memalloc_apply.ml" 116 5043 5069
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 115 4986 5009 "obc/transformations/memalloc_apply.ml" 115 4986 5012
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5071 "obc/transformations/memalloc_apply.ml" 116 5043 5072
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 115 4986 5014 "obc/transformations/memalloc_apply.ml" 115 4986 5015
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5060 "obc/transformations/memalloc_apply.ml" 116 5043 5073
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 116 5043 5057 "obc/transformations/memalloc_apply.ml" 116 5043 5073
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5085 "obc/transformations/memalloc_apply.ml" 117 5074 5086
+type(
+  Obc.exp
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5078 "obc/transformations/memalloc_apply.ml" 117 5074 5086
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5096 "obc/transformations/memalloc_apply.ml" 117 5074 5097
+type(
+  Names.field_name
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5089 "obc/transformations/memalloc_apply.ml" 117 5074 5097
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5078 "obc/transformations/memalloc_apply.ml" 117 5074 5097
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5101 "obc/transformations/memalloc_apply.ml" 117 5074 5116
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.pattern -> Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  ext_ref Obc_mapfold.lhs
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5117 "obc/transformations/memalloc_apply.ml" 117 5074 5121
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 115 4986 4998 "obc/transformations/memalloc_apply.ml" 115 4986 5002
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5123 "obc/transformations/memalloc_apply.ml" 117 5074 5126
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5128 "obc/transformations/memalloc_apply.ml" 117 5074 5131
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 115 4986 5009 "obc/transformations/memalloc_apply.ml" 115 4986 5012
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5133 "obc/transformations/memalloc_apply.ml" 117 5074 5134
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 115 4986 5014 "obc/transformations/memalloc_apply.ml" 115 4986 5015
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5122 "obc/transformations/memalloc_apply.ml" 117 5074 5135
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5136 "obc/transformations/memalloc_apply.ml" 117 5074 5137
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 117 5074 5101 "obc/transformations/memalloc_apply.ml" 117 5074 5137
+call(
+  tail
+)
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 118 5138 5151 "obc/transformations/memalloc_apply.ml" 118 5138 5152
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 118 5138 5142 "obc/transformations/memalloc_apply.ml" 118 5138 5152
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 120 5194 5202 "obc/transformations/memalloc_apply.ml" 120 5194 5204
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "obc/transformations/memalloc_apply.ml" 121 5224 5228 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 120 5194 5207 "obc/transformations/memalloc_apply.ml" 120 5194 5218
+type(
+  Obc.pattern -> Interference_graph.ivar
+)
+ident(
+  int_ref ivar_of_pat "obc/transformations/memalloc_apply.ml" 44 2308 2316 "obc/transformations/memalloc_apply.ml" 44 2308 2327
+)
+"obc/transformations/memalloc_apply.ml" 120 5194 5219 "obc/transformations/memalloc_apply.ml" 120 5194 5220
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 120 5194 5207 "obc/transformations/memalloc_apply.ml" 120 5194 5220
+call(
+  stack
+)
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5232 "obc/transformations/memalloc_apply.ml" 121 5224 5240
+type(
+  Obc.pat_desc
+)
+ident(
+  def lhs_desc "obc/transformations/memalloc_apply.ml" 123 5351 5355 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5243 "obc/transformations/memalloc_apply.ml" 121 5224 5257
+type(
+  Obc.pattern Idents.Env.t -> Interference_graph.ivar -> Obc.pat_desc
+)
+ident(
+  int_ref repr_from_ivar "obc/transformations/memalloc_apply.ml" 54 2594 2602 "obc/transformations/memalloc_apply.ml" 54 2594 2616
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5258 "obc/transformations/memalloc_apply.ml" 121 5224 5261
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5262 "obc/transformations/memalloc_apply.ml" 121 5224 5264
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "obc/transformations/memalloc_apply.ml" 120 5194 5202 "obc/transformations/memalloc_apply.ml" 120 5194 5204
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5243 "obc/transformations/memalloc_apply.ml" 121 5224 5264
+call(
+  stack
+)
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 123 5351 5359 "obc/transformations/memalloc_apply.ml" 123 5351 5367
+type(
+  Obc.pat_desc
+)
+ident(
+  def lhs_desc "obc/transformations/memalloc_apply.ml" 131 5581 5585 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+)
+"obc/transformations/memalloc_apply.ml" 124 5370 5382 "obc/transformations/memalloc_apply.ml" 124 5370 5390
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref lhs_desc "obc/transformations/memalloc_apply.ml" 121 5224 5232 "obc/transformations/memalloc_apply.ml" 121 5224 5240
+)
+"obc/transformations/memalloc_apply.ml" 125 5396 5413 "obc/transformations/memalloc_apply.ml" 125 5396 5414
+type(
+  Names.field_name
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 125 5396 5406 "obc/transformations/memalloc_apply.ml" 125 5396 5414
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5432 "obc/transformations/memalloc_apply.ml" 126 5418 5436
+type(
+  Obc.pattern
+)
+ident(
+  def newl "obc/transformations/memalloc_apply.ml" 127 5471 5481 "obc/transformations/memalloc_apply.ml" 128 5526 5549
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5439 "obc/transformations/memalloc_apply.ml" 126 5418 5449
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5450 "obc/transformations/memalloc_apply.ml" 126 5418 5451
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5450 "obc/transformations/memalloc_apply.ml" 126 5418 5458
+type(
+  Types.ty
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5459 "obc/transformations/memalloc_apply.ml" 126 5418 5467
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref lhs_desc "obc/transformations/memalloc_apply.ml" 121 5224 5232 "obc/transformations/memalloc_apply.ml" 121 5224 5240
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5439 "obc/transformations/memalloc_apply.ml" 126 5418 5467
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5485 "obc/transformations/memalloc_apply.ml" 127 5471 5489
+type(
+  Obc.pattern
+)
+ident(
+  def newl "obc/transformations/memalloc_apply.ml" 128 5526 5536 "obc/transformations/memalloc_apply.ml" 128 5526 5549
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5491 "obc/transformations/memalloc_apply.ml" 127 5471 5492
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5485 "obc/transformations/memalloc_apply.ml" 127 5471 5492
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5495 "obc/transformations/memalloc_apply.ml" 127 5471 5498
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.pattern -> Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 115 4986 4994 "obc/transformations/memalloc_apply.ml" 115 4986 4997
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5499 "obc/transformations/memalloc_apply.ml" 127 5471 5503
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 115 4986 4998 "obc/transformations/memalloc_apply.ml" 115 4986 5002
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5505 "obc/transformations/memalloc_apply.ml" 127 5471 5508
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5510 "obc/transformations/memalloc_apply.ml" 127 5471 5513
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 115 4986 5009 "obc/transformations/memalloc_apply.ml" 115 4986 5012
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5515 "obc/transformations/memalloc_apply.ml" 127 5471 5516
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 115 4986 5014 "obc/transformations/memalloc_apply.ml" 115 4986 5015
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5504 "obc/transformations/memalloc_apply.ml" 127 5471 5517
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5518 "obc/transformations/memalloc_apply.ml" 127 5471 5522
+type(
+  Obc.pattern
+)
+ident(
+  int_ref newl "obc/transformations/memalloc_apply.ml" 126 5418 5432 "obc/transformations/memalloc_apply.ml" 126 5418 5436
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5495 "obc/transformations/memalloc_apply.ml" 127 5471 5522
+call(
+  stack
+)
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 128 5526 5536 "obc/transformations/memalloc_apply.ml" 128 5526 5540
+type(
+  Obc.pattern
+)
+ident(
+  int_ref newl "obc/transformations/memalloc_apply.ml" 127 5471 5485 "obc/transformations/memalloc_apply.ml" 127 5471 5489
+)
+"obc/transformations/memalloc_apply.ml" 128 5526 5536 "obc/transformations/memalloc_apply.ml" 128 5526 5549
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 127 5471 5481 "obc/transformations/memalloc_apply.ml" 128 5526 5549
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 126 5418 5428 "obc/transformations/memalloc_apply.ml" 128 5526 5549
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 129 5550 5560 "obc/transformations/memalloc_apply.ml" 129 5550 5561
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 129 5550 5565 "obc/transformations/memalloc_apply.ml" 129 5550 5573
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref lhs_desc "obc/transformations/memalloc_apply.ml" 121 5224 5232 "obc/transformations/memalloc_apply.ml" 121 5224 5240
+)
+"obc/transformations/memalloc_apply.ml" 124 5370 5376 "obc/transformations/memalloc_apply.ml" 129 5550 5573
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5587 "obc/transformations/memalloc_apply.ml" 131 5581 5588
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 115 4986 5017 "obc/transformations/memalloc_apply.ml" 115 4986 5018
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5605 "obc/transformations/memalloc_apply.ml" 131 5581 5613
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref lhs_desc "obc/transformations/memalloc_apply.ml" 123 5351 5359 "obc/transformations/memalloc_apply.ml" 123 5351 5367
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5585 "obc/transformations/memalloc_apply.ml" 131 5581 5615
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5618 "obc/transformations/memalloc_apply.ml" 131 5581 5621
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 115 4986 5004 "obc/transformations/memalloc_apply.ml" 115 4986 5007
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5623 "obc/transformations/memalloc_apply.ml" 131 5581 5626
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 115 4986 5009 "obc/transformations/memalloc_apply.ml" 115 4986 5012
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5628 "obc/transformations/memalloc_apply.ml" 131 5581 5629
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 115 4986 5014 "obc/transformations/memalloc_apply.ml" 115 4986 5015
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5617 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 131 5581 5585 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 123 5351 5355 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 121 5224 5228 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 120 5194 5198 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 115 4986 5021 "obc/transformations/memalloc_apply.ml" 131 5581 5630
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5636 "obc/transformations/memalloc_apply.ml" 133 5632 5644
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.ext_value -> Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  def extvalue "obc/transformations/memalloc_apply.ml" 143 6040 6040 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5645 "obc/transformations/memalloc_apply.ml" 133 5632 5649
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/memalloc_apply.ml" 133 5632 5650 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5651 "obc/transformations/memalloc_apply.ml" 133 5632 5654
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5656 "obc/transformations/memalloc_apply.ml" 133 5632 5659
+type(
+  'a
+)
+ident(
+  def mut "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5661 "obc/transformations/memalloc_apply.ml" 133 5632 5662
+type(
+  'b
+)
+ident(
+  def j "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5650 "obc/transformations/memalloc_apply.ml" 133 5632 5663
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 133 5632 5665
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/memalloc_apply.ml" 133 5632 5668 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5674 "obc/transformations/memalloc_apply.ml" 133 5632 5675
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 133 5632 5665
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5674 "obc/transformations/memalloc_apply.ml" 133 5632 5682
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5697 "obc/transformations/memalloc_apply.ml" 134 5688 5698
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5692 "obc/transformations/memalloc_apply.ml" 134 5688 5698
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5708 "obc/transformations/memalloc_apply.ml" 134 5688 5709
+type(
+  Types.static_exp
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5701 "obc/transformations/memalloc_apply.ml" 134 5688 5709
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5692 "obc/transformations/memalloc_apply.ml" 134 5688 5709
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5713 "obc/transformations/memalloc_apply.ml" 134 5688 5714
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 133 5632 5665
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5717 "obc/transformations/memalloc_apply.ml" 134 5688 5720
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 133 5632 5651 "obc/transformations/memalloc_apply.ml" 133 5632 5654
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5722 "obc/transformations/memalloc_apply.ml" 134 5688 5725
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 133 5632 5656 "obc/transformations/memalloc_apply.ml" 133 5632 5659
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5727 "obc/transformations/memalloc_apply.ml" 134 5688 5728
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 133 5632 5661 "obc/transformations/memalloc_apply.ml" 133 5632 5662
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5716 "obc/transformations/memalloc_apply.ml" 134 5688 5729
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 134 5688 5713 "obc/transformations/memalloc_apply.ml" 134 5688 5729
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5741 "obc/transformations/memalloc_apply.ml" 135 5730 5742
+type(
+  Obc.exp
+)
+type(
+  Obc.ext_value
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5734 "obc/transformations/memalloc_apply.ml" 135 5730 5742
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5752 "obc/transformations/memalloc_apply.ml" 135 5730 5753
+type(
+  Names.field_name
+)
+type(
+  Obc.ext_value
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5745 "obc/transformations/memalloc_apply.ml" 135 5730 5753
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5734 "obc/transformations/memalloc_apply.ml" 135 5730 5753
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5757 "obc/transformations/memalloc_apply.ml" 135 5730 5777
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.ext_value -> Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  ext_ref Obc_mapfold.extvalue
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5778 "obc/transformations/memalloc_apply.ml" 135 5730 5782
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 133 5632 5645 "obc/transformations/memalloc_apply.ml" 133 5632 5649
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5784 "obc/transformations/memalloc_apply.ml" 135 5730 5787
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 133 5632 5651 "obc/transformations/memalloc_apply.ml" 133 5632 5654
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5789 "obc/transformations/memalloc_apply.ml" 135 5730 5792
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 133 5632 5656 "obc/transformations/memalloc_apply.ml" 133 5632 5659
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5794 "obc/transformations/memalloc_apply.ml" 135 5730 5795
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 133 5632 5661 "obc/transformations/memalloc_apply.ml" 133 5632 5662
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5783 "obc/transformations/memalloc_apply.ml" 135 5730 5796
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5797 "obc/transformations/memalloc_apply.ml" 135 5730 5798
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 133 5632 5665
+)
+"obc/transformations/memalloc_apply.ml" 135 5730 5757 "obc/transformations/memalloc_apply.ml" 135 5730 5798
+call(
+  tail
+)
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 136 5799 5808 "obc/transformations/memalloc_apply.ml" 136 5799 5809
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 138 5851 5855 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 136 5799 5803 "obc/transformations/memalloc_apply.ml" 136 5799 5809
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5859 "obc/transformations/memalloc_apply.ml" 138 5851 5862
+type(
+  Obc.pattern
+)
+ident(
+  def lhs "obc/transformations/memalloc_apply.ml" 140 5945 5949 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5864 "obc/transformations/memalloc_apply.ml" 138 5851 5865
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5859 "obc/transformations/memalloc_apply.ml" 138 5851 5865
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5868 "obc/transformations/memalloc_apply.ml" 138 5851 5871
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * 'a * 'b ->
+  Obc.pattern -> Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 115 4986 4994 "obc/transformations/memalloc_apply.ml" 115 4986 4997
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5872 "obc/transformations/memalloc_apply.ml" 138 5851 5876
+type(
+  (Obc.pattern Idents.Env.t * 'a * 'b) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 133 5632 5645 "obc/transformations/memalloc_apply.ml" 133 5632 5649
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5878 "obc/transformations/memalloc_apply.ml" 138 5851 5881
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 133 5632 5651 "obc/transformations/memalloc_apply.ml" 133 5632 5654
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5883 "obc/transformations/memalloc_apply.ml" 138 5851 5886
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 133 5632 5656 "obc/transformations/memalloc_apply.ml" 133 5632 5659
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5888 "obc/transformations/memalloc_apply.ml" 138 5851 5889
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 133 5632 5661 "obc/transformations/memalloc_apply.ml" 133 5632 5662
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5877 "obc/transformations/memalloc_apply.ml" 138 5851 5890
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 139 5891 5898 "obc/transformations/memalloc_apply.ml" 139 5891 5908
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/memalloc_apply.ml" 139 5891 5909 "obc/transformations/memalloc_apply.ml" 139 5891 5927
+type(
+  Types.ty
+)
+ident(
+  ext_ref Types.invalid_type
+)
+"obc/transformations/memalloc_apply.ml" 139 5891 5938 "obc/transformations/memalloc_apply.ml" 139 5891 5939
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 136 5799 5808 "obc/transformations/memalloc_apply.ml" 136 5799 5809
+)
+"obc/transformations/memalloc_apply.ml" 139 5891 5928 "obc/transformations/memalloc_apply.ml" 139 5891 5940
+type(
+  Obc.pat_desc
+)
+"obc/transformations/memalloc_apply.ml" 139 5891 5897 "obc/transformations/memalloc_apply.ml" 139 5891 5941
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5868 "obc/transformations/memalloc_apply.ml" 139 5891 5941
+call(
+  stack
+)
+type(
+  Obc.pattern * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 140 5945 5953 "obc/transformations/memalloc_apply.ml" 140 5945 5957
+type(
+  Obc.ext_value
+)
+ident(
+  def neww "obc/transformations/memalloc_apply.ml" 141 5988 5992 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+)
+"obc/transformations/memalloc_apply.ml" 140 5945 5960 "obc/transformations/memalloc_apply.ml" 140 5945 5980
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  ext_ref Obc_utils.ext_value_of_pattern
+)
+"obc/transformations/memalloc_apply.ml" 140 5945 5981 "obc/transformations/memalloc_apply.ml" 140 5945 5984
+type(
+  Obc.pattern
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 138 5851 5859 "obc/transformations/memalloc_apply.ml" 138 5851 5862
+)
+"obc/transformations/memalloc_apply.ml" 140 5945 5960 "obc/transformations/memalloc_apply.ml" 140 5945 5984
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 5994 "obc/transformations/memalloc_apply.ml" 141 5988 5995
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/memalloc_apply.ml" 133 5632 5664 "obc/transformations/memalloc_apply.ml" 133 5632 5665
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6010 "obc/transformations/memalloc_apply.ml" 141 5988 6014
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref neww "obc/transformations/memalloc_apply.ml" 140 5945 5953 "obc/transformations/memalloc_apply.ml" 140 5945 5957
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6010 "obc/transformations/memalloc_apply.ml" 141 5988 6021
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 5992 "obc/transformations/memalloc_apply.ml" 141 5988 6023
+type(
+  Obc.ext_value
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6026 "obc/transformations/memalloc_apply.ml" 141 5988 6029
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 133 5632 5651 "obc/transformations/memalloc_apply.ml" 133 5632 5654
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6031 "obc/transformations/memalloc_apply.ml" 141 5988 6034
+type(
+  'a
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 133 5632 5656 "obc/transformations/memalloc_apply.ml" 133 5632 5659
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6036 "obc/transformations/memalloc_apply.ml" 141 5988 6037
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 133 5632 5661 "obc/transformations/memalloc_apply.ml" 133 5632 5662
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 6025 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+type(
+  Obc.pattern Idents.Env.t * 'a * 'b
+)
+"obc/transformations/memalloc_apply.ml" 141 5988 5992 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 140 5945 5949 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 138 5851 5855 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 133 5632 5668 "obc/transformations/memalloc_apply.ml" 141 5988 6038
+type(
+  Obc.ext_value * (Obc.pattern Idents.Env.t * 'a * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6044 "obc/transformations/memalloc_apply.ml" 143 6040 6047
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs ->
+  'a * 'b * Obc.obj_dec list ->
+  Obc.act -> Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+ident(
+  def act "obc/transformations/memalloc_apply.ml" 153 6590 6590 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6048 "obc/transformations/memalloc_apply.ml" 143 6040 6052
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/memalloc_apply.ml" 143 6040 6053 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6054 "obc/transformations/memalloc_apply.ml" 143 6040 6057
+type(
+  'a
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 143 6040 6065 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6058 "obc/transformations/memalloc_apply.ml" 143 6040 6061
+type(
+  'b
+)
+ident(
+  def mut "obc/transformations/memalloc_apply.ml" 143 6040 6065 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6062 "obc/transformations/memalloc_apply.ml" 143 6040 6063
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/transformations/memalloc_apply.ml" 143 6040 6065 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6053 "obc/transformations/memalloc_apply.ml" 143 6040 6064
+type(
+  'a * 'b * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6065 "obc/transformations/memalloc_apply.ml" 143 6040 6066
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/memalloc_apply.ml" 143 6040 6069 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6075 "obc/transformations/memalloc_apply.ml" 143 6040 6076
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/memalloc_apply.ml" 143 6040 6065 "obc/transformations/memalloc_apply.ml" 143 6040 6066
+)
+"obc/transformations/memalloc_apply.ml" 144 6082 6092 "obc/transformations/memalloc_apply.ml" 144 6082 6095
+type(
+  Obc.pattern list
+)
+ident(
+  def pat "obc/transformations/memalloc_apply.ml" 145 6118 6124 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 144 6082 6097 "obc/transformations/memalloc_apply.ml" 144 6082 6098
+type(
+  Obc.obj_ref
+)
+ident(
+  def o "obc/transformations/memalloc_apply.ml" 145 6118 6124 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 144 6082 6100 "obc/transformations/memalloc_apply.ml" 144 6082 6105
+type(
+  Obc.method_name
+)
+"obc/transformations/memalloc_apply.ml" 144 6082 6107 "obc/transformations/memalloc_apply.ml" 144 6082 6113
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/transformations/memalloc_apply.ml" 145 6118 6124 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 144 6082 6086 "obc/transformations/memalloc_apply.ml" 144 6082 6114
+type(
+  Obc.act
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6128 "obc/transformations/memalloc_apply.ml" 145 6118 6132
+type(
+  Signature.node
+)
+ident(
+  def desc "obc/transformations/memalloc_apply.ml" 146 6176 6182 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6135 "obc/transformations/memalloc_apply.ml" 145 6118 6153
+type(
+  Obc.obj_ident -> Obc.obj_dec list -> Signature.node
+)
+ident(
+  ext_ref Obc_utils.find_obj
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6155 "obc/transformations/memalloc_apply.ml" 145 6118 6167
+type(
+  Obc.obj_ref -> Obc.obj_ident
+)
+ident(
+  ext_ref Obc_utils.obj_ref_name
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6168 "obc/transformations/memalloc_apply.ml" 145 6118 6169
+type(
+  Obc.obj_ref
+)
+ident(
+  int_ref o "obc/transformations/memalloc_apply.ml" 144 6082 6097 "obc/transformations/memalloc_apply.ml" 144 6082 6098
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6154 "obc/transformations/memalloc_apply.ml" 145 6118 6170
+call(
+  stack
+)
+type(
+  Obc.obj_ident
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6171 "obc/transformations/memalloc_apply.ml" 145 6118 6172
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 143 6040 6062 "obc/transformations/memalloc_apply.ml" 143 6040 6063
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6135 "obc/transformations/memalloc_apply.ml" 145 6118 6172
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6186 "obc/transformations/memalloc_apply.ml" 146 6176 6192
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/transformations/memalloc_apply.ml" 147 6269 6275 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6195 "obc/transformations/memalloc_apply.ml" 146 6176 6203
+type(
+  (Obc.exp -> Obc.exp) -> Obc.exp list -> Obc.exp list
+)
+ident(
+  ext_ref List.map
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6209 "obc/transformations/memalloc_apply.ml" 146 6176 6210
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/transformations/memalloc_apply.ml" 146 6176 6214 "obc/transformations/memalloc_apply.ml" 146 6176 6257
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6214 "obc/transformations/memalloc_apply.ml" 146 6176 6217
+type(
+  Obc.exp * ('a * 'b * Obc.obj_dec list) -> Obc.exp
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6219 "obc/transformations/memalloc_apply.ml" 146 6176 6237
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs ->
+  'a * 'b * Obc.obj_dec list ->
+  Obc.exp -> Obc.exp * ('a * 'b * Obc.obj_dec list)
+)
+ident(
+  ext_ref Obc_mapfold.exp_it
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6238 "obc/transformations/memalloc_apply.ml" 146 6176 6242
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 143 6040 6048 "obc/transformations/memalloc_apply.ml" 143 6040 6052
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6244 "obc/transformations/memalloc_apply.ml" 146 6176 6247
+type(
+  'a
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 143 6040 6054 "obc/transformations/memalloc_apply.ml" 143 6040 6057
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6248 "obc/transformations/memalloc_apply.ml" 146 6176 6251
+type(
+  'b
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 143 6040 6058 "obc/transformations/memalloc_apply.ml" 143 6040 6061
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6252 "obc/transformations/memalloc_apply.ml" 146 6176 6253
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 143 6040 6062 "obc/transformations/memalloc_apply.ml" 143 6040 6063
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6243 "obc/transformations/memalloc_apply.ml" 146 6176 6254
+type(
+  'a * 'b * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6255 "obc/transformations/memalloc_apply.ml" 146 6176 6256
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/memalloc_apply.ml" 146 6176 6209 "obc/transformations/memalloc_apply.ml" 146 6176 6210
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6218 "obc/transformations/memalloc_apply.ml" 146 6176 6257
+call(
+  stack
+)
+type(
+  Obc.exp * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6214 "obc/transformations/memalloc_apply.ml" 146 6176 6257
+type(
+  Obc.exp
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6204 "obc/transformations/memalloc_apply.ml" 146 6176 6258
+type(
+  Obc.exp -> Obc.exp
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6259 "obc/transformations/memalloc_apply.ml" 146 6176 6265
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/transformations/memalloc_apply.ml" 144 6082 6107 "obc/transformations/memalloc_apply.ml" 144 6082 6113
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6195 "obc/transformations/memalloc_apply.ml" 146 6176 6265
+call(
+  stack
+)
+type(
+  Obc.exp list
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6279 "obc/transformations/memalloc_apply.ml" 147 6269 6286
+type(
+  'c -> Signature.arg -> 'c list -> 'c list
+)
+ident(
+  def fix_pat "obc/transformations/memalloc_apply.ml" 148 6352 6358 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6287 "obc/transformations/memalloc_apply.ml" 147 6269 6288
+type(
+  'c
+)
+ident(
+  def p "obc/transformations/memalloc_apply.ml" 147 6269 6289 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6289 "obc/transformations/memalloc_apply.ml" 147 6269 6290
+type(
+  Signature.arg
+)
+ident(
+  def a "obc/transformations/memalloc_apply.ml" 147 6269 6291 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6291 "obc/transformations/memalloc_apply.ml" 147 6269 6292
+type(
+  'c list
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 147 6269 6295 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6298 "obc/transformations/memalloc_apply.ml" 147 6269 6317
+type(
+  Linearity.linearity -> bool
+)
+ident(
+  ext_ref Linearity.is_linear
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6318 "obc/transformations/memalloc_apply.ml" 147 6269 6319
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "obc/transformations/memalloc_apply.ml" 147 6269 6289 "obc/transformations/memalloc_apply.ml" 147 6269 6290
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6318 "obc/transformations/memalloc_apply.ml" 147 6269 6331
+type(
+  Linearity.linearity
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6298 "obc/transformations/memalloc_apply.ml" 147 6269 6331
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6337 "obc/transformations/memalloc_apply.ml" 147 6269 6338
+type(
+  'c list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 147 6269 6291 "obc/transformations/memalloc_apply.ml" 147 6269 6292
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6344 "obc/transformations/memalloc_apply.ml" 147 6269 6345
+type(
+  'c
+)
+ident(
+  int_ref p "obc/transformations/memalloc_apply.ml" 147 6269 6287 "obc/transformations/memalloc_apply.ml" 147 6269 6288
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6347 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+type(
+  'c list
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 147 6269 6291 "obc/transformations/memalloc_apply.ml" 147 6269 6292
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6344 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+type(
+  'c list
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6295 "obc/transformations/memalloc_apply.ml" 147 6269 6348
+type(
+  'c list
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6362 "obc/transformations/memalloc_apply.ml" 148 6352 6365
+type(
+  Obc.pattern list
+)
+ident(
+  def pat "obc/transformations/memalloc_apply.ml" 149 6421 6427 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6368 "obc/transformations/memalloc_apply.ml" 148 6352 6384
+type(
+  (Obc.pattern -> Signature.arg -> Obc.pattern list -> Obc.pattern list) ->
+  Obc.pattern list ->
+  Signature.arg list -> Obc.pattern list -> Obc.pattern list
+)
+ident(
+  ext_ref List.fold_right2
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6385 "obc/transformations/memalloc_apply.ml" 148 6352 6392
+type(
+  Obc.pattern -> Signature.arg -> Obc.pattern list -> Obc.pattern list
+)
+ident(
+  int_ref fix_pat "obc/transformations/memalloc_apply.ml" 147 6269 6279 "obc/transformations/memalloc_apply.ml" 147 6269 6286
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6393 "obc/transformations/memalloc_apply.ml" 148 6352 6396
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref pat "obc/transformations/memalloc_apply.ml" 144 6082 6092 "obc/transformations/memalloc_apply.ml" 144 6082 6095
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6397 "obc/transformations/memalloc_apply.ml" 148 6352 6401
+type(
+  Signature.node
+)
+ident(
+  int_ref desc "obc/transformations/memalloc_apply.ml" 145 6118 6128 "obc/transformations/memalloc_apply.ml" 145 6118 6132
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6397 "obc/transformations/memalloc_apply.ml" 148 6352 6414
+type(
+  Signature.arg list
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6415 "obc/transformations/memalloc_apply.ml" 148 6352 6417
+type(
+  Obc.pattern list
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6368 "obc/transformations/memalloc_apply.ml" 148 6352 6417
+call(
+  stack
+)
+type(
+  Obc.pattern list
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6431 "obc/transformations/memalloc_apply.ml" 149 6421 6434
+type(
+  Obc.pattern list
+)
+ident(
+  def pat "obc/transformations/memalloc_apply.ml" 150 6508 6516 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6437 "obc/transformations/memalloc_apply.ml" 149 6421 6445
+type(
+  (Obc.pattern -> Obc.pattern) -> Obc.pattern list -> Obc.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6451 "obc/transformations/memalloc_apply.ml" 149 6421 6452
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/transformations/memalloc_apply.ml" 149 6421 6456 "obc/transformations/memalloc_apply.ml" 149 6421 6499
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6456 "obc/transformations/memalloc_apply.ml" 149 6421 6459
+type(
+  Obc.pattern * ('a * 'b * Obc.obj_dec list) -> Obc.pattern
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6461 "obc/transformations/memalloc_apply.ml" 149 6421 6479
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs ->
+  'a * 'b * Obc.obj_dec list ->
+  Obc.pattern -> Obc.pattern * ('a * 'b * Obc.obj_dec list)
+)
+ident(
+  ext_ref Obc_mapfold.lhs_it
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6480 "obc/transformations/memalloc_apply.ml" 149 6421 6484
+type(
+  ('a * 'b * Obc.obj_dec list) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 143 6040 6048 "obc/transformations/memalloc_apply.ml" 143 6040 6052
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6486 "obc/transformations/memalloc_apply.ml" 149 6421 6489
+type(
+  'a
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 143 6040 6054 "obc/transformations/memalloc_apply.ml" 143 6040 6057
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6490 "obc/transformations/memalloc_apply.ml" 149 6421 6493
+type(
+  'b
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 143 6040 6058 "obc/transformations/memalloc_apply.ml" 143 6040 6061
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6494 "obc/transformations/memalloc_apply.ml" 149 6421 6495
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 143 6040 6062 "obc/transformations/memalloc_apply.ml" 143 6040 6063
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6485 "obc/transformations/memalloc_apply.ml" 149 6421 6496
+type(
+  'a * 'b * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6497 "obc/transformations/memalloc_apply.ml" 149 6421 6498
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/transformations/memalloc_apply.ml" 149 6421 6451 "obc/transformations/memalloc_apply.ml" 149 6421 6452
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6460 "obc/transformations/memalloc_apply.ml" 149 6421 6499
+call(
+  stack
+)
+type(
+  Obc.pattern * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6456 "obc/transformations/memalloc_apply.ml" 149 6421 6499
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6446 "obc/transformations/memalloc_apply.ml" 149 6421 6500
+type(
+  Obc.pattern -> Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6501 "obc/transformations/memalloc_apply.ml" 149 6421 6504
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref pat "obc/transformations/memalloc_apply.ml" 148 6352 6362 "obc/transformations/memalloc_apply.ml" 148 6352 6365
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6437 "obc/transformations/memalloc_apply.ml" 149 6421 6504
+call(
+  stack
+)
+type(
+  Obc.pattern list
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6522 "obc/transformations/memalloc_apply.ml" 150 6508 6525
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref pat "obc/transformations/memalloc_apply.ml" 149 6421 6431 "obc/transformations/memalloc_apply.ml" 149 6421 6434
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6527 "obc/transformations/memalloc_apply.ml" 150 6508 6528
+type(
+  Obc.obj_ref
+)
+ident(
+  int_ref o "obc/transformations/memalloc_apply.ml" 144 6082 6097 "obc/transformations/memalloc_apply.ml" 144 6082 6098
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6530 "obc/transformations/memalloc_apply.ml" 150 6508 6535
+type(
+  Obc.method_name
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6537 "obc/transformations/memalloc_apply.ml" 150 6508 6543
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/transformations/memalloc_apply.ml" 146 6176 6186 "obc/transformations/memalloc_apply.ml" 146 6176 6192
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6516 "obc/transformations/memalloc_apply.ml" 150 6508 6544
+type(
+  Obc.act
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6547 "obc/transformations/memalloc_apply.ml" 150 6508 6550
+type(
+  'a
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 143 6040 6054 "obc/transformations/memalloc_apply.ml" 143 6040 6057
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6551 "obc/transformations/memalloc_apply.ml" 150 6508 6554
+type(
+  'b
+)
+ident(
+  int_ref mut "obc/transformations/memalloc_apply.ml" 143 6040 6058 "obc/transformations/memalloc_apply.ml" 143 6040 6061
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6555 "obc/transformations/memalloc_apply.ml" 150 6508 6556
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 143 6040 6062 "obc/transformations/memalloc_apply.ml" 143 6040 6063
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6546 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  'a * 'b * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 150 6508 6516 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 149 6421 6427 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 148 6352 6358 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 147 6269 6275 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 146 6176 6182 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 145 6118 6124 "obc/transformations/memalloc_apply.ml" 150 6508 6557
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 151 6558 6562 "obc/transformations/memalloc_apply.ml" 151 6558 6563
+type(
+  Obc.act
+)
+"obc/transformations/memalloc_apply.ml" 151 6558 6567 "obc/transformations/memalloc_apply.ml" 151 6558 6572
+type(
+  exn -> Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/memalloc_apply.ml" 151 6558 6573 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+type(
+  exn
+)
+"obc/transformations/memalloc_apply.ml" 151 6558 6567 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 143 6040 6069 "obc/transformations/memalloc_apply.ml" 151 6558 6588
+type(
+  Obc.act * ('a * 'b * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6594 "obc/transformations/memalloc_apply.ml" 153 6590 6602
+type(
+  'a ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b ->
+  Obc.var_dec list ->
+  Obc.var_dec list * (Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b)
+)
+ident(
+  def var_decs "obc/transformations/memalloc_apply.ml" 174 7070 7070 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6603 "obc/transformations/memalloc_apply.ml" 153 6590 6604
+type(
+  'a
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6606 "obc/transformations/memalloc_apply.ml" 153 6590 6609
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 153 6590 6623 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6611 "obc/transformations/memalloc_apply.ml" 153 6590 6619
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def mutables "obc/transformations/memalloc_apply.ml" 153 6590 6623 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6620 "obc/transformations/memalloc_apply.ml" 153 6590 6621
+type(
+  'b
+)
+ident(
+  def j "obc/transformations/memalloc_apply.ml" 153 6590 6623 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6605 "obc/transformations/memalloc_apply.ml" 153 6590 6622
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b
+)
+"obc/transformations/memalloc_apply.ml" 153 6590 6623 "obc/transformations/memalloc_apply.ml" 153 6590 6626
+type(
+  Obc.var_dec list
+)
+ident(
+  def vds "obc/transformations/memalloc_apply.ml" 154 6629 6631 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+)
+"obc/transformations/memalloc_apply.ml" 154 6629 6635 "obc/transformations/memalloc_apply.ml" 154 6629 6642
+type(
+  Obc.var_dec -> Obc.var_dec list -> Obc.var_dec list
+)
+ident(
+  def var_dec "obc/transformations/memalloc_apply.ml" 171 7014 7018 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+)
+"obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/memalloc_apply.ml" 154 6629 6646 "obc/transformations/memalloc_apply.ml" 169 6980 7008
+)
+"obc/transformations/memalloc_apply.ml" 154 6629 6646 "obc/transformations/memalloc_apply.ml" 154 6629 6649
+type(
+  Obc.var_dec list
+)
+ident(
+  def acc "obc/transformations/memalloc_apply.ml" 155 6652 6656 "obc/transformations/memalloc_apply.ml" 169 6980 7008
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6670 "obc/transformations/memalloc_apply.ml" 156 6660 6678
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  ext_ref Obc_utils.var_name
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6680 "obc/transformations/memalloc_apply.ml" 156 6660 6688
+type(
+  Idents.Env.key -> Obc.pattern Idents.Env.t -> Obc.pattern
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6689 "obc/transformations/memalloc_apply.ml" 156 6660 6691
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6689 "obc/transformations/memalloc_apply.ml" 156 6660 6699
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6700 "obc/transformations/memalloc_apply.ml" 156 6660 6703
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 153 6590 6606 "obc/transformations/memalloc_apply.ml" 153 6590 6609
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6679 "obc/transformations/memalloc_apply.ml" 156 6660 6704
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6669 "obc/transformations/memalloc_apply.ml" 156 6660 6705
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6706 "obc/transformations/memalloc_apply.ml" 156 6660 6708
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6709 "obc/transformations/memalloc_apply.ml" 156 6660 6711
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6709 "obc/transformations/memalloc_apply.ml" 156 6660 6719
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6669 "obc/transformations/memalloc_apply.ml" 156 6660 6719
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 158 6766 6774 "obc/transformations/memalloc_apply.ml" 158 6766 6777
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref acc "obc/transformations/memalloc_apply.ml" 154 6629 6646 "obc/transformations/memalloc_apply.ml" 154 6629 6649
+)
+"obc/transformations/memalloc_apply.ml" 160 6791 6803 "obc/transformations/memalloc_apply.ml" 160 6791 6805
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/memalloc_apply.ml" 166 6945 6955 "obc/transformations/memalloc_apply.ml" 166 6945 6962
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6821 "obc/transformations/memalloc_apply.ml" 161 6808 6833
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> bool
+)
+ident(
+  ext_ref Idents.IdentSet.mem
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6834 "obc/transformations/memalloc_apply.ml" 161 6808 6836
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6834 "obc/transformations/memalloc_apply.ml" 161 6808 6844
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6845 "obc/transformations/memalloc_apply.ml" 161 6808 6853
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 153 6590 6611 "obc/transformations/memalloc_apply.ml" 153 6590 6619
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6821 "obc/transformations/memalloc_apply.ml" 161 6808 6853
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 162 6861 6875 "obc/transformations/memalloc_apply.ml" 162 6861 6877
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 162 6861 6895 "obc/transformations/memalloc_apply.ml" 162 6861 6899
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6859 "obc/transformations/memalloc_apply.ml" 163 6902 6913
+type(
+  Obc.var_dec
+)
+"obc/transformations/memalloc_apply.ml" 164 6919 6931 "obc/transformations/memalloc_apply.ml" 164 6919 6933
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 161 6808 6818 "obc/transformations/memalloc_apply.ml" 164 6919 6933
+type(
+  Obc.var_dec
+)
+"obc/transformations/memalloc_apply.ml" 166 6945 6955 "obc/transformations/memalloc_apply.ml" 166 6945 6957
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 160 6791 6803 "obc/transformations/memalloc_apply.ml" 160 6791 6805
+)
+"obc/transformations/memalloc_apply.ml" 166 6945 6959 "obc/transformations/memalloc_apply.ml" 166 6945 6962
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref acc "obc/transformations/memalloc_apply.ml" 154 6629 6646 "obc/transformations/memalloc_apply.ml" 154 6629 6649
+)
+"obc/transformations/memalloc_apply.ml" 166 6945 6955 "obc/transformations/memalloc_apply.ml" 166 6945 6962
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 159 6778 6789 "obc/transformations/memalloc_apply.ml" 167 6963 6970
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 156 6660 6666 "obc/transformations/memalloc_apply.ml" 167 6963 6970
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 169 6980 6988 "obc/transformations/memalloc_apply.ml" 169 6980 6997
+type(
+  exn
+)
+"obc/transformations/memalloc_apply.ml" 169 6980 7001 "obc/transformations/memalloc_apply.ml" 169 6980 7003
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 154 6629 6643 "obc/transformations/memalloc_apply.ml" 154 6629 6645
+)
+"obc/transformations/memalloc_apply.ml" 169 6980 7005 "obc/transformations/memalloc_apply.ml" 169 6980 7008
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref acc "obc/transformations/memalloc_apply.ml" 154 6629 6646 "obc/transformations/memalloc_apply.ml" 154 6629 6649
+)
+"obc/transformations/memalloc_apply.ml" 169 6980 7001 "obc/transformations/memalloc_apply.ml" 169 6980 7008
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 155 6652 6656 "obc/transformations/memalloc_apply.ml" 169 6980 7008
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7018 "obc/transformations/memalloc_apply.ml" 171 7014 7033
+type(
+  (Obc.var_dec -> Obc.var_dec list -> Obc.var_dec list) ->
+  Obc.var_dec list -> Obc.var_dec list -> Obc.var_dec list
+)
+ident(
+  ext_ref List.fold_right
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7034 "obc/transformations/memalloc_apply.ml" 171 7014 7041
+type(
+  Obc.var_dec -> Obc.var_dec list -> Obc.var_dec list
+)
+ident(
+  int_ref var_dec "obc/transformations/memalloc_apply.ml" 154 6629 6635 "obc/transformations/memalloc_apply.ml" 154 6629 6642
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7042 "obc/transformations/memalloc_apply.ml" 171 7014 7045
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref vds "obc/transformations/memalloc_apply.ml" 153 6590 6623 "obc/transformations/memalloc_apply.ml" 153 6590 6626
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7046 "obc/transformations/memalloc_apply.ml" 171 7014 7048
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7018 "obc/transformations/memalloc_apply.ml" 171 7014 7048
+call(
+  stack
+)
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7051 "obc/transformations/memalloc_apply.ml" 171 7014 7054
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 153 6590 6606 "obc/transformations/memalloc_apply.ml" 153 6590 6609
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7056 "obc/transformations/memalloc_apply.ml" 171 7014 7064
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 153 6590 6611 "obc/transformations/memalloc_apply.ml" 153 6590 6619
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7065 "obc/transformations/memalloc_apply.ml" 171 7014 7066
+type(
+  'b
+)
+ident(
+  int_ref j "obc/transformations/memalloc_apply.ml" 153 6590 6620 "obc/transformations/memalloc_apply.ml" 153 6590 6621
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7050 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b
+)
+"obc/transformations/memalloc_apply.ml" 171 7014 7018 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+type(
+  Obc.var_dec list * (Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 154 6629 6631 "obc/transformations/memalloc_apply.ml" 171 7014 7067
+type(
+  Obc.var_dec list * (Obc.pattern Idents.Env.t * Idents.IdentSet.t * 'b)
+)
+"obc/transformations/memalloc_apply.ml" 174 7070 7074 "obc/transformations/memalloc_apply.ml" 174 7070 7088
+type(
+  Obc.method_def ->
+  Obc.class_def -> (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  def add_other_vars "obc/transformations/memalloc_apply.ml" 195 7904 7904 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 174 7070 7089 "obc/transformations/memalloc_apply.ml" 174 7070 7091
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/transformations/memalloc_apply.ml" 174 7070 7092 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 174 7070 7092 "obc/transformations/memalloc_apply.ml" 174 7070 7094
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/transformations/memalloc_apply.ml" 175 7097 7099 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7103 "obc/transformations/memalloc_apply.ml" 175 7097 7110
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def add_one "obc/transformations/memalloc_apply.ml" 189 7552 7554 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7112 "obc/transformations/memalloc_apply.ml" 175 7097 7115
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7117 "obc/transformations/memalloc_apply.ml" 175 7097 7123
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def ty_env "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7111 "obc/transformations/memalloc_apply.ml" 175 7097 7124
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/memalloc_apply.ml" 176 7130 7134 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+)
+"obc/transformations/memalloc_apply.ml" 176 7130 7138 "obc/transformations/memalloc_apply.ml" 176 7130 7152
+type(
+  bool
+)
+ident(
+  def should_add_var "obc/transformations/memalloc_apply.ml" 181 7304 7308 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7161 "obc/transformations/memalloc_apply.ml" 177 7155 7170
+type(
+  Linearity.linearity -> bool
+)
+ident(
+  ext_ref Linearity.is_linear
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7171 "obc/transformations/memalloc_apply.ml" 177 7155 7173
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7171 "obc/transformations/memalloc_apply.ml" 177 7155 7185
+type(
+  Linearity.linearity
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7161 "obc/transformations/memalloc_apply.ml" 177 7155 7185
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7186 "obc/transformations/memalloc_apply.ml" 177 7155 7188
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7198 "obc/transformations/memalloc_apply.ml" 178 7189 7201
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7202 "obc/transformations/memalloc_apply.ml" 178 7189 7203
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7203 "obc/transformations/memalloc_apply.ml" 178 7189 7232
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_mem_alloc
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7202 "obc/transformations/memalloc_apply.ml" 178 7189 7232
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7198 "obc/transformations/memalloc_apply.ml" 178 7189 7232
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7242 "obc/transformations/memalloc_apply.ml" 179 7233 7244
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7245 "obc/transformations/memalloc_apply.ml" 179 7233 7248
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7250 "obc/transformations/memalloc_apply.ml" 179 7233 7284
+type(
+  Types.ty -> bool
+)
+ident(
+  ext_ref Interference.World.is_optimized_ty
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7285 "obc/transformations/memalloc_apply.ml" 179 7233 7287
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7285 "obc/transformations/memalloc_apply.ml" 179 7233 7294
+type(
+  Types.ty
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7249 "obc/transformations/memalloc_apply.ml" 179 7233 7295
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 179 7233 7245 "obc/transformations/memalloc_apply.ml" 179 7233 7295
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 178 7189 7197 "obc/transformations/memalloc_apply.ml" 179 7233 7296
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 177 7155 7161 "obc/transformations/memalloc_apply.ml" 179 7233 7296
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 181 7304 7311 "obc/transformations/memalloc_apply.ml" 181 7304 7325
+type(
+  bool
+)
+ident(
+  int_ref should_add_var "obc/transformations/memalloc_apply.ml" 176 7130 7138 "obc/transformations/memalloc_apply.ml" 176 7130 7152
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7341 "obc/transformations/memalloc_apply.ml" 182 7331 7342
+type(
+  Linearity.linearity_var
+)
+ident(
+  def r "obc/transformations/memalloc_apply.ml" 183 7377 7383 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7345 "obc/transformations/memalloc_apply.ml" 182 7331 7358
+type(
+  Linearity.linearity -> Linearity.linearity_var
+)
+ident(
+  ext_ref Linearity.location_name
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7359 "obc/transformations/memalloc_apply.ml" 182 7331 7361
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7359 "obc/transformations/memalloc_apply.ml" 182 7331 7373
+type(
+  Linearity.linearity
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7345 "obc/transformations/memalloc_apply.ml" 182 7331 7373
+call(
+  stack
+)
+type(
+  Linearity.linearity_var
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7387 "obc/transformations/memalloc_apply.ml" 183 7377 7390
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 184 7443 7449 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7393 "obc/transformations/memalloc_apply.ml" 183 7377 7415
+type(
+  LinListEnv.key ->
+  Interference_graph.ivar ->
+  Interference_graph.ivar list LinListEnv.t ->
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  ext_ref LinListEnv.add_element
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7416 "obc/transformations/memalloc_apply.ml" 183 7377 7417
+type(
+  Linearity.linearity_var
+)
+ident(
+  int_ref r "obc/transformations/memalloc_apply.ml" 182 7331 7341 "obc/transformations/memalloc_apply.ml" 182 7331 7342
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7424 "obc/transformations/memalloc_apply.ml" 183 7377 7426
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7424 "obc/transformations/memalloc_apply.ml" 183 7377 7434
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7418 "obc/transformations/memalloc_apply.ml" 183 7377 7435
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7436 "obc/transformations/memalloc_apply.ml" 183 7377 7439
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 175 7097 7112 "obc/transformations/memalloc_apply.ml" 175 7097 7115
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7393 "obc/transformations/memalloc_apply.ml" 183 7377 7439
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7453 "obc/transformations/memalloc_apply.ml" 184 7443 7459
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def ty_env "obc/transformations/memalloc_apply.ml" 185 7500 7508 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7462 "obc/transformations/memalloc_apply.ml" 184 7443 7477
+type(
+  Linearity.LocationEnv.key ->
+  Types.ty ->
+  Types.ty Linearity.LocationEnv.t -> Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref Linearity.LocationEnv.add
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7478 "obc/transformations/memalloc_apply.ml" 184 7443 7479
+type(
+  Linearity.linearity_var
+)
+ident(
+  int_ref r "obc/transformations/memalloc_apply.ml" 182 7331 7341 "obc/transformations/memalloc_apply.ml" 182 7331 7342
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7480 "obc/transformations/memalloc_apply.ml" 184 7443 7482
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 175 7097 7125 "obc/transformations/memalloc_apply.ml" 175 7097 7127
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7480 "obc/transformations/memalloc_apply.ml" 184 7443 7489
+type(
+  Types.ty
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7490 "obc/transformations/memalloc_apply.ml" 184 7443 7496
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref ty_env "obc/transformations/memalloc_apply.ml" 175 7097 7117 "obc/transformations/memalloc_apply.ml" 175 7097 7123
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7462 "obc/transformations/memalloc_apply.ml" 184 7443 7496
+call(
+  stack
+)
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 185 7500 7508 "obc/transformations/memalloc_apply.ml" 185 7500 7511
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 183 7377 7387 "obc/transformations/memalloc_apply.ml" 183 7377 7390
+)
+"obc/transformations/memalloc_apply.ml" 185 7500 7513 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref ty_env "obc/transformations/memalloc_apply.ml" 184 7443 7453 "obc/transformations/memalloc_apply.ml" 184 7443 7459
+)
+"obc/transformations/memalloc_apply.ml" 185 7500 7508 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 184 7443 7449 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 183 7377 7383 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 182 7331 7337 "obc/transformations/memalloc_apply.ml" 185 7500 7519
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 187 7529 7535 "obc/transformations/memalloc_apply.ml" 187 7529 7538
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 175 7097 7112 "obc/transformations/memalloc_apply.ml" 175 7097 7115
+)
+"obc/transformations/memalloc_apply.ml" 187 7529 7540 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref ty_env "obc/transformations/memalloc_apply.ml" 175 7097 7117 "obc/transformations/memalloc_apply.ml" 175 7097 7123
+)
+"obc/transformations/memalloc_apply.ml" 187 7529 7535 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 181 7304 7308 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 176 7130 7134 "obc/transformations/memalloc_apply.ml" 187 7529 7546
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7558 "obc/transformations/memalloc_apply.ml" 189 7552 7562
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def envs "obc/transformations/memalloc_apply.ml" 190 7641 7643 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7565 "obc/transformations/memalloc_apply.ml" 189 7552 7579
+type(
+  (Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t ->
+   Obc.var_dec ->
+   Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t) ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec list ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7580 "obc/transformations/memalloc_apply.ml" 189 7552 7587
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref add_one "obc/transformations/memalloc_apply.ml" 175 7097 7103 "obc/transformations/memalloc_apply.ml" 175 7097 7110
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7589 "obc/transformations/memalloc_apply.ml" 189 7552 7605
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  ext_ref LinListEnv.empty
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7607 "obc/transformations/memalloc_apply.ml" 189 7552 7624
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref Linearity.LocationEnv.empty
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7588 "obc/transformations/memalloc_apply.ml" 189 7552 7625
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7626 "obc/transformations/memalloc_apply.ml" 189 7552 7628
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 174 7070 7089 "obc/transformations/memalloc_apply.ml" 174 7070 7091
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7626 "obc/transformations/memalloc_apply.ml" 189 7552 7637
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7565 "obc/transformations/memalloc_apply.ml" 189 7552 7637
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7647 "obc/transformations/memalloc_apply.ml" 190 7641 7651
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def envs "obc/transformations/memalloc_apply.ml" 191 7698 7700 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7654 "obc/transformations/memalloc_apply.ml" 190 7641 7668
+type(
+  (Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t ->
+   Obc.var_dec ->
+   Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t) ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec list ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7669 "obc/transformations/memalloc_apply.ml" 190 7641 7676
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref add_one "obc/transformations/memalloc_apply.ml" 175 7097 7103 "obc/transformations/memalloc_apply.ml" 175 7097 7110
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7677 "obc/transformations/memalloc_apply.ml" 190 7641 7681
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref envs "obc/transformations/memalloc_apply.ml" 189 7552 7558 "obc/transformations/memalloc_apply.ml" 189 7552 7562
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7682 "obc/transformations/memalloc_apply.ml" 190 7641 7684
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 174 7070 7089 "obc/transformations/memalloc_apply.ml" 174 7070 7091
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7682 "obc/transformations/memalloc_apply.ml" 190 7641 7694
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7654 "obc/transformations/memalloc_apply.ml" 190 7641 7694
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7704 "obc/transformations/memalloc_apply.ml" 191 7698 7708
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def envs "obc/transformations/memalloc_apply.ml" 192 7761 7763 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7711 "obc/transformations/memalloc_apply.ml" 191 7698 7725
+type(
+  (Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t ->
+   Obc.var_dec ->
+   Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t) ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec list ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7726 "obc/transformations/memalloc_apply.ml" 191 7698 7733
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref add_one "obc/transformations/memalloc_apply.ml" 175 7097 7103 "obc/transformations/memalloc_apply.ml" 175 7097 7110
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7734 "obc/transformations/memalloc_apply.ml" 191 7698 7738
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref envs "obc/transformations/memalloc_apply.ml" 190 7641 7647 "obc/transformations/memalloc_apply.ml" 190 7641 7651
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7739 "obc/transformations/memalloc_apply.ml" 191 7698 7741
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 174 7070 7089 "obc/transformations/memalloc_apply.ml" 174 7070 7091
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7739 "obc/transformations/memalloc_apply.ml" 191 7698 7748
+type(
+  Obc.block
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7739 "obc/transformations/memalloc_apply.ml" 191 7698 7757
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7711 "obc/transformations/memalloc_apply.ml" 191 7698 7757
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7767 "obc/transformations/memalloc_apply.ml" 192 7761 7770
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 193 7823 7827 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7772 "obc/transformations/memalloc_apply.ml" 192 7761 7778
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  def ty_env "obc/transformations/memalloc_apply.ml" 193 7823 7827 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7767 "obc/transformations/memalloc_apply.ml" 192 7761 7778
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7781 "obc/transformations/memalloc_apply.ml" 192 7761 7795
+type(
+  (Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t ->
+   Obc.var_dec ->
+   Interference_graph.ivar list LinListEnv.t *
+   Types.ty Linearity.LocationEnv.t) ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec list ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7796 "obc/transformations/memalloc_apply.ml" 192 7761 7803
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t ->
+  Obc.var_dec ->
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref add_one "obc/transformations/memalloc_apply.ml" 175 7097 7103 "obc/transformations/memalloc_apply.ml" 175 7097 7110
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7804 "obc/transformations/memalloc_apply.ml" 192 7761 7808
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref envs "obc/transformations/memalloc_apply.ml" 191 7698 7704 "obc/transformations/memalloc_apply.ml" 191 7698 7708
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7809 "obc/transformations/memalloc_apply.ml" 192 7761 7811
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 174 7070 7092 "obc/transformations/memalloc_apply.ml" 174 7070 7094
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7809 "obc/transformations/memalloc_apply.ml" 192 7761 7819
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7781 "obc/transformations/memalloc_apply.ml" 192 7761 7819
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list LinListEnv.t *
+  Types.ty Linearity.LocationEnv.t
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7827 "obc/transformations/memalloc_apply.ml" 193 7823 7842
+type(
+  (LinListEnv.key ->
+   Interference_graph.ivar list ->
+   (Types.ty * Interference_graph.ivar list) list ->
+   (Types.ty * Interference_graph.ivar list) list) ->
+  Interference_graph.ivar list LinListEnv.t ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  ext_ref LinListEnv.fold
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7848 "obc/transformations/memalloc_apply.ml" 193 7823 7849
+type(
+  LinListEnv.key
+)
+ident(
+  def r "obc/transformations/memalloc_apply.ml" 193 7823 7850 "obc/transformations/memalloc_apply.ml" 193 7823 7894
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7850 "obc/transformations/memalloc_apply.ml" 193 7823 7851
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def x "obc/transformations/memalloc_apply.ml" 193 7823 7852 "obc/transformations/memalloc_apply.ml" 193 7823 7894
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7852 "obc/transformations/memalloc_apply.ml" 193 7823 7855
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  def acc "obc/transformations/memalloc_apply.ml" 193 7823 7859 "obc/transformations/memalloc_apply.ml" 193 7823 7894
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7860 "obc/transformations/memalloc_apply.ml" 193 7823 7876
+type(
+  Linearity.LocationEnv.key -> Types.ty Linearity.LocationEnv.t -> Types.ty
+)
+ident(
+  ext_ref Linearity.LocationEnv.find
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7877 "obc/transformations/memalloc_apply.ml" 193 7823 7878
+type(
+  LinListEnv.key
+)
+ident(
+  int_ref r "obc/transformations/memalloc_apply.ml" 193 7823 7848 "obc/transformations/memalloc_apply.ml" 193 7823 7849
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7879 "obc/transformations/memalloc_apply.ml" 193 7823 7885
+type(
+  Types.ty Linearity.LocationEnv.t
+)
+ident(
+  int_ref ty_env "obc/transformations/memalloc_apply.ml" 192 7761 7772 "obc/transformations/memalloc_apply.ml" 192 7761 7778
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7860 "obc/transformations/memalloc_apply.ml" 193 7823 7885
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7887 "obc/transformations/memalloc_apply.ml" 193 7823 7888
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref x "obc/transformations/memalloc_apply.ml" 193 7823 7850 "obc/transformations/memalloc_apply.ml" 193 7823 7851
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7859 "obc/transformations/memalloc_apply.ml" 193 7823 7889
+type(
+  Types.ty * Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7891 "obc/transformations/memalloc_apply.ml" 193 7823 7894
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  int_ref acc "obc/transformations/memalloc_apply.ml" 193 7823 7852 "obc/transformations/memalloc_apply.ml" 193 7823 7855
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7859 "obc/transformations/memalloc_apply.ml" 193 7823 7894
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7843 "obc/transformations/memalloc_apply.ml" 193 7823 7895
+type(
+  LinListEnv.key ->
+  Interference_graph.ivar list ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7896 "obc/transformations/memalloc_apply.ml" 193 7823 7899
+type(
+  Interference_graph.ivar list LinListEnv.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 192 7761 7767 "obc/transformations/memalloc_apply.ml" 192 7761 7770
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7900 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 193 7823 7827 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+call(
+  tail
+)
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 192 7761 7763 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 191 7698 7700 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 190 7641 7643 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 189 7552 7554 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 175 7097 7099 "obc/transformations/memalloc_apply.ml" 193 7823 7902
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 195 7904 7908 "obc/transformations/memalloc_apply.ml" 195 7904 7917
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs -> 'a -> Obc.class_def -> Obc.class_def * 'a
+)
+ident(
+  def class_def "obc/transformations/memalloc_apply.ml" 219 8871 8871 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 195 7904 7918 "obc/transformations/memalloc_apply.ml" 195 7904 7922
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/memalloc_apply.ml" 195 7904 7923 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 195 7904 7923 "obc/transformations/memalloc_apply.ml" 195 7904 7926
+type(
+  'a
+)
+ident(
+  def acc "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/transformations/memalloc_apply.ml" 197 8000 8002 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8006 "obc/transformations/memalloc_apply.ml" 197 8000 8018
+type(
+  Obc.var_dec list -> Interference_graph.ivar list
+)
+ident(
+  def ivars_of_vds "obc/transformations/memalloc_apply.ml" 198 8069 8071 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8019 "obc/transformations/memalloc_apply.ml" 197 8000 8022
+type(
+  Obc.var_dec list
+)
+ident(
+  def vds "obc/transformations/memalloc_apply.ml" 197 8000 8025 "obc/transformations/memalloc_apply.ml" 197 8000 8065
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8025 "obc/transformations/memalloc_apply.ml" 197 8000 8033
+type(
+  (Obc.var_dec -> Interference_graph.ivar) ->
+  Obc.var_dec list -> Interference_graph.ivar list
+)
+ident(
+  ext_ref List.map
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8039 "obc/transformations/memalloc_apply.ml" 197 8000 8041
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/memalloc_apply.ml" 197 8000 8045 "obc/transformations/memalloc_apply.ml" 197 8000 8060
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8050 "obc/transformations/memalloc_apply.ml" 197 8000 8052
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 197 8000 8039 "obc/transformations/memalloc_apply.ml" 197 8000 8041
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8050 "obc/transformations/memalloc_apply.ml" 197 8000 8060
+type(
+  Idents.var_ident
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8045 "obc/transformations/memalloc_apply.ml" 197 8000 8060
+type(
+  Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8034 "obc/transformations/memalloc_apply.ml" 197 8000 8061
+type(
+  Obc.var_dec -> Interference_graph.ivar
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8062 "obc/transformations/memalloc_apply.ml" 197 8000 8065
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref vds "obc/transformations/memalloc_apply.ml" 197 8000 8019 "obc/transformations/memalloc_apply.ml" 197 8000 8022
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8025 "obc/transformations/memalloc_apply.ml" 197 8000 8065
+call(
+  tail
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 198 8069 8075 "obc/transformations/memalloc_apply.ml" 198 8069 8077
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/transformations/memalloc_apply.ml" 199 8103 8105 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 198 8069 8080 "obc/transformations/memalloc_apply.ml" 198 8069 8096
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  ext_ref Obc_utils.find_step_method
+)
+"obc/transformations/memalloc_apply.ml" 198 8069 8097 "obc/transformations/memalloc_apply.ml" 198 8069 8099
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 198 8069 8080 "obc/transformations/memalloc_apply.ml" 198 8069 8099
+call(
+  stack
+)
+type(
+  Obc.method_def
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8109 "obc/transformations/memalloc_apply.ml" 199 8103 8115
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def inputs "obc/transformations/memalloc_apply.ml" 200 8146 8148 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8118 "obc/transformations/memalloc_apply.ml" 199 8103 8130
+type(
+  Obc.var_dec list -> Interference_graph.ivar list
+)
+ident(
+  int_ref ivars_of_vds "obc/transformations/memalloc_apply.ml" 197 8000 8006 "obc/transformations/memalloc_apply.ml" 197 8000 8018
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8131 "obc/transformations/memalloc_apply.ml" 199 8103 8133
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 198 8069 8075 "obc/transformations/memalloc_apply.ml" 198 8069 8077
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8131 "obc/transformations/memalloc_apply.ml" 199 8103 8142
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8118 "obc/transformations/memalloc_apply.ml" 199 8103 8142
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8152 "obc/transformations/memalloc_apply.ml" 200 8146 8159
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def outputs "obc/transformations/memalloc_apply.ml" 201 8191 8193 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8162 "obc/transformations/memalloc_apply.ml" 200 8146 8174
+type(
+  Obc.var_dec list -> Interference_graph.ivar list
+)
+ident(
+  int_ref ivars_of_vds "obc/transformations/memalloc_apply.ml" 197 8000 8006 "obc/transformations/memalloc_apply.ml" 197 8000 8018
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8175 "obc/transformations/memalloc_apply.ml" 200 8146 8177
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 198 8069 8075 "obc/transformations/memalloc_apply.ml" 198 8069 8077
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8175 "obc/transformations/memalloc_apply.ml" 200 8146 8187
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8162 "obc/transformations/memalloc_apply.ml" 200 8146 8187
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8197 "obc/transformations/memalloc_apply.ml" 201 8191 8201
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def mems "obc/transformations/memalloc_apply.ml" 203 8302 8304 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8204 "obc/transformations/memalloc_apply.ml" 201 8191 8216
+type(
+  Obc.var_dec list -> Interference_graph.ivar list
+)
+ident(
+  int_ref ivars_of_vds "obc/transformations/memalloc_apply.ml" 197 8000 8006 "obc/transformations/memalloc_apply.ml" 197 8000 8018
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8217 "obc/transformations/memalloc_apply.ml" 201 8191 8219
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8217 "obc/transformations/memalloc_apply.ml" 201 8191 8227
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8204 "obc/transformations/memalloc_apply.ml" 201 8191 8227
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list
+)
+"obc/transformations/memalloc_apply.ml" 203 8302 8308 "obc/transformations/memalloc_apply.ml" 203 8302 8317
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  def mem_alloc "obc/transformations/memalloc_apply.ml" 209 8417 8419 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 204 8320 8327 "obc/transformations/memalloc_apply.ml" 204 8320 8328
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/transformations/memalloc_apply.ml" 204 8320 8328 "obc/transformations/memalloc_apply.ml" 204 8320 8361
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_linear_typing
+)
+"obc/transformations/memalloc_apply.ml" 204 8320 8327 "obc/transformations/memalloc_apply.ml" 204 8320 8361
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 205 8367 8373 "obc/transformations/memalloc_apply.ml" 205 8367 8387
+type(
+  Obc.method_def ->
+  Obc.class_def -> (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  int_ref add_other_vars "obc/transformations/memalloc_apply.ml" 174 7070 7074 "obc/transformations/memalloc_apply.ml" 174 7070 7088
+)
+"obc/transformations/memalloc_apply.ml" 205 8367 8388 "obc/transformations/memalloc_apply.ml" 205 8367 8390
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 198 8069 8075 "obc/transformations/memalloc_apply.ml" 198 8069 8077
+)
+"obc/transformations/memalloc_apply.ml" 205 8367 8391 "obc/transformations/memalloc_apply.ml" 205 8367 8393
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 205 8367 8373 "obc/transformations/memalloc_apply.ml" 205 8367 8393
+call(
+  stack
+)
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 207 8403 8409 "obc/transformations/memalloc_apply.ml" 207 8403 8411
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 204 8320 8324 "obc/transformations/memalloc_apply.ml" 207 8403 8411
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8423 "obc/transformations/memalloc_apply.ml" 209 8417 8432
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  def mem_alloc "obc/transformations/memalloc_apply.ml" 210 8466 8468 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8435 "obc/transformations/memalloc_apply.ml" 209 8417 8444
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  int_ref mem_alloc "obc/transformations/memalloc_apply.ml" 203 8302 8308 "obc/transformations/memalloc_apply.ml" 203 8302 8317
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8445 "obc/transformations/memalloc_apply.ml" 209 8417 8446
+type(
+  (Types.ty * Interference_graph.ivar list) list ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8447 "obc/transformations/memalloc_apply.ml" 209 8417 8449
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8447 "obc/transformations/memalloc_apply.ml" 209 8417 8462
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8435 "obc/transformations/memalloc_apply.ml" 209 8417 8462
+call(
+  stack
+)
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8472 "obc/transformations/memalloc_apply.ml" 210 8466 8475
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  def env "obc/transformations/memalloc_apply.ml" 211 8540 8542 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8477 "obc/transformations/memalloc_apply.ml" 210 8466 8485
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def mutables "obc/transformations/memalloc_apply.ml" 211 8540 8542 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8472 "obc/transformations/memalloc_apply.ml" 210 8466 8485
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8488 "obc/transformations/memalloc_apply.ml" 210 8466 8506
+type(
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ->
+  (Types.ty * Interference_graph.ivar list) list ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+ident(
+  int_ref memalloc_subst_map "obc/transformations/memalloc_apply.ml" 97 4399 4403 "obc/transformations/memalloc_apply.ml" 97 4399 4421
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8507 "obc/transformations/memalloc_apply.ml" 210 8466 8513
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref inputs "obc/transformations/memalloc_apply.ml" 199 8103 8109 "obc/transformations/memalloc_apply.ml" 199 8103 8115
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8514 "obc/transformations/memalloc_apply.ml" 210 8466 8521
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref outputs "obc/transformations/memalloc_apply.ml" 200 8146 8152 "obc/transformations/memalloc_apply.ml" 200 8146 8159
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8522 "obc/transformations/memalloc_apply.ml" 210 8466 8526
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref mems "obc/transformations/memalloc_apply.ml" 201 8191 8197 "obc/transformations/memalloc_apply.ml" 201 8191 8201
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8527 "obc/transformations/memalloc_apply.ml" 210 8466 8536
+type(
+  (Types.ty * Interference_graph.ivar list) list
+)
+ident(
+  int_ref mem_alloc "obc/transformations/memalloc_apply.ml" 209 8417 8423 "obc/transformations/memalloc_apply.ml" 209 8417 8432
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8488 "obc/transformations/memalloc_apply.ml" 210 8466 8536
+call(
+  stack
+)
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8546 "obc/transformations/memalloc_apply.ml" 211 8540 8548
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/transformations/memalloc_apply.ml" 213 8649 8651 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8550 "obc/transformations/memalloc_apply.ml" 211 8540 8551
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8546 "obc/transformations/memalloc_apply.ml" 211 8540 8551
+type(
+  Obc.class_def *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8554 "obc/transformations/memalloc_apply.ml" 211 8540 8575
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.class_def ->
+  Obc.class_def *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  ext_ref Obc_mapfold.class_def
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8576 "obc/transformations/memalloc_apply.ml" 211 8540 8580
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 195 7904 7918 "obc/transformations/memalloc_apply.ml" 195 7904 7922
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8582 "obc/transformations/memalloc_apply.ml" 211 8540 8585
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  int_ref env "obc/transformations/memalloc_apply.ml" 210 8466 8472 "obc/transformations/memalloc_apply.ml" 210 8466 8475
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8587 "obc/transformations/memalloc_apply.ml" 211 8540 8595
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mutables "obc/transformations/memalloc_apply.ml" 210 8466 8477 "obc/transformations/memalloc_apply.ml" 210 8466 8485
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8597 "obc/transformations/memalloc_apply.ml" 211 8540 8599
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8597 "obc/transformations/memalloc_apply.ml" 211 8540 8607
+type(
+  Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8581 "obc/transformations/memalloc_apply.ml" 211 8540 8608
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8609 "obc/transformations/memalloc_apply.ml" 211 8540 8611
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 195 7904 7927 "obc/transformations/memalloc_apply.ml" 195 7904 7929
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8554 "obc/transformations/memalloc_apply.ml" 211 8540 8611
+call(
+  stack
+)
+type(
+  Obc.class_def *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8655 "obc/transformations/memalloc_apply.ml" 213 8649 8664
+type(
+  Obc.var_dec list
+)
+ident(
+  def m_outputs "obc/transformations/memalloc_apply.ml" 214 8736 8738 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8667 "obc/transformations/memalloc_apply.ml" 213 8649 8678
+type(
+  (Obc.var_dec -> bool) -> Obc.var_dec list -> Obc.var_dec list
+)
+ident(
+  ext_ref List.filter
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8684 "obc/transformations/memalloc_apply.ml" 213 8649 8686
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/memalloc_apply.ml" 213 8649 8690 "obc/transformations/memalloc_apply.ml" 213 8649 8718
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8690 "obc/transformations/memalloc_apply.ml" 213 8649 8703
+type(
+  Linearity.linearity -> bool
+)
+ident(
+  ext_ref Linearity.is_not_linear
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8704 "obc/transformations/memalloc_apply.ml" 213 8649 8706
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/memalloc_apply.ml" 213 8649 8684 "obc/transformations/memalloc_apply.ml" 213 8649 8686
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8704 "obc/transformations/memalloc_apply.ml" 213 8649 8718
+type(
+  Linearity.linearity
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8690 "obc/transformations/memalloc_apply.ml" 213 8649 8718
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8679 "obc/transformations/memalloc_apply.ml" 213 8649 8719
+type(
+  Obc.var_dec -> bool
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8720 "obc/transformations/memalloc_apply.ml" 213 8649 8722
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 198 8069 8075 "obc/transformations/memalloc_apply.ml" 198 8069 8077
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8720 "obc/transformations/memalloc_apply.ml" 213 8649 8732
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8667 "obc/transformations/memalloc_apply.ml" 213 8649 8732
+call(
+  stack
+)
+type(
+  Obc.var_dec list
+)
+"obc/transformations/memalloc_apply.ml" 214 8736 8742 "obc/transformations/memalloc_apply.ml" 214 8736 8744
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/transformations/memalloc_apply.ml" 215 8770 8772 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 214 8736 8747 "obc/transformations/memalloc_apply.ml" 214 8736 8763
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  ext_ref Obc_utils.find_step_method
+)
+"obc/transformations/memalloc_apply.ml" 214 8736 8764 "obc/transformations/memalloc_apply.ml" 214 8736 8766
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 211 8540 8546 "obc/transformations/memalloc_apply.ml" 211 8540 8548
+)
+"obc/transformations/memalloc_apply.ml" 214 8736 8747 "obc/transformations/memalloc_apply.ml" 214 8736 8766
+call(
+  stack
+)
+type(
+  Obc.method_def
+)
+"obc/transformations/memalloc_apply.ml" 215 8770 8776 "obc/transformations/memalloc_apply.ml" 215 8770 8778
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/transformations/memalloc_apply.ml" 216 8818 8820 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 215 8770 8783 "obc/transformations/memalloc_apply.ml" 215 8770 8785
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 214 8736 8742 "obc/transformations/memalloc_apply.ml" 214 8736 8744
+)
+"obc/transformations/memalloc_apply.ml" 215 8770 8803 "obc/transformations/memalloc_apply.ml" 215 8770 8812
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref m_outputs "obc/transformations/memalloc_apply.ml" 213 8649 8655 "obc/transformations/memalloc_apply.ml" 213 8649 8664
+)
+"obc/transformations/memalloc_apply.ml" 215 8770 8781 "obc/transformations/memalloc_apply.ml" 215 8770 8814
+type(
+  Obc.method_def
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8824 "obc/transformations/memalloc_apply.ml" 216 8818 8826
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/transformations/memalloc_apply.ml" 217 8858 8862 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8829 "obc/transformations/memalloc_apply.ml" 216 8818 8848
+type(
+  Obc.method_def -> Obc.class_def -> Obc.class_def
+)
+ident(
+  ext_ref Obc_utils.replace_step_method
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8849 "obc/transformations/memalloc_apply.ml" 216 8818 8851
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/transformations/memalloc_apply.ml" 215 8770 8776 "obc/transformations/memalloc_apply.ml" 215 8770 8778
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8852 "obc/transformations/memalloc_apply.ml" 216 8818 8854
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 211 8540 8546 "obc/transformations/memalloc_apply.ml" 211 8540 8548
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8829 "obc/transformations/memalloc_apply.ml" 216 8818 8854
+call(
+  stack
+)
+type(
+  Obc.class_def
+)
+"obc/transformations/memalloc_apply.ml" 217 8858 8862 "obc/transformations/memalloc_apply.ml" 217 8858 8864
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/transformations/memalloc_apply.ml" 216 8818 8824 "obc/transformations/memalloc_apply.ml" 216 8818 8826
+)
+"obc/transformations/memalloc_apply.ml" 217 8858 8866 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/memalloc_apply.ml" 195 7904 7923 "obc/transformations/memalloc_apply.ml" 195 7904 7926
+)
+"obc/transformations/memalloc_apply.ml" 217 8858 8862 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 216 8818 8820 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 215 8770 8772 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 214 8736 8738 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 213 8649 8651 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 211 8540 8542 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 210 8466 8468 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 209 8417 8419 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 203 8302 8304 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 201 8191 8193 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 200 8146 8148 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 199 8103 8105 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 198 8069 8071 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 197 8000 8002 "obc/transformations/memalloc_apply.ml" 217 8858 8869
+type(
+  Obc.class_def * 'a
+)
+"obc/transformations/memalloc_apply.ml" 219 8871 8875 "obc/transformations/memalloc_apply.ml" 219 8871 8882
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/transformations/memalloc_apply.ml" 223 9101 9106 "obc/transformations/memalloc_apply.ml" 1 0 -1
+)
+"obc/transformations/memalloc_apply.ml" 219 8871 8883 "obc/transformations/memalloc_apply.ml" 219 8871 8884
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/memalloc_apply.ml" 220 8887 8889 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8893 "obc/transformations/memalloc_apply.ml" 220 8887 8897
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/memalloc_apply.ml" 222 9023 9025 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8902 "obc/transformations/memalloc_apply.ml" 220 8887 8922
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8940 "obc/transformations/memalloc_apply.ml" 220 8887 8949
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.class_def ->
+  Obc.class_def *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  int_ref class_def "obc/transformations/memalloc_apply.ml" 195 7904 7908 "obc/transformations/memalloc_apply.ml" 195 7904 7917
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8962 "obc/transformations/memalloc_apply.ml" 220 8887 8970
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.var_dec list ->
+  Obc.var_dec list *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  int_ref var_decs "obc/transformations/memalloc_apply.ml" 153 6590 6594 "obc/transformations/memalloc_apply.ml" 153 6590 6602
+)
+"obc/transformations/memalloc_apply.ml" 221 8972 8982 "obc/transformations/memalloc_apply.ml" 221 8972 8985
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.act ->
+  Obc.act * (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  int_ref act "obc/transformations/memalloc_apply.ml" 143 6040 6044 "obc/transformations/memalloc_apply.ml" 143 6040 6047
+)
+"obc/transformations/memalloc_apply.ml" 221 8972 8993 "obc/transformations/memalloc_apply.ml" 221 8972 8996
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.pattern ->
+  Obc.pattern *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  int_ref lhs "obc/transformations/memalloc_apply.ml" 115 4986 4994 "obc/transformations/memalloc_apply.ml" 115 4986 4997
+)
+"obc/transformations/memalloc_apply.ml" 221 8972 9009 "obc/transformations/memalloc_apply.ml" 221 8972 9017
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.ext_value ->
+  Obc.ext_value *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  int_ref extvalue "obc/transformations/memalloc_apply.ml" 133 5632 5636 "obc/transformations/memalloc_apply.ml" 133 5632 5644
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8900 "obc/transformations/memalloc_apply.ml" 221 8972 9019
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9029 "obc/transformations/memalloc_apply.ml" 222 9023 9030
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/memalloc_apply.ml" 223 9101 9105 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9032 "obc/transformations/memalloc_apply.ml" 222 9023 9033
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9029 "obc/transformations/memalloc_apply.ml" 222 9023 9033
+type(
+  Obc.program *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9036 "obc/transformations/memalloc_apply.ml" 222 9023 9058
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs ->
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list ->
+  Obc.program ->
+  Obc.program *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9059 "obc/transformations/memalloc_apply.ml" 222 9023 9063
+type(
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+  Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/memalloc_apply.ml" 220 8887 8893 "obc/transformations/memalloc_apply.ml" 220 8887 8897
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9065 "obc/transformations/memalloc_apply.ml" 222 9023 9074
+type(
+  Obc.pattern Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9076 "obc/transformations/memalloc_apply.ml" 222 9023 9090
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9092 "obc/transformations/memalloc_apply.ml" 222 9023 9094
+type(
+  Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9064 "obc/transformations/memalloc_apply.ml" 222 9023 9095
+type(
+  Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9096 "obc/transformations/memalloc_apply.ml" 222 9023 9097
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/memalloc_apply.ml" 219 8871 8883 "obc/transformations/memalloc_apply.ml" 219 8871 8884
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9036 "obc/transformations/memalloc_apply.ml" 222 9023 9097
+call(
+  stack
+)
+type(
+  Obc.program *
+  (Obc.pattern Idents.Env.t * Idents.IdentSet.t * Obc.obj_dec list)
+)
+"obc/transformations/memalloc_apply.ml" 223 9101 9105 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/memalloc_apply.ml" 222 9023 9029 "obc/transformations/memalloc_apply.ml" 222 9023 9030
+)
+"obc/transformations/memalloc_apply.ml" 222 9023 9025 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+type(
+  Obc.program
+)
+"obc/transformations/memalloc_apply.ml" 220 8887 8889 "obc/transformations/memalloc_apply.ml" 223 9101 9106
+type(
+  Obc.program
+)

@@ -1,0 +1,2541 @@
+"global/location.ml" 39 2366 2370 "global/location.ml" 39 2366 2381
+type(
+  location
+)
+ident(
+  def no_location "global/location.ml" 41 2413 2413 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 39 2366 2390 "global/location.ml" 39 2366 2399
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"global/location.ml" 39 2366 2401 "global/location.ml" 39 2366 2410
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"global/location.ml" 39 2366 2385 "global/location.ml" 39 2366 2411
+type(
+  location
+)
+"global/location.ml" 41 2413 2417 "global/location.ml" 41 2413 2429
+type(
+  string
+)
+ident(
+  def error_prompt "global/location.ml" 45 2480 2480 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 41 2413 2432 "global/location.ml" 41 2413 2435
+type(
+  string
+)
+"global/location.ml" 45 2480 2484 "global/location.ml" 45 2480 2498
+type(
+  Format.formatter -> int -> char -> unit
+)
+ident(
+  def prints_n_chars "global/location.ml" 50 2748 2748 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 45 2480 2499 "global/location.ml" 45 2480 2501
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/location.ml" 45 2480 2502 "global/location.ml" 45 2480 2550
+)
+"global/location.ml" 45 2480 2502 "global/location.ml" 45 2480 2503
+type(
+  int
+)
+ident(
+  def n "global/location.ml" 45 2480 2504 "global/location.ml" 45 2480 2550
+)
+"global/location.ml" 45 2480 2504 "global/location.ml" 45 2480 2505
+type(
+  char
+)
+ident(
+  def c "global/location.ml" 45 2480 2508 "global/location.ml" 45 2480 2550
+)
+"global/location.ml" 45 2480 2517 "global/location.ml" 45 2480 2518
+type(
+  int
+)
+"global/location.ml" 45 2480 2522 "global/location.ml" 45 2480 2523
+type(
+  int
+)
+ident(
+  int_ref n "global/location.ml" 45 2480 2502 "global/location.ml" 45 2480 2503
+)
+"global/location.ml" 45 2480 2527 "global/location.ml" 45 2480 2540
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"global/location.ml" 45 2480 2541 "global/location.ml" 45 2480 2543
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 45 2480 2499 "global/location.ml" 45 2480 2501
+)
+"global/location.ml" 45 2480 2544 "global/location.ml" 45 2480 2545
+type(
+  char
+)
+ident(
+  int_ref c "global/location.ml" 45 2480 2504 "global/location.ml" 45 2480 2505
+)
+"global/location.ml" 45 2480 2527 "global/location.ml" 45 2480 2545
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 45 2480 2508 "global/location.ml" 45 2480 2550
+type(
+  unit
+)
+"global/location.ml" 50 2748 2752 "global/location.ml" 50 2748 2766
+type(
+  in_channel -> Format.formatter -> char -> int -> int -> int -> unit
+)
+ident(
+  def underline_line "global/location.ml" 72 3309 3309 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 50 2748 2767 "global/location.ml" 50 2748 2769
+type(
+  in_channel
+)
+ident(
+  def ic "global/location.ml" 50 2748 2770 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 50 2748 2770 "global/location.ml" 50 2748 2772
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/location.ml" 50 2748 2773 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 50 2748 2773 "global/location.ml" 50 2748 2775
+type(
+  char
+)
+ident(
+  def ch "global/location.ml" 50 2748 2776 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 50 2748 2776 "global/location.ml" 50 2748 2780
+type(
+  int
+)
+ident(
+  def line "global/location.ml" 50 2748 2781 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 50 2748 2781 "global/location.ml" 50 2748 2786
+type(
+  int
+)
+ident(
+  def first "global/location.ml" 50 2748 2787 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 50 2748 2787 "global/location.ml" 50 2748 2791
+type(
+  int
+)
+ident(
+  def last "global/location.ml" 51 2794 2796 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+type(
+  char ref
+)
+ident(
+  def c "global/location.ml" 54 2862 2864 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 51 2794 2804 "global/location.ml" 51 2794 2807
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"global/location.ml" 51 2794 2808 "global/location.ml" 51 2794 2811
+type(
+  char
+)
+"global/location.ml" 51 2794 2804 "global/location.ml" 51 2794 2811
+type(
+  char ref
+)
+"global/location.ml" 52 2812 2818 "global/location.ml" 52 2812 2819
+type(
+  int ref
+)
+ident(
+  def f "global/location.ml" 54 2862 2864 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 52 2812 2822 "global/location.ml" 52 2812 2825
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"global/location.ml" 52 2812 2826 "global/location.ml" 52 2812 2831
+type(
+  int
+)
+ident(
+  int_ref first "global/location.ml" 50 2748 2781 "global/location.ml" 50 2748 2786
+)
+"global/location.ml" 52 2812 2822 "global/location.ml" 52 2812 2831
+type(
+  int ref
+)
+"global/location.ml" 53 2832 2838 "global/location.ml" 53 2832 2839
+type(
+  int ref
+)
+ident(
+  def l "global/location.ml" 54 2862 2864 "global/location.ml" 69 3253 3306
+)
+"global/location.ml" 53 2832 2842 "global/location.ml" 53 2832 2845
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"global/location.ml" 53 2832 2847 "global/location.ml" 53 2832 2851
+type(
+  int
+)
+ident(
+  int_ref last "global/location.ml" 50 2748 2787 "global/location.ml" 50 2748 2791
+)
+"global/location.ml" 53 2832 2851 "global/location.ml" 53 2832 2852
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 53 2832 2852 "global/location.ml" 53 2832 2857
+type(
+  int
+)
+ident(
+  int_ref first "global/location.ml" 50 2748 2781 "global/location.ml" 50 2748 2786
+)
+"global/location.ml" 53 2832 2846 "global/location.ml" 53 2832 2858
+type(
+  int
+)
+"global/location.ml" 53 2832 2842 "global/location.ml" 53 2832 2858
+type(
+  int ref
+)
+"global/location.ml" 55 2870 2874 "global/location.ml" 55 2870 2881
+type(
+  in_channel -> int -> unit
+)
+ident(
+  ext_ref Pervasives.seek_in
+)
+"global/location.ml" 55 2870 2882 "global/location.ml" 55 2870 2884
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 50 2748 2767 "global/location.ml" 50 2748 2769
+)
+"global/location.ml" 55 2870 2885 "global/location.ml" 55 2870 2889
+type(
+  int
+)
+ident(
+  int_ref line "global/location.ml" 50 2748 2776 "global/location.ml" 50 2748 2780
+)
+"global/location.ml" 55 2870 2874 "global/location.ml" 55 2870 2889
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 56 2891 2895 "global/location.ml" 56 2891 2910
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"global/location.ml" 56 2891 2911 "global/location.ml" 56 2891 2913
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 50 2748 2770 "global/location.ml" 50 2748 2772
+)
+"global/location.ml" 56 2891 2914 "global/location.ml" 56 2891 2926
+type(
+  string
+)
+ident(
+  int_ref error_prompt "global/location.ml" 41 2413 2417 "global/location.ml" 41 2413 2429
+)
+"global/location.ml" 56 2891 2895 "global/location.ml" 56 2891 2926
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 57 2928 2938 "global/location.ml" 57 2928 2939
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 57 2928 2940 "global/location.ml" 57 2928 2942
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"global/location.ml" 57 2928 2943 "global/location.ml" 57 2928 2953
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"global/location.ml" 57 2928 2954 "global/location.ml" 57 2928 2956
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 50 2748 2767 "global/location.ml" 50 2748 2769
+)
+"global/location.ml" 57 2928 2943 "global/location.ml" 57 2928 2956
+call(
+  stack
+)
+type(
+  char
+)
+"global/location.ml" 57 2928 2938 "global/location.ml" 57 2928 2956
+type(
+  unit
+)
+"global/location.ml" 57 2928 2958 "global/location.ml" 57 2928 2959
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 57 2928 2959 "global/location.ml" 57 2928 2960
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 57 2928 2958 "global/location.ml" 57 2928 2960
+type(
+  char
+)
+"global/location.ml" 57 2928 2961 "global/location.ml" 57 2928 2963
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"global/location.ml" 57 2928 2964 "global/location.ml" 57 2928 2968
+type(
+  char
+)
+"global/location.ml" 57 2928 2958 "global/location.ml" 57 2928 2968
+type(
+  bool
+)
+"global/location.ml" 57 2928 2938 "global/location.ml" 57 2928 2968
+type(
+  bool
+)
+"global/location.ml" 58 2972 2981 "global/location.ml" 58 2972 2982
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 58 2972 2982 "global/location.ml" 58 2972 2983
+type(
+  int ref
+)
+ident(
+  int_ref f "global/location.ml" 52 2812 2818 "global/location.ml" 52 2812 2819
+)
+"global/location.ml" 58 2972 2981 "global/location.ml" 58 2972 2983
+type(
+  int
+)
+"global/location.ml" 58 2972 2984 "global/location.ml" 58 2972 2985
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"global/location.ml" 58 2972 2986 "global/location.ml" 58 2972 2987
+type(
+  int
+)
+"global/location.ml" 58 2972 2981 "global/location.ml" 58 2972 2987
+type(
+  bool
+)
+"global/location.ml" 59 2999 3007 "global/location.ml" 59 2999 3008
+type(
+  int ref
+)
+ident(
+  int_ref f "global/location.ml" 52 2812 2818 "global/location.ml" 52 2812 2819
+)
+"global/location.ml" 59 2999 3009 "global/location.ml" 59 2999 3011
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"global/location.ml" 59 2999 3012 "global/location.ml" 59 2999 3013
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 59 2999 3013 "global/location.ml" 59 2999 3014
+type(
+  int ref
+)
+ident(
+  int_ref f "global/location.ml" 52 2812 2818 "global/location.ml" 52 2812 2819
+)
+"global/location.ml" 59 2999 3012 "global/location.ml" 59 2999 3014
+type(
+  int
+)
+"global/location.ml" 59 2999 3015 "global/location.ml" 59 2999 3016
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 59 2999 3017 "global/location.ml" 59 2999 3018
+type(
+  int
+)
+"global/location.ml" 59 2999 3012 "global/location.ml" 59 2999 3018
+type(
+  int
+)
+"global/location.ml" 59 2999 3007 "global/location.ml" 59 2999 3018
+type(
+  unit
+)
+"global/location.ml" 60 3020 3028 "global/location.ml" 60 3020 3041
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"global/location.ml" 60 3020 3042 "global/location.ml" 60 3020 3044
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 50 2748 2770 "global/location.ml" 50 2748 2772
+)
+"global/location.ml" 60 3020 3049 "global/location.ml" 60 3020 3050
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 60 3020 3050 "global/location.ml" 60 3020 3051
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 60 3020 3049 "global/location.ml" 60 3020 3051
+type(
+  char
+)
+"global/location.ml" 60 3020 3052 "global/location.ml" 60 3020 3054
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"global/location.ml" 60 3020 3055 "global/location.ml" 60 3020 3059
+type(
+  char
+)
+"global/location.ml" 60 3020 3049 "global/location.ml" 60 3020 3059
+type(
+  bool
+)
+"global/location.ml" 60 3020 3065 "global/location.ml" 60 3020 3066
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 60 3020 3066 "global/location.ml" 60 3020 3067
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 60 3020 3065 "global/location.ml" 60 3020 3067
+type(
+  char
+)
+"global/location.ml" 60 3020 3073 "global/location.ml" 60 3020 3076
+type(
+  char
+)
+"global/location.ml" 60 3020 3045 "global/location.ml" 60 3020 3077
+type(
+  char
+)
+"global/location.ml" 60 3020 3028 "global/location.ml" 60 3020 3077
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 58 2972 2993 "global/location.ml" 61 3078 3087
+type(
+  unit
+)
+"global/location.ml" 62 3088 3102 "global/location.ml" 62 3088 3103
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 62 3088 3103 "global/location.ml" 62 3088 3104
+type(
+  int ref
+)
+ident(
+  int_ref l "global/location.ml" 53 2832 2838 "global/location.ml" 53 2832 2839
+)
+"global/location.ml" 62 3088 3102 "global/location.ml" 62 3088 3104
+type(
+  int
+)
+"global/location.ml" 62 3088 3105 "global/location.ml" 62 3088 3106
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"global/location.ml" 62 3088 3107 "global/location.ml" 62 3088 3108
+type(
+  int
+)
+"global/location.ml" 62 3088 3102 "global/location.ml" 62 3088 3108
+type(
+  bool
+)
+"global/location.ml" 63 3120 3128 "global/location.ml" 63 3120 3129
+type(
+  int ref
+)
+ident(
+  int_ref l "global/location.ml" 53 2832 2838 "global/location.ml" 53 2832 2839
+)
+"global/location.ml" 63 3120 3130 "global/location.ml" 63 3120 3132
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"global/location.ml" 63 3120 3133 "global/location.ml" 63 3120 3134
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 63 3120 3134 "global/location.ml" 63 3120 3135
+type(
+  int ref
+)
+ident(
+  int_ref l "global/location.ml" 53 2832 2838 "global/location.ml" 53 2832 2839
+)
+"global/location.ml" 63 3120 3133 "global/location.ml" 63 3120 3135
+type(
+  int
+)
+"global/location.ml" 63 3120 3136 "global/location.ml" 63 3120 3137
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 63 3120 3138 "global/location.ml" 63 3120 3139
+type(
+  int
+)
+"global/location.ml" 63 3120 3133 "global/location.ml" 63 3120 3139
+type(
+  int
+)
+"global/location.ml" 63 3120 3128 "global/location.ml" 63 3120 3139
+type(
+  unit
+)
+"global/location.ml" 64 3141 3149 "global/location.ml" 64 3141 3162
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"global/location.ml" 64 3141 3163 "global/location.ml" 64 3141 3165
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 50 2748 2770 "global/location.ml" 50 2748 2772
+)
+"global/location.ml" 64 3141 3170 "global/location.ml" 64 3141 3171
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 64 3141 3171 "global/location.ml" 64 3141 3172
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 64 3141 3170 "global/location.ml" 64 3141 3172
+type(
+  char
+)
+"global/location.ml" 64 3141 3173 "global/location.ml" 64 3141 3175
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"global/location.ml" 64 3141 3176 "global/location.ml" 64 3141 3180
+type(
+  char
+)
+"global/location.ml" 64 3141 3170 "global/location.ml" 64 3141 3180
+type(
+  bool
+)
+"global/location.ml" 64 3141 3186 "global/location.ml" 64 3141 3187
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 64 3141 3187 "global/location.ml" 64 3141 3188
+type(
+  char ref
+)
+ident(
+  int_ref c "global/location.ml" 51 2794 2800 "global/location.ml" 51 2794 2801
+)
+"global/location.ml" 64 3141 3186 "global/location.ml" 64 3141 3188
+type(
+  char
+)
+"global/location.ml" 64 3141 3194 "global/location.ml" 64 3141 3196
+type(
+  char
+)
+ident(
+  int_ref ch "global/location.ml" 50 2748 2773 "global/location.ml" 50 2748 2775
+)
+"global/location.ml" 64 3141 3166 "global/location.ml" 64 3141 3197
+type(
+  char
+)
+"global/location.ml" 64 3141 3149 "global/location.ml" 64 3141 3197
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 62 3088 3114 "global/location.ml" 65 3198 3207
+type(
+  unit
+)
+"global/location.ml" 66 3208 3219 "global/location.ml" 66 3208 3221
+type(
+  unit
+)
+"global/location.ml" 62 3088 3099 "global/location.ml" 66 3208 3221
+type(
+  unit
+)
+"global/location.ml" 58 2972 2978 "global/location.ml" 66 3208 3221
+type(
+  unit
+)
+"global/location.ml" 57 2928 2932 "global/location.ml" 67 3222 3230
+type(
+  unit
+)
+"global/location.ml" 56 2891 2895 "global/location.ml" 67 3222 3230
+type(
+  unit
+)
+"global/location.ml" 55 2870 2874 "global/location.ml" 67 3222 3230
+type(
+  unit
+)
+"global/location.ml" 68 3231 3238 "global/location.ml" 68 3231 3249
+type(
+  exn
+)
+"global/location.ml" 69 3253 3260 "global/location.ml" 69 3253 3261
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 69 3253 3261 "global/location.ml" 69 3253 3262
+type(
+  int ref
+)
+ident(
+  int_ref f "global/location.ml" 52 2812 2818 "global/location.ml" 52 2812 2819
+)
+"global/location.ml" 69 3253 3260 "global/location.ml" 69 3253 3262
+type(
+  int
+)
+"global/location.ml" 69 3253 3263 "global/location.ml" 69 3253 3264
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/location.ml" 69 3253 3265 "global/location.ml" 69 3253 3266
+type(
+  int
+)
+"global/location.ml" 69 3253 3260 "global/location.ml" 69 3253 3266
+type(
+  bool
+)
+"global/location.ml" 69 3253 3267 "global/location.ml" 69 3253 3269
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/location.ml" 69 3253 3270 "global/location.ml" 69 3253 3271
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/location.ml" 69 3253 3271 "global/location.ml" 69 3253 3272
+type(
+  int ref
+)
+ident(
+  int_ref l "global/location.ml" 53 2832 2838 "global/location.ml" 53 2832 2839
+)
+"global/location.ml" 69 3253 3270 "global/location.ml" 69 3253 3272
+type(
+  int
+)
+"global/location.ml" 69 3253 3273 "global/location.ml" 69 3253 3274
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"global/location.ml" 69 3253 3275 "global/location.ml" 69 3253 3276
+type(
+  int
+)
+"global/location.ml" 69 3253 3270 "global/location.ml" 69 3253 3276
+type(
+  bool
+)
+"global/location.ml" 69 3253 3260 "global/location.ml" 69 3253 3276
+type(
+  bool
+)
+"global/location.ml" 69 3253 3282 "global/location.ml" 69 3253 3296
+type(
+  Format.formatter -> int -> char -> unit
+)
+ident(
+  int_ref prints_n_chars "global/location.ml" 45 2480 2484 "global/location.ml" 45 2480 2498
+)
+"global/location.ml" 69 3253 3297 "global/location.ml" 69 3253 3299
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 50 2748 2770 "global/location.ml" 50 2748 2772
+)
+"global/location.ml" 69 3253 3300 "global/location.ml" 69 3253 3301
+type(
+  int
+)
+"global/location.ml" 69 3253 3302 "global/location.ml" 69 3253 3304
+type(
+  char
+)
+ident(
+  int_ref ch "global/location.ml" 50 2748 2773 "global/location.ml" 50 2748 2775
+)
+"global/location.ml" 69 3253 3282 "global/location.ml" 69 3253 3304
+call(
+  tail
+)
+type(
+  unit
+)
+"global/location.ml" 69 3253 3257 "global/location.ml" 69 3253 3304
+type(
+  unit
+)
+"global/location.ml" 54 2862 2864 "global/location.ml" 69 3253 3306
+type(
+  unit
+)
+"global/location.ml" 51 2794 2796 "global/location.ml" 69 3253 3306
+type(
+  unit
+)
+"global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  def copy_lines "global/location.ml" 80 3522 3522 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 72 3309 3324 "global/location.ml" 72 3309 3326
+type(
+  int
+)
+ident(
+  def nl "global/location.ml" 72 3309 3327 "global/location.ml" 78 3514 3520
+)
+"global/location.ml" 72 3309 3327 "global/location.ml" 72 3309 3329
+type(
+  in_channel
+)
+ident(
+  def ic "global/location.ml" 72 3309 3330 "global/location.ml" 78 3514 3520
+)
+"global/location.ml" 72 3309 3330 "global/location.ml" 72 3309 3332
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/location.ml" 72 3309 3333 "global/location.ml" 78 3514 3520
+)
+"global/location.ml" 72 3309 3333 "global/location.ml" 72 3309 3339
+type(
+  string
+)
+ident(
+  def prompt "global/location.ml" 73 3342 3344 "global/location.ml" 78 3514 3520
+)
+"global/location.ml" 73 3342 3353 "global/location.ml" 73 3342 3354
+type(
+  int
+)
+"global/location.ml" 73 3342 3358 "global/location.ml" 73 3342 3360
+type(
+  int
+)
+ident(
+  int_ref nl "global/location.ml" 72 3309 3324 "global/location.ml" 72 3309 3326
+)
+"global/location.ml" 74 3364 3368 "global/location.ml" 74 3364 3383
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"global/location.ml" 74 3364 3384 "global/location.ml" 74 3364 3386
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 72 3309 3330 "global/location.ml" 72 3309 3332
+)
+"global/location.ml" 74 3364 3387 "global/location.ml" 74 3364 3393
+type(
+  string
+)
+ident(
+  int_ref prompt "global/location.ml" 72 3309 3333 "global/location.ml" 72 3309 3339
+)
+"global/location.ml" 74 3364 3368 "global/location.ml" 74 3364 3393
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 75 3395 3404 "global/location.ml" 75 3395 3419
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"global/location.ml" 75 3395 3420 "global/location.ml" 75 3395 3422
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 72 3309 3330 "global/location.ml" 72 3309 3332
+)
+"global/location.ml" 75 3395 3424 "global/location.ml" 75 3395 3434
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"global/location.ml" 75 3395 3435 "global/location.ml" 75 3395 3437
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 72 3309 3327 "global/location.ml" 72 3309 3329
+)
+"global/location.ml" 75 3395 3423 "global/location.ml" 75 3395 3438
+call(
+  stack
+)
+type(
+  string
+)
+"global/location.ml" 75 3395 3404 "global/location.ml" 75 3395 3438
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 76 3439 3449 "global/location.ml" 76 3439 3460
+type(
+  exn
+)
+"global/location.ml" 76 3439 3464 "global/location.ml" 76 3439 3479
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"global/location.ml" 76 3439 3480 "global/location.ml" 76 3439 3482
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 72 3309 3330 "global/location.ml" 72 3309 3332
+)
+"global/location.ml" 76 3439 3483 "global/location.ml" 76 3439 3490
+type(
+  string
+)
+"global/location.ml" 76 3439 3464 "global/location.ml" 76 3439 3490
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 75 3395 3399 "global/location.ml" 76 3439 3491
+type(
+  unit
+)
+"global/location.ml" 77 3493 3497 "global/location.ml" 77 3493 3504
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 77 3493 3505 "global/location.ml" 77 3493 3507
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 72 3309 3330 "global/location.ml" 72 3309 3332
+)
+"global/location.ml" 77 3493 3508 "global/location.ml" 77 3493 3513
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/location.ml" 77 3493 3497 "global/location.ml" 77 3493 3513
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 75 3395 3399 "global/location.ml" 77 3493 3513
+type(
+  unit
+)
+"global/location.ml" 74 3364 3368 "global/location.ml" 77 3493 3513
+type(
+  unit
+)
+"global/location.ml" 73 3342 3344 "global/location.ml" 78 3514 3520
+type(
+  unit
+)
+"global/location.ml" 80 3522 3526 "global/location.ml" 80 3522 3536
+type(
+  int -> int -> in_channel -> Format.formatter -> unit
+)
+ident(
+  def copy_chunk "global/location.ml" 86 3672 3672 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 80 3522 3537 "global/location.ml" 80 3522 3539
+type(
+  int
+)
+ident(
+  def p1 "global/location.ml" 80 3522 3540 "global/location.ml" 82 3620 3668
+)
+"global/location.ml" 80 3522 3540 "global/location.ml" 80 3522 3542
+type(
+  int
+)
+ident(
+  def p2 "global/location.ml" 80 3522 3543 "global/location.ml" 82 3620 3668
+)
+"global/location.ml" 80 3522 3543 "global/location.ml" 80 3522 3545
+type(
+  in_channel
+)
+ident(
+  def ic "global/location.ml" 80 3522 3546 "global/location.ml" 82 3620 3668
+)
+"global/location.ml" 80 3522 3546 "global/location.ml" 80 3522 3548
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/location.ml" 81 3551 3553 "global/location.ml" 82 3620 3668
+)
+"global/location.ml" 81 3551 3566 "global/location.ml" 81 3551 3568
+type(
+  int
+)
+ident(
+  int_ref p1 "global/location.ml" 80 3522 3537 "global/location.ml" 80 3522 3539
+)
+"global/location.ml" 81 3551 3572 "global/location.ml" 81 3551 3574
+type(
+  int
+)
+ident(
+  int_ref p2 "global/location.ml" 80 3522 3540 "global/location.ml" 80 3522 3542
+)
+"global/location.ml" 81 3551 3575 "global/location.ml" 81 3551 3576
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 81 3551 3577 "global/location.ml" 81 3551 3578
+type(
+  int
+)
+"global/location.ml" 81 3551 3572 "global/location.ml" 81 3551 3578
+type(
+  int
+)
+"global/location.ml" 81 3551 3582 "global/location.ml" 81 3551 3595
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"global/location.ml" 81 3551 3596 "global/location.ml" 81 3551 3598
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 80 3522 3546 "global/location.ml" 80 3522 3548
+)
+"global/location.ml" 81 3551 3600 "global/location.ml" 81 3551 3610
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"global/location.ml" 81 3551 3611 "global/location.ml" 81 3551 3613
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 80 3522 3543 "global/location.ml" 80 3522 3545
+)
+"global/location.ml" 81 3551 3599 "global/location.ml" 81 3551 3614
+call(
+  stack
+)
+type(
+  char
+)
+"global/location.ml" 81 3551 3582 "global/location.ml" 81 3551 3614
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 81 3551 3557 "global/location.ml" 81 3551 3619
+type(
+  unit
+)
+"global/location.ml" 82 3620 3627 "global/location.ml" 82 3620 3638
+type(
+  exn
+)
+"global/location.ml" 82 3620 3642 "global/location.ml" 82 3620 3657
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"global/location.ml" 82 3620 3658 "global/location.ml" 82 3620 3660
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 80 3522 3546 "global/location.ml" 80 3522 3548
+)
+"global/location.ml" 82 3620 3661 "global/location.ml" 82 3620 3668
+type(
+  string
+)
+"global/location.ml" 82 3620 3642 "global/location.ml" 82 3620 3668
+call(
+  tail
+)
+type(
+  unit
+)
+"global/location.ml" 81 3551 3553 "global/location.ml" 82 3620 3668
+type(
+  unit
+)
+"global/location.ml" 86 3672 3676 "global/location.ml" 86 3672 3686
+type(
+  int -> in_channel -> unit
+)
+ident(
+  def skip_lines "global/location.ml" 94 3788 3788 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 86 3672 3687 "global/location.ml" 86 3672 3688
+type(
+  int
+)
+ident(
+  def n "global/location.ml" 86 3672 3689 "global/location.ml" 90 3760 3784
+)
+"global/location.ml" 86 3672 3689 "global/location.ml" 86 3672 3691
+type(
+  in_channel
+)
+ident(
+  def ic "global/location.ml" 87 3694 3696 "global/location.ml" 90 3760 3784
+)
+"global/location.ml" 87 3694 3709 "global/location.ml" 87 3694 3710
+type(
+  int
+)
+"global/location.ml" 87 3694 3714 "global/location.ml" 87 3694 3715
+type(
+  int
+)
+ident(
+  int_ref n "global/location.ml" 86 3672 3687 "global/location.ml" 86 3672 3688
+)
+"global/location.ml" 88 3719 3727 "global/location.ml" 88 3719 3728
+type(
+  string
+)
+"global/location.ml" 88 3719 3731 "global/location.ml" 88 3719 3741
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"global/location.ml" 88 3719 3742 "global/location.ml" 88 3719 3744
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 86 3672 3689 "global/location.ml" 86 3672 3691
+)
+"global/location.ml" 88 3719 3731 "global/location.ml" 88 3719 3744
+call(
+  stack
+)
+type(
+  string
+)
+"global/location.ml" 88 3719 3748 "global/location.ml" 88 3719 3750
+type(
+  unit
+)
+"global/location.ml" 88 3719 3723 "global/location.ml" 88 3719 3750
+type(
+  unit
+)
+"global/location.ml" 87 3694 3700 "global/location.ml" 89 3751 3759
+type(
+  unit
+)
+"global/location.ml" 90 3760 3767 "global/location.ml" 90 3760 3778
+type(
+  exn
+)
+"global/location.ml" 90 3760 3782 "global/location.ml" 90 3760 3784
+type(
+  unit
+)
+"global/location.ml" 87 3694 3696 "global/location.ml" 90 3760 3784
+type(
+  unit
+)
+"global/location.ml" 94 3788 3792 "global/location.ml" 94 3788 3806
+type(
+  Format.formatter -> location -> unit
+)
+ident(
+  def print_location "global/location.ml" 146 5529 5546 "global/location.ml" 1 0 -1
+)
+"global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/location.ml" 94 3788 3810 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+type(
+  Lexing.position
+)
+ident(
+  def p1 "global/location.ml" 95 3825 3827 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+type(
+  Lexing.position
+)
+ident(
+  def p2 "global/location.ml" 95 3825 3827 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 94 3788 3810 "global/location.ml" 94 3788 3822
+type(
+  location
+)
+"global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+type(
+  int
+)
+ident(
+  def n1 "global/location.ml" 96 3887 3889 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 95 3825 3836 "global/location.ml" 95 3825 3838
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 95 3825 3836 "global/location.ml" 95 3825 3847
+type(
+  int
+)
+"global/location.ml" 95 3825 3848 "global/location.ml" 95 3825 3849
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 95 3825 3850 "global/location.ml" 95 3825 3852
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 95 3825 3850 "global/location.ml" 95 3825 3860
+type(
+  int
+)
+"global/location.ml" 95 3825 3836 "global/location.ml" 95 3825 3860
+type(
+  int
+)
+"global/location.ml" 96 3887 3893 "global/location.ml" 96 3887 3895
+type(
+  int
+)
+ident(
+  def n2 "global/location.ml" 97 3926 3928 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 96 3887 3898 "global/location.ml" 96 3887 3900
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 96 3887 3898 "global/location.ml" 96 3887 3909
+type(
+  int
+)
+"global/location.ml" 96 3887 3910 "global/location.ml" 96 3887 3911
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 96 3887 3912 "global/location.ml" 96 3887 3914
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 96 3887 3912 "global/location.ml" 96 3887 3922
+type(
+  int
+)
+"global/location.ml" 96 3887 3898 "global/location.ml" 96 3887 3922
+type(
+  int
+)
+"global/location.ml" 97 3926 3932 "global/location.ml" 97 3926 3935
+type(
+  int
+)
+ident(
+  def np1 "global/location.ml" 98 3978 3980 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 97 3926 3938 "global/location.ml" 97 3926 3940
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 97 3926 3938 "global/location.ml" 97 3926 3949
+type(
+  int
+)
+"global/location.ml" 98 3978 3984 "global/location.ml" 98 3978 3987
+type(
+  int
+)
+ident(
+  def np2 "global/location.ml" 99 4005 4007 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 98 3978 3990 "global/location.ml" 98 3978 3992
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 98 3978 3990 "global/location.ml" 98 3978 4001
+type(
+  int
+)
+"global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+type(
+  int
+)
+ident(
+  def l1 "global/location.ml" 100 4049 4051 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 99 4005 4016 "global/location.ml" 99 4005 4018
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 99 4005 4016 "global/location.ml" 99 4005 4027
+type(
+  int
+)
+"global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+type(
+  int
+)
+ident(
+  def l2 "global/location.ml" 101 4075 4077 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 100 4049 4060 "global/location.ml" 100 4049 4062
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 100 4049 4060 "global/location.ml" 100 4049 4071
+type(
+  int
+)
+"global/location.ml" 101 4075 4081 "global/location.ml" 101 4075 4084
+type(
+  int
+)
+ident(
+  def lp1 "global/location.ml" 102 4121 4123 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 101 4075 4087 "global/location.ml" 101 4075 4089
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 101 4075 4087 "global/location.ml" 101 4075 4097
+type(
+  int
+)
+"global/location.ml" 102 4121 4127 "global/location.ml" 102 4121 4130
+type(
+  int
+)
+ident(
+  def lp2 "global/location.ml" 103 4147 4149 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 102 4121 4133 "global/location.ml" 102 4121 4135
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 102 4121 4133 "global/location.ml" 102 4121 4143
+type(
+  int
+)
+"global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+type(
+  string
+)
+ident(
+  def f1 "global/location.ml" 104 4190 4192 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 103 4147 4158 "global/location.ml" 103 4147 4160
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "global/location.ml" 94 3788 3815 "global/location.ml" 94 3788 3817
+)
+"global/location.ml" 103 4147 4158 "global/location.ml" 103 4147 4170
+type(
+  string
+)
+"global/location.ml" 104 4190 4196 "global/location.ml" 104 4190 4198
+type(
+  string
+)
+ident(
+  def f2 "global/location.ml" 106 4218 4220 "global/location.ml" 146 5529 5546
+)
+"global/location.ml" 104 4190 4201 "global/location.ml" 104 4190 4203
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "global/location.ml" 94 3788 3818 "global/location.ml" 94 3788 3820
+)
+"global/location.ml" 104 4190 4201 "global/location.ml" 104 4190 4213
+type(
+  string
+)
+"global/location.ml" 106 4218 4223 "global/location.ml" 106 4218 4225
+type(
+  string
+)
+ident(
+  int_ref f1 "global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+)
+"global/location.ml" 106 4218 4226 "global/location.ml" 106 4218 4228
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"global/location.ml" 106 4218 4229 "global/location.ml" 106 4218 4231
+type(
+  string
+)
+ident(
+  int_ref f2 "global/location.ml" 104 4190 4196 "global/location.ml" 104 4190 4198
+)
+"global/location.ml" 106 4218 4223 "global/location.ml" 106 4218 4231
+type(
+  bool
+)
+"global/location.ml" 107 4256 4260 "global/location.ml" 107 4256 4267
+type(
+  Format.formatter ->
+  (string -> int -> int -> string -> int -> int -> unit, Format.formatter,
+   unit)
+  format -> string -> int -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 107 4256 4268 "global/location.ml" 107 4256 4270
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 108 4271 4275 "global/location.ml" 108 4271 4350
+type(
+  (string -> int -> int -> string -> int -> int -> unit, Format.formatter,
+   unit)
+  format
+)
+"global/location.ml" 109 4351 4357 "global/location.ml" 109 4351 4359
+type(
+  string
+)
+ident(
+  int_ref f1 "global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+)
+"global/location.ml" 109 4351 4360 "global/location.ml" 109 4351 4362
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 109 4351 4363 "global/location.ml" 109 4351 4365
+type(
+  int
+)
+ident(
+  int_ref n1 "global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+)
+"global/location.ml" 109 4351 4366 "global/location.ml" 109 4351 4368
+type(
+  string
+)
+ident(
+  int_ref f2 "global/location.ml" 104 4190 4196 "global/location.ml" 104 4190 4198
+)
+"global/location.ml" 109 4351 4369 "global/location.ml" 109 4351 4371
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 109 4351 4372 "global/location.ml" 109 4351 4374
+type(
+  int
+)
+ident(
+  int_ref n2 "global/location.ml" 96 3887 3893 "global/location.ml" 96 3887 3895
+)
+"global/location.ml" 107 4256 4260 "global/location.ml" 109 4351 4374
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 112 4405 4412 "global/location.ml" 112 4405 4414
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 112 4405 4415 "global/location.ml" 112 4405 4416
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"global/location.ml" 112 4405 4417 "global/location.ml" 112 4405 4419
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 112 4405 4412 "global/location.ml" 112 4405 4419
+type(
+  bool
+)
+"global/location.ml" 113 4425 4431 "global/location.ml" 113 4425 4438
+type(
+  Format.formatter ->
+  (string -> int -> int -> int -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> int -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 113 4425 4439 "global/location.ml" 113 4425 4441
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 114 4442 4450 "global/location.ml" 114 4442 4497
+type(
+  (string -> int -> int -> int -> int -> unit, Format.formatter, unit) format
+)
+"global/location.ml" 114 4442 4498 "global/location.ml" 114 4442 4500
+type(
+  string
+)
+ident(
+  int_ref f1 "global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+)
+"global/location.ml" 114 4442 4501 "global/location.ml" 114 4442 4503
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 114 4442 4504 "global/location.ml" 114 4442 4506
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 114 4442 4507 "global/location.ml" 114 4442 4509
+type(
+  int
+)
+ident(
+  int_ref n1 "global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+)
+"global/location.ml" 114 4442 4510 "global/location.ml" 114 4442 4512
+type(
+  int
+)
+ident(
+  int_ref n2 "global/location.ml" 96 3887 3893 "global/location.ml" 96 3887 3895
+)
+"global/location.ml" 113 4425 4431 "global/location.ml" 114 4442 4512
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 116 4522 4528 "global/location.ml" 116 4522 4535
+type(
+  Format.formatter ->
+  (string -> int -> int -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 116 4522 4536 "global/location.ml" 116 4522 4538
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 116 4522 4539 "global/location.ml" 116 4522 4583
+type(
+  (string -> int -> int -> int -> unit, Format.formatter, unit) format
+)
+"global/location.ml" 116 4522 4584 "global/location.ml" 116 4522 4586
+type(
+  string
+)
+ident(
+  int_ref f1 "global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+)
+"global/location.ml" 116 4522 4587 "global/location.ml" 116 4522 4589
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 116 4522 4590 "global/location.ml" 116 4522 4592
+type(
+  int
+)
+ident(
+  int_ref n1 "global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+)
+"global/location.ml" 116 4522 4593 "global/location.ml" 116 4522 4595
+type(
+  int
+)
+ident(
+  int_ref n2 "global/location.ml" 96 3887 3893 "global/location.ml" 96 3887 3895
+)
+"global/location.ml" 116 4522 4528 "global/location.ml" 116 4522 4595
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 112 4405 4409 "global/location.ml" 116 4522 4595
+type(
+  unit
+)
+"global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+type(
+  in_channel
+)
+ident(
+  def ic "global/location.ml" 121 4664 4670 "global/location.ml" 143 5486 5493
+)
+"global/location.ml" 119 4634 4649 "global/location.ml" 119 4634 4656
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"global/location.ml" 119 4634 4657 "global/location.ml" 119 4634 4659
+type(
+  string
+)
+ident(
+  int_ref f1 "global/location.ml" 103 4147 4153 "global/location.ml" 103 4147 4155
+)
+"global/location.ml" 119 4634 4649 "global/location.ml" 119 4634 4659
+call(
+  stack
+)
+type(
+  in_channel
+)
+"global/location.ml" 121 4664 4673 "global/location.ml" 121 4664 4675
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 121 4664 4676 "global/location.ml" 121 4664 4678
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"global/location.ml" 121 4664 4679 "global/location.ml" 121 4664 4681
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 121 4664 4673 "global/location.ml" 121 4664 4681
+type(
+  bool
+)
+"global/location.ml" 123 4748 4756 "global/location.ml" 123 4748 4763
+type(
+  in_channel -> int -> unit
+)
+ident(
+  ext_ref Pervasives.seek_in
+)
+"global/location.ml" 123 4748 4764 "global/location.ml" 123 4748 4766
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 123 4748 4767 "global/location.ml" 123 4748 4770
+type(
+  int
+)
+ident(
+  int_ref lp1 "global/location.ml" 101 4075 4081 "global/location.ml" 101 4075 4084
+)
+"global/location.ml" 123 4748 4756 "global/location.ml" 123 4748 4770
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 124 4772 4780 "global/location.ml" 124 4772 4790
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  int_ref copy_lines "global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+)
+"global/location.ml" 124 4772 4791 "global/location.ml" 124 4772 4792
+type(
+  int
+)
+"global/location.ml" 124 4772 4793 "global/location.ml" 124 4772 4795
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 124 4772 4796 "global/location.ml" 124 4772 4798
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 124 4772 4799 "global/location.ml" 124 4772 4802
+type(
+  string
+)
+"global/location.ml" 124 4772 4780 "global/location.ml" 124 4772 4802
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 125 4804 4812 "global/location.ml" 125 4804 4826
+type(
+  in_channel -> Format.formatter -> char -> int -> int -> int -> unit
+)
+ident(
+  int_ref underline_line "global/location.ml" 50 2748 2752 "global/location.ml" 50 2748 2766
+)
+"global/location.ml" 125 4804 4827 "global/location.ml" 125 4804 4829
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 125 4804 4830 "global/location.ml" 125 4804 4832
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 125 4804 4833 "global/location.ml" 125 4804 4836
+type(
+  char
+)
+"global/location.ml" 125 4804 4837 "global/location.ml" 125 4804 4840
+type(
+  int
+)
+ident(
+  int_ref lp1 "global/location.ml" 101 4075 4081 "global/location.ml" 101 4075 4084
+)
+"global/location.ml" 125 4804 4841 "global/location.ml" 125 4804 4843
+type(
+  int
+)
+ident(
+  int_ref n1 "global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+)
+"global/location.ml" 125 4804 4844 "global/location.ml" 125 4804 4846
+type(
+  int
+)
+ident(
+  int_ref n2 "global/location.ml" 96 3887 3893 "global/location.ml" 96 3887 3895
+)
+"global/location.ml" 125 4804 4812 "global/location.ml" 125 4804 4846
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 124 4772 4780 "global/location.ml" 125 4804 4846
+type(
+  unit
+)
+"global/location.ml" 121 4664 4687 "global/location.ml" 125 4804 4848
+type(
+  unit
+)
+"global/location.ml" 127 4862 4870 "global/location.ml" 127 4862 4884
+type(
+  in_channel -> Format.formatter -> char -> int -> int -> int -> unit
+)
+ident(
+  int_ref underline_line "global/location.ml" 50 2748 2752 "global/location.ml" 50 2748 2766
+)
+"global/location.ml" 127 4862 4885 "global/location.ml" 127 4862 4887
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 127 4862 4888 "global/location.ml" 127 4862 4890
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 127 4862 4891 "global/location.ml" 127 4862 4894
+type(
+  char
+)
+"global/location.ml" 127 4862 4895 "global/location.ml" 127 4862 4898
+type(
+  int
+)
+ident(
+  int_ref lp1 "global/location.ml" 101 4075 4081 "global/location.ml" 101 4075 4084
+)
+"global/location.ml" 127 4862 4899 "global/location.ml" 127 4862 4900
+type(
+  int
+)
+"global/location.ml" 127 4862 4901 "global/location.ml" 127 4862 4903
+type(
+  int
+)
+ident(
+  int_ref n1 "global/location.ml" 95 3825 3831 "global/location.ml" 95 3825 3833
+)
+"global/location.ml" 127 4862 4870 "global/location.ml" 127 4862 4903
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 128 4925 4933 "global/location.ml" 128 4925 4940
+type(
+  in_channel -> int -> unit
+)
+ident(
+  ext_ref Pervasives.seek_in
+)
+"global/location.ml" 128 4925 4941 "global/location.ml" 128 4925 4943
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 128 4925 4944 "global/location.ml" 128 4925 4947
+type(
+  int
+)
+ident(
+  int_ref np1 "global/location.ml" 97 3926 3932 "global/location.ml" 97 3926 3935
+)
+"global/location.ml" 128 4925 4933 "global/location.ml" 128 4925 4947
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 130 5006 5014 "global/location.ml" 130 5006 5024
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  int_ref copy_lines "global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+)
+"global/location.ml" 130 5006 5025 "global/location.ml" 130 5006 5026
+type(
+  int
+)
+"global/location.ml" 130 5006 5027 "global/location.ml" 130 5006 5029
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 130 5006 5030 "global/location.ml" 130 5006 5032
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 130 5006 5033 "global/location.ml" 130 5006 5035
+type(
+  string
+)
+"global/location.ml" 130 5006 5014 "global/location.ml" 130 5006 5035
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 131 5037 5048 "global/location.ml" 131 5037 5050
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 131 5037 5051 "global/location.ml" 131 5037 5052
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 131 5037 5053 "global/location.ml" 131 5037 5055
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 131 5037 5048 "global/location.ml" 131 5037 5055
+type(
+  int
+)
+"global/location.ml" 131 5037 5056 "global/location.ml" 131 5037 5058
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"global/location.ml" 131 5037 5059 "global/location.ml" 131 5037 5060
+type(
+  int
+)
+"global/location.ml" 131 5037 5048 "global/location.ml" 131 5037 5060
+type(
+  bool
+)
+"global/location.ml" 133 5114 5124 "global/location.ml" 133 5114 5134
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  int_ref copy_lines "global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+)
+"global/location.ml" 133 5114 5136 "global/location.ml" 133 5114 5138
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 133 5114 5138 "global/location.ml" 133 5114 5139
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 133 5114 5139 "global/location.ml" 133 5114 5141
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 133 5114 5136 "global/location.ml" 133 5114 5141
+type(
+  int
+)
+"global/location.ml" 133 5114 5141 "global/location.ml" 133 5114 5142
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 133 5114 5142 "global/location.ml" 133 5114 5143
+type(
+  int
+)
+"global/location.ml" 133 5114 5135 "global/location.ml" 133 5114 5144
+type(
+  int
+)
+"global/location.ml" 133 5114 5145 "global/location.ml" 133 5114 5147
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 133 5114 5148 "global/location.ml" 133 5114 5150
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 133 5114 5151 "global/location.ml" 133 5114 5154
+type(
+  string
+)
+"global/location.ml" 133 5114 5124 "global/location.ml" 133 5114 5154
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 136 5215 5225 "global/location.ml" 136 5215 5235
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  int_ref copy_lines "global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+)
+"global/location.ml" 136 5215 5236 "global/location.ml" 136 5215 5237
+type(
+  int
+)
+"global/location.ml" 136 5215 5238 "global/location.ml" 136 5215 5240
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 136 5215 5241 "global/location.ml" 136 5215 5243
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 136 5215 5244 "global/location.ml" 136 5215 5247
+type(
+  string
+)
+"global/location.ml" 136 5215 5225 "global/location.ml" 136 5215 5247
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 137 5249 5259 "global/location.ml" 137 5249 5266
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 137 5249 5267 "global/location.ml" 137 5249 5269
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 137 5249 5270 "global/location.ml" 137 5249 5285
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/location.ml" 137 5249 5259 "global/location.ml" 137 5249 5285
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 138 5287 5297 "global/location.ml" 138 5287 5307
+type(
+  int -> in_channel -> unit
+)
+ident(
+  int_ref skip_lines "global/location.ml" 86 3672 3676 "global/location.ml" 86 3672 3686
+)
+"global/location.ml" 138 5287 5309 "global/location.ml" 138 5287 5311
+type(
+  int
+)
+ident(
+  int_ref l2 "global/location.ml" 100 4049 4055 "global/location.ml" 100 4049 4057
+)
+"global/location.ml" 138 5287 5311 "global/location.ml" 138 5287 5312
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 138 5287 5312 "global/location.ml" 138 5287 5314
+type(
+  int
+)
+ident(
+  int_ref l1 "global/location.ml" 99 4005 4011 "global/location.ml" 99 4005 4013
+)
+"global/location.ml" 138 5287 5309 "global/location.ml" 138 5287 5314
+type(
+  int
+)
+"global/location.ml" 138 5287 5314 "global/location.ml" 138 5287 5315
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/location.ml" 138 5287 5315 "global/location.ml" 138 5287 5316
+type(
+  int
+)
+"global/location.ml" 138 5287 5308 "global/location.ml" 138 5287 5317
+type(
+  int
+)
+"global/location.ml" 138 5287 5318 "global/location.ml" 138 5287 5320
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 138 5287 5297 "global/location.ml" 138 5287 5320
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 139 5346 5356 "global/location.ml" 139 5346 5366
+type(
+  int -> in_channel -> Format.formatter -> string -> unit
+)
+ident(
+  int_ref copy_lines "global/location.ml" 72 3309 3313 "global/location.ml" 72 3309 3323
+)
+"global/location.ml" 139 5346 5367 "global/location.ml" 139 5346 5368
+type(
+  int
+)
+"global/location.ml" 139 5346 5369 "global/location.ml" 139 5346 5371
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 139 5346 5372 "global/location.ml" 139 5346 5374
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 139 5346 5375 "global/location.ml" 139 5346 5378
+type(
+  string
+)
+"global/location.ml" 139 5346 5356 "global/location.ml" 139 5346 5378
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 138 5287 5297 "global/location.ml" 139 5346 5378
+type(
+  unit
+)
+"global/location.ml" 137 5249 5259 "global/location.ml" 139 5346 5378
+type(
+  unit
+)
+"global/location.ml" 134 5155 5168 "global/location.ml" 140 5379 5388
+type(
+  unit
+)
+"global/location.ml" 131 5037 5045 "global/location.ml" 140 5379 5388
+type(
+  unit
+)
+"global/location.ml" 141 5390 5398 "global/location.ml" 141 5390 5405
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 141 5390 5406 "global/location.ml" 141 5390 5408
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 141 5390 5409 "global/location.ml" 141 5390 5412
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/location.ml" 141 5390 5398 "global/location.ml" 141 5390 5412
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 142 5414 5422 "global/location.ml" 142 5414 5432
+type(
+  int -> int -> in_channel -> Format.formatter -> unit
+)
+ident(
+  int_ref copy_chunk "global/location.ml" 80 3522 3526 "global/location.ml" 80 3522 3536
+)
+"global/location.ml" 142 5414 5433 "global/location.ml" 142 5414 5436
+type(
+  int
+)
+ident(
+  int_ref lp2 "global/location.ml" 102 4121 4127 "global/location.ml" 102 4121 4130
+)
+"global/location.ml" 142 5414 5437 "global/location.ml" 142 5414 5440
+type(
+  int
+)
+ident(
+  int_ref np2 "global/location.ml" 98 3978 3984 "global/location.ml" 98 3978 3987
+)
+"global/location.ml" 142 5414 5441 "global/location.ml" 142 5414 5443
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/location.ml" 119 4634 4644 "global/location.ml" 119 4634 4646
+)
+"global/location.ml" 142 5414 5444 "global/location.ml" 142 5414 5446
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 142 5414 5422 "global/location.ml" 142 5414 5447
+call(
+  stack
+)
+type(
+  unit
+)
+"global/location.ml" 141 5390 5398 "global/location.ml" 142 5414 5447
+type(
+  unit
+)
+"global/location.ml" 131 5037 5045 "global/location.ml" 142 5414 5447
+type(
+  unit
+)
+"global/location.ml" 130 5006 5014 "global/location.ml" 142 5414 5447
+type(
+  unit
+)
+"global/location.ml" 128 4925 4933 "global/location.ml" 142 5414 5447
+type(
+  unit
+)
+"global/location.ml" 126 4849 4860 "global/location.ml" 143 5486 5493
+type(
+  unit
+)
+"global/location.ml" 121 4664 4670 "global/location.ml" 143 5486 5493
+type(
+  unit
+)
+"global/location.ml" 119 4634 4640 "global/location.ml" 143 5486 5493
+type(
+  unit
+)
+"global/location.ml" 144 5494 5513 "global/location.ml" 144 5494 5514
+type(
+  string
+)
+"global/location.ml" 144 5494 5503 "global/location.ml" 144 5494 5514
+type(
+  exn
+)
+"global/location.ml" 144 5494 5518 "global/location.ml" 144 5494 5521
+type(
+  unit
+)
+"global/location.ml" 118 4626 4630 "global/location.ml" 144 5494 5521
+type(
+  unit
+)
+"global/location.ml" 111 4376 4383 "global/location.ml" 145 5522 5527
+type(
+  unit
+)
+"global/location.ml" 106 4218 4220 "global/location.ml" 145 5522 5527
+type(
+  unit
+)
+"global/location.ml" 146 5529 5531 "global/location.ml" 146 5529 5538
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/location.ml" 146 5529 5539 "global/location.ml" 146 5529 5541
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/location.ml" 94 3788 3807 "global/location.ml" 94 3788 3809
+)
+"global/location.ml" 146 5529 5542 "global/location.ml" 146 5529 5546
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/location.ml" 146 5529 5531 "global/location.ml" 146 5529 5546
+call(
+  tail
+)
+type(
+  unit
+)
+"global/location.ml" 106 4218 4220 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 104 4190 4192 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 103 4147 4149 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 102 4121 4123 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 101 4075 4077 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 100 4049 4051 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 99 4005 4007 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 98 3978 3980 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 97 3926 3928 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 96 3887 3889 "global/location.ml" 146 5529 5546
+type(
+  unit
+)
+"global/location.ml" 95 3825 3827 "global/location.ml" 146 5529 5546
+type(
+  unit
+)

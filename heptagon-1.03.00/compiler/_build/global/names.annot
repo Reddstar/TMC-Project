@@ -1,0 +1,1536 @@
+"global/names.ml" 51 2529 2533 "global/names.ml" 51 2529 2546
+type(
+  name -> qualname
+)
+ident(
+  def pervasives_qn "global/names.ml" 53 2590 2590 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 51 2529 2547 "global/names.ml" 51 2529 2551
+type(
+  name
+)
+ident(
+  def name "global/names.ml" 51 2529 2554 "global/names.ml" 51 2529 2588
+)
+"global/names.ml" 51 2529 2563 "global/names.ml" 51 2529 2573
+type(
+  modul
+)
+"global/names.ml" 51 2529 2582 "global/names.ml" 51 2529 2586
+type(
+  name
+)
+ident(
+  int_ref name "global/names.ml" 51 2529 2547 "global/names.ml" 51 2529 2551
+)
+"global/names.ml" 51 2529 2554 "global/names.ml" 51 2529 2588
+type(
+  qualname
+)
+"global/names.ml" 53 2590 2594 "global/names.ml" 53 2590 2602
+type(
+  name -> qualname
+)
+ident(
+  def local_qn "global/names.ml" 56 2648 2648 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 53 2590 2603 "global/names.ml" 53 2590 2607
+type(
+  name
+)
+ident(
+  def name "global/names.ml" 53 2590 2610 "global/names.ml" 53 2590 2645
+)
+"global/names.ml" 53 2590 2619 "global/names.ml" 53 2590 2630
+type(
+  modul
+)
+"global/names.ml" 53 2590 2639 "global/names.ml" 53 2590 2643
+type(
+  name
+)
+ident(
+  int_ref name "global/names.ml" 53 2590 2603 "global/names.ml" 53 2590 2607
+)
+"global/names.ml" 53 2590 2610 "global/names.ml" 53 2590 2645
+type(
+  qualname
+)
+"global/names.ml" 57 2673 2718 "global/names.ml" 57 2673 2725
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 57 2673 2735 "global/names.ml" 57 2673 2739
+)
+"global/names.ml" 57 2673 2728 "global/names.ml" 57 2673 2735
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 57 2673 2684 "global/names.ml" 57 2673 2740
+call(
+  stack
+)
+"global/names.ml" 58 2742 2748 "global/names.ml" 58 2742 2754
+type(
+  'b t -> 'b t -> 'b t
+)
+ident(
+  def append "global/names.ml" 58 2742 2812 "global/names.ml" 59 2813 2816
+)
+"global/names.ml" 58 2742 2755 "global/names.ml" 58 2742 2759
+type(
+  'b t
+)
+ident(
+  def env0 "global/names.ml" 58 2742 2760 "global/names.ml" 58 2742 2812
+)
+"global/names.ml" 58 2742 2760 "global/names.ml" 58 2742 2763
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 58 2742 2766 "global/names.ml" 58 2742 2812
+)
+"global/names.ml" 58 2742 2766 "global/names.ml" 58 2742 2770
+type(
+  (key -> 'b -> 'b t -> 'b t) -> 'b t -> 'b t -> 'b t
+)
+ident(
+  ext_ref fold
+)
+"global/names.ml" 58 2742 2776 "global/names.ml" 58 2742 2779
+type(
+  key
+)
+ident(
+  def key "global/names.ml" 58 2742 2780 "global/names.ml" 58 2742 2802
+)
+"global/names.ml" 58 2742 2780 "global/names.ml" 58 2742 2781
+type(
+  'b
+)
+ident(
+  def v "global/names.ml" 58 2742 2782 "global/names.ml" 58 2742 2802
+)
+"global/names.ml" 58 2742 2782 "global/names.ml" 58 2742 2785
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 58 2742 2789 "global/names.ml" 58 2742 2802
+)
+"global/names.ml" 58 2742 2789 "global/names.ml" 58 2742 2792
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+ident(
+  ext_ref add
+)
+"global/names.ml" 58 2742 2793 "global/names.ml" 58 2742 2796
+type(
+  key
+)
+ident(
+  int_ref key "global/names.ml" 58 2742 2776 "global/names.ml" 58 2742 2779
+)
+"global/names.ml" 58 2742 2797 "global/names.ml" 58 2742 2798
+type(
+  'b
+)
+ident(
+  int_ref v "global/names.ml" 58 2742 2780 "global/names.ml" 58 2742 2781
+)
+"global/names.ml" 58 2742 2799 "global/names.ml" 58 2742 2802
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 58 2742 2782 "global/names.ml" 58 2742 2785
+)
+"global/names.ml" 58 2742 2789 "global/names.ml" 58 2742 2802
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 58 2742 2771 "global/names.ml" 58 2742 2803
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+"global/names.ml" 58 2742 2804 "global/names.ml" 58 2742 2808
+type(
+  'b t
+)
+ident(
+  int_ref env0 "global/names.ml" 58 2742 2755 "global/names.ml" 58 2742 2759
+)
+"global/names.ml" 58 2742 2809 "global/names.ml" 58 2742 2812
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 58 2742 2760 "global/names.ml" 58 2742 2763
+)
+"global/names.ml" 58 2742 2766 "global/names.ml" 58 2742 2812
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 62 2843 2889 "global/names.ml" 62 2843 2896
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 62 2843 2906 "global/names.ml" 62 2843 2910
+)
+"global/names.ml" 62 2843 2899 "global/names.ml" 62 2843 2906
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 62 2843 2854 "global/names.ml" 62 2843 2911
+call(
+  stack
+)
+"global/names.ml" 63 2913 2919 "global/names.ml" 63 2913 2925
+type(
+  'b t -> 'b t -> 'b t
+)
+ident(
+  def append "global/names.ml" 63 2913 2983 "global/names.ml" 64 2984 2987
+)
+"global/names.ml" 63 2913 2926 "global/names.ml" 63 2913 2930
+type(
+  'b t
+)
+ident(
+  def env0 "global/names.ml" 63 2913 2931 "global/names.ml" 63 2913 2983
+)
+"global/names.ml" 63 2913 2931 "global/names.ml" 63 2913 2934
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 63 2913 2937 "global/names.ml" 63 2913 2983
+)
+"global/names.ml" 63 2913 2937 "global/names.ml" 63 2913 2941
+type(
+  (key -> 'b -> 'b t -> 'b t) -> 'b t -> 'b t -> 'b t
+)
+ident(
+  ext_ref fold
+)
+"global/names.ml" 63 2913 2947 "global/names.ml" 63 2913 2950
+type(
+  key
+)
+ident(
+  def key "global/names.ml" 63 2913 2951 "global/names.ml" 63 2913 2973
+)
+"global/names.ml" 63 2913 2951 "global/names.ml" 63 2913 2952
+type(
+  'b
+)
+ident(
+  def v "global/names.ml" 63 2913 2953 "global/names.ml" 63 2913 2973
+)
+"global/names.ml" 63 2913 2953 "global/names.ml" 63 2913 2956
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 63 2913 2960 "global/names.ml" 63 2913 2973
+)
+"global/names.ml" 63 2913 2960 "global/names.ml" 63 2913 2963
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+ident(
+  ext_ref add
+)
+"global/names.ml" 63 2913 2964 "global/names.ml" 63 2913 2967
+type(
+  key
+)
+ident(
+  int_ref key "global/names.ml" 63 2913 2947 "global/names.ml" 63 2913 2950
+)
+"global/names.ml" 63 2913 2968 "global/names.ml" 63 2913 2969
+type(
+  'b
+)
+ident(
+  int_ref v "global/names.ml" 63 2913 2951 "global/names.ml" 63 2913 2952
+)
+"global/names.ml" 63 2913 2970 "global/names.ml" 63 2913 2973
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 63 2913 2953 "global/names.ml" 63 2913 2956
+)
+"global/names.ml" 63 2913 2960 "global/names.ml" 63 2913 2973
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 63 2913 2942 "global/names.ml" 63 2913 2974
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+"global/names.ml" 63 2913 2975 "global/names.ml" 63 2913 2979
+type(
+  'b t
+)
+ident(
+  int_ref env0 "global/names.ml" 63 2913 2926 "global/names.ml" 63 2913 2930
+)
+"global/names.ml" 63 2913 2980 "global/names.ml" 63 2913 2983
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 63 2913 2931 "global/names.ml" 63 2913 2934
+)
+"global/names.ml" 63 2913 2937 "global/names.ml" 63 2913 2983
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 67 3013 3062 "global/names.ml" 67 3013 3069
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 67 3013 3079 "global/names.ml" 67 3013 3083
+)
+"global/names.ml" 67 3013 3072 "global/names.ml" 67 3013 3079
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 67 3013 3024 "global/names.ml" 67 3013 3084
+call(
+  stack
+)
+"global/names.ml" 70 3134 3140 "global/names.ml" 70 3134 3146
+type(
+  'b t -> 'b t -> 'b t
+)
+ident(
+  def append "global/names.ml" 70 3134 3204 "global/names.ml" 71 3205 3208
+)
+"global/names.ml" 70 3134 3147 "global/names.ml" 70 3134 3151
+type(
+  'b t
+)
+ident(
+  def env' "global/names.ml" 70 3134 3152 "global/names.ml" 70 3134 3204
+)
+"global/names.ml" 70 3134 3152 "global/names.ml" 70 3134 3155
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 70 3134 3158 "global/names.ml" 70 3134 3204
+)
+"global/names.ml" 70 3134 3158 "global/names.ml" 70 3134 3162
+type(
+  (key -> 'b -> 'b t -> 'b t) -> 'b t -> 'b t -> 'b t
+)
+ident(
+  ext_ref fold
+)
+"global/names.ml" 70 3134 3168 "global/names.ml" 70 3134 3171
+type(
+  key
+)
+ident(
+  def key "global/names.ml" 70 3134 3172 "global/names.ml" 70 3134 3194
+)
+"global/names.ml" 70 3134 3172 "global/names.ml" 70 3134 3173
+type(
+  'b
+)
+ident(
+  def v "global/names.ml" 70 3134 3174 "global/names.ml" 70 3134 3194
+)
+"global/names.ml" 70 3134 3174 "global/names.ml" 70 3134 3177
+type(
+  'b t
+)
+ident(
+  def env "global/names.ml" 70 3134 3181 "global/names.ml" 70 3134 3194
+)
+"global/names.ml" 70 3134 3181 "global/names.ml" 70 3134 3184
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+ident(
+  ext_ref add
+)
+"global/names.ml" 70 3134 3185 "global/names.ml" 70 3134 3188
+type(
+  key
+)
+ident(
+  int_ref key "global/names.ml" 70 3134 3168 "global/names.ml" 70 3134 3171
+)
+"global/names.ml" 70 3134 3189 "global/names.ml" 70 3134 3190
+type(
+  'b
+)
+ident(
+  int_ref v "global/names.ml" 70 3134 3172 "global/names.ml" 70 3134 3173
+)
+"global/names.ml" 70 3134 3191 "global/names.ml" 70 3134 3194
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 70 3134 3174 "global/names.ml" 70 3134 3177
+)
+"global/names.ml" 70 3134 3181 "global/names.ml" 70 3134 3194
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 70 3134 3163 "global/names.ml" 70 3134 3195
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+"global/names.ml" 70 3134 3196 "global/names.ml" 70 3134 3200
+type(
+  'b t
+)
+ident(
+  int_ref env' "global/names.ml" 70 3134 3147 "global/names.ml" 70 3134 3151
+)
+"global/names.ml" 70 3134 3201 "global/names.ml" 70 3134 3204
+type(
+  'b t
+)
+ident(
+  int_ref env "global/names.ml" 70 3134 3152 "global/names.ml" 70 3134 3155
+)
+"global/names.ml" 70 3134 3158 "global/names.ml" 70 3134 3204
+call(
+  tail
+)
+type(
+  'b t
+)
+"global/names.ml" 73 3210 3265 "global/names.ml" 73 3210 3272
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 73 3210 3282 "global/names.ml" 73 3210 3286
+)
+"global/names.ml" 73 3210 3275 "global/names.ml" 73 3210 3282
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 73 3210 3228 "global/names.ml" 73 3210 3287
+call(
+  stack
+)
+"global/names.ml" 74 3288 3344 "global/names.ml" 74 3288 3351
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 74 3288 3361 "global/names.ml" 74 3288 3365
+)
+"global/names.ml" 74 3288 3354 "global/names.ml" 74 3288 3361
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 74 3288 3305 "global/names.ml" 74 3288 3366
+call(
+  stack
+)
+"global/names.ml" 75 3367 3421 "global/names.ml" 75 3367 3428
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/names.ml" 75 3367 3438 "global/names.ml" 75 3367 3442
+)
+"global/names.ml" 75 3367 3431 "global/names.ml" 75 3367 3438
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/names.ml" 75 3367 3385 "global/names.ml" 75 3367 3443
+call(
+  stack
+)
+"global/names.ml" 78 3446 3450 "global/names.ml" 78 3446 3459
+type(
+  qualname -> name
+)
+ident(
+  def shortname "global/names.ml" 80 3479 3479 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 78 3446 3469 "global/names.ml" 78 3446 3470
+type(
+  name
+)
+ident(
+  def n "global/names.ml" 78 3446 3476 "global/names.ml" 78 3446 3477
+)
+"global/names.ml" 78 3446 3460 "global/names.ml" 78 3446 3473
+type(
+  qualname
+)
+"global/names.ml" 78 3446 3476 "global/names.ml" 78 3446 3477
+type(
+  name
+)
+ident(
+  int_ref n "global/names.ml" 78 3446 3469 "global/names.ml" 78 3446 3470
+)
+"global/names.ml" 80 3479 3483 "global/names.ml" 80 3479 3488
+type(
+  qualname -> modul
+)
+ident(
+  def modul "global/names.ml" 82 3508 3508 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 80 3479 3498 "global/names.ml" 80 3479 3499
+type(
+  modul
+)
+ident(
+  def m "global/names.ml" 80 3479 3505 "global/names.ml" 80 3479 3506
+)
+"global/names.ml" 80 3479 3489 "global/names.ml" 80 3479 3502
+type(
+  qualname
+)
+"global/names.ml" 80 3479 3505 "global/names.ml" 80 3479 3506
+type(
+  modul
+)
+ident(
+  int_ref m "global/names.ml" 80 3479 3498 "global/names.ml" 80 3479 3499
+)
+"global/names.ml" 82 3508 3516 "global/names.ml" 82 3508 3531
+type(
+  modul -> module_name
+)
+ident(
+  def modul_to_string "global/names.ml" 82 3508 3508 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 82 3508 3532 "global/names.ml" 82 3508 3533
+type(
+  modul
+)
+ident(
+  def m "global/names.ml" 82 3508 3536 "global/names.ml" 86 3638 3704
+)
+"global/names.ml" 82 3508 3542 "global/names.ml" 82 3508 3543
+type(
+  modul
+)
+ident(
+  int_ref m "global/names.ml" 82 3508 3532 "global/names.ml" 82 3508 3533
+)
+"global/names.ml" 83 3549 3553 "global/names.ml" 83 3549 3563
+type(
+  modul
+)
+"global/names.ml" 83 3549 3567 "global/names.ml" 83 3549 3579
+type(
+  module_name
+)
+"global/names.ml" 84 3580 3584 "global/names.ml" 84 3580 3595
+type(
+  modul
+)
+"global/names.ml" 84 3580 3599 "global/names.ml" 84 3580 3619
+type(
+  module_name
+)
+"global/names.ml" 85 3620 3631 "global/names.ml" 85 3620 3632
+type(
+  module_name
+)
+ident(
+  def n "global/names.ml" 85 3620 3636 "global/names.ml" 85 3620 3637
+)
+"global/names.ml" 85 3620 3624 "global/names.ml" 85 3620 3632
+type(
+  modul
+)
+"global/names.ml" 85 3620 3636 "global/names.ml" 85 3620 3637
+type(
+  module_name
+)
+ident(
+  int_ref n "global/names.ml" 85 3620 3631 "global/names.ml" 85 3620 3632
+)
+"global/names.ml" 86 3638 3661 "global/names.ml" 86 3638 3662
+type(
+  modul
+)
+ident(
+  def q "global/names.ml" 86 3638 3677 "global/names.ml" 86 3638 3704
+)
+"global/names.ml" 86 3638 3671 "global/names.ml" 86 3638 3672
+type(
+  name
+)
+ident(
+  def n "global/names.ml" 86 3638 3677 "global/names.ml" 86 3638 3704
+)
+"global/names.ml" 86 3638 3653 "global/names.ml" 86 3638 3673
+type(
+  qualname
+)
+"global/names.ml" 86 3638 3642 "global/names.ml" 86 3638 3673
+type(
+  modul
+)
+"global/names.ml" 86 3638 3678 "global/names.ml" 86 3638 3693
+type(
+  modul -> module_name
+)
+ident(
+  int_ref modul_to_string "global/names.ml" 82 3508 3516 "global/names.ml" 82 3508 3531
+)
+"global/names.ml" 86 3638 3694 "global/names.ml" 86 3638 3695
+type(
+  modul
+)
+ident(
+  int_ref q "global/names.ml" 86 3638 3661 "global/names.ml" 86 3638 3662
+)
+"global/names.ml" 86 3638 3677 "global/names.ml" 86 3638 3696
+call(
+  stack
+)
+type(
+  module_name
+)
+"global/names.ml" 86 3638 3697 "global/names.ml" 86 3638 3698
+type(
+  module_name -> string -> module_name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 86 3638 3698 "global/names.ml" 86 3638 3701
+type(
+  string
+)
+"global/names.ml" 86 3638 3701 "global/names.ml" 86 3638 3702
+type(
+  string -> name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 86 3638 3703 "global/names.ml" 86 3638 3704
+type(
+  name
+)
+ident(
+  int_ref n "global/names.ml" 86 3638 3671 "global/names.ml" 86 3638 3672
+)
+"global/names.ml" 86 3638 3698 "global/names.ml" 86 3638 3704
+call(
+  stack
+)
+type(
+  string
+)
+"global/names.ml" 86 3638 3677 "global/names.ml" 86 3638 3704
+call(
+  tail
+)
+type(
+  module_name
+)
+"global/names.ml" 82 3508 3536 "global/names.ml" 86 3638 3704
+type(
+  module_name
+)
+"global/names.ml" 88 3706 3710 "global/names.ml" 88 3706 3718
+type(
+  qualname -> string
+)
+ident(
+  def fullname "global/names.ml" 90 3771 3771 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 88 3706 3727 "global/names.ml" 88 3706 3728
+type(
+  modul
+)
+ident(
+  def q "global/names.ml" 88 3706 3742 "global/names.ml" 88 3706 3769
+)
+"global/names.ml" 88 3706 3737 "global/names.ml" 88 3706 3738
+type(
+  name
+)
+ident(
+  def n "global/names.ml" 88 3706 3742 "global/names.ml" 88 3706 3769
+)
+"global/names.ml" 88 3706 3719 "global/names.ml" 88 3706 3739
+type(
+  qualname
+)
+"global/names.ml" 88 3706 3742 "global/names.ml" 88 3706 3757
+type(
+  modul -> module_name
+)
+ident(
+  int_ref modul_to_string "global/names.ml" 82 3508 3516 "global/names.ml" 82 3508 3531
+)
+"global/names.ml" 88 3706 3758 "global/names.ml" 88 3706 3759
+type(
+  modul
+)
+ident(
+  int_ref q "global/names.ml" 88 3706 3727 "global/names.ml" 88 3706 3728
+)
+"global/names.ml" 88 3706 3742 "global/names.ml" 88 3706 3759
+call(
+  stack
+)
+type(
+  module_name
+)
+"global/names.ml" 88 3706 3760 "global/names.ml" 88 3706 3761
+type(
+  module_name -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 88 3706 3762 "global/names.ml" 88 3706 3765
+type(
+  string
+)
+"global/names.ml" 88 3706 3766 "global/names.ml" 88 3706 3767
+type(
+  string -> name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 88 3706 3768 "global/names.ml" 88 3706 3769
+type(
+  name
+)
+ident(
+  int_ref n "global/names.ml" 88 3706 3737 "global/names.ml" 88 3706 3738
+)
+"global/names.ml" 88 3706 3762 "global/names.ml" 88 3706 3769
+call(
+  stack
+)
+type(
+  string
+)
+"global/names.ml" 88 3706 3742 "global/names.ml" 88 3706 3769
+call(
+  tail
+)
+type(
+  string
+)
+"global/names.ml" 90 3771 3779 "global/names.ml" 90 3771 3799
+type(
+  module_name list -> modul
+)
+ident(
+  def modul_of_string_list "global/names.ml" 90 3771 3771 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 91 3811 3815 "global/names.ml" 91 3811 3817
+type(
+  module_name list
+)
+"global/names.ml" 91 3811 3821 "global/names.ml" 91 3811 3832
+type(
+  modul
+)
+"global/names.ml" 92 3833 3838 "global/names.ml" 92 3833 3850
+type(
+  module_name
+)
+"global/names.ml" 92 3833 3837 "global/names.ml" 92 3833 3851
+type(
+  module_name list
+)
+"global/names.ml" 92 3833 3855 "global/names.ml" 92 3833 3865
+type(
+  modul
+)
+"global/names.ml" 93 3866 3871 "global/names.ml" 93 3866 3872
+type(
+  module_name
+)
+ident(
+  def q "global/names.ml" 93 3866 3877 "global/names.ml" 93 3866 3885
+)
+"global/names.ml" 93 3866 3870 "global/names.ml" 93 3866 3873
+type(
+  module_name list
+)
+"global/names.ml" 93 3866 3884 "global/names.ml" 93 3866 3885
+type(
+  module_name
+)
+ident(
+  int_ref q "global/names.ml" 93 3866 3871 "global/names.ml" 93 3866 3872
+)
+"global/names.ml" 93 3866 3877 "global/names.ml" 93 3866 3885
+type(
+  modul
+)
+"global/names.ml" 94 3886 3890 "global/names.ml" 94 3886 3891
+type(
+  module_name
+)
+ident(
+  def q "global/names.ml" 94 3886 3900 "global/names.ml" 94 3886 3954
+)
+"global/names.ml" 94 3886 3893 "global/names.ml" 94 3886 3896
+type(
+  module_name list
+)
+ident(
+  def q_l "global/names.ml" 94 3886 3900 "global/names.ml" 94 3886 3954
+)
+"global/names.ml" 94 3886 3890 "global/names.ml" 94 3886 3896
+type(
+  module_name list
+)
+"global/names.ml" 94 3886 3919 "global/names.ml" 94 3886 3939
+type(
+  module_name list -> modul
+)
+ident(
+  int_ref modul_of_string_list "global/names.ml" 90 3771 3779 "global/names.ml" 90 3771 3799
+)
+"global/names.ml" 94 3886 3940 "global/names.ml" 94 3886 3943
+type(
+  module_name list
+)
+ident(
+  int_ref q_l "global/names.ml" 94 3886 3893 "global/names.ml" 94 3886 3896
+)
+"global/names.ml" 94 3886 3919 "global/names.ml" 94 3886 3943
+call(
+  stack
+)
+type(
+  modul
+)
+"global/names.ml" 94 3886 3952 "global/names.ml" 94 3886 3953
+type(
+  module_name
+)
+ident(
+  int_ref q "global/names.ml" 94 3886 3890 "global/names.ml" 94 3886 3891
+)
+"global/names.ml" 94 3886 3911 "global/names.ml" 94 3886 3954
+type(
+  qualname
+)
+"global/names.ml" 94 3886 3900 "global/names.ml" 94 3886 3954
+type(
+  modul
+)
+"global/names.ml" 90 3771 3802 "global/names.ml" 94 3886 3954
+type(
+  module_name list -> modul
+)
+"global/names.ml" 96 3956 3960 "global/names.ml" 96 3956 3978
+type(
+  string -> qualname
+)
+ident(
+  def qualname_of_string "global/names.ml" 102 4171 4171 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 96 3956 3979 "global/names.ml" 96 3956 3980
+type(
+  string
+)
+ident(
+  def s "global/names.ml" 97 3983 3985 "global/names.ml" 100 4108 4169
+)
+"global/names.ml" 97 3983 3989 "global/names.ml" 97 3983 3994
+type(
+  string list
+)
+ident(
+  def q_l_n "global/names.ml" 98 4024 4026 "global/names.ml" 100 4108 4169
+)
+"global/names.ml" 97 3983 3997 "global/names.ml" 97 3983 4014
+type(
+  string -> string -> string list
+)
+ident(
+  ext_ref Misc.split_string
+)
+"global/names.ml" 97 3983 4015 "global/names.ml" 97 3983 4016
+type(
+  string
+)
+ident(
+  int_ref s "global/names.ml" 96 3956 3979 "global/names.ml" 96 3956 3980
+)
+"global/names.ml" 97 3983 4017 "global/names.ml" 97 3983 4020
+type(
+  string
+)
+"global/names.ml" 97 3983 3997 "global/names.ml" 97 3983 4020
+call(
+  stack
+)
+type(
+  string list
+)
+"global/names.ml" 98 4024 4032 "global/names.ml" 98 4024 4040
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"global/names.ml" 98 4024 4041 "global/names.ml" 98 4024 4046
+type(
+  string list
+)
+ident(
+  int_ref q_l_n "global/names.ml" 97 3983 3989 "global/names.ml" 97 3983 3994
+)
+"global/names.ml" 98 4024 4032 "global/names.ml" 98 4024 4046
+call(
+  stack
+)
+type(
+  string list
+)
+"global/names.ml" 99 4052 4058 "global/names.ml" 99 4052 4060
+type(
+  string list
+)
+"global/names.ml" 99 4052 4097 "global/names.ml" 99 4052 4102
+type(
+  exn -> qualname
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/names.ml" 99 4052 4103 "global/names.ml" 99 4052 4107
+type(
+  exn
+)
+"global/names.ml" 99 4052 4097 "global/names.ml" 99 4052 4107
+type(
+  qualname
+)
+"global/names.ml" 100 4108 4114 "global/names.ml" 100 4108 4115
+type(
+  string
+)
+ident(
+  def n "global/names.ml" 100 4108 4124 "global/names.ml" 100 4108 4169
+)
+"global/names.ml" 100 4108 4117 "global/names.ml" 100 4108 4120
+type(
+  string list
+)
+ident(
+  def q_l "global/names.ml" 100 4108 4124 "global/names.ml" 100 4108 4169
+)
+"global/names.ml" 100 4108 4114 "global/names.ml" 100 4108 4120
+type(
+  string list
+)
+"global/names.ml" 100 4108 4133 "global/names.ml" 100 4108 4153
+type(
+  module_name list -> modul
+)
+ident(
+  int_ref modul_of_string_list "global/names.ml" 90 3771 3779 "global/names.ml" 90 3771 3799
+)
+"global/names.ml" 100 4108 4154 "global/names.ml" 100 4108 4157
+type(
+  module_name list
+)
+ident(
+  int_ref q_l "global/names.ml" 100 4108 4117 "global/names.ml" 100 4108 4120
+)
+"global/names.ml" 100 4108 4133 "global/names.ml" 100 4108 4157
+call(
+  stack
+)
+type(
+  modul
+)
+"global/names.ml" 100 4108 4166 "global/names.ml" 100 4108 4167
+type(
+  name
+)
+ident(
+  int_ref n "global/names.ml" 100 4108 4114 "global/names.ml" 100 4108 4115
+)
+"global/names.ml" 100 4108 4124 "global/names.ml" 100 4108 4169
+type(
+  qualname
+)
+"global/names.ml" 98 4024 4026 "global/names.ml" 100 4108 4169
+type(
+  qualname
+)
+"global/names.ml" 97 3983 3985 "global/names.ml" 100 4108 4169
+type(
+  qualname
+)
+"global/names.ml" 102 4171 4175 "global/names.ml" 102 4171 4190
+type(
+  string -> modul
+)
+ident(
+  def modul_of_string "global/names.ml" 109 4431 4431 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 102 4171 4191 "global/names.ml" 102 4171 4192
+type(
+  string
+)
+ident(
+  def s "global/names.ml" 103 4195 4197 "global/names.ml" 104 4234 4271
+)
+"global/names.ml" 103 4195 4201 "global/names.ml" 103 4195 4204
+type(
+  string list
+)
+ident(
+  def q_l "global/names.ml" 104 4234 4236 "global/names.ml" 104 4234 4271
+)
+"global/names.ml" 103 4195 4207 "global/names.ml" 103 4195 4224
+type(
+  string -> string -> string list
+)
+ident(
+  ext_ref Misc.split_string
+)
+"global/names.ml" 103 4195 4225 "global/names.ml" 103 4195 4226
+type(
+  string
+)
+ident(
+  int_ref s "global/names.ml" 102 4171 4191 "global/names.ml" 102 4171 4192
+)
+"global/names.ml" 103 4195 4227 "global/names.ml" 103 4195 4230
+type(
+  string
+)
+"global/names.ml" 103 4195 4207 "global/names.ml" 103 4195 4230
+call(
+  stack
+)
+type(
+  string list
+)
+"global/names.ml" 104 4234 4236 "global/names.ml" 104 4234 4256
+type(
+  module_name list -> modul
+)
+ident(
+  int_ref modul_of_string_list "global/names.ml" 90 3771 3779 "global/names.ml" 90 3771 3799
+)
+"global/names.ml" 104 4234 4258 "global/names.ml" 104 4234 4266
+type(
+  module_name list -> module_name list
+)
+ident(
+  ext_ref List.rev
+)
+"global/names.ml" 104 4234 4267 "global/names.ml" 104 4234 4270
+type(
+  module_name list
+)
+ident(
+  int_ref q_l "global/names.ml" 103 4195 4201 "global/names.ml" 103 4195 4204
+)
+"global/names.ml" 104 4234 4257 "global/names.ml" 104 4234 4271
+call(
+  stack
+)
+type(
+  module_name list
+)
+"global/names.ml" 104 4234 4236 "global/names.ml" 104 4234 4271
+call(
+  tail
+)
+type(
+  modul
+)
+"global/names.ml" 103 4195 4197 "global/names.ml" 104 4234 4271
+type(
+  modul
+)
+"global/names.ml" 109 4431 4435 "global/names.ml" 109 4431 4443
+type(
+  String.t -> bool
+)
+ident(
+  def is_infix "global/names.ml" 123 4865 4865 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 109 4431 4444 "global/names.ml" 109 4431 4445
+type(
+  String.t
+)
+ident(
+  def s "global/names.ml" 110 4448 4450 "global/names.ml" 121 4858 4863
+)
+"global/names.ml" 110 4448 4470 "global/names.ml" 110 4448 4486
+call(
+  stack
+)
+"global/names.ml" 111 4490 4496 "global/names.ml" 111 4490 4505
+type(
+  StrSet.t
+)
+ident(
+  def infix_set "global/names.ml" 115 4632 4634 "global/names.ml" 121 4858 4863
+)
+"global/names.ml" 112 4508 4512 "global/names.ml" 112 4508 4527
+type(
+  (StrSet.elt -> StrSet.t -> StrSet.t) ->
+  StrSet.elt list -> StrSet.t -> StrSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"global/names.ml" 112 4508 4528 "global/names.ml" 112 4508 4538
+type(
+  StrSet.elt -> StrSet.t -> StrSet.t
+)
+ident(
+  ext_ref StrSet.add
+)
+"global/names.ml" 113 4539 4546 "global/names.ml" 113 4539 4550
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4552 "global/names.ml" 113 4539 4557
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4559 "global/names.ml" 113 4539 4564
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4566 "global/names.ml" 113 4539 4572
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4574 "global/names.ml" 113 4539 4579
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4581 "global/names.ml" 113 4539 4587
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4589 "global/names.ml" 113 4539 4594
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4596 "global/names.ml" 113 4539 4601
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4603 "global/names.ml" 113 4539 4608
+type(
+  StrSet.elt
+)
+"global/names.ml" 113 4539 4545 "global/names.ml" 113 4539 4609
+type(
+  StrSet.elt list
+)
+"global/names.ml" 114 4610 4616 "global/names.ml" 114 4610 4628
+type(
+  StrSet.t
+)
+ident(
+  ext_ref StrSet.empty
+)
+"global/names.ml" 112 4508 4512 "global/names.ml" 114 4610 4628
+call(
+  stack
+)
+type(
+  StrSet.t
+)
+"global/names.ml" 115 4632 4637 "global/names.ml" 115 4632 4647
+type(
+  String.t -> StrSet.t -> bool
+)
+ident(
+  ext_ref StrSet.mem
+)
+"global/names.ml" 115 4632 4648 "global/names.ml" 115 4632 4649
+type(
+  String.t
+)
+ident(
+  int_ref s "global/names.ml" 109 4431 4444 "global/names.ml" 109 4431 4445
+)
+"global/names.ml" 115 4632 4650 "global/names.ml" 115 4632 4659
+type(
+  StrSet.t
+)
+ident(
+  int_ref infix_set "global/names.ml" 111 4490 4496 "global/names.ml" 111 4490 4505
+)
+"global/names.ml" 115 4632 4637 "global/names.ml" 115 4632 4659
+call(
+  stack
+)
+type(
+  bool
+)
+"global/names.ml" 115 4632 4665 "global/names.ml" 115 4632 4669
+type(
+  bool
+)
+"global/names.ml" 117 4683 4697 "global/names.ml" 117 4683 4707
+type(
+  String.t -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"global/names.ml" 117 4683 4708 "global/names.ml" 117 4683 4709
+type(
+  String.t
+)
+ident(
+  int_ref s "global/names.ml" 109 4431 4444 "global/names.ml" 109 4431 4445
+)
+"global/names.ml" 117 4683 4710 "global/names.ml" 117 4683 4711
+type(
+  int
+)
+"global/names.ml" 117 4683 4697 "global/names.ml" 117 4683 4711
+type(
+  char
+)
+"global/names.ml" 118 4717 4729 "global/names.ml" 118 4717 4739
+type(
+  char
+)
+"global/names.ml" 118 4717 4742 "global/names.ml" 118 4717 4752
+type(
+  char
+)
+"global/names.ml" 118 4717 4729 "global/names.ml" 118 4717 4752
+type(
+  char
+)
+"global/names.ml" 118 4717 4755 "global/names.ml" 118 4717 4758
+type(
+  char
+)
+"global/names.ml" 118 4717 4729 "global/names.ml" 118 4717 4758
+type(
+  char
+)
+"global/names.ml" 118 4717 4761 "global/names.ml" 118 4717 4764
+type(
+  char
+)
+"global/names.ml" 118 4717 4729 "global/names.ml" 118 4717 4764
+type(
+  char
+)
+"global/names.ml" 118 4717 4767 "global/names.ml" 118 4717 4770
+type(
+  char
+)
+"global/names.ml" 118 4717 4729 "global/names.ml" 118 4717 4770
+type(
+  char
+)
+"global/names.ml" 118 4717 4774 "global/names.ml" 118 4717 4779
+type(
+  bool
+)
+"global/names.ml" 119 4780 4792 "global/names.ml" 119 4780 4793
+type(
+  char
+)
+"global/names.ml" 119 4780 4797 "global/names.ml" 119 4780 4801
+type(
+  bool
+)
+"global/names.ml" 117 4683 4691 "global/names.ml" 119 4780 4801
+type(
+  bool
+)
+"global/names.ml" 120 4802 4828 "global/names.ml" 120 4802 4829
+type(
+  string
+)
+"global/names.ml" 120 4802 4811 "global/names.ml" 120 4802 4829
+type(
+  exn
+)
+"global/names.ml" 120 4802 4852 "global/names.ml" 120 4802 4857
+type(
+  bool
+)
+"global/names.ml" 116 4670 4677 "global/names.ml" 121 4858 4863
+type(
+  bool
+)
+"global/names.ml" 115 4632 4634 "global/names.ml" 121 4858 4863
+type(
+  bool
+)
+"global/names.ml" 111 4490 4492 "global/names.ml" 121 4858 4863
+type(
+  bool
+)
+"global/names.ml" 110 4448 4450 "global/names.ml" 121 4858 4863
+type(
+  bool
+)
+"global/names.ml" 125 4878 4882 "global/names.ml" 125 4878 4892
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  def print_name "global/names.ml" 132 5106 5106 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 125 4878 4893 "global/names.ml" 125 4878 4895
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/names.ml" 125 4878 4896 "global/names.ml" 129 5017 5039
+)
+"global/names.ml" 125 4878 4896 "global/names.ml" 125 4878 4897
+type(
+  String.t
+)
+ident(
+  def n "global/names.ml" 126 4900 4902 "global/names.ml" 129 5017 5039
+)
+"global/names.ml" 126 4900 4906 "global/names.ml" 126 4900 4907
+type(
+  String.t
+)
+ident(
+  def n "global/names.ml" 129 5017 5022 "global/names.ml" 129 5017 5039
+)
+"global/names.ml" 126 4900 4913 "global/names.ml" 126 4900 4921
+type(
+  String.t -> bool
+)
+ident(
+  int_ref is_infix "global/names.ml" 109 4431 4435 "global/names.ml" 109 4431 4443
+)
+"global/names.ml" 126 4900 4922 "global/names.ml" 126 4900 4923
+type(
+  String.t
+)
+ident(
+  int_ref n "global/names.ml" 125 4878 4896 "global/names.ml" 125 4878 4897
+)
+"global/names.ml" 126 4900 4913 "global/names.ml" 126 4900 4923
+call(
+  stack
+)
+type(
+  bool
+)
+"global/names.ml" 127 4924 4931 "global/names.ml" 127 4924 4934
+type(
+  string
+)
+"global/names.ml" 127 4924 4935 "global/names.ml" 127 4924 4936
+type(
+  string -> string -> String.t
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 127 4924 4938 "global/names.ml" 127 4924 4939
+type(
+  String.t
+)
+ident(
+  int_ref n "global/names.ml" 125 4878 4896 "global/names.ml" 125 4878 4897
+)
+"global/names.ml" 127 4924 4940 "global/names.ml" 127 4924 4941
+type(
+  String.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/names.ml" 127 4924 4942 "global/names.ml" 127 4924 4945
+type(
+  string
+)
+"global/names.ml" 127 4924 4937 "global/names.ml" 127 4924 4946
+call(
+  stack
+)
+type(
+  string
+)
+"global/names.ml" 127 4924 4931 "global/names.ml" 127 4924 4946
+call(
+  stack
+)
+type(
+  String.t
+)
+"global/names.ml" 128 5008 5015 "global/names.ml" 128 5008 5016
+type(
+  String.t
+)
+ident(
+  int_ref n "global/names.ml" 125 4878 4896 "global/names.ml" 125 4878 4897
+)
+"global/names.ml" 126 4900 4910 "global/names.ml" 128 5008 5016
+type(
+  String.t
+)
+"global/names.ml" 129 5017 5022 "global/names.ml" 129 5017 5029
+type(
+  Format.formatter ->
+  (String.t -> unit, Format.formatter, unit) format -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/names.ml" 129 5017 5030 "global/names.ml" 129 5017 5032
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/names.ml" 125 4878 4893 "global/names.ml" 125 4878 4895
+)
+"global/names.ml" 129 5017 5033 "global/names.ml" 129 5017 5037
+type(
+  (String.t -> unit, Format.formatter, unit) format
+)
+"global/names.ml" 129 5017 5038 "global/names.ml" 129 5017 5039
+type(
+  String.t
+)
+ident(
+  int_ref n "global/names.ml" 126 4900 4906 "global/names.ml" 126 4900 4907
+)
+"global/names.ml" 129 5017 5022 "global/names.ml" 129 5017 5039
+call(
+  tail
+)
+type(
+  unit
+)
+"global/names.ml" 126 4900 4902 "global/names.ml" 129 5017 5039
+type(
+  unit
+)
+"global/names.ml" 132 5106 5110 "global/names.ml" 132 5106 5126
+type(
+  (Format.formatter -> 'a -> unit) -> 'a -> string
+)
+ident(
+  def print_pp_to_name "global/names.ml" 133 5133 5185 "global/names.ml" 1 0 -1
+)
+"global/names.ml" 132 5106 5127 "global/names.ml" 132 5106 5128
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def p "global/names.ml" 132 5106 5129 "global/names.ml" 133 5133 5185
+)
+"global/names.ml" 132 5106 5129 "global/names.ml" 132 5106 5130
+type(
+  'a
+)
+ident(
+  def x "global/names.ml" 133 5133 5135 "global/names.ml" 133 5133 5185
+)
+"global/names.ml" 133 5133 5135 "global/names.ml" 133 5133 5155
+type(
+  string -> string
+)
+ident(
+  ext_ref Misc.sanitize_string
+)
+"global/names.ml" 133 5133 5157 "global/names.ml" 133 5133 5180
+type(
+  (Format.formatter -> 'a -> unit) -> 'a -> string
+)
+ident(
+  ext_ref Misc.print_pp_to_string
+)
+"global/names.ml" 133 5133 5181 "global/names.ml" 133 5133 5182
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref p "global/names.ml" 132 5106 5127 "global/names.ml" 132 5106 5128
+)
+"global/names.ml" 133 5133 5183 "global/names.ml" 133 5133 5184
+type(
+  'a
+)
+ident(
+  int_ref x "global/names.ml" 132 5106 5129 "global/names.ml" 132 5106 5130
+)
+"global/names.ml" 133 5133 5156 "global/names.ml" 133 5133 5185
+call(
+  stack
+)
+type(
+  string
+)
+"global/names.ml" 133 5133 5135 "global/names.ml" 133 5133 5185
+call(
+  tail
+)
+type(
+  string
+)

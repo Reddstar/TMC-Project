@@ -1,0 +1,2574 @@
+"obc/c/cunroll.ml" 34 2101 2105 "obc/c/cunroll.ml" 34 2101 2111
+type(
+  string -> int -> int -> C.cstm list -> C.cstm list
+)
+ident(
+  def unroll "obc/c/cunroll.ml" 76 3574 3574 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 34 2101 2112 "obc/c/cunroll.ml" 34 2101 2114
+type(
+  string
+)
+ident(
+  def id "obc/c/cunroll.ml" 34 2101 2115 "obc/c/cunroll.ml" 74 3558 3572
+)
+"obc/c/cunroll.ml" 34 2101 2115 "obc/c/cunroll.ml" 34 2101 2120
+type(
+  int
+)
+ident(
+  def start "obc/c/cunroll.ml" 34 2101 2121 "obc/c/cunroll.ml" 74 3558 3572
+)
+"obc/c/cunroll.ml" 34 2101 2121 "obc/c/cunroll.ml" 34 2101 2125
+type(
+  int
+)
+ident(
+  def stop "obc/c/cunroll.ml" 34 2101 2126 "obc/c/cunroll.ml" 74 3558 3572
+)
+"obc/c/cunroll.ml" 34 2101 2126 "obc/c/cunroll.ml" 34 2101 2130
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cunroll.ml" 35 2133 2135 "obc/c/cunroll.ml" 74 3558 3572
+)
+"obc/c/cunroll.ml" 35 2133 2143 "obc/c/cunroll.ml" 35 2133 2146
+type(
+  int -> C.cstm list list -> C.cstm list
+)
+ident(
+  def aux "obc/c/cunroll.ml" 35 2133 2135 "obc/c/cunroll.ml" 74 3558 3572
+)
+"obc/c/cunroll.ml" 35 2133 2147 "obc/c/cunroll.ml" 35 2133 2148
+type(
+  int
+)
+ident(
+  def i "obc/c/cunroll.ml" 35 2133 2149 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 35 2133 2149 "obc/c/cunroll.ml" 35 2133 2150
+type(
+  C.cstm list list
+)
+ident(
+  def l "obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  def exp "obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 36 2153 2169 "obc/c/cunroll.ml" 36 2153 2170
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 36 2153 2173 "obc/c/cunroll.ml" 47 2666 2716
+)
+"obc/c/cunroll.ml" 36 2153 2179 "obc/c/cunroll.ml" 36 2153 2180
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 36 2153 2169 "obc/c/cunroll.ml" 36 2153 2170
+)
+"obc/c/cunroll.ml" 37 2186 2200 "obc/c/cunroll.ml" 37 2186 2201
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 37 2186 2209 "obc/c/cunroll.ml" 37 2186 2224
+)
+"obc/c/cunroll.ml" 37 2186 2203 "obc/c/cunroll.ml" 37 2186 2204
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 37 2186 2209 "obc/c/cunroll.ml" 37 2186 2224
+)
+"obc/c/cunroll.ml" 37 2186 2194 "obc/c/cunroll.ml" 37 2186 2205
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 37 2186 2215 "obc/c/cunroll.ml" 37 2186 2216
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 37 2186 2200 "obc/c/cunroll.ml" 37 2186 2201
+)
+"obc/c/cunroll.ml" 37 2186 2218 "obc/c/cunroll.ml" 37 2186 2221
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 37 2186 2222 "obc/c/cunroll.ml" 37 2186 2223
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 37 2186 2203 "obc/c/cunroll.ml" 37 2186 2204
+)
+"obc/c/cunroll.ml" 37 2186 2218 "obc/c/cunroll.ml" 37 2186 2223
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 37 2186 2209 "obc/c/cunroll.ml" 37 2186 2224
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 38 2225 2239 "obc/c/cunroll.ml" 38 2225 2240
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 38 2225 2253 "obc/c/cunroll.ml" 38 2225 2277
+)
+"obc/c/cunroll.ml" 38 2225 2242 "obc/c/cunroll.ml" 38 2225 2244
+type(
+  C.cexpr
+)
+ident(
+  def e1 "obc/c/cunroll.ml" 38 2225 2253 "obc/c/cunroll.ml" 38 2225 2277
+)
+"obc/c/cunroll.ml" 38 2225 2246 "obc/c/cunroll.ml" 38 2225 2248
+type(
+  C.cexpr
+)
+ident(
+  def e2 "obc/c/cunroll.ml" 38 2225 2253 "obc/c/cunroll.ml" 38 2225 2277
+)
+"obc/c/cunroll.ml" 38 2225 2233 "obc/c/cunroll.ml" 38 2225 2249
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 38 2225 2259 "obc/c/cunroll.ml" 38 2225 2260
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 38 2225 2239 "obc/c/cunroll.ml" 38 2225 2240
+)
+"obc/c/cunroll.ml" 38 2225 2262 "obc/c/cunroll.ml" 38 2225 2265
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 38 2225 2266 "obc/c/cunroll.ml" 38 2225 2268
+type(
+  C.cexpr
+)
+ident(
+  int_ref e1 "obc/c/cunroll.ml" 38 2225 2242 "obc/c/cunroll.ml" 38 2225 2244
+)
+"obc/c/cunroll.ml" 38 2225 2262 "obc/c/cunroll.ml" 38 2225 2268
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 38 2225 2270 "obc/c/cunroll.ml" 38 2225 2273
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 38 2225 2274 "obc/c/cunroll.ml" 38 2225 2276
+type(
+  C.cexpr
+)
+ident(
+  int_ref e2 "obc/c/cunroll.ml" 38 2225 2246 "obc/c/cunroll.ml" 38 2225 2248
+)
+"obc/c/cunroll.ml" 38 2225 2270 "obc/c/cunroll.ml" 38 2225 2276
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 38 2225 2253 "obc/c/cunroll.ml" 38 2225 2277
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 39 2278 2297 "obc/c/cunroll.ml" 39 2278 2298
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 39 2278 2308 "obc/c/cunroll.ml" 39 2278 2339
+)
+"obc/c/cunroll.ml" 39 2278 2300 "obc/c/cunroll.ml" 39 2278 2303
+type(
+  C.cexpr list
+)
+ident(
+  def e_l "obc/c/cunroll.ml" 39 2278 2308 "obc/c/cunroll.ml" 39 2278 2339
+)
+"obc/c/cunroll.ml" 39 2278 2286 "obc/c/cunroll.ml" 39 2278 2304
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 39 2278 2319 "obc/c/cunroll.ml" 39 2278 2320
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 39 2278 2297 "obc/c/cunroll.ml" 39 2278 2298
+)
+"obc/c/cunroll.ml" 39 2278 2322 "obc/c/cunroll.ml" 39 2278 2330
+type(
+  (C.cexpr -> C.cexpr) -> C.cexpr list -> C.cexpr list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 39 2278 2331 "obc/c/cunroll.ml" 39 2278 2334
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 39 2278 2335 "obc/c/cunroll.ml" 39 2278 2338
+type(
+  C.cexpr list
+)
+ident(
+  int_ref e_l "obc/c/cunroll.ml" 39 2278 2300 "obc/c/cunroll.ml" 39 2278 2303
+)
+"obc/c/cunroll.ml" 39 2278 2322 "obc/c/cunroll.ml" 39 2278 2338
+call(
+  stack
+)
+type(
+  C.cexpr list
+)
+"obc/c/cunroll.ml" 39 2278 2308 "obc/c/cunroll.ml" 39 2278 2339
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 40 2340 2356 "obc/c/cunroll.ml" 40 2340 2357
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 40 2340 2361 "obc/c/cunroll.ml" 40 2340 2376
+)
+"obc/c/cunroll.ml" 40 2340 2348 "obc/c/cunroll.ml" 40 2340 2357
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 40 2340 2370 "obc/c/cunroll.ml" 40 2340 2373
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 40 2340 2374 "obc/c/cunroll.ml" 40 2340 2375
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 40 2340 2356 "obc/c/cunroll.ml" 40 2340 2357
+)
+"obc/c/cunroll.ml" 40 2340 2369 "obc/c/cunroll.ml" 40 2340 2376
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 40 2340 2361 "obc/c/cunroll.ml" 40 2340 2376
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 41 2377 2397 "obc/c/cunroll.ml" 41 2377 2398
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 41 2377 2408 "obc/c/cunroll.ml" 41 2377 2440
+)
+"obc/c/cunroll.ml" 41 2377 2400 "obc/c/cunroll.ml" 41 2377 2403
+type(
+  C.cexpr list
+)
+ident(
+  def e_l "obc/c/cunroll.ml" 41 2377 2408 "obc/c/cunroll.ml" 41 2377 2440
+)
+"obc/c/cunroll.ml" 41 2377 2385 "obc/c/cunroll.ml" 41 2377 2404
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 41 2377 2420 "obc/c/cunroll.ml" 41 2377 2421
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 41 2377 2397 "obc/c/cunroll.ml" 41 2377 2398
+)
+"obc/c/cunroll.ml" 41 2377 2423 "obc/c/cunroll.ml" 41 2377 2431
+type(
+  (C.cexpr -> C.cexpr) -> C.cexpr list -> C.cexpr list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 41 2377 2432 "obc/c/cunroll.ml" 41 2377 2435
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 41 2377 2436 "obc/c/cunroll.ml" 41 2377 2439
+type(
+  C.cexpr list
+)
+ident(
+  int_ref e_l "obc/c/cunroll.ml" 41 2377 2400 "obc/c/cunroll.ml" 41 2377 2403
+)
+"obc/c/cunroll.ml" 41 2377 2423 "obc/c/cunroll.ml" 41 2377 2439
+call(
+  stack
+)
+type(
+  C.cexpr list
+)
+"obc/c/cunroll.ml" 41 2377 2408 "obc/c/cunroll.ml" 41 2377 2440
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 42 2441 2459 "obc/c/cunroll.ml" 42 2441 2462
+type(
+  C.cexpr list
+)
+ident(
+  def e_l "obc/c/cunroll.ml" 42 2441 2466 "obc/c/cunroll.ml" 42 2441 2494
+)
+"obc/c/cunroll.ml" 42 2441 2449 "obc/c/cunroll.ml" 42 2441 2462
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 42 2441 2477 "obc/c/cunroll.ml" 42 2441 2485
+type(
+  (C.cexpr -> C.cexpr) -> C.cexpr list -> C.cexpr list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 42 2441 2486 "obc/c/cunroll.ml" 42 2441 2489
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 42 2441 2490 "obc/c/cunroll.ml" 42 2441 2493
+type(
+  C.cexpr list
+)
+ident(
+  int_ref e_l "obc/c/cunroll.ml" 42 2441 2459 "obc/c/cunroll.ml" 42 2441 2462
+)
+"obc/c/cunroll.ml" 42 2441 2476 "obc/c/cunroll.ml" 42 2441 2494
+call(
+  stack
+)
+type(
+  C.cexpr list
+)
+"obc/c/cunroll.ml" 42 2441 2466 "obc/c/cunroll.ml" 42 2441 2494
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 43 2495 2510 "obc/c/cunroll.ml" 43 2495 2511
+type(
+  C.cconst
+)
+ident(
+  def c "obc/c/cunroll.ml" 43 2495 2515 "obc/c/cunroll.ml" 43 2495 2523
+)
+"obc/c/cunroll.ml" 43 2495 2503 "obc/c/cunroll.ml" 43 2495 2511
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 43 2495 2522 "obc/c/cunroll.ml" 43 2495 2523
+type(
+  C.cconst
+)
+ident(
+  int_ref c "obc/c/cunroll.ml" 43 2495 2510 "obc/c/cunroll.ml" 43 2495 2511
+)
+"obc/c/cunroll.ml" 43 2495 2515 "obc/c/cunroll.ml" 43 2495 2523
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 44 2524 2537 "obc/c/cunroll.ml" 44 2524 2538
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 44 2524 2542 "obc/c/cunroll.ml" 44 2524 2585
+)
+"obc/c/cunroll.ml" 44 2524 2532 "obc/c/cunroll.ml" 44 2524 2538
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 44 2524 2545 "obc/c/cunroll.ml" 44 2524 2546
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 44 2524 2537 "obc/c/cunroll.ml" 44 2524 2538
+)
+"obc/c/cunroll.ml" 44 2524 2547 "obc/c/cunroll.ml" 44 2524 2548
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cunroll.ml" 44 2524 2549 "obc/c/cunroll.ml" 44 2524 2551
+type(
+  string
+)
+ident(
+  int_ref id "obc/c/cunroll.ml" 34 2101 2112 "obc/c/cunroll.ml" 34 2101 2114
+)
+"obc/c/cunroll.ml" 44 2524 2545 "obc/c/cunroll.ml" 44 2524 2551
+type(
+  bool
+)
+"obc/c/cunroll.ml" 44 2524 2571 "obc/c/cunroll.ml" 44 2524 2572
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cunroll.ml" 35 2133 2147 "obc/c/cunroll.ml" 35 2133 2148
+)
+"obc/c/cunroll.ml" 44 2524 2564 "obc/c/cunroll.ml" 44 2524 2573
+type(
+  C.cconst
+)
+"obc/c/cunroll.ml" 44 2524 2557 "obc/c/cunroll.ml" 44 2524 2573
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 44 2524 2584 "obc/c/cunroll.ml" 44 2524 2585
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 44 2524 2537 "obc/c/cunroll.ml" 44 2524 2538
+)
+"obc/c/cunroll.ml" 44 2524 2579 "obc/c/cunroll.ml" 44 2524 2585
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 44 2524 2542 "obc/c/cunroll.ml" 44 2524 2585
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 45 2586 2601 "obc/c/cunroll.ml" 45 2586 2602
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 45 2586 2606 "obc/c/cunroll.ml" 45 2586 2620
+)
+"obc/c/cunroll.ml" 45 2586 2594 "obc/c/cunroll.ml" 45 2586 2602
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 45 2586 2614 "obc/c/cunroll.ml" 45 2586 2617
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 45 2586 2618 "obc/c/cunroll.ml" 45 2586 2619
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 45 2586 2601 "obc/c/cunroll.ml" 45 2586 2602
+)
+"obc/c/cunroll.ml" 45 2586 2613 "obc/c/cunroll.ml" 45 2586 2620
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 45 2586 2606 "obc/c/cunroll.ml" 45 2586 2620
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 46 2621 2637 "obc/c/cunroll.ml" 46 2621 2638
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 46 2621 2647 "obc/c/cunroll.ml" 46 2621 2665
+)
+"obc/c/cunroll.ml" 46 2621 2640 "obc/c/cunroll.ml" 46 2621 2642
+type(
+  Names.qualname
+)
+ident(
+  def qn "obc/c/cunroll.ml" 46 2621 2647 "obc/c/cunroll.ml" 46 2621 2665
+)
+"obc/c/cunroll.ml" 46 2621 2629 "obc/c/cunroll.ml" 46 2621 2643
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 46 2621 2655 "obc/c/cunroll.ml" 46 2621 2658
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 46 2621 2659 "obc/c/cunroll.ml" 46 2621 2660
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 46 2621 2637 "obc/c/cunroll.ml" 46 2621 2638
+)
+"obc/c/cunroll.ml" 46 2621 2655 "obc/c/cunroll.ml" 46 2621 2660
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 46 2621 2662 "obc/c/cunroll.ml" 46 2621 2664
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/c/cunroll.ml" 46 2621 2640 "obc/c/cunroll.ml" 46 2621 2642
+)
+"obc/c/cunroll.ml" 46 2621 2647 "obc/c/cunroll.ml" 46 2621 2665
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 47 2666 2682 "obc/c/cunroll.ml" 47 2666 2684
+type(
+  C.cexpr
+)
+ident(
+  def e1 "obc/c/cunroll.ml" 47 2666 2693 "obc/c/cunroll.ml" 47 2666 2716
+)
+"obc/c/cunroll.ml" 47 2666 2686 "obc/c/cunroll.ml" 47 2666 2688
+type(
+  C.cexpr
+)
+ident(
+  def e2 "obc/c/cunroll.ml" 47 2666 2693 "obc/c/cunroll.ml" 47 2666 2716
+)
+"obc/c/cunroll.ml" 47 2666 2674 "obc/c/cunroll.ml" 47 2666 2689
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 47 2666 2701 "obc/c/cunroll.ml" 47 2666 2704
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 47 2666 2705 "obc/c/cunroll.ml" 47 2666 2707
+type(
+  C.cexpr
+)
+ident(
+  int_ref e1 "obc/c/cunroll.ml" 47 2666 2682 "obc/c/cunroll.ml" 47 2666 2684
+)
+"obc/c/cunroll.ml" 47 2666 2701 "obc/c/cunroll.ml" 47 2666 2707
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 47 2666 2709 "obc/c/cunroll.ml" 47 2666 2712
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 47 2666 2713 "obc/c/cunroll.ml" 47 2666 2715
+type(
+  C.cexpr
+)
+ident(
+  int_ref e2 "obc/c/cunroll.ml" 47 2666 2686 "obc/c/cunroll.ml" 47 2666 2688
+)
+"obc/c/cunroll.ml" 47 2666 2709 "obc/c/cunroll.ml" 47 2666 2715
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 47 2666 2693 "obc/c/cunroll.ml" 47 2666 2716
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 36 2153 2173 "obc/c/cunroll.ml" 47 2666 2716
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 49 2718 2726 "obc/c/cunroll.ml" 49 2718 2729
+type(
+  C.clhs -> C.clhs
+)
+ident(
+  def lhs "obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 49 2718 2730 "obc/c/cunroll.ml" 49 2718 2731
+type(
+  C.clhs
+)
+ident(
+  def l "obc/c/cunroll.ml" 49 2718 2734 "obc/c/cunroll.ml" 53 2858 2906
+)
+"obc/c/cunroll.ml" 49 2718 2740 "obc/c/cunroll.ml" 49 2718 2741
+type(
+  C.clhs
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 49 2718 2730 "obc/c/cunroll.ml" 49 2718 2731
+)
+"obc/c/cunroll.ml" 50 2747 2761 "obc/c/cunroll.ml" 50 2747 2762
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 50 2747 2766 "obc/c/cunroll.ml" 50 2747 2773
+)
+"obc/c/cunroll.ml" 50 2747 2755 "obc/c/cunroll.ml" 50 2747 2762
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 50 2747 2772 "obc/c/cunroll.ml" 50 2747 2773
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 50 2747 2761 "obc/c/cunroll.ml" 50 2747 2762
+)
+"obc/c/cunroll.ml" 50 2747 2766 "obc/c/cunroll.ml" 50 2747 2773
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 51 2774 2790 "obc/c/cunroll.ml" 51 2774 2791
+type(
+  C.clhs
+)
+ident(
+  def l "obc/c/cunroll.ml" 51 2774 2795 "obc/c/cunroll.ml" 51 2774 2810
+)
+"obc/c/cunroll.ml" 51 2774 2782 "obc/c/cunroll.ml" 51 2774 2791
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 51 2774 2804 "obc/c/cunroll.ml" 51 2774 2807
+type(
+  C.clhs -> C.clhs
+)
+ident(
+  int_ref lhs "obc/c/cunroll.ml" 49 2718 2726 "obc/c/cunroll.ml" 49 2718 2729
+)
+"obc/c/cunroll.ml" 51 2774 2808 "obc/c/cunroll.ml" 51 2774 2809
+type(
+  C.clhs
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 51 2774 2790 "obc/c/cunroll.ml" 51 2774 2791
+)
+"obc/c/cunroll.ml" 51 2774 2803 "obc/c/cunroll.ml" 51 2774 2810
+call(
+  stack
+)
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 51 2774 2795 "obc/c/cunroll.ml" 51 2774 2810
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 52 2811 2828 "obc/c/cunroll.ml" 52 2811 2829
+type(
+  C.clhs
+)
+ident(
+  def l "obc/c/cunroll.ml" 52 2811 2838 "obc/c/cunroll.ml" 52 2811 2857
+)
+"obc/c/cunroll.ml" 52 2811 2831 "obc/c/cunroll.ml" 52 2811 2833
+type(
+  Names.qualname
+)
+ident(
+  def qn "obc/c/cunroll.ml" 52 2811 2838 "obc/c/cunroll.ml" 52 2811 2857
+)
+"obc/c/cunroll.ml" 52 2811 2819 "obc/c/cunroll.ml" 52 2811 2834
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 52 2811 2847 "obc/c/cunroll.ml" 52 2811 2850
+type(
+  C.clhs -> C.clhs
+)
+ident(
+  int_ref lhs "obc/c/cunroll.ml" 49 2718 2726 "obc/c/cunroll.ml" 49 2718 2729
+)
+"obc/c/cunroll.ml" 52 2811 2851 "obc/c/cunroll.ml" 52 2811 2852
+type(
+  C.clhs
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 52 2811 2828 "obc/c/cunroll.ml" 52 2811 2829
+)
+"obc/c/cunroll.ml" 52 2811 2847 "obc/c/cunroll.ml" 52 2811 2852
+call(
+  stack
+)
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 52 2811 2854 "obc/c/cunroll.ml" 52 2811 2856
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/c/cunroll.ml" 52 2811 2831 "obc/c/cunroll.ml" 52 2811 2833
+)
+"obc/c/cunroll.ml" 52 2811 2838 "obc/c/cunroll.ml" 52 2811 2857
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 53 2858 2875 "obc/c/cunroll.ml" 53 2858 2876
+type(
+  C.clhs
+)
+ident(
+  def l "obc/c/cunroll.ml" 53 2858 2884 "obc/c/cunroll.ml" 53 2858 2906
+)
+"obc/c/cunroll.ml" 53 2858 2878 "obc/c/cunroll.ml" 53 2858 2879
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 53 2858 2884 "obc/c/cunroll.ml" 53 2858 2906
+)
+"obc/c/cunroll.ml" 53 2858 2866 "obc/c/cunroll.ml" 53 2858 2880
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 53 2858 2893 "obc/c/cunroll.ml" 53 2858 2896
+type(
+  C.clhs -> C.clhs
+)
+ident(
+  int_ref lhs "obc/c/cunroll.ml" 49 2718 2726 "obc/c/cunroll.ml" 49 2718 2729
+)
+"obc/c/cunroll.ml" 53 2858 2897 "obc/c/cunroll.ml" 53 2858 2898
+type(
+  C.clhs
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 53 2858 2875 "obc/c/cunroll.ml" 53 2858 2876
+)
+"obc/c/cunroll.ml" 53 2858 2893 "obc/c/cunroll.ml" 53 2858 2898
+call(
+  stack
+)
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 53 2858 2900 "obc/c/cunroll.ml" 53 2858 2903
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 53 2858 2904 "obc/c/cunroll.ml" 53 2858 2905
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 53 2858 2878 "obc/c/cunroll.ml" 53 2858 2879
+)
+"obc/c/cunroll.ml" 53 2858 2900 "obc/c/cunroll.ml" 53 2858 2905
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 53 2858 2884 "obc/c/cunroll.ml" 53 2858 2906
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 49 2718 2734 "obc/c/cunroll.ml" 53 2858 2906
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  def stm "obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 55 2908 2920 "obc/c/cunroll.ml" 55 2908 2921
+type(
+  C.cstm
+)
+ident(
+  def s "obc/c/cunroll.ml" 55 2908 2924 "obc/c/cunroll.ml" 64 3345 3381
+)
+"obc/c/cunroll.ml" 55 2908 2930 "obc/c/cunroll.ml" 55 2908 2931
+type(
+  C.cstm
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 55 2908 2920 "obc/c/cunroll.ml" 55 2908 2921
+)
+"obc/c/cunroll.ml" 56 2937 2952 "obc/c/cunroll.ml" 56 2937 2953
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 56 2937 2957 "obc/c/cunroll.ml" 56 2937 2971
+)
+"obc/c/cunroll.ml" 56 2937 2945 "obc/c/cunroll.ml" 56 2937 2953
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 56 2937 2965 "obc/c/cunroll.ml" 56 2937 2968
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 56 2937 2969 "obc/c/cunroll.ml" 56 2937 2970
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 56 2937 2952 "obc/c/cunroll.ml" 56 2937 2953
+)
+"obc/c/cunroll.ml" 56 2937 2964 "obc/c/cunroll.ml" 56 2937 2971
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 56 2937 2957 "obc/c/cunroll.ml" 56 2937 2971
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 57 2972 2988 "obc/c/cunroll.ml" 57 2972 2989
+type(
+  C.cblock
+)
+ident(
+  def b "obc/c/cunroll.ml" 57 2972 2993 "obc/c/cunroll.ml" 57 2972 3010
+)
+"obc/c/cunroll.ml" 57 2972 2980 "obc/c/cunroll.ml" 57 2972 2989
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 57 2972 3002 "obc/c/cunroll.ml" 57 2972 3007
+type(
+  C.cblock -> C.cblock
+)
+ident(
+  int_ref block "obc/c/cunroll.ml" 66 3383 3391 "obc/c/cunroll.ml" 66 3383 3396
+)
+"obc/c/cunroll.ml" 57 2972 3008 "obc/c/cunroll.ml" 57 2972 3009
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 57 2972 2988 "obc/c/cunroll.ml" 57 2972 2989
+)
+"obc/c/cunroll.ml" 57 2972 3001 "obc/c/cunroll.ml" 57 2972 3010
+call(
+  stack
+)
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 57 2972 2993 "obc/c/cunroll.ml" 57 2972 3010
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 58 3011 3019 "obc/c/cunroll.ml" 58 3011 3024
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 58 3011 3028 "obc/c/cunroll.ml" 58 3011 3033
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 59 3034 3051 "obc/c/cunroll.ml" 59 3034 3052
+type(
+  C.clhs
+)
+ident(
+  def l "obc/c/cunroll.ml" 59 3034 3060 "obc/c/cunroll.ml" 59 3034 3082
+)
+"obc/c/cunroll.ml" 59 3034 3054 "obc/c/cunroll.ml" 59 3034 3055
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 59 3034 3060 "obc/c/cunroll.ml" 59 3034 3082
+)
+"obc/c/cunroll.ml" 59 3034 3042 "obc/c/cunroll.ml" 59 3034 3056
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 59 3034 3069 "obc/c/cunroll.ml" 59 3034 3072
+type(
+  C.clhs -> C.clhs
+)
+ident(
+  int_ref lhs "obc/c/cunroll.ml" 49 2718 2726 "obc/c/cunroll.ml" 49 2718 2729
+)
+"obc/c/cunroll.ml" 59 3034 3073 "obc/c/cunroll.ml" 59 3034 3074
+type(
+  C.clhs
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 59 3034 3051 "obc/c/cunroll.ml" 59 3034 3052
+)
+"obc/c/cunroll.ml" 59 3034 3069 "obc/c/cunroll.ml" 59 3034 3074
+call(
+  stack
+)
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 59 3034 3076 "obc/c/cunroll.ml" 59 3034 3079
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 59 3034 3080 "obc/c/cunroll.ml" 59 3034 3081
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 59 3034 3054 "obc/c/cunroll.ml" 59 3034 3055
+)
+"obc/c/cunroll.ml" 59 3034 3076 "obc/c/cunroll.ml" 59 3034 3081
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 59 3034 3060 "obc/c/cunroll.ml" 59 3034 3082
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 60 3083 3096 "obc/c/cunroll.ml" 60 3083 3097
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 60 3083 3110 "obc/c/cunroll.ml" 60 3083 3155
+)
+"obc/c/cunroll.ml" 60 3083 3099 "obc/c/cunroll.ml" 60 3083 3101
+type(
+  C.cstm list
+)
+ident(
+  def l1 "obc/c/cunroll.ml" 60 3083 3110 "obc/c/cunroll.ml" 60 3083 3155
+)
+"obc/c/cunroll.ml" 60 3083 3103 "obc/c/cunroll.ml" 60 3083 3105
+type(
+  C.cstm list
+)
+ident(
+  def l2 "obc/c/cunroll.ml" 60 3083 3110 "obc/c/cunroll.ml" 60 3083 3155
+)
+"obc/c/cunroll.ml" 60 3083 3091 "obc/c/cunroll.ml" 60 3083 3106
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 60 3083 3115 "obc/c/cunroll.ml" 60 3083 3118
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 60 3083 3119 "obc/c/cunroll.ml" 60 3083 3120
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 60 3083 3096 "obc/c/cunroll.ml" 60 3083 3097
+)
+"obc/c/cunroll.ml" 60 3083 3115 "obc/c/cunroll.ml" 60 3083 3120
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 60 3083 3122 "obc/c/cunroll.ml" 60 3083 3130
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 60 3083 3131 "obc/c/cunroll.ml" 60 3083 3134
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 60 3083 3135 "obc/c/cunroll.ml" 60 3083 3137
+type(
+  C.cstm list
+)
+ident(
+  int_ref l1 "obc/c/cunroll.ml" 60 3083 3099 "obc/c/cunroll.ml" 60 3083 3101
+)
+"obc/c/cunroll.ml" 60 3083 3122 "obc/c/cunroll.ml" 60 3083 3137
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 60 3083 3139 "obc/c/cunroll.ml" 60 3083 3147
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 60 3083 3148 "obc/c/cunroll.ml" 60 3083 3151
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 60 3083 3152 "obc/c/cunroll.ml" 60 3083 3154
+type(
+  C.cstm list
+)
+ident(
+  int_ref l2 "obc/c/cunroll.ml" 60 3083 3103 "obc/c/cunroll.ml" 60 3083 3105
+)
+"obc/c/cunroll.ml" 60 3083 3139 "obc/c/cunroll.ml" 60 3083 3154
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 60 3083 3110 "obc/c/cunroll.ml" 60 3083 3155
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 61 3156 3173 "obc/c/cunroll.ml" 61 3156 3174
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 61 3156 3185 "obc/c/cunroll.ml" 61 3156 3253
+)
+"obc/c/cunroll.ml" 61 3156 3176 "obc/c/cunroll.ml" 61 3156 3180
+type(
+  (string * C.cstm list) list
+)
+ident(
+  def cl_l "obc/c/cunroll.ml" 61 3156 3185 "obc/c/cunroll.ml" 61 3156 3253
+)
+"obc/c/cunroll.ml" 61 3156 3164 "obc/c/cunroll.ml" 61 3156 3181
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 61 3156 3194 "obc/c/cunroll.ml" 61 3156 3197
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 61 3156 3198 "obc/c/cunroll.ml" 61 3156 3199
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 61 3156 3173 "obc/c/cunroll.ml" 61 3156 3174
+)
+"obc/c/cunroll.ml" 61 3156 3194 "obc/c/cunroll.ml" 61 3156 3199
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 61 3156 3201 "obc/c/cunroll.ml" 61 3156 3209
+type(
+  (string * C.cstm list -> string * C.cstm list) ->
+  (string * C.cstm list) list -> (string * C.cstm list) list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 61 3156 3216 "obc/c/cunroll.ml" 61 3156 3217
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 61 3156 3227 "obc/c/cunroll.ml" 61 3156 3246
+)
+"obc/c/cunroll.ml" 61 3156 3219 "obc/c/cunroll.ml" 61 3156 3222
+type(
+  C.cstm list
+)
+ident(
+  def s_l "obc/c/cunroll.ml" 61 3156 3227 "obc/c/cunroll.ml" 61 3156 3246
+)
+"obc/c/cunroll.ml" 61 3156 3215 "obc/c/cunroll.ml" 61 3156 3223
+type(
+  string * C.cstm list
+)
+"obc/c/cunroll.ml" 61 3156 3227 "obc/c/cunroll.ml" 61 3156 3228
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 61 3156 3216 "obc/c/cunroll.ml" 61 3156 3217
+)
+"obc/c/cunroll.ml" 61 3156 3230 "obc/c/cunroll.ml" 61 3156 3238
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 61 3156 3239 "obc/c/cunroll.ml" 61 3156 3242
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 61 3156 3243 "obc/c/cunroll.ml" 61 3156 3246
+type(
+  C.cstm list
+)
+ident(
+  int_ref s_l "obc/c/cunroll.ml" 61 3156 3219 "obc/c/cunroll.ml" 61 3156 3222
+)
+"obc/c/cunroll.ml" 61 3156 3230 "obc/c/cunroll.ml" 61 3156 3246
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 61 3156 3227 "obc/c/cunroll.ml" 61 3156 3246
+type(
+  string * C.cstm list
+)
+"obc/c/cunroll.ml" 61 3156 3210 "obc/c/cunroll.ml" 61 3156 3247
+type(
+  string * C.cstm list -> string * C.cstm list
+)
+"obc/c/cunroll.ml" 61 3156 3248 "obc/c/cunroll.ml" 61 3156 3252
+type(
+  (string * C.cstm list) list
+)
+ident(
+  int_ref cl_l "obc/c/cunroll.ml" 61 3156 3176 "obc/c/cunroll.ml" 61 3156 3180
+)
+"obc/c/cunroll.ml" 61 3156 3201 "obc/c/cunroll.ml" 61 3156 3252
+call(
+  stack
+)
+type(
+  (string * C.cstm list) list
+)
+"obc/c/cunroll.ml" 61 3156 3185 "obc/c/cunroll.ml" 61 3156 3253
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 62 3254 3270 "obc/c/cunroll.ml" 62 3254 3271
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 62 3254 3281 "obc/c/cunroll.ml" 62 3254 3313
+)
+"obc/c/cunroll.ml" 62 3254 3273 "obc/c/cunroll.ml" 62 3254 3276
+type(
+  C.cstm list
+)
+ident(
+  def s_l "obc/c/cunroll.ml" 62 3254 3281 "obc/c/cunroll.ml" 62 3254 3313
+)
+"obc/c/cunroll.ml" 62 3254 3262 "obc/c/cunroll.ml" 62 3254 3277
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 62 3254 3289 "obc/c/cunroll.ml" 62 3254 3292
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 62 3254 3293 "obc/c/cunroll.ml" 62 3254 3294
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 62 3254 3270 "obc/c/cunroll.ml" 62 3254 3271
+)
+"obc/c/cunroll.ml" 62 3254 3289 "obc/c/cunroll.ml" 62 3254 3294
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 62 3254 3296 "obc/c/cunroll.ml" 62 3254 3304
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 62 3254 3305 "obc/c/cunroll.ml" 62 3254 3308
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 62 3254 3309 "obc/c/cunroll.ml" 62 3254 3312
+type(
+  C.cstm list
+)
+ident(
+  int_ref s_l "obc/c/cunroll.ml" 62 3254 3273 "obc/c/cunroll.ml" 62 3254 3276
+)
+"obc/c/cunroll.ml" 62 3254 3296 "obc/c/cunroll.ml" 62 3254 3312
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 62 3254 3281 "obc/c/cunroll.ml" 62 3254 3313
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 63 3314 3327 "obc/c/cunroll.ml" 63 3314 3328
+type(
+  C.cstm list
+)
+type(
+  C.cexpr
+)
+type(
+  C.cexpr
+)
+type(
+  string
+)
+"obc/c/cunroll.ml" 63 3314 3322 "obc/c/cunroll.ml" 63 3314 3328
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 63 3314 3339 "obc/c/cunroll.ml" 63 3314 3344
+type(
+  bool
+)
+"obc/c/cunroll.ml" 63 3314 3332 "obc/c/cunroll.ml" 63 3314 3344
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 64 3345 3361 "obc/c/cunroll.ml" 64 3345 3362
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 64 3345 3366 "obc/c/cunroll.ml" 64 3345 3381
+)
+"obc/c/cunroll.ml" 64 3345 3353 "obc/c/cunroll.ml" 64 3345 3362
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 64 3345 3375 "obc/c/cunroll.ml" 64 3345 3378
+type(
+  C.cexpr -> C.cexpr
+)
+ident(
+  int_ref exp "obc/c/cunroll.ml" 36 2153 2165 "obc/c/cunroll.ml" 36 2153 2168
+)
+"obc/c/cunroll.ml" 64 3345 3379 "obc/c/cunroll.ml" 64 3345 3380
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 64 3345 3361 "obc/c/cunroll.ml" 64 3345 3362
+)
+"obc/c/cunroll.ml" 64 3345 3374 "obc/c/cunroll.ml" 64 3345 3381
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 64 3345 3366 "obc/c/cunroll.ml" 64 3345 3381
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 55 2908 2924 "obc/c/cunroll.ml" 64 3345 3381
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 66 3383 3391 "obc/c/cunroll.ml" 66 3383 3396
+type(
+  C.cblock -> C.cblock
+)
+ident(
+  def block "obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+)
+"obc/c/cunroll.ml" 66 3383 3397 "obc/c/cunroll.ml" 66 3383 3398
+type(
+  C.cblock
+)
+ident(
+  def b "obc/c/cunroll.ml" 66 3383 3401 "obc/c/cunroll.ml" 66 3383 3451
+)
+"obc/c/cunroll.ml" 66 3383 3403 "obc/c/cunroll.ml" 66 3383 3404
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 66 3383 3397 "obc/c/cunroll.ml" 66 3383 3398
+)
+"obc/c/cunroll.ml" 66 3383 3423 "obc/c/cunroll.ml" 66 3383 3431
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 66 3383 3432 "obc/c/cunroll.ml" 66 3383 3435
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 66 3383 3436 "obc/c/cunroll.ml" 66 3383 3437
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 66 3383 3397 "obc/c/cunroll.ml" 66 3383 3398
+)
+"obc/c/cunroll.ml" 66 3383 3436 "obc/c/cunroll.ml" 66 3383 3448
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 66 3383 3423 "obc/c/cunroll.ml" 66 3383 3448
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 66 3383 3401 "obc/c/cunroll.ml" 66 3383 3451
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 70 3461 3468 "obc/c/cunroll.ml" 70 3461 3469
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cunroll.ml" 35 2133 2147 "obc/c/cunroll.ml" 35 2133 2148
+)
+"obc/c/cunroll.ml" 70 3461 3470 "obc/c/cunroll.ml" 70 3461 3471
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cunroll.ml" 70 3461 3472 "obc/c/cunroll.ml" 70 3461 3476
+type(
+  int
+)
+ident(
+  int_ref stop "obc/c/cunroll.ml" 34 2101 2121 "obc/c/cunroll.ml" 34 2101 2125
+)
+"obc/c/cunroll.ml" 70 3461 3468 "obc/c/cunroll.ml" 70 3461 3476
+type(
+  bool
+)
+"obc/c/cunroll.ml" 70 3461 3482 "obc/c/cunroll.ml" 70 3461 3493
+type(
+  C.cstm list list -> C.cstm list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/c/cunroll.ml" 70 3461 3495 "obc/c/cunroll.ml" 70 3461 3503
+type(
+  C.cstm list list -> C.cstm list list
+)
+ident(
+  ext_ref List.rev
+)
+"obc/c/cunroll.ml" 70 3461 3504 "obc/c/cunroll.ml" 70 3461 3505
+type(
+  C.cstm list list
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 35 2133 2149 "obc/c/cunroll.ml" 35 2133 2150
+)
+"obc/c/cunroll.ml" 70 3461 3494 "obc/c/cunroll.ml" 70 3461 3506
+call(
+  stack
+)
+type(
+  C.cstm list list
+)
+"obc/c/cunroll.ml" 70 3461 3482 "obc/c/cunroll.ml" 70 3461 3506
+call(
+  tail
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 70 3461 3512 "obc/c/cunroll.ml" 70 3461 3515
+type(
+  int -> C.cstm list list -> C.cstm list
+)
+ident(
+  int_ref aux "obc/c/cunroll.ml" 35 2133 2143 "obc/c/cunroll.ml" 35 2133 2146
+)
+"obc/c/cunroll.ml" 70 3461 3517 "obc/c/cunroll.ml" 70 3461 3518
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cunroll.ml" 35 2133 2147 "obc/c/cunroll.ml" 35 2133 2148
+)
+"obc/c/cunroll.ml" 70 3461 3519 "obc/c/cunroll.ml" 70 3461 3520
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/c/cunroll.ml" 70 3461 3521 "obc/c/cunroll.ml" 70 3461 3522
+type(
+  int
+)
+"obc/c/cunroll.ml" 70 3461 3516 "obc/c/cunroll.ml" 70 3461 3523
+type(
+  int
+)
+"obc/c/cunroll.ml" 70 3461 3526 "obc/c/cunroll.ml" 70 3461 3534
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 70 3461 3535 "obc/c/cunroll.ml" 70 3461 3538
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 55 2908 2916 "obc/c/cunroll.ml" 55 2908 2919
+)
+"obc/c/cunroll.ml" 70 3461 3539 "obc/c/cunroll.ml" 70 3461 3543
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cunroll.ml" 34 2101 2126 "obc/c/cunroll.ml" 34 2101 2130
+)
+"obc/c/cunroll.ml" 70 3461 3525 "obc/c/cunroll.ml" 70 3461 3544
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 70 3461 3548 "obc/c/cunroll.ml" 70 3461 3549
+type(
+  C.cstm list list
+)
+ident(
+  int_ref l "obc/c/cunroll.ml" 35 2133 2149 "obc/c/cunroll.ml" 35 2133 2150
+)
+"obc/c/cunroll.ml" 70 3461 3524 "obc/c/cunroll.ml" 70 3461 3550
+type(
+  C.cstm list list
+)
+"obc/c/cunroll.ml" 70 3461 3512 "obc/c/cunroll.ml" 70 3461 3550
+call(
+  tail
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 70 3461 3465 "obc/c/cunroll.ml" 70 3461 3550
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 36 2153 2157 "obc/c/cunroll.ml" 70 3461 3550
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 74 3558 3560 "obc/c/cunroll.ml" 74 3558 3563
+type(
+  int -> C.cstm list list -> C.cstm list
+)
+ident(
+  int_ref aux "obc/c/cunroll.ml" 35 2133 2143 "obc/c/cunroll.ml" 35 2133 2146
+)
+"obc/c/cunroll.ml" 74 3558 3564 "obc/c/cunroll.ml" 74 3558 3569
+type(
+  int
+)
+ident(
+  int_ref start "obc/c/cunroll.ml" 34 2101 2115 "obc/c/cunroll.ml" 34 2101 2120
+)
+"obc/c/cunroll.ml" 74 3558 3570 "obc/c/cunroll.ml" 74 3558 3572
+type(
+  C.cstm list list
+)
+"obc/c/cunroll.ml" 74 3558 3560 "obc/c/cunroll.ml" 74 3558 3572
+call(
+  tail
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 35 2133 2135 "obc/c/cunroll.ml" 74 3558 3572
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 76 3574 3578 "obc/c/cunroll.ml" 76 3574 3589
+type(
+  C.cexpr -> int option
+)
+ident(
+  def static_eval "obc/c/cunroll.ml" 80 3653 3653 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 76 3574 3590 "obc/c/cunroll.ml" 76 3574 3591
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 76 3574 3594 "obc/c/cunroll.ml" 78 3638 3651
+)
+"obc/c/cunroll.ml" 76 3574 3600 "obc/c/cunroll.ml" 76 3574 3601
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 76 3574 3590 "obc/c/cunroll.ml" 76 3574 3591
+)
+"obc/c/cunroll.ml" 77 3607 3625 "obc/c/cunroll.ml" 77 3607 3626
+type(
+  int
+)
+ident(
+  def i "obc/c/cunroll.ml" 77 3607 3631 "obc/c/cunroll.ml" 77 3607 3637
+)
+"obc/c/cunroll.ml" 77 3607 3618 "obc/c/cunroll.ml" 77 3607 3627
+type(
+  C.cconst
+)
+"obc/c/cunroll.ml" 77 3607 3611 "obc/c/cunroll.ml" 77 3607 3627
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 77 3607 3636 "obc/c/cunroll.ml" 77 3607 3637
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cunroll.ml" 77 3607 3625 "obc/c/cunroll.ml" 77 3607 3626
+)
+"obc/c/cunroll.ml" 77 3607 3631 "obc/c/cunroll.ml" 77 3607 3637
+type(
+  int option
+)
+"obc/c/cunroll.ml" 78 3638 3642 "obc/c/cunroll.ml" 78 3638 3643
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 78 3638 3647 "obc/c/cunroll.ml" 78 3638 3651
+type(
+  int option
+)
+"obc/c/cunroll.ml" 76 3574 3594 "obc/c/cunroll.ml" 78 3638 3651
+type(
+  int option
+)
+"obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  def stm "obc/c/cunroll.ml" 80 3653 3653 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 80 3653 3665 "obc/c/cunroll.ml" 80 3653 3666
+type(
+  C.cstm
+)
+ident(
+  def s "obc/c/cunroll.ml" 80 3653 3669 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 80 3653 3675 "obc/c/cunroll.ml" 80 3653 3676
+type(
+  C.cstm
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 80 3653 3665 "obc/c/cunroll.ml" 80 3653 3666
+)
+"obc/c/cunroll.ml" 81 3682 3693 "obc/c/cunroll.ml" 81 3682 3694
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 81 3682 3686 "obc/c/cunroll.ml" 81 3682 3694
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3697 "obc/c/cunroll.ml" 81 3682 3702
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3686 "obc/c/cunroll.ml" 81 3682 3702
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3713 "obc/c/cunroll.ml" 81 3682 3714
+type(
+  C.cexpr
+)
+type(
+  C.clhs
+)
+"obc/c/cunroll.ml" 81 3682 3705 "obc/c/cunroll.ml" 81 3682 3714
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3686 "obc/c/cunroll.ml" 81 3682 3714
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3725 "obc/c/cunroll.ml" 81 3682 3726
+type(
+  C.cexpr
+)
+"obc/c/cunroll.ml" 81 3682 3717 "obc/c/cunroll.ml" 81 3682 3726
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3686 "obc/c/cunroll.ml" 81 3682 3726
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 81 3682 3730 "obc/c/cunroll.ml" 81 3682 3731
+type(
+  C.cstm
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 80 3653 3665 "obc/c/cunroll.ml" 80 3653 3666
+)
+"obc/c/cunroll.ml" 82 3732 3744 "obc/c/cunroll.ml" 82 3732 3745
+type(
+  C.cblock
+)
+ident(
+  def b "obc/c/cunroll.ml" 82 3732 3749 "obc/c/cunroll.ml" 82 3732 3766
+)
+"obc/c/cunroll.ml" 82 3732 3736 "obc/c/cunroll.ml" 82 3732 3745
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 82 3732 3758 "obc/c/cunroll.ml" 82 3732 3763
+type(
+  C.cblock -> C.cblock
+)
+ident(
+  int_ref block "obc/c/cunroll.ml" 92 4226 4230 "obc/c/cunroll.ml" 92 4226 4235
+)
+"obc/c/cunroll.ml" 82 3732 3764 "obc/c/cunroll.ml" 82 3732 3765
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 82 3732 3744 "obc/c/cunroll.ml" 82 3732 3745
+)
+"obc/c/cunroll.ml" 82 3732 3757 "obc/c/cunroll.ml" 82 3732 3766
+call(
+  stack
+)
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 82 3732 3749 "obc/c/cunroll.ml" 82 3732 3766
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 83 3767 3776 "obc/c/cunroll.ml" 83 3767 3777
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 83 3767 3790 "obc/c/cunroll.ml" 83 3767 3831
+)
+"obc/c/cunroll.ml" 83 3767 3779 "obc/c/cunroll.ml" 83 3767 3781
+type(
+  C.cstm list
+)
+ident(
+  def l1 "obc/c/cunroll.ml" 83 3767 3790 "obc/c/cunroll.ml" 83 3767 3831
+)
+"obc/c/cunroll.ml" 83 3767 3783 "obc/c/cunroll.ml" 83 3767 3785
+type(
+  C.cstm list
+)
+ident(
+  def l2 "obc/c/cunroll.ml" 83 3767 3790 "obc/c/cunroll.ml" 83 3767 3831
+)
+"obc/c/cunroll.ml" 83 3767 3771 "obc/c/cunroll.ml" 83 3767 3786
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 83 3767 3795 "obc/c/cunroll.ml" 83 3767 3796
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 83 3767 3776 "obc/c/cunroll.ml" 83 3767 3777
+)
+"obc/c/cunroll.ml" 83 3767 3798 "obc/c/cunroll.ml" 83 3767 3806
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 83 3767 3807 "obc/c/cunroll.ml" 83 3767 3810
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 83 3767 3811 "obc/c/cunroll.ml" 83 3767 3813
+type(
+  C.cstm list
+)
+ident(
+  int_ref l1 "obc/c/cunroll.ml" 83 3767 3779 "obc/c/cunroll.ml" 83 3767 3781
+)
+"obc/c/cunroll.ml" 83 3767 3798 "obc/c/cunroll.ml" 83 3767 3813
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 83 3767 3815 "obc/c/cunroll.ml" 83 3767 3823
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 83 3767 3824 "obc/c/cunroll.ml" 83 3767 3827
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 83 3767 3828 "obc/c/cunroll.ml" 83 3767 3830
+type(
+  C.cstm list
+)
+ident(
+  int_ref l2 "obc/c/cunroll.ml" 83 3767 3783 "obc/c/cunroll.ml" 83 3767 3785
+)
+"obc/c/cunroll.ml" 83 3767 3815 "obc/c/cunroll.ml" 83 3767 3830
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 83 3767 3790 "obc/c/cunroll.ml" 83 3767 3831
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 84 3832 3845 "obc/c/cunroll.ml" 84 3832 3846
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 84 3832 3857 "obc/c/cunroll.ml" 84 3832 3921
+)
+"obc/c/cunroll.ml" 84 3832 3848 "obc/c/cunroll.ml" 84 3832 3852
+type(
+  (string * C.cstm list) list
+)
+ident(
+  def cl_l "obc/c/cunroll.ml" 84 3832 3857 "obc/c/cunroll.ml" 84 3832 3921
+)
+"obc/c/cunroll.ml" 84 3832 3836 "obc/c/cunroll.ml" 84 3832 3853
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 84 3832 3866 "obc/c/cunroll.ml" 84 3832 3867
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 84 3832 3845 "obc/c/cunroll.ml" 84 3832 3846
+)
+"obc/c/cunroll.ml" 84 3832 3869 "obc/c/cunroll.ml" 84 3832 3877
+type(
+  (string * C.cstm list -> string * C.cstm list) ->
+  (string * C.cstm list) list -> (string * C.cstm list) list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 84 3832 3884 "obc/c/cunroll.ml" 84 3832 3885
+type(
+  string
+)
+ident(
+  def s "obc/c/cunroll.ml" 84 3832 3895 "obc/c/cunroll.ml" 84 3832 3914
+)
+"obc/c/cunroll.ml" 84 3832 3887 "obc/c/cunroll.ml" 84 3832 3890
+type(
+  C.cstm list
+)
+ident(
+  def s_l "obc/c/cunroll.ml" 84 3832 3895 "obc/c/cunroll.ml" 84 3832 3914
+)
+"obc/c/cunroll.ml" 84 3832 3883 "obc/c/cunroll.ml" 84 3832 3891
+type(
+  string * C.cstm list
+)
+"obc/c/cunroll.ml" 84 3832 3895 "obc/c/cunroll.ml" 84 3832 3896
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 84 3832 3884 "obc/c/cunroll.ml" 84 3832 3885
+)
+"obc/c/cunroll.ml" 84 3832 3898 "obc/c/cunroll.ml" 84 3832 3906
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 84 3832 3907 "obc/c/cunroll.ml" 84 3832 3910
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 84 3832 3911 "obc/c/cunroll.ml" 84 3832 3914
+type(
+  C.cstm list
+)
+ident(
+  int_ref s_l "obc/c/cunroll.ml" 84 3832 3887 "obc/c/cunroll.ml" 84 3832 3890
+)
+"obc/c/cunroll.ml" 84 3832 3898 "obc/c/cunroll.ml" 84 3832 3914
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 84 3832 3895 "obc/c/cunroll.ml" 84 3832 3914
+type(
+  string * C.cstm list
+)
+"obc/c/cunroll.ml" 84 3832 3878 "obc/c/cunroll.ml" 84 3832 3915
+type(
+  string * C.cstm list -> string * C.cstm list
+)
+"obc/c/cunroll.ml" 84 3832 3916 "obc/c/cunroll.ml" 84 3832 3920
+type(
+  (string * C.cstm list) list
+)
+ident(
+  int_ref cl_l "obc/c/cunroll.ml" 84 3832 3848 "obc/c/cunroll.ml" 84 3832 3852
+)
+"obc/c/cunroll.ml" 84 3832 3869 "obc/c/cunroll.ml" 84 3832 3920
+call(
+  stack
+)
+type(
+  (string * C.cstm list) list
+)
+"obc/c/cunroll.ml" 84 3832 3857 "obc/c/cunroll.ml" 84 3832 3921
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 85 3922 3934 "obc/c/cunroll.ml" 85 3922 3935
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cunroll.ml" 85 3922 3945 "obc/c/cunroll.ml" 85 3922 3973
+)
+"obc/c/cunroll.ml" 85 3922 3937 "obc/c/cunroll.ml" 85 3922 3940
+type(
+  C.cstm list
+)
+ident(
+  def s_l "obc/c/cunroll.ml" 85 3922 3945 "obc/c/cunroll.ml" 85 3922 3973
+)
+"obc/c/cunroll.ml" 85 3922 3926 "obc/c/cunroll.ml" 85 3922 3941
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 85 3922 3953 "obc/c/cunroll.ml" 85 3922 3954
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cunroll.ml" 85 3922 3934 "obc/c/cunroll.ml" 85 3922 3935
+)
+"obc/c/cunroll.ml" 85 3922 3956 "obc/c/cunroll.ml" 85 3922 3964
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 85 3922 3965 "obc/c/cunroll.ml" 85 3922 3968
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 85 3922 3969 "obc/c/cunroll.ml" 85 3922 3972
+type(
+  C.cstm list
+)
+ident(
+  int_ref s_l "obc/c/cunroll.ml" 85 3922 3937 "obc/c/cunroll.ml" 85 3922 3940
+)
+"obc/c/cunroll.ml" 85 3922 3956 "obc/c/cunroll.ml" 85 3922 3972
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 85 3922 3945 "obc/c/cunroll.ml" 85 3922 3973
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 86 3974 3984 "obc/c/cunroll.ml" 86 3974 3985
+type(
+  string
+)
+ident(
+  def x "obc/c/cunroll.ml" 87 4009 4013 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 86 3974 3987 "obc/c/cunroll.ml" 86 3974 3992
+type(
+  C.cexpr
+)
+ident(
+  def start "obc/c/cunroll.ml" 87 4009 4013 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 86 3974 3994 "obc/c/cunroll.ml" 86 3974 3998
+type(
+  C.cexpr
+)
+ident(
+  def stop "obc/c/cunroll.ml" 87 4009 4013 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 86 3974 4000 "obc/c/cunroll.ml" 86 3974 4004
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cunroll.ml" 87 4009 4013 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 86 3974 3978 "obc/c/cunroll.ml" 86 3974 4005
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 87 4009 4017 "obc/c/cunroll.ml" 87 4009 4021
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cunroll.ml" 88 4045 4049 "obc/c/cunroll.ml" 90 4183 4224
+)
+"obc/c/cunroll.ml" 87 4009 4024 "obc/c/cunroll.ml" 87 4009 4032
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 87 4009 4033 "obc/c/cunroll.ml" 87 4009 4036
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 87 4009 4037 "obc/c/cunroll.ml" 87 4009 4041
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cunroll.ml" 86 3974 4000 "obc/c/cunroll.ml" 86 3974 4004
+)
+"obc/c/cunroll.ml" 87 4009 4024 "obc/c/cunroll.ml" 87 4009 4041
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 88 4045 4056 "obc/c/cunroll.ml" 88 4045 4067
+type(
+  C.cexpr -> int option
+)
+ident(
+  int_ref static_eval "obc/c/cunroll.ml" 76 3574 3578 "obc/c/cunroll.ml" 76 3574 3589
+)
+"obc/c/cunroll.ml" 88 4045 4068 "obc/c/cunroll.ml" 88 4045 4073
+type(
+  C.cexpr
+)
+ident(
+  int_ref start "obc/c/cunroll.ml" 86 3974 3987 "obc/c/cunroll.ml" 86 3974 3992
+)
+"obc/c/cunroll.ml" 88 4045 4056 "obc/c/cunroll.ml" 88 4045 4073
+call(
+  stack
+)
+type(
+  int option
+)
+"obc/c/cunroll.ml" 88 4045 4075 "obc/c/cunroll.ml" 88 4045 4086
+type(
+  C.cexpr -> int option
+)
+ident(
+  int_ref static_eval "obc/c/cunroll.ml" 76 3574 3578 "obc/c/cunroll.ml" 76 3574 3589
+)
+"obc/c/cunroll.ml" 88 4045 4087 "obc/c/cunroll.ml" 88 4045 4091
+type(
+  C.cexpr
+)
+ident(
+  int_ref stop "obc/c/cunroll.ml" 86 3974 3994 "obc/c/cunroll.ml" 86 3974 3998
+)
+"obc/c/cunroll.ml" 88 4045 4075 "obc/c/cunroll.ml" 88 4045 4091
+call(
+  stack
+)
+type(
+  int option
+)
+"obc/c/cunroll.ml" 88 4045 4056 "obc/c/cunroll.ml" 88 4045 4091
+type(
+  int option * int option
+)
+"obc/c/cunroll.ml" 89 4097 4110 "obc/c/cunroll.ml" 89 4097 4111
+type(
+  int
+)
+ident(
+  def i "obc/c/cunroll.ml" 89 4097 4123 "obc/c/cunroll.ml" 89 4097 4182
+)
+"obc/c/cunroll.ml" 89 4097 4105 "obc/c/cunroll.ml" 89 4097 4111
+type(
+  int option
+)
+"obc/c/cunroll.ml" 89 4097 4118 "obc/c/cunroll.ml" 89 4097 4119
+type(
+  int
+)
+ident(
+  def j "obc/c/cunroll.ml" 89 4097 4123 "obc/c/cunroll.ml" 89 4097 4182
+)
+"obc/c/cunroll.ml" 89 4097 4113 "obc/c/cunroll.ml" 89 4097 4119
+type(
+  int option
+)
+"obc/c/cunroll.ml" 89 4097 4105 "obc/c/cunroll.ml" 89 4097 4119
+type(
+  int option * int option
+)
+"obc/c/cunroll.ml" 89 4097 4145 "obc/c/cunroll.ml" 89 4097 4147
+type(
+  (string * C.cty) list
+)
+"obc/c/cunroll.ml" 89 4097 4162 "obc/c/cunroll.ml" 89 4097 4168
+type(
+  string -> int -> int -> C.cstm list -> C.cstm list
+)
+ident(
+  int_ref unroll "obc/c/cunroll.ml" 34 2101 2105 "obc/c/cunroll.ml" 34 2101 2111
+)
+"obc/c/cunroll.ml" 89 4097 4169 "obc/c/cunroll.ml" 89 4097 4170
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/cunroll.ml" 86 3974 3984 "obc/c/cunroll.ml" 86 3974 3985
+)
+"obc/c/cunroll.ml" 89 4097 4171 "obc/c/cunroll.ml" 89 4097 4172
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cunroll.ml" 89 4097 4110 "obc/c/cunroll.ml" 89 4097 4111
+)
+"obc/c/cunroll.ml" 89 4097 4173 "obc/c/cunroll.ml" 89 4097 4174
+type(
+  int
+)
+ident(
+  int_ref j "obc/c/cunroll.ml" 89 4097 4118 "obc/c/cunroll.ml" 89 4097 4119
+)
+"obc/c/cunroll.ml" 89 4097 4175 "obc/c/cunroll.ml" 89 4097 4179
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cunroll.ml" 87 4009 4017 "obc/c/cunroll.ml" 87 4009 4021
+)
+"obc/c/cunroll.ml" 89 4097 4162 "obc/c/cunroll.ml" 89 4097 4179
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 89 4097 4131 "obc/c/cunroll.ml" 89 4097 4182
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 89 4097 4123 "obc/c/cunroll.ml" 89 4097 4182
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 90 4183 4191 "obc/c/cunroll.ml" 90 4183 4192
+type(
+  int option * int option
+)
+"obc/c/cunroll.ml" 90 4183 4202 "obc/c/cunroll.ml" 90 4183 4203
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/cunroll.ml" 86 3974 3984 "obc/c/cunroll.ml" 86 3974 3985
+)
+"obc/c/cunroll.ml" 90 4183 4205 "obc/c/cunroll.ml" 90 4183 4210
+type(
+  C.cexpr
+)
+ident(
+  int_ref start "obc/c/cunroll.ml" 86 3974 3987 "obc/c/cunroll.ml" 86 3974 3992
+)
+"obc/c/cunroll.ml" 90 4183 4212 "obc/c/cunroll.ml" 90 4183 4216
+type(
+  C.cexpr
+)
+ident(
+  int_ref stop "obc/c/cunroll.ml" 86 3974 3994 "obc/c/cunroll.ml" 86 3974 3998
+)
+"obc/c/cunroll.ml" 90 4183 4218 "obc/c/cunroll.ml" 90 4183 4222
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cunroll.ml" 87 4009 4017 "obc/c/cunroll.ml" 87 4009 4021
+)
+"obc/c/cunroll.ml" 90 4183 4196 "obc/c/cunroll.ml" 90 4183 4223
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 88 4045 4049 "obc/c/cunroll.ml" 90 4183 4224
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 87 4009 4013 "obc/c/cunroll.ml" 90 4183 4224
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 80 3653 3669 "obc/c/cunroll.ml" 90 4183 4224
+type(
+  C.cstm
+)
+"obc/c/cunroll.ml" 92 4226 4230 "obc/c/cunroll.ml" 92 4226 4235
+type(
+  C.cblock -> C.cblock
+)
+ident(
+  def block "obc/c/cunroll.ml" 80 3653 3653 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 92 4226 4236 "obc/c/cunroll.ml" 92 4226 4237
+type(
+  C.cblock
+)
+ident(
+  def b "obc/c/cunroll.ml" 92 4226 4240 "obc/c/cunroll.ml" 92 4226 4290
+)
+"obc/c/cunroll.ml" 92 4226 4242 "obc/c/cunroll.ml" 92 4226 4243
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 92 4226 4236 "obc/c/cunroll.ml" 92 4226 4237
+)
+"obc/c/cunroll.ml" 92 4226 4262 "obc/c/cunroll.ml" 92 4226 4270
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 92 4226 4271 "obc/c/cunroll.ml" 92 4226 4274
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 92 4226 4275 "obc/c/cunroll.ml" 92 4226 4276
+type(
+  C.cblock
+)
+ident(
+  int_ref b "obc/c/cunroll.ml" 92 4226 4236 "obc/c/cunroll.ml" 92 4226 4237
+)
+"obc/c/cunroll.ml" 92 4226 4275 "obc/c/cunroll.ml" 92 4226 4287
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 92 4226 4262 "obc/c/cunroll.ml" 92 4226 4287
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 92 4226 4240 "obc/c/cunroll.ml" 92 4226 4290
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 94 4292 4296 "obc/c/cunroll.ml" 94 4292 4300
+type(
+  C.cdef -> C.cdef
+)
+ident(
+  def cdef "obc/c/cunroll.ml" 100 4476 4476 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 94 4292 4301 "obc/c/cunroll.ml" 94 4292 4302
+type(
+  C.cdef
+)
+ident(
+  def d "obc/c/cunroll.ml" 94 4292 4305 "obc/c/cunroll.ml" 98 4464 4474
+)
+"obc/c/cunroll.ml" 94 4292 4311 "obc/c/cunroll.ml" 94 4292 4312
+type(
+  C.cdef
+)
+ident(
+  int_ref d "obc/c/cunroll.ml" 94 4292 4301 "obc/c/cunroll.ml" 94 4292 4302
+)
+"obc/c/cunroll.ml" 95 4318 4330 "obc/c/cunroll.ml" 95 4318 4333
+type(
+  C.cfundef
+)
+ident(
+  def def "obc/c/cunroll.ml" 96 4337 4341 "obc/c/cunroll.ml" 97 4424 4463
+)
+"obc/c/cunroll.ml" 95 4318 4322 "obc/c/cunroll.ml" 95 4318 4333
+type(
+  C.cdef
+)
+"obc/c/cunroll.ml" 96 4337 4345 "obc/c/cunroll.ml" 96 4337 4349
+type(
+  C.cblock
+)
+ident(
+  def body "obc/c/cunroll.ml" 97 4424 4428 "obc/c/cunroll.ml" 97 4424 4463
+)
+"obc/c/cunroll.ml" 96 4337 4354 "obc/c/cunroll.ml" 96 4337 4357
+type(
+  C.cfundef
+)
+ident(
+  int_ref def "obc/c/cunroll.ml" 95 4318 4330 "obc/c/cunroll.ml" 95 4318 4333
+)
+"obc/c/cunroll.ml" 96 4337 4354 "obc/c/cunroll.ml" 96 4337 4364
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 96 4337 4383 "obc/c/cunroll.ml" 96 4337 4391
+type(
+  (C.cstm -> C.cstm) -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 96 4337 4392 "obc/c/cunroll.ml" 96 4337 4395
+type(
+  C.cstm -> C.cstm
+)
+ident(
+  int_ref stm "obc/c/cunroll.ml" 80 3653 3661 "obc/c/cunroll.ml" 80 3653 3664
+)
+"obc/c/cunroll.ml" 96 4337 4396 "obc/c/cunroll.ml" 96 4337 4399
+type(
+  C.cfundef
+)
+ident(
+  int_ref def "obc/c/cunroll.ml" 95 4318 4330 "obc/c/cunroll.ml" 95 4318 4333
+)
+"obc/c/cunroll.ml" 96 4337 4396 "obc/c/cunroll.ml" 96 4337 4406
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 96 4337 4396 "obc/c/cunroll.ml" 96 4337 4417
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 96 4337 4383 "obc/c/cunroll.ml" 96 4337 4417
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cunroll.ml" 96 4337 4352 "obc/c/cunroll.ml" 96 4337 4420
+type(
+  C.cblock
+)
+"obc/c/cunroll.ml" 97 4424 4438 "obc/c/cunroll.ml" 97 4424 4441
+type(
+  C.cfundef
+)
+ident(
+  int_ref def "obc/c/cunroll.ml" 95 4318 4330 "obc/c/cunroll.ml" 95 4318 4333
+)
+"obc/c/cunroll.ml" 97 4424 4456 "obc/c/cunroll.ml" 97 4424 4460
+type(
+  C.cblock
+)
+ident(
+  int_ref body "obc/c/cunroll.ml" 96 4337 4345 "obc/c/cunroll.ml" 96 4337 4349
+)
+"obc/c/cunroll.ml" 97 4424 4436 "obc/c/cunroll.ml" 97 4424 4463
+type(
+  C.cfundef
+)
+"obc/c/cunroll.ml" 97 4424 4428 "obc/c/cunroll.ml" 97 4424 4463
+type(
+  C.cdef
+)
+"obc/c/cunroll.ml" 96 4337 4341 "obc/c/cunroll.ml" 97 4424 4463
+type(
+  C.cdef
+)
+"obc/c/cunroll.ml" 98 4464 4468 "obc/c/cunroll.ml" 98 4464 4469
+type(
+  C.cdef
+)
+"obc/c/cunroll.ml" 98 4464 4473 "obc/c/cunroll.ml" 98 4464 4474
+type(
+  C.cdef
+)
+ident(
+  int_ref d "obc/c/cunroll.ml" 94 4292 4301 "obc/c/cunroll.ml" 94 4292 4302
+)
+"obc/c/cunroll.ml" 94 4292 4305 "obc/c/cunroll.ml" 98 4464 4474
+type(
+  C.cdef
+)
+"obc/c/cunroll.ml" 100 4476 4480 "obc/c/cunroll.ml" 100 4476 4485
+type(
+  'a * C.cfile_desc -> 'a * C.cfile_desc
+)
+ident(
+  def cfile "obc/c/cunroll.ml" 102 4532 4583 "obc/c/cunroll.ml" 1 0 -1
+)
+"obc/c/cunroll.ml" 100 4476 4487 "obc/c/cunroll.ml" 100 4476 4488
+type(
+  'a
+)
+ident(
+  def s "obc/c/cunroll.ml" 100 4476 4495 "obc/c/cunroll.ml" 102 4532 4583
+)
+"obc/c/cunroll.ml" 100 4476 4490 "obc/c/cunroll.ml" 100 4476 4491
+type(
+  C.cfile_desc
+)
+ident(
+  def d "obc/c/cunroll.ml" 100 4476 4495 "obc/c/cunroll.ml" 102 4532 4583
+)
+"obc/c/cunroll.ml" 100 4476 4486 "obc/c/cunroll.ml" 100 4476 4492
+type(
+  'a * C.cfile_desc
+)
+"obc/c/cunroll.ml" 100 4476 4501 "obc/c/cunroll.ml" 100 4476 4502
+type(
+  C.cfile_desc
+)
+ident(
+  int_ref d "obc/c/cunroll.ml" 100 4476 4490 "obc/c/cunroll.ml" 100 4476 4491
+)
+"obc/c/cunroll.ml" 101 4508 4520 "obc/c/cunroll.ml" 101 4508 4521
+type(
+  C.cdecl list
+)
+type(
+  string list
+)
+"obc/c/cunroll.ml" 101 4508 4512 "obc/c/cunroll.ml" 101 4508 4521
+type(
+  C.cfile_desc
+)
+"obc/c/cunroll.ml" 101 4508 4526 "obc/c/cunroll.ml" 101 4508 4527
+type(
+  'a
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 100 4476 4487 "obc/c/cunroll.ml" 100 4476 4488
+)
+"obc/c/cunroll.ml" 101 4508 4529 "obc/c/cunroll.ml" 101 4508 4530
+type(
+  C.cfile_desc
+)
+ident(
+  int_ref d "obc/c/cunroll.ml" 100 4476 4490 "obc/c/cunroll.ml" 100 4476 4491
+)
+"obc/c/cunroll.ml" 101 4508 4525 "obc/c/cunroll.ml" 101 4508 4531
+type(
+  'a * C.cfile_desc
+)
+"obc/c/cunroll.ml" 102 4532 4544 "obc/c/cunroll.ml" 102 4532 4547
+type(
+  C.cdef list
+)
+ident(
+  def cdl "obc/c/cunroll.ml" 102 4532 4551 "obc/c/cunroll.ml" 102 4532 4583
+)
+"obc/c/cunroll.ml" 102 4532 4536 "obc/c/cunroll.ml" 102 4532 4547
+type(
+  C.cfile_desc
+)
+"obc/c/cunroll.ml" 102 4532 4552 "obc/c/cunroll.ml" 102 4532 4553
+type(
+  'a
+)
+ident(
+  int_ref s "obc/c/cunroll.ml" 100 4476 4487 "obc/c/cunroll.ml" 100 4476 4488
+)
+"obc/c/cunroll.ml" 102 4532 4564 "obc/c/cunroll.ml" 102 4532 4572
+type(
+  (C.cdef -> C.cdef) -> C.cdef list -> C.cdef list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cunroll.ml" 102 4532 4573 "obc/c/cunroll.ml" 102 4532 4577
+type(
+  C.cdef -> C.cdef
+)
+ident(
+  int_ref cdef "obc/c/cunroll.ml" 94 4292 4296 "obc/c/cunroll.ml" 94 4292 4300
+)
+"obc/c/cunroll.ml" 102 4532 4578 "obc/c/cunroll.ml" 102 4532 4581
+type(
+  C.cdef list
+)
+ident(
+  int_ref cdl "obc/c/cunroll.ml" 102 4532 4544 "obc/c/cunroll.ml" 102 4532 4547
+)
+"obc/c/cunroll.ml" 102 4532 4563 "obc/c/cunroll.ml" 102 4532 4582
+call(
+  stack
+)
+type(
+  C.cdef list
+)
+"obc/c/cunroll.ml" 102 4532 4555 "obc/c/cunroll.ml" 102 4532 4582
+type(
+  C.cfile_desc
+)
+"obc/c/cunroll.ml" 102 4532 4551 "obc/c/cunroll.ml" 102 4532 4583
+type(
+  'a * C.cfile_desc
+)
+"obc/c/cunroll.ml" 100 4476 4495 "obc/c/cunroll.ml" 102 4532 4583
+type(
+  'a * C.cfile_desc
+)

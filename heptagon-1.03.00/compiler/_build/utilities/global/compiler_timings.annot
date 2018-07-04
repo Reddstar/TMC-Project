@@ -1,0 +1,1729 @@
+"utilities/global/compiler_timings.ml" 30 2073 2077 "utilities/global/compiler_timings.ml" 30 2073 2091
+type(
+  string ref
+)
+ident(
+  def current_module "utilities/global/compiler_timings.ml" 31 2101 2101 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 30 2073 2094 "utilities/global/compiler_timings.ml" 30 2073 2097
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_timings.ml" 30 2073 2098 "utilities/global/compiler_timings.ml" 30 2073 2100
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 30 2073 2094 "utilities/global/compiler_timings.ml" 30 2073 2100
+type(
+  string ref
+)
+"utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+type(
+  (string * float) list ref
+)
+ident(
+  def timings "utilities/global/compiler_timings.ml" 32 2122 2122 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 31 2101 2115 "utilities/global/compiler_timings.ml" 31 2101 2118
+type(
+  (string * float) list -> (string * float) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_timings.ml" 31 2101 2119 "utilities/global/compiler_timings.ml" 31 2101 2121
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 31 2101 2115 "utilities/global/compiler_timings.ml" 31 2101 2121
+type(
+  (string * float) list ref
+)
+"utilities/global/compiler_timings.ml" 32 2122 2126 "utilities/global/compiler_timings.ml" 32 2122 2143
+type(
+  float ref
+)
+ident(
+  def compilation_start "utilities/global/compiler_timings.ml" 33 2153 2153 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 32 2122 2146 "utilities/global/compiler_timings.ml" 32 2122 2149
+type(
+  float -> float ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_timings.ml" 32 2122 2150 "utilities/global/compiler_timings.ml" 32 2122 2152
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 32 2122 2146 "utilities/global/compiler_timings.ml" 32 2122 2152
+type(
+  float ref
+)
+"utilities/global/compiler_timings.ml" 33 2153 2157 "utilities/global/compiler_timings.ml" 33 2153 2173
+type(
+  float ref
+)
+ident(
+  def compilation_stop "utilities/global/compiler_timings.ml" 35 2184 2184 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 33 2153 2176 "utilities/global/compiler_timings.ml" 33 2153 2179
+type(
+  float -> float ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_timings.ml" 33 2153 2180 "utilities/global/compiler_timings.ml" 33 2153 2182
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 33 2153 2176 "utilities/global/compiler_timings.ml" 33 2153 2182
+type(
+  float ref
+)
+"utilities/global/compiler_timings.ml" 35 2184 2188 "utilities/global/compiler_timings.ml" 35 2184 2203
+type(
+  string -> unit
+)
+ident(
+  def start_compiling "utilities/global/compiler_timings.ml" 39 2288 2288 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 35 2184 2204 "utilities/global/compiler_timings.ml" 35 2184 2211
+type(
+  string
+)
+ident(
+  def modname "utilities/global/compiler_timings.ml" 36 2214 2216 "utilities/global/compiler_timings.ml" 37 2243 2286
+)
+"utilities/global/compiler_timings.ml" 36 2214 2216 "utilities/global/compiler_timings.ml" 36 2214 2230
+type(
+  string ref
+)
+ident(
+  int_ref current_module "utilities/global/compiler_timings.ml" 30 2073 2077 "utilities/global/compiler_timings.ml" 30 2073 2091
+)
+"utilities/global/compiler_timings.ml" 36 2214 2231 "utilities/global/compiler_timings.ml" 36 2214 2233
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_timings.ml" 36 2214 2234 "utilities/global/compiler_timings.ml" 36 2214 2241
+type(
+  string
+)
+ident(
+  int_ref modname "utilities/global/compiler_timings.ml" 35 2184 2204 "utilities/global/compiler_timings.ml" 35 2184 2211
+)
+"utilities/global/compiler_timings.ml" 36 2214 2216 "utilities/global/compiler_timings.ml" 36 2214 2241
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 37 2243 2245 "utilities/global/compiler_timings.ml" 37 2243 2262
+type(
+  float ref
+)
+ident(
+  int_ref compilation_start "utilities/global/compiler_timings.ml" 32 2122 2126 "utilities/global/compiler_timings.ml" 32 2122 2143
+)
+"utilities/global/compiler_timings.ml" 37 2243 2263 "utilities/global/compiler_timings.ml" 37 2243 2265
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_timings.ml" 37 2243 2266 "utilities/global/compiler_timings.ml" 37 2243 2283
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_timings.ml" 37 2243 2284 "utilities/global/compiler_timings.ml" 37 2243 2286
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 37 2243 2266 "utilities/global/compiler_timings.ml" 37 2243 2286
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 37 2243 2245 "utilities/global/compiler_timings.ml" 37 2243 2286
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 36 2214 2216 "utilities/global/compiler_timings.ml" 37 2243 2286
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 39 2288 2292 "utilities/global/compiler_timings.ml" 39 2288 2315
+type(
+  float -> float -> float
+)
+ident(
+  def elapsed_seconds_between "utilities/global/compiler_timings.ml" 41 2344 2344 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 39 2288 2316 "utilities/global/compiler_timings.ml" 39 2288 2321
+type(
+  float
+)
+ident(
+  def start "utilities/global/compiler_timings.ml" 39 2288 2322 "utilities/global/compiler_timings.ml" 39 2288 2342
+)
+"utilities/global/compiler_timings.ml" 39 2288 2322 "utilities/global/compiler_timings.ml" 39 2288 2326
+type(
+  float
+)
+ident(
+  def stop "utilities/global/compiler_timings.ml" 39 2288 2329 "utilities/global/compiler_timings.ml" 39 2288 2342
+)
+"utilities/global/compiler_timings.ml" 39 2288 2329 "utilities/global/compiler_timings.ml" 39 2288 2333
+type(
+  float
+)
+ident(
+  int_ref stop "utilities/global/compiler_timings.ml" 39 2288 2322 "utilities/global/compiler_timings.ml" 39 2288 2326
+)
+"utilities/global/compiler_timings.ml" 39 2288 2334 "utilities/global/compiler_timings.ml" 39 2288 2336
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"utilities/global/compiler_timings.ml" 39 2288 2337 "utilities/global/compiler_timings.ml" 39 2288 2342
+type(
+  float
+)
+ident(
+  int_ref start "utilities/global/compiler_timings.ml" 39 2288 2316 "utilities/global/compiler_timings.ml" 39 2288 2321
+)
+"utilities/global/compiler_timings.ml" 39 2288 2329 "utilities/global/compiler_timings.ml" 39 2288 2342
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 41 2344 2348 "utilities/global/compiler_timings.ml" 41 2344 2357
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def time_pass "utilities/global/compiler_timings.ml" 48 2535 2535 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 41 2344 2358 "utilities/global/compiler_timings.ml" 41 2344 2362
+type(
+  string
+)
+ident(
+  def name "utilities/global/compiler_timings.ml" 41 2344 2363 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 41 2344 2363 "utilities/global/compiler_timings.ml" 41 2344 2364
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/global/compiler_timings.ml" 41 2344 2365 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 41 2344 2365 "utilities/global/compiler_timings.ml" 41 2344 2366
+type(
+  'a
+)
+ident(
+  def x "utilities/global/compiler_timings.ml" 42 2369 2371 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 42 2369 2375 "utilities/global/compiler_timings.ml" 42 2369 2380
+type(
+  float
+)
+ident(
+  def start "utilities/global/compiler_timings.ml" 43 2407 2409 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 42 2369 2383 "utilities/global/compiler_timings.ml" 42 2369 2400
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_timings.ml" 42 2369 2401 "utilities/global/compiler_timings.ml" 42 2369 2403
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 42 2369 2383 "utilities/global/compiler_timings.ml" 42 2369 2403
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 43 2407 2413 "utilities/global/compiler_timings.ml" 43 2407 2414
+type(
+  'b
+)
+ident(
+  def r "utilities/global/compiler_timings.ml" 44 2424 2426 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 43 2407 2417 "utilities/global/compiler_timings.ml" 43 2407 2418
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/global/compiler_timings.ml" 41 2344 2363 "utilities/global/compiler_timings.ml" 41 2344 2364
+)
+"utilities/global/compiler_timings.ml" 43 2407 2419 "utilities/global/compiler_timings.ml" 43 2407 2420
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/global/compiler_timings.ml" 41 2344 2365 "utilities/global/compiler_timings.ml" 41 2344 2366
+)
+"utilities/global/compiler_timings.ml" 43 2407 2417 "utilities/global/compiler_timings.ml" 43 2407 2420
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/global/compiler_timings.ml" 44 2424 2430 "utilities/global/compiler_timings.ml" 44 2424 2434
+type(
+  float
+)
+ident(
+  def stop "utilities/global/compiler_timings.ml" 45 2461 2463 "utilities/global/compiler_timings.ml" 46 2530 2533
+)
+"utilities/global/compiler_timings.ml" 44 2424 2437 "utilities/global/compiler_timings.ml" 44 2424 2454
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_timings.ml" 44 2424 2455 "utilities/global/compiler_timings.ml" 44 2424 2457
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 44 2424 2437 "utilities/global/compiler_timings.ml" 44 2424 2457
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 45 2461 2463 "utilities/global/compiler_timings.ml" 45 2461 2470
+type(
+  (string * float) list ref
+)
+ident(
+  int_ref timings "utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+)
+"utilities/global/compiler_timings.ml" 45 2461 2471 "utilities/global/compiler_timings.ml" 45 2461 2473
+type(
+  (string * float) list ref -> (string * float) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_timings.ml" 45 2461 2475 "utilities/global/compiler_timings.ml" 45 2461 2479
+type(
+  string
+)
+ident(
+  int_ref name "utilities/global/compiler_timings.ml" 41 2344 2358 "utilities/global/compiler_timings.ml" 41 2344 2362
+)
+"utilities/global/compiler_timings.ml" 45 2461 2481 "utilities/global/compiler_timings.ml" 45 2461 2504
+type(
+  float -> float -> float
+)
+ident(
+  int_ref elapsed_seconds_between "utilities/global/compiler_timings.ml" 39 2288 2292 "utilities/global/compiler_timings.ml" 39 2288 2315
+)
+"utilities/global/compiler_timings.ml" 45 2461 2505 "utilities/global/compiler_timings.ml" 45 2461 2510
+type(
+  float
+)
+ident(
+  int_ref start "utilities/global/compiler_timings.ml" 42 2369 2375 "utilities/global/compiler_timings.ml" 42 2369 2380
+)
+"utilities/global/compiler_timings.ml" 45 2461 2511 "utilities/global/compiler_timings.ml" 45 2461 2515
+type(
+  float
+)
+ident(
+  int_ref stop "utilities/global/compiler_timings.ml" 44 2424 2430 "utilities/global/compiler_timings.ml" 44 2424 2434
+)
+"utilities/global/compiler_timings.ml" 45 2461 2481 "utilities/global/compiler_timings.ml" 45 2461 2515
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 45 2461 2474 "utilities/global/compiler_timings.ml" 45 2461 2516
+type(
+  string * float
+)
+"utilities/global/compiler_timings.ml" 45 2461 2520 "utilities/global/compiler_timings.ml" 45 2461 2521
+type(
+  (string * float) list ref -> (string * float) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 45 2461 2521 "utilities/global/compiler_timings.ml" 45 2461 2528
+type(
+  (string * float) list ref
+)
+ident(
+  int_ref timings "utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+)
+"utilities/global/compiler_timings.ml" 45 2461 2520 "utilities/global/compiler_timings.ml" 45 2461 2528
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 45 2461 2474 "utilities/global/compiler_timings.ml" 45 2461 2528
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 45 2461 2463 "utilities/global/compiler_timings.ml" 45 2461 2528
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 46 2530 2532 "utilities/global/compiler_timings.ml" 46 2530 2533
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/global/compiler_timings.ml" 43 2407 2413 "utilities/global/compiler_timings.ml" 43 2407 2414
+)
+"utilities/global/compiler_timings.ml" 45 2461 2463 "utilities/global/compiler_timings.ml" 46 2530 2533
+type(
+  'b
+)
+"utilities/global/compiler_timings.ml" 44 2424 2426 "utilities/global/compiler_timings.ml" 46 2530 2533
+type(
+  'b
+)
+"utilities/global/compiler_timings.ml" 43 2407 2409 "utilities/global/compiler_timings.ml" 46 2530 2533
+type(
+  'b
+)
+"utilities/global/compiler_timings.ml" 42 2369 2371 "utilities/global/compiler_timings.ml" 46 2530 2533
+type(
+  'b
+)
+"utilities/global/compiler_timings.ml" 48 2535 2539 "utilities/global/compiler_timings.ml" 48 2535 2556
+type(
+  unit -> unit
+)
+ident(
+  def report_statistics "utilities/global/compiler_timings.ml" 108 4244 4249 "utilities/global/compiler_timings.ml" 1 0 -1
+)
+"utilities/global/compiler_timings.ml" 48 2535 2557 "utilities/global/compiler_timings.ml" 48 2535 2559
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 49 2562 2567 "utilities/global/compiler_timings.ml" 49 2562 2570
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utilities/global/compiler_timings.ml" 49 2562 2571 "utilities/global/compiler_timings.ml" 49 2562 2572
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 49 2562 2572 "utilities/global/compiler_timings.ml" 49 2562 2600
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.time_passes
+)
+"utilities/global/compiler_timings.ml" 49 2562 2571 "utilities/global/compiler_timings.ml" 49 2562 2600
+type(
+  bool
+)
+"utilities/global/compiler_timings.ml" 49 2562 2567 "utilities/global/compiler_timings.ml" 49 2562 2600
+type(
+  bool
+)
+"utilities/global/compiler_timings.ml" 49 2562 2606 "utilities/global/compiler_timings.ml" 49 2562 2608
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 52 2622 2628 "utilities/global/compiler_timings.ml" 52 2622 2644
+type(
+  float ref
+)
+ident(
+  int_ref compilation_stop "utilities/global/compiler_timings.ml" 33 2153 2157 "utilities/global/compiler_timings.ml" 33 2153 2173
+)
+"utilities/global/compiler_timings.ml" 52 2622 2645 "utilities/global/compiler_timings.ml" 52 2622 2647
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_timings.ml" 52 2622 2648 "utilities/global/compiler_timings.ml" 52 2622 2665
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_timings.ml" 52 2622 2666 "utilities/global/compiler_timings.ml" 52 2622 2668
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 52 2622 2648 "utilities/global/compiler_timings.ml" 52 2622 2668
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 52 2622 2628 "utilities/global/compiler_timings.ml" 52 2622 2668
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 53 2670 2680 "utilities/global/compiler_timings.ml" 53 2670 2690
+type(
+  float
+)
+ident(
+  def total_time "utilities/global/compiler_timings.ml" 56 2766 2772 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 54 2693 2701 "utilities/global/compiler_timings.ml" 54 2693 2724
+type(
+  float -> float -> float
+)
+ident(
+  int_ref elapsed_seconds_between "utilities/global/compiler_timings.ml" 39 2288 2292 "utilities/global/compiler_timings.ml" 39 2288 2315
+)
+"utilities/global/compiler_timings.ml" 54 2693 2725 "utilities/global/compiler_timings.ml" 54 2693 2726
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 54 2693 2726 "utilities/global/compiler_timings.ml" 54 2693 2743
+type(
+  float ref
+)
+ident(
+  int_ref compilation_start "utilities/global/compiler_timings.ml" 32 2122 2126 "utilities/global/compiler_timings.ml" 32 2122 2143
+)
+"utilities/global/compiler_timings.ml" 54 2693 2725 "utilities/global/compiler_timings.ml" 54 2693 2743
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 54 2693 2744 "utilities/global/compiler_timings.ml" 54 2693 2745
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 54 2693 2745 "utilities/global/compiler_timings.ml" 54 2693 2761
+type(
+  float ref
+)
+ident(
+  int_ref compilation_stop "utilities/global/compiler_timings.ml" 33 2153 2157 "utilities/global/compiler_timings.ml" 33 2153 2173
+)
+"utilities/global/compiler_timings.ml" 54 2693 2744 "utilities/global/compiler_timings.ml" 54 2693 2761
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 54 2693 2701 "utilities/global/compiler_timings.ml" 54 2693 2761
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 56 2766 2776 "utilities/global/compiler_timings.ml" 56 2766 2791
+type(
+  float -> int
+)
+ident(
+  def compute_percent "utilities/global/compiler_timings.ml" 58 2845 2851 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 56 2766 2792 "utilities/global/compiler_timings.ml" 56 2766 2796
+type(
+  float
+)
+ident(
+  def time "utilities/global/compiler_timings.ml" 56 2766 2799 "utilities/global/compiler_timings.ml" 56 2766 2840
+)
+"utilities/global/compiler_timings.ml" 56 2766 2799 "utilities/global/compiler_timings.ml" 56 2766 2811
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"utilities/global/compiler_timings.ml" 56 2766 2813 "utilities/global/compiler_timings.ml" 56 2766 2817
+type(
+  float
+)
+ident(
+  int_ref time "utilities/global/compiler_timings.ml" 56 2766 2792 "utilities/global/compiler_timings.ml" 56 2766 2796
+)
+"utilities/global/compiler_timings.ml" 56 2766 2818 "utilities/global/compiler_timings.ml" 56 2766 2820
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"utilities/global/compiler_timings.ml" 56 2766 2821 "utilities/global/compiler_timings.ml" 56 2766 2831
+type(
+  float
+)
+ident(
+  int_ref total_time "utilities/global/compiler_timings.ml" 53 2670 2680 "utilities/global/compiler_timings.ml" 53 2670 2690
+)
+"utilities/global/compiler_timings.ml" 56 2766 2813 "utilities/global/compiler_timings.ml" 56 2766 2831
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 56 2766 2832 "utilities/global/compiler_timings.ml" 56 2766 2834
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"utilities/global/compiler_timings.ml" 56 2766 2835 "utilities/global/compiler_timings.ml" 56 2766 2839
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 56 2766 2812 "utilities/global/compiler_timings.ml" 56 2766 2840
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 56 2766 2799 "utilities/global/compiler_timings.ml" 56 2766 2840
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 58 2845 2855 "utilities/global/compiler_timings.ml" 58 2845 2863
+type(
+  int
+)
+ident(
+  def max_size "utilities/global/compiler_timings.ml" 63 2990 2996 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 59 2866 2878 "utilities/global/compiler_timings.ml" 59 2866 2883
+type(
+  int list
+)
+ident(
+  def sizes "utilities/global/compiler_timings.ml" 60 2945 2953 "utilities/global/compiler_timings.ml" 60 2945 2979
+)
+"utilities/global/compiler_timings.ml" 59 2866 2886 "utilities/global/compiler_timings.ml" 59 2866 2894
+type(
+  (string * float -> int) -> (string * float) list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"utilities/global/compiler_timings.ml" 59 2866 2901 "utilities/global/compiler_timings.ml" 59 2866 2905
+type(
+  string
+)
+ident(
+  def name "utilities/global/compiler_timings.ml" 59 2866 2913 "utilities/global/compiler_timings.ml" 59 2866 2931
+)
+"utilities/global/compiler_timings.ml" 59 2866 2907 "utilities/global/compiler_timings.ml" 59 2866 2908
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 59 2866 2900 "utilities/global/compiler_timings.ml" 59 2866 2909
+type(
+  string * float
+)
+"utilities/global/compiler_timings.ml" 59 2866 2913 "utilities/global/compiler_timings.ml" 59 2866 2926
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utilities/global/compiler_timings.ml" 59 2866 2927 "utilities/global/compiler_timings.ml" 59 2866 2931
+type(
+  string
+)
+ident(
+  int_ref name "utilities/global/compiler_timings.ml" 59 2866 2901 "utilities/global/compiler_timings.ml" 59 2866 2905
+)
+"utilities/global/compiler_timings.ml" 59 2866 2913 "utilities/global/compiler_timings.ml" 59 2866 2931
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 59 2866 2895 "utilities/global/compiler_timings.ml" 59 2866 2932
+type(
+  string * float -> int
+)
+"utilities/global/compiler_timings.ml" 59 2866 2933 "utilities/global/compiler_timings.ml" 59 2866 2934
+type(
+  (string * float) list ref -> (string * float) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 59 2866 2934 "utilities/global/compiler_timings.ml" 59 2866 2941
+type(
+  (string * float) list ref
+)
+ident(
+  int_ref timings "utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+)
+"utilities/global/compiler_timings.ml" 59 2866 2933 "utilities/global/compiler_timings.ml" 59 2866 2941
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 59 2866 2886 "utilities/global/compiler_timings.ml" 59 2866 2941
+call(
+  stack
+)
+type(
+  int list
+)
+"utilities/global/compiler_timings.ml" 60 2945 2953 "utilities/global/compiler_timings.ml" 60 2945 2967
+type(
+  (int -> int -> int) -> int -> int list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/global/compiler_timings.ml" 60 2945 2968 "utilities/global/compiler_timings.ml" 60 2945 2971
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"utilities/global/compiler_timings.ml" 60 2945 2972 "utilities/global/compiler_timings.ml" 60 2945 2973
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 60 2945 2974 "utilities/global/compiler_timings.ml" 60 2945 2979
+type(
+  int list
+)
+ident(
+  int_ref sizes "utilities/global/compiler_timings.ml" 59 2866 2878 "utilities/global/compiler_timings.ml" 59 2866 2883
+)
+"utilities/global/compiler_timings.ml" 60 2945 2953 "utilities/global/compiler_timings.ml" 60 2945 2979
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 59 2866 2874 "utilities/global/compiler_timings.ml" 60 2945 2979
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 63 2990 3000 "utilities/global/compiler_timings.ml" 63 2990 3009
+type(
+  string
+)
+ident(
+  def big_space "utilities/global/compiler_timings.ml" 65 3034 3040 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 63 2990 3012 "utilities/global/compiler_timings.ml" 63 2990 3023
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"utilities/global/compiler_timings.ml" 63 2990 3024 "utilities/global/compiler_timings.ml" 63 2990 3025
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 63 2990 3026 "utilities/global/compiler_timings.ml" 63 2990 3029
+type(
+  char
+)
+"utilities/global/compiler_timings.ml" 63 2990 3012 "utilities/global/compiler_timings.ml" 63 2990 3029
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 65 3034 3044 "utilities/global/compiler_timings.ml" 65 3034 3050
+type(
+  float -> string
+)
+ident(
+  def format "utilities/global/compiler_timings.ml" 75 3362 3368 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 65 3034 3051 "utilities/global/compiler_timings.ml" 65 3034 3055
+type(
+  float
+)
+ident(
+  def time "utilities/global/compiler_timings.ml" 66 3058 3066 "utilities/global/compiler_timings.ml" 72 3263 3351
+)
+"utilities/global/compiler_timings.ml" 66 3058 3070 "utilities/global/compiler_timings.ml" 66 3058 3074
+type(
+  int
+)
+ident(
+  def secs "utilities/global/compiler_timings.ml" 67 3098 3106 "utilities/global/compiler_timings.ml" 72 3263 3351
+)
+"utilities/global/compiler_timings.ml" 66 3058 3077 "utilities/global/compiler_timings.ml" 66 3058 3089
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"utilities/global/compiler_timings.ml" 66 3058 3090 "utilities/global/compiler_timings.ml" 66 3058 3094
+type(
+  float
+)
+ident(
+  int_ref time "utilities/global/compiler_timings.ml" 65 3034 3051 "utilities/global/compiler_timings.ml" 65 3034 3055
+)
+"utilities/global/compiler_timings.ml" 66 3058 3077 "utilities/global/compiler_timings.ml" 66 3058 3094
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 67 3098 3110 "utilities/global/compiler_timings.ml" 67 3098 3114
+type(
+  int
+)
+ident(
+  def mins "utilities/global/compiler_timings.ml" 69 3148 3156 "utilities/global/compiler_timings.ml" 72 3263 3351
+)
+"utilities/global/compiler_timings.ml" 67 3098 3117 "utilities/global/compiler_timings.ml" 67 3098 3129
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"utilities/global/compiler_timings.ml" 67 3098 3131 "utilities/global/compiler_timings.ml" 67 3098 3135
+type(
+  float
+)
+ident(
+  int_ref time "utilities/global/compiler_timings.ml" 65 3034 3051 "utilities/global/compiler_timings.ml" 65 3034 3055
+)
+"utilities/global/compiler_timings.ml" 67 3098 3136 "utilities/global/compiler_timings.ml" 67 3098 3138
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"utilities/global/compiler_timings.ml" 67 3098 3139 "utilities/global/compiler_timings.ml" 67 3098 3142
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 67 3098 3130 "utilities/global/compiler_timings.ml" 67 3098 3143
+type(
+  float
+)
+"utilities/global/compiler_timings.ml" 67 3098 3117 "utilities/global/compiler_timings.ml" 67 3098 3143
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 69 3148 3160 "utilities/global/compiler_timings.ml" 69 3148 3169
+type(
+  string
+)
+ident(
+  def post_secs "utilities/global/compiler_timings.ml" 70 3205 3213 "utilities/global/compiler_timings.ml" 72 3263 3351
+)
+"utilities/global/compiler_timings.ml" 69 3148 3175 "utilities/global/compiler_timings.ml" 69 3148 3179
+type(
+  int
+)
+ident(
+  int_ref secs "utilities/global/compiler_timings.ml" 66 3058 3070 "utilities/global/compiler_timings.ml" 66 3058 3074
+)
+"utilities/global/compiler_timings.ml" 69 3148 3180 "utilities/global/compiler_timings.ml" 69 3148 3181
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"utilities/global/compiler_timings.ml" 69 3148 3182 "utilities/global/compiler_timings.ml" 69 3148 3183
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 69 3148 3175 "utilities/global/compiler_timings.ml" 69 3148 3183
+type(
+  bool
+)
+"utilities/global/compiler_timings.ml" 69 3148 3189 "utilities/global/compiler_timings.ml" 69 3148 3192
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 69 3148 3198 "utilities/global/compiler_timings.ml" 69 3148 3201
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 69 3148 3172 "utilities/global/compiler_timings.ml" 69 3148 3201
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 70 3205 3217 "utilities/global/compiler_timings.ml" 70 3205 3226
+type(
+  string
+)
+ident(
+  def post_mins "utilities/global/compiler_timings.ml" 72 3263 3271 "utilities/global/compiler_timings.ml" 72 3263 3351
+)
+"utilities/global/compiler_timings.ml" 70 3205 3232 "utilities/global/compiler_timings.ml" 70 3205 3236
+type(
+  int
+)
+ident(
+  int_ref mins "utilities/global/compiler_timings.ml" 67 3098 3110 "utilities/global/compiler_timings.ml" 67 3098 3114
+)
+"utilities/global/compiler_timings.ml" 70 3205 3237 "utilities/global/compiler_timings.ml" 70 3205 3238
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"utilities/global/compiler_timings.ml" 70 3205 3239 "utilities/global/compiler_timings.ml" 70 3205 3240
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 70 3205 3232 "utilities/global/compiler_timings.ml" 70 3205 3240
+type(
+  bool
+)
+"utilities/global/compiler_timings.ml" 70 3205 3246 "utilities/global/compiler_timings.ml" 70 3205 3249
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 70 3205 3255 "utilities/global/compiler_timings.ml" 70 3205 3258
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 70 3205 3229 "utilities/global/compiler_timings.ml" 70 3205 3258
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 72 3263 3271 "utilities/global/compiler_timings.ml" 72 3263 3285
+type(
+  (int -> string -> int -> string -> string -> string, unit, string) format ->
+  int -> string -> int -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"utilities/global/compiler_timings.ml" 72 3263 3286 "utilities/global/compiler_timings.ml" 72 3263 3311
+type(
+  (int -> string -> int -> string -> string -> string, unit, string) format
+)
+"utilities/global/compiler_timings.ml" 72 3263 3312 "utilities/global/compiler_timings.ml" 72 3263 3316
+type(
+  int
+)
+ident(
+  int_ref mins "utilities/global/compiler_timings.ml" 67 3098 3110 "utilities/global/compiler_timings.ml" 67 3098 3114
+)
+"utilities/global/compiler_timings.ml" 72 3263 3317 "utilities/global/compiler_timings.ml" 72 3263 3326
+type(
+  string
+)
+ident(
+  int_ref post_mins "utilities/global/compiler_timings.ml" 70 3205 3217 "utilities/global/compiler_timings.ml" 70 3205 3226
+)
+"utilities/global/compiler_timings.ml" 72 3263 3327 "utilities/global/compiler_timings.ml" 72 3263 3331
+type(
+  int
+)
+ident(
+  int_ref secs "utilities/global/compiler_timings.ml" 66 3058 3070 "utilities/global/compiler_timings.ml" 66 3058 3074
+)
+"utilities/global/compiler_timings.ml" 72 3263 3332 "utilities/global/compiler_timings.ml" 72 3263 3341
+type(
+  string
+)
+ident(
+  int_ref post_secs "utilities/global/compiler_timings.ml" 69 3148 3160 "utilities/global/compiler_timings.ml" 69 3148 3169
+)
+"utilities/global/compiler_timings.ml" 72 3263 3342 "utilities/global/compiler_timings.ml" 72 3263 3351
+type(
+  string
+)
+ident(
+  int_ref big_space "utilities/global/compiler_timings.ml" 63 2990 3000 "utilities/global/compiler_timings.ml" 63 2990 3009
+)
+"utilities/global/compiler_timings.ml" 72 3263 3271 "utilities/global/compiler_timings.ml" 72 3263 3351
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 70 3205 3213 "utilities/global/compiler_timings.ml" 72 3263 3351
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 69 3148 3156 "utilities/global/compiler_timings.ml" 72 3263 3351
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 67 3098 3106 "utilities/global/compiler_timings.ml" 72 3263 3351
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 66 3058 3066 "utilities/global/compiler_timings.ml" 72 3263 3351
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 75 3362 3372 "utilities/global/compiler_timings.ml" 75 3362 3379
+type(
+  string * float -> unit
+)
+ident(
+  def display "utilities/global/compiler_timings.ml" 84 3605 3611 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 75 3362 3381 "utilities/global/compiler_timings.ml" 75 3362 3385
+type(
+  string
+)
+ident(
+  def name "utilities/global/compiler_timings.ml" 76 3395 3403 "utilities/global/compiler_timings.ml" 81 3519 3594
+)
+"utilities/global/compiler_timings.ml" 75 3362 3387 "utilities/global/compiler_timings.ml" 75 3362 3391
+type(
+  float
+)
+ident(
+  def time "utilities/global/compiler_timings.ml" 76 3395 3403 "utilities/global/compiler_timings.ml" 81 3519 3594
+)
+"utilities/global/compiler_timings.ml" 75 3362 3380 "utilities/global/compiler_timings.ml" 75 3362 3392
+type(
+  string * float
+)
+"utilities/global/compiler_timings.ml" 76 3395 3403 "utilities/global/compiler_timings.ml" 76 3395 3415
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"utilities/global/compiler_timings.ml" 76 3395 3416 "utilities/global/compiler_timings.ml" 76 3395 3420
+type(
+  string
+)
+ident(
+  int_ref name "utilities/global/compiler_timings.ml" 75 3362 3381 "utilities/global/compiler_timings.ml" 75 3362 3385
+)
+"utilities/global/compiler_timings.ml" 76 3395 3403 "utilities/global/compiler_timings.ml" 76 3395 3420
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 77 3422 3439 "utilities/global/compiler_timings.ml" 77 3422 3440
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 77 3422 3444 "utilities/global/compiler_timings.ml" 77 3422 3452
+type(
+  int
+)
+ident(
+  int_ref max_size "utilities/global/compiler_timings.ml" 58 2845 2855 "utilities/global/compiler_timings.ml" 58 2845 2863
+)
+"utilities/global/compiler_timings.ml" 77 3422 3453 "utilities/global/compiler_timings.ml" 77 3422 3454
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/global/compiler_timings.ml" 77 3422 3455 "utilities/global/compiler_timings.ml" 77 3422 3468
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utilities/global/compiler_timings.ml" 77 3422 3469 "utilities/global/compiler_timings.ml" 77 3422 3473
+type(
+  string
+)
+ident(
+  int_ref name "utilities/global/compiler_timings.ml" 75 3362 3381 "utilities/global/compiler_timings.ml" 75 3362 3385
+)
+"utilities/global/compiler_timings.ml" 77 3422 3455 "utilities/global/compiler_timings.ml" 77 3422 3473
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 77 3422 3444 "utilities/global/compiler_timings.ml" 77 3422 3473
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 78 3477 3487 "utilities/global/compiler_timings.ml" 78 3477 3499
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"utilities/global/compiler_timings.ml" 78 3477 3500 "utilities/global/compiler_timings.ml" 78 3477 3503
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 78 3477 3487 "utilities/global/compiler_timings.ml" 78 3477 3503
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 77 3422 3430 "utilities/global/compiler_timings.ml" 79 3504 3516
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 81 3519 3527 "utilities/global/compiler_timings.ml" 81 3519 3540
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"utilities/global/compiler_timings.ml" 81 3519 3541 "utilities/global/compiler_timings.ml" 81 3519 3557
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"utilities/global/compiler_timings.ml" 81 3519 3559 "utilities/global/compiler_timings.ml" 81 3519 3565
+type(
+  float -> string
+)
+ident(
+  int_ref format "utilities/global/compiler_timings.ml" 65 3034 3044 "utilities/global/compiler_timings.ml" 65 3034 3050
+)
+"utilities/global/compiler_timings.ml" 81 3519 3566 "utilities/global/compiler_timings.ml" 81 3519 3570
+type(
+  float
+)
+ident(
+  int_ref time "utilities/global/compiler_timings.ml" 75 3362 3387 "utilities/global/compiler_timings.ml" 75 3362 3391
+)
+"utilities/global/compiler_timings.ml" 81 3519 3558 "utilities/global/compiler_timings.ml" 81 3519 3571
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 81 3519 3573 "utilities/global/compiler_timings.ml" 81 3519 3588
+type(
+  float -> int
+)
+ident(
+  int_ref compute_percent "utilities/global/compiler_timings.ml" 56 2766 2776 "utilities/global/compiler_timings.ml" 56 2766 2791
+)
+"utilities/global/compiler_timings.ml" 81 3519 3589 "utilities/global/compiler_timings.ml" 81 3519 3593
+type(
+  float
+)
+ident(
+  int_ref time "utilities/global/compiler_timings.ml" 75 3362 3387 "utilities/global/compiler_timings.ml" 75 3362 3391
+)
+"utilities/global/compiler_timings.ml" 81 3519 3572 "utilities/global/compiler_timings.ml" 81 3519 3594
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 81 3519 3527 "utilities/global/compiler_timings.ml" 81 3519 3594
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 77 3422 3430 "utilities/global/compiler_timings.ml" 81 3519 3594
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 76 3395 3403 "utilities/global/compiler_timings.ml" 81 3519 3594
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 84 3605 3615 "utilities/global/compiler_timings.ml" 84 3605 3624
+type(
+  unit -> unit
+)
+ident(
+  def print_sep "utilities/global/compiler_timings.ml" 91 3773 3779 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 84 3605 3625 "utilities/global/compiler_timings.ml" 84 3605 3627
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 85 3630 3647 "utilities/global/compiler_timings.ml" 85 3630 3648
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 85 3630 3652 "utilities/global/compiler_timings.ml" 85 3630 3660
+type(
+  int
+)
+ident(
+  int_ref max_size "utilities/global/compiler_timings.ml" 58 2845 2855 "utilities/global/compiler_timings.ml" 58 2845 2863
+)
+"utilities/global/compiler_timings.ml" 85 3630 3661 "utilities/global/compiler_timings.ml" 85 3630 3662
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/compiler_timings.ml" 85 3630 3663 "utilities/global/compiler_timings.ml" 85 3630 3665
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 85 3630 3652 "utilities/global/compiler_timings.ml" 85 3630 3665
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 85 3630 3666 "utilities/global/compiler_timings.ml" 85 3630 3667
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/compiler_timings.ml" 85 3630 3668 "utilities/global/compiler_timings.ml" 85 3630 3681
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utilities/global/compiler_timings.ml" 85 3630 3682 "utilities/global/compiler_timings.ml" 85 3630 3691
+type(
+  string
+)
+ident(
+  int_ref big_space "utilities/global/compiler_timings.ml" 63 2990 3000 "utilities/global/compiler_timings.ml" 63 2990 3009
+)
+"utilities/global/compiler_timings.ml" 85 3630 3668 "utilities/global/compiler_timings.ml" 85 3630 3691
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 85 3630 3652 "utilities/global/compiler_timings.ml" 85 3630 3691
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 86 3695 3705 "utilities/global/compiler_timings.ml" 86 3695 3717
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"utilities/global/compiler_timings.ml" 86 3695 3718 "utilities/global/compiler_timings.ml" 86 3695 3721
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 86 3695 3705 "utilities/global/compiler_timings.ml" 86 3695 3721
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 85 3630 3638 "utilities/global/compiler_timings.ml" 87 3722 3734
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 88 3736 3744 "utilities/global/compiler_timings.ml" 88 3736 3757
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"utilities/global/compiler_timings.ml" 88 3736 3758 "utilities/global/compiler_timings.ml" 88 3736 3762
+type(
+  (unit, out_channel, unit) format
+)
+"utilities/global/compiler_timings.ml" 88 3736 3744 "utilities/global/compiler_timings.ml" 88 3736 3762
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 85 3630 3638 "utilities/global/compiler_timings.ml" 88 3736 3762
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 91 3773 3779 "utilities/global/compiler_timings.ml" 91 3773 3788
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_sep "utilities/global/compiler_timings.ml" 84 3605 3615 "utilities/global/compiler_timings.ml" 84 3605 3624
+)
+"utilities/global/compiler_timings.ml" 91 3773 3789 "utilities/global/compiler_timings.ml" 91 3773 3791
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 91 3773 3779 "utilities/global/compiler_timings.ml" 91 3773 3791
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 93 3794 3800 "utilities/global/compiler_timings.ml" 93 3794 3813
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"utilities/global/compiler_timings.ml" 93 3794 3814 "utilities/global/compiler_timings.ml" 93 3794 3847
+type(
+  (string -> unit, out_channel, unit) format
+)
+"utilities/global/compiler_timings.ml" 93 3794 3848 "utilities/global/compiler_timings.ml" 93 3794 3849
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 93 3794 3849 "utilities/global/compiler_timings.ml" 93 3794 3863
+type(
+  string ref
+)
+ident(
+  int_ref current_module "utilities/global/compiler_timings.ml" 30 2073 2077 "utilities/global/compiler_timings.ml" 30 2073 2091
+)
+"utilities/global/compiler_timings.ml" 93 3794 3848 "utilities/global/compiler_timings.ml" 93 3794 3863
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 93 3794 3800 "utilities/global/compiler_timings.ml" 93 3794 3863
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 95 3866 3872 "utilities/global/compiler_timings.ml" 95 3866 3881
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_sep "utilities/global/compiler_timings.ml" 84 3605 3615 "utilities/global/compiler_timings.ml" 84 3605 3624
+)
+"utilities/global/compiler_timings.ml" 95 3866 3882 "utilities/global/compiler_timings.ml" 95 3866 3884
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 95 3866 3872 "utilities/global/compiler_timings.ml" 95 3866 3884
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 97 3887 3893 "utilities/global/compiler_timings.ml" 97 3887 3902
+type(
+  (string * float -> unit) -> (string * float) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/global/compiler_timings.ml" 97 3887 3903 "utilities/global/compiler_timings.ml" 97 3887 3910
+type(
+  string * float -> unit
+)
+ident(
+  int_ref display "utilities/global/compiler_timings.ml" 75 3362 3372 "utilities/global/compiler_timings.ml" 75 3362 3379
+)
+"utilities/global/compiler_timings.ml" 97 3887 3912 "utilities/global/compiler_timings.ml" 97 3887 3920
+type(
+  (string * float) list -> (string * float) list
+)
+ident(
+  ext_ref List.rev
+)
+"utilities/global/compiler_timings.ml" 97 3887 3921 "utilities/global/compiler_timings.ml" 97 3887 3922
+type(
+  (string * float) list ref -> (string * float) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 97 3887 3922 "utilities/global/compiler_timings.ml" 97 3887 3929
+type(
+  (string * float) list ref
+)
+ident(
+  int_ref timings "utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+)
+"utilities/global/compiler_timings.ml" 97 3887 3921 "utilities/global/compiler_timings.ml" 97 3887 3929
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 97 3887 3911 "utilities/global/compiler_timings.ml" 97 3887 3930
+call(
+  stack
+)
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 97 3887 3893 "utilities/global/compiler_timings.ml" 97 3887 3930
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 99 3933 3939 "utilities/global/compiler_timings.ml" 99 3933 3948
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_sep "utilities/global/compiler_timings.ml" 84 3605 3615 "utilities/global/compiler_timings.ml" 84 3605 3624
+)
+"utilities/global/compiler_timings.ml" 99 3933 3949 "utilities/global/compiler_timings.ml" 99 3933 3951
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 99 3933 3939 "utilities/global/compiler_timings.ml" 99 3933 3951
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 101 3954 3960 "utilities/global/compiler_timings.ml" 101 3954 3973
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"utilities/global/compiler_timings.ml" 101 3954 3974 "utilities/global/compiler_timings.ml" 101 3954 3981
+type(
+  (unit, out_channel, unit) format
+)
+"utilities/global/compiler_timings.ml" 101 3954 3960 "utilities/global/compiler_timings.ml" 101 3954 3981
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 102 3983 3998 "utilities/global/compiler_timings.ml" 102 3983 3999
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 102 3983 4003 "utilities/global/compiler_timings.ml" 102 3983 4011
+type(
+  int
+)
+ident(
+  int_ref max_size "utilities/global/compiler_timings.ml" 58 2845 2855 "utilities/global/compiler_timings.ml" 58 2845 2863
+)
+"utilities/global/compiler_timings.ml" 102 3983 4012 "utilities/global/compiler_timings.ml" 102 3983 4013
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/global/compiler_timings.ml" 102 3983 4014 "utilities/global/compiler_timings.ml" 102 3983 4015
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 102 3983 4003 "utilities/global/compiler_timings.ml" 102 3983 4015
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 103 4019 4027 "utilities/global/compiler_timings.ml" 103 4019 4039
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"utilities/global/compiler_timings.ml" 103 4019 4040 "utilities/global/compiler_timings.ml" 103 4019 4043
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 103 4019 4027 "utilities/global/compiler_timings.ml" 103 4019 4043
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 102 3983 3989 "utilities/global/compiler_timings.ml" 104 4044 4054
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 105 4056 4066 "utilities/global/compiler_timings.ml" 105 4056 4073
+type(
+  int
+)
+ident(
+  def percent "utilities/global/compiler_timings.ml" 106 4151 4157 "utilities/global/compiler_timings.ml" 107 4217 4243
+)
+"utilities/global/compiler_timings.ml" 105 4056 4076 "utilities/global/compiler_timings.ml" 105 4056 4090
+type(
+  (int -> int -> int) -> int -> int list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/global/compiler_timings.ml" 105 4056 4091 "utilities/global/compiler_timings.ml" 105 4056 4094
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/compiler_timings.ml" 105 4056 4095 "utilities/global/compiler_timings.ml" 105 4056 4096
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 105 4056 4098 "utilities/global/compiler_timings.ml" 105 4056 4106
+type(
+  (float -> int) -> float list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"utilities/global/compiler_timings.ml" 105 4056 4107 "utilities/global/compiler_timings.ml" 105 4056 4122
+type(
+  float -> int
+)
+ident(
+  int_ref compute_percent "utilities/global/compiler_timings.ml" 56 2766 2776 "utilities/global/compiler_timings.ml" 56 2766 2791
+)
+"utilities/global/compiler_timings.ml" 105 4056 4124 "utilities/global/compiler_timings.ml" 105 4056 4132
+type(
+  (string * float -> float) -> (string * float) list -> float list
+)
+ident(
+  ext_ref List.map
+)
+"utilities/global/compiler_timings.ml" 105 4056 4133 "utilities/global/compiler_timings.ml" 105 4056 4136
+type(
+  string * float -> float
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"utilities/global/compiler_timings.ml" 105 4056 4137 "utilities/global/compiler_timings.ml" 105 4056 4138
+type(
+  (string * float) list ref -> (string * float) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_timings.ml" 105 4056 4138 "utilities/global/compiler_timings.ml" 105 4056 4145
+type(
+  (string * float) list ref
+)
+ident(
+  int_ref timings "utilities/global/compiler_timings.ml" 31 2101 2105 "utilities/global/compiler_timings.ml" 31 2101 2112
+)
+"utilities/global/compiler_timings.ml" 105 4056 4137 "utilities/global/compiler_timings.ml" 105 4056 4145
+type(
+  (string * float) list
+)
+"utilities/global/compiler_timings.ml" 105 4056 4123 "utilities/global/compiler_timings.ml" 105 4056 4146
+call(
+  stack
+)
+type(
+  float list
+)
+"utilities/global/compiler_timings.ml" 105 4056 4097 "utilities/global/compiler_timings.ml" 105 4056 4147
+call(
+  stack
+)
+type(
+  int list
+)
+"utilities/global/compiler_timings.ml" 105 4056 4076 "utilities/global/compiler_timings.ml" 105 4056 4147
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/global/compiler_timings.ml" 106 4151 4157 "utilities/global/compiler_timings.ml" 106 4151 4170
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"utilities/global/compiler_timings.ml" 106 4151 4171 "utilities/global/compiler_timings.ml" 106 4151 4187
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"utilities/global/compiler_timings.ml" 106 4151 4189 "utilities/global/compiler_timings.ml" 106 4151 4195
+type(
+  float -> string
+)
+ident(
+  int_ref format "utilities/global/compiler_timings.ml" 65 3034 3044 "utilities/global/compiler_timings.ml" 65 3034 3050
+)
+"utilities/global/compiler_timings.ml" 106 4151 4196 "utilities/global/compiler_timings.ml" 106 4151 4206
+type(
+  float
+)
+ident(
+  int_ref total_time "utilities/global/compiler_timings.ml" 53 2670 2680 "utilities/global/compiler_timings.ml" 53 2670 2690
+)
+"utilities/global/compiler_timings.ml" 106 4151 4188 "utilities/global/compiler_timings.ml" 106 4151 4207
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 106 4151 4208 "utilities/global/compiler_timings.ml" 106 4151 4215
+type(
+  int
+)
+ident(
+  int_ref percent "utilities/global/compiler_timings.ml" 105 4056 4066 "utilities/global/compiler_timings.ml" 105 4056 4073
+)
+"utilities/global/compiler_timings.ml" 106 4151 4157 "utilities/global/compiler_timings.ml" 106 4151 4215
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 107 4217 4223 "utilities/global/compiler_timings.ml" 107 4217 4237
+type(
+  string ref
+)
+ident(
+  int_ref current_module "utilities/global/compiler_timings.ml" 30 2073 2077 "utilities/global/compiler_timings.ml" 30 2073 2091
+)
+"utilities/global/compiler_timings.ml" 107 4217 4238 "utilities/global/compiler_timings.ml" 107 4217 4240
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_timings.ml" 107 4217 4241 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  string
+)
+"utilities/global/compiler_timings.ml" 107 4217 4223 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 106 4151 4157 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 105 4056 4062 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 102 3983 3989 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 101 3954 3960 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 99 3933 3939 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 97 3887 3893 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 95 3866 3872 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 93 3794 3800 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 91 3773 3779 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 84 3605 3611 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 75 3362 3368 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 65 3034 3040 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 63 2990 2996 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 58 2845 2851 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 56 2766 2772 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 53 2670 2676 "utilities/global/compiler_timings.ml" 107 4217 4243
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 51 2616 2620 "utilities/global/compiler_timings.ml" 108 4244 4249
+type(
+  unit
+)
+"utilities/global/compiler_timings.ml" 49 2562 2564 "utilities/global/compiler_timings.ml" 108 4244 4249
+type(
+  unit
+)

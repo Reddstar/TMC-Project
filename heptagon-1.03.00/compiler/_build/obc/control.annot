@@ -1,0 +1,3530 @@
+"obc/control.ml" 39 2197 2201 "obc/control.ml" 39 2197 2215
+type(
+  Idents.var_ident -> Obc.exp -> bool
+)
+ident(
+  def appears_in_exp "obc/control.ml" 56 2678 2678 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 39 2197 2217 "obc/control.ml" 39 2197 2231
+type(
+  Idents.var_ident -> Obc.pattern -> bool
+)
+ident(
+  def appears_in_lhs "obc/control.ml" 56 2678 2678 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 39 2197 2201 "obc/control.ml" 39 2197 2231
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 40 2234 2240 "obc/control.ml" 40 2234 2247
+type(
+  'a ->
+  Idents.var_ident * bool ->
+  Obc.pat_desc -> Obc.pat_desc * (Idents.var_ident * bool)
+)
+ident(
+  def lhsdesc "obc/control.ml" 45 2392 2394 "obc/control.ml" 54 2642 2676
+)
+"obc/control.ml" 40 2234 2248 "obc/control.ml" 40 2234 2249
+type(
+  'a
+)
+"obc/control.ml" 40 2234 2251 "obc/control.ml" 40 2234 2252
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 40 2234 2259 "obc/control.ml" 43 2354 2386
+)
+"obc/control.ml" 40 2234 2254 "obc/control.ml" 40 2234 2257
+type(
+  bool
+)
+ident(
+  def acc "obc/control.ml" 40 2234 2259 "obc/control.ml" 43 2354 2386
+)
+"obc/control.ml" 40 2234 2250 "obc/control.ml" 40 2234 2258
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 40 2234 2259 "obc/control.ml" 40 2234 2261
+type(
+  Obc.pat_desc
+)
+ident(
+  def ld "obc/control.ml" 40 2234 2264 "obc/control.ml" 43 2354 2386
+)
+"obc/control.ml" 40 2234 2270 "obc/control.ml" 40 2234 2272
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 40 2234 2259 "obc/control.ml" 40 2234 2261
+)
+"obc/control.ml" 41 2278 2289 "obc/control.ml" 41 2278 2290
+type(
+  Idents.var_ident
+)
+ident(
+  def y "obc/control.ml" 41 2278 2294 "obc/control.ml" 41 2278 2315
+)
+"obc/control.ml" 41 2278 2284 "obc/control.ml" 41 2278 2290
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 41 2278 2294 "obc/control.ml" 41 2278 2296
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 40 2234 2259 "obc/control.ml" 40 2234 2261
+)
+"obc/control.ml" 41 2278 2299 "obc/control.ml" 41 2278 2300
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 40 2234 2251 "obc/control.ml" 40 2234 2252
+)
+"obc/control.ml" 41 2278 2302 "obc/control.ml" 41 2278 2305
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 40 2234 2254 "obc/control.ml" 40 2234 2257
+)
+"obc/control.ml" 41 2278 2306 "obc/control.ml" 41 2278 2308
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/control.ml" 41 2278 2310 "obc/control.ml" 41 2278 2311
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 40 2234 2251 "obc/control.ml" 40 2234 2252
+)
+"obc/control.ml" 41 2278 2311 "obc/control.ml" 41 2278 2312
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/control.ml" 41 2278 2312 "obc/control.ml" 41 2278 2313
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref y "obc/control.ml" 41 2278 2289 "obc/control.ml" 41 2278 2290
+)
+"obc/control.ml" 41 2278 2309 "obc/control.ml" 41 2278 2314
+type(
+  bool
+)
+"obc/control.ml" 41 2278 2302 "obc/control.ml" 41 2278 2314
+type(
+  bool
+)
+"obc/control.ml" 41 2278 2298 "obc/control.ml" 41 2278 2315
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 41 2278 2294 "obc/control.ml" 41 2278 2315
+type(
+  Obc.pat_desc * (Idents.var_ident * bool)
+)
+"obc/control.ml" 42 2316 2327 "obc/control.ml" 42 2316 2328
+type(
+  Idents.var_ident
+)
+ident(
+  def y "obc/control.ml" 42 2316 2332 "obc/control.ml" 42 2316 2353
+)
+"obc/control.ml" 42 2316 2322 "obc/control.ml" 42 2316 2328
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 42 2316 2332 "obc/control.ml" 42 2316 2334
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 40 2234 2259 "obc/control.ml" 40 2234 2261
+)
+"obc/control.ml" 42 2316 2337 "obc/control.ml" 42 2316 2338
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 40 2234 2251 "obc/control.ml" 40 2234 2252
+)
+"obc/control.ml" 42 2316 2340 "obc/control.ml" 42 2316 2343
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 40 2234 2254 "obc/control.ml" 40 2234 2257
+)
+"obc/control.ml" 42 2316 2344 "obc/control.ml" 42 2316 2346
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/control.ml" 42 2316 2348 "obc/control.ml" 42 2316 2349
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 40 2234 2251 "obc/control.ml" 40 2234 2252
+)
+"obc/control.ml" 42 2316 2349 "obc/control.ml" 42 2316 2350
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/control.ml" 42 2316 2350 "obc/control.ml" 42 2316 2351
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref y "obc/control.ml" 42 2316 2327 "obc/control.ml" 42 2316 2328
+)
+"obc/control.ml" 42 2316 2347 "obc/control.ml" 42 2316 2352
+type(
+  bool
+)
+"obc/control.ml" 42 2316 2340 "obc/control.ml" 42 2316 2352
+type(
+  bool
+)
+"obc/control.ml" 42 2316 2336 "obc/control.ml" 42 2316 2353
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 42 2316 2332 "obc/control.ml" 42 2316 2353
+type(
+  Obc.pat_desc * (Idents.var_ident * bool)
+)
+"obc/control.ml" 43 2354 2360 "obc/control.ml" 43 2354 2361
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 43 2354 2365 "obc/control.ml" 43 2354 2370
+type(
+  exn -> Obc.pat_desc * (Idents.var_ident * bool)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/control.ml" 43 2354 2371 "obc/control.ml" 43 2354 2386
+type(
+  exn
+)
+"obc/control.ml" 43 2354 2365 "obc/control.ml" 43 2354 2386
+type(
+  Obc.pat_desc * (Idents.var_ident * bool)
+)
+"obc/control.ml" 40 2234 2264 "obc/control.ml" 43 2354 2386
+type(
+  Obc.pat_desc * (Idents.var_ident * bool)
+)
+"obc/control.ml" 45 2392 2398 "obc/control.ml" 45 2392 2402
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/control.ml" 46 2456 2458 "obc/control.ml" 54 2642 2676
+)
+"obc/control.ml" 45 2392 2407 "obc/control.ml" 45 2392 2427
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/control.ml" 45 2392 2443 "obc/control.ml" 45 2392 2450
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs ->
+  Idents.var_ident * bool ->
+  Obc.pat_desc -> Obc.pat_desc * (Idents.var_ident * bool)
+)
+ident(
+  int_ref lhsdesc "obc/control.ml" 40 2234 2240 "obc/control.ml" 40 2234 2247
+)
+"obc/control.ml" 45 2392 2405 "obc/control.ml" 45 2392 2452
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs
+)
+"obc/control.ml" 46 2456 2462 "obc/control.ml" 46 2456 2476
+type(
+  Idents.var_ident -> Obc.exp -> bool
+)
+ident(
+  def appears_in_exp "obc/control.ml" 50 2550 2552 "obc/control.ml" 54 2642 2676
+)
+"obc/control.ml" 46 2456 2477 "obc/control.ml" 46 2456 2478
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 46 2456 2479 "obc/control.ml" 48 2533 2542
+)
+"obc/control.ml" 46 2456 2479 "obc/control.ml" 46 2456 2480
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/control.ml" 47 2483 2487 "obc/control.ml" 48 2533 2542
+)
+"obc/control.ml" 47 2483 2491 "obc/control.ml" 47 2483 2492
+type(
+  Obc.exp
+)
+"obc/control.ml" 47 2483 2495 "obc/control.ml" 47 2483 2496
+type(
+  Idents.var_ident
+)
+"obc/control.ml" 47 2483 2498 "obc/control.ml" 47 2483 2501
+type(
+  bool
+)
+ident(
+  def acc "obc/control.ml" 48 2533 2539 "obc/control.ml" 48 2533 2542
+)
+"obc/control.ml" 47 2483 2494 "obc/control.ml" 47 2483 2502
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 47 2483 2491 "obc/control.ml" 47 2483 2502
+type(
+  Obc.exp * (Idents.var_ident * bool)
+)
+"obc/control.ml" 47 2483 2505 "obc/control.ml" 47 2483 2511
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs ->
+  Idents.var_ident * bool -> Obc.exp -> Obc.exp * (Idents.var_ident * bool)
+)
+ident(
+  ext_ref Obc_mapfold.exp_it
+)
+"obc/control.ml" 47 2483 2512 "obc/control.ml" 47 2483 2516
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 45 2392 2398 "obc/control.ml" 45 2392 2402
+)
+"obc/control.ml" 47 2483 2518 "obc/control.ml" 47 2483 2519
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 46 2456 2477 "obc/control.ml" 46 2456 2478
+)
+"obc/control.ml" 47 2483 2521 "obc/control.ml" 47 2483 2526
+type(
+  bool
+)
+"obc/control.ml" 47 2483 2517 "obc/control.ml" 47 2483 2527
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 47 2483 2528 "obc/control.ml" 47 2483 2529
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/control.ml" 46 2456 2479 "obc/control.ml" 46 2456 2480
+)
+"obc/control.ml" 47 2483 2505 "obc/control.ml" 47 2483 2529
+call(
+  stack
+)
+type(
+  Obc.exp * (Idents.var_ident * bool)
+)
+"obc/control.ml" 48 2533 2539 "obc/control.ml" 48 2533 2542
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 47 2483 2498 "obc/control.ml" 47 2483 2501
+)
+"obc/control.ml" 47 2483 2487 "obc/control.ml" 48 2533 2542
+type(
+  bool
+)
+"obc/control.ml" 50 2550 2556 "obc/control.ml" 50 2550 2570
+type(
+  Idents.var_ident -> Obc.pattern -> bool
+)
+ident(
+  def appears_in_lhs "obc/control.ml" 54 2642 2646 "obc/control.ml" 54 2642 2676
+)
+"obc/control.ml" 50 2550 2571 "obc/control.ml" 50 2550 2572
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 50 2550 2573 "obc/control.ml" 52 2627 2636
+)
+"obc/control.ml" 50 2550 2573 "obc/control.ml" 50 2550 2574
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/control.ml" 51 2577 2581 "obc/control.ml" 52 2627 2636
+)
+"obc/control.ml" 51 2577 2585 "obc/control.ml" 51 2577 2586
+type(
+  Obc.pattern
+)
+"obc/control.ml" 51 2577 2589 "obc/control.ml" 51 2577 2590
+type(
+  Idents.var_ident
+)
+"obc/control.ml" 51 2577 2592 "obc/control.ml" 51 2577 2595
+type(
+  bool
+)
+ident(
+  def acc "obc/control.ml" 52 2627 2633 "obc/control.ml" 52 2627 2636
+)
+"obc/control.ml" 51 2577 2588 "obc/control.ml" 51 2577 2596
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 51 2577 2585 "obc/control.ml" 51 2577 2596
+type(
+  Obc.pattern * (Idents.var_ident * bool)
+)
+"obc/control.ml" 51 2577 2599 "obc/control.ml" 51 2577 2605
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs ->
+  Idents.var_ident * bool ->
+  Obc.pattern -> Obc.pattern * (Idents.var_ident * bool)
+)
+ident(
+  ext_ref Obc_mapfold.lhs_it
+)
+"obc/control.ml" 51 2577 2606 "obc/control.ml" 51 2577 2610
+type(
+  (Idents.var_ident * bool) Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 45 2392 2398 "obc/control.ml" 45 2392 2402
+)
+"obc/control.ml" 51 2577 2612 "obc/control.ml" 51 2577 2613
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 50 2550 2571 "obc/control.ml" 50 2550 2572
+)
+"obc/control.ml" 51 2577 2615 "obc/control.ml" 51 2577 2620
+type(
+  bool
+)
+"obc/control.ml" 51 2577 2611 "obc/control.ml" 51 2577 2621
+type(
+  Idents.var_ident * bool
+)
+"obc/control.ml" 51 2577 2622 "obc/control.ml" 51 2577 2623
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/control.ml" 50 2550 2573 "obc/control.ml" 50 2550 2574
+)
+"obc/control.ml" 51 2577 2599 "obc/control.ml" 51 2577 2623
+call(
+  stack
+)
+type(
+  Obc.pattern * (Idents.var_ident * bool)
+)
+"obc/control.ml" 52 2627 2633 "obc/control.ml" 52 2627 2636
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 51 2577 2592 "obc/control.ml" 51 2577 2595
+)
+"obc/control.ml" 51 2577 2581 "obc/control.ml" 52 2627 2636
+type(
+  bool
+)
+"obc/control.ml" 54 2642 2646 "obc/control.ml" 54 2642 2660
+type(
+  Idents.var_ident -> Obc.exp -> bool
+)
+ident(
+  int_ref appears_in_exp "obc/control.ml" 46 2456 2462 "obc/control.ml" 46 2456 2476
+)
+"obc/control.ml" 54 2642 2662 "obc/control.ml" 54 2642 2676
+type(
+  Idents.var_ident -> Obc.pattern -> bool
+)
+ident(
+  int_ref appears_in_lhs "obc/control.ml" 50 2550 2556 "obc/control.ml" 50 2550 2570
+)
+"obc/control.ml" 54 2642 2646 "obc/control.ml" 54 2642 2676
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 50 2550 2552 "obc/control.ml" 54 2642 2676
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 46 2456 2458 "obc/control.ml" 54 2642 2676
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 45 2392 2394 "obc/control.ml" 54 2642 2676
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 40 2234 2236 "obc/control.ml" 54 2642 2676
+type(
+  (Idents.var_ident -> Obc.exp -> bool) *
+  (Idents.var_ident -> Obc.pattern -> bool)
+)
+"obc/control.ml" 56 2678 2682 "obc/control.ml" 56 2678 2691
+type(
+  Obc.exp -> Idents.var_ident list
+)
+ident(
+  def used_vars "obc/control.ml" 67 3019 3019 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 56 2678 2692 "obc/control.ml" 56 2678 2693
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/control.ml" 57 2696 2698 "obc/control.ml" 65 3009 3017
+)
+"obc/control.ml" 57 2696 2702 "obc/control.ml" 57 2696 2705
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def add "obc/control.ml" 58 2756 2758 "obc/control.ml" 65 3009 3017
+)
+"obc/control.ml" 57 2696 2706 "obc/control.ml" 57 2696 2707
+type(
+  'a
+)
+ident(
+  def x "obc/control.ml" 57 2696 2708 "obc/control.ml" 57 2696 2752
+)
+"obc/control.ml" 57 2696 2708 "obc/control.ml" 57 2696 2711
+type(
+  'a list
+)
+ident(
+  def acc "obc/control.ml" 57 2696 2714 "obc/control.ml" 57 2696 2752
+)
+"obc/control.ml" 57 2696 2717 "obc/control.ml" 57 2696 2725
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"obc/control.ml" 57 2696 2726 "obc/control.ml" 57 2696 2727
+type(
+  'a
+)
+ident(
+  int_ref x "obc/control.ml" 57 2696 2706 "obc/control.ml" 57 2696 2707
+)
+"obc/control.ml" 57 2696 2728 "obc/control.ml" 57 2696 2731
+type(
+  'a list
+)
+ident(
+  int_ref acc "obc/control.ml" 57 2696 2708 "obc/control.ml" 57 2696 2711
+)
+"obc/control.ml" 57 2696 2717 "obc/control.ml" 57 2696 2731
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 57 2696 2737 "obc/control.ml" 57 2696 2740
+type(
+  'a list
+)
+ident(
+  int_ref acc "obc/control.ml" 57 2696 2708 "obc/control.ml" 57 2696 2711
+)
+"obc/control.ml" 57 2696 2746 "obc/control.ml" 57 2696 2747
+type(
+  'a
+)
+ident(
+  int_ref x "obc/control.ml" 57 2696 2706 "obc/control.ml" 57 2696 2707
+)
+"obc/control.ml" 57 2696 2749 "obc/control.ml" 57 2696 2752
+type(
+  'a list
+)
+ident(
+  int_ref acc "obc/control.ml" 57 2696 2708 "obc/control.ml" 57 2696 2711
+)
+"obc/control.ml" 57 2696 2746 "obc/control.ml" 57 2696 2752
+type(
+  'a list
+)
+"obc/control.ml" 57 2696 2714 "obc/control.ml" 57 2696 2752
+type(
+  'a list
+)
+"obc/control.ml" 58 2756 2762 "obc/control.ml" 58 2756 2769
+type(
+  'b ->
+  Idents.var_ident list ->
+  Obc.pat_desc -> Obc.pat_desc * Idents.var_ident list
+)
+ident(
+  def lhsdesc "obc/control.ml" 63 2897 2899 "obc/control.ml" 65 3009 3017
+)
+"obc/control.ml" 58 2756 2770 "obc/control.ml" 58 2756 2775
+type(
+  'b
+)
+ident(
+  def _funs "obc/control.ml" 58 2756 2776 "obc/control.ml" 61 2859 2891
+)
+"obc/control.ml" 58 2756 2776 "obc/control.ml" 58 2756 2779
+type(
+  Idents.var_ident list
+)
+ident(
+  def acc "obc/control.ml" 58 2756 2780 "obc/control.ml" 61 2859 2891
+)
+"obc/control.ml" 58 2756 2780 "obc/control.ml" 58 2756 2782
+type(
+  Obc.pat_desc
+)
+ident(
+  def ld "obc/control.ml" 58 2756 2785 "obc/control.ml" 61 2859 2891
+)
+"obc/control.ml" 58 2756 2791 "obc/control.ml" 58 2756 2793
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 58 2756 2780 "obc/control.ml" 58 2756 2782
+)
+"obc/control.ml" 59 2799 2810 "obc/control.ml" 59 2799 2811
+type(
+  Idents.var_ident
+)
+ident(
+  def y "obc/control.ml" 59 2799 2815 "obc/control.ml" 59 2799 2828
+)
+"obc/control.ml" 59 2799 2805 "obc/control.ml" 59 2799 2811
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 59 2799 2815 "obc/control.ml" 59 2799 2817
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 58 2756 2780 "obc/control.ml" 58 2756 2782
+)
+"obc/control.ml" 59 2799 2819 "obc/control.ml" 59 2799 2822
+type(
+  Idents.var_ident -> Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  int_ref add "obc/control.ml" 57 2696 2702 "obc/control.ml" 57 2696 2705
+)
+"obc/control.ml" 59 2799 2823 "obc/control.ml" 59 2799 2824
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref y "obc/control.ml" 59 2799 2810 "obc/control.ml" 59 2799 2811
+)
+"obc/control.ml" 59 2799 2825 "obc/control.ml" 59 2799 2828
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref acc "obc/control.ml" 58 2756 2776 "obc/control.ml" 58 2756 2779
+)
+"obc/control.ml" 59 2799 2819 "obc/control.ml" 59 2799 2828
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 59 2799 2815 "obc/control.ml" 59 2799 2828
+type(
+  Obc.pat_desc * Idents.var_ident list
+)
+"obc/control.ml" 60 2829 2840 "obc/control.ml" 60 2829 2841
+type(
+  Idents.var_ident
+)
+ident(
+  def y "obc/control.ml" 60 2829 2845 "obc/control.ml" 60 2829 2858
+)
+"obc/control.ml" 60 2829 2835 "obc/control.ml" 60 2829 2841
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 60 2829 2845 "obc/control.ml" 60 2829 2847
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ld "obc/control.ml" 58 2756 2780 "obc/control.ml" 58 2756 2782
+)
+"obc/control.ml" 60 2829 2849 "obc/control.ml" 60 2829 2852
+type(
+  Idents.var_ident -> Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  int_ref add "obc/control.ml" 57 2696 2702 "obc/control.ml" 57 2696 2705
+)
+"obc/control.ml" 60 2829 2853 "obc/control.ml" 60 2829 2854
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref y "obc/control.ml" 60 2829 2840 "obc/control.ml" 60 2829 2841
+)
+"obc/control.ml" 60 2829 2855 "obc/control.ml" 60 2829 2858
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref acc "obc/control.ml" 58 2756 2776 "obc/control.ml" 58 2756 2779
+)
+"obc/control.ml" 60 2829 2849 "obc/control.ml" 60 2829 2858
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 60 2829 2845 "obc/control.ml" 60 2829 2858
+type(
+  Obc.pat_desc * Idents.var_ident list
+)
+"obc/control.ml" 61 2859 2865 "obc/control.ml" 61 2859 2866
+type(
+  Obc.pat_desc
+)
+"obc/control.ml" 61 2859 2870 "obc/control.ml" 61 2859 2875
+type(
+  exn -> Obc.pat_desc * Idents.var_ident list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/control.ml" 61 2859 2876 "obc/control.ml" 61 2859 2891
+type(
+  exn
+)
+"obc/control.ml" 61 2859 2870 "obc/control.ml" 61 2859 2891
+type(
+  Obc.pat_desc * Idents.var_ident list
+)
+"obc/control.ml" 58 2756 2785 "obc/control.ml" 61 2859 2891
+type(
+  Obc.pat_desc * Idents.var_ident list
+)
+"obc/control.ml" 63 2897 2903 "obc/control.ml" 63 2897 2907
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/control.ml" 64 2961 2963 "obc/control.ml" 65 3009 3017
+)
+"obc/control.ml" 63 2897 2912 "obc/control.ml" 63 2897 2932
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/control.ml" 63 2897 2948 "obc/control.ml" 63 2897 2955
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs ->
+  Idents.var_ident list ->
+  Obc.pat_desc -> Obc.pat_desc * Idents.var_ident list
+)
+ident(
+  int_ref lhsdesc "obc/control.ml" 58 2756 2762 "obc/control.ml" 58 2756 2769
+)
+"obc/control.ml" 63 2897 2910 "obc/control.ml" 63 2897 2957
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs
+)
+"obc/control.ml" 64 2961 2967 "obc/control.ml" 64 2961 2968
+type(
+  Obc.exp
+)
+"obc/control.ml" 64 2961 2970 "obc/control.ml" 64 2961 2974
+type(
+  Idents.var_ident list
+)
+ident(
+  def vars "obc/control.ml" 65 3009 3013 "obc/control.ml" 65 3009 3017
+)
+"obc/control.ml" 64 2961 2967 "obc/control.ml" 64 2961 2974
+type(
+  Obc.exp * Idents.var_ident list
+)
+"obc/control.ml" 64 2961 2977 "obc/control.ml" 64 2961 2995
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs ->
+  Idents.var_ident list -> Obc.exp -> Obc.exp * Idents.var_ident list
+)
+ident(
+  ext_ref Obc_mapfold.exp_it
+)
+"obc/control.ml" 64 2961 2996 "obc/control.ml" 64 2961 3000
+type(
+  Idents.var_ident list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 63 2897 2903 "obc/control.ml" 63 2897 2907
+)
+"obc/control.ml" 64 2961 3001 "obc/control.ml" 64 2961 3003
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 64 2961 3004 "obc/control.ml" 64 2961 3005
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/control.ml" 56 2678 2692 "obc/control.ml" 56 2678 2693
+)
+"obc/control.ml" 64 2961 2977 "obc/control.ml" 64 2961 3005
+call(
+  stack
+)
+type(
+  Obc.exp * Idents.var_ident list
+)
+"obc/control.ml" 65 3009 3013 "obc/control.ml" 65 3009 3017
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref vars "obc/control.ml" 64 2961 2970 "obc/control.ml" 64 2961 2974
+)
+"obc/control.ml" 64 2961 2963 "obc/control.ml" 65 3009 3017
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 63 2897 2899 "obc/control.ml" 65 3009 3017
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 58 2756 2758 "obc/control.ml" 65 3009 3017
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 57 2696 2698 "obc/control.ml" 65 3009 3017
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 67 3019 3027 "obc/control.ml" 67 3019 3046
+type(
+  Idents.var_ident -> Signature.arg list -> Obc.exp list -> bool
+)
+ident(
+  def is_modified_by_call "obc/control.ml" 67 3019 3019 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 67 3019 3047 "obc/control.ml" 67 3019 3048
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 67 3019 3049 "obc/control.ml" 74 3261 3285
+)
+"obc/control.ml" 67 3019 3049 "obc/control.ml" 67 3019 3053
+type(
+  Signature.arg list
+)
+ident(
+  def args "obc/control.ml" 67 3019 3054 "obc/control.ml" 74 3261 3285
+)
+"obc/control.ml" 67 3019 3054 "obc/control.ml" 67 3019 3060
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/control.ml" 67 3019 3063 "obc/control.ml" 74 3261 3285
+)
+"obc/control.ml" 67 3019 3069 "obc/control.ml" 67 3019 3073
+type(
+  Signature.arg list
+)
+ident(
+  int_ref args "obc/control.ml" 67 3019 3049 "obc/control.ml" 67 3019 3053
+)
+"obc/control.ml" 67 3019 3075 "obc/control.ml" 67 3019 3081
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/control.ml" 67 3019 3054 "obc/control.ml" 67 3019 3060
+)
+"obc/control.ml" 67 3019 3069 "obc/control.ml" 67 3019 3081
+type(
+  Signature.arg list * Obc.exp list
+)
+"obc/control.ml" 68 3087 3091 "obc/control.ml" 68 3087 3093
+type(
+  Signature.arg list
+)
+"obc/control.ml" 68 3087 3095 "obc/control.ml" 68 3087 3097
+type(
+  Obc.exp list
+)
+"obc/control.ml" 68 3087 3091 "obc/control.ml" 68 3087 3097
+type(
+  Signature.arg list * Obc.exp list
+)
+"obc/control.ml" 68 3087 3101 "obc/control.ml" 68 3087 3106
+type(
+  bool
+)
+"obc/control.ml" 69 3107 3111 "obc/control.ml" 69 3107 3112
+type(
+  Signature.arg
+)
+ident(
+  def a "obc/control.ml" 70 3133 3137 "obc/control.ml" 73 3221 3260
+)
+"obc/control.ml" 69 3107 3114 "obc/control.ml" 69 3107 3118
+type(
+  Signature.arg list
+)
+ident(
+  def args "obc/control.ml" 70 3133 3137 "obc/control.ml" 73 3221 3260
+)
+"obc/control.ml" 69 3107 3111 "obc/control.ml" 69 3107 3118
+type(
+  Signature.arg list
+)
+"obc/control.ml" 69 3107 3120 "obc/control.ml" 69 3107 3121
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/control.ml" 70 3133 3137 "obc/control.ml" 73 3221 3260
+)
+"obc/control.ml" 69 3107 3123 "obc/control.ml" 69 3107 3129
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/control.ml" 70 3133 3137 "obc/control.ml" 73 3221 3260
+)
+"obc/control.ml" 69 3107 3120 "obc/control.ml" 69 3107 3129
+type(
+  Obc.exp list
+)
+"obc/control.ml" 69 3107 3111 "obc/control.ml" 69 3107 3129
+type(
+  Signature.arg list * Obc.exp list
+)
+"obc/control.ml" 70 3133 3140 "obc/control.ml" 70 3133 3159
+type(
+  Linearity.linearity -> bool
+)
+ident(
+  ext_ref Linearity.is_linear
+)
+"obc/control.ml" 70 3133 3160 "obc/control.ml" 70 3133 3161
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "obc/control.ml" 69 3107 3111 "obc/control.ml" 69 3107 3112
+)
+"obc/control.ml" 70 3133 3160 "obc/control.ml" 70 3133 3173
+type(
+  Linearity.linearity
+)
+"obc/control.ml" 70 3133 3140 "obc/control.ml" 70 3133 3173
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 70 3133 3174 "obc/control.ml" 70 3133 3176
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"obc/control.ml" 70 3133 3177 "obc/control.ml" 70 3133 3191
+type(
+  Idents.var_ident -> Obc.exp -> bool
+)
+ident(
+  int_ref appears_in_exp "obc/control.ml" 39 2197 2201 "obc/control.ml" 39 2197 2215
+)
+"obc/control.ml" 70 3133 3192 "obc/control.ml" 70 3133 3193
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 67 3019 3047 "obc/control.ml" 67 3019 3048
+)
+"obc/control.ml" 70 3133 3194 "obc/control.ml" 70 3133 3195
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/control.ml" 69 3107 3120 "obc/control.ml" 69 3107 3121
+)
+"obc/control.ml" 70 3133 3177 "obc/control.ml" 70 3133 3195
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 70 3133 3140 "obc/control.ml" 70 3133 3195
+type(
+  bool
+)
+"obc/control.ml" 71 3201 3207 "obc/control.ml" 71 3201 3211
+type(
+  bool
+)
+"obc/control.ml" 73 3221 3227 "obc/control.ml" 73 3221 3246
+type(
+  Idents.var_ident -> Signature.arg list -> Obc.exp list -> bool
+)
+ident(
+  int_ref is_modified_by_call "obc/control.ml" 67 3019 3027 "obc/control.ml" 67 3019 3046
+)
+"obc/control.ml" 73 3221 3247 "obc/control.ml" 73 3221 3248
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 67 3019 3047 "obc/control.ml" 67 3019 3048
+)
+"obc/control.ml" 73 3221 3249 "obc/control.ml" 73 3221 3253
+type(
+  Signature.arg list
+)
+ident(
+  int_ref args "obc/control.ml" 69 3107 3114 "obc/control.ml" 69 3107 3118
+)
+"obc/control.ml" 73 3221 3254 "obc/control.ml" 73 3221 3260
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/control.ml" 69 3107 3123 "obc/control.ml" 69 3107 3129
+)
+"obc/control.ml" 73 3221 3227 "obc/control.ml" 73 3221 3260
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/control.ml" 70 3133 3137 "obc/control.ml" 73 3221 3260
+type(
+  bool
+)
+"obc/control.ml" 74 3261 3265 "obc/control.ml" 74 3261 3266
+type(
+  Signature.arg list
+)
+"obc/control.ml" 74 3261 3268 "obc/control.ml" 74 3261 3269
+type(
+  Obc.exp list
+)
+"obc/control.ml" 74 3261 3265 "obc/control.ml" 74 3261 3269
+type(
+  Signature.arg list * Obc.exp list
+)
+"obc/control.ml" 74 3261 3280 "obc/control.ml" 74 3261 3285
+type(
+  bool
+)
+"obc/control.ml" 74 3261 3273 "obc/control.ml" 74 3261 3285
+type(
+  bool
+)
+"obc/control.ml" 67 3019 3063 "obc/control.ml" 74 3261 3285
+type(
+  bool
+)
+"obc/control.ml" 76 3287 3291 "obc/control.ml" 76 3287 3311
+type(
+  Obc.obj_dec list -> Idents.var_ident -> ('a * Obc.block) list -> bool
+)
+ident(
+  def is_modified_handlers "obc/control.ml" 92 3920 3920 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 76 3287 3312 "obc/control.ml" 76 3287 3313
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 76 3287 3314 "obc/control.ml" 90 3850 3918
+)
+"obc/control.ml" 76 3287 3314 "obc/control.ml" 76 3287 3315
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 76 3287 3316 "obc/control.ml" 90 3850 3918
+)
+"obc/control.ml" 76 3287 3316 "obc/control.ml" 76 3287 3324
+type(
+  ('a * Obc.block) list
+)
+ident(
+  def handlers "obc/control.ml" 77 3327 3329 "obc/control.ml" 90 3850 3918
+)
+"obc/control.ml" 77 3327 3333 "obc/control.ml" 77 3327 3336
+type(
+  'b -> bool -> Obc.act -> Obc.act * bool
+)
+ident(
+  def act "obc/control.ml" 89 3794 3796 "obc/control.ml" 90 3850 3918
+)
+"obc/control.ml" 77 3327 3337 "obc/control.ml" 77 3327 3338
+type(
+  'b
+)
+"obc/control.ml" 77 3327 3339 "obc/control.ml" 77 3327 3342
+type(
+  bool
+)
+ident(
+  def acc "obc/control.ml" 77 3327 3343 "obc/control.ml" 87 3756 3788
+)
+"obc/control.ml" 77 3327 3343 "obc/control.ml" 77 3327 3344
+type(
+  Obc.act
+)
+ident(
+  def a "obc/control.ml" 77 3327 3347 "obc/control.ml" 87 3756 3788
+)
+"obc/control.ml" 77 3327 3353 "obc/control.ml" 77 3327 3354
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/control.ml" 77 3327 3343 "obc/control.ml" 77 3327 3344
+)
+"obc/control.ml" 78 3360 3373 "obc/control.ml" 78 3360 3374
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/control.ml" 78 3360 3382 "obc/control.ml" 78 3360 3412
+)
+"obc/control.ml" 78 3360 3376 "obc/control.ml" 78 3360 3377
+type(
+  Obc.exp
+)
+"obc/control.ml" 78 3360 3366 "obc/control.ml" 78 3360 3378
+type(
+  Obc.act
+)
+"obc/control.ml" 78 3360 3382 "obc/control.ml" 78 3360 3383
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/control.ml" 77 3327 3343 "obc/control.ml" 77 3327 3344
+)
+"obc/control.ml" 78 3360 3385 "obc/control.ml" 78 3360 3388
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 77 3327 3339 "obc/control.ml" 77 3327 3342
+)
+"obc/control.ml" 78 3360 3389 "obc/control.ml" 78 3360 3391
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/control.ml" 78 3360 3393 "obc/control.ml" 78 3360 3407
+type(
+  Idents.var_ident -> Obc.pattern -> bool
+)
+ident(
+  int_ref appears_in_lhs "obc/control.ml" 39 2197 2217 "obc/control.ml" 39 2197 2231
+)
+"obc/control.ml" 78 3360 3408 "obc/control.ml" 78 3360 3409
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 76 3287 3314 "obc/control.ml" 76 3287 3315
+)
+"obc/control.ml" 78 3360 3410 "obc/control.ml" 78 3360 3411
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/control.ml" 78 3360 3373 "obc/control.ml" 78 3360 3374
+)
+"obc/control.ml" 78 3360 3392 "obc/control.ml" 78 3360 3412
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 78 3360 3385 "obc/control.ml" 78 3360 3412
+type(
+  bool
+)
+"obc/control.ml" 78 3360 3382 "obc/control.ml" 78 3360 3412
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 79 3413 3426 "obc/control.ml" 79 3413 3435
+type(
+  Obc.pattern list
+)
+ident(
+  def name_list "obc/control.ml" 81 3526 3534 "obc/control.ml" 86 3746 3755
+)
+"obc/control.ml" 79 3413 3437 "obc/control.ml" 79 3413 3438
+type(
+  Obc.obj_ref
+)
+ident(
+  def o "obc/control.ml" 81 3526 3534 "obc/control.ml" 86 3746 3755
+)
+"obc/control.ml" 79 3413 3440 "obc/control.ml" 79 3413 3445
+type(
+  Obc.method_name
+)
+"obc/control.ml" 79 3413 3447 "obc/control.ml" 79 3413 3453
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/control.ml" 81 3526 3534 "obc/control.ml" 86 3746 3755
+)
+"obc/control.ml" 79 3413 3419 "obc/control.ml" 79 3413 3454
+type(
+  Obc.act
+)
+"obc/control.ml" 81 3526 3537 "obc/control.ml" 81 3526 3548
+type(
+  (Obc.pattern -> bool) -> Obc.pattern list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"obc/control.ml" 81 3526 3550 "obc/control.ml" 81 3526 3564
+type(
+  Idents.var_ident -> Obc.pattern -> bool
+)
+ident(
+  int_ref appears_in_lhs "obc/control.ml" 39 2197 2217 "obc/control.ml" 39 2197 2231
+)
+"obc/control.ml" 81 3526 3565 "obc/control.ml" 81 3526 3566
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 76 3287 3314 "obc/control.ml" 76 3287 3315
+)
+"obc/control.ml" 81 3526 3549 "obc/control.ml" 81 3526 3567
+call(
+  stack
+)
+type(
+  Obc.pattern -> bool
+)
+"obc/control.ml" 81 3526 3568 "obc/control.ml" 81 3526 3577
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref name_list "obc/control.ml" 79 3413 3426 "obc/control.ml" 79 3413 3435
+)
+"obc/control.ml" 81 3526 3537 "obc/control.ml" 81 3526 3577
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 82 3583 3593 "obc/control.ml" 82 3583 3594
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/control.ml" 77 3327 3343 "obc/control.ml" 77 3327 3344
+)
+"obc/control.ml" 82 3583 3596 "obc/control.ml" 82 3583 3600
+type(
+  bool
+)
+"obc/control.ml" 82 3583 3593 "obc/control.ml" 82 3583 3600
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 84 3616 3630 "obc/control.ml" 84 3616 3638
+type(
+  Signature.node
+)
+ident(
+  def sig_info "obc/control.ml" 85 3672 3684 "obc/control.ml" 85 3672 3745
+)
+"obc/control.ml" 84 3616 3641 "obc/control.ml" 84 3616 3649
+type(
+  Obc.obj_ident -> Obc.obj_dec list -> Signature.node
+)
+ident(
+  ext_ref Obc_utils.find_obj
+)
+"obc/control.ml" 84 3616 3651 "obc/control.ml" 84 3616 3663
+type(
+  Obc.obj_ref -> Obc.obj_ident
+)
+ident(
+  ext_ref Obc_utils.obj_ref_name
+)
+"obc/control.ml" 84 3616 3664 "obc/control.ml" 84 3616 3665
+type(
+  Obc.obj_ref
+)
+ident(
+  int_ref o "obc/control.ml" 79 3413 3437 "obc/control.ml" 79 3413 3438
+)
+"obc/control.ml" 84 3616 3650 "obc/control.ml" 84 3616 3666
+call(
+  stack
+)
+type(
+  Obc.obj_ident
+)
+"obc/control.ml" 84 3616 3667 "obc/control.ml" 84 3616 3668
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 76 3287 3312 "obc/control.ml" 76 3287 3313
+)
+"obc/control.ml" 84 3616 3641 "obc/control.ml" 84 3616 3668
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"obc/control.ml" 85 3672 3684 "obc/control.ml" 85 3672 3685
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/control.ml" 77 3327 3343 "obc/control.ml" 77 3327 3344
+)
+"obc/control.ml" 85 3672 3687 "obc/control.ml" 85 3672 3690
+type(
+  bool
+)
+ident(
+  int_ref acc "obc/control.ml" 77 3327 3339 "obc/control.ml" 77 3327 3342
+)
+"obc/control.ml" 85 3672 3691 "obc/control.ml" 85 3672 3693
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/control.ml" 85 3672 3695 "obc/control.ml" 85 3672 3714
+type(
+  Idents.var_ident -> Signature.arg list -> Obc.exp list -> bool
+)
+ident(
+  int_ref is_modified_by_call "obc/control.ml" 67 3019 3027 "obc/control.ml" 67 3019 3046
+)
+"obc/control.ml" 85 3672 3715 "obc/control.ml" 85 3672 3716
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 76 3287 3314 "obc/control.ml" 76 3287 3315
+)
+"obc/control.ml" 85 3672 3717 "obc/control.ml" 85 3672 3725
+type(
+  Signature.node
+)
+ident(
+  int_ref sig_info "obc/control.ml" 84 3616 3630 "obc/control.ml" 84 3616 3638
+)
+"obc/control.ml" 85 3672 3717 "obc/control.ml" 85 3672 3737
+type(
+  Signature.arg list
+)
+"obc/control.ml" 85 3672 3738 "obc/control.ml" 85 3672 3744
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/control.ml" 79 3413 3447 "obc/control.ml" 79 3413 3453
+)
+"obc/control.ml" 85 3672 3694 "obc/control.ml" 85 3672 3745
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 85 3672 3687 "obc/control.ml" 85 3672 3745
+type(
+  bool
+)
+"obc/control.ml" 85 3672 3684 "obc/control.ml" 85 3672 3745
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 83 3601 3614 "obc/control.ml" 86 3746 3755
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 81 3526 3534 "obc/control.ml" 86 3746 3755
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 87 3756 3762 "obc/control.ml" 87 3756 3763
+type(
+  Obc.act
+)
+"obc/control.ml" 87 3756 3767 "obc/control.ml" 87 3756 3772
+type(
+  exn -> Obc.act * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/control.ml" 87 3756 3773 "obc/control.ml" 87 3756 3788
+type(
+  exn
+)
+"obc/control.ml" 87 3756 3767 "obc/control.ml" 87 3756 3788
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 77 3327 3347 "obc/control.ml" 87 3756 3788
+type(
+  Obc.act * bool
+)
+"obc/control.ml" 89 3794 3800 "obc/control.ml" 89 3794 3804
+type(
+  bool Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/control.ml" 90 3850 3854 "obc/control.ml" 90 3850 3918
+)
+"obc/control.ml" 89 3794 3809 "obc/control.ml" 89 3794 3829
+type(
+  bool Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/control.ml" 89 3794 3841 "obc/control.ml" 89 3794 3844
+type(
+  bool Obc_mapfold.obc_it_funs -> bool -> Obc.act -> Obc.act * bool
+)
+ident(
+  int_ref act "obc/control.ml" 77 3327 3333 "obc/control.ml" 77 3327 3336
+)
+"obc/control.ml" 89 3794 3807 "obc/control.ml" 89 3794 3846
+type(
+  bool Obc_mapfold.obc_it_funs
+)
+"obc/control.ml" 90 3850 3854 "obc/control.ml" 90 3850 3865
+type(
+  ('a * Obc.block -> bool) -> ('a * Obc.block) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"obc/control.ml" 90 3850 3872 "obc/control.ml" 90 3850 3873
+type(
+  'a
+)
+"obc/control.ml" 90 3850 3875 "obc/control.ml" 90 3850 3876
+type(
+  Obc.block
+)
+ident(
+  def b "obc/control.ml" 90 3850 3881 "obc/control.ml" 90 3850 3908
+)
+"obc/control.ml" 90 3850 3871 "obc/control.ml" 90 3850 3877
+type(
+  'a * Obc.block
+)
+"obc/control.ml" 90 3850 3881 "obc/control.ml" 90 3850 3884
+type(
+  Obc.block * bool -> bool
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"obc/control.ml" 90 3850 3886 "obc/control.ml" 90 3850 3894
+type(
+  bool Obc_mapfold.obc_it_funs -> bool -> Obc.block -> Obc.block * bool
+)
+ident(
+  ext_ref Obc_mapfold.block_it
+)
+"obc/control.ml" 90 3850 3895 "obc/control.ml" 90 3850 3899
+type(
+  bool Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 89 3794 3800 "obc/control.ml" 89 3794 3804
+)
+"obc/control.ml" 90 3850 3900 "obc/control.ml" 90 3850 3905
+type(
+  bool
+)
+"obc/control.ml" 90 3850 3906 "obc/control.ml" 90 3850 3907
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 90 3850 3875 "obc/control.ml" 90 3850 3876
+)
+"obc/control.ml" 90 3850 3885 "obc/control.ml" 90 3850 3908
+call(
+  stack
+)
+type(
+  Obc.block * bool
+)
+"obc/control.ml" 90 3850 3881 "obc/control.ml" 90 3850 3908
+type(
+  bool
+)
+"obc/control.ml" 90 3850 3866 "obc/control.ml" 90 3850 3909
+type(
+  'a * Obc.block -> bool
+)
+"obc/control.ml" 90 3850 3910 "obc/control.ml" 90 3850 3918
+type(
+  ('a * Obc.block) list
+)
+ident(
+  int_ref handlers "obc/control.ml" 76 3287 3316 "obc/control.ml" 76 3287 3324
+)
+"obc/control.ml" 90 3850 3854 "obc/control.ml" 90 3850 3918
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/control.ml" 89 3794 3796 "obc/control.ml" 90 3850 3918
+type(
+  bool
+)
+"obc/control.ml" 77 3327 3329 "obc/control.ml" 90 3850 3918
+type(
+  bool
+)
+"obc/control.ml" 92 3920 3924 "obc/control.ml" 92 3920 3944
+type(
+  Obc.obj_dec list -> Obc.exp -> ('a * Obc.block) list -> bool
+)
+ident(
+  def is_modified_handlers "obc/control.ml" 96 4055 4055 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 92 3920 3945 "obc/control.ml" 92 3920 3946
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 92 3920 3947 "obc/control.ml" 94 3988 4053
+)
+"obc/control.ml" 92 3920 3947 "obc/control.ml" 92 3920 3948
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/control.ml" 92 3920 3949 "obc/control.ml" 94 3988 4053
+)
+"obc/control.ml" 92 3920 3949 "obc/control.ml" 92 3920 3957
+type(
+  ('a * Obc.block) list
+)
+ident(
+  def handlers "obc/control.ml" 93 3960 3962 "obc/control.ml" 94 3988 4053
+)
+"obc/control.ml" 93 3960 3966 "obc/control.ml" 93 3960 3970
+type(
+  Idents.var_ident list
+)
+ident(
+  def vars "obc/control.ml" 94 3988 3992 "obc/control.ml" 94 3988 4053
+)
+"obc/control.ml" 93 3960 3973 "obc/control.ml" 93 3960 3982
+type(
+  Obc.exp -> Idents.var_ident list
+)
+ident(
+  int_ref used_vars "obc/control.ml" 56 2678 2682 "obc/control.ml" 56 2678 2691
+)
+"obc/control.ml" 93 3960 3983 "obc/control.ml" 93 3960 3984
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/control.ml" 92 3920 3947 "obc/control.ml" 92 3920 3948
+)
+"obc/control.ml" 93 3960 3973 "obc/control.ml" 93 3960 3984
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"obc/control.ml" 94 3988 3992 "obc/control.ml" 94 3988 4003
+type(
+  (Idents.var_ident -> bool) -> Idents.var_ident list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"obc/control.ml" 94 3988 4009 "obc/control.ml" 94 3988 4010
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/control.ml" 94 3988 4014 "obc/control.ml" 94 3988 4047
+)
+"obc/control.ml" 94 3988 4014 "obc/control.ml" 94 3988 4034
+type(
+  Obc.obj_dec list -> Idents.var_ident -> ('a * Obc.block) list -> bool
+)
+ident(
+  int_ref is_modified_handlers "obc/control.ml" 76 3287 3291 "obc/control.ml" 76 3287 3311
+)
+"obc/control.ml" 94 3988 4035 "obc/control.ml" 94 3988 4036
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 92 3920 3945 "obc/control.ml" 92 3920 3946
+)
+"obc/control.ml" 94 3988 4037 "obc/control.ml" 94 3988 4038
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/control.ml" 94 3988 4009 "obc/control.ml" 94 3988 4010
+)
+"obc/control.ml" 94 3988 4039 "obc/control.ml" 94 3988 4047
+type(
+  ('a * Obc.block) list
+)
+ident(
+  int_ref handlers "obc/control.ml" 92 3920 3949 "obc/control.ml" 92 3920 3957
+)
+"obc/control.ml" 94 3988 4014 "obc/control.ml" 94 3988 4047
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/control.ml" 94 3988 4004 "obc/control.ml" 94 3988 4048
+type(
+  Idents.var_ident -> bool
+)
+"obc/control.ml" 94 3988 4049 "obc/control.ml" 94 3988 4053
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref vars "obc/control.ml" 93 3960 3966 "obc/control.ml" 93 3960 3970
+)
+"obc/control.ml" 94 3988 3992 "obc/control.ml" 94 3988 4053
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/control.ml" 93 3960 3962 "obc/control.ml" 94 3988 4053
+type(
+  bool
+)
+"obc/control.ml" 96 4055 4059 "obc/control.ml" 96 4055 4070
+type(
+  Obc.block -> Obc.block -> Obc.block
+)
+ident(
+  def fuse_blocks "obc/control.ml" 100 4161 4161 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 96 4055 4071 "obc/control.ml" 96 4055 4073
+type(
+  Obc.block
+)
+ident(
+  def b1 "obc/control.ml" 96 4055 4074 "obc/control.ml" 98 4121 4159
+)
+"obc/control.ml" 96 4055 4074 "obc/control.ml" 96 4055 4076
+type(
+  Obc.block
+)
+ident(
+  def b2 "obc/control.ml" 97 4079 4081 "obc/control.ml" 98 4121 4159
+)
+"obc/control.ml" 97 4079 4094 "obc/control.ml" 97 4079 4096
+type(
+  Obc.block
+)
+ident(
+  int_ref b1 "obc/control.ml" 96 4055 4071 "obc/control.ml" 96 4055 4073
+)
+"obc/control.ml" 97 4079 4094 "obc/control.ml" 97 4079 4105
+type(
+  Obc.var_dec list
+)
+"obc/control.ml" 97 4079 4106 "obc/control.ml" 97 4079 4107
+type(
+  Obc.var_dec list -> Obc.var_dec list -> Obc.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/control.ml" 97 4079 4108 "obc/control.ml" 97 4079 4110
+type(
+  Obc.block
+)
+ident(
+  int_ref b2 "obc/control.ml" 96 4055 4074 "obc/control.ml" 96 4055 4076
+)
+"obc/control.ml" 97 4079 4108 "obc/control.ml" 97 4079 4119
+type(
+  Obc.var_dec list
+)
+"obc/control.ml" 97 4079 4094 "obc/control.ml" 97 4079 4119
+call(
+  stack
+)
+type(
+  Obc.var_dec list
+)
+"obc/control.ml" 98 4121 4136 "obc/control.ml" 98 4121 4138
+type(
+  Obc.block
+)
+ident(
+  int_ref b1 "obc/control.ml" 96 4055 4071 "obc/control.ml" 96 4055 4073
+)
+"obc/control.ml" 98 4121 4136 "obc/control.ml" 98 4121 4145
+type(
+  Obc.act list
+)
+"obc/control.ml" 98 4121 4146 "obc/control.ml" 98 4121 4147
+type(
+  Obc.act list -> Obc.act list -> Obc.act list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/control.ml" 98 4121 4148 "obc/control.ml" 98 4121 4150
+type(
+  Obc.block
+)
+ident(
+  int_ref b2 "obc/control.ml" 96 4055 4074 "obc/control.ml" 96 4055 4076
+)
+"obc/control.ml" 98 4121 4148 "obc/control.ml" 98 4121 4157
+type(
+  Obc.act list
+)
+"obc/control.ml" 98 4121 4136 "obc/control.ml" 98 4121 4157
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 97 4079 4081 "obc/control.ml" 98 4121 4159
+type(
+  Obc.block
+)
+"obc/control.ml" 100 4161 4169 "obc/control.ml" 100 4161 4173
+type(
+  'a -> ('a * 'b) list -> 'b * ('a * 'b) list
+)
+ident(
+  def find "obc/control.ml" 100 4161 4161 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 100 4161 4174 "obc/control.ml" 100 4161 4175
+type(
+  'a
+)
+ident(
+  def c "obc/control.ml" 100 4161 4178 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 101 4187 4191 "obc/control.ml" 101 4187 4193
+type(
+  ('a * 'b) list
+)
+"obc/control.ml" 101 4187 4200 "obc/control.ml" 101 4187 4205
+type(
+  exn -> 'b * ('a * 'b) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/control.ml" 101 4187 4206 "obc/control.ml" 101 4187 4215
+type(
+  exn
+)
+"obc/control.ml" 101 4187 4200 "obc/control.ml" 101 4187 4215
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 102 4216 4221 "obc/control.ml" 102 4216 4223
+type(
+  'a
+)
+ident(
+  def c1 "obc/control.ml" 103 4238 4244 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 102 4216 4225 "obc/control.ml" 102 4216 4227
+type(
+  'b
+)
+ident(
+  def s1 "obc/control.ml" 103 4238 4244 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 102 4216 4220 "obc/control.ml" 102 4216 4228
+type(
+  'a * 'b
+)
+"obc/control.ml" 102 4216 4232 "obc/control.ml" 102 4216 4233
+type(
+  ('a * 'b) list
+)
+ident(
+  def h "obc/control.ml" 103 4238 4244 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 102 4216 4220 "obc/control.ml" 102 4216 4233
+type(
+  ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4247 "obc/control.ml" 103 4238 4248
+type(
+  'a
+)
+ident(
+  int_ref c "obc/control.ml" 100 4161 4174 "obc/control.ml" 100 4161 4175
+)
+"obc/control.ml" 103 4238 4249 "obc/control.ml" 103 4238 4250
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/control.ml" 103 4238 4251 "obc/control.ml" 103 4238 4253
+type(
+  'a
+)
+ident(
+  int_ref c1 "obc/control.ml" 102 4216 4221 "obc/control.ml" 102 4216 4223
+)
+"obc/control.ml" 103 4238 4247 "obc/control.ml" 103 4238 4253
+type(
+  bool
+)
+"obc/control.ml" 103 4238 4259 "obc/control.ml" 103 4238 4261
+type(
+  'b
+)
+ident(
+  int_ref s1 "obc/control.ml" 102 4216 4225 "obc/control.ml" 102 4216 4227
+)
+"obc/control.ml" 103 4238 4263 "obc/control.ml" 103 4238 4264
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref h "obc/control.ml" 102 4216 4232 "obc/control.ml" 102 4216 4233
+)
+"obc/control.ml" 103 4238 4259 "obc/control.ml" 103 4238 4264
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4274 "obc/control.ml" 103 4238 4275
+type(
+  'b
+)
+ident(
+  def s "obc/control.ml" 103 4238 4293 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 103 4238 4277 "obc/control.ml" 103 4238 4278
+type(
+  ('a * 'b) list
+)
+ident(
+  def h "obc/control.ml" 103 4238 4293 "obc/control.ml" 103 4238 4309
+)
+"obc/control.ml" 103 4238 4274 "obc/control.ml" 103 4238 4278
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4281 "obc/control.ml" 103 4238 4285
+type(
+  'a -> ('a * 'b) list -> 'b * ('a * 'b) list
+)
+ident(
+  int_ref find "obc/control.ml" 100 4161 4169 "obc/control.ml" 100 4161 4173
+)
+"obc/control.ml" 103 4238 4286 "obc/control.ml" 103 4238 4287
+type(
+  'a
+)
+ident(
+  int_ref c "obc/control.ml" 100 4161 4174 "obc/control.ml" 100 4161 4175
+)
+"obc/control.ml" 103 4238 4288 "obc/control.ml" 103 4238 4289
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref h "obc/control.ml" 102 4216 4232 "obc/control.ml" 102 4216 4233
+)
+"obc/control.ml" 103 4238 4281 "obc/control.ml" 103 4238 4289
+call(
+  stack
+)
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4293 "obc/control.ml" 103 4238 4294
+type(
+  'b
+)
+ident(
+  int_ref s "obc/control.ml" 103 4238 4274 "obc/control.ml" 103 4238 4275
+)
+"obc/control.ml" 103 4238 4297 "obc/control.ml" 103 4238 4299
+type(
+  'a
+)
+ident(
+  int_ref c1 "obc/control.ml" 102 4216 4221 "obc/control.ml" 102 4216 4223
+)
+"obc/control.ml" 103 4238 4301 "obc/control.ml" 103 4238 4303
+type(
+  'b
+)
+ident(
+  int_ref s1 "obc/control.ml" 102 4216 4225 "obc/control.ml" 102 4216 4227
+)
+"obc/control.ml" 103 4238 4296 "obc/control.ml" 103 4238 4304
+type(
+  'a * 'b
+)
+"obc/control.ml" 103 4238 4308 "obc/control.ml" 103 4238 4309
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref h "obc/control.ml" 103 4238 4277 "obc/control.ml" 103 4238 4278
+)
+"obc/control.ml" 103 4238 4296 "obc/control.ml" 103 4238 4309
+type(
+  ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4293 "obc/control.ml" 103 4238 4309
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4270 "obc/control.ml" 103 4238 4309
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 103 4238 4244 "obc/control.ml" 103 4238 4309
+type(
+  'b * ('a * 'b) list
+)
+"obc/control.ml" 100 4161 4178 "obc/control.ml" 103 4238 4309
+type(
+  ('a * 'b) list -> 'b * ('a * 'b) list
+)
+"obc/control.ml" 105 4311 4315 "obc/control.ml" 105 4311 4326
+type(
+  Obc.act -> bool
+)
+ident(
+  def is_deadcode "obc/control.ml" 115 4650 4650 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 106 4400 4414 "obc/control.ml" 106 4400 4417
+type(
+  Obc.pattern
+)
+ident(
+  def lhs "obc/control.ml" 107 4425 4433 "obc/control.ml" 110 4549 4558
+)
+"obc/control.ml" 106 4400 4419 "obc/control.ml" 106 4400 4420
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/control.ml" 107 4425 4433 "obc/control.ml" 110 4549 4558
+)
+"obc/control.ml" 106 4400 4406 "obc/control.ml" 106 4400 4421
+type(
+  Obc.act
+)
+"obc/control.ml" 107 4425 4440 "obc/control.ml" 107 4425 4441
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/control.ml" 106 4400 4419 "obc/control.ml" 106 4400 4420
+)
+"obc/control.ml" 107 4425 4440 "obc/control.ml" 107 4425 4448
+type(
+  Obc.exp_desc
+)
+"obc/control.ml" 108 4454 4477 "obc/control.ml" 108 4454 4478
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/control.ml" 108 4454 4482 "obc/control.ml" 108 4454 4524
+)
+"obc/control.ml" 108 4454 4467 "obc/control.ml" 108 4454 4478
+type(
+  Obc.exp_desc
+)
+"obc/control.ml" 108 4454 4482 "obc/control.ml" 108 4454 4514
+type(
+  Obc.pattern -> Obc.ext_value -> int
+)
+ident(
+  ext_ref Obc_compare.compare_lhs_extvalue
+)
+"obc/control.ml" 108 4454 4515 "obc/control.ml" 108 4454 4518
+type(
+  Obc.pattern
+)
+ident(
+  int_ref lhs "obc/control.ml" 106 4400 4414 "obc/control.ml" 106 4400 4417
+)
+"obc/control.ml" 108 4454 4519 "obc/control.ml" 108 4454 4520
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/control.ml" 108 4454 4477 "obc/control.ml" 108 4454 4478
+)
+"obc/control.ml" 108 4454 4482 "obc/control.ml" 108 4454 4520
+call(
+  stack
+)
+type(
+  int
+)
+"obc/control.ml" 108 4454 4521 "obc/control.ml" 108 4454 4522
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/control.ml" 108 4454 4523 "obc/control.ml" 108 4454 4524
+type(
+  int
+)
+"obc/control.ml" 108 4454 4482 "obc/control.ml" 108 4454 4524
+type(
+  bool
+)
+"obc/control.ml" 109 4525 4538 "obc/control.ml" 109 4525 4539
+type(
+  Obc.exp_desc
+)
+"obc/control.ml" 109 4525 4543 "obc/control.ml" 109 4525 4548
+type(
+  bool
+)
+"obc/control.ml" 107 4425 4433 "obc/control.ml" 110 4549 4558
+type(
+  bool
+)
+"obc/control.ml" 111 4559 4572 "obc/control.ml" 111 4559 4573
+type(
+  Obc.exp
+)
+"obc/control.ml" 111 4559 4575 "obc/control.ml" 111 4559 4577
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 111 4559 4565 "obc/control.ml" 111 4559 4578
+type(
+  Obc.act
+)
+"obc/control.ml" 111 4559 4582 "obc/control.ml" 111 4559 4586
+type(
+  bool
+)
+"obc/control.ml" 112 4587 4598 "obc/control.ml" 112 4587 4599
+type(
+  Obc.var_dec
+)
+"obc/control.ml" 112 4587 4601 "obc/control.ml" 112 4587 4602
+type(
+  Obc.exp
+)
+"obc/control.ml" 112 4587 4604 "obc/control.ml" 112 4587 4605
+type(
+  Obc.exp
+)
+"obc/control.ml" 112 4587 4618 "obc/control.ml" 112 4587 4620
+type(
+  Obc.act list
+)
+"obc/control.ml" 112 4587 4607 "obc/control.ml" 112 4587 4622
+type(
+  Obc.block
+)
+"obc/control.ml" 112 4587 4593 "obc/control.ml" 112 4587 4623
+type(
+  Obc.act
+)
+"obc/control.ml" 112 4587 4627 "obc/control.ml" 112 4587 4631
+type(
+  bool
+)
+"obc/control.ml" 113 4632 4638 "obc/control.ml" 113 4632 4639
+type(
+  Obc.act
+)
+"obc/control.ml" 113 4632 4643 "obc/control.ml" 113 4632 4648
+type(
+  bool
+)
+"obc/control.ml" 105 4311 4329 "obc/control.ml" 113 4632 4648
+type(
+  Obc.act -> bool
+)
+"obc/control.ml" 115 4650 4658 "obc/control.ml" 115 4650 4666
+type(
+  Obc.obj_dec list -> Obc.act list -> Obc.act list
+)
+ident(
+  def joinlist "obc/control.ml" 115 4650 4650 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 115 4650 4667 "obc/control.ml" 115 4650 4668
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 115 4650 4669 "obc/control.ml" 140 5449 5465
+)
+"obc/control.ml" 115 4650 4669 "obc/control.ml" 115 4650 4670
+type(
+  Obc.act list
+)
+ident(
+  def l "obc/control.ml" 116 4673 4675 "obc/control.ml" 140 5449 5465
+)
+"obc/control.ml" 116 4673 4683 "obc/control.ml" 116 4673 4692
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  def join_next "obc/control.ml" 116 4673 4675 "obc/control.ml" 140 5449 5465
+)
+"obc/control.ml" 116 4673 4693 "obc/control.ml" 116 4673 4694
+type(
+  Obc.act list
+)
+ident(
+  def l "obc/control.ml" 117 4697 4701 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 117 4697 4707 "obc/control.ml" 117 4697 4708
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 116 4673 4693 "obc/control.ml" 116 4673 4694
+)
+"obc/control.ml" 118 4714 4722 "obc/control.ml" 118 4714 4724
+type(
+  Obc.act list
+)
+"obc/control.ml" 118 4714 4728 "obc/control.ml" 118 4714 4730
+type(
+  Obc.act list
+)
+"obc/control.ml" 119 4731 4740 "obc/control.ml" 119 4731 4742
+type(
+  Obc.act
+)
+ident(
+  def s1 "obc/control.ml" 119 4731 4747 "obc/control.ml" 119 4731 4751
+)
+"obc/control.ml" 119 4731 4739 "obc/control.ml" 119 4731 4743
+type(
+  Obc.act list
+)
+"obc/control.ml" 119 4731 4748 "obc/control.ml" 119 4731 4750
+type(
+  Obc.act
+)
+ident(
+  int_ref s1 "obc/control.ml" 119 4731 4740 "obc/control.ml" 119 4731 4742
+)
+"obc/control.ml" 119 4731 4747 "obc/control.ml" 119 4731 4751
+type(
+  Obc.act list
+)
+"obc/control.ml" 120 4752 4760 "obc/control.ml" 120 4752 4762
+type(
+  Obc.act
+)
+ident(
+  def s1 "obc/control.ml" 121 4773 4783 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 120 4752 4764 "obc/control.ml" 120 4752 4766
+type(
+  Obc.act
+)
+ident(
+  def s2 "obc/control.ml" 121 4773 4783 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 120 4752 4768 "obc/control.ml" 120 4752 4769
+type(
+  Obc.act list
+)
+ident(
+  def l "obc/control.ml" 121 4773 4783 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 120 4752 4764 "obc/control.ml" 120 4752 4769
+type(
+  Obc.act list
+)
+"obc/control.ml" 120 4752 4760 "obc/control.ml" 120 4752 4769
+type(
+  Obc.act list
+)
+"obc/control.ml" 121 4773 4789 "obc/control.ml" 121 4773 4791
+type(
+  Obc.act
+)
+ident(
+  int_ref s1 "obc/control.ml" 120 4752 4760 "obc/control.ml" 120 4752 4762
+)
+"obc/control.ml" 121 4773 4793 "obc/control.ml" 121 4773 4795
+type(
+  Obc.act
+)
+ident(
+  int_ref s2 "obc/control.ml" 120 4752 4764 "obc/control.ml" 120 4752 4766
+)
+"obc/control.ml" 121 4773 4789 "obc/control.ml" 121 4773 4795
+type(
+  Obc.act * Obc.act
+)
+"obc/control.ml" 122 4801 4821 "obc/control.ml" 122 4801 4823
+type(
+  Obc.exp
+)
+ident(
+  def e1 "obc/control.ml" 123 4830 4863 "obc/control.ml" 128 5091 5136
+)
+"obc/control.ml" 122 4801 4825 "obc/control.ml" 122 4801 4827
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h1 "obc/control.ml" 123 4830 4863 "obc/control.ml" 128 5091 5136
+)
+"obc/control.ml" 122 4801 4815 "obc/control.ml" 122 4801 4828
+type(
+  Obc.act
+)
+"obc/control.ml" 123 4830 4850 "obc/control.ml" 123 4830 4852
+type(
+  Obc.exp
+)
+ident(
+  def e2 "obc/control.ml" 123 4830 4863 "obc/control.ml" 128 5091 5136
+)
+"obc/control.ml" 123 4830 4854 "obc/control.ml" 123 4830 4856
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h2 "obc/control.ml" 123 4830 4863 "obc/control.ml" 128 5091 5136
+)
+"obc/control.ml" 123 4830 4844 "obc/control.ml" 123 4830 4857
+type(
+  Obc.act
+)
+"obc/control.ml" 122 4801 4815 "obc/control.ml" 123 4830 4857
+type(
+  Obc.act * Obc.act
+)
+"obc/control.ml" 123 4830 4863 "obc/control.ml" 123 4830 4886
+type(
+  Obc.exp -> Obc.exp -> int
+)
+ident(
+  ext_ref Obc_compare.exp_compare
+)
+"obc/control.ml" 123 4830 4887 "obc/control.ml" 123 4830 4889
+type(
+  Obc.exp
+)
+ident(
+  int_ref e1 "obc/control.ml" 122 4801 4821 "obc/control.ml" 122 4801 4823
+)
+"obc/control.ml" 123 4830 4890 "obc/control.ml" 123 4830 4892
+type(
+  Obc.exp
+)
+ident(
+  int_ref e2 "obc/control.ml" 123 4830 4850 "obc/control.ml" 123 4830 4852
+)
+"obc/control.ml" 123 4830 4863 "obc/control.ml" 123 4830 4892
+call(
+  stack
+)
+type(
+  int
+)
+"obc/control.ml" 123 4830 4893 "obc/control.ml" 123 4830 4894
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/control.ml" 123 4830 4895 "obc/control.ml" 123 4830 4896
+type(
+  int
+)
+"obc/control.ml" 123 4830 4863 "obc/control.ml" 123 4830 4896
+type(
+  bool
+)
+"obc/control.ml" 124 4900 4920 "obc/control.ml" 124 4900 4932
+type(
+  Obc.act
+)
+ident(
+  def fused_switch "obc/control.ml" 125 4970 4986 "obc/control.ml" 128 5091 5136
+)
+"obc/control.ml" 124 4900 4941 "obc/control.ml" 124 4900 4943
+type(
+  Obc.exp
+)
+ident(
+  int_ref e1 "obc/control.ml" 122 4801 4821 "obc/control.ml" 122 4801 4823
+)
+"obc/control.ml" 124 4900 4945 "obc/control.ml" 124 4900 4957
+type(
+  Obc.obj_dec list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref joinhandlers "obc/control.ml" 146 5532 5536 "obc/control.ml" 146 5532 5548
+)
+"obc/control.ml" 124 4900 4958 "obc/control.ml" 124 4900 4959
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 115 4650 4667 "obc/control.ml" 115 4650 4668
+)
+"obc/control.ml" 124 4900 4960 "obc/control.ml" 124 4900 4962
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 122 4801 4825 "obc/control.ml" 122 4801 4827
+)
+"obc/control.ml" 124 4900 4963 "obc/control.ml" 124 4900 4965
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2 "obc/control.ml" 123 4830 4854 "obc/control.ml" 123 4830 4856
+)
+"obc/control.ml" 124 4900 4945 "obc/control.ml" 124 4900 4965
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 124 4900 4935 "obc/control.ml" 124 4900 4966
+type(
+  Obc.act
+)
+"obc/control.ml" 125 4970 4989 "obc/control.ml" 125 4970 5009
+type(
+  Obc.obj_dec list ->
+  Obc.exp -> (Names.constructor_name * Obc.block) list -> bool
+)
+ident(
+  int_ref is_modified_handlers "obc/control.ml" 92 3920 3924 "obc/control.ml" 92 3920 3944
+)
+"obc/control.ml" 125 4970 5010 "obc/control.ml" 125 4970 5011
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 115 4650 4667 "obc/control.ml" 115 4650 4668
+)
+"obc/control.ml" 125 4970 5012 "obc/control.ml" 125 4970 5014
+type(
+  Obc.exp
+)
+ident(
+  int_ref e2 "obc/control.ml" 123 4830 4850 "obc/control.ml" 123 4830 4852
+)
+"obc/control.ml" 125 4970 5015 "obc/control.ml" 125 4970 5017
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 122 4801 4825 "obc/control.ml" 122 4801 4827
+)
+"obc/control.ml" 125 4970 4989 "obc/control.ml" 125 4970 5017
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 126 5023 5041 "obc/control.ml" 126 5023 5053
+type(
+  Obc.act
+)
+ident(
+  int_ref fused_switch "obc/control.ml" 124 4900 4920 "obc/control.ml" 124 4900 4932
+)
+"obc/control.ml" 126 5023 5056 "obc/control.ml" 126 5023 5066
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_first "obc/control.ml" 130 5186 5192 "obc/control.ml" 130 5186 5202
+)
+"obc/control.ml" 126 5023 5067 "obc/control.ml" 126 5023 5068
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 120 4752 4768 "obc/control.ml" 120 4752 4769
+)
+"obc/control.ml" 126 5023 5055 "obc/control.ml" 126 5023 5069
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 126 5023 5041 "obc/control.ml" 126 5023 5069
+type(
+  Obc.act list
+)
+"obc/control.ml" 128 5091 5109 "obc/control.ml" 128 5091 5118
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_next "obc/control.ml" 116 4673 4683 "obc/control.ml" 116 4673 4692
+)
+"obc/control.ml" 128 5091 5120 "obc/control.ml" 128 5091 5132
+type(
+  Obc.act
+)
+ident(
+  int_ref fused_switch "obc/control.ml" 124 4900 4920 "obc/control.ml" 124 4900 4932
+)
+"obc/control.ml" 128 5091 5134 "obc/control.ml" 128 5091 5135
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 120 4752 4768 "obc/control.ml" 120 4752 4769
+)
+"obc/control.ml" 128 5091 5119 "obc/control.ml" 128 5091 5136
+type(
+  Obc.act list
+)
+"obc/control.ml" 128 5091 5109 "obc/control.ml" 128 5091 5136
+call(
+  tail
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 125 4970 4986 "obc/control.ml" 128 5091 5136
+type(
+  Obc.act list
+)
+"obc/control.ml" 124 4900 4916 "obc/control.ml" 128 5091 5136
+type(
+  Obc.act list
+)
+"obc/control.ml" 129 5137 5151 "obc/control.ml" 129 5137 5153
+type(
+  Obc.act
+)
+ident(
+  def s1 "obc/control.ml" 129 5137 5161 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 129 5137 5155 "obc/control.ml" 129 5137 5157
+type(
+  Obc.act
+)
+ident(
+  def s2 "obc/control.ml" 129 5137 5161 "obc/control.ml" 129 5137 5185
+)
+"obc/control.ml" 129 5137 5151 "obc/control.ml" 129 5137 5157
+type(
+  Obc.act * Obc.act
+)
+"obc/control.ml" 129 5137 5161 "obc/control.ml" 129 5137 5163
+type(
+  Obc.act
+)
+ident(
+  int_ref s1 "obc/control.ml" 129 5137 5151 "obc/control.ml" 129 5137 5153
+)
+"obc/control.ml" 129 5137 5166 "obc/control.ml" 129 5137 5176
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_first "obc/control.ml" 130 5186 5192 "obc/control.ml" 130 5186 5202
+)
+"obc/control.ml" 129 5137 5178 "obc/control.ml" 129 5137 5180
+type(
+  Obc.act
+)
+ident(
+  int_ref s2 "obc/control.ml" 129 5137 5155 "obc/control.ml" 129 5137 5157
+)
+"obc/control.ml" 129 5137 5182 "obc/control.ml" 129 5137 5183
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 120 4752 4768 "obc/control.ml" 120 4752 4769
+)
+"obc/control.ml" 129 5137 5177 "obc/control.ml" 129 5137 5184
+type(
+  Obc.act list
+)
+"obc/control.ml" 129 5137 5165 "obc/control.ml" 129 5137 5185
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 129 5137 5161 "obc/control.ml" 129 5137 5185
+type(
+  Obc.act list
+)
+"obc/control.ml" 121 4773 4783 "obc/control.ml" 129 5137 5185
+type(
+  Obc.act list
+)
+"obc/control.ml" 117 4697 4701 "obc/control.ml" 129 5137 5185
+type(
+  Obc.act list
+)
+"obc/control.ml" 130 5186 5192 "obc/control.ml" 130 5186 5202
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  def join_first "obc/control.ml" 116 4673 4675 "obc/control.ml" 140 5449 5465
+)
+"obc/control.ml" 130 5186 5203 "obc/control.ml" 130 5186 5204
+type(
+  Obc.act list
+)
+ident(
+  def l "obc/control.ml" 131 5207 5211 "obc/control.ml" 138 5419 5443
+)
+"obc/control.ml" 131 5207 5217 "obc/control.ml" 131 5207 5218
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 130 5186 5203 "obc/control.ml" 130 5186 5204
+)
+"obc/control.ml" 132 5224 5232 "obc/control.ml" 132 5224 5234
+type(
+  Obc.act list
+)
+"obc/control.ml" 132 5224 5238 "obc/control.ml" 132 5224 5240
+type(
+  Obc.act list
+)
+"obc/control.ml" 133 5241 5256 "obc/control.ml" 133 5241 5258
+type(
+  Obc.exp
+)
+ident(
+  def e1 "obc/control.ml" 134 5271 5281 "obc/control.ml" 137 5376 5418
+)
+"obc/control.ml" 133 5241 5260 "obc/control.ml" 133 5241 5262
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h1 "obc/control.ml" 134 5271 5281 "obc/control.ml" 137 5376 5418
+)
+"obc/control.ml" 133 5241 5249 "obc/control.ml" 133 5241 5264
+type(
+  Obc.act
+)
+"obc/control.ml" 133 5241 5266 "obc/control.ml" 133 5241 5267
+type(
+  Obc.act list
+)
+ident(
+  def l "obc/control.ml" 134 5271 5281 "obc/control.ml" 137 5376 5418
+)
+"obc/control.ml" 133 5241 5249 "obc/control.ml" 133 5241 5267
+type(
+  Obc.act list
+)
+"obc/control.ml" 134 5271 5284 "obc/control.ml" 134 5271 5304
+type(
+  Obc.obj_dec list ->
+  Obc.exp -> (Names.constructor_name * Obc.block) list -> bool
+)
+ident(
+  int_ref is_modified_handlers "obc/control.ml" 92 3920 3924 "obc/control.ml" 92 3920 3944
+)
+"obc/control.ml" 134 5271 5305 "obc/control.ml" 134 5271 5306
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 115 4650 4667 "obc/control.ml" 115 4650 4668
+)
+"obc/control.ml" 134 5271 5307 "obc/control.ml" 134 5271 5309
+type(
+  Obc.exp
+)
+ident(
+  int_ref e1 "obc/control.ml" 133 5241 5256 "obc/control.ml" 133 5241 5258
+)
+"obc/control.ml" 134 5271 5310 "obc/control.ml" 134 5271 5312
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 133 5241 5260 "obc/control.ml" 133 5241 5262
+)
+"obc/control.ml" 134 5271 5284 "obc/control.ml" 134 5271 5312
+call(
+  stack
+)
+type(
+  bool
+)
+"obc/control.ml" 135 5318 5337 "obc/control.ml" 135 5318 5339
+type(
+  Obc.exp
+)
+ident(
+  int_ref e1 "obc/control.ml" 133 5241 5256 "obc/control.ml" 133 5241 5258
+)
+"obc/control.ml" 135 5318 5341 "obc/control.ml" 135 5318 5343
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 133 5241 5260 "obc/control.ml" 133 5241 5262
+)
+"obc/control.ml" 135 5318 5330 "obc/control.ml" 135 5318 5345
+type(
+  Obc.act
+)
+"obc/control.ml" 135 5318 5348 "obc/control.ml" 135 5318 5357
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_next "obc/control.ml" 116 4673 4683 "obc/control.ml" 116 4673 4692
+)
+"obc/control.ml" 135 5318 5358 "obc/control.ml" 135 5318 5359
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 133 5241 5266 "obc/control.ml" 133 5241 5267
+)
+"obc/control.ml" 135 5318 5347 "obc/control.ml" 135 5318 5360
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 135 5318 5330 "obc/control.ml" 135 5318 5360
+type(
+  Obc.act list
+)
+"obc/control.ml" 137 5376 5388 "obc/control.ml" 137 5376 5397
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_next "obc/control.ml" 116 4673 4683 "obc/control.ml" 116 4673 4692
+)
+"obc/control.ml" 137 5376 5406 "obc/control.ml" 137 5376 5408
+type(
+  Obc.exp
+)
+ident(
+  int_ref e1 "obc/control.ml" 133 5241 5256 "obc/control.ml" 133 5241 5258
+)
+"obc/control.ml" 137 5376 5410 "obc/control.ml" 137 5376 5412
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 133 5241 5260 "obc/control.ml" 133 5241 5262
+)
+"obc/control.ml" 137 5376 5399 "obc/control.ml" 137 5376 5414
+type(
+  Obc.act
+)
+"obc/control.ml" 137 5376 5416 "obc/control.ml" 137 5376 5417
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 133 5241 5266 "obc/control.ml" 133 5241 5267
+)
+"obc/control.ml" 137 5376 5398 "obc/control.ml" 137 5376 5418
+type(
+  Obc.act list
+)
+"obc/control.ml" 137 5376 5388 "obc/control.ml" 137 5376 5418
+call(
+  tail
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 134 5271 5281 "obc/control.ml" 137 5376 5418
+type(
+  Obc.act list
+)
+"obc/control.ml" 138 5419 5427 "obc/control.ml" 138 5419 5428
+type(
+  Obc.act list
+)
+"obc/control.ml" 138 5419 5432 "obc/control.ml" 138 5419 5441
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_next "obc/control.ml" 116 4673 4683 "obc/control.ml" 116 4673 4692
+)
+"obc/control.ml" 138 5419 5442 "obc/control.ml" 138 5419 5443
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 130 5186 5203 "obc/control.ml" 130 5186 5204
+)
+"obc/control.ml" 138 5419 5432 "obc/control.ml" 138 5419 5443
+call(
+  tail
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 131 5207 5211 "obc/control.ml" 138 5419 5443
+type(
+  Obc.act list
+)
+"obc/control.ml" 140 5449 5453 "obc/control.ml" 140 5449 5463
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  int_ref join_first "obc/control.ml" 130 5186 5192 "obc/control.ml" 130 5186 5202
+)
+"obc/control.ml" 140 5449 5464 "obc/control.ml" 140 5449 5465
+type(
+  Obc.act list
+)
+ident(
+  int_ref l "obc/control.ml" 115 4650 4669 "obc/control.ml" 115 4650 4670
+)
+"obc/control.ml" 140 5449 5453 "obc/control.ml" 140 5449 5465
+call(
+  tail
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 116 4673 4675 "obc/control.ml" 140 5449 5465
+type(
+  Obc.act list
+)
+"obc/control.ml" 143 5468 5472 "obc/control.ml" 143 5468 5482
+type(
+  Obc.obj_dec list -> Obc.block -> Obc.block
+)
+ident(
+  def join_block "obc/control.ml" 115 4650 4650 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 143 5468 5483 "obc/control.ml" 143 5468 5484
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 143 5468 5485 "obc/control.ml" 144 5489 5530
+)
+"obc/control.ml" 143 5468 5485 "obc/control.ml" 143 5468 5486
+type(
+  Obc.block
+)
+ident(
+  def b "obc/control.ml" 144 5489 5491 "obc/control.ml" 144 5489 5530
+)
+"obc/control.ml" 144 5489 5493 "obc/control.ml" 144 5489 5494
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 143 5468 5485 "obc/control.ml" 143 5468 5486
+)
+"obc/control.ml" 144 5489 5509 "obc/control.ml" 144 5489 5517
+type(
+  Obc.obj_dec list -> Obc.act list -> Obc.act list
+)
+ident(
+  int_ref joinlist "obc/control.ml" 115 4650 4658 "obc/control.ml" 115 4650 4666
+)
+"obc/control.ml" 144 5489 5518 "obc/control.ml" 144 5489 5519
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 143 5468 5483 "obc/control.ml" 143 5468 5484
+)
+"obc/control.ml" 144 5489 5520 "obc/control.ml" 144 5489 5521
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 143 5468 5485 "obc/control.ml" 143 5468 5486
+)
+"obc/control.ml" 144 5489 5520 "obc/control.ml" 144 5489 5528
+type(
+  Obc.act list
+)
+"obc/control.ml" 144 5489 5509 "obc/control.ml" 144 5489 5528
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 144 5489 5491 "obc/control.ml" 144 5489 5530
+type(
+  Obc.block
+)
+"obc/control.ml" 146 5532 5536 "obc/control.ml" 146 5532 5548
+type(
+  Obc.obj_dec list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def joinhandlers "obc/control.ml" 115 4650 4650 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 146 5532 5549 "obc/control.ml" 146 5532 5550
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 146 5532 5551 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 146 5532 5551 "obc/control.ml" 146 5532 5553
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h1 "obc/control.ml" 146 5532 5554 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 146 5532 5554 "obc/control.ml" 146 5532 5556
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h2 "obc/control.ml" 147 5559 5561 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 147 5559 5567 "obc/control.ml" 147 5559 5569
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1 "obc/control.ml" 146 5532 5551 "obc/control.ml" 146 5532 5553
+)
+"obc/control.ml" 148 5575 5581 "obc/control.ml" 148 5575 5583
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 148 5575 5587 "obc/control.ml" 148 5575 5589
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2 "obc/control.ml" 146 5532 5554 "obc/control.ml" 146 5532 5556
+)
+"obc/control.ml" 149 5590 5597 "obc/control.ml" 149 5590 5599
+type(
+  Names.constructor_name
+)
+ident(
+  def c1 "obc/control.ml" 150 5615 5623 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 149 5590 5601 "obc/control.ml" 149 5590 5603
+type(
+  Obc.block
+)
+ident(
+  def s1 "obc/control.ml" 150 5615 5623 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 149 5590 5596 "obc/control.ml" 149 5590 5604
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/control.ml" 149 5590 5608 "obc/control.ml" 149 5590 5611
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h1' "obc/control.ml" 150 5615 5623 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 149 5590 5596 "obc/control.ml" 149 5590 5611
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 150 5615 5627 "obc/control.ml" 150 5615 5630
+type(
+  Obc.block
+)
+ident(
+  def s1' "obc/control.ml" 153 5743 5751 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 150 5615 5632 "obc/control.ml" 150 5615 5635
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h2' "obc/control.ml" 153 5743 5751 "obc/control.ml" 153 5743 5799
+)
+"obc/control.ml" 150 5615 5627 "obc/control.ml" 150 5615 5635
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 151 5638 5656 "obc/control.ml" 151 5638 5658
+type(
+  Obc.block
+)
+ident(
+  def s2 "obc/control.ml" 151 5638 5681 "obc/control.ml" 151 5638 5704
+)
+"obc/control.ml" 151 5638 5660 "obc/control.ml" 151 5638 5664
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def h2'' "obc/control.ml" 151 5638 5681 "obc/control.ml" 151 5638 5704
+)
+"obc/control.ml" 151 5638 5656 "obc/control.ml" 151 5638 5664
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 151 5638 5667 "obc/control.ml" 151 5638 5671
+type(
+  Names.constructor_name ->
+  (Names.constructor_name * Obc.block) list ->
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref find "obc/control.ml" 100 4161 4169 "obc/control.ml" 100 4161 4173
+)
+"obc/control.ml" 151 5638 5672 "obc/control.ml" 151 5638 5674
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c1 "obc/control.ml" 149 5590 5597 "obc/control.ml" 149 5590 5599
+)
+"obc/control.ml" 151 5638 5675 "obc/control.ml" 151 5638 5677
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2 "obc/control.ml" 146 5532 5554 "obc/control.ml" 146 5532 5556
+)
+"obc/control.ml" 151 5638 5667 "obc/control.ml" 151 5638 5677
+call(
+  stack
+)
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 151 5638 5681 "obc/control.ml" 151 5638 5692
+type(
+  Obc.block -> Obc.block -> Obc.block
+)
+ident(
+  int_ref fuse_blocks "obc/control.ml" 96 4055 4059 "obc/control.ml" 96 4055 4070
+)
+"obc/control.ml" 151 5638 5693 "obc/control.ml" 151 5638 5695
+type(
+  Obc.block
+)
+ident(
+  int_ref s1 "obc/control.ml" 149 5590 5601 "obc/control.ml" 149 5590 5603
+)
+"obc/control.ml" 151 5638 5696 "obc/control.ml" 151 5638 5698
+type(
+  Obc.block
+)
+ident(
+  int_ref s2 "obc/control.ml" 151 5638 5656 "obc/control.ml" 151 5638 5658
+)
+"obc/control.ml" 151 5638 5681 "obc/control.ml" 151 5638 5698
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/control.ml" 151 5638 5700 "obc/control.ml" 151 5638 5704
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2'' "obc/control.ml" 151 5638 5660 "obc/control.ml" 151 5638 5664
+)
+"obc/control.ml" 151 5638 5681 "obc/control.ml" 151 5638 5704
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 151 5638 5652 "obc/control.ml" 151 5638 5704
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 152 5705 5720 "obc/control.ml" 152 5705 5729
+type(
+  exn
+)
+"obc/control.ml" 152 5705 5733 "obc/control.ml" 152 5705 5735
+type(
+  Obc.block
+)
+ident(
+  int_ref s1 "obc/control.ml" 149 5590 5601 "obc/control.ml" 149 5590 5603
+)
+"obc/control.ml" 152 5705 5737 "obc/control.ml" 152 5705 5739
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2 "obc/control.ml" 146 5532 5554 "obc/control.ml" 146 5532 5556
+)
+"obc/control.ml" 152 5705 5733 "obc/control.ml" 152 5705 5739
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 151 5638 5648 "obc/control.ml" 152 5705 5739
+type(
+  Obc.block * (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 153 5743 5752 "obc/control.ml" 153 5743 5754
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c1 "obc/control.ml" 149 5590 5597 "obc/control.ml" 149 5590 5599
+)
+"obc/control.ml" 153 5743 5756 "obc/control.ml" 153 5743 5766
+type(
+  Obc.obj_dec list -> Obc.block -> Obc.block
+)
+ident(
+  int_ref join_block "obc/control.ml" 143 5468 5472 "obc/control.ml" 143 5468 5482
+)
+"obc/control.ml" 153 5743 5767 "obc/control.ml" 153 5743 5768
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 146 5532 5549 "obc/control.ml" 146 5532 5550
+)
+"obc/control.ml" 153 5743 5769 "obc/control.ml" 153 5743 5772
+type(
+  Obc.block
+)
+ident(
+  int_ref s1' "obc/control.ml" 150 5615 5627 "obc/control.ml" 150 5615 5630
+)
+"obc/control.ml" 153 5743 5756 "obc/control.ml" 153 5743 5772
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/control.ml" 153 5743 5751 "obc/control.ml" 153 5743 5773
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/control.ml" 153 5743 5777 "obc/control.ml" 153 5743 5789
+type(
+  Obc.obj_dec list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref joinhandlers "obc/control.ml" 146 5532 5536 "obc/control.ml" 146 5532 5548
+)
+"obc/control.ml" 153 5743 5790 "obc/control.ml" 153 5743 5791
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 146 5532 5549 "obc/control.ml" 146 5532 5550
+)
+"obc/control.ml" 153 5743 5792 "obc/control.ml" 153 5743 5795
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h1' "obc/control.ml" 149 5590 5608 "obc/control.ml" 149 5590 5611
+)
+"obc/control.ml" 153 5743 5796 "obc/control.ml" 153 5743 5799
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref h2' "obc/control.ml" 150 5615 5632 "obc/control.ml" 150 5615 5635
+)
+"obc/control.ml" 153 5743 5777 "obc/control.ml" 153 5743 5799
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 153 5743 5751 "obc/control.ml" 153 5743 5799
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 150 5615 5623 "obc/control.ml" 153 5743 5799
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 147 5559 5561 "obc/control.ml" 153 5743 5799
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/control.ml" 155 5801 5805 "obc/control.ml" 155 5801 5810
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.block -> Obc.block * Obc.obj_dec list
+)
+ident(
+  def block "obc/control.ml" 159 5911 5911 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 155 5801 5811 "obc/control.ml" 155 5801 5815
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/control.ml" 155 5801 5816 "obc/control.ml" 157 5865 5909
+)
+"obc/control.ml" 155 5801 5816 "obc/control.ml" 155 5801 5817
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/control.ml" 155 5801 5818 "obc/control.ml" 157 5865 5909
+)
+"obc/control.ml" 155 5801 5818 "obc/control.ml" 155 5801 5819
+type(
+  Obc.block
+)
+ident(
+  def b "obc/control.ml" 156 5822 5824 "obc/control.ml" 157 5865 5909
+)
+"obc/control.ml" 156 5822 5828 "obc/control.ml" 156 5822 5829
+type(
+  Obc.block
+)
+ident(
+  def b "obc/control.ml" 157 5865 5867 "obc/control.ml" 157 5865 5909
+)
+"obc/control.ml" 156 5822 5831 "obc/control.ml" 156 5822 5832
+type(
+  Obc.obj_dec list
+)
+"obc/control.ml" 156 5822 5828 "obc/control.ml" 156 5822 5832
+type(
+  Obc.block * Obc.obj_dec list
+)
+"obc/control.ml" 156 5822 5835 "obc/control.ml" 156 5822 5852
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.block -> Obc.block * Obc.obj_dec list
+)
+ident(
+  ext_ref Obc_mapfold.block
+)
+"obc/control.ml" 156 5822 5853 "obc/control.ml" 156 5822 5857
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 155 5801 5811 "obc/control.ml" 155 5801 5815
+)
+"obc/control.ml" 156 5822 5858 "obc/control.ml" 156 5822 5859
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 155 5801 5816 "obc/control.ml" 155 5801 5817
+)
+"obc/control.ml" 156 5822 5860 "obc/control.ml" 156 5822 5861
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 155 5801 5818 "obc/control.ml" 155 5801 5819
+)
+"obc/control.ml" 156 5822 5835 "obc/control.ml" 156 5822 5861
+call(
+  stack
+)
+type(
+  Obc.block * Obc.obj_dec list
+)
+"obc/control.ml" 157 5865 5869 "obc/control.ml" 157 5865 5870
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 156 5822 5828 "obc/control.ml" 156 5822 5829
+)
+"obc/control.ml" 157 5865 5885 "obc/control.ml" 157 5865 5893
+type(
+  Obc.obj_dec list -> Obc.act list -> Obc.act list
+)
+ident(
+  int_ref joinlist "obc/control.ml" 115 4650 4658 "obc/control.ml" 115 4650 4666
+)
+"obc/control.ml" 157 5865 5894 "obc/control.ml" 157 5865 5895
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 155 5801 5816 "obc/control.ml" 155 5801 5817
+)
+"obc/control.ml" 157 5865 5896 "obc/control.ml" 157 5865 5897
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/control.ml" 156 5822 5828 "obc/control.ml" 156 5822 5829
+)
+"obc/control.ml" 157 5865 5896 "obc/control.ml" 157 5865 5904
+type(
+  Obc.act list
+)
+"obc/control.ml" 157 5865 5885 "obc/control.ml" 157 5865 5904
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/control.ml" 157 5865 5867 "obc/control.ml" 157 5865 5906
+type(
+  Obc.block
+)
+"obc/control.ml" 157 5865 5908 "obc/control.ml" 157 5865 5909
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/control.ml" 155 5801 5816 "obc/control.ml" 155 5801 5817
+)
+"obc/control.ml" 157 5865 5867 "obc/control.ml" 157 5865 5909
+type(
+  Obc.block * Obc.obj_dec list
+)
+"obc/control.ml" 156 5822 5824 "obc/control.ml" 157 5865 5909
+type(
+  Obc.block * Obc.obj_dec list
+)
+"obc/control.ml" 159 5911 5915 "obc/control.ml" 159 5911 5924
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  'a -> Obc.class_def -> Obc.class_def * 'a
+)
+ident(
+  def class_def "obc/control.ml" 163 6010 6010 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 159 5911 5925 "obc/control.ml" 159 5911 5929
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/control.ml" 159 5911 5930 "obc/control.ml" 161 5997 6008
+)
+"obc/control.ml" 159 5911 5930 "obc/control.ml" 159 5911 5933
+type(
+  'a
+)
+ident(
+  def acc "obc/control.ml" 159 5911 5934 "obc/control.ml" 161 5997 6008
+)
+"obc/control.ml" 159 5911 5934 "obc/control.ml" 159 5911 5936
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/control.ml" 160 5939 5941 "obc/control.ml" 161 5997 6008
+)
+"obc/control.ml" 160 5939 5945 "obc/control.ml" 160 5939 5947
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/control.ml" 161 5997 6001 "obc/control.ml" 161 5997 6008
+)
+"obc/control.ml" 160 5939 5949 "obc/control.ml" 160 5939 5950
+type(
+  Obc.obj_dec list
+)
+"obc/control.ml" 160 5939 5945 "obc/control.ml" 160 5939 5950
+type(
+  Obc.class_def * Obc.obj_dec list
+)
+"obc/control.ml" 160 5939 5953 "obc/control.ml" 160 5939 5974
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.class_def -> Obc.class_def * Obc.obj_dec list
+)
+ident(
+  ext_ref Obc_mapfold.class_def
+)
+"obc/control.ml" 160 5939 5975 "obc/control.ml" 160 5939 5979
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/control.ml" 159 5911 5925 "obc/control.ml" 159 5911 5929
+)
+"obc/control.ml" 160 5939 5980 "obc/control.ml" 160 5939 5982
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/control.ml" 159 5911 5934 "obc/control.ml" 159 5911 5936
+)
+"obc/control.ml" 160 5939 5980 "obc/control.ml" 160 5939 5990
+type(
+  Obc.obj_dec list
+)
+"obc/control.ml" 160 5939 5991 "obc/control.ml" 160 5939 5993
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/control.ml" 159 5911 5934 "obc/control.ml" 159 5911 5936
+)
+"obc/control.ml" 160 5939 5953 "obc/control.ml" 160 5939 5993
+call(
+  stack
+)
+type(
+  Obc.class_def * Obc.obj_dec list
+)
+"obc/control.ml" 161 5997 6001 "obc/control.ml" 161 5997 6003
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/control.ml" 160 5939 5945 "obc/control.ml" 160 5939 5947
+)
+"obc/control.ml" 161 5997 6005 "obc/control.ml" 161 5997 6008
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/control.ml" 159 5911 5930 "obc/control.ml" 159 5911 5933
+)
+"obc/control.ml" 161 5997 6001 "obc/control.ml" 161 5997 6008
+type(
+  Obc.class_def * 'a
+)
+"obc/control.ml" 160 5939 5941 "obc/control.ml" 161 5997 6008
+type(
+  Obc.class_def * 'a
+)
+"obc/control.ml" 163 6010 6014 "obc/control.ml" 163 6010 6021
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/control.ml" 165 6113 6116 "obc/control.ml" 1 0 -1
+)
+"obc/control.ml" 163 6010 6022 "obc/control.ml" 163 6010 6023
+type(
+  Obc.program
+)
+ident(
+  def p "obc/control.ml" 164 6026 6028 "obc/control.ml" 165 6113 6116
+)
+"obc/control.ml" 164 6026 6032 "obc/control.ml" 164 6026 6033
+type(
+  Obc.program
+)
+ident(
+  def p "obc/control.ml" 165 6113 6115 "obc/control.ml" 165 6113 6116
+)
+"obc/control.ml" 164 6026 6035 "obc/control.ml" 164 6026 6036
+type(
+  Obc.obj_dec list
+)
+"obc/control.ml" 164 6026 6032 "obc/control.ml" 164 6026 6036
+type(
+  Obc.program * Obc.obj_dec list
+)
+"obc/control.ml" 164 6026 6039 "obc/control.ml" 164 6026 6049
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.program -> Obc.program * Obc.obj_dec list
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/control.ml" 164 6026 6052 "obc/control.ml" 164 6026 6060
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/control.ml" 164 6026 6078 "obc/control.ml" 164 6026 6087
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.class_def -> Obc.class_def * Obc.obj_dec list
+)
+ident(
+  int_ref class_def "obc/control.ml" 159 5911 5915 "obc/control.ml" 159 5911 5924
+)
+"obc/control.ml" 164 6026 6097 "obc/control.ml" 164 6026 6102
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs ->
+  Obc.obj_dec list -> Obc.block -> Obc.block * Obc.obj_dec list
+)
+ident(
+  int_ref block "obc/control.ml" 155 5801 5805 "obc/control.ml" 155 5801 5810
+)
+"obc/control.ml" 164 6026 6050 "obc/control.ml" 164 6026 6104
+type(
+  Obc.obj_dec list Obc_mapfold.obc_it_funs
+)
+"obc/control.ml" 164 6026 6105 "obc/control.ml" 164 6026 6107
+type(
+  Obc.obj_dec list
+)
+"obc/control.ml" 164 6026 6108 "obc/control.ml" 164 6026 6109
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/control.ml" 163 6010 6022 "obc/control.ml" 163 6010 6023
+)
+"obc/control.ml" 164 6026 6039 "obc/control.ml" 164 6026 6109
+call(
+  stack
+)
+type(
+  Obc.program * Obc.obj_dec list
+)
+"obc/control.ml" 165 6113 6115 "obc/control.ml" 165 6113 6116
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/control.ml" 164 6026 6032 "obc/control.ml" 164 6026 6033
+)
+"obc/control.ml" 164 6026 6028 "obc/control.ml" 165 6113 6116
+type(
+  Obc.program
+)

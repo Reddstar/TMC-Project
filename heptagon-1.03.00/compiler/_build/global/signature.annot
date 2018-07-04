@@ -1,0 +1,859 @@
+"global/signature.ml" 37 2266 2270 "global/signature.ml" 37 2266 2294
+type(
+  string
+)
+ident(
+  def interface_format_version "global/signature.ml" 39 2302 2302 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 37 2266 2297 "global/signature.ml" 37 2266 2300
+type(
+  string
+)
+"global/signature.ml" 82 3333 3341 "global/signature.ml" 82 3333 3350
+type(
+  Clocks.ck -> ck
+)
+ident(
+  def ck_to_sck "global/signature.ml" 82 3333 3333 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 82 3333 3351 "global/signature.ml" 82 3333 3353
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/signature.ml" 83 3356 3358 "global/signature.ml" 87 3504 3568
+)
+"global/signature.ml" 83 3356 3362 "global/signature.ml" 83 3356 3364
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/signature.ml" 84 3388 3390 "global/signature.ml" 87 3504 3568
+)
+"global/signature.ml" 83 3356 3367 "global/signature.ml" 83 3356 3381
+type(
+  Clocks.ck -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.ck_repr
+)
+"global/signature.ml" 83 3356 3382 "global/signature.ml" 83 3356 3384
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/signature.ml" 82 3333 3351 "global/signature.ml" 82 3333 3353
+)
+"global/signature.ml" 83 3356 3367 "global/signature.ml" 83 3356 3384
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"global/signature.ml" 84 3388 3396 "global/signature.ml" 84 3388 3398
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/signature.ml" 83 3356 3362 "global/signature.ml" 83 3356 3364
+)
+"global/signature.ml" 85 3404 3410 "global/signature.ml" 85 3404 3422
+type(
+  Clocks.ck
+)
+"global/signature.ml" 85 3404 3426 "global/signature.ml" 85 3404 3431
+type(
+  ck
+)
+"global/signature.ml" 86 3432 3450 "global/signature.ml" 86 3432 3452
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/signature.ml" 86 3432 3461 "global/signature.ml" 86 3432 3503
+)
+"global/signature.ml" 86 3432 3453 "global/signature.ml" 86 3432 3454
+type(
+  Names.constructor_name
+)
+ident(
+  def c "global/signature.ml" 86 3432 3461 "global/signature.ml" 86 3432 3503
+)
+"global/signature.ml" 86 3432 3455 "global/signature.ml" 86 3432 3456
+type(
+  Idents.var_ident
+)
+ident(
+  def x "global/signature.ml" 86 3432 3461 "global/signature.ml" 86 3432 3503
+)
+"global/signature.ml" 86 3432 3438 "global/signature.ml" 86 3432 3457
+type(
+  Clocks.ck
+)
+"global/signature.ml" 86 3432 3465 "global/signature.ml" 86 3432 3474
+type(
+  Clocks.ck -> ck
+)
+ident(
+  int_ref ck_to_sck "global/signature.ml" 82 3333 3341 "global/signature.ml" 82 3333 3350
+)
+"global/signature.ml" 86 3432 3475 "global/signature.ml" 86 3432 3477
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/signature.ml" 86 3432 3450 "global/signature.ml" 86 3432 3452
+)
+"global/signature.ml" 86 3432 3465 "global/signature.ml" 86 3432 3477
+call(
+  stack
+)
+type(
+  ck
+)
+"global/signature.ml" 86 3432 3479 "global/signature.ml" 86 3432 3480
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "global/signature.ml" 86 3432 3453 "global/signature.ml" 86 3432 3454
+)
+"global/signature.ml" 86 3432 3482 "global/signature.ml" 86 3432 3500
+type(
+  Idents.var_ident -> Names.name
+)
+ident(
+  ext_ref Idents.source_name
+)
+"global/signature.ml" 86 3432 3501 "global/signature.ml" 86 3432 3502
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "global/signature.ml" 86 3432 3455 "global/signature.ml" 86 3432 3456
+)
+"global/signature.ml" 86 3432 3482 "global/signature.ml" 86 3432 3502
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/signature.ml" 86 3432 3461 "global/signature.ml" 86 3432 3503
+type(
+  ck
+)
+"global/signature.ml" 87 3504 3510 "global/signature.ml" 87 3504 3511
+type(
+  Clocks.ck
+)
+"global/signature.ml" 87 3504 3515 "global/signature.ml" 87 3504 3534
+type(
+  string -> ck
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"global/signature.ml" 87 3504 3535 "global/signature.ml" 87 3504 3568
+type(
+  string
+)
+"global/signature.ml" 87 3504 3515 "global/signature.ml" 87 3504 3568
+call(
+  tail
+)
+type(
+  ck
+)
+"global/signature.ml" 84 3388 3390 "global/signature.ml" 87 3504 3568
+type(
+  ck
+)
+"global/signature.ml" 83 3356 3358 "global/signature.ml" 87 3504 3568
+type(
+  ck
+)
+"global/signature.ml" 90 3571 3575 "global/signature.ml" 90 3571 3592
+type(
+  arg list -> Names.name option list
+)
+ident(
+  def names_of_arg_list "global/signature.ml" 92 3631 3631 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 90 3571 3593 "global/signature.ml" 90 3571 3594
+type(
+  arg list
+)
+ident(
+  def l "global/signature.ml" 90 3571 3597 "global/signature.ml" 90 3571 3629
+)
+"global/signature.ml" 90 3571 3597 "global/signature.ml" 90 3571 3605
+type(
+  (arg -> Names.name option) -> arg list -> Names.name option list
+)
+ident(
+  ext_ref List.map
+)
+"global/signature.ml" 90 3571 3611 "global/signature.ml" 90 3571 3613
+type(
+  arg
+)
+ident(
+  def ad "global/signature.ml" 90 3571 3617 "global/signature.ml" 90 3571 3626
+)
+"global/signature.ml" 90 3571 3617 "global/signature.ml" 90 3571 3619
+type(
+  arg
+)
+ident(
+  int_ref ad "global/signature.ml" 90 3571 3611 "global/signature.ml" 90 3571 3613
+)
+"global/signature.ml" 90 3571 3617 "global/signature.ml" 90 3571 3626
+type(
+  Names.name option
+)
+"global/signature.ml" 90 3571 3606 "global/signature.ml" 90 3571 3627
+type(
+  arg -> Names.name option
+)
+"global/signature.ml" 90 3571 3628 "global/signature.ml" 90 3571 3629
+type(
+  arg list
+)
+ident(
+  int_ref l "global/signature.ml" 90 3571 3593 "global/signature.ml" 90 3571 3594
+)
+"global/signature.ml" 90 3571 3597 "global/signature.ml" 90 3571 3629
+call(
+  tail
+)
+type(
+  Names.name option list
+)
+"global/signature.ml" 92 3631 3635 "global/signature.ml" 92 3631 3652
+type(
+  arg list -> Types.ty list
+)
+ident(
+  def types_of_arg_list "global/signature.ml" 94 3691 3691 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 92 3631 3653 "global/signature.ml" 92 3631 3654
+type(
+  arg list
+)
+ident(
+  def l "global/signature.ml" 92 3631 3657 "global/signature.ml" 92 3631 3689
+)
+"global/signature.ml" 92 3631 3657 "global/signature.ml" 92 3631 3665
+type(
+  (arg -> Types.ty) -> arg list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"global/signature.ml" 92 3631 3671 "global/signature.ml" 92 3631 3673
+type(
+  arg
+)
+ident(
+  def ad "global/signature.ml" 92 3631 3677 "global/signature.ml" 92 3631 3686
+)
+"global/signature.ml" 92 3631 3677 "global/signature.ml" 92 3631 3679
+type(
+  arg
+)
+ident(
+  int_ref ad "global/signature.ml" 92 3631 3671 "global/signature.ml" 92 3631 3673
+)
+"global/signature.ml" 92 3631 3677 "global/signature.ml" 92 3631 3686
+type(
+  Types.ty
+)
+"global/signature.ml" 92 3631 3666 "global/signature.ml" 92 3631 3687
+type(
+  arg -> Types.ty
+)
+"global/signature.ml" 92 3631 3688 "global/signature.ml" 92 3631 3689
+type(
+  arg list
+)
+ident(
+  int_ref l "global/signature.ml" 92 3631 3653 "global/signature.ml" 92 3631 3654
+)
+"global/signature.ml" 92 3631 3657 "global/signature.ml" 92 3631 3689
+call(
+  tail
+)
+type(
+  Types.ty list
+)
+"global/signature.ml" 94 3691 3695 "global/signature.ml" 94 3691 3714
+type(
+  param list -> Types.ty list
+)
+ident(
+  def types_of_param_list "global/signature.ml" 96 3751 3751 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 94 3691 3715 "global/signature.ml" 94 3691 3716
+type(
+  param list
+)
+ident(
+  def l "global/signature.ml" 94 3691 3719 "global/signature.ml" 94 3691 3749
+)
+"global/signature.ml" 94 3691 3719 "global/signature.ml" 94 3691 3727
+type(
+  (param -> Types.ty) -> param list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"global/signature.ml" 94 3691 3733 "global/signature.ml" 94 3691 3734
+type(
+  param
+)
+ident(
+  def p "global/signature.ml" 94 3691 3738 "global/signature.ml" 94 3691 3746
+)
+"global/signature.ml" 94 3691 3738 "global/signature.ml" 94 3691 3739
+type(
+  param
+)
+ident(
+  int_ref p "global/signature.ml" 94 3691 3733 "global/signature.ml" 94 3691 3734
+)
+"global/signature.ml" 94 3691 3738 "global/signature.ml" 94 3691 3746
+type(
+  Types.ty
+)
+"global/signature.ml" 94 3691 3728 "global/signature.ml" 94 3691 3747
+type(
+  param -> Types.ty
+)
+"global/signature.ml" 94 3691 3748 "global/signature.ml" 94 3691 3749
+type(
+  param list
+)
+ident(
+  int_ref l "global/signature.ml" 94 3691 3715 "global/signature.ml" 94 3691 3716
+)
+"global/signature.ml" 94 3691 3719 "global/signature.ml" 94 3691 3749
+call(
+  tail
+)
+type(
+  Types.ty list
+)
+"global/signature.ml" 96 3751 3755 "global/signature.ml" 96 3751 3778
+type(
+  arg list -> Linearity.linearity list
+)
+ident(
+  def linearities_of_arg_list "global/signature.ml" 98 3822 3822 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 96 3751 3779 "global/signature.ml" 96 3751 3780
+type(
+  arg list
+)
+ident(
+  def l "global/signature.ml" 96 3751 3783 "global/signature.ml" 96 3751 3820
+)
+"global/signature.ml" 96 3751 3783 "global/signature.ml" 96 3751 3791
+type(
+  (arg -> Linearity.linearity) -> arg list -> Linearity.linearity list
+)
+ident(
+  ext_ref List.map
+)
+"global/signature.ml" 96 3751 3797 "global/signature.ml" 96 3751 3799
+type(
+  arg
+)
+ident(
+  def ad "global/signature.ml" 96 3751 3803 "global/signature.ml" 96 3751 3817
+)
+"global/signature.ml" 96 3751 3803 "global/signature.ml" 96 3751 3805
+type(
+  arg
+)
+ident(
+  int_ref ad "global/signature.ml" 96 3751 3797 "global/signature.ml" 96 3751 3799
+)
+"global/signature.ml" 96 3751 3803 "global/signature.ml" 96 3751 3817
+type(
+  Linearity.linearity
+)
+"global/signature.ml" 96 3751 3792 "global/signature.ml" 96 3751 3818
+type(
+  arg -> Linearity.linearity
+)
+"global/signature.ml" 96 3751 3819 "global/signature.ml" 96 3751 3820
+type(
+  arg list
+)
+ident(
+  int_ref l "global/signature.ml" 96 3751 3779 "global/signature.ml" 96 3751 3780
+)
+"global/signature.ml" 96 3751 3783 "global/signature.ml" 96 3751 3820
+call(
+  tail
+)
+type(
+  Linearity.linearity list
+)
+"global/signature.ml" 98 3822 3826 "global/signature.ml" 98 3822 3832
+type(
+  Names.name option -> Types.ty -> Linearity.linearity -> ck -> arg
+)
+ident(
+  def mk_arg "global/signature.ml" 101 3929 3929 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 98 3822 3833 "global/signature.ml" 98 3822 3837
+type(
+  Names.name option
+)
+ident(
+  def name "global/signature.ml" 98 3822 3838 "global/signature.ml" 99 3856 3927
+)
+"global/signature.ml" 98 3822 3838 "global/signature.ml" 98 3822 3840
+type(
+  Types.ty
+)
+ident(
+  def ty "global/signature.ml" 98 3822 3841 "global/signature.ml" 99 3856 3927
+)
+"global/signature.ml" 98 3822 3841 "global/signature.ml" 98 3822 3850
+type(
+  Linearity.linearity
+)
+ident(
+  def linearity "global/signature.ml" 98 3822 3851 "global/signature.ml" 99 3856 3927
+)
+"global/signature.ml" 98 3822 3851 "global/signature.ml" 98 3822 3853
+type(
+  ck
+)
+ident(
+  def ck "global/signature.ml" 99 3856 3858 "global/signature.ml" 99 3856 3927
+)
+"global/signature.ml" 99 3856 3869 "global/signature.ml" 99 3856 3871
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/signature.ml" 98 3822 3838 "global/signature.ml" 98 3822 3840
+)
+"global/signature.ml" 99 3856 3887 "global/signature.ml" 99 3856 3896
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref linearity "global/signature.ml" 98 3822 3841 "global/signature.ml" 98 3822 3850
+)
+"global/signature.ml" 99 3856 3907 "global/signature.ml" 99 3856 3911
+type(
+  Names.name option
+)
+ident(
+  int_ref name "global/signature.ml" 98 3822 3833 "global/signature.ml" 98 3822 3837
+)
+"global/signature.ml" 99 3856 3923 "global/signature.ml" 99 3856 3925
+type(
+  ck
+)
+ident(
+  int_ref ck "global/signature.ml" 98 3822 3851 "global/signature.ml" 98 3822 3853
+)
+"global/signature.ml" 99 3856 3858 "global/signature.ml" 99 3856 3927
+type(
+  arg
+)
+"global/signature.ml" 101 3929 3933 "global/signature.ml" 101 3929 3941
+type(
+  Names.name -> Types.ty -> param
+)
+ident(
+  def mk_param "global/signature.ml" 103 3984 3984 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 101 3929 3942 "global/signature.ml" 101 3929 3946
+type(
+  Names.name
+)
+ident(
+  def name "global/signature.ml" 101 3929 3947 "global/signature.ml" 101 3929 3982
+)
+"global/signature.ml" 101 3929 3947 "global/signature.ml" 101 3929 3949
+type(
+  Types.ty
+)
+ident(
+  def ty "global/signature.ml" 101 3929 3952 "global/signature.ml" 101 3929 3982
+)
+"global/signature.ml" 101 3929 3963 "global/signature.ml" 101 3929 3967
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/signature.ml" 101 3929 3942 "global/signature.ml" 101 3929 3946
+)
+"global/signature.ml" 101 3929 3978 "global/signature.ml" 101 3929 3980
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/signature.ml" 101 3929 3947 "global/signature.ml" 101 3929 3949
+)
+"global/signature.ml" 101 3929 3952 "global/signature.ml" 101 3929 3982
+type(
+  param
+)
+"global/signature.ml" 103 3984 3988 "global/signature.ml" 103 3984 3996
+type(
+  Names.field_name -> Types.ty -> field
+)
+ident(
+  def mk_field "global/signature.ml" 105 4033 4033 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 103 3984 3997 "global/signature.ml" 103 3984 3998
+type(
+  Names.field_name
+)
+ident(
+  def n "global/signature.ml" 103 3984 3999 "global/signature.ml" 103 3984 4031
+)
+"global/signature.ml" 103 3984 3999 "global/signature.ml" 103 3984 4001
+type(
+  Types.ty
+)
+ident(
+  def ty "global/signature.ml" 103 3984 4004 "global/signature.ml" 103 3984 4031
+)
+"global/signature.ml" 103 3984 4015 "global/signature.ml" 103 3984 4016
+type(
+  Names.field_name
+)
+ident(
+  int_ref n "global/signature.ml" 103 3984 3997 "global/signature.ml" 103 3984 3998
+)
+"global/signature.ml" 103 3984 4027 "global/signature.ml" 103 3984 4029
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/signature.ml" 103 3984 3999 "global/signature.ml" 103 3984 4001
+)
+"global/signature.ml" 103 3984 4004 "global/signature.ml" 103 3984 4031
+type(
+  field
+)
+"global/signature.ml" 105 4033 4037 "global/signature.ml" 105 4033 4049
+type(
+  Types.ty -> Types.static_exp -> const_def
+)
+ident(
+  def mk_const_def "global/signature.ml" 108 4097 4097 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 105 4033 4050 "global/signature.ml" 105 4033 4052
+type(
+  Types.ty
+)
+ident(
+  def ty "global/signature.ml" 105 4033 4053 "global/signature.ml" 106 4061 4095
+)
+"global/signature.ml" 105 4033 4053 "global/signature.ml" 105 4033 4058
+type(
+  Types.static_exp
+)
+ident(
+  def value "global/signature.ml" 106 4061 4063 "global/signature.ml" 106 4061 4095
+)
+"global/signature.ml" 106 4061 4074 "global/signature.ml" 106 4061 4076
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/signature.ml" 105 4033 4050 "global/signature.ml" 105 4033 4052
+)
+"global/signature.ml" 106 4061 4088 "global/signature.ml" 106 4061 4093
+type(
+  Types.static_exp
+)
+ident(
+  int_ref value "global/signature.ml" 105 4033 4053 "global/signature.ml" 105 4033 4058
+)
+"global/signature.ml" 106 4061 4063 "global/signature.ml" 106 4061 4095
+type(
+  const_def
+)
+"global/signature.ml" 108 4097 4101 "global/signature.ml" 108 4097 4108
+type(
+  ?constraints:constrnt list ->
+  Location.location ->
+  extern:bool -> arg list -> arg list -> bool -> bool -> param list -> node
+)
+ident(
+  def mk_node "global/signature.ml" 118 4397 4397 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 108 4097 4111 "global/signature.ml" 108 4097 4122
+type(
+  constrnt list
+)
+"global/signature.ml" 108 4097 4125 "global/signature.ml" 108 4097 4127
+type(
+  constrnt list
+)
+type(
+  constrnt list
+)
+ident(
+  int_ref *sth* "global/signature.ml" 108 4097 4125 "global/signature.ml" 108 4097 4127
+)
+type(
+  constrnt list option
+)
+type(
+  constrnt list option
+)
+type(
+  constrnt list
+)
+"global/signature.ml" 108 4097 4129 "global/signature.ml" 108 4097 4132
+type(
+  Location.location
+)
+ident(
+  def loc "global/signature.ml" 108 4097 4133 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4134 "global/signature.ml" 108 4097 4140
+type(
+  bool
+)
+ident(
+  def extern "global/signature.ml" 108 4097 4141 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4141 "global/signature.ml" 108 4097 4144
+type(
+  arg list
+)
+ident(
+  def ins "global/signature.ml" 108 4097 4145 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4145 "global/signature.ml" 108 4097 4149
+type(
+  arg list
+)
+ident(
+  def outs "global/signature.ml" 108 4097 4150 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4150 "global/signature.ml" 108 4097 4158
+type(
+  bool
+)
+ident(
+  def stateful "global/signature.ml" 108 4097 4159 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4159 "global/signature.ml" 108 4097 4165
+type(
+  bool
+)
+ident(
+  def unsafe "global/signature.ml" 108 4097 4166 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 108 4097 4166 "global/signature.ml" 108 4097 4172
+type(
+  param list
+)
+ident(
+  def params "global/signature.ml" 109 4175 4177 "global/signature.ml" 116 4376 4395
+)
+"global/signature.ml" 109 4175 4193 "global/signature.ml" 109 4175 4196
+type(
+  arg list
+)
+ident(
+  int_ref ins "global/signature.ml" 108 4097 4141 "global/signature.ml" 108 4097 4144
+)
+"global/signature.ml" 110 4198 4218 "global/signature.ml" 110 4198 4222
+type(
+  arg list
+)
+ident(
+  int_ref outs "global/signature.ml" 108 4097 4145 "global/signature.ml" 108 4097 4149
+)
+"global/signature.ml" 111 4224 4244 "global/signature.ml" 111 4224 4252
+type(
+  bool
+)
+ident(
+  int_ref stateful "global/signature.ml" 108 4097 4150 "global/signature.ml" 108 4097 4158
+)
+"global/signature.ml" 112 4254 4272 "global/signature.ml" 112 4254 4278
+type(
+  bool
+)
+ident(
+  int_ref unsafe "global/signature.ml" 108 4097 4159 "global/signature.ml" 108 4097 4165
+)
+"global/signature.ml" 113 4280 4298 "global/signature.ml" 113 4280 4304
+type(
+  param list
+)
+ident(
+  int_ref params "global/signature.ml" 108 4097 4166 "global/signature.ml" 108 4097 4172
+)
+"global/signature.ml" 114 4306 4335 "global/signature.ml" 114 4306 4346
+type(
+  constrnt list
+)
+ident(
+  int_ref constraints "global/signature.ml" 108 4097 4111 "global/signature.ml" 108 4097 4122
+)
+"global/signature.ml" 115 4348 4368 "global/signature.ml" 115 4348 4374
+type(
+  bool
+)
+ident(
+  int_ref extern "global/signature.ml" 108 4097 4134 "global/signature.ml" 108 4097 4140
+)
+"global/signature.ml" 116 4376 4391 "global/signature.ml" 116 4376 4394
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/signature.ml" 108 4097 4129 "global/signature.ml" 108 4097 4132
+)
+"global/signature.ml" 109 4175 4177 "global/signature.ml" 116 4376 4395
+type(
+  node
+)
+"global/signature.ml" 118 4397 4405 "global/signature.ml" 118 4397 4416
+type(
+  Names.field_name -> field list -> Types.ty
+)
+ident(
+  def field_assoc "global/signature.ml" 118 4397 4397 "global/signature.ml" 1 0 -1
+)
+"global/signature.ml" 118 4397 4417 "global/signature.ml" 118 4397 4418
+type(
+  Names.field_name
+)
+ident(
+  def f "global/signature.ml" 118 4397 4421 "global/signature.ml" 122 4517 4543
+)
+"global/signature.ml" 119 4430 4434 "global/signature.ml" 119 4430 4436
+type(
+  field list
+)
+"global/signature.ml" 119 4430 4440 "global/signature.ml" 119 4430 4445
+type(
+  exn -> Types.ty
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/signature.ml" 119 4430 4446 "global/signature.ml" 119 4430 4455
+type(
+  exn
+)
+"global/signature.ml" 119 4430 4440 "global/signature.ml" 119 4430 4455
+type(
+  Types.ty
+)
+"global/signature.ml" 120 4456 4471 "global/signature.ml" 120 4456 4472
+type(
+  Names.field_name
+)
+ident(
+  def n "global/signature.ml" 121 4494 4500 "global/signature.ml" 122 4517 4543
+)
+"global/signature.ml" 120 4456 4483 "global/signature.ml" 120 4456 4485
+type(
+  Types.ty
+)
+ident(
+  def ty "global/signature.ml" 121 4494 4500 "global/signature.ml" 122 4517 4543
+)
+"global/signature.ml" 120 4456 4460 "global/signature.ml" 120 4456 4487
+type(
+  field
+)
+"global/signature.ml" 120 4456 4489 "global/signature.ml" 120 4456 4490
+type(
+  field list
+)
+ident(
+  def l "global/signature.ml" 121 4494 4500 "global/signature.ml" 122 4517 4543
+)
+"global/signature.ml" 120 4456 4460 "global/signature.ml" 120 4456 4490
+type(
+  field list
+)
+"global/signature.ml" 121 4494 4503 "global/signature.ml" 121 4494 4504
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "global/signature.ml" 118 4397 4417 "global/signature.ml" 118 4397 4418
+)
+"global/signature.ml" 121 4494 4505 "global/signature.ml" 121 4494 4506
+type(
+  Names.field_name -> Names.field_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/signature.ml" 121 4494 4507 "global/signature.ml" 121 4494 4508
+type(
+  Names.field_name
+)
+ident(
+  int_ref n "global/signature.ml" 120 4456 4471 "global/signature.ml" 120 4456 4472
+)
+"global/signature.ml" 121 4494 4503 "global/signature.ml" 121 4494 4508
+type(
+  bool
+)
+"global/signature.ml" 121 4494 4514 "global/signature.ml" 121 4494 4516
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/signature.ml" 120 4456 4483 "global/signature.ml" 120 4456 4485
+)
+"global/signature.ml" 122 4517 4528 "global/signature.ml" 122 4517 4539
+type(
+  Names.field_name -> field list -> Types.ty
+)
+ident(
+  int_ref field_assoc "global/signature.ml" 118 4397 4405 "global/signature.ml" 118 4397 4416
+)
+"global/signature.ml" 122 4517 4540 "global/signature.ml" 122 4517 4541
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "global/signature.ml" 118 4397 4417 "global/signature.ml" 118 4397 4418
+)
+"global/signature.ml" 122 4517 4542 "global/signature.ml" 122 4517 4543
+type(
+  field list
+)
+ident(
+  int_ref l "global/signature.ml" 120 4456 4489 "global/signature.ml" 120 4456 4490
+)
+"global/signature.ml" 122 4517 4528 "global/signature.ml" 122 4517 4543
+call(
+  tail
+)
+type(
+  Types.ty
+)
+"global/signature.ml" 121 4494 4500 "global/signature.ml" 122 4517 4543
+type(
+  Types.ty
+)
+"global/signature.ml" 118 4397 4421 "global/signature.ml" 122 4517 4543
+type(
+  field list -> Types.ty
+)

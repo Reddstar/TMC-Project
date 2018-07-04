@@ -1,0 +1,553 @@
+"heptagon/transformations/present.ml" 35 2156 2160 "heptagon/transformations/present.ml" 35 2156 2186
+type(
+  Heptagon.present_handler list -> Heptagon.block -> Heptagon.eqdesc
+)
+ident(
+  def translate_present_handlers "heptagon/transformations/present.ml" 45 2628 2628 "heptagon/transformations/present.ml" 1 0 -1
+)
+"heptagon/transformations/present.ml" 35 2156 2187 "heptagon/transformations/present.ml" 35 2156 2195
+type(
+  Heptagon.present_handler list
+)
+ident(
+  def handlers "heptagon/transformations/present.ml" 35 2156 2196 "heptagon/transformations/present.ml" 43 2594 2626
+)
+"heptagon/transformations/present.ml" 35 2156 2196 "heptagon/transformations/present.ml" 35 2156 2200
+type(
+  Heptagon.block
+)
+ident(
+  def cont "heptagon/transformations/present.ml" 36 2203 2205 "heptagon/transformations/present.ml" 43 2594 2626
+)
+"heptagon/transformations/present.ml" 36 2203 2209 "heptagon/transformations/present.ml" 36 2203 2234
+type(
+  Heptagon.present_handler -> Heptagon.block -> Heptagon.block
+)
+ident(
+  def translate_present_handler "heptagon/transformations/present.ml" 42 2525 2527 "heptagon/transformations/present.ml" 43 2594 2626
+)
+"heptagon/transformations/present.ml" 36 2203 2246 "heptagon/transformations/present.ml" 36 2203 2247
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/present.ml" 36 2203 2263 "heptagon/transformations/present.ml" 41 2464 2521
+)
+"heptagon/transformations/present.ml" 36 2203 2259 "heptagon/transformations/present.ml" 36 2203 2260
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/present.ml" 36 2203 2263 "heptagon/transformations/present.ml" 41 2464 2521
+)
+"heptagon/transformations/present.ml" 36 2203 2235 "heptagon/transformations/present.ml" 36 2203 2262
+type(
+  Heptagon.present_handler
+)
+"heptagon/transformations/present.ml" 36 2203 2263 "heptagon/transformations/present.ml" 36 2203 2267
+type(
+  Heptagon.block
+)
+ident(
+  def cont "heptagon/transformations/present.ml" 37 2270 2274 "heptagon/transformations/present.ml" 41 2464 2521
+)
+"heptagon/transformations/present.ml" 37 2270 2278 "heptagon/transformations/present.ml" 37 2270 2286
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/transformations/present.ml" 38 2324 2330 "heptagon/transformations/present.ml" 41 2464 2521
+)
+"heptagon/transformations/present.ml" 37 2270 2289 "heptagon/transformations/present.ml" 37 2270 2290
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/present.ml" 36 2203 2259 "heptagon/transformations/present.ml" 36 2203 2260
+)
+"heptagon/transformations/present.ml" 37 2270 2289 "heptagon/transformations/present.ml" 37 2270 2301
+type(
+  bool
+)
+"heptagon/transformations/present.ml" 37 2270 2302 "heptagon/transformations/present.ml" 37 2270 2304
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/transformations/present.ml" 37 2270 2305 "heptagon/transformations/present.ml" 37 2270 2309
+type(
+  Heptagon.block
+)
+ident(
+  int_ref cont "heptagon/transformations/present.ml" 36 2203 2263 "heptagon/transformations/present.ml" 36 2203 2267
+)
+"heptagon/transformations/present.ml" 37 2270 2305 "heptagon/transformations/present.ml" 37 2270 2320
+type(
+  bool
+)
+"heptagon/transformations/present.ml" 37 2270 2289 "heptagon/transformations/present.ml" 37 2270 2320
+type(
+  bool
+)
+"heptagon/transformations/present.ml" 38 2324 2330 "heptagon/transformations/present.ml" 38 2324 2338
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/present.ml" 38 2324 2349 "heptagon/transformations/present.ml" 38 2324 2357
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/present.ml" 37 2270 2278 "heptagon/transformations/present.ml" 37 2270 2286
+)
+"heptagon/transformations/present.ml" 38 2324 2368 "heptagon/transformations/present.ml" 38 2324 2369
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/present.ml" 36 2203 2259 "heptagon/transformations/present.ml" 36 2203 2260
+)
+"heptagon/transformations/present.ml" 38 2324 2368 "heptagon/transformations/present.ml" 38 2324 2380
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/present.ml" 39 2381 2390 "heptagon/transformations/present.ml" 39 2381 2408
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_switch_equation
+)
+"heptagon/transformations/present.ml" 39 2381 2409 "heptagon/transformations/present.ml" 39 2381 2410
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/present.ml" 36 2203 2246 "heptagon/transformations/present.ml" 36 2203 2247
+)
+"heptagon/transformations/present.ml" 40 2411 2434 "heptagon/transformations/present.ml" 40 2411 2447
+type(
+  Names.constructor_name
+)
+ident(
+  ext_ref Initial.ptrue
+)
+"heptagon/transformations/present.ml" 40 2411 2459 "heptagon/transformations/present.ml" 40 2411 2460
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/present.ml" 36 2203 2259 "heptagon/transformations/present.ml" 36 2203 2260
+)
+"heptagon/transformations/present.ml" 40 2411 2423 "heptagon/transformations/present.ml" 40 2411 2462
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/present.ml" 41 2464 2487 "heptagon/transformations/present.ml" 41 2464 2501
+type(
+  Names.constructor_name
+)
+ident(
+  ext_ref Initial.pfalse
+)
+"heptagon/transformations/present.ml" 41 2464 2513 "heptagon/transformations/present.ml" 41 2464 2517
+type(
+  Heptagon.block
+)
+ident(
+  int_ref cont "heptagon/transformations/present.ml" 36 2203 2263 "heptagon/transformations/present.ml" 36 2203 2267
+)
+"heptagon/transformations/present.ml" 41 2464 2476 "heptagon/transformations/present.ml" 41 2464 2519
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/present.ml" 40 2411 2422 "heptagon/transformations/present.ml" 41 2464 2520
+type(
+  Heptagon.switch_handler list
+)
+"heptagon/transformations/present.ml" 39 2381 2390 "heptagon/transformations/present.ml" 41 2464 2520
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/present.ml" 39 2381 2389 "heptagon/transformations/present.ml" 41 2464 2521
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/present.ml" 38 2324 2330 "heptagon/transformations/present.ml" 41 2464 2521
+call(
+  tail
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/present.ml" 37 2270 2274 "heptagon/transformations/present.ml" 41 2464 2521
+type(
+  Heptagon.block
+)
+"heptagon/transformations/present.ml" 42 2525 2531 "heptagon/transformations/present.ml" 42 2525 2532
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/present.ml" 43 2594 2598 "heptagon/transformations/present.ml" 43 2594 2626
+)
+"heptagon/transformations/present.ml" 42 2525 2535 "heptagon/transformations/present.ml" 42 2525 2550
+type(
+  (Heptagon.present_handler -> Heptagon.block -> Heptagon.block) ->
+  Heptagon.present_handler list -> Heptagon.block -> Heptagon.block
+)
+ident(
+  ext_ref List.fold_right
+)
+"heptagon/transformations/present.ml" 42 2525 2551 "heptagon/transformations/present.ml" 42 2525 2576
+type(
+  Heptagon.present_handler -> Heptagon.block -> Heptagon.block
+)
+ident(
+  int_ref translate_present_handler "heptagon/transformations/present.ml" 36 2203 2209 "heptagon/transformations/present.ml" 36 2203 2234
+)
+"heptagon/transformations/present.ml" 42 2525 2577 "heptagon/transformations/present.ml" 42 2525 2585
+type(
+  Heptagon.present_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/present.ml" 35 2156 2187 "heptagon/transformations/present.ml" 35 2156 2195
+)
+"heptagon/transformations/present.ml" 42 2525 2586 "heptagon/transformations/present.ml" 42 2525 2590
+type(
+  Heptagon.block
+)
+ident(
+  int_ref cont "heptagon/transformations/present.ml" 35 2156 2196 "heptagon/transformations/present.ml" 35 2156 2200
+)
+"heptagon/transformations/present.ml" 42 2525 2535 "heptagon/transformations/present.ml" 42 2525 2590
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/present.ml" 43 2594 2599 "heptagon/transformations/present.ml" 43 2594 2606
+type(
+  Heptagon.eq list -> Heptagon.eq
+)
+ident(
+  ext_ref List.hd
+)
+"heptagon/transformations/present.ml" 43 2594 2608 "heptagon/transformations/present.ml" 43 2594 2609
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/present.ml" 42 2525 2531 "heptagon/transformations/present.ml" 42 2525 2532
+)
+"heptagon/transformations/present.ml" 43 2594 2607 "heptagon/transformations/present.ml" 43 2594 2617
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/present.ml" 43 2594 2598 "heptagon/transformations/present.ml" 43 2594 2618
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/present.ml" 43 2594 2598 "heptagon/transformations/present.ml" 43 2594 2626
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 42 2525 2527 "heptagon/transformations/present.ml" 43 2594 2626
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 36 2203 2205 "heptagon/transformations/present.ml" 43 2594 2626
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 45 2628 2632 "heptagon/transformations/present.ml" 45 2628 2638
+type(
+  'a Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.eqdesc -> Heptagon.eqdesc * 'a
+)
+ident(
+  def eqdesc "heptagon/transformations/present.ml" 51 2811 2811 "heptagon/transformations/present.ml" 1 0 -1
+)
+"heptagon/transformations/present.ml" 45 2628 2639 "heptagon/transformations/present.ml" 45 2628 2643
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/present.ml" 45 2628 2644 "heptagon/transformations/present.ml" 49 2788 2809
+)
+"heptagon/transformations/present.ml" 45 2628 2644 "heptagon/transformations/present.ml" 45 2628 2647
+type(
+  'a
+)
+ident(
+  def acc "heptagon/transformations/present.ml" 45 2628 2648 "heptagon/transformations/present.ml" 49 2788 2809
+)
+"heptagon/transformations/present.ml" 45 2628 2648 "heptagon/transformations/present.ml" 45 2628 2651
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/transformations/present.ml" 46 2654 2656 "heptagon/transformations/present.ml" 49 2788 2809
+)
+"heptagon/transformations/present.ml" 46 2654 2660 "heptagon/transformations/present.ml" 46 2654 2663
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/transformations/present.ml" 47 2705 2709 "heptagon/transformations/present.ml" 49 2788 2809
+)
+"heptagon/transformations/present.ml" 46 2654 2665 "heptagon/transformations/present.ml" 46 2654 2666
+type(
+  'a
+)
+"heptagon/transformations/present.ml" 46 2654 2660 "heptagon/transformations/present.ml" 46 2654 2666
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 46 2654 2669 "heptagon/transformations/present.ml" 46 2654 2688
+type(
+  'a Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.eqdesc -> Heptagon.eqdesc * 'a
+)
+ident(
+  ext_ref Hept_mapfold.eqdesc
+)
+"heptagon/transformations/present.ml" 46 2654 2689 "heptagon/transformations/present.ml" 46 2654 2693
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/present.ml" 45 2628 2639 "heptagon/transformations/present.ml" 45 2628 2643
+)
+"heptagon/transformations/present.ml" 46 2654 2694 "heptagon/transformations/present.ml" 46 2654 2697
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/present.ml" 45 2628 2644 "heptagon/transformations/present.ml" 45 2628 2647
+)
+"heptagon/transformations/present.ml" 46 2654 2698 "heptagon/transformations/present.ml" 46 2654 2701
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/transformations/present.ml" 45 2628 2648 "heptagon/transformations/present.ml" 45 2628 2651
+)
+"heptagon/transformations/present.ml" 46 2654 2669 "heptagon/transformations/present.ml" 46 2654 2701
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 47 2705 2715 "heptagon/transformations/present.ml" 47 2705 2718
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/transformations/present.ml" 46 2654 2660 "heptagon/transformations/present.ml" 46 2654 2663
+)
+"heptagon/transformations/present.ml" 48 2724 2741 "heptagon/transformations/present.ml" 48 2724 2743
+type(
+  Heptagon.present_handler list
+)
+ident(
+  def ph "heptagon/transformations/present.ml" 48 2724 2751 "heptagon/transformations/present.ml" 48 2724 2787
+)
+"heptagon/transformations/present.ml" 48 2724 2745 "heptagon/transformations/present.ml" 48 2724 2746
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/present.ml" 48 2724 2751 "heptagon/transformations/present.ml" 48 2724 2787
+)
+"heptagon/transformations/present.ml" 48 2724 2732 "heptagon/transformations/present.ml" 48 2724 2747
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 48 2724 2751 "heptagon/transformations/present.ml" 48 2724 2777
+type(
+  Heptagon.present_handler list -> Heptagon.block -> Heptagon.eqdesc
+)
+ident(
+  int_ref translate_present_handlers "heptagon/transformations/present.ml" 35 2156 2160 "heptagon/transformations/present.ml" 35 2156 2186
+)
+"heptagon/transformations/present.ml" 48 2724 2778 "heptagon/transformations/present.ml" 48 2724 2780
+type(
+  Heptagon.present_handler list
+)
+ident(
+  int_ref ph "heptagon/transformations/present.ml" 48 2724 2741 "heptagon/transformations/present.ml" 48 2724 2743
+)
+"heptagon/transformations/present.ml" 48 2724 2781 "heptagon/transformations/present.ml" 48 2724 2782
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/present.ml" 48 2724 2745 "heptagon/transformations/present.ml" 48 2724 2746
+)
+"heptagon/transformations/present.ml" 48 2724 2751 "heptagon/transformations/present.ml" 48 2724 2782
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 48 2724 2784 "heptagon/transformations/present.ml" 48 2724 2787
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/present.ml" 45 2628 2644 "heptagon/transformations/present.ml" 45 2628 2647
+)
+"heptagon/transformations/present.ml" 48 2724 2751 "heptagon/transformations/present.ml" 48 2724 2787
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 49 2788 2796 "heptagon/transformations/present.ml" 49 2788 2797
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/present.ml" 49 2788 2801 "heptagon/transformations/present.ml" 49 2788 2804
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/transformations/present.ml" 46 2654 2660 "heptagon/transformations/present.ml" 46 2654 2663
+)
+"heptagon/transformations/present.ml" 49 2788 2806 "heptagon/transformations/present.ml" 49 2788 2809
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/present.ml" 45 2628 2644 "heptagon/transformations/present.ml" 45 2628 2647
+)
+"heptagon/transformations/present.ml" 49 2788 2801 "heptagon/transformations/present.ml" 49 2788 2809
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 47 2705 2709 "heptagon/transformations/present.ml" 49 2788 2809
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 46 2654 2656 "heptagon/transformations/present.ml" 49 2788 2809
+type(
+  Heptagon.eqdesc * 'a
+)
+"heptagon/transformations/present.ml" 51 2811 2815 "heptagon/transformations/present.ml" 51 2811 2822
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/present.ml" 54 2943 2948 "heptagon/transformations/present.ml" 1 0 -1
+)
+"heptagon/transformations/present.ml" 51 2811 2823 "heptagon/transformations/present.ml" 51 2811 2824
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/present.ml" 52 2827 2829 "heptagon/transformations/present.ml" 54 2943 2948
+)
+"heptagon/transformations/present.ml" 52 2827 2833 "heptagon/transformations/present.ml" 52 2827 2837
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/present.ml" 53 2890 2892 "heptagon/transformations/present.ml" 54 2943 2948
+)
+"heptagon/transformations/present.ml" 52 2827 2842 "heptagon/transformations/present.ml" 52 2827 2863
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/present.ml" 52 2827 2878 "heptagon/transformations/present.ml" 52 2827 2884
+type(
+  'a Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.eqdesc -> Heptagon.eqdesc * 'a
+)
+ident(
+  int_ref eqdesc "heptagon/transformations/present.ml" 45 2628 2632 "heptagon/transformations/present.ml" 45 2628 2638
+)
+"heptagon/transformations/present.ml" 52 2827 2840 "heptagon/transformations/present.ml" 52 2827 2886
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/present.ml" 53 2890 2896 "heptagon/transformations/present.ml" 53 2890 2897
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/present.ml" 54 2943 2947 "heptagon/transformations/present.ml" 54 2943 2948
+)
+"heptagon/transformations/present.ml" 53 2890 2899 "heptagon/transformations/present.ml" 53 2890 2900
+type(
+  bool
+)
+"heptagon/transformations/present.ml" 53 2890 2896 "heptagon/transformations/present.ml" 53 2890 2900
+type(
+  Heptagon.program * bool
+)
+"heptagon/transformations/present.ml" 53 2890 2903 "heptagon/transformations/present.ml" 53 2890 2926
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.program -> Heptagon.program * bool
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/present.ml" 53 2890 2927 "heptagon/transformations/present.ml" 53 2890 2931
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/present.ml" 52 2827 2833 "heptagon/transformations/present.ml" 52 2827 2837
+)
+"heptagon/transformations/present.ml" 53 2890 2932 "heptagon/transformations/present.ml" 53 2890 2937
+type(
+  bool
+)
+"heptagon/transformations/present.ml" 53 2890 2938 "heptagon/transformations/present.ml" 53 2890 2939
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/present.ml" 51 2811 2823 "heptagon/transformations/present.ml" 51 2811 2824
+)
+"heptagon/transformations/present.ml" 53 2890 2903 "heptagon/transformations/present.ml" 53 2890 2939
+call(
+  stack
+)
+type(
+  Heptagon.program * bool
+)
+"heptagon/transformations/present.ml" 54 2943 2947 "heptagon/transformations/present.ml" 54 2943 2948
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/present.ml" 53 2890 2896 "heptagon/transformations/present.ml" 53 2890 2897
+)
+"heptagon/transformations/present.ml" 53 2890 2892 "heptagon/transformations/present.ml" 54 2943 2948
+type(
+  Heptagon.program
+)
+"heptagon/transformations/present.ml" 52 2827 2829 "heptagon/transformations/present.ml" 54 2943 2948
+type(
+  Heptagon.program
+)

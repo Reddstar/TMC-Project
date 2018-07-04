@@ -1,0 +1,3396 @@
+"global/clocks.ml" 51 2304 2308 "global/clocks.ml" 51 2304 2321
+type(
+  ct
+)
+ident(
+  def invalid_clock "global/clocks.ml" 54 2335 2335 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 51 2304 2330 "global/clocks.ml" 51 2304 2332
+type(
+  ct list
+)
+"global/clocks.ml" 51 2304 2324 "global/clocks.ml" 51 2304 2332
+type(
+  ct
+)
+"global/clocks.ml" 54 2335 2339 "global/clocks.ml" 54 2335 2344
+type(
+  int ref
+)
+ident(
+  def index "global/clocks.ml" 56 2354 2354 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 54 2335 2347 "global/clocks.ml" 54 2335 2350
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"global/clocks.ml" 54 2335 2351 "global/clocks.ml" 54 2335 2352
+type(
+  int
+)
+"global/clocks.ml" 54 2335 2347 "global/clocks.ml" 54 2335 2352
+type(
+  int ref
+)
+"global/clocks.ml" 56 2354 2358 "global/clocks.ml" 56 2354 2367
+type(
+  unit -> int
+)
+ident(
+  def gen_index "global/clocks.ml" 59 2431 2431 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 56 2354 2368 "global/clocks.ml" 56 2354 2370
+type(
+  unit
+)
+"global/clocks.ml" 56 2354 2374 "global/clocks.ml" 56 2354 2378
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"global/clocks.ml" 56 2354 2379 "global/clocks.ml" 56 2354 2384
+type(
+  int ref
+)
+ident(
+  int_ref index "global/clocks.ml" 54 2335 2339 "global/clocks.ml" 54 2335 2344
+)
+"global/clocks.ml" 56 2354 2374 "global/clocks.ml" 56 2354 2384
+type(
+  unit
+)
+"global/clocks.ml" 56 2354 2386 "global/clocks.ml" 56 2354 2387
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/clocks.ml" 56 2354 2387 "global/clocks.ml" 56 2354 2392
+type(
+  int ref
+)
+ident(
+  int_ref index "global/clocks.ml" 54 2335 2339 "global/clocks.ml" 54 2335 2344
+)
+"global/clocks.ml" 56 2354 2386 "global/clocks.ml" 56 2354 2392
+type(
+  int
+)
+"global/clocks.ml" 56 2354 2373 "global/clocks.ml" 56 2354 2393
+type(
+  int
+)
+"global/clocks.ml" 59 2431 2435 "global/clocks.ml" 59 2431 2446
+type(
+  unit -> ck
+)
+ident(
+  def fresh_clock "global/clocks.ml" 62 2564 2564 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 59 2431 2447 "global/clocks.ml" 59 2431 2449
+type(
+  unit
+)
+"global/clocks.ml" 59 2431 2478 "global/clocks.ml" 59 2431 2487
+type(
+  unit -> int
+)
+ident(
+  int_ref gen_index "global/clocks.ml" 56 2354 2358 "global/clocks.ml" 56 2354 2367
+)
+"global/clocks.ml" 59 2431 2488 "global/clocks.ml" 59 2431 2490
+type(
+  unit
+)
+"global/clocks.ml" 59 2431 2477 "global/clocks.ml" 59 2431 2491
+call(
+  stack
+)
+type(
+  int
+)
+"global/clocks.ml" 59 2431 2470 "global/clocks.ml" 59 2431 2491
+type(
+  link
+)
+"global/clocks.ml" 59 2431 2457 "global/clocks.ml" 59 2431 2494
+type(
+  link ref
+)
+"global/clocks.ml" 59 2431 2452 "global/clocks.ml" 59 2431 2494
+type(
+  ck
+)
+"global/clocks.ml" 62 2564 2572 "global/clocks.ml" 62 2564 2580
+type(
+  Types.ty -> ct
+)
+ident(
+  def fresh_ct "global/clocks.ml" 62 2564 2564 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 62 2564 2581 "global/clocks.ml" 62 2564 2583
+type(
+  Types.ty
+)
+ident(
+  def ty "global/clocks.ml" 62 2564 2586 "global/clocks.ml" 68 2764 2806
+)
+"global/clocks.ml" 62 2564 2592 "global/clocks.ml" 62 2564 2594
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/clocks.ml" 62 2564 2581 "global/clocks.ml" 62 2564 2583
+)
+"global/clocks.ml" 63 2600 2610 "global/clocks.ml" 63 2600 2617
+type(
+  Types.ty list
+)
+ident(
+  def ty_list "global/clocks.ml" 64 2621 2627 "global/clocks.ml" 66 2682 2731
+)
+"global/clocks.ml" 63 2600 2604 "global/clocks.ml" 63 2600 2617
+type(
+  Types.ty
+)
+"global/clocks.ml" 64 2621 2634 "global/clocks.ml" 64 2621 2641
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_list "global/clocks.ml" 63 2600 2610 "global/clocks.ml" 63 2600 2617
+)
+"global/clocks.ml" 65 2647 2657 "global/clocks.ml" 65 2647 2659
+type(
+  Types.ty list
+)
+"global/clocks.ml" 65 2647 2667 "global/clocks.ml" 65 2647 2678
+type(
+  unit -> ck
+)
+ident(
+  int_ref fresh_clock "global/clocks.ml" 59 2431 2435 "global/clocks.ml" 59 2431 2446
+)
+"global/clocks.ml" 65 2647 2678 "global/clocks.ml" 65 2647 2680
+type(
+  unit
+)
+"global/clocks.ml" 65 2647 2666 "global/clocks.ml" 65 2647 2681
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 65 2647 2663 "global/clocks.ml" 65 2647 2681
+type(
+  ct
+)
+"global/clocks.ml" 66 2682 2692 "global/clocks.ml" 66 2682 2693
+type(
+  Types.ty list
+)
+"global/clocks.ml" 66 2682 2704 "global/clocks.ml" 66 2682 2712
+type(
+  (Types.ty -> ct) -> Types.ty list -> ct list
+)
+ident(
+  ext_ref List.map
+)
+"global/clocks.ml" 66 2682 2713 "global/clocks.ml" 66 2682 2721
+type(
+  Types.ty -> ct
+)
+ident(
+  int_ref fresh_ct "global/clocks.ml" 62 2564 2572 "global/clocks.ml" 62 2564 2580
+)
+"global/clocks.ml" 66 2682 2722 "global/clocks.ml" 66 2682 2729
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_list "global/clocks.ml" 63 2600 2610 "global/clocks.ml" 63 2600 2617
+)
+"global/clocks.ml" 66 2682 2703 "global/clocks.ml" 66 2682 2730
+call(
+  stack
+)
+type(
+  ct list
+)
+"global/clocks.ml" 66 2682 2697 "global/clocks.ml" 66 2682 2730
+type(
+  ct
+)
+"global/clocks.ml" 64 2621 2627 "global/clocks.ml" 66 2682 2731
+type(
+  ct
+)
+"global/clocks.ml" 67 2732 2744 "global/clocks.ml" 67 2732 2745
+type(
+  Types.ty
+)
+ident(
+  def t "global/clocks.ml" 67 2732 2753 "global/clocks.ml" 67 2732 2763
+)
+"global/clocks.ml" 67 2732 2747 "global/clocks.ml" 67 2732 2748
+type(
+  Types.static_exp
+)
+"global/clocks.ml" 67 2732 2736 "global/clocks.ml" 67 2732 2749
+type(
+  Types.ty
+)
+"global/clocks.ml" 67 2732 2753 "global/clocks.ml" 67 2732 2761
+type(
+  Types.ty -> ct
+)
+ident(
+  int_ref fresh_ct "global/clocks.ml" 62 2564 2572 "global/clocks.ml" 62 2564 2580
+)
+"global/clocks.ml" 67 2732 2762 "global/clocks.ml" 67 2732 2763
+type(
+  Types.ty
+)
+ident(
+  int_ref t "global/clocks.ml" 67 2732 2744 "global/clocks.ml" 67 2732 2745
+)
+"global/clocks.ml" 67 2732 2753 "global/clocks.ml" 67 2732 2763
+call(
+  tail
+)
+type(
+  ct
+)
+"global/clocks.ml" 68 2764 2772 "global/clocks.ml" 68 2764 2773
+type(
+  Names.type_name
+)
+"global/clocks.ml" 68 2764 2768 "global/clocks.ml" 68 2764 2773
+type(
+  Types.ty
+)
+"global/clocks.ml" 68 2764 2776 "global/clocks.ml" 68 2764 2784
+type(
+  Types.ty
+)
+"global/clocks.ml" 68 2764 2768 "global/clocks.ml" 68 2764 2784
+type(
+  Types.ty
+)
+"global/clocks.ml" 68 2764 2792 "global/clocks.ml" 68 2764 2803
+type(
+  unit -> ck
+)
+ident(
+  int_ref fresh_clock "global/clocks.ml" 59 2431 2435 "global/clocks.ml" 59 2431 2446
+)
+"global/clocks.ml" 68 2764 2803 "global/clocks.ml" 68 2764 2805
+type(
+  unit
+)
+"global/clocks.ml" 68 2764 2791 "global/clocks.ml" 68 2764 2806
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 68 2764 2788 "global/clocks.ml" 68 2764 2806
+type(
+  ct
+)
+"global/clocks.ml" 62 2564 2586 "global/clocks.ml" 68 2764 2806
+type(
+  ct
+)
+"global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+type(
+  ck -> ck
+)
+ident(
+  def ck_repr "global/clocks.ml" 73 2900 2900 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 73 2900 2916 "global/clocks.ml" 73 2900 2918
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 73 2900 2921 "global/clocks.ml" 79 3102 3110
+)
+"global/clocks.ml" 73 2900 2927 "global/clocks.ml" 73 2900 2929
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 73 2900 2916 "global/clocks.ml" 73 2900 2918
+)
+"global/clocks.ml" 74 2935 2939 "global/clocks.ml" 74 2935 2944
+type(
+  ck
+)
+"global/clocks.ml" 74 2935 2951 "global/clocks.ml" 74 2935 2952
+type(
+  Idents.var_ident
+)
+type(
+  Names.constructor_name
+)
+type(
+  ck
+)
+"global/clocks.ml" 74 2935 2947 "global/clocks.ml" 74 2935 2952
+type(
+  ck
+)
+"global/clocks.ml" 74 2935 2939 "global/clocks.ml" 74 2935 2952
+type(
+  ck
+)
+"global/clocks.ml" 75 2953 2982 "global/clocks.ml" 75 2953 2983
+type(
+  int
+)
+"global/clocks.ml" 75 2953 2975 "global/clocks.ml" 75 2953 2983
+type(
+  link
+)
+"global/clocks.ml" 75 2953 2962 "global/clocks.ml" 75 2953 2985
+type(
+  link ref
+)
+"global/clocks.ml" 75 2953 2957 "global/clocks.ml" 75 2953 2985
+type(
+  ck
+)
+"global/clocks.ml" 74 2935 2939 "global/clocks.ml" 75 2953 2985
+type(
+  ck
+)
+"global/clocks.ml" 75 2953 2989 "global/clocks.ml" 75 2953 2991
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 73 2900 2916 "global/clocks.ml" 73 2900 2918
+)
+"global/clocks.ml" 76 2992 3022 "global/clocks.ml" 76 2992 3024
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 77 3040 3046 "global/clocks.ml" 79 3102 3110
+)
+"global/clocks.ml" 76 2992 3016 "global/clocks.ml" 76 2992 3024
+type(
+  link
+)
+"global/clocks.ml" 76 2992 3003 "global/clocks.ml" 76 2992 3026
+type(
+  link ref
+)
+"global/clocks.ml" 76 2992 3030 "global/clocks.ml" 76 2992 3034
+ident(
+  def link "global/clocks.ml" 77 3040 3046 "global/clocks.ml" 79 3102 3110
+)
+"global/clocks.ml" 76 2992 3001 "global/clocks.ml" 76 2992 3036
+type(
+  link ref
+)
+"global/clocks.ml" 76 2992 2996 "global/clocks.ml" 76 2992 3036
+type(
+  ck
+)
+"global/clocks.ml" 77 3040 3050 "global/clocks.ml" 77 3040 3052
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 78 3069 3075 "global/clocks.ml" 79 3102 3110
+)
+"global/clocks.ml" 77 3040 3055 "global/clocks.ml" 77 3040 3062
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 77 3040 3063 "global/clocks.ml" 77 3040 3065
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 76 2992 3022 "global/clocks.ml" 76 2992 3024
+)
+"global/clocks.ml" 77 3040 3055 "global/clocks.ml" 77 3040 3065
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 78 3069 3075 "global/clocks.ml" 78 3069 3079
+type(
+  link ref
+)
+ident(
+  int_ref link "global/clocks.ml" 76 2992 3001 "global/clocks.ml" 76 2992 3036
+)
+"global/clocks.ml" 78 3069 3098 "global/clocks.ml" 78 3069 3100
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 77 3040 3050 "global/clocks.ml" 77 3040 3052
+)
+"global/clocks.ml" 78 3069 3092 "global/clocks.ml" 78 3069 3100
+type(
+  link
+)
+"global/clocks.ml" 78 3069 3075 "global/clocks.ml" 78 3069 3100
+type(
+  unit
+)
+"global/clocks.ml" 79 3102 3108 "global/clocks.ml" 79 3102 3110
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 77 3040 3050 "global/clocks.ml" 77 3040 3052
+)
+"global/clocks.ml" 78 3069 3075 "global/clocks.ml" 79 3102 3110
+type(
+  ck
+)
+"global/clocks.ml" 77 3040 3046 "global/clocks.ml" 79 3102 3110
+type(
+  ck
+)
+"global/clocks.ml" 73 2900 2921 "global/clocks.ml" 79 3102 3110
+type(
+  ck
+)
+"global/clocks.ml" 83 3156 3164 "global/clocks.ml" 83 3156 3175
+type(
+  int -> ck -> unit
+)
+ident(
+  def occur_check "global/clocks.ml" 83 3156 3156 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 83 3156 3176 "global/clocks.ml" 83 3156 3181
+type(
+  int
+)
+ident(
+  def index "global/clocks.ml" 83 3156 3182 "global/clocks.ml" 89 3348 3370
+)
+"global/clocks.ml" 83 3156 3182 "global/clocks.ml" 83 3156 3184
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 84 3187 3189 "global/clocks.ml" 89 3348 3370
+)
+"global/clocks.ml" 84 3187 3193 "global/clocks.ml" 84 3187 3195
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 85 3212 3214 "global/clocks.ml" 89 3348 3370
+)
+"global/clocks.ml" 84 3187 3198 "global/clocks.ml" 84 3187 3205
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 84 3187 3206 "global/clocks.ml" 84 3187 3208
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 83 3156 3182 "global/clocks.ml" 83 3156 3184
+)
+"global/clocks.ml" 84 3187 3198 "global/clocks.ml" 84 3187 3208
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 85 3212 3220 "global/clocks.ml" 85 3212 3222
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 84 3187 3193 "global/clocks.ml" 84 3187 3195
+)
+"global/clocks.ml" 86 3228 3234 "global/clocks.ml" 86 3228 3239
+type(
+  ck
+)
+"global/clocks.ml" 86 3228 3243 "global/clocks.ml" 86 3228 3245
+type(
+  unit
+)
+"global/clocks.ml" 87 3246 3277 "global/clocks.ml" 87 3246 3278
+type(
+  int
+)
+ident(
+  def n "global/clocks.ml" 87 3246 3286 "global/clocks.ml" 87 3246 3302
+)
+"global/clocks.ml" 87 3246 3270 "global/clocks.ml" 87 3246 3278
+type(
+  link
+)
+"global/clocks.ml" 87 3246 3257 "global/clocks.ml" 87 3246 3280
+type(
+  link ref
+)
+"global/clocks.ml" 87 3246 3252 "global/clocks.ml" 87 3246 3280
+type(
+  ck
+)
+"global/clocks.ml" 87 3246 3286 "global/clocks.ml" 87 3246 3291
+type(
+  int
+)
+ident(
+  int_ref index "global/clocks.ml" 83 3156 3176 "global/clocks.ml" 83 3156 3181
+)
+"global/clocks.ml" 87 3246 3292 "global/clocks.ml" 87 3246 3294
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global/clocks.ml" 87 3246 3295 "global/clocks.ml" 87 3246 3296
+type(
+  int
+)
+ident(
+  int_ref n "global/clocks.ml" 87 3246 3277 "global/clocks.ml" 87 3246 3278
+)
+"global/clocks.ml" 87 3246 3286 "global/clocks.ml" 87 3246 3296
+type(
+  bool
+)
+"global/clocks.ml" 87 3246 3300 "global/clocks.ml" 87 3246 3302
+type(
+  unit
+)
+"global/clocks.ml" 88 3303 3314 "global/clocks.ml" 88 3303 3316
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 88 3303 3327 "global/clocks.ml" 88 3303 3347
+)
+"global/clocks.ml" 88 3303 3318 "global/clocks.ml" 88 3303 3319
+type(
+  Names.constructor_name
+)
+"global/clocks.ml" 88 3303 3321 "global/clocks.ml" 88 3303 3322
+type(
+  Idents.var_ident
+)
+"global/clocks.ml" 88 3303 3309 "global/clocks.ml" 88 3303 3323
+type(
+  ck
+)
+"global/clocks.ml" 88 3303 3327 "global/clocks.ml" 88 3303 3338
+type(
+  int -> ck -> unit
+)
+ident(
+  int_ref occur_check "global/clocks.ml" 83 3156 3164 "global/clocks.ml" 83 3156 3175
+)
+"global/clocks.ml" 88 3303 3339 "global/clocks.ml" 88 3303 3344
+type(
+  int
+)
+ident(
+  int_ref index "global/clocks.ml" 83 3156 3176 "global/clocks.ml" 83 3156 3181
+)
+"global/clocks.ml" 88 3303 3345 "global/clocks.ml" 88 3303 3347
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 88 3303 3314 "global/clocks.ml" 88 3303 3316
+)
+"global/clocks.ml" 88 3303 3327 "global/clocks.ml" 88 3303 3347
+call(
+  tail
+)
+type(
+  unit
+)
+"global/clocks.ml" 89 3348 3354 "global/clocks.ml" 89 3348 3355
+type(
+  ck
+)
+"global/clocks.ml" 89 3348 3359 "global/clocks.ml" 89 3348 3364
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/clocks.ml" 89 3348 3365 "global/clocks.ml" 89 3348 3370
+type(
+  exn
+)
+"global/clocks.ml" 89 3348 3359 "global/clocks.ml" 89 3348 3370
+type(
+  unit
+)
+"global/clocks.ml" 85 3212 3214 "global/clocks.ml" 89 3348 3370
+type(
+  unit
+)
+"global/clocks.ml" 84 3187 3189 "global/clocks.ml" 89 3348 3370
+type(
+  unit
+)
+"global/clocks.ml" 93 3389 3393 "global/clocks.ml" 93 3389 3401
+type(
+  ck -> ck -> unit
+)
+ident(
+  def unify_ck "global/clocks.ml" 83 3156 3156 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 93 3389 3402 "global/clocks.ml" 93 3389 3405
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 93 3389 3406 "global/clocks.ml" 107 3894 3917
+)
+"global/clocks.ml" 93 3389 3406 "global/clocks.ml" 93 3389 3409
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 94 3412 3414 "global/clocks.ml" 107 3894 3917
+)
+"global/clocks.ml" 94 3412 3418 "global/clocks.ml" 94 3412 3421
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 95 3439 3441 "global/clocks.ml" 107 3894 3917
+)
+"global/clocks.ml" 94 3412 3424 "global/clocks.ml" 94 3412 3431
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 94 3412 3432 "global/clocks.ml" 94 3412 3435
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 93 3389 3402 "global/clocks.ml" 93 3389 3405
+)
+"global/clocks.ml" 94 3412 3424 "global/clocks.ml" 94 3412 3435
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 95 3439 3445 "global/clocks.ml" 95 3439 3448
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 96 3466 3468 "global/clocks.ml" 107 3894 3917
+)
+"global/clocks.ml" 95 3439 3451 "global/clocks.ml" 95 3439 3458
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 95 3439 3459 "global/clocks.ml" 95 3439 3462
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 93 3389 3406 "global/clocks.ml" 93 3389 3409
+)
+"global/clocks.ml" 95 3439 3451 "global/clocks.ml" 95 3439 3462
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 96 3466 3471 "global/clocks.ml" 96 3466 3474
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 94 3412 3418 "global/clocks.ml" 94 3412 3421
+)
+"global/clocks.ml" 96 3466 3475 "global/clocks.ml" 96 3466 3477
+type(
+  ck -> ck -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"global/clocks.ml" 96 3466 3478 "global/clocks.ml" 96 3466 3481
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 95 3439 3445 "global/clocks.ml" 95 3439 3448
+)
+"global/clocks.ml" 96 3466 3471 "global/clocks.ml" 96 3466 3481
+type(
+  bool
+)
+"global/clocks.ml" 96 3466 3487 "global/clocks.ml" 96 3466 3489
+type(
+  unit
+)
+"global/clocks.ml" 98 3497 3508 "global/clocks.ml" 98 3497 3511
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 94 3412 3418 "global/clocks.ml" 94 3412 3421
+)
+"global/clocks.ml" 98 3497 3513 "global/clocks.ml" 98 3497 3516
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 95 3439 3445 "global/clocks.ml" 95 3439 3448
+)
+"global/clocks.ml" 98 3497 3507 "global/clocks.ml" 98 3497 3517
+type(
+  ck * ck
+)
+"global/clocks.ml" 99 3523 3530 "global/clocks.ml" 99 3523 3535
+type(
+  ck
+)
+"global/clocks.ml" 99 3523 3537 "global/clocks.ml" 99 3523 3542
+type(
+  ck
+)
+"global/clocks.ml" 99 3523 3530 "global/clocks.ml" 99 3523 3542
+type(
+  ck * ck
+)
+"global/clocks.ml" 99 3523 3546 "global/clocks.ml" 99 3523 3548
+type(
+  unit
+)
+"global/clocks.ml" 100 3549 3581 "global/clocks.ml" 100 3549 3583
+type(
+  int
+)
+ident(
+  def n1 "global/clocks.ml" 100 3549 3622 "global/clocks.ml" 100 3549 3635
+)
+"global/clocks.ml" 100 3549 3574 "global/clocks.ml" 100 3549 3583
+type(
+  link
+)
+"global/clocks.ml" 100 3549 3561 "global/clocks.ml" 100 3549 3585
+type(
+  link ref
+)
+"global/clocks.ml" 100 3549 3556 "global/clocks.ml" 100 3549 3585
+type(
+  ck
+)
+"global/clocks.ml" 100 3549 3612 "global/clocks.ml" 100 3549 3614
+type(
+  int
+)
+ident(
+  def n2 "global/clocks.ml" 100 3549 3622 "global/clocks.ml" 100 3549 3635
+)
+"global/clocks.ml" 100 3549 3605 "global/clocks.ml" 100 3549 3614
+type(
+  link
+)
+"global/clocks.ml" 100 3549 3592 "global/clocks.ml" 100 3549 3616
+type(
+  link ref
+)
+"global/clocks.ml" 100 3549 3587 "global/clocks.ml" 100 3549 3616
+type(
+  ck
+)
+"global/clocks.ml" 100 3549 3556 "global/clocks.ml" 100 3549 3616
+type(
+  ck * ck
+)
+"global/clocks.ml" 100 3549 3622 "global/clocks.ml" 100 3549 3624
+type(
+  int
+)
+ident(
+  int_ref n1 "global/clocks.ml" 100 3549 3581 "global/clocks.ml" 100 3549 3583
+)
+"global/clocks.ml" 100 3549 3625 "global/clocks.ml" 100 3549 3626
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 100 3549 3627 "global/clocks.ml" 100 3549 3629
+type(
+  int
+)
+ident(
+  int_ref n2 "global/clocks.ml" 100 3549 3612 "global/clocks.ml" 100 3549 3614
+)
+"global/clocks.ml" 100 3549 3622 "global/clocks.ml" 100 3549 3629
+type(
+  bool
+)
+"global/clocks.ml" 100 3549 3633 "global/clocks.ml" 100 3549 3635
+type(
+  unit
+)
+"global/clocks.ml" 101 3636 3648 "global/clocks.ml" 101 3636 3651
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3653 "global/clocks.ml" 101 3636 3655
+type(
+  Names.constructor_name
+)
+ident(
+  def c1 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3657 "global/clocks.ml" 101 3636 3659
+type(
+  Idents.var_ident
+)
+ident(
+  def n1 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3643 "global/clocks.ml" 101 3636 3660
+type(
+  ck
+)
+"global/clocks.ml" 101 3636 3667 "global/clocks.ml" 101 3636 3670
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3672 "global/clocks.ml" 101 3636 3674
+type(
+  Names.constructor_name
+)
+ident(
+  def c2 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3676 "global/clocks.ml" 101 3636 3678
+type(
+  Idents.var_ident
+)
+ident(
+  def n2 "global/clocks.ml" 101 3636 3685 "global/clocks.ml" 102 3711 3736
+)
+"global/clocks.ml" 101 3636 3662 "global/clocks.ml" 101 3636 3679
+type(
+  ck
+)
+"global/clocks.ml" 101 3636 3643 "global/clocks.ml" 101 3636 3679
+type(
+  ck * ck
+)
+"global/clocks.ml" 101 3636 3686 "global/clocks.ml" 101 3636 3688
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c1 "global/clocks.ml" 101 3636 3653 "global/clocks.ml" 101 3636 3655
+)
+"global/clocks.ml" 101 3636 3689 "global/clocks.ml" 101 3636 3690
+type(
+  Names.constructor_name -> Names.constructor_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 101 3636 3691 "global/clocks.ml" 101 3636 3693
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c2 "global/clocks.ml" 101 3636 3672 "global/clocks.ml" 101 3636 3674
+)
+"global/clocks.ml" 101 3636 3685 "global/clocks.ml" 101 3636 3694
+type(
+  bool
+)
+"global/clocks.ml" 101 3636 3695 "global/clocks.ml" 101 3636 3697
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/clocks.ml" 101 3636 3699 "global/clocks.ml" 101 3636 3701
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n1 "global/clocks.ml" 101 3636 3657 "global/clocks.ml" 101 3636 3659
+)
+"global/clocks.ml" 101 3636 3702 "global/clocks.ml" 101 3636 3703
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 101 3636 3704 "global/clocks.ml" 101 3636 3706
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n2 "global/clocks.ml" 101 3636 3676 "global/clocks.ml" 101 3636 3678
+)
+"global/clocks.ml" 101 3636 3698 "global/clocks.ml" 101 3636 3707
+type(
+  bool
+)
+"global/clocks.ml" 101 3636 3685 "global/clocks.ml" 101 3636 3707
+type(
+  bool
+)
+"global/clocks.ml" 102 3711 3720 "global/clocks.ml" 102 3711 3728
+type(
+  ck -> ck -> unit
+)
+ident(
+  int_ref unify_ck "global/clocks.ml" 93 3389 3393 "global/clocks.ml" 93 3389 3401
+)
+"global/clocks.ml" 102 3711 3729 "global/clocks.ml" 102 3711 3732
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 101 3636 3648 "global/clocks.ml" 101 3636 3651
+)
+"global/clocks.ml" 102 3711 3733 "global/clocks.ml" 102 3711 3736
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 101 3636 3667 "global/clocks.ml" 101 3636 3670
+)
+"global/clocks.ml" 102 3711 3720 "global/clocks.ml" 102 3711 3736
+call(
+  tail
+)
+type(
+  unit
+)
+"global/clocks.ml" 103 3737 3770 "global/clocks.ml" 103 3737 3771
+type(
+  int
+)
+ident(
+  def n "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 103 3737 3763 "global/clocks.ml" 103 3737 3771
+type(
+  link
+)
+"global/clocks.ml" 103 3737 3750 "global/clocks.ml" 103 3737 3773
+type(
+  link ref
+)
+"global/clocks.ml" 103 3737 3777 "global/clocks.ml" 103 3737 3778
+ident(
+  def v "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 103 3737 3749 "global/clocks.ml" 103 3737 3779
+type(
+  link ref
+)
+"global/clocks.ml" 103 3737 3744 "global/clocks.ml" 103 3737 3779
+type(
+  ck
+)
+"global/clocks.ml" 103 3737 3781 "global/clocks.ml" 103 3737 3783
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 103 3737 3744 "global/clocks.ml" 103 3737 3783
+type(
+  ck * ck
+)
+"global/clocks.ml" 104 3784 3791 "global/clocks.ml" 104 3784 3793
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 104 3784 3821 "global/clocks.ml" 104 3784 3822
+type(
+  int
+)
+ident(
+  def n "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 104 3784 3814 "global/clocks.ml" 104 3784 3822
+type(
+  link
+)
+"global/clocks.ml" 104 3784 3801 "global/clocks.ml" 104 3784 3824
+type(
+  link ref
+)
+"global/clocks.ml" 104 3784 3828 "global/clocks.ml" 104 3784 3829
+ident(
+  def v "global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+)
+"global/clocks.ml" 104 3784 3800 "global/clocks.ml" 104 3784 3830
+type(
+  link ref
+)
+"global/clocks.ml" 104 3784 3795 "global/clocks.ml" 104 3784 3830
+type(
+  ck
+)
+"global/clocks.ml" 104 3784 3791 "global/clocks.ml" 104 3784 3830
+type(
+  ck * ck
+)
+"global/clocks.ml" 103 3737 3744 "global/clocks.ml" 104 3784 3830
+type(
+  ck * ck
+)
+"global/clocks.ml" 105 3834 3844 "global/clocks.ml" 105 3834 3855
+type(
+  int -> ck -> unit
+)
+ident(
+  int_ref occur_check "global/clocks.ml" 83 3156 3164 "global/clocks.ml" 83 3156 3175
+)
+"global/clocks.ml" 105 3834 3856 "global/clocks.ml" 105 3834 3857
+type(
+  int
+)
+ident(
+  int_ref n "global/clocks.ml" 103 3737 3770 "global/clocks.ml" 103 3737 3771
+)
+"global/clocks.ml" 105 3834 3858 "global/clocks.ml" 105 3834 3860
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 103 3737 3781 "global/clocks.ml" 103 3737 3783
+)
+"global/clocks.ml" 105 3834 3844 "global/clocks.ml" 105 3834 3860
+call(
+  stack
+)
+type(
+  unit
+)
+"global/clocks.ml" 106 3862 3871 "global/clocks.ml" 106 3862 3872
+type(
+  link ref
+)
+ident(
+  int_ref v "global/clocks.ml" 103 3737 3749 "global/clocks.ml" 103 3737 3779
+)
+"global/clocks.ml" 106 3862 3891 "global/clocks.ml" 106 3862 3893
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 103 3737 3781 "global/clocks.ml" 103 3737 3783
+)
+"global/clocks.ml" 106 3862 3885 "global/clocks.ml" 106 3862 3893
+type(
+  link
+)
+"global/clocks.ml" 106 3862 3871 "global/clocks.ml" 106 3862 3893
+type(
+  unit
+)
+"global/clocks.ml" 105 3834 3844 "global/clocks.ml" 106 3862 3893
+type(
+  unit
+)
+"global/clocks.ml" 107 3894 3901 "global/clocks.ml" 107 3894 3902
+type(
+  ck * ck
+)
+"global/clocks.ml" 107 3894 3906 "global/clocks.ml" 107 3894 3911
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/clocks.ml" 107 3894 3912 "global/clocks.ml" 107 3894 3917
+type(
+  exn
+)
+"global/clocks.ml" 107 3894 3906 "global/clocks.ml" 107 3894 3917
+type(
+  unit
+)
+"global/clocks.ml" 98 3497 3501 "global/clocks.ml" 107 3894 3917
+type(
+  unit
+)
+"global/clocks.ml" 96 3466 3468 "global/clocks.ml" 107 3894 3917
+type(
+  unit
+)
+"global/clocks.ml" 95 3439 3441 "global/clocks.ml" 107 3894 3917
+type(
+  unit
+)
+"global/clocks.ml" 94 3412 3414 "global/clocks.ml" 107 3894 3917
+type(
+  unit
+)
+"global/clocks.ml" 111 3936 3944 "global/clocks.ml" 111 3936 3949
+type(
+  ct -> ct -> unit
+)
+ident(
+  def unify "global/clocks.ml" 111 3936 3936 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 111 3936 3950 "global/clocks.ml" 111 3936 3952
+type(
+  ct
+)
+ident(
+  def t1 "global/clocks.ml" 111 3936 3953 "global/clocks.ml" 118 4245 4267
+)
+"global/clocks.ml" 111 3936 3953 "global/clocks.ml" 111 3936 3955
+type(
+  ct
+)
+ident(
+  def t2 "global/clocks.ml" 112 3958 3960 "global/clocks.ml" 118 4245 4267
+)
+"global/clocks.ml" 112 3958 3963 "global/clocks.ml" 112 3958 3965
+type(
+  ct
+)
+ident(
+  int_ref t1 "global/clocks.ml" 111 3936 3950 "global/clocks.ml" 111 3936 3952
+)
+"global/clocks.ml" 112 3958 3966 "global/clocks.ml" 112 3958 3968
+type(
+  ct -> ct -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"global/clocks.ml" 112 3958 3969 "global/clocks.ml" 112 3958 3971
+type(
+  ct
+)
+ident(
+  int_ref t2 "global/clocks.ml" 111 3936 3953 "global/clocks.ml" 111 3936 3955
+)
+"global/clocks.ml" 112 3958 3963 "global/clocks.ml" 112 3958 3971
+type(
+  bool
+)
+"global/clocks.ml" 112 3958 3977 "global/clocks.ml" 112 3958 3979
+type(
+  unit
+)
+"global/clocks.ml" 113 3985 3994 "global/clocks.ml" 113 3985 3996
+type(
+  ct
+)
+ident(
+  int_ref t1 "global/clocks.ml" 111 3936 3950 "global/clocks.ml" 111 3936 3952
+)
+"global/clocks.ml" 113 3985 3998 "global/clocks.ml" 113 3985 4000
+type(
+  ct
+)
+ident(
+  int_ref t2 "global/clocks.ml" 111 3936 3953 "global/clocks.ml" 111 3936 3955
+)
+"global/clocks.ml" 113 3985 3993 "global/clocks.ml" 113 3985 4001
+type(
+  ct * ct
+)
+"global/clocks.ml" 114 4007 4018 "global/clocks.ml" 114 4007 4023
+type(
+  ck
+)
+"global/clocks.ml" 114 4007 4051 "global/clocks.ml" 114 4007 4052
+type(
+  int
+)
+"global/clocks.ml" 114 4007 4044 "global/clocks.ml" 114 4007 4052
+type(
+  link
+)
+"global/clocks.ml" 114 4007 4031 "global/clocks.ml" 114 4007 4055
+type(
+  link ref
+)
+"global/clocks.ml" 114 4007 4026 "global/clocks.ml" 114 4007 4055
+type(
+  ck
+)
+"global/clocks.ml" 114 4007 4017 "global/clocks.ml" 114 4007 4056
+type(
+  ck
+)
+"global/clocks.ml" 114 4007 4014 "global/clocks.ml" 114 4007 4056
+type(
+  ct
+)
+"global/clocks.ml" 114 4007 4064 "global/clocks.ml" 114 4007 4066
+type(
+  ct list
+)
+"global/clocks.ml" 114 4007 4058 "global/clocks.ml" 114 4007 4066
+type(
+  ct
+)
+"global/clocks.ml" 114 4007 4013 "global/clocks.ml" 114 4007 4067
+type(
+  ct * ct
+)
+"global/clocks.ml" 115 4068 4081 "global/clocks.ml" 115 4068 4083
+type(
+  ct list
+)
+"global/clocks.ml" 115 4068 4075 "global/clocks.ml" 115 4068 4083
+type(
+  ct
+)
+"global/clocks.ml" 115 4068 4089 "global/clocks.ml" 115 4068 4094
+type(
+  ck
+)
+"global/clocks.ml" 115 4068 4122 "global/clocks.ml" 115 4068 4123
+type(
+  int
+)
+"global/clocks.ml" 115 4068 4115 "global/clocks.ml" 115 4068 4123
+type(
+  link
+)
+"global/clocks.ml" 115 4068 4102 "global/clocks.ml" 115 4068 4126
+type(
+  link ref
+)
+"global/clocks.ml" 115 4068 4097 "global/clocks.ml" 115 4068 4126
+type(
+  ck
+)
+"global/clocks.ml" 115 4068 4088 "global/clocks.ml" 115 4068 4127
+type(
+  ck
+)
+"global/clocks.ml" 115 4068 4085 "global/clocks.ml" 115 4068 4127
+type(
+  ct
+)
+"global/clocks.ml" 115 4068 4074 "global/clocks.ml" 115 4068 4128
+type(
+  ct * ct
+)
+"global/clocks.ml" 114 4007 4013 "global/clocks.ml" 115 4068 4128
+type(
+  ct * ct
+)
+"global/clocks.ml" 115 4068 4132 "global/clocks.ml" 115 4068 4134
+type(
+  unit
+)
+"global/clocks.ml" 116 4135 4145 "global/clocks.ml" 116 4135 4148
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 116 4135 4161 "global/clocks.ml" 116 4135 4177
+)
+"global/clocks.ml" 116 4135 4142 "global/clocks.ml" 116 4135 4148
+type(
+  ct
+)
+"global/clocks.ml" 116 4135 4153 "global/clocks.ml" 116 4135 4156
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 116 4135 4161 "global/clocks.ml" 116 4135 4177
+)
+"global/clocks.ml" 116 4135 4150 "global/clocks.ml" 116 4135 4156
+type(
+  ct
+)
+"global/clocks.ml" 116 4135 4141 "global/clocks.ml" 116 4135 4157
+type(
+  ct * ct
+)
+"global/clocks.ml" 116 4135 4161 "global/clocks.ml" 116 4135 4169
+type(
+  ck -> ck -> unit
+)
+ident(
+  int_ref unify_ck "global/clocks.ml" 93 3389 3393 "global/clocks.ml" 93 3389 3401
+)
+"global/clocks.ml" 116 4135 4170 "global/clocks.ml" 116 4135 4173
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 116 4135 4145 "global/clocks.ml" 116 4135 4148
+)
+"global/clocks.ml" 116 4135 4174 "global/clocks.ml" 116 4135 4177
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 116 4135 4153 "global/clocks.ml" 116 4135 4156
+)
+"global/clocks.ml" 116 4135 4161 "global/clocks.ml" 116 4135 4177
+call(
+  tail
+)
+type(
+  unit
+)
+"global/clocks.ml" 117 4178 4191 "global/clocks.ml" 117 4178 4198
+type(
+  ct list
+)
+ident(
+  def t1_list "global/clocks.ml" 117 4178 4218 "global/clocks.ml" 117 4178 4244
+)
+"global/clocks.ml" 117 4178 4185 "global/clocks.ml" 117 4178 4198
+type(
+  ct
+)
+"global/clocks.ml" 117 4178 4206 "global/clocks.ml" 117 4178 4213
+type(
+  ct list
+)
+ident(
+  def t2_list "global/clocks.ml" 117 4178 4218 "global/clocks.ml" 117 4178 4244
+)
+"global/clocks.ml" 117 4178 4200 "global/clocks.ml" 117 4178 4213
+type(
+  ct
+)
+"global/clocks.ml" 117 4178 4184 "global/clocks.ml" 117 4178 4214
+type(
+  ct * ct
+)
+"global/clocks.ml" 117 4178 4218 "global/clocks.ml" 117 4178 4228
+type(
+  ct list -> ct list -> unit
+)
+ident(
+  int_ref unify_list "global/clocks.ml" 120 4269 4273 "global/clocks.ml" 120 4269 4283
+)
+"global/clocks.ml" 117 4178 4229 "global/clocks.ml" 117 4178 4236
+type(
+  ct list
+)
+ident(
+  int_ref t1_list "global/clocks.ml" 117 4178 4191 "global/clocks.ml" 117 4178 4198
+)
+"global/clocks.ml" 117 4178 4237 "global/clocks.ml" 117 4178 4244
+type(
+  ct list
+)
+ident(
+  int_ref t2_list "global/clocks.ml" 117 4178 4206 "global/clocks.ml" 117 4178 4213
+)
+"global/clocks.ml" 117 4178 4218 "global/clocks.ml" 117 4178 4244
+call(
+  tail
+)
+type(
+  unit
+)
+"global/clocks.ml" 118 4245 4251 "global/clocks.ml" 118 4245 4252
+type(
+  ct * ct
+)
+"global/clocks.ml" 118 4245 4256 "global/clocks.ml" 118 4245 4261
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/clocks.ml" 118 4245 4262 "global/clocks.ml" 118 4245 4267
+type(
+  exn
+)
+"global/clocks.ml" 118 4245 4256 "global/clocks.ml" 118 4245 4267
+type(
+  unit
+)
+"global/clocks.ml" 113 3985 3987 "global/clocks.ml" 118 4245 4267
+type(
+  unit
+)
+"global/clocks.ml" 112 3958 3960 "global/clocks.ml" 118 4245 4267
+type(
+  unit
+)
+"global/clocks.ml" 120 4269 4273 "global/clocks.ml" 120 4269 4283
+type(
+  ct list -> ct list -> unit
+)
+ident(
+  def unify_list "global/clocks.ml" 111 3936 3936 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 120 4269 4284 "global/clocks.ml" 120 4269 4291
+type(
+  ct list
+)
+ident(
+  def t1_list "global/clocks.ml" 120 4269 4292 "global/clocks.ml" 122 4341 4364
+)
+"global/clocks.ml" 120 4269 4292 "global/clocks.ml" 120 4269 4299
+type(
+  ct list
+)
+ident(
+  def t2_list "global/clocks.ml" 121 4302 4304 "global/clocks.ml" 122 4341 4364
+)
+"global/clocks.ml" 121 4302 4308 "global/clocks.ml" 121 4302 4318
+type(
+  (ct -> ct -> unit) -> ct list -> ct list -> unit
+)
+ident(
+  ext_ref List.iter2
+)
+"global/clocks.ml" 121 4302 4319 "global/clocks.ml" 121 4302 4324
+type(
+  ct -> ct -> unit
+)
+ident(
+  int_ref unify "global/clocks.ml" 111 3936 3944 "global/clocks.ml" 111 3936 3949
+)
+"global/clocks.ml" 121 4302 4325 "global/clocks.ml" 121 4302 4332
+type(
+  ct list
+)
+ident(
+  int_ref t1_list "global/clocks.ml" 120 4269 4284 "global/clocks.ml" 120 4269 4291
+)
+"global/clocks.ml" 121 4302 4333 "global/clocks.ml" 121 4302 4340
+type(
+  ct list
+)
+ident(
+  int_ref t2_list "global/clocks.ml" 120 4269 4292 "global/clocks.ml" 120 4269 4299
+)
+"global/clocks.ml" 121 4302 4308 "global/clocks.ml" 121 4302 4340
+call(
+  stack
+)
+type(
+  unit
+)
+"global/clocks.ml" 122 4341 4348 "global/clocks.ml" 122 4341 4349
+type(
+  exn
+)
+"global/clocks.ml" 122 4341 4353 "global/clocks.ml" 122 4341 4358
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/clocks.ml" 122 4341 4359 "global/clocks.ml" 122 4341 4364
+type(
+  exn
+)
+"global/clocks.ml" 122 4341 4353 "global/clocks.ml" 122 4341 4364
+type(
+  unit
+)
+"global/clocks.ml" 121 4302 4304 "global/clocks.ml" 122 4341 4364
+type(
+  unit
+)
+"global/clocks.ml" 125 4367 4375 "global/clocks.ml" 125 4367 4383
+type(
+  ck -> Types.ty -> ct
+)
+ident(
+  def skeleton "global/clocks.ml" 125 4367 4367 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 125 4367 4384 "global/clocks.ml" 125 4367 4386
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 125 4367 4389 "global/clocks.ml" 130 4517 4557
+)
+"global/clocks.ml" 126 4398 4408 "global/clocks.ml" 126 4398 4415
+type(
+  Types.ty list
+)
+ident(
+  def ty_list "global/clocks.ml" 127 4419 4425 "global/clocks.ml" 129 4468 4516
+)
+"global/clocks.ml" 126 4398 4402 "global/clocks.ml" 126 4398 4415
+type(
+  Types.ty
+)
+"global/clocks.ml" 127 4419 4432 "global/clocks.ml" 127 4419 4439
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_list "global/clocks.ml" 126 4398 4408 "global/clocks.ml" 126 4398 4415
+)
+"global/clocks.ml" 128 4445 4456 "global/clocks.ml" 128 4445 4457
+type(
+  Types.ty
+)
+"global/clocks.ml" 128 4445 4455 "global/clocks.ml" 128 4445 4458
+type(
+  Types.ty list
+)
+"global/clocks.ml" 128 4445 4465 "global/clocks.ml" 128 4445 4467
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 125 4367 4384 "global/clocks.ml" 125 4367 4386
+)
+"global/clocks.ml" 128 4445 4462 "global/clocks.ml" 128 4445 4467
+type(
+  ct
+)
+"global/clocks.ml" 129 4468 4478 "global/clocks.ml" 129 4468 4479
+type(
+  Types.ty list
+)
+ident(
+  def l "global/clocks.ml" 129 4468 4483 "global/clocks.ml" 129 4468 4515
+)
+"global/clocks.ml" 129 4468 4490 "global/clocks.ml" 129 4468 4498
+type(
+  (Types.ty -> ct) -> Types.ty list -> ct list
+)
+ident(
+  ext_ref List.map
+)
+"global/clocks.ml" 129 4468 4500 "global/clocks.ml" 129 4468 4508
+type(
+  ck -> Types.ty -> ct
+)
+ident(
+  int_ref skeleton "global/clocks.ml" 125 4367 4375 "global/clocks.ml" 125 4367 4383
+)
+"global/clocks.ml" 129 4468 4509 "global/clocks.ml" 129 4468 4511
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 125 4367 4384 "global/clocks.ml" 125 4367 4386
+)
+"global/clocks.ml" 129 4468 4499 "global/clocks.ml" 129 4468 4512
+call(
+  stack
+)
+type(
+  Types.ty -> ct
+)
+"global/clocks.ml" 129 4468 4513 "global/clocks.ml" 129 4468 4514
+type(
+  Types.ty list
+)
+ident(
+  int_ref l "global/clocks.ml" 129 4468 4478 "global/clocks.ml" 129 4468 4479
+)
+"global/clocks.ml" 129 4468 4489 "global/clocks.ml" 129 4468 4515
+call(
+  stack
+)
+type(
+  ct list
+)
+"global/clocks.ml" 129 4468 4483 "global/clocks.ml" 129 4468 4515
+type(
+  ct
+)
+"global/clocks.ml" 127 4419 4425 "global/clocks.ml" 129 4468 4516
+type(
+  ct
+)
+"global/clocks.ml" 130 4517 4528 "global/clocks.ml" 130 4517 4529
+type(
+  Types.static_exp
+)
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4521 "global/clocks.ml" 130 4517 4529
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4536 "global/clocks.ml" 130 4517 4537
+type(
+  Names.type_name
+)
+"global/clocks.ml" 130 4517 4532 "global/clocks.ml" 130 4517 4537
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4521 "global/clocks.ml" 130 4517 4537
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4540 "global/clocks.ml" 130 4517 4548
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4521 "global/clocks.ml" 130 4517 4548
+type(
+  Types.ty
+)
+"global/clocks.ml" 130 4517 4555 "global/clocks.ml" 130 4517 4557
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 125 4367 4384 "global/clocks.ml" 125 4367 4386
+)
+"global/clocks.ml" 130 4517 4552 "global/clocks.ml" 130 4517 4557
+type(
+  ct
+)
+"global/clocks.ml" 125 4367 4389 "global/clocks.ml" 130 4517 4557
+type(
+  Types.ty -> ct
+)
+"global/clocks.ml" 132 4559 4563 "global/clocks.ml" 132 4559 4569
+type(
+  ct -> ck list
+)
+ident(
+  def unprod "global/clocks.ml" 139 4695 4695 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 132 4559 4570 "global/clocks.ml" 132 4559 4572
+type(
+  ct
+)
+ident(
+  def ct "global/clocks.ml" 133 4575 4577 "global/clocks.ml" 137 4684 4693
+)
+"global/clocks.ml" 133 4575 4585 "global/clocks.ml" 133 4575 4586
+type(
+  ck list -> ct -> ck list
+)
+ident(
+  def f "global/clocks.ml" 133 4575 4577 "global/clocks.ml" 137 4684 4693
+)
+"global/clocks.ml" 133 4575 4587 "global/clocks.ml" 133 4575 4590
+type(
+  ck list
+)
+ident(
+  def acc "global/clocks.ml" 133 4575 4591 "global/clocks.ml" 135 4633 4678
+)
+"global/clocks.ml" 133 4575 4591 "global/clocks.ml" 133 4575 4593
+type(
+  ct
+)
+ident(
+  def ct "global/clocks.ml" 133 4575 4596 "global/clocks.ml" 135 4633 4678
+)
+"global/clocks.ml" 133 4575 4602 "global/clocks.ml" 133 4575 4604
+type(
+  ct
+)
+ident(
+  int_ref ct "global/clocks.ml" 133 4575 4591 "global/clocks.ml" 133 4575 4593
+)
+"global/clocks.ml" 134 4610 4619 "global/clocks.ml" 134 4610 4621
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 134 4610 4625 "global/clocks.ml" 134 4610 4632
+)
+"global/clocks.ml" 134 4610 4616 "global/clocks.ml" 134 4610 4621
+type(
+  ct
+)
+"global/clocks.ml" 134 4610 4625 "global/clocks.ml" 134 4610 4627
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 134 4610 4619 "global/clocks.ml" 134 4610 4621
+)
+"global/clocks.ml" 134 4610 4629 "global/clocks.ml" 134 4610 4632
+type(
+  ck list
+)
+ident(
+  int_ref acc "global/clocks.ml" 133 4575 4587 "global/clocks.ml" 133 4575 4590
+)
+"global/clocks.ml" 134 4610 4625 "global/clocks.ml" 134 4610 4632
+type(
+  ck list
+)
+"global/clocks.ml" 135 4633 4645 "global/clocks.ml" 135 4633 4649
+type(
+  ct list
+)
+ident(
+  def ct_l "global/clocks.ml" 135 4633 4653 "global/clocks.ml" 135 4633 4678
+)
+"global/clocks.ml" 135 4633 4639 "global/clocks.ml" 135 4633 4649
+type(
+  ct
+)
+"global/clocks.ml" 135 4633 4653 "global/clocks.ml" 135 4633 4667
+type(
+  (ck list -> ct -> ck list) -> ck list -> ct list -> ck list
+)
+ident(
+  ext_ref List.fold_left
+)
+"global/clocks.ml" 135 4633 4668 "global/clocks.ml" 135 4633 4669
+type(
+  ck list -> ct -> ck list
+)
+ident(
+  int_ref f "global/clocks.ml" 133 4575 4585 "global/clocks.ml" 133 4575 4586
+)
+"global/clocks.ml" 135 4633 4670 "global/clocks.ml" 135 4633 4673
+type(
+  ck list
+)
+ident(
+  int_ref acc "global/clocks.ml" 133 4575 4587 "global/clocks.ml" 133 4575 4590
+)
+"global/clocks.ml" 135 4633 4674 "global/clocks.ml" 135 4633 4678
+type(
+  ct list
+)
+ident(
+  int_ref ct_l "global/clocks.ml" 135 4633 4645 "global/clocks.ml" 135 4633 4649
+)
+"global/clocks.ml" 135 4633 4653 "global/clocks.ml" 135 4633 4678
+call(
+  tail
+)
+type(
+  ck list
+)
+"global/clocks.ml" 133 4575 4596 "global/clocks.ml" 135 4633 4678
+type(
+  ck list
+)
+"global/clocks.ml" 137 4684 4686 "global/clocks.ml" 137 4684 4687
+type(
+  ck list -> ct -> ck list
+)
+ident(
+  int_ref f "global/clocks.ml" 133 4575 4585 "global/clocks.ml" 133 4575 4586
+)
+"global/clocks.ml" 137 4684 4688 "global/clocks.ml" 137 4684 4690
+type(
+  ck list
+)
+"global/clocks.ml" 137 4684 4691 "global/clocks.ml" 137 4684 4693
+type(
+  ct
+)
+ident(
+  int_ref ct "global/clocks.ml" 132 4559 4570 "global/clocks.ml" 132 4559 4572
+)
+"global/clocks.ml" 137 4684 4686 "global/clocks.ml" 137 4684 4693
+call(
+  tail
+)
+type(
+  ck list
+)
+"global/clocks.ml" 133 4575 4577 "global/clocks.ml" 137 4684 4693
+type(
+  ck list
+)
+"global/clocks.ml" 139 4695 4699 "global/clocks.ml" 139 4695 4703
+type(
+  ck list -> ct
+)
+ident(
+  def prod "global/clocks.ml" 143 4795 4795 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 139 4695 4704 "global/clocks.ml" 139 4695 4708
+type(
+  ck list
+)
+ident(
+  def ck_l "global/clocks.ml" 139 4695 4711 "global/clocks.ml" 141 4745 4793
+)
+"global/clocks.ml" 139 4695 4717 "global/clocks.ml" 139 4695 4721
+type(
+  ck list
+)
+ident(
+  int_ref ck_l "global/clocks.ml" 139 4695 4704 "global/clocks.ml" 139 4695 4708
+)
+"global/clocks.ml" 140 4727 4732 "global/clocks.ml" 140 4727 4734
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 140 4727 4739 "global/clocks.ml" 140 4727 4744
+)
+"global/clocks.ml" 140 4727 4731 "global/clocks.ml" 140 4727 4735
+type(
+  ck list
+)
+"global/clocks.ml" 140 4727 4742 "global/clocks.ml" 140 4727 4744
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 140 4727 4732 "global/clocks.ml" 140 4727 4734
+)
+"global/clocks.ml" 140 4727 4739 "global/clocks.ml" 140 4727 4744
+type(
+  ct
+)
+"global/clocks.ml" 141 4745 4749 "global/clocks.ml" 141 4745 4750
+type(
+  ck list
+)
+"global/clocks.ml" 141 4745 4761 "global/clocks.ml" 141 4745 4769
+type(
+  (ck -> ct) -> ck list -> ct list
+)
+ident(
+  ext_ref List.map
+)
+"global/clocks.ml" 141 4745 4775 "global/clocks.ml" 141 4745 4777
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 141 4745 4781 "global/clocks.ml" 141 4745 4786
+)
+"global/clocks.ml" 141 4745 4784 "global/clocks.ml" 141 4745 4786
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 141 4745 4775 "global/clocks.ml" 141 4745 4777
+)
+"global/clocks.ml" 141 4745 4781 "global/clocks.ml" 141 4745 4786
+type(
+  ct
+)
+"global/clocks.ml" 141 4745 4770 "global/clocks.ml" 141 4745 4787
+type(
+  ck -> ct
+)
+"global/clocks.ml" 141 4745 4788 "global/clocks.ml" 141 4745 4792
+type(
+  ck list
+)
+ident(
+  int_ref ck_l "global/clocks.ml" 139 4695 4704 "global/clocks.ml" 139 4695 4708
+)
+"global/clocks.ml" 141 4745 4760 "global/clocks.ml" 141 4745 4793
+call(
+  stack
+)
+type(
+  ct list
+)
+"global/clocks.ml" 141 4745 4754 "global/clocks.ml" 141 4745 4793
+type(
+  ct
+)
+"global/clocks.ml" 139 4695 4711 "global/clocks.ml" 141 4745 4793
+type(
+  ct
+)
+"global/clocks.ml" 143 4795 4803 "global/clocks.ml" 143 4795 4813
+type(
+  ck -> ck
+)
+ident(
+  def root_ck_of "global/clocks.ml" 143 4795 4795 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 143 4795 4814 "global/clocks.ml" 143 4795 4816
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 143 4795 4819 "global/clocks.ml" 147 4923 4998
+)
+"global/clocks.ml" 143 4795 4825 "global/clocks.ml" 143 4795 4832
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 143 4795 4833 "global/clocks.ml" 143 4795 4835
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 143 4795 4814 "global/clocks.ml" 143 4795 4816
+)
+"global/clocks.ml" 143 4795 4825 "global/clocks.ml" 143 4795 4835
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 144 4841 4845 "global/clocks.ml" 144 4841 4850
+type(
+  ck
+)
+"global/clocks.ml" 145 4851 4880 "global/clocks.ml" 145 4851 4881
+type(
+  int
+)
+"global/clocks.ml" 145 4851 4873 "global/clocks.ml" 145 4851 4881
+type(
+  link
+)
+"global/clocks.ml" 145 4851 4860 "global/clocks.ml" 145 4851 4883
+type(
+  link ref
+)
+"global/clocks.ml" 145 4851 4855 "global/clocks.ml" 145 4851 4883
+type(
+  ck
+)
+"global/clocks.ml" 144 4841 4845 "global/clocks.ml" 145 4851 4883
+type(
+  ck
+)
+"global/clocks.ml" 145 4851 4887 "global/clocks.ml" 145 4851 4889
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 143 4795 4814 "global/clocks.ml" 143 4795 4816
+)
+"global/clocks.ml" 146 4890 4898 "global/clocks.ml" 146 4890 4900
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 146 4890 4909 "global/clocks.ml" 146 4890 4922
+)
+"global/clocks.ml" 146 4890 4901 "global/clocks.ml" 146 4890 4902
+type(
+  Names.constructor_name
+)
+"global/clocks.ml" 146 4890 4903 "global/clocks.ml" 146 4890 4904
+type(
+  Idents.var_ident
+)
+"global/clocks.ml" 146 4890 4894 "global/clocks.ml" 146 4890 4905
+type(
+  ck
+)
+"global/clocks.ml" 146 4890 4909 "global/clocks.ml" 146 4890 4919
+type(
+  ck -> ck
+)
+ident(
+  int_ref root_ck_of "global/clocks.ml" 143 4795 4803 "global/clocks.ml" 143 4795 4813
+)
+"global/clocks.ml" 146 4890 4920 "global/clocks.ml" 146 4890 4922
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 146 4890 4898 "global/clocks.ml" 146 4890 4900
+)
+"global/clocks.ml" 146 4890 4909 "global/clocks.ml" 146 4890 4922
+call(
+  tail
+)
+type(
+  ck
+)
+"global/clocks.ml" 147 4923 4951 "global/clocks.ml" 147 4923 4952
+type(
+  ck
+)
+"global/clocks.ml" 147 4923 4945 "global/clocks.ml" 147 4923 4952
+type(
+  link
+)
+"global/clocks.ml" 147 4923 4932 "global/clocks.ml" 147 4923 4954
+type(
+  link ref
+)
+"global/clocks.ml" 147 4923 4927 "global/clocks.ml" 147 4923 4954
+type(
+  ck
+)
+"global/clocks.ml" 147 4923 4958 "global/clocks.ml" 147 4923 4977
+type(
+  string -> ck
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"global/clocks.ml" 147 4923 4978 "global/clocks.ml" 147 4923 4998
+type(
+  string
+)
+"global/clocks.ml" 147 4923 4958 "global/clocks.ml" 147 4923 4998
+call(
+  tail
+)
+type(
+  ck
+)
+"global/clocks.ml" 143 4795 4819 "global/clocks.ml" 147 4923 4998
+type(
+  ck
+)
+"global/clocks.ml" 149 5000 5008 "global/clocks.ml" 149 5000 5018
+type(
+  ct -> ck
+)
+ident(
+  def last_clock "global/clocks.ml" 149 5000 5000 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 149 5000 5019 "global/clocks.ml" 149 5000 5021
+type(
+  ct
+)
+ident(
+  def ct "global/clocks.ml" 149 5000 5024 "global/clocks.ml" 151 5054 5101
+)
+"global/clocks.ml" 149 5000 5030 "global/clocks.ml" 149 5000 5032
+type(
+  ct
+)
+ident(
+  int_ref ct "global/clocks.ml" 149 5000 5019 "global/clocks.ml" 149 5000 5021
+)
+"global/clocks.ml" 150 5038 5045 "global/clocks.ml" 150 5038 5047
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 150 5038 5051 "global/clocks.ml" 150 5038 5053
+)
+"global/clocks.ml" 150 5038 5042 "global/clocks.ml" 150 5038 5047
+type(
+  ct
+)
+"global/clocks.ml" 150 5038 5051 "global/clocks.ml" 150 5038 5053
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 150 5038 5045 "global/clocks.ml" 150 5038 5047
+)
+"global/clocks.ml" 151 5054 5064 "global/clocks.ml" 151 5054 5065
+type(
+  ct list
+)
+ident(
+  def l "global/clocks.ml" 151 5054 5069 "global/clocks.ml" 151 5054 5101
+)
+"global/clocks.ml" 151 5054 5058 "global/clocks.ml" 151 5054 5065
+type(
+  ct
+)
+"global/clocks.ml" 151 5054 5069 "global/clocks.ml" 151 5054 5079
+type(
+  ct -> ck
+)
+ident(
+  int_ref last_clock "global/clocks.ml" 149 5000 5008 "global/clocks.ml" 149 5000 5018
+)
+"global/clocks.ml" 151 5054 5081 "global/clocks.ml" 151 5054 5098
+type(
+  ct list -> ct
+)
+ident(
+  ext_ref Misc.last_element
+)
+"global/clocks.ml" 151 5054 5099 "global/clocks.ml" 151 5054 5100
+type(
+  ct list
+)
+ident(
+  int_ref l "global/clocks.ml" 151 5054 5064 "global/clocks.ml" 151 5054 5065
+)
+"global/clocks.ml" 151 5054 5080 "global/clocks.ml" 151 5054 5101
+call(
+  stack
+)
+type(
+  ct
+)
+"global/clocks.ml" 151 5054 5069 "global/clocks.ml" 151 5054 5101
+call(
+  tail
+)
+type(
+  ck
+)
+"global/clocks.ml" 149 5000 5024 "global/clocks.ml" 151 5054 5101
+type(
+  ck
+)
+"global/clocks.ml" 155 5221 5225 "global/clocks.ml" 155 5221 5237
+type(
+  ck -> ck -> bool
+)
+ident(
+  def same_control "global/clocks.ml" 162 5477 5477 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 155 5221 5238 "global/clocks.ml" 155 5221 5241
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 155 5221 5242 "global/clocks.ml" 159 5421 5435
+)
+"global/clocks.ml" 155 5221 5242 "global/clocks.ml" 155 5221 5245
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 155 5221 5248 "global/clocks.ml" 159 5421 5435
+)
+"global/clocks.ml" 155 5221 5254 "global/clocks.ml" 155 5221 5261
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 155 5221 5262 "global/clocks.ml" 155 5221 5265
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 155 5221 5238 "global/clocks.ml" 155 5221 5241
+)
+"global/clocks.ml" 155 5221 5254 "global/clocks.ml" 155 5221 5265
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 155 5221 5267 "global/clocks.ml" 155 5221 5274
+type(
+  ck -> ck
+)
+ident(
+  int_ref ck_repr "global/clocks.ml" 73 2900 2908 "global/clocks.ml" 73 2900 2915
+)
+"global/clocks.ml" 155 5221 5275 "global/clocks.ml" 155 5221 5278
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 155 5221 5242 "global/clocks.ml" 155 5221 5245
+)
+"global/clocks.ml" 155 5221 5267 "global/clocks.ml" 155 5221 5278
+call(
+  stack
+)
+type(
+  ck
+)
+"global/clocks.ml" 155 5221 5254 "global/clocks.ml" 155 5221 5278
+type(
+  ck * ck
+)
+"global/clocks.ml" 156 5284 5288 "global/clocks.ml" 156 5284 5293
+type(
+  ck
+)
+"global/clocks.ml" 156 5284 5295 "global/clocks.ml" 156 5284 5300
+type(
+  ck
+)
+"global/clocks.ml" 156 5284 5288 "global/clocks.ml" 156 5284 5300
+type(
+  ck * ck
+)
+"global/clocks.ml" 156 5284 5304 "global/clocks.ml" 156 5284 5308
+type(
+  bool
+)
+"global/clocks.ml" 157 5309 5317 "global/clocks.ml" 157 5309 5318
+type(
+  ck
+)
+"global/clocks.ml" 157 5309 5319 "global/clocks.ml" 157 5309 5320
+type(
+  Names.constructor_name
+)
+"global/clocks.ml" 157 5309 5321 "global/clocks.ml" 157 5309 5323
+type(
+  Idents.var_ident
+)
+ident(
+  def x1 "global/clocks.ml" 157 5309 5341 "global/clocks.ml" 157 5309 5348
+)
+"global/clocks.ml" 157 5309 5313 "global/clocks.ml" 157 5309 5324
+type(
+  ck
+)
+"global/clocks.ml" 157 5309 5330 "global/clocks.ml" 157 5309 5331
+type(
+  ck
+)
+"global/clocks.ml" 157 5309 5332 "global/clocks.ml" 157 5309 5333
+type(
+  Names.constructor_name
+)
+"global/clocks.ml" 157 5309 5334 "global/clocks.ml" 157 5309 5336
+type(
+  Idents.var_ident
+)
+ident(
+  def x2 "global/clocks.ml" 157 5309 5341 "global/clocks.ml" 157 5309 5348
+)
+"global/clocks.ml" 157 5309 5326 "global/clocks.ml" 157 5309 5337
+type(
+  ck
+)
+"global/clocks.ml" 157 5309 5313 "global/clocks.ml" 157 5309 5337
+type(
+  ck * ck
+)
+"global/clocks.ml" 157 5309 5341 "global/clocks.ml" 157 5309 5343
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x1 "global/clocks.ml" 157 5309 5321 "global/clocks.ml" 157 5309 5323
+)
+"global/clocks.ml" 157 5309 5344 "global/clocks.ml" 157 5309 5345
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 157 5309 5346 "global/clocks.ml" 157 5309 5348
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x2 "global/clocks.ml" 157 5309 5334 "global/clocks.ml" 157 5309 5336
+)
+"global/clocks.ml" 157 5309 5341 "global/clocks.ml" 157 5309 5348
+type(
+  bool
+)
+"global/clocks.ml" 158 5349 5377 "global/clocks.ml" 158 5349 5379
+type(
+  int
+)
+ident(
+  def i1 "global/clocks.ml" 158 5349 5413 "global/clocks.ml" 158 5349 5420
+)
+"global/clocks.ml" 158 5349 5370 "global/clocks.ml" 158 5349 5379
+type(
+  link
+)
+"global/clocks.ml" 158 5349 5358 "global/clocks.ml" 158 5349 5380
+type(
+  link ref
+)
+"global/clocks.ml" 158 5349 5353 "global/clocks.ml" 158 5349 5380
+type(
+  ck
+)
+"global/clocks.ml" 158 5349 5406 "global/clocks.ml" 158 5349 5408
+type(
+  int
+)
+ident(
+  def i2 "global/clocks.ml" 158 5349 5413 "global/clocks.ml" 158 5349 5420
+)
+"global/clocks.ml" 158 5349 5399 "global/clocks.ml" 158 5349 5408
+type(
+  link
+)
+"global/clocks.ml" 158 5349 5387 "global/clocks.ml" 158 5349 5409
+type(
+  link ref
+)
+"global/clocks.ml" 158 5349 5382 "global/clocks.ml" 158 5349 5409
+type(
+  ck
+)
+"global/clocks.ml" 158 5349 5353 "global/clocks.ml" 158 5349 5409
+type(
+  ck * ck
+)
+"global/clocks.ml" 158 5349 5413 "global/clocks.ml" 158 5349 5415
+type(
+  int
+)
+ident(
+  int_ref i1 "global/clocks.ml" 158 5349 5377 "global/clocks.ml" 158 5349 5379
+)
+"global/clocks.ml" 158 5349 5416 "global/clocks.ml" 158 5349 5417
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 158 5349 5418 "global/clocks.ml" 158 5349 5420
+type(
+  int
+)
+ident(
+  int_ref i2 "global/clocks.ml" 158 5349 5406 "global/clocks.ml" 158 5349 5408
+)
+"global/clocks.ml" 158 5349 5413 "global/clocks.ml" 158 5349 5420
+type(
+  bool
+)
+"global/clocks.ml" 159 5421 5425 "global/clocks.ml" 159 5421 5426
+type(
+  ck * ck
+)
+"global/clocks.ml" 159 5421 5430 "global/clocks.ml" 159 5421 5435
+type(
+  bool
+)
+"global/clocks.ml" 155 5221 5248 "global/clocks.ml" 159 5421 5435
+type(
+  bool
+)
+"global/clocks.ml" 162 5477 5485 "global/clocks.ml" 162 5477 5493
+type(
+  ct -> ck
+)
+ident(
+  def first_ck "global/clocks.ml" 162 5477 5477 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 162 5477 5494 "global/clocks.ml" 162 5477 5496
+type(
+  ct
+)
+ident(
+  def ct "global/clocks.ml" 162 5477 5499 "global/clocks.ml" 165 5558 5590
+)
+"global/clocks.ml" 162 5477 5505 "global/clocks.ml" 162 5477 5507
+type(
+  ct
+)
+ident(
+  int_ref ct "global/clocks.ml" 162 5477 5494 "global/clocks.ml" 162 5477 5496
+)
+"global/clocks.ml" 163 5513 5520 "global/clocks.ml" 163 5513 5522
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 163 5513 5526 "global/clocks.ml" 163 5513 5528
+)
+"global/clocks.ml" 163 5513 5517 "global/clocks.ml" 163 5513 5522
+type(
+  ct
+)
+"global/clocks.ml" 163 5513 5526 "global/clocks.ml" 163 5513 5528
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 163 5513 5520 "global/clocks.ml" 163 5513 5522
+)
+"global/clocks.ml" 164 5529 5539 "global/clocks.ml" 164 5529 5541
+type(
+  ct list
+)
+"global/clocks.ml" 164 5529 5533 "global/clocks.ml" 164 5529 5541
+type(
+  ct
+)
+"global/clocks.ml" 164 5529 5552 "global/clocks.ml" 164 5529 5557
+type(
+  bool
+)
+"global/clocks.ml" 164 5529 5545 "global/clocks.ml" 164 5529 5557
+type(
+  ck
+)
+"global/clocks.ml" 165 5558 5569 "global/clocks.ml" 165 5558 5571
+type(
+  ct
+)
+ident(
+  def ct "global/clocks.ml" 165 5558 5579 "global/clocks.ml" 165 5558 5590
+)
+"global/clocks.ml" 165 5558 5573 "global/clocks.ml" 165 5558 5574
+type(
+  ct list
+)
+"global/clocks.ml" 165 5558 5568 "global/clocks.ml" 165 5558 5575
+type(
+  ct list
+)
+"global/clocks.ml" 165 5558 5562 "global/clocks.ml" 165 5558 5575
+type(
+  ct
+)
+"global/clocks.ml" 165 5558 5579 "global/clocks.ml" 165 5558 5587
+type(
+  ct -> ck
+)
+ident(
+  int_ref first_ck "global/clocks.ml" 162 5477 5485 "global/clocks.ml" 162 5477 5493
+)
+"global/clocks.ml" 165 5558 5588 "global/clocks.ml" 165 5558 5590
+type(
+  ct
+)
+ident(
+  int_ref ct "global/clocks.ml" 165 5558 5569 "global/clocks.ml" 165 5558 5571
+)
+"global/clocks.ml" 165 5558 5579 "global/clocks.ml" 165 5558 5590
+call(
+  tail
+)
+type(
+  ck
+)
+"global/clocks.ml" 162 5477 5499 "global/clocks.ml" 165 5558 5590
+type(
+  ck
+)
+"global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  def list_of_samplers "global/clocks.ml" 167 5592 5592 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 167 5592 5617 "global/clocks.ml" 167 5592 5620
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  def acc "global/clocks.ml" 167 5592 5621 "global/clocks.ml" 170 5743 5802
+)
+"global/clocks.ml" 167 5592 5621 "global/clocks.ml" 167 5592 5623
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 167 5592 5626 "global/clocks.ml" 170 5743 5802
+)
+"global/clocks.ml" 167 5592 5632 "global/clocks.ml" 167 5592 5634
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 167 5592 5621 "global/clocks.ml" 167 5592 5623
+)
+"global/clocks.ml" 168 5640 5644 "global/clocks.ml" 168 5640 5649
+type(
+  ck
+)
+"global/clocks.ml" 168 5640 5677 "global/clocks.ml" 168 5640 5678
+type(
+  int
+)
+"global/clocks.ml" 168 5640 5670 "global/clocks.ml" 168 5640 5678
+type(
+  link
+)
+"global/clocks.ml" 168 5640 5657 "global/clocks.ml" 168 5640 5680
+type(
+  link ref
+)
+"global/clocks.ml" 168 5640 5652 "global/clocks.ml" 168 5640 5680
+type(
+  ck
+)
+"global/clocks.ml" 168 5640 5644 "global/clocks.ml" 168 5640 5680
+type(
+  ck
+)
+"global/clocks.ml" 168 5640 5684 "global/clocks.ml" 168 5640 5687
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref acc "global/clocks.ml" 167 5592 5617 "global/clocks.ml" 167 5592 5620
+)
+"global/clocks.ml" 169 5688 5696 "global/clocks.ml" 169 5688 5698
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 169 5688 5709 "global/clocks.ml" 169 5688 5742
+)
+"global/clocks.ml" 169 5688 5700 "global/clocks.ml" 169 5688 5701
+type(
+  Names.constructor_name
+)
+ident(
+  def c "global/clocks.ml" 169 5688 5709 "global/clocks.ml" 169 5688 5742
+)
+"global/clocks.ml" 169 5688 5703 "global/clocks.ml" 169 5688 5704
+type(
+  Idents.var_ident
+)
+ident(
+  def x "global/clocks.ml" 169 5688 5709 "global/clocks.ml" 169 5688 5742
+)
+"global/clocks.ml" 169 5688 5692 "global/clocks.ml" 169 5688 5705
+type(
+  ck
+)
+"global/clocks.ml" 169 5688 5709 "global/clocks.ml" 169 5688 5725
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 169 5688 5728 "global/clocks.ml" 169 5688 5729
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "global/clocks.ml" 169 5688 5700 "global/clocks.ml" 169 5688 5701
+)
+"global/clocks.ml" 169 5688 5731 "global/clocks.ml" 169 5688 5732
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "global/clocks.ml" 169 5688 5703 "global/clocks.ml" 169 5688 5704
+)
+"global/clocks.ml" 169 5688 5727 "global/clocks.ml" 169 5688 5733
+type(
+  Names.constructor_name * Idents.var_ident
+)
+"global/clocks.ml" 169 5688 5735 "global/clocks.ml" 169 5688 5738
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref acc "global/clocks.ml" 167 5592 5617 "global/clocks.ml" 167 5592 5620
+)
+"global/clocks.ml" 169 5688 5726 "global/clocks.ml" 169 5688 5739
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 169 5688 5740 "global/clocks.ml" 169 5688 5742
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 169 5688 5696 "global/clocks.ml" 169 5688 5698
+)
+"global/clocks.ml" 169 5688 5709 "global/clocks.ml" 169 5688 5742
+call(
+  tail
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 170 5743 5771 "global/clocks.ml" 170 5743 5773
+type(
+  ck
+)
+ident(
+  def ck "global/clocks.ml" 170 5743 5779 "global/clocks.ml" 170 5743 5802
+)
+"global/clocks.ml" 170 5743 5765 "global/clocks.ml" 170 5743 5773
+type(
+  link
+)
+"global/clocks.ml" 170 5743 5752 "global/clocks.ml" 170 5743 5775
+type(
+  link ref
+)
+"global/clocks.ml" 170 5743 5747 "global/clocks.ml" 170 5743 5775
+type(
+  ck
+)
+"global/clocks.ml" 170 5743 5779 "global/clocks.ml" 170 5743 5795
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 170 5743 5796 "global/clocks.ml" 170 5743 5799
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref acc "global/clocks.ml" 167 5592 5617 "global/clocks.ml" 167 5592 5620
+)
+"global/clocks.ml" 170 5743 5800 "global/clocks.ml" 170 5743 5802
+type(
+  ck
+)
+ident(
+  int_ref ck "global/clocks.ml" 170 5743 5771 "global/clocks.ml" 170 5743 5773
+)
+"global/clocks.ml" 170 5743 5779 "global/clocks.ml" 170 5743 5802
+call(
+  tail
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 167 5592 5626 "global/clocks.ml" 170 5743 5802
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 172 5804 5808 "global/clocks.ml" 172 5804 5820
+type(
+  ck -> ck -> bool
+)
+ident(
+  def are_disjoint "global/clocks.ml" 185 6235 6235 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 172 5804 5821 "global/clocks.ml" 172 5804 5824
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 172 5804 5825 "global/clocks.ml" 182 6116 6187
+)
+"global/clocks.ml" 172 5804 5825 "global/clocks.ml" 172 5804 5828
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 173 5831 5833 "global/clocks.ml" 182 6116 6187
+)
+"global/clocks.ml" 173 5831 5841 "global/clocks.ml" 173 5831 5858
+type(
+  ('a * Idents.ident) list -> ('a * Idents.ident) list -> bool
+)
+ident(
+  def disjoint_samplers "global/clocks.ml" 173 5831 5833 "global/clocks.ml" 182 6116 6187
+)
+"global/clocks.ml" 173 5831 5859 "global/clocks.ml" 173 5831 5864
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck1 "global/clocks.ml" 173 5831 5865 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 173 5831 5865 "global/clocks.ml" 173 5831 5870
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck2 "global/clocks.ml" 173 5831 5873 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 173 5831 5879 "global/clocks.ml" 173 5831 5884
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck1 "global/clocks.ml" 173 5831 5859 "global/clocks.ml" 173 5831 5864
+)
+"global/clocks.ml" 173 5831 5886 "global/clocks.ml" 173 5831 5891
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck2 "global/clocks.ml" 173 5831 5865 "global/clocks.ml" 173 5831 5870
+)
+"global/clocks.ml" 173 5831 5879 "global/clocks.ml" 173 5831 5891
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 174 5897 5903 "global/clocks.ml" 174 5897 5905
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 174 5897 5907 "global/clocks.ml" 174 5897 5908
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 174 5897 5903 "global/clocks.ml" 174 5897 5908
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 174 5897 5912 "global/clocks.ml" 174 5897 5917
+type(
+  bool
+)
+"global/clocks.ml" 175 5918 5924 "global/clocks.ml" 175 5918 5925
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 175 5918 5928 "global/clocks.ml" 175 5918 5930
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 175 5918 5924 "global/clocks.ml" 175 5918 5930
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 175 5918 5934 "global/clocks.ml" 175 5918 5939
+type(
+  bool
+)
+"global/clocks.ml" 176 5940 5947 "global/clocks.ml" 176 5940 5949
+type(
+  'a
+)
+ident(
+  def c1 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5951 "global/clocks.ml" 176 5940 5953
+type(
+  Idents.ident
+)
+ident(
+  def x1 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5946 "global/clocks.ml" 176 5940 5954
+type(
+  'a * Idents.ident
+)
+"global/clocks.ml" 176 5940 5956 "global/clocks.ml" 176 5940 5961
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck1 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5946 "global/clocks.ml" 176 5940 5961
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 176 5940 5964 "global/clocks.ml" 176 5940 5966
+type(
+  'a
+)
+ident(
+  def c2 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5968 "global/clocks.ml" 176 5940 5970
+type(
+  Idents.ident
+)
+ident(
+  def x2 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5963 "global/clocks.ml" 176 5940 5971
+type(
+  'a * Idents.ident
+)
+"global/clocks.ml" 176 5940 5973 "global/clocks.ml" 176 5940 5978
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck2 "global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+)
+"global/clocks.ml" 176 5940 5963 "global/clocks.ml" 176 5940 5978
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 176 5940 5946 "global/clocks.ml" 176 5940 5978
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 177 5982 5993 "global/clocks.ml" 177 5982 6013
+type(
+  Idents.ident -> Idents.ident -> int
+)
+ident(
+  ext_ref Idents.ident_compare
+)
+"global/clocks.ml" 177 5982 6014 "global/clocks.ml" 177 5982 6016
+type(
+  Idents.ident
+)
+ident(
+  int_ref x1 "global/clocks.ml" 176 5940 5951 "global/clocks.ml" 176 5940 5953
+)
+"global/clocks.ml" 177 5982 6017 "global/clocks.ml" 177 5982 6019
+type(
+  Idents.ident
+)
+ident(
+  int_ref x2 "global/clocks.ml" 176 5940 5968 "global/clocks.ml" 176 5940 5970
+)
+"global/clocks.ml" 177 5982 5993 "global/clocks.ml" 177 5982 6019
+call(
+  stack
+)
+type(
+  int
+)
+"global/clocks.ml" 177 5982 6020 "global/clocks.ml" 177 5982 6022
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global/clocks.ml" 177 5982 6023 "global/clocks.ml" 177 5982 6024
+type(
+  int
+)
+"global/clocks.ml" 177 5982 5993 "global/clocks.ml" 177 5982 6024
+type(
+  bool
+)
+"global/clocks.ml" 178 6030 6040 "global/clocks.ml" 178 6030 6045
+type(
+  bool
+)
+"global/clocks.ml" 180 6059 6069 "global/clocks.ml" 180 6059 6071
+type(
+  'a
+)
+ident(
+  int_ref c1 "global/clocks.ml" 176 5940 5947 "global/clocks.ml" 176 5940 5949
+)
+"global/clocks.ml" 180 6059 6072 "global/clocks.ml" 180 6059 6074
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global/clocks.ml" 180 6059 6075 "global/clocks.ml" 180 6059 6077
+type(
+  'a
+)
+ident(
+  int_ref c2 "global/clocks.ml" 176 5940 5964 "global/clocks.ml" 176 5940 5966
+)
+"global/clocks.ml" 180 6059 6069 "global/clocks.ml" 180 6059 6077
+type(
+  bool
+)
+"global/clocks.ml" 180 6059 6078 "global/clocks.ml" 180 6059 6080
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"global/clocks.ml" 180 6059 6081 "global/clocks.ml" 180 6059 6098
+type(
+  ('a * Idents.ident) list -> ('a * Idents.ident) list -> bool
+)
+ident(
+  int_ref disjoint_samplers "global/clocks.ml" 173 5831 5841 "global/clocks.ml" 173 5831 5858
+)
+"global/clocks.ml" 180 6059 6099 "global/clocks.ml" 180 6059 6104
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck1 "global/clocks.ml" 176 5940 5956 "global/clocks.ml" 176 5940 5961
+)
+"global/clocks.ml" 180 6059 6105 "global/clocks.ml" 180 6059 6110
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck2 "global/clocks.ml" 176 5940 5973 "global/clocks.ml" 176 5940 5978
+)
+"global/clocks.ml" 180 6059 6081 "global/clocks.ml" 180 6059 6110
+call(
+  tail
+)
+type(
+  bool
+)
+"global/clocks.ml" 180 6059 6069 "global/clocks.ml" 180 6059 6110
+type(
+  bool
+)
+"global/clocks.ml" 177 5982 5990 "global/clocks.ml" 180 6059 6110
+type(
+  bool
+)
+"global/clocks.ml" 173 5831 5873 "global/clocks.ml" 180 6059 6110
+type(
+  bool
+)
+"global/clocks.ml" 182 6116 6118 "global/clocks.ml" 182 6116 6135
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  (Names.constructor_name * Idents.var_ident) list -> bool
+)
+ident(
+  int_ref disjoint_samplers "global/clocks.ml" 173 5831 5841 "global/clocks.ml" 173 5831 5858
+)
+"global/clocks.ml" 182 6116 6137 "global/clocks.ml" 182 6116 6153
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 182 6116 6154 "global/clocks.ml" 182 6116 6156
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 182 6116 6157 "global/clocks.ml" 182 6116 6160
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 172 5804 5821 "global/clocks.ml" 172 5804 5824
+)
+"global/clocks.ml" 182 6116 6136 "global/clocks.ml" 182 6116 6161
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 182 6116 6163 "global/clocks.ml" 182 6116 6179
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 182 6116 6180 "global/clocks.ml" 182 6116 6182
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 182 6116 6183 "global/clocks.ml" 182 6116 6186
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 172 5804 5825 "global/clocks.ml" 172 5804 5828
+)
+"global/clocks.ml" 182 6116 6162 "global/clocks.ml" 182 6116 6187
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 182 6116 6118 "global/clocks.ml" 182 6116 6187
+call(
+  tail
+)
+type(
+  bool
+)
+"global/clocks.ml" 173 5831 5833 "global/clocks.ml" 182 6116 6187
+type(
+  bool
+)
+"global/clocks.ml" 185 6235 6239 "global/clocks.ml" 185 6235 6250
+type(
+  ck -> ck -> bool
+)
+ident(
+  def is_subclock "global/clocks.ml" 195 6525 6591 "global/clocks.ml" 1 0 -1
+)
+"global/clocks.ml" 185 6235 6251 "global/clocks.ml" 185 6235 6254
+type(
+  ck
+)
+ident(
+  def ck1 "global/clocks.ml" 185 6235 6255 "global/clocks.ml" 195 6525 6591
+)
+"global/clocks.ml" 185 6235 6255 "global/clocks.ml" 185 6235 6258
+type(
+  ck
+)
+ident(
+  def ck2 "global/clocks.ml" 186 6261 6263 "global/clocks.ml" 195 6525 6591
+)
+"global/clocks.ml" 186 6261 6271 "global/clocks.ml" 186 6261 6283
+type(
+  ('a * Idents.ident) list -> ('a * Idents.ident) list -> bool
+)
+ident(
+  def sub_samplers "global/clocks.ml" 186 6261 6263 "global/clocks.ml" 195 6525 6591
+)
+"global/clocks.ml" 186 6261 6284 "global/clocks.ml" 186 6261 6289
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck1 "global/clocks.ml" 186 6261 6290 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 186 6261 6290 "global/clocks.ml" 186 6261 6295
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck2 "global/clocks.ml" 186 6261 6298 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 186 6261 6304 "global/clocks.ml" 186 6261 6309
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck1 "global/clocks.ml" 186 6261 6284 "global/clocks.ml" 186 6261 6289
+)
+"global/clocks.ml" 186 6261 6311 "global/clocks.ml" 186 6261 6316
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck2 "global/clocks.ml" 186 6261 6290 "global/clocks.ml" 186 6261 6295
+)
+"global/clocks.ml" 186 6261 6304 "global/clocks.ml" 186 6261 6316
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 187 6322 6328 "global/clocks.ml" 187 6322 6329
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 187 6322 6331 "global/clocks.ml" 187 6322 6333
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 187 6322 6328 "global/clocks.ml" 187 6322 6333
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 187 6322 6337 "global/clocks.ml" 187 6322 6341
+type(
+  bool
+)
+"global/clocks.ml" 188 6342 6348 "global/clocks.ml" 188 6342 6350
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 188 6342 6352 "global/clocks.ml" 188 6342 6353
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 188 6342 6348 "global/clocks.ml" 188 6342 6353
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 188 6342 6357 "global/clocks.ml" 188 6342 6362
+type(
+  bool
+)
+"global/clocks.ml" 189 6363 6370 "global/clocks.ml" 189 6363 6372
+type(
+  'a
+)
+ident(
+  def c1 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6374 "global/clocks.ml" 189 6363 6376
+type(
+  Idents.ident
+)
+ident(
+  def x1 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6369 "global/clocks.ml" 189 6363 6377
+type(
+  'a * Idents.ident
+)
+"global/clocks.ml" 189 6363 6379 "global/clocks.ml" 189 6363 6384
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck1 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6369 "global/clocks.ml" 189 6363 6384
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 189 6363 6387 "global/clocks.ml" 189 6363 6389
+type(
+  'a
+)
+ident(
+  def c2 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6391 "global/clocks.ml" 189 6363 6393
+type(
+  Idents.ident
+)
+ident(
+  def x2 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6386 "global/clocks.ml" 189 6363 6394
+type(
+  'a * Idents.ident
+)
+"global/clocks.ml" 189 6363 6396 "global/clocks.ml" 189 6363 6401
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  def s_ck2 "global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+)
+"global/clocks.ml" 189 6363 6386 "global/clocks.ml" 189 6363 6401
+type(
+  ('a * Idents.ident) list
+)
+"global/clocks.ml" 189 6363 6369 "global/clocks.ml" 189 6363 6401
+type(
+  ('a * Idents.ident) list * ('a * Idents.ident) list
+)
+"global/clocks.ml" 190 6405 6414 "global/clocks.ml" 190 6405 6434
+type(
+  Idents.ident -> Idents.ident -> int
+)
+ident(
+  ext_ref Idents.ident_compare
+)
+"global/clocks.ml" 190 6405 6435 "global/clocks.ml" 190 6405 6437
+type(
+  Idents.ident
+)
+ident(
+  int_ref x1 "global/clocks.ml" 189 6363 6374 "global/clocks.ml" 189 6363 6376
+)
+"global/clocks.ml" 190 6405 6438 "global/clocks.ml" 190 6405 6440
+type(
+  Idents.ident
+)
+ident(
+  int_ref x2 "global/clocks.ml" 189 6363 6391 "global/clocks.ml" 189 6363 6393
+)
+"global/clocks.ml" 190 6405 6414 "global/clocks.ml" 190 6405 6440
+call(
+  stack
+)
+type(
+  int
+)
+"global/clocks.ml" 190 6405 6441 "global/clocks.ml" 190 6405 6443
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global/clocks.ml" 190 6405 6444 "global/clocks.ml" 190 6405 6445
+type(
+  int
+)
+"global/clocks.ml" 190 6405 6414 "global/clocks.ml" 190 6405 6445
+type(
+  bool
+)
+"global/clocks.ml" 191 6451 6459 "global/clocks.ml" 191 6451 6464
+type(
+  bool
+)
+"global/clocks.ml" 193 6476 6484 "global/clocks.ml" 193 6476 6486
+type(
+  'a
+)
+ident(
+  int_ref c1 "global/clocks.ml" 189 6363 6370 "global/clocks.ml" 189 6363 6372
+)
+"global/clocks.ml" 193 6476 6487 "global/clocks.ml" 193 6476 6488
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/clocks.ml" 193 6476 6489 "global/clocks.ml" 193 6476 6491
+type(
+  'a
+)
+ident(
+  int_ref c2 "global/clocks.ml" 189 6363 6387 "global/clocks.ml" 189 6363 6389
+)
+"global/clocks.ml" 193 6476 6484 "global/clocks.ml" 193 6476 6491
+type(
+  bool
+)
+"global/clocks.ml" 193 6476 6492 "global/clocks.ml" 193 6476 6494
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/clocks.ml" 193 6476 6495 "global/clocks.ml" 193 6476 6507
+type(
+  ('a * Idents.ident) list -> ('a * Idents.ident) list -> bool
+)
+ident(
+  int_ref sub_samplers "global/clocks.ml" 186 6261 6271 "global/clocks.ml" 186 6261 6283
+)
+"global/clocks.ml" 193 6476 6508 "global/clocks.ml" 193 6476 6513
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck1 "global/clocks.ml" 189 6363 6379 "global/clocks.ml" 189 6363 6384
+)
+"global/clocks.ml" 193 6476 6514 "global/clocks.ml" 193 6476 6519
+type(
+  ('a * Idents.ident) list
+)
+ident(
+  int_ref s_ck2 "global/clocks.ml" 189 6363 6396 "global/clocks.ml" 189 6363 6401
+)
+"global/clocks.ml" 193 6476 6495 "global/clocks.ml" 193 6476 6519
+call(
+  tail
+)
+type(
+  bool
+)
+"global/clocks.ml" 193 6476 6484 "global/clocks.ml" 193 6476 6519
+type(
+  bool
+)
+"global/clocks.ml" 190 6405 6411 "global/clocks.ml" 193 6476 6519
+type(
+  bool
+)
+"global/clocks.ml" 186 6261 6298 "global/clocks.ml" 193 6476 6519
+type(
+  bool
+)
+"global/clocks.ml" 195 6525 6527 "global/clocks.ml" 195 6525 6539
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  (Names.constructor_name * Idents.var_ident) list -> bool
+)
+ident(
+  int_ref sub_samplers "global/clocks.ml" 186 6261 6271 "global/clocks.ml" 186 6261 6283
+)
+"global/clocks.ml" 195 6525 6541 "global/clocks.ml" 195 6525 6557
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 195 6525 6558 "global/clocks.ml" 195 6525 6560
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 195 6525 6561 "global/clocks.ml" 195 6525 6564
+type(
+  ck
+)
+ident(
+  int_ref ck1 "global/clocks.ml" 185 6235 6251 "global/clocks.ml" 185 6235 6254
+)
+"global/clocks.ml" 195 6525 6540 "global/clocks.ml" 195 6525 6565
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 195 6525 6567 "global/clocks.ml" 195 6525 6583
+type(
+  (Names.constructor_name * Idents.var_ident) list ->
+  ck -> (Names.constructor_name * Idents.var_ident) list
+)
+ident(
+  int_ref list_of_samplers "global/clocks.ml" 167 5592 5600 "global/clocks.ml" 167 5592 5616
+)
+"global/clocks.ml" 195 6525 6584 "global/clocks.ml" 195 6525 6586
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 195 6525 6587 "global/clocks.ml" 195 6525 6590
+type(
+  ck
+)
+ident(
+  int_ref ck2 "global/clocks.ml" 185 6235 6255 "global/clocks.ml" 185 6235 6258
+)
+"global/clocks.ml" 195 6525 6566 "global/clocks.ml" 195 6525 6591
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Idents.var_ident) list
+)
+"global/clocks.ml" 195 6525 6527 "global/clocks.ml" 195 6525 6591
+call(
+  tail
+)
+type(
+  bool
+)
+"global/clocks.ml" 186 6261 6263 "global/clocks.ml" 195 6525 6591
+type(
+  bool
+)

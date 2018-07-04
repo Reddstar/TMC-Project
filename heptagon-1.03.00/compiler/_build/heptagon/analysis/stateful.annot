@@ -1,0 +1,2234 @@
+"heptagon/analysis/stateful.ml" 40 2307 2311 "heptagon/analysis/stateful.ml" 40 2307 2318
+type(
+  Location.location -> error -> 'a
+)
+ident(
+  def message "heptagon/analysis/stateful.ml" 52 2672 2672 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 40 2307 2319 "heptagon/analysis/stateful.ml" 40 2307 2322
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/analysis/stateful.ml" 40 2307 2323 "heptagon/analysis/stateful.ml" 49 2625 2645
+)
+"heptagon/analysis/stateful.ml" 40 2307 2323 "heptagon/analysis/stateful.ml" 40 2307 2327
+type(
+  error
+)
+ident(
+  def kind "heptagon/analysis/stateful.ml" 41 2330 2332 "heptagon/analysis/stateful.ml" 49 2625 2645
+)
+"heptagon/analysis/stateful.ml" 41 2330 2344 "heptagon/analysis/stateful.ml" 41 2330 2348
+type(
+  error
+)
+ident(
+  int_ref kind "heptagon/analysis/stateful.ml" 40 2307 2323 "heptagon/analysis/stateful.ml" 40 2307 2327
+)
+"heptagon/analysis/stateful.ml" 42 2354 2360 "heptagon/analysis/stateful.ml" 42 2354 2377
+type(
+  error
+)
+"heptagon/analysis/stateful.ml" 43 2381 2389 "heptagon/analysis/stateful.ml" 43 2381 2403
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/analysis/stateful.ml" 43 2381 2404 "heptagon/analysis/stateful.ml" 43 2381 2459
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"heptagon/analysis/stateful.ml" 44 2460 2470 "heptagon/analysis/stateful.ml" 44 2460 2484
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"heptagon/analysis/stateful.ml" 44 2460 2485 "heptagon/analysis/stateful.ml" 44 2460 2488
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/analysis/stateful.ml" 40 2307 2319 "heptagon/analysis/stateful.ml" 40 2307 2322
+)
+"heptagon/analysis/stateful.ml" 43 2381 2389 "heptagon/analysis/stateful.ml" 44 2460 2488
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 45 2489 2495 "heptagon/analysis/stateful.ml" 45 2489 2519
+type(
+  error
+)
+"heptagon/analysis/stateful.ml" 46 2523 2531 "heptagon/analysis/stateful.ml" 46 2523 2545
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/analysis/stateful.ml" 46 2523 2546 "heptagon/analysis/stateful.ml" 46 2523 2588
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"heptagon/analysis/stateful.ml" 47 2589 2599 "heptagon/analysis/stateful.ml" 47 2589 2613
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"heptagon/analysis/stateful.ml" 47 2589 2614 "heptagon/analysis/stateful.ml" 47 2589 2617
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/analysis/stateful.ml" 40 2307 2319 "heptagon/analysis/stateful.ml" 40 2307 2322
+)
+"heptagon/analysis/stateful.ml" 46 2523 2531 "heptagon/analysis/stateful.ml" 47 2589 2617
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 41 2330 2332 "heptagon/analysis/stateful.ml" 48 2618 2623
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 49 2625 2627 "heptagon/analysis/stateful.ml" 49 2625 2632
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/stateful.ml" 49 2625 2633 "heptagon/analysis/stateful.ml" 49 2625 2645
+type(
+  exn
+)
+"heptagon/analysis/stateful.ml" 49 2625 2627 "heptagon/analysis/stateful.ml" 49 2625 2645
+type(
+  'a
+)
+"heptagon/analysis/stateful.ml" 41 2330 2332 "heptagon/analysis/stateful.ml" 49 2625 2645
+type(
+  'a
+)
+"heptagon/analysis/stateful.ml" 52 2672 2676 "heptagon/analysis/stateful.ml" 52 2672 2680
+type(
+  'a -> bool -> Heptagon.last -> Heptagon.last * bool
+)
+ident(
+  def last "heptagon/analysis/stateful.ml" 58 2885 2885 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 52 2672 2681 "heptagon/analysis/stateful.ml" 52 2672 2682
+type(
+  'a
+)
+"heptagon/analysis/stateful.ml" 52 2672 2683 "heptagon/analysis/stateful.ml" 52 2672 2691
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 52 2672 2692 "heptagon/analysis/stateful.ml" 54 2732 2753
+)
+"heptagon/analysis/stateful.ml" 52 2672 2692 "heptagon/analysis/stateful.ml" 52 2672 2693
+type(
+  Heptagon.last
+)
+ident(
+  def l "heptagon/analysis/stateful.ml" 52 2672 2696 "heptagon/analysis/stateful.ml" 54 2732 2753
+)
+"heptagon/analysis/stateful.ml" 52 2672 2702 "heptagon/analysis/stateful.ml" 52 2672 2703
+type(
+  Heptagon.last
+)
+ident(
+  int_ref l "heptagon/analysis/stateful.ml" 52 2672 2692 "heptagon/analysis/stateful.ml" 52 2672 2693
+)
+"heptagon/analysis/stateful.ml" 53 2709 2713 "heptagon/analysis/stateful.ml" 53 2709 2716
+type(
+  Heptagon.last
+)
+"heptagon/analysis/stateful.ml" 53 2709 2720 "heptagon/analysis/stateful.ml" 53 2709 2721
+type(
+  Heptagon.last
+)
+ident(
+  int_ref l "heptagon/analysis/stateful.ml" 52 2672 2692 "heptagon/analysis/stateful.ml" 52 2672 2693
+)
+"heptagon/analysis/stateful.ml" 53 2709 2723 "heptagon/analysis/stateful.ml" 53 2709 2731
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 52 2672 2683 "heptagon/analysis/stateful.ml" 52 2672 2691
+)
+"heptagon/analysis/stateful.ml" 53 2709 2720 "heptagon/analysis/stateful.ml" 53 2709 2731
+type(
+  Heptagon.last * bool
+)
+"heptagon/analysis/stateful.ml" 54 2732 2741 "heptagon/analysis/stateful.ml" 54 2732 2742
+type(
+  Types.static_exp option
+)
+"heptagon/analysis/stateful.ml" 54 2732 2736 "heptagon/analysis/stateful.ml" 54 2732 2742
+type(
+  Heptagon.last
+)
+"heptagon/analysis/stateful.ml" 54 2732 2746 "heptagon/analysis/stateful.ml" 54 2732 2747
+type(
+  Heptagon.last
+)
+ident(
+  int_ref l "heptagon/analysis/stateful.ml" 52 2672 2692 "heptagon/analysis/stateful.ml" 52 2672 2693
+)
+"heptagon/analysis/stateful.ml" 54 2732 2749 "heptagon/analysis/stateful.ml" 54 2732 2753
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 54 2732 2746 "heptagon/analysis/stateful.ml" 54 2732 2753
+type(
+  Heptagon.last * bool
+)
+"heptagon/analysis/stateful.ml" 52 2672 2696 "heptagon/analysis/stateful.ml" 54 2732 2753
+type(
+  Heptagon.last * bool
+)
+"heptagon/analysis/stateful.ml" 58 2885 2889 "heptagon/analysis/stateful.ml" 58 2885 2894
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.desc -> Heptagon.desc * bool
+)
+ident(
+  def edesc "heptagon/analysis/stateful.ml" 75 3730 3730 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 58 2885 2895 "heptagon/analysis/stateful.ml" 58 2885 2899
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 58 2885 2900 "heptagon/analysis/stateful.ml" 72 3656 3681
+)
+"heptagon/analysis/stateful.ml" 58 2885 2900 "heptagon/analysis/stateful.ml" 58 2885 2908
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 58 2885 2909 "heptagon/analysis/stateful.ml" 72 3656 3681
+)
+"heptagon/analysis/stateful.ml" 58 2885 2909 "heptagon/analysis/stateful.ml" 58 2885 2911
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/analysis/stateful.ml" 59 2914 2916 "heptagon/analysis/stateful.ml" 72 3656 3681
+)
+"heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2922
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/analysis/stateful.ml" 60 2974 2978 "heptagon/analysis/stateful.ml" 72 3656 3681
+)
+"heptagon/analysis/stateful.ml" 59 2914 2924 "heptagon/analysis/stateful.ml" 59 2914 2932
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 60 2974 2978 "heptagon/analysis/stateful.ml" 72 3656 3681
+)
+"heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2932
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 59 2914 2935 "heptagon/analysis/stateful.ml" 59 2914 2953
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.desc -> Heptagon.desc * bool
+)
+ident(
+  ext_ref Hept_mapfold.edesc
+)
+"heptagon/analysis/stateful.ml" 59 2914 2954 "heptagon/analysis/stateful.ml" 59 2914 2958
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 58 2885 2895 "heptagon/analysis/stateful.ml" 58 2885 2899
+)
+"heptagon/analysis/stateful.ml" 59 2914 2959 "heptagon/analysis/stateful.ml" 59 2914 2967
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 58 2885 2900 "heptagon/analysis/stateful.ml" 58 2885 2908
+)
+"heptagon/analysis/stateful.ml" 59 2914 2968 "heptagon/analysis/stateful.ml" 59 2914 2970
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/analysis/stateful.ml" 58 2885 2909 "heptagon/analysis/stateful.ml" 58 2885 2911
+)
+"heptagon/analysis/stateful.ml" 59 2914 2935 "heptagon/analysis/stateful.ml" 59 2914 2970
+call(
+  stack
+)
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 60 2974 2984 "heptagon/analysis/stateful.ml" 60 2974 2986
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2922
+)
+"heptagon/analysis/stateful.ml" 61 2992 3005 "heptagon/analysis/stateful.ml" 61 2992 3006
+type(
+  Heptagon.exp
+)
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/stateful.ml" 61 2992 3000 "heptagon/analysis/stateful.ml" 61 2992 3006
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 61 2992 3014 "heptagon/analysis/stateful.ml" 61 2992 3015
+type(
+  Heptagon.exp
+)
+type(
+  Types.static_exp option
+)
+"heptagon/analysis/stateful.ml" 61 2992 3009 "heptagon/analysis/stateful.ml" 61 2992 3015
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 61 2992 3000 "heptagon/analysis/stateful.ml" 61 2992 3015
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 61 2992 3019 "heptagon/analysis/stateful.ml" 61 2992 3021
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2922
+)
+"heptagon/analysis/stateful.ml" 61 2992 3023 "heptagon/analysis/stateful.ml" 61 2992 3027
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 61 2992 3019 "heptagon/analysis/stateful.ml" 61 2992 3027
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 62 3028 3050 "heptagon/analysis/stateful.ml" 62 3028 3056
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 62 3028 3041 "heptagon/analysis/stateful.ml" 62 3028 3058
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 62 3028 3060 "heptagon/analysis/stateful.ml" 62 3028 3061
+type(
+  Heptagon.exp list
+)
+"heptagon/analysis/stateful.ml" 62 3028 3063 "heptagon/analysis/stateful.ml" 62 3028 3064
+type(
+  Heptagon.exp option
+)
+"heptagon/analysis/stateful.ml" 62 3028 3036 "heptagon/analysis/stateful.ml" 62 3028 3065
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 62 3028 3069 "heptagon/analysis/stateful.ml" 62 3028 3071
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2922
+)
+"heptagon/analysis/stateful.ml" 62 3028 3073 "heptagon/analysis/stateful.ml" 62 3028 3077
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 62 3028 3069 "heptagon/analysis/stateful.ml" 62 3028 3077
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 63 3078 3107 "heptagon/analysis/stateful.ml" 63 3078 3108
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 63 3078 3101 "heptagon/analysis/stateful.ml" 63 3078 3108
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 63 3078 3116 "heptagon/analysis/stateful.ml" 63 3078 3117
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 63 3078 3111 "heptagon/analysis/stateful.ml" 63 3078 3117
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 63 3078 3100 "heptagon/analysis/stateful.ml" 63 3078 3118
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 63 3078 3091 "heptagon/analysis/stateful.ml" 63 3078 3120
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 63 3078 3124 "heptagon/analysis/stateful.ml" 63 3078 3127
+ident(
+  def app "heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 63 3078 3091 "heptagon/analysis/stateful.ml" 63 3078 3127
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 63 3078 3129 "heptagon/analysis/stateful.ml" 63 3078 3135
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 63 3078 3137 "heptagon/analysis/stateful.ml" 63 3078 3138
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 63 3078 3086 "heptagon/analysis/stateful.ml" 63 3078 3139
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 64 3143 3157 "heptagon/analysis/stateful.ml" 64 3143 3164
+type(
+  Signature.node
+)
+ident(
+  def ty_desc "heptagon/analysis/stateful.ml" 65 3183 3193 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 64 3143 3167 "heptagon/analysis/stateful.ml" 64 3143 3177
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"heptagon/analysis/stateful.ml" 64 3143 3178 "heptagon/analysis/stateful.ml" 64 3143 3179
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 63 3078 3107 "heptagon/analysis/stateful.ml" 63 3078 3108
+)
+"heptagon/analysis/stateful.ml" 64 3143 3167 "heptagon/analysis/stateful.ml" 64 3143 3179
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/analysis/stateful.ml" 65 3183 3197 "heptagon/analysis/stateful.ml" 65 3183 3199
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/analysis/stateful.ml" 66 3255 3265 "heptagon/analysis/stateful.ml" 66 3255 3339
+)
+"heptagon/analysis/stateful.ml" 65 3183 3205 "heptagon/analysis/stateful.ml" 65 3183 3212
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/analysis/stateful.ml" 64 3143 3157 "heptagon/analysis/stateful.ml" 64 3143 3164
+)
+"heptagon/analysis/stateful.ml" 65 3183 3205 "heptagon/analysis/stateful.ml" 65 3183 3226
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 65 3183 3238 "heptagon/analysis/stateful.ml" 65 3183 3239
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 63 3078 3107 "heptagon/analysis/stateful.ml" 63 3078 3108
+)
+"heptagon/analysis/stateful.ml" 65 3183 3232 "heptagon/analysis/stateful.ml" 65 3183 3239
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 65 3183 3250 "heptagon/analysis/stateful.ml" 65 3183 3251
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 63 3078 3107 "heptagon/analysis/stateful.ml" 63 3078 3108
+)
+"heptagon/analysis/stateful.ml" 65 3183 3245 "heptagon/analysis/stateful.ml" 65 3183 3251
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 65 3183 3202 "heptagon/analysis/stateful.ml" 65 3183 3251
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 66 3255 3272 "heptagon/analysis/stateful.ml" 66 3255 3275
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/stateful.ml" 63 3078 3091 "heptagon/analysis/stateful.ml" 63 3078 3127
+)
+"heptagon/analysis/stateful.ml" 66 3255 3288 "heptagon/analysis/stateful.ml" 66 3255 3290
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/analysis/stateful.ml" 65 3183 3197 "heptagon/analysis/stateful.ml" 65 3183 3199
+)
+"heptagon/analysis/stateful.ml" 66 3255 3270 "heptagon/analysis/stateful.ml" 66 3255 3292
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 66 3255 3294 "heptagon/analysis/stateful.ml" 66 3255 3300
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/analysis/stateful.ml" 63 3078 3129 "heptagon/analysis/stateful.ml" 63 3078 3135
+)
+"heptagon/analysis/stateful.ml" 66 3255 3302 "heptagon/analysis/stateful.ml" 66 3255 3303
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/analysis/stateful.ml" 63 3078 3137 "heptagon/analysis/stateful.ml" 63 3078 3138
+)
+"heptagon/analysis/stateful.ml" 66 3255 3265 "heptagon/analysis/stateful.ml" 66 3255 3304
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 66 3255 3306 "heptagon/analysis/stateful.ml" 66 3255 3313
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/analysis/stateful.ml" 64 3143 3157 "heptagon/analysis/stateful.ml" 64 3143 3164
+)
+"heptagon/analysis/stateful.ml" 66 3255 3306 "heptagon/analysis/stateful.ml" 66 3255 3327
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 66 3255 3328 "heptagon/analysis/stateful.ml" 66 3255 3330
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 66 3255 3331 "heptagon/analysis/stateful.ml" 66 3255 3339
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 59 2914 2924 "heptagon/analysis/stateful.ml" 59 2914 2932
+)
+"heptagon/analysis/stateful.ml" 66 3255 3306 "heptagon/analysis/stateful.ml" 66 3255 3339
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 66 3255 3265 "heptagon/analysis/stateful.ml" 66 3255 3339
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 65 3183 3193 "heptagon/analysis/stateful.ml" 66 3255 3339
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 64 3143 3153 "heptagon/analysis/stateful.ml" 66 3255 3339
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 67 3340 3358 "heptagon/analysis/stateful.ml" 67 3340 3360
+type(
+  Heptagon.iterator_type
+)
+ident(
+  def it "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3379 "heptagon/analysis/stateful.ml" 67 3340 3380
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3373 "heptagon/analysis/stateful.ml" 67 3340 3380
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 67 3340 3388 "heptagon/analysis/stateful.ml" 67 3340 3389
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3383 "heptagon/analysis/stateful.ml" 67 3340 3389
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 67 3340 3372 "heptagon/analysis/stateful.ml" 67 3340 3390
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 67 3340 3363 "heptagon/analysis/stateful.ml" 67 3340 3392
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 67 3340 3396 "heptagon/analysis/stateful.ml" 67 3340 3399
+ident(
+  def app "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3362 "heptagon/analysis/stateful.ml" 67 3340 3400
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 67 3340 3402 "heptagon/analysis/stateful.ml" 67 3340 3403
+type(
+  Types.static_exp list
+)
+ident(
+  def n "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3405 "heptagon/analysis/stateful.ml" 67 3340 3412
+type(
+  Heptagon.exp list
+)
+ident(
+  def pe_list "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3414 "heptagon/analysis/stateful.ml" 67 3340 3420
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3422 "heptagon/analysis/stateful.ml" 67 3340 3423
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 67 3340 3348 "heptagon/analysis/stateful.ml" 67 3340 3424
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 68 3428 3442 "heptagon/analysis/stateful.ml" 68 3428 3449
+type(
+  Signature.node
+)
+ident(
+  def ty_desc "heptagon/analysis/stateful.ml" 69 3468 3478 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 68 3428 3452 "heptagon/analysis/stateful.ml" 68 3428 3462
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"heptagon/analysis/stateful.ml" 68 3428 3463 "heptagon/analysis/stateful.ml" 68 3428 3464
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 67 3340 3379 "heptagon/analysis/stateful.ml" 67 3340 3380
+)
+"heptagon/analysis/stateful.ml" 68 3428 3452 "heptagon/analysis/stateful.ml" 68 3428 3464
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/analysis/stateful.ml" 69 3468 3482 "heptagon/analysis/stateful.ml" 69 3468 3484
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/analysis/stateful.ml" 70 3540 3550 "heptagon/analysis/stateful.ml" 71 3612 3655
+)
+"heptagon/analysis/stateful.ml" 69 3468 3490 "heptagon/analysis/stateful.ml" 69 3468 3497
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/analysis/stateful.ml" 68 3428 3442 "heptagon/analysis/stateful.ml" 68 3428 3449
+)
+"heptagon/analysis/stateful.ml" 69 3468 3490 "heptagon/analysis/stateful.ml" 69 3468 3511
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 69 3468 3523 "heptagon/analysis/stateful.ml" 69 3468 3524
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 67 3340 3379 "heptagon/analysis/stateful.ml" 67 3340 3380
+)
+"heptagon/analysis/stateful.ml" 69 3468 3517 "heptagon/analysis/stateful.ml" 69 3468 3524
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 69 3468 3535 "heptagon/analysis/stateful.ml" 69 3468 3536
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/stateful.ml" 67 3340 3379 "heptagon/analysis/stateful.ml" 67 3340 3380
+)
+"heptagon/analysis/stateful.ml" 69 3468 3530 "heptagon/analysis/stateful.ml" 69 3468 3536
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 69 3468 3487 "heptagon/analysis/stateful.ml" 69 3468 3536
+type(
+  Heptagon.op
+)
+"heptagon/analysis/stateful.ml" 70 3540 3560 "heptagon/analysis/stateful.ml" 70 3540 3562
+type(
+  Heptagon.iterator_type
+)
+ident(
+  int_ref it "heptagon/analysis/stateful.ml" 67 3340 3358 "heptagon/analysis/stateful.ml" 67 3340 3360
+)
+"heptagon/analysis/stateful.ml" 70 3540 3566 "heptagon/analysis/stateful.ml" 70 3540 3569
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/stateful.ml" 67 3340 3362 "heptagon/analysis/stateful.ml" 67 3340 3400
+)
+"heptagon/analysis/stateful.ml" 70 3540 3582 "heptagon/analysis/stateful.ml" 70 3540 3584
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/analysis/stateful.ml" 69 3468 3482 "heptagon/analysis/stateful.ml" 69 3468 3484
+)
+"heptagon/analysis/stateful.ml" 70 3540 3564 "heptagon/analysis/stateful.ml" 70 3540 3586
+type(
+  Heptagon.app
+)
+"heptagon/analysis/stateful.ml" 70 3540 3588 "heptagon/analysis/stateful.ml" 70 3540 3589
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 67 3340 3402 "heptagon/analysis/stateful.ml" 67 3340 3403
+)
+"heptagon/analysis/stateful.ml" 70 3540 3591 "heptagon/analysis/stateful.ml" 70 3540 3598
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pe_list "heptagon/analysis/stateful.ml" 67 3340 3405 "heptagon/analysis/stateful.ml" 67 3340 3412
+)
+"heptagon/analysis/stateful.ml" 70 3540 3600 "heptagon/analysis/stateful.ml" 70 3540 3606
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/analysis/stateful.ml" 67 3340 3414 "heptagon/analysis/stateful.ml" 67 3340 3420
+)
+"heptagon/analysis/stateful.ml" 70 3540 3608 "heptagon/analysis/stateful.ml" 70 3540 3609
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/analysis/stateful.ml" 67 3340 3422 "heptagon/analysis/stateful.ml" 67 3340 3423
+)
+"heptagon/analysis/stateful.ml" 70 3540 3550 "heptagon/analysis/stateful.ml" 70 3540 3610
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 71 3612 3622 "heptagon/analysis/stateful.ml" 71 3612 3629
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/analysis/stateful.ml" 68 3428 3442 "heptagon/analysis/stateful.ml" 68 3428 3449
+)
+"heptagon/analysis/stateful.ml" 71 3612 3622 "heptagon/analysis/stateful.ml" 71 3612 3643
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 71 3612 3644 "heptagon/analysis/stateful.ml" 71 3612 3646
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 71 3612 3647 "heptagon/analysis/stateful.ml" 71 3612 3655
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 59 2914 2924 "heptagon/analysis/stateful.ml" 59 2914 2932
+)
+"heptagon/analysis/stateful.ml" 71 3612 3622 "heptagon/analysis/stateful.ml" 71 3612 3655
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 70 3540 3550 "heptagon/analysis/stateful.ml" 71 3612 3655
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 69 3468 3478 "heptagon/analysis/stateful.ml" 71 3612 3655
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 68 3428 3438 "heptagon/analysis/stateful.ml" 71 3612 3655
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 72 3656 3664 "heptagon/analysis/stateful.ml" 72 3656 3665
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 72 3656 3669 "heptagon/analysis/stateful.ml" 72 3656 3671
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/analysis/stateful.ml" 59 2914 2920 "heptagon/analysis/stateful.ml" 59 2914 2922
+)
+"heptagon/analysis/stateful.ml" 72 3656 3673 "heptagon/analysis/stateful.ml" 72 3656 3681
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 59 2914 2924 "heptagon/analysis/stateful.ml" 59 2914 2932
+)
+"heptagon/analysis/stateful.ml" 72 3656 3669 "heptagon/analysis/stateful.ml" 72 3656 3681
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 60 2974 2978 "heptagon/analysis/stateful.ml" 72 3656 3681
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 59 2914 2916 "heptagon/analysis/stateful.ml" 72 3656 3681
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 75 3730 3734 "heptagon/analysis/stateful.ml" 75 3730 3740
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.eqdesc -> Heptagon.eqdesc * bool
+)
+ident(
+  def eqdesc "heptagon/analysis/stateful.ml" 81 3963 3963 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 75 3730 3741 "heptagon/analysis/stateful.ml" 75 3730 3745
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 75 3730 3746 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 75 3730 3746 "heptagon/analysis/stateful.ml" 75 3730 3754
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 75 3730 3755 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 75 3730 3755 "heptagon/analysis/stateful.ml" 75 3730 3758
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/analysis/stateful.ml" 76 3761 3763 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 76 3761 3767 "heptagon/analysis/stateful.ml" 76 3761 3770
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/analysis/stateful.ml" 77 3824 3826 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 76 3761 3772 "heptagon/analysis/stateful.ml" 76 3761 3780
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 77 3824 3826 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 76 3761 3767 "heptagon/analysis/stateful.ml" 76 3761 3780
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/analysis/stateful.ml" 76 3761 3783 "heptagon/analysis/stateful.ml" 76 3761 3802
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.eqdesc -> Heptagon.eqdesc * bool
+)
+ident(
+  ext_ref Hept_mapfold.eqdesc
+)
+"heptagon/analysis/stateful.ml" 76 3761 3803 "heptagon/analysis/stateful.ml" 76 3761 3807
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 75 3730 3741 "heptagon/analysis/stateful.ml" 75 3730 3745
+)
+"heptagon/analysis/stateful.ml" 76 3761 3808 "heptagon/analysis/stateful.ml" 76 3761 3816
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 75 3730 3746 "heptagon/analysis/stateful.ml" 75 3730 3754
+)
+"heptagon/analysis/stateful.ml" 76 3761 3817 "heptagon/analysis/stateful.ml" 76 3761 3820
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/analysis/stateful.ml" 75 3730 3755 "heptagon/analysis/stateful.ml" 75 3730 3758
+)
+"heptagon/analysis/stateful.ml" 76 3761 3783 "heptagon/analysis/stateful.ml" 76 3761 3820
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/analysis/stateful.ml" 77 3824 3830 "heptagon/analysis/stateful.ml" 77 3824 3842
+type(
+  bool
+)
+ident(
+  def is_automaton "heptagon/analysis/stateful.ml" 78 3899 3901 "heptagon/analysis/stateful.ml" 78 3899 3930
+)
+"heptagon/analysis/stateful.ml" 77 3824 3851 "heptagon/analysis/stateful.ml" 77 3824 3854
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/analysis/stateful.ml" 76 3761 3767 "heptagon/analysis/stateful.ml" 76 3761 3770
+)
+"heptagon/analysis/stateful.ml" 77 3824 3873 "heptagon/analysis/stateful.ml" 77 3824 3874
+type(
+  Heptagon.state_handler list
+)
+"heptagon/analysis/stateful.ml" 77 3824 3862 "heptagon/analysis/stateful.ml" 77 3824 3874
+type(
+  Heptagon.eqdesc
+)
+"heptagon/analysis/stateful.ml" 77 3824 3878 "heptagon/analysis/stateful.ml" 77 3824 3882
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 77 3824 3885 "heptagon/analysis/stateful.ml" 77 3824 3886
+type(
+  Heptagon.eqdesc
+)
+"heptagon/analysis/stateful.ml" 77 3824 3890 "heptagon/analysis/stateful.ml" 77 3824 3895
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 77 3824 3845 "heptagon/analysis/stateful.ml" 77 3824 3895
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 78 3899 3901 "heptagon/analysis/stateful.ml" 78 3899 3904
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/analysis/stateful.ml" 76 3761 3767 "heptagon/analysis/stateful.ml" 76 3761 3770
+)
+"heptagon/analysis/stateful.ml" 78 3899 3906 "heptagon/analysis/stateful.ml" 78 3899 3914
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 76 3761 3772 "heptagon/analysis/stateful.ml" 76 3761 3780
+)
+"heptagon/analysis/stateful.ml" 78 3899 3915 "heptagon/analysis/stateful.ml" 78 3899 3917
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 78 3899 3918 "heptagon/analysis/stateful.ml" 78 3899 3930
+type(
+  bool
+)
+ident(
+  int_ref is_automaton "heptagon/analysis/stateful.ml" 77 3824 3830 "heptagon/analysis/stateful.ml" 77 3824 3842
+)
+"heptagon/analysis/stateful.ml" 78 3899 3906 "heptagon/analysis/stateful.ml" 78 3899 3930
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 78 3899 3901 "heptagon/analysis/stateful.ml" 78 3899 3930
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/analysis/stateful.ml" 77 3824 3826 "heptagon/analysis/stateful.ml" 78 3899 3930
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/analysis/stateful.ml" 76 3761 3763 "heptagon/analysis/stateful.ml" 78 3899 3930
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/analysis/stateful.ml" 81 3963 3967 "heptagon/analysis/stateful.ml" 81 3963 3969
+type(
+  bool Hept_mapfold.hept_it_funs -> bool -> Heptagon.eq -> Heptagon.eq * bool
+)
+ident(
+  def eq "heptagon/analysis/stateful.ml" 86 4125 4125 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 81 3963 3970 "heptagon/analysis/stateful.ml" 81 3963 3974
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 81 3963 3975 "heptagon/analysis/stateful.ml" 83 4038 4093
+)
+"heptagon/analysis/stateful.ml" 81 3963 3975 "heptagon/analysis/stateful.ml" 81 3963 3978
+type(
+  bool
+)
+ident(
+  def acc "heptagon/analysis/stateful.ml" 81 3963 3979 "heptagon/analysis/stateful.ml" 83 4038 4093
+)
+"heptagon/analysis/stateful.ml" 81 3963 3979 "heptagon/analysis/stateful.ml" 81 3963 3981
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/analysis/stateful.ml" 82 3984 3986 "heptagon/analysis/stateful.ml" 83 4038 4093
+)
+"heptagon/analysis/stateful.ml" 82 3984 3990 "heptagon/analysis/stateful.ml" 82 3984 3992
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/analysis/stateful.ml" 83 4038 4042 "heptagon/analysis/stateful.ml" 83 4038 4093
+)
+"heptagon/analysis/stateful.ml" 82 3984 3994 "heptagon/analysis/stateful.ml" 82 3984 4002
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 83 4038 4042 "heptagon/analysis/stateful.ml" 83 4038 4093
+)
+"heptagon/analysis/stateful.ml" 82 3984 3990 "heptagon/analysis/stateful.ml" 82 3984 4002
+type(
+  Heptagon.eq * bool
+)
+"heptagon/analysis/stateful.ml" 82 3984 4005 "heptagon/analysis/stateful.ml" 82 3984 4020
+type(
+  bool Hept_mapfold.hept_it_funs -> bool -> Heptagon.eq -> Heptagon.eq * bool
+)
+ident(
+  ext_ref Hept_mapfold.eq
+)
+"heptagon/analysis/stateful.ml" 82 3984 4021 "heptagon/analysis/stateful.ml" 82 3984 4025
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 81 3963 3970 "heptagon/analysis/stateful.ml" 81 3963 3974
+)
+"heptagon/analysis/stateful.ml" 82 3984 4026 "heptagon/analysis/stateful.ml" 82 3984 4031
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 82 3984 4032 "heptagon/analysis/stateful.ml" 82 3984 4034
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/analysis/stateful.ml" 81 3963 3979 "heptagon/analysis/stateful.ml" 81 3963 3981
+)
+"heptagon/analysis/stateful.ml" 82 3984 4005 "heptagon/analysis/stateful.ml" 82 3984 4034
+call(
+  stack
+)
+type(
+  Heptagon.eq * bool
+)
+"heptagon/analysis/stateful.ml" 83 4038 4044 "heptagon/analysis/stateful.ml" 83 4038 4046
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/analysis/stateful.ml" 82 3984 3990 "heptagon/analysis/stateful.ml" 82 3984 3992
+)
+"heptagon/analysis/stateful.ml" 83 4038 4066 "heptagon/analysis/stateful.ml" 83 4038 4074
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 82 3984 3994 "heptagon/analysis/stateful.ml" 82 3984 4002
+)
+"heptagon/analysis/stateful.ml" 83 4038 4042 "heptagon/analysis/stateful.ml" 83 4038 4076
+type(
+  Heptagon.eq
+)
+"heptagon/analysis/stateful.ml" 83 4038 4078 "heptagon/analysis/stateful.ml" 83 4038 4086
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 82 3984 3994 "heptagon/analysis/stateful.ml" 82 3984 4002
+)
+"heptagon/analysis/stateful.ml" 83 4038 4087 "heptagon/analysis/stateful.ml" 83 4038 4089
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 83 4038 4090 "heptagon/analysis/stateful.ml" 83 4038 4093
+type(
+  bool
+)
+ident(
+  int_ref acc "heptagon/analysis/stateful.ml" 81 3963 3975 "heptagon/analysis/stateful.ml" 81 3963 3978
+)
+"heptagon/analysis/stateful.ml" 83 4038 4078 "heptagon/analysis/stateful.ml" 83 4038 4093
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 83 4038 4042 "heptagon/analysis/stateful.ml" 83 4038 4093
+type(
+  Heptagon.eq * bool
+)
+"heptagon/analysis/stateful.ml" 82 3984 3986 "heptagon/analysis/stateful.ml" 83 4038 4093
+type(
+  Heptagon.eq * bool
+)
+"heptagon/analysis/stateful.ml" 86 4125 4129 "heptagon/analysis/stateful.ml" 86 4125 4134
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.block -> Heptagon.block * bool
+)
+ident(
+  def block "heptagon/analysis/stateful.ml" 91 4326 4326 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 86 4125 4135 "heptagon/analysis/stateful.ml" 86 4125 4139
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 86 4125 4140 "heptagon/analysis/stateful.ml" 88 4203 4256
+)
+"heptagon/analysis/stateful.ml" 86 4125 4140 "heptagon/analysis/stateful.ml" 86 4125 4143
+type(
+  bool
+)
+ident(
+  def acc "heptagon/analysis/stateful.ml" 86 4125 4144 "heptagon/analysis/stateful.ml" 88 4203 4256
+)
+"heptagon/analysis/stateful.ml" 86 4125 4144 "heptagon/analysis/stateful.ml" 86 4125 4145
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/analysis/stateful.ml" 87 4148 4150 "heptagon/analysis/stateful.ml" 88 4203 4256
+)
+"heptagon/analysis/stateful.ml" 87 4148 4154 "heptagon/analysis/stateful.ml" 87 4148 4155
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/analysis/stateful.ml" 88 4203 4207 "heptagon/analysis/stateful.ml" 88 4203 4256
+)
+"heptagon/analysis/stateful.ml" 87 4148 4157 "heptagon/analysis/stateful.ml" 87 4148 4165
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 88 4203 4207 "heptagon/analysis/stateful.ml" 88 4203 4256
+)
+"heptagon/analysis/stateful.ml" 87 4148 4154 "heptagon/analysis/stateful.ml" 87 4148 4165
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 87 4148 4168 "heptagon/analysis/stateful.ml" 87 4148 4186
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.block -> Heptagon.block * bool
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/analysis/stateful.ml" 87 4148 4187 "heptagon/analysis/stateful.ml" 87 4148 4191
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 86 4125 4135 "heptagon/analysis/stateful.ml" 86 4125 4139
+)
+"heptagon/analysis/stateful.ml" 87 4148 4192 "heptagon/analysis/stateful.ml" 87 4148 4197
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 87 4148 4198 "heptagon/analysis/stateful.ml" 87 4148 4199
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/analysis/stateful.ml" 86 4125 4144 "heptagon/analysis/stateful.ml" 86 4125 4145
+)
+"heptagon/analysis/stateful.ml" 87 4148 4168 "heptagon/analysis/stateful.ml" 87 4148 4199
+call(
+  stack
+)
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 88 4203 4209 "heptagon/analysis/stateful.ml" 88 4203 4210
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/analysis/stateful.ml" 87 4148 4154 "heptagon/analysis/stateful.ml" 87 4148 4155
+)
+"heptagon/analysis/stateful.ml" 88 4203 4229 "heptagon/analysis/stateful.ml" 88 4203 4237
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 87 4148 4157 "heptagon/analysis/stateful.ml" 87 4148 4165
+)
+"heptagon/analysis/stateful.ml" 88 4203 4207 "heptagon/analysis/stateful.ml" 88 4203 4239
+type(
+  Heptagon.block
+)
+"heptagon/analysis/stateful.ml" 88 4203 4241 "heptagon/analysis/stateful.ml" 88 4203 4244
+type(
+  bool
+)
+ident(
+  int_ref acc "heptagon/analysis/stateful.ml" 86 4125 4140 "heptagon/analysis/stateful.ml" 86 4125 4143
+)
+"heptagon/analysis/stateful.ml" 88 4203 4245 "heptagon/analysis/stateful.ml" 88 4203 4247
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 88 4203 4248 "heptagon/analysis/stateful.ml" 88 4203 4256
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 87 4148 4157 "heptagon/analysis/stateful.ml" 87 4148 4165
+)
+"heptagon/analysis/stateful.ml" 88 4203 4241 "heptagon/analysis/stateful.ml" 88 4203 4256
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 88 4203 4207 "heptagon/analysis/stateful.ml" 88 4203 4256
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 87 4148 4150 "heptagon/analysis/stateful.ml" 88 4203 4256
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 91 4326 4330 "heptagon/analysis/stateful.ml" 91 4326 4343
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.escape -> Heptagon.escape * bool
+)
+ident(
+  def escape_unless "heptagon/analysis/stateful.ml" 98 4568 4568 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 91 4326 4344 "heptagon/analysis/stateful.ml" 91 4326 4348
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 91 4326 4349 "heptagon/analysis/stateful.ml" 95 4497 4521
+)
+"heptagon/analysis/stateful.ml" 91 4326 4349 "heptagon/analysis/stateful.ml" 91 4326 4352
+type(
+  bool
+)
+ident(
+  def acc "heptagon/analysis/stateful.ml" 91 4326 4353 "heptagon/analysis/stateful.ml" 95 4497 4521
+)
+"heptagon/analysis/stateful.ml" 91 4326 4353 "heptagon/analysis/stateful.ml" 91 4326 4356
+type(
+  Heptagon.escape
+)
+ident(
+  def esc "heptagon/analysis/stateful.ml" 92 4359 4361 "heptagon/analysis/stateful.ml" 95 4497 4521
+)
+"heptagon/analysis/stateful.ml" 92 4359 4365 "heptagon/analysis/stateful.ml" 92 4359 4368
+type(
+  Heptagon.escape
+)
+ident(
+  def esc "heptagon/analysis/stateful.ml" 93 4419 4423 "heptagon/analysis/stateful.ml" 95 4497 4521
+)
+"heptagon/analysis/stateful.ml" 92 4359 4370 "heptagon/analysis/stateful.ml" 92 4359 4378
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 93 4419 4423 "heptagon/analysis/stateful.ml" 95 4497 4521
+)
+"heptagon/analysis/stateful.ml" 92 4359 4365 "heptagon/analysis/stateful.ml" 92 4359 4378
+type(
+  Heptagon.escape * bool
+)
+"heptagon/analysis/stateful.ml" 92 4359 4381 "heptagon/analysis/stateful.ml" 92 4359 4400
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.escape -> Heptagon.escape * bool
+)
+ident(
+  ext_ref Hept_mapfold.escape
+)
+"heptagon/analysis/stateful.ml" 92 4359 4401 "heptagon/analysis/stateful.ml" 92 4359 4405
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 91 4326 4344 "heptagon/analysis/stateful.ml" 91 4326 4348
+)
+"heptagon/analysis/stateful.ml" 92 4359 4406 "heptagon/analysis/stateful.ml" 92 4359 4411
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 92 4359 4412 "heptagon/analysis/stateful.ml" 92 4359 4415
+type(
+  Heptagon.escape
+)
+ident(
+  int_ref esc "heptagon/analysis/stateful.ml" 91 4326 4353 "heptagon/analysis/stateful.ml" 91 4326 4356
+)
+"heptagon/analysis/stateful.ml" 92 4359 4381 "heptagon/analysis/stateful.ml" 92 4359 4415
+call(
+  stack
+)
+type(
+  Heptagon.escape * bool
+)
+"heptagon/analysis/stateful.ml" 93 4419 4426 "heptagon/analysis/stateful.ml" 93 4419 4434
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 92 4359 4370 "heptagon/analysis/stateful.ml" 92 4359 4378
+)
+"heptagon/analysis/stateful.ml" 94 4440 4446 "heptagon/analysis/stateful.ml" 94 4440 4453
+type(
+  Location.location -> error -> unit
+)
+ident(
+  int_ref message "heptagon/analysis/stateful.ml" 40 2307 2311 "heptagon/analysis/stateful.ml" 40 2307 2318
+)
+"heptagon/analysis/stateful.ml" 94 4440 4454 "heptagon/analysis/stateful.ml" 94 4440 4457
+type(
+  Heptagon.escape
+)
+ident(
+  int_ref esc "heptagon/analysis/stateful.ml" 92 4359 4365 "heptagon/analysis/stateful.ml" 92 4359 4368
+)
+"heptagon/analysis/stateful.ml" 94 4440 4454 "heptagon/analysis/stateful.ml" 94 4440 4464
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/stateful.ml" 94 4440 4454 "heptagon/analysis/stateful.ml" 94 4440 4470
+type(
+  Location.location
+)
+"heptagon/analysis/stateful.ml" 94 4440 4471 "heptagon/analysis/stateful.ml" 94 4440 4495
+type(
+  error
+)
+"heptagon/analysis/stateful.ml" 94 4440 4446 "heptagon/analysis/stateful.ml" 94 4440 4495
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 93 4419 4423 "heptagon/analysis/stateful.ml" 94 4440 4495
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 95 4497 4501 "heptagon/analysis/stateful.ml" 95 4497 4504
+type(
+  Heptagon.escape
+)
+ident(
+  int_ref esc "heptagon/analysis/stateful.ml" 92 4359 4365 "heptagon/analysis/stateful.ml" 92 4359 4368
+)
+"heptagon/analysis/stateful.ml" 95 4497 4506 "heptagon/analysis/stateful.ml" 95 4497 4509
+type(
+  bool
+)
+ident(
+  int_ref acc "heptagon/analysis/stateful.ml" 91 4326 4349 "heptagon/analysis/stateful.ml" 91 4326 4352
+)
+"heptagon/analysis/stateful.ml" 95 4497 4510 "heptagon/analysis/stateful.ml" 95 4497 4512
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/stateful.ml" 95 4497 4513 "heptagon/analysis/stateful.ml" 95 4497 4521
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 92 4359 4370 "heptagon/analysis/stateful.ml" 92 4359 4378
+)
+"heptagon/analysis/stateful.ml" 95 4497 4506 "heptagon/analysis/stateful.ml" 95 4497 4521
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 95 4497 4501 "heptagon/analysis/stateful.ml" 95 4497 4521
+type(
+  Heptagon.escape * bool
+)
+"heptagon/analysis/stateful.ml" 93 4419 4423 "heptagon/analysis/stateful.ml" 95 4497 4521
+type(
+  Heptagon.escape * bool
+)
+"heptagon/analysis/stateful.ml" 92 4359 4361 "heptagon/analysis/stateful.ml" 95 4497 4521
+type(
+  Heptagon.escape * bool
+)
+"heptagon/analysis/stateful.ml" 98 4568 4572 "heptagon/analysis/stateful.ml" 98 4568 4587
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.present_handler -> Heptagon.present_handler * bool
+)
+ident(
+  def present_handler "heptagon/analysis/stateful.ml" 107 4937 4937 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 98 4568 4588 "heptagon/analysis/stateful.ml" 98 4568 4592
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 98 4568 4593 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 98 4568 4593 "heptagon/analysis/stateful.ml" 98 4568 4596
+type(
+  bool
+)
+ident(
+  def acc "heptagon/analysis/stateful.ml" 98 4568 4597 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 98 4568 4597 "heptagon/analysis/stateful.ml" 98 4568 4599
+type(
+  Heptagon.present_handler
+)
+ident(
+  def ph "heptagon/analysis/stateful.ml" 99 4602 4604 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 99 4602 4608 "heptagon/analysis/stateful.ml" 99 4602 4614
+type(
+  Heptagon.exp
+)
+ident(
+  def p_cond "heptagon/analysis/stateful.ml" 100 4671 4675 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 99 4602 4616 "heptagon/analysis/stateful.ml" 99 4602 4624
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 100 4671 4675 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 99 4602 4608 "heptagon/analysis/stateful.ml" 99 4602 4624
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/stateful.ml" 99 4602 4627 "heptagon/analysis/stateful.ml" 99 4602 4646
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.exp -> Heptagon.exp * bool
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/analysis/stateful.ml" 99 4602 4647 "heptagon/analysis/stateful.ml" 99 4602 4651
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 98 4568 4588 "heptagon/analysis/stateful.ml" 98 4568 4592
+)
+"heptagon/analysis/stateful.ml" 99 4602 4652 "heptagon/analysis/stateful.ml" 99 4602 4657
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 99 4602 4658 "heptagon/analysis/stateful.ml" 99 4602 4660
+type(
+  Heptagon.present_handler
+)
+ident(
+  int_ref ph "heptagon/analysis/stateful.ml" 98 4568 4597 "heptagon/analysis/stateful.ml" 98 4568 4599
+)
+"heptagon/analysis/stateful.ml" 99 4602 4658 "heptagon/analysis/stateful.ml" 99 4602 4667
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/stateful.ml" 99 4602 4627 "heptagon/analysis/stateful.ml" 99 4602 4667
+call(
+  stack
+)
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/stateful.ml" 100 4671 4678 "heptagon/analysis/stateful.ml" 100 4671 4686
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 99 4602 4616 "heptagon/analysis/stateful.ml" 99 4602 4624
+)
+"heptagon/analysis/stateful.ml" 101 4692 4698 "heptagon/analysis/stateful.ml" 101 4692 4705
+type(
+  Location.location -> error -> unit
+)
+ident(
+  int_ref message "heptagon/analysis/stateful.ml" 40 2307 2311 "heptagon/analysis/stateful.ml" 40 2307 2318
+)
+"heptagon/analysis/stateful.ml" 101 4692 4706 "heptagon/analysis/stateful.ml" 101 4692 4708
+type(
+  Heptagon.present_handler
+)
+ident(
+  int_ref ph "heptagon/analysis/stateful.ml" 98 4568 4597 "heptagon/analysis/stateful.ml" 98 4568 4599
+)
+"heptagon/analysis/stateful.ml" 101 4692 4706 "heptagon/analysis/stateful.ml" 101 4692 4715
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/stateful.ml" 101 4692 4706 "heptagon/analysis/stateful.ml" 101 4692 4721
+type(
+  Location.location
+)
+"heptagon/analysis/stateful.ml" 101 4692 4722 "heptagon/analysis/stateful.ml" 101 4692 4746
+type(
+  error
+)
+"heptagon/analysis/stateful.ml" 101 4692 4698 "heptagon/analysis/stateful.ml" 101 4692 4746
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 100 4671 4675 "heptagon/analysis/stateful.ml" 101 4692 4746
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 102 4748 4754 "heptagon/analysis/stateful.ml" 102 4748 4761
+type(
+  Heptagon.block
+)
+ident(
+  def p_block "heptagon/analysis/stateful.ml" 103 4814 4818 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 102 4748 4763 "heptagon/analysis/stateful.ml" 102 4748 4766
+type(
+  bool
+)
+ident(
+  def acc "heptagon/analysis/stateful.ml" 103 4814 4818 "heptagon/analysis/stateful.ml" 103 4814 4861
+)
+"heptagon/analysis/stateful.ml" 102 4748 4754 "heptagon/analysis/stateful.ml" 102 4748 4766
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 102 4748 4769 "heptagon/analysis/stateful.ml" 102 4748 4790
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.block -> Heptagon.block * bool
+)
+ident(
+  ext_ref Hept_mapfold.block_it
+)
+"heptagon/analysis/stateful.ml" 102 4748 4791 "heptagon/analysis/stateful.ml" 102 4748 4795
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 98 4568 4588 "heptagon/analysis/stateful.ml" 98 4568 4592
+)
+"heptagon/analysis/stateful.ml" 102 4748 4796 "heptagon/analysis/stateful.ml" 102 4748 4799
+type(
+  bool
+)
+ident(
+  int_ref acc "heptagon/analysis/stateful.ml" 98 4568 4593 "heptagon/analysis/stateful.ml" 98 4568 4596
+)
+"heptagon/analysis/stateful.ml" 102 4748 4800 "heptagon/analysis/stateful.ml" 102 4748 4802
+type(
+  Heptagon.present_handler
+)
+ident(
+  int_ref ph "heptagon/analysis/stateful.ml" 98 4568 4597 "heptagon/analysis/stateful.ml" 98 4568 4599
+)
+"heptagon/analysis/stateful.ml" 102 4748 4800 "heptagon/analysis/stateful.ml" 102 4748 4810
+type(
+  Heptagon.block
+)
+"heptagon/analysis/stateful.ml" 102 4748 4769 "heptagon/analysis/stateful.ml" 102 4748 4810
+call(
+  stack
+)
+type(
+  Heptagon.block * bool
+)
+"heptagon/analysis/stateful.ml" 103 4814 4829 "heptagon/analysis/stateful.ml" 103 4814 4835
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref p_cond "heptagon/analysis/stateful.ml" 99 4602 4608 "heptagon/analysis/stateful.ml" 99 4602 4614
+)
+"heptagon/analysis/stateful.ml" 103 4814 4847 "heptagon/analysis/stateful.ml" 103 4814 4854
+type(
+  Heptagon.block
+)
+ident(
+  int_ref p_block "heptagon/analysis/stateful.ml" 102 4748 4754 "heptagon/analysis/stateful.ml" 102 4748 4761
+)
+"heptagon/analysis/stateful.ml" 103 4814 4818 "heptagon/analysis/stateful.ml" 103 4814 4856
+type(
+  Heptagon.present_handler
+)
+"heptagon/analysis/stateful.ml" 103 4814 4858 "heptagon/analysis/stateful.ml" 103 4814 4861
+type(
+  bool
+)
+ident(
+  int_ref acc "heptagon/analysis/stateful.ml" 102 4748 4763 "heptagon/analysis/stateful.ml" 102 4748 4766
+)
+"heptagon/analysis/stateful.ml" 103 4814 4818 "heptagon/analysis/stateful.ml" 103 4814 4861
+type(
+  Heptagon.present_handler * bool
+)
+"heptagon/analysis/stateful.ml" 102 4748 4750 "heptagon/analysis/stateful.ml" 103 4814 4861
+type(
+  Heptagon.present_handler * bool
+)
+"heptagon/analysis/stateful.ml" 100 4671 4675 "heptagon/analysis/stateful.ml" 103 4814 4861
+type(
+  Heptagon.present_handler * bool
+)
+"heptagon/analysis/stateful.ml" 99 4602 4604 "heptagon/analysis/stateful.ml" 103 4814 4861
+type(
+  Heptagon.present_handler * bool
+)
+"heptagon/analysis/stateful.ml" 107 4937 4941 "heptagon/analysis/stateful.ml" 107 4937 4949
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  def node_dec "heptagon/analysis/stateful.ml" 116 5412 5412 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 107 4937 4950 "heptagon/analysis/stateful.ml" 107 4937 4954
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 107 4937 4955 "heptagon/analysis/stateful.ml" 114 5335 5376
+)
+"heptagon/analysis/stateful.ml" 107 4937 4955 "heptagon/analysis/stateful.ml" 107 4937 4956
+type(
+  'a
+)
+"heptagon/analysis/stateful.ml" 107 4937 4957 "heptagon/analysis/stateful.ml" 107 4937 4958
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/analysis/stateful.ml" 108 4961 4963 "heptagon/analysis/stateful.ml" 114 5335 5376
+)
+"heptagon/analysis/stateful.ml" 108 4961 4963 "heptagon/analysis/stateful.ml" 108 4961 4980
+type(
+  Names.qualname -> unit
+)
+ident(
+  ext_ref Idents.enter_node
+)
+"heptagon/analysis/stateful.ml" 108 4961 4981 "heptagon/analysis/stateful.ml" 108 4961 4982
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 107 4937 4957 "heptagon/analysis/stateful.ml" 107 4937 4958
+)
+"heptagon/analysis/stateful.ml" 108 4961 4981 "heptagon/analysis/stateful.ml" 108 4961 4989
+type(
+  Names.qualname
+)
+"heptagon/analysis/stateful.ml" 108 4961 4963 "heptagon/analysis/stateful.ml" 108 4961 4989
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/analysis/stateful.ml" 110 5049 5051 "heptagon/analysis/stateful.ml" 114 5335 5376
+)
+"heptagon/analysis/stateful.ml" 109 4991 5000 "heptagon/analysis/stateful.ml" 109 4991 5008
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/analysis/stateful.ml" 110 5049 5051 "heptagon/analysis/stateful.ml" 114 5335 5376
+)
+"heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 5008
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 109 4991 5011 "heptagon/analysis/stateful.ml" 109 4991 5032
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/analysis/stateful.ml" 109 4991 5033 "heptagon/analysis/stateful.ml" 109 4991 5037
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 107 4937 4950 "heptagon/analysis/stateful.ml" 107 4937 4954
+)
+"heptagon/analysis/stateful.ml" 109 4991 5038 "heptagon/analysis/stateful.ml" 109 4991 5043
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 109 4991 5044 "heptagon/analysis/stateful.ml" 109 4991 5045
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 107 4937 4957 "heptagon/analysis/stateful.ml" 107 4937 4958
+)
+"heptagon/analysis/stateful.ml" 109 4991 5011 "heptagon/analysis/stateful.ml" 109 4991 5045
+call(
+  stack
+)
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 110 5049 5054 "heptagon/analysis/stateful.ml" 110 5049 5062
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 109 4991 5000 "heptagon/analysis/stateful.ml" 109 4991 5008
+)
+"heptagon/analysis/stateful.ml" 110 5049 5063 "heptagon/analysis/stateful.ml" 110 5049 5065
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/analysis/stateful.ml" 110 5049 5067 "heptagon/analysis/stateful.ml" 110 5049 5070
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/analysis/stateful.ml" 110 5049 5071 "heptagon/analysis/stateful.ml" 110 5049 5072
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 110 5049 5071 "heptagon/analysis/stateful.ml" 110 5049 5083
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 110 5049 5066 "heptagon/analysis/stateful.ml" 110 5049 5084
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 110 5049 5054 "heptagon/analysis/stateful.ml" 110 5049 5084
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 110 5049 5090 "heptagon/analysis/stateful.ml" 110 5049 5097
+type(
+  Location.location -> error -> unit
+)
+ident(
+  int_ref message "heptagon/analysis/stateful.ml" 40 2307 2311 "heptagon/analysis/stateful.ml" 40 2307 2318
+)
+"heptagon/analysis/stateful.ml" 110 5049 5098 "heptagon/analysis/stateful.ml" 110 5049 5099
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 110 5049 5098 "heptagon/analysis/stateful.ml" 110 5049 5105
+type(
+  Location.location
+)
+"heptagon/analysis/stateful.ml" 110 5049 5106 "heptagon/analysis/stateful.ml" 110 5049 5123
+type(
+  error
+)
+"heptagon/analysis/stateful.ml" 110 5049 5090 "heptagon/analysis/stateful.ml" 110 5049 5123
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 110 5049 5051 "heptagon/analysis/stateful.ml" 110 5049 5123
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 111 5125 5130 "heptagon/analysis/stateful.ml" 111 5125 5133
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/analysis/stateful.ml" 111 5125 5134 "heptagon/analysis/stateful.ml" 111 5125 5142
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 109 4991 5000 "heptagon/analysis/stateful.ml" 109 4991 5008
+)
+"heptagon/analysis/stateful.ml" 111 5125 5130 "heptagon/analysis/stateful.ml" 111 5125 5142
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 111 5125 5143 "heptagon/analysis/stateful.ml" 111 5125 5145
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/analysis/stateful.ml" 111 5125 5146 "heptagon/analysis/stateful.ml" 111 5125 5147
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 111 5125 5146 "heptagon/analysis/stateful.ml" 111 5125 5158
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 111 5125 5130 "heptagon/analysis/stateful.ml" 111 5125 5158
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 112 5216 5223 "heptagon/analysis/stateful.ml" 112 5216 5244
+type(
+  Names.QualEnv.key -> Signature.node -> unit
+)
+ident(
+  ext_ref Modules.replace_value
+)
+"heptagon/analysis/stateful.ml" 112 5216 5245 "heptagon/analysis/stateful.ml" 112 5216 5246
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 112 5216 5245 "heptagon/analysis/stateful.ml" 112 5216 5253
+type(
+  Names.QualEnv.key
+)
+"heptagon/analysis/stateful.ml" 113 5254 5266 "heptagon/analysis/stateful.ml" 113 5254 5284
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"heptagon/analysis/stateful.ml" 113 5254 5285 "heptagon/analysis/stateful.ml" 113 5254 5286
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 113 5254 5285 "heptagon/analysis/stateful.ml" 113 5254 5293
+type(
+  Names.QualEnv.key
+)
+"heptagon/analysis/stateful.ml" 113 5254 5265 "heptagon/analysis/stateful.ml" 113 5254 5294
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/analysis/stateful.ml" 113 5254 5326 "heptagon/analysis/stateful.ml" 113 5254 5331
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 113 5254 5263 "heptagon/analysis/stateful.ml" 113 5254 5333
+type(
+  Signature.node
+)
+"heptagon/analysis/stateful.ml" 112 5216 5223 "heptagon/analysis/stateful.ml" 113 5254 5333
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 111 5125 5127 "heptagon/analysis/stateful.ml" 113 5254 5333
+type(
+  unit
+)
+"heptagon/analysis/stateful.ml" 114 5335 5339 "heptagon/analysis/stateful.ml" 114 5335 5340
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/stateful.ml" 109 4991 4997 "heptagon/analysis/stateful.ml" 109 4991 4998
+)
+"heptagon/analysis/stateful.ml" 114 5335 5359 "heptagon/analysis/stateful.ml" 114 5335 5367
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/analysis/stateful.ml" 109 4991 5000 "heptagon/analysis/stateful.ml" 109 4991 5008
+)
+"heptagon/analysis/stateful.ml" 114 5335 5337 "heptagon/analysis/stateful.ml" 114 5335 5369
+type(
+  Heptagon.node_dec
+)
+"heptagon/analysis/stateful.ml" 114 5335 5371 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 114 5335 5337 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 111 5125 5127 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 110 5049 5051 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 109 4991 4993 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 108 4961 4963 "heptagon/analysis/stateful.ml" 114 5335 5376
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/stateful.ml" 116 5412 5416 "heptagon/analysis/stateful.ml" 116 5412 5420
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/stateful.ml" 127 5661 5661 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 117 5423 5427 "heptagon/analysis/stateful.ml" 117 5423 5448
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/analysis/stateful.ml" 118 5454 5468 "heptagon/analysis/stateful.ml" 118 5454 5473
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.desc -> Heptagon.desc * bool
+)
+ident(
+  int_ref edesc "heptagon/analysis/stateful.ml" 58 2885 2889 "heptagon/analysis/stateful.ml" 58 2885 2894
+)
+"heptagon/analysis/stateful.ml" 119 5475 5497 "heptagon/analysis/stateful.ml" 119 5475 5510
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.escape -> Heptagon.escape * bool
+)
+ident(
+  int_ref escape_unless "heptagon/analysis/stateful.ml" 91 4326 4330 "heptagon/analysis/stateful.ml" 91 4326 4343
+)
+"heptagon/analysis/stateful.ml" 120 5512 5536 "heptagon/analysis/stateful.ml" 120 5512 5551
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.present_handler -> Heptagon.present_handler * bool
+)
+ident(
+  int_ref present_handler "heptagon/analysis/stateful.ml" 98 4568 4572 "heptagon/analysis/stateful.ml" 98 4568 4587
+)
+"heptagon/analysis/stateful.ml" 121 5553 5568 "heptagon/analysis/stateful.ml" 121 5553 5574
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.eqdesc -> Heptagon.eqdesc * bool
+)
+ident(
+  int_ref eqdesc "heptagon/analysis/stateful.ml" 75 3730 3734 "heptagon/analysis/stateful.ml" 75 3730 3740
+)
+"heptagon/analysis/stateful.ml" 122 5576 5589 "heptagon/analysis/stateful.ml" 122 5576 5593
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.last -> Heptagon.last * bool
+)
+ident(
+  int_ref last "heptagon/analysis/stateful.ml" 52 2672 2676 "heptagon/analysis/stateful.ml" 52 2672 2680
+)
+"heptagon/analysis/stateful.ml" 123 5595 5606 "heptagon/analysis/stateful.ml" 123 5595 5608
+type(
+  bool Hept_mapfold.hept_it_funs -> bool -> Heptagon.eq -> Heptagon.eq * bool
+)
+ident(
+  int_ref eq "heptagon/analysis/stateful.ml" 81 3963 3967 "heptagon/analysis/stateful.ml" 81 3963 3969
+)
+"heptagon/analysis/stateful.ml" 124 5610 5624 "heptagon/analysis/stateful.ml" 124 5610 5629
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.block -> Heptagon.block * bool
+)
+ident(
+  int_ref block "heptagon/analysis/stateful.ml" 86 4125 4129 "heptagon/analysis/stateful.ml" 86 4125 4134
+)
+"heptagon/analysis/stateful.ml" 125 5631 5648 "heptagon/analysis/stateful.ml" 125 5631 5656
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  int_ref node_dec "heptagon/analysis/stateful.ml" 107 4937 4941 "heptagon/analysis/stateful.ml" 107 4937 4949
+)
+"heptagon/analysis/stateful.ml" 117 5423 5425 "heptagon/analysis/stateful.ml" 125 5631 5659
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+"heptagon/analysis/stateful.ml" 127 5661 5665 "heptagon/analysis/stateful.ml" 127 5661 5680
+type(
+  Heptagon.exp -> bool
+)
+ident(
+  def exp_is_stateful "heptagon/analysis/stateful.ml" 131 5752 5752 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 127 5661 5681 "heptagon/analysis/stateful.ml" 127 5661 5682
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/analysis/stateful.ml" 128 5685 5687 "heptagon/analysis/stateful.ml" 129 5745 5750
+)
+"heptagon/analysis/stateful.ml" 128 5685 5691 "heptagon/analysis/stateful.ml" 128 5685 5692
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 128 5685 5694 "heptagon/analysis/stateful.ml" 128 5685 5697
+type(
+  bool
+)
+ident(
+  def res "heptagon/analysis/stateful.ml" 129 5745 5747 "heptagon/analysis/stateful.ml" 129 5745 5750
+)
+"heptagon/analysis/stateful.ml" 128 5685 5691 "heptagon/analysis/stateful.ml" 128 5685 5697
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 128 5685 5700 "heptagon/analysis/stateful.ml" 128 5685 5721
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.desc -> Heptagon.desc * bool
+)
+ident(
+  ext_ref Hept_mapfold.edesc_it
+)
+"heptagon/analysis/stateful.ml" 128 5685 5722 "heptagon/analysis/stateful.ml" 128 5685 5726
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 116 5412 5416 "heptagon/analysis/stateful.ml" 116 5412 5420
+)
+"heptagon/analysis/stateful.ml" 128 5685 5727 "heptagon/analysis/stateful.ml" 128 5685 5732
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 128 5685 5733 "heptagon/analysis/stateful.ml" 128 5685 5734
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/stateful.ml" 127 5661 5681 "heptagon/analysis/stateful.ml" 127 5661 5682
+)
+"heptagon/analysis/stateful.ml" 128 5685 5733 "heptagon/analysis/stateful.ml" 128 5685 5741
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/stateful.ml" 128 5685 5700 "heptagon/analysis/stateful.ml" 128 5685 5741
+call(
+  stack
+)
+type(
+  Heptagon.desc * bool
+)
+"heptagon/analysis/stateful.ml" 129 5745 5747 "heptagon/analysis/stateful.ml" 129 5745 5750
+type(
+  bool
+)
+ident(
+  int_ref res "heptagon/analysis/stateful.ml" 128 5685 5694 "heptagon/analysis/stateful.ml" 128 5685 5697
+)
+"heptagon/analysis/stateful.ml" 128 5685 5687 "heptagon/analysis/stateful.ml" 129 5745 5750
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 131 5752 5756 "heptagon/analysis/stateful.ml" 131 5752 5763
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/analysis/stateful.ml" 133 5821 5824 "heptagon/analysis/stateful.ml" 1 0 -1
+)
+"heptagon/analysis/stateful.ml" 131 5752 5764 "heptagon/analysis/stateful.ml" 131 5752 5765
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/analysis/stateful.ml" 132 5768 5770 "heptagon/analysis/stateful.ml" 133 5821 5824
+)
+"heptagon/analysis/stateful.ml" 132 5768 5774 "heptagon/analysis/stateful.ml" 132 5768 5775
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/analysis/stateful.ml" 133 5821 5823 "heptagon/analysis/stateful.ml" 133 5821 5824
+)
+"heptagon/analysis/stateful.ml" 132 5768 5777 "heptagon/analysis/stateful.ml" 132 5768 5778
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 132 5768 5774 "heptagon/analysis/stateful.ml" 132 5768 5778
+type(
+  Heptagon.program * bool
+)
+"heptagon/analysis/stateful.ml" 132 5768 5781 "heptagon/analysis/stateful.ml" 132 5768 5804
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.program -> Heptagon.program * bool
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/analysis/stateful.ml" 132 5768 5805 "heptagon/analysis/stateful.ml" 132 5768 5809
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/stateful.ml" 116 5412 5416 "heptagon/analysis/stateful.ml" 116 5412 5420
+)
+"heptagon/analysis/stateful.ml" 132 5768 5810 "heptagon/analysis/stateful.ml" 132 5768 5815
+type(
+  bool
+)
+"heptagon/analysis/stateful.ml" 132 5768 5816 "heptagon/analysis/stateful.ml" 132 5768 5817
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/analysis/stateful.ml" 131 5752 5764 "heptagon/analysis/stateful.ml" 131 5752 5765
+)
+"heptagon/analysis/stateful.ml" 132 5768 5781 "heptagon/analysis/stateful.ml" 132 5768 5817
+call(
+  stack
+)
+type(
+  Heptagon.program * bool
+)
+"heptagon/analysis/stateful.ml" 133 5821 5823 "heptagon/analysis/stateful.ml" 133 5821 5824
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/analysis/stateful.ml" 132 5768 5774 "heptagon/analysis/stateful.ml" 132 5768 5775
+)
+"heptagon/analysis/stateful.ml" 132 5768 5770 "heptagon/analysis/stateful.ml" 133 5821 5824
+type(
+  Heptagon.program
+)

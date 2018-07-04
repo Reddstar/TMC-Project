@@ -1,0 +1,5239 @@
+"heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+type(
+  int ref
+)
+ident(
+  def comment_depth "heptagon/parsing/hept_lexer.mll" 41 187 187 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 39 160 180 "heptagon/parsing/hept_lexer.mll" 39 160 183
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"heptagon/parsing/hept_lexer.mll" 39 160 184 "heptagon/parsing/hept_lexer.mll" 39 160 185
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 39 160 180 "heptagon/parsing/hept_lexer.mll" 39 160 185
+type(
+  int ref
+)
+"heptagon/parsing/hept_lexer.mll" 41 187 191 "heptagon/parsing/hept_lexer.mll" 41 187 204
+type(
+  (string, Hept_parser.token) Hashtbl.t
+)
+ident(
+  def keyword_table "heptagon/parsing/hept_lexer.mll" 43 261 261 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 41 187 209 "heptagon/parsing/hept_lexer.mll" 41 187 223
+type(
+  ?random:bool -> int -> (string, Hept_parser.token) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"heptagon/parsing/hept_lexer.mll" 41 187 224 "heptagon/parsing/hept_lexer.mll" 41 187 227
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 41 187 208 "heptagon/parsing/hept_lexer.mll" 41 187 228
+call(
+  stack
+)
+type(
+  (string, Hept_parser.token) Hashtbl.t
+)
+type(
+  (string, Hept_parser.token) Hashtbl.t
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 261 "heptagon/parsing/hept_lexer.mll" 43 261 270
+type(
+  (string * Hept_parser.token -> unit) ->
+  (string * Hept_parser.token) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 277 "heptagon/parsing/hept_lexer.mll" 43 261 280
+type(
+  string
+)
+ident(
+  def str "heptagon/parsing/hept_lexer.mll" 43 261 289 "heptagon/parsing/hept_lexer.mll" 43 261 322
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 281 "heptagon/parsing/hept_lexer.mll" 43 261 284
+type(
+  Hept_parser.token
+)
+ident(
+  def tok "heptagon/parsing/hept_lexer.mll" 43 261 289 "heptagon/parsing/hept_lexer.mll" 43 261 322
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 276 "heptagon/parsing/hept_lexer.mll" 43 261 285
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 289 "heptagon/parsing/hept_lexer.mll" 43 261 300
+type(
+  (string, Hept_parser.token) Hashtbl.t ->
+  string -> Hept_parser.token -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 301 "heptagon/parsing/hept_lexer.mll" 43 261 314
+type(
+  (string, Hept_parser.token) Hashtbl.t
+)
+ident(
+  int_ref keyword_table "heptagon/parsing/hept_lexer.mll" 41 187 191 "heptagon/parsing/hept_lexer.mll" 41 187 204
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 315 "heptagon/parsing/hept_lexer.mll" 43 261 318
+type(
+  string
+)
+ident(
+  int_ref str "heptagon/parsing/hept_lexer.mll" 43 261 277 "heptagon/parsing/hept_lexer.mll" 43 261 280
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 319 "heptagon/parsing/hept_lexer.mll" 43 261 322
+type(
+  Hept_parser.token
+)
+ident(
+  int_ref tok "heptagon/parsing/hept_lexer.mll" 43 261 281 "heptagon/parsing/hept_lexer.mll" 43 261 284
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 289 "heptagon/parsing/hept_lexer.mll" 43 261 322
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 271 "heptagon/parsing/hept_lexer.mll" 43 261 323
+type(
+  string * Hept_parser.token -> unit
+)
+"heptagon/parsing/hept_lexer.mll" 44 326 327 "heptagon/parsing/hept_lexer.mll" 44 326 333
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 44 326 335 "heptagon/parsing/hept_lexer.mll" 44 326 339
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 44 326 327 "heptagon/parsing/hept_lexer.mll" 44 326 339
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 45 341 342 "heptagon/parsing/hept_lexer.mll" 45 341 347
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 45 341 349 "heptagon/parsing/hept_lexer.mll" 45 341 352
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 45 341 342 "heptagon/parsing/hept_lexer.mll" 45 341 352
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 46 354 355 "heptagon/parsing/hept_lexer.mll" 46 354 364
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 46 354 366 "heptagon/parsing/hept_lexer.mll" 46 354 373
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 46 354 355 "heptagon/parsing/hept_lexer.mll" 46 354 373
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 47 375 376 "heptagon/parsing/hept_lexer.mll" 47 375 381
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 47 375 383 "heptagon/parsing/hept_lexer.mll" 47 375 386
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 47 375 376 "heptagon/parsing/hept_lexer.mll" 47 375 386
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 48 388 389 "heptagon/parsing/hept_lexer.mll" 48 388 394
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 48 388 396 "heptagon/parsing/hept_lexer.mll" 48 388 399
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 48 388 389 "heptagon/parsing/hept_lexer.mll" 48 388 399
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 49 401 402 "heptagon/parsing/hept_lexer.mll" 49 401 409
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 49 401 411 "heptagon/parsing/hept_lexer.mll" 49 401 416
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 49 401 402 "heptagon/parsing/hept_lexer.mll" 49 401 416
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 50 418 419 "heptagon/parsing/hept_lexer.mll" 50 418 424
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 50 418 426 "heptagon/parsing/hept_lexer.mll" 50 418 429
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 50 418 419 "heptagon/parsing/hept_lexer.mll" 50 418 429
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 51 431 432 "heptagon/parsing/hept_lexer.mll" 51 431 437
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 51 431 439 "heptagon/parsing/hept_lexer.mll" 51 431 442
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 51 431 432 "heptagon/parsing/hept_lexer.mll" 51 431 442
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 52 444 445 "heptagon/parsing/hept_lexer.mll" 52 444 450
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 52 444 452 "heptagon/parsing/hept_lexer.mll" 52 444 455
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 52 444 445 "heptagon/parsing/hept_lexer.mll" 52 444 455
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 53 457 458 "heptagon/parsing/hept_lexer.mll" 53 457 463
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 53 457 465 "heptagon/parsing/hept_lexer.mll" 53 457 468
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 53 457 458 "heptagon/parsing/hept_lexer.mll" 53 457 468
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 54 470 471 "heptagon/parsing/hept_lexer.mll" 54 470 479
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 54 470 481 "heptagon/parsing/hept_lexer.mll" 54 470 487
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 54 470 471 "heptagon/parsing/hept_lexer.mll" 54 470 487
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 55 489 490 "heptagon/parsing/hept_lexer.mll" 55 489 496
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 55 489 498 "heptagon/parsing/hept_lexer.mll" 55 489 502
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 55 489 490 "heptagon/parsing/hept_lexer.mll" 55 489 502
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 56 504 505 "heptagon/parsing/hept_lexer.mll" 56 504 512
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 56 504 514 "heptagon/parsing/hept_lexer.mll" 56 504 519
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 56 504 505 "heptagon/parsing/hept_lexer.mll" 56 504 519
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 57 521 522 "heptagon/parsing/hept_lexer.mll" 57 521 528
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 57 521 534 "heptagon/parsing/hept_lexer.mll" 57 521 540
+type(
+  bool
+)
+"heptagon/parsing/hept_lexer.mll" 57 521 530 "heptagon/parsing/hept_lexer.mll" 57 521 540
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 57 521 522 "heptagon/parsing/hept_lexer.mll" 57 521 540
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 58 542 543 "heptagon/parsing/hept_lexer.mll" 58 542 550
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 58 542 556 "heptagon/parsing/hept_lexer.mll" 58 542 563
+type(
+  bool
+)
+"heptagon/parsing/hept_lexer.mll" 58 542 552 "heptagon/parsing/hept_lexer.mll" 58 542 563
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 58 542 543 "heptagon/parsing/hept_lexer.mll" 58 542 563
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 59 565 566 "heptagon/parsing/hept_lexer.mll" 59 565 571
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 59 565 573 "heptagon/parsing/hept_lexer.mll" 59 565 576
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 59 565 566 "heptagon/parsing/hept_lexer.mll" 59 565 576
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 60 578 579 "heptagon/parsing/hept_lexer.mll" 60 578 583
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 60 578 585 "heptagon/parsing/hept_lexer.mll" 60 578 587
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 60 578 579 "heptagon/parsing/hept_lexer.mll" 60 578 587
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 61 589 590 "heptagon/parsing/hept_lexer.mll" 61 589 595
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 61 589 597 "heptagon/parsing/hept_lexer.mll" 61 589 600
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 61 589 590 "heptagon/parsing/hept_lexer.mll" 61 589 600
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 62 602 603 "heptagon/parsing/hept_lexer.mll" 62 602 609
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 62 602 611 "heptagon/parsing/hept_lexer.mll" 62 602 615
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 62 602 603 "heptagon/parsing/hept_lexer.mll" 62 602 615
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 63 617 618 "heptagon/parsing/hept_lexer.mll" 63 617 629
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 63 617 631 "heptagon/parsing/hept_lexer.mll" 63 617 640
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 63 617 618 "heptagon/parsing/hept_lexer.mll" 63 617 640
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 64 642 643 "heptagon/parsing/hept_lexer.mll" 64 642 651
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 64 642 653 "heptagon/parsing/hept_lexer.mll" 64 642 659
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 64 642 643 "heptagon/parsing/hept_lexer.mll" 64 642 659
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 65 661 662 "heptagon/parsing/hept_lexer.mll" 65 661 671
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 65 661 673 "heptagon/parsing/hept_lexer.mll" 65 661 680
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 65 661 662 "heptagon/parsing/hept_lexer.mll" 65 661 680
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 66 682 683 "heptagon/parsing/hept_lexer.mll" 66 682 690
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 66 682 692 "heptagon/parsing/hept_lexer.mll" 66 682 697
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 66 682 683 "heptagon/parsing/hept_lexer.mll" 66 682 697
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 67 699 700 "heptagon/parsing/hept_lexer.mll" 67 699 707
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 67 699 709 "heptagon/parsing/hept_lexer.mll" 67 699 714
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 67 699 700 "heptagon/parsing/hept_lexer.mll" 67 699 714
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 68 716 717 "heptagon/parsing/hept_lexer.mll" 68 716 725
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 68 716 727 "heptagon/parsing/hept_lexer.mll" 68 716 733
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 68 716 717 "heptagon/parsing/hept_lexer.mll" 68 716 733
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 69 735 736 "heptagon/parsing/hept_lexer.mll" 69 735 743
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 69 735 745 "heptagon/parsing/hept_lexer.mll" 69 735 750
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 69 735 736 "heptagon/parsing/hept_lexer.mll" 69 735 750
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 70 752 753 "heptagon/parsing/hept_lexer.mll" 70 752 759
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 70 752 761 "heptagon/parsing/hept_lexer.mll" 70 752 765
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 70 752 753 "heptagon/parsing/hept_lexer.mll" 70 752 765
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 71 767 768 "heptagon/parsing/hept_lexer.mll" 71 767 772
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 71 767 774 "heptagon/parsing/hept_lexer.mll" 71 767 776
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 71 767 768 "heptagon/parsing/hept_lexer.mll" 71 767 776
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 72 778 779 "heptagon/parsing/hept_lexer.mll" 72 778 785
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 72 778 787 "heptagon/parsing/hept_lexer.mll" 72 778 791
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 72 778 779 "heptagon/parsing/hept_lexer.mll" 72 778 791
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 73 793 794 "heptagon/parsing/hept_lexer.mll" 73 793 800
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 73 793 802 "heptagon/parsing/hept_lexer.mll" 73 793 806
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 73 793 794 "heptagon/parsing/hept_lexer.mll" 73 793 806
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 74 808 809 "heptagon/parsing/hept_lexer.mll" 74 808 818
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 74 808 820 "heptagon/parsing/hept_lexer.mll" 74 808 827
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 74 808 809 "heptagon/parsing/hept_lexer.mll" 74 808 827
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 75 829 830 "heptagon/parsing/hept_lexer.mll" 75 829 840
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 75 829 842 "heptagon/parsing/hept_lexer.mll" 75 829 850
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 75 829 830 "heptagon/parsing/hept_lexer.mll" 75 829 850
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 76 852 853 "heptagon/parsing/hept_lexer.mll" 76 852 857
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 76 852 859 "heptagon/parsing/hept_lexer.mll" 76 852 861
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 76 852 853 "heptagon/parsing/hept_lexer.mll" 76 852 861
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 77 863 864 "heptagon/parsing/hept_lexer.mll" 77 863 870
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 77 863 872 "heptagon/parsing/hept_lexer.mll" 77 863 876
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 77 863 864 "heptagon/parsing/hept_lexer.mll" 77 863 876
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 78 878 879 "heptagon/parsing/hept_lexer.mll" 78 878 883
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 78 878 885 "heptagon/parsing/hept_lexer.mll" 78 878 887
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 78 878 879 "heptagon/parsing/hept_lexer.mll" 78 878 887
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 79 889 890 "heptagon/parsing/hept_lexer.mll" 79 889 900
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 79 889 902 "heptagon/parsing/hept_lexer.mll" 79 889 910
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 79 889 890 "heptagon/parsing/hept_lexer.mll" 79 889 910
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 80 912 913 "heptagon/parsing/hept_lexer.mll" 80 912 921
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 80 912 923 "heptagon/parsing/hept_lexer.mll" 80 912 929
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 80 912 913 "heptagon/parsing/hept_lexer.mll" 80 912 929
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 81 931 932 "heptagon/parsing/hept_lexer.mll" 81 931 941
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 81 931 943 "heptagon/parsing/hept_lexer.mll" 81 931 950
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 81 931 932 "heptagon/parsing/hept_lexer.mll" 81 931 950
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 82 952 953 "heptagon/parsing/hept_lexer.mll" 82 952 964
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 82 952 966 "heptagon/parsing/hept_lexer.mll" 82 952 975
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 82 952 953 "heptagon/parsing/hept_lexer.mll" 82 952 975
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 83 977 978 "heptagon/parsing/hept_lexer.mll" 83 977 990
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 83 977 992 "heptagon/parsing/hept_lexer.mll" 83 977 1002
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 83 977 978 "heptagon/parsing/hept_lexer.mll" 83 977 1002
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 84 1004 1005 "heptagon/parsing/hept_lexer.mll" 84 1004 1011
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 84 1004 1013 "heptagon/parsing/hept_lexer.mll" 84 1004 1017
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 84 1004 1005 "heptagon/parsing/hept_lexer.mll" 84 1004 1017
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 85 1019 1020 "heptagon/parsing/hept_lexer.mll" 85 1019 1029
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 85 1019 1030 "heptagon/parsing/hept_lexer.mll" 85 1019 1037
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 85 1019 1020 "heptagon/parsing/hept_lexer.mll" 85 1019 1037
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 86 1039 1040 "heptagon/parsing/hept_lexer.mll" 86 1039 1046
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 86 1039 1048 "heptagon/parsing/hept_lexer.mll" 86 1039 1052
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 86 1039 1040 "heptagon/parsing/hept_lexer.mll" 86 1039 1052
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 87 1054 1055 "heptagon/parsing/hept_lexer.mll" 87 1054 1063
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 87 1054 1065 "heptagon/parsing/hept_lexer.mll" 87 1054 1071
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 87 1054 1055 "heptagon/parsing/hept_lexer.mll" 87 1054 1071
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 88 1073 1074 "heptagon/parsing/hept_lexer.mll" 88 1073 1081
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 88 1073 1083 "heptagon/parsing/hept_lexer.mll" 88 1073 1088
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 88 1073 1074 "heptagon/parsing/hept_lexer.mll" 88 1073 1088
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 89 1090 1091 "heptagon/parsing/hept_lexer.mll" 89 1090 1095
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 89 1090 1097 "heptagon/parsing/hept_lexer.mll" 89 1090 1099
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 89 1090 1091 "heptagon/parsing/hept_lexer.mll" 89 1090 1099
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 90 1101 1102 "heptagon/parsing/hept_lexer.mll" 90 1101 1108
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 90 1101 1110 "heptagon/parsing/hept_lexer.mll" 90 1101 1114
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 90 1101 1102 "heptagon/parsing/hept_lexer.mll" 90 1101 1114
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 91 1116 1117 "heptagon/parsing/hept_lexer.mll" 91 1116 1122
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 91 1116 1124 "heptagon/parsing/hept_lexer.mll" 91 1116 1127
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 91 1116 1117 "heptagon/parsing/hept_lexer.mll" 91 1116 1127
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 92 1129 1130 "heptagon/parsing/hept_lexer.mll" 92 1129 1136
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 92 1129 1138 "heptagon/parsing/hept_lexer.mll" 92 1129 1142
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 92 1129 1130 "heptagon/parsing/hept_lexer.mll" 92 1129 1142
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 93 1144 1145 "heptagon/parsing/hept_lexer.mll" 93 1144 1151
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 93 1144 1153 "heptagon/parsing/hept_lexer.mll" 93 1144 1157
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 93 1144 1145 "heptagon/parsing/hept_lexer.mll" 93 1144 1157
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 94 1159 1160 "heptagon/parsing/hept_lexer.mll" 94 1159 1167
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 94 1159 1169 "heptagon/parsing/hept_lexer.mll" 94 1159 1174
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 94 1159 1160 "heptagon/parsing/hept_lexer.mll" 94 1159 1174
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 95 1176 1177 "heptagon/parsing/hept_lexer.mll" 95 1176 1186
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 95 1176 1188 "heptagon/parsing/hept_lexer.mll" 95 1176 1195
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 95 1176 1177 "heptagon/parsing/hept_lexer.mll" 95 1176 1195
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 96 1197 1198 "heptagon/parsing/hept_lexer.mll" 96 1197 1202
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 96 1197 1204 "heptagon/parsing/hept_lexer.mll" 96 1197 1206
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 96 1197 1198 "heptagon/parsing/hept_lexer.mll" 96 1197 1206
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 97 1208 1209 "heptagon/parsing/hept_lexer.mll" 97 1208 1215
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 97 1208 1217 "heptagon/parsing/hept_lexer.mll" 97 1208 1221
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 97 1208 1209 "heptagon/parsing/hept_lexer.mll" 97 1208 1221
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 98 1223 1224 "heptagon/parsing/hept_lexer.mll" 98 1223 1231
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 98 1223 1233 "heptagon/parsing/hept_lexer.mll" 98 1223 1238
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 98 1223 1224 "heptagon/parsing/hept_lexer.mll" 98 1223 1238
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 99 1240 1241 "heptagon/parsing/hept_lexer.mll" 99 1240 1249
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 99 1240 1251 "heptagon/parsing/hept_lexer.mll" 99 1240 1257
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 99 1240 1241 "heptagon/parsing/hept_lexer.mll" 99 1240 1257
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 100 1259 1260 "heptagon/parsing/hept_lexer.mll" 100 1259 1268
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 100 1259 1270 "heptagon/parsing/hept_lexer.mll" 100 1259 1276
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 100 1259 1260 "heptagon/parsing/hept_lexer.mll" 100 1259 1276
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 101 1278 1279 "heptagon/parsing/hept_lexer.mll" 101 1278 1289
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 101 1278 1291 "heptagon/parsing/hept_lexer.mll" 101 1278 1299
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 101 1278 1279 "heptagon/parsing/hept_lexer.mll" 101 1278 1299
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 102 1301 1302 "heptagon/parsing/hept_lexer.mll" 102 1301 1307
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 102 1301 1315 "heptagon/parsing/hept_lexer.mll" 102 1301 1322
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 102 1301 1309 "heptagon/parsing/hept_lexer.mll" 102 1301 1322
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 102 1301 1302 "heptagon/parsing/hept_lexer.mll" 102 1301 1322
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 103 1324 1325 "heptagon/parsing/hept_lexer.mll" 103 1324 1330
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 103 1324 1338 "heptagon/parsing/hept_lexer.mll" 103 1324 1345
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 103 1324 1332 "heptagon/parsing/hept_lexer.mll" 103 1324 1345
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 103 1324 1325 "heptagon/parsing/hept_lexer.mll" 103 1324 1345
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 104 1347 1348 "heptagon/parsing/hept_lexer.mll" 104 1347 1354
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 104 1347 1362 "heptagon/parsing/hept_lexer.mll" 104 1347 1370
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 104 1347 1356 "heptagon/parsing/hept_lexer.mll" 104 1347 1370
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 104 1347 1348 "heptagon/parsing/hept_lexer.mll" 104 1347 1370
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 105 1372 1373 "heptagon/parsing/hept_lexer.mll" 105 1372 1378
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 105 1372 1386 "heptagon/parsing/hept_lexer.mll" 105 1372 1393
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 105 1372 1380 "heptagon/parsing/hept_lexer.mll" 105 1372 1393
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 105 1372 1373 "heptagon/parsing/hept_lexer.mll" 105 1372 1393
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 106 1395 1396 "heptagon/parsing/hept_lexer.mll" 106 1395 1401
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 106 1395 1409 "heptagon/parsing/hept_lexer.mll" 106 1395 1416
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 106 1395 1403 "heptagon/parsing/hept_lexer.mll" 106 1395 1416
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 106 1395 1396 "heptagon/parsing/hept_lexer.mll" 106 1395 1416
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 107 1418 1419 "heptagon/parsing/hept_lexer.mll" 107 1418 1424
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 107 1418 1432 "heptagon/parsing/hept_lexer.mll" 107 1418 1439
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 107 1418 1426 "heptagon/parsing/hept_lexer.mll" 107 1418 1439
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 107 1418 1419 "heptagon/parsing/hept_lexer.mll" 107 1418 1439
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 108 1441 1442 "heptagon/parsing/hept_lexer.mll" 108 1441 1447
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 108 1441 1455 "heptagon/parsing/hept_lexer.mll" 108 1441 1462
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 108 1441 1449 "heptagon/parsing/hept_lexer.mll" 108 1441 1462
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 108 1441 1442 "heptagon/parsing/hept_lexer.mll" 108 1441 1462
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 109 1464 1465 "heptagon/parsing/hept_lexer.mll" 109 1464 1470
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 109 1464 1478 "heptagon/parsing/hept_lexer.mll" 109 1464 1485
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 109 1464 1472 "heptagon/parsing/hept_lexer.mll" 109 1464 1485
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 109 1464 1465 "heptagon/parsing/hept_lexer.mll" 109 1464 1485
+type(
+  string * Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 324 "heptagon/parsing/hept_lexer.mll" 110 1486 1487
+type(
+  (string * Hept_parser.token) list
+)
+"heptagon/parsing/hept_lexer.mll" 43 261 261 "heptagon/parsing/hept_lexer.mll" 110 1486 1487
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 115 1523 1527 "heptagon/parsing/hept_lexer.mll" 115 1523 1548
+type(
+  bytes
+)
+ident(
+  def initial_string_buffer "heptagon/parsing/hept_lexer.mll" 116 1569 1569 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 115 1523 1551 "heptagon/parsing/hept_lexer.mll" 115 1523 1564
+type(
+  int -> bytes
+)
+ident(
+  ext_ref String.create
+)
+"heptagon/parsing/hept_lexer.mll" 115 1523 1565 "heptagon/parsing/hept_lexer.mll" 115 1523 1568
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 115 1523 1551 "heptagon/parsing/hept_lexer.mll" 115 1523 1568
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+type(
+  bytes ref
+)
+ident(
+  def string_buff "heptagon/parsing/hept_lexer.mll" 117 1613 1613 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 116 1569 1587 "heptagon/parsing/hept_lexer.mll" 116 1569 1590
+type(
+  bytes -> bytes ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"heptagon/parsing/hept_lexer.mll" 116 1569 1591 "heptagon/parsing/hept_lexer.mll" 116 1569 1612
+type(
+  bytes
+)
+ident(
+  int_ref initial_string_buffer "heptagon/parsing/hept_lexer.mll" 115 1523 1527 "heptagon/parsing/hept_lexer.mll" 115 1523 1548
+)
+"heptagon/parsing/hept_lexer.mll" 116 1569 1587 "heptagon/parsing/hept_lexer.mll" 116 1569 1612
+type(
+  bytes ref
+)
+"heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+type(
+  int ref
+)
+ident(
+  def string_index "heptagon/parsing/hept_lexer.mll" 119 1639 1639 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 117 1613 1632 "heptagon/parsing/hept_lexer.mll" 117 1613 1635
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"heptagon/parsing/hept_lexer.mll" 117 1613 1636 "heptagon/parsing/hept_lexer.mll" 117 1613 1637
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 117 1613 1632 "heptagon/parsing/hept_lexer.mll" 117 1613 1637
+type(
+  int ref
+)
+"heptagon/parsing/hept_lexer.mll" 119 1639 1643 "heptagon/parsing/hept_lexer.mll" 119 1639 1662
+type(
+  unit -> unit
+)
+ident(
+  def reset_string_buffer "heptagon/parsing/hept_lexer.mll" 125 1736 1736 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 119 1639 1663 "heptagon/parsing/hept_lexer.mll" 119 1639 1665
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 120 1668 1670 "heptagon/parsing/hept_lexer.mll" 120 1668 1681
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 120 1668 1682 "heptagon/parsing/hept_lexer.mll" 120 1668 1684
+type(
+  bytes ref -> bytes -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 120 1668 1685 "heptagon/parsing/hept_lexer.mll" 120 1668 1706
+type(
+  bytes
+)
+ident(
+  int_ref initial_string_buffer "heptagon/parsing/hept_lexer.mll" 115 1523 1527 "heptagon/parsing/hept_lexer.mll" 115 1523 1548
+)
+"heptagon/parsing/hept_lexer.mll" 120 1668 1670 "heptagon/parsing/hept_lexer.mll" 120 1668 1706
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 121 1708 1710 "heptagon/parsing/hept_lexer.mll" 121 1708 1722
+type(
+  int ref
+)
+ident(
+  int_ref string_index "heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+)
+"heptagon/parsing/hept_lexer.mll" 121 1708 1723 "heptagon/parsing/hept_lexer.mll" 121 1708 1725
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 121 1708 1726 "heptagon/parsing/hept_lexer.mll" 121 1708 1727
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 121 1708 1710 "heptagon/parsing/hept_lexer.mll" 121 1708 1727
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 122 1729 1731 "heptagon/parsing/hept_lexer.mll" 122 1729 1733
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 121 1708 1710 "heptagon/parsing/hept_lexer.mll" 122 1729 1733
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 120 1668 1670 "heptagon/parsing/hept_lexer.mll" 122 1729 1733
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 125 1736 1740 "heptagon/parsing/hept_lexer.mll" 125 1736 1757
+type(
+  char -> unit
+)
+ident(
+  def store_string_char "heptagon/parsing/hept_lexer.mll" 135 2079 2079 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 125 1736 1758 "heptagon/parsing/hept_lexer.mll" 125 1736 1759
+type(
+  char
+)
+ident(
+  def c "heptagon/parsing/hept_lexer.mll" 126 1762 1764 "heptagon/parsing/hept_lexer.mll" 132 2057 2076
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1767 "heptagon/parsing/hept_lexer.mll" 126 1762 1768
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1768 "heptagon/parsing/hept_lexer.mll" 126 1762 1780
+type(
+  int ref
+)
+ident(
+  int_ref string_index "heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1767 "heptagon/parsing/hept_lexer.mll" 126 1762 1780
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1781 "heptagon/parsing/hept_lexer.mll" 126 1762 1783
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1784 "heptagon/parsing/hept_lexer.mll" 126 1762 1797
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1799 "heptagon/parsing/hept_lexer.mll" 126 1762 1800
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1800 "heptagon/parsing/hept_lexer.mll" 126 1762 1811
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1798 "heptagon/parsing/hept_lexer.mll" 126 1762 1812
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1784 "heptagon/parsing/hept_lexer.mll" 126 1762 1812
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1767 "heptagon/parsing/hept_lexer.mll" 126 1762 1812
+type(
+  bool
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1832 "heptagon/parsing/hept_lexer.mll" 127 1824 1840
+type(
+  bytes
+)
+ident(
+  def new_buff "heptagon/parsing/hept_lexer.mll" 128 1895 1901 "heptagon/parsing/hept_lexer.mll" 129 1973 2002
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1843 "heptagon/parsing/hept_lexer.mll" 127 1824 1856
+type(
+  int -> bytes
+)
+ident(
+  ext_ref String.create
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1858 "heptagon/parsing/hept_lexer.mll" 127 1824 1871
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1873 "heptagon/parsing/hept_lexer.mll" 127 1824 1874
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1874 "heptagon/parsing/hept_lexer.mll" 127 1824 1885
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1872 "heptagon/parsing/hept_lexer.mll" 127 1824 1886
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1858 "heptagon/parsing/hept_lexer.mll" 127 1824 1886
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1887 "heptagon/parsing/hept_lexer.mll" 127 1824 1888
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1889 "heptagon/parsing/hept_lexer.mll" 127 1824 1890
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1857 "heptagon/parsing/hept_lexer.mll" 127 1824 1891
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 127 1824 1843 "heptagon/parsing/hept_lexer.mll" 127 1824 1891
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1901 "heptagon/parsing/hept_lexer.mll" 128 1895 1912
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref String.blit
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1914 "heptagon/parsing/hept_lexer.mll" 128 1895 1915
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1915 "heptagon/parsing/hept_lexer.mll" 128 1895 1926
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1913 "heptagon/parsing/hept_lexer.mll" 128 1895 1927
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1928 "heptagon/parsing/hept_lexer.mll" 128 1895 1929
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1930 "heptagon/parsing/hept_lexer.mll" 128 1895 1938
+type(
+  bytes
+)
+ident(
+  int_ref new_buff "heptagon/parsing/hept_lexer.mll" 127 1824 1832 "heptagon/parsing/hept_lexer.mll" 127 1824 1840
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1939 "heptagon/parsing/hept_lexer.mll" 128 1895 1940
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1942 "heptagon/parsing/hept_lexer.mll" 128 1895 1955
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1957 "heptagon/parsing/hept_lexer.mll" 128 1895 1958
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1958 "heptagon/parsing/hept_lexer.mll" 128 1895 1969
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1956 "heptagon/parsing/hept_lexer.mll" 128 1895 1970
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1941 "heptagon/parsing/hept_lexer.mll" 128 1895 1971
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1901 "heptagon/parsing/hept_lexer.mll" 128 1895 1971
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 129 1973 1979 "heptagon/parsing/hept_lexer.mll" 129 1973 1990
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 129 1973 1991 "heptagon/parsing/hept_lexer.mll" 129 1973 1993
+type(
+  bytes ref -> bytes -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 129 1973 1994 "heptagon/parsing/hept_lexer.mll" 129 1973 2002
+type(
+  bytes
+)
+ident(
+  int_ref new_buff "heptagon/parsing/hept_lexer.mll" 127 1824 1832 "heptagon/parsing/hept_lexer.mll" 127 1824 1840
+)
+"heptagon/parsing/hept_lexer.mll" 129 1973 1979 "heptagon/parsing/hept_lexer.mll" 129 1973 2002
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 128 1895 1901 "heptagon/parsing/hept_lexer.mll" 129 1973 2002
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1818 "heptagon/parsing/hept_lexer.mll" 130 2003 2008
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1764 "heptagon/parsing/hept_lexer.mll" 130 2003 2008
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2012 "heptagon/parsing/hept_lexer.mll" 131 2010 2022
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref String.set
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2024 "heptagon/parsing/hept_lexer.mll" 131 2010 2025
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2025 "heptagon/parsing/hept_lexer.mll" 131 2010 2036
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2023 "heptagon/parsing/hept_lexer.mll" 131 2010 2037
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2039 "heptagon/parsing/hept_lexer.mll" 131 2010 2040
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2040 "heptagon/parsing/hept_lexer.mll" 131 2010 2052
+type(
+  int ref
+)
+ident(
+  int_ref string_index "heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2038 "heptagon/parsing/hept_lexer.mll" 131 2010 2053
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2054 "heptagon/parsing/hept_lexer.mll" 131 2010 2055
+type(
+  char
+)
+ident(
+  int_ref c "heptagon/parsing/hept_lexer.mll" 125 1736 1758 "heptagon/parsing/hept_lexer.mll" 125 1736 1759
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2012 "heptagon/parsing/hept_lexer.mll" 131 2010 2055
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 132 2057 2059 "heptagon/parsing/hept_lexer.mll" 132 2057 2063
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"heptagon/parsing/hept_lexer.mll" 132 2057 2064 "heptagon/parsing/hept_lexer.mll" 132 2057 2076
+type(
+  int ref
+)
+ident(
+  int_ref string_index "heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+)
+"heptagon/parsing/hept_lexer.mll" 132 2057 2059 "heptagon/parsing/hept_lexer.mll" 132 2057 2076
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 131 2010 2012 "heptagon/parsing/hept_lexer.mll" 132 2057 2076
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 126 1762 1764 "heptagon/parsing/hept_lexer.mll" 132 2057 2076
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 135 2079 2083 "heptagon/parsing/hept_lexer.mll" 135 2079 2100
+type(
+  unit -> string
+)
+ident(
+  def get_stored_string "heptagon/parsing/hept_lexer.mll" 140 2212 2212 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 135 2079 2101 "heptagon/parsing/hept_lexer.mll" 135 2079 2103
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2112 "heptagon/parsing/hept_lexer.mll" 136 2106 2113
+type(
+  string
+)
+ident(
+  def s "heptagon/parsing/hept_lexer.mll" 137 2163 2167 "heptagon/parsing/hept_lexer.mll" 138 2205 2210
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2116 "heptagon/parsing/hept_lexer.mll" 136 2106 2126
+type(
+  bytes -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2128 "heptagon/parsing/hept_lexer.mll" 136 2106 2129
+type(
+  bytes ref -> bytes
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2129 "heptagon/parsing/hept_lexer.mll" 136 2106 2140
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2127 "heptagon/parsing/hept_lexer.mll" 136 2106 2141
+type(
+  bytes
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2142 "heptagon/parsing/hept_lexer.mll" 136 2106 2143
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2145 "heptagon/parsing/hept_lexer.mll" 136 2106 2146
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2146 "heptagon/parsing/hept_lexer.mll" 136 2106 2158
+type(
+  int ref
+)
+ident(
+  int_ref string_index "heptagon/parsing/hept_lexer.mll" 117 1613 1617 "heptagon/parsing/hept_lexer.mll" 117 1613 1629
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2144 "heptagon/parsing/hept_lexer.mll" 136 2106 2159
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2116 "heptagon/parsing/hept_lexer.mll" 136 2106 2159
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 137 2163 2167 "heptagon/parsing/hept_lexer.mll" 137 2163 2178
+type(
+  bytes ref
+)
+ident(
+  int_ref string_buff "heptagon/parsing/hept_lexer.mll" 116 1569 1573 "heptagon/parsing/hept_lexer.mll" 116 1569 1584
+)
+"heptagon/parsing/hept_lexer.mll" 137 2163 2179 "heptagon/parsing/hept_lexer.mll" 137 2163 2181
+type(
+  bytes ref -> bytes -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 137 2163 2182 "heptagon/parsing/hept_lexer.mll" 137 2163 2203
+type(
+  bytes
+)
+ident(
+  int_ref initial_string_buffer "heptagon/parsing/hept_lexer.mll" 115 1523 1527 "heptagon/parsing/hept_lexer.mll" 115 1523 1548
+)
+"heptagon/parsing/hept_lexer.mll" 137 2163 2167 "heptagon/parsing/hept_lexer.mll" 137 2163 2203
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 138 2205 2209 "heptagon/parsing/hept_lexer.mll" 138 2205 2210
+type(
+  string
+)
+ident(
+  int_ref s "heptagon/parsing/hept_lexer.mll" 136 2106 2112 "heptagon/parsing/hept_lexer.mll" 136 2106 2113
+)
+"heptagon/parsing/hept_lexer.mll" 137 2163 2167 "heptagon/parsing/hept_lexer.mll" 138 2205 2210
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 136 2106 2108 "heptagon/parsing/hept_lexer.mll" 138 2205 2210
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 140 2212 2216 "heptagon/parsing/hept_lexer.mll" 140 2212 2234
+type(
+  char -> char
+)
+ident(
+  def char_for_backslash "heptagon/parsing/hept_lexer.mll" 147 2332 2332 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 141 2246 2250 "heptagon/parsing/hept_lexer.mll" 141 2246 2253
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 141 2246 2257 "heptagon/parsing/hept_lexer.mll" 141 2246 2263
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 142 2264 2268 "heptagon/parsing/hept_lexer.mll" 142 2264 2271
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 142 2264 2275 "heptagon/parsing/hept_lexer.mll" 142 2264 2281
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 143 2282 2286 "heptagon/parsing/hept_lexer.mll" 143 2282 2289
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 143 2282 2293 "heptagon/parsing/hept_lexer.mll" 143 2282 2299
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 144 2300 2304 "heptagon/parsing/hept_lexer.mll" 144 2300 2307
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 144 2300 2311 "heptagon/parsing/hept_lexer.mll" 144 2300 2317
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 145 2318 2322 "heptagon/parsing/hept_lexer.mll" 145 2318 2323
+type(
+  char
+)
+ident(
+  def c "heptagon/parsing/hept_lexer.mll" 145 2318 2329 "heptagon/parsing/hept_lexer.mll" 145 2318 2330
+)
+"heptagon/parsing/hept_lexer.mll" 145 2318 2329 "heptagon/parsing/hept_lexer.mll" 145 2318 2330
+type(
+  char
+)
+ident(
+  int_ref c "heptagon/parsing/hept_lexer.mll" 145 2318 2322 "heptagon/parsing/hept_lexer.mll" 145 2318 2323
+)
+"heptagon/parsing/hept_lexer.mll" 140 2212 2237 "heptagon/parsing/hept_lexer.mll" 145 2318 2330
+type(
+  char -> char
+)
+"heptagon/parsing/hept_lexer.mll" 147 2332 2336 "heptagon/parsing/hept_lexer.mll" 147 2332 2357
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  def char_for_decimal_code "heptagon/parsing/hept_lexer.ml" 127 2636 2636 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.mll" 147 2332 2358 "heptagon/parsing/hept_lexer.mll" 147 2332 2364
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.mll" 147 2332 2365 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+)
+"heptagon/parsing/hept_lexer.mll" 147 2332 2365 "heptagon/parsing/hept_lexer.mll" 147 2332 2366
+type(
+  int
+)
+ident(
+  def i "heptagon/parsing/hept_lexer.mll" 148 2369 2371 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+)
+"heptagon/parsing/hept_lexer.mll" 148 2369 2375 "heptagon/parsing/hept_lexer.mll" 148 2369 2376
+type(
+  int
+)
+ident(
+  def c "heptagon/parsing/hept_lexer.mll" 152 2568 2570 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2383 "heptagon/parsing/hept_lexer.mll" 149 2379 2386
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2387 "heptagon/parsing/hept_lexer.mll" 149 2379 2388
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2390 "heptagon/parsing/hept_lexer.mll" 149 2379 2401
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2402 "heptagon/parsing/hept_lexer.mll" 149 2379 2420
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2421 "heptagon/parsing/hept_lexer.mll" 149 2379 2427
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.mll" 147 2332 2358 "heptagon/parsing/hept_lexer.mll" 147 2332 2364
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2428 "heptagon/parsing/hept_lexer.mll" 149 2379 2429
+type(
+  int
+)
+ident(
+  int_ref i "heptagon/parsing/hept_lexer.mll" 147 2332 2365 "heptagon/parsing/hept_lexer.mll" 147 2332 2366
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2401 "heptagon/parsing/hept_lexer.mll" 149 2379 2430
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2390 "heptagon/parsing/hept_lexer.mll" 149 2379 2430
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2431 "heptagon/parsing/hept_lexer.mll" 149 2379 2432
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2433 "heptagon/parsing/hept_lexer.mll" 149 2379 2435
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2389 "heptagon/parsing/hept_lexer.mll" 149 2379 2436
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2383 "heptagon/parsing/hept_lexer.mll" 149 2379 2436
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2437 "heptagon/parsing/hept_lexer.mll" 149 2379 2438
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2444 "heptagon/parsing/hept_lexer.mll" 150 2439 2446
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2447 "heptagon/parsing/hept_lexer.mll" 150 2439 2448
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2450 "heptagon/parsing/hept_lexer.mll" 150 2439 2461
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2462 "heptagon/parsing/hept_lexer.mll" 150 2439 2480
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2481 "heptagon/parsing/hept_lexer.mll" 150 2439 2487
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.mll" 147 2332 2358 "heptagon/parsing/hept_lexer.mll" 147 2332 2364
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2489 "heptagon/parsing/hept_lexer.mll" 150 2439 2490
+type(
+  int
+)
+ident(
+  int_ref i "heptagon/parsing/hept_lexer.mll" 147 2332 2365 "heptagon/parsing/hept_lexer.mll" 147 2332 2366
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2490 "heptagon/parsing/hept_lexer.mll" 150 2439 2491
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2491 "heptagon/parsing/hept_lexer.mll" 150 2439 2492
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2488 "heptagon/parsing/hept_lexer.mll" 150 2439 2493
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2461 "heptagon/parsing/hept_lexer.mll" 150 2439 2494
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2450 "heptagon/parsing/hept_lexer.mll" 150 2439 2494
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2495 "heptagon/parsing/hept_lexer.mll" 150 2439 2496
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2497 "heptagon/parsing/hept_lexer.mll" 150 2439 2499
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2449 "heptagon/parsing/hept_lexer.mll" 150 2439 2500
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2444 "heptagon/parsing/hept_lexer.mll" 150 2439 2500
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2383 "heptagon/parsing/hept_lexer.mll" 150 2439 2500
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 150 2439 2501 "heptagon/parsing/hept_lexer.mll" 150 2439 2502
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2514 "heptagon/parsing/hept_lexer.mll" 151 2503 2525
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2526 "heptagon/parsing/hept_lexer.mll" 151 2503 2544
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2545 "heptagon/parsing/hept_lexer.mll" 151 2503 2551
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.mll" 147 2332 2358 "heptagon/parsing/hept_lexer.mll" 147 2332 2364
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2553 "heptagon/parsing/hept_lexer.mll" 151 2503 2554
+type(
+  int
+)
+ident(
+  int_ref i "heptagon/parsing/hept_lexer.mll" 147 2332 2365 "heptagon/parsing/hept_lexer.mll" 147 2332 2366
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2554 "heptagon/parsing/hept_lexer.mll" 151 2503 2555
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2555 "heptagon/parsing/hept_lexer.mll" 151 2503 2556
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2552 "heptagon/parsing/hept_lexer.mll" 151 2503 2557
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2525 "heptagon/parsing/hept_lexer.mll" 151 2503 2558
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2514 "heptagon/parsing/hept_lexer.mll" 151 2503 2558
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2559 "heptagon/parsing/hept_lexer.mll" 151 2503 2560
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2561 "heptagon/parsing/hept_lexer.mll" 151 2503 2563
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 151 2503 2513 "heptagon/parsing/hept_lexer.mll" 151 2503 2564
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 149 2379 2383 "heptagon/parsing/hept_lexer.mll" 151 2503 2564
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2570 "heptagon/parsing/hept_lexer.mll" 152 2568 2581
+type(
+  int -> char
+)
+ident(
+  ext_ref Pervasives.char_of_int
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2582 "heptagon/parsing/hept_lexer.mll" 152 2568 2583
+type(
+  int
+)
+ident(
+  int_ref c "heptagon/parsing/hept_lexer.mll" 148 2369 2375 "heptagon/parsing/hept_lexer.mll" 148 2369 2376
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2584 "heptagon/parsing/hept_lexer.mll" 152 2568 2588
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2589 "heptagon/parsing/hept_lexer.mll" 152 2568 2593
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2581 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 152 2568 2570 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+call(
+  tail
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 148 2369 2371 "heptagon/parsing/hept_lexer.mll" 152 2568 2594
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.ml" 127 2636 2640 "heptagon/parsing/hept_lexer.ml" 127 2636 2658
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 129 2684 2687 "heptagon/parsing/hept_lexer.ml" 143 3664 3677
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 145 3703 3706 "heptagon/parsing/hept_lexer.ml" 159 4683 4696
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 161 4722 4725 "heptagon/parsing/hept_lexer.ml" 175 5702 5715
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 177 5739 5742 "heptagon/parsing/hept_lexer.ml" 421 22819 22872
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 423 22896 22899 "heptagon/parsing/hept_lexer.ml" 667 39976 40029
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 669 40057 40060 "heptagon/parsing/hept_lexer.ml" 669 40057 40062
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 671 40093 40096 "heptagon/parsing/hept_lexer.ml" 671 40093 40098
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 673 40129 40132 "heptagon/parsing/hept_lexer.ml" 673 40129 40134
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 675 40163 40166 "heptagon/parsing/hept_lexer.ml" 675 40163 40168
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 677 40197 40200 "heptagon/parsing/hept_lexer.ml" 677 40197 40202
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 679 40225 40228 "heptagon/parsing/hept_lexer.ml" 679 40225 40230
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.ml" 127 2636 2661 "heptagon/parsing/hept_lexer.ml" 680 40232 40233
+type(
+  Lexing.lex_tables
+)
+"heptagon/parsing/hept_lexer.ml" 682 40235 40243 "heptagon/parsing/hept_lexer.ml" 682 40235 40248
+type(
+  Lexing.lexbuf -> Hept_parser.token
+)
+ident(
+  def token "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 682 40235 40249 "heptagon/parsing/hept_lexer.ml" 682 40235 40255
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 683 40258 40262 "heptagon/parsing/hept_lexer.ml" 683 40258 40292
+)
+"heptagon/parsing/hept_lexer.ml" 683 40258 40262 "heptagon/parsing/hept_lexer.ml" 683 40258 40283
+type(
+  Lexing.lexbuf -> int -> Hept_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "heptagon/parsing/hept_lexer.ml" 684 40293 40297 "heptagon/parsing/hept_lexer.ml" 684 40293 40318
+)
+"heptagon/parsing/hept_lexer.ml" 683 40258 40284 "heptagon/parsing/hept_lexer.ml" 683 40258 40290
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 682 40235 40249 "heptagon/parsing/hept_lexer.ml" 682 40235 40255
+)
+"heptagon/parsing/hept_lexer.ml" 683 40258 40291 "heptagon/parsing/hept_lexer.ml" 683 40258 40292
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 683 40258 40262 "heptagon/parsing/hept_lexer.ml" 683 40258 40292
+call(
+  tail
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 684 40293 40297 "heptagon/parsing/hept_lexer.ml" 684 40293 40318
+type(
+  Lexing.lexbuf -> int -> Hept_parser.token
+)
+ident(
+  def __ocaml_lex_token_rec "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40326 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+)
+"heptagon/parsing/hept_lexer.ml" 684 40293 40326 "heptagon/parsing/hept_lexer.ml" 684 40293 40343
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 685 40346 40348 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40354 "heptagon/parsing/hept_lexer.ml" 685 40346 40367
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40368 "heptagon/parsing/hept_lexer.ml" 685 40346 40386
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "heptagon/parsing/hept_lexer.ml" 127 2636 2640 "heptagon/parsing/hept_lexer.ml" 127 2636 2658
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40387 "heptagon/parsing/hept_lexer.ml" 685 40346 40404
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 684 40293 40326 "heptagon/parsing/hept_lexer.ml" 684 40293 40343
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40405 "heptagon/parsing/hept_lexer.ml" 685 40346 40411
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40354 "heptagon/parsing/hept_lexer.ml" 685 40346 40411
+call(
+  stack
+)
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 686 40417 40425 "heptagon/parsing/hept_lexer.ml" 686 40417 40426
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40492 "heptagon/parsing/hept_lexer.mll" 160 40470 40500
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40501 "heptagon/parsing/hept_lexer.mll" 160 40470 40507
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40492 "heptagon/parsing/hept_lexer.mll" 160 40470 40507
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40509 "heptagon/parsing/hept_lexer.mll" 160 40470 40514
+type(
+  Lexing.lexbuf -> Hept_parser.token
+)
+ident(
+  int_ref token "heptagon/parsing/hept_lexer.ml" 682 40235 40243 "heptagon/parsing/hept_lexer.ml" 682 40235 40248
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40515 "heptagon/parsing/hept_lexer.mll" 160 40470 40521
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40509 "heptagon/parsing/hept_lexer.mll" 160 40470 40521
+call(
+  tail
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 160 40470 40490 "heptagon/parsing/hept_lexer.mll" 160 40470 40523
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 691 40564 40568 "heptagon/parsing/hept_lexer.ml" 691 40564 40569
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 161 40613 40635 "heptagon/parsing/hept_lexer.mll" 161 40613 40640
+type(
+  Lexing.lexbuf -> Hept_parser.token
+)
+ident(
+  int_ref token "heptagon/parsing/hept_lexer.ml" 682 40235 40243 "heptagon/parsing/hept_lexer.ml" 682 40235 40248
+)
+"heptagon/parsing/hept_lexer.mll" 161 40613 40641 "heptagon/parsing/hept_lexer.mll" 161 40613 40647
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 161 40613 40633 "heptagon/parsing/hept_lexer.mll" 161 40613 40649
+call(
+  tail
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 696 40690 40694 "heptagon/parsing/hept_lexer.ml" 696 40690 40695
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 162 40739 40759 "heptagon/parsing/hept_lexer.mll" 162 40739 40764
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 701 40805 40809 "heptagon/parsing/hept_lexer.ml" 701 40805 40810
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 163 40854 40874 "heptagon/parsing/hept_lexer.mll" 163 40854 40882
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 706 40923 40927 "heptagon/parsing/hept_lexer.ml" 706 40923 40928
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 164 40972 40992 "heptagon/parsing/hept_lexer.mll" 164 40972 41005
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 711 41046 41050 "heptagon/parsing/hept_lexer.ml" 711 41046 41051
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 165 41095 41115 "heptagon/parsing/hept_lexer.mll" 165 41095 41123
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 716 41164 41168 "heptagon/parsing/hept_lexer.ml" 716 41164 41169
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 166 41213 41233 "heptagon/parsing/hept_lexer.mll" 166 41213 41249
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 721 41290 41294 "heptagon/parsing/hept_lexer.ml" 721 41290 41295
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 167 41339 41359 "heptagon/parsing/hept_lexer.mll" 167 41339 41367
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 726 41408 41412 "heptagon/parsing/hept_lexer.ml" 726 41408 41413
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 168 41457 41477 "heptagon/parsing/hept_lexer.mll" 168 41457 41485
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 731 41526 41530 "heptagon/parsing/hept_lexer.ml" 731 41526 41531
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 169 41575 41595 "heptagon/parsing/hept_lexer.mll" 169 41575 41603
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 736 41644 41648 "heptagon/parsing/hept_lexer.ml" 736 41644 41650
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 170 41694 41714 "heptagon/parsing/hept_lexer.mll" 170 41694 41721
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 741 41762 41766 "heptagon/parsing/hept_lexer.ml" 741 41762 41768
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 171 41812 41832 "heptagon/parsing/hept_lexer.mll" 171 41812 41844
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 746 41885 41889 "heptagon/parsing/hept_lexer.ml" 746 41885 41891
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 172 41935 41955 "heptagon/parsing/hept_lexer.mll" 172 41935 41964
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 751 42005 42009 "heptagon/parsing/hept_lexer.ml" 751 42005 42011
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 173 42055 42075 "heptagon/parsing/hept_lexer.mll" 173 42055 42082
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 756 42123 42127 "heptagon/parsing/hept_lexer.ml" 756 42123 42129
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 174 42173 42193 "heptagon/parsing/hept_lexer.mll" 174 42173 42205
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 761 42246 42250 "heptagon/parsing/hept_lexer.ml" 761 42246 42252
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 175 42296 42316 "heptagon/parsing/hept_lexer.mll" 175 42296 42330
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 766 42371 42375 "heptagon/parsing/hept_lexer.ml" 766 42371 42377
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 176 42421 42441 "heptagon/parsing/hept_lexer.mll" 176 42421 42452
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 771 42493 42497 "heptagon/parsing/hept_lexer.ml" 771 42493 42499
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 177 42543 42563 "heptagon/parsing/hept_lexer.mll" 177 42543 42575
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 776 42616 42620 "heptagon/parsing/hept_lexer.ml" 776 42616 42622
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 178 42666 42686 "heptagon/parsing/hept_lexer.mll" 178 42666 42694
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 781 42735 42739 "heptagon/parsing/hept_lexer.ml" 781 42735 42741
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 179 42785 42805 "heptagon/parsing/hept_lexer.mll" 179 42785 42812
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 786 42853 42857 "heptagon/parsing/hept_lexer.ml" 786 42853 42859
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 180 42903 42923 "heptagon/parsing/hept_lexer.mll" 180 42903 42930
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 791 42971 42975 "heptagon/parsing/hept_lexer.ml" 791 42971 42977
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 181 43021 43041 "heptagon/parsing/hept_lexer.mll" 181 43021 43046
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 796 43087 43091 "heptagon/parsing/hept_lexer.ml" 796 43087 43093
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 182 43137 43170 "heptagon/parsing/hept_lexer.mll" 182 43137 43173
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 182 43137 43157 "heptagon/parsing/hept_lexer.mll" 182 43137 43174
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 801 43215 43219 "heptagon/parsing/hept_lexer.ml" 801 43215 43221
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 183 43265 43298 "heptagon/parsing/hept_lexer.mll" 183 43265 43302
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 183 43265 43285 "heptagon/parsing/hept_lexer.mll" 183 43265 43303
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 806 43344 43348 "heptagon/parsing/hept_lexer.ml" 806 43344 43350
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 184 43394 43414 "heptagon/parsing/hept_lexer.mll" 184 43394 43421
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 811 43462 43466 "heptagon/parsing/hept_lexer.ml" 811 43462 43468
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 185 43512 43532 "heptagon/parsing/hept_lexer.mll" 185 43512 43542
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 816 43583 43587 "heptagon/parsing/hept_lexer.ml" 816 43583 43589
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 186 43633 43653 "heptagon/parsing/hept_lexer.mll" 186 43633 43663
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 821 43704 43708 "heptagon/parsing/hept_lexer.ml" 821 43704 43710
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 187 43754 43774 "heptagon/parsing/hept_lexer.mll" 187 43754 43791
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 826 43832 43836 "heptagon/parsing/hept_lexer.ml" 826 43832 43838
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 188 43882 43902 "heptagon/parsing/hept_lexer.mll" 188 43882 43916
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 831 43957 43961 "heptagon/parsing/hept_lexer.ml" 831 43957 43963
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 189 44007 44027 "heptagon/parsing/hept_lexer.mll" 189 44007 44036
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 836 44077 44081 "heptagon/parsing/hept_lexer.ml" 836 44077 44083
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 190 44127 44147 "heptagon/parsing/hept_lexer.mll" 190 44127 44159
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 841 44200 44204 "heptagon/parsing/hept_lexer.ml" 841 44200 44206
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 191 44250 44270 "heptagon/parsing/hept_lexer.mll" 191 44250 44283
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 846 44324 44328 "heptagon/parsing/hept_lexer.ml" 846 44324 44330
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 192 44374 44394 "heptagon/parsing/hept_lexer.mll" 192 44374 44410
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 851 44451 44455 "heptagon/parsing/hept_lexer.ml" 851 44451 44457
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 193 44501 44521 "heptagon/parsing/hept_lexer.mll" 193 44501 44533
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 856 44574 44578 "heptagon/parsing/hept_lexer.ml" 856 44574 44580
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 194 44628 44685 "heptagon/parsing/hept_lexer.mll" 194 44628 44687
+type(
+  string
+)
+ident(
+  def id "heptagon/parsing/hept_lexer.mll" 195 44852 44858 "heptagon/parsing/hept_lexer.mll" 195 44852 44874
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44729 "heptagon/parsing/hept_lexer.ml" 861 44727 44746
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44747 "heptagon/parsing/hept_lexer.ml" 861 44727 44753
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44754 "heptagon/parsing/hept_lexer.ml" 861 44727 44760
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44754 "heptagon/parsing/hept_lexer.ml" 861 44727 44781
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44782 "heptagon/parsing/hept_lexer.ml" 861 44727 44788
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44782 "heptagon/parsing/hept_lexer.ml" 861 44727 44808
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 861 44727 44729 "heptagon/parsing/hept_lexer.ml" 861 44727 44808
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 195 44852 44871 "heptagon/parsing/hept_lexer.mll" 195 44852 44873
+type(
+  string
+)
+ident(
+  int_ref id "heptagon/parsing/hept_lexer.mll" 194 44628 44685 "heptagon/parsing/hept_lexer.mll" 194 44628 44687
+)
+"heptagon/parsing/hept_lexer.mll" 195 44852 44858 "heptagon/parsing/hept_lexer.mll" 195 44852 44874
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 857 44584 44584 "heptagon/parsing/hept_lexer.mll" 195 44852 44874
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 866 44915 44919 "heptagon/parsing/hept_lexer.ml" 866 44915 44921
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 196 44969 45034 "heptagon/parsing/hept_lexer.mll" 196 44969 45036
+type(
+  string
+)
+ident(
+  def id "heptagon/parsing/hept_lexer.mll" 197 45201 45207 "heptagon/parsing/hept_lexer.mll" 203 45349 45356
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45078 "heptagon/parsing/hept_lexer.ml" 871 45076 45095
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45096 "heptagon/parsing/hept_lexer.ml" 871 45076 45102
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45103 "heptagon/parsing/hept_lexer.ml" 871 45076 45109
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45103 "heptagon/parsing/hept_lexer.ml" 871 45076 45130
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45131 "heptagon/parsing/hept_lexer.ml" 871 45076 45137
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45131 "heptagon/parsing/hept_lexer.ml" 871 45076 45157
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 871 45076 45078 "heptagon/parsing/hept_lexer.ml" 871 45076 45157
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 197 45201 45213 "heptagon/parsing/hept_lexer.mll" 197 45201 45214
+type(
+  string
+)
+ident(
+  def s "heptagon/parsing/hept_lexer.mll" 198 45241 45251 "heptagon/parsing/hept_lexer.mll" 202 45341 45348
+)
+"heptagon/parsing/hept_lexer.mll" 197 45201 45217 "heptagon/parsing/hept_lexer.mll" 197 45201 45230
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 197 45201 45231 "heptagon/parsing/hept_lexer.mll" 197 45201 45237
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 197 45201 45217 "heptagon/parsing/hept_lexer.mll" 197 45201 45237
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 199 45261 45267 "heptagon/parsing/hept_lexer.mll" 199 45261 45279
+type(
+  (string, Hept_parser.token) Hashtbl.t -> string -> Hept_parser.token
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"heptagon/parsing/hept_lexer.mll" 199 45261 45280 "heptagon/parsing/hept_lexer.mll" 199 45261 45293
+type(
+  (string, Hept_parser.token) Hashtbl.t
+)
+ident(
+  int_ref keyword_table "heptagon/parsing/hept_lexer.mll" 41 187 191 "heptagon/parsing/hept_lexer.mll" 41 187 204
+)
+"heptagon/parsing/hept_lexer.mll" 199 45261 45294 "heptagon/parsing/hept_lexer.mll" 199 45261 45295
+type(
+  string
+)
+ident(
+  int_ref s "heptagon/parsing/hept_lexer.mll" 197 45201 45213 "heptagon/parsing/hept_lexer.mll" 197 45201 45214
+)
+"heptagon/parsing/hept_lexer.mll" 199 45261 45267 "heptagon/parsing/hept_lexer.mll" 199 45261 45295
+call(
+  stack
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 201 45311 45319 "heptagon/parsing/hept_lexer.mll" 201 45311 45328
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 201 45311 45338 "heptagon/parsing/hept_lexer.mll" 201 45311 45340
+type(
+  string
+)
+ident(
+  int_ref id "heptagon/parsing/hept_lexer.mll" 196 44969 45034 "heptagon/parsing/hept_lexer.mll" 196 44969 45036
+)
+"heptagon/parsing/hept_lexer.mll" 201 45311 45332 "heptagon/parsing/hept_lexer.mll" 201 45311 45340
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 198 45241 45251 "heptagon/parsing/hept_lexer.mll" 202 45341 45348
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 197 45201 45207 "heptagon/parsing/hept_lexer.mll" 203 45349 45356
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 867 44925 44925 "heptagon/parsing/hept_lexer.mll" 203 45349 45356
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 882 45397 45401 "heptagon/parsing/hept_lexer.ml" 882 45397 45403
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45460 "heptagon/parsing/hept_lexer.mll" 208 45447 45473
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45474 "heptagon/parsing/hept_lexer.mll" 208 45447 45487
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45488 "heptagon/parsing/hept_lexer.mll" 208 45447 45494
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45473 "heptagon/parsing/hept_lexer.mll" 208 45447 45495
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45459 "heptagon/parsing/hept_lexer.mll" 208 45447 45496
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 208 45447 45453 "heptagon/parsing/hept_lexer.mll" 208 45447 45498
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 887 45539 45543 "heptagon/parsing/hept_lexer.ml" 887 45539 45545
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45604 "heptagon/parsing/hept_lexer.mll" 210 45589 45619
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45620 "heptagon/parsing/hept_lexer.mll" 210 45589 45633
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45634 "heptagon/parsing/hept_lexer.mll" 210 45589 45640
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45619 "heptagon/parsing/hept_lexer.mll" 210 45589 45641
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45603 "heptagon/parsing/hept_lexer.mll" 210 45589 45642
+type(
+  float
+)
+"heptagon/parsing/hept_lexer.mll" 210 45589 45595 "heptagon/parsing/hept_lexer.mll" 210 45589 45644
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 892 45685 45689 "heptagon/parsing/hept_lexer.ml" 892 45685 45691
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 212 45735 45743 "heptagon/parsing/hept_lexer.mll" 212 45735 45762
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset_string_buffer "heptagon/parsing/hept_lexer.mll" 119 1639 1643 "heptagon/parsing/hept_lexer.mll" 119 1639 1662
+)
+"heptagon/parsing/hept_lexer.mll" 212 45735 45762 "heptagon/parsing/hept_lexer.mll" 212 45735 45764
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 212 45735 45743 "heptagon/parsing/hept_lexer.mll" 212 45735 45764
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 215 45868 45876 "heptagon/parsing/hept_lexer.mll" 215 45868 45882
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 215 45868 45883 "heptagon/parsing/hept_lexer.mll" 215 45868 45889
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 215 45868 45876 "heptagon/parsing/hept_lexer.mll" 215 45868 45889
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 217 45940 45956 "heptagon/parsing/hept_lexer.mll" 217 45940 45973
+type(
+  unit -> string
+)
+ident(
+  int_ref get_stored_string "heptagon/parsing/hept_lexer.mll" 135 2079 2083 "heptagon/parsing/hept_lexer.mll" 135 2079 2100
+)
+"heptagon/parsing/hept_lexer.mll" 217 45940 45973 "heptagon/parsing/hept_lexer.mll" 217 45940 45975
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 217 45940 45955 "heptagon/parsing/hept_lexer.mll" 217 45940 45976
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 217 45940 45948 "heptagon/parsing/hept_lexer.mll" 217 45940 45976
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 215 45868 45876 "heptagon/parsing/hept_lexer.mll" 217 45940 45976
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 212 45735 45741 "heptagon/parsing/hept_lexer.mll" 217 45940 45978
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 902 46019 46023 "heptagon/parsing/hept_lexer.ml" 902 46019 46025
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 218 46073 46145 "heptagon/parsing/hept_lexer.mll" 218 46073 46147
+type(
+  string
+)
+ident(
+  def id "heptagon/parsing/hept_lexer.mll" 219 46318 46324 "heptagon/parsing/hept_lexer.mll" 228 46572 46579
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46189 "heptagon/parsing/hept_lexer.ml" 907 46187 46206
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46207 "heptagon/parsing/hept_lexer.ml" 907 46187 46213
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46215 "heptagon/parsing/hept_lexer.ml" 907 46187 46221
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46215 "heptagon/parsing/hept_lexer.ml" 907 46187 46242
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46243 "heptagon/parsing/hept_lexer.ml" 907 46187 46244
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46245 "heptagon/parsing/hept_lexer.ml" 907 46187 46246
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46214 "heptagon/parsing/hept_lexer.ml" 907 46187 46247
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46248 "heptagon/parsing/hept_lexer.ml" 907 46187 46254
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46248 "heptagon/parsing/hept_lexer.ml" 907 46187 46274
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 907 46187 46189 "heptagon/parsing/hept_lexer.ml" 907 46187 46274
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 220 46326 46328 "heptagon/parsing/hept_lexer.mll" 220 46326 46347
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset_string_buffer "heptagon/parsing/hept_lexer.mll" 119 1639 1643 "heptagon/parsing/hept_lexer.mll" 119 1639 1662
+)
+"heptagon/parsing/hept_lexer.mll" 220 46326 46347 "heptagon/parsing/hept_lexer.mll" 220 46326 46349
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 220 46326 46328 "heptagon/parsing/hept_lexer.mll" 220 46326 46349
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 221 46351 46357 "heptagon/parsing/hept_lexer.mll" 221 46351 46359
+type(
+  Lexing.position
+)
+ident(
+  def l1 "heptagon/parsing/hept_lexer.mll" 222 46383 46385 "heptagon/parsing/hept_lexer.mll" 227 46539 46571
+)
+"heptagon/parsing/hept_lexer.mll" 221 46351 46362 "heptagon/parsing/hept_lexer.mll" 221 46351 46368
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 221 46351 46362 "heptagon/parsing/hept_lexer.mll" 221 46351 46379
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 223 46395 46399 "heptagon/parsing/hept_lexer.mll" 223 46395 46405
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref pragma "heptagon/parsing/hept_lexer.ml" 979 48303 48307 "heptagon/parsing/hept_lexer.ml" 979 48303 48313
+)
+"heptagon/parsing/hept_lexer.mll" 223 46395 46406 "heptagon/parsing/hept_lexer.mll" 223 46395 46412
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 223 46395 46399 "heptagon/parsing/hept_lexer.mll" 223 46395 46412
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 224 46413 46434 "heptagon/parsing/hept_lexer.mll" 224 46413 46454
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 224 46413 46460 "heptagon/parsing/hept_lexer.mll" 224 46413 46461
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 224 46413 46463 "heptagon/parsing/hept_lexer.mll" 224 46413 46465
+type(
+  Lexing.position
+)
+ident(
+  def l2 "heptagon/parsing/hept_lexer.mll" 225 46471 46475 "heptagon/parsing/hept_lexer.mll" 225 46471 46531
+)
+"heptagon/parsing/hept_lexer.mll" 224 46413 46456 "heptagon/parsing/hept_lexer.mll" 224 46413 46466
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 224 46413 46420 "heptagon/parsing/hept_lexer.mll" 224 46413 46467
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46475 "heptagon/parsing/hept_lexer.mll" 225 46471 46480
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46495 "heptagon/parsing/hept_lexer.mll" 225 46471 46515
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46522 "heptagon/parsing/hept_lexer.mll" 225 46471 46524
+type(
+  Lexing.position
+)
+ident(
+  int_ref l1 "heptagon/parsing/hept_lexer.mll" 221 46351 46357 "heptagon/parsing/hept_lexer.mll" 221 46351 46359
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46526 "heptagon/parsing/hept_lexer.mll" 225 46471 46528
+type(
+  Lexing.position
+)
+ident(
+  int_ref l2 "heptagon/parsing/hept_lexer.mll" 224 46413 46463 "heptagon/parsing/hept_lexer.mll" 224 46413 46465
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46517 "heptagon/parsing/hept_lexer.mll" 225 46471 46529
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46480 "heptagon/parsing/hept_lexer.mll" 225 46471 46531
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 225 46471 46475 "heptagon/parsing/hept_lexer.mll" 225 46471 46531
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 222 46383 46385 "heptagon/parsing/hept_lexer.mll" 226 46532 46537
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46548 "heptagon/parsing/hept_lexer.mll" 227 46539 46550
+type(
+  string
+)
+ident(
+  int_ref id "heptagon/parsing/hept_lexer.mll" 218 46073 46145 "heptagon/parsing/hept_lexer.mll" 218 46073 46147
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46551 "heptagon/parsing/hept_lexer.mll" 227 46539 46568
+type(
+  unit -> string
+)
+ident(
+  int_ref get_stored_string "heptagon/parsing/hept_lexer.mll" 135 2079 2083 "heptagon/parsing/hept_lexer.mll" 135 2079 2100
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46568 "heptagon/parsing/hept_lexer.mll" 227 46539 46570
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46551 "heptagon/parsing/hept_lexer.mll" 227 46539 46570
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46547 "heptagon/parsing/hept_lexer.mll" 227 46539 46571
+type(
+  string * string
+)
+"heptagon/parsing/hept_lexer.mll" 227 46539 46541 "heptagon/parsing/hept_lexer.mll" 227 46539 46571
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 222 46383 46385 "heptagon/parsing/hept_lexer.mll" 227 46539 46571
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 221 46351 46353 "heptagon/parsing/hept_lexer.mll" 227 46539 46571
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 219 46318 46324 "heptagon/parsing/hept_lexer.mll" 228 46572 46579
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 903 46029 46029 "heptagon/parsing/hept_lexer.mll" 228 46572 46579
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 921 46620 46624 "heptagon/parsing/hept_lexer.ml" 921 46620 46626
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 230 46670 46682 "heptagon/parsing/hept_lexer.mll" 230 46670 46695
+type(
+  Lexing.position
+)
+ident(
+  def comment_start "heptagon/parsing/hept_lexer.mll" 231 46719 46727 "heptagon/parsing/hept_lexer.mll" 238 46996 47016
+)
+"heptagon/parsing/hept_lexer.mll" 230 46670 46698 "heptagon/parsing/hept_lexer.mll" 230 46670 46704
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 230 46670 46698 "heptagon/parsing/hept_lexer.mll" 230 46670 46715
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 231 46719 46727 "heptagon/parsing/hept_lexer.mll" 231 46719 46740
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 231 46719 46741 "heptagon/parsing/hept_lexer.mll" 231 46719 46743
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 231 46719 46744 "heptagon/parsing/hept_lexer.mll" 231 46719 46745
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 231 46719 46727 "heptagon/parsing/hept_lexer.mll" 231 46719 46745
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 233 46765 46775 "heptagon/parsing/hept_lexer.mll" 233 46765 46782
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 233 46765 46783 "heptagon/parsing/hept_lexer.mll" 233 46765 46789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 233 46765 46775 "heptagon/parsing/hept_lexer.mll" 233 46765 46789
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 234 46790 46817 "heptagon/parsing/hept_lexer.mll" 234 46790 46837
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 234 46790 46845 "heptagon/parsing/hept_lexer.mll" 234 46790 46846
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 234 46790 46848 "heptagon/parsing/hept_lexer.mll" 234 46790 46859
+type(
+  Lexing.position
+)
+ident(
+  def comment_end "heptagon/parsing/hept_lexer.mll" 235 46866 46876 "heptagon/parsing/hept_lexer.mll" 236 46918 46982
+)
+"heptagon/parsing/hept_lexer.mll" 234 46790 46839 "heptagon/parsing/hept_lexer.mll" 234 46790 46861
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 234 46790 46803 "heptagon/parsing/hept_lexer.mll" 234 46790 46862
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 235 46866 46876 "heptagon/parsing/hept_lexer.mll" 235 46866 46881
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 235 46866 46896 "heptagon/parsing/hept_lexer.mll" 235 46866 46916
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 236 46918 46953 "heptagon/parsing/hept_lexer.mll" 236 46918 46966
+type(
+  Lexing.position
+)
+ident(
+  int_ref comment_start "heptagon/parsing/hept_lexer.mll" 230 46670 46682 "heptagon/parsing/hept_lexer.mll" 230 46670 46695
+)
+"heptagon/parsing/hept_lexer.mll" 236 46918 46968 "heptagon/parsing/hept_lexer.mll" 236 46918 46979
+type(
+  Lexing.position
+)
+ident(
+  int_ref comment_end "heptagon/parsing/hept_lexer.mll" 234 46790 46848 "heptagon/parsing/hept_lexer.mll" 234 46790 46859
+)
+"heptagon/parsing/hept_lexer.mll" 236 46918 46948 "heptagon/parsing/hept_lexer.mll" 236 46918 46980
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 235 46866 46881 "heptagon/parsing/hept_lexer.mll" 236 46918 46982
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 235 46866 46876 "heptagon/parsing/hept_lexer.mll" 236 46918 46982
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 232 46747 46755 "heptagon/parsing/hept_lexer.mll" 237 46983 46994
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 238 46996 47004 "heptagon/parsing/hept_lexer.mll" 238 46996 47009
+type(
+  Lexing.lexbuf -> Hept_parser.token
+)
+ident(
+  int_ref token "heptagon/parsing/hept_lexer.ml" 682 40235 40243 "heptagon/parsing/hept_lexer.ml" 682 40235 40248
+)
+"heptagon/parsing/hept_lexer.mll" 238 46996 47010 "heptagon/parsing/hept_lexer.mll" 238 46996 47016
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 238 46996 47004 "heptagon/parsing/hept_lexer.mll" 238 46996 47016
+call(
+  tail
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 232 46747 46755 "heptagon/parsing/hept_lexer.mll" 238 46996 47016
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 231 46719 46727 "heptagon/parsing/hept_lexer.mll" 238 46996 47016
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.mll" 230 46670 46676 "heptagon/parsing/hept_lexer.mll" 238 46996 47018
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 934 47059 47063 "heptagon/parsing/hept_lexer.ml" 934 47059 47065
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 242 47109 47124 "heptagon/parsing/hept_lexer.mll" 242 47109 47137
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 242 47109 47138 "heptagon/parsing/hept_lexer.mll" 242 47109 47144
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 242 47109 47123 "heptagon/parsing/hept_lexer.mll" 242 47109 47145
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 242 47109 47115 "heptagon/parsing/hept_lexer.mll" 242 47109 47147
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 939 47188 47192 "heptagon/parsing/hept_lexer.ml" 939 47188 47194
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 246 47238 47253 "heptagon/parsing/hept_lexer.mll" 246 47238 47266
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 246 47238 47267 "heptagon/parsing/hept_lexer.mll" 246 47238 47273
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 246 47238 47252 "heptagon/parsing/hept_lexer.mll" 246 47238 47274
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 246 47238 47244 "heptagon/parsing/hept_lexer.mll" 246 47238 47276
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 944 47317 47321 "heptagon/parsing/hept_lexer.ml" 944 47317 47323
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 250 47367 47382 "heptagon/parsing/hept_lexer.mll" 250 47367 47395
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 250 47367 47396 "heptagon/parsing/hept_lexer.mll" 250 47367 47402
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 250 47367 47381 "heptagon/parsing/hept_lexer.mll" 250 47367 47403
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 250 47367 47373 "heptagon/parsing/hept_lexer.mll" 250 47367 47405
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 949 47446 47450 "heptagon/parsing/hept_lexer.ml" 949 47446 47452
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 254 47496 47511 "heptagon/parsing/hept_lexer.mll" 254 47496 47524
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 254 47496 47525 "heptagon/parsing/hept_lexer.mll" 254 47496 47531
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 254 47496 47510 "heptagon/parsing/hept_lexer.mll" 254 47496 47532
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 254 47496 47502 "heptagon/parsing/hept_lexer.mll" 254 47496 47534
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 954 47575 47579 "heptagon/parsing/hept_lexer.ml" 954 47575 47581
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 258 47625 47640 "heptagon/parsing/hept_lexer.mll" 258 47625 47653
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 258 47625 47654 "heptagon/parsing/hept_lexer.mll" 258 47625 47660
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 258 47625 47639 "heptagon/parsing/hept_lexer.mll" 258 47625 47661
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 258 47625 47631 "heptagon/parsing/hept_lexer.mll" 258 47625 47663
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 959 47704 47708 "heptagon/parsing/hept_lexer.ml" 959 47704 47710
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 262 47754 47769 "heptagon/parsing/hept_lexer.mll" 262 47754 47782
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"heptagon/parsing/hept_lexer.mll" 262 47754 47783 "heptagon/parsing/hept_lexer.mll" 262 47754 47789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 262 47754 47768 "heptagon/parsing/hept_lexer.mll" 262 47754 47790
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/parsing/hept_lexer.mll" 262 47754 47760 "heptagon/parsing/hept_lexer.mll" 262 47754 47792
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 964 47833 47837 "heptagon/parsing/hept_lexer.ml" 964 47833 47839
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 263 47883 47902 "heptagon/parsing/hept_lexer.mll" 263 47883 47907
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 969 47948 47952 "heptagon/parsing/hept_lexer.ml" 969 47948 47954
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 264 47998 48018 "heptagon/parsing/hept_lexer.mll" 264 47998 48023
+type(
+  exn -> Hept_parser.token
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 264 47998 48040 "heptagon/parsing/hept_lexer.mll" 264 47998 48057
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 265 48059 48076 "heptagon/parsing/hept_lexer.mll" 265 48059 48097
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"heptagon/parsing/hept_lexer.mll" 265 48059 48098 "heptagon/parsing/hept_lexer.mll" 265 48059 48104
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 265 48059 48076 "heptagon/parsing/hept_lexer.mll" 265 48059 48104
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 266 48106 48118 "heptagon/parsing/hept_lexer.mll" 266 48106 48137
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"heptagon/parsing/hept_lexer.mll" 266 48106 48138 "heptagon/parsing/hept_lexer.mll" 266 48106 48144
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.mll" 266 48106 48118 "heptagon/parsing/hept_lexer.mll" 266 48106 48144
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 265 48059 48071 "heptagon/parsing/hept_lexer.mll" 266 48106 48145
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 264 47998 48024 "heptagon/parsing/hept_lexer.mll" 266 48106 48147
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 264 47998 48017 "heptagon/parsing/hept_lexer.mll" 266 48106 48148
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48193 "heptagon/parsing/hept_lexer.ml" 976 48189 48210
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 976 48189 48214 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48214 "heptagon/parsing/hept_lexer.ml" 976 48189 48220
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48214 "heptagon/parsing/hept_lexer.ml" 976 48189 48239
+type(
+  Lexing.lexbuf -> unit
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48240 "heptagon/parsing/hept_lexer.ml" 976 48189 48246
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48214 "heptagon/parsing/hept_lexer.ml" 976 48189 48246
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 977 48249 48255 "heptagon/parsing/hept_lexer.ml" 977 48249 48276
+type(
+  Lexing.lexbuf -> int -> Hept_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "heptagon/parsing/hept_lexer.ml" 684 40293 40297 "heptagon/parsing/hept_lexer.ml" 684 40293 40318
+)
+"heptagon/parsing/hept_lexer.ml" 977 48249 48277 "heptagon/parsing/hept_lexer.ml" 977 48249 48283
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 684 40293 40319 "heptagon/parsing/hept_lexer.ml" 684 40293 40325
+)
+"heptagon/parsing/hept_lexer.ml" 977 48249 48284 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 976 48189 48193 "heptagon/parsing/hept_lexer.ml" 976 48189 48210
+)
+"heptagon/parsing/hept_lexer.ml" 977 48249 48255 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+call(
+  tail
+)
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 976 48189 48214 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 685 40346 40348 "heptagon/parsing/hept_lexer.ml" 977 48249 48301
+type(
+  Hept_parser.token
+)
+"heptagon/parsing/hept_lexer.ml" 979 48303 48307 "heptagon/parsing/hept_lexer.ml" 979 48303 48313
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def pragma "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 979 48303 48314 "heptagon/parsing/hept_lexer.ml" 979 48303 48320
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 980 48323 48327 "heptagon/parsing/hept_lexer.ml" 980 48323 48359
+)
+"heptagon/parsing/hept_lexer.ml" 980 48323 48327 "heptagon/parsing/hept_lexer.ml" 980 48323 48349
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_pragma_rec "heptagon/parsing/hept_lexer.ml" 981 48360 48364 "heptagon/parsing/hept_lexer.ml" 981 48360 48386
+)
+"heptagon/parsing/hept_lexer.ml" 980 48323 48350 "heptagon/parsing/hept_lexer.ml" 980 48323 48356
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 979 48303 48314 "heptagon/parsing/hept_lexer.ml" 979 48303 48320
+)
+"heptagon/parsing/hept_lexer.ml" 980 48323 48357 "heptagon/parsing/hept_lexer.ml" 980 48323 48359
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 980 48323 48327 "heptagon/parsing/hept_lexer.ml" 980 48323 48359
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 981 48360 48364 "heptagon/parsing/hept_lexer.ml" 981 48360 48386
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_pragma_rec "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48394 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+)
+"heptagon/parsing/hept_lexer.ml" 981 48360 48394 "heptagon/parsing/hept_lexer.ml" 981 48360 48411
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 982 48414 48416 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48422 "heptagon/parsing/hept_lexer.ml" 982 48414 48435
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48436 "heptagon/parsing/hept_lexer.ml" 982 48414 48454
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "heptagon/parsing/hept_lexer.ml" 127 2636 2640 "heptagon/parsing/hept_lexer.ml" 127 2636 2658
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48455 "heptagon/parsing/hept_lexer.ml" 982 48414 48472
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 981 48360 48394 "heptagon/parsing/hept_lexer.ml" 981 48360 48411
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48473 "heptagon/parsing/hept_lexer.ml" 982 48414 48479
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48422 "heptagon/parsing/hept_lexer.ml" 982 48414 48479
+call(
+  stack
+)
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 983 48485 48493 "heptagon/parsing/hept_lexer.ml" 983 48485 48494
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48560 "heptagon/parsing/hept_lexer.mll" 269 48538 48568
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48569 "heptagon/parsing/hept_lexer.mll" 269 48538 48575
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48560 "heptagon/parsing/hept_lexer.mll" 269 48538 48575
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48577 "heptagon/parsing/hept_lexer.mll" 269 48538 48583
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref pragma "heptagon/parsing/hept_lexer.ml" 979 48303 48307 "heptagon/parsing/hept_lexer.ml" 979 48303 48313
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48584 "heptagon/parsing/hept_lexer.mll" 269 48538 48590
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48577 "heptagon/parsing/hept_lexer.mll" 269 48538 48590
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 269 48538 48558 "heptagon/parsing/hept_lexer.mll" 269 48538 48592
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 988 48633 48637 "heptagon/parsing/hept_lexer.ml" 988 48633 48638
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 271 48682 48694 "heptagon/parsing/hept_lexer.mll" 271 48682 48707
+type(
+  Lexing.position
+)
+ident(
+  def comment_start "heptagon/parsing/hept_lexer.mll" 272 48731 48739 "heptagon/parsing/hept_lexer.mll" 279 49006 49027
+)
+"heptagon/parsing/hept_lexer.mll" 271 48682 48710 "heptagon/parsing/hept_lexer.mll" 271 48682 48716
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 271 48682 48710 "heptagon/parsing/hept_lexer.mll" 271 48682 48727
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 272 48731 48739 "heptagon/parsing/hept_lexer.mll" 272 48731 48752
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 272 48731 48753 "heptagon/parsing/hept_lexer.mll" 272 48731 48755
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 272 48731 48756 "heptagon/parsing/hept_lexer.mll" 272 48731 48757
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 272 48731 48739 "heptagon/parsing/hept_lexer.mll" 272 48731 48757
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 274 48777 48787 "heptagon/parsing/hept_lexer.mll" 274 48777 48794
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 274 48777 48795 "heptagon/parsing/hept_lexer.mll" 274 48777 48801
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 274 48777 48787 "heptagon/parsing/hept_lexer.mll" 274 48777 48801
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 275 48802 48829 "heptagon/parsing/hept_lexer.mll" 275 48802 48849
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 275 48802 48856 "heptagon/parsing/hept_lexer.mll" 275 48802 48857
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 275 48802 48859 "heptagon/parsing/hept_lexer.mll" 275 48802 48870
+type(
+  Lexing.position
+)
+ident(
+  def comment_end "heptagon/parsing/hept_lexer.mll" 276 48876 48886 "heptagon/parsing/hept_lexer.mll" 277 48928 48992
+)
+"heptagon/parsing/hept_lexer.mll" 275 48802 48851 "heptagon/parsing/hept_lexer.mll" 275 48802 48871
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 275 48802 48815 "heptagon/parsing/hept_lexer.mll" 275 48802 48872
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 276 48876 48886 "heptagon/parsing/hept_lexer.mll" 276 48876 48891
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 276 48876 48906 "heptagon/parsing/hept_lexer.mll" 276 48876 48926
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 277 48928 48963 "heptagon/parsing/hept_lexer.mll" 277 48928 48976
+type(
+  Lexing.position
+)
+ident(
+  int_ref comment_start "heptagon/parsing/hept_lexer.mll" 271 48682 48694 "heptagon/parsing/hept_lexer.mll" 271 48682 48707
+)
+"heptagon/parsing/hept_lexer.mll" 277 48928 48978 "heptagon/parsing/hept_lexer.mll" 277 48928 48989
+type(
+  Lexing.position
+)
+ident(
+  int_ref comment_end "heptagon/parsing/hept_lexer.mll" 275 48802 48859 "heptagon/parsing/hept_lexer.mll" 275 48802 48870
+)
+"heptagon/parsing/hept_lexer.mll" 277 48928 48958 "heptagon/parsing/hept_lexer.mll" 277 48928 48990
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 276 48876 48891 "heptagon/parsing/hept_lexer.mll" 277 48928 48992
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 276 48876 48886 "heptagon/parsing/hept_lexer.mll" 277 48928 48992
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 273 48759 48767 "heptagon/parsing/hept_lexer.mll" 278 48993 49004
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 279 49006 49014 "heptagon/parsing/hept_lexer.mll" 279 49006 49020
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref pragma "heptagon/parsing/hept_lexer.ml" 979 48303 48307 "heptagon/parsing/hept_lexer.ml" 979 48303 48313
+)
+"heptagon/parsing/hept_lexer.mll" 279 49006 49021 "heptagon/parsing/hept_lexer.mll" 279 49006 49027
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 279 49006 49014 "heptagon/parsing/hept_lexer.mll" 279 49006 49027
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 273 48759 48767 "heptagon/parsing/hept_lexer.mll" 279 49006 49027
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 272 48731 48739 "heptagon/parsing/hept_lexer.mll" 279 49006 49027
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 271 48682 48688 "heptagon/parsing/hept_lexer.mll" 279 49006 49029
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1001 49071 49075 "heptagon/parsing/hept_lexer.ml" 1001 49071 49076
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 281 49120 49126 "heptagon/parsing/hept_lexer.mll" 281 49120 49129
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1006 49171 49175 "heptagon/parsing/hept_lexer.ml" 1006 49171 49176
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49228 "heptagon/parsing/hept_lexer.mll" 283 49220 49233
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49248 "heptagon/parsing/hept_lexer.mll" 283 49220 49268
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49275 "heptagon/parsing/hept_lexer.mll" 283 49220 49284
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"heptagon/parsing/hept_lexer.mll" 284 49286 49314 "heptagon/parsing/hept_lexer.mll" 284 49286 49335
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"heptagon/parsing/hept_lexer.mll" 284 49286 49336 "heptagon/parsing/hept_lexer.mll" 284 49286 49342
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 284 49286 49314 "heptagon/parsing/hept_lexer.mll" 284 49286 49342
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49270 "heptagon/parsing/hept_lexer.mll" 284 49286 49343
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49233 "heptagon/parsing/hept_lexer.mll" 284 49286 49345
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 283 49220 49226 "heptagon/parsing/hept_lexer.mll" 284 49286 49347
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1012 49389 49393 "heptagon/parsing/hept_lexer.ml" 1012 49389 49394
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49446 "heptagon/parsing/hept_lexer.mll" 287 49438 49463
+type(
+  char -> unit
+)
+ident(
+  int_ref store_string_char "heptagon/parsing/hept_lexer.mll" 125 1736 1740 "heptagon/parsing/hept_lexer.mll" 125 1736 1757
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49464 "heptagon/parsing/hept_lexer.mll" 287 49438 49482
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49483 "heptagon/parsing/hept_lexer.mll" 287 49438 49489
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49490 "heptagon/parsing/hept_lexer.mll" 287 49438 49491
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49463 "heptagon/parsing/hept_lexer.mll" 287 49438 49492
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49446 "heptagon/parsing/hept_lexer.mll" 287 49438 49492
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 288 49494 49496 "heptagon/parsing/hept_lexer.mll" 288 49494 49502
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref pragma "heptagon/parsing/hept_lexer.ml" 979 48303 48307 "heptagon/parsing/hept_lexer.ml" 979 48303 48313
+)
+"heptagon/parsing/hept_lexer.mll" 288 49494 49503 "heptagon/parsing/hept_lexer.mll" 288 49494 49509
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.mll" 288 49494 49496 "heptagon/parsing/hept_lexer.mll" 288 49494 49509
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 287 49438 49444 "heptagon/parsing/hept_lexer.mll" 288 49494 49511
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49557 "heptagon/parsing/hept_lexer.ml" 1018 49553 49574
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1018 49553 49578 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49578 "heptagon/parsing/hept_lexer.ml" 1018 49553 49584
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49578 "heptagon/parsing/hept_lexer.ml" 1018 49553 49603
+type(
+  Lexing.lexbuf -> unit
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49604 "heptagon/parsing/hept_lexer.ml" 1018 49553 49610
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49578 "heptagon/parsing/hept_lexer.ml" 1018 49553 49610
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1019 49613 49619 "heptagon/parsing/hept_lexer.ml" 1019 49613 49641
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_pragma_rec "heptagon/parsing/hept_lexer.ml" 981 48360 48364 "heptagon/parsing/hept_lexer.ml" 981 48360 48386
+)
+"heptagon/parsing/hept_lexer.ml" 1019 49613 49642 "heptagon/parsing/hept_lexer.ml" 1019 49613 49648
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 981 48360 48387 "heptagon/parsing/hept_lexer.ml" 981 48360 48393
+)
+"heptagon/parsing/hept_lexer.ml" 1019 49613 49649 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1018 49553 49557 "heptagon/parsing/hept_lexer.ml" 1018 49553 49574
+)
+"heptagon/parsing/hept_lexer.ml" 1019 49613 49619 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1018 49553 49578 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 982 48414 48416 "heptagon/parsing/hept_lexer.ml" 1019 49613 49666
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def comment "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 1021 49668 49680 "heptagon/parsing/hept_lexer.ml" 1021 49668 49686
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 1022 49689 49693 "heptagon/parsing/hept_lexer.ml" 1022 49689 49726
+)
+"heptagon/parsing/hept_lexer.ml" 1022 49689 49693 "heptagon/parsing/hept_lexer.ml" 1022 49689 49716
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "heptagon/parsing/hept_lexer.ml" 1023 49727 49731 "heptagon/parsing/hept_lexer.ml" 1023 49727 49754
+)
+"heptagon/parsing/hept_lexer.ml" 1022 49689 49717 "heptagon/parsing/hept_lexer.ml" 1022 49689 49723
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1021 49668 49680 "heptagon/parsing/hept_lexer.ml" 1021 49668 49686
+)
+"heptagon/parsing/hept_lexer.ml" 1022 49689 49724 "heptagon/parsing/hept_lexer.ml" 1022 49689 49726
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 1022 49689 49693 "heptagon/parsing/hept_lexer.ml" 1022 49689 49726
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1023 49727 49731 "heptagon/parsing/hept_lexer.ml" 1023 49727 49754
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_comment_rec "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49762 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+)
+"heptagon/parsing/hept_lexer.ml" 1023 49727 49762 "heptagon/parsing/hept_lexer.ml" 1023 49727 49779
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1024 49782 49784 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49790 "heptagon/parsing/hept_lexer.ml" 1024 49782 49803
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49804 "heptagon/parsing/hept_lexer.ml" 1024 49782 49822
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "heptagon/parsing/hept_lexer.ml" 127 2636 2640 "heptagon/parsing/hept_lexer.ml" 127 2636 2658
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49823 "heptagon/parsing/hept_lexer.ml" 1024 49782 49840
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1023 49727 49762 "heptagon/parsing/hept_lexer.ml" 1023 49727 49779
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49841 "heptagon/parsing/hept_lexer.ml" 1024 49782 49847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49790 "heptagon/parsing/hept_lexer.ml" 1024 49782 49847
+call(
+  stack
+)
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 1025 49853 49861 "heptagon/parsing/hept_lexer.ml" 1025 49853 49862
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49928 "heptagon/parsing/hept_lexer.mll" 291 49906 49936
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49937 "heptagon/parsing/hept_lexer.mll" 291 49906 49943
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49928 "heptagon/parsing/hept_lexer.mll" 291 49906 49943
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49945 "heptagon/parsing/hept_lexer.mll" 291 49906 49952
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49953 "heptagon/parsing/hept_lexer.mll" 291 49906 49959
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49945 "heptagon/parsing/hept_lexer.mll" 291 49906 49959
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 291 49906 49926 "heptagon/parsing/hept_lexer.mll" 291 49906 49961
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1030 50003 50007 "heptagon/parsing/hept_lexer.ml" 1030 50003 50008
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50060 "heptagon/parsing/hept_lexer.mll" 293 50052 50073
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50074 "heptagon/parsing/hept_lexer.mll" 293 50052 50076
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50077 "heptagon/parsing/hept_lexer.mll" 293 50052 50081
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50082 "heptagon/parsing/hept_lexer.mll" 293 50052 50083
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50083 "heptagon/parsing/hept_lexer.mll" 293 50052 50096
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50082 "heptagon/parsing/hept_lexer.mll" 293 50052 50096
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50077 "heptagon/parsing/hept_lexer.mll" 293 50052 50096
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50060 "heptagon/parsing/hept_lexer.mll" 293 50052 50096
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50098 "heptagon/parsing/hept_lexer.mll" 293 50052 50105
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50106 "heptagon/parsing/hept_lexer.mll" 293 50052 50112
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50098 "heptagon/parsing/hept_lexer.mll" 293 50052 50112
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 293 50052 50058 "heptagon/parsing/hept_lexer.mll" 293 50052 50114
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1035 50156 50160 "heptagon/parsing/hept_lexer.ml" 1035 50156 50161
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50213 "heptagon/parsing/hept_lexer.mll" 295 50205 50226
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50227 "heptagon/parsing/hept_lexer.mll" 295 50205 50229
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50230 "heptagon/parsing/hept_lexer.mll" 295 50205 50234
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50235 "heptagon/parsing/hept_lexer.mll" 295 50205 50236
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50236 "heptagon/parsing/hept_lexer.mll" 295 50205 50249
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50235 "heptagon/parsing/hept_lexer.mll" 295 50205 50249
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50230 "heptagon/parsing/hept_lexer.mll" 295 50205 50249
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50213 "heptagon/parsing/hept_lexer.mll" 295 50205 50249
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50262 "heptagon/parsing/hept_lexer.mll" 296 50251 50263
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50263 "heptagon/parsing/hept_lexer.mll" 296 50251 50276
+type(
+  int ref
+)
+ident(
+  int_ref comment_depth "heptagon/parsing/hept_lexer.mll" 39 160 164 "heptagon/parsing/hept_lexer.mll" 39 160 177
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50262 "heptagon/parsing/hept_lexer.mll" 296 50251 50276
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50277 "heptagon/parsing/hept_lexer.mll" 296 50251 50278
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50279 "heptagon/parsing/hept_lexer.mll" 296 50251 50280
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50262 "heptagon/parsing/hept_lexer.mll" 296 50251 50280
+type(
+  bool
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50286 "heptagon/parsing/hept_lexer.mll" 296 50251 50293
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50294 "heptagon/parsing/hept_lexer.mll" 296 50251 50300
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50286 "heptagon/parsing/hept_lexer.mll" 296 50251 50300
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 296 50251 50259 "heptagon/parsing/hept_lexer.mll" 296 50251 50300
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 295 50205 50211 "heptagon/parsing/hept_lexer.mll" 296 50251 50302
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1041 50344 50348 "heptagon/parsing/hept_lexer.ml" 1041 50344 50349
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 298 50393 50401 "heptagon/parsing/hept_lexer.mll" 298 50393 50420
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset_string_buffer "heptagon/parsing/hept_lexer.mll" 119 1639 1643 "heptagon/parsing/hept_lexer.mll" 119 1639 1662
+)
+"heptagon/parsing/hept_lexer.mll" 298 50393 50420 "heptagon/parsing/hept_lexer.mll" 298 50393 50422
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 298 50393 50401 "heptagon/parsing/hept_lexer.mll" 298 50393 50422
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 299 50424 50436 "heptagon/parsing/hept_lexer.mll" 299 50424 50448
+type(
+  Lexing.position
+)
+ident(
+  def string_start "heptagon/parsing/hept_lexer.mll" 300 50472 50480 "heptagon/parsing/hept_lexer.mll" 306 50696 50718
+)
+"heptagon/parsing/hept_lexer.mll" 299 50424 50451 "heptagon/parsing/hept_lexer.mll" 299 50424 50457
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 299 50424 50451 "heptagon/parsing/hept_lexer.mll" 299 50424 50468
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 301 50490 50500 "heptagon/parsing/hept_lexer.mll" 301 50490 50506
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 301 50490 50507 "heptagon/parsing/hept_lexer.mll" 301 50490 50513
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 301 50490 50500 "heptagon/parsing/hept_lexer.mll" 301 50490 50513
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 302 50514 50541 "heptagon/parsing/hept_lexer.mll" 302 50514 50560
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 302 50514 50567 "heptagon/parsing/hept_lexer.mll" 302 50514 50568
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 302 50514 50570 "heptagon/parsing/hept_lexer.mll" 302 50514 50580
+type(
+  Lexing.position
+)
+ident(
+  def string_end "heptagon/parsing/hept_lexer.mll" 303 50586 50596 "heptagon/parsing/hept_lexer.mll" 304 50616 50682
+)
+"heptagon/parsing/hept_lexer.mll" 302 50514 50562 "heptagon/parsing/hept_lexer.mll" 302 50514 50581
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 302 50514 50527 "heptagon/parsing/hept_lexer.mll" 302 50514 50582
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 303 50586 50596 "heptagon/parsing/hept_lexer.mll" 303 50586 50601
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 304 50616 50629 "heptagon/parsing/hept_lexer.mll" 304 50616 50648
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 304 50616 50655 "heptagon/parsing/hept_lexer.mll" 304 50616 50667
+type(
+  Lexing.position
+)
+ident(
+  int_ref string_start "heptagon/parsing/hept_lexer.mll" 299 50424 50436 "heptagon/parsing/hept_lexer.mll" 299 50424 50448
+)
+"heptagon/parsing/hept_lexer.mll" 304 50616 50669 "heptagon/parsing/hept_lexer.mll" 304 50616 50679
+type(
+  Lexing.position
+)
+ident(
+  int_ref string_end "heptagon/parsing/hept_lexer.mll" 302 50514 50570 "heptagon/parsing/hept_lexer.mll" 302 50514 50580
+)
+"heptagon/parsing/hept_lexer.mll" 304 50616 50650 "heptagon/parsing/hept_lexer.mll" 304 50616 50680
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 303 50586 50601 "heptagon/parsing/hept_lexer.mll" 304 50616 50682
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 303 50586 50596 "heptagon/parsing/hept_lexer.mll" 304 50616 50682
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 300 50472 50480 "heptagon/parsing/hept_lexer.mll" 305 50683 50694
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 306 50696 50704 "heptagon/parsing/hept_lexer.mll" 306 50696 50711
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 306 50696 50712 "heptagon/parsing/hept_lexer.mll" 306 50696 50718
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 306 50696 50704 "heptagon/parsing/hept_lexer.mll" 306 50696 50718
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 300 50472 50480 "heptagon/parsing/hept_lexer.mll" 306 50696 50718
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 299 50424 50432 "heptagon/parsing/hept_lexer.mll" 306 50696 50718
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 298 50393 50399 "heptagon/parsing/hept_lexer.mll" 306 50696 50720
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1054 50762 50766 "heptagon/parsing/hept_lexer.ml" 1054 50762 50767
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 308 50811 50819 "heptagon/parsing/hept_lexer.mll" 308 50811 50826
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 308 50811 50827 "heptagon/parsing/hept_lexer.mll" 308 50811 50833
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 308 50811 50817 "heptagon/parsing/hept_lexer.mll" 308 50811 50835
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1059 50877 50881 "heptagon/parsing/hept_lexer.ml" 1059 50877 50882
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 310 50926 50934 "heptagon/parsing/hept_lexer.mll" 310 50926 50941
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 310 50926 50942 "heptagon/parsing/hept_lexer.mll" 310 50926 50948
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 310 50926 50932 "heptagon/parsing/hept_lexer.mll" 310 50926 50950
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1064 50992 50996 "heptagon/parsing/hept_lexer.ml" 1064 50992 50997
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 312 51041 51049 "heptagon/parsing/hept_lexer.mll" 312 51041 51056
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 312 51041 51057 "heptagon/parsing/hept_lexer.mll" 312 51041 51063
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 312 51041 51047 "heptagon/parsing/hept_lexer.mll" 312 51041 51065
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1069 51107 51111 "heptagon/parsing/hept_lexer.ml" 1069 51107 51112
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 314 51156 51164 "heptagon/parsing/hept_lexer.mll" 314 51156 51171
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 314 51156 51172 "heptagon/parsing/hept_lexer.mll" 314 51156 51178
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 314 51156 51162 "heptagon/parsing/hept_lexer.mll" 314 51156 51180
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1074 51222 51226 "heptagon/parsing/hept_lexer.ml" 1074 51222 51227
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51279 "heptagon/parsing/hept_lexer.mll" 316 51271 51284
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51299 "heptagon/parsing/hept_lexer.mll" 316 51271 51319
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51325 "heptagon/parsing/hept_lexer.mll" 316 51271 51334
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"heptagon/parsing/hept_lexer.mll" 317 51336 51364 "heptagon/parsing/hept_lexer.mll" 317 51336 51385
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"heptagon/parsing/hept_lexer.mll" 317 51336 51386 "heptagon/parsing/hept_lexer.mll" 317 51336 51392
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 317 51336 51364 "heptagon/parsing/hept_lexer.mll" 317 51336 51392
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51321 "heptagon/parsing/hept_lexer.mll" 317 51336 51393
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51284 "heptagon/parsing/hept_lexer.mll" 317 51336 51395
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 316 51271 51277 "heptagon/parsing/hept_lexer.mll" 317 51336 51397
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1080 51439 51443 "heptagon/parsing/hept_lexer.ml" 1080 51439 51444
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 319 51488 51496 "heptagon/parsing/hept_lexer.mll" 319 51488 51503
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "heptagon/parsing/hept_lexer.ml" 1021 49668 49672 "heptagon/parsing/hept_lexer.ml" 1021 49668 49679
+)
+"heptagon/parsing/hept_lexer.mll" 319 51488 51504 "heptagon/parsing/hept_lexer.mll" 319 51488 51510
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.mll" 319 51488 51494 "heptagon/parsing/hept_lexer.mll" 319 51488 51512
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51558 "heptagon/parsing/hept_lexer.ml" 1085 51554 51575
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1085 51554 51579 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51579 "heptagon/parsing/hept_lexer.ml" 1085 51554 51585
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51579 "heptagon/parsing/hept_lexer.ml" 1085 51554 51604
+type(
+  Lexing.lexbuf -> unit
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51605 "heptagon/parsing/hept_lexer.ml" 1085 51554 51611
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51579 "heptagon/parsing/hept_lexer.ml" 1085 51554 51611
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1086 51614 51620 "heptagon/parsing/hept_lexer.ml" 1086 51614 51643
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "heptagon/parsing/hept_lexer.ml" 1023 49727 49731 "heptagon/parsing/hept_lexer.ml" 1023 49727 49754
+)
+"heptagon/parsing/hept_lexer.ml" 1086 51614 51644 "heptagon/parsing/hept_lexer.ml" 1086 51614 51650
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1023 49727 49755 "heptagon/parsing/hept_lexer.ml" 1023 49727 49761
+)
+"heptagon/parsing/hept_lexer.ml" 1086 51614 51651 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1085 51554 51558 "heptagon/parsing/hept_lexer.ml" 1085 51554 51575
+)
+"heptagon/parsing/hept_lexer.ml" 1086 51614 51620 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1085 51554 51579 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1024 49782 49784 "heptagon/parsing/hept_lexer.ml" 1086 51614 51668
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def string "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 1088 51670 51681 "heptagon/parsing/hept_lexer.ml" 1088 51670 51687
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 1089 51690 51694 "heptagon/parsing/hept_lexer.ml" 1089 51690 51727
+)
+"heptagon/parsing/hept_lexer.ml" 1089 51690 51694 "heptagon/parsing/hept_lexer.ml" 1089 51690 51716
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_string_rec "heptagon/parsing/hept_lexer.ml" 1090 51728 51732 "heptagon/parsing/hept_lexer.ml" 1090 51728 51754
+)
+"heptagon/parsing/hept_lexer.ml" 1089 51690 51717 "heptagon/parsing/hept_lexer.ml" 1089 51690 51723
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1088 51670 51681 "heptagon/parsing/hept_lexer.ml" 1088 51670 51687
+)
+"heptagon/parsing/hept_lexer.ml" 1089 51690 51724 "heptagon/parsing/hept_lexer.ml" 1089 51690 51727
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 1089 51690 51694 "heptagon/parsing/hept_lexer.ml" 1089 51690 51727
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1090 51728 51732 "heptagon/parsing/hept_lexer.ml" 1090 51728 51754
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_string_rec "heptagon/parsing/hept_lexer.ml" 682 40235 40235 "heptagon/parsing/hept_lexer.ml" 1 0 -1
+)
+"heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51762 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+)
+"heptagon/parsing/hept_lexer.ml" 1090 51728 51762 "heptagon/parsing/hept_lexer.ml" 1090 51728 51779
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1091 51782 51784 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51790 "heptagon/parsing/hept_lexer.ml" 1091 51782 51803
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51804 "heptagon/parsing/hept_lexer.ml" 1091 51782 51822
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "heptagon/parsing/hept_lexer.ml" 127 2636 2640 "heptagon/parsing/hept_lexer.ml" 127 2636 2658
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51823 "heptagon/parsing/hept_lexer.ml" 1091 51782 51840
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1090 51728 51762 "heptagon/parsing/hept_lexer.ml" 1090 51728 51779
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51841 "heptagon/parsing/hept_lexer.ml" 1091 51782 51847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51790 "heptagon/parsing/hept_lexer.ml" 1091 51782 51847
+call(
+  stack
+)
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.ml" 1092 51853 51861 "heptagon/parsing/hept_lexer.ml" 1092 51853 51862
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51928 "heptagon/parsing/hept_lexer.mll" 322 51906 51936
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51937 "heptagon/parsing/hept_lexer.mll" 322 51906 51943
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51928 "heptagon/parsing/hept_lexer.mll" 322 51906 51943
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51945 "heptagon/parsing/hept_lexer.mll" 322 51906 51951
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51952 "heptagon/parsing/hept_lexer.mll" 322 51906 51958
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51945 "heptagon/parsing/hept_lexer.mll" 322 51906 51958
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 322 51906 51926 "heptagon/parsing/hept_lexer.mll" 322 51906 51960
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1097 52002 52006 "heptagon/parsing/hept_lexer.ml" 1097 52002 52007
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 324 52051 52057 "heptagon/parsing/hept_lexer.mll" 324 52051 52063
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1102 52105 52109 "heptagon/parsing/hept_lexer.ml" 1102 52105 52110
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 326 52154 52162 "heptagon/parsing/hept_lexer.mll" 326 52154 52168
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 326 52154 52169 "heptagon/parsing/hept_lexer.mll" 326 52154 52175
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 326 52154 52160 "heptagon/parsing/hept_lexer.mll" 326 52154 52177
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1107 52219 52223 "heptagon/parsing/hept_lexer.ml" 1107 52219 52224
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52276 "heptagon/parsing/hept_lexer.mll" 328 52268 52293
+type(
+  char -> unit
+)
+ident(
+  int_ref store_string_char "heptagon/parsing/hept_lexer.mll" 125 1736 1740 "heptagon/parsing/hept_lexer.mll" 125 1736 1757
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52294 "heptagon/parsing/hept_lexer.mll" 328 52268 52312
+type(
+  char -> char
+)
+ident(
+  int_ref char_for_backslash "heptagon/parsing/hept_lexer.mll" 140 2212 2216 "heptagon/parsing/hept_lexer.mll" 140 2212 2234
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52313 "heptagon/parsing/hept_lexer.mll" 328 52268 52331
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52332 "heptagon/parsing/hept_lexer.mll" 328 52268 52338
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52339 "heptagon/parsing/hept_lexer.mll" 328 52268 52340
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52312 "heptagon/parsing/hept_lexer.mll" 328 52268 52341
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52293 "heptagon/parsing/hept_lexer.mll" 328 52268 52342
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52276 "heptagon/parsing/hept_lexer.mll" 328 52268 52342
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 329 52344 52352 "heptagon/parsing/hept_lexer.mll" 329 52344 52358
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 329 52344 52359 "heptagon/parsing/hept_lexer.mll" 329 52344 52365
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 329 52344 52352 "heptagon/parsing/hept_lexer.mll" 329 52344 52365
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 328 52268 52274 "heptagon/parsing/hept_lexer.mll" 329 52344 52367
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1113 52409 52413 "heptagon/parsing/hept_lexer.ml" 1113 52409 52414
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52466 "heptagon/parsing/hept_lexer.mll" 331 52458 52483
+type(
+  char -> unit
+)
+ident(
+  int_ref store_string_char "heptagon/parsing/hept_lexer.mll" 125 1736 1740 "heptagon/parsing/hept_lexer.mll" 125 1736 1757
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52484 "heptagon/parsing/hept_lexer.mll" 331 52458 52505
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref char_for_decimal_code "heptagon/parsing/hept_lexer.mll" 147 2332 2336 "heptagon/parsing/hept_lexer.mll" 147 2332 2357
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52506 "heptagon/parsing/hept_lexer.mll" 331 52458 52512
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52513 "heptagon/parsing/hept_lexer.mll" 331 52458 52514
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52483 "heptagon/parsing/hept_lexer.mll" 331 52458 52515
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52466 "heptagon/parsing/hept_lexer.mll" 331 52458 52515
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 332 52517 52526 "heptagon/parsing/hept_lexer.mll" 332 52517 52532
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 332 52517 52533 "heptagon/parsing/hept_lexer.mll" 332 52517 52539
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 332 52517 52526 "heptagon/parsing/hept_lexer.mll" 332 52517 52539
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 331 52458 52464 "heptagon/parsing/hept_lexer.mll" 332 52517 52541
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1119 52583 52587 "heptagon/parsing/hept_lexer.ml" 1119 52583 52588
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52640 "heptagon/parsing/hept_lexer.mll" 334 52632 52645
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52661 "heptagon/parsing/hept_lexer.mll" 334 52632 52680
+type(
+  Compiler_utils.lexical_error
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52687 "heptagon/parsing/hept_lexer.mll" 334 52632 52696
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"heptagon/parsing/hept_lexer.mll" 335 52698 52728 "heptagon/parsing/hept_lexer.mll" 335 52698 52749
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"heptagon/parsing/hept_lexer.mll" 335 52698 52750 "heptagon/parsing/hept_lexer.mll" 335 52698 52756
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 335 52698 52728 "heptagon/parsing/hept_lexer.mll" 335 52698 52756
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52682 "heptagon/parsing/hept_lexer.mll" 335 52698 52757
+type(
+  Location.location
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52646 "heptagon/parsing/hept_lexer.mll" 335 52698 52759
+type(
+  exn
+)
+"heptagon/parsing/hept_lexer.mll" 334 52632 52638 "heptagon/parsing/hept_lexer.mll" 335 52698 52761
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1125 52803 52807 "heptagon/parsing/hept_lexer.ml" 1125 52803 52808
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52860 "heptagon/parsing/hept_lexer.mll" 337 52852 52877
+type(
+  char -> unit
+)
+ident(
+  int_ref store_string_char "heptagon/parsing/hept_lexer.mll" 125 1736 1740 "heptagon/parsing/hept_lexer.mll" 125 1736 1757
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52878 "heptagon/parsing/hept_lexer.mll" 337 52852 52896
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52897 "heptagon/parsing/hept_lexer.mll" 337 52852 52903
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52904 "heptagon/parsing/hept_lexer.mll" 337 52852 52905
+type(
+  int
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52877 "heptagon/parsing/hept_lexer.mll" 337 52852 52906
+call(
+  stack
+)
+type(
+  char
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52860 "heptagon/parsing/hept_lexer.mll" 337 52852 52906
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 338 52908 52916 "heptagon/parsing/hept_lexer.mll" 338 52908 52922
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "heptagon/parsing/hept_lexer.ml" 1088 51670 51674 "heptagon/parsing/hept_lexer.ml" 1088 51670 51680
+)
+"heptagon/parsing/hept_lexer.mll" 338 52908 52923 "heptagon/parsing/hept_lexer.mll" 338 52908 52929
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.mll" 338 52908 52916 "heptagon/parsing/hept_lexer.mll" 338 52908 52929
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.mll" 337 52852 52858 "heptagon/parsing/hept_lexer.mll" 338 52908 52931
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 52977 "heptagon/parsing/hept_lexer.ml" 1131 52973 52994
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1131 52973 52998 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 52998 "heptagon/parsing/hept_lexer.ml" 1131 52973 53004
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 52998 "heptagon/parsing/hept_lexer.ml" 1131 52973 53023
+type(
+  Lexing.lexbuf -> unit
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 53024 "heptagon/parsing/hept_lexer.ml" 1131 52973 53030
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 52998 "heptagon/parsing/hept_lexer.ml" 1131 52973 53030
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1132 53033 53039 "heptagon/parsing/hept_lexer.ml" 1132 53033 53061
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_string_rec "heptagon/parsing/hept_lexer.ml" 1090 51728 51732 "heptagon/parsing/hept_lexer.ml" 1090 51728 51754
+)
+"heptagon/parsing/hept_lexer.ml" 1132 53033 53062 "heptagon/parsing/hept_lexer.ml" 1132 53033 53068
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/parsing/hept_lexer.ml" 1090 51728 51755 "heptagon/parsing/hept_lexer.ml" 1090 51728 51761
+)
+"heptagon/parsing/hept_lexer.ml" 1132 53033 53069 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "heptagon/parsing/hept_lexer.ml" 1131 52973 52977 "heptagon/parsing/hept_lexer.ml" 1131 52973 52994
+)
+"heptagon/parsing/hept_lexer.ml" 1132 53033 53039 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1131 52973 52998 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+type(
+  unit
+)
+"heptagon/parsing/hept_lexer.ml" 1091 51782 51784 "heptagon/parsing/hept_lexer.ml" 1132 53033 53086
+type(
+  unit
+)

@@ -1,0 +1,177 @@
+"global/types.ml" 56 3006 3010 "global/types.ml" 56 3006 3022
+type(
+  ty
+)
+ident(
+  def invalid_type "global/types.ml" 58 3088 3088 "global/types.ml" 1 0 -1
+)
+"global/types.ml" 56 3006 3025 "global/types.ml" 56 3006 3033
+type(
+  ty
+)
+"global/types.ml" 58 3088 3092 "global/types.ml" 58 3088 3096
+type(
+  ty list -> ty
+)
+ident(
+  def prod "global/types.ml" 62 3156 3156 "global/types.ml" 1 0 -1
+)
+"global/types.ml" 59 3108 3113 "global/types.ml" 59 3108 3115
+type(
+  ty
+)
+ident(
+  def ty "global/types.ml" 59 3108 3123 "global/types.ml" 59 3108 3125
+)
+"global/types.ml" 59 3108 3112 "global/types.ml" 59 3108 3116
+type(
+  ty list
+)
+"global/types.ml" 59 3108 3123 "global/types.ml" 59 3108 3125
+type(
+  ty
+)
+ident(
+  int_ref ty "global/types.ml" 59 3108 3113 "global/types.ml" 59 3108 3115
+)
+"global/types.ml" 60 3126 3130 "global/types.ml" 60 3126 3137
+type(
+  ty list
+)
+ident(
+  def ty_list "global/types.ml" 60 3126 3141 "global/types.ml" 60 3126 3154
+)
+"global/types.ml" 60 3126 3147 "global/types.ml" 60 3126 3154
+type(
+  ty list
+)
+ident(
+  int_ref ty_list "global/types.ml" 60 3126 3130 "global/types.ml" 60 3126 3137
+)
+"global/types.ml" 60 3126 3141 "global/types.ml" 60 3126 3154
+type(
+  ty
+)
+"global/types.ml" 58 3088 3099 "global/types.ml" 60 3126 3154
+type(
+  ty list -> ty
+)
+"global/types.ml" 62 3156 3160 "global/types.ml" 62 3156 3166
+type(
+  ty -> ty list
+)
+ident(
+  def unprod "global/types.ml" 66 3209 3209 "global/types.ml" 1 0 -1
+)
+"global/types.ml" 63 3178 3188 "global/types.ml" 63 3178 3189
+type(
+  ty list
+)
+ident(
+  def l "global/types.ml" 63 3178 3193 "global/types.ml" 63 3178 3194
+)
+"global/types.ml" 63 3178 3182 "global/types.ml" 63 3178 3189
+type(
+  ty
+)
+"global/types.ml" 63 3178 3193 "global/types.ml" 63 3178 3194
+type(
+  ty list
+)
+ident(
+  int_ref l "global/types.ml" 63 3178 3188 "global/types.ml" 63 3178 3189
+)
+"global/types.ml" 64 3195 3199 "global/types.ml" 64 3195 3200
+type(
+  ty
+)
+ident(
+  def t "global/types.ml" 64 3195 3204 "global/types.ml" 64 3195 3207
+)
+"global/types.ml" 64 3195 3205 "global/types.ml" 64 3195 3206
+type(
+  ty
+)
+ident(
+  int_ref t "global/types.ml" 64 3195 3199 "global/types.ml" 64 3195 3200
+)
+"global/types.ml" 64 3195 3204 "global/types.ml" 64 3195 3207
+type(
+  ty list
+)
+"global/types.ml" 62 3156 3169 "global/types.ml" 64 3195 3207
+type(
+  ty -> ty list
+)
+"global/types.ml" 66 3209 3213 "global/types.ml" 66 3209 3226
+type(
+  ?loc:Location.location -> ty -> static_exp_desc -> static_exp
+)
+ident(
+  def mk_static_exp "global/types.ml" 67 3293 3339 "global/types.ml" 1 0 -1
+)
+"global/types.ml" 66 3209 3229 "global/types.ml" 66 3209 3232
+type(
+  Location.location
+)
+"global/types.ml" 66 3209 3235 "global/types.ml" 66 3209 3246
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "global/types.ml" 66 3209 3235 "global/types.ml" 66 3209 3246
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"global/types.ml" 66 3209 3248 "global/types.ml" 66 3209 3250
+type(
+  ty
+)
+ident(
+  def ty "global/types.ml" 66 3209 3251 "global/types.ml" 67 3293 3339
+)
+"global/types.ml" 66 3209 3251 "global/types.ml" 66 3209 3255
+type(
+  static_exp_desc
+)
+ident(
+  def desc "global/types.ml" 67 3293 3295 "global/types.ml" 67 3293 3339
+)
+"global/types.ml" 67 3293 3307 "global/types.ml" 67 3293 3311
+type(
+  static_exp_desc
+)
+ident(
+  int_ref desc "global/types.ml" 66 3209 3251 "global/types.ml" 66 3209 3255
+)
+"global/types.ml" 67 3293 3321 "global/types.ml" 67 3293 3323
+type(
+  ty
+)
+ident(
+  int_ref ty "global/types.ml" 66 3209 3248 "global/types.ml" 66 3209 3250
+)
+"global/types.ml" 67 3293 3334 "global/types.ml" 67 3293 3337
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/types.ml" 66 3209 3229 "global/types.ml" 66 3209 3232
+)
+"global/types.ml" 67 3293 3295 "global/types.ml" 67 3293 3339
+type(
+  static_exp
+)

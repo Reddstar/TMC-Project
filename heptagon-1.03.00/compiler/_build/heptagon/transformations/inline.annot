@@ -1,0 +1,3465 @@
+"heptagon/transformations/inline.ml" 39 2181 2185 "heptagon/transformations/inline.ml" 39 2181 2198
+type(
+  Names.qualname -> bool
+)
+ident(
+  def to_be_inlined "heptagon/transformations/inline.ml" 43 2306 2306 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 39 2181 2199 "heptagon/transformations/inline.ml" 39 2181 2200
+type(
+  Names.qualname
+)
+ident(
+  def s "heptagon/transformations/inline.ml" 40 2203 2205 "heptagon/transformations/inline.ml" 41 2262 2304
+)
+"heptagon/transformations/inline.ml" 40 2203 2206 "heptagon/transformations/inline.ml" 40 2203 2207
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/inline.ml" 40 2203 2207 "heptagon/transformations/inline.ml" 40 2203 2231
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.flatten
+)
+"heptagon/transformations/inline.ml" 40 2203 2206 "heptagon/transformations/inline.ml" 40 2203 2231
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 40 2203 2232 "heptagon/transformations/inline.ml" 40 2203 2234
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/transformations/inline.ml" 40 2203 2235 "heptagon/transformations/inline.ml" 40 2203 2238
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/transformations/inline.ml" 40 2203 2240 "heptagon/transformations/inline.ml" 40 2203 2241
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "heptagon/transformations/inline.ml" 39 2181 2199 "heptagon/transformations/inline.ml" 39 2181 2200
+)
+"heptagon/transformations/inline.ml" 40 2203 2240 "heptagon/transformations/inline.ml" 40 2203 2246
+type(
+  Names.modul
+)
+"heptagon/transformations/inline.ml" 40 2203 2247 "heptagon/transformations/inline.ml" 40 2203 2248
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/transformations/inline.ml" 40 2203 2249 "heptagon/transformations/inline.ml" 40 2203 2259
+type(
+  Names.modul
+)
+"heptagon/transformations/inline.ml" 40 2203 2239 "heptagon/transformations/inline.ml" 40 2203 2260
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 40 2203 2235 "heptagon/transformations/inline.ml" 40 2203 2260
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 40 2203 2205 "heptagon/transformations/inline.ml" 40 2203 2261
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 41 2262 2264 "heptagon/transformations/inline.ml" 41 2262 2266
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/transformations/inline.ml" 41 2262 2268 "heptagon/transformations/inline.ml" 41 2262 2276
+type(
+  Names.qualname -> Names.qualname list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"heptagon/transformations/inline.ml" 41 2262 2277 "heptagon/transformations/inline.ml" 41 2262 2278
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "heptagon/transformations/inline.ml" 39 2181 2199 "heptagon/transformations/inline.ml" 39 2181 2200
+)
+"heptagon/transformations/inline.ml" 41 2262 2279 "heptagon/transformations/inline.ml" 41 2262 2280
+type(
+  Names.qualname list ref -> Names.qualname list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/inline.ml" 41 2262 2280 "heptagon/transformations/inline.ml" 41 2262 2303
+type(
+  Names.qualname list ref
+)
+ident(
+  ext_ref Compiler_options.inline
+)
+"heptagon/transformations/inline.ml" 41 2262 2279 "heptagon/transformations/inline.ml" 41 2262 2303
+type(
+  Names.qualname list
+)
+"heptagon/transformations/inline.ml" 41 2262 2267 "heptagon/transformations/inline.ml" 41 2262 2304
+call(
+  tail
+)
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 40 2203 2205 "heptagon/transformations/inline.ml" 41 2262 2304
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 43 2306 2310 "heptagon/transformations/inline.ml" 43 2306 2315
+type(
+  ?reset:bool -> string -> Idents.ident
+)
+ident(
+  def fresh "heptagon/transformations/inline.ml" 45 2343 2343 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 43 2306 2318 "heptagon/transformations/inline.ml" 43 2306 2332
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"heptagon/transformations/inline.ml" 43 2306 2333 "heptagon/transformations/inline.ml" 43 2306 2341
+type(
+  string
+)
+"heptagon/transformations/inline.ml" 43 2306 2318 "heptagon/transformations/inline.ml" 43 2306 2341
+call(
+  stack
+)
+type(
+  ?reset:bool -> string -> Idents.ident
+)
+"heptagon/transformations/inline.ml" 45 2343 2347 "heptagon/transformations/inline.ml" 45 2343 2361
+type(
+  Heptagon.node_dec -> Heptagon.node_dec
+)
+ident(
+  def mk_unique_node "heptagon/transformations/inline.ml" 105 4526 4526 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 45 2343 2362 "heptagon/transformations/inline.ml" 45 2343 2364
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/inline.ml" 46 2367 2369 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 46 2367 2373 "heptagon/transformations/inline.ml" 46 2367 2380
+type(
+  Heptagon.var_dec -> Idents.var_ident * Heptagon.var_dec
+)
+ident(
+  def mk_bind "heptagon/transformations/inline.ml" 49 2512 2514 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 46 2367 2381 "heptagon/transformations/inline.ml" 46 2367 2383
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 47 2386 2390 "heptagon/transformations/inline.ml" 48 2433 2508
+)
+"heptagon/transformations/inline.ml" 47 2386 2394 "heptagon/transformations/inline.ml" 47 2386 2396
+type(
+  Idents.ident
+)
+ident(
+  def id "heptagon/transformations/inline.ml" 48 2433 2437 "heptagon/transformations/inline.ml" 48 2433 2508
+)
+"heptagon/transformations/inline.ml" 47 2386 2399 "heptagon/transformations/inline.ml" 47 2386 2404
+type(
+  ?reset:bool -> string -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/inline.ml" 43 2306 2310 "heptagon/transformations/inline.ml" 43 2306 2315
+)
+"heptagon/transformations/inline.ml" 47 2386 2406 "heptagon/transformations/inline.ml" 47 2386 2417
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/transformations/inline.ml" 47 2386 2418 "heptagon/transformations/inline.ml" 47 2386 2420
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 46 2367 2381 "heptagon/transformations/inline.ml" 46 2367 2383
+)
+"heptagon/transformations/inline.ml" 47 2386 2418 "heptagon/transformations/inline.ml" 47 2386 2428
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 47 2386 2405 "heptagon/transformations/inline.ml" 47 2386 2429
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/inline.ml" 47 2386 2399 "heptagon/transformations/inline.ml" 47 2386 2429
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/inline.ml" 48 2433 2438 "heptagon/transformations/inline.ml" 48 2433 2440
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 46 2367 2381 "heptagon/transformations/inline.ml" 46 2367 2383
+)
+"heptagon/transformations/inline.ml" 48 2433 2438 "heptagon/transformations/inline.ml" 48 2433 2448
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 48 2433 2452 "heptagon/transformations/inline.ml" 48 2433 2454
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 46 2367 2381 "heptagon/transformations/inline.ml" 46 2367 2383
+)
+"heptagon/transformations/inline.ml" 48 2433 2470 "heptagon/transformations/inline.ml" 48 2433 2472
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "heptagon/transformations/inline.ml" 47 2386 2394 "heptagon/transformations/inline.ml" 47 2386 2396
+)
+"heptagon/transformations/inline.ml" 48 2433 2484 "heptagon/transformations/inline.ml" 48 2433 2502
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"heptagon/transformations/inline.ml" 48 2433 2503 "heptagon/transformations/inline.ml" 48 2433 2505
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 48 2433 2484 "heptagon/transformations/inline.ml" 48 2433 2505
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"heptagon/transformations/inline.ml" 48 2433 2450 "heptagon/transformations/inline.ml" 48 2433 2507
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 48 2433 2437 "heptagon/transformations/inline.ml" 48 2433 2508
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 47 2386 2390 "heptagon/transformations/inline.ml" 48 2433 2508
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 49 2512 2518 "heptagon/transformations/inline.ml" 49 2512 2523
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst "heptagon/transformations/inline.ml" 81 3684 3686 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 50 2526 2530 "heptagon/transformations/inline.ml" 50 2526 2544
+type(
+  (Idents.var_ident Idents.Env.t ->
+   Heptagon.var_dec -> Idents.var_ident Idents.Env.t) ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.var_dec list -> Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/transformations/inline.ml" 51 2545 2556 "heptagon/transformations/inline.ml" 51 2545 2561
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst "heptagon/transformations/inline.ml" 51 2545 2562 "heptagon/transformations/inline.ml" 53 2604 2640
+)
+"heptagon/transformations/inline.ml" 51 2545 2562 "heptagon/transformations/inline.ml" 51 2545 2564
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 52 2568 2577 "heptagon/transformations/inline.ml" 53 2604 2640
+)
+"heptagon/transformations/inline.ml" 52 2568 2581 "heptagon/transformations/inline.ml" 52 2568 2583
+type(
+  Idents.var_ident
+)
+ident(
+  def id "heptagon/transformations/inline.ml" 53 2604 2613 "heptagon/transformations/inline.ml" 53 2604 2640
+)
+"heptagon/transformations/inline.ml" 52 2568 2585 "heptagon/transformations/inline.ml" 52 2568 2587
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 53 2604 2613 "heptagon/transformations/inline.ml" 53 2604 2640
+)
+"heptagon/transformations/inline.ml" 52 2568 2581 "heptagon/transformations/inline.ml" 52 2568 2587
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 52 2568 2590 "heptagon/transformations/inline.ml" 52 2568 2597
+type(
+  Heptagon.var_dec -> Idents.var_ident * Heptagon.var_dec
+)
+ident(
+  int_ref mk_bind "heptagon/transformations/inline.ml" 46 2367 2373 "heptagon/transformations/inline.ml" 46 2367 2380
+)
+"heptagon/transformations/inline.ml" 52 2568 2598 "heptagon/transformations/inline.ml" 52 2568 2600
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 51 2545 2562 "heptagon/transformations/inline.ml" 51 2545 2564
+)
+"heptagon/transformations/inline.ml" 52 2568 2590 "heptagon/transformations/inline.ml" 52 2568 2600
+call(
+  stack
+)
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 53 2604 2613 "heptagon/transformations/inline.ml" 53 2604 2620
+type(
+  Idents.Env.key ->
+  Idents.var_ident ->
+  Idents.var_ident Idents.Env.t -> Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/inline.ml" 53 2604 2621 "heptagon/transformations/inline.ml" 53 2604 2623
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "heptagon/transformations/inline.ml" 52 2568 2581 "heptagon/transformations/inline.ml" 52 2568 2583
+)
+"heptagon/transformations/inline.ml" 53 2604 2624 "heptagon/transformations/inline.ml" 53 2604 2626
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 52 2568 2585 "heptagon/transformations/inline.ml" 52 2568 2587
+)
+"heptagon/transformations/inline.ml" 53 2604 2624 "heptagon/transformations/inline.ml" 53 2604 2634
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 53 2604 2635 "heptagon/transformations/inline.ml" 53 2604 2640
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 51 2545 2556 "heptagon/transformations/inline.ml" 51 2545 2561
+)
+"heptagon/transformations/inline.ml" 53 2604 2613 "heptagon/transformations/inline.ml" 53 2604 2640
+call(
+  tail
+)
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 52 2568 2577 "heptagon/transformations/inline.ml" 53 2604 2640
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 51 2545 2551 "heptagon/transformations/inline.ml" 53 2604 2641
+type(
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.var_dec -> Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 54 2642 2648 "heptagon/transformations/inline.ml" 54 2642 2657
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/inline.ml" 55 2658 2665 "heptagon/transformations/inline.ml" 55 2658 2667
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 45 2343 2362 "heptagon/transformations/inline.ml" 45 2343 2364
+)
+"heptagon/transformations/inline.ml" 55 2658 2665 "heptagon/transformations/inline.ml" 55 2658 2675
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 55 2658 2676 "heptagon/transformations/inline.ml" 55 2658 2677
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 55 2658 2678 "heptagon/transformations/inline.ml" 55 2658 2680
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 45 2343 2362 "heptagon/transformations/inline.ml" 45 2343 2364
+)
+"heptagon/transformations/inline.ml" 55 2658 2678 "heptagon/transformations/inline.ml" 55 2658 2689
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 55 2658 2664 "heptagon/transformations/inline.ml" 55 2658 2690
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 50 2526 2530 "heptagon/transformations/inline.ml" 55 2658 2690
+call(
+  stack
+)
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 81 3684 3690 "heptagon/transformations/inline.ml" 81 3684 3705
+type(
+  'a -> 'b Idents.Env.t -> Idents.Env.key -> 'b * 'b Idents.Env.t
+)
+ident(
+  def subst_var_ident "heptagon/transformations/inline.ml" 85 3771 3773 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 81 3684 3706 "heptagon/transformations/inline.ml" 81 3684 3711
+type(
+  'a
+)
+ident(
+  def _funs "heptagon/transformations/inline.ml" 81 3684 3712 "heptagon/transformations/inline.ml" 83 3754 3766
+)
+"heptagon/transformations/inline.ml" 81 3684 3712 "heptagon/transformations/inline.ml" 81 3684 3717
+type(
+  'b Idents.Env.t
+)
+ident(
+  def subst "heptagon/transformations/inline.ml" 81 3684 3718 "heptagon/transformations/inline.ml" 83 3754 3766
+)
+"heptagon/transformations/inline.ml" 81 3684 3718 "heptagon/transformations/inline.ml" 81 3684 3719
+type(
+  Idents.Env.key
+)
+ident(
+  def v "heptagon/transformations/inline.ml" 82 3722 3726 "heptagon/transformations/inline.ml" 83 3754 3766
+)
+"heptagon/transformations/inline.ml" 82 3722 3730 "heptagon/transformations/inline.ml" 82 3722 3731
+type(
+  'b
+)
+ident(
+  def v "heptagon/transformations/inline.ml" 83 3754 3758 "heptagon/transformations/inline.ml" 83 3754 3766
+)
+"heptagon/transformations/inline.ml" 82 3722 3734 "heptagon/transformations/inline.ml" 82 3722 3742
+type(
+  Idents.Env.key -> 'b Idents.Env.t -> 'b
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/transformations/inline.ml" 82 3722 3743 "heptagon/transformations/inline.ml" 82 3722 3744
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref v "heptagon/transformations/inline.ml" 81 3684 3718 "heptagon/transformations/inline.ml" 81 3684 3719
+)
+"heptagon/transformations/inline.ml" 82 3722 3745 "heptagon/transformations/inline.ml" 82 3722 3750
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 81 3684 3712 "heptagon/transformations/inline.ml" 81 3684 3717
+)
+"heptagon/transformations/inline.ml" 82 3722 3734 "heptagon/transformations/inline.ml" 82 3722 3750
+call(
+  stack
+)
+type(
+  'b
+)
+"heptagon/transformations/inline.ml" 83 3754 3758 "heptagon/transformations/inline.ml" 83 3754 3759
+type(
+  'b
+)
+ident(
+  int_ref v "heptagon/transformations/inline.ml" 82 3722 3730 "heptagon/transformations/inline.ml" 82 3722 3731
+)
+"heptagon/transformations/inline.ml" 83 3754 3761 "heptagon/transformations/inline.ml" 83 3754 3766
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 81 3684 3712 "heptagon/transformations/inline.ml" 81 3684 3717
+)
+"heptagon/transformations/inline.ml" 83 3754 3758 "heptagon/transformations/inline.ml" 83 3754 3766
+type(
+  'b * 'b Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 82 3722 3726 "heptagon/transformations/inline.ml" 83 3754 3766
+type(
+  'b * 'b Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 85 3771 3777 "heptagon/transformations/inline.ml" 85 3771 3788
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst_block "heptagon/transformations/inline.ml" 99 4254 4256 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 85 3771 3789 "heptagon/transformations/inline.ml" 85 3771 3793
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 85 3771 3794 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 85 3771 3794 "heptagon/transformations/inline.ml" 85 3771 3799
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst "heptagon/transformations/inline.ml" 85 3771 3800 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 85 3771 3800 "heptagon/transformations/inline.ml" 85 3771 3801
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/inline.ml" 86 3804 3808 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 86 3804 3812 "heptagon/transformations/inline.ml" 86 3804 3819
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def b_local "heptagon/transformations/inline.ml" 92 3981 3985 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 86 3804 3821 "heptagon/transformations/inline.ml" 86 3804 3827
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst' "heptagon/transformations/inline.ml" 92 3981 3985 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 86 3804 3812 "heptagon/transformations/inline.ml" 86 3804 3827
+type(
+  Heptagon.var_dec list * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 87 3830 3836 "heptagon/transformations/inline.ml" 87 3830 3843
+type(
+  (Idents.var_ident Idents.Env.t ->
+   Heptagon.var_dec -> Heptagon.var_dec * Idents.var_ident Idents.Env.t) ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Heptagon.var_dec list * Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/inline.ml" 88 3845 3858 "heptagon/transformations/inline.ml" 88 3845 3863
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def subst "heptagon/transformations/inline.ml" 88 3845 3864 "heptagon/transformations/inline.ml" 90 3908 3952
+)
+"heptagon/transformations/inline.ml" 88 3845 3864 "heptagon/transformations/inline.ml" 88 3845 3866
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 89 3870 3881 "heptagon/transformations/inline.ml" 90 3908 3952
+)
+"heptagon/transformations/inline.ml" 89 3870 3885 "heptagon/transformations/inline.ml" 89 3870 3887
+type(
+  Idents.var_ident
+)
+ident(
+  def id "heptagon/transformations/inline.ml" 90 3908 3919 "heptagon/transformations/inline.ml" 90 3908 3952
+)
+"heptagon/transformations/inline.ml" 89 3870 3889 "heptagon/transformations/inline.ml" 89 3870 3891
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 90 3908 3919 "heptagon/transformations/inline.ml" 90 3908 3952
+)
+"heptagon/transformations/inline.ml" 89 3870 3885 "heptagon/transformations/inline.ml" 89 3870 3891
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 89 3870 3894 "heptagon/transformations/inline.ml" 89 3870 3901
+type(
+  Heptagon.var_dec -> Idents.var_ident * Heptagon.var_dec
+)
+ident(
+  int_ref mk_bind "heptagon/transformations/inline.ml" 46 2367 2373 "heptagon/transformations/inline.ml" 46 2367 2380
+)
+"heptagon/transformations/inline.ml" 89 3870 3902 "heptagon/transformations/inline.ml" 89 3870 3904
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 88 3845 3864 "heptagon/transformations/inline.ml" 88 3845 3866
+)
+"heptagon/transformations/inline.ml" 89 3870 3894 "heptagon/transformations/inline.ml" 89 3870 3904
+call(
+  stack
+)
+type(
+  Idents.var_ident * Heptagon.var_dec
+)
+"heptagon/transformations/inline.ml" 90 3908 3919 "heptagon/transformations/inline.ml" 90 3908 3921
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 89 3870 3889 "heptagon/transformations/inline.ml" 89 3870 3891
+)
+"heptagon/transformations/inline.ml" 90 3908 3924 "heptagon/transformations/inline.ml" 90 3908 3931
+type(
+  Idents.Env.key ->
+  Idents.var_ident ->
+  Idents.var_ident Idents.Env.t -> Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/inline.ml" 90 3908 3932 "heptagon/transformations/inline.ml" 90 3908 3934
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "heptagon/transformations/inline.ml" 89 3870 3885 "heptagon/transformations/inline.ml" 89 3870 3887
+)
+"heptagon/transformations/inline.ml" 90 3908 3935 "heptagon/transformations/inline.ml" 90 3908 3937
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 89 3870 3889 "heptagon/transformations/inline.ml" 89 3870 3891
+)
+"heptagon/transformations/inline.ml" 90 3908 3935 "heptagon/transformations/inline.ml" 90 3908 3945
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 90 3908 3946 "heptagon/transformations/inline.ml" 90 3908 3951
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 88 3845 3858 "heptagon/transformations/inline.ml" 88 3845 3863
+)
+"heptagon/transformations/inline.ml" 90 3908 3923 "heptagon/transformations/inline.ml" 90 3908 3952
+call(
+  stack
+)
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 90 3908 3919 "heptagon/transformations/inline.ml" 90 3908 3952
+type(
+  Heptagon.var_dec * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 89 3870 3881 "heptagon/transformations/inline.ml" 90 3908 3952
+type(
+  Heptagon.var_dec * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 88 3845 3853 "heptagon/transformations/inline.ml" 90 3908 3953
+type(
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.var_dec -> Heptagon.var_dec * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 91 3954 3962 "heptagon/transformations/inline.ml" 91 3954 3967
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 85 3771 3794 "heptagon/transformations/inline.ml" 85 3771 3799
+)
+"heptagon/transformations/inline.ml" 91 3954 3968 "heptagon/transformations/inline.ml" 91 3954 3969
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/inline.ml" 85 3771 3800 "heptagon/transformations/inline.ml" 85 3771 3801
+)
+"heptagon/transformations/inline.ml" 91 3954 3968 "heptagon/transformations/inline.ml" 91 3954 3977
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 87 3830 3836 "heptagon/transformations/inline.ml" 91 3954 3977
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 92 3981 3989 "heptagon/transformations/inline.ml" 92 3981 3990
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/inline.ml" 93 4032 4036 "heptagon/transformations/inline.ml" 93 4032 4071
+)
+"heptagon/transformations/inline.ml" 92 3981 3992 "heptagon/transformations/inline.ml" 92 3981 3993
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 92 3981 3989 "heptagon/transformations/inline.ml" 92 3981 3993
+type(
+  Heptagon.block * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 92 3981 3996 "heptagon/transformations/inline.ml" 92 3981 4014
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/inline.ml" 92 3981 4015 "heptagon/transformations/inline.ml" 92 3981 4019
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 85 3771 3789 "heptagon/transformations/inline.ml" 85 3771 3793
+)
+"heptagon/transformations/inline.ml" 92 3981 4020 "heptagon/transformations/inline.ml" 92 3981 4026
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst' "heptagon/transformations/inline.ml" 86 3804 3821 "heptagon/transformations/inline.ml" 86 3804 3827
+)
+"heptagon/transformations/inline.ml" 92 3981 4027 "heptagon/transformations/inline.ml" 92 3981 4028
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/inline.ml" 85 3771 3800 "heptagon/transformations/inline.ml" 85 3771 3801
+)
+"heptagon/transformations/inline.ml" 92 3981 3996 "heptagon/transformations/inline.ml" 92 3981 4028
+call(
+  stack
+)
+type(
+  Heptagon.block * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 93 4032 4038 "heptagon/transformations/inline.ml" 93 4032 4039
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/inline.ml" 92 3981 3989 "heptagon/transformations/inline.ml" 92 3981 3990
+)
+"heptagon/transformations/inline.ml" 93 4032 4055 "heptagon/transformations/inline.ml" 93 4032 4062
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref b_local "heptagon/transformations/inline.ml" 86 3804 3812 "heptagon/transformations/inline.ml" 86 3804 3819
+)
+"heptagon/transformations/inline.ml" 93 4032 4036 "heptagon/transformations/inline.ml" 93 4032 4064
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 93 4032 4066 "heptagon/transformations/inline.ml" 93 4032 4071
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 85 3771 3794 "heptagon/transformations/inline.ml" 85 3771 3799
+)
+"heptagon/transformations/inline.ml" 93 4032 4036 "heptagon/transformations/inline.ml" 93 4032 4071
+type(
+  Heptagon.block * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 92 3981 3985 "heptagon/transformations/inline.ml" 93 4032 4071
+type(
+  Heptagon.block * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 86 3804 3808 "heptagon/transformations/inline.ml" 93 4032 4071
+type(
+  Heptagon.block * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 99 4254 4260 "heptagon/transformations/inline.ml" 99 4254 4264
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 103 4481 4483 "heptagon/transformations/inline.ml" 103 4481 4524
+)
+"heptagon/transformations/inline.ml" 99 4254 4269 "heptagon/transformations/inline.ml" 99 4254 4290
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/inline.ml" 100 4296 4321 "heptagon/transformations/inline.ml" 100 4296 4332
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst_block "heptagon/transformations/inline.ml" 85 3771 3777 "heptagon/transformations/inline.ml" 85 3771 3788
+)
+"heptagon/transformations/inline.ml" 101 4334 4367 "heptagon/transformations/inline.ml" 101 4334 4390
+type(
+  Idents.var_ident Idents.Env.t Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"heptagon/transformations/inline.ml" 102 4396 4458 "heptagon/transformations/inline.ml" 102 4396 4473
+type(
+  Idents.var_ident Idents.Env.t Global_mapfold.global_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Idents.var_ident -> Idents.var_ident * Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst_var_ident "heptagon/transformations/inline.ml" 81 3684 3690 "heptagon/transformations/inline.ml" 81 3684 3705
+)
+"heptagon/transformations/inline.ml" 101 4334 4365 "heptagon/transformations/inline.ml" 102 4396 4475
+type(
+  Idents.var_ident Idents.Env.t Global_mapfold.global_it_funs
+)
+"heptagon/transformations/inline.ml" 99 4254 4267 "heptagon/transformations/inline.ml" 102 4396 4477
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/inline.ml" 103 4481 4483 "heptagon/transformations/inline.ml" 103 4481 4486
+type(
+  Heptagon.node_dec * Idents.var_ident Idents.Env.t -> Heptagon.node_dec
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"heptagon/transformations/inline.ml" 103 4481 4488 "heptagon/transformations/inline.ml" 103 4481 4509
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.node_dec -> Heptagon.node_dec * Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/transformations/inline.ml" 103 4481 4510 "heptagon/transformations/inline.ml" 103 4481 4514
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 99 4254 4260 "heptagon/transformations/inline.ml" 99 4254 4264
+)
+"heptagon/transformations/inline.ml" 103 4481 4515 "heptagon/transformations/inline.ml" 103 4481 4520
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref subst "heptagon/transformations/inline.ml" 49 2512 2518 "heptagon/transformations/inline.ml" 49 2512 2523
+)
+"heptagon/transformations/inline.ml" 103 4481 4521 "heptagon/transformations/inline.ml" 103 4481 4523
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 45 2343 2362 "heptagon/transformations/inline.ml" 45 2343 2364
+)
+"heptagon/transformations/inline.ml" 103 4481 4487 "heptagon/transformations/inline.ml" 103 4481 4524
+call(
+  stack
+)
+type(
+  Heptagon.node_dec * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/inline.ml" 103 4481 4483 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 99 4254 4256 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 85 3771 3773 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 81 3684 3686 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 49 2512 2514 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 46 2367 2369 "heptagon/transformations/inline.ml" 103 4481 4524
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 105 4526 4530 "heptagon/transformations/inline.ml" 105 4526 4533
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.exp ->
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  def exp "heptagon/transformations/inline.ml" 166 6913 6913 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 105 4526 4534 "heptagon/transformations/inline.ml" 105 4526 4538
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 105 4526 4539 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 105 4526 4540 "heptagon/transformations/inline.ml" 105 4526 4543
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 105 4526 4563 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 105 4526 4545 "heptagon/transformations/inline.ml" 105 4526 4552
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 105 4526 4563 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 105 4526 4554 "heptagon/transformations/inline.ml" 105 4526 4561
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 105 4526 4563 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 105 4526 4539 "heptagon/transformations/inline.ml" 105 4526 4562
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 105 4526 4563 "heptagon/transformations/inline.ml" 105 4526 4566
+type(
+  Heptagon.exp
+)
+ident(
+  def exp "heptagon/transformations/inline.ml" 106 4569 4571 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+type(
+  Heptagon.exp
+)
+ident(
+  def exp "heptagon/transformations/inline.ml" 107 4659 4661 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 107 4659 4661 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 106 4569 4586 "heptagon/transformations/inline.ml" 106 4569 4593
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 107 4659 4661 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 106 4569 4595 "heptagon/transformations/inline.ml" 106 4569 4602
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 107 4659 4661 "heptagon/transformations/inline.ml" 164 6874 6911
+)
+"heptagon/transformations/inline.ml" 106 4569 4580 "heptagon/transformations/inline.ml" 106 4569 4603
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4603
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 106 4569 4606 "heptagon/transformations/inline.ml" 106 4569 4622
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.exp ->
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.exp
+)
+"heptagon/transformations/inline.ml" 106 4569 4623 "heptagon/transformations/inline.ml" 106 4569 4627
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 105 4526 4534 "heptagon/transformations/inline.ml" 105 4526 4538
+)
+"heptagon/transformations/inline.ml" 106 4569 4629 "heptagon/transformations/inline.ml" 106 4569 4632
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 105 4526 4540 "heptagon/transformations/inline.ml" 105 4526 4543
+)
+"heptagon/transformations/inline.ml" 106 4569 4634 "heptagon/transformations/inline.ml" 106 4569 4641
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 105 4526 4545 "heptagon/transformations/inline.ml" 105 4526 4552
+)
+"heptagon/transformations/inline.ml" 106 4569 4643 "heptagon/transformations/inline.ml" 106 4569 4650
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 105 4526 4554 "heptagon/transformations/inline.ml" 105 4526 4561
+)
+"heptagon/transformations/inline.ml" 106 4569 4628 "heptagon/transformations/inline.ml" 106 4569 4651
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 106 4569 4652 "heptagon/transformations/inline.ml" 106 4569 4655
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 105 4526 4563 "heptagon/transformations/inline.ml" 105 4526 4566
+)
+"heptagon/transformations/inline.ml" 106 4569 4606 "heptagon/transformations/inline.ml" 106 4569 4655
+call(
+  stack
+)
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 107 4659 4667 "heptagon/transformations/inline.ml" 107 4659 4670
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 107 4659 4667 "heptagon/transformations/inline.ml" 107 4659 4677
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 108 4683 4698 "heptagon/transformations/inline.ml" 108 4683 4700
+type(
+  Heptagon.iterator_type
+)
+ident(
+  def it "heptagon/transformations/inline.ml" 108 4683 4741 "heptagon/transformations/inline.ml" 112 4912 4948
+)
+"heptagon/transformations/inline.ml" 108 4683 4717 "heptagon/transformations/inline.ml" 108 4683 4719
+type(
+  Names.fun_name
+)
+ident(
+  def nn "heptagon/transformations/inline.ml" 108 4683 4741 "heptagon/transformations/inline.ml" 112 4912 4948
+)
+"heptagon/transformations/inline.ml" 108 4683 4711 "heptagon/transformations/inline.ml" 108 4683 4719
+type(
+  Heptagon.op
+)
+"heptagon/transformations/inline.ml" 108 4683 4702 "heptagon/transformations/inline.ml" 108 4683 4722
+type(
+  Heptagon.app
+)
+"heptagon/transformations/inline.ml" 108 4683 4724 "heptagon/transformations/inline.ml" 108 4683 4725
+type(
+  Types.static_exp list
+)
+"heptagon/transformations/inline.ml" 108 4683 4727 "heptagon/transformations/inline.ml" 108 4683 4728
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/inline.ml" 108 4683 4730 "heptagon/transformations/inline.ml" 108 4683 4731
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/inline.ml" 108 4683 4733 "heptagon/transformations/inline.ml" 108 4683 4734
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/inline.ml" 108 4683 4687 "heptagon/transformations/inline.ml" 108 4683 4735
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 108 4683 4741 "heptagon/transformations/inline.ml" 108 4683 4754
+type(
+  Names.fun_name -> bool
+)
+ident(
+  int_ref to_be_inlined "heptagon/transformations/inline.ml" 39 2181 2185 "heptagon/transformations/inline.ml" 39 2181 2198
+)
+"heptagon/transformations/inline.ml" 108 4683 4755 "heptagon/transformations/inline.ml" 108 4683 4757
+type(
+  Names.fun_name
+)
+ident(
+  int_ref nn "heptagon/transformations/inline.ml" 108 4683 4717 "heptagon/transformations/inline.ml" 108 4683 4719
+)
+"heptagon/transformations/inline.ml" 108 4683 4741 "heptagon/transformations/inline.ml" 108 4683 4757
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 109 4761 4767 "heptagon/transformations/inline.ml" 109 4761 4781
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/transformations/inline.ml" 110 4782 4790 "heptagon/transformations/inline.ml" 110 4782 4851
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"heptagon/transformations/inline.ml" 111 4852 4861 "heptagon/transformations/inline.ml" 111 4852 4892
+type(
+  Heptagon.iterator_type -> string
+)
+ident(
+  ext_ref Hept_printer.iterator_to_string
+)
+"heptagon/transformations/inline.ml" 111 4852 4893 "heptagon/transformations/inline.ml" 111 4852 4895
+type(
+  Heptagon.iterator_type
+)
+ident(
+  int_ref it "heptagon/transformations/inline.ml" 108 4683 4698 "heptagon/transformations/inline.ml" 108 4683 4700
+)
+"heptagon/transformations/inline.ml" 111 4852 4860 "heptagon/transformations/inline.ml" 111 4852 4896
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/inline.ml" 111 4852 4898 "heptagon/transformations/inline.ml" 111 4852 4906
+type(
+  Names.fun_name -> string
+)
+ident(
+  ext_ref Names.fullname
+)
+"heptagon/transformations/inline.ml" 111 4852 4907 "heptagon/transformations/inline.ml" 111 4852 4909
+type(
+  Names.fun_name
+)
+ident(
+  int_ref nn "heptagon/transformations/inline.ml" 108 4683 4717 "heptagon/transformations/inline.ml" 108 4683 4719
+)
+"heptagon/transformations/inline.ml" 111 4852 4897 "heptagon/transformations/inline.ml" 111 4852 4910
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/inline.ml" 109 4761 4767 "heptagon/transformations/inline.ml" 111 4852 4910
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 112 4912 4919 "heptagon/transformations/inline.ml" 112 4912 4922
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 112 4912 4925 "heptagon/transformations/inline.ml" 112 4912 4928
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+)
+"heptagon/transformations/inline.ml" 112 4912 4930 "heptagon/transformations/inline.ml" 112 4912 4937
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 106 4569 4586 "heptagon/transformations/inline.ml" 106 4569 4593
+)
+"heptagon/transformations/inline.ml" 112 4912 4939 "heptagon/transformations/inline.ml" 112 4912 4946
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 106 4569 4595 "heptagon/transformations/inline.ml" 106 4569 4602
+)
+"heptagon/transformations/inline.ml" 112 4912 4924 "heptagon/transformations/inline.ml" 112 4912 4947
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 112 4912 4918 "heptagon/transformations/inline.ml" 112 4912 4948
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 109 4761 4767 "heptagon/transformations/inline.ml" 112 4912 4948
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 114 4950 4976 "heptagon/transformations/inline.ml" 114 4950 4978
+type(
+  Names.fun_name
+)
+ident(
+  def nn "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 114 4950 4970 "heptagon/transformations/inline.ml" 114 4950 4978
+type(
+  Heptagon.op
+)
+"heptagon/transformations/inline.ml" 114 4950 4986 "heptagon/transformations/inline.ml" 114 4950 4988
+type(
+  Names.fun_name
+)
+ident(
+  def nn "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 114 4950 4981 "heptagon/transformations/inline.ml" 114 4950 4988
+type(
+  Heptagon.op
+)
+"heptagon/transformations/inline.ml" 114 4950 4969 "heptagon/transformations/inline.ml" 114 4950 4989
+type(
+  Heptagon.op
+)
+"heptagon/transformations/inline.ml" 115 4991 5014 "heptagon/transformations/inline.ml" 115 4991 5019
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 116 5051 5075 "heptagon/transformations/inline.ml" 116 5051 5082
+type(
+  bool
+)
+ident(
+  def inlined "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 114 4950 4960 "heptagon/transformations/inline.ml" 116 5051 5084
+type(
+  Heptagon.app
+)
+"heptagon/transformations/inline.ml" 116 5051 5088 "heptagon/transformations/inline.ml" 116 5051 5090
+ident(
+  def op "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 114 4950 4960 "heptagon/transformations/inline.ml" 116 5051 5090
+type(
+  Heptagon.app
+)
+"heptagon/transformations/inline.ml" 116 5051 5092 "heptagon/transformations/inline.ml" 116 5051 5096
+type(
+  Heptagon.exp list
+)
+ident(
+  def argl "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 116 5051 5098 "heptagon/transformations/inline.ml" 116 5051 5101
+type(
+  Heptagon.exp option
+)
+ident(
+  def rso "heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 163 6866 6873
+)
+"heptagon/transformations/inline.ml" 114 4950 4954 "heptagon/transformations/inline.ml" 116 5051 5102
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 116 5051 5115
+type(
+  bool
+)
+ident(
+  int_ref inlined "heptagon/transformations/inline.ml" 116 5051 5075 "heptagon/transformations/inline.ml" 116 5051 5082
+)
+"heptagon/transformations/inline.ml" 116 5051 5116 "heptagon/transformations/inline.ml" 116 5051 5118
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/transformations/inline.ml" 116 5051 5119 "heptagon/transformations/inline.ml" 116 5051 5132
+type(
+  Names.fun_name -> bool
+)
+ident(
+  int_ref to_be_inlined "heptagon/transformations/inline.ml" 39 2181 2185 "heptagon/transformations/inline.ml" 39 2181 2198
+)
+"heptagon/transformations/inline.ml" 116 5051 5133 "heptagon/transformations/inline.ml" 116 5051 5135
+type(
+  Names.fun_name
+)
+ident(
+  int_ref nn "heptagon/transformations/inline.ml" 114 4950 4976 "heptagon/transformations/inline.ml" 114 4950 4978
+)
+"heptagon/transformations/inline.ml" 116 5051 5119 "heptagon/transformations/inline.ml" 116 5051 5135
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 116 5051 5108 "heptagon/transformations/inline.ml" 116 5051 5135
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 118 5153 5163 "heptagon/transformations/inline.ml" 118 5153 5172
+type(
+  Heptagon.eq -> Heptagon.eq
+)
+ident(
+  def add_reset "heptagon/transformations/inline.ml" 122 5278 5284 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 118 5153 5173 "heptagon/transformations/inline.ml" 118 5153 5175
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/inline.ml" 118 5153 5178 "heptagon/transformations/inline.ml" 120 5214 5273
+)
+"heptagon/transformations/inline.ml" 118 5153 5184 "heptagon/transformations/inline.ml" 118 5153 5187
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref rso "heptagon/transformations/inline.ml" 116 5051 5098 "heptagon/transformations/inline.ml" 116 5051 5101
+)
+"heptagon/transformations/inline.ml" 119 5193 5203 "heptagon/transformations/inline.ml" 119 5193 5207
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/inline.ml" 119 5193 5211 "heptagon/transformations/inline.ml" 119 5193 5213
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/inline.ml" 118 5153 5173 "heptagon/transformations/inline.ml" 118 5153 5175
+)
+"heptagon/transformations/inline.ml" 120 5214 5229 "heptagon/transformations/inline.ml" 120 5214 5230
+type(
+  Heptagon.exp
+)
+ident(
+  def x "heptagon/transformations/inline.ml" 120 5214 5234 "heptagon/transformations/inline.ml" 120 5214 5273
+)
+"heptagon/transformations/inline.ml" 120 5214 5224 "heptagon/transformations/inline.ml" 120 5214 5230
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/inline.ml" 120 5214 5234 "heptagon/transformations/inline.ml" 120 5214 5245
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/inline.ml" 120 5214 5255 "heptagon/transformations/inline.ml" 120 5214 5263
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/inline.ml" 120 5214 5265 "heptagon/transformations/inline.ml" 120 5214 5267
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/inline.ml" 118 5153 5173 "heptagon/transformations/inline.ml" 118 5153 5175
+)
+"heptagon/transformations/inline.ml" 120 5214 5264 "heptagon/transformations/inline.ml" 120 5214 5268
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 120 5214 5255 "heptagon/transformations/inline.ml" 120 5214 5268
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 120 5214 5270 "heptagon/transformations/inline.ml" 120 5214 5271
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref x "heptagon/transformations/inline.ml" 120 5214 5229 "heptagon/transformations/inline.ml" 120 5214 5230
+)
+"heptagon/transformations/inline.ml" 120 5214 5246 "heptagon/transformations/inline.ml" 120 5214 5273
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/inline.ml" 120 5214 5234 "heptagon/transformations/inline.ml" 120 5214 5273
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/inline.ml" 118 5153 5178 "heptagon/transformations/inline.ml" 120 5214 5273
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/inline.ml" 122 5278 5288 "heptagon/transformations/inline.ml" 122 5278 5290
+type(
+  Heptagon.node_dec
+)
+ident(
+  def ni "heptagon/transformations/inline.ml" 124 5334 5340 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 122 5278 5293 "heptagon/transformations/inline.ml" 122 5278 5307
+type(
+  Heptagon.node_dec -> Heptagon.node_dec
+)
+ident(
+  int_ref mk_unique_node "heptagon/transformations/inline.ml" 45 2343 2347 "heptagon/transformations/inline.ml" 45 2343 2361
+)
+"heptagon/transformations/inline.ml" 122 5278 5309 "heptagon/transformations/inline.ml" 122 5278 5321
+type(
+  Names.QualEnv.key -> Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"heptagon/transformations/inline.ml" 122 5278 5322 "heptagon/transformations/inline.ml" 122 5278 5324
+type(
+  Names.fun_name
+)
+ident(
+  int_ref nn "heptagon/transformations/inline.ml" 114 4950 4976 "heptagon/transformations/inline.ml" 114 4950 4978
+)
+"heptagon/transformations/inline.ml" 122 5278 5325 "heptagon/transformations/inline.ml" 122 5278 5328
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+)
+"heptagon/transformations/inline.ml" 122 5278 5308 "heptagon/transformations/inline.ml" 122 5278 5329
+call(
+  stack
+)
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 122 5278 5293 "heptagon/transformations/inline.ml" 122 5278 5329
+call(
+  stack
+)
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 124 5334 5344 "heptagon/transformations/inline.ml" 124 5334 5356
+type(
+  (Names.qualname * Types.static_exp) list
+)
+ident(
+  def static_subst "heptagon/transformations/inline.ml" 129 5507 5513 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 125 5359 5367 "heptagon/transformations/inline.ml" 125 5359 5379
+type(
+  Names.qualname list ->
+  Types.static_exp list -> (Names.qualname * Types.static_exp) list
+)
+ident(
+  ext_ref List.combine
+)
+"heptagon/transformations/inline.ml" 125 5359 5381 "heptagon/transformations/inline.ml" 125 5359 5389
+type(
+  (Signature.param -> Names.qualname) ->
+  Signature.param list -> Names.qualname list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/inline.ml" 125 5359 5395 "heptagon/transformations/inline.ml" 125 5359 5396
+type(
+  Signature.param
+)
+ident(
+  def p "heptagon/transformations/inline.ml" 125 5359 5400 "heptagon/transformations/inline.ml" 125 5359 5419
+)
+"heptagon/transformations/inline.ml" 125 5359 5401 "heptagon/transformations/inline.ml" 125 5359 5409
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Names.local_qn
+)
+"heptagon/transformations/inline.ml" 125 5359 5410 "heptagon/transformations/inline.ml" 125 5359 5411
+type(
+  Signature.param
+)
+ident(
+  int_ref p "heptagon/transformations/inline.ml" 125 5359 5395 "heptagon/transformations/inline.ml" 125 5359 5396
+)
+"heptagon/transformations/inline.ml" 125 5359 5410 "heptagon/transformations/inline.ml" 125 5359 5418
+type(
+  Names.name
+)
+"heptagon/transformations/inline.ml" 125 5359 5400 "heptagon/transformations/inline.ml" 125 5359 5419
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/inline.ml" 125 5359 5390 "heptagon/transformations/inline.ml" 125 5359 5420
+type(
+  Signature.param -> Names.qualname
+)
+"heptagon/transformations/inline.ml" 125 5359 5421 "heptagon/transformations/inline.ml" 125 5359 5423
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 122 5278 5288 "heptagon/transformations/inline.ml" 122 5278 5290
+)
+"heptagon/transformations/inline.ml" 125 5359 5421 "heptagon/transformations/inline.ml" 125 5359 5432
+type(
+  Signature.param list
+)
+"heptagon/transformations/inline.ml" 125 5359 5380 "heptagon/transformations/inline.ml" 125 5359 5433
+call(
+  stack
+)
+type(
+  Names.qualname list
+)
+"heptagon/transformations/inline.ml" 126 5434 5444 "heptagon/transformations/inline.ml" 126 5434 5446
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/inline.ml" 114 4950 4960 "heptagon/transformations/inline.ml" 116 5051 5090
+)
+"heptagon/transformations/inline.ml" 126 5434 5444 "heptagon/transformations/inline.ml" 126 5434 5455
+type(
+  Types.static_exp list
+)
+"heptagon/transformations/inline.ml" 125 5359 5367 "heptagon/transformations/inline.ml" 126 5434 5455
+call(
+  stack
+)
+type(
+  (Names.qualname * Types.static_exp) list
+)
+"heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+type(
+  Heptagon.node_dec
+)
+ident(
+  def ni "heptagon/transformations/inline.ml" 142 5995 6001 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 130 5522 5534 "heptagon/transformations/inline.ml" 130 5522 5555
+type(
+  unit Global_mapfold.global_it_funs ->
+  unit -> Types.static_exp -> Types.static_exp * unit
+)
+ident(
+  def apply_sexp_subst_sexp "heptagon/transformations/inline.ml" 135 5762 5770 "heptagon/transformations/inline.ml" 140 5944 5990
+)
+"heptagon/transformations/inline.ml" 130 5522 5556 "heptagon/transformations/inline.ml" 130 5522 5560
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 130 5522 5561 "heptagon/transformations/inline.ml" 133 5702 5757
+)
+"heptagon/transformations/inline.ml" 130 5522 5561 "heptagon/transformations/inline.ml" 130 5522 5563
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 130 5522 5564 "heptagon/transformations/inline.ml" 130 5522 5568
+type(
+  Types.static_exp
+)
+ident(
+  def sexp "heptagon/transformations/inline.ml" 130 5522 5571 "heptagon/transformations/inline.ml" 133 5702 5757
+)
+"heptagon/transformations/inline.ml" 130 5522 5577 "heptagon/transformations/inline.ml" 130 5522 5581
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sexp "heptagon/transformations/inline.ml" 130 5522 5564 "heptagon/transformations/inline.ml" 130 5522 5568
+)
+"heptagon/transformations/inline.ml" 130 5522 5577 "heptagon/transformations/inline.ml" 130 5522 5589
+type(
+  Types.static_exp_desc
+)
+"heptagon/transformations/inline.ml" 131 5595 5612 "heptagon/transformations/inline.ml" 131 5595 5613
+type(
+  Names.constant_name
+)
+ident(
+  def s "heptagon/transformations/inline.ml" 131 5595 5617 "heptagon/transformations/inline.ml" 132 5649 5701
+)
+"heptagon/transformations/inline.ml" 131 5595 5607 "heptagon/transformations/inline.ml" 131 5595 5613
+type(
+  Types.static_exp_desc
+)
+"heptagon/transformations/inline.ml" 131 5595 5623 "heptagon/transformations/inline.ml" 131 5595 5633
+type(
+  Names.constant_name ->
+  (Names.constant_name * Types.static_exp) list -> Types.static_exp
+)
+ident(
+  ext_ref List.assoc
+)
+"heptagon/transformations/inline.ml" 131 5595 5634 "heptagon/transformations/inline.ml" 131 5595 5635
+type(
+  Names.constant_name
+)
+ident(
+  int_ref s "heptagon/transformations/inline.ml" 131 5595 5612 "heptagon/transformations/inline.ml" 131 5595 5613
+)
+"heptagon/transformations/inline.ml" 131 5595 5636 "heptagon/transformations/inline.ml" 131 5595 5648
+type(
+  (Names.constant_name * Types.static_exp) list
+)
+ident(
+  int_ref static_subst "heptagon/transformations/inline.ml" 124 5334 5344 "heptagon/transformations/inline.ml" 124 5334 5356
+)
+"heptagon/transformations/inline.ml" 131 5595 5623 "heptagon/transformations/inline.ml" 131 5595 5648
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/inline.ml" 132 5649 5678 "heptagon/transformations/inline.ml" 132 5649 5687
+type(
+  exn
+)
+"heptagon/transformations/inline.ml" 132 5649 5691 "heptagon/transformations/inline.ml" 132 5649 5695
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sexp "heptagon/transformations/inline.ml" 130 5522 5564 "heptagon/transformations/inline.ml" 130 5522 5568
+)
+"heptagon/transformations/inline.ml" 131 5595 5618 "heptagon/transformations/inline.ml" 132 5649 5696
+type(
+  Types.static_exp
+)
+"heptagon/transformations/inline.ml" 132 5649 5698 "heptagon/transformations/inline.ml" 132 5649 5700
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 131 5595 5617 "heptagon/transformations/inline.ml" 132 5649 5701
+type(
+  Types.static_exp * unit
+)
+"heptagon/transformations/inline.ml" 133 5702 5714 "heptagon/transformations/inline.ml" 133 5702 5715
+type(
+  Types.static_exp_desc
+)
+"heptagon/transformations/inline.ml" 133 5702 5719 "heptagon/transformations/inline.ml" 133 5702 5744
+type(
+  unit Global_mapfold.global_it_funs ->
+  unit -> Types.static_exp -> Types.static_exp * unit
+)
+ident(
+  ext_ref Global_mapfold.static_exp
+)
+"heptagon/transformations/inline.ml" 133 5702 5745 "heptagon/transformations/inline.ml" 133 5702 5749
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 130 5522 5556 "heptagon/transformations/inline.ml" 130 5522 5560
+)
+"heptagon/transformations/inline.ml" 133 5702 5750 "heptagon/transformations/inline.ml" 133 5702 5752
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 133 5702 5753 "heptagon/transformations/inline.ml" 133 5702 5757
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sexp "heptagon/transformations/inline.ml" 130 5522 5564 "heptagon/transformations/inline.ml" 130 5522 5568
+)
+"heptagon/transformations/inline.ml" 133 5702 5719 "heptagon/transformations/inline.ml" 133 5702 5757
+call(
+  tail
+)
+type(
+  Types.static_exp * unit
+)
+"heptagon/transformations/inline.ml" 130 5522 5571 "heptagon/transformations/inline.ml" 133 5702 5757
+type(
+  Types.static_exp * unit
+)
+"heptagon/transformations/inline.ml" 135 5762 5774 "heptagon/transformations/inline.ml" 135 5762 5778
+type(
+  unit Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 140 5944 5952 "heptagon/transformations/inline.ml" 140 5944 5990
+)
+"heptagon/transformations/inline.ml" 136 5781 5793 "heptagon/transformations/inline.ml" 136 5781 5801
+type(
+  unit Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/inline.ml" 137 5821 5837 "heptagon/transformations/inline.ml" 137 5821 5860
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"heptagon/transformations/inline.ml" 138 5894 5912 "heptagon/transformations/inline.ml" 138 5894 5933
+type(
+  unit Global_mapfold.global_it_funs ->
+  unit -> Types.static_exp -> Types.static_exp * unit
+)
+ident(
+  int_ref apply_sexp_subst_sexp "heptagon/transformations/inline.ml" 130 5522 5534 "heptagon/transformations/inline.ml" 130 5522 5555
+)
+"heptagon/transformations/inline.ml" 137 5821 5835 "heptagon/transformations/inline.ml" 138 5894 5936
+type(
+  unit Global_mapfold.global_it_funs
+)
+"heptagon/transformations/inline.ml" 136 5781 5791 "heptagon/transformations/inline.ml" 138 5894 5939
+type(
+  unit Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/inline.ml" 140 5944 5952 "heptagon/transformations/inline.ml" 140 5944 5955
+type(
+  Heptagon.node_dec * unit -> Heptagon.node_dec
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"heptagon/transformations/inline.ml" 140 5944 5957 "heptagon/transformations/inline.ml" 140 5944 5978
+type(
+  unit Hept_mapfold.hept_it_funs ->
+  unit -> Heptagon.node_dec -> Heptagon.node_dec * unit
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/transformations/inline.ml" 140 5944 5979 "heptagon/transformations/inline.ml" 140 5944 5983
+type(
+  unit Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 135 5762 5774 "heptagon/transformations/inline.ml" 135 5762 5778
+)
+"heptagon/transformations/inline.ml" 140 5944 5984 "heptagon/transformations/inline.ml" 140 5944 5986
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 140 5944 5987 "heptagon/transformations/inline.ml" 140 5944 5989
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 122 5278 5288 "heptagon/transformations/inline.ml" 122 5278 5290
+)
+"heptagon/transformations/inline.ml" 140 5944 5956 "heptagon/transformations/inline.ml" 140 5944 5990
+call(
+  stack
+)
+type(
+  Heptagon.node_dec * unit
+)
+"heptagon/transformations/inline.ml" 140 5944 5952 "heptagon/transformations/inline.ml" 140 5944 5990
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 135 5762 5770 "heptagon/transformations/inline.ml" 140 5944 5990
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 130 5522 5530 "heptagon/transformations/inline.ml" 140 5944 5990
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 142 5995 6005 "heptagon/transformations/inline.ml" 142 5995 6017
+type(
+  Heptagon.var_dec -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  def mk_input_equ "heptagon/transformations/inline.ml" 143 6070 6076 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 142 5995 6018 "heptagon/transformations/inline.ml" 142 5995 6020
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 142 5995 6021 "heptagon/transformations/inline.ml" 142 5995 6066
+)
+"heptagon/transformations/inline.ml" 142 5995 6021 "heptagon/transformations/inline.ml" 142 5995 6022
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/inline.ml" 142 5995 6025 "heptagon/transformations/inline.ml" 142 5995 6066
+)
+"heptagon/transformations/inline.ml" 142 5995 6025 "heptagon/transformations/inline.ml" 142 5995 6036
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/inline.ml" 142 5995 6051 "heptagon/transformations/inline.ml" 142 5995 6053
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 142 5995 6018 "heptagon/transformations/inline.ml" 142 5995 6020
+)
+"heptagon/transformations/inline.ml" 142 5995 6051 "heptagon/transformations/inline.ml" 142 5995 6061
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 142 5995 6043 "heptagon/transformations/inline.ml" 142 5995 6061
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/inline.ml" 142 5995 6063 "heptagon/transformations/inline.ml" 142 5995 6064
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/inline.ml" 142 5995 6021 "heptagon/transformations/inline.ml" 142 5995 6022
+)
+"heptagon/transformations/inline.ml" 142 5995 6037 "heptagon/transformations/inline.ml" 142 5995 6066
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/inline.ml" 142 5995 6025 "heptagon/transformations/inline.ml" 142 5995 6066
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/inline.ml" 143 6070 6080 "heptagon/transformations/inline.ml" 143 6070 6093
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  def mk_output_exp "heptagon/transformations/inline.ml" 145 6164 6170 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 143 6070 6094 "heptagon/transformations/inline.ml" 143 6070 6096
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/inline.ml" 143 6070 6099 "heptagon/transformations/inline.ml" 143 6070 6159
+)
+"heptagon/transformations/inline.ml" 143 6070 6099 "heptagon/transformations/inline.ml" 143 6070 6105
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/inline.ml" 143 6070 6112 "heptagon/transformations/inline.ml" 143 6070 6114
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 143 6070 6094 "heptagon/transformations/inline.ml" 143 6070 6096
+)
+"heptagon/transformations/inline.ml" 143 6070 6112 "heptagon/transformations/inline.ml" 143 6070 6122
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/inline.ml" 143 6070 6106 "heptagon/transformations/inline.ml" 143 6070 6123
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 143 6070 6124 "heptagon/transformations/inline.ml" 143 6070 6126
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 143 6070 6094 "heptagon/transformations/inline.ml" 143 6070 6096
+)
+"heptagon/transformations/inline.ml" 143 6070 6124 "heptagon/transformations/inline.ml" 143 6070 6133
+type(
+  Types.ty
+)
+"heptagon/transformations/inline.ml" 143 6070 6145 "heptagon/transformations/inline.ml" 143 6070 6147
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/inline.ml" 143 6070 6094 "heptagon/transformations/inline.ml" 143 6070 6096
+)
+"heptagon/transformations/inline.ml" 143 6070 6145 "heptagon/transformations/inline.ml" 143 6070 6159
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/inline.ml" 143 6070 6099 "heptagon/transformations/inline.ml" 143 6070 6159
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/inline.ml" 145 6164 6174 "heptagon/transformations/inline.ml" 145 6164 6181
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 152 6435 6441 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 145 6164 6184 "heptagon/transformations/inline.ml" 145 6164 6186
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 145 6164 6184 "heptagon/transformations/inline.ml" 145 6164 6194
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 145 6164 6195 "heptagon/transformations/inline.ml" 145 6164 6196
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 145 6164 6197 "heptagon/transformations/inline.ml" 145 6164 6199
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 145 6164 6197 "heptagon/transformations/inline.ml" 145 6164 6207
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 145 6164 6197 "heptagon/transformations/inline.ml" 145 6164 6215
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 145 6164 6216 "heptagon/transformations/inline.ml" 145 6164 6217
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 145 6164 6218 "heptagon/transformations/inline.ml" 145 6164 6220
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 145 6164 6218 "heptagon/transformations/inline.ml" 145 6164 6229
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 145 6164 6230 "heptagon/transformations/inline.ml" 145 6164 6231
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 145 6164 6232 "heptagon/transformations/inline.ml" 145 6164 6239
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 106 4569 4586 "heptagon/transformations/inline.ml" 106 4569 4593
+)
+"heptagon/transformations/inline.ml" 145 6164 6218 "heptagon/transformations/inline.ml" 145 6164 6239
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 145 6164 6197 "heptagon/transformations/inline.ml" 145 6164 6239
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 145 6164 6184 "heptagon/transformations/inline.ml" 145 6164 6239
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 146 6240 6250 "heptagon/transformations/inline.ml" 146 6240 6257
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 152 6435 6441 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 147 6260 6268 "heptagon/transformations/inline.ml" 147 6260 6277
+type(
+  (Heptagon.var_dec -> Heptagon.exp -> Heptagon.eq) ->
+  Heptagon.var_dec list -> Heptagon.exp list -> Heptagon.eq list
+)
+ident(
+  ext_ref List.map2
+)
+"heptagon/transformations/inline.ml" 147 6260 6278 "heptagon/transformations/inline.ml" 147 6260 6290
+type(
+  Heptagon.var_dec -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  int_ref mk_input_equ "heptagon/transformations/inline.ml" 142 5995 6005 "heptagon/transformations/inline.ml" 142 5995 6017
+)
+"heptagon/transformations/inline.ml" 147 6260 6291 "heptagon/transformations/inline.ml" 147 6260 6293
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 147 6260 6291 "heptagon/transformations/inline.ml" 147 6260 6301
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 147 6260 6302 "heptagon/transformations/inline.ml" 147 6260 6306
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref argl "heptagon/transformations/inline.ml" 116 5051 5092 "heptagon/transformations/inline.ml" 116 5051 5096
+)
+"heptagon/transformations/inline.ml" 147 6260 6268 "heptagon/transformations/inline.ml" 147 6260 6306
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 148 6307 6315 "heptagon/transformations/inline.ml" 148 6307 6316
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 148 6307 6317 "heptagon/transformations/inline.ml" 148 6307 6325
+type(
+  (Heptagon.eq -> Heptagon.eq) -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/inline.ml" 148 6307 6326 "heptagon/transformations/inline.ml" 148 6307 6335
+type(
+  Heptagon.eq -> Heptagon.eq
+)
+ident(
+  int_ref add_reset "heptagon/transformations/inline.ml" 118 5153 5163 "heptagon/transformations/inline.ml" 118 5153 5172
+)
+"heptagon/transformations/inline.ml" 148 6307 6336 "heptagon/transformations/inline.ml" 148 6307 6338
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 148 6307 6336 "heptagon/transformations/inline.ml" 148 6307 6346
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 148 6307 6336 "heptagon/transformations/inline.ml" 148 6307 6353
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 148 6307 6317 "heptagon/transformations/inline.ml" 148 6307 6353
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 149 6354 6362 "heptagon/transformations/inline.ml" 149 6354 6363
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 149 6354 6364 "heptagon/transformations/inline.ml" 149 6354 6371
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 106 4569 4595 "heptagon/transformations/inline.ml" 106 4569 4602
+)
+"heptagon/transformations/inline.ml" 148 6307 6317 "heptagon/transformations/inline.ml" 149 6354 6371
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 147 6260 6268 "heptagon/transformations/inline.ml" 149 6354 6371
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 152 6435 6445 "heptagon/transformations/inline.ml" 152 6435 6450
+type(
+  Heptagon.exp
+)
+ident(
+  def res_e "heptagon/transformations/inline.ml" 158 6705 6711 "heptagon/transformations/inline.ml" 158 6705 6743
+)
+"heptagon/transformations/inline.ml" 152 6435 6459 "heptagon/transformations/inline.ml" 152 6435 6461
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 152 6435 6459 "heptagon/transformations/inline.ml" 152 6435 6470
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 153 6476 6487 "heptagon/transformations/inline.ml" 153 6476 6488
+type(
+  Heptagon.var_dec
+)
+ident(
+  def o "heptagon/transformations/inline.ml" 153 6476 6493 "heptagon/transformations/inline.ml" 153 6476 6508
+)
+"heptagon/transformations/inline.ml" 153 6476 6486 "heptagon/transformations/inline.ml" 153 6476 6489
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 153 6476 6493 "heptagon/transformations/inline.ml" 153 6476 6506
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref mk_output_exp "heptagon/transformations/inline.ml" 143 6070 6080 "heptagon/transformations/inline.ml" 143 6070 6093
+)
+"heptagon/transformations/inline.ml" 153 6476 6507 "heptagon/transformations/inline.ml" 153 6476 6508
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref o "heptagon/transformations/inline.ml" 153 6476 6487 "heptagon/transformations/inline.ml" 153 6476 6488
+)
+"heptagon/transformations/inline.ml" 153 6476 6493 "heptagon/transformations/inline.ml" 153 6476 6508
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/inline.ml" 154 6509 6519 "heptagon/transformations/inline.ml" 154 6509 6520
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 155 6524 6536 "heptagon/transformations/inline.ml" 155 6524 6542
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/inline.ml" 155 6524 6552 "heptagon/transformations/inline.ml" 155 6524 6554
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/inline.ml" 114 4950 4960 "heptagon/transformations/inline.ml" 116 5051 5090
+)
+"heptagon/transformations/inline.ml" 155 6524 6567 "heptagon/transformations/inline.ml" 155 6524 6573
+type(
+  Heptagon.op
+)
+"heptagon/transformations/inline.ml" 155 6524 6550 "heptagon/transformations/inline.ml" 155 6524 6576
+type(
+  Heptagon.app
+)
+"heptagon/transformations/inline.ml" 156 6578 6604 "heptagon/transformations/inline.ml" 156 6578 6612
+type(
+  (Heptagon.var_dec -> Heptagon.exp) ->
+  Heptagon.var_dec list -> Heptagon.exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/inline.ml" 156 6578 6613 "heptagon/transformations/inline.ml" 156 6578 6626
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref mk_output_exp "heptagon/transformations/inline.ml" 143 6070 6080 "heptagon/transformations/inline.ml" 143 6070 6093
+)
+"heptagon/transformations/inline.ml" 156 6578 6627 "heptagon/transformations/inline.ml" 156 6578 6629
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref ni "heptagon/transformations/inline.ml" 129 5507 5517 "heptagon/transformations/inline.ml" 129 5507 5519
+)
+"heptagon/transformations/inline.ml" 156 6578 6627 "heptagon/transformations/inline.ml" 156 6578 6638
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 156 6578 6604 "heptagon/transformations/inline.ml" 156 6578 6638
+call(
+  stack
+)
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/inline.ml" 156 6578 6640 "heptagon/transformations/inline.ml" 156 6578 6644
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/inline.ml" 155 6524 6543 "heptagon/transformations/inline.ml" 156 6578 6646
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 156 6578 6647 "heptagon/transformations/inline.ml" 156 6578 6650
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 156 6578 6647 "heptagon/transformations/inline.ml" 156 6578 6655
+type(
+  Types.ty
+)
+"heptagon/transformations/inline.ml" 157 6656 6686 "heptagon/transformations/inline.ml" 157 6656 6689
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 157 6656 6686 "heptagon/transformations/inline.ml" 157 6656 6701
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/inline.ml" 155 6524 6536 "heptagon/transformations/inline.ml" 157 6656 6701
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/inline.ml" 152 6435 6453 "heptagon/transformations/inline.ml" 157 6656 6701
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/inline.ml" 158 6705 6712 "heptagon/transformations/inline.ml" 158 6705 6717
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref res_e "heptagon/transformations/inline.ml" 152 6435 6445 "heptagon/transformations/inline.ml" 152 6435 6450
+)
+"heptagon/transformations/inline.ml" 158 6705 6720 "heptagon/transformations/inline.ml" 158 6705 6723
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+)
+"heptagon/transformations/inline.ml" 158 6705 6725 "heptagon/transformations/inline.ml" 158 6705 6732
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 145 6164 6174 "heptagon/transformations/inline.ml" 145 6164 6181
+)
+"heptagon/transformations/inline.ml" 158 6705 6734 "heptagon/transformations/inline.ml" 158 6705 6741
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 146 6240 6250 "heptagon/transformations/inline.ml" 146 6240 6257
+)
+"heptagon/transformations/inline.ml" 158 6705 6719 "heptagon/transformations/inline.ml" 158 6705 6742
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 158 6705 6711 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 152 6435 6441 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 145 6164 6170 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 143 6070 6076 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 142 5995 6001 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 129 5507 5513 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 124 5334 5340 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 122 5278 5284 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 118 5153 5159 "heptagon/transformations/inline.ml" 158 6705 6743
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 161 6754 6762 "heptagon/transformations/inline.ml" 161 6754 6771
+type(
+  exn
+)
+"heptagon/transformations/inline.ml" 161 6754 6775 "heptagon/transformations/inline.ml" 161 6754 6789
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/transformations/inline.ml" 161 6754 6790 "heptagon/transformations/inline.ml" 161 6754 6813
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"heptagon/transformations/inline.ml" 161 6754 6815 "heptagon/transformations/inline.ml" 161 6754 6823
+type(
+  Names.fun_name -> string
+)
+ident(
+  ext_ref Names.fullname
+)
+"heptagon/transformations/inline.ml" 161 6754 6824 "heptagon/transformations/inline.ml" 161 6754 6826
+type(
+  Names.fun_name
+)
+ident(
+  int_ref nn "heptagon/transformations/inline.ml" 114 4950 4976 "heptagon/transformations/inline.ml" 114 4950 4978
+)
+"heptagon/transformations/inline.ml" 161 6754 6814 "heptagon/transformations/inline.ml" 161 6754 6827
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/inline.ml" 161 6754 6775 "heptagon/transformations/inline.ml" 161 6754 6827
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 162 6829 6837 "heptagon/transformations/inline.ml" 162 6829 6840
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 162 6829 6843 "heptagon/transformations/inline.ml" 162 6829 6846
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+)
+"heptagon/transformations/inline.ml" 162 6829 6848 "heptagon/transformations/inline.ml" 162 6829 6855
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 106 4569 4586 "heptagon/transformations/inline.ml" 106 4569 4593
+)
+"heptagon/transformations/inline.ml" 162 6829 6857 "heptagon/transformations/inline.ml" 162 6829 6864
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 106 4569 4595 "heptagon/transformations/inline.ml" 106 4569 4602
+)
+"heptagon/transformations/inline.ml" 162 6829 6842 "heptagon/transformations/inline.ml" 162 6829 6865
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 162 6829 6837 "heptagon/transformations/inline.ml" 162 6829 6865
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 161 6754 6775 "heptagon/transformations/inline.ml" 162 6829 6865
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 117 5139 5143 "heptagon/transformations/inline.ml" 163 6866 6873
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 164 6874 6878 "heptagon/transformations/inline.ml" 164 6874 6879
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/inline.ml" 164 6874 6883 "heptagon/transformations/inline.ml" 164 6874 6886
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 106 4569 4575 "heptagon/transformations/inline.ml" 106 4569 4578
+)
+"heptagon/transformations/inline.ml" 164 6874 6889 "heptagon/transformations/inline.ml" 164 6874 6892
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 106 4569 4581 "heptagon/transformations/inline.ml" 106 4569 4584
+)
+"heptagon/transformations/inline.ml" 164 6874 6894 "heptagon/transformations/inline.ml" 164 6874 6901
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 106 4569 4586 "heptagon/transformations/inline.ml" 106 4569 4593
+)
+"heptagon/transformations/inline.ml" 164 6874 6903 "heptagon/transformations/inline.ml" 164 6874 6910
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 106 4569 4595 "heptagon/transformations/inline.ml" 106 4569 4602
+)
+"heptagon/transformations/inline.ml" 164 6874 6888 "heptagon/transformations/inline.ml" 164 6874 6911
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 164 6874 6883 "heptagon/transformations/inline.ml" 164 6874 6911
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 107 4659 4661 "heptagon/transformations/inline.ml" 164 6874 6911
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 106 4569 4571 "heptagon/transformations/inline.ml" 164 6874 6911
+type(
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 166 6913 6917 "heptagon/transformations/inline.ml" 166 6913 6922
+type(
+  ('a * Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  'a * 'b * 'c -> Heptagon.block -> Heptagon.block * ('a * 'b * 'c)
+)
+ident(
+  def block "heptagon/transformations/inline.ml" 172 7160 7160 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 166 6913 6923 "heptagon/transformations/inline.ml" 166 6913 6927
+type(
+  ('a * Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 166 6913 6928 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 166 6913 6929 "heptagon/transformations/inline.ml" 166 6913 6932
+type(
+  'a
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 166 6913 6952 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 166 6913 6934 "heptagon/transformations/inline.ml" 166 6913 6941
+type(
+  'b
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 166 6913 6952 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 166 6913 6943 "heptagon/transformations/inline.ml" 166 6913 6950
+type(
+  'c
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 166 6913 6952 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 166 6913 6928 "heptagon/transformations/inline.ml" 166 6913 6951
+type(
+  'a * 'b * 'c
+)
+"heptagon/transformations/inline.ml" 166 6913 6952 "heptagon/transformations/inline.ml" 166 6913 6955
+type(
+  Heptagon.block
+)
+ident(
+  def blk "heptagon/transformations/inline.ml" 167 6958 6960 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 167 6958 6965 "heptagon/transformations/inline.ml" 167 6958 6968
+type(
+  Heptagon.block
+)
+ident(
+  def blk "heptagon/transformations/inline.ml" 169 7048 7050 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 167 6958 6971 "heptagon/transformations/inline.ml" 167 6958 6974
+type(
+  'a
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 169 7048 7050 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 167 6958 6976 "heptagon/transformations/inline.ml" 167 6958 6984
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars' "heptagon/transformations/inline.ml" 169 7048 7050 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 167 6958 6986 "heptagon/transformations/inline.ml" 167 6958 6994
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs' "heptagon/transformations/inline.ml" 169 7048 7050 "heptagon/transformations/inline.ml" 170 7131 7158
+)
+"heptagon/transformations/inline.ml" 167 6958 6970 "heptagon/transformations/inline.ml" 167 6958 6995
+type(
+  'a * Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 167 6958 6964 "heptagon/transformations/inline.ml" 167 6958 6996
+type(
+  Heptagon.block * ('a * Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 168 6999 7003 "heptagon/transformations/inline.ml" 168 6999 7021
+type(
+  ('a * Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  'a * Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.block ->
+  Heptagon.block * ('a * Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/inline.ml" 168 6999 7022 "heptagon/transformations/inline.ml" 168 6999 7026
+type(
+  ('a * Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 166 6913 6923 "heptagon/transformations/inline.ml" 166 6913 6927
+)
+"heptagon/transformations/inline.ml" 168 6999 7028 "heptagon/transformations/inline.ml" 168 6999 7031
+type(
+  'a
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 166 6913 6929 "heptagon/transformations/inline.ml" 166 6913 6932
+)
+"heptagon/transformations/inline.ml" 168 6999 7033 "heptagon/transformations/inline.ml" 168 6999 7035
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 168 6999 7037 "heptagon/transformations/inline.ml" 168 6999 7039
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 168 6999 7027 "heptagon/transformations/inline.ml" 168 6999 7040
+type(
+  'a * Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 168 6999 7041 "heptagon/transformations/inline.ml" 168 6999 7044
+type(
+  Heptagon.block
+)
+ident(
+  int_ref blk "heptagon/transformations/inline.ml" 166 6913 6952 "heptagon/transformations/inline.ml" 166 6913 6955
+)
+"heptagon/transformations/inline.ml" 168 6999 7003 "heptagon/transformations/inline.ml" 168 6999 7044
+call(
+  stack
+)
+type(
+  Heptagon.block * ('a * Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 169 7048 7053 "heptagon/transformations/inline.ml" 169 7048 7056
+type(
+  Heptagon.block
+)
+ident(
+  int_ref blk "heptagon/transformations/inline.ml" 167 6958 6965 "heptagon/transformations/inline.ml" 167 6958 6968
+)
+"heptagon/transformations/inline.ml" 169 7048 7072 "heptagon/transformations/inline.ml" 169 7048 7080
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars' "heptagon/transformations/inline.ml" 167 6958 6976 "heptagon/transformations/inline.ml" 167 6958 6984
+)
+"heptagon/transformations/inline.ml" 169 7048 7081 "heptagon/transformations/inline.ml" 169 7048 7082
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 169 7048 7083 "heptagon/transformations/inline.ml" 169 7048 7086
+type(
+  Heptagon.block
+)
+ident(
+  int_ref blk "heptagon/transformations/inline.ml" 167 6958 6965 "heptagon/transformations/inline.ml" 167 6958 6968
+)
+"heptagon/transformations/inline.ml" 169 7048 7083 "heptagon/transformations/inline.ml" 169 7048 7094
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 169 7048 7072 "heptagon/transformations/inline.ml" 169 7048 7094
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 169 7048 7105 "heptagon/transformations/inline.ml" 169 7048 7113
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs' "heptagon/transformations/inline.ml" 167 6958 6986 "heptagon/transformations/inline.ml" 167 6958 6994
+)
+"heptagon/transformations/inline.ml" 169 7048 7114 "heptagon/transformations/inline.ml" 169 7048 7115
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 169 7048 7116 "heptagon/transformations/inline.ml" 169 7048 7119
+type(
+  Heptagon.block
+)
+ident(
+  int_ref blk "heptagon/transformations/inline.ml" 167 6958 6965 "heptagon/transformations/inline.ml" 167 6958 6968
+)
+"heptagon/transformations/inline.ml" 169 7048 7116 "heptagon/transformations/inline.ml" 169 7048 7126
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 169 7048 7105 "heptagon/transformations/inline.ml" 169 7048 7126
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 169 7048 7051 "heptagon/transformations/inline.ml" 169 7048 7129
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 170 7131 7135 "heptagon/transformations/inline.ml" 170 7131 7138
+type(
+  'a
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 167 6958 6971 "heptagon/transformations/inline.ml" 167 6958 6974
+)
+"heptagon/transformations/inline.ml" 170 7131 7140 "heptagon/transformations/inline.ml" 170 7131 7147
+type(
+  'b
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 166 6913 6934 "heptagon/transformations/inline.ml" 166 6913 6941
+)
+"heptagon/transformations/inline.ml" 170 7131 7149 "heptagon/transformations/inline.ml" 170 7131 7156
+type(
+  'c
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 166 6913 6943 "heptagon/transformations/inline.ml" 166 6913 6950
+)
+"heptagon/transformations/inline.ml" 170 7131 7134 "heptagon/transformations/inline.ml" 170 7131 7157
+type(
+  'a * 'b * 'c
+)
+"heptagon/transformations/inline.ml" 169 7048 7050 "heptagon/transformations/inline.ml" 170 7131 7158
+type(
+  Heptagon.block * ('a * 'b * 'c)
+)
+"heptagon/transformations/inline.ml" 167 6958 6960 "heptagon/transformations/inline.ml" 170 7131 7158
+type(
+  Heptagon.block * ('a * 'b * 'c)
+)
+"heptagon/transformations/inline.ml" 172 7160 7164 "heptagon/transformations/inline.ml" 172 7160 7172
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec * (Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list)
+)
+ident(
+  def node_dec "heptagon/transformations/inline.ml" 181 7517 7517 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 172 7160 7173 "heptagon/transformations/inline.ml" 172 7160 7177
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 172 7160 7178 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 172 7160 7179 "heptagon/transformations/inline.ml" 172 7160 7182
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 172 7160 7202 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 172 7160 7184 "heptagon/transformations/inline.ml" 172 7160 7191
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 172 7160 7202 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 172 7160 7193 "heptagon/transformations/inline.ml" 172 7160 7200
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 172 7160 7202 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 172 7160 7178 "heptagon/transformations/inline.ml" 172 7160 7201
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 172 7160 7202 "heptagon/transformations/inline.ml" 172 7160 7204
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/inline.ml" 173 7207 7209 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7215
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/inline.ml" 175 7304 7306 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 173 7207 7218 "heptagon/transformations/inline.ml" 173 7207 7221
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 175 7304 7306 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 173 7207 7223 "heptagon/transformations/inline.ml" 173 7207 7230
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 175 7304 7306 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 173 7207 7232 "heptagon/transformations/inline.ml" 173 7207 7239
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 175 7304 7306 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 173 7207 7217 "heptagon/transformations/inline.ml" 173 7207 7240
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7240
+type(
+  Heptagon.node_dec *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 174 7243 7247 "heptagon/transformations/inline.ml" 174 7243 7268
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/transformations/inline.ml" 174 7243 7269 "heptagon/transformations/inline.ml" 174 7243 7273
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 172 7160 7173 "heptagon/transformations/inline.ml" 172 7160 7177
+)
+"heptagon/transformations/inline.ml" 174 7243 7275 "heptagon/transformations/inline.ml" 174 7243 7278
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 172 7160 7179 "heptagon/transformations/inline.ml" 172 7160 7182
+)
+"heptagon/transformations/inline.ml" 174 7243 7280 "heptagon/transformations/inline.ml" 174 7243 7287
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 172 7160 7184 "heptagon/transformations/inline.ml" 172 7160 7191
+)
+"heptagon/transformations/inline.ml" 174 7243 7289 "heptagon/transformations/inline.ml" 174 7243 7296
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 172 7160 7193 "heptagon/transformations/inline.ml" 172 7160 7200
+)
+"heptagon/transformations/inline.ml" 174 7243 7274 "heptagon/transformations/inline.ml" 174 7243 7297
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 174 7243 7298 "heptagon/transformations/inline.ml" 174 7243 7300
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 172 7160 7202 "heptagon/transformations/inline.ml" 172 7160 7204
+)
+"heptagon/transformations/inline.ml" 174 7243 7247 "heptagon/transformations/inline.ml" 174 7243 7300
+call(
+  stack
+)
+type(
+  Heptagon.node_dec *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 175 7304 7310 "heptagon/transformations/inline.ml" 175 7304 7312
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/inline.ml" 178 7451 7453 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 175 7304 7317 "heptagon/transformations/inline.ml" 175 7304 7319
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7215
+)
+"heptagon/transformations/inline.ml" 176 7335 7343 "heptagon/transformations/inline.ml" 176 7335 7345
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7215
+)
+"heptagon/transformations/inline.ml" 176 7335 7343 "heptagon/transformations/inline.ml" 176 7335 7353
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 176 7335 7369 "heptagon/transformations/inline.ml" 176 7335 7376
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 173 7207 7223 "heptagon/transformations/inline.ml" 173 7207 7230
+)
+"heptagon/transformations/inline.ml" 176 7335 7377 "heptagon/transformations/inline.ml" 176 7335 7378
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 176 7335 7379 "heptagon/transformations/inline.ml" 176 7335 7381
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7215
+)
+"heptagon/transformations/inline.ml" 176 7335 7379 "heptagon/transformations/inline.ml" 176 7335 7389
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 176 7335 7379 "heptagon/transformations/inline.ml" 176 7335 7397
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 176 7335 7369 "heptagon/transformations/inline.ml" 176 7335 7397
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 177 7399 7416 "heptagon/transformations/inline.ml" 177 7399 7423
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 173 7207 7232 "heptagon/transformations/inline.ml" 173 7207 7239
+)
+"heptagon/transformations/inline.ml" 177 7399 7424 "heptagon/transformations/inline.ml" 177 7399 7425
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/inline.ml" 177 7399 7426 "heptagon/transformations/inline.ml" 177 7399 7428
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 173 7207 7213 "heptagon/transformations/inline.ml" 173 7207 7215
+)
+"heptagon/transformations/inline.ml" 177 7399 7426 "heptagon/transformations/inline.ml" 177 7399 7436
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 177 7399 7426 "heptagon/transformations/inline.ml" 177 7399 7443
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 177 7399 7416 "heptagon/transformations/inline.ml" 177 7399 7443
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 176 7335 7341 "heptagon/transformations/inline.ml" 177 7399 7445
+type(
+  Heptagon.block
+)
+"heptagon/transformations/inline.ml" 175 7304 7315 "heptagon/transformations/inline.ml" 177 7399 7447
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/inline.ml" 178 7451 7457 "heptagon/transformations/inline.ml" 178 7451 7460
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  def env "heptagon/transformations/inline.ml" 179 7495 7498 "heptagon/transformations/inline.ml" 179 7495 7515
+)
+"heptagon/transformations/inline.ml" 178 7451 7463 "heptagon/transformations/inline.ml" 178 7451 7474
+type(
+  Names.QualEnv.key ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"heptagon/transformations/inline.ml" 178 7451 7475 "heptagon/transformations/inline.ml" 178 7451 7477
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 175 7304 7310 "heptagon/transformations/inline.ml" 175 7304 7312
+)
+"heptagon/transformations/inline.ml" 178 7451 7475 "heptagon/transformations/inline.ml" 178 7451 7484
+type(
+  Names.QualEnv.key
+)
+"heptagon/transformations/inline.ml" 178 7451 7485 "heptagon/transformations/inline.ml" 178 7451 7487
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 175 7304 7310 "heptagon/transformations/inline.ml" 175 7304 7312
+)
+"heptagon/transformations/inline.ml" 178 7451 7488 "heptagon/transformations/inline.ml" 178 7451 7491
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 173 7207 7218 "heptagon/transformations/inline.ml" 173 7207 7221
+)
+"heptagon/transformations/inline.ml" 178 7451 7463 "heptagon/transformations/inline.ml" 178 7451 7491
+call(
+  stack
+)
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/inline.ml" 179 7495 7498 "heptagon/transformations/inline.ml" 179 7495 7500
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/inline.ml" 175 7304 7310 "heptagon/transformations/inline.ml" 175 7304 7312
+)
+"heptagon/transformations/inline.ml" 179 7495 7503 "heptagon/transformations/inline.ml" 179 7495 7506
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/inline.ml" 178 7451 7457 "heptagon/transformations/inline.ml" 178 7451 7460
+)
+"heptagon/transformations/inline.ml" 179 7495 7508 "heptagon/transformations/inline.ml" 179 7495 7510
+type(
+  'a list
+)
+"heptagon/transformations/inline.ml" 179 7495 7512 "heptagon/transformations/inline.ml" 179 7495 7514
+type(
+  'b list
+)
+"heptagon/transformations/inline.ml" 179 7495 7502 "heptagon/transformations/inline.ml" 179 7495 7515
+type(
+  Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list
+)
+"heptagon/transformations/inline.ml" 179 7495 7498 "heptagon/transformations/inline.ml" 179 7495 7515
+type(
+  Heptagon.node_dec * (Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list)
+)
+"heptagon/transformations/inline.ml" 178 7451 7453 "heptagon/transformations/inline.ml" 179 7495 7515
+type(
+  Heptagon.node_dec * (Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list)
+)
+"heptagon/transformations/inline.ml" 175 7304 7306 "heptagon/transformations/inline.ml" 179 7495 7515
+type(
+  Heptagon.node_dec * (Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list)
+)
+"heptagon/transformations/inline.ml" 173 7207 7209 "heptagon/transformations/inline.ml" 179 7495 7515
+type(
+  Heptagon.node_dec * (Heptagon.node_dec Names.QualEnv.t * 'a list * 'b list)
+)
+"heptagon/transformations/inline.ml" 181 7517 7521 "heptagon/transformations/inline.ml" 181 7517 7528
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/inline.ml" 187 7767 7770 "heptagon/transformations/inline.ml" 1 0 -1
+)
+"heptagon/transformations/inline.ml" 181 7517 7529 "heptagon/transformations/inline.ml" 181 7517 7530
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/inline.ml" 182 7533 7535 "heptagon/transformations/inline.ml" 187 7767 7770
+)
+"heptagon/transformations/inline.ml" 182 7533 7539 "heptagon/transformations/inline.ml" 182 7533 7543
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/inline.ml" 184 7627 7629 "heptagon/transformations/inline.ml" 187 7767 7770
+)
+"heptagon/transformations/inline.ml" 183 7546 7552 "heptagon/transformations/inline.ml" 183 7546 7560
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/inline.ml" 183 7546 7572 "heptagon/transformations/inline.ml" 183 7546 7575
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.exp ->
+  Heptagon.exp *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  int_ref exp "heptagon/transformations/inline.ml" 105 4526 4530 "heptagon/transformations/inline.ml" 105 4526 4533
+)
+"heptagon/transformations/inline.ml" 183 7546 7585 "heptagon/transformations/inline.ml" 183 7546 7590
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.block ->
+  Heptagon.block *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  int_ref block "heptagon/transformations/inline.ml" 166 6913 6917 "heptagon/transformations/inline.ml" 166 6913 6922
+)
+"heptagon/transformations/inline.ml" 183 7546 7603 "heptagon/transformations/inline.ml" 183 7546 7611
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  int_ref node_dec "heptagon/transformations/inline.ml" 172 7160 7164 "heptagon/transformations/inline.ml" 172 7160 7172
+)
+"heptagon/transformations/inline.ml" 183 7546 7618 "heptagon/transformations/inline.ml" 183 7546 7620
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.eq ->
+  Heptagon.eq *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.eq
+)
+"heptagon/transformations/inline.ml" 183 7546 7550 "heptagon/transformations/inline.ml" 183 7546 7623
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/inline.ml" 184 7627 7634 "heptagon/transformations/inline.ml" 184 7627 7635
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/inline.ml" 185 7717 7719 "heptagon/transformations/inline.ml" 187 7767 7770
+)
+"heptagon/transformations/inline.ml" 184 7627 7638 "heptagon/transformations/inline.ml" 184 7627 7639
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/inline.ml" 184 7627 7641 "heptagon/transformations/inline.ml" 184 7627 7648
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def newvars "heptagon/transformations/inline.ml" 185 7717 7719 "heptagon/transformations/inline.ml" 187 7767 7770
+)
+"heptagon/transformations/inline.ml" 184 7627 7650 "heptagon/transformations/inline.ml" 184 7627 7657
+type(
+  Heptagon.eq list
+)
+ident(
+  def newequs "heptagon/transformations/inline.ml" 185 7717 7719 "heptagon/transformations/inline.ml" 187 7767 7770
+)
+"heptagon/transformations/inline.ml" 184 7627 7637 "heptagon/transformations/inline.ml" 184 7627 7658
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 184 7627 7633 "heptagon/transformations/inline.ml" 184 7627 7659
+type(
+  Heptagon.program *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 184 7627 7662 "heptagon/transformations/inline.ml" 184 7627 7682
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list ->
+  Heptagon.program ->
+  Heptagon.program *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.program
+)
+"heptagon/transformations/inline.ml" 184 7627 7683 "heptagon/transformations/inline.ml" 184 7627 7687
+type(
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/inline.ml" 182 7533 7539 "heptagon/transformations/inline.ml" 182 7533 7543
+)
+"heptagon/transformations/inline.ml" 184 7627 7689 "heptagon/transformations/inline.ml" 184 7627 7702
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"heptagon/transformations/inline.ml" 184 7627 7704 "heptagon/transformations/inline.ml" 184 7627 7706
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 184 7627 7708 "heptagon/transformations/inline.ml" 184 7627 7710
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 184 7627 7688 "heptagon/transformations/inline.ml" 184 7627 7711
+type(
+  Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 184 7627 7712 "heptagon/transformations/inline.ml" 184 7627 7713
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/inline.ml" 181 7517 7529 "heptagon/transformations/inline.ml" 181 7517 7530
+)
+"heptagon/transformations/inline.ml" 184 7627 7662 "heptagon/transformations/inline.ml" 184 7627 7713
+call(
+  stack
+)
+type(
+  Heptagon.program *
+  (Heptagon.node_dec Names.QualEnv.t * Heptagon.var_dec list *
+   Heptagon.eq list)
+)
+"heptagon/transformations/inline.ml" 185 7717 7727 "heptagon/transformations/inline.ml" 185 7717 7734
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref newvars "heptagon/transformations/inline.ml" 184 7627 7641 "heptagon/transformations/inline.ml" 184 7627 7648
+)
+"heptagon/transformations/inline.ml" 185 7717 7735 "heptagon/transformations/inline.ml" 185 7717 7736
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/transformations/inline.ml" 185 7717 7737 "heptagon/transformations/inline.ml" 185 7717 7739
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/inline.ml" 185 7717 7726 "heptagon/transformations/inline.ml" 185 7717 7740
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 185 7717 7719 "heptagon/transformations/inline.ml" 185 7717 7740
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 186 7742 7752 "heptagon/transformations/inline.ml" 186 7742 7759
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref newequs "heptagon/transformations/inline.ml" 184 7627 7650 "heptagon/transformations/inline.ml" 184 7627 7657
+)
+"heptagon/transformations/inline.ml" 186 7742 7760 "heptagon/transformations/inline.ml" 186 7742 7761
+type(
+  Heptagon.eq list -> Heptagon.eq list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/transformations/inline.ml" 186 7742 7762 "heptagon/transformations/inline.ml" 186 7742 7764
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/inline.ml" 186 7742 7751 "heptagon/transformations/inline.ml" 186 7742 7765
+type(
+  bool
+)
+"heptagon/transformations/inline.ml" 186 7742 7744 "heptagon/transformations/inline.ml" 186 7742 7765
+type(
+  unit
+)
+"heptagon/transformations/inline.ml" 187 7767 7769 "heptagon/transformations/inline.ml" 187 7767 7770
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/inline.ml" 184 7627 7634 "heptagon/transformations/inline.ml" 184 7627 7635
+)
+"heptagon/transformations/inline.ml" 186 7742 7744 "heptagon/transformations/inline.ml" 187 7767 7770
+type(
+  Heptagon.program
+)
+"heptagon/transformations/inline.ml" 185 7717 7719 "heptagon/transformations/inline.ml" 187 7767 7770
+type(
+  Heptagon.program
+)
+"heptagon/transformations/inline.ml" 184 7627 7629 "heptagon/transformations/inline.ml" 187 7767 7770
+type(
+  Heptagon.program
+)
+"heptagon/transformations/inline.ml" 182 7533 7535 "heptagon/transformations/inline.ml" 187 7767 7770
+type(
+  Heptagon.program
+)

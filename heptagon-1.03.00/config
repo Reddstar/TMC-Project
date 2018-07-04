@@ -1,0 +1,26 @@
+srcdir      = .
+top_srcdir  = .
+prefix      = /usr/local
+exec_prefix = ${prefix}
+bindir      = ${exec_prefix}/bin
+libdir      = ${exec_prefix}/lib
+
+INSTALL= /usr/bin/install -c
+RM=rm
+
+
+BUILD= _build
+COMPILER=heptc
+SIMULATOR=hepts
+CTRLNBAC2EPT_TRANSLATOR=ctrl2ept
+BZREAX=bzreax
+
+INSTALL_BINDIR=$(bindir)
+INSTALL_LIBDIR=$(libdir)/heptagon
+STDLIB_DIR=${exec_prefix}/lib/heptagon
+
+OCAMLBUILD=STDLIB=$(STDLIB_DIR) ocamlbuild -use-ocamlfind
+
+TARGET=byte
+ENABLE_SIMULATOR=no
+ENABLE_CTRL2EPT_TRANSLATOR=no

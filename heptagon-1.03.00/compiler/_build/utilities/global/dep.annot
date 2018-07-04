@@ -1,0 +1,1595 @@
+"utilities/global/dep.ml" 45 2369 2375 "utilities/global/dep.ml" 45 2369 2380
+type(
+  Read.equation list ->
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  def build "utilities/global/dep.ml" 100 4307 4327 "utilities/global/dep.ml" 101 4328 4331
+)
+"utilities/global/dep.ml" 45 2369 2381 "utilities/global/dep.ml" 45 2369 2384
+type(
+  Read.equation list
+)
+ident(
+  def eqs "utilities/global/dep.ml" 47 2446 2450 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 47 2446 2454 "utilities/global/dep.ml" 47 2446 2465
+type(
+  'a ->
+  Idents.Env.key list ->
+  'b -> ('a * 'b) list Idents.Env.t -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  def nametograph "utilities/global/dep.ml" 57 2757 2761 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 47 2446 2466 "utilities/global/dep.ml" 47 2446 2467
+type(
+  'a
+)
+ident(
+  def g "utilities/global/dep.ml" 47 2446 2468 "utilities/global/dep.ml" 55 2703 2752
+)
+"utilities/global/dep.ml" 47 2446 2468 "utilities/global/dep.ml" 47 2446 2476
+type(
+  Idents.Env.key list
+)
+ident(
+  def var_list "utilities/global/dep.ml" 47 2446 2477 "utilities/global/dep.ml" 55 2703 2752
+)
+"utilities/global/dep.ml" 47 2446 2477 "utilities/global/dep.ml" 47 2446 2487
+type(
+  'b
+)
+ident(
+  def is_antidep "utilities/global/dep.ml" 47 2446 2488 "utilities/global/dep.ml" 55 2703 2752
+)
+"utilities/global/dep.ml" 47 2446 2488 "utilities/global/dep.ml" 47 2446 2498
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  def n_to_graph "utilities/global/dep.ml" 48 2501 2507 "utilities/global/dep.ml" 55 2703 2752
+)
+"utilities/global/dep.ml" 48 2501 2511 "utilities/global/dep.ml" 48 2501 2519
+type(
+  ('a * 'b) list Idents.Env.t ->
+  Idents.Env.key -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  def add_node "utilities/global/dep.ml" 55 2703 2709 "utilities/global/dep.ml" 55 2703 2752
+)
+"utilities/global/dep.ml" 48 2501 2520 "utilities/global/dep.ml" 48 2501 2523
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  def env "utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 53 2652 2693
+)
+"utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 48 2501 2525
+type(
+  Idents.Env.key
+)
+ident(
+  def x "utilities/global/dep.ml" 49 2528 2536 "utilities/global/dep.ml" 53 2652 2693
+)
+"utilities/global/dep.ml" 49 2528 2539 "utilities/global/dep.ml" 49 2528 2546
+type(
+  Idents.Env.key -> ('a * 'b) list Idents.Env.t -> bool
+)
+ident(
+  ext_ref Idents.Env.mem
+)
+"utilities/global/dep.ml" 49 2528 2547 "utilities/global/dep.ml" 49 2528 2548
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 48 2501 2525
+)
+"utilities/global/dep.ml" 49 2528 2549 "utilities/global/dep.ml" 49 2528 2552
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 48 2501 2520 "utilities/global/dep.ml" 48 2501 2523
+)
+"utilities/global/dep.ml" 49 2528 2539 "utilities/global/dep.ml" 49 2528 2552
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/global/dep.ml" 50 2558 2572 "utilities/global/dep.ml" 50 2558 2573
+type(
+  ('a * 'b) list
+)
+ident(
+  def l "utilities/global/dep.ml" 51 2594 2604 "utilities/global/dep.ml" 51 2594 2638
+)
+"utilities/global/dep.ml" 50 2558 2576 "utilities/global/dep.ml" 50 2558 2584
+type(
+  Idents.Env.key -> ('a * 'b) list Idents.Env.t -> ('a * 'b) list
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"utilities/global/dep.ml" 50 2558 2585 "utilities/global/dep.ml" 50 2558 2586
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 48 2501 2525
+)
+"utilities/global/dep.ml" 50 2558 2587 "utilities/global/dep.ml" 50 2558 2590
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 48 2501 2520 "utilities/global/dep.ml" 48 2501 2523
+)
+"utilities/global/dep.ml" 50 2558 2576 "utilities/global/dep.ml" 50 2558 2590
+call(
+  stack
+)
+type(
+  ('a * 'b) list
+)
+"utilities/global/dep.ml" 51 2594 2604 "utilities/global/dep.ml" 51 2594 2611
+type(
+  Idents.Env.key ->
+  ('a * 'b) list ->
+  ('a * 'b) list Idents.Env.t -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"utilities/global/dep.ml" 51 2594 2612 "utilities/global/dep.ml" 51 2594 2613
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 48 2501 2525
+)
+"utilities/global/dep.ml" 51 2594 2616 "utilities/global/dep.ml" 51 2594 2617
+type(
+  'a
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 47 2446 2466 "utilities/global/dep.ml" 47 2446 2467
+)
+"utilities/global/dep.ml" 51 2594 2619 "utilities/global/dep.ml" 51 2594 2629
+type(
+  'b
+)
+ident(
+  int_ref is_antidep "utilities/global/dep.ml" 47 2446 2477 "utilities/global/dep.ml" 47 2446 2487
+)
+"utilities/global/dep.ml" 51 2594 2615 "utilities/global/dep.ml" 51 2594 2630
+type(
+  'a * 'b
+)
+"utilities/global/dep.ml" 51 2594 2632 "utilities/global/dep.ml" 51 2594 2633
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref l "utilities/global/dep.ml" 50 2558 2572 "utilities/global/dep.ml" 50 2558 2573
+)
+"utilities/global/dep.ml" 51 2594 2614 "utilities/global/dep.ml" 51 2594 2634
+type(
+  ('a * 'b) list
+)
+"utilities/global/dep.ml" 51 2594 2635 "utilities/global/dep.ml" 51 2594 2638
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 48 2501 2520 "utilities/global/dep.ml" 48 2501 2523
+)
+"utilities/global/dep.ml" 51 2594 2604 "utilities/global/dep.ml" 51 2594 2638
+call(
+  tail
+)
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 50 2558 2568 "utilities/global/dep.ml" 51 2594 2638
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 53 2652 2662 "utilities/global/dep.ml" 53 2652 2669
+type(
+  Idents.Env.key ->
+  ('a * 'b) list ->
+  ('a * 'b) list Idents.Env.t -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"utilities/global/dep.ml" 53 2652 2670 "utilities/global/dep.ml" 53 2652 2671
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "utilities/global/dep.ml" 48 2501 2524 "utilities/global/dep.ml" 48 2501 2525
+)
+"utilities/global/dep.ml" 53 2652 2674 "utilities/global/dep.ml" 53 2652 2675
+type(
+  'a
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 47 2446 2466 "utilities/global/dep.ml" 47 2446 2467
+)
+"utilities/global/dep.ml" 53 2652 2677 "utilities/global/dep.ml" 53 2652 2687
+type(
+  'b
+)
+ident(
+  int_ref is_antidep "utilities/global/dep.ml" 47 2446 2477 "utilities/global/dep.ml" 47 2446 2487
+)
+"utilities/global/dep.ml" 53 2652 2673 "utilities/global/dep.ml" 53 2652 2688
+type(
+  'a * 'b
+)
+"utilities/global/dep.ml" 53 2652 2672 "utilities/global/dep.ml" 53 2652 2689
+type(
+  ('a * 'b) list
+)
+"utilities/global/dep.ml" 53 2652 2690 "utilities/global/dep.ml" 53 2652 2693
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 48 2501 2520 "utilities/global/dep.ml" 48 2501 2523
+)
+"utilities/global/dep.ml" 53 2652 2662 "utilities/global/dep.ml" 53 2652 2693
+call(
+  tail
+)
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 49 2528 2536 "utilities/global/dep.ml" 53 2652 2693
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 55 2703 2709 "utilities/global/dep.ml" 55 2703 2723
+type(
+  (('a * 'b) list Idents.Env.t ->
+   Idents.Env.key -> ('a * 'b) list Idents.Env.t) ->
+  ('a * 'b) list Idents.Env.t ->
+  Idents.Env.key list -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/global/dep.ml" 55 2703 2724 "utilities/global/dep.ml" 55 2703 2732
+type(
+  ('a * 'b) list Idents.Env.t ->
+  Idents.Env.key -> ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref add_node "utilities/global/dep.ml" 48 2501 2511 "utilities/global/dep.ml" 48 2501 2519
+)
+"utilities/global/dep.ml" 55 2703 2733 "utilities/global/dep.ml" 55 2703 2743
+type(
+  ('a * 'b) list Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "utilities/global/dep.ml" 47 2446 2488 "utilities/global/dep.ml" 47 2446 2498
+)
+"utilities/global/dep.ml" 55 2703 2744 "utilities/global/dep.ml" 55 2703 2752
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref var_list "utilities/global/dep.ml" 47 2446 2468 "utilities/global/dep.ml" 47 2446 2476
+)
+"utilities/global/dep.ml" 55 2703 2709 "utilities/global/dep.ml" 55 2703 2752
+call(
+  tail
+)
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 48 2501 2507 "utilities/global/dep.ml" 55 2703 2752
+type(
+  ('a * 'b) list Idents.Env.t
+)
+"utilities/global/dep.ml" 57 2757 2765 "utilities/global/dep.ml" 57 2757 2780
+type(
+  'c -> Idents.Env.key list -> 'c Idents.Env.t -> 'c Idents.Env.t
+)
+ident(
+  def nametograph_env "utilities/global/dep.ml" 60 2877 2881 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 57 2757 2781 "utilities/global/dep.ml" 57 2757 2782
+type(
+  'c
+)
+ident(
+  def g "utilities/global/dep.ml" 57 2757 2783 "utilities/global/dep.ml" 58 2803 2872
+)
+"utilities/global/dep.ml" 57 2757 2783 "utilities/global/dep.ml" 57 2757 2791
+type(
+  Idents.Env.key list
+)
+ident(
+  def var_list "utilities/global/dep.ml" 57 2757 2792 "utilities/global/dep.ml" 58 2803 2872
+)
+"utilities/global/dep.ml" 57 2757 2792 "utilities/global/dep.ml" 57 2757 2800
+type(
+  'c Idents.Env.t
+)
+ident(
+  def node_env "utilities/global/dep.ml" 58 2803 2809 "utilities/global/dep.ml" 58 2803 2872
+)
+"utilities/global/dep.ml" 58 2803 2809 "utilities/global/dep.ml" 58 2803 2823
+type(
+  ('c Idents.Env.t -> Idents.Env.key -> 'c Idents.Env.t) ->
+  'c Idents.Env.t -> Idents.Env.key list -> 'c Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/global/dep.ml" 58 2803 2829 "utilities/global/dep.ml" 58 2803 2832
+type(
+  'c Idents.Env.t
+)
+ident(
+  def env "utilities/global/dep.ml" 58 2803 2833 "utilities/global/dep.ml" 58 2803 2853
+)
+"utilities/global/dep.ml" 58 2803 2833 "utilities/global/dep.ml" 58 2803 2834
+type(
+  Idents.Env.key
+)
+ident(
+  def x "utilities/global/dep.ml" 58 2803 2838 "utilities/global/dep.ml" 58 2803 2853
+)
+"utilities/global/dep.ml" 58 2803 2838 "utilities/global/dep.ml" 58 2803 2845
+type(
+  Idents.Env.key -> 'c -> 'c Idents.Env.t -> 'c Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"utilities/global/dep.ml" 58 2803 2846 "utilities/global/dep.ml" 58 2803 2847
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "utilities/global/dep.ml" 58 2803 2833 "utilities/global/dep.ml" 58 2803 2834
+)
+"utilities/global/dep.ml" 58 2803 2848 "utilities/global/dep.ml" 58 2803 2849
+type(
+  'c
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 57 2757 2781 "utilities/global/dep.ml" 57 2757 2782
+)
+"utilities/global/dep.ml" 58 2803 2850 "utilities/global/dep.ml" 58 2803 2853
+type(
+  'c Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 58 2803 2829 "utilities/global/dep.ml" 58 2803 2832
+)
+"utilities/global/dep.ml" 58 2803 2838 "utilities/global/dep.ml" 58 2803 2853
+call(
+  tail
+)
+type(
+  'c Idents.Env.t
+)
+"utilities/global/dep.ml" 58 2803 2824 "utilities/global/dep.ml" 58 2803 2854
+type(
+  'c Idents.Env.t -> Idents.Env.key -> 'c Idents.Env.t
+)
+"utilities/global/dep.ml" 58 2803 2855 "utilities/global/dep.ml" 58 2803 2863
+type(
+  'c Idents.Env.t
+)
+ident(
+  int_ref node_env "utilities/global/dep.ml" 57 2757 2792 "utilities/global/dep.ml" 57 2757 2800
+)
+"utilities/global/dep.ml" 58 2803 2864 "utilities/global/dep.ml" 58 2803 2872
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref var_list "utilities/global/dep.ml" 57 2757 2783 "utilities/global/dep.ml" 57 2757 2791
+)
+"utilities/global/dep.ml" 58 2803 2809 "utilities/global/dep.ml" 58 2803 2872
+call(
+  tail
+)
+type(
+  'c Idents.Env.t
+)
+"utilities/global/dep.ml" 60 2877 2889 "utilities/global/dep.ml" 60 2877 2899
+type(
+  Read.equation list ->
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  Read.equation Sgraph.node Idents.Env.t ->
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  def init_graph "utilities/global/dep.ml" 60 2877 2881 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 60 2877 2900 "utilities/global/dep.ml" 60 2877 2903
+type(
+  Read.equation list
+)
+ident(
+  def eqs "utilities/global/dep.ml" 60 2877 2904 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 60 2877 2904 "utilities/global/dep.ml" 60 2877 2910
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  def g_list "utilities/global/dep.ml" 60 2877 2911 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 60 2877 2911 "utilities/global/dep.ml" 60 2877 2921
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def n_to_graph "utilities/global/dep.ml" 60 2877 2922 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 60 2877 2922 "utilities/global/dep.ml" 60 2877 2929
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def lin_map "utilities/global/dep.ml" 60 2877 2930 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 60 2877 2930 "utilities/global/dep.ml" 60 2877 2938
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  def node_env "utilities/global/dep.ml" 61 2941 2947 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 61 2941 2953 "utilities/global/dep.ml" 61 2941 2956
+type(
+  Read.equation list
+)
+ident(
+  int_ref eqs "utilities/global/dep.ml" 60 2877 2900 "utilities/global/dep.ml" 60 2877 2903
+)
+"utilities/global/dep.ml" 62 2962 2972 "utilities/global/dep.ml" 62 2962 2974
+type(
+  Read.equation list
+)
+"utilities/global/dep.ml" 62 2962 2978 "utilities/global/dep.ml" 62 2962 2984
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 60 2877 2904 "utilities/global/dep.ml" 60 2877 2910
+)
+"utilities/global/dep.ml" 62 2962 2986 "utilities/global/dep.ml" 62 2962 2996
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "utilities/global/dep.ml" 60 2877 2911 "utilities/global/dep.ml" 60 2877 2921
+)
+"utilities/global/dep.ml" 62 2962 2998 "utilities/global/dep.ml" 62 2962 3005
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 60 2877 2922 "utilities/global/dep.ml" 60 2877 2929
+)
+"utilities/global/dep.ml" 62 2962 3007 "utilities/global/dep.ml" 62 2962 3015
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref node_env "utilities/global/dep.ml" 60 2877 2930 "utilities/global/dep.ml" 60 2877 2938
+)
+"utilities/global/dep.ml" 62 2962 2978 "utilities/global/dep.ml" 62 2962 3015
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+type(
+  Read.equation
+)
+ident(
+  def eq "utilities/global/dep.ml" 64 3039 3051 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 63 3016 3032 "utilities/global/dep.ml" 63 3016 3035
+type(
+  Read.equation list
+)
+ident(
+  def eqs "utilities/global/dep.ml" 64 3039 3051 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3035
+type(
+  Read.equation list
+)
+"utilities/global/dep.ml" 64 3039 3055 "utilities/global/dep.ml" 64 3039 3056
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  def g "utilities/global/dep.ml" 65 3070 3082 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 64 3039 3059 "utilities/global/dep.ml" 64 3039 3063
+type(
+  Read.equation -> Read.equation Sgraph.node
+)
+ident(
+  ext_ref Sgraph.make
+)
+"utilities/global/dep.ml" 64 3039 3064 "utilities/global/dep.ml" 64 3039 3066
+type(
+  Read.equation
+)
+ident(
+  int_ref eq "utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+)
+"utilities/global/dep.ml" 64 3039 3059 "utilities/global/dep.ml" 64 3039 3066
+call(
+  stack
+)
+type(
+  Read.equation Sgraph.node
+)
+"utilities/global/dep.ml" 65 3070 3086 "utilities/global/dep.ml" 65 3070 3094
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  def node_env "utilities/global/dep.ml" 66 3144 3156 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 65 3070 3097 "utilities/global/dep.ml" 65 3070 3112
+type(
+  Read.equation Sgraph.node ->
+  Idents.Env.key list ->
+  Read.equation Sgraph.node Idents.Env.t ->
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref nametograph_env "utilities/global/dep.ml" 57 2757 2765 "utilities/global/dep.ml" 57 2757 2780
+)
+"utilities/global/dep.ml" 65 3070 3113 "utilities/global/dep.ml" 65 3070 3114
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 64 3039 3055 "utilities/global/dep.ml" 64 3039 3056
+)
+"utilities/global/dep.ml" 65 3070 3116 "utilities/global/dep.ml" 65 3070 3124
+type(
+  Idents.ident list -> Read.equation -> Idents.Env.key list
+)
+ident(
+  int_ref Read.def "utilities/global/dep.ml" 39 2251 2253 "utilities/global/dep.ml" 39 2251 2298
+)
+"utilities/global/dep.ml" 65 3070 3125 "utilities/global/dep.ml" 65 3070 3127
+type(
+  Idents.ident list
+)
+"utilities/global/dep.ml" 65 3070 3128 "utilities/global/dep.ml" 65 3070 3130
+type(
+  Read.equation
+)
+ident(
+  int_ref eq "utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+)
+"utilities/global/dep.ml" 65 3070 3115 "utilities/global/dep.ml" 65 3070 3131
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"utilities/global/dep.ml" 65 3070 3132 "utilities/global/dep.ml" 65 3070 3140
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref node_env "utilities/global/dep.ml" 60 2877 2930 "utilities/global/dep.ml" 60 2877 2938
+)
+"utilities/global/dep.ml" 65 3070 3097 "utilities/global/dep.ml" 65 3070 3140
+call(
+  stack
+)
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 66 3144 3160 "utilities/global/dep.ml" 66 3144 3170
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def n_to_graph "utilities/global/dep.ml" 68 3250 3262 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 66 3144 3173 "utilities/global/dep.ml" 66 3144 3184
+type(
+  Read.equation Sgraph.node ->
+  Idents.Env.key list ->
+  bool ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref nametograph "utilities/global/dep.ml" 47 2446 2454 "utilities/global/dep.ml" 47 2446 2465
+)
+"utilities/global/dep.ml" 66 3144 3185 "utilities/global/dep.ml" 66 3144 3186
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 64 3039 3055 "utilities/global/dep.ml" 64 3039 3056
+)
+"utilities/global/dep.ml" 66 3144 3188 "utilities/global/dep.ml" 66 3144 3196
+type(
+  Idents.ident list -> Read.equation -> Idents.Env.key list
+)
+ident(
+  int_ref Read.def "utilities/global/dep.ml" 39 2251 2253 "utilities/global/dep.ml" 39 2251 2298
+)
+"utilities/global/dep.ml" 66 3144 3197 "utilities/global/dep.ml" 66 3144 3199
+type(
+  Idents.ident list
+)
+"utilities/global/dep.ml" 66 3144 3200 "utilities/global/dep.ml" 66 3144 3202
+type(
+  Read.equation
+)
+ident(
+  int_ref eq "utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+)
+"utilities/global/dep.ml" 66 3144 3187 "utilities/global/dep.ml" 66 3144 3203
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"utilities/global/dep.ml" 67 3204 3219 "utilities/global/dep.ml" 67 3204 3231
+type(
+  Read.equation -> bool
+)
+ident(
+  int_ref Read.antidep "utilities/global/dep.ml" 40 2299 2301 "utilities/global/dep.ml" 40 2299 2330
+)
+"utilities/global/dep.ml" 67 3204 3232 "utilities/global/dep.ml" 67 3204 3234
+type(
+  Read.equation
+)
+ident(
+  int_ref eq "utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+)
+"utilities/global/dep.ml" 67 3204 3218 "utilities/global/dep.ml" 67 3204 3235
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/global/dep.ml" 67 3204 3236 "utilities/global/dep.ml" 67 3204 3246
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "utilities/global/dep.ml" 60 2877 2911 "utilities/global/dep.ml" 60 2877 2921
+)
+"utilities/global/dep.ml" 66 3144 3173 "utilities/global/dep.ml" 67 3204 3246
+call(
+  stack
+)
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+"utilities/global/dep.ml" 68 3250 3266 "utilities/global/dep.ml" 68 3250 3273
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def lin_map "utilities/global/dep.ml" 69 3328 3340 "utilities/global/dep.ml" 69 3328 3396
+)
+"utilities/global/dep.ml" 68 3250 3276 "utilities/global/dep.ml" 68 3250 3287
+type(
+  Read.equation Sgraph.node ->
+  Idents.Env.key list ->
+  bool ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref nametograph "utilities/global/dep.ml" 47 2446 2454 "utilities/global/dep.ml" 47 2446 2465
+)
+"utilities/global/dep.ml" 68 3250 3288 "utilities/global/dep.ml" 68 3250 3289
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 64 3039 3055 "utilities/global/dep.ml" 64 3039 3056
+)
+"utilities/global/dep.ml" 68 3250 3291 "utilities/global/dep.ml" 68 3250 3307
+type(
+  Read.equation -> Idents.Env.key list
+)
+ident(
+  int_ref Read.linear_read "utilities/global/dep.ml" 38 2208 2210 "utilities/global/dep.ml" 38 2208 2250
+)
+"utilities/global/dep.ml" 68 3250 3308 "utilities/global/dep.ml" 68 3250 3310
+type(
+  Read.equation
+)
+ident(
+  int_ref eq "utilities/global/dep.ml" 63 3016 3026 "utilities/global/dep.ml" 63 3016 3028
+)
+"utilities/global/dep.ml" 68 3250 3290 "utilities/global/dep.ml" 68 3250 3311
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"utilities/global/dep.ml" 68 3250 3312 "utilities/global/dep.ml" 68 3250 3316
+type(
+  bool
+)
+"utilities/global/dep.ml" 68 3250 3317 "utilities/global/dep.ml" 68 3250 3324
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 60 2877 2922 "utilities/global/dep.ml" 60 2877 2929
+)
+"utilities/global/dep.ml" 68 3250 3276 "utilities/global/dep.ml" 68 3250 3324
+call(
+  stack
+)
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+"utilities/global/dep.ml" 69 3328 3340 "utilities/global/dep.ml" 69 3328 3350
+type(
+  Read.equation list ->
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  Read.equation Sgraph.node Idents.Env.t ->
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref init_graph "utilities/global/dep.ml" 60 2877 2889 "utilities/global/dep.ml" 60 2877 2899
+)
+"utilities/global/dep.ml" 69 3328 3351 "utilities/global/dep.ml" 69 3328 3354
+type(
+  Read.equation list
+)
+ident(
+  int_ref eqs "utilities/global/dep.ml" 63 3016 3032 "utilities/global/dep.ml" 63 3016 3035
+)
+"utilities/global/dep.ml" 69 3328 3356 "utilities/global/dep.ml" 69 3328 3357
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 64 3039 3055 "utilities/global/dep.ml" 64 3039 3056
+)
+"utilities/global/dep.ml" 69 3328 3361 "utilities/global/dep.ml" 69 3328 3367
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 60 2877 2904 "utilities/global/dep.ml" 60 2877 2910
+)
+"utilities/global/dep.ml" 69 3328 3355 "utilities/global/dep.ml" 69 3328 3368
+type(
+  Read.equation Sgraph.node list
+)
+"utilities/global/dep.ml" 69 3328 3369 "utilities/global/dep.ml" 69 3328 3379
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "utilities/global/dep.ml" 66 3144 3160 "utilities/global/dep.ml" 66 3144 3170
+)
+"utilities/global/dep.ml" 69 3328 3380 "utilities/global/dep.ml" 69 3328 3387
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 68 3250 3266 "utilities/global/dep.ml" 68 3250 3273
+)
+"utilities/global/dep.ml" 69 3328 3388 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref node_env "utilities/global/dep.ml" 65 3070 3086 "utilities/global/dep.ml" 65 3070 3094
+)
+"utilities/global/dep.ml" 69 3328 3340 "utilities/global/dep.ml" 69 3328 3396
+call(
+  tail
+)
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 68 3250 3262 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 66 3144 3156 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 65 3070 3082 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 64 3039 3051 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 61 2941 2947 "utilities/global/dep.ml" 69 3328 3396
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 72 3405 3417 "utilities/global/dep.ml" 72 3405 3427
+type(
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t -> unit
+)
+ident(
+  def make_graph "utilities/global/dep.ml" 72 3405 3409 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 72 3405 3428 "utilities/global/dep.ml" 72 3405 3434
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  def g_list "utilities/global/dep.ml" 72 3405 3435 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 72 3405 3435 "utilities/global/dep.ml" 72 3405 3449
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def names_to_graph "utilities/global/dep.ml" 72 3405 3450 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 72 3405 3450 "utilities/global/dep.ml" 72 3405 3457
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def lin_map "utilities/global/dep.ml" 73 3460 3466 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 73 3460 3470 "utilities/global/dep.ml" 73 3460 3480
+type(
+  'd Sgraph.node -> 'd Sgraph.node * bool -> unit
+)
+ident(
+  def attach_one "utilities/global/dep.ml" 80 3612 3618 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 73 3460 3481 "utilities/global/dep.ml" 73 3460 3485
+type(
+  'd Sgraph.node
+)
+ident(
+  def node "utilities/global/dep.ml" 73 3460 3486 "utilities/global/dep.ml" 77 3573 3601
+)
+"utilities/global/dep.ml" 73 3460 3487 "utilities/global/dep.ml" 73 3460 3488
+type(
+  'd Sgraph.node
+)
+ident(
+  def g "utilities/global/dep.ml" 74 3504 3512 "utilities/global/dep.ml" 77 3573 3601
+)
+"utilities/global/dep.ml" 73 3460 3490 "utilities/global/dep.ml" 73 3460 3500
+type(
+  bool
+)
+ident(
+  def is_antidep "utilities/global/dep.ml" 74 3504 3512 "utilities/global/dep.ml" 77 3573 3601
+)
+"utilities/global/dep.ml" 73 3460 3486 "utilities/global/dep.ml" 73 3460 3501
+type(
+  'd Sgraph.node * bool
+)
+"utilities/global/dep.ml" 74 3504 3515 "utilities/global/dep.ml" 74 3504 3525
+type(
+  bool
+)
+ident(
+  int_ref is_antidep "utilities/global/dep.ml" 73 3460 3490 "utilities/global/dep.ml" 73 3460 3500
+)
+"utilities/global/dep.ml" 75 3531 3541 "utilities/global/dep.ml" 75 3531 3552
+type(
+  'd Sgraph.node -> 'd Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.add_depends
+)
+"utilities/global/dep.ml" 75 3531 3553 "utilities/global/dep.ml" 75 3531 3554
+type(
+  'd Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 73 3460 3487 "utilities/global/dep.ml" 73 3460 3488
+)
+"utilities/global/dep.ml" 75 3531 3555 "utilities/global/dep.ml" 75 3531 3559
+type(
+  'd Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 73 3460 3481 "utilities/global/dep.ml" 73 3460 3485
+)
+"utilities/global/dep.ml" 75 3531 3541 "utilities/global/dep.ml" 75 3531 3559
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 77 3573 3583 "utilities/global/dep.ml" 77 3573 3594
+type(
+  'd Sgraph.node -> 'd Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.add_depends
+)
+"utilities/global/dep.ml" 77 3573 3595 "utilities/global/dep.ml" 77 3573 3599
+type(
+  'd Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 73 3460 3481 "utilities/global/dep.ml" 73 3460 3485
+)
+"utilities/global/dep.ml" 77 3573 3600 "utilities/global/dep.ml" 77 3573 3601
+type(
+  'd Sgraph.node
+)
+ident(
+  int_ref g "utilities/global/dep.ml" 73 3460 3487 "utilities/global/dep.ml" 73 3460 3488
+)
+"utilities/global/dep.ml" 77 3573 3583 "utilities/global/dep.ml" 77 3573 3601
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 74 3504 3512 "utilities/global/dep.ml" 77 3573 3601
+type(
+  unit
+)
+"utilities/global/dep.ml" 80 3612 3622 "utilities/global/dep.ml" 80 3612 3628
+type(
+  ('e Sgraph.node * bool) list Idents.Env.t ->
+  'e Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  def attach "utilities/global/dep.ml" 87 3775 3781 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 80 3612 3629 "utilities/global/dep.ml" 80 3612 3632
+type(
+  ('e Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def env "utilities/global/dep.ml" 80 3612 3633 "utilities/global/dep.ml" 85 3743 3770
+)
+"utilities/global/dep.ml" 80 3612 3633 "utilities/global/dep.ml" 80 3612 3637
+type(
+  'e Sgraph.node
+)
+ident(
+  def node "utilities/global/dep.ml" 80 3612 3638 "utilities/global/dep.ml" 85 3743 3770
+)
+"utilities/global/dep.ml" 80 3612 3638 "utilities/global/dep.ml" 80 3612 3639
+type(
+  Idents.Env.key
+)
+ident(
+  def n "utilities/global/dep.ml" 81 3642 3650 "utilities/global/dep.ml" 85 3743 3770
+)
+"utilities/global/dep.ml" 82 3654 3668 "utilities/global/dep.ml" 82 3654 3669
+type(
+  ('e Sgraph.node * bool) list
+)
+ident(
+  def l "utilities/global/dep.ml" 83 3690 3700 "utilities/global/dep.ml" 83 3690 3729
+)
+"utilities/global/dep.ml" 82 3654 3672 "utilities/global/dep.ml" 82 3654 3680
+type(
+  Idents.Env.key ->
+  ('e Sgraph.node * bool) list Idents.Env.t -> ('e Sgraph.node * bool) list
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"utilities/global/dep.ml" 82 3654 3681 "utilities/global/dep.ml" 82 3654 3682
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "utilities/global/dep.ml" 80 3612 3638 "utilities/global/dep.ml" 80 3612 3639
+)
+"utilities/global/dep.ml" 82 3654 3683 "utilities/global/dep.ml" 82 3654 3686
+type(
+  ('e Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref env "utilities/global/dep.ml" 80 3612 3629 "utilities/global/dep.ml" 80 3612 3632
+)
+"utilities/global/dep.ml" 82 3654 3672 "utilities/global/dep.ml" 82 3654 3686
+call(
+  stack
+)
+type(
+  ('e Sgraph.node * bool) list
+)
+"utilities/global/dep.ml" 83 3690 3700 "utilities/global/dep.ml" 83 3690 3709
+type(
+  ('e Sgraph.node * bool -> unit) -> ('e Sgraph.node * bool) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/global/dep.ml" 83 3690 3711 "utilities/global/dep.ml" 83 3690 3721
+type(
+  'e Sgraph.node -> 'e Sgraph.node * bool -> unit
+)
+ident(
+  int_ref attach_one "utilities/global/dep.ml" 73 3460 3470 "utilities/global/dep.ml" 73 3460 3480
+)
+"utilities/global/dep.ml" 83 3690 3722 "utilities/global/dep.ml" 83 3690 3726
+type(
+  'e Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 80 3612 3633 "utilities/global/dep.ml" 80 3612 3637
+)
+"utilities/global/dep.ml" 83 3690 3710 "utilities/global/dep.ml" 83 3690 3727
+call(
+  stack
+)
+type(
+  'e Sgraph.node * bool -> unit
+)
+"utilities/global/dep.ml" 83 3690 3728 "utilities/global/dep.ml" 83 3690 3729
+type(
+  ('e Sgraph.node * bool) list
+)
+ident(
+  int_ref l "utilities/global/dep.ml" 82 3654 3668 "utilities/global/dep.ml" 82 3654 3669
+)
+"utilities/global/dep.ml" 83 3690 3700 "utilities/global/dep.ml" 83 3690 3729
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 82 3654 3664 "utilities/global/dep.ml" 83 3690 3729
+type(
+  unit
+)
+"utilities/global/dep.ml" 85 3743 3755 "utilities/global/dep.ml" 85 3743 3764
+type(
+  exn
+)
+"utilities/global/dep.ml" 85 3743 3768 "utilities/global/dep.ml" 85 3743 3770
+type(
+  unit
+)
+"utilities/global/dep.ml" 81 3642 3650 "utilities/global/dep.ml" 85 3743 3770
+type(
+  unit
+)
+"utilities/global/dep.ml" 87 3775 3787 "utilities/global/dep.ml" 87 3775 3793
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 72 3405 3428 "utilities/global/dep.ml" 72 3405 3434
+)
+"utilities/global/dep.ml" 88 3799 3809 "utilities/global/dep.ml" 88 3799 3811
+type(
+  Read.equation Sgraph.node list
+)
+"utilities/global/dep.ml" 88 3799 3815 "utilities/global/dep.ml" 88 3799 3817
+type(
+  unit
+)
+"utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3832
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  def node "utilities/global/dep.ml" 90 3846 3858 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 89 3818 3836 "utilities/global/dep.ml" 89 3818 3842
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  def g_list "utilities/global/dep.ml" 90 3846 3858 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3842
+type(
+  Read.equation Sgraph.node list
+)
+"utilities/global/dep.ml" 90 3846 3862 "utilities/global/dep.ml" 90 3846 3867
+type(
+  Idents.ident list
+)
+ident(
+  def names "utilities/global/dep.ml" 91 3899 3911 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 90 3846 3870 "utilities/global/dep.ml" 90 3846 3879
+type(
+  Read.equation -> Idents.ident list
+)
+ident(
+  int_ref Read.read "utilities/global/dep.ml" 37 2173 2175 "utilities/global/dep.ml" 37 2173 2207
+)
+"utilities/global/dep.ml" 90 3846 3881 "utilities/global/dep.ml" 90 3846 3889
+type(
+  Read.equation Sgraph.node -> Read.equation
+)
+ident(
+  ext_ref Sgraph.containt
+)
+"utilities/global/dep.ml" 90 3846 3890 "utilities/global/dep.ml" 90 3846 3894
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3832
+)
+"utilities/global/dep.ml" 90 3846 3880 "utilities/global/dep.ml" 90 3846 3895
+call(
+  stack
+)
+type(
+  Read.equation
+)
+"utilities/global/dep.ml" 90 3846 3870 "utilities/global/dep.ml" 90 3846 3895
+call(
+  stack
+)
+type(
+  Idents.ident list
+)
+"utilities/global/dep.ml" 91 3899 3911 "utilities/global/dep.ml" 91 3899 3920
+type(
+  (Idents.Env.key -> unit) -> Idents.Env.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/global/dep.ml" 91 3899 3922 "utilities/global/dep.ml" 91 3899 3928
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  Read.equation Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "utilities/global/dep.ml" 80 3612 3622 "utilities/global/dep.ml" 80 3612 3628
+)
+"utilities/global/dep.ml" 91 3899 3929 "utilities/global/dep.ml" 91 3899 3943
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref names_to_graph "utilities/global/dep.ml" 72 3405 3435 "utilities/global/dep.ml" 72 3405 3449
+)
+"utilities/global/dep.ml" 91 3899 3944 "utilities/global/dep.ml" 91 3899 3948
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3832
+)
+"utilities/global/dep.ml" 91 3899 3921 "utilities/global/dep.ml" 91 3899 3949
+call(
+  stack
+)
+type(
+  Idents.Env.key -> unit
+)
+"utilities/global/dep.ml" 91 3899 3950 "utilities/global/dep.ml" 91 3899 3955
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref names "utilities/global/dep.ml" 90 3846 3862 "utilities/global/dep.ml" 90 3846 3867
+)
+"utilities/global/dep.ml" 91 3899 3911 "utilities/global/dep.ml" 91 3899 3955
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 92 3957 3973 "utilities/global/dep.ml" 92 3957 3978
+type(
+  Idents.ident list
+)
+ident(
+  def reads "utilities/global/dep.ml" 93 4040 4052 "utilities/global/dep.ml" 94 4091 4143
+)
+"utilities/global/dep.ml" 92 3957 3981 "utilities/global/dep.ml" 92 3957 3995
+type(
+  Idents.ident list -> Idents.ident list -> Idents.ident list
+)
+ident(
+  ext_ref Misc.list_diff
+)
+"utilities/global/dep.ml" 92 3957 3996 "utilities/global/dep.ml" 92 3957 4001
+type(
+  Idents.ident list
+)
+ident(
+  int_ref names "utilities/global/dep.ml" 90 3846 3862 "utilities/global/dep.ml" 90 3846 3867
+)
+"utilities/global/dep.ml" 92 3957 4003 "utilities/global/dep.ml" 92 3957 4019
+type(
+  Read.equation -> Idents.ident list
+)
+ident(
+  int_ref Read.linear_read "utilities/global/dep.ml" 38 2208 2210 "utilities/global/dep.ml" 38 2208 2250
+)
+"utilities/global/dep.ml" 92 3957 4021 "utilities/global/dep.ml" 92 3957 4029
+type(
+  Read.equation Sgraph.node -> Read.equation
+)
+ident(
+  ext_ref Sgraph.containt
+)
+"utilities/global/dep.ml" 92 3957 4030 "utilities/global/dep.ml" 92 3957 4034
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3832
+)
+"utilities/global/dep.ml" 92 3957 4020 "utilities/global/dep.ml" 92 3957 4035
+call(
+  stack
+)
+type(
+  Read.equation
+)
+"utilities/global/dep.ml" 92 3957 4002 "utilities/global/dep.ml" 92 3957 4036
+call(
+  stack
+)
+type(
+  Idents.ident list
+)
+"utilities/global/dep.ml" 92 3957 3981 "utilities/global/dep.ml" 92 3957 4036
+call(
+  stack
+)
+type(
+  Idents.ident list
+)
+"utilities/global/dep.ml" 93 4040 4052 "utilities/global/dep.ml" 93 4040 4061
+type(
+  (Idents.Env.key -> unit) -> Idents.Env.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/global/dep.ml" 93 4040 4063 "utilities/global/dep.ml" 93 4040 4069
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  Read.equation Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "utilities/global/dep.ml" 80 3612 3622 "utilities/global/dep.ml" 80 3612 3628
+)
+"utilities/global/dep.ml" 93 4040 4070 "utilities/global/dep.ml" 93 4040 4077
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 72 3405 3450 "utilities/global/dep.ml" 72 3405 3457
+)
+"utilities/global/dep.ml" 93 4040 4078 "utilities/global/dep.ml" 93 4040 4082
+type(
+  Read.equation Sgraph.node
+)
+ident(
+  int_ref node "utilities/global/dep.ml" 89 3818 3828 "utilities/global/dep.ml" 89 3818 3832
+)
+"utilities/global/dep.ml" 93 4040 4062 "utilities/global/dep.ml" 93 4040 4083
+call(
+  stack
+)
+type(
+  Idents.Env.key -> unit
+)
+"utilities/global/dep.ml" 93 4040 4084 "utilities/global/dep.ml" 93 4040 4089
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref reads "utilities/global/dep.ml" 92 3957 3973 "utilities/global/dep.ml" 92 3957 3978
+)
+"utilities/global/dep.ml" 93 4040 4052 "utilities/global/dep.ml" 93 4040 4089
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 94 4091 4103 "utilities/global/dep.ml" 94 4091 4113
+type(
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t -> unit
+)
+ident(
+  int_ref make_graph "utilities/global/dep.ml" 72 3405 3417 "utilities/global/dep.ml" 72 3405 3427
+)
+"utilities/global/dep.ml" 94 4091 4114 "utilities/global/dep.ml" 94 4091 4120
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 89 3818 3836 "utilities/global/dep.ml" 89 3818 3842
+)
+"utilities/global/dep.ml" 94 4091 4121 "utilities/global/dep.ml" 94 4091 4135
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref names_to_graph "utilities/global/dep.ml" 72 3405 3435 "utilities/global/dep.ml" 72 3405 3449
+)
+"utilities/global/dep.ml" 94 4091 4136 "utilities/global/dep.ml" 94 4091 4143
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 72 3405 3450 "utilities/global/dep.ml" 72 3405 3457
+)
+"utilities/global/dep.ml" 94 4091 4103 "utilities/global/dep.ml" 94 4091 4143
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 93 4040 4052 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 92 3957 3969 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 91 3899 3911 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 90 3846 3858 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 87 3775 3781 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 80 3612 3618 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 73 3460 3466 "utilities/global/dep.ml" 94 4091 4143
+type(
+  unit
+)
+"utilities/global/dep.ml" 97 4152 4160 "utilities/global/dep.ml" 97 4152 4166
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  def g_list "utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 97 4152 4168 "utilities/global/dep.ml" 97 4152 4182
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def names_to_graph "utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 97 4152 4184 "utilities/global/dep.ml" 97 4152 4191
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  def lin_map "utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 97 4152 4193 "utilities/global/dep.ml" 97 4152 4201
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  def node_env "utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 100 4307 4327
+)
+"utilities/global/dep.ml" 97 4152 4160 "utilities/global/dep.ml" 97 4152 4201
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 98 4204 4210 "utilities/global/dep.ml" 98 4204 4220
+type(
+  Read.equation list ->
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  Read.equation Sgraph.node Idents.Env.t ->
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref init_graph "utilities/global/dep.ml" 60 2877 2889 "utilities/global/dep.ml" 60 2877 2899
+)
+"utilities/global/dep.ml" 98 4204 4221 "utilities/global/dep.ml" 98 4204 4224
+type(
+  Read.equation list
+)
+ident(
+  int_ref eqs "utilities/global/dep.ml" 45 2369 2381 "utilities/global/dep.ml" 45 2369 2384
+)
+"utilities/global/dep.ml" 98 4204 4225 "utilities/global/dep.ml" 98 4204 4227
+type(
+  Read.equation Sgraph.node list
+)
+"utilities/global/dep.ml" 98 4204 4228 "utilities/global/dep.ml" 98 4204 4237
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"utilities/global/dep.ml" 98 4204 4238 "utilities/global/dep.ml" 98 4204 4247
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"utilities/global/dep.ml" 98 4204 4248 "utilities/global/dep.ml" 98 4204 4257
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"utilities/global/dep.ml" 98 4204 4210 "utilities/global/dep.ml" 98 4204 4257
+call(
+  stack
+)
+type(
+  Read.equation Sgraph.node list *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  (Read.equation Sgraph.node * bool) list Idents.Env.t *
+  Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 99 4261 4275
+type(
+  Read.equation Sgraph.node list ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t ->
+  (Read.equation Sgraph.node * bool) list Idents.Env.t -> unit
+)
+ident(
+  int_ref make_graph "utilities/global/dep.ml" 72 3405 3417 "utilities/global/dep.ml" 72 3405 3427
+)
+"utilities/global/dep.ml" 99 4261 4276 "utilities/global/dep.ml" 99 4261 4282
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 97 4152 4160 "utilities/global/dep.ml" 97 4152 4166
+)
+"utilities/global/dep.ml" 99 4261 4283 "utilities/global/dep.ml" 99 4261 4297
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref names_to_graph "utilities/global/dep.ml" 97 4152 4168 "utilities/global/dep.ml" 97 4152 4182
+)
+"utilities/global/dep.ml" 99 4261 4298 "utilities/global/dep.ml" 99 4261 4305
+type(
+  (Read.equation Sgraph.node * bool) list Idents.Env.t
+)
+ident(
+  int_ref lin_map "utilities/global/dep.ml" 97 4152 4184 "utilities/global/dep.ml" 97 4152 4191
+)
+"utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 99 4261 4305
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/dep.ml" 100 4307 4311 "utilities/global/dep.ml" 100 4307 4317
+type(
+  Read.equation Sgraph.node list
+)
+ident(
+  int_ref g_list "utilities/global/dep.ml" 97 4152 4160 "utilities/global/dep.ml" 97 4152 4166
+)
+"utilities/global/dep.ml" 100 4307 4319 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref node_env "utilities/global/dep.ml" 97 4152 4193 "utilities/global/dep.ml" 97 4152 4201
+)
+"utilities/global/dep.ml" 100 4307 4311 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 99 4261 4265 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 97 4152 4156 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 72 3405 3409 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 60 2877 2881 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 57 2757 2761 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)
+"utilities/global/dep.ml" 47 2446 2450 "utilities/global/dep.ml" 100 4307 4327
+type(
+  Read.equation Sgraph.node list * Read.equation Sgraph.node Idents.Env.t
+)

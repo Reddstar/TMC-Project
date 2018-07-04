@@ -1,0 +1,4227 @@
+"heptagon/transformations/switch.ml" 67 2972 2976 "heptagon/transformations/switch.ml" 67 2972 2990
+type(
+  string -> Names.qualname -> Idents.ident
+)
+ident(
+  def fresh_case_var "heptagon/transformations/switch.ml" 72 3140 3140 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 67 2972 2991 "heptagon/transformations/switch.ml" 67 2972 2995
+type(
+  string
+)
+ident(
+  def name "heptagon/transformations/switch.ml" 67 2972 2996 "heptagon/transformations/switch.ml" 70 3093 3138
+)
+"heptagon/transformations/switch.ml" 67 2972 2996 "heptagon/transformations/switch.ml" 67 2972 3002
+type(
+  Names.qualname
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 68 3005 3007 "heptagon/transformations/switch.ml" 70 3093 3138
+)
+"heptagon/transformations/switch.ml" 68 3005 3011 "heptagon/transformations/switch.ml" 68 3005 3014
+type(
+  string * Names.qualname -> string
+)
+ident(
+  def tmp "heptagon/transformations/switch.ml" 70 3093 3095 "heptagon/transformations/switch.ml" 70 3093 3138
+)
+"heptagon/transformations/switch.ml" 68 3005 3016 "heptagon/transformations/switch.ml" 68 3005 3017
+type(
+  string
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 69 3023 3027 "heptagon/transformations/switch.ml" 69 3023 3089
+)
+"heptagon/transformations/switch.ml" 68 3005 3018 "heptagon/transformations/switch.ml" 68 3005 3019
+type(
+  Names.qualname
+)
+ident(
+  def c "heptagon/transformations/switch.ml" 69 3023 3027 "heptagon/transformations/switch.ml" 69 3023 3089
+)
+"heptagon/transformations/switch.ml" 68 3005 3015 "heptagon/transformations/switch.ml" 68 3005 3020
+type(
+  string * Names.qualname
+)
+"heptagon/transformations/switch.ml" 69 3023 3027 "heptagon/transformations/switch.ml" 69 3023 3028
+type(
+  string
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 68 3005 3016 "heptagon/transformations/switch.ml" 68 3005 3017
+)
+"heptagon/transformations/switch.ml" 69 3023 3028 "heptagon/transformations/switch.ml" 69 3023 3029
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"heptagon/transformations/switch.ml" 69 3023 3029 "heptagon/transformations/switch.ml" 69 3023 3032
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 69 3023 3032 "heptagon/transformations/switch.ml" 69 3023 3033
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"heptagon/transformations/switch.ml" 69 3023 3034 "heptagon/transformations/switch.ml" 69 3023 3056
+type(
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> string
+)
+ident(
+  ext_ref Names.print_pp_to_name
+)
+"heptagon/transformations/switch.ml" 69 3023 3057 "heptagon/transformations/switch.ml" 69 3023 3086
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"heptagon/transformations/switch.ml" 69 3023 3087 "heptagon/transformations/switch.ml" 69 3023 3088
+type(
+  Names.qualname
+)
+ident(
+  int_ref c "heptagon/transformations/switch.ml" 68 3005 3018 "heptagon/transformations/switch.ml" 68 3005 3019
+)
+"heptagon/transformations/switch.ml" 69 3023 3033 "heptagon/transformations/switch.ml" 69 3023 3089
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 69 3023 3029 "heptagon/transformations/switch.ml" 69 3023 3089
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 69 3023 3027 "heptagon/transformations/switch.ml" 69 3023 3089
+call(
+  tail
+)
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 70 3093 3095 "heptagon/transformations/switch.ml" 70 3093 3111
+type(
+  string ->
+  (string * Names.qualname -> string) ->
+  ?reset:bool -> string * Names.qualname -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_fresh
+)
+"heptagon/transformations/switch.ml" 70 3093 3112 "heptagon/transformations/switch.ml" 70 3093 3120
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 70 3093 3121 "heptagon/transformations/switch.ml" 70 3093 3124
+type(
+  string * Names.qualname -> string
+)
+ident(
+  int_ref tmp "heptagon/transformations/switch.ml" 68 3005 3011 "heptagon/transformations/switch.ml" 68 3005 3014
+)
+"heptagon/transformations/switch.ml" 70 3093 3126 "heptagon/transformations/switch.ml" 70 3093 3130
+type(
+  string
+)
+ident(
+  int_ref name "heptagon/transformations/switch.ml" 67 2972 2991 "heptagon/transformations/switch.ml" 67 2972 2995
+)
+"heptagon/transformations/switch.ml" 70 3093 3131 "heptagon/transformations/switch.ml" 70 3093 3137
+type(
+  Names.qualname
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 67 2972 2996 "heptagon/transformations/switch.ml" 67 2972 3002
+)
+"heptagon/transformations/switch.ml" 70 3093 3125 "heptagon/transformations/switch.ml" 70 3093 3138
+type(
+  string * Names.qualname
+)
+"heptagon/transformations/switch.ml" 70 3093 3095 "heptagon/transformations/switch.ml" 70 3093 3138
+call(
+  tail
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/switch.ml" 68 3005 3007 "heptagon/transformations/switch.ml" 70 3093 3138
+type(
+  Idents.ident
+)
+"heptagon/transformations/switch.ml" 72 3140 3144 "heptagon/transformations/switch.ml" 72 3140 3158
+type(
+  unit -> Idents.ident
+)
+ident(
+  def fresh_clock_id "heptagon/transformations/switch.ml" 79 3288 3288 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 72 3140 3159 "heptagon/transformations/switch.ml" 72 3140 3161
+type(
+  unit
+)
+"heptagon/transformations/switch.ml" 73 3164 3166 "heptagon/transformations/switch.ml" 73 3164 3180
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"heptagon/transformations/switch.ml" 73 3164 3181 "heptagon/transformations/switch.ml" 73 3164 3189
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 73 3164 3190 "heptagon/transformations/switch.ml" 73 3164 3194
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 73 3164 3166 "heptagon/transformations/switch.ml" 73 3164 3194
+call(
+  tail
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/switch.ml" 87 3381 3385 "heptagon/transformations/switch.ml" 87 3381 3393
+type(
+  Names.constructor_name -> Idents.var_ident -> t -> t
+)
+ident(
+  def level_up "heptagon/transformations/switch.ml" 91 3566 3566 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 87 3381 3394 "heptagon/transformations/switch.ml" 87 3381 3400
+type(
+  Names.constructor_name
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 87 3381 3401 "heptagon/transformations/switch.ml" 89 3492 3564
+)
+"heptagon/transformations/switch.ml" 87 3381 3401 "heptagon/transformations/switch.ml" 87 3381 3405
+type(
+  Idents.var_ident
+)
+ident(
+  def ckid "heptagon/transformations/switch.ml" 87 3381 3406 "heptagon/transformations/switch.ml" 89 3492 3564
+)
+"heptagon/transformations/switch.ml" 87 3381 3406 "heptagon/transformations/switch.ml" 87 3381 3409
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 87 3381 3412 "heptagon/transformations/switch.ml" 89 3492 3564
+)
+"heptagon/transformations/switch.ml" 87 3381 3418 "heptagon/transformations/switch.ml" 87 3381 3421
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 87 3381 3406 "heptagon/transformations/switch.ml" 87 3381 3409
+)
+"heptagon/transformations/switch.ml" 88 3427 3431 "heptagon/transformations/switch.ml" 88 3427 3435
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 88 3427 3449 "heptagon/transformations/switch.ml" 88 3427 3454
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 88 3427 3456 "heptagon/transformations/switch.ml" 88 3427 3462
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 87 3381 3394 "heptagon/transformations/switch.ml" 87 3381 3400
+)
+"heptagon/transformations/switch.ml" 88 3427 3464 "heptagon/transformations/switch.ml" 88 3427 3468
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ckid "heptagon/transformations/switch.ml" 87 3381 3401 "heptagon/transformations/switch.ml" 87 3381 3405
+)
+"heptagon/transformations/switch.ml" 88 3427 3445 "heptagon/transformations/switch.ml" 88 3427 3469
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 88 3427 3471 "heptagon/transformations/switch.ml" 88 3427 3485
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"heptagon/transformations/switch.ml" 88 3427 3487 "heptagon/transformations/switch.ml" 88 3427 3490
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 87 3381 3406 "heptagon/transformations/switch.ml" 87 3381 3409
+)
+"heptagon/transformations/switch.ml" 88 3427 3439 "heptagon/transformations/switch.ml" 88 3427 3491
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 89 3492 3503 "heptagon/transformations/switch.ml" 89 3492 3505
+type(
+  Clocks.ck
+)
+ident(
+  def ck "heptagon/transformations/switch.ml" 89 3492 3515 "heptagon/transformations/switch.ml" 89 3492 3564
+)
+"heptagon/transformations/switch.ml" 89 3492 3507 "heptagon/transformations/switch.ml" 89 3492 3508
+type(
+  Idents.IdentSet.t
+)
+"heptagon/transformations/switch.ml" 89 3492 3509 "heptagon/transformations/switch.ml" 89 3492 3510
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 89 3492 3496 "heptagon/transformations/switch.ml" 89 3492 3511
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 89 3492 3525 "heptagon/transformations/switch.ml" 89 3492 3527
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 89 3492 3503 "heptagon/transformations/switch.ml" 89 3492 3505
+)
+"heptagon/transformations/switch.ml" 89 3492 3529 "heptagon/transformations/switch.ml" 89 3492 3535
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 87 3381 3394 "heptagon/transformations/switch.ml" 87 3381 3400
+)
+"heptagon/transformations/switch.ml" 89 3492 3537 "heptagon/transformations/switch.ml" 89 3492 3541
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ckid "heptagon/transformations/switch.ml" 87 3381 3401 "heptagon/transformations/switch.ml" 87 3381 3405
+)
+"heptagon/transformations/switch.ml" 89 3492 3521 "heptagon/transformations/switch.ml" 89 3492 3542
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 89 3492 3544 "heptagon/transformations/switch.ml" 89 3492 3558
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"heptagon/transformations/switch.ml" 89 3492 3560 "heptagon/transformations/switch.ml" 89 3492 3563
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 87 3381 3406 "heptagon/transformations/switch.ml" 87 3381 3409
+)
+"heptagon/transformations/switch.ml" 89 3492 3515 "heptagon/transformations/switch.ml" 89 3492 3564
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 87 3381 3412 "heptagon/transformations/switch.ml" 89 3492 3564
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 91 3566 3570 "heptagon/transformations/switch.ml" 91 3566 3580
+type(
+  t -> t
+)
+ident(
+  def level_down "heptagon/transformations/switch.ml" 95 3719 3719 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 91 3566 3581 "heptagon/transformations/switch.ml" 91 3566 3584
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 91 3566 3587 "heptagon/transformations/switch.ml" 93 3681 3717
+)
+"heptagon/transformations/switch.ml" 91 3566 3593 "heptagon/transformations/switch.ml" 91 3566 3596
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 91 3566 3581 "heptagon/transformations/switch.ml" 91 3566 3584
+)
+"heptagon/transformations/switch.ml" 92 3602 3606 "heptagon/transformations/switch.ml" 92 3602 3610
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 92 3602 3614 "heptagon/transformations/switch.ml" 92 3602 3628
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/transformations/switch.ml" 92 3602 3629 "heptagon/transformations/switch.ml" 92 3602 3666
+type(
+  (unit, Format.formatter, unit) format
+)
+"heptagon/transformations/switch.ml" 92 3602 3614 "heptagon/transformations/switch.ml" 92 3602 3666
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/switch.ml" 92 3602 3675 "heptagon/transformations/switch.ml" 92 3602 3680
+type(
+  bool
+)
+"heptagon/transformations/switch.ml" 92 3602 3668 "heptagon/transformations/switch.ml" 92 3602 3680
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 92 3602 3614 "heptagon/transformations/switch.ml" 92 3602 3680
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 93 3681 3691 "heptagon/transformations/switch.ml" 93 3681 3692
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 93 3681 3693 "heptagon/transformations/switch.ml" 93 3681 3694
+type(
+  Idents.IdentSet.t
+)
+"heptagon/transformations/switch.ml" 93 3681 3696 "heptagon/transformations/switch.ml" 93 3681 3704
+type(
+  t
+)
+ident(
+  def env_down "heptagon/transformations/switch.ml" 93 3681 3709 "heptagon/transformations/switch.ml" 93 3681 3717
+)
+"heptagon/transformations/switch.ml" 93 3681 3685 "heptagon/transformations/switch.ml" 93 3681 3705
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 93 3681 3709 "heptagon/transformations/switch.ml" 93 3681 3717
+type(
+  t
+)
+ident(
+  int_ref env_down "heptagon/transformations/switch.ml" 93 3681 3696 "heptagon/transformations/switch.ml" 93 3681 3704
+)
+"heptagon/transformations/switch.ml" 91 3566 3587 "heptagon/transformations/switch.ml" 93 3681 3717
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 95 3719 3723 "heptagon/transformations/switch.ml" 95 3719 3730
+type(
+  Idents.IdentSet.elt -> t -> t
+)
+ident(
+  def add_var "heptagon/transformations/switch.ml" 102 3923 3923 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 95 3719 3731 "heptagon/transformations/switch.ml" 95 3719 3732
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  def x "heptagon/transformations/switch.ml" 95 3719 3733 "heptagon/transformations/switch.ml" 98 3796 3833
+)
+"heptagon/transformations/switch.ml" 95 3719 3733 "heptagon/transformations/switch.ml" 95 3719 3736
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 95 3719 3739 "heptagon/transformations/switch.ml" 98 3796 3833
+)
+"heptagon/transformations/switch.ml" 95 3719 3745 "heptagon/transformations/switch.ml" 95 3719 3748
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 95 3719 3733 "heptagon/transformations/switch.ml" 95 3719 3736
+)
+"heptagon/transformations/switch.ml" 96 3754 3758 "heptagon/transformations/switch.ml" 96 3754 3762
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 96 3754 3766 "heptagon/transformations/switch.ml" 96 3754 3770
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 97 3771 3782 "heptagon/transformations/switch.ml" 97 3771 3784
+type(
+  Clocks.ck
+)
+ident(
+  def ck "heptagon/transformations/switch.ml" 98 3796 3802 "heptagon/transformations/switch.ml" 98 3796 3833
+)
+"heptagon/transformations/switch.ml" 97 3771 3786 "heptagon/transformations/switch.ml" 97 3771 3787
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 98 3796 3802 "heptagon/transformations/switch.ml" 98 3796 3833
+)
+"heptagon/transformations/switch.ml" 97 3771 3789 "heptagon/transformations/switch.ml" 97 3771 3791
+type(
+  t
+)
+ident(
+  def ed "heptagon/transformations/switch.ml" 98 3796 3802 "heptagon/transformations/switch.ml" 98 3796 3833
+)
+"heptagon/transformations/switch.ml" 97 3771 3775 "heptagon/transformations/switch.ml" 97 3771 3792
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 98 3796 3808 "heptagon/transformations/switch.ml" 98 3796 3810
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 97 3771 3782 "heptagon/transformations/switch.ml" 97 3771 3784
+)
+"heptagon/transformations/switch.ml" 98 3796 3812 "heptagon/transformations/switch.ml" 98 3796 3824
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"heptagon/transformations/switch.ml" 98 3796 3825 "heptagon/transformations/switch.ml" 98 3796 3826
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  int_ref x "heptagon/transformations/switch.ml" 95 3719 3731 "heptagon/transformations/switch.ml" 95 3719 3732
+)
+"heptagon/transformations/switch.ml" 98 3796 3827 "heptagon/transformations/switch.ml" 98 3796 3828
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 97 3771 3786 "heptagon/transformations/switch.ml" 97 3771 3787
+)
+"heptagon/transformations/switch.ml" 98 3796 3812 "heptagon/transformations/switch.ml" 98 3796 3828
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"heptagon/transformations/switch.ml" 98 3796 3830 "heptagon/transformations/switch.ml" 98 3796 3832
+type(
+  t
+)
+ident(
+  int_ref ed "heptagon/transformations/switch.ml" 97 3771 3789 "heptagon/transformations/switch.ml" 97 3771 3791
+)
+"heptagon/transformations/switch.ml" 98 3796 3802 "heptagon/transformations/switch.ml" 98 3796 3833
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 95 3719 3739 "heptagon/transformations/switch.ml" 98 3796 3833
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 102 3923 3931 "heptagon/transformations/switch.ml" 102 3923 3941
+type(
+  Heptagon.exp -> t -> Heptagon.exp
+)
+ident(
+  def sample_var "heptagon/transformations/switch.ml" 102 3923 3923 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 102 3923 3944 "heptagon/transformations/switch.ml" 116 4455 4482
+)
+"heptagon/transformations/switch.ml" 102 3923 3944 "heptagon/transformations/switch.ml" 102 3923 3947
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 102 3923 3950 "heptagon/transformations/switch.ml" 116 4455 4482
+)
+"heptagon/transformations/switch.ml" 102 3923 3956 "heptagon/transformations/switch.ml" 102 3923 3959
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 102 3923 3944 "heptagon/transformations/switch.ml" 102 3923 3947
+)
+"heptagon/transformations/switch.ml" 103 3965 3969 "heptagon/transformations/switch.ml" 103 3965 3973
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 103 3965 3977 "heptagon/transformations/switch.ml" 103 3965 3978
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 104 3979 3994 "heptagon/transformations/switch.ml" 104 3979 3995
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 104 3979 3997 "heptagon/transformations/switch.ml" 104 3979 4003
+type(
+  Names.constructor_name
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 105 4023 4029 "heptagon/transformations/switch.ml" 115 4429 4454
+)
+"heptagon/transformations/switch.ml" 104 3979 4005 "heptagon/transformations/switch.ml" 104 3979 4007
+type(
+  Idents.var_ident
+)
+ident(
+  def ck "heptagon/transformations/switch.ml" 105 4023 4029 "heptagon/transformations/switch.ml" 115 4429 4454
+)
+"heptagon/transformations/switch.ml" 104 3979 3990 "heptagon/transformations/switch.ml" 104 3979 4008
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 104 3979 4010 "heptagon/transformations/switch.ml" 104 3979 4011
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 105 4023 4029 "heptagon/transformations/switch.ml" 115 4429 4454
+)
+"heptagon/transformations/switch.ml" 104 3979 4013 "heptagon/transformations/switch.ml" 104 3979 4018
+type(
+  t
+)
+ident(
+  def env_d "heptagon/transformations/switch.ml" 105 4023 4029 "heptagon/transformations/switch.ml" 115 4429 4454
+)
+"heptagon/transformations/switch.ml" 104 3979 3983 "heptagon/transformations/switch.ml" 104 3979 4019
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 105 4023 4036 "heptagon/transformations/switch.ml" 105 4023 4037
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 105 4023 4036 "heptagon/transformations/switch.ml" 105 4023 4044
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 106 4050 4065 "heptagon/transformations/switch.ml" 106 4050 4066
+type(
+  Idents.var_ident
+)
+ident(
+  def x "heptagon/transformations/switch.ml" 107 4070 4082 "heptagon/transformations/switch.ml" 111 4250 4307
+)
+"heptagon/transformations/switch.ml" 106 4050 4060 "heptagon/transformations/switch.ml" 106 4050 4066
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 107 4070 4085 "heptagon/transformations/switch.ml" 107 4070 4097
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> bool
+)
+ident(
+  ext_ref Idents.IdentSet.mem
+)
+"heptagon/transformations/switch.ml" 107 4070 4098 "heptagon/transformations/switch.ml" 107 4070 4099
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/transformations/switch.ml" 106 4050 4065 "heptagon/transformations/switch.ml" 106 4050 4066
+)
+"heptagon/transformations/switch.ml" 107 4070 4100 "heptagon/transformations/switch.ml" 107 4070 4101
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 104 3979 4010 "heptagon/transformations/switch.ml" 104 3979 4011
+)
+"heptagon/transformations/switch.ml" 107 4070 4085 "heptagon/transformations/switch.ml" 107 4070 4101
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/switch.ml" 108 4102 4119 "heptagon/transformations/switch.ml" 108 4102 4120
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 110 4219 4234 "heptagon/transformations/switch.ml" 110 4219 4235
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 111 4250 4274 "heptagon/transformations/switch.ml" 111 4250 4284
+type(
+  Heptagon.exp -> t -> Heptagon.exp
+)
+ident(
+  int_ref sample_var "heptagon/transformations/switch.ml" 102 3923 3931 "heptagon/transformations/switch.ml" 102 3923 3941
+)
+"heptagon/transformations/switch.ml" 111 4250 4285 "heptagon/transformations/switch.ml" 111 4250 4286
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 111 4250 4287 "heptagon/transformations/switch.ml" 111 4250 4292
+type(
+  t
+)
+ident(
+  int_ref env_d "heptagon/transformations/switch.ml" 104 3979 4013 "heptagon/transformations/switch.ml" 104 3979 4018
+)
+"heptagon/transformations/switch.ml" 111 4250 4273 "heptagon/transformations/switch.ml" 111 4250 4293
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 111 4250 4295 "heptagon/transformations/switch.ml" 111 4250 4301
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 104 3979 3997 "heptagon/transformations/switch.ml" 104 3979 4003
+)
+"heptagon/transformations/switch.ml" 111 4250 4303 "heptagon/transformations/switch.ml" 111 4250 4305
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 104 3979 4005 "heptagon/transformations/switch.ml" 104 3979 4007
+)
+"heptagon/transformations/switch.ml" 111 4250 4266 "heptagon/transformations/switch.ml" 111 4250 4306
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 110 4219 4233 "heptagon/transformations/switch.ml" 111 4250 4307
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 107 4070 4082 "heptagon/transformations/switch.ml" 111 4250 4307
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 112 4308 4318 "heptagon/transformations/switch.ml" 112 4308 4319
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 113 4323 4334 "heptagon/transformations/switch.ml" 113 4323 4348
+type(
+  ((Format.formatter -> Heptagon.exp -> unit) -> Heptagon.exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Heptagon.exp -> unit) -> Heptagon.exp -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/transformations/switch.ml" 113 4323 4349 "heptagon/transformations/switch.ml" 113 4323 4389
+type(
+  ((Format.formatter -> Heptagon.exp -> unit) -> Heptagon.exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"heptagon/transformations/switch.ml" 114 4390 4403 "heptagon/transformations/switch.ml" 114 4390 4425
+type(
+  Format.formatter -> Heptagon.exp -> unit
+)
+ident(
+  ext_ref Hept_printer.print_exp
+)
+"heptagon/transformations/switch.ml" 114 4390 4426 "heptagon/transformations/switch.ml" 114 4390 4427
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 102 3923 3942 "heptagon/transformations/switch.ml" 102 3923 3943
+)
+"heptagon/transformations/switch.ml" 113 4323 4334 "heptagon/transformations/switch.ml" 114 4390 4427
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/switch.ml" 115 4429 4447 "heptagon/transformations/switch.ml" 115 4429 4452
+type(
+  bool
+)
+"heptagon/transformations/switch.ml" 115 4429 4440 "heptagon/transformations/switch.ml" 115 4429 4452
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 113 4323 4333 "heptagon/transformations/switch.ml" 115 4429 4453
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 105 4023 4029 "heptagon/transformations/switch.ml" 115 4429 4454
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 116 4455 4465 "heptagon/transformations/switch.ml" 116 4455 4466
+type(
+  t
+)
+type(
+  Idents.IdentSet.t
+)
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 116 4455 4459 "heptagon/transformations/switch.ml" 116 4455 4466
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 116 4455 4477 "heptagon/transformations/switch.ml" 116 4455 4482
+type(
+  bool
+)
+"heptagon/transformations/switch.ml" 116 4455 4470 "heptagon/transformations/switch.ml" 116 4455 4482
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 102 3923 3950 "heptagon/transformations/switch.ml" 116 4455 4482
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 120 4527 4531 "heptagon/transformations/switch.ml" 120 4527 4544
+type(
+  t -> Clocks.ck
+)
+ident(
+  def current_level "heptagon/transformations/switch.ml" 125 4688 4688 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 120 4527 4545 "heptagon/transformations/switch.ml" 120 4527 4548
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 120 4527 4551 "heptagon/transformations/switch.ml" 122 4584 4609
+)
+"heptagon/transformations/switch.ml" 120 4527 4557 "heptagon/transformations/switch.ml" 120 4527 4560
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 120 4527 4545 "heptagon/transformations/switch.ml" 120 4527 4548
+)
+"heptagon/transformations/switch.ml" 121 4566 4570 "heptagon/transformations/switch.ml" 121 4566 4574
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 121 4566 4578 "heptagon/transformations/switch.ml" 121 4566 4583
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 122 4584 4595 "heptagon/transformations/switch.ml" 122 4584 4597
+type(
+  Clocks.ck
+)
+ident(
+  def ck "heptagon/transformations/switch.ml" 122 4584 4607 "heptagon/transformations/switch.ml" 122 4584 4609
+)
+"heptagon/transformations/switch.ml" 122 4584 4599 "heptagon/transformations/switch.ml" 122 4584 4600
+type(
+  Idents.IdentSet.t
+)
+"heptagon/transformations/switch.ml" 122 4584 4601 "heptagon/transformations/switch.ml" 122 4584 4602
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 122 4584 4588 "heptagon/transformations/switch.ml" 122 4584 4603
+type(
+  t
+)
+"heptagon/transformations/switch.ml" 122 4584 4607 "heptagon/transformations/switch.ml" 122 4584 4609
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 122 4584 4595 "heptagon/transformations/switch.ml" 122 4584 4597
+)
+"heptagon/transformations/switch.ml" 120 4527 4551 "heptagon/transformations/switch.ml" 122 4584 4609
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 125 4688 4692 "heptagon/transformations/switch.ml" 125 4688 4701
+type(
+  Heptagon.exp -> t -> Heptagon.exp
+)
+ident(
+  def annot_exp "heptagon/transformations/switch.ml" 126 4710 4753 "heptagon/transformations/switch.ml" 128 4755 4758
+)
+"heptagon/transformations/switch.ml" 125 4688 4702 "heptagon/transformations/switch.ml" 125 4688 4703
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 125 4688 4704 "heptagon/transformations/switch.ml" 126 4710 4753
+)
+"heptagon/transformations/switch.ml" 125 4688 4704 "heptagon/transformations/switch.ml" 125 4688 4707
+type(
+  t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 126 4710 4712 "heptagon/transformations/switch.ml" 126 4710 4753
+)
+"heptagon/transformations/switch.ml" 126 4710 4714 "heptagon/transformations/switch.ml" 126 4710 4715
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 125 4688 4702 "heptagon/transformations/switch.ml" 125 4688 4703
+)
+"heptagon/transformations/switch.ml" 126 4710 4734 "heptagon/transformations/switch.ml" 126 4710 4747
+type(
+  t -> Clocks.ck
+)
+ident(
+  int_ref current_level "heptagon/transformations/switch.ml" 120 4527 4531 "heptagon/transformations/switch.ml" 120 4527 4544
+)
+"heptagon/transformations/switch.ml" 126 4710 4748 "heptagon/transformations/switch.ml" 126 4710 4751
+type(
+  t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 125 4688 4704 "heptagon/transformations/switch.ml" 125 4688 4707
+)
+"heptagon/transformations/switch.ml" 126 4710 4734 "heptagon/transformations/switch.ml" 126 4710 4751
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"heptagon/transformations/switch.ml" 126 4710 4712 "heptagon/transformations/switch.ml" 126 4710 4753
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+type(
+  key -> key t -> key
+)
+ident(
+  def rename "heptagon/transformations/switch.ml" 138 4948 4948 "heptagon/transformations/switch.ml" 157 5673 5676
+)
+"heptagon/transformations/switch.ml" 135 4903 4914 "heptagon/transformations/switch.ml" 135 4903 4915
+type(
+  key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 135 4903 4916 "heptagon/transformations/switch.ml" 136 4920 4946
+)
+"heptagon/transformations/switch.ml" 135 4903 4916 "heptagon/transformations/switch.ml" 135 4903 4917
+type(
+  key t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 136 4920 4922 "heptagon/transformations/switch.ml" 136 4920 4946
+)
+"heptagon/transformations/switch.ml" 136 4920 4926 "heptagon/transformations/switch.ml" 136 4920 4930
+type(
+  key -> key t -> key
+)
+ident(
+  ext_ref find
+)
+"heptagon/transformations/switch.ml" 136 4920 4931 "heptagon/transformations/switch.ml" 136 4920 4932
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 135 4903 4914 "heptagon/transformations/switch.ml" 135 4903 4915
+)
+"heptagon/transformations/switch.ml" 136 4920 4933 "heptagon/transformations/switch.ml" 136 4920 4934
+type(
+  key t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 135 4903 4916 "heptagon/transformations/switch.ml" 135 4903 4917
+)
+"heptagon/transformations/switch.ml" 136 4920 4926 "heptagon/transformations/switch.ml" 136 4920 4934
+call(
+  stack
+)
+type(
+  key
+)
+"heptagon/transformations/switch.ml" 136 4920 4940 "heptagon/transformations/switch.ml" 136 4920 4941
+type(
+  exn
+)
+"heptagon/transformations/switch.ml" 136 4920 4945 "heptagon/transformations/switch.ml" 136 4920 4946
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 135 4903 4914 "heptagon/transformations/switch.ml" 135 4903 4915
+)
+"heptagon/transformations/switch.ml" 136 4920 4922 "heptagon/transformations/switch.ml" 136 4920 4946
+type(
+  key
+)
+"heptagon/transformations/switch.ml" 138 4948 4952 "heptagon/transformations/switch.ml" 138 4948 4967
+type(
+  'a t -> key t -> 'a t
+)
+ident(
+  def rename_defnames "heptagon/transformations/switch.ml" 141 5046 5046 "heptagon/transformations/switch.ml" 157 5673 5676
+)
+"heptagon/transformations/switch.ml" 138 4948 4968 "heptagon/transformations/switch.ml" 138 4948 4976
+type(
+  'a t
+)
+ident(
+  def defnames "heptagon/transformations/switch.ml" 138 4948 4977 "heptagon/transformations/switch.ml" 139 4981 5044
+)
+"heptagon/transformations/switch.ml" 138 4948 4977 "heptagon/transformations/switch.ml" 138 4948 4978
+type(
+  key t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 139 4981 4983 "heptagon/transformations/switch.ml" 139 4981 5044
+)
+"heptagon/transformations/switch.ml" 139 4981 4983 "heptagon/transformations/switch.ml" 139 4981 4987
+type(
+  (key -> 'a -> 'a t -> 'a t) -> 'a t -> 'a t -> 'a t
+)
+ident(
+  ext_ref fold
+)
+"heptagon/transformations/switch.ml" 139 4981 4993 "heptagon/transformations/switch.ml" 139 4981 4994
+type(
+  key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 139 4981 4995 "heptagon/transformations/switch.ml" 139 4981 5028
+)
+"heptagon/transformations/switch.ml" 139 4981 4995 "heptagon/transformations/switch.ml" 139 4981 4997
+type(
+  'a
+)
+ident(
+  def ty "heptagon/transformations/switch.ml" 139 4981 4998 "heptagon/transformations/switch.ml" 139 4981 5028
+)
+"heptagon/transformations/switch.ml" 139 4981 4998 "heptagon/transformations/switch.ml" 139 4981 5001
+type(
+  'a t
+)
+ident(
+  def acc "heptagon/transformations/switch.ml" 139 4981 5005 "heptagon/transformations/switch.ml" 139 4981 5028
+)
+"heptagon/transformations/switch.ml" 139 4981 5005 "heptagon/transformations/switch.ml" 139 4981 5008
+type(
+  key -> 'a -> 'a t -> 'a t
+)
+ident(
+  ext_ref add
+)
+"heptagon/transformations/switch.ml" 139 4981 5010 "heptagon/transformations/switch.ml" 139 4981 5016
+type(
+  key -> key t -> key
+)
+ident(
+  int_ref rename "heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+)
+"heptagon/transformations/switch.ml" 139 4981 5017 "heptagon/transformations/switch.ml" 139 4981 5018
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 139 4981 4993 "heptagon/transformations/switch.ml" 139 4981 4994
+)
+"heptagon/transformations/switch.ml" 139 4981 5019 "heptagon/transformations/switch.ml" 139 4981 5020
+type(
+  key t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 138 4948 4977 "heptagon/transformations/switch.ml" 138 4948 4978
+)
+"heptagon/transformations/switch.ml" 139 4981 5009 "heptagon/transformations/switch.ml" 139 4981 5021
+call(
+  stack
+)
+type(
+  key
+)
+"heptagon/transformations/switch.ml" 139 4981 5022 "heptagon/transformations/switch.ml" 139 4981 5024
+type(
+  'a
+)
+ident(
+  int_ref ty "heptagon/transformations/switch.ml" 139 4981 4995 "heptagon/transformations/switch.ml" 139 4981 4997
+)
+"heptagon/transformations/switch.ml" 139 4981 5025 "heptagon/transformations/switch.ml" 139 4981 5028
+type(
+  'a t
+)
+ident(
+  int_ref acc "heptagon/transformations/switch.ml" 139 4981 4998 "heptagon/transformations/switch.ml" 139 4981 5001
+)
+"heptagon/transformations/switch.ml" 139 4981 5005 "heptagon/transformations/switch.ml" 139 4981 5028
+call(
+  tail
+)
+type(
+  'a t
+)
+"heptagon/transformations/switch.ml" 139 4981 4988 "heptagon/transformations/switch.ml" 139 4981 5029
+type(
+  key -> 'a -> 'a t -> 'a t
+)
+"heptagon/transformations/switch.ml" 139 4981 5030 "heptagon/transformations/switch.ml" 139 4981 5038
+type(
+  'a t
+)
+ident(
+  int_ref defnames "heptagon/transformations/switch.ml" 138 4948 4968 "heptagon/transformations/switch.ml" 138 4948 4976
+)
+"heptagon/transformations/switch.ml" 139 4981 5039 "heptagon/transformations/switch.ml" 139 4981 5044
+type(
+  'a t
+)
+ident(
+  ext_ref empty
+)
+"heptagon/transformations/switch.ml" 139 4981 4983 "heptagon/transformations/switch.ml" 139 4981 5044
+call(
+  tail
+)
+type(
+  'a t
+)
+"heptagon/transformations/switch.ml" 141 5046 5050 "heptagon/transformations/switch.ml" 141 5046 5058
+type(
+  'b t -> Names.qualname -> key t -> Idents.ident t
+)
+ident(
+  def level_up "heptagon/transformations/switch.ml" 150 5373 5373 "heptagon/transformations/switch.ml" 157 5673 5676
+)
+"heptagon/transformations/switch.ml" 141 5046 5059 "heptagon/transformations/switch.ml" 141 5046 5067
+type(
+  'b t
+)
+ident(
+  def defnames "heptagon/transformations/switch.ml" 141 5046 5068 "heptagon/transformations/switch.ml" 147 5228 5291
+)
+"heptagon/transformations/switch.ml" 141 5046 5068 "heptagon/transformations/switch.ml" 141 5046 5074
+type(
+  Names.qualname
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 141 5046 5075 "heptagon/transformations/switch.ml" 147 5228 5291
+)
+"heptagon/transformations/switch.ml" 141 5046 5075 "heptagon/transformations/switch.ml" 141 5046 5076
+type(
+  key t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 142 5079 5081 "heptagon/transformations/switch.ml" 147 5228 5291
+)
+"heptagon/transformations/switch.ml" 142 5079 5085 "heptagon/transformations/switch.ml" 142 5079 5099
+type(
+  key -> Idents.ident t -> Idents.ident t
+)
+ident(
+  def ident_level_up "heptagon/transformations/switch.ml" 147 5228 5230 "heptagon/transformations/switch.ml" 147 5228 5291
+)
+"heptagon/transformations/switch.ml" 142 5079 5100 "heptagon/transformations/switch.ml" 142 5079 5101
+type(
+  key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 142 5079 5102 "heptagon/transformations/switch.ml" 145 5201 5222
+)
+"heptagon/transformations/switch.ml" 142 5079 5102 "heptagon/transformations/switch.ml" 142 5079 5107
+type(
+  Idents.ident t
+)
+ident(
+  def new_h "heptagon/transformations/switch.ml" 143 5110 5114 "heptagon/transformations/switch.ml" 145 5201 5222
+)
+"heptagon/transformations/switch.ml" 143 5110 5118 "heptagon/transformations/switch.ml" 143 5110 5123
+type(
+  key
+)
+ident(
+  def old_n "heptagon/transformations/switch.ml" 144 5140 5144 "heptagon/transformations/switch.ml" 145 5201 5222
+)
+"heptagon/transformations/switch.ml" 143 5110 5126 "heptagon/transformations/switch.ml" 143 5110 5132
+type(
+  key -> key t -> key
+)
+ident(
+  int_ref rename "heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+)
+"heptagon/transformations/switch.ml" 143 5110 5133 "heptagon/transformations/switch.ml" 143 5110 5134
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 142 5079 5100 "heptagon/transformations/switch.ml" 142 5079 5101
+)
+"heptagon/transformations/switch.ml" 143 5110 5135 "heptagon/transformations/switch.ml" 143 5110 5136
+type(
+  key t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 141 5046 5075 "heptagon/transformations/switch.ml" 141 5046 5076
+)
+"heptagon/transformations/switch.ml" 143 5110 5126 "heptagon/transformations/switch.ml" 143 5110 5136
+call(
+  stack
+)
+type(
+  key
+)
+"heptagon/transformations/switch.ml" 144 5140 5148 "heptagon/transformations/switch.ml" 144 5140 5153
+type(
+  Idents.ident
+)
+ident(
+  def new_n "heptagon/transformations/switch.ml" 145 5201 5205 "heptagon/transformations/switch.ml" 145 5201 5222
+)
+"heptagon/transformations/switch.ml" 144 5140 5156 "heptagon/transformations/switch.ml" 144 5140 5170
+type(
+  string -> Names.qualname -> Idents.ident
+)
+ident(
+  int_ref fresh_case_var "heptagon/transformations/switch.ml" 67 2972 2976 "heptagon/transformations/switch.ml" 67 2972 2990
+)
+"heptagon/transformations/switch.ml" 144 5140 5172 "heptagon/transformations/switch.ml" 144 5140 5183
+type(
+  key -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/transformations/switch.ml" 144 5140 5184 "heptagon/transformations/switch.ml" 144 5140 5189
+type(
+  key
+)
+ident(
+  int_ref old_n "heptagon/transformations/switch.ml" 143 5110 5118 "heptagon/transformations/switch.ml" 143 5110 5123
+)
+"heptagon/transformations/switch.ml" 144 5140 5171 "heptagon/transformations/switch.ml" 144 5140 5190
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/switch.ml" 144 5140 5191 "heptagon/transformations/switch.ml" 144 5140 5197
+type(
+  Names.qualname
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 141 5046 5068 "heptagon/transformations/switch.ml" 141 5046 5074
+)
+"heptagon/transformations/switch.ml" 144 5140 5156 "heptagon/transformations/switch.ml" 144 5140 5197
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/switch.ml" 145 5201 5205 "heptagon/transformations/switch.ml" 145 5201 5208
+type(
+  key -> Idents.ident -> Idents.ident t -> Idents.ident t
+)
+ident(
+  ext_ref add
+)
+"heptagon/transformations/switch.ml" 145 5201 5209 "heptagon/transformations/switch.ml" 145 5201 5210
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 142 5079 5100 "heptagon/transformations/switch.ml" 142 5079 5101
+)
+"heptagon/transformations/switch.ml" 145 5201 5211 "heptagon/transformations/switch.ml" 145 5201 5216
+type(
+  Idents.ident
+)
+ident(
+  int_ref new_n "heptagon/transformations/switch.ml" 144 5140 5148 "heptagon/transformations/switch.ml" 144 5140 5153
+)
+"heptagon/transformations/switch.ml" 145 5201 5217 "heptagon/transformations/switch.ml" 145 5201 5222
+type(
+  Idents.ident t
+)
+ident(
+  int_ref new_h "heptagon/transformations/switch.ml" 142 5079 5102 "heptagon/transformations/switch.ml" 142 5079 5107
+)
+"heptagon/transformations/switch.ml" 145 5201 5205 "heptagon/transformations/switch.ml" 145 5201 5222
+call(
+  tail
+)
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 144 5140 5144 "heptagon/transformations/switch.ml" 145 5201 5222
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 143 5110 5114 "heptagon/transformations/switch.ml" 145 5201 5222
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 147 5228 5230 "heptagon/transformations/switch.ml" 147 5228 5234
+type(
+  (key -> 'b -> Idents.ident t -> Idents.ident t) ->
+  'b t -> Idents.ident t -> Idents.ident t
+)
+ident(
+  ext_ref fold
+)
+"heptagon/transformations/switch.ml" 147 5228 5240 "heptagon/transformations/switch.ml" 147 5228 5241
+type(
+  key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 147 5228 5242 "heptagon/transformations/switch.ml" 147 5228 5275
+)
+"heptagon/transformations/switch.ml" 147 5228 5242 "heptagon/transformations/switch.ml" 147 5228 5243
+type(
+  'b
+)
+"heptagon/transformations/switch.ml" 147 5228 5244 "heptagon/transformations/switch.ml" 147 5228 5249
+type(
+  Idents.ident t
+)
+ident(
+  def new_h "heptagon/transformations/switch.ml" 147 5228 5253 "heptagon/transformations/switch.ml" 147 5228 5275
+)
+"heptagon/transformations/switch.ml" 147 5228 5253 "heptagon/transformations/switch.ml" 147 5228 5267
+type(
+  key -> Idents.ident t -> Idents.ident t
+)
+ident(
+  int_ref ident_level_up "heptagon/transformations/switch.ml" 142 5079 5085 "heptagon/transformations/switch.ml" 142 5079 5099
+)
+"heptagon/transformations/switch.ml" 147 5228 5268 "heptagon/transformations/switch.ml" 147 5228 5269
+type(
+  key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 147 5228 5240 "heptagon/transformations/switch.ml" 147 5228 5241
+)
+"heptagon/transformations/switch.ml" 147 5228 5270 "heptagon/transformations/switch.ml" 147 5228 5275
+type(
+  Idents.ident t
+)
+ident(
+  int_ref new_h "heptagon/transformations/switch.ml" 147 5228 5244 "heptagon/transformations/switch.ml" 147 5228 5249
+)
+"heptagon/transformations/switch.ml" 147 5228 5253 "heptagon/transformations/switch.ml" 147 5228 5275
+call(
+  tail
+)
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 147 5228 5235 "heptagon/transformations/switch.ml" 147 5228 5276
+type(
+  key -> 'b -> Idents.ident t -> Idents.ident t
+)
+"heptagon/transformations/switch.ml" 147 5228 5277 "heptagon/transformations/switch.ml" 147 5228 5285
+type(
+  'b t
+)
+ident(
+  int_ref defnames "heptagon/transformations/switch.ml" 141 5046 5059 "heptagon/transformations/switch.ml" 141 5046 5067
+)
+"heptagon/transformations/switch.ml" 147 5228 5286 "heptagon/transformations/switch.ml" 147 5228 5291
+type(
+  Idents.ident t
+)
+ident(
+  ext_ref empty
+)
+"heptagon/transformations/switch.ml" 147 5228 5230 "heptagon/transformations/switch.ml" 147 5228 5291
+call(
+  tail
+)
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 142 5079 5081 "heptagon/transformations/switch.ml" 147 5228 5291
+type(
+  Idents.ident t
+)
+"heptagon/transformations/switch.ml" 150 5373 5377 "heptagon/transformations/switch.ml" 150 5373 5390
+type(
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Idents.var_ident t -> Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def add_to_locals "heptagon/transformations/switch.ml" 156 5637 5672 "heptagon/transformations/switch.ml" 157 5673 5676
+)
+"heptagon/transformations/switch.ml" 150 5373 5391 "heptagon/transformations/switch.ml" 150 5373 5397
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 150 5373 5398 "heptagon/transformations/switch.ml" 156 5637 5672
+)
+"heptagon/transformations/switch.ml" 150 5373 5398 "heptagon/transformations/switch.ml" 150 5373 5404
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 150 5373 5405 "heptagon/transformations/switch.ml" 156 5637 5672
+)
+"heptagon/transformations/switch.ml" 150 5373 5405 "heptagon/transformations/switch.ml" 150 5373 5406
+type(
+  Idents.var_ident t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 151 5409 5411 "heptagon/transformations/switch.ml" 156 5637 5672
+)
+"heptagon/transformations/switch.ml" 151 5409 5415 "heptagon/transformations/switch.ml" 151 5409 5422
+type(
+  Idents.Env.key ->
+  Idents.var_ident ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def add_one "heptagon/transformations/switch.ml" 156 5637 5641 "heptagon/transformations/switch.ml" 156 5637 5672
+)
+"heptagon/transformations/switch.ml" 151 5409 5423 "heptagon/transformations/switch.ml" 151 5409 5424
+type(
+  Idents.Env.key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 151 5409 5425 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 151 5409 5425 "heptagon/transformations/switch.ml" 151 5409 5427
+type(
+  Idents.var_ident
+)
+ident(
+  def nn "heptagon/transformations/switch.ml" 151 5409 5428 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 151 5409 5429 "heptagon/transformations/switch.ml" 151 5409 5435
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 152 5446 5450 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 151 5409 5436 "heptagon/transformations/switch.ml" 151 5409 5442
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 152 5446 5450 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 151 5409 5428 "heptagon/transformations/switch.ml" 151 5409 5443
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 152 5446 5454 "heptagon/transformations/switch.ml" 152 5446 5461
+type(
+  Heptagon.var_dec
+)
+ident(
+  def orig_vd "heptagon/transformations/switch.ml" 153 5492 5496 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 152 5446 5464 "heptagon/transformations/switch.ml" 152 5446 5479
+type(
+  Idents.Env.key -> Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/transformations/switch.ml" 152 5446 5480 "heptagon/transformations/switch.ml" 152 5446 5481
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 151 5409 5423 "heptagon/transformations/switch.ml" 151 5409 5424
+)
+"heptagon/transformations/switch.ml" 152 5446 5482 "heptagon/transformations/switch.ml" 152 5446 5488
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 151 5409 5436 "heptagon/transformations/switch.ml" 151 5409 5442
+)
+"heptagon/transformations/switch.ml" 152 5446 5464 "heptagon/transformations/switch.ml" 152 5446 5488
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/switch.ml" 153 5492 5500 "heptagon/transformations/switch.ml" 153 5492 5505
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd_nn "heptagon/transformations/switch.ml" 154 5571 5575 "heptagon/transformations/switch.ml" 154 5571 5631
+)
+"heptagon/transformations/switch.ml" 153 5492 5508 "heptagon/transformations/switch.ml" 153 5492 5518
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/switch.ml" 153 5492 5519 "heptagon/transformations/switch.ml" 153 5492 5521
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref nn "heptagon/transformations/switch.ml" 151 5409 5425 "heptagon/transformations/switch.ml" 151 5409 5427
+)
+"heptagon/transformations/switch.ml" 153 5492 5522 "heptagon/transformations/switch.ml" 153 5492 5529
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref orig_vd "heptagon/transformations/switch.ml" 152 5446 5454 "heptagon/transformations/switch.ml" 152 5446 5461
+)
+"heptagon/transformations/switch.ml" 153 5492 5522 "heptagon/transformations/switch.ml" 153 5492 5536
+type(
+  Types.ty
+)
+"heptagon/transformations/switch.ml" 153 5492 5548 "heptagon/transformations/switch.ml" 153 5492 5555
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref orig_vd "heptagon/transformations/switch.ml" 152 5446 5454 "heptagon/transformations/switch.ml" 152 5446 5461
+)
+"heptagon/transformations/switch.ml" 153 5492 5548 "heptagon/transformations/switch.ml" 153 5492 5567
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/switch.ml" 153 5492 5508 "heptagon/transformations/switch.ml" 153 5492 5567
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/switch.ml" 154 5571 5575 "heptagon/transformations/switch.ml" 154 5571 5580
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd_nn "heptagon/transformations/switch.ml" 153 5492 5500 "heptagon/transformations/switch.ml" 153 5492 5505
+)
+"heptagon/transformations/switch.ml" 154 5571 5582 "heptagon/transformations/switch.ml" 154 5571 5588
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 151 5409 5429 "heptagon/transformations/switch.ml" 151 5409 5435
+)
+"heptagon/transformations/switch.ml" 154 5571 5575 "heptagon/transformations/switch.ml" 154 5571 5588
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/switch.ml" 154 5571 5590 "heptagon/transformations/switch.ml" 154 5571 5604
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/switch.ml" 154 5571 5605 "heptagon/transformations/switch.ml" 154 5571 5610
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd_nn "heptagon/transformations/switch.ml" 153 5492 5500 "heptagon/transformations/switch.ml" 153 5492 5505
+)
+"heptagon/transformations/switch.ml" 154 5571 5605 "heptagon/transformations/switch.ml" 154 5571 5618
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/switch.ml" 154 5571 5619 "heptagon/transformations/switch.ml" 154 5571 5624
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd_nn "heptagon/transformations/switch.ml" 153 5492 5500 "heptagon/transformations/switch.ml" 153 5492 5505
+)
+"heptagon/transformations/switch.ml" 154 5571 5625 "heptagon/transformations/switch.ml" 154 5571 5631
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 151 5409 5436 "heptagon/transformations/switch.ml" 151 5409 5442
+)
+"heptagon/transformations/switch.ml" 154 5571 5590 "heptagon/transformations/switch.ml" 154 5571 5631
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 154 5571 5575 "heptagon/transformations/switch.ml" 154 5571 5631
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 153 5492 5496 "heptagon/transformations/switch.ml" 154 5571 5631
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 152 5446 5450 "heptagon/transformations/switch.ml" 154 5571 5631
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 156 5637 5641 "heptagon/transformations/switch.ml" 156 5637 5645
+type(
+  (key ->
+   Idents.var_ident ->
+   Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t ->
+   Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t) ->
+  Idents.var_ident t ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref fold
+)
+"heptagon/transformations/switch.ml" 156 5637 5646 "heptagon/transformations/switch.ml" 156 5637 5653
+type(
+  key ->
+  Idents.var_ident ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref add_one "heptagon/transformations/switch.ml" 151 5409 5415 "heptagon/transformations/switch.ml" 151 5409 5422
+)
+"heptagon/transformations/switch.ml" 156 5637 5654 "heptagon/transformations/switch.ml" 156 5637 5655
+type(
+  Idents.var_ident t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 150 5373 5405 "heptagon/transformations/switch.ml" 150 5373 5406
+)
+"heptagon/transformations/switch.ml" 156 5637 5657 "heptagon/transformations/switch.ml" 156 5637 5663
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 150 5373 5398 "heptagon/transformations/switch.ml" 150 5373 5404
+)
+"heptagon/transformations/switch.ml" 156 5637 5665 "heptagon/transformations/switch.ml" 156 5637 5671
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 150 5373 5391 "heptagon/transformations/switch.ml" 150 5373 5397
+)
+"heptagon/transformations/switch.ml" 156 5637 5656 "heptagon/transformations/switch.ml" 156 5637 5672
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 156 5637 5641 "heptagon/transformations/switch.ml" 156 5637 5672
+call(
+  tail
+)
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 151 5409 5411 "heptagon/transformations/switch.ml" 156 5637 5672
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 163 5749 5753 "heptagon/transformations/switch.ml" 163 5749 5760
+type(
+  'a ->
+  'b * 'c * Rename.key Rename.t ->
+  Heptagon.pat -> Heptagon.pat * ('b * 'c * Rename.key Rename.t)
+)
+ident(
+  def pattern "heptagon/transformations/switch.ml" 167 5896 5896 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 163 5749 5761 "heptagon/transformations/switch.ml" 163 5749 5762
+type(
+  'a
+)
+"heptagon/transformations/switch.ml" 163 5749 5764 "heptagon/transformations/switch.ml" 163 5749 5770
+type(
+  'b
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 163 5749 5778 "heptagon/transformations/switch.ml" 165 5862 5894
+)
+"heptagon/transformations/switch.ml" 163 5749 5771 "heptagon/transformations/switch.ml" 163 5749 5774
+type(
+  'c
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 163 5749 5778 "heptagon/transformations/switch.ml" 165 5862 5894
+)
+"heptagon/transformations/switch.ml" 163 5749 5775 "heptagon/transformations/switch.ml" 163 5749 5776
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 163 5749 5778 "heptagon/transformations/switch.ml" 165 5862 5894
+)
+"heptagon/transformations/switch.ml" 163 5749 5763 "heptagon/transformations/switch.ml" 163 5749 5777
+type(
+  'b * 'c * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 163 5749 5778 "heptagon/transformations/switch.ml" 163 5749 5781
+type(
+  Heptagon.pat
+)
+ident(
+  def pat "heptagon/transformations/switch.ml" 163 5749 5784 "heptagon/transformations/switch.ml" 165 5862 5894
+)
+"heptagon/transformations/switch.ml" 163 5749 5790 "heptagon/transformations/switch.ml" 163 5749 5793
+type(
+  Heptagon.pat
+)
+ident(
+  int_ref pat "heptagon/transformations/switch.ml" 163 5749 5778 "heptagon/transformations/switch.ml" 163 5749 5781
+)
+"heptagon/transformations/switch.ml" 164 5799 5813 "heptagon/transformations/switch.ml" 164 5799 5814
+type(
+  Idents.var_ident
+)
+ident(
+  def x "heptagon/transformations/switch.ml" 164 5799 5818 "heptagon/transformations/switch.ml" 164 5799 5861
+)
+"heptagon/transformations/switch.ml" 164 5799 5805 "heptagon/transformations/switch.ml" 164 5799 5814
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/switch.ml" 164 5799 5827 "heptagon/transformations/switch.ml" 164 5799 5840
+type(
+  Rename.key -> Rename.key Rename.t -> Rename.key
+)
+ident(
+  int_ref Rename.rename "heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+)
+"heptagon/transformations/switch.ml" 164 5799 5841 "heptagon/transformations/switch.ml" 164 5799 5842
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/transformations/switch.ml" 164 5799 5813 "heptagon/transformations/switch.ml" 164 5799 5814
+)
+"heptagon/transformations/switch.ml" 164 5799 5843 "heptagon/transformations/switch.ml" 164 5799 5844
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 163 5749 5775 "heptagon/transformations/switch.ml" 163 5749 5776
+)
+"heptagon/transformations/switch.ml" 164 5799 5826 "heptagon/transformations/switch.ml" 164 5799 5845
+call(
+  stack
+)
+type(
+  Rename.key
+)
+"heptagon/transformations/switch.ml" 164 5799 5818 "heptagon/transformations/switch.ml" 164 5799 5845
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/switch.ml" 164 5799 5848 "heptagon/transformations/switch.ml" 164 5799 5854
+type(
+  'b
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 163 5749 5764 "heptagon/transformations/switch.ml" 163 5749 5770
+)
+"heptagon/transformations/switch.ml" 164 5799 5855 "heptagon/transformations/switch.ml" 164 5799 5858
+type(
+  'c
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 163 5749 5771 "heptagon/transformations/switch.ml" 163 5749 5774
+)
+"heptagon/transformations/switch.ml" 164 5799 5859 "heptagon/transformations/switch.ml" 164 5799 5860
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 163 5749 5775 "heptagon/transformations/switch.ml" 163 5749 5776
+)
+"heptagon/transformations/switch.ml" 164 5799 5847 "heptagon/transformations/switch.ml" 164 5799 5861
+type(
+  'b * 'c * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 164 5799 5818 "heptagon/transformations/switch.ml" 164 5799 5861
+type(
+  Heptagon.pat * ('b * 'c * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 165 5862 5868 "heptagon/transformations/switch.ml" 165 5862 5869
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/switch.ml" 165 5862 5873 "heptagon/transformations/switch.ml" 165 5862 5878
+type(
+  exn -> Heptagon.pat * ('b * 'c * Rename.key Rename.t)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/switch.ml" 165 5862 5879 "heptagon/transformations/switch.ml" 165 5862 5894
+type(
+  exn
+)
+"heptagon/transformations/switch.ml" 165 5862 5873 "heptagon/transformations/switch.ml" 165 5862 5894
+type(
+  Heptagon.pat * ('b * 'c * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 163 5749 5784 "heptagon/transformations/switch.ml" 165 5862 5894
+type(
+  Heptagon.pat * ('b * 'c * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 167 5896 5900 "heptagon/transformations/switch.ml" 167 5896 5907
+type(
+  'a ->
+  Heptagon.var_dec Idents.Env.t * Env.t * 'b ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec * (Heptagon.var_dec Idents.Env.t * Env.t * 'b)
+)
+ident(
+  def var_dec "heptagon/transformations/switch.ml" 173 6089 6089 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 167 5896 5908 "heptagon/transformations/switch.ml" 167 5896 5909
+type(
+  'a
+)
+"heptagon/transformations/switch.ml" 167 5896 5911 "heptagon/transformations/switch.ml" 167 5896 5917
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 167 5896 5918 "heptagon/transformations/switch.ml" 167 5896 5921
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 167 5896 5922 "heptagon/transformations/switch.ml" 167 5896 5923
+type(
+  'b
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 167 5896 5910 "heptagon/transformations/switch.ml" 167 5896 5924
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * 'b
+)
+"heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 167 5896 5927
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/switch.ml" 168 5930 5932 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 168 5930 5936 "heptagon/transformations/switch.ml" 168 5930 5939
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 169 5972 5974 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 168 5930 5942 "heptagon/transformations/switch.ml" 168 5930 5953
+type(
+  Idents.IdentSet.elt -> Env.t -> Env.t
+)
+ident(
+  int_ref Env.add_var "heptagon/transformations/switch.ml" 95 3719 3723 "heptagon/transformations/switch.ml" 95 3719 3730
+)
+"heptagon/transformations/switch.ml" 168 5930 5954 "heptagon/transformations/switch.ml" 168 5930 5956
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 167 5896 5927
+)
+"heptagon/transformations/switch.ml" 168 5930 5954 "heptagon/transformations/switch.ml" 168 5930 5964
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/switch.ml" 168 5930 5965 "heptagon/transformations/switch.ml" 168 5930 5968
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 167 5896 5918 "heptagon/transformations/switch.ml" 167 5896 5921
+)
+"heptagon/transformations/switch.ml" 168 5930 5942 "heptagon/transformations/switch.ml" 168 5930 5968
+call(
+  stack
+)
+type(
+  Env.t
+)
+"heptagon/transformations/switch.ml" 169 5972 5978 "heptagon/transformations/switch.ml" 169 5972 5984
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 170 6026 6028 "heptagon/transformations/switch.ml" 170 6026 6046
+)
+"heptagon/transformations/switch.ml" 169 5972 5987 "heptagon/transformations/switch.ml" 169 5972 6001
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/switch.ml" 169 5972 6002 "heptagon/transformations/switch.ml" 169 5972 6004
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 167 5896 5927
+)
+"heptagon/transformations/switch.ml" 169 5972 6002 "heptagon/transformations/switch.ml" 169 5972 6012
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/switch.ml" 169 5972 6013 "heptagon/transformations/switch.ml" 169 5972 6015
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 167 5896 5927
+)
+"heptagon/transformations/switch.ml" 169 5972 6016 "heptagon/transformations/switch.ml" 169 5972 6022
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 167 5896 5911 "heptagon/transformations/switch.ml" 167 5896 5917
+)
+"heptagon/transformations/switch.ml" 169 5972 5987 "heptagon/transformations/switch.ml" 169 5972 6022
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 170 6026 6028 "heptagon/transformations/switch.ml" 170 6026 6030
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 167 5896 5925 "heptagon/transformations/switch.ml" 167 5896 5927
+)
+"heptagon/transformations/switch.ml" 170 6026 6033 "heptagon/transformations/switch.ml" 170 6026 6039
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 169 5972 5978 "heptagon/transformations/switch.ml" 169 5972 5984
+)
+"heptagon/transformations/switch.ml" 170 6026 6040 "heptagon/transformations/switch.ml" 170 6026 6043
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 168 5930 5936 "heptagon/transformations/switch.ml" 168 5930 5939
+)
+"heptagon/transformations/switch.ml" 170 6026 6044 "heptagon/transformations/switch.ml" 170 6026 6045
+type(
+  'b
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 167 5896 5922 "heptagon/transformations/switch.ml" 167 5896 5923
+)
+"heptagon/transformations/switch.ml" 170 6026 6032 "heptagon/transformations/switch.ml" 170 6026 6046
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * 'b
+)
+"heptagon/transformations/switch.ml" 170 6026 6028 "heptagon/transformations/switch.ml" 170 6026 6046
+type(
+  Heptagon.var_dec * (Heptagon.var_dec Idents.Env.t * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 169 5972 5974 "heptagon/transformations/switch.ml" 170 6026 6046
+type(
+  Heptagon.var_dec * (Heptagon.var_dec Idents.Env.t * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 168 5930 5932 "heptagon/transformations/switch.ml" 170 6026 6046
+type(
+  Heptagon.var_dec * (Heptagon.var_dec Idents.Env.t * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 173 6089 6093 "heptagon/transformations/switch.ml" 173 6089 6098
+type(
+  ('a * 'b * Rename.key Rename.t) Hept_mapfold.hept_it_funs ->
+  'a * 'b * Rename.key Rename.t ->
+  Heptagon.block -> Heptagon.block * ('a * 'b * Rename.key Rename.t)
+)
+ident(
+  def block "heptagon/transformations/switch.ml" 178 6282 6282 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 173 6089 6099 "heptagon/transformations/switch.ml" 173 6089 6103
+type(
+  ('a * 'b * Rename.key Rename.t) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/switch.ml" 173 6089 6104 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 173 6089 6105 "heptagon/transformations/switch.ml" 173 6089 6111
+type(
+  'a
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 173 6089 6112 "heptagon/transformations/switch.ml" 173 6089 6115
+type(
+  'b
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 173 6089 6116 "heptagon/transformations/switch.ml" 173 6089 6117
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 173 6089 6104 "heptagon/transformations/switch.ml" 173 6089 6118
+type(
+  'a * 'b * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 173 6089 6120
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/switch.ml" 174 6123 6125 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 174 6123 6129 "heptagon/transformations/switch.ml" 174 6123 6130
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/switch.ml" 175 6198 6200 "heptagon/transformations/switch.ml" 175 6198 6240
+)
+"heptagon/transformations/switch.ml" 174 6123 6135 "heptagon/transformations/switch.ml" 174 6123 6136
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 173 6089 6120
+)
+"heptagon/transformations/switch.ml" 174 6123 6155 "heptagon/transformations/switch.ml" 174 6123 6177
+type(
+  Heptagon.var_dec Rename.t ->
+  Rename.key Rename.t -> Heptagon.var_dec Rename.t
+)
+ident(
+  int_ref Rename.rename_defnames "heptagon/transformations/switch.ml" 138 4948 4952 "heptagon/transformations/switch.ml" 138 4948 4967
+)
+"heptagon/transformations/switch.ml" 174 6123 6178 "heptagon/transformations/switch.ml" 174 6123 6179
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/switch.ml" 173 6089 6119 "heptagon/transformations/switch.ml" 173 6089 6120
+)
+"heptagon/transformations/switch.ml" 174 6123 6178 "heptagon/transformations/switch.ml" 174 6123 6190
+type(
+  Heptagon.var_dec Rename.t
+)
+"heptagon/transformations/switch.ml" 174 6123 6191 "heptagon/transformations/switch.ml" 174 6123 6192
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 173 6089 6116 "heptagon/transformations/switch.ml" 173 6089 6117
+)
+"heptagon/transformations/switch.ml" 174 6123 6155 "heptagon/transformations/switch.ml" 174 6123 6192
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Rename.t
+)
+"heptagon/transformations/switch.ml" 174 6123 6133 "heptagon/transformations/switch.ml" 174 6123 6194
+type(
+  Heptagon.block
+)
+"heptagon/transformations/switch.ml" 175 6198 6200 "heptagon/transformations/switch.ml" 175 6198 6218
+type(
+  ('a * 'b * Rename.key Rename.t) Hept_mapfold.hept_it_funs ->
+  'a * 'b * Rename.key Rename.t ->
+  Heptagon.block -> Heptagon.block * ('a * 'b * Rename.key Rename.t)
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/switch.ml" 175 6198 6219 "heptagon/transformations/switch.ml" 175 6198 6223
+type(
+  ('a * 'b * Rename.key Rename.t) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 173 6089 6099 "heptagon/transformations/switch.ml" 173 6089 6103
+)
+"heptagon/transformations/switch.ml" 175 6198 6225 "heptagon/transformations/switch.ml" 175 6198 6231
+type(
+  'a
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 173 6089 6105 "heptagon/transformations/switch.ml" 173 6089 6111
+)
+"heptagon/transformations/switch.ml" 175 6198 6232 "heptagon/transformations/switch.ml" 175 6198 6235
+type(
+  'b
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 173 6089 6112 "heptagon/transformations/switch.ml" 173 6089 6115
+)
+"heptagon/transformations/switch.ml" 175 6198 6236 "heptagon/transformations/switch.ml" 175 6198 6237
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 173 6089 6116 "heptagon/transformations/switch.ml" 173 6089 6117
+)
+"heptagon/transformations/switch.ml" 175 6198 6224 "heptagon/transformations/switch.ml" 175 6198 6238
+type(
+  'a * 'b * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 175 6198 6239 "heptagon/transformations/switch.ml" 175 6198 6240
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/switch.ml" 174 6123 6129 "heptagon/transformations/switch.ml" 174 6123 6130
+)
+"heptagon/transformations/switch.ml" 175 6198 6200 "heptagon/transformations/switch.ml" 175 6198 6240
+call(
+  tail
+)
+type(
+  Heptagon.block * ('a * 'b * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 174 6123 6125 "heptagon/transformations/switch.ml" 175 6198 6240
+type(
+  Heptagon.block * ('a * 'b * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 178 6282 6286 "heptagon/transformations/switch.ml" 178 6282 6289
+type(
+  ('a * Env.t * 'b) Hept_mapfold.hept_it_funs ->
+  'a * Env.t * 'b -> Heptagon.exp -> Heptagon.exp * ('a * Env.t * 'b)
+)
+ident(
+  def exp "heptagon/transformations/switch.ml" 185 6499 6499 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 178 6282 6290 "heptagon/transformations/switch.ml" 178 6282 6294
+type(
+  ('a * Env.t * 'b) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/switch.ml" 178 6282 6295 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 178 6282 6296 "heptagon/transformations/switch.ml" 178 6282 6302
+type(
+  'a
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 178 6282 6310 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 178 6282 6303 "heptagon/transformations/switch.ml" 178 6282 6306
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 178 6282 6310 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 178 6282 6307 "heptagon/transformations/switch.ml" 178 6282 6308
+type(
+  'b
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 178 6282 6310 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 178 6282 6295 "heptagon/transformations/switch.ml" 178 6282 6309
+type(
+  'a * Env.t * 'b
+)
+"heptagon/transformations/switch.ml" 178 6282 6310 "heptagon/transformations/switch.ml" 178 6282 6311
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 179 6314 6316 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 179 6314 6320 "heptagon/transformations/switch.ml" 179 6314 6321
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 180 6347 6349 "heptagon/transformations/switch.ml" 182 6420 6467
+)
+"heptagon/transformations/switch.ml" 179 6314 6324 "heptagon/transformations/switch.ml" 179 6314 6337
+type(
+  Heptagon.exp -> Env.t -> Heptagon.exp
+)
+ident(
+  int_ref Env.annot_exp "heptagon/transformations/switch.ml" 125 4688 4692 "heptagon/transformations/switch.ml" 125 4688 4701
+)
+"heptagon/transformations/switch.ml" 179 6314 6338 "heptagon/transformations/switch.ml" 179 6314 6339
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 178 6282 6310 "heptagon/transformations/switch.ml" 178 6282 6311
+)
+"heptagon/transformations/switch.ml" 179 6314 6340 "heptagon/transformations/switch.ml" 179 6314 6343
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 178 6282 6303 "heptagon/transformations/switch.ml" 178 6282 6306
+)
+"heptagon/transformations/switch.ml" 179 6314 6324 "heptagon/transformations/switch.ml" 179 6314 6343
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 180 6347 6355 "heptagon/transformations/switch.ml" 180 6347 6356
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 179 6314 6320 "heptagon/transformations/switch.ml" 179 6314 6321
+)
+"heptagon/transformations/switch.ml" 180 6347 6355 "heptagon/transformations/switch.ml" 180 6347 6363
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 181 6369 6378 "heptagon/transformations/switch.ml" 181 6369 6379
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/switch.ml" 181 6369 6373 "heptagon/transformations/switch.ml" 181 6369 6379
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 181 6369 6383 "heptagon/transformations/switch.ml" 181 6369 6397
+type(
+  Heptagon.exp -> Env.t -> Heptagon.exp
+)
+ident(
+  int_ref Env.sample_var "heptagon/transformations/switch.ml" 102 3923 3931 "heptagon/transformations/switch.ml" 102 3923 3941
+)
+"heptagon/transformations/switch.ml" 181 6369 6398 "heptagon/transformations/switch.ml" 181 6369 6399
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 179 6314 6320 "heptagon/transformations/switch.ml" 179 6314 6321
+)
+"heptagon/transformations/switch.ml" 181 6369 6400 "heptagon/transformations/switch.ml" 181 6369 6403
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 178 6282 6303 "heptagon/transformations/switch.ml" 178 6282 6306
+)
+"heptagon/transformations/switch.ml" 181 6369 6383 "heptagon/transformations/switch.ml" 181 6369 6403
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 181 6369 6406 "heptagon/transformations/switch.ml" 181 6369 6412
+type(
+  'a
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 178 6282 6296 "heptagon/transformations/switch.ml" 178 6282 6302
+)
+"heptagon/transformations/switch.ml" 181 6369 6413 "heptagon/transformations/switch.ml" 181 6369 6416
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 178 6282 6303 "heptagon/transformations/switch.ml" 178 6282 6306
+)
+"heptagon/transformations/switch.ml" 181 6369 6417 "heptagon/transformations/switch.ml" 181 6369 6418
+type(
+  'b
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 178 6282 6307 "heptagon/transformations/switch.ml" 178 6282 6308
+)
+"heptagon/transformations/switch.ml" 181 6369 6405 "heptagon/transformations/switch.ml" 181 6369 6419
+type(
+  'a * Env.t * 'b
+)
+"heptagon/transformations/switch.ml" 181 6369 6383 "heptagon/transformations/switch.ml" 181 6369 6419
+type(
+  Heptagon.exp * ('a * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 182 6420 6424 "heptagon/transformations/switch.ml" 182 6420 6425
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 182 6420 6429 "heptagon/transformations/switch.ml" 182 6420 6445
+type(
+  ('a * Env.t * 'b) Hept_mapfold.hept_it_funs ->
+  'a * Env.t * 'b -> Heptagon.exp -> Heptagon.exp * ('a * Env.t * 'b)
+)
+ident(
+  ext_ref Hept_mapfold.exp
+)
+"heptagon/transformations/switch.ml" 182 6420 6446 "heptagon/transformations/switch.ml" 182 6420 6450
+type(
+  ('a * Env.t * 'b) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 178 6282 6290 "heptagon/transformations/switch.ml" 178 6282 6294
+)
+"heptagon/transformations/switch.ml" 182 6420 6452 "heptagon/transformations/switch.ml" 182 6420 6458
+type(
+  'a
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 178 6282 6296 "heptagon/transformations/switch.ml" 178 6282 6302
+)
+"heptagon/transformations/switch.ml" 182 6420 6459 "heptagon/transformations/switch.ml" 182 6420 6462
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 178 6282 6303 "heptagon/transformations/switch.ml" 178 6282 6306
+)
+"heptagon/transformations/switch.ml" 182 6420 6463 "heptagon/transformations/switch.ml" 182 6420 6464
+type(
+  'b
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 178 6282 6307 "heptagon/transformations/switch.ml" 178 6282 6308
+)
+"heptagon/transformations/switch.ml" 182 6420 6451 "heptagon/transformations/switch.ml" 182 6420 6465
+type(
+  'a * Env.t * 'b
+)
+"heptagon/transformations/switch.ml" 182 6420 6466 "heptagon/transformations/switch.ml" 182 6420 6467
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 179 6314 6320 "heptagon/transformations/switch.ml" 179 6314 6321
+)
+"heptagon/transformations/switch.ml" 182 6420 6429 "heptagon/transformations/switch.ml" 182 6420 6467
+call(
+  tail
+)
+type(
+  Heptagon.exp * ('a * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 180 6347 6349 "heptagon/transformations/switch.ml" 182 6420 6467
+type(
+  Heptagon.exp * ('a * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 179 6314 6316 "heptagon/transformations/switch.ml" 182 6420 6467
+type(
+  Heptagon.exp * ('a * Env.t * 'b)
+)
+"heptagon/transformations/switch.ml" 185 6499 6503 "heptagon/transformations/switch.ml" 185 6499 6505
+type(
+  ('a * 'b * 'c) Hept_mapfold.hept_it_funs ->
+  'a * 'b * 'c -> Heptagon.eq -> Heptagon.eq * ('a * 'b * 'c)
+)
+ident(
+  def eq "heptagon/transformations/switch.ml" 193 6830 6830 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 185 6499 6506 "heptagon/transformations/switch.ml" 185 6499 6510
+type(
+  ('a * 'b * 'c) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/switch.ml" 185 6499 6511 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 185 6499 6512 "heptagon/transformations/switch.ml" 185 6499 6518
+type(
+  'a
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 185 6499 6519 "heptagon/transformations/switch.ml" 185 6499 6522
+type(
+  'b
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 185 6499 6523 "heptagon/transformations/switch.ml" 185 6499 6524
+type(
+  'c
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 185 6499 6511 "heptagon/transformations/switch.ml" 185 6499 6525
+type(
+  'a * 'b * 'c
+)
+"heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/switch.ml" 186 6531 6533 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 186 6531 6537 "heptagon/transformations/switch.ml" 186 6531 6540
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/transformations/switch.ml" 190 6742 6744 "heptagon/transformations/switch.ml" 190 6742 6803
+)
+"heptagon/transformations/switch.ml" 186 6531 6549 "heptagon/transformations/switch.ml" 186 6531 6551
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+)
+"heptagon/transformations/switch.ml" 186 6531 6549 "heptagon/transformations/switch.ml" 186 6531 6559
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 187 6565 6578 "heptagon/transformations/switch.ml" 187 6565 6579
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/switch.ml" 188 6644 6652 "heptagon/transformations/switch.ml" 188 6644 6716
+)
+"heptagon/transformations/switch.ml" 187 6565 6571 "heptagon/transformations/switch.ml" 187 6565 6579
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 188 6644 6661 "heptagon/transformations/switch.ml" 188 6644 6662
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/switch.ml" 187 6565 6578 "heptagon/transformations/switch.ml" 187 6565 6579
+)
+"heptagon/transformations/switch.ml" 188 6644 6681 "heptagon/transformations/switch.ml" 188 6644 6683
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+)
+"heptagon/transformations/switch.ml" 188 6644 6681 "heptagon/transformations/switch.ml" 188 6644 6695
+type(
+  bool
+)
+"heptagon/transformations/switch.ml" 188 6644 6705 "heptagon/transformations/switch.ml" 188 6644 6707
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+)
+"heptagon/transformations/switch.ml" 188 6644 6705 "heptagon/transformations/switch.ml" 188 6644 6714
+type(
+  Location.location
+)
+"heptagon/transformations/switch.ml" 188 6644 6659 "heptagon/transformations/switch.ml" 188 6644 6716
+type(
+  Heptagon.block
+)
+"heptagon/transformations/switch.ml" 188 6644 6652 "heptagon/transformations/switch.ml" 188 6644 6716
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 189 6717 6723 "heptagon/transformations/switch.ml" 189 6717 6724
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 189 6717 6728 "heptagon/transformations/switch.ml" 189 6717 6730
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+)
+"heptagon/transformations/switch.ml" 189 6717 6728 "heptagon/transformations/switch.ml" 189 6717 6738
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 186 6531 6543 "heptagon/transformations/switch.ml" 189 6717 6738
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 190 6742 6744 "heptagon/transformations/switch.ml" 190 6742 6759
+type(
+  ('a * 'b * 'c) Hept_mapfold.hept_it_funs ->
+  'a * 'b * 'c -> Heptagon.eq -> Heptagon.eq * ('a * 'b * 'c)
+)
+ident(
+  ext_ref Hept_mapfold.eq
+)
+"heptagon/transformations/switch.ml" 190 6742 6760 "heptagon/transformations/switch.ml" 190 6742 6764
+type(
+  ('a * 'b * 'c) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 185 6499 6506 "heptagon/transformations/switch.ml" 185 6499 6510
+)
+"heptagon/transformations/switch.ml" 190 6742 6766 "heptagon/transformations/switch.ml" 190 6742 6772
+type(
+  'a
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 185 6499 6512 "heptagon/transformations/switch.ml" 185 6499 6518
+)
+"heptagon/transformations/switch.ml" 190 6742 6773 "heptagon/transformations/switch.ml" 190 6742 6776
+type(
+  'b
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 185 6499 6519 "heptagon/transformations/switch.ml" 185 6499 6522
+)
+"heptagon/transformations/switch.ml" 190 6742 6777 "heptagon/transformations/switch.ml" 190 6742 6778
+type(
+  'c
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 185 6499 6523 "heptagon/transformations/switch.ml" 185 6499 6524
+)
+"heptagon/transformations/switch.ml" 190 6742 6765 "heptagon/transformations/switch.ml" 190 6742 6779
+type(
+  'a * 'b * 'c
+)
+"heptagon/transformations/switch.ml" 190 6742 6781 "heptagon/transformations/switch.ml" 190 6742 6783
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6526 "heptagon/transformations/switch.ml" 185 6499 6528
+)
+"heptagon/transformations/switch.ml" 190 6742 6799 "heptagon/transformations/switch.ml" 190 6742 6802
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/transformations/switch.ml" 186 6531 6537 "heptagon/transformations/switch.ml" 186 6531 6540
+)
+"heptagon/transformations/switch.ml" 190 6742 6780 "heptagon/transformations/switch.ml" 190 6742 6803
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/switch.ml" 190 6742 6744 "heptagon/transformations/switch.ml" 190 6742 6803
+call(
+  tail
+)
+type(
+  Heptagon.eq * ('a * 'b * 'c)
+)
+"heptagon/transformations/switch.ml" 186 6531 6533 "heptagon/transformations/switch.ml" 190 6742 6803
+type(
+  Heptagon.eq * ('a * 'b * 'c)
+)
+"heptagon/transformations/switch.ml" 193 6830 6834 "heptagon/transformations/switch.ml" 193 6830 6840
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.eqdesc ->
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  def eqdesc "heptagon/transformations/switch.ml" 241 8853 8853 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 193 6830 6841 "heptagon/transformations/switch.ml" 193 6830 6845
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/switch.ml" 193 6830 6846 "heptagon/transformations/switch.ml" 239 8821 8851
+)
+"heptagon/transformations/switch.ml" 193 6830 6847 "heptagon/transformations/switch.ml" 193 6830 6853
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 193 6830 6861 "heptagon/transformations/switch.ml" 239 8821 8851
+)
+"heptagon/transformations/switch.ml" 193 6830 6854 "heptagon/transformations/switch.ml" 193 6830 6857
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 193 6830 6861 "heptagon/transformations/switch.ml" 239 8821 8851
+)
+"heptagon/transformations/switch.ml" 193 6830 6858 "heptagon/transformations/switch.ml" 193 6830 6859
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 193 6830 6861 "heptagon/transformations/switch.ml" 239 8821 8851
+)
+"heptagon/transformations/switch.ml" 193 6830 6846 "heptagon/transformations/switch.ml" 193 6830 6860
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 193 6830 6861 "heptagon/transformations/switch.ml" 193 6830 6864
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def eqd "heptagon/transformations/switch.ml" 193 6830 6867 "heptagon/transformations/switch.ml" 239 8821 8851
+)
+"heptagon/transformations/switch.ml" 193 6830 6873 "heptagon/transformations/switch.ml" 193 6830 6876
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref eqd "heptagon/transformations/switch.ml" 193 6830 6861 "heptagon/transformations/switch.ml" 193 6830 6864
+)
+"heptagon/transformations/switch.ml" 194 6882 6895 "heptagon/transformations/switch.ml" 194 6882 6896
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 196 6982 6988 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 194 6882 6898 "heptagon/transformations/switch.ml" 194 6882 6904
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def sw_h_l "heptagon/transformations/switch.ml" 196 6982 6988 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 194 6882 6886 "heptagon/transformations/switch.ml" 194 6882 6905
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 196 6982 6992 "heptagon/transformations/switch.ml" 196 6982 6994
+type(
+  Idents.ident
+)
+ident(
+  def ck "heptagon/transformations/switch.ml" 197 7018 7024 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 196 6982 6997 "heptagon/transformations/switch.ml" 196 6982 7011
+type(
+  unit -> Idents.ident
+)
+ident(
+  int_ref fresh_clock_id "heptagon/transformations/switch.ml" 72 3140 3144 "heptagon/transformations/switch.ml" 72 3140 3158
+)
+"heptagon/transformations/switch.ml" 196 6982 7012 "heptagon/transformations/switch.ml" 196 6982 7014
+type(
+  unit
+)
+"heptagon/transformations/switch.ml" 196 6982 6997 "heptagon/transformations/switch.ml" 196 6982 7014
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/switch.ml" 197 7018 7028 "heptagon/transformations/switch.ml" 197 7018 7029
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/switch.ml" 198 7080 7086 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 197 7018 7032 "heptagon/transformations/switch.ml" 197 7018 7038
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 198 7080 7086 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 197 7018 7039 "heptagon/transformations/switch.ml" 197 7018 7042
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 198 7080 7086 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 197 7018 7043 "heptagon/transformations/switch.ml" 197 7018 7044
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 198 7080 7086 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 197 7018 7031 "heptagon/transformations/switch.ml" 197 7018 7045
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 197 7018 7028 "heptagon/transformations/switch.ml" 197 7018 7045
+type(
+  Heptagon.exp *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 197 7018 7048 "heptagon/transformations/switch.ml" 197 7018 7054
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.exp ->
+  Heptagon.exp *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/switch.ml" 197 7018 7055 "heptagon/transformations/switch.ml" 197 7018 7059
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 193 6830 6841 "heptagon/transformations/switch.ml" 193 6830 6845
+)
+"heptagon/transformations/switch.ml" 197 7018 7061 "heptagon/transformations/switch.ml" 197 7018 7067
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 193 6830 6847 "heptagon/transformations/switch.ml" 193 6830 6853
+)
+"heptagon/transformations/switch.ml" 197 7018 7068 "heptagon/transformations/switch.ml" 197 7018 7071
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 193 6830 6854 "heptagon/transformations/switch.ml" 193 6830 6857
+)
+"heptagon/transformations/switch.ml" 197 7018 7072 "heptagon/transformations/switch.ml" 197 7018 7073
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 193 6830 6858 "heptagon/transformations/switch.ml" 193 6830 6859
+)
+"heptagon/transformations/switch.ml" 197 7018 7060 "heptagon/transformations/switch.ml" 197 7018 7074
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 197 7018 7075 "heptagon/transformations/switch.ml" 197 7018 7076
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 194 6882 6895 "heptagon/transformations/switch.ml" 194 6882 6896
+)
+"heptagon/transformations/switch.ml" 197 7018 7048 "heptagon/transformations/switch.ml" 197 7018 7076
+call(
+  stack
+)
+type(
+  Heptagon.exp *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 198 7080 7090 "heptagon/transformations/switch.ml" 198 7080 7096
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 199 7150 7156 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 198 7080 7100 "heptagon/transformations/switch.ml" 198 7080 7110
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/switch.ml" 198 7080 7111 "heptagon/transformations/switch.ml" 198 7080 7113
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 196 6982 6992 "heptagon/transformations/switch.ml" 196 6982 6994
+)
+"heptagon/transformations/switch.ml" 198 7080 7114 "heptagon/transformations/switch.ml" 198 7080 7115
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 197 7018 7028 "heptagon/transformations/switch.ml" 197 7018 7029
+)
+"heptagon/transformations/switch.ml" 198 7080 7114 "heptagon/transformations/switch.ml" 198 7080 7120
+type(
+  Types.ty
+)
+"heptagon/transformations/switch.ml" 198 7080 7132 "heptagon/transformations/switch.ml" 198 7080 7133
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 197 7018 7028 "heptagon/transformations/switch.ml" 197 7018 7029
+)
+"heptagon/transformations/switch.ml" 198 7080 7132 "heptagon/transformations/switch.ml" 198 7080 7145
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/switch.ml" 198 7080 7100 "heptagon/transformations/switch.ml" 198 7080 7145
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/switch.ml" 198 7080 7099 "heptagon/transformations/switch.ml" 198 7080 7146
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/switch.ml" 199 7150 7160 "heptagon/transformations/switch.ml" 199 7150 7164
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 202 7287 7293 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 199 7150 7168 "heptagon/transformations/switch.ml" 199 7150 7179
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/switch.ml" 199 7150 7194 "heptagon/transformations/switch.ml" 199 7150 7196
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 196 6982 6992 "heptagon/transformations/switch.ml" 196 6982 6994
+)
+"heptagon/transformations/switch.ml" 199 7150 7186 "heptagon/transformations/switch.ml" 199 7150 7196
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/switch.ml" 199 7150 7198 "heptagon/transformations/switch.ml" 199 7150 7199
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/switch.ml" 197 7018 7028 "heptagon/transformations/switch.ml" 197 7018 7029
+)
+"heptagon/transformations/switch.ml" 199 7150 7180 "heptagon/transformations/switch.ml" 199 7150 7201
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 199 7150 7168 "heptagon/transformations/switch.ml" 199 7150 7201
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/switch.ml" 199 7150 7167 "heptagon/transformations/switch.ml" 199 7150 7202
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 202 7287 7297 "heptagon/transformations/switch.ml" 202 7287 7305
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/switch.ml" 205 7383 7389 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 202 7287 7309 "heptagon/transformations/switch.ml" 202 7287 7316
+type(
+  Heptagon.switch_handler list -> Heptagon.switch_handler
+)
+ident(
+  ext_ref List.hd
+)
+"heptagon/transformations/switch.ml" 202 7287 7317 "heptagon/transformations/switch.ml" 202 7287 7323
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref sw_h_l "heptagon/transformations/switch.ml" 194 6882 6898 "heptagon/transformations/switch.ml" 194 6882 6904
+)
+"heptagon/transformations/switch.ml" 202 7287 7308 "heptagon/transformations/switch.ml" 202 7287 7324
+call(
+  stack
+)
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/switch.ml" 202 7287 7308 "heptagon/transformations/switch.ml" 202 7287 7332
+type(
+  Heptagon.block
+)
+"heptagon/transformations/switch.ml" 202 7287 7308 "heptagon/transformations/switch.ml" 202 7287 7343
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 205 7383 7393 "heptagon/transformations/switch.ml" 205 7383 7407
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler ->
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def switch_handler "heptagon/transformations/switch.ml" 219 8008 8014 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 205 7383 7409 "heptagon/transformations/switch.ml" 205 7383 7414
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+ident(
+  def c_h_l "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 205 7383 7416 "heptagon/transformations/switch.ml" 205 7383 7422
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 205 7383 7424 "heptagon/transformations/switch.ml" 205 7383 7428
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 205 7383 7430 "heptagon/transformations/switch.ml" 205 7383 7436
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 205 7383 7408 "heptagon/transformations/switch.ml" 205 7383 7437
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 205 7383 7442
+type(
+  Heptagon.switch_handler
+)
+ident(
+  def sw_h "heptagon/transformations/switch.ml" 206 7445 7453 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 206 7445 7457 "heptagon/transformations/switch.ml" 206 7445 7463
+type(
+  Names.constructor_name
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 208 7504 7512 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 206 7445 7466 "heptagon/transformations/switch.ml" 206 7445 7470
+type(
+  Heptagon.switch_handler
+)
+ident(
+  int_ref sw_h "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 205 7383 7442
+)
+"heptagon/transformations/switch.ml" 206 7445 7466 "heptagon/transformations/switch.ml" 206 7445 7477
+type(
+  Names.constructor_name
+)
+"heptagon/transformations/switch.ml" 208 7504 7516 "heptagon/transformations/switch.ml" 208 7504 7517
+type(
+  Idents.ident Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 209 7557 7565 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 208 7504 7520 "heptagon/transformations/switch.ml" 208 7504 7535
+type(
+  Heptagon.var_dec Rename.t ->
+  Names.constructor_name -> Rename.key Rename.t -> Idents.ident Rename.t
+)
+ident(
+  int_ref Rename.level_up "heptagon/transformations/switch.ml" 141 5046 5050 "heptagon/transformations/switch.ml" 141 5046 5058
+)
+"heptagon/transformations/switch.ml" 208 7504 7536 "heptagon/transformations/switch.ml" 208 7504 7544
+type(
+  Heptagon.var_dec Rename.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/switch.ml" 202 7287 7297 "heptagon/transformations/switch.ml" 202 7287 7305
+)
+"heptagon/transformations/switch.ml" 208 7504 7545 "heptagon/transformations/switch.ml" 208 7504 7551
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 206 7445 7457 "heptagon/transformations/switch.ml" 206 7445 7463
+)
+"heptagon/transformations/switch.ml" 208 7504 7552 "heptagon/transformations/switch.ml" 208 7504 7553
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 197 7018 7043 "heptagon/transformations/switch.ml" 197 7018 7044
+)
+"heptagon/transformations/switch.ml" 208 7504 7520 "heptagon/transformations/switch.ml" 208 7504 7553
+call(
+  stack
+)
+type(
+  Idents.ident Rename.t
+)
+"heptagon/transformations/switch.ml" 209 7557 7569 "heptagon/transformations/switch.ml" 209 7557 7572
+type(
+  Env.t
+)
+ident(
+  def env "heptagon/transformations/switch.ml" 211 7667 7675 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 209 7557 7575 "heptagon/transformations/switch.ml" 209 7557 7587
+type(
+  Names.constructor_name -> Idents.var_ident -> Env.t -> Env.t
+)
+ident(
+  int_ref Env.level_up "heptagon/transformations/switch.ml" 87 3381 3385 "heptagon/transformations/switch.ml" 87 3381 3393
+)
+"heptagon/transformations/switch.ml" 209 7557 7588 "heptagon/transformations/switch.ml" 209 7557 7594
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 206 7445 7457 "heptagon/transformations/switch.ml" 206 7445 7463
+)
+"heptagon/transformations/switch.ml" 209 7557 7595 "heptagon/transformations/switch.ml" 209 7557 7597
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 196 6982 6992 "heptagon/transformations/switch.ml" 196 6982 6994
+)
+"heptagon/transformations/switch.ml" 209 7557 7598 "heptagon/transformations/switch.ml" 209 7557 7601
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 197 7018 7039 "heptagon/transformations/switch.ml" 197 7018 7042
+)
+"heptagon/transformations/switch.ml" 209 7557 7575 "heptagon/transformations/switch.ml" 209 7557 7601
+call(
+  stack
+)
+type(
+  Env.t
+)
+"heptagon/transformations/switch.ml" 211 7667 7679 "heptagon/transformations/switch.ml" 211 7667 7685
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 213 7775 7783 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 211 7667 7686 "heptagon/transformations/switch.ml" 211 7667 7692
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 213 7775 7783 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 211 7667 7679 "heptagon/transformations/switch.ml" 211 7667 7692
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 211 7667 7695 "heptagon/transformations/switch.ml" 211 7667 7715
+type(
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Idents.var_ident Rename.t ->
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref Rename.add_to_locals "heptagon/transformations/switch.ml" 150 5373 5377 "heptagon/transformations/switch.ml" 150 5373 5390
+)
+"heptagon/transformations/switch.ml" 211 7667 7716 "heptagon/transformations/switch.ml" 211 7667 7722
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 205 7383 7430 "heptagon/transformations/switch.ml" 205 7383 7436
+)
+"heptagon/transformations/switch.ml" 211 7667 7723 "heptagon/transformations/switch.ml" 211 7667 7729
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 205 7383 7416 "heptagon/transformations/switch.ml" 205 7383 7422
+)
+"heptagon/transformations/switch.ml" 211 7667 7730 "heptagon/transformations/switch.ml" 211 7667 7731
+type(
+  Idents.var_ident Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 208 7504 7516 "heptagon/transformations/switch.ml" 208 7504 7517
+)
+"heptagon/transformations/switch.ml" 211 7667 7695 "heptagon/transformations/switch.ml" 211 7667 7731
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7787 "heptagon/transformations/switch.ml" 213 7775 7791
+type(
+  Heptagon.block
+)
+ident(
+  def b_eq "heptagon/transformations/switch.ml" 215 7892 7900 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 213 7775 7794 "heptagon/transformations/switch.ml" 213 7775 7795
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7796 "heptagon/transformations/switch.ml" 213 7775 7797
+type(
+  Env.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7798 "heptagon/transformations/switch.ml" 213 7775 7799
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 215 7892 7900 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 213 7775 7793 "heptagon/transformations/switch.ml" 213 7775 7800
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7787 "heptagon/transformations/switch.ml" 213 7775 7800
+type(
+  Heptagon.block *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 213 7775 7803 "heptagon/transformations/switch.ml" 213 7775 7811
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.block ->
+  Heptagon.block *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  ext_ref Hept_mapfold.block_it
+)
+"heptagon/transformations/switch.ml" 213 7775 7812 "heptagon/transformations/switch.ml" 213 7775 7816
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 193 6830 6841 "heptagon/transformations/switch.ml" 193 6830 6845
+)
+"heptagon/transformations/switch.ml" 213 7775 7818 "heptagon/transformations/switch.ml" 213 7775 7824
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 211 7667 7686 "heptagon/transformations/switch.ml" 211 7667 7692
+)
+"heptagon/transformations/switch.ml" 213 7775 7825 "heptagon/transformations/switch.ml" 213 7775 7828
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 209 7557 7569 "heptagon/transformations/switch.ml" 209 7557 7572
+)
+"heptagon/transformations/switch.ml" 213 7775 7829 "heptagon/transformations/switch.ml" 213 7775 7830
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 208 7504 7516 "heptagon/transformations/switch.ml" 208 7504 7517
+)
+"heptagon/transformations/switch.ml" 213 7775 7817 "heptagon/transformations/switch.ml" 213 7775 7831
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7832 "heptagon/transformations/switch.ml" 213 7775 7836
+type(
+  Heptagon.switch_handler
+)
+ident(
+  int_ref sw_h "heptagon/transformations/switch.ml" 205 7383 7438 "heptagon/transformations/switch.ml" 205 7383 7442
+)
+"heptagon/transformations/switch.ml" 213 7775 7832 "heptagon/transformations/switch.ml" 213 7775 7844
+type(
+  Heptagon.block
+)
+"heptagon/transformations/switch.ml" 213 7775 7803 "heptagon/transformations/switch.ml" 213 7775 7844
+call(
+  stack
+)
+type(
+  Heptagon.block *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 215 7892 7904 "heptagon/transformations/switch.ml" 215 7892 7908
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 216 7948 7956 "heptagon/transformations/switch.ml" 216 7948 7997
+)
+"heptagon/transformations/switch.ml" 215 7892 7912 "heptagon/transformations/switch.ml" 215 7892 7923
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/switch.ml" 215 7892 7932 "heptagon/transformations/switch.ml" 215 7892 7936
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b_eq "heptagon/transformations/switch.ml" 213 7775 7787 "heptagon/transformations/switch.ml" 213 7775 7791
+)
+"heptagon/transformations/switch.ml" 215 7892 7924 "heptagon/transformations/switch.ml" 215 7892 7937
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 215 7892 7911 "heptagon/transformations/switch.ml" 215 7892 7938
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/switch.ml" 215 7892 7940 "heptagon/transformations/switch.ml" 215 7892 7944
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 205 7383 7424 "heptagon/transformations/switch.ml" 205 7383 7428
+)
+"heptagon/transformations/switch.ml" 215 7892 7911 "heptagon/transformations/switch.ml" 215 7892 7944
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 216 7948 7958 "heptagon/transformations/switch.ml" 216 7948 7964
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 206 7445 7457 "heptagon/transformations/switch.ml" 206 7445 7463
+)
+"heptagon/transformations/switch.ml" 216 7948 7965 "heptagon/transformations/switch.ml" 216 7948 7966
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 213 7775 7798 "heptagon/transformations/switch.ml" 213 7775 7799
+)
+"heptagon/transformations/switch.ml" 216 7948 7957 "heptagon/transformations/switch.ml" 216 7948 7967
+type(
+  Names.constructor_name * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 216 7948 7969 "heptagon/transformations/switch.ml" 216 7948 7974
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+ident(
+  int_ref c_h_l "heptagon/transformations/switch.ml" 205 7383 7409 "heptagon/transformations/switch.ml" 205 7383 7414
+)
+"heptagon/transformations/switch.ml" 216 7948 7957 "heptagon/transformations/switch.ml" 216 7948 7974
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+"heptagon/transformations/switch.ml" 216 7948 7976 "heptagon/transformations/switch.ml" 216 7948 7982
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 211 7667 7679 "heptagon/transformations/switch.ml" 211 7667 7685
+)
+"heptagon/transformations/switch.ml" 216 7948 7984 "heptagon/transformations/switch.ml" 216 7948 7988
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 215 7892 7904 "heptagon/transformations/switch.ml" 215 7892 7908
+)
+"heptagon/transformations/switch.ml" 216 7948 7990 "heptagon/transformations/switch.ml" 216 7948 7996
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 211 7667 7686 "heptagon/transformations/switch.ml" 211 7667 7692
+)
+"heptagon/transformations/switch.ml" 216 7948 7956 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 215 7892 7900 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 213 7775 7783 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 211 7667 7675 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 209 7557 7565 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 208 7504 7512 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 206 7445 7453 "heptagon/transformations/switch.ml" 216 7948 7997
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 219 8008 8019 "heptagon/transformations/switch.ml" 219 8008 8024
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+ident(
+  def c_h_l "heptagon/transformations/switch.ml" 224 8186 8192 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 219 8008 8026 "heptagon/transformations/switch.ml" 219 8008 8032
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/switch.ml" 224 8186 8192 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 219 8008 8034 "heptagon/transformations/switch.ml" 219 8008 8038
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 224 8186 8192 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 219 8008 8040 "heptagon/transformations/switch.ml" 219 8008 8046
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def vd_env "heptagon/transformations/switch.ml" 224 8186 8192 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 219 8008 8018 "heptagon/transformations/switch.ml" 219 8008 8047
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 220 8050 8058 "heptagon/transformations/switch.ml" 220 8050 8072
+type(
+  ((Names.constructor_name * Rename.key Rename.t) list *
+   Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t ->
+   Heptagon.switch_handler ->
+   (Names.constructor_name * Rename.key Rename.t) list *
+   Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t) ->
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler list ->
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/transformations/switch.ml" 220 8050 8073 "heptagon/transformations/switch.ml" 220 8050 8087
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler ->
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref switch_handler "heptagon/transformations/switch.ml" 205 7383 7393 "heptagon/transformations/switch.ml" 205 7383 7407
+)
+"heptagon/transformations/switch.ml" 220 8050 8089 "heptagon/transformations/switch.ml" 220 8050 8091
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+"heptagon/transformations/switch.ml" 220 8050 8093 "heptagon/transformations/switch.ml" 220 8050 8099
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 198 7080 7090 "heptagon/transformations/switch.ml" 198 7080 7096
+)
+"heptagon/transformations/switch.ml" 220 8050 8101 "heptagon/transformations/switch.ml" 220 8050 8105
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 199 7150 7160 "heptagon/transformations/switch.ml" 199 7150 7164
+)
+"heptagon/transformations/switch.ml" 220 8050 8107 "heptagon/transformations/switch.ml" 220 8050 8113
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 197 7018 7032 "heptagon/transformations/switch.ml" 197 7018 7038
+)
+"heptagon/transformations/switch.ml" 220 8050 8088 "heptagon/transformations/switch.ml" 220 8050 8114
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 220 8050 8115 "heptagon/transformations/switch.ml" 220 8050 8121
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref sw_h_l "heptagon/transformations/switch.ml" 194 6882 6898 "heptagon/transformations/switch.ml" 194 6882 6904
+)
+"heptagon/transformations/switch.ml" 220 8050 8058 "heptagon/transformations/switch.ml" 220 8050 8121
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Rename.key Rename.t) list *
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/switch.ml" 224 8186 8196 "heptagon/transformations/switch.ml" 224 8186 8205
+type(
+  Rename.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  def new_merge "heptagon/transformations/switch.ml" 232 8570 8576 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 224 8186 8206 "heptagon/transformations/switch.ml" 224 8186 8207
+type(
+  Rename.key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 224 8186 8210
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/switch.ml" 224 8186 8211 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 224 8186 8211 "heptagon/transformations/switch.ml" 224 8186 8215
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 225 8218 8226 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 225 8218 8230 "heptagon/transformations/switch.ml" 225 8218 8240
+type(
+  'a * Rename.key Rename.t -> 'a * Heptagon.exp
+)
+ident(
+  def c_h_to_c_e "heptagon/transformations/switch.ml" 228 8352 8360 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 225 8218 8242 "heptagon/transformations/switch.ml" 225 8218 8248
+type(
+  'a
+)
+ident(
+  def constr "heptagon/transformations/switch.ml" 226 8254 8264 "heptagon/transformations/switch.ml" 226 8254 8340
+)
+"heptagon/transformations/switch.ml" 225 8218 8249 "heptagon/transformations/switch.ml" 225 8218 8250
+type(
+  Rename.key Rename.t
+)
+ident(
+  def h "heptagon/transformations/switch.ml" 226 8254 8264 "heptagon/transformations/switch.ml" 226 8254 8340
+)
+"heptagon/transformations/switch.ml" 225 8218 8241 "heptagon/transformations/switch.ml" 225 8218 8251
+type(
+  'a * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 226 8254 8264 "heptagon/transformations/switch.ml" 226 8254 8270
+type(
+  'a
+)
+ident(
+  int_ref constr "heptagon/transformations/switch.ml" 225 8218 8242 "heptagon/transformations/switch.ml" 225 8218 8248
+)
+"heptagon/transformations/switch.ml" 226 8254 8272 "heptagon/transformations/switch.ml" 226 8254 8278
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/switch.ml" 226 8254 8285 "heptagon/transformations/switch.ml" 226 8254 8298
+type(
+  Rename.key -> Rename.key Rename.t -> Rename.key
+)
+ident(
+  int_ref Rename.rename "heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+)
+"heptagon/transformations/switch.ml" 226 8254 8299 "heptagon/transformations/switch.ml" 226 8254 8300
+type(
+  Rename.key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 224 8186 8206 "heptagon/transformations/switch.ml" 224 8186 8207
+)
+"heptagon/transformations/switch.ml" 226 8254 8301 "heptagon/transformations/switch.ml" 226 8254 8302
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 225 8218 8249 "heptagon/transformations/switch.ml" 225 8218 8250
+)
+"heptagon/transformations/switch.ml" 226 8254 8284 "heptagon/transformations/switch.ml" 226 8254 8303
+call(
+  stack
+)
+type(
+  Rename.key
+)
+"heptagon/transformations/switch.ml" 226 8254 8279 "heptagon/transformations/switch.ml" 226 8254 8304
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 226 8254 8305 "heptagon/transformations/switch.ml" 226 8254 8307
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 224 8186 8210
+)
+"heptagon/transformations/switch.ml" 226 8254 8305 "heptagon/transformations/switch.ml" 226 8254 8314
+type(
+  Types.ty
+)
+"heptagon/transformations/switch.ml" 226 8254 8326 "heptagon/transformations/switch.ml" 226 8254 8328
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 224 8186 8210
+)
+"heptagon/transformations/switch.ml" 226 8254 8326 "heptagon/transformations/switch.ml" 226 8254 8340
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/switch.ml" 226 8254 8272 "heptagon/transformations/switch.ml" 226 8254 8340
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 226 8254 8264 "heptagon/transformations/switch.ml" 226 8254 8340
+type(
+  'a * Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 228 8352 8364 "heptagon/transformations/switch.ml" 228 8352 8369
+type(
+  (Names.constructor_name * Heptagon.exp) list
+)
+ident(
+  def c_e_l "heptagon/transformations/switch.ml" 229 8401 8409 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 228 8352 8372 "heptagon/transformations/switch.ml" 228 8352 8380
+type(
+  (Names.constructor_name * Rename.key Rename.t ->
+   Names.constructor_name * Heptagon.exp) ->
+  (Names.constructor_name * Rename.key Rename.t) list ->
+  (Names.constructor_name * Heptagon.exp) list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/switch.ml" 228 8352 8381 "heptagon/transformations/switch.ml" 228 8352 8391
+type(
+  Names.constructor_name * Rename.key Rename.t ->
+  Names.constructor_name * Heptagon.exp
+)
+ident(
+  int_ref c_h_to_c_e "heptagon/transformations/switch.ml" 225 8218 8230 "heptagon/transformations/switch.ml" 225 8218 8240
+)
+"heptagon/transformations/switch.ml" 228 8352 8392 "heptagon/transformations/switch.ml" 228 8352 8397
+type(
+  (Names.constructor_name * Rename.key Rename.t) list
+)
+ident(
+  int_ref c_h_l "heptagon/transformations/switch.ml" 219 8008 8019 "heptagon/transformations/switch.ml" 219 8008 8024
+)
+"heptagon/transformations/switch.ml" 228 8352 8372 "heptagon/transformations/switch.ml" 228 8352 8397
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Heptagon.exp) list
+)
+"heptagon/transformations/switch.ml" 229 8401 8413 "heptagon/transformations/switch.ml" 229 8401 8418
+type(
+  Heptagon.exp
+)
+ident(
+  def merge "heptagon/transformations/switch.ml" 230 8488 8496 "heptagon/transformations/switch.ml" 230 8488 8560
+)
+"heptagon/transformations/switch.ml" 229 8401 8421 "heptagon/transformations/switch.ml" 229 8401 8427
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/switch.ml" 229 8401 8437 "heptagon/transformations/switch.ml" 229 8401 8439
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ck "heptagon/transformations/switch.ml" 196 6982 6992 "heptagon/transformations/switch.ml" 196 6982 6994
+)
+"heptagon/transformations/switch.ml" 229 8401 8441 "heptagon/transformations/switch.ml" 229 8401 8446
+type(
+  (Names.constructor_name * Heptagon.exp) list
+)
+ident(
+  int_ref c_e_l "heptagon/transformations/switch.ml" 228 8352 8364 "heptagon/transformations/switch.ml" 228 8352 8369
+)
+"heptagon/transformations/switch.ml" 229 8401 8428 "heptagon/transformations/switch.ml" 229 8401 8448
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/switch.ml" 229 8401 8449 "heptagon/transformations/switch.ml" 229 8401 8451
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 224 8186 8210
+)
+"heptagon/transformations/switch.ml" 229 8401 8449 "heptagon/transformations/switch.ml" 229 8401 8458
+type(
+  Types.ty
+)
+"heptagon/transformations/switch.ml" 229 8401 8470 "heptagon/transformations/switch.ml" 229 8401 8472
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 224 8186 8208 "heptagon/transformations/switch.ml" 224 8186 8210
+)
+"heptagon/transformations/switch.ml" 229 8401 8470 "heptagon/transformations/switch.ml" 229 8401 8484
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/switch.ml" 229 8401 8421 "heptagon/transformations/switch.ml" 229 8401 8484
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/switch.ml" 230 8488 8497 "heptagon/transformations/switch.ml" 230 8488 8508
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/switch.ml" 230 8488 8524 "heptagon/transformations/switch.ml" 230 8488 8537
+type(
+  Rename.key -> Rename.key Rename.t -> Rename.key
+)
+ident(
+  int_ref Rename.rename "heptagon/transformations/switch.ml" 135 4903 4907 "heptagon/transformations/switch.ml" 135 4903 4913
+)
+"heptagon/transformations/switch.ml" 230 8488 8538 "heptagon/transformations/switch.ml" 230 8488 8539
+type(
+  Rename.key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 224 8186 8206 "heptagon/transformations/switch.ml" 224 8186 8207
+)
+"heptagon/transformations/switch.ml" 230 8488 8540 "heptagon/transformations/switch.ml" 230 8488 8541
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 197 7018 7043 "heptagon/transformations/switch.ml" 197 7018 7044
+)
+"heptagon/transformations/switch.ml" 230 8488 8523 "heptagon/transformations/switch.ml" 230 8488 8542
+call(
+  stack
+)
+type(
+  Rename.key
+)
+"heptagon/transformations/switch.ml" 230 8488 8515 "heptagon/transformations/switch.ml" 230 8488 8542
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/switch.ml" 230 8488 8544 "heptagon/transformations/switch.ml" 230 8488 8549
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref merge "heptagon/transformations/switch.ml" 229 8401 8413 "heptagon/transformations/switch.ml" 229 8401 8418
+)
+"heptagon/transformations/switch.ml" 230 8488 8509 "heptagon/transformations/switch.ml" 230 8488 8551
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 230 8488 8496 "heptagon/transformations/switch.ml" 230 8488 8552
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/switch.ml" 230 8488 8556 "heptagon/transformations/switch.ml" 230 8488 8560
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 224 8186 8211 "heptagon/transformations/switch.ml" 224 8186 8215
+)
+"heptagon/transformations/switch.ml" 230 8488 8496 "heptagon/transformations/switch.ml" 230 8488 8560
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 229 8401 8409 "heptagon/transformations/switch.ml" 230 8488 8560
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 228 8352 8360 "heptagon/transformations/switch.ml" 230 8488 8560
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 225 8218 8226 "heptagon/transformations/switch.ml" 230 8488 8560
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 232 8570 8580 "heptagon/transformations/switch.ml" 232 8570 8584
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 237 8725 8731 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 233 8587 8595 "heptagon/transformations/switch.ml" 233 8587 8610
+type(
+  (Idents.Env.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list) ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Idents.Env.fold
+)
+"heptagon/transformations/switch.ml" 233 8587 8616 "heptagon/transformations/switch.ml" 233 8587 8617
+type(
+  Idents.Env.key
+)
+ident(
+  def n "heptagon/transformations/switch.ml" 233 8587 8618 "heptagon/transformations/switch.ml" 233 8587 8648
+)
+"heptagon/transformations/switch.ml" 233 8587 8618 "heptagon/transformations/switch.ml" 233 8587 8620
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/switch.ml" 233 8587 8621 "heptagon/transformations/switch.ml" 233 8587 8648
+)
+"heptagon/transformations/switch.ml" 233 8587 8621 "heptagon/transformations/switch.ml" 233 8587 8625
+type(
+  Heptagon.eq list
+)
+ident(
+  def equs "heptagon/transformations/switch.ml" 233 8587 8629 "heptagon/transformations/switch.ml" 233 8587 8648
+)
+"heptagon/transformations/switch.ml" 233 8587 8629 "heptagon/transformations/switch.ml" 233 8587 8638
+type(
+  Rename.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  int_ref new_merge "heptagon/transformations/switch.ml" 224 8186 8196 "heptagon/transformations/switch.ml" 224 8186 8205
+)
+"heptagon/transformations/switch.ml" 233 8587 8639 "heptagon/transformations/switch.ml" 233 8587 8640
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/transformations/switch.ml" 233 8587 8616 "heptagon/transformations/switch.ml" 233 8587 8617
+)
+"heptagon/transformations/switch.ml" 233 8587 8641 "heptagon/transformations/switch.ml" 233 8587 8643
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/switch.ml" 233 8587 8618 "heptagon/transformations/switch.ml" 233 8587 8620
+)
+"heptagon/transformations/switch.ml" 233 8587 8644 "heptagon/transformations/switch.ml" 233 8587 8648
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 233 8587 8621 "heptagon/transformations/switch.ml" 233 8587 8625
+)
+"heptagon/transformations/switch.ml" 233 8587 8629 "heptagon/transformations/switch.ml" 233 8587 8648
+call(
+  tail
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 233 8587 8611 "heptagon/transformations/switch.ml" 233 8587 8649
+type(
+  Idents.Env.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 233 8587 8650 "heptagon/transformations/switch.ml" 233 8587 8658
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/switch.ml" 202 7287 7297 "heptagon/transformations/switch.ml" 202 7287 7305
+)
+"heptagon/transformations/switch.ml" 233 8587 8659 "heptagon/transformations/switch.ml" 233 8587 8663
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 219 8008 8034 "heptagon/transformations/switch.ml" 219 8008 8038
+)
+"heptagon/transformations/switch.ml" 233 8587 8595 "heptagon/transformations/switch.ml" 233 8587 8663
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/switch.ml" 237 8725 8735 "heptagon/transformations/switch.ml" 237 8725 8736
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/switch.ml" 238 8790 8796 "heptagon/transformations/switch.ml" 238 8790 8820
+)
+"heptagon/transformations/switch.ml" 237 8725 8739 "heptagon/transformations/switch.ml" 237 8725 8747
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/switch.ml" 237 8725 8758 "heptagon/transformations/switch.ml" 237 8725 8766
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/switch.ml" 202 7287 7297 "heptagon/transformations/switch.ml" 202 7287 7305
+)
+"heptagon/transformations/switch.ml" 237 8725 8775 "heptagon/transformations/switch.ml" 237 8725 8781
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/switch.ml" 219 8008 8026 "heptagon/transformations/switch.ml" 219 8008 8032
+)
+"heptagon/transformations/switch.ml" 237 8725 8782 "heptagon/transformations/switch.ml" 237 8725 8786
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref equs "heptagon/transformations/switch.ml" 232 8570 8580 "heptagon/transformations/switch.ml" 232 8570 8584
+)
+"heptagon/transformations/switch.ml" 237 8725 8739 "heptagon/transformations/switch.ml" 237 8725 8786
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/switch.ml" 238 8790 8803 "heptagon/transformations/switch.ml" 238 8790 8804
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/switch.ml" 237 8725 8735 "heptagon/transformations/switch.ml" 237 8725 8736
+)
+"heptagon/transformations/switch.ml" 238 8790 8796 "heptagon/transformations/switch.ml" 238 8790 8804
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 238 8790 8807 "heptagon/transformations/switch.ml" 238 8790 8813
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref vd_env "heptagon/transformations/switch.ml" 219 8008 8040 "heptagon/transformations/switch.ml" 219 8008 8046
+)
+"heptagon/transformations/switch.ml" 238 8790 8814 "heptagon/transformations/switch.ml" 238 8790 8817
+type(
+  Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/switch.ml" 197 7018 7039 "heptagon/transformations/switch.ml" 197 7018 7042
+)
+"heptagon/transformations/switch.ml" 238 8790 8818 "heptagon/transformations/switch.ml" 238 8790 8819
+type(
+  Rename.key Rename.t
+)
+ident(
+  int_ref h "heptagon/transformations/switch.ml" 197 7018 7043 "heptagon/transformations/switch.ml" 197 7018 7044
+)
+"heptagon/transformations/switch.ml" 238 8790 8806 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 238 8790 8796 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 237 8725 8731 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 232 8570 8576 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 224 8186 8192 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 219 8008 8014 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 205 7383 7389 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 202 7287 7293 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 199 7150 7156 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 198 7080 7086 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 197 7018 7024 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 196 6982 6988 "heptagon/transformations/switch.ml" 238 8790 8820
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 239 8821 8825 "heptagon/transformations/switch.ml" 239 8821 8826
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/switch.ml" 239 8821 8830 "heptagon/transformations/switch.ml" 239 8821 8835
+type(
+  exn ->
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/switch.ml" 239 8821 8836 "heptagon/transformations/switch.ml" 239 8821 8851
+type(
+  exn
+)
+"heptagon/transformations/switch.ml" 239 8821 8830 "heptagon/transformations/switch.ml" 239 8821 8851
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 193 6830 6867 "heptagon/transformations/switch.ml" 239 8821 8851
+type(
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 241 8853 8857 "heptagon/transformations/switch.ml" 241 8853 8864
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/switch.ml" 246 9111 9116 "heptagon/transformations/switch.ml" 1 0 -1
+)
+"heptagon/transformations/switch.ml" 241 8853 8865 "heptagon/transformations/switch.ml" 241 8853 8866
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/switch.ml" 242 8869 8871 "heptagon/transformations/switch.ml" 246 9111 9116
+)
+"heptagon/transformations/switch.ml" 242 8869 8875 "heptagon/transformations/switch.ml" 242 8869 8879
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/switch.ml" 245 9036 9038 "heptagon/transformations/switch.ml" 246 9111 9116
+)
+"heptagon/transformations/switch.ml" 242 8869 8884 "heptagon/transformations/switch.ml" 242 8869 8905
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/switch.ml" 243 8906 8932 "heptagon/transformations/switch.ml" 243 8906 8939
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.pat ->
+  Heptagon.pat *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref pattern "heptagon/transformations/switch.ml" 163 5749 5753 "heptagon/transformations/switch.ml" 163 5749 5760
+)
+"heptagon/transformations/switch.ml" 243 8906 8951 "heptagon/transformations/switch.ml" 243 8906 8958
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref var_dec "heptagon/transformations/switch.ml" 167 5896 5900 "heptagon/transformations/switch.ml" 167 5896 5907
+)
+"heptagon/transformations/switch.ml" 243 8906 8968 "heptagon/transformations/switch.ml" 243 8906 8973
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.block ->
+  Heptagon.block *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref block "heptagon/transformations/switch.ml" 173 6089 6093 "heptagon/transformations/switch.ml" 173 6089 6098
+)
+"heptagon/transformations/switch.ml" 244 8975 9001 "heptagon/transformations/switch.ml" 244 8975 9004
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.exp ->
+  Heptagon.exp *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref exp "heptagon/transformations/switch.ml" 178 6282 6286 "heptagon/transformations/switch.ml" 178 6282 6289
+)
+"heptagon/transformations/switch.ml" 244 8975 9011 "heptagon/transformations/switch.ml" 244 8975 9013
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.eq ->
+  Heptagon.eq * (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref eq "heptagon/transformations/switch.ml" 185 6499 6503 "heptagon/transformations/switch.ml" 185 6499 6505
+)
+"heptagon/transformations/switch.ml" 244 8975 9024 "heptagon/transformations/switch.ml" 244 8975 9030
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.eqdesc ->
+  Heptagon.eqdesc *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  int_ref eqdesc "heptagon/transformations/switch.ml" 193 6830 6834 "heptagon/transformations/switch.ml" 193 6830 6840
+)
+"heptagon/transformations/switch.ml" 242 8869 8882 "heptagon/transformations/switch.ml" 244 8975 9032
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/switch.ml" 245 9036 9042 "heptagon/transformations/switch.ml" 245 9036 9043
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/switch.ml" 246 9111 9115 "heptagon/transformations/switch.ml" 246 9111 9116
+)
+"heptagon/transformations/switch.ml" 245 9036 9045 "heptagon/transformations/switch.ml" 245 9036 9046
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 245 9036 9042 "heptagon/transformations/switch.ml" 245 9036 9046
+type(
+  Heptagon.program *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 245 9036 9049 "heptagon/transformations/switch.ml" 245 9036 9059
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t ->
+  Heptagon.program ->
+  Heptagon.program *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/switch.ml" 245 9036 9060 "heptagon/transformations/switch.ml" 245 9036 9064
+type(
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+  Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/switch.ml" 242 8869 8875 "heptagon/transformations/switch.ml" 242 8869 8879
+)
+"heptagon/transformations/switch.ml" 245 9036 9066 "heptagon/transformations/switch.ml" 245 9036 9082
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/switch.ml" 245 9036 9083 "heptagon/transformations/switch.ml" 245 9036 9091
+type(
+  Env.t
+)
+"heptagon/transformations/switch.ml" 245 9036 9092 "heptagon/transformations/switch.ml" 245 9036 9104
+type(
+  Rename.key Rename.t
+)
+ident(
+  ext_ref Rename.empty
+)
+"heptagon/transformations/switch.ml" 245 9036 9065 "heptagon/transformations/switch.ml" 245 9036 9105
+type(
+  Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t
+)
+"heptagon/transformations/switch.ml" 245 9036 9106 "heptagon/transformations/switch.ml" 245 9036 9107
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/switch.ml" 241 8853 8865 "heptagon/transformations/switch.ml" 241 8853 8866
+)
+"heptagon/transformations/switch.ml" 245 9036 9049 "heptagon/transformations/switch.ml" 245 9036 9107
+call(
+  stack
+)
+type(
+  Heptagon.program *
+  (Heptagon.var_dec Idents.Env.t * Env.t * Rename.key Rename.t)
+)
+"heptagon/transformations/switch.ml" 246 9111 9115 "heptagon/transformations/switch.ml" 246 9111 9116
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/switch.ml" 245 9036 9042 "heptagon/transformations/switch.ml" 245 9036 9043
+)
+"heptagon/transformations/switch.ml" 245 9036 9038 "heptagon/transformations/switch.ml" 246 9111 9116
+type(
+  Heptagon.program
+)
+"heptagon/transformations/switch.ml" 242 8869 8871 "heptagon/transformations/switch.ml" 246 9111 9116
+type(
+  Heptagon.program
+)

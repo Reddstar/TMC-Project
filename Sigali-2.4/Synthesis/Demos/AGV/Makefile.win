@@ -1,0 +1,43 @@
+
+
+COMP= $(CPP_COMPILER) $(COMPILER_OPTIONS) $(VDEBUG)
+
+LINKER_FLAGS=/DLL /out:$(DEMOLIB) $(DEBUG_LINKER)
+ADR_VTAGV=vt
+
+INCL= /I $(JDK_INCLUDE) /I $(JDK_INCL_DEP) /I $(SIGNALLIBC_EXPORT) \
+      /I $(ADR_EXPORT_RES) /I $(ADR_VTAGV) /I $(ADR_LIAISON) /I $(ADR_SPEC_LIAISON)
+
+OBJ_RES=$(ADR_EXPORT_RES)\*.o
+OBJECTS=$(ADR_LIAISON)\LiaisonResolveur.o $(ADR_LIAISON)\LiaisonPacemaker.o $(ADR_SPEC_LIAISON)\LiaisonBody.o
+
+all: $(DEMOLIB)  $(ADR_VTAGV)\vt_body.o
+$(DEMOLIB):$(OBJ_RES)   $(ADR_VTAGV)\vt_body.o $(OBJECTS)
+	$(LINKER) $(LINKER_FLAGS) $(ADR_VTAGV)\vt_body.o $(OBJ_RES) $(OBJECTS)
+
+$(ADR_LIAISON)\LiaisonResolveur.o:$(ADR_LIAISON)\LiaisonResolveur.c
+	echo 	$(COMP) $(INCL) /c $(ADR_LIAISON)\LiaisonResolveur.c /Fo$(ADR_LIAISON)\LiaisonResolveur.o
+	$(COMP) $(INCL) /c $(ADR_LIAISON)\LiaisonResolveur.c /Fo$(ADR_LIAISON)\LiaisonResolveur.o
+
+$(ADR_LIAISON)\LiaisonPacemaker.o:$(ADR_LIAISON)\LiaisonPacemaker.c
+	$(COMP) $(INCL) /c $(ADR_LIAISON)\LiaisonPacemaker.c /Fo$(ADR_LIAISON)\LiaisonPacemaker.o
+
+$(ADR_SPEC_LIAISON)\LiaisonBody.o: $(ADR_SPEC_LIAISON)\LiaisonBody.c
+	$(COMP) $(INCL) /c $(ADR_SPEC_LIAISON)\LiaisonBody.c /Fo$(ADR_SPEC_LIAISON)\LiaisonBody.o
+
+$(ADR_VTAGV)\vt_body.o:$(ADR_VTAGV)\vt_body.c
+	$(COMP) /I $(SIGNALLIBC_EXPORT) -D_NO_PROTO /c $(ADR_VTAGV)\vt_body.c /Fo$(ADR_VTAGV)\vt_body.o
+
+$(ADR_VTAGV)\vt_body.c:vt.SIG.SIG vt.PAR
+	$(SIGNAL_BIN)\signal -c -tra vt.SIG.SIG "-par=vt.PAR"
+
+
+force: clean  all
+
+clean:
+	@erase $(DEMOLIB) $(ADR_VTAGV)\vt_body.o
+
+
+
+
+

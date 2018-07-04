@@ -1,0 +1,999 @@
+"obc/transformations/scalarize.ml" 55 3024 3028 "obc/transformations/scalarize.ml" 55 3024 3037
+type(
+  Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  def fresh_for "obc/transformations/scalarize.ml" 57 3063 3063 "obc/transformations/scalarize.ml" 1 0 -1
+)
+"obc/transformations/scalarize.ml" 55 3024 3040 "obc/transformations/scalarize.ml" 55 3024 3049
+type(
+  string -> Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  ext_ref Obc_utils.fresh_for
+)
+"obc/transformations/scalarize.ml" 55 3024 3050 "obc/transformations/scalarize.ml" 55 3024 3061
+type(
+  string
+)
+"obc/transformations/scalarize.ml" 55 3024 3040 "obc/transformations/scalarize.ml" 55 3024 3061
+call(
+  stack
+)
+type(
+  Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+"obc/transformations/scalarize.ml" 57 3063 3067 "obc/transformations/scalarize.ml" 57 3063 3070
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  def act "obc/transformations/scalarize.ml" 94 4737 4737 "obc/transformations/scalarize.ml" 1 0 -1
+)
+"obc/transformations/scalarize.ml" 57 3063 3071 "obc/transformations/scalarize.ml" 57 3063 3075
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/scalarize.ml" 57 3063 3076 "obc/transformations/scalarize.ml" 92 4705 4735
+)
+"obc/transformations/scalarize.ml" 57 3063 3076 "obc/transformations/scalarize.ml" 57 3063 3078
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 57 3063 3079 "obc/transformations/scalarize.ml" 57 3063 3080
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/scalarize.ml" 57 3063 3083 "obc/transformations/scalarize.ml" 92 4705 4735
+)
+"obc/transformations/scalarize.ml" 57 3063 3089 "obc/transformations/scalarize.ml" 57 3063 3090
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/scalarize.ml" 57 3063 3079 "obc/transformations/scalarize.ml" 57 3063 3080
+)
+"obc/transformations/scalarize.ml" 58 3096 3108 "obc/transformations/scalarize.ml" 58 3096 3109
+type(
+  Obc.pattern
+)
+ident(
+  def p "obc/transformations/scalarize.ml" 59 3117 3123 "obc/transformations/scalarize.ml" 91 4697 4704
+)
+"obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/transformations/scalarize.ml" 59 3117 3123 "obc/transformations/scalarize.ml" 91 4697 4704
+)
+"obc/transformations/scalarize.ml" 58 3096 3100 "obc/transformations/scalarize.ml" 58 3096 3113
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 59 3117 3130 "obc/transformations/scalarize.ml" 59 3117 3150
+type(
+  Types.ty -> Types.ty
+)
+ident(
+  ext_ref Modules.unalias_type
+)
+"obc/transformations/scalarize.ml" 59 3117 3151 "obc/transformations/scalarize.ml" 59 3117 3152
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 59 3117 3151 "obc/transformations/scalarize.ml" 59 3117 3157
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 59 3117 3130 "obc/transformations/scalarize.ml" 59 3117 3157
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 60 3163 3187 "obc/transformations/scalarize.ml" 60 3163 3188
+type(
+  Types.ty
+)
+ident(
+  def t "obc/transformations/scalarize.ml" 61 3199 3211 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 60 3163 3190 "obc/transformations/scalarize.ml" 60 3163 3194
+type(
+  Types.static_exp
+)
+ident(
+  def size "obc/transformations/scalarize.ml" 61 3199 3211 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 60 3163 3173 "obc/transformations/scalarize.ml" 60 3163 3195
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 61 3199 3215 "obc/transformations/scalarize.ml" 61 3199 3221
+type(
+  Obc.var_dec list
+)
+ident(
+  def new_vd "obc/transformations/scalarize.ml" 73 3919 3931 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 61 3199 3223 "obc/transformations/scalarize.ml" 61 3199 3229
+type(
+  Obc.act list
+)
+ident(
+  def new_eq "obc/transformations/scalarize.ml" 73 3919 3931 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 61 3199 3231 "obc/transformations/scalarize.ml" 61 3199 3239
+type(
+  Obc.ext_value
+)
+ident(
+  def w_from_e "obc/transformations/scalarize.ml" 73 3919 3931 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 61 3199 3215 "obc/transformations/scalarize.ml" 61 3199 3239
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 61 3199 3248 "obc/transformations/scalarize.ml" 61 3199 3249
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 61 3199 3248 "obc/transformations/scalarize.ml" 61 3199 3256
+type(
+  Obc.exp_desc
+)
+"obc/transformations/scalarize.ml" 62 3262 3288 "obc/transformations/scalarize.ml" 62 3262 3289
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/scalarize.ml" 62 3262 3293 "obc/transformations/scalarize.ml" 62 3262 3302
+)
+"obc/transformations/scalarize.ml" 62 3262 3278 "obc/transformations/scalarize.ml" 62 3262 3289
+type(
+  Obc.exp_desc
+)
+"obc/transformations/scalarize.ml" 62 3262 3293 "obc/transformations/scalarize.ml" 62 3262 3295
+type(
+  Obc.var_dec list
+)
+"obc/transformations/scalarize.ml" 62 3262 3297 "obc/transformations/scalarize.ml" 62 3262 3299
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 62 3262 3301 "obc/transformations/scalarize.ml" 62 3262 3302
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/scalarize.ml" 62 3262 3288 "obc/transformations/scalarize.ml" 62 3262 3289
+)
+"obc/transformations/scalarize.ml" 62 3262 3293 "obc/transformations/scalarize.ml" 62 3262 3302
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 63 3303 3319 "obc/transformations/scalarize.ml" 63 3303 3320
+type(
+  Obc.exp_desc
+)
+"obc/transformations/scalarize.ml" 65 3410 3432 "obc/transformations/scalarize.ml" 65 3410 3441
+type(
+  Idents.ident
+)
+ident(
+  def array_ref "obc/transformations/scalarize.ml" 66 3482 3500 "obc/transformations/scalarize.ml" 70 3770 3856
+)
+"obc/transformations/scalarize.ml" 65 3410 3444 "obc/transformations/scalarize.ml" 65 3410 3458
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/transformations/scalarize.ml" 65 3410 3459 "obc/transformations/scalarize.ml" 65 3410 3470
+type(
+  string
+)
+"obc/transformations/scalarize.ml" 65 3410 3471 "obc/transformations/scalarize.ml" 65 3410 3478
+type(
+  string
+)
+"obc/transformations/scalarize.ml" 65 3410 3444 "obc/transformations/scalarize.ml" 65 3410 3478
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/transformations/scalarize.ml" 66 3482 3504 "obc/transformations/scalarize.ml" 66 3482 3516
+type(
+  Obc.var_dec
+)
+ident(
+  def vd_array_ref "obc/transformations/scalarize.ml" 68 3612 3630 "obc/transformations/scalarize.ml" 70 3770 3856
+)
+"obc/transformations/scalarize.ml" 66 3482 3519 "obc/transformations/scalarize.ml" 66 3482 3529
+type(
+  ?loc:Location.location ->
+  ?linearity:Linearity.linearity ->
+  ?mut:bool -> ?alias:bool -> Idents.var_ident -> Types.ty -> Obc.var_dec
+)
+ident(
+  ext_ref Obc_utils.mk_var_dec
+)
+"obc/transformations/scalarize.ml" 66 3482 3538 "obc/transformations/scalarize.ml" 66 3482 3542
+type(
+  bool
+)
+"obc/transformations/scalarize.ml" 66 3482 3543 "obc/transformations/scalarize.ml" 66 3482 3552
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref array_ref "obc/transformations/scalarize.ml" 65 3410 3432 "obc/transformations/scalarize.ml" 65 3410 3441
+)
+"obc/transformations/scalarize.ml" 66 3482 3553 "obc/transformations/scalarize.ml" 66 3482 3554
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 66 3482 3553 "obc/transformations/scalarize.ml" 66 3482 3559
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 66 3482 3519 "obc/transformations/scalarize.ml" 66 3482 3559
+call(
+  stack
+)
+type(
+  Obc.var_dec
+)
+"obc/transformations/scalarize.ml" 68 3612 3634 "obc/transformations/scalarize.ml" 68 3612 3647
+type(
+  Obc.pattern
+)
+ident(
+  def pat_array_ref "obc/transformations/scalarize.ml" 69 3702 3720 "obc/transformations/scalarize.ml" 70 3770 3856
+)
+"obc/transformations/scalarize.ml" 68 3612 3650 "obc/transformations/scalarize.ml" 68 3612 3660
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/scalarize.ml" 68 3612 3667 "obc/transformations/scalarize.ml" 68 3612 3668
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 68 3612 3667 "obc/transformations/scalarize.ml" 68 3612 3674
+type(
+  Location.location
+)
+"obc/transformations/scalarize.ml" 68 3612 3675 "obc/transformations/scalarize.ml" 68 3612 3676
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 68 3612 3675 "obc/transformations/scalarize.ml" 68 3612 3681
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 68 3612 3688 "obc/transformations/scalarize.ml" 68 3612 3697
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref array_ref "obc/transformations/scalarize.ml" 65 3410 3432 "obc/transformations/scalarize.ml" 65 3410 3441
+)
+"obc/transformations/scalarize.ml" 68 3612 3682 "obc/transformations/scalarize.ml" 68 3612 3698
+type(
+  Obc.pat_desc
+)
+"obc/transformations/scalarize.ml" 68 3612 3650 "obc/transformations/scalarize.ml" 68 3612 3698
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/scalarize.ml" 69 3702 3724 "obc/transformations/scalarize.ml" 69 3702 3738
+type(
+  Obc.act
+)
+ident(
+  def init_array_ref "obc/transformations/scalarize.ml" 70 3770 3788 "obc/transformations/scalarize.ml" 70 3770 3856
+)
+"obc/transformations/scalarize.ml" 69 3702 3749 "obc/transformations/scalarize.ml" 69 3702 3762
+type(
+  Obc.pattern
+)
+ident(
+  int_ref pat_array_ref "obc/transformations/scalarize.ml" 68 3612 3634 "obc/transformations/scalarize.ml" 68 3612 3647
+)
+"obc/transformations/scalarize.ml" 69 3702 3764 "obc/transformations/scalarize.ml" 69 3702 3765
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/scalarize.ml" 58 3096 3111 "obc/transformations/scalarize.ml" 58 3096 3112
+)
+"obc/transformations/scalarize.ml" 69 3702 3741 "obc/transformations/scalarize.ml" 69 3702 3766
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 70 3770 3789 "obc/transformations/scalarize.ml" 70 3770 3801
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd_array_ref "obc/transformations/scalarize.ml" 66 3482 3504 "obc/transformations/scalarize.ml" 66 3482 3516
+)
+"obc/transformations/scalarize.ml" 70 3770 3788 "obc/transformations/scalarize.ml" 70 3770 3802
+type(
+  Obc.var_dec list
+)
+"obc/transformations/scalarize.ml" 70 3770 3805 "obc/transformations/scalarize.ml" 70 3770 3819
+type(
+  Obc.act
+)
+ident(
+  int_ref init_array_ref "obc/transformations/scalarize.ml" 69 3702 3724 "obc/transformations/scalarize.ml" 69 3702 3738
+)
+"obc/transformations/scalarize.ml" 70 3770 3804 "obc/transformations/scalarize.ml" 70 3770 3820
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 70 3770 3822 "obc/transformations/scalarize.ml" 70 3770 3842
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  ext_ref Obc_utils.ext_value_of_pattern
+)
+"obc/transformations/scalarize.ml" 70 3770 3843 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.pattern
+)
+ident(
+  int_ref pat_array_ref "obc/transformations/scalarize.ml" 68 3612 3634 "obc/transformations/scalarize.ml" 68 3612 3647
+)
+"obc/transformations/scalarize.ml" 70 3770 3822 "obc/transformations/scalarize.ml" 70 3770 3856
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 70 3770 3788 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 69 3702 3720 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 68 3612 3630 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 66 3482 3500 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 65 3410 3428 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 61 3199 3242 "obc/transformations/scalarize.ml" 70 3770 3856
+type(
+  Obc.var_dec list * Obc.act list * Obc.ext_value
+)
+"obc/transformations/scalarize.ml" 73 3919 3935 "obc/transformations/scalarize.ml" 73 3919 3946
+type(
+  Obc.exp -> Obc.exp
+)
+ident(
+  def array_ref_i "obc/transformations/scalarize.ml" 74 3996 4008 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 73 3919 3947 "obc/transformations/scalarize.ml" 73 3919 3948
+type(
+  Obc.exp
+)
+ident(
+  def i "obc/transformations/scalarize.ml" 73 3919 3951 "obc/transformations/scalarize.ml" 73 3919 3992
+)
+"obc/transformations/scalarize.ml" 73 3919 3951 "obc/transformations/scalarize.ml" 73 3919 3967
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  ext_ref Obc_utils.mk_ext_value_exp
+)
+"obc/transformations/scalarize.ml" 73 3919 3968 "obc/transformations/scalarize.ml" 73 3919 3969
+type(
+  Types.ty
+)
+ident(
+  int_ref t "obc/transformations/scalarize.ml" 60 3163 3187 "obc/transformations/scalarize.ml" 60 3163 3188
+)
+"obc/transformations/scalarize.ml" 73 3919 3979 "obc/transformations/scalarize.ml" 73 3919 3987
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w_from_e "obc/transformations/scalarize.ml" 61 3199 3231 "obc/transformations/scalarize.ml" 61 3199 3239
+)
+"obc/transformations/scalarize.ml" 73 3919 3989 "obc/transformations/scalarize.ml" 73 3919 3990
+type(
+  Obc.exp
+)
+ident(
+  int_ref i "obc/transformations/scalarize.ml" 73 3919 3947 "obc/transformations/scalarize.ml" 73 3919 3948
+)
+"obc/transformations/scalarize.ml" 73 3919 3970 "obc/transformations/scalarize.ml" 73 3919 3992
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/scalarize.ml" 73 3919 3951 "obc/transformations/scalarize.ml" 73 3919 3992
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/transformations/scalarize.ml" 74 3996 4012 "obc/transformations/scalarize.ml" 74 3996 4015
+type(
+  Obc.exp -> Obc.pattern
+)
+ident(
+  def p_i "obc/transformations/scalarize.ml" 75 4052 4064 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 74 3996 4016 "obc/transformations/scalarize.ml" 74 3996 4017
+type(
+  Obc.exp
+)
+ident(
+  def i "obc/transformations/scalarize.ml" 74 3996 4020 "obc/transformations/scalarize.ml" 74 3996 4048
+)
+"obc/transformations/scalarize.ml" 74 3996 4020 "obc/transformations/scalarize.ml" 74 3996 4030
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  ext_ref Obc_utils.mk_pattern
+)
+"obc/transformations/scalarize.ml" 74 3996 4031 "obc/transformations/scalarize.ml" 74 3996 4032
+type(
+  Types.ty
+)
+ident(
+  int_ref t "obc/transformations/scalarize.ml" 60 3163 3187 "obc/transformations/scalarize.ml" 60 3163 3188
+)
+"obc/transformations/scalarize.ml" 74 3996 4042 "obc/transformations/scalarize.ml" 74 3996 4043
+type(
+  Obc.pattern
+)
+ident(
+  int_ref p "obc/transformations/scalarize.ml" 58 3096 3108 "obc/transformations/scalarize.ml" 58 3096 3109
+)
+"obc/transformations/scalarize.ml" 74 3996 4045 "obc/transformations/scalarize.ml" 74 3996 4046
+type(
+  Obc.exp
+)
+ident(
+  int_ref i "obc/transformations/scalarize.ml" 74 3996 4016 "obc/transformations/scalarize.ml" 74 3996 4017
+)
+"obc/transformations/scalarize.ml" 74 3996 4033 "obc/transformations/scalarize.ml" 74 3996 4048
+type(
+  Obc.pat_desc
+)
+"obc/transformations/scalarize.ml" 74 3996 4020 "obc/transformations/scalarize.ml" 74 3996 4048
+call(
+  tail
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/scalarize.ml" 75 4052 4068 "obc/transformations/scalarize.ml" 75 4052 4074
+type(
+  Obc.exp -> Obc.act list
+)
+ident(
+  def copy_i "obc/transformations/scalarize.ml" 81 4284 4296 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 75 4052 4075 "obc/transformations/scalarize.ml" 75 4052 4076
+type(
+  Obc.exp
+)
+ident(
+  def i "obc/transformations/scalarize.ml" 77 4151 4165 "obc/transformations/scalarize.ml" 79 4251 4268
+)
+"obc/transformations/scalarize.ml" 77 4151 4169 "obc/transformations/scalarize.ml" 77 4151 4170
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/scalarize.ml" 78 4206 4220 "obc/transformations/scalarize.ml" 79 4251 4268
+)
+"obc/transformations/scalarize.ml" 77 4151 4181 "obc/transformations/scalarize.ml" 77 4151 4184
+type(
+  Obc.exp -> Obc.pattern
+)
+ident(
+  int_ref p_i "obc/transformations/scalarize.ml" 74 3996 4012 "obc/transformations/scalarize.ml" 74 3996 4015
+)
+"obc/transformations/scalarize.ml" 77 4151 4185 "obc/transformations/scalarize.ml" 77 4151 4186
+type(
+  Obc.exp
+)
+ident(
+  int_ref i "obc/transformations/scalarize.ml" 75 4052 4075 "obc/transformations/scalarize.ml" 75 4052 4076
+)
+"obc/transformations/scalarize.ml" 77 4151 4181 "obc/transformations/scalarize.ml" 77 4151 4186
+call(
+  stack
+)
+type(
+  Obc.pattern
+)
+"obc/transformations/scalarize.ml" 77 4151 4188 "obc/transformations/scalarize.ml" 77 4151 4199
+type(
+  Obc.exp -> Obc.exp
+)
+ident(
+  int_ref array_ref_i "obc/transformations/scalarize.ml" 73 3919 3935 "obc/transformations/scalarize.ml" 73 3919 3946
+)
+"obc/transformations/scalarize.ml" 77 4151 4200 "obc/transformations/scalarize.ml" 77 4151 4201
+type(
+  Obc.exp
+)
+ident(
+  int_ref i "obc/transformations/scalarize.ml" 75 4052 4075 "obc/transformations/scalarize.ml" 75 4052 4076
+)
+"obc/transformations/scalarize.ml" 77 4151 4188 "obc/transformations/scalarize.ml" 77 4151 4201
+call(
+  stack
+)
+type(
+  Obc.exp
+)
+"obc/transformations/scalarize.ml" 77 4151 4173 "obc/transformations/scalarize.ml" 77 4151 4202
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 78 4206 4224 "obc/transformations/scalarize.ml" 78 4206 4225
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/scalarize.ml" 79 4251 4265 "obc/transformations/scalarize.ml" 79 4251 4268
+)
+"obc/transformations/scalarize.ml" 78 4206 4227 "obc/transformations/scalarize.ml" 78 4206 4228
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 78 4206 4224 "obc/transformations/scalarize.ml" 78 4206 4228
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 78 4206 4231 "obc/transformations/scalarize.ml" 78 4206 4237
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  ext_ref Obc_mapfold.act_it
+)
+"obc/transformations/scalarize.ml" 78 4206 4238 "obc/transformations/scalarize.ml" 78 4206 4242
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/scalarize.ml" 57 3063 3071 "obc/transformations/scalarize.ml" 57 3063 3075
+)
+"obc/transformations/scalarize.ml" 78 4206 4243 "obc/transformations/scalarize.ml" 78 4206 4245
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 78 4206 4246 "obc/transformations/scalarize.ml" 78 4206 4247
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/scalarize.ml" 77 4151 4169 "obc/transformations/scalarize.ml" 77 4151 4170
+)
+"obc/transformations/scalarize.ml" 78 4206 4231 "obc/transformations/scalarize.ml" 78 4206 4247
+call(
+  stack
+)
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 79 4251 4266 "obc/transformations/scalarize.ml" 79 4251 4267
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/scalarize.ml" 78 4206 4224 "obc/transformations/scalarize.ml" 78 4206 4225
+)
+"obc/transformations/scalarize.ml" 79 4251 4265 "obc/transformations/scalarize.ml" 79 4251 4268
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 78 4206 4220 "obc/transformations/scalarize.ml" 79 4251 4268
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 77 4151 4165 "obc/transformations/scalarize.ml" 79 4251 4268
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 81 4284 4300 "obc/transformations/scalarize.ml" 81 4284 4310
+type(
+  Obc.act
+)
+ident(
+  def copy_array "obc/transformations/scalarize.ml" 83 4411 4423 "obc/transformations/scalarize.ml" 89 4646 4659
+)
+"obc/transformations/scalarize.ml" 81 4284 4313 "obc/transformations/scalarize.ml" 81 4284 4322
+type(
+  Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  int_ref fresh_for "obc/transformations/scalarize.ml" 55 3024 3028 "obc/transformations/scalarize.ml" 55 3024 3037
+)
+"obc/transformations/scalarize.ml" 81 4284 4324 "obc/transformations/scalarize.ml" 81 4284 4340
+type(
+  ?loc:Location.location -> int -> Obc.exp
+)
+ident(
+  ext_ref Obc_utils.mk_exp_const_int
+)
+"obc/transformations/scalarize.ml" 81 4284 4341 "obc/transformations/scalarize.ml" 81 4284 4342
+type(
+  int
+)
+"obc/transformations/scalarize.ml" 81 4284 4323 "obc/transformations/scalarize.ml" 81 4284 4343
+call(
+  stack
+)
+type(
+  Obc.exp
+)
+"obc/transformations/scalarize.ml" 81 4284 4345 "obc/transformations/scalarize.ml" 81 4284 4362
+type(
+  ?loc:Location.location -> Types.static_exp -> Obc.exp
+)
+ident(
+  ext_ref Obc_utils.mk_exp_static_int
+)
+"obc/transformations/scalarize.ml" 81 4284 4363 "obc/transformations/scalarize.ml" 81 4284 4367
+type(
+  Types.static_exp
+)
+ident(
+  int_ref size "obc/transformations/scalarize.ml" 60 3163 3190 "obc/transformations/scalarize.ml" 60 3163 3194
+)
+"obc/transformations/scalarize.ml" 81 4284 4344 "obc/transformations/scalarize.ml" 81 4284 4368
+call(
+  stack
+)
+type(
+  Obc.exp
+)
+"obc/transformations/scalarize.ml" 81 4284 4369 "obc/transformations/scalarize.ml" 81 4284 4375
+type(
+  Obc.exp -> Obc.act list
+)
+ident(
+  int_ref copy_i "obc/transformations/scalarize.ml" 75 4052 4068 "obc/transformations/scalarize.ml" 75 4052 4074
+)
+"obc/transformations/scalarize.ml" 81 4284 4313 "obc/transformations/scalarize.ml" 81 4284 4375
+call(
+  stack
+)
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 83 4411 4430 "obc/transformations/scalarize.ml" 83 4411 4436
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref new_vd "obc/transformations/scalarize.ml" 61 3199 3215 "obc/transformations/scalarize.ml" 61 3199 3221
+)
+"obc/transformations/scalarize.ml" 83 4411 4438 "obc/transformations/scalarize.ml" 83 4411 4444
+type(
+  Obc.act list
+)
+ident(
+  int_ref new_eq "obc/transformations/scalarize.ml" 61 3199 3223 "obc/transformations/scalarize.ml" 61 3199 3229
+)
+"obc/transformations/scalarize.ml" 83 4411 4430 "obc/transformations/scalarize.ml" 83 4411 4444
+type(
+  Obc.var_dec list * Obc.act list
+)
+"obc/transformations/scalarize.ml" 84 4450 4466 "obc/transformations/scalarize.ml" 84 4450 4468
+type(
+  Obc.var_dec list
+)
+"obc/transformations/scalarize.ml" 84 4450 4469 "obc/transformations/scalarize.ml" 84 4450 4471
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 84 4450 4466 "obc/transformations/scalarize.ml" 84 4450 4471
+type(
+  Obc.var_dec list * Obc.act list
+)
+"obc/transformations/scalarize.ml" 85 4475 4493 "obc/transformations/scalarize.ml" 85 4475 4503
+type(
+  Obc.act
+)
+ident(
+  int_ref copy_array "obc/transformations/scalarize.ml" 81 4284 4300 "obc/transformations/scalarize.ml" 81 4284 4310
+)
+"obc/transformations/scalarize.ml" 85 4475 4505 "obc/transformations/scalarize.ml" 85 4475 4507
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 85 4475 4493 "obc/transformations/scalarize.ml" 85 4475 4507
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 86 4508 4524 "obc/transformations/scalarize.ml" 86 4508 4525
+type(
+  Obc.var_dec list * Obc.act list
+)
+"obc/transformations/scalarize.ml" 87 4529 4551 "obc/transformations/scalarize.ml" 87 4529 4556
+type(
+  Obc.block
+)
+ident(
+  def block "obc/transformations/scalarize.ml" 88 4611 4629 "obc/transformations/scalarize.ml" 88 4611 4645
+)
+"obc/transformations/scalarize.ml" 87 4529 4559 "obc/transformations/scalarize.ml" 87 4529 4567
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  ext_ref Obc_utils.mk_block
+)
+"obc/transformations/scalarize.ml" 87 4529 4577 "obc/transformations/scalarize.ml" 87 4529 4583
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref new_vd "obc/transformations/scalarize.ml" 61 3199 3215 "obc/transformations/scalarize.ml" 61 3199 3221
+)
+"obc/transformations/scalarize.ml" 87 4529 4585 "obc/transformations/scalarize.ml" 87 4529 4591
+type(
+  Obc.act list
+)
+ident(
+  int_ref new_eq "obc/transformations/scalarize.ml" 61 3199 3223 "obc/transformations/scalarize.ml" 61 3199 3229
+)
+"obc/transformations/scalarize.ml" 87 4529 4592 "obc/transformations/scalarize.ml" 87 4529 4593
+type(
+  Obc.act list -> Obc.act list -> Obc.act list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/transformations/scalarize.ml" 87 4529 4595 "obc/transformations/scalarize.ml" 87 4529 4605
+type(
+  Obc.act
+)
+ident(
+  int_ref copy_array "obc/transformations/scalarize.ml" 81 4284 4300 "obc/transformations/scalarize.ml" 81 4284 4310
+)
+"obc/transformations/scalarize.ml" 87 4529 4594 "obc/transformations/scalarize.ml" 87 4529 4606
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 87 4529 4584 "obc/transformations/scalarize.ml" 87 4529 4607
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/transformations/scalarize.ml" 87 4529 4559 "obc/transformations/scalarize.ml" 87 4529 4607
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/transformations/scalarize.ml" 88 4611 4636 "obc/transformations/scalarize.ml" 88 4611 4641
+type(
+  Obc.block
+)
+ident(
+  int_ref block "obc/transformations/scalarize.ml" 87 4529 4551 "obc/transformations/scalarize.ml" 87 4529 4556
+)
+"obc/transformations/scalarize.ml" 88 4611 4629 "obc/transformations/scalarize.ml" 88 4611 4641
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 88 4611 4643 "obc/transformations/scalarize.ml" 88 4611 4645
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 88 4611 4629 "obc/transformations/scalarize.ml" 88 4611 4645
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 87 4529 4547 "obc/transformations/scalarize.ml" 88 4611 4645
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 83 4411 4423 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 81 4284 4296 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 75 4052 4064 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 74 3996 4008 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 73 3919 3931 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 61 3199 3211 "obc/transformations/scalarize.ml" 89 4646 4659
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 90 4660 4670 "obc/transformations/scalarize.ml" 90 4660 4671
+type(
+  Types.ty
+)
+"obc/transformations/scalarize.ml" 90 4660 4675 "obc/transformations/scalarize.ml" 90 4660 4680
+type(
+  exn -> Obc.act * unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/scalarize.ml" 90 4660 4681 "obc/transformations/scalarize.ml" 90 4660 4696
+type(
+  exn
+)
+"obc/transformations/scalarize.ml" 90 4660 4675 "obc/transformations/scalarize.ml" 90 4660 4696
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 59 3117 3123 "obc/transformations/scalarize.ml" 91 4697 4704
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 92 4705 4709 "obc/transformations/scalarize.ml" 92 4705 4710
+type(
+  Obc.act
+)
+"obc/transformations/scalarize.ml" 92 4705 4714 "obc/transformations/scalarize.ml" 92 4705 4719
+type(
+  exn -> Obc.act * unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/scalarize.ml" 92 4705 4720 "obc/transformations/scalarize.ml" 92 4705 4735
+type(
+  exn
+)
+"obc/transformations/scalarize.ml" 92 4705 4714 "obc/transformations/scalarize.ml" 92 4705 4735
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 57 3063 3083 "obc/transformations/scalarize.ml" 92 4705 4735
+type(
+  Obc.act * unit
+)
+"obc/transformations/scalarize.ml" 94 4737 4741 "obc/transformations/scalarize.ml" 94 4737 4748
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/transformations/scalarize.ml" 96 4813 4816 "obc/transformations/scalarize.ml" 1 0 -1
+)
+"obc/transformations/scalarize.ml" 94 4737 4749 "obc/transformations/scalarize.ml" 94 4737 4750
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/scalarize.ml" 95 4753 4755 "obc/transformations/scalarize.ml" 96 4813 4816
+)
+"obc/transformations/scalarize.ml" 95 4753 4759 "obc/transformations/scalarize.ml" 95 4753 4760
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/scalarize.ml" 96 4813 4815 "obc/transformations/scalarize.ml" 96 4813 4816
+)
+"obc/transformations/scalarize.ml" 95 4753 4762 "obc/transformations/scalarize.ml" 95 4753 4763
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 95 4753 4759 "obc/transformations/scalarize.ml" 95 4753 4763
+type(
+  Obc.program * unit
+)
+"obc/transformations/scalarize.ml" 95 4753 4766 "obc/transformations/scalarize.ml" 95 4753 4776
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.program -> Obc.program * unit
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/transformations/scalarize.ml" 95 4753 4779 "obc/transformations/scalarize.ml" 95 4753 4787
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/scalarize.ml" 95 4753 4799 "obc/transformations/scalarize.ml" 95 4753 4802
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  int_ref act "obc/transformations/scalarize.ml" 57 3063 3067 "obc/transformations/scalarize.ml" 57 3063 3070
+)
+"obc/transformations/scalarize.ml" 95 4753 4777 "obc/transformations/scalarize.ml" 95 4753 4804
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+"obc/transformations/scalarize.ml" 95 4753 4805 "obc/transformations/scalarize.ml" 95 4753 4807
+type(
+  unit
+)
+"obc/transformations/scalarize.ml" 95 4753 4808 "obc/transformations/scalarize.ml" 95 4753 4809
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/scalarize.ml" 94 4737 4749 "obc/transformations/scalarize.ml" 94 4737 4750
+)
+"obc/transformations/scalarize.ml" 95 4753 4766 "obc/transformations/scalarize.ml" 95 4753 4809
+call(
+  stack
+)
+type(
+  Obc.program * unit
+)
+"obc/transformations/scalarize.ml" 96 4813 4815 "obc/transformations/scalarize.ml" 96 4813 4816
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/scalarize.ml" 95 4753 4759 "obc/transformations/scalarize.ml" 95 4753 4760
+)
+"obc/transformations/scalarize.ml" 95 4753 4755 "obc/transformations/scalarize.ml" 96 4813 4816
+type(
+  Obc.program
+)

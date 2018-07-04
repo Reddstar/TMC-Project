@@ -1,0 +1,201 @@
+
+declare(
+        Pump_On,
+        Pump_Off,
+        X0,
+        X1,
+        X2,
+        X3,
+        X4,
+        X5,
+        X6,
+        d_normal,
+        d_run,
+        d_stuck,
+        u1,
+        u3,
+        u4,
+        u2);
+
+
+
+CLK_d_normal : 1;
+
+Flow_0 : (when Pump_On) when u2 default not CLK_d_normal * (1 - ((when Pump_On) 
+    when u2));
+
+Forbidden_States : X0 or X6;
+
+CLK_Inter_Pump_On : when d_stuck default (when d_normal) when not u1 default 
+    when u1 and d_normal default when d_run;
+
+Inter_Pump_On : when u1 and d_normal default when d_run default not ((when 
+    d_normal) when not u1) default not (when d_stuck);
+
+Inter_Pump_Off : (when d_normal) when not u1 default when d_stuck default not (
+    when u1 and d_normal) default not (when d_run);
+
+CLK_Inter_X0 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when u3 and u4) when not 
+    Flow_0) when X0 default ((when not Flow_0) when (u3 when not u4 default u4 
+    when not u3) default (when u3 and u4) when Flow_0 default (when u3 and u4) 
+    when not Flow_0) when X1 default (when u3 and u4) when not Flow_0 when X2 
+    default (when Flow_0) when not u3 when not u4 when X0;
+
+Inter_X0 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when u3 and u4) when not 
+    Flow_0) when X1 default ((when not Flow_0) when (u3 when not u4 default u4 
+    when not u3) default (when u3 and u4) when Flow_0 default (when u3 and u4) 
+    when not Flow_0) when X0 default (when u3 and u4) when not Flow_0 when X2 
+    default not ((when Flow_0) when not u3 when not u4 when X0);
+
+CLK_Inter_X1 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X1 default ((when not 
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0) when X2 default (when u3 and u4) when not Flow_0 when X3 
+    default (when Flow_0) when not u3 when not u4 when X0;
+
+Inter_X1 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0) when X2 default (when u3 and u4) when 
+    not Flow_0 when X3 default (when Flow_0) when not u3 when not u4 when X0 
+    default not (((when not Flow_0) when (u3 when not u4 default u4 when not u3)
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X1);
+
+CLK_Inter_X2 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X2 default ((when not 
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0) when X3 default (when u3 and u4) when not Flow_0 when X4 
+    default (when Flow_0) when not u3 when not u4 when X1;
+
+Inter_X2 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0) when X3 default (when u3 and u4) when 
+    not Flow_0 when X4 default (when Flow_0) when not u3 when not u4 when X1 
+    default not (((when not Flow_0) when (u3 when not u4 default u4 when not u3)
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X2);
+
+CLK_Inter_X3 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X3 default ((when not 
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0) when X4 default (when u3 and u4) when not Flow_0 when X5 
+    default (when Flow_0) when not u3 when not u4 when X2;
+
+Inter_X3 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0) when X4 default (when u3 and u4) when 
+    not Flow_0 when X5 default (when Flow_0) when not u3 when not u4 when X2 
+    default not (((when not Flow_0) when (u3 when not u4 default u4 when not u3)
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X3);
+
+CLK_Inter_X4 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X4 default ((when not 
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0) when X5 default (when u3 and u4) when not Flow_0 when X6 
+    default (when Flow_0) when not u3 when not u4 when X3;
+
+Inter_X4 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0) when X5 default (when u3 and u4) when 
+    not Flow_0 when X6 default (when Flow_0) when not u3 when not u4 when X3 
+    default not (((when not Flow_0) when (u3 when not u4 default u4 when not u3)
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X4);
+
+CLK_Inter_X5 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X5 default ((when not 
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0) when X6 default (when Flow_0) when not u3 when not u4 when X4
+    ;
+
+Inter_X5 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0) when X6 default (when Flow_0) when not
+    u3 when not u4 when X4 default not (((when not Flow_0) when (u3 when not u4 
+    default u4 when not u3) default (when u3 and u4) when Flow_0 default (when 
+    Flow_0) when not u3 when not u4 default (when u3 and u4) when not Flow_0) 
+    when X5);
+
+CLK_Inter_X6 : ((when not Flow_0) when (u3 when not u4 default u4 when not u3) 
+    default (when u3 and u4) when Flow_0 default (when Flow_0) when not u3 when 
+    not u4 default (when u3 and u4) when not Flow_0) when X6 default (when 
+    Flow_0) when not u3 when not u4 when X5;
+
+Inter_X6 : (when Flow_0) when not u3 when not u4 when X5 default not (((when not
+    Flow_0) when (u3 when not u4 default u4 when not u3) default (when u3 and u4
+    ) when Flow_0 default (when Flow_0) when not u3 when not u4 default (when u3
+    and u4) when not Flow_0) when X6);
+
+
+
+
+events: [
+        d_normal,
+        d_run,
+        d_stuck,
+        u1,
+        u3,
+        u4,
+        u2];
+
+
+states: [
+        Pump_On,
+        Pump_Off,
+        X0,
+        X1,
+        X2,
+        X3,
+        X4,
+        X5,
+        X6];
+
+
+initialisations: [
+        Pump_On = - 1,
+        Pump_Off = 1,
+        X0 = - 1,
+        X1 = - 1,
+        X2 = - 1,
+        X3 = 1,
+        X4 = - 1,
+        X5 = - 1,
+        X6 = - 1];
+
+
+evolutions: [
+        Inter_Pump_On + (1 - CLK_Inter_Pump_On) * Pump_On,
+        Inter_Pump_Off + (1 - CLK_Inter_Pump_On) * Pump_Off,
+        Inter_X0 + (1 - CLK_Inter_X0) * X0,
+        Inter_X1 + (1 - CLK_Inter_X1) * X1,
+        Inter_X2 + (1 - CLK_Inter_X2) * X2,
+        Inter_X3 + (1 - CLK_Inter_X3) * X3,
+        Inter_X4 + (1 - CLK_Inter_X4) * X4,
+        Inter_X5 + (1 - CLK_Inter_X5) * X5,
+        Inter_X6 + (1 - CLK_Inter_X6) * X6];
+
+
+constraints: [
+        d_normal ^2 = CLK_d_normal ,
+        d_run ^2 = CLK_d_normal,
+        d_stuck ^2 = CLK_d_normal,
+        u1 ^2 = CLK_d_normal,
+        u3 ^2 = CLK_d_normal,
+        u4 ^2 = CLK_d_normal,
+        u2 ^2 = CLK_d_normal];
+
+
+controllables: [
+        u1,
+        u2,
+        u3,
+        u4];
+
+
+free_cond: [
+        ];
+
+

@@ -1,0 +1,1086 @@
+"obc/transformations/deadcode.ml" 34 2123 2127 "obc/transformations/deadcode.ml" 34 2123 2130
+type(
+  'a list Obc_mapfold.obc_it_funs ->
+  Obc.act list -> Obc.act -> Obc.act * Obc.act list
+)
+ident(
+  def act "obc/transformations/deadcode.ml" 78 3332 3332 "obc/transformations/deadcode.ml" 1 0 -1
+)
+"obc/transformations/deadcode.ml" 34 2123 2131 "obc/transformations/deadcode.ml" 34 2123 2135
+type(
+  'a list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 76 3305 3330
+)
+"obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+type(
+  Obc.act list
+)
+ident(
+  def act_list "obc/transformations/deadcode.ml" 34 2123 2145 "obc/transformations/deadcode.ml" 76 3305 3330
+)
+"obc/transformations/deadcode.ml" 34 2123 2145 "obc/transformations/deadcode.ml" 34 2123 2146
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/deadcode.ml" 35 2149 2151 "obc/transformations/deadcode.ml" 76 3305 3330
+)
+"obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/deadcode.ml" 36 2191 2193 "obc/transformations/deadcode.ml" 76 3305 3330
+)
+"obc/transformations/deadcode.ml" 35 2149 2158 "obc/transformations/deadcode.ml" 35 2149 2159
+type(
+  'a list
+)
+"obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2159
+type(
+  Obc.act * 'a list
+)
+"obc/transformations/deadcode.ml" 35 2149 2162 "obc/transformations/deadcode.ml" 35 2149 2177
+type(
+  'a list Obc_mapfold.obc_it_funs -> 'a list -> Obc.act -> Obc.act * 'a list
+)
+ident(
+  ext_ref Obc_mapfold.act
+)
+"obc/transformations/deadcode.ml" 35 2149 2178 "obc/transformations/deadcode.ml" 35 2149 2182
+type(
+  'a list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/deadcode.ml" 34 2123 2131 "obc/transformations/deadcode.ml" 34 2123 2135
+)
+"obc/transformations/deadcode.ml" 35 2149 2183 "obc/transformations/deadcode.ml" 35 2149 2185
+type(
+  'a list
+)
+"obc/transformations/deadcode.ml" 35 2149 2186 "obc/transformations/deadcode.ml" 35 2149 2187
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 34 2123 2145 "obc/transformations/deadcode.ml" 34 2123 2146
+)
+"obc/transformations/deadcode.ml" 35 2149 2162 "obc/transformations/deadcode.ml" 35 2149 2187
+call(
+  stack
+)
+type(
+  Obc.act * 'a list
+)
+"obc/transformations/deadcode.ml" 36 2191 2199 "obc/transformations/deadcode.ml" 36 2191 2200
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 37 2206 2218 "obc/transformations/deadcode.ml" 37 2206 2221
+type(
+  Obc.pattern
+)
+ident(
+  def lhs "obc/transformations/deadcode.ml" 38 2256 2261 "obc/transformations/deadcode.ml" 42 2422 2428
+)
+"obc/transformations/deadcode.ml" 37 2206 2223 "obc/transformations/deadcode.ml" 37 2206 2224
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/transformations/deadcode.ml" 38 2256 2261 "obc/transformations/deadcode.ml" 42 2422 2428
+)
+"obc/transformations/deadcode.ml" 37 2206 2210 "obc/transformations/deadcode.ml" 37 2206 2225
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 38 2256 2268 "obc/transformations/deadcode.ml" 38 2256 2269
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/deadcode.ml" 37 2206 2223 "obc/transformations/deadcode.ml" 37 2206 2224
+)
+"obc/transformations/deadcode.ml" 38 2256 2268 "obc/transformations/deadcode.ml" 38 2256 2276
+type(
+  Obc.exp_desc
+)
+"obc/transformations/deadcode.ml" 39 2282 2300 "obc/transformations/deadcode.ml" 39 2282 2301
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/deadcode.ml" 39 2282 2307 "obc/transformations/deadcode.ml" 40 2352 2367
+)
+"obc/transformations/deadcode.ml" 39 2282 2290 "obc/transformations/deadcode.ml" 39 2282 2301
+type(
+  Obc.exp_desc
+)
+"obc/transformations/deadcode.ml" 39 2282 2308 "obc/transformations/deadcode.ml" 39 2282 2340
+type(
+  Obc.pattern -> Obc.ext_value -> int
+)
+ident(
+  ext_ref Obc_compare.compare_lhs_extvalue
+)
+"obc/transformations/deadcode.ml" 39 2282 2341 "obc/transformations/deadcode.ml" 39 2282 2344
+type(
+  Obc.pattern
+)
+ident(
+  int_ref lhs "obc/transformations/deadcode.ml" 37 2206 2218 "obc/transformations/deadcode.ml" 37 2206 2221
+)
+"obc/transformations/deadcode.ml" 39 2282 2345 "obc/transformations/deadcode.ml" 39 2282 2346
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/deadcode.ml" 39 2282 2300 "obc/transformations/deadcode.ml" 39 2282 2301
+)
+"obc/transformations/deadcode.ml" 39 2282 2308 "obc/transformations/deadcode.ml" 39 2282 2346
+call(
+  stack
+)
+type(
+  int
+)
+"obc/transformations/deadcode.ml" 39 2282 2347 "obc/transformations/deadcode.ml" 39 2282 2348
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/transformations/deadcode.ml" 39 2282 2349 "obc/transformations/deadcode.ml" 39 2282 2350
+type(
+  int
+)
+"obc/transformations/deadcode.ml" 39 2282 2307 "obc/transformations/deadcode.ml" 39 2282 2351
+type(
+  bool
+)
+"obc/transformations/deadcode.ml" 40 2352 2356 "obc/transformations/deadcode.ml" 40 2352 2357
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 40 2352 2359 "obc/transformations/deadcode.ml" 40 2352 2367
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 40 2352 2356 "obc/transformations/deadcode.ml" 40 2352 2367
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 41 2392 2400 "obc/transformations/deadcode.ml" 41 2392 2401
+type(
+  Obc.exp_desc
+)
+"obc/transformations/deadcode.ml" 41 2392 2405 "obc/transformations/deadcode.ml" 41 2392 2406
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 41 2392 2408 "obc/transformations/deadcode.ml" 41 2392 2409
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 41 2392 2413 "obc/transformations/deadcode.ml" 41 2392 2421
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 41 2392 2408 "obc/transformations/deadcode.ml" 41 2392 2421
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 41 2392 2405 "obc/transformations/deadcode.ml" 41 2392 2421
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 38 2256 2261 "obc/transformations/deadcode.ml" 42 2422 2428
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 43 2429 2440 "obc/transformations/deadcode.ml" 43 2429 2441
+type(
+  Obc.exp
+)
+"obc/transformations/deadcode.ml" 43 2429 2443 "obc/transformations/deadcode.ml" 43 2429 2445
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 43 2429 2433 "obc/transformations/deadcode.ml" 43 2429 2446
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 43 2429 2450 "obc/transformations/deadcode.ml" 43 2429 2451
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 43 2429 2453 "obc/transformations/deadcode.ml" 43 2429 2461
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 43 2429 2450 "obc/transformations/deadcode.ml" 43 2429 2461
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 46 2515 2554 "obc/transformations/deadcode.ml" 46 2515 2555
+type(
+  bool
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 50 2584 2589 "obc/transformations/deadcode.ml" 59 2868 2876
+)
+"obc/transformations/deadcode.ml" 46 2515 2548 "obc/transformations/deadcode.ml" 46 2515 2555
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/deadcode.ml" 46 2515 2536 "obc/transformations/deadcode.ml" 46 2515 2557
+type(
+  Types.static_exp
+)
+"obc/transformations/deadcode.ml" 46 2515 2529 "obc/transformations/deadcode.ml" 46 2515 2557
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/deadcode.ml" 45 2497 2513 "obc/transformations/deadcode.ml" 47 2559 2562
+type(
+  Obc.ext_value
+)
+"obc/transformations/deadcode.ml" 45 2497 2504 "obc/transformations/deadcode.ml" 47 2559 2562
+type(
+  Obc.exp_desc
+)
+"obc/transformations/deadcode.ml" 44 2476 2487 "obc/transformations/deadcode.ml" 48 2563 2568
+type(
+  Obc.exp
+)
+"obc/transformations/deadcode.ml" 49 2570 2574 "obc/transformations/deadcode.ml" 49 2570 2579
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def c_b_l "obc/transformations/deadcode.ml" 50 2584 2589 "obc/transformations/deadcode.ml" 59 2868 2876
+)
+"obc/transformations/deadcode.ml" 44 2476 2480 "obc/transformations/deadcode.ml" 49 2570 2580
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 50 2584 2593 "obc/transformations/deadcode.ml" 50 2584 2595
+type(
+  Names.qualname
+)
+ident(
+  def pb "obc/transformations/deadcode.ml" 51 2629 2634 "obc/transformations/deadcode.ml" 59 2868 2876
+)
+"obc/transformations/deadcode.ml" 50 2584 2601 "obc/transformations/deadcode.ml" 50 2584 2602
+type(
+  bool
+)
+ident(
+  int_ref b "obc/transformations/deadcode.ml" 46 2515 2554 "obc/transformations/deadcode.ml" 46 2515 2555
+)
+"obc/transformations/deadcode.ml" 50 2584 2608 "obc/transformations/deadcode.ml" 50 2584 2613
+type(
+  Names.qualname
+)
+ident(
+  ext_ref Initial.ptrue
+)
+"obc/transformations/deadcode.ml" 50 2584 2619 "obc/transformations/deadcode.ml" 50 2584 2625
+type(
+  Names.qualname
+)
+ident(
+  ext_ref Initial.pfalse
+)
+"obc/transformations/deadcode.ml" 50 2584 2598 "obc/transformations/deadcode.ml" 50 2584 2625
+type(
+  Names.qualname
+)
+"obc/transformations/deadcode.ml" 51 2629 2638 "obc/transformations/deadcode.ml" 51 2629 2643
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def c_b_l "obc/transformations/deadcode.ml" 52 2689 2694 "obc/transformations/deadcode.ml" 59 2868 2876
+)
+"obc/transformations/deadcode.ml" 51 2629 2646 "obc/transformations/deadcode.ml" 51 2629 2657
+type(
+  (Names.constructor_name * Obc.block -> bool) ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  ext_ref List.filter
+)
+"obc/transformations/deadcode.ml" 51 2629 2664 "obc/transformations/deadcode.ml" 51 2629 2665
+type(
+  Names.constructor_name
+)
+ident(
+  def c "obc/transformations/deadcode.ml" 51 2629 2672 "obc/transformations/deadcode.ml" 51 2629 2678
+)
+"obc/transformations/deadcode.ml" 51 2629 2666 "obc/transformations/deadcode.ml" 51 2629 2667
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 51 2629 2672 "obc/transformations/deadcode.ml" 51 2629 2678
+)
+"obc/transformations/deadcode.ml" 51 2629 2663 "obc/transformations/deadcode.ml" 51 2629 2668
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/transformations/deadcode.ml" 51 2629 2672 "obc/transformations/deadcode.ml" 51 2629 2673
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "obc/transformations/deadcode.ml" 51 2629 2664 "obc/transformations/deadcode.ml" 51 2629 2665
+)
+"obc/transformations/deadcode.ml" 51 2629 2674 "obc/transformations/deadcode.ml" 51 2629 2675
+type(
+  Names.constructor_name -> Names.constructor_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/transformations/deadcode.ml" 51 2629 2676 "obc/transformations/deadcode.ml" 51 2629 2678
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref pb "obc/transformations/deadcode.ml" 50 2584 2593 "obc/transformations/deadcode.ml" 50 2584 2595
+)
+"obc/transformations/deadcode.ml" 51 2629 2672 "obc/transformations/deadcode.ml" 51 2629 2678
+type(
+  bool
+)
+"obc/transformations/deadcode.ml" 51 2629 2658 "obc/transformations/deadcode.ml" 51 2629 2679
+type(
+  Names.constructor_name * Obc.block -> bool
+)
+"obc/transformations/deadcode.ml" 51 2629 2680 "obc/transformations/deadcode.ml" 51 2629 2685
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref c_b_l "obc/transformations/deadcode.ml" 49 2570 2574 "obc/transformations/deadcode.ml" 49 2570 2579
+)
+"obc/transformations/deadcode.ml" 51 2629 2646 "obc/transformations/deadcode.ml" 51 2629 2685
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 53 2700 2713 "obc/transformations/deadcode.ml" 53 2700 2718
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref c_b_l "obc/transformations/deadcode.ml" 51 2629 2638 "obc/transformations/deadcode.ml" 51 2629 2643
+)
+"obc/transformations/deadcode.ml" 54 2724 2727 "obc/transformations/deadcode.ml" 54 2724 2728
+type(
+  Names.constructor_name
+)
+ident(
+  def c "obc/transformations/deadcode.ml" 55 2735 2737 "obc/transformations/deadcode.ml" 56 2757 2775
+)
+"obc/transformations/deadcode.ml" 54 2724 2729 "obc/transformations/deadcode.ml" 54 2724 2730
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 55 2735 2737 "obc/transformations/deadcode.ml" 56 2757 2775
+)
+"obc/transformations/deadcode.ml" 54 2724 2727 "obc/transformations/deadcode.ml" 54 2724 2730
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/transformations/deadcode.ml" 54 2724 2726 "obc/transformations/deadcode.ml" 54 2724 2731
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 55 2735 2741 "obc/transformations/deadcode.ml" 55 2735 2742
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/deadcode.ml" 56 2757 2759 "obc/transformations/deadcode.ml" 56 2757 2775
+)
+"obc/transformations/deadcode.ml" 55 2735 2752 "obc/transformations/deadcode.ml" 55 2735 2753
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/deadcode.ml" 54 2724 2729 "obc/transformations/deadcode.ml" 54 2724 2730
+)
+"obc/transformations/deadcode.ml" 55 2735 2745 "obc/transformations/deadcode.ml" 55 2735 2753
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 56 2757 2759 "obc/transformations/deadcode.ml" 56 2757 2760
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 55 2735 2741 "obc/transformations/deadcode.ml" 55 2735 2742
+)
+"obc/transformations/deadcode.ml" 56 2757 2762 "obc/transformations/deadcode.ml" 56 2757 2763
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 55 2735 2741 "obc/transformations/deadcode.ml" 55 2735 2742
+)
+"obc/transformations/deadcode.ml" 56 2757 2767 "obc/transformations/deadcode.ml" 56 2757 2775
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 56 2757 2762 "obc/transformations/deadcode.ml" 56 2757 2775
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 56 2757 2759 "obc/transformations/deadcode.ml" 56 2757 2775
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 55 2735 2737 "obc/transformations/deadcode.ml" 56 2757 2775
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 57 2776 2785 "obc/transformations/deadcode.ml" 57 2776 2787
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 57 2776 2791 "obc/transformations/deadcode.ml" 57 2776 2792
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 57 2776 2794 "obc/transformations/deadcode.ml" 57 2776 2802
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 57 2776 2791 "obc/transformations/deadcode.ml" 57 2776 2802
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 58 2803 2812 "obc/transformations/deadcode.ml" 58 2803 2813
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 58 2803 2824 "obc/transformations/deadcode.ml" 58 2803 2829
+type(
+  bool
+)
+"obc/transformations/deadcode.ml" 58 2803 2817 "obc/transformations/deadcode.ml" 58 2803 2829
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 52 2689 2694 "obc/transformations/deadcode.ml" 59 2868 2876
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 51 2629 2634 "obc/transformations/deadcode.ml" 59 2868 2876
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 50 2584 2589 "obc/transformations/deadcode.ml" 59 2868 2876
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 62 2916 2962 "obc/transformations/deadcode.ml" 62 2916 2964
+type(
+  Names.constructor_name
+)
+ident(
+  def ce "obc/transformations/deadcode.ml" 66 2993 2998 "obc/transformations/deadcode.ml" 74 3232 3240
+)
+"obc/transformations/deadcode.ml" 62 2916 2949 "obc/transformations/deadcode.ml" 62 2916 2964
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/deadcode.ml" 62 2916 2937 "obc/transformations/deadcode.ml" 62 2916 2966
+type(
+  Types.static_exp
+)
+"obc/transformations/deadcode.ml" 62 2916 2930 "obc/transformations/deadcode.ml" 62 2916 2966
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/deadcode.ml" 61 2898 2914 "obc/transformations/deadcode.ml" 63 2968 2971
+type(
+  Obc.ext_value
+)
+"obc/transformations/deadcode.ml" 61 2898 2905 "obc/transformations/deadcode.ml" 63 2968 2971
+type(
+  Obc.exp_desc
+)
+"obc/transformations/deadcode.ml" 60 2877 2888 "obc/transformations/deadcode.ml" 64 2972 2977
+type(
+  Obc.exp
+)
+"obc/transformations/deadcode.ml" 65 2979 2983 "obc/transformations/deadcode.ml" 65 2979 2988
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def c_b_l "obc/transformations/deadcode.ml" 66 2993 2998 "obc/transformations/deadcode.ml" 74 3232 3240
+)
+"obc/transformations/deadcode.ml" 60 2877 2881 "obc/transformations/deadcode.ml" 65 2979 2989
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 66 2993 3002 "obc/transformations/deadcode.ml" 66 2993 3007
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def c_b_l "obc/transformations/deadcode.ml" 67 3053 3058 "obc/transformations/deadcode.ml" 74 3232 3240
+)
+"obc/transformations/deadcode.ml" 66 2993 3010 "obc/transformations/deadcode.ml" 66 2993 3021
+type(
+  (Names.constructor_name * Obc.block -> bool) ->
+  (Names.constructor_name * Obc.block) list ->
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  ext_ref List.filter
+)
+"obc/transformations/deadcode.ml" 66 2993 3028 "obc/transformations/deadcode.ml" 66 2993 3029
+type(
+  Names.constructor_name
+)
+ident(
+  def c "obc/transformations/deadcode.ml" 66 2993 3036 "obc/transformations/deadcode.ml" 66 2993 3042
+)
+"obc/transformations/deadcode.ml" 66 2993 3030 "obc/transformations/deadcode.ml" 66 2993 3031
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 66 2993 3036 "obc/transformations/deadcode.ml" 66 2993 3042
+)
+"obc/transformations/deadcode.ml" 66 2993 3027 "obc/transformations/deadcode.ml" 66 2993 3032
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/transformations/deadcode.ml" 66 2993 3036 "obc/transformations/deadcode.ml" 66 2993 3037
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "obc/transformations/deadcode.ml" 66 2993 3028 "obc/transformations/deadcode.ml" 66 2993 3029
+)
+"obc/transformations/deadcode.ml" 66 2993 3038 "obc/transformations/deadcode.ml" 66 2993 3039
+type(
+  Names.constructor_name -> Names.constructor_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/transformations/deadcode.ml" 66 2993 3040 "obc/transformations/deadcode.ml" 66 2993 3042
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref ce "obc/transformations/deadcode.ml" 62 2916 2962 "obc/transformations/deadcode.ml" 62 2916 2964
+)
+"obc/transformations/deadcode.ml" 66 2993 3036 "obc/transformations/deadcode.ml" 66 2993 3042
+type(
+  bool
+)
+"obc/transformations/deadcode.ml" 66 2993 3022 "obc/transformations/deadcode.ml" 66 2993 3043
+type(
+  Names.constructor_name * Obc.block -> bool
+)
+"obc/transformations/deadcode.ml" 66 2993 3044 "obc/transformations/deadcode.ml" 66 2993 3049
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref c_b_l "obc/transformations/deadcode.ml" 65 2979 2983 "obc/transformations/deadcode.ml" 65 2979 2988
+)
+"obc/transformations/deadcode.ml" 66 2993 3010 "obc/transformations/deadcode.ml" 66 2993 3049
+call(
+  stack
+)
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 68 3064 3077 "obc/transformations/deadcode.ml" 68 3064 3082
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref c_b_l "obc/transformations/deadcode.ml" 66 2993 3002 "obc/transformations/deadcode.ml" 66 2993 3007
+)
+"obc/transformations/deadcode.ml" 69 3088 3091 "obc/transformations/deadcode.ml" 69 3088 3092
+type(
+  Names.constructor_name
+)
+ident(
+  def c "obc/transformations/deadcode.ml" 70 3099 3101 "obc/transformations/deadcode.ml" 71 3121 3139
+)
+"obc/transformations/deadcode.ml" 69 3088 3093 "obc/transformations/deadcode.ml" 69 3088 3094
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 70 3099 3101 "obc/transformations/deadcode.ml" 71 3121 3139
+)
+"obc/transformations/deadcode.ml" 69 3088 3091 "obc/transformations/deadcode.ml" 69 3088 3094
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/transformations/deadcode.ml" 69 3088 3090 "obc/transformations/deadcode.ml" 69 3088 3095
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 70 3099 3105 "obc/transformations/deadcode.ml" 70 3099 3106
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/deadcode.ml" 71 3121 3123 "obc/transformations/deadcode.ml" 71 3121 3139
+)
+"obc/transformations/deadcode.ml" 70 3099 3116 "obc/transformations/deadcode.ml" 70 3099 3117
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/deadcode.ml" 69 3088 3093 "obc/transformations/deadcode.ml" 69 3088 3094
+)
+"obc/transformations/deadcode.ml" 70 3099 3109 "obc/transformations/deadcode.ml" 70 3099 3117
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 71 3121 3123 "obc/transformations/deadcode.ml" 71 3121 3124
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 70 3099 3105 "obc/transformations/deadcode.ml" 70 3099 3106
+)
+"obc/transformations/deadcode.ml" 71 3121 3126 "obc/transformations/deadcode.ml" 71 3121 3127
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 70 3099 3105 "obc/transformations/deadcode.ml" 70 3099 3106
+)
+"obc/transformations/deadcode.ml" 71 3121 3131 "obc/transformations/deadcode.ml" 71 3121 3139
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 71 3121 3126 "obc/transformations/deadcode.ml" 71 3121 3139
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 71 3121 3123 "obc/transformations/deadcode.ml" 71 3121 3139
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 70 3099 3101 "obc/transformations/deadcode.ml" 71 3121 3139
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 72 3140 3149 "obc/transformations/deadcode.ml" 72 3140 3151
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 72 3140 3155 "obc/transformations/deadcode.ml" 72 3140 3156
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 72 3140 3158 "obc/transformations/deadcode.ml" 72 3140 3166
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 72 3140 3155 "obc/transformations/deadcode.ml" 72 3140 3166
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 73 3167 3176 "obc/transformations/deadcode.ml" 73 3167 3177
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/transformations/deadcode.ml" 73 3167 3188 "obc/transformations/deadcode.ml" 73 3167 3193
+type(
+  bool
+)
+"obc/transformations/deadcode.ml" 73 3167 3181 "obc/transformations/deadcode.ml" 73 3167 3193
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 67 3053 3058 "obc/transformations/deadcode.ml" 74 3232 3240
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 66 2993 2998 "obc/transformations/deadcode.ml" 74 3232 3240
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 75 3241 3250 "obc/transformations/deadcode.ml" 75 3241 3251
+type(
+  Obc.var_dec
+)
+"obc/transformations/deadcode.ml" 75 3241 3253 "obc/transformations/deadcode.ml" 75 3241 3254
+type(
+  Obc.exp
+)
+"obc/transformations/deadcode.ml" 75 3241 3256 "obc/transformations/deadcode.ml" 75 3241 3257
+type(
+  Obc.exp
+)
+"obc/transformations/deadcode.ml" 75 3241 3270 "obc/transformations/deadcode.ml" 75 3241 3272
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 75 3241 3259 "obc/transformations/deadcode.ml" 75 3241 3274
+type(
+  Obc.block
+)
+"obc/transformations/deadcode.ml" 75 3241 3245 "obc/transformations/deadcode.ml" 75 3241 3275
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 75 3241 3279 "obc/transformations/deadcode.ml" 75 3241 3280
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 75 3241 3282 "obc/transformations/deadcode.ml" 75 3241 3290
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 75 3241 3279 "obc/transformations/deadcode.ml" 75 3241 3290
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 76 3305 3309 "obc/transformations/deadcode.ml" 76 3305 3310
+type(
+  Obc.act
+)
+"obc/transformations/deadcode.ml" 76 3305 3314 "obc/transformations/deadcode.ml" 76 3305 3315
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 76 3305 3317 "obc/transformations/deadcode.ml" 76 3305 3318
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/deadcode.ml" 35 2149 2155 "obc/transformations/deadcode.ml" 35 2149 2156
+)
+"obc/transformations/deadcode.ml" 76 3305 3322 "obc/transformations/deadcode.ml" 76 3305 3330
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 34 2123 2136 "obc/transformations/deadcode.ml" 34 2123 2144
+)
+"obc/transformations/deadcode.ml" 76 3305 3317 "obc/transformations/deadcode.ml" 76 3305 3330
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 76 3305 3314 "obc/transformations/deadcode.ml" 76 3305 3330
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 36 2191 2193 "obc/transformations/deadcode.ml" 76 3305 3330
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 35 2149 2151 "obc/transformations/deadcode.ml" 76 3305 3330
+type(
+  Obc.act * Obc.act list
+)
+"obc/transformations/deadcode.ml" 78 3332 3336 "obc/transformations/deadcode.ml" 78 3332 3341
+type(
+  Obc.act list Obc_mapfold.obc_it_funs -> 'a -> Obc.block -> Obc.block * 'a
+)
+ident(
+  def block "obc/transformations/deadcode.ml" 82 3454 3454 "obc/transformations/deadcode.ml" 1 0 -1
+)
+"obc/transformations/deadcode.ml" 78 3332 3342 "obc/transformations/deadcode.ml" 78 3332 3346
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/deadcode.ml" 78 3332 3347 "obc/transformations/deadcode.ml" 80 3406 3452
+)
+"obc/transformations/deadcode.ml" 78 3332 3347 "obc/transformations/deadcode.ml" 78 3332 3350
+type(
+  'a
+)
+ident(
+  def acc "obc/transformations/deadcode.ml" 78 3332 3351 "obc/transformations/deadcode.ml" 80 3406 3452
+)
+"obc/transformations/deadcode.ml" 78 3332 3351 "obc/transformations/deadcode.ml" 78 3332 3352
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/deadcode.ml" 79 3355 3357 "obc/transformations/deadcode.ml" 80 3406 3452
+)
+"obc/transformations/deadcode.ml" 79 3355 3361 "obc/transformations/deadcode.ml" 79 3355 3362
+type(
+  Obc.block
+)
+"obc/transformations/deadcode.ml" 79 3355 3364 "obc/transformations/deadcode.ml" 79 3355 3372
+type(
+  Obc.act list
+)
+ident(
+  def act_list "obc/transformations/deadcode.ml" 80 3406 3410 "obc/transformations/deadcode.ml" 80 3406 3452
+)
+"obc/transformations/deadcode.ml" 79 3355 3361 "obc/transformations/deadcode.ml" 79 3355 3372
+type(
+  Obc.block * Obc.act list
+)
+"obc/transformations/deadcode.ml" 79 3355 3375 "obc/transformations/deadcode.ml" 79 3355 3392
+type(
+  Obc.act list Obc_mapfold.obc_it_funs ->
+  Obc.act list -> Obc.block -> Obc.block * Obc.act list
+)
+ident(
+  ext_ref Obc_mapfold.block
+)
+"obc/transformations/deadcode.ml" 79 3355 3393 "obc/transformations/deadcode.ml" 79 3355 3397
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/deadcode.ml" 78 3332 3342 "obc/transformations/deadcode.ml" 78 3332 3346
+)
+"obc/transformations/deadcode.ml" 79 3355 3398 "obc/transformations/deadcode.ml" 79 3355 3400
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 79 3355 3401 "obc/transformations/deadcode.ml" 79 3355 3402
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/deadcode.ml" 78 3332 3351 "obc/transformations/deadcode.ml" 78 3332 3352
+)
+"obc/transformations/deadcode.ml" 79 3355 3375 "obc/transformations/deadcode.ml" 79 3355 3402
+call(
+  stack
+)
+type(
+  Obc.block * Obc.act list
+)
+"obc/transformations/deadcode.ml" 80 3406 3412 "obc/transformations/deadcode.ml" 80 3406 3413
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/deadcode.ml" 78 3332 3351 "obc/transformations/deadcode.ml" 78 3332 3352
+)
+"obc/transformations/deadcode.ml" 80 3406 3428 "obc/transformations/deadcode.ml" 80 3406 3436
+type(
+  Obc.act list -> Obc.act list
+)
+ident(
+  ext_ref List.rev
+)
+"obc/transformations/deadcode.ml" 80 3406 3437 "obc/transformations/deadcode.ml" 80 3406 3445
+type(
+  Obc.act list
+)
+ident(
+  int_ref act_list "obc/transformations/deadcode.ml" 79 3355 3364 "obc/transformations/deadcode.ml" 79 3355 3372
+)
+"obc/transformations/deadcode.ml" 80 3406 3428 "obc/transformations/deadcode.ml" 80 3406 3445
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 80 3406 3410 "obc/transformations/deadcode.ml" 80 3406 3447
+type(
+  Obc.block
+)
+"obc/transformations/deadcode.ml" 80 3406 3449 "obc/transformations/deadcode.ml" 80 3406 3452
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/deadcode.ml" 78 3332 3347 "obc/transformations/deadcode.ml" 78 3332 3350
+)
+"obc/transformations/deadcode.ml" 80 3406 3410 "obc/transformations/deadcode.ml" 80 3406 3452
+type(
+  Obc.block * 'a
+)
+"obc/transformations/deadcode.ml" 79 3355 3357 "obc/transformations/deadcode.ml" 80 3406 3452
+type(
+  Obc.block * 'a
+)
+"obc/transformations/deadcode.ml" 82 3454 3458 "obc/transformations/deadcode.ml" 82 3454 3465
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/transformations/deadcode.ml" 85 3590 3595 "obc/transformations/deadcode.ml" 1 0 -1
+)
+"obc/transformations/deadcode.ml" 82 3454 3466 "obc/transformations/deadcode.ml" 82 3454 3467
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/deadcode.ml" 83 3470 3472 "obc/transformations/deadcode.ml" 85 3590 3595
+)
+"obc/transformations/deadcode.ml" 83 3470 3476 "obc/transformations/deadcode.ml" 83 3470 3480
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/deadcode.ml" 84 3541 3543 "obc/transformations/deadcode.ml" 85 3590 3595
+)
+"obc/transformations/deadcode.ml" 83 3470 3485 "obc/transformations/deadcode.ml" 83 3470 3505
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/deadcode.ml" 83 3470 3519 "obc/transformations/deadcode.ml" 83 3470 3524
+type(
+  Obc.act list Obc_mapfold.obc_it_funs ->
+  Obc.act list -> Obc.block -> Obc.block * Obc.act list
+)
+ident(
+  int_ref block "obc/transformations/deadcode.ml" 78 3332 3336 "obc/transformations/deadcode.ml" 78 3332 3341
+)
+"obc/transformations/deadcode.ml" 83 3470 3532 "obc/transformations/deadcode.ml" 83 3470 3535
+type(
+  Obc.act list Obc_mapfold.obc_it_funs ->
+  Obc.act list -> Obc.act -> Obc.act * Obc.act list
+)
+ident(
+  int_ref act "obc/transformations/deadcode.ml" 34 2123 2127 "obc/transformations/deadcode.ml" 34 2123 2130
+)
+"obc/transformations/deadcode.ml" 83 3470 3483 "obc/transformations/deadcode.ml" 83 3470 3537
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+"obc/transformations/deadcode.ml" 84 3541 3547 "obc/transformations/deadcode.ml" 84 3541 3548
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/deadcode.ml" 85 3590 3594 "obc/transformations/deadcode.ml" 85 3590 3595
+)
+"obc/transformations/deadcode.ml" 84 3541 3550 "obc/transformations/deadcode.ml" 84 3541 3551
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 84 3541 3547 "obc/transformations/deadcode.ml" 84 3541 3551
+type(
+  Obc.program * Obc.act list
+)
+"obc/transformations/deadcode.ml" 84 3541 3554 "obc/transformations/deadcode.ml" 84 3541 3576
+type(
+  Obc.act list Obc_mapfold.obc_it_funs ->
+  Obc.act list -> Obc.program -> Obc.program * Obc.act list
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/transformations/deadcode.ml" 84 3541 3577 "obc/transformations/deadcode.ml" 84 3541 3581
+type(
+  Obc.act list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/deadcode.ml" 83 3470 3476 "obc/transformations/deadcode.ml" 83 3470 3480
+)
+"obc/transformations/deadcode.ml" 84 3541 3582 "obc/transformations/deadcode.ml" 84 3541 3584
+type(
+  Obc.act list
+)
+"obc/transformations/deadcode.ml" 84 3541 3585 "obc/transformations/deadcode.ml" 84 3541 3586
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/deadcode.ml" 82 3454 3466 "obc/transformations/deadcode.ml" 82 3454 3467
+)
+"obc/transformations/deadcode.ml" 84 3541 3554 "obc/transformations/deadcode.ml" 84 3541 3586
+call(
+  stack
+)
+type(
+  Obc.program * Obc.act list
+)
+"obc/transformations/deadcode.ml" 85 3590 3594 "obc/transformations/deadcode.ml" 85 3590 3595
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/deadcode.ml" 84 3541 3547 "obc/transformations/deadcode.ml" 84 3541 3548
+)
+"obc/transformations/deadcode.ml" 84 3541 3543 "obc/transformations/deadcode.ml" 85 3590 3595
+type(
+  Obc.program
+)
+"obc/transformations/deadcode.ml" 83 3470 3472 "obc/transformations/deadcode.ml" 85 3590 3595
+type(
+  Obc.program
+)

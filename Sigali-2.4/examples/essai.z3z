@@ -1,0 +1,39 @@
+read("std.z3z");
+
+S : processus(conditions, etats, evolutions, initialisations, [gen(contraintes)],controlables);
+
+read("Property.lib");
+read("Synthesis.lib");
+read("Verif_Determ.lib");
+read("Simul.lib");
+read("Synthesis_Partial_Order_Relation.lib");
+read("opt.lib");
+
+Ef : B_True(S, not P0_de_std_task_0 and not P1_de_std_task_0 and not P2_de_std_task_0
+              and P3_de_std_task_0
+              and not P4_de_std_task_0
+              and not Q1_de_std_task_0 and not Q2_de_std_task_0 and not Q3_de_std_task_0 and not Q4_de_std_task_0);
+
+Cp0 : a_var(P0_de_std_task_0, 0, 1, 0);
+Cp1 : a_var(P1_de_std_task_0, 0, 1, 0);
+Cp2 : a_var(P2_de_std_task_0, 0, 6, 0);
+Cp3 : a_var(P3_de_std_task_0, 0, 1, 0);
+Cp4 : a_var(P4_de_std_task_0, 0, 1, 0);
+Cq1 : a_var(Q1_de_std_task_0, 0, 4, 0);
+Cq2 : a_var(Q2_de_std_task_0, 0, 3, 0);
+Cq3 : a_var(Q3_de_std_task_0, 0, 2, 0);
+Cq4 : a_var(Q4_de_std_task_0, 0, 3, 0);
+
+Cx : Cp0 + Cp1 + Cp2 + Cp3 + Cp4 + Cq1 + Cq2 + Cq3 + Cq4;
+
+
+Cmin : min_cost_function_maxUC(S, Cx, Ef);
+
+Cmin;
+
+
+States_2 : declare_suff(state_var(S));
+Cm_2 : add_rename(Cmin, state_var(S), States_2) ;
+
+Final :  Strictly_Lower_than(S, Cmin, Cm_2, States_2);
+

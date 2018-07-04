@@ -1,0 +1,5780 @@
+"global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+type(
+  env
+)
+ident(
+  def g_env "global/modules.ml" 86 3645 3645 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 75 3378 3403 "global/modules.ml" 75 3378 3405
+type(
+  Names.module_name
+)
+"global/modules.ml" 75 3378 3396 "global/modules.ml" 75 3378 3405
+type(
+  Names.modul
+)
+"global/modules.ml" 76 3407 3425 "global/modules.ml" 76 3407 3427
+type(
+  Names.modul list
+)
+"global/modules.ml" 77 3429 3446 "global/modules.ml" 77 3429 3448
+type(
+  Names.modul list
+)
+"global/modules.ml" 78 3450 3464 "global/modules.ml" 78 3450 3477
+type(
+  Signature.node Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 79 3479 3493 "global/modules.ml" 79 3479 3506
+type(
+  Signature.type_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 80 3508 3522 "global/modules.ml" 80 3508 3535
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 81 3537 3551 "global/modules.ml" 81 3537 3564
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 82 3566 3580 "global/modules.ml" 82 3566 3593
+type(
+  Signature.const_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 83 3595 3616 "global/modules.ml" 83 3595 3640
+type(
+  string
+)
+ident(
+  ext_ref Signature.interface_format_version
+)
+"global/modules.ml" 75 3378 3380 "global/modules.ml" 83 3595 3642
+type(
+  env
+)
+"global/modules.ml" 86 3645 3649 "global/modules.ml" 86 3645 3658
+type(
+  Names.modul -> bool
+)
+ident(
+  def is_loaded "global/modules.ml" 87 3691 3691 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 86 3645 3659 "global/modules.ml" 86 3645 3660
+type(
+  Names.modul
+)
+ident(
+  def m "global/modules.ml" 86 3645 3663 "global/modules.ml" 86 3645 3690
+)
+"global/modules.ml" 86 3645 3663 "global/modules.ml" 86 3645 3671
+type(
+  Names.modul -> Names.modul list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"global/modules.ml" 86 3645 3672 "global/modules.ml" 86 3645 3673
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/modules.ml" 86 3645 3659 "global/modules.ml" 86 3645 3660
+)
+"global/modules.ml" 86 3645 3674 "global/modules.ml" 86 3645 3679
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 86 3645 3674 "global/modules.ml" 86 3645 3690
+type(
+  Names.modul list
+)
+"global/modules.ml" 86 3645 3663 "global/modules.ml" 86 3645 3690
+call(
+  tail
+)
+type(
+  bool
+)
+"global/modules.ml" 87 3691 3695 "global/modules.ml" 87 3691 3704
+type(
+  Names.modul -> bool
+)
+ident(
+  def is_opened "global/modules.ml" 91 3789 3789 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 87 3691 3705 "global/modules.ml" 87 3691 3706
+type(
+  Names.modul
+)
+ident(
+  def m "global/modules.ml" 87 3691 3709 "global/modules.ml" 87 3691 3736
+)
+"global/modules.ml" 87 3691 3709 "global/modules.ml" 87 3691 3717
+type(
+  Names.modul -> Names.modul list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"global/modules.ml" 87 3691 3718 "global/modules.ml" 87 3691 3719
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/modules.ml" 87 3691 3705 "global/modules.ml" 87 3691 3706
+)
+"global/modules.ml" 87 3691 3720 "global/modules.ml" 87 3691 3725
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 87 3691 3720 "global/modules.ml" 87 3691 3736
+type(
+  Names.modul list
+)
+"global/modules.ml" 87 3691 3709 "global/modules.ml" 87 3691 3736
+call(
+  tail
+)
+type(
+  bool
+)
+"global/modules.ml" 91 3789 3793 "global/modules.ml" 91 3789 3807
+type(
+  module_object -> unit
+)
+ident(
+  def _append_module "global/modules.ml" 109 4684 4684 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+type(
+  module_object
+)
+ident(
+  def mo "global/modules.ml" 93 3884 3886 "global/modules.ml" 106 4544 4611
+)
+"global/modules.ml" 93 3884 3890 "global/modules.ml" 93 3884 3897
+type(
+  'a Names.NamesEnv.t -> 'a Names.QualEnv.t
+)
+ident(
+  def qualify "global/modules.ml" 97 4050 4052 "global/modules.ml" 106 4544 4611
+)
+"global/modules.ml" 93 3884 3898 "global/modules.ml" 93 3884 3904
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  def mo_env "global/modules.ml" 94 3930 3934 "global/modules.ml" 96 4020 4046
+)
+"global/modules.ml" 94 3930 3934 "global/modules.ml" 94 3930 3947
+type(
+  (Names.NamesEnv.key -> 'a -> 'a Names.QualEnv.t -> 'a Names.QualEnv.t) ->
+  'a Names.NamesEnv.t -> 'a Names.QualEnv.t -> 'a Names.QualEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.fold
+)
+"global/modules.ml" 95 3948 3959 "global/modules.ml" 95 3948 3960
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def x "global/modules.ml" 95 3948 3961 "global/modules.ml" 95 3948 4018
+)
+"global/modules.ml" 95 3948 3961 "global/modules.ml" 95 3948 3962
+type(
+  'a
+)
+ident(
+  def v "global/modules.ml" 95 3948 3963 "global/modules.ml" 95 3948 4018
+)
+"global/modules.ml" 95 3948 3963 "global/modules.ml" 95 3948 3966
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 95 3948 3970 "global/modules.ml" 95 3948 4018
+)
+"global/modules.ml" 95 3948 3970 "global/modules.ml" 95 3948 3981
+type(
+  Names.QualEnv.key -> 'a -> 'a Names.QualEnv.t -> 'a Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 95 3948 3991 "global/modules.ml" 95 3948 3993
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 95 3948 3991 "global/modules.ml" 95 3948 4000
+type(
+  Names.modul
+)
+"global/modules.ml" 95 3948 4009 "global/modules.ml" 95 3948 4010
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 95 3948 3959 "global/modules.ml" 95 3948 3960
+)
+"global/modules.ml" 95 3948 3982 "global/modules.ml" 95 3948 4012
+type(
+  Names.QualEnv.key
+)
+"global/modules.ml" 95 3948 4013 "global/modules.ml" 95 3948 4014
+type(
+  'a
+)
+ident(
+  int_ref v "global/modules.ml" 95 3948 3961 "global/modules.ml" 95 3948 3962
+)
+"global/modules.ml" 95 3948 4015 "global/modules.ml" 95 3948 4018
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 95 3948 3963 "global/modules.ml" 95 3948 3966
+)
+"global/modules.ml" 95 3948 3970 "global/modules.ml" 95 3948 4018
+call(
+  tail
+)
+type(
+  'a Names.QualEnv.t
+)
+"global/modules.ml" 95 3948 3954 "global/modules.ml" 95 3948 4019
+type(
+  Names.NamesEnv.key -> 'a -> 'a Names.QualEnv.t -> 'a Names.QualEnv.t
+)
+"global/modules.ml" 96 4020 4026 "global/modules.ml" 96 4020 4032
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  int_ref mo_env "global/modules.ml" 93 3884 3898 "global/modules.ml" 93 3884 3904
+)
+"global/modules.ml" 96 4020 4033 "global/modules.ml" 96 4020 4046
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 94 3930 3934 "global/modules.ml" 96 4020 4046
+call(
+  tail
+)
+type(
+  'a Names.QualEnv.t
+)
+"global/modules.ml" 97 4050 4056 "global/modules.ml" 97 4050 4067
+type(
+  Names.name Names.NamesEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  def qualify_all "global/modules.ml" 102 4260 4262 "global/modules.ml" 106 4544 4611
+)
+"global/modules.ml" 97 4050 4068 "global/modules.ml" 97 4050 4074
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  def mo_env "global/modules.ml" 98 4111 4115 "global/modules.ml" 101 4230 4256
+)
+"global/modules.ml" 98 4111 4115 "global/modules.ml" 98 4111 4128
+type(
+  (Names.NamesEnv.key ->
+   Names.name ->
+   Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t) ->
+  Names.name Names.NamesEnv.t ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.fold
+)
+"global/modules.ml" 99 4129 4140 "global/modules.ml" 99 4129 4141
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def x "global/modules.ml" 99 4129 4142 "global/modules.ml" 100 4151 4228
+)
+"global/modules.ml" 99 4129 4142 "global/modules.ml" 99 4129 4143
+type(
+  Names.name
+)
+ident(
+  def v "global/modules.ml" 99 4129 4144 "global/modules.ml" 100 4151 4228
+)
+"global/modules.ml" 99 4129 4144 "global/modules.ml" 99 4129 4147
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 100 4151 4159 "global/modules.ml" 100 4151 4228
+)
+"global/modules.ml" 100 4151 4159 "global/modules.ml" 100 4151 4170
+type(
+  Names.QualEnv.key ->
+  Names.qualname ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 100 4151 4178 "global/modules.ml" 100 4151 4180
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 100 4151 4178 "global/modules.ml" 100 4151 4187
+type(
+  Names.modul
+)
+"global/modules.ml" 100 4151 4195 "global/modules.ml" 100 4151 4196
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 99 4129 4140 "global/modules.ml" 99 4129 4141
+)
+"global/modules.ml" 100 4151 4171 "global/modules.ml" 100 4151 4197
+type(
+  Names.QualEnv.key
+)
+"global/modules.ml" 100 4151 4205 "global/modules.ml" 100 4151 4207
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 100 4151 4205 "global/modules.ml" 100 4151 4214
+type(
+  Names.modul
+)
+"global/modules.ml" 100 4151 4222 "global/modules.ml" 100 4151 4223
+type(
+  Names.name
+)
+ident(
+  int_ref v "global/modules.ml" 99 4129 4142 "global/modules.ml" 99 4129 4143
+)
+"global/modules.ml" 100 4151 4198 "global/modules.ml" 100 4151 4224
+type(
+  Names.qualname
+)
+"global/modules.ml" 100 4151 4225 "global/modules.ml" 100 4151 4228
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 99 4129 4144 "global/modules.ml" 99 4129 4147
+)
+"global/modules.ml" 100 4151 4159 "global/modules.ml" 100 4151 4228
+call(
+  tail
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 99 4129 4135 "global/modules.ml" 100 4151 4229
+type(
+  Names.NamesEnv.key ->
+  Names.name ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 101 4230 4236 "global/modules.ml" 101 4230 4242
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  int_ref mo_env "global/modules.ml" 97 4050 4068 "global/modules.ml" 97 4050 4074
+)
+"global/modules.ml" 101 4230 4243 "global/modules.ml" 101 4230 4256
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"global/modules.ml" 98 4111 4115 "global/modules.ml" 101 4230 4256
+call(
+  tail
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 102 4260 4262 "global/modules.ml" 102 4260 4267
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 102 4260 4278 "global/modules.ml" 102 4260 4292
+type(
+  Signature.node Names.QualEnv.t ->
+  Signature.node Names.QualEnv.t -> Signature.node Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.append
+)
+"global/modules.ml" 102 4260 4294 "global/modules.ml" 102 4260 4301
+type(
+  Signature.node Names.NamesEnv.t -> Signature.node Names.QualEnv.t
+)
+ident(
+  int_ref qualify "global/modules.ml" 93 3884 3890 "global/modules.ml" 93 3884 3897
+)
+"global/modules.ml" 102 4260 4302 "global/modules.ml" 102 4260 4304
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 102 4260 4302 "global/modules.ml" 102 4260 4313
+type(
+  Signature.node Names.NamesEnv.t
+)
+"global/modules.ml" 102 4260 4293 "global/modules.ml" 102 4260 4314
+call(
+  stack
+)
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 102 4260 4315 "global/modules.ml" 102 4260 4320
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 102 4260 4315 "global/modules.ml" 102 4260 4327
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 102 4260 4278 "global/modules.ml" 102 4260 4327
+call(
+  stack
+)
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 102 4260 4262 "global/modules.ml" 102 4260 4327
+type(
+  unit
+)
+"global/modules.ml" 103 4329 4331 "global/modules.ml" 103 4329 4336
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 103 4329 4346 "global/modules.ml" 103 4329 4360
+type(
+  Signature.type_def Names.QualEnv.t ->
+  Signature.type_def Names.QualEnv.t -> Signature.type_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.append
+)
+"global/modules.ml" 103 4329 4362 "global/modules.ml" 103 4329 4369
+type(
+  Signature.type_def Names.NamesEnv.t -> Signature.type_def Names.QualEnv.t
+)
+ident(
+  int_ref qualify "global/modules.ml" 93 3884 3890 "global/modules.ml" 93 3884 3897
+)
+"global/modules.ml" 103 4329 4370 "global/modules.ml" 103 4329 4372
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 103 4329 4370 "global/modules.ml" 103 4329 4380
+type(
+  Signature.type_def Names.NamesEnv.t
+)
+"global/modules.ml" 103 4329 4361 "global/modules.ml" 103 4329 4381
+call(
+  stack
+)
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 103 4329 4382 "global/modules.ml" 103 4329 4387
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 103 4329 4382 "global/modules.ml" 103 4329 4393
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 103 4329 4346 "global/modules.ml" 103 4329 4393
+call(
+  stack
+)
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 103 4329 4331 "global/modules.ml" 103 4329 4393
+type(
+  unit
+)
+"global/modules.ml" 104 4395 4397 "global/modules.ml" 104 4395 4402
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 104 4395 4414 "global/modules.ml" 104 4395 4428
+type(
+  Names.qualname Names.QualEnv.t ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.append
+)
+"global/modules.ml" 104 4395 4430 "global/modules.ml" 104 4395 4441
+type(
+  Names.name Names.NamesEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  int_ref qualify_all "global/modules.ml" 97 4050 4056 "global/modules.ml" 97 4050 4067
+)
+"global/modules.ml" 104 4395 4442 "global/modules.ml" 104 4395 4444
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 104 4395 4442 "global/modules.ml" 104 4395 4454
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 104 4395 4429 "global/modules.ml" 104 4395 4455
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 104 4395 4456 "global/modules.ml" 104 4395 4461
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 104 4395 4456 "global/modules.ml" 104 4395 4469
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 104 4395 4414 "global/modules.ml" 104 4395 4469
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 104 4395 4397 "global/modules.ml" 104 4395 4469
+type(
+  unit
+)
+"global/modules.ml" 105 4471 4473 "global/modules.ml" 105 4471 4478
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 105 4471 4489 "global/modules.ml" 105 4471 4503
+type(
+  Names.qualname Names.QualEnv.t ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.append
+)
+"global/modules.ml" 105 4471 4505 "global/modules.ml" 105 4471 4516
+type(
+  Names.name Names.NamesEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  int_ref qualify_all "global/modules.ml" 97 4050 4056 "global/modules.ml" 97 4050 4067
+)
+"global/modules.ml" 105 4471 4517 "global/modules.ml" 105 4471 4519
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 105 4471 4517 "global/modules.ml" 105 4471 4528
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 105 4471 4504 "global/modules.ml" 105 4471 4529
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 105 4471 4530 "global/modules.ml" 105 4471 4535
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 105 4471 4530 "global/modules.ml" 105 4471 4542
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 105 4471 4489 "global/modules.ml" 105 4471 4542
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 105 4471 4473 "global/modules.ml" 105 4471 4542
+type(
+  unit
+)
+"global/modules.ml" 106 4544 4546 "global/modules.ml" 106 4544 4551
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 106 4544 4562 "global/modules.ml" 106 4544 4576
+type(
+  Signature.const_def Names.QualEnv.t ->
+  Signature.const_def Names.QualEnv.t -> Signature.const_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.append
+)
+"global/modules.ml" 106 4544 4578 "global/modules.ml" 106 4544 4585
+type(
+  Signature.const_def Names.NamesEnv.t -> Signature.const_def Names.QualEnv.t
+)
+ident(
+  int_ref qualify "global/modules.ml" 93 3884 3890 "global/modules.ml" 93 3884 3897
+)
+"global/modules.ml" 106 4544 4586 "global/modules.ml" 106 4544 4588
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 91 3789 3808 "global/modules.ml" 91 3789 3810
+)
+"global/modules.ml" 106 4544 4586 "global/modules.ml" 106 4544 4597
+type(
+  Signature.const_def Names.NamesEnv.t
+)
+"global/modules.ml" 106 4544 4577 "global/modules.ml" 106 4544 4598
+call(
+  stack
+)
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 106 4544 4599 "global/modules.ml" 106 4544 4604
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 106 4544 4599 "global/modules.ml" 106 4544 4611
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 106 4544 4562 "global/modules.ml" 106 4544 4611
+call(
+  stack
+)
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 106 4544 4546 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 105 4471 4473 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 104 4395 4397 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 103 4329 4331 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 102 4260 4262 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 97 4050 4052 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 93 3884 3886 "global/modules.ml" 106 4544 4611
+type(
+  unit
+)
+"global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+type(
+  Names.modul -> unit
+)
+ident(
+  def _load_module "global/modules.ml" 147 6071 6071 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 109 4684 4701 "global/modules.ml" 109 4684 4706
+type(
+  Names.modul
+)
+ident(
+  def modul "global/modules.ml" 110 4709 4711 "global/modules.ml" 141 5924 5952
+)
+"global/modules.ml" 110 4709 4714 "global/modules.ml" 110 4709 4723
+type(
+  Names.modul -> bool
+)
+ident(
+  int_ref is_loaded "global/modules.ml" 86 3645 3649 "global/modules.ml" 86 3645 3658
+)
+"global/modules.ml" 110 4709 4724 "global/modules.ml" 110 4709 4729
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 109 4684 4701 "global/modules.ml" 109 4684 4706
+)
+"global/modules.ml" 110 4709 4714 "global/modules.ml" 110 4709 4729
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 110 4709 4735 "global/modules.ml" 110 4709 4737
+type(
+  unit
+)
+"global/modules.ml" 112 4745 4753 "global/modules.ml" 112 4745 4760
+type(
+  Names.module_name
+)
+ident(
+  def modname "global/modules.ml" 118 4972 4976 "global/modules.ml" 141 5924 5952
+)
+"global/modules.ml" 112 4745 4769 "global/modules.ml" 112 4745 4774
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 109 4684 4701 "global/modules.ml" 109 4684 4706
+)
+"global/modules.ml" 113 4780 4788 "global/modules.ml" 113 4780 4804
+type(
+  Names.modul
+)
+"global/modules.ml" 113 4780 4808 "global/modules.ml" 113 4780 4820
+type(
+  Names.module_name
+)
+"global/modules.ml" 114 4821 4842 "global/modules.ml" 114 4821 4843
+type(
+  Names.module_name
+)
+ident(
+  def n "global/modules.ml" 114 4821 4847 "global/modules.ml" 114 4821 4848
+)
+"global/modules.ml" 114 4821 4829 "global/modules.ml" 114 4821 4843
+type(
+  Names.modul
+)
+"global/modules.ml" 114 4821 4847 "global/modules.ml" 114 4821 4848
+type(
+  Names.module_name
+)
+ident(
+  int_ref n "global/modules.ml" 114 4821 4842 "global/modules.ml" 114 4821 4843
+)
+"global/modules.ml" 115 4849 4857 "global/modules.ml" 115 4849 4874
+type(
+  Names.modul
+)
+"global/modules.ml" 115 4849 4878 "global/modules.ml" 115 4849 4897
+type(
+  string -> Names.module_name
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"global/modules.ml" 115 4849 4898 "global/modules.ml" 115 4849 4907
+type(
+  string
+)
+"global/modules.ml" 115 4849 4878 "global/modules.ml" 115 4849 4907
+call(
+  stack
+)
+type(
+  Names.module_name
+)
+"global/modules.ml" 116 4908 4933 "global/modules.ml" 116 4908 4934
+type(
+  Names.qualname
+)
+"global/modules.ml" 116 4908 4916 "global/modules.ml" 116 4908 4934
+type(
+  Names.modul
+)
+"global/modules.ml" 116 4908 4938 "global/modules.ml" 116 4908 4954
+type(
+  string -> Names.module_name
+)
+ident(
+  ext_ref Misc.unsupported
+)
+"global/modules.ml" 116 4908 4955 "global/modules.ml" 116 4908 4964
+type(
+  string
+)
+"global/modules.ml" 116 4908 4938 "global/modules.ml" 116 4908 4964
+call(
+  stack
+)
+type(
+  Names.module_name
+)
+"global/modules.ml" 112 4745 4763 "global/modules.ml" 116 4908 4964
+type(
+  Names.module_name
+)
+"global/modules.ml" 118 4972 4980 "global/modules.ml" 118 4972 4984
+type(
+  string
+)
+ident(
+  def name "global/modules.ml" 119 5018 5022 "global/modules.ml" 141 5924 5952
+)
+"global/modules.ml" 118 4972 4987 "global/modules.ml" 118 4972 5006
+type(
+  Names.module_name -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"global/modules.ml" 118 4972 5007 "global/modules.ml" 118 4972 5014
+type(
+  Names.module_name
+)
+ident(
+  int_ref modname "global/modules.ml" 112 4745 4753 "global/modules.ml" 112 4745 4760
+)
+"global/modules.ml" 118 4972 4987 "global/modules.ml" 118 4972 5014
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 120 5026 5036 "global/modules.ml" 120 5026 5044
+type(
+  string
+)
+ident(
+  def filename "global/modules.ml" 121 5091 5097 "global/modules.ml" 137 5769 5792
+)
+"global/modules.ml" 120 5026 5047 "global/modules.ml" 120 5026 5070
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.findfile
+)
+"global/modules.ml" 120 5026 5072 "global/modules.ml" 120 5026 5076
+type(
+  string
+)
+ident(
+  int_ref name "global/modules.ml" 118 4972 4980 "global/modules.ml" 118 4972 4984
+)
+"global/modules.ml" 120 5026 5077 "global/modules.ml" 120 5026 5078
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 120 5026 5079 "global/modules.ml" 120 5026 5086
+type(
+  string
+)
+"global/modules.ml" 120 5026 5071 "global/modules.ml" 120 5026 5087
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 120 5026 5047 "global/modules.ml" 120 5026 5087
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 121 5091 5101 "global/modules.ml" 121 5091 5103
+type(
+  in_channel
+)
+ident(
+  def ic "global/modules.ml" 122 5130 5136 "global/modules.ml" 137 5769 5792
+)
+"global/modules.ml" 121 5091 5106 "global/modules.ml" 121 5091 5117
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"global/modules.ml" 121 5091 5118 "global/modules.ml" 121 5091 5126
+type(
+  string
+)
+ident(
+  int_ref filename "global/modules.ml" 120 5026 5036 "global/modules.ml" 120 5026 5044
+)
+"global/modules.ml" 121 5091 5106 "global/modules.ml" 121 5091 5126
+call(
+  stack
+)
+type(
+  in_channel
+)
+"global/modules.ml" 122 5130 5140 "global/modules.ml" 122 5130 5142
+type(
+  module_object
+)
+ident(
+  def mo "global/modules.ml" 130 5430 5436 "global/modules.ml" 137 5769 5792
+)
+"global/modules.ml" 123 5159 5171 "global/modules.ml" 123 5159 5182
+type(
+  in_channel -> module_object
+)
+ident(
+  ext_ref Pervasives.input_value
+)
+"global/modules.ml" 123 5159 5183 "global/modules.ml" 123 5159 5185
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/modules.ml" 121 5091 5101 "global/modules.ml" 121 5091 5103
+)
+"global/modules.ml" 123 5159 5171 "global/modules.ml" 123 5159 5185
+call(
+  stack
+)
+type(
+  module_object
+)
+"global/modules.ml" 124 5186 5199 "global/modules.ml" 124 5186 5210
+type(
+  exn
+)
+"global/modules.ml" 124 5186 5221 "global/modules.ml" 124 5186 5222
+type(
+  string
+)
+"global/modules.ml" 124 5186 5213 "global/modules.ml" 124 5186 5222
+type(
+  exn
+)
+"global/modules.ml" 124 5186 5199 "global/modules.ml" 124 5186 5222
+type(
+  exn
+)
+"global/modules.ml" 125 5226 5236 "global/modules.ml" 125 5226 5244
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"global/modules.ml" 125 5226 5245 "global/modules.ml" 125 5226 5247
+type(
+  in_channel
+)
+ident(
+  int_ref ic "global/modules.ml" 121 5091 5101 "global/modules.ml" 121 5091 5103
+)
+"global/modules.ml" 125 5226 5236 "global/modules.ml" 125 5226 5247
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 126 5249 5259 "global/modules.ml" 126 5249 5273
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/modules.ml" 126 5249 5274 "global/modules.ml" 127 5317 5376
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"global/modules.ml" 127 5317 5377 "global/modules.ml" 127 5317 5385
+type(
+  string
+)
+ident(
+  int_ref filename "global/modules.ml" 120 5026 5036 "global/modules.ml" 120 5026 5044
+)
+"global/modules.ml" 127 5317 5386 "global/modules.ml" 127 5317 5390
+type(
+  string
+)
+ident(
+  int_ref name "global/modules.ml" 118 4972 4980 "global/modules.ml" 118 4972 4984
+)
+"global/modules.ml" 126 5249 5259 "global/modules.ml" 127 5317 5390
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 128 5392 5402 "global/modules.ml" 128 5392 5407
+type(
+  exn -> module_object
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 128 5392 5408 "global/modules.ml" 128 5392 5420
+type(
+  exn
+)
+"global/modules.ml" 128 5392 5402 "global/modules.ml" 128 5392 5420
+type(
+  module_object
+)
+"global/modules.ml" 126 5249 5259 "global/modules.ml" 128 5392 5420
+type(
+  module_object
+)
+"global/modules.ml" 125 5226 5236 "global/modules.ml" 128 5392 5420
+type(
+  module_object
+)
+"global/modules.ml" 123 5159 5167 "global/modules.ml" 128 5392 5420
+type(
+  module_object
+)
+type(
+  module_object
+)
+"global/modules.ml" 130 5430 5439 "global/modules.ml" 130 5430 5441
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 122 5130 5140 "global/modules.ml" 122 5130 5142
+)
+"global/modules.ml" 130 5430 5439 "global/modules.ml" 130 5430 5458
+type(
+  string
+)
+"global/modules.ml" 130 5430 5459 "global/modules.ml" 130 5430 5461
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global/modules.ml" 130 5430 5462 "global/modules.ml" 130 5430 5486
+type(
+  string
+)
+ident(
+  ext_ref Signature.interface_format_version
+)
+"global/modules.ml" 130 5430 5439 "global/modules.ml" 130 5430 5486
+type(
+  bool
+)
+"global/modules.ml" 132 5500 5508 "global/modules.ml" 132 5500 5522
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/modules.ml" 132 5500 5523 "global/modules.ml" 133 5573 5649
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"global/modules.ml" 134 5650 5673 "global/modules.ml" 134 5650 5681
+type(
+  string
+)
+ident(
+  int_ref filename "global/modules.ml" 120 5026 5036 "global/modules.ml" 120 5026 5044
+)
+"global/modules.ml" 134 5650 5682 "global/modules.ml" 134 5650 5686
+type(
+  string
+)
+ident(
+  int_ref name "global/modules.ml" 118 4972 4980 "global/modules.ml" 118 4972 4984
+)
+"global/modules.ml" 132 5500 5508 "global/modules.ml" 134 5650 5686
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 135 5688 5696 "global/modules.ml" 135 5688 5701
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 135 5688 5702 "global/modules.ml" 135 5688 5714
+type(
+  exn
+)
+"global/modules.ml" 135 5688 5696 "global/modules.ml" 135 5688 5714
+type(
+  unit
+)
+"global/modules.ml" 131 5487 5498 "global/modules.ml" 135 5688 5716
+type(
+  unit
+)
+"global/modules.ml" 130 5430 5436 "global/modules.ml" 135 5688 5716
+type(
+  unit
+)
+"global/modules.ml" 136 5718 5724 "global/modules.ml" 136 5718 5729
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 136 5718 5744 "global/modules.ml" 136 5718 5749
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 109 4684 4701 "global/modules.ml" 109 4684 4706
+)
+"global/modules.ml" 136 5718 5751 "global/modules.ml" 136 5718 5756
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 136 5718 5751 "global/modules.ml" 136 5718 5767
+type(
+  Names.modul list
+)
+"global/modules.ml" 136 5718 5744 "global/modules.ml" 136 5718 5767
+type(
+  Names.modul list
+)
+"global/modules.ml" 136 5718 5724 "global/modules.ml" 136 5718 5767
+type(
+  unit
+)
+"global/modules.ml" 137 5769 5775 "global/modules.ml" 137 5769 5789
+type(
+  module_object -> unit
+)
+ident(
+  int_ref _append_module "global/modules.ml" 91 3789 3793 "global/modules.ml" 91 3789 3807
+)
+"global/modules.ml" 137 5769 5790 "global/modules.ml" 137 5769 5792
+type(
+  module_object
+)
+ident(
+  int_ref mo "global/modules.ml" 122 5130 5140 "global/modules.ml" 122 5130 5142
+)
+"global/modules.ml" 137 5769 5775 "global/modules.ml" 137 5769 5792
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 136 5718 5724 "global/modules.ml" 137 5769 5792
+type(
+  unit
+)
+"global/modules.ml" 130 5430 5436 "global/modules.ml" 137 5769 5792
+type(
+  unit
+)
+"global/modules.ml" 122 5130 5136 "global/modules.ml" 137 5769 5792
+type(
+  unit
+)
+"global/modules.ml" 121 5091 5097 "global/modules.ml" 137 5769 5792
+type(
+  unit
+)
+"global/modules.ml" 120 5026 5032 "global/modules.ml" 137 5769 5792
+type(
+  unit
+)
+"global/modules.ml" 139 5802 5842 "global/modules.ml" 139 5802 5843
+ident(
+  def f "global/modules.ml" 140 5848 5858 "global/modules.ml" 141 5924 5952
+)
+"global/modules.ml" 139 5802 5841 "global/modules.ml" 139 5802 5844
+type(
+  string
+)
+"global/modules.ml" 139 5802 5810 "global/modules.ml" 139 5802 5844
+type(
+  exn
+)
+"global/modules.ml" 140 5848 5858 "global/modules.ml" 140 5848 5872
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/modules.ml" 140 5848 5873 "global/modules.ml" 140 5848 5920
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"global/modules.ml" 140 5848 5921 "global/modules.ml" 140 5848 5922
+type(
+  string
+)
+ident(
+  int_ref f "global/modules.ml" 139 5802 5841 "global/modules.ml" 139 5802 5844
+)
+"global/modules.ml" 140 5848 5858 "global/modules.ml" 140 5848 5922
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 141 5924 5934 "global/modules.ml" 141 5924 5939
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 141 5924 5940 "global/modules.ml" 141 5924 5952
+type(
+  exn
+)
+"global/modules.ml" 141 5924 5934 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 140 5848 5858 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 119 5018 5022 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 118 4972 4976 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 112 4745 4749 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 110 4709 4711 "global/modules.ml" 141 5924 5952
+type(
+  unit
+)
+"global/modules.ml" 147 6071 6075 "global/modules.ml" 147 6071 6086
+type(
+  Names.modul -> unit
+)
+ident(
+  def open_module "global/modules.ml" 156 6296 6296 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 147 6071 6087 "global/modules.ml" 147 6071 6092
+type(
+  Names.modul
+)
+ident(
+  def modul "global/modules.ml" 148 6095 6097 "global/modules.ml" 151 6155 6202
+)
+"global/modules.ml" 148 6095 6100 "global/modules.ml" 148 6095 6109
+type(
+  Names.modul -> bool
+)
+ident(
+  int_ref is_opened "global/modules.ml" 87 3691 3695 "global/modules.ml" 87 3691 3704
+)
+"global/modules.ml" 148 6095 6110 "global/modules.ml" 148 6095 6115
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 147 6071 6087 "global/modules.ml" 147 6071 6092
+)
+"global/modules.ml" 148 6095 6100 "global/modules.ml" 148 6095 6115
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 148 6095 6121 "global/modules.ml" 148 6095 6123
+type(
+  unit
+)
+"global/modules.ml" 150 6131 6135 "global/modules.ml" 150 6131 6147
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 150 6131 6148 "global/modules.ml" 150 6131 6153
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 147 6071 6087 "global/modules.ml" 147 6071 6092
+)
+"global/modules.ml" 150 6131 6135 "global/modules.ml" 150 6131 6153
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 148 6095 6097 "global/modules.ml" 150 6131 6153
+type(
+  unit
+)
+"global/modules.ml" 151 6155 6159 "global/modules.ml" 151 6155 6164
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 151 6155 6179 "global/modules.ml" 151 6155 6184
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 147 6071 6087 "global/modules.ml" 147 6071 6092
+)
+"global/modules.ml" 151 6155 6186 "global/modules.ml" 151 6155 6191
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 151 6155 6186 "global/modules.ml" 151 6155 6202
+type(
+  Names.modul list
+)
+"global/modules.ml" 151 6155 6179 "global/modules.ml" 151 6155 6202
+type(
+  Names.modul list
+)
+"global/modules.ml" 151 6155 6159 "global/modules.ml" 151 6155 6202
+type(
+  unit
+)
+"global/modules.ml" 148 6095 6097 "global/modules.ml" 151 6155 6202
+type(
+  unit
+)
+"global/modules.ml" 156 6296 6300 "global/modules.ml" 156 6296 6310
+type(
+  Names.modul -> unit
+)
+ident(
+  def initialize "global/modules.ml" 163 6454 6454 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 156 6296 6311 "global/modules.ml" 156 6296 6316
+type(
+  Names.modul
+)
+ident(
+  def modul "global/modules.ml" 157 6319 6321 "global/modules.ml" 160 6406 6451
+)
+"global/modules.ml" 157 6319 6321 "global/modules.ml" 157 6319 6326
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 157 6319 6342 "global/modules.ml" 157 6319 6347
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 156 6296 6311 "global/modules.ml" 156 6296 6316
+)
+"global/modules.ml" 157 6319 6321 "global/modules.ml" 157 6319 6347
+type(
+  unit
+)
+"global/modules.ml" 158 6349 6351 "global/modules.ml" 158 6349 6356
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 158 6349 6371 "global/modules.ml" 158 6349 6373
+type(
+  Names.modul list
+)
+"global/modules.ml" 158 6349 6351 "global/modules.ml" 158 6349 6373
+type(
+  unit
+)
+"global/modules.ml" 159 6375 6377 "global/modules.ml" 159 6375 6382
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 159 6375 6398 "global/modules.ml" 159 6375 6403
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 156 6296 6311 "global/modules.ml" 156 6296 6316
+)
+"global/modules.ml" 159 6375 6397 "global/modules.ml" 159 6375 6404
+type(
+  Names.modul list
+)
+"global/modules.ml" 159 6375 6377 "global/modules.ml" 159 6375 6404
+type(
+  unit
+)
+"global/modules.ml" 160 6406 6408 "global/modules.ml" 160 6406 6417
+type(
+  (Names.modul -> unit) -> Names.modul list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global/modules.ml" 160 6406 6418 "global/modules.ml" 160 6406 6429
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref open_module "global/modules.ml" 147 6071 6075 "global/modules.ml" 147 6071 6086
+)
+"global/modules.ml" 160 6406 6430 "global/modules.ml" 160 6406 6431
+type(
+  Names.modul list ref -> Names.modul list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 160 6406 6431 "global/modules.ml" 160 6406 6451
+type(
+  Names.modul list ref
+)
+ident(
+  ext_ref Compiler_options.default_used_modules
+)
+"global/modules.ml" 160 6406 6430 "global/modules.ml" 160 6406 6451
+type(
+  Names.modul list
+)
+"global/modules.ml" 160 6406 6408 "global/modules.ml" 160 6406 6451
+call(
+  tail
+)
+type(
+  unit
+)
+"global/modules.ml" 159 6375 6377 "global/modules.ml" 160 6406 6451
+type(
+  unit
+)
+"global/modules.ml" 158 6349 6351 "global/modules.ml" 160 6406 6451
+type(
+  unit
+)
+"global/modules.ml" 157 6319 6321 "global/modules.ml" 160 6406 6451
+type(
+  unit
+)
+"global/modules.ml" 163 6454 6458 "global/modules.ml" 163 6454 6465
+type(
+  unit -> Names.modul
+)
+ident(
+  def current "global/modules.ml" 164 6489 6489 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 163 6454 6466 "global/modules.ml" 163 6454 6468
+type(
+  unit
+)
+"global/modules.ml" 163 6454 6471 "global/modules.ml" 163 6454 6476
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 163 6454 6471 "global/modules.ml" 163 6454 6488
+type(
+  Names.modul
+)
+"global/modules.ml" 164 6489 6493 "global/modules.ml" 164 6489 6499
+type(
+  Names.modul -> unit
+)
+ident(
+  def select "global/modules.ml" 167 6537 6537 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 164 6489 6500 "global/modules.ml" 164 6489 6505
+type(
+  Names.modul
+)
+ident(
+  def modul "global/modules.ml" 164 6489 6508 "global/modules.ml" 164 6489 6534
+)
+"global/modules.ml" 164 6489 6508 "global/modules.ml" 164 6489 6513
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 164 6489 6529 "global/modules.ml" 164 6489 6534
+type(
+  Names.modul
+)
+ident(
+  int_ref modul "global/modules.ml" 164 6489 6500 "global/modules.ml" 164 6489 6505
+)
+"global/modules.ml" 164 6489 6508 "global/modules.ml" 164 6489 6534
+type(
+  unit
+)
+"global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+type(
+  'a Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  def _check_not_defined "global/modules.ml" 172 6667 6667 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 169 6585 6608 "global/modules.ml" 169 6585 6611
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 169 6585 6612 "global/modules.ml" 170 6616 6665
+)
+"global/modules.ml" 169 6585 6612 "global/modules.ml" 169 6585 6613
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 170 6616 6618 "global/modules.ml" 170 6616 6665
+)
+"global/modules.ml" 170 6616 6621 "global/modules.ml" 170 6616 6632
+type(
+  Names.QualEnv.key -> 'a Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 170 6616 6633 "global/modules.ml" 170 6616 6634
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 169 6585 6612 "global/modules.ml" 169 6585 6613
+)
+"global/modules.ml" 170 6616 6635 "global/modules.ml" 170 6616 6638
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 169 6585 6608 "global/modules.ml" 169 6585 6611
+)
+"global/modules.ml" 170 6616 6621 "global/modules.ml" 170 6616 6638
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 170 6616 6644 "global/modules.ml" 170 6616 6649
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 170 6616 6650 "global/modules.ml" 170 6616 6665
+type(
+  exn
+)
+"global/modules.ml" 170 6616 6644 "global/modules.ml" 170 6616 6665
+type(
+  unit
+)
+"global/modules.ml" 170 6616 6618 "global/modules.ml" 170 6616 6665
+type(
+  unit
+)
+"global/modules.ml" 172 6667 6671 "global/modules.ml" 172 6667 6680
+type(
+  Names.QualEnv.key -> Signature.node -> unit
+)
+ident(
+  def add_value "global/modules.ml" 175 6771 6771 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 172 6667 6681 "global/modules.ml" 172 6667 6682
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 172 6667 6683 "global/modules.ml" 174 6724 6770
+)
+"global/modules.ml" 172 6667 6683 "global/modules.ml" 172 6667 6684
+type(
+  Signature.node
+)
+ident(
+  def v "global/modules.ml" 173 6687 6689 "global/modules.ml" 174 6724 6770
+)
+"global/modules.ml" 173 6687 6689 "global/modules.ml" 173 6687 6707
+type(
+  Signature.node Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  int_ref _check_not_defined "global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+)
+"global/modules.ml" 173 6687 6708 "global/modules.ml" 173 6687 6713
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 173 6687 6708 "global/modules.ml" 173 6687 6720
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 173 6687 6721 "global/modules.ml" 173 6687 6722
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 172 6667 6681 "global/modules.ml" 172 6667 6682
+)
+"global/modules.ml" 173 6687 6689 "global/modules.ml" 173 6687 6722
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 174 6724 6726 "global/modules.ml" 174 6724 6731
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 174 6724 6742 "global/modules.ml" 174 6724 6753
+type(
+  Names.QualEnv.key ->
+  Signature.node ->
+  Signature.node Names.QualEnv.t -> Signature.node Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 174 6724 6754 "global/modules.ml" 174 6724 6755
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 172 6667 6681 "global/modules.ml" 172 6667 6682
+)
+"global/modules.ml" 174 6724 6756 "global/modules.ml" 174 6724 6757
+type(
+  Signature.node
+)
+ident(
+  int_ref v "global/modules.ml" 172 6667 6683 "global/modules.ml" 172 6667 6684
+)
+"global/modules.ml" 174 6724 6758 "global/modules.ml" 174 6724 6763
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 174 6724 6758 "global/modules.ml" 174 6724 6770
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 174 6724 6742 "global/modules.ml" 174 6724 6770
+call(
+  stack
+)
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 174 6724 6726 "global/modules.ml" 174 6724 6770
+type(
+  unit
+)
+"global/modules.ml" 173 6687 6689 "global/modules.ml" 174 6724 6770
+type(
+  unit
+)
+"global/modules.ml" 175 6771 6775 "global/modules.ml" 175 6771 6783
+type(
+  Names.QualEnv.key -> Signature.type_def -> unit
+)
+ident(
+  def add_type "global/modules.ml" 178 6871 6871 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 175 6771 6784 "global/modules.ml" 175 6771 6785
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 175 6771 6786 "global/modules.ml" 177 6826 6870
+)
+"global/modules.ml" 175 6771 6786 "global/modules.ml" 175 6771 6787
+type(
+  Signature.type_def
+)
+ident(
+  def v "global/modules.ml" 176 6790 6792 "global/modules.ml" 177 6826 6870
+)
+"global/modules.ml" 176 6790 6792 "global/modules.ml" 176 6790 6810
+type(
+  Signature.type_def Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  int_ref _check_not_defined "global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+)
+"global/modules.ml" 176 6790 6811 "global/modules.ml" 176 6790 6816
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 176 6790 6811 "global/modules.ml" 176 6790 6822
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 176 6790 6823 "global/modules.ml" 176 6790 6824
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 175 6771 6784 "global/modules.ml" 175 6771 6785
+)
+"global/modules.ml" 176 6790 6792 "global/modules.ml" 176 6790 6824
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 177 6826 6828 "global/modules.ml" 177 6826 6833
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 177 6826 6843 "global/modules.ml" 177 6826 6854
+type(
+  Names.QualEnv.key ->
+  Signature.type_def ->
+  Signature.type_def Names.QualEnv.t -> Signature.type_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 177 6826 6855 "global/modules.ml" 177 6826 6856
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 175 6771 6784 "global/modules.ml" 175 6771 6785
+)
+"global/modules.ml" 177 6826 6857 "global/modules.ml" 177 6826 6858
+type(
+  Signature.type_def
+)
+ident(
+  int_ref v "global/modules.ml" 175 6771 6786 "global/modules.ml" 175 6771 6787
+)
+"global/modules.ml" 177 6826 6859 "global/modules.ml" 177 6826 6864
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 177 6826 6859 "global/modules.ml" 177 6826 6870
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 177 6826 6843 "global/modules.ml" 177 6826 6870
+call(
+  stack
+)
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 177 6826 6828 "global/modules.ml" 177 6826 6870
+type(
+  unit
+)
+"global/modules.ml" 176 6790 6792 "global/modules.ml" 177 6826 6870
+type(
+  unit
+)
+"global/modules.ml" 178 6871 6875 "global/modules.ml" 178 6871 6886
+type(
+  Names.QualEnv.key -> Names.qualname -> unit
+)
+ident(
+  def add_constrs "global/modules.ml" 181 6980 6980 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 178 6871 6887 "global/modules.ml" 178 6871 6888
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 178 6871 6889 "global/modules.ml" 180 6931 6979
+)
+"global/modules.ml" 178 6871 6889 "global/modules.ml" 178 6871 6890
+type(
+  Names.qualname
+)
+ident(
+  def v "global/modules.ml" 179 6893 6895 "global/modules.ml" 180 6931 6979
+)
+"global/modules.ml" 179 6893 6895 "global/modules.ml" 179 6893 6913
+type(
+  Names.qualname Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  int_ref _check_not_defined "global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+)
+"global/modules.ml" 179 6893 6914 "global/modules.ml" 179 6893 6919
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 179 6893 6914 "global/modules.ml" 179 6893 6927
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 179 6893 6928 "global/modules.ml" 179 6893 6929
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 178 6871 6887 "global/modules.ml" 178 6871 6888
+)
+"global/modules.ml" 179 6893 6895 "global/modules.ml" 179 6893 6929
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 180 6931 6933 "global/modules.ml" 180 6931 6938
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 180 6931 6950 "global/modules.ml" 180 6931 6961
+type(
+  Names.QualEnv.key ->
+  Names.qualname ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 180 6931 6962 "global/modules.ml" 180 6931 6963
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 178 6871 6887 "global/modules.ml" 178 6871 6888
+)
+"global/modules.ml" 180 6931 6964 "global/modules.ml" 180 6931 6965
+type(
+  Names.qualname
+)
+ident(
+  int_ref v "global/modules.ml" 178 6871 6889 "global/modules.ml" 178 6871 6890
+)
+"global/modules.ml" 180 6931 6966 "global/modules.ml" 180 6931 6971
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 180 6931 6966 "global/modules.ml" 180 6931 6979
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 180 6931 6950 "global/modules.ml" 180 6931 6979
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 180 6931 6933 "global/modules.ml" 180 6931 6979
+type(
+  unit
+)
+"global/modules.ml" 179 6893 6895 "global/modules.ml" 180 6931 6979
+type(
+  unit
+)
+"global/modules.ml" 181 6980 6984 "global/modules.ml" 181 6980 6993
+type(
+  Names.QualEnv.key -> Names.qualname -> unit
+)
+ident(
+  def add_field "global/modules.ml" 184 7084 7084 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 181 6980 6994 "global/modules.ml" 181 6980 6995
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 181 6980 6996 "global/modules.ml" 183 7037 7083
+)
+"global/modules.ml" 181 6980 6996 "global/modules.ml" 181 6980 6997
+type(
+  Names.qualname
+)
+ident(
+  def v "global/modules.ml" 182 7000 7002 "global/modules.ml" 183 7037 7083
+)
+"global/modules.ml" 182 7000 7002 "global/modules.ml" 182 7000 7020
+type(
+  Names.qualname Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  int_ref _check_not_defined "global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+)
+"global/modules.ml" 182 7000 7021 "global/modules.ml" 182 7000 7026
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 182 7000 7021 "global/modules.ml" 182 7000 7033
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 182 7000 7034 "global/modules.ml" 182 7000 7035
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 181 6980 6994 "global/modules.ml" 181 6980 6995
+)
+"global/modules.ml" 182 7000 7002 "global/modules.ml" 182 7000 7035
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 183 7037 7039 "global/modules.ml" 183 7037 7044
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 183 7037 7055 "global/modules.ml" 183 7037 7066
+type(
+  Names.QualEnv.key ->
+  Names.qualname ->
+  Names.qualname Names.QualEnv.t -> Names.qualname Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 183 7037 7067 "global/modules.ml" 183 7037 7068
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 181 6980 6994 "global/modules.ml" 181 6980 6995
+)
+"global/modules.ml" 183 7037 7069 "global/modules.ml" 183 7037 7070
+type(
+  Names.qualname
+)
+ident(
+  int_ref v "global/modules.ml" 181 6980 6996 "global/modules.ml" 181 6980 6997
+)
+"global/modules.ml" 183 7037 7071 "global/modules.ml" 183 7037 7076
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 183 7037 7071 "global/modules.ml" 183 7037 7083
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 183 7037 7055 "global/modules.ml" 183 7037 7083
+call(
+  stack
+)
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 183 7037 7039 "global/modules.ml" 183 7037 7083
+type(
+  unit
+)
+"global/modules.ml" 182 7000 7002 "global/modules.ml" 183 7037 7083
+type(
+  unit
+)
+"global/modules.ml" 184 7084 7088 "global/modules.ml" 184 7084 7097
+type(
+  Names.QualEnv.key -> Signature.const_def -> unit
+)
+ident(
+  def add_const "global/modules.ml" 189 7252 7252 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 184 7084 7098 "global/modules.ml" 184 7084 7099
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 184 7084 7100 "global/modules.ml" 186 7141 7187
+)
+"global/modules.ml" 184 7084 7100 "global/modules.ml" 184 7084 7101
+type(
+  Signature.const_def
+)
+ident(
+  def v "global/modules.ml" 185 7104 7106 "global/modules.ml" 186 7141 7187
+)
+"global/modules.ml" 185 7104 7106 "global/modules.ml" 185 7104 7124
+type(
+  Signature.const_def Names.QualEnv.t -> Names.QualEnv.key -> unit
+)
+ident(
+  int_ref _check_not_defined "global/modules.ml" 169 6585 6589 "global/modules.ml" 169 6585 6607
+)
+"global/modules.ml" 185 7104 7125 "global/modules.ml" 185 7104 7130
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 185 7104 7125 "global/modules.ml" 185 7104 7137
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 185 7104 7138 "global/modules.ml" 185 7104 7139
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 184 7084 7098 "global/modules.ml" 184 7084 7099
+)
+"global/modules.ml" 185 7104 7106 "global/modules.ml" 185 7104 7139
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 186 7141 7143 "global/modules.ml" 186 7141 7148
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 186 7141 7159 "global/modules.ml" 186 7141 7170
+type(
+  Names.QualEnv.key ->
+  Signature.const_def ->
+  Signature.const_def Names.QualEnv.t -> Signature.const_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 186 7141 7171 "global/modules.ml" 186 7141 7172
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 184 7084 7098 "global/modules.ml" 184 7084 7099
+)
+"global/modules.ml" 186 7141 7173 "global/modules.ml" 186 7141 7174
+type(
+  Signature.const_def
+)
+ident(
+  int_ref v "global/modules.ml" 184 7084 7100 "global/modules.ml" 184 7084 7101
+)
+"global/modules.ml" 186 7141 7175 "global/modules.ml" 186 7141 7180
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 186 7141 7175 "global/modules.ml" 186 7141 7187
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 186 7141 7159 "global/modules.ml" 186 7141 7187
+call(
+  stack
+)
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 186 7141 7143 "global/modules.ml" 186 7141 7187
+type(
+  unit
+)
+"global/modules.ml" 185 7104 7106 "global/modules.ml" 186 7141 7187
+type(
+  unit
+)
+"global/modules.ml" 189 7252 7256 "global/modules.ml" 189 7252 7269
+type(
+  Names.QualEnv.key -> Signature.node -> unit
+)
+ident(
+  def replace_value "global/modules.ml" 191 7323 7323 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 189 7252 7270 "global/modules.ml" 189 7252 7271
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 189 7252 7272 "global/modules.ml" 190 7276 7322
+)
+"global/modules.ml" 189 7252 7272 "global/modules.ml" 189 7252 7273
+type(
+  Signature.node
+)
+ident(
+  def v "global/modules.ml" 190 7276 7278 "global/modules.ml" 190 7276 7322
+)
+"global/modules.ml" 190 7276 7278 "global/modules.ml" 190 7276 7283
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 190 7276 7294 "global/modules.ml" 190 7276 7305
+type(
+  Names.QualEnv.key ->
+  Signature.node ->
+  Signature.node Names.QualEnv.t -> Signature.node Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 190 7276 7306 "global/modules.ml" 190 7276 7307
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 189 7252 7270 "global/modules.ml" 189 7252 7271
+)
+"global/modules.ml" 190 7276 7308 "global/modules.ml" 190 7276 7309
+type(
+  Signature.node
+)
+ident(
+  int_ref v "global/modules.ml" 189 7252 7272 "global/modules.ml" 189 7252 7273
+)
+"global/modules.ml" 190 7276 7310 "global/modules.ml" 190 7276 7315
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 190 7276 7310 "global/modules.ml" 190 7276 7322
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 190 7276 7294 "global/modules.ml" 190 7276 7322
+call(
+  stack
+)
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 190 7276 7278 "global/modules.ml" 190 7276 7322
+type(
+  unit
+)
+"global/modules.ml" 191 7323 7327 "global/modules.ml" 191 7323 7339
+type(
+  Names.QualEnv.key -> Signature.type_def -> unit
+)
+ident(
+  def replace_type "global/modules.ml" 193 7391 7391 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 191 7323 7340 "global/modules.ml" 191 7323 7341
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 191 7323 7342 "global/modules.ml" 192 7346 7390
+)
+"global/modules.ml" 191 7323 7342 "global/modules.ml" 191 7323 7343
+type(
+  Signature.type_def
+)
+ident(
+  def v "global/modules.ml" 192 7346 7348 "global/modules.ml" 192 7346 7390
+)
+"global/modules.ml" 192 7346 7348 "global/modules.ml" 192 7346 7353
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 192 7346 7363 "global/modules.ml" 192 7346 7374
+type(
+  Names.QualEnv.key ->
+  Signature.type_def ->
+  Signature.type_def Names.QualEnv.t -> Signature.type_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 192 7346 7375 "global/modules.ml" 192 7346 7376
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 191 7323 7340 "global/modules.ml" 191 7323 7341
+)
+"global/modules.ml" 192 7346 7377 "global/modules.ml" 192 7346 7378
+type(
+  Signature.type_def
+)
+ident(
+  int_ref v "global/modules.ml" 191 7323 7342 "global/modules.ml" 191 7323 7343
+)
+"global/modules.ml" 192 7346 7379 "global/modules.ml" 192 7346 7384
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 192 7346 7379 "global/modules.ml" 192 7346 7390
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 192 7346 7363 "global/modules.ml" 192 7346 7390
+call(
+  stack
+)
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 192 7346 7348 "global/modules.ml" 192 7346 7390
+type(
+  unit
+)
+"global/modules.ml" 193 7391 7395 "global/modules.ml" 193 7391 7408
+type(
+  Names.QualEnv.key -> Signature.const_def -> unit
+)
+ident(
+  def replace_const "global/modules.ml" 196 7463 7463 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 193 7391 7409 "global/modules.ml" 193 7391 7410
+type(
+  Names.QualEnv.key
+)
+ident(
+  def f "global/modules.ml" 193 7391 7411 "global/modules.ml" 194 7415 7461
+)
+"global/modules.ml" 193 7391 7411 "global/modules.ml" 193 7391 7412
+type(
+  Signature.const_def
+)
+ident(
+  def v "global/modules.ml" 194 7415 7417 "global/modules.ml" 194 7415 7461
+)
+"global/modules.ml" 194 7415 7417 "global/modules.ml" 194 7415 7422
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 194 7415 7433 "global/modules.ml" 194 7415 7444
+type(
+  Names.QualEnv.key ->
+  Signature.const_def ->
+  Signature.const_def Names.QualEnv.t -> Signature.const_def Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"global/modules.ml" 194 7415 7445 "global/modules.ml" 194 7415 7446
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref f "global/modules.ml" 193 7391 7409 "global/modules.ml" 193 7391 7410
+)
+"global/modules.ml" 194 7415 7447 "global/modules.ml" 194 7415 7448
+type(
+  Signature.const_def
+)
+ident(
+  int_ref v "global/modules.ml" 193 7391 7411 "global/modules.ml" 193 7391 7412
+)
+"global/modules.ml" 194 7415 7449 "global/modules.ml" 194 7415 7454
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 194 7415 7449 "global/modules.ml" 194 7415 7461
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 194 7415 7433 "global/modules.ml" 194 7415 7461
+call(
+  stack
+)
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 194 7415 7417 "global/modules.ml" 194 7415 7461
+type(
+  unit
+)
+"global/modules.ml" 198 7536 7540 "global/modules.ml" 198 7536 7550
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  def find_value "global/modules.ml" 199 7583 7583 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 198 7536 7551 "global/modules.ml" 198 7536 7552
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 198 7536 7555 "global/modules.ml" 198 7536 7582
+)
+"global/modules.ml" 198 7536 7555 "global/modules.ml" 198 7536 7567
+type(
+  Names.QualEnv.key -> Signature.node Names.QualEnv.t -> Signature.node
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 198 7536 7568 "global/modules.ml" 198 7536 7569
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 198 7536 7551 "global/modules.ml" 198 7536 7552
+)
+"global/modules.ml" 198 7536 7570 "global/modules.ml" 198 7536 7575
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 198 7536 7570 "global/modules.ml" 198 7536 7582
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 198 7536 7555 "global/modules.ml" 198 7536 7582
+call(
+  tail
+)
+type(
+  Signature.node
+)
+"global/modules.ml" 199 7583 7587 "global/modules.ml" 199 7583 7596
+type(
+  Names.QualEnv.key -> Signature.type_def
+)
+ident(
+  def find_type "global/modules.ml" 200 7628 7628 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 199 7583 7597 "global/modules.ml" 199 7583 7598
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 199 7583 7601 "global/modules.ml" 199 7583 7627
+)
+"global/modules.ml" 199 7583 7601 "global/modules.ml" 199 7583 7613
+type(
+  Names.QualEnv.key ->
+  Signature.type_def Names.QualEnv.t -> Signature.type_def
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 199 7583 7614 "global/modules.ml" 199 7583 7615
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 199 7583 7597 "global/modules.ml" 199 7583 7598
+)
+"global/modules.ml" 199 7583 7616 "global/modules.ml" 199 7583 7621
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 199 7583 7616 "global/modules.ml" 199 7583 7627
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 199 7583 7601 "global/modules.ml" 199 7583 7627
+call(
+  tail
+)
+type(
+  Signature.type_def
+)
+"global/modules.ml" 200 7628 7632 "global/modules.ml" 200 7628 7644
+type(
+  Names.QualEnv.key -> Names.qualname
+)
+ident(
+  def find_constrs "global/modules.ml" 201 7678 7678 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 200 7628 7645 "global/modules.ml" 200 7628 7646
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 200 7628 7649 "global/modules.ml" 200 7628 7677
+)
+"global/modules.ml" 200 7628 7649 "global/modules.ml" 200 7628 7661
+type(
+  Names.QualEnv.key -> Names.qualname Names.QualEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 200 7628 7662 "global/modules.ml" 200 7628 7663
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 200 7628 7645 "global/modules.ml" 200 7628 7646
+)
+"global/modules.ml" 200 7628 7664 "global/modules.ml" 200 7628 7669
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 200 7628 7664 "global/modules.ml" 200 7628 7677
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 200 7628 7649 "global/modules.ml" 200 7628 7677
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 201 7678 7682 "global/modules.ml" 201 7678 7692
+type(
+  Names.QualEnv.key -> Names.qualname
+)
+ident(
+  def find_field "global/modules.ml" 202 7725 7725 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 201 7678 7693 "global/modules.ml" 201 7678 7694
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 201 7678 7697 "global/modules.ml" 201 7678 7724
+)
+"global/modules.ml" 201 7678 7697 "global/modules.ml" 201 7678 7709
+type(
+  Names.QualEnv.key -> Names.qualname Names.QualEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 201 7678 7710 "global/modules.ml" 201 7678 7711
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 201 7678 7693 "global/modules.ml" 201 7678 7694
+)
+"global/modules.ml" 201 7678 7712 "global/modules.ml" 201 7678 7717
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 201 7678 7712 "global/modules.ml" 201 7678 7724
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 201 7678 7697 "global/modules.ml" 201 7678 7724
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 202 7725 7729 "global/modules.ml" 202 7725 7739
+type(
+  Names.QualEnv.key -> Signature.const_def
+)
+ident(
+  def find_const "global/modules.ml" 205 7817 7817 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 202 7725 7740 "global/modules.ml" 202 7725 7741
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 202 7725 7744 "global/modules.ml" 202 7725 7771
+)
+"global/modules.ml" 202 7725 7744 "global/modules.ml" 202 7725 7756
+type(
+  Names.QualEnv.key ->
+  Signature.const_def Names.QualEnv.t -> Signature.const_def
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 202 7725 7757 "global/modules.ml" 202 7725 7758
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 202 7725 7740 "global/modules.ml" 202 7725 7741
+)
+"global/modules.ml" 202 7725 7759 "global/modules.ml" 202 7725 7764
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 202 7725 7759 "global/modules.ml" 202 7725 7771
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 202 7725 7744 "global/modules.ml" 202 7725 7771
+call(
+  tail
+)
+type(
+  Signature.const_def
+)
+"global/modules.ml" 205 7817 7821 "global/modules.ml" 205 7817 7832
+type(
+  Names.QualEnv.key -> Signature.structure
+)
+ident(
+  def find_struct "global/modules.ml" 210 7921 7921 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 205 7817 7833 "global/modules.ml" 205 7817 7834
+type(
+  Names.QualEnv.key
+)
+ident(
+  def n "global/modules.ml" 206 7837 7839 "global/modules.ml" 208 7893 7919
+)
+"global/modules.ml" 206 7837 7845 "global/modules.ml" 206 7837 7854
+type(
+  Names.QualEnv.key -> Signature.type_def
+)
+ident(
+  int_ref find_type "global/modules.ml" 199 7583 7587 "global/modules.ml" 199 7583 7596
+)
+"global/modules.ml" 206 7837 7855 "global/modules.ml" 206 7837 7856
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref n "global/modules.ml" 205 7817 7833 "global/modules.ml" 205 7817 7834
+)
+"global/modules.ml" 206 7837 7845 "global/modules.ml" 206 7837 7856
+call(
+  stack
+)
+type(
+  Signature.type_def
+)
+"global/modules.ml" 207 7862 7876 "global/modules.ml" 207 7862 7882
+type(
+  Signature.structure
+)
+ident(
+  def fields "global/modules.ml" 207 7862 7886 "global/modules.ml" 207 7862 7892
+)
+"global/modules.ml" 207 7862 7868 "global/modules.ml" 207 7862 7882
+type(
+  Signature.type_def
+)
+"global/modules.ml" 207 7862 7886 "global/modules.ml" 207 7862 7892
+type(
+  Signature.structure
+)
+ident(
+  int_ref fields "global/modules.ml" 207 7862 7876 "global/modules.ml" 207 7862 7882
+)
+"global/modules.ml" 208 7893 7899 "global/modules.ml" 208 7893 7900
+type(
+  Signature.type_def
+)
+"global/modules.ml" 208 7893 7904 "global/modules.ml" 208 7893 7909
+type(
+  exn -> Signature.structure
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 208 7893 7910 "global/modules.ml" 208 7893 7919
+type(
+  exn
+)
+"global/modules.ml" 208 7893 7904 "global/modules.ml" 208 7893 7919
+type(
+  Signature.structure
+)
+"global/modules.ml" 206 7837 7839 "global/modules.ml" 208 7893 7919
+type(
+  Signature.structure
+)
+"global/modules.ml" 215 8151 8155 "global/modules.ml" 215 8151 8166
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def check_value "global/modules.ml" 218 8268 8268 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 215 8151 8167 "global/modules.ml" 215 8151 8168
+type(
+  Names.QualEnv.key
+)
+ident(
+  def q "global/modules.ml" 216 8171 8173 "global/modules.ml" 217 8194 8267
+)
+"global/modules.ml" 216 8171 8173 "global/modules.ml" 216 8171 8185
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 216 8171 8186 "global/modules.ml" 216 8171 8187
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 215 8151 8167 "global/modules.ml" 215 8151 8168
+)
+"global/modules.ml" 216 8171 8186 "global/modules.ml" 216 8171 8192
+type(
+  Names.modul
+)
+"global/modules.ml" 216 8171 8173 "global/modules.ml" 216 8171 8192
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 217 8194 8204 "global/modules.ml" 217 8194 8205
+type(
+  Signature.node
+)
+"global/modules.ml" 217 8194 8208 "global/modules.ml" 217 8194 8220
+type(
+  Names.QualEnv.key -> Signature.node Names.QualEnv.t -> Signature.node
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 217 8194 8221 "global/modules.ml" 217 8194 8222
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 215 8151 8167 "global/modules.ml" 215 8151 8168
+)
+"global/modules.ml" 217 8194 8223 "global/modules.ml" 217 8194 8228
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 217 8194 8223 "global/modules.ml" 217 8194 8235
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 217 8194 8208 "global/modules.ml" 217 8194 8235
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"global/modules.ml" 217 8194 8239 "global/modules.ml" 217 8194 8243
+type(
+  bool
+)
+"global/modules.ml" 217 8194 8200 "global/modules.ml" 217 8194 8243
+type(
+  bool
+)
+"global/modules.ml" 217 8194 8249 "global/modules.ml" 217 8194 8258
+type(
+  exn
+)
+"global/modules.ml" 217 8194 8262 "global/modules.ml" 217 8194 8267
+type(
+  bool
+)
+"global/modules.ml" 217 8194 8196 "global/modules.ml" 217 8194 8267
+type(
+  bool
+)
+"global/modules.ml" 216 8171 8173 "global/modules.ml" 217 8194 8267
+type(
+  bool
+)
+"global/modules.ml" 218 8268 8272 "global/modules.ml" 218 8268 8282
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def check_type "global/modules.ml" 221 8383 8383 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 218 8268 8283 "global/modules.ml" 218 8268 8284
+type(
+  Names.QualEnv.key
+)
+ident(
+  def q "global/modules.ml" 219 8287 8289 "global/modules.ml" 220 8310 8382
+)
+"global/modules.ml" 219 8287 8289 "global/modules.ml" 219 8287 8301
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 219 8287 8302 "global/modules.ml" 219 8287 8303
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 218 8268 8283 "global/modules.ml" 218 8268 8284
+)
+"global/modules.ml" 219 8287 8302 "global/modules.ml" 219 8287 8308
+type(
+  Names.modul
+)
+"global/modules.ml" 219 8287 8289 "global/modules.ml" 219 8287 8308
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 220 8310 8320 "global/modules.ml" 220 8310 8321
+type(
+  Signature.type_def
+)
+"global/modules.ml" 220 8310 8324 "global/modules.ml" 220 8310 8336
+type(
+  Names.QualEnv.key ->
+  Signature.type_def Names.QualEnv.t -> Signature.type_def
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 220 8310 8337 "global/modules.ml" 220 8310 8338
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 218 8268 8283 "global/modules.ml" 218 8268 8284
+)
+"global/modules.ml" 220 8310 8339 "global/modules.ml" 220 8310 8344
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 220 8310 8339 "global/modules.ml" 220 8310 8350
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 220 8310 8324 "global/modules.ml" 220 8310 8350
+call(
+  stack
+)
+type(
+  Signature.type_def
+)
+"global/modules.ml" 220 8310 8354 "global/modules.ml" 220 8310 8358
+type(
+  bool
+)
+"global/modules.ml" 220 8310 8316 "global/modules.ml" 220 8310 8358
+type(
+  bool
+)
+"global/modules.ml" 220 8310 8364 "global/modules.ml" 220 8310 8373
+type(
+  exn
+)
+"global/modules.ml" 220 8310 8377 "global/modules.ml" 220 8310 8382
+type(
+  bool
+)
+"global/modules.ml" 220 8310 8312 "global/modules.ml" 220 8310 8382
+type(
+  bool
+)
+"global/modules.ml" 219 8287 8289 "global/modules.ml" 220 8310 8382
+type(
+  bool
+)
+"global/modules.ml" 221 8383 8387 "global/modules.ml" 221 8383 8400
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def check_constrs "global/modules.ml" 224 8503 8503 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 221 8383 8401 "global/modules.ml" 221 8383 8402
+type(
+  Names.QualEnv.key
+)
+ident(
+  def q "global/modules.ml" 222 8405 8407 "global/modules.ml" 223 8428 8502
+)
+"global/modules.ml" 222 8405 8407 "global/modules.ml" 222 8405 8419
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 222 8405 8420 "global/modules.ml" 222 8405 8421
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 221 8383 8401 "global/modules.ml" 221 8383 8402
+)
+"global/modules.ml" 222 8405 8420 "global/modules.ml" 222 8405 8426
+type(
+  Names.modul
+)
+"global/modules.ml" 222 8405 8407 "global/modules.ml" 222 8405 8426
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 223 8428 8438 "global/modules.ml" 223 8428 8439
+type(
+  Names.qualname
+)
+"global/modules.ml" 223 8428 8442 "global/modules.ml" 223 8428 8454
+type(
+  Names.QualEnv.key -> Names.qualname Names.QualEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 223 8428 8455 "global/modules.ml" 223 8428 8456
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 221 8383 8401 "global/modules.ml" 221 8383 8402
+)
+"global/modules.ml" 223 8428 8457 "global/modules.ml" 223 8428 8462
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 223 8428 8457 "global/modules.ml" 223 8428 8470
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 223 8428 8442 "global/modules.ml" 223 8428 8470
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 223 8428 8474 "global/modules.ml" 223 8428 8478
+type(
+  bool
+)
+"global/modules.ml" 223 8428 8434 "global/modules.ml" 223 8428 8478
+type(
+  bool
+)
+"global/modules.ml" 223 8428 8484 "global/modules.ml" 223 8428 8493
+type(
+  exn
+)
+"global/modules.ml" 223 8428 8497 "global/modules.ml" 223 8428 8502
+type(
+  bool
+)
+"global/modules.ml" 223 8428 8430 "global/modules.ml" 223 8428 8502
+type(
+  bool
+)
+"global/modules.ml" 222 8405 8407 "global/modules.ml" 223 8428 8502
+type(
+  bool
+)
+"global/modules.ml" 224 8503 8507 "global/modules.ml" 224 8503 8518
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def check_field "global/modules.ml" 227 8620 8620 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 224 8503 8519 "global/modules.ml" 224 8503 8520
+type(
+  Names.QualEnv.key
+)
+ident(
+  def q "global/modules.ml" 225 8523 8525 "global/modules.ml" 226 8546 8619
+)
+"global/modules.ml" 225 8523 8525 "global/modules.ml" 225 8523 8537
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 225 8523 8538 "global/modules.ml" 225 8523 8539
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 224 8503 8519 "global/modules.ml" 224 8503 8520
+)
+"global/modules.ml" 225 8523 8538 "global/modules.ml" 225 8523 8544
+type(
+  Names.modul
+)
+"global/modules.ml" 225 8523 8525 "global/modules.ml" 225 8523 8544
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 226 8546 8556 "global/modules.ml" 226 8546 8557
+type(
+  Names.qualname
+)
+"global/modules.ml" 226 8546 8560 "global/modules.ml" 226 8546 8572
+type(
+  Names.QualEnv.key -> Names.qualname Names.QualEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 226 8546 8573 "global/modules.ml" 226 8546 8574
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 224 8503 8519 "global/modules.ml" 224 8503 8520
+)
+"global/modules.ml" 226 8546 8575 "global/modules.ml" 226 8546 8580
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 226 8546 8575 "global/modules.ml" 226 8546 8587
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 226 8546 8560 "global/modules.ml" 226 8546 8587
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 226 8546 8591 "global/modules.ml" 226 8546 8595
+type(
+  bool
+)
+"global/modules.ml" 226 8546 8552 "global/modules.ml" 226 8546 8595
+type(
+  bool
+)
+"global/modules.ml" 226 8546 8601 "global/modules.ml" 226 8546 8610
+type(
+  exn
+)
+"global/modules.ml" 226 8546 8614 "global/modules.ml" 226 8546 8619
+type(
+  bool
+)
+"global/modules.ml" 226 8546 8548 "global/modules.ml" 226 8546 8619
+type(
+  bool
+)
+"global/modules.ml" 225 8523 8525 "global/modules.ml" 226 8546 8619
+type(
+  bool
+)
+"global/modules.ml" 227 8620 8624 "global/modules.ml" 227 8620 8635
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def check_const "global/modules.ml" 232 8739 8739 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 227 8620 8636 "global/modules.ml" 227 8620 8637
+type(
+  Names.QualEnv.key
+)
+ident(
+  def q "global/modules.ml" 228 8640 8642 "global/modules.ml" 229 8663 8736
+)
+"global/modules.ml" 228 8640 8642 "global/modules.ml" 228 8640 8654
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 228 8640 8655 "global/modules.ml" 228 8640 8656
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 227 8620 8636 "global/modules.ml" 227 8620 8637
+)
+"global/modules.ml" 228 8640 8655 "global/modules.ml" 228 8640 8661
+type(
+  Names.modul
+)
+"global/modules.ml" 228 8640 8642 "global/modules.ml" 228 8640 8661
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 229 8663 8673 "global/modules.ml" 229 8663 8674
+type(
+  Signature.const_def
+)
+"global/modules.ml" 229 8663 8677 "global/modules.ml" 229 8663 8689
+type(
+  Names.QualEnv.key ->
+  Signature.const_def Names.QualEnv.t -> Signature.const_def
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 229 8663 8690 "global/modules.ml" 229 8663 8691
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 227 8620 8636 "global/modules.ml" 227 8620 8637
+)
+"global/modules.ml" 229 8663 8692 "global/modules.ml" 229 8663 8697
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 229 8663 8692 "global/modules.ml" 229 8663 8704
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 229 8663 8677 "global/modules.ml" 229 8663 8704
+call(
+  stack
+)
+type(
+  Signature.const_def
+)
+"global/modules.ml" 229 8663 8708 "global/modules.ml" 229 8663 8712
+type(
+  bool
+)
+"global/modules.ml" 229 8663 8669 "global/modules.ml" 229 8663 8712
+type(
+  bool
+)
+"global/modules.ml" 229 8663 8718 "global/modules.ml" 229 8663 8727
+type(
+  exn
+)
+"global/modules.ml" 229 8663 8731 "global/modules.ml" 229 8663 8736
+type(
+  bool
+)
+"global/modules.ml" 229 8663 8665 "global/modules.ml" 229 8663 8736
+type(
+  bool
+)
+"global/modules.ml" 228 8640 8642 "global/modules.ml" 229 8663 8736
+type(
+  bool
+)
+"global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+type(
+  'a Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  def _qualify "global/modules.ml" 248 9181 9181 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 239 8935 8948 "global/modules.ml" 239 8935 8951
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 239 8935 8952 "global/modules.ml" 246 9152 9179
+)
+"global/modules.ml" 239 8935 8952 "global/modules.ml" 239 8935 8956
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 240 8959 8961 "global/modules.ml" 246 9152 9179
+)
+"global/modules.ml" 240 8959 8965 "global/modules.ml" 240 8959 8970
+type(
+  Names.modul -> bool
+)
+ident(
+  def tries "global/modules.ml" 245 9085 9087 "global/modules.ml" 246 9152 9179
+)
+"global/modules.ml" 240 8959 8971 "global/modules.ml" 240 8959 8972
+type(
+  Names.modul
+)
+ident(
+  def m "global/modules.ml" 241 8975 8979 "global/modules.ml" 244 9054 9081
+)
+"global/modules.ml" 242 8983 8993 "global/modules.ml" 242 8983 8994
+type(
+  'a
+)
+"global/modules.ml" 242 8983 8997 "global/modules.ml" 242 8983 9009
+type(
+  Names.QualEnv.key -> 'a Names.QualEnv.t -> 'a
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/modules.ml" 242 8983 9019 "global/modules.ml" 242 8983 9020
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/modules.ml" 240 8959 8971 "global/modules.ml" 240 8959 8972
+)
+"global/modules.ml" 242 8983 9029 "global/modules.ml" 242 8983 9033
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 239 8935 8952 "global/modules.ml" 239 8935 8956
+)
+"global/modules.ml" 242 8983 9010 "global/modules.ml" 242 8983 9035
+type(
+  Names.QualEnv.key
+)
+"global/modules.ml" 242 8983 9036 "global/modules.ml" 242 8983 9039
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 239 8935 8948 "global/modules.ml" 239 8935 8951
+)
+"global/modules.ml" 242 8983 8997 "global/modules.ml" 242 8983 9039
+call(
+  stack
+)
+type(
+  'a
+)
+"global/modules.ml" 243 9043 9049 "global/modules.ml" 243 9043 9053
+type(
+  bool
+)
+"global/modules.ml" 242 8983 8989 "global/modules.ml" 243 9043 9053
+type(
+  bool
+)
+"global/modules.ml" 244 9054 9063 "global/modules.ml" 244 9054 9072
+type(
+  exn
+)
+"global/modules.ml" 244 9054 9076 "global/modules.ml" 244 9054 9081
+type(
+  bool
+)
+"global/modules.ml" 241 8975 8979 "global/modules.ml" 244 9054 9081
+type(
+  bool
+)
+"global/modules.ml" 245 9085 9091 "global/modules.ml" 245 9085 9092
+type(
+  Names.modul
+)
+ident(
+  def m "global/modules.ml" 246 9152 9154 "global/modules.ml" 246 9152 9179
+)
+"global/modules.ml" 245 9085 9095 "global/modules.ml" 245 9085 9104
+type(
+  (Names.modul -> bool) -> Names.modul list -> Names.modul
+)
+ident(
+  ext_ref List.find
+)
+"global/modules.ml" 245 9085 9105 "global/modules.ml" 245 9085 9110
+type(
+  Names.modul -> bool
+)
+ident(
+  int_ref tries "global/modules.ml" 240 8959 8965 "global/modules.ml" 240 8959 8970
+)
+"global/modules.ml" 245 9085 9112 "global/modules.ml" 245 9085 9117
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 245 9085 9112 "global/modules.ml" 245 9085 9129
+type(
+  Names.modul
+)
+"global/modules.ml" 245 9085 9131 "global/modules.ml" 245 9085 9136
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 245 9085 9131 "global/modules.ml" 245 9085 9147
+type(
+  Names.modul list
+)
+"global/modules.ml" 245 9085 9111 "global/modules.ml" 245 9085 9148
+type(
+  Names.modul list
+)
+"global/modules.ml" 245 9085 9095 "global/modules.ml" 245 9085 9148
+call(
+  stack
+)
+type(
+  Names.modul
+)
+"global/modules.ml" 246 9152 9163 "global/modules.ml" 246 9152 9164
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/modules.ml" 245 9085 9091 "global/modules.ml" 245 9085 9092
+)
+"global/modules.ml" 246 9152 9173 "global/modules.ml" 246 9152 9177
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 239 8935 8952 "global/modules.ml" 239 8935 8956
+)
+"global/modules.ml" 246 9152 9154 "global/modules.ml" 246 9152 9179
+type(
+  Names.qualname
+)
+"global/modules.ml" 245 9085 9087 "global/modules.ml" 246 9152 9179
+type(
+  Names.qualname
+)
+"global/modules.ml" 240 8959 8961 "global/modules.ml" 246 9152 9179
+type(
+  Names.qualname
+)
+"global/modules.ml" 248 9181 9185 "global/modules.ml" 248 9181 9198
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def qualify_value "global/modules.ml" 249 9233 9233 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 248 9181 9199 "global/modules.ml" 248 9181 9203
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 248 9181 9206 "global/modules.ml" 248 9181 9232
+)
+"global/modules.ml" 248 9181 9206 "global/modules.ml" 248 9181 9214
+type(
+  Signature.node Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  int_ref _qualify "global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+)
+"global/modules.ml" 248 9181 9215 "global/modules.ml" 248 9181 9220
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 248 9181 9215 "global/modules.ml" 248 9181 9227
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 248 9181 9228 "global/modules.ml" 248 9181 9232
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 248 9181 9199 "global/modules.ml" 248 9181 9203
+)
+"global/modules.ml" 248 9181 9206 "global/modules.ml" 248 9181 9232
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 249 9233 9237 "global/modules.ml" 249 9233 9249
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def qualify_type "global/modules.ml" 250 9283 9283 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 249 9233 9250 "global/modules.ml" 249 9233 9254
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 249 9233 9257 "global/modules.ml" 249 9233 9282
+)
+"global/modules.ml" 249 9233 9257 "global/modules.ml" 249 9233 9265
+type(
+  Signature.type_def Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  int_ref _qualify "global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+)
+"global/modules.ml" 249 9233 9266 "global/modules.ml" 249 9233 9271
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 249 9233 9266 "global/modules.ml" 249 9233 9277
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 249 9233 9278 "global/modules.ml" 249 9233 9282
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 249 9233 9250 "global/modules.ml" 249 9233 9254
+)
+"global/modules.ml" 249 9233 9257 "global/modules.ml" 249 9233 9282
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 250 9283 9287 "global/modules.ml" 250 9283 9302
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def qualify_constrs "global/modules.ml" 251 9338 9338 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 250 9283 9303 "global/modules.ml" 250 9283 9307
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 250 9283 9310 "global/modules.ml" 250 9283 9337
+)
+"global/modules.ml" 250 9283 9310 "global/modules.ml" 250 9283 9318
+type(
+  Names.qualname Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  int_ref _qualify "global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+)
+"global/modules.ml" 250 9283 9319 "global/modules.ml" 250 9283 9324
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 250 9283 9319 "global/modules.ml" 250 9283 9332
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 250 9283 9333 "global/modules.ml" 250 9283 9337
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 250 9283 9303 "global/modules.ml" 250 9283 9307
+)
+"global/modules.ml" 250 9283 9310 "global/modules.ml" 250 9283 9337
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 251 9338 9342 "global/modules.ml" 251 9338 9355
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def qualify_field "global/modules.ml" 252 9390 9390 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 251 9338 9356 "global/modules.ml" 251 9338 9360
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 251 9338 9363 "global/modules.ml" 251 9338 9389
+)
+"global/modules.ml" 251 9338 9363 "global/modules.ml" 251 9338 9371
+type(
+  Names.qualname Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  int_ref _qualify "global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+)
+"global/modules.ml" 251 9338 9372 "global/modules.ml" 251 9338 9377
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 251 9338 9372 "global/modules.ml" 251 9338 9384
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 251 9338 9385 "global/modules.ml" 251 9338 9389
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 251 9338 9356 "global/modules.ml" 251 9338 9360
+)
+"global/modules.ml" 251 9338 9363 "global/modules.ml" 251 9338 9389
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 252 9390 9394 "global/modules.ml" 252 9390 9407
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def qualify_const "global/modules.ml" 257 9531 9531 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 252 9390 9408 "global/modules.ml" 252 9390 9412
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 252 9390 9415 "global/modules.ml" 252 9390 9441
+)
+"global/modules.ml" 252 9390 9415 "global/modules.ml" 252 9390 9423
+type(
+  Signature.const_def Names.QualEnv.t -> Names.name -> Names.qualname
+)
+ident(
+  int_ref _qualify "global/modules.ml" 239 8935 8939 "global/modules.ml" 239 8935 8947
+)
+"global/modules.ml" 252 9390 9424 "global/modules.ml" 252 9390 9429
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 252 9390 9424 "global/modules.ml" 252 9390 9436
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 252 9390 9437 "global/modules.ml" 252 9390 9441
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 252 9390 9408 "global/modules.ml" 252 9390 9412
+)
+"global/modules.ml" 252 9390 9415 "global/modules.ml" 252 9390 9441
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 257 9531 9535 "global/modules.ml" 257 9531 9547
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  def current_qual "global/modules.ml" 260 9593 9593 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 257 9531 9548 "global/modules.ml" 257 9531 9549
+type(
+  Names.name
+)
+ident(
+  def n "global/modules.ml" 257 9531 9552 "global/modules.ml" 257 9531 9590
+)
+"global/modules.ml" 257 9531 9561 "global/modules.ml" 257 9531 9566
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 257 9531 9561 "global/modules.ml" 257 9531 9578
+type(
+  Names.modul
+)
+"global/modules.ml" 257 9531 9587 "global/modules.ml" 257 9531 9588
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/modules.ml" 257 9531 9548 "global/modules.ml" 257 9531 9549
+)
+"global/modules.ml" 257 9531 9552 "global/modules.ml" 257 9531 9590
+type(
+  Names.qualname
+)
+"global/modules.ml" 262 9668 9676 "global/modules.ml" 262 9668 9687
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  def fresh_value "global/modules.ml" 262 9668 9668 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 262 9668 9688 "global/modules.ml" 262 9668 9697
+type(
+  string
+)
+ident(
+  def pass_name "global/modules.ml" 262 9668 9698 "global/modules.ml" 270 9929 9937
+)
+"global/modules.ml" 262 9668 9698 "global/modules.ml" 262 9668 9702
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 263 9705 9707 "global/modules.ml" 270 9929 9937
+)
+"global/modules.ml" 263 9705 9711 "global/modules.ml" 263 9705 9716
+type(
+  Names.name
+)
+ident(
+  def fname "global/modules.ml" 267 9809 9811 "global/modules.ml" 270 9929 9937
+)
+"global/modules.ml" 264 9719 9726 "global/modules.ml" 264 9719 9727
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 264 9719 9727 "global/modules.ml" 264 9719 9753
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_name
+)
+"global/modules.ml" 264 9719 9726 "global/modules.ml" 264 9719 9753
+type(
+  bool
+)
+"global/modules.ml" 265 9754 9764 "global/modules.ml" 265 9754 9768
+type(
+  string
+)
+"global/modules.ml" 265 9754 9768 "global/modules.ml" 265 9754 9769
+type(
+  string -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 265 9754 9770 "global/modules.ml" 265 9754 9779
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 262 9668 9688 "global/modules.ml" 262 9668 9697
+)
+"global/modules.ml" 265 9754 9780 "global/modules.ml" 265 9754 9781
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 265 9754 9781 "global/modules.ml" 265 9754 9784
+type(
+  string
+)
+"global/modules.ml" 265 9754 9784 "global/modules.ml" 265 9754 9785
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 265 9754 9786 "global/modules.ml" 265 9754 9790
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 262 9668 9698 "global/modules.ml" 262 9668 9702
+)
+"global/modules.ml" 265 9754 9781 "global/modules.ml" 265 9754 9790
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 265 9754 9770 "global/modules.ml" 265 9754 9790
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 265 9754 9763 "global/modules.ml" 265 9754 9791
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 266 9792 9801 "global/modules.ml" 266 9792 9805
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 262 9668 9698 "global/modules.ml" 262 9668 9702
+)
+"global/modules.ml" 264 9719 9723 "global/modules.ml" 266 9792 9805
+type(
+  Names.name
+)
+"global/modules.ml" 267 9809 9815 "global/modules.ml" 267 9809 9816
+type(
+  Names.qualname
+)
+ident(
+  def q "global/modules.ml" 268 9841 9843 "global/modules.ml" 270 9929 9937
+)
+"global/modules.ml" 267 9809 9819 "global/modules.ml" 267 9809 9831
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  int_ref current_qual "global/modules.ml" 257 9531 9535 "global/modules.ml" 257 9531 9547
+)
+"global/modules.ml" 267 9809 9832 "global/modules.ml" 267 9809 9837
+type(
+  Names.name
+)
+ident(
+  int_ref fname "global/modules.ml" 263 9705 9711 "global/modules.ml" 263 9705 9716
+)
+"global/modules.ml" 267 9809 9819 "global/modules.ml" 267 9809 9837
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 268 9841 9846 "global/modules.ml" 268 9841 9857
+type(
+  Names.QualEnv.key -> Signature.node Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 268 9841 9858 "global/modules.ml" 268 9841 9859
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 267 9809 9815 "global/modules.ml" 267 9809 9816
+)
+"global/modules.ml" 268 9841 9860 "global/modules.ml" 268 9841 9865
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 268 9841 9860 "global/modules.ml" 268 9841 9872
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 268 9841 9846 "global/modules.ml" 268 9841 9872
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 269 9873 9880 "global/modules.ml" 269 9873 9891
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  int_ref fresh_value "global/modules.ml" 262 9668 9676 "global/modules.ml" 262 9668 9687
+)
+"global/modules.ml" 269 9873 9892 "global/modules.ml" 269 9873 9901
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 262 9668 9688 "global/modules.ml" 262 9668 9697
+)
+"global/modules.ml" 269 9873 9903 "global/modules.ml" 269 9873 9907
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 262 9668 9698 "global/modules.ml" 262 9668 9702
+)
+"global/modules.ml" 269 9873 9908 "global/modules.ml" 269 9873 9909
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 269 9873 9910 "global/modules.ml" 269 9873 9925
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.gen_symbol
+)
+"global/modules.ml" 269 9873 9925 "global/modules.ml" 269 9873 9927
+type(
+  unit
+)
+"global/modules.ml" 269 9873 9910 "global/modules.ml" 269 9873 9927
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 269 9873 9902 "global/modules.ml" 269 9873 9928
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 269 9873 9880 "global/modules.ml" 269 9873 9928
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 270 9929 9936 "global/modules.ml" 270 9929 9937
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/modules.ml" 267 9809 9815 "global/modules.ml" 267 9809 9816
+)
+"global/modules.ml" 268 9841 9843 "global/modules.ml" 270 9929 9937
+type(
+  Names.qualname
+)
+"global/modules.ml" 267 9809 9811 "global/modules.ml" 270 9929 9937
+type(
+  Names.qualname
+)
+"global/modules.ml" 263 9705 9707 "global/modules.ml" 270 9929 9937
+type(
+  Names.qualname
+)
+"global/modules.ml" 272 9939 9947 "global/modules.ml" 272 9939 9961
+type(
+  string -> Names.name -> Names.modul -> Names.qualname
+)
+ident(
+  def fresh_value_in "global/modules.ml" 272 9939 9939 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 272 9939 9962 "global/modules.ml" 272 9939 9971
+type(
+  string
+)
+ident(
+  def pass_name "global/modules.ml" 272 9939 9972 "global/modules.ml" 280 10242 10250
+)
+"global/modules.ml" 272 9939 9972 "global/modules.ml" 272 9939 9976
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 272 9939 9977 "global/modules.ml" 280 10242 10250
+)
+"global/modules.ml" 272 9939 9977 "global/modules.ml" 272 9939 9986
+type(
+  Names.modul
+)
+ident(
+  def qualifier "global/modules.ml" 273 9989 9991 "global/modules.ml" 280 10242 10250
+)
+"global/modules.ml" 273 9989 9995 "global/modules.ml" 273 9989 10000
+type(
+  Names.name
+)
+ident(
+  def fname "global/modules.ml" 277 10093 10095 "global/modules.ml" 280 10242 10250
+)
+"global/modules.ml" 274 10003 10010 "global/modules.ml" 274 10003 10011
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 274 10003 10011 "global/modules.ml" 274 10003 10037
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_name
+)
+"global/modules.ml" 274 10003 10010 "global/modules.ml" 274 10003 10037
+type(
+  bool
+)
+"global/modules.ml" 275 10038 10048 "global/modules.ml" 275 10038 10052
+type(
+  string
+)
+"global/modules.ml" 275 10038 10052 "global/modules.ml" 275 10038 10053
+type(
+  string -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 275 10038 10054 "global/modules.ml" 275 10038 10063
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 272 9939 9962 "global/modules.ml" 272 9939 9971
+)
+"global/modules.ml" 275 10038 10064 "global/modules.ml" 275 10038 10065
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 275 10038 10065 "global/modules.ml" 275 10038 10068
+type(
+  string
+)
+"global/modules.ml" 275 10038 10068 "global/modules.ml" 275 10038 10069
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 275 10038 10070 "global/modules.ml" 275 10038 10074
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 272 9939 9972 "global/modules.ml" 272 9939 9976
+)
+"global/modules.ml" 275 10038 10065 "global/modules.ml" 275 10038 10074
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 275 10038 10054 "global/modules.ml" 275 10038 10074
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 275 10038 10047 "global/modules.ml" 275 10038 10075
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 276 10076 10085 "global/modules.ml" 276 10076 10089
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 272 9939 9972 "global/modules.ml" 272 9939 9976
+)
+"global/modules.ml" 274 10003 10007 "global/modules.ml" 276 10076 10089
+type(
+  Names.name
+)
+"global/modules.ml" 277 10093 10099 "global/modules.ml" 277 10093 10100
+type(
+  Names.qualname
+)
+ident(
+  def q "global/modules.ml" 278 10141 10143 "global/modules.ml" 280 10242 10250
+)
+"global/modules.ml" 277 10093 10112 "global/modules.ml" 277 10093 10121
+type(
+  Names.modul
+)
+ident(
+  int_ref qualifier "global/modules.ml" 272 9939 9977 "global/modules.ml" 272 9939 9986
+)
+"global/modules.ml" 277 10093 10130 "global/modules.ml" 277 10093 10135
+type(
+  Names.name
+)
+ident(
+  int_ref fname "global/modules.ml" 273 9989 9995 "global/modules.ml" 273 9989 10000
+)
+"global/modules.ml" 277 10093 10103 "global/modules.ml" 277 10093 10137
+type(
+  Names.qualname
+)
+"global/modules.ml" 278 10141 10146 "global/modules.ml" 278 10141 10157
+type(
+  Names.QualEnv.key -> Signature.node Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 278 10141 10158 "global/modules.ml" 278 10141 10159
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 277 10093 10099 "global/modules.ml" 277 10093 10100
+)
+"global/modules.ml" 278 10141 10160 "global/modules.ml" 278 10141 10165
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 278 10141 10160 "global/modules.ml" 278 10141 10172
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 278 10141 10146 "global/modules.ml" 278 10141 10172
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 279 10173 10180 "global/modules.ml" 279 10173 10194
+type(
+  string -> Names.name -> Names.modul -> Names.qualname
+)
+ident(
+  int_ref fresh_value_in "global/modules.ml" 272 9939 9947 "global/modules.ml" 272 9939 9961
+)
+"global/modules.ml" 279 10173 10195 "global/modules.ml" 279 10173 10204
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 272 9939 9962 "global/modules.ml" 272 9939 9971
+)
+"global/modules.ml" 279 10173 10206 "global/modules.ml" 279 10173 10210
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 272 9939 9972 "global/modules.ml" 272 9939 9976
+)
+"global/modules.ml" 279 10173 10211 "global/modules.ml" 279 10173 10212
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 279 10173 10213 "global/modules.ml" 279 10173 10228
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.gen_symbol
+)
+"global/modules.ml" 279 10173 10228 "global/modules.ml" 279 10173 10230
+type(
+  unit
+)
+"global/modules.ml" 279 10173 10213 "global/modules.ml" 279 10173 10230
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 279 10173 10205 "global/modules.ml" 279 10173 10231
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 279 10173 10232 "global/modules.ml" 279 10173 10241
+type(
+  Names.modul
+)
+ident(
+  int_ref qualifier "global/modules.ml" 272 9939 9977 "global/modules.ml" 272 9939 9986
+)
+"global/modules.ml" 279 10173 10180 "global/modules.ml" 279 10173 10241
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 280 10242 10249 "global/modules.ml" 280 10242 10250
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/modules.ml" 277 10093 10099 "global/modules.ml" 277 10093 10100
+)
+"global/modules.ml" 278 10141 10143 "global/modules.ml" 280 10242 10250
+type(
+  Names.qualname
+)
+"global/modules.ml" 277 10093 10095 "global/modules.ml" 280 10242 10250
+type(
+  Names.qualname
+)
+"global/modules.ml" 273 9989 9991 "global/modules.ml" 280 10242 10250
+type(
+  Names.qualname
+)
+"global/modules.ml" 282 10252 10260 "global/modules.ml" 282 10252 10270
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  def fresh_type "global/modules.ml" 282 10252 10252 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 282 10252 10271 "global/modules.ml" 282 10252 10280
+type(
+  string
+)
+ident(
+  def pass_name "global/modules.ml" 282 10252 10281 "global/modules.ml" 290 10510 10518
+)
+"global/modules.ml" 282 10252 10281 "global/modules.ml" 282 10252 10285
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 283 10288 10290 "global/modules.ml" 290 10510 10518
+)
+"global/modules.ml" 283 10288 10294 "global/modules.ml" 283 10288 10299
+type(
+  Names.name
+)
+ident(
+  def fname "global/modules.ml" 287 10392 10394 "global/modules.ml" 290 10510 10518
+)
+"global/modules.ml" 284 10302 10309 "global/modules.ml" 284 10302 10310
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 284 10302 10310 "global/modules.ml" 284 10302 10336
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_name
+)
+"global/modules.ml" 284 10302 10309 "global/modules.ml" 284 10302 10336
+type(
+  bool
+)
+"global/modules.ml" 285 10337 10347 "global/modules.ml" 285 10337 10351
+type(
+  string
+)
+"global/modules.ml" 285 10337 10351 "global/modules.ml" 285 10337 10352
+type(
+  string -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 285 10337 10353 "global/modules.ml" 285 10337 10362
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 282 10252 10271 "global/modules.ml" 282 10252 10280
+)
+"global/modules.ml" 285 10337 10363 "global/modules.ml" 285 10337 10364
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 285 10337 10364 "global/modules.ml" 285 10337 10367
+type(
+  string
+)
+"global/modules.ml" 285 10337 10367 "global/modules.ml" 285 10337 10368
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 285 10337 10369 "global/modules.ml" 285 10337 10373
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 282 10252 10281 "global/modules.ml" 282 10252 10285
+)
+"global/modules.ml" 285 10337 10364 "global/modules.ml" 285 10337 10373
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 285 10337 10353 "global/modules.ml" 285 10337 10373
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 285 10337 10346 "global/modules.ml" 285 10337 10374
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 286 10375 10384 "global/modules.ml" 286 10375 10388
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 282 10252 10281 "global/modules.ml" 282 10252 10285
+)
+"global/modules.ml" 284 10302 10306 "global/modules.ml" 286 10375 10388
+type(
+  Names.name
+)
+"global/modules.ml" 287 10392 10398 "global/modules.ml" 287 10392 10399
+type(
+  Names.qualname
+)
+ident(
+  def q "global/modules.ml" 288 10424 10426 "global/modules.ml" 290 10510 10518
+)
+"global/modules.ml" 287 10392 10402 "global/modules.ml" 287 10392 10414
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  int_ref current_qual "global/modules.ml" 257 9531 9535 "global/modules.ml" 257 9531 9547
+)
+"global/modules.ml" 287 10392 10415 "global/modules.ml" 287 10392 10420
+type(
+  Names.name
+)
+ident(
+  int_ref fname "global/modules.ml" 283 10288 10294 "global/modules.ml" 283 10288 10299
+)
+"global/modules.ml" 287 10392 10402 "global/modules.ml" 287 10392 10420
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 288 10424 10429 "global/modules.ml" 288 10424 10440
+type(
+  Names.QualEnv.key -> Signature.type_def Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 288 10424 10441 "global/modules.ml" 288 10424 10442
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 287 10392 10398 "global/modules.ml" 287 10392 10399
+)
+"global/modules.ml" 288 10424 10443 "global/modules.ml" 288 10424 10448
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 288 10424 10443 "global/modules.ml" 288 10424 10454
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 288 10424 10429 "global/modules.ml" 288 10424 10454
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 289 10455 10462 "global/modules.ml" 289 10455 10472
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  int_ref fresh_type "global/modules.ml" 282 10252 10260 "global/modules.ml" 282 10252 10270
+)
+"global/modules.ml" 289 10455 10473 "global/modules.ml" 289 10455 10482
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 282 10252 10271 "global/modules.ml" 282 10252 10280
+)
+"global/modules.ml" 289 10455 10484 "global/modules.ml" 289 10455 10488
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 282 10252 10281 "global/modules.ml" 282 10252 10285
+)
+"global/modules.ml" 289 10455 10489 "global/modules.ml" 289 10455 10490
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 289 10455 10491 "global/modules.ml" 289 10455 10506
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.gen_symbol
+)
+"global/modules.ml" 289 10455 10506 "global/modules.ml" 289 10455 10508
+type(
+  unit
+)
+"global/modules.ml" 289 10455 10491 "global/modules.ml" 289 10455 10508
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 289 10455 10483 "global/modules.ml" 289 10455 10509
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 289 10455 10462 "global/modules.ml" 289 10455 10509
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 290 10510 10517 "global/modules.ml" 290 10510 10518
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/modules.ml" 287 10392 10398 "global/modules.ml" 287 10392 10399
+)
+"global/modules.ml" 288 10424 10426 "global/modules.ml" 290 10510 10518
+type(
+  Names.qualname
+)
+"global/modules.ml" 287 10392 10394 "global/modules.ml" 290 10510 10518
+type(
+  Names.qualname
+)
+"global/modules.ml" 283 10288 10290 "global/modules.ml" 290 10510 10518
+type(
+  Names.qualname
+)
+"global/modules.ml" 292 10520 10528 "global/modules.ml" 292 10520 10539
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  def fresh_const "global/modules.ml" 292 10520 10520 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 292 10520 10540 "global/modules.ml" 292 10520 10549
+type(
+  string
+)
+ident(
+  def pass_name "global/modules.ml" 292 10520 10550 "global/modules.ml" 300 10781 10789
+)
+"global/modules.ml" 292 10520 10550 "global/modules.ml" 292 10520 10554
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 293 10557 10559 "global/modules.ml" 300 10781 10789
+)
+"global/modules.ml" 293 10557 10563 "global/modules.ml" 293 10557 10568
+type(
+  Names.name
+)
+ident(
+  def fname "global/modules.ml" 297 10661 10663 "global/modules.ml" 300 10781 10789
+)
+"global/modules.ml" 294 10571 10578 "global/modules.ml" 294 10571 10579
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 294 10571 10579 "global/modules.ml" 294 10571 10605
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_name
+)
+"global/modules.ml" 294 10571 10578 "global/modules.ml" 294 10571 10605
+type(
+  bool
+)
+"global/modules.ml" 295 10606 10616 "global/modules.ml" 295 10606 10620
+type(
+  string
+)
+"global/modules.ml" 295 10606 10620 "global/modules.ml" 295 10606 10621
+type(
+  string -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 295 10606 10622 "global/modules.ml" 295 10606 10631
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 292 10520 10540 "global/modules.ml" 292 10520 10549
+)
+"global/modules.ml" 295 10606 10632 "global/modules.ml" 295 10606 10633
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 295 10606 10633 "global/modules.ml" 295 10606 10636
+type(
+  string
+)
+"global/modules.ml" 295 10606 10636 "global/modules.ml" 295 10606 10637
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 295 10606 10638 "global/modules.ml" 295 10606 10642
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 292 10520 10550 "global/modules.ml" 292 10520 10554
+)
+"global/modules.ml" 295 10606 10633 "global/modules.ml" 295 10606 10642
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 295 10606 10622 "global/modules.ml" 295 10606 10642
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 295 10606 10615 "global/modules.ml" 295 10606 10643
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 296 10644 10653 "global/modules.ml" 296 10644 10657
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 292 10520 10550 "global/modules.ml" 292 10520 10554
+)
+"global/modules.ml" 294 10571 10575 "global/modules.ml" 296 10644 10657
+type(
+  Names.name
+)
+"global/modules.ml" 297 10661 10667 "global/modules.ml" 297 10661 10668
+type(
+  Names.qualname
+)
+ident(
+  def q "global/modules.ml" 298 10693 10695 "global/modules.ml" 300 10781 10789
+)
+"global/modules.ml" 297 10661 10671 "global/modules.ml" 297 10661 10683
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  int_ref current_qual "global/modules.ml" 257 9531 9535 "global/modules.ml" 257 9531 9547
+)
+"global/modules.ml" 297 10661 10684 "global/modules.ml" 297 10661 10689
+type(
+  Names.name
+)
+ident(
+  int_ref fname "global/modules.ml" 293 10557 10563 "global/modules.ml" 293 10557 10568
+)
+"global/modules.ml" 297 10661 10671 "global/modules.ml" 297 10661 10689
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 298 10693 10698 "global/modules.ml" 298 10693 10709
+type(
+  Names.QualEnv.key -> Signature.const_def Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 298 10693 10710 "global/modules.ml" 298 10693 10711
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 297 10661 10667 "global/modules.ml" 297 10661 10668
+)
+"global/modules.ml" 298 10693 10712 "global/modules.ml" 298 10693 10717
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 298 10693 10712 "global/modules.ml" 298 10693 10724
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 298 10693 10698 "global/modules.ml" 298 10693 10724
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 299 10725 10732 "global/modules.ml" 299 10725 10743
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  int_ref fresh_const "global/modules.ml" 292 10520 10528 "global/modules.ml" 292 10520 10539
+)
+"global/modules.ml" 299 10725 10744 "global/modules.ml" 299 10725 10753
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 292 10520 10540 "global/modules.ml" 292 10520 10549
+)
+"global/modules.ml" 299 10725 10755 "global/modules.ml" 299 10725 10759
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 292 10520 10550 "global/modules.ml" 292 10520 10554
+)
+"global/modules.ml" 299 10725 10760 "global/modules.ml" 299 10725 10761
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 299 10725 10762 "global/modules.ml" 299 10725 10777
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.gen_symbol
+)
+"global/modules.ml" 299 10725 10777 "global/modules.ml" 299 10725 10779
+type(
+  unit
+)
+"global/modules.ml" 299 10725 10762 "global/modules.ml" 299 10725 10779
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 299 10725 10754 "global/modules.ml" 299 10725 10780
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 299 10725 10732 "global/modules.ml" 299 10725 10780
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 300 10781 10788 "global/modules.ml" 300 10781 10789
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/modules.ml" 297 10661 10667 "global/modules.ml" 297 10661 10668
+)
+"global/modules.ml" 298 10693 10695 "global/modules.ml" 300 10781 10789
+type(
+  Names.qualname
+)
+"global/modules.ml" 297 10661 10663 "global/modules.ml" 300 10781 10789
+type(
+  Names.qualname
+)
+"global/modules.ml" 293 10557 10559 "global/modules.ml" 300 10781 10789
+type(
+  Names.qualname
+)
+"global/modules.ml" 302 10791 10799 "global/modules.ml" 302 10791 10811
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  def fresh_constr "global/modules.ml" 302 10791 10791 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 302 10791 10812 "global/modules.ml" 302 10791 10821
+type(
+  string
+)
+ident(
+  def pass_name "global/modules.ml" 302 10791 10822 "global/modules.ml" 310 11055 11063
+)
+"global/modules.ml" 302 10791 10822 "global/modules.ml" 302 10791 10826
+type(
+  Names.name
+)
+ident(
+  def name "global/modules.ml" 303 10829 10831 "global/modules.ml" 310 11055 11063
+)
+"global/modules.ml" 303 10829 10835 "global/modules.ml" 303 10829 10840
+type(
+  Names.name
+)
+ident(
+  def fname "global/modules.ml" 307 10933 10935 "global/modules.ml" 310 11055 11063
+)
+"global/modules.ml" 304 10843 10850 "global/modules.ml" 304 10843 10851
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/modules.ml" 304 10843 10851 "global/modules.ml" 304 10843 10877
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_name
+)
+"global/modules.ml" 304 10843 10850 "global/modules.ml" 304 10843 10877
+type(
+  bool
+)
+"global/modules.ml" 305 10878 10888 "global/modules.ml" 305 10878 10892
+type(
+  string
+)
+"global/modules.ml" 305 10878 10892 "global/modules.ml" 305 10878 10893
+type(
+  string -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 305 10878 10894 "global/modules.ml" 305 10878 10903
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 302 10791 10812 "global/modules.ml" 302 10791 10821
+)
+"global/modules.ml" 305 10878 10904 "global/modules.ml" 305 10878 10905
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 305 10878 10905 "global/modules.ml" 305 10878 10908
+type(
+  string
+)
+"global/modules.ml" 305 10878 10908 "global/modules.ml" 305 10878 10909
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 305 10878 10910 "global/modules.ml" 305 10878 10914
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 302 10791 10822 "global/modules.ml" 302 10791 10826
+)
+"global/modules.ml" 305 10878 10905 "global/modules.ml" 305 10878 10914
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 305 10878 10894 "global/modules.ml" 305 10878 10914
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 305 10878 10887 "global/modules.ml" 305 10878 10915
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 306 10916 10925 "global/modules.ml" 306 10916 10929
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 302 10791 10822 "global/modules.ml" 302 10791 10826
+)
+"global/modules.ml" 304 10843 10847 "global/modules.ml" 306 10916 10929
+type(
+  Names.name
+)
+"global/modules.ml" 307 10933 10939 "global/modules.ml" 307 10933 10940
+type(
+  Names.qualname
+)
+ident(
+  def q "global/modules.ml" 308 10965 10967 "global/modules.ml" 310 11055 11063
+)
+"global/modules.ml" 307 10933 10943 "global/modules.ml" 307 10933 10955
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  int_ref current_qual "global/modules.ml" 257 9531 9535 "global/modules.ml" 257 9531 9547
+)
+"global/modules.ml" 307 10933 10956 "global/modules.ml" 307 10933 10961
+type(
+  Names.name
+)
+ident(
+  int_ref fname "global/modules.ml" 303 10829 10835 "global/modules.ml" 303 10829 10840
+)
+"global/modules.ml" 307 10933 10943 "global/modules.ml" 307 10933 10961
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 308 10965 10970 "global/modules.ml" 308 10965 10981
+type(
+  Names.QualEnv.key -> Names.qualname Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"global/modules.ml" 308 10965 10982 "global/modules.ml" 308 10965 10983
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "global/modules.ml" 307 10933 10939 "global/modules.ml" 307 10933 10940
+)
+"global/modules.ml" 308 10965 10984 "global/modules.ml" 308 10965 10989
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 308 10965 10984 "global/modules.ml" 308 10965 10997
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 308 10965 10970 "global/modules.ml" 308 10965 10997
+call(
+  stack
+)
+type(
+  bool
+)
+"global/modules.ml" 309 10998 11005 "global/modules.ml" 309 10998 11017
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  int_ref fresh_constr "global/modules.ml" 302 10791 10799 "global/modules.ml" 302 10791 10811
+)
+"global/modules.ml" 309 10998 11018 "global/modules.ml" 309 10998 11027
+type(
+  string
+)
+ident(
+  int_ref pass_name "global/modules.ml" 302 10791 10812 "global/modules.ml" 302 10791 10821
+)
+"global/modules.ml" 309 10998 11029 "global/modules.ml" 309 10998 11033
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/modules.ml" 302 10791 10822 "global/modules.ml" 302 10791 10826
+)
+"global/modules.ml" 309 10998 11034 "global/modules.ml" 309 10998 11035
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/modules.ml" 309 10998 11036 "global/modules.ml" 309 10998 11051
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.gen_symbol
+)
+"global/modules.ml" 309 10998 11051 "global/modules.ml" 309 10998 11053
+type(
+  unit
+)
+"global/modules.ml" 309 10998 11036 "global/modules.ml" 309 10998 11053
+call(
+  stack
+)
+type(
+  string
+)
+"global/modules.ml" 309 10998 11028 "global/modules.ml" 309 10998 11054
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/modules.ml" 309 10998 11005 "global/modules.ml" 309 10998 11054
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"global/modules.ml" 310 11055 11062 "global/modules.ml" 310 11055 11063
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/modules.ml" 307 10933 10939 "global/modules.ml" 307 10933 10940
+)
+"global/modules.ml" 308 10965 10967 "global/modules.ml" 310 11055 11063
+type(
+  Names.qualname
+)
+"global/modules.ml" 307 10933 10935 "global/modules.ml" 310 11055 11063
+type(
+  Names.qualname
+)
+"global/modules.ml" 303 10829 10831 "global/modules.ml" 310 11055 11063
+type(
+  Names.qualname
+)
+"global/modules.ml" 318 11181 11189 "global/modules.ml" 318 11181 11201
+type(
+  Types.ty -> Types.ty
+)
+ident(
+  def unalias_type "global/modules.ml" 318 11181 11181 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 318 11181 11202 "global/modules.ml" 318 11181 11203
+type(
+  Types.ty
+)
+ident(
+  def t "global/modules.ml" 318 11181 11206 "global/modules.ml" 328 11548 11572
+)
+"global/modules.ml" 318 11181 11212 "global/modules.ml" 318 11181 11213
+type(
+  Types.ty
+)
+ident(
+  int_ref t "global/modules.ml" 318 11181 11202 "global/modules.ml" 318 11181 11203
+)
+"global/modules.ml" 319 11219 11237 "global/modules.ml" 319 11219 11238
+type(
+  Names.modul
+)
+ident(
+  def q "global/modules.ml" 320 11256 11260 "global/modules.ml" 325 11384 11439
+)
+"global/modules.ml" 319 11219 11228 "global/modules.ml" 319 11219 11240
+type(
+  Names.type_name
+)
+"global/modules.ml" 319 11219 11244 "global/modules.ml" 319 11219 11251
+ident(
+  def ty_name "global/modules.ml" 320 11256 11260 "global/modules.ml" 325 11384 11439
+)
+"global/modules.ml" 319 11219 11227 "global/modules.ml" 319 11219 11252
+type(
+  Names.type_name
+)
+"global/modules.ml" 319 11219 11223 "global/modules.ml" 319 11219 11252
+type(
+  Types.ty
+)
+"global/modules.ml" 320 11256 11260 "global/modules.ml" 320 11256 11272
+type(
+  Names.modul -> unit
+)
+ident(
+  int_ref _load_module "global/modules.ml" 109 4684 4688 "global/modules.ml" 109 4684 4700
+)
+"global/modules.ml" 320 11256 11273 "global/modules.ml" 320 11256 11274
+type(
+  Names.modul
+)
+ident(
+  int_ref q "global/modules.ml" 319 11219 11237 "global/modules.ml" 319 11219 11238
+)
+"global/modules.ml" 320 11256 11260 "global/modules.ml" 320 11256 11274
+call(
+  stack
+)
+type(
+  unit
+)
+"global/modules.ml" 322 11287 11301 "global/modules.ml" 322 11287 11310
+type(
+  Names.QualEnv.key -> Signature.type_def
+)
+ident(
+  int_ref find_type "global/modules.ml" 199 7583 7587 "global/modules.ml" 199 7583 7596
+)
+"global/modules.ml" 322 11287 11311 "global/modules.ml" 322 11287 11318
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref ty_name "global/modules.ml" 319 11219 11227 "global/modules.ml" 319 11219 11252
+)
+"global/modules.ml" 322 11287 11301 "global/modules.ml" 322 11287 11318
+call(
+  stack
+)
+type(
+  Signature.type_def
+)
+"global/modules.ml" 323 11324 11343 "global/modules.ml" 323 11324 11345
+type(
+  Types.ty
+)
+ident(
+  def ty "global/modules.ml" 323 11324 11349 "global/modules.ml" 323 11324 11364
+)
+"global/modules.ml" 323 11324 11336 "global/modules.ml" 323 11324 11345
+type(
+  Signature.type_def
+)
+"global/modules.ml" 323 11324 11349 "global/modules.ml" 323 11324 11361
+type(
+  Types.ty -> Types.ty
+)
+ident(
+  int_ref unalias_type "global/modules.ml" 318 11181 11189 "global/modules.ml" 318 11181 11201
+)
+"global/modules.ml" 323 11324 11362 "global/modules.ml" 323 11324 11364
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/modules.ml" 323 11324 11343 "global/modules.ml" 323 11324 11345
+)
+"global/modules.ml" 323 11324 11349 "global/modules.ml" 323 11324 11364
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"global/modules.ml" 324 11365 11377 "global/modules.ml" 324 11365 11378
+type(
+  Signature.type_def
+)
+"global/modules.ml" 324 11365 11382 "global/modules.ml" 324 11365 11383
+type(
+  Types.ty
+)
+ident(
+  int_ref t "global/modules.ml" 318 11181 11202 "global/modules.ml" 318 11181 11203
+)
+"global/modules.ml" 322 11287 11295 "global/modules.ml" 324 11365 11383
+type(
+  Types.ty
+)
+"global/modules.ml" 325 11384 11395 "global/modules.ml" 325 11384 11404
+type(
+  exn
+)
+"global/modules.ml" 325 11384 11408 "global/modules.ml" 325 11384 11413
+type(
+  exn -> Types.ty
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/modules.ml" 325 11384 11430 "global/modules.ml" 325 11384 11437
+type(
+  Names.qualname
+)
+ident(
+  int_ref ty_name "global/modules.ml" 319 11219 11227 "global/modules.ml" 319 11219 11252
+)
+"global/modules.ml" 325 11384 11414 "global/modules.ml" 325 11384 11438
+type(
+  exn
+)
+"global/modules.ml" 325 11384 11408 "global/modules.ml" 325 11384 11438
+type(
+  Types.ty
+)
+"global/modules.ml" 321 11276 11282 "global/modules.ml" 325 11384 11439
+type(
+  Types.ty
+)
+"global/modules.ml" 320 11256 11260 "global/modules.ml" 325 11384 11439
+type(
+  Types.ty
+)
+"global/modules.ml" 326 11440 11452 "global/modules.ml" 326 11440 11454
+type(
+  Types.ty
+)
+ident(
+  def ty "global/modules.ml" 326 11440 11462 "global/modules.ml" 326 11440 11488
+)
+"global/modules.ml" 326 11440 11456 "global/modules.ml" 326 11440 11457
+type(
+  Types.static_exp
+)
+ident(
+  def n "global/modules.ml" 326 11440 11462 "global/modules.ml" 326 11440 11488
+)
+"global/modules.ml" 326 11440 11444 "global/modules.ml" 326 11440 11458
+type(
+  Types.ty
+)
+"global/modules.ml" 326 11440 11469 "global/modules.ml" 326 11440 11481
+type(
+  Types.ty -> Types.ty
+)
+ident(
+  int_ref unalias_type "global/modules.ml" 318 11181 11189 "global/modules.ml" 318 11181 11201
+)
+"global/modules.ml" 326 11440 11482 "global/modules.ml" 326 11440 11484
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/modules.ml" 326 11440 11452 "global/modules.ml" 326 11440 11454
+)
+"global/modules.ml" 326 11440 11469 "global/modules.ml" 326 11440 11484
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"global/modules.ml" 326 11440 11486 "global/modules.ml" 326 11440 11487
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "global/modules.ml" 326 11440 11456 "global/modules.ml" 326 11440 11457
+)
+"global/modules.ml" 326 11440 11462 "global/modules.ml" 326 11440 11488
+type(
+  Types.ty
+)
+"global/modules.ml" 327 11489 11499 "global/modules.ml" 327 11489 11506
+type(
+  Types.ty list
+)
+ident(
+  def ty_list "global/modules.ml" 327 11489 11510 "global/modules.ml" 327 11489 11547
+)
+"global/modules.ml" 327 11489 11493 "global/modules.ml" 327 11489 11506
+type(
+  Types.ty
+)
+"global/modules.ml" 327 11489 11517 "global/modules.ml" 327 11489 11525
+type(
+  (Types.ty -> Types.ty) -> Types.ty list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"global/modules.ml" 327 11489 11526 "global/modules.ml" 327 11489 11538
+type(
+  Types.ty -> Types.ty
+)
+ident(
+  int_ref unalias_type "global/modules.ml" 318 11181 11189 "global/modules.ml" 318 11181 11201
+)
+"global/modules.ml" 327 11489 11539 "global/modules.ml" 327 11489 11546
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_list "global/modules.ml" 327 11489 11499 "global/modules.ml" 327 11489 11506
+)
+"global/modules.ml" 327 11489 11516 "global/modules.ml" 327 11489 11547
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"global/modules.ml" 327 11489 11510 "global/modules.ml" 327 11489 11547
+type(
+  Types.ty
+)
+"global/modules.ml" 328 11548 11552 "global/modules.ml" 328 11548 11560
+type(
+  Types.ty
+)
+"global/modules.ml" 328 11548 11564 "global/modules.ml" 328 11548 11572
+type(
+  Types.ty
+)
+"global/modules.ml" 318 11181 11206 "global/modules.ml" 328 11548 11572
+type(
+  Types.ty
+)
+"global/modules.ml" 332 11630 11634 "global/modules.ml" 332 11630 11648
+type(
+  unit -> module_object
+)
+ident(
+  def current_module "global/modules.ml" 352 12453 12500 "global/modules.ml" 1 0 -1
+)
+"global/modules.ml" 332 11630 11649 "global/modules.ml" 332 11630 11651
+type(
+  unit
+)
+"global/modules.ml" 334 11734 11740 "global/modules.ml" 334 11734 11749
+type(
+  'a Names.QualEnv.t -> 'a Names.NamesEnv.t
+)
+ident(
+  def unqualify "global/modules.ml" 340 11960 11962 "global/modules.ml" 352 12453 12500
+)
+"global/modules.ml" 334 11734 11750 "global/modules.ml" 334 11734 11753
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 335 11792 11796 "global/modules.ml" 339 11916 11956
+)
+"global/modules.ml" 335 11792 11796 "global/modules.ml" 335 11792 11808
+type(
+  (Names.QualEnv.key -> 'a -> 'a Names.NamesEnv.t -> 'a Names.NamesEnv.t) ->
+  'a Names.QualEnv.t -> 'a Names.NamesEnv.t -> 'a Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.fold
+)
+"global/modules.ml" 336 11809 11820 "global/modules.ml" 336 11809 11821
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 336 11809 11822 "global/modules.ml" 339 11916 11936
+)
+"global/modules.ml" 336 11809 11822 "global/modules.ml" 336 11809 11823
+type(
+  'a
+)
+ident(
+  def v "global/modules.ml" 336 11809 11824 "global/modules.ml" 339 11916 11936
+)
+"global/modules.ml" 336 11809 11824 "global/modules.ml" 336 11809 11831
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  def current "global/modules.ml" 337 11835 11843 "global/modules.ml" 339 11916 11936
+)
+"global/modules.ml" 337 11835 11846 "global/modules.ml" 337 11835 11847
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 336 11809 11820 "global/modules.ml" 336 11809 11821
+)
+"global/modules.ml" 337 11835 11846 "global/modules.ml" 337 11835 11852
+type(
+  Names.modul
+)
+"global/modules.ml" 337 11835 11853 "global/modules.ml" 337 11835 11854
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/modules.ml" 337 11835 11855 "global/modules.ml" 337 11835 11860
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 337 11835 11855 "global/modules.ml" 337 11835 11872
+type(
+  Names.modul
+)
+"global/modules.ml" 337 11835 11846 "global/modules.ml" 337 11835 11872
+type(
+  bool
+)
+"global/modules.ml" 338 11873 11886 "global/modules.ml" 338 11873 11898
+type(
+  Names.NamesEnv.key -> 'a -> 'a Names.NamesEnv.t -> 'a Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.add
+)
+"global/modules.ml" 338 11873 11899 "global/modules.ml" 338 11873 11900
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 336 11809 11820 "global/modules.ml" 336 11809 11821
+)
+"global/modules.ml" 338 11873 11899 "global/modules.ml" 338 11873 11905
+type(
+  Names.name
+)
+"global/modules.ml" 338 11873 11906 "global/modules.ml" 338 11873 11907
+type(
+  'a
+)
+ident(
+  int_ref v "global/modules.ml" 336 11809 11822 "global/modules.ml" 336 11809 11823
+)
+"global/modules.ml" 338 11873 11908 "global/modules.ml" 338 11873 11915
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  int_ref current "global/modules.ml" 336 11809 11824 "global/modules.ml" 336 11809 11831
+)
+"global/modules.ml" 338 11873 11886 "global/modules.ml" 338 11873 11915
+call(
+  tail
+)
+type(
+  'a Names.NamesEnv.t
+)
+"global/modules.ml" 339 11916 11929 "global/modules.ml" 339 11916 11936
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  int_ref current "global/modules.ml" 336 11809 11824 "global/modules.ml" 336 11809 11831
+)
+"global/modules.ml" 337 11835 11843 "global/modules.ml" 339 11916 11936
+type(
+  'a Names.NamesEnv.t
+)
+"global/modules.ml" 336 11809 11815 "global/modules.ml" 339 11916 11937
+type(
+  Names.QualEnv.key -> 'a -> 'a Names.NamesEnv.t -> 'a Names.NamesEnv.t
+)
+"global/modules.ml" 339 11916 11938 "global/modules.ml" 339 11916 11941
+type(
+  'a Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 334 11734 11750 "global/modules.ml" 334 11734 11753
+)
+"global/modules.ml" 339 11916 11942 "global/modules.ml" 339 11916 11956
+type(
+  'a Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.empty
+)
+"global/modules.ml" 335 11792 11796 "global/modules.ml" 339 11916 11956
+call(
+  tail
+)
+type(
+  'a Names.NamesEnv.t
+)
+"global/modules.ml" 340 11960 11966 "global/modules.ml" 340 11960 11979
+type(
+  Names.qualname Names.QualEnv.t -> Names.name Names.NamesEnv.t
+)
+ident(
+  def unqualify_all "global/modules.ml" 346 12206 12210 "global/modules.ml" 352 12453 12500
+)
+"global/modules.ml" 340 11960 11980 "global/modules.ml" 340 11960 11983
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  def env "global/modules.ml" 341 12033 12037 "global/modules.ml" 345 12162 12202
+)
+"global/modules.ml" 341 12033 12037 "global/modules.ml" 341 12033 12049
+type(
+  (Names.QualEnv.key ->
+   Names.qualname ->
+   Names.name Names.NamesEnv.t -> Names.name Names.NamesEnv.t) ->
+  Names.qualname Names.QualEnv.t ->
+  Names.name Names.NamesEnv.t -> Names.name Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.fold
+)
+"global/modules.ml" 342 12050 12061 "global/modules.ml" 342 12050 12062
+type(
+  Names.QualEnv.key
+)
+ident(
+  def x "global/modules.ml" 342 12050 12063 "global/modules.ml" 345 12162 12182
+)
+"global/modules.ml" 342 12050 12063 "global/modules.ml" 342 12050 12064
+type(
+  Names.qualname
+)
+ident(
+  def v "global/modules.ml" 342 12050 12065 "global/modules.ml" 345 12162 12182
+)
+"global/modules.ml" 342 12050 12065 "global/modules.ml" 342 12050 12072
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  def current "global/modules.ml" 343 12076 12084 "global/modules.ml" 345 12162 12182
+)
+"global/modules.ml" 343 12076 12087 "global/modules.ml" 343 12076 12088
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 342 12050 12061 "global/modules.ml" 342 12050 12062
+)
+"global/modules.ml" 343 12076 12087 "global/modules.ml" 343 12076 12093
+type(
+  Names.modul
+)
+"global/modules.ml" 343 12076 12094 "global/modules.ml" 343 12076 12095
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/modules.ml" 343 12076 12096 "global/modules.ml" 343 12076 12101
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 343 12076 12096 "global/modules.ml" 343 12076 12113
+type(
+  Names.modul
+)
+"global/modules.ml" 343 12076 12087 "global/modules.ml" 343 12076 12113
+type(
+  bool
+)
+"global/modules.ml" 344 12114 12127 "global/modules.ml" 344 12114 12139
+type(
+  Names.NamesEnv.key ->
+  Names.name -> Names.name Names.NamesEnv.t -> Names.name Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.add
+)
+"global/modules.ml" 344 12114 12140 "global/modules.ml" 344 12114 12141
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref x "global/modules.ml" 342 12050 12061 "global/modules.ml" 342 12050 12062
+)
+"global/modules.ml" 344 12114 12140 "global/modules.ml" 344 12114 12146
+type(
+  Names.name
+)
+"global/modules.ml" 344 12114 12147 "global/modules.ml" 344 12114 12148
+type(
+  Names.qualname
+)
+ident(
+  int_ref v "global/modules.ml" 342 12050 12063 "global/modules.ml" 342 12050 12064
+)
+"global/modules.ml" 344 12114 12147 "global/modules.ml" 344 12114 12153
+type(
+  Names.name
+)
+"global/modules.ml" 344 12114 12154 "global/modules.ml" 344 12114 12161
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  int_ref current "global/modules.ml" 342 12050 12065 "global/modules.ml" 342 12050 12072
+)
+"global/modules.ml" 344 12114 12127 "global/modules.ml" 344 12114 12161
+call(
+  tail
+)
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 345 12162 12175 "global/modules.ml" 345 12162 12182
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  int_ref current "global/modules.ml" 342 12050 12065 "global/modules.ml" 342 12050 12072
+)
+"global/modules.ml" 343 12076 12084 "global/modules.ml" 345 12162 12182
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 342 12050 12056 "global/modules.ml" 345 12162 12183
+type(
+  Names.QualEnv.key ->
+  Names.qualname ->
+  Names.name Names.NamesEnv.t -> Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 345 12162 12184 "global/modules.ml" 345 12162 12187
+type(
+  Names.qualname Names.QualEnv.t
+)
+ident(
+  int_ref env "global/modules.ml" 340 11960 11980 "global/modules.ml" 340 11960 11983
+)
+"global/modules.ml" 345 12162 12188 "global/modules.ml" 345 12162 12202
+type(
+  Names.name Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.empty
+)
+"global/modules.ml" 341 12033 12037 "global/modules.ml" 345 12162 12202
+call(
+  tail
+)
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 346 12206 12221 "global/modules.ml" 346 12206 12226
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 346 12206 12221 "global/modules.ml" 346 12206 12238
+type(
+  Names.modul
+)
+"global/modules.ml" 347 12240 12257 "global/modules.ml" 347 12240 12266
+type(
+  Signature.node Names.QualEnv.t -> Signature.node Names.NamesEnv.t
+)
+ident(
+  int_ref unqualify "global/modules.ml" 334 11734 11740 "global/modules.ml" 334 11734 11749
+)
+"global/modules.ml" 347 12240 12267 "global/modules.ml" 347 12240 12272
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 347 12240 12267 "global/modules.ml" 347 12240 12279
+type(
+  Signature.node Names.QualEnv.t
+)
+"global/modules.ml" 347 12240 12257 "global/modules.ml" 347 12240 12279
+call(
+  stack
+)
+type(
+  Signature.node Names.NamesEnv.t
+)
+"global/modules.ml" 348 12281 12297 "global/modules.ml" 348 12281 12306
+type(
+  Signature.type_def Names.QualEnv.t -> Signature.type_def Names.NamesEnv.t
+)
+ident(
+  int_ref unqualify "global/modules.ml" 334 11734 11740 "global/modules.ml" 334 11734 11749
+)
+"global/modules.ml" 348 12281 12307 "global/modules.ml" 348 12281 12312
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 348 12281 12307 "global/modules.ml" 348 12281 12318
+type(
+  Signature.type_def Names.QualEnv.t
+)
+"global/modules.ml" 348 12281 12297 "global/modules.ml" 348 12281 12318
+call(
+  stack
+)
+type(
+  Signature.type_def Names.NamesEnv.t
+)
+"global/modules.ml" 349 12320 12337 "global/modules.ml" 349 12320 12346
+type(
+  Signature.const_def Names.QualEnv.t -> Signature.const_def Names.NamesEnv.t
+)
+ident(
+  int_ref unqualify "global/modules.ml" 334 11734 11740 "global/modules.ml" 334 11734 11749
+)
+"global/modules.ml" 349 12320 12347 "global/modules.ml" 349 12320 12352
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 349 12320 12347 "global/modules.ml" 349 12320 12359
+type(
+  Signature.const_def Names.QualEnv.t
+)
+"global/modules.ml" 349 12320 12337 "global/modules.ml" 349 12320 12359
+call(
+  stack
+)
+type(
+  Signature.const_def Names.NamesEnv.t
+)
+"global/modules.ml" 350 12361 12379 "global/modules.ml" 350 12361 12392
+type(
+  Names.qualname Names.QualEnv.t -> Names.name Names.NamesEnv.t
+)
+ident(
+  int_ref unqualify_all "global/modules.ml" 340 11960 11966 "global/modules.ml" 340 11960 11979
+)
+"global/modules.ml" 350 12361 12393 "global/modules.ml" 350 12361 12398
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 350 12361 12393 "global/modules.ml" 350 12361 12406
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 350 12361 12379 "global/modules.ml" 350 12361 12406
+call(
+  stack
+)
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 351 12408 12425 "global/modules.ml" 351 12408 12438
+type(
+  Names.qualname Names.QualEnv.t -> Names.name Names.NamesEnv.t
+)
+ident(
+  int_ref unqualify_all "global/modules.ml" 340 11960 11966 "global/modules.ml" 340 11960 11979
+)
+"global/modules.ml" 351 12408 12439 "global/modules.ml" 351 12408 12444
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 351 12408 12439 "global/modules.ml" 351 12408 12451
+type(
+  Names.qualname Names.QualEnv.t
+)
+"global/modules.ml" 351 12408 12425 "global/modules.ml" 351 12408 12451
+call(
+  stack
+)
+type(
+  Names.name Names.NamesEnv.t
+)
+"global/modules.ml" 352 12453 12478 "global/modules.ml" 352 12453 12483
+type(
+  env
+)
+ident(
+  int_ref g_env "global/modules.ml" 74 3366 3370 "global/modules.ml" 74 3366 3375
+)
+"global/modules.ml" 352 12453 12478 "global/modules.ml" 352 12453 12498
+type(
+  string
+)
+"global/modules.ml" 346 12206 12210 "global/modules.ml" 352 12453 12500
+type(
+  module_object
+)
+"global/modules.ml" 340 11960 11962 "global/modules.ml" 352 12453 12500
+type(
+  module_object
+)
+"global/modules.ml" 334 11734 11736 "global/modules.ml" 352 12453 12500
+type(
+  module_object
+)

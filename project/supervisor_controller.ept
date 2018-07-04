@@ -1,0 +1,142 @@
+node supervisor_controller_supervisor_c_lac(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_rac,supervisor_c_l,supervisor_c_l2,supervisor_c_l1:bool) returns (supervisor_c_lac:bool)
+  var sub_0,sub_1,sub_2,sub_3,sub_4,sub_5,sub_6,sub_7,sub_8,sub_9,sub_10,sub_11,sub_12,sub_13,sub_14,sub_15,sub_16,sub_17,sub_18,sub_19,sub_20,sub_21,sub_22,sub_23,sub_24,sub_25,sub_26,sub_27:bool;
+
+let
+  sub_0 = (if p_supervisor_c_lac then (sub_15) else sub_1);
+  sub_1 = (sub_2);
+  sub_2 = (sub_3);
+  sub_3 = (sub_4);
+  sub_4 = (sub_5);
+  sub_5 = (sub_6);
+  sub_6 = (sub_7);
+  sub_7 = (sub_8);
+  sub_8 = (sub_9);
+  sub_9 = (sub_10);
+  sub_10 = (sub_11);
+  sub_11 = (sub_12);
+  sub_12 = (sub_13);
+  sub_13 = (sub_14);
+  sub_14 = (false);
+  sub_15 = (sub_16);
+  sub_16 = (sub_17);
+  sub_17 = (sub_18);
+  sub_18 = (sub_19);
+  sub_19 = (sub_20);
+  sub_20 = (sub_21);
+  sub_21 = (sub_22);
+  sub_22 = (sub_23);
+  sub_23 = (sub_24);
+  sub_24 = (sub_25);
+  sub_25 = (sub_26);
+  sub_26 = (sub_27);
+  sub_27 = (true);
+  supervisor_c_lac = sub_0;
+tel
+
+node supervisor_controller_supervisor_c_rac(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l,supervisor_c_l2,supervisor_c_l1:bool) returns (supervisor_c_rac:bool)
+  var sub_0,sub_1,sub_2,sub_3,sub_4,sub_5,sub_6,sub_7,sub_8,sub_9,sub_10,sub_11,sub_12,sub_13:bool;
+
+let
+  sub_0 = (sub_1);
+  sub_1 = (sub_2);
+  sub_2 = (sub_3);
+  sub_3 = (sub_4);
+  sub_4 = (sub_5);
+  sub_5 = (sub_6);
+  sub_6 = (sub_7);
+  sub_7 = (sub_8);
+  sub_8 = (sub_9);
+  sub_9 = (sub_10);
+  sub_10 = (sub_11);
+  sub_11 = (sub_12);
+  sub_12 = (if p_supervisor_c_rac then (true) else sub_13);
+  sub_13 = (false);
+  supervisor_c_rac = sub_0;
+tel
+
+node supervisor_controller_supervisor_c_l(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l2,supervisor_c_l1:bool) returns (supervisor_c_l:bool)
+  var sub_0,sub_1,sub_2,sub_3,sub_4,sub_5,sub_6,sub_7,sub_8,sub_9,sub_10,sub_11,sub_12,sub_13,sub_14,sub_15,sub_16,sub_17,sub_18,sub_19,sub_20,sub_21,sub_22,sub_23:bool;
+
+let
+  sub_0 = (if p_supervisor_c_l then (sub_13) else sub_1);
+  sub_1 = (sub_2);
+  sub_2 = (sub_3);
+  sub_3 = (sub_4);
+  sub_4 = (sub_5);
+  sub_5 = (sub_6);
+  sub_6 = (sub_7);
+  sub_7 = (sub_8);
+  sub_8 = (sub_9);
+  sub_9 = (sub_10);
+  sub_10 = (sub_11);
+  sub_11 = (sub_12);
+  sub_12 = (false);
+  sub_13 = (sub_14);
+  sub_14 = (sub_15);
+  sub_15 = (sub_16);
+  sub_16 = (sub_17);
+  sub_17 = (sub_18);
+  sub_18 = (sub_19);
+  sub_19 = (sub_20);
+  sub_20 = (sub_21);
+  sub_21 = (sub_22);
+  sub_22 = (sub_23);
+  sub_23 = (true);
+  supervisor_c_l = sub_0;
+tel
+
+node supervisor_controller_supervisor_c_l2(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l1:bool) returns (supervisor_c_l2:bool)
+  var sub_0,sub_1,sub_2,sub_3,sub_4,sub_5,sub_6,sub_7,sub_8,sub_9,sub_10,sub_11,sub_12,sub_13,sub_14,sub_15,sub_16,sub_17,sub_18,sub_19,sub_20,sub_21:bool;
+
+let
+  sub_0 = (if p_supervisor_c_l2 then (sub_12) else sub_1);
+  sub_1 = (sub_2);
+  sub_2 = (sub_3);
+  sub_3 = (sub_4);
+  sub_4 = (sub_5);
+  sub_5 = (sub_6);
+  sub_6 = (sub_7);
+  sub_7 = (sub_8);
+  sub_8 = (sub_9);
+  sub_9 = (sub_10);
+  sub_10 = (sub_11);
+  sub_11 = (false);
+  sub_12 = (sub_13);
+  sub_13 = (sub_14);
+  sub_14 = (sub_15);
+  sub_15 = (sub_16);
+  sub_16 = (sub_17);
+  sub_17 = (sub_18);
+  sub_18 = (sub_19);
+  sub_19 = (sub_20);
+  sub_20 = (sub_21);
+  sub_21 = (true);
+  supervisor_c_l2 = sub_0;
+tel
+
+node supervisor_controller_supervisor_c_l1(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1:bool) returns (supervisor_c_l1:bool)
+  var sub_0,sub_1,sub_2,sub_3,sub_4,sub_5,sub_6,sub_7,sub_8,sub_9,sub_10:bool;
+
+let
+  sub_0 = (sub_1);
+  sub_1 = (sub_2);
+  sub_2 = (sub_3);
+  sub_3 = (sub_4);
+  sub_4 = (sub_5);
+  sub_5 = (sub_6);
+  sub_6 = (sub_7);
+  sub_7 = (sub_8);
+  sub_8 = (sub_9);
+  sub_9 = (sub_10);
+  sub_10 = p_supervisor_c_l1;
+  supervisor_c_l1 = sub_0;
+tel
+
+node supervisor_controller(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1:bool) returns (supervisor_c_lac,supervisor_c_rac,supervisor_c_l,supervisor_c_l2,supervisor_c_l1:bool)
+let
+  supervisor_c_lac = supervisor_controller_supervisor_c_lac(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_rac,supervisor_c_l,supervisor_c_l2,supervisor_c_l1);
+  supervisor_c_rac = supervisor_controller_supervisor_c_rac(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l,supervisor_c_l2,supervisor_c_l1);
+  supervisor_c_l = supervisor_controller_supervisor_c_l(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l2,supervisor_c_l1);
+  supervisor_c_l2 = supervisor_controller_supervisor_c_l2(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1,supervisor_c_l1);
+  supervisor_c_l1 = supervisor_controller_supervisor_c_l1(supervisor_presence,supervisor_turn_on_l1,supervisor_turn_on_l2,supervisor_turn_on_rl,supervisor_turn_on_l,supervisor_turn_on_rac,supervisor_turn_on_lac,supervisor_turn_on_tv,supervisor_turn_on_wm,supervisor_do_open,supervisor_ck_1,supervisor_pnr_9,supervisor_ck_12_1,supervisor_pnr_8,supervisor_ck_14_1,supervisor_pnr_7,supervisor_ck_16_1,supervisor_pnr_6,supervisor_ck_18_1,supervisor_pnr_5,supervisor_ck_20_1,supervisor_pnr_4,supervisor_ck_22_1,supervisor_pnr_3,supervisor_ck_24_1,supervisor_pnr_2,supervisor_v_152,supervisor_v_151,supervisor_pnr_1,supervisor_v_136,supervisor_v_135,supervisor_pnr,p_supervisor_c_lac,p_supervisor_c_rac,p_supervisor_c_l,p_supervisor_c_l2,p_supervisor_c_l1);
+tel

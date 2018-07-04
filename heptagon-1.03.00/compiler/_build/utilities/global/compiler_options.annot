@@ -1,0 +1,2656 @@
+"utilities/global/compiler_options.ml" 35 2139 2143 "utilities/global/compiler_options.ml" 35 2139 2150
+type(
+  string
+)
+ident(
+  def version "utilities/global/compiler_options.ml" 36 2163 2163 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 35 2139 2153 "utilities/global/compiler_options.ml" 35 2139 2162
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 36 2163 2167 "utilities/global/compiler_options.ml" 36 2163 2171
+type(
+  string
+)
+ident(
+  def date "utilities/global/compiler_options.ml" 39 2204 2204 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 39 2204 2208 "utilities/global/compiler_options.ml" 39 2204 2225
+type(
+  Names.modul
+)
+ident(
+  def pervasives_module "utilities/global/compiler_options.ml" 40 2239 2239 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 39 2204 2228 "utilities/global/compiler_options.ml" 39 2204 2238
+type(
+  Names.modul
+)
+"utilities/global/compiler_options.ml" 40 2239 2243 "utilities/global/compiler_options.ml" 40 2239 2255
+type(
+  string
+)
+ident(
+  def standard_lib "utilities/global/compiler_options.ml" 41 2267 2267 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 41 2267 2271 "utilities/global/compiler_options.ml" 41 2267 2283
+type(
+  string
+)
+ident(
+  def standard_lib "utilities/global/compiler_options.ml" 44 2382 2382 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 41 2267 2290 "utilities/global/compiler_options.ml" 41 2267 2300
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"utilities/global/compiler_options.ml" 41 2267 2301 "utilities/global/compiler_options.ml" 41 2267 2310
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 41 2267 2290 "utilities/global/compiler_options.ml" 41 2267 2310
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 41 2267 2316 "utilities/global/compiler_options.ml" 41 2267 2325
+type(
+  exn
+)
+"utilities/global/compiler_options.ml" 41 2267 2329 "utilities/global/compiler_options.ml" 41 2267 2341
+type(
+  string
+)
+ident(
+  int_ref standard_lib "utilities/global/compiler_options.ml" 40 2239 2243 "utilities/global/compiler_options.ml" 40 2239 2255
+)
+"utilities/global/compiler_options.ml" 41 2267 2286 "utilities/global/compiler_options.ml" 41 2267 2341
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 44 2382 2386 "utilities/global/compiler_options.ml" 44 2382 2406
+type(
+  Names.modul list ref
+)
+ident(
+  def default_used_modules "utilities/global/compiler_options.ml" 45 2433 2433 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 44 2382 2409 "utilities/global/compiler_options.ml" 44 2382 2412
+type(
+  Names.modul list -> Names.modul list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 44 2382 2414 "utilities/global/compiler_options.ml" 44 2382 2431
+type(
+  Names.modul
+)
+ident(
+  int_ref pervasives_module "utilities/global/compiler_options.ml" 39 2204 2208 "utilities/global/compiler_options.ml" 39 2204 2225
+)
+type(
+  Names.modul list
+)
+"utilities/global/compiler_options.ml" 44 2382 2413 "utilities/global/compiler_options.ml" 44 2382 2432
+type(
+  Names.modul list
+)
+"utilities/global/compiler_options.ml" 44 2382 2409 "utilities/global/compiler_options.ml" 44 2382 2432
+type(
+  Names.modul list ref
+)
+"utilities/global/compiler_options.ml" 45 2433 2437 "utilities/global/compiler_options.ml" 45 2433 2454
+type(
+  unit -> unit
+)
+ident(
+  def set_no_pervasives "utilities/global/compiler_options.ml" 48 2505 2505 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 45 2433 2455 "utilities/global/compiler_options.ml" 45 2433 2457
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 45 2433 2460 "utilities/global/compiler_options.ml" 45 2433 2480
+type(
+  Names.modul list ref
+)
+ident(
+  int_ref default_used_modules "utilities/global/compiler_options.ml" 44 2382 2386 "utilities/global/compiler_options.ml" 44 2382 2406
+)
+"utilities/global/compiler_options.ml" 45 2433 2484 "utilities/global/compiler_options.ml" 45 2433 2486
+type(
+  Names.modul list
+)
+"utilities/global/compiler_options.ml" 45 2433 2460 "utilities/global/compiler_options.ml" 45 2433 2486
+type(
+  unit
+)
+type(
+  Names.modul list ref -> Names.modul list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 45 2433 2455 "utilities/global/compiler_options.ml" 45 2433 2486
+type(
+  unit -> unit
+)
+"utilities/global/compiler_options.ml" 48 2505 2509 "utilities/global/compiler_options.ml" 48 2505 2518
+type(
+  string list ref
+)
+ident(
+  def load_path "utilities/global/compiler_options.ml" 51 2544 2544 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 48 2505 2521 "utilities/global/compiler_options.ml" 48 2505 2524
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 48 2505 2527 "utilities/global/compiler_options.ml" 48 2505 2539
+type(
+  string
+)
+ident(
+  int_ref standard_lib "utilities/global/compiler_options.ml" 41 2267 2271 "utilities/global/compiler_options.ml" 41 2267 2283
+)
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 48 2505 2526 "utilities/global/compiler_options.ml" 48 2505 2540
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 48 2505 2521 "utilities/global/compiler_options.ml" 48 2505 2541
+type(
+  string list ref
+)
+"utilities/global/compiler_options.ml" 51 2544 2548 "utilities/global/compiler_options.ml" 51 2544 2558
+type(
+  string -> unit
+)
+ident(
+  def set_stdlib "utilities/global/compiler_options.ml" 57 2672 2672 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 51 2544 2559 "utilities/global/compiler_options.ml" 51 2544 2560
+type(
+  string
+)
+ident(
+  def p "utilities/global/compiler_options.ml" 52 2563 2565 "utilities/global/compiler_options.ml" 52 2563 2581
+)
+"utilities/global/compiler_options.ml" 52 2563 2565 "utilities/global/compiler_options.ml" 52 2563 2574
+type(
+  string list ref
+)
+ident(
+  int_ref load_path "utilities/global/compiler_options.ml" 48 2505 2509 "utilities/global/compiler_options.ml" 48 2505 2518
+)
+"utilities/global/compiler_options.ml" 52 2563 2579 "utilities/global/compiler_options.ml" 52 2563 2580
+type(
+  string
+)
+ident(
+  int_ref p "utilities/global/compiler_options.ml" 51 2544 2559 "utilities/global/compiler_options.ml" 51 2544 2560
+)
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 52 2563 2578 "utilities/global/compiler_options.ml" 52 2563 2581
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 52 2563 2565 "utilities/global/compiler_options.ml" 52 2563 2581
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 51 2544 2559 "utilities/global/compiler_options.ml" 52 2563 2581
+type(
+  string -> unit
+)
+"utilities/global/compiler_options.ml" 53 2582 2586 "utilities/global/compiler_options.ml" 53 2582 2597
+type(
+  string -> unit
+)
+ident(
+  def add_include "utilities/global/compiler_options.ml" 57 2672 2672 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 53 2582 2598 "utilities/global/compiler_options.ml" 53 2582 2599
+type(
+  string
+)
+ident(
+  def d "utilities/global/compiler_options.ml" 54 2602 2604 "utilities/global/compiler_options.ml" 54 2602 2632
+)
+"utilities/global/compiler_options.ml" 54 2602 2604 "utilities/global/compiler_options.ml" 54 2602 2613
+type(
+  string list ref
+)
+ident(
+  int_ref load_path "utilities/global/compiler_options.ml" 48 2505 2509 "utilities/global/compiler_options.ml" 48 2505 2518
+)
+"utilities/global/compiler_options.ml" 54 2602 2617 "utilities/global/compiler_options.ml" 54 2602 2618
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_options.ml" 53 2582 2598 "utilities/global/compiler_options.ml" 53 2582 2599
+)
+"utilities/global/compiler_options.ml" 54 2602 2623 "utilities/global/compiler_options.ml" 54 2602 2632
+type(
+  string list ref
+)
+ident(
+  int_ref load_path "utilities/global/compiler_options.ml" 48 2505 2509 "utilities/global/compiler_options.ml" 48 2505 2518
+)
+"utilities/global/compiler_options.ml" 54 2602 2622 "utilities/global/compiler_options.ml" 54 2602 2632
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 54 2602 2617 "utilities/global/compiler_options.ml" 54 2602 2632
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 54 2602 2604 "utilities/global/compiler_options.ml" 54 2602 2632
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 53 2582 2598 "utilities/global/compiler_options.ml" 54 2602 2632
+type(
+  string -> unit
+)
+"utilities/global/compiler_options.ml" 57 2672 2676 "utilities/global/compiler_options.ml" 57 2672 2689
+type(
+  unit -> 'a
+)
+ident(
+  def locate_stdlib "utilities/global/compiler_options.ml" 62 2799 2799 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 57 2672 2690 "utilities/global/compiler_options.ml" 57 2672 2692
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 58 2695 2697 "utilities/global/compiler_options.ml" 58 2695 2709
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"utilities/global/compiler_options.ml" 58 2695 2715 "utilities/global/compiler_options.ml" 58 2695 2725
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"utilities/global/compiler_options.ml" 58 2695 2726 "utilities/global/compiler_options.ml" 58 2695 2735
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 58 2695 2715 "utilities/global/compiler_options.ml" 58 2695 2735
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 58 2695 2741 "utilities/global/compiler_options.ml" 58 2695 2750
+type(
+  exn
+)
+"utilities/global/compiler_options.ml" 58 2695 2754 "utilities/global/compiler_options.ml" 58 2695 2766
+type(
+  string
+)
+ident(
+  int_ref standard_lib "utilities/global/compiler_options.ml" 41 2267 2271 "utilities/global/compiler_options.ml" 41 2267 2283
+)
+"utilities/global/compiler_options.ml" 58 2695 2711 "utilities/global/compiler_options.ml" 58 2695 2766
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 58 2695 2697 "utilities/global/compiler_options.ml" 58 2695 2767
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 59 2769 2771 "utilities/global/compiler_options.ml" 59 2769 2784
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"utilities/global/compiler_options.ml" 59 2769 2785 "utilities/global/compiler_options.ml" 59 2769 2787
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 59 2769 2771 "utilities/global/compiler_options.ml" 59 2769 2787
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 60 2789 2791 "utilities/global/compiler_options.ml" 60 2789 2795
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"utilities/global/compiler_options.ml" 60 2789 2796 "utilities/global/compiler_options.ml" 60 2789 2797
+type(
+  int
+)
+"utilities/global/compiler_options.ml" 60 2789 2791 "utilities/global/compiler_options.ml" 60 2789 2797
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 59 2769 2771 "utilities/global/compiler_options.ml" 60 2789 2797
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 58 2695 2697 "utilities/global/compiler_options.ml" 60 2789 2797
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 57 2672 2690 "utilities/global/compiler_options.ml" 60 2789 2797
+type(
+  unit -> 'a
+)
+"utilities/global/compiler_options.ml" 62 2799 2803 "utilities/global/compiler_options.ml" 62 2799 2815
+type(
+  unit -> 'a
+)
+ident(
+  def show_version "utilities/global/compiler_options.ml" 71 3049 3049 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 62 2799 2816 "utilities/global/compiler_options.ml" 62 2799 2818
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 63 2821 2823 "utilities/global/compiler_options.ml" 63 2821 2836
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"utilities/global/compiler_options.ml" 63 2821 2837 "utilities/global/compiler_options.ml" 63 2821 2879
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_options.ml" 64 2880 2884 "utilities/global/compiler_options.ml" 64 2880 2891
+type(
+  string
+)
+ident(
+  int_ref version "utilities/global/compiler_options.ml" 35 2139 2143 "utilities/global/compiler_options.ml" 35 2139 2150
+)
+"utilities/global/compiler_options.ml" 64 2880 2892 "utilities/global/compiler_options.ml" 64 2880 2896
+type(
+  string
+)
+ident(
+  int_ref date "utilities/global/compiler_options.ml" 36 2163 2167 "utilities/global/compiler_options.ml" 36 2163 2171
+)
+"utilities/global/compiler_options.ml" 63 2821 2823 "utilities/global/compiler_options.ml" 64 2880 2896
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 65 2898 2900 "utilities/global/compiler_options.ml" 65 2898 2913
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"utilities/global/compiler_options.ml" 66 2914 2918 "utilities/global/compiler_options.ml" 66 2914 2990
+type(
+  (unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_options.ml" 65 2898 2900 "utilities/global/compiler_options.ml" 66 2914 2990
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 67 2992 2994 "utilities/global/compiler_options.ml" 67 2992 3007
+type(
+  unit -> 'a
+)
+ident(
+  int_ref locate_stdlib "utilities/global/compiler_options.ml" 57 2672 2676 "utilities/global/compiler_options.ml" 57 2672 2689
+)
+"utilities/global/compiler_options.ml" 67 2992 3008 "utilities/global/compiler_options.ml" 67 2992 3010
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 67 2992 2994 "utilities/global/compiler_options.ml" 67 2992 3010
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 65 2898 2900 "utilities/global/compiler_options.ml" 67 2992 3010
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 63 2821 2823 "utilities/global/compiler_options.ml" 67 2992 3010
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 62 2799 2816 "utilities/global/compiler_options.ml" 67 2992 3010
+type(
+  unit -> 'a
+)
+"utilities/global/compiler_options.ml" 71 3049 3053 "utilities/global/compiler_options.ml" 71 3049 3060
+type(
+  bool ref
+)
+ident(
+  def verbose "utilities/global/compiler_options.ml" 72 3073 3073 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 71 3049 3063 "utilities/global/compiler_options.ml" 71 3049 3066
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 71 3049 3067 "utilities/global/compiler_options.ml" 71 3049 3072
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 71 3049 3063 "utilities/global/compiler_options.ml" 71 3049 3072
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 72 3073 3077 "utilities/global/compiler_options.ml" 72 3073 3088
+type(
+  bool ref
+)
+ident(
+  def print_types "utilities/global/compiler_options.ml" 74 3102 3102 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 72 3073 3091 "utilities/global/compiler_options.ml" 72 3073 3094
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 72 3073 3095 "utilities/global/compiler_options.ml" 72 3073 3100
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 72 3073 3091 "utilities/global/compiler_options.ml" 72 3073 3100
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 74 3102 3106 "utilities/global/compiler_options.ml" 74 3102 3118
+type(
+  Names.name list ref
+)
+ident(
+  def assert_nodes "utilities/global/compiler_options.ml" 75 3144 3144 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 74 3102 3137 "utilities/global/compiler_options.ml" 74 3102 3140
+type(
+  Names.name list -> Names.name list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 74 3102 3141 "utilities/global/compiler_options.ml" 74 3102 3143
+type(
+  Names.name list
+)
+"utilities/global/compiler_options.ml" 74 3102 3137 "utilities/global/compiler_options.ml" 74 3102 3143
+type(
+  Names.name list ref
+)
+type(
+  Names.name list ref
+)
+"utilities/global/compiler_options.ml" 75 3144 3148 "utilities/global/compiler_options.ml" 75 3144 3158
+type(
+  Names.name -> unit
+)
+ident(
+  def add_assert "utilities/global/compiler_options.ml" 77 3201 3201 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 75 3144 3159 "utilities/global/compiler_options.ml" 75 3144 3161
+type(
+  Names.name
+)
+ident(
+  def nd "utilities/global/compiler_options.ml" 75 3144 3164 "utilities/global/compiler_options.ml" 75 3144 3199
+)
+"utilities/global/compiler_options.ml" 75 3144 3164 "utilities/global/compiler_options.ml" 75 3144 3176
+type(
+  Names.name list ref
+)
+ident(
+  int_ref assert_nodes "utilities/global/compiler_options.ml" 74 3102 3106 "utilities/global/compiler_options.ml" 74 3102 3118
+)
+"utilities/global/compiler_options.ml" 75 3144 3180 "utilities/global/compiler_options.ml" 75 3144 3182
+type(
+  Names.name
+)
+ident(
+  int_ref nd "utilities/global/compiler_options.ml" 75 3144 3159 "utilities/global/compiler_options.ml" 75 3144 3161
+)
+"utilities/global/compiler_options.ml" 75 3144 3187 "utilities/global/compiler_options.ml" 75 3144 3199
+type(
+  Names.name list ref
+)
+ident(
+  int_ref assert_nodes "utilities/global/compiler_options.ml" 74 3102 3106 "utilities/global/compiler_options.ml" 74 3102 3118
+)
+"utilities/global/compiler_options.ml" 75 3144 3186 "utilities/global/compiler_options.ml" 75 3144 3199
+type(
+  Names.name list
+)
+type(
+  Names.name list ref -> Names.name list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 75 3144 3180 "utilities/global/compiler_options.ml" 75 3144 3199
+type(
+  Names.name list
+)
+"utilities/global/compiler_options.ml" 75 3144 3164 "utilities/global/compiler_options.ml" 75 3144 3199
+type(
+  unit
+)
+type(
+  Names.name list ref -> Names.name list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 75 3144 3159 "utilities/global/compiler_options.ml" 75 3144 3199
+type(
+  Names.name -> unit
+)
+"utilities/global/compiler_options.ml" 77 3201 3205 "utilities/global/compiler_options.ml" 77 3201 3215
+type(
+  bool ref
+)
+ident(
+  def simulation "utilities/global/compiler_options.ml" 78 3228 3228 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 77 3201 3218 "utilities/global/compiler_options.ml" 77 3201 3221
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 77 3201 3222 "utilities/global/compiler_options.ml" 77 3201 3227
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 77 3201 3218 "utilities/global/compiler_options.ml" 77 3201 3227
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 78 3228 3232 "utilities/global/compiler_options.ml" 78 3228 3247
+type(
+  Names.name ref
+)
+ident(
+  def simulation_node "utilities/global/compiler_options.ml" 79 3268 3268 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 78 3228 3261 "utilities/global/compiler_options.ml" 78 3228 3264
+type(
+  Names.name -> Names.name ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 78 3228 3265 "utilities/global/compiler_options.ml" 78 3228 3267
+type(
+  Names.name
+)
+"utilities/global/compiler_options.ml" 78 3228 3261 "utilities/global/compiler_options.ml" 78 3228 3267
+type(
+  Names.name ref
+)
+type(
+  Names.name ref
+)
+"utilities/global/compiler_options.ml" 79 3268 3272 "utilities/global/compiler_options.ml" 79 3268 3291
+type(
+  Names.name -> unit
+)
+ident(
+  def set_simulation_node "utilities/global/compiler_options.ml" 83 3342 3342 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 79 3268 3292 "utilities/global/compiler_options.ml" 79 3268 3293
+type(
+  Names.name
+)
+ident(
+  def s "utilities/global/compiler_options.ml" 80 3296 3298 "utilities/global/compiler_options.ml" 81 3318 3340
+)
+"utilities/global/compiler_options.ml" 80 3296 3298 "utilities/global/compiler_options.ml" 80 3296 3308
+type(
+  bool ref
+)
+ident(
+  int_ref simulation "utilities/global/compiler_options.ml" 77 3201 3205 "utilities/global/compiler_options.ml" 77 3201 3215
+)
+"utilities/global/compiler_options.ml" 80 3296 3312 "utilities/global/compiler_options.ml" 80 3296 3316
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 80 3296 3298 "utilities/global/compiler_options.ml" 80 3296 3316
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 81 3318 3320 "utilities/global/compiler_options.ml" 81 3318 3335
+type(
+  Names.name ref
+)
+ident(
+  int_ref simulation_node "utilities/global/compiler_options.ml" 78 3228 3232 "utilities/global/compiler_options.ml" 78 3228 3247
+)
+"utilities/global/compiler_options.ml" 81 3318 3339 "utilities/global/compiler_options.ml" 81 3318 3340
+type(
+  Names.name
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 79 3268 3292 "utilities/global/compiler_options.ml" 79 3268 3293
+)
+"utilities/global/compiler_options.ml" 81 3318 3320 "utilities/global/compiler_options.ml" 81 3318 3340
+type(
+  unit
+)
+type(
+  Names.name ref -> Names.name -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 80 3296 3298 "utilities/global/compiler_options.ml" 81 3318 3340
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 79 3268 3292 "utilities/global/compiler_options.ml" 81 3318 3340
+type(
+  Names.name -> unit
+)
+"utilities/global/compiler_options.ml" 83 3342 3346 "utilities/global/compiler_options.ml" 83 3342 3362
+type(
+  bool ref
+)
+ident(
+  def hepts_simulation "utilities/global/compiler_options.ml" 85 3376 3376 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 83 3342 3365 "utilities/global/compiler_options.ml" 83 3342 3368
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 83 3342 3369 "utilities/global/compiler_options.ml" 83 3342 3374
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 83 3342 3365 "utilities/global/compiler_options.ml" 83 3342 3374
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 85 3376 3380 "utilities/global/compiler_options.ml" 85 3376 3398
+type(
+  bool ref
+)
+ident(
+  def create_object_file "utilities/global/compiler_options.ml" 87 3412 3412 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 85 3376 3401 "utilities/global/compiler_options.ml" 85 3376 3404
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 85 3376 3405 "utilities/global/compiler_options.ml" 85 3376 3410
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 85 3376 3401 "utilities/global/compiler_options.ml" 85 3376 3410
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 87 3412 3416 "utilities/global/compiler_options.ml" 87 3412 3423
+type(
+  bool ref
+)
+ident(
+  def boolean "utilities/global/compiler_options.ml" 89 3437 3437 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 87 3412 3426 "utilities/global/compiler_options.ml" 87 3412 3429
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 87 3412 3430 "utilities/global/compiler_options.ml" 87 3412 3435
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 87 3412 3426 "utilities/global/compiler_options.ml" 87 3412 3435
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 89 3437 3441 "utilities/global/compiler_options.ml" 89 3437 3447
+type(
+  bool ref
+)
+ident(
+  def nosink "utilities/global/compiler_options.ml" 92 3509 3509 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 89 3437 3450 "utilities/global/compiler_options.ml" 89 3437 3453
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 89 3437 3454 "utilities/global/compiler_options.ml" 89 3437 3459
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 89 3437 3450 "utilities/global/compiler_options.ml" 89 3437 3459
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 92 3509 3513 "utilities/global/compiler_options.ml" 92 3509 3529
+type(
+  string list ref
+)
+ident(
+  def target_languages "utilities/global/compiler_options.ml" 94 3558 3558 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 92 3509 3550 "utilities/global/compiler_options.ml" 92 3509 3553
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 92 3509 3554 "utilities/global/compiler_options.ml" 92 3509 3556
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 92 3509 3550 "utilities/global/compiler_options.ml" 92 3509 3556
+type(
+  string list ref
+)
+type(
+  string list ref
+)
+"utilities/global/compiler_options.ml" 94 3558 3562 "utilities/global/compiler_options.ml" 94 3558 3581
+type(
+  string -> unit
+)
+ident(
+  def add_target_language "utilities/global/compiler_options.ml" 99 3754 3754 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 94 3558 3582 "utilities/global/compiler_options.ml" 94 3558 3583
+type(
+  string
+)
+ident(
+  def s "utilities/global/compiler_options.ml" 95 3586 3588 "utilities/global/compiler_options.ml" 96 3656 3700
+)
+"utilities/global/compiler_options.ml" 95 3586 3591 "utilities/global/compiler_options.ml" 95 3586 3592
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 94 3558 3582 "utilities/global/compiler_options.ml" 94 3558 3583
+)
+"utilities/global/compiler_options.ml" 95 3586 3593 "utilities/global/compiler_options.ml" 95 3586 3594
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/global/compiler_options.ml" 95 3586 3595 "utilities/global/compiler_options.ml" 95 3586 3600
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 95 3586 3591 "utilities/global/compiler_options.ml" 95 3586 3600
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 95 3586 3606 "utilities/global/compiler_options.ml" 95 3586 3613
+type(
+  bool ref
+)
+ident(
+  int_ref boolean "utilities/global/compiler_options.ml" 87 3412 3416 "utilities/global/compiler_options.ml" 87 3412 3423
+)
+"utilities/global/compiler_options.ml" 95 3586 3617 "utilities/global/compiler_options.ml" 95 3586 3621
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 95 3586 3606 "utilities/global/compiler_options.ml" 95 3586 3621
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 95 3586 3588 "utilities/global/compiler_options.ml" 95 3586 3621
+type(
+  unit
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 96 3656 3658 "utilities/global/compiler_options.ml" 96 3656 3674
+type(
+  string list ref
+)
+ident(
+  int_ref target_languages "utilities/global/compiler_options.ml" 92 3509 3513 "utilities/global/compiler_options.ml" 92 3509 3529
+)
+"utilities/global/compiler_options.ml" 96 3656 3678 "utilities/global/compiler_options.ml" 96 3656 3679
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 94 3558 3582 "utilities/global/compiler_options.ml" 94 3558 3583
+)
+"utilities/global/compiler_options.ml" 96 3656 3684 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  string list ref
+)
+ident(
+  int_ref target_languages "utilities/global/compiler_options.ml" 92 3509 3513 "utilities/global/compiler_options.ml" 92 3509 3529
+)
+"utilities/global/compiler_options.ml" 96 3656 3683 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 96 3656 3678 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  string list
+)
+"utilities/global/compiler_options.ml" 96 3656 3658 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 95 3586 3588 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 94 3558 3582 "utilities/global/compiler_options.ml" 96 3656 3700
+type(
+  string -> unit
+)
+"utilities/global/compiler_options.ml" 99 3754 3758 "utilities/global/compiler_options.ml" 99 3754 3769
+type(
+  string option ref
+)
+ident(
+  def target_path "utilities/global/compiler_options.ml" 101 3802 3802 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 99 3754 3792 "utilities/global/compiler_options.ml" 99 3754 3795
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 99 3754 3796 "utilities/global/compiler_options.ml" 99 3754 3800
+type(
+  string option
+)
+"utilities/global/compiler_options.ml" 99 3754 3792 "utilities/global/compiler_options.ml" 99 3754 3800
+type(
+  string option ref
+)
+type(
+  string option ref
+)
+"utilities/global/compiler_options.ml" 101 3802 3806 "utilities/global/compiler_options.ml" 101 3802 3821
+type(
+  string -> unit
+)
+ident(
+  def set_target_path "utilities/global/compiler_options.ml" 104 3857 3857 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 101 3802 3822 "utilities/global/compiler_options.ml" 101 3802 3826
+type(
+  string
+)
+ident(
+  def path "utilities/global/compiler_options.ml" 102 3829 3831 "utilities/global/compiler_options.ml" 102 3829 3855
+)
+"utilities/global/compiler_options.ml" 102 3829 3831 "utilities/global/compiler_options.ml" 102 3829 3842
+type(
+  string option ref
+)
+ident(
+  int_ref target_path "utilities/global/compiler_options.ml" 99 3754 3758 "utilities/global/compiler_options.ml" 99 3754 3769
+)
+"utilities/global/compiler_options.ml" 102 3829 3851 "utilities/global/compiler_options.ml" 102 3829 3855
+type(
+  string
+)
+ident(
+  int_ref path "utilities/global/compiler_options.ml" 101 3802 3822 "utilities/global/compiler_options.ml" 101 3802 3826
+)
+"utilities/global/compiler_options.ml" 102 3829 3846 "utilities/global/compiler_options.ml" 102 3829 3855
+type(
+  string option
+)
+"utilities/global/compiler_options.ml" 102 3829 3831 "utilities/global/compiler_options.ml" 102 3829 3855
+type(
+  unit
+)
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 101 3802 3822 "utilities/global/compiler_options.ml" 102 3829 3855
+type(
+  string -> unit
+)
+"utilities/global/compiler_options.ml" 104 3857 3861 "utilities/global/compiler_options.ml" 104 3857 3875
+type(
+  bool ref
+)
+ident(
+  def full_type_info "utilities/global/compiler_options.ml" 106 3889 3889 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 104 3857 3878 "utilities/global/compiler_options.ml" 104 3857 3881
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 104 3857 3882 "utilities/global/compiler_options.ml" 104 3857 3887
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 104 3857 3878 "utilities/global/compiler_options.ml" 104 3857 3887
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 106 3889 3893 "utilities/global/compiler_options.ml" 106 3889 3906
+type(
+  bool ref
+)
+ident(
+  def stateful_info "utilities/global/compiler_options.ml" 108 3920 3920 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 106 3889 3909 "utilities/global/compiler_options.ml" 106 3889 3912
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 106 3889 3913 "utilities/global/compiler_options.ml" 106 3889 3918
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 106 3889 3909 "utilities/global/compiler_options.ml" 106 3889 3918
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 108 3920 3924 "utilities/global/compiler_options.ml" 108 3920 3933
+type(
+  bool ref
+)
+ident(
+  def full_name "utilities/global/compiler_options.ml" 110 3947 3947 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 108 3920 3936 "utilities/global/compiler_options.ml" 108 3920 3939
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 108 3920 3940 "utilities/global/compiler_options.ml" 108 3920 3945
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 108 3920 3936 "utilities/global/compiler_options.ml" 108 3920 3945
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 110 3947 3951 "utilities/global/compiler_options.ml" 110 3947 3957
+type(
+  bool ref
+)
+ident(
+  def nbvars "utilities/global/compiler_options.ml" 112 3971 3971 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 110 3947 3960 "utilities/global/compiler_options.ml" 110 3947 3963
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 110 3947 3964 "utilities/global/compiler_options.ml" 110 3947 3969
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 110 3947 3960 "utilities/global/compiler_options.ml" 110 3947 3969
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 112 3971 3975 "utilities/global/compiler_options.ml" 112 3971 3984
+type(
+  bool ref
+)
+ident(
+  def causality "utilities/global/compiler_options.ml" 113 3996 3996 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 112 3971 3987 "utilities/global/compiler_options.ml" 112 3971 3990
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 112 3971 3991 "utilities/global/compiler_options.ml" 112 3971 3995
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 112 3971 3987 "utilities/global/compiler_options.ml" 112 3971 3995
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 113 3996 4000 "utilities/global/compiler_options.ml" 113 3996 4004
+type(
+  bool ref
+)
+ident(
+  def init "utilities/global/compiler_options.ml" 115 4017 4017 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"preproc.ml" 84 3975 3995 "preproc.ml" 84 3975 4004
+type(
+  string
+)
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 113 3996 4007 "utilities/global/compiler_options.ml" 113 3996 4010
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 113 3996 4011 "utilities/global/compiler_options.ml" 113 3996 4015
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 113 3996 4007 "utilities/global/compiler_options.ml" 113 3996 4015
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 115 4017 4021 "utilities/global/compiler_options.ml" 115 4017 4027
+type(
+  Names.qualname list ref
+)
+ident(
+  def inline "utilities/global/compiler_options.ml" 116 4057 4057 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 115 4017 4050 "utilities/global/compiler_options.ml" 115 4017 4053
+type(
+  Names.qualname list -> Names.qualname list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 115 4017 4054 "utilities/global/compiler_options.ml" 115 4017 4056
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 115 4017 4050 "utilities/global/compiler_options.ml" 115 4017 4056
+type(
+  Names.qualname list ref
+)
+type(
+  Names.qualname list ref
+)
+"utilities/global/compiler_options.ml" 116 4057 4061 "utilities/global/compiler_options.ml" 116 4057 4077
+type(
+  Names.qualname -> unit
+)
+ident(
+  def add_inlined_node "utilities/global/compiler_options.ml" 118 4106 4106 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 116 4057 4078 "utilities/global/compiler_options.ml" 116 4057 4079
+type(
+  Names.qualname
+)
+ident(
+  def s "utilities/global/compiler_options.ml" 116 4057 4082 "utilities/global/compiler_options.ml" 116 4057 4104
+)
+"utilities/global/compiler_options.ml" 116 4057 4082 "utilities/global/compiler_options.ml" 116 4057 4088
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref inline "utilities/global/compiler_options.ml" 115 4017 4021 "utilities/global/compiler_options.ml" 115 4017 4027
+)
+"utilities/global/compiler_options.ml" 116 4057 4092 "utilities/global/compiler_options.ml" 116 4057 4093
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 116 4057 4078 "utilities/global/compiler_options.ml" 116 4057 4079
+)
+"utilities/global/compiler_options.ml" 116 4057 4098 "utilities/global/compiler_options.ml" 116 4057 4104
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref inline "utilities/global/compiler_options.ml" 115 4017 4021 "utilities/global/compiler_options.ml" 115 4017 4027
+)
+"utilities/global/compiler_options.ml" 116 4057 4097 "utilities/global/compiler_options.ml" 116 4057 4104
+type(
+  Names.qualname list
+)
+type(
+  Names.qualname list ref -> Names.qualname list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 116 4057 4092 "utilities/global/compiler_options.ml" 116 4057 4104
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 116 4057 4082 "utilities/global/compiler_options.ml" 116 4057 4104
+type(
+  unit
+)
+type(
+  Names.qualname list ref -> Names.qualname list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 116 4057 4078 "utilities/global/compiler_options.ml" 116 4057 4104
+type(
+  Names.qualname -> unit
+)
+"utilities/global/compiler_options.ml" 118 4106 4110 "utilities/global/compiler_options.ml" 118 4106 4117
+type(
+  bool ref
+)
+ident(
+  def flatten "utilities/global/compiler_options.ml" 120 4131 4131 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 118 4106 4120 "utilities/global/compiler_options.ml" 118 4106 4123
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 118 4106 4124 "utilities/global/compiler_options.ml" 118 4106 4129
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 118 4106 4120 "utilities/global/compiler_options.ml" 118 4106 4129
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 120 4131 4135 "utilities/global/compiler_options.ml" 120 4131 4143
+type(
+  bool ref
+)
+ident(
+  def deadcode "utilities/global/compiler_options.ml" 122 4157 4157 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 120 4131 4146 "utilities/global/compiler_options.ml" 120 4131 4149
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 120 4131 4150 "utilities/global/compiler_options.ml" 120 4131 4155
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 120 4131 4146 "utilities/global/compiler_options.ml" 120 4131 4155
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 122 4157 4161 "utilities/global/compiler_options.ml" 122 4157 4167
+type(
+  bool ref
+)
+ident(
+  def tomato "utilities/global/compiler_options.ml" 124 4181 4181 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 122 4157 4170 "utilities/global/compiler_options.ml" 122 4157 4173
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 122 4157 4174 "utilities/global/compiler_options.ml" 122 4157 4179
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 122 4157 4170 "utilities/global/compiler_options.ml" 122 4157 4179
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 124 4181 4185 "utilities/global/compiler_options.ml" 124 4181 4197
+type(
+  Names.qualname list ref
+)
+ident(
+  def tomato_nodes "utilities/global/compiler_options.ml" 126 4228 4228 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 124 4181 4220 "utilities/global/compiler_options.ml" 124 4181 4223
+type(
+  Names.qualname list -> Names.qualname list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 124 4181 4224 "utilities/global/compiler_options.ml" 124 4181 4226
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 124 4181 4220 "utilities/global/compiler_options.ml" 124 4181 4226
+type(
+  Names.qualname list ref
+)
+type(
+  Names.qualname list ref
+)
+"utilities/global/compiler_options.ml" 126 4228 4232 "utilities/global/compiler_options.ml" 126 4228 4247
+type(
+  Names.qualname -> unit
+)
+ident(
+  def add_tomato_node "utilities/global/compiler_options.ml" 128 4288 4288 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 126 4228 4248 "utilities/global/compiler_options.ml" 126 4228 4249
+type(
+  Names.qualname
+)
+ident(
+  def s "utilities/global/compiler_options.ml" 126 4228 4252 "utilities/global/compiler_options.ml" 126 4228 4286
+)
+"utilities/global/compiler_options.ml" 126 4228 4252 "utilities/global/compiler_options.ml" 126 4228 4264
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref tomato_nodes "utilities/global/compiler_options.ml" 124 4181 4185 "utilities/global/compiler_options.ml" 124 4181 4197
+)
+"utilities/global/compiler_options.ml" 126 4228 4268 "utilities/global/compiler_options.ml" 126 4228 4269
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 126 4228 4248 "utilities/global/compiler_options.ml" 126 4228 4249
+)
+"utilities/global/compiler_options.ml" 126 4228 4274 "utilities/global/compiler_options.ml" 126 4228 4286
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref tomato_nodes "utilities/global/compiler_options.ml" 124 4181 4185 "utilities/global/compiler_options.ml" 124 4181 4197
+)
+"utilities/global/compiler_options.ml" 126 4228 4273 "utilities/global/compiler_options.ml" 126 4228 4286
+type(
+  Names.qualname list
+)
+type(
+  Names.qualname list ref -> Names.qualname list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 126 4228 4268 "utilities/global/compiler_options.ml" 126 4228 4286
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 126 4228 4252 "utilities/global/compiler_options.ml" 126 4228 4286
+type(
+  unit
+)
+type(
+  Names.qualname list ref -> Names.qualname list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 126 4228 4248 "utilities/global/compiler_options.ml" 126 4228 4286
+type(
+  Names.qualname -> unit
+)
+"utilities/global/compiler_options.ml" 128 4288 4292 "utilities/global/compiler_options.ml" 128 4288 4304
+type(
+  Names.qualname list ref
+)
+ident(
+  def tomato_check "utilities/global/compiler_options.ml" 130 4335 4335 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 128 4288 4327 "utilities/global/compiler_options.ml" 128 4288 4330
+type(
+  Names.qualname list -> Names.qualname list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 128 4288 4331 "utilities/global/compiler_options.ml" 128 4288 4333
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 128 4288 4327 "utilities/global/compiler_options.ml" 128 4288 4333
+type(
+  Names.qualname list ref
+)
+type(
+  Names.qualname list ref
+)
+"utilities/global/compiler_options.ml" 130 4335 4339 "utilities/global/compiler_options.ml" 130 4335 4355
+type(
+  Names.qualname -> unit
+)
+ident(
+  def add_tomato_check "utilities/global/compiler_options.ml" 132 4396 4396 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 130 4335 4356 "utilities/global/compiler_options.ml" 130 4335 4357
+type(
+  Names.qualname
+)
+ident(
+  def s "utilities/global/compiler_options.ml" 130 4335 4360 "utilities/global/compiler_options.ml" 130 4335 4394
+)
+"utilities/global/compiler_options.ml" 130 4335 4360 "utilities/global/compiler_options.ml" 130 4335 4372
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref tomato_check "utilities/global/compiler_options.ml" 128 4288 4292 "utilities/global/compiler_options.ml" 128 4288 4304
+)
+"utilities/global/compiler_options.ml" 130 4335 4376 "utilities/global/compiler_options.ml" 130 4335 4377
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "utilities/global/compiler_options.ml" 130 4335 4356 "utilities/global/compiler_options.ml" 130 4335 4357
+)
+"utilities/global/compiler_options.ml" 130 4335 4382 "utilities/global/compiler_options.ml" 130 4335 4394
+type(
+  Names.qualname list ref
+)
+ident(
+  int_ref tomato_check "utilities/global/compiler_options.ml" 128 4288 4292 "utilities/global/compiler_options.ml" 128 4288 4304
+)
+"utilities/global/compiler_options.ml" 130 4335 4381 "utilities/global/compiler_options.ml" 130 4335 4394
+type(
+  Names.qualname list
+)
+type(
+  Names.qualname list ref -> Names.qualname list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 130 4335 4376 "utilities/global/compiler_options.ml" 130 4335 4394
+type(
+  Names.qualname list
+)
+"utilities/global/compiler_options.ml" 130 4335 4360 "utilities/global/compiler_options.ml" 130 4335 4394
+type(
+  unit
+)
+type(
+  Names.qualname list ref -> Names.qualname list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 130 4335 4356 "utilities/global/compiler_options.ml" 130 4335 4394
+type(
+  Names.qualname -> unit
+)
+"utilities/global/compiler_options.ml" 132 4396 4400 "utilities/global/compiler_options.ml" 132 4396 4418
+type(
+  bool ref
+)
+ident(
+  def do_iterator_fusion "utilities/global/compiler_options.ml" 134 4432 4432 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 132 4396 4421 "utilities/global/compiler_options.ml" 132 4396 4424
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 132 4396 4425 "utilities/global/compiler_options.ml" 132 4396 4430
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 132 4396 4421 "utilities/global/compiler_options.ml" 132 4396 4430
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 134 4432 4436 "utilities/global/compiler_options.ml" 134 4432 4448
+type(
+  bool ref
+)
+ident(
+  def do_scalarize "utilities/global/compiler_options.ml" 135 4461 4461 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 134 4432 4451 "utilities/global/compiler_options.ml" 134 4432 4454
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 134 4432 4455 "utilities/global/compiler_options.ml" 134 4432 4460
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 134 4432 4451 "utilities/global/compiler_options.ml" 134 4432 4460
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 135 4461 4465 "utilities/global/compiler_options.ml" 135 4461 4476
+type(
+  bool ref
+)
+ident(
+  def do_simplify "utilities/global/compiler_options.ml" 137 4489 4489 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 135 4461 4479 "utilities/global/compiler_options.ml" 135 4461 4482
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 135 4461 4483 "utilities/global/compiler_options.ml" 135 4461 4487
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 135 4461 4479 "utilities/global/compiler_options.ml" 135 4461 4487
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 137 4489 4493 "utilities/global/compiler_options.ml" 137 4489 4505
+type(
+  bool ref
+)
+ident(
+  def do_mem_alloc "utilities/global/compiler_options.ml" 138 4518 4518 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 137 4489 4508 "utilities/global/compiler_options.ml" 137 4489 4511
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 137 4489 4512 "utilities/global/compiler_options.ml" 137 4489 4517
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 137 4489 4508 "utilities/global/compiler_options.ml" 137 4489 4517
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 138 4518 4522 "utilities/global/compiler_options.ml" 138 4518 4538
+type(
+  bool ref
+)
+ident(
+  def do_linear_typing "utilities/global/compiler_options.ml" 140 4552 4552 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 138 4518 4541 "utilities/global/compiler_options.ml" 138 4518 4544
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 138 4518 4545 "utilities/global/compiler_options.ml" 138 4518 4550
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 138 4518 4541 "utilities/global/compiler_options.ml" 138 4518 4550
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 140 4552 4556 "utilities/global/compiler_options.ml" 140 4552 4579
+type(
+  unit -> unit
+)
+ident(
+  def do_mem_alloc_and_typing "utilities/global/compiler_options.ml" 144 4637 4637 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 140 4552 4580 "utilities/global/compiler_options.ml" 140 4552 4582
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 141 4585 4587 "utilities/global/compiler_options.ml" 141 4585 4599
+type(
+  bool ref
+)
+ident(
+  int_ref do_mem_alloc "utilities/global/compiler_options.ml" 137 4489 4493 "utilities/global/compiler_options.ml" 137 4489 4505
+)
+"utilities/global/compiler_options.ml" 141 4585 4603 "utilities/global/compiler_options.ml" 141 4585 4607
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 141 4585 4587 "utilities/global/compiler_options.ml" 141 4585 4607
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 142 4609 4611 "utilities/global/compiler_options.ml" 142 4609 4627
+type(
+  bool ref
+)
+ident(
+  int_ref do_linear_typing "utilities/global/compiler_options.ml" 138 4518 4522 "utilities/global/compiler_options.ml" 138 4518 4538
+)
+"utilities/global/compiler_options.ml" 142 4609 4631 "utilities/global/compiler_options.ml" 142 4609 4635
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 142 4609 4611 "utilities/global/compiler_options.ml" 142 4609 4635
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 141 4585 4587 "utilities/global/compiler_options.ml" 142 4609 4635
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 140 4552 4580 "utilities/global/compiler_options.ml" 142 4609 4635
+type(
+  unit -> unit
+)
+"utilities/global/compiler_options.ml" 144 4637 4641 "utilities/global/compiler_options.ml" 144 4637 4658
+type(
+  bool ref
+)
+ident(
+  def use_old_scheduler "utilities/global/compiler_options.ml" 146 4672 4672 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 144 4637 4661 "utilities/global/compiler_options.ml" 144 4637 4664
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 144 4637 4665 "utilities/global/compiler_options.ml" 144 4637 4670
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 144 4637 4661 "utilities/global/compiler_options.ml" 144 4637 4670
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 146 4672 4676 "utilities/global/compiler_options.ml" 146 4672 4686
+type(
+  bool ref
+)
+ident(
+  def strict_ssa "utilities/global/compiler_options.ml" 150 4900 4900 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 146 4672 4689 "utilities/global/compiler_options.ml" 146 4672 4692
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 146 4672 4693 "utilities/global/compiler_options.ml" 146 4672 4698
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 146 4672 4689 "utilities/global/compiler_options.ml" 146 4672 4698
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 150 4900 4904 "utilities/global/compiler_options.ml" 150 4900 4927
+type(
+  bool ref
+)
+ident(
+  def memcpy_array_and_struct "utilities/global/compiler_options.ml" 152 4940 4940 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 150 4900 4930 "utilities/global/compiler_options.ml" 150 4900 4933
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 150 4900 4934 "utilities/global/compiler_options.ml" 150 4900 4938
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 150 4900 4930 "utilities/global/compiler_options.ml" 150 4900 4938
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 152 4940 4944 "utilities/global/compiler_options.ml" 152 4940 4958
+type(
+  unit -> unit
+)
+ident(
+  def set_strict_ssa "utilities/global/compiler_options.ml" 156 5022 5022 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 152 4940 4959 "utilities/global/compiler_options.ml" 152 4940 4961
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 153 4964 4966 "utilities/global/compiler_options.ml" 153 4964 4976
+type(
+  bool ref
+)
+ident(
+  int_ref strict_ssa "utilities/global/compiler_options.ml" 146 4672 4676 "utilities/global/compiler_options.ml" 146 4672 4686
+)
+"utilities/global/compiler_options.ml" 153 4964 4980 "utilities/global/compiler_options.ml" 153 4964 4984
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 153 4964 4966 "utilities/global/compiler_options.ml" 153 4964 4984
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 154 4986 4988 "utilities/global/compiler_options.ml" 154 4986 5011
+type(
+  bool ref
+)
+ident(
+  int_ref memcpy_array_and_struct "utilities/global/compiler_options.ml" 150 4900 4904 "utilities/global/compiler_options.ml" 150 4900 4927
+)
+"utilities/global/compiler_options.ml" 154 4986 5015 "utilities/global/compiler_options.ml" 154 4986 5020
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 154 4986 4988 "utilities/global/compiler_options.ml" 154 4986 5020
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 153 4964 4966 "utilities/global/compiler_options.ml" 154 4986 5020
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 152 4940 4959 "utilities/global/compiler_options.ml" 154 4986 5020
+type(
+  unit -> unit
+)
+"utilities/global/compiler_options.ml" 156 5022 5026 "utilities/global/compiler_options.ml" 156 5022 5038
+type(
+  bool ref
+)
+ident(
+  def unroll_loops "utilities/global/compiler_options.ml" 158 5052 5052 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 156 5022 5041 "utilities/global/compiler_options.ml" 156 5022 5044
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 156 5022 5045 "utilities/global/compiler_options.ml" 156 5022 5050
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 156 5022 5041 "utilities/global/compiler_options.ml" 156 5022 5050
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 158 5052 5056 "utilities/global/compiler_options.ml" 158 5052 5061
+type(
+  bool ref
+)
+ident(
+  def optim "utilities/global/compiler_options.ml" 159 5074 5074 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 158 5052 5064 "utilities/global/compiler_options.ml" 158 5052 5067
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 158 5052 5068 "utilities/global/compiler_options.ml" 158 5052 5073
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 158 5052 5064 "utilities/global/compiler_options.ml" 158 5052 5073
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 159 5074 5078 "utilities/global/compiler_options.ml" 159 5074 5086
+type(
+  unit -> unit
+)
+ident(
+  def do_optim "utilities/global/compiler_options.ml" 165 5235 5235 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 159 5074 5087 "utilities/global/compiler_options.ml" 159 5074 5089
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 161 5167 5169 "utilities/global/compiler_options.ml" 161 5167 5192
+type(
+  unit -> unit
+)
+ident(
+  int_ref do_mem_alloc_and_typing "utilities/global/compiler_options.ml" 140 4552 4556 "utilities/global/compiler_options.ml" 140 4552 4579
+)
+"utilities/global/compiler_options.ml" 161 5167 5193 "utilities/global/compiler_options.ml" 161 5167 5195
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 161 5167 5169 "utilities/global/compiler_options.ml" 161 5167 5195
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 162 5197 5199 "utilities/global/compiler_options.ml" 162 5197 5205
+type(
+  bool ref
+)
+ident(
+  int_ref tomato "utilities/global/compiler_options.ml" 122 4157 4161 "utilities/global/compiler_options.ml" 122 4157 4167
+)
+"utilities/global/compiler_options.ml" 162 5197 5209 "utilities/global/compiler_options.ml" 162 5197 5213
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 162 5197 5199 "utilities/global/compiler_options.ml" 162 5197 5213
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 163 5215 5217 "utilities/global/compiler_options.ml" 163 5215 5225
+type(
+  bool ref
+)
+ident(
+  int_ref deadcode "utilities/global/compiler_options.ml" 120 4131 4135 "utilities/global/compiler_options.ml" 120 4131 4143
+)
+"utilities/global/compiler_options.ml" 163 5215 5229 "utilities/global/compiler_options.ml" 163 5215 5233
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 163 5215 5217 "utilities/global/compiler_options.ml" 163 5215 5233
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/global/compiler_options.ml" 162 5197 5199 "utilities/global/compiler_options.ml" 163 5215 5233
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 161 5167 5169 "utilities/global/compiler_options.ml" 163 5215 5233
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 159 5074 5087 "utilities/global/compiler_options.ml" 163 5215 5233
+type(
+  unit -> unit
+)
+"utilities/global/compiler_options.ml" 165 5235 5239 "utilities/global/compiler_options.ml" 165 5235 5258
+type(
+  bool ref
+)
+ident(
+  def warn_untranslatable "utilities/global/compiler_options.ml" 166 5316 5316 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 165 5235 5261 "utilities/global/compiler_options.ml" 165 5235 5264
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 165 5235 5265 "utilities/global/compiler_options.ml" 165 5235 5269
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 165 5235 5261 "utilities/global/compiler_options.ml" 165 5235 5269
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 166 5316 5320 "utilities/global/compiler_options.ml" 166 5316 5337
+type(
+  bool ref
+)
+ident(
+  def abstract_infinite "utilities/global/compiler_options.ml" 167 5397 5397 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 166 5316 5340 "utilities/global/compiler_options.ml" 166 5316 5343
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 166 5316 5344 "utilities/global/compiler_options.ml" 166 5316 5349
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 166 5316 5340 "utilities/global/compiler_options.ml" 166 5316 5349
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 167 5397 5401 "utilities/global/compiler_options.ml" 167 5397 5418
+type(
+  bool ref
+)
+ident(
+  def warn_abstractions "utilities/global/compiler_options.ml" 169 5479 5479 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 167 5397 5421 "utilities/global/compiler_options.ml" 167 5397 5424
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 167 5397 5425 "utilities/global/compiler_options.ml" 167 5397 5429
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 167 5397 5421 "utilities/global/compiler_options.ml" 167 5397 5429
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 169 5479 5483 "utilities/global/compiler_options.ml" 169 5479 5496
+type(
+  unit -> unit
+)
+ident(
+  def check_options "utilities/global/compiler_options.ml" 177 5761 5761 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 169 5479 5497 "utilities/global/compiler_options.ml" 169 5479 5499
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 170 5502 5508 "utilities/global/compiler_options.ml" 170 5502 5511
+type(
+  string -> 'a
+)
+ident(
+  def err "utilities/global/compiler_options.ml" 171 5537 5539 "utilities/global/compiler_options.ml" 175 5756 5759
+)
+"utilities/global/compiler_options.ml" 170 5502 5512 "utilities/global/compiler_options.ml" 170 5502 5513
+type(
+  string
+)
+ident(
+  def m "utilities/global/compiler_options.ml" 170 5502 5516 "utilities/global/compiler_options.ml" 170 5502 5533
+)
+"utilities/global/compiler_options.ml" 170 5502 5516 "utilities/global/compiler_options.ml" 170 5502 5521
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/compiler_options.ml" 170 5502 5531 "utilities/global/compiler_options.ml" 170 5502 5532
+type(
+  string
+)
+ident(
+  int_ref m "utilities/global/compiler_options.ml" 170 5502 5512 "utilities/global/compiler_options.ml" 170 5502 5513
+)
+"utilities/global/compiler_options.ml" 170 5502 5523 "utilities/global/compiler_options.ml" 170 5502 5532
+type(
+  exn
+)
+"utilities/global/compiler_options.ml" 170 5502 5516 "utilities/global/compiler_options.ml" 170 5502 5533
+type(
+  'a
+)
+"utilities/global/compiler_options.ml" 170 5502 5512 "utilities/global/compiler_options.ml" 170 5502 5533
+type(
+  string -> 'a
+)
+"utilities/global/compiler_options.ml" 171 5537 5543 "utilities/global/compiler_options.ml" 171 5537 5553
+type(
+  bool ref
+)
+ident(
+  int_ref strict_ssa "utilities/global/compiler_options.ml" 146 4672 4676 "utilities/global/compiler_options.ml" 146 4672 4686
+)
+"utilities/global/compiler_options.ml" 171 5537 5542 "utilities/global/compiler_options.ml" 171 5537 5553
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 173 5563 5571 "utilities/global/compiler_options.ml" 173 5563 5583
+type(
+  bool ref
+)
+ident(
+  int_ref do_mem_alloc "utilities/global/compiler_options.ml" 137 4489 4493 "utilities/global/compiler_options.ml" 137 4489 4505
+)
+"utilities/global/compiler_options.ml" 173 5563 5570 "utilities/global/compiler_options.ml" 173 5563 5583
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 173 5563 5589 "utilities/global/compiler_options.ml" 173 5563 5592
+type(
+  string -> unit
+)
+ident(
+  int_ref err "utilities/global/compiler_options.ml" 170 5502 5508 "utilities/global/compiler_options.ml" 170 5502 5511
+)
+"utilities/global/compiler_options.ml" 173 5563 5593 "utilities/global/compiler_options.ml" 173 5563 5658
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 173 5563 5589 "utilities/global/compiler_options.ml" 173 5563 5658
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 173 5563 5567 "utilities/global/compiler_options.ml" 173 5563 5658
+type(
+  unit
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 174 5660 5668 "utilities/global/compiler_options.ml" 174 5660 5684
+type(
+  bool ref
+)
+ident(
+  int_ref do_linear_typing "utilities/global/compiler_options.ml" 138 4518 4522 "utilities/global/compiler_options.ml" 138 4518 4538
+)
+"utilities/global/compiler_options.ml" 174 5660 5667 "utilities/global/compiler_options.ml" 174 5660 5684
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_options.ml" 174 5660 5690 "utilities/global/compiler_options.ml" 174 5660 5693
+type(
+  string -> unit
+)
+ident(
+  int_ref err "utilities/global/compiler_options.ml" 170 5502 5508 "utilities/global/compiler_options.ml" 170 5502 5511
+)
+"utilities/global/compiler_options.ml" 174 5660 5694 "utilities/global/compiler_options.ml" 174 5660 5755
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 174 5660 5690 "utilities/global/compiler_options.ml" 174 5660 5755
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 174 5660 5664 "utilities/global/compiler_options.ml" 174 5660 5755
+type(
+  unit
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 173 5563 5567 "utilities/global/compiler_options.ml" 174 5660 5755
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 171 5537 5539 "utilities/global/compiler_options.ml" 175 5756 5759
+type(
+  unit
+)
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 170 5502 5504 "utilities/global/compiler_options.ml" 175 5756 5759
+type(
+  unit
+)
+"utilities/global/compiler_options.ml" 169 5479 5497 "utilities/global/compiler_options.ml" 175 5756 5759
+type(
+  unit -> unit
+)
+"utilities/global/compiler_options.ml" 177 5761 5765 "utilities/global/compiler_options.ml" 177 5761 5775
+type(
+  bool ref
+)
+ident(
+  def interf_all "utilities/global/compiler_options.ml" 179 5789 5789 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 177 5761 5778 "utilities/global/compiler_options.ml" 177 5761 5781
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 177 5761 5782 "utilities/global/compiler_options.ml" 177 5761 5787
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 177 5761 5778 "utilities/global/compiler_options.ml" 177 5761 5787
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 179 5789 5793 "utilities/global/compiler_options.ml" 179 5789 5804
+type(
+  bool ref
+)
+ident(
+  def time_passes "utilities/global/compiler_options.ml" 181 5818 5818 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 179 5789 5807 "utilities/global/compiler_options.ml" 179 5789 5810
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/global/compiler_options.ml" 179 5789 5811 "utilities/global/compiler_options.ml" 179 5789 5816
+type(
+  bool
+)
+"utilities/global/compiler_options.ml" 179 5789 5807 "utilities/global/compiler_options.ml" 179 5789 5816
+type(
+  bool ref
+)
+"utilities/global/compiler_options.ml" 181 5818 5822 "utilities/global/compiler_options.ml" 181 5818 5833
+type(
+  string
+)
+ident(
+  def doc_verbose "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 181 5818 5836 "utilities/global/compiler_options.ml" 181 5818 5860
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 182 5861 5865 "utilities/global/compiler_options.ml" 182 5861 5876
+type(
+  string
+)
+ident(
+  def doc_version "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 182 5861 5879 "utilities/global/compiler_options.ml" 182 5861 5912
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 183 5913 5917 "utilities/global/compiler_options.ml" 183 5913 5932
+type(
+  string
+)
+ident(
+  def doc_print_types "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 183 5913 5935 "utilities/global/compiler_options.ml" 183 5913 5954
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 184 5955 5959 "utilities/global/compiler_options.ml" 184 5955 5970
+type(
+  string
+)
+ident(
+  def doc_include "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 184 5955 5973 "utilities/global/compiler_options.ml" 184 5955 6028
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 185 6029 6033 "utilities/global/compiler_options.ml" 185 6029 6043
+type(
+  string
+)
+ident(
+  def doc_stdlib "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 185 6029 6046 "utilities/global/compiler_options.ml" 185 6029 6091
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 186 6092 6096 "utilities/global/compiler_options.ml" 186 6092 6111
+type(
+  string
+)
+ident(
+  def doc_object_file "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 186 6092 6114 "utilities/global/compiler_options.ml" 186 6092 6154
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 187 6155 6159 "utilities/global/compiler_options.ml" 187 6155 6166
+type(
+  string
+)
+ident(
+  def doc_sim "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 187 6155 6169 "utilities/global/compiler_options.ml" 187 6155 6214
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 188 6215 6219 "utilities/global/compiler_options.ml" 188 6215 6228
+type(
+  string
+)
+ident(
+  def doc_hepts "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 188 6215 6231 "utilities/global/compiler_options.ml" 188 6215 6279
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 189 6280 6284 "utilities/global/compiler_options.ml" 189 6280 6301
+type(
+  string
+)
+ident(
+  def doc_locate_stdlib "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 189 6280 6304 "utilities/global/compiler_options.ml" 189 6280 6332
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 190 6333 6337 "utilities/global/compiler_options.ml" 190 6333 6354
+type(
+  string
+)
+ident(
+  def doc_no_pervasives "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 190 6333 6357 "utilities/global/compiler_options.ml" 190 6333 6394
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 191 6395 6399 "utilities/global/compiler_options.ml" 191 6395 6410
+type(
+  string
+)
+ident(
+  def doc_flatten "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 191 6395 6413 "utilities/global/compiler_options.ml" 191 6395 6437
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 192 6438 6442 "utilities/global/compiler_options.ml" 192 6438 6452
+type(
+  string
+)
+ident(
+  def doc_target "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 193 6455 6457 "utilities/global/compiler_options.ml" 193 6455 6522
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 194 6523 6525 "utilities/global/compiler_options.ml" 194 6523 6526
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/compiler_options.ml" 194 6523 6527 "utilities/global/compiler_options.ml" 194 6523 6549
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 193 6455 6457 "utilities/global/compiler_options.ml" 194 6523 6549
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 195 6550 6554 "utilities/global/compiler_options.ml" 195 6550 6572
+type(
+  string
+)
+ident(
+  def doc_full_type_info "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 195 6550 6575 "utilities/global/compiler_options.ml" 195 6550 6610
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 196 6611 6615 "utilities/global/compiler_options.ml" 196 6611 6632
+type(
+  string
+)
+ident(
+  def doc_stateful_info "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 196 6611 6635 "utilities/global/compiler_options.ml" 196 6611 6667
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 197 6668 6672 "utilities/global/compiler_options.ml" 197 6668 6685
+type(
+  string
+)
+ident(
+  def doc_full_name "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 197 6668 6688 "utilities/global/compiler_options.ml" 197 6668 6730
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 198 6731 6735 "utilities/global/compiler_options.ml" 198 6731 6745
+type(
+  string
+)
+ident(
+  def doc_nbvars "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 198 6731 6748 "utilities/global/compiler_options.ml" 198 6731 6797
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 199 6798 6802 "utilities/global/compiler_options.ml" 199 6798 6817
+type(
+  string
+)
+ident(
+  def doc_target_path "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 200 6820 6822 "utilities/global/compiler_options.ml" 200 6820 6897
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 201 6898 6900 "utilities/global/compiler_options.ml" 201 6898 6901
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/compiler_options.ml" 201 6898 6902 "utilities/global/compiler_options.ml" 201 6898 6913
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 200 6820 6822 "utilities/global/compiler_options.ml" 201 6898 6913
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 202 6914 6918 "utilities/global/compiler_options.ml" 202 6914 6929
+type(
+  string
+)
+ident(
+  def doc_boolean "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 202 6914 6932 "utilities/global/compiler_options.ml" 202 6914 6989
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 203 6990 6994 "utilities/global/compiler_options.ml" 203 6990 7004
+type(
+  string
+)
+ident(
+  def doc_nosink "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 203 6990 7007 "utilities/global/compiler_options.ml" 203 6990 7056
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 204 7057 7061 "utilities/global/compiler_options.ml" 204 7057 7073
+type(
+  string
+)
+ident(
+  def doc_deadcode "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 204 7057 7076 "utilities/global/compiler_options.ml" 204 7057 7098
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 205 7099 7103 "utilities/global/compiler_options.ml" 205 7099 7113
+type(
+  string
+)
+ident(
+  def doc_nocaus "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 205 7099 7116 "utilities/global/compiler_options.ml" 205 7099 7148
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 206 7149 7153 "utilities/global/compiler_options.ml" 206 7149 7163
+type(
+  string
+)
+ident(
+  def doc_noinit "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 206 7149 7166 "utilities/global/compiler_options.ml" 206 7149 7203
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 207 7204 7208 "utilities/global/compiler_options.ml" 207 7204 7218
+type(
+  string
+)
+ident(
+  def doc_assert "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 207 7204 7221 "utilities/global/compiler_options.ml" 207 7204 7281
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 208 7282 7286 "utilities/global/compiler_options.ml" 208 7282 7296
+type(
+  string
+)
+ident(
+  def doc_inline "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 208 7282 7299 "utilities/global/compiler_options.ml" 208 7282 7327
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 209 7328 7332 "utilities/global/compiler_options.ml" 209 7328 7344
+type(
+  string
+)
+ident(
+  def doc_itfusion "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 209 7328 7347 "utilities/global/compiler_options.ml" 209 7328 7376
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 210 7377 7381 "utilities/global/compiler_options.ml" 210 7377 7391
+type(
+  string
+)
+ident(
+  def doc_tomato "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 210 7377 7394 "utilities/global/compiler_options.ml" 210 7377 7429
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 211 7430 7434 "utilities/global/compiler_options.ml" 211 7430 7448
+type(
+  string
+)
+ident(
+  def doc_strict_ssa "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 211 7430 7451 "utilities/global/compiler_options.ml" 211 7430 7520
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 212 7521 7525 "utilities/global/compiler_options.ml" 212 7521 7537
+type(
+  string
+)
+ident(
+  def doc_memalloc "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 212 7521 7540 "utilities/global/compiler_options.ml" 212 7521 7593
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 213 7594 7598 "utilities/global/compiler_options.ml" 213 7594 7615
+type(
+  string
+)
+ident(
+  def doc_memalloc_only "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 213 7594 7618 "utilities/global/compiler_options.ml" 213 7594 7646
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 214 7647 7651 "utilities/global/compiler_options.ml" 214 7647 7666
+type(
+  string
+)
+ident(
+  def doc_linear_only "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 214 7647 7669 "utilities/global/compiler_options.ml" 214 7647 7700
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 215 7701 7705 "utilities/global/compiler_options.ml" 215 7701 7725
+type(
+  string
+)
+ident(
+  def doc_interf_scheduler "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 215 7701 7728 "utilities/global/compiler_options.ml" 215 7701 7753
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 216 7754 7758 "utilities/global/compiler_options.ml" 216 7754 7767
+type(
+  string
+)
+ident(
+  def doc_optim "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 216 7754 7770 "utilities/global/compiler_options.ml" 216 7754 7831
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 217 7832 7836 "utilities/global/compiler_options.ml" 217 7832 7850
+type(
+  string
+)
+ident(
+  def doc_interf_all "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 217 7832 7853 "utilities/global/compiler_options.ml" 217 7832 7897
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 218 7898 7902 "utilities/global/compiler_options.ml" 218 7898 7912
+type(
+  string
+)
+ident(
+  def doc_unroll "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 218 7898 7915 "utilities/global/compiler_options.ml" 218 7898 7937
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 219 7938 7942 "utilities/global/compiler_options.ml" 219 7938 7957
+type(
+  string
+)
+ident(
+  def doc_time_passes "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 219 7938 7960 "utilities/global/compiler_options.ml" 219 7938 7989
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 220 7990 7994 "utilities/global/compiler_options.ml" 220 7990 8015
+type(
+  string
+)
+ident(
+  def doc_abstract_infinite "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 220 7990 8018 "utilities/global/compiler_options.ml" 220 7990 8070
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 221 8071 8075 "utilities/global/compiler_options.ml" 221 8071 8097
+type(
+  string
+)
+ident(
+  def doc_no_warn_untranslat "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 221 8071 8100 "utilities/global/compiler_options.ml" 221 8071 8153
+type(
+  string
+)
+"utilities/global/compiler_options.ml" 222 8154 8158 "utilities/global/compiler_options.ml" 222 8154 8182
+type(
+  string
+)
+ident(
+  def doc_no_warn_abstractions "utilities/global/compiler_options.ml" 222 8154 8218 "utilities/global/compiler_options.ml" 1 0 -1
+)
+"utilities/global/compiler_options.ml" 222 8154 8185 "utilities/global/compiler_options.ml" 222 8154 8218
+type(
+  string
+)

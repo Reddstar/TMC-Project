@@ -1,0 +1,44 @@
+
+
+COMP=g++
+LINKER=g++
+ADR_vtagv=vt
+
+INCL= -I$(JDK_INCLUDE) -I$(JDK_INCL_DEP) -I$(SignalLibC_export) \
+      -I$(ADR_EXPORT_RES) -I$(ADR_vtagv) -I$(ADR_liaison) -I$(ADR_spec_liaison)
+
+OBJ_RES=$(ADR_EXPORT_RES)/*.o
+OBJECTS=$(ADR_liaison)/LiaisonResolveur.o $(ADR_liaison)/LiaisonPacemaker.o $(ADR_spec_liaison)/LiaisonBody.o
+
+all: $(DEMOLIB)  $(ADR_vtagv)/vt_body.o
+$(DEMOLIB):$(OBJ_RES)   $(ADR_vtagv)/vt_body.o $(OBJECTS)
+	$(LINKER) -dynamiclib \
+        $(ADR_vtagv)/vt_body.o \
+	$(OBJ_RES) \
+        $(OBJECTS) \
+        -o $(DEMOLIB)
+
+$(ADR_liaison)/LiaisonResolveur.o:$(ADR_liaison)/LiaisonResolveur.c
+	$(COMP) -I$(INCL) -c $(ADR_liaison)/LiaisonResolveur.c -o $(ADR_liaison)/LiaisonResolveur.o
+
+$(ADR_liaison)/LiaisonPacemaker.o:$(ADR_liaison)/LiaisonPacemaker.c
+	$(COMP) -I$(INCL) -c $(ADR_liaison)/LiaisonPacemaker.c -o $(ADR_liaison)/LiaisonPacemaker.o
+
+$(ADR_spec_liaison)/LiaisonBody.o: $(ADR_spec_liaison)/LiaisonBody.c
+	$(COMP) -I$(INCL) -c $(ADR_spec_liaison)/LiaisonBody.c -o $(ADR_spec_liaison)/LiaisonBody.o
+
+$(ADR_vtagv)/vt_body.o:$(ADR_vtagv)/vt_body.c
+	$(CC) -I$(SignalLibC_export) -D_NO_PROTO -c $(ADR_vtagv)/vt_body.c -o $(ADR_vtagv)/vt_body.o
+
+$(ADR_vtagv)/vt_body.c:vt.SIG.SIG vt.PAR
+	$(Signal_bin)/signal -c -tra vt.SIG.SIG -par=vt.PAR
+
+
+clean:
+	\rm $(DEMOLIB) $(ADR_vtagv)/vt_body.o
+
+force: clean  all
+
+
+
+

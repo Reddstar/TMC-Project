@@ -1,0 +1,650 @@
+"obc/transformations/simplify.ml" 43 2255 2259 "obc/transformations/simplify.ml" 43 2255 2271
+type(
+  'a Obc_mapfold.obc_it_funs ->
+  'a -> Obc.ext_value_desc -> Obc.ext_value_desc * 'a
+)
+ident(
+  def extvaluedesc "obc/transformations/simplify.ml" 69 3206 3206 "obc/transformations/simplify.ml" 1 0 -1
+)
+"obc/transformations/simplify.ml" 43 2255 2272 "obc/transformations/simplify.ml" 43 2255 2276
+type(
+  'a Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/simplify.ml" 43 2255 2277 "obc/transformations/simplify.ml" 67 3174 3204
+)
+"obc/transformations/simplify.ml" 43 2255 2277 "obc/transformations/simplify.ml" 43 2255 2280
+type(
+  'a
+)
+ident(
+  def acc "obc/transformations/simplify.ml" 43 2255 2281 "obc/transformations/simplify.ml" 67 3174 3204
+)
+"obc/transformations/simplify.ml" 43 2255 2281 "obc/transformations/simplify.ml" 43 2255 2284
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def evd "obc/transformations/simplify.ml" 43 2255 2287 "obc/transformations/simplify.ml" 67 3174 3204
+)
+"obc/transformations/simplify.ml" 43 2255 2293 "obc/transformations/simplify.ml" 43 2255 2296
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref evd "obc/transformations/simplify.ml" 43 2255 2281 "obc/transformations/simplify.ml" 43 2255 2284
+)
+"obc/transformations/simplify.ml" 44 2302 2314 "obc/transformations/simplify.ml" 44 2302 2316
+type(
+  Obc.ext_value
+)
+ident(
+  def ev "obc/transformations/simplify.ml" 45 2323 2329 "obc/transformations/simplify.ml" 66 3166 3173
+)
+"obc/transformations/simplify.ml" 44 2302 2317 "obc/transformations/simplify.ml" 44 2302 2318
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/transformations/simplify.ml" 45 2323 2329 "obc/transformations/simplify.ml" 66 3166 3173
+)
+"obc/transformations/simplify.ml" 44 2302 2306 "obc/transformations/simplify.ml" 44 2302 2319
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 45 2323 2333 "obc/transformations/simplify.ml" 45 2323 2335
+type(
+  Obc.ext_value
+)
+ident(
+  def ev "obc/transformations/simplify.ml" 46 2370 2376 "obc/transformations/simplify.ml" 66 3166 3173
+)
+"obc/transformations/simplify.ml" 45 2323 2337 "obc/transformations/simplify.ml" 45 2323 2340
+type(
+  'a
+)
+ident(
+  def acc "obc/transformations/simplify.ml" 46 2370 2376 "obc/transformations/simplify.ml" 66 3166 3173
+)
+"obc/transformations/simplify.ml" 45 2323 2333 "obc/transformations/simplify.ml" 45 2323 2340
+type(
+  Obc.ext_value * 'a
+)
+"obc/transformations/simplify.ml" 45 2323 2343 "obc/transformations/simplify.ml" 45 2323 2354
+type(
+  'a Obc_mapfold.obc_it_funs -> 'a -> Obc.ext_value -> Obc.ext_value * 'a
+)
+ident(
+  ext_ref Obc_mapfold.extvalue_it
+)
+"obc/transformations/simplify.ml" 45 2323 2355 "obc/transformations/simplify.ml" 45 2323 2359
+type(
+  'a Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/simplify.ml" 43 2255 2272 "obc/transformations/simplify.ml" 43 2255 2276
+)
+"obc/transformations/simplify.ml" 45 2323 2360 "obc/transformations/simplify.ml" 45 2323 2363
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/simplify.ml" 43 2255 2277 "obc/transformations/simplify.ml" 43 2255 2280
+)
+"obc/transformations/simplify.ml" 45 2323 2364 "obc/transformations/simplify.ml" 45 2323 2366
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref ev "obc/transformations/simplify.ml" 44 2302 2314 "obc/transformations/simplify.ml" 44 2302 2316
+)
+"obc/transformations/simplify.ml" 45 2323 2343 "obc/transformations/simplify.ml" 45 2323 2366
+call(
+  stack
+)
+type(
+  Obc.ext_value * 'a
+)
+"obc/transformations/simplify.ml" 46 2370 2383 "obc/transformations/simplify.ml" 46 2370 2385
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref ev "obc/transformations/simplify.ml" 45 2323 2333 "obc/transformations/simplify.ml" 45 2323 2335
+)
+"obc/transformations/simplify.ml" 46 2370 2383 "obc/transformations/simplify.ml" 46 2370 2392
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 47 2398 2415 "obc/transformations/simplify.ml" 47 2398 2417
+type(
+  Types.static_exp
+)
+ident(
+  def se "obc/transformations/simplify.ml" 48 2421 2431 "obc/transformations/simplify.ml" 64 3117 3128
+)
+"obc/transformations/simplify.ml" 47 2398 2408 "obc/transformations/simplify.ml" 47 2398 2417
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 48 2421 2435 "obc/transformations/simplify.ml" 48 2421 2437
+type(
+  Types.static_exp
+)
+ident(
+  def se "obc/transformations/simplify.ml" 49 2469 2479 "obc/transformations/simplify.ml" 64 3117 3128
+)
+"obc/transformations/simplify.ml" 48 2421 2440 "obc/transformations/simplify.ml" 48 2421 2448
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  ext_ref Static.simplify
+)
+"obc/transformations/simplify.ml" 48 2421 2449 "obc/transformations/simplify.ml" 48 2421 2462
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"obc/transformations/simplify.ml" 48 2421 2463 "obc/transformations/simplify.ml" 48 2421 2465
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "obc/transformations/simplify.ml" 47 2398 2415 "obc/transformations/simplify.ml" 47 2398 2417
+)
+"obc/transformations/simplify.ml" 48 2421 2440 "obc/transformations/simplify.ml" 48 2421 2465
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"obc/transformations/simplify.ml" 49 2469 2486 "obc/transformations/simplify.ml" 49 2469 2488
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "obc/transformations/simplify.ml" 48 2421 2435 "obc/transformations/simplify.ml" 48 2421 2437
+)
+"obc/transformations/simplify.ml" 49 2469 2486 "obc/transformations/simplify.ml" 49 2469 2496
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 50 2502 2530 "obc/transformations/simplify.ml" 50 2502 2532
+type(
+  Types.static_exp
+)
+ident(
+  def sv "obc/transformations/simplify.ml" 51 2542 2556 "obc/transformations/simplify.ml" 51 2542 2570
+)
+"obc/transformations/simplify.ml" 50 2502 2535 "obc/transformations/simplify.ml" 50 2502 2536
+type(
+  Types.static_exp
+)
+"obc/transformations/simplify.ml" 50 2502 2534 "obc/transformations/simplify.ml" 50 2502 2537
+type(
+  Types.static_exp list
+)
+"obc/transformations/simplify.ml" 50 2502 2516 "obc/transformations/simplify.ml" 50 2502 2538
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 51 2542 2563 "obc/transformations/simplify.ml" 51 2542 2565
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sv "obc/transformations/simplify.ml" 50 2502 2530 "obc/transformations/simplify.ml" 50 2502 2532
+)
+"obc/transformations/simplify.ml" 51 2542 2556 "obc/transformations/simplify.ml" 51 2542 2565
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 51 2542 2567 "obc/transformations/simplify.ml" 51 2542 2570
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/simplify.ml" 45 2323 2337 "obc/transformations/simplify.ml" 45 2323 2340
+)
+"obc/transformations/simplify.ml" 51 2542 2556 "obc/transformations/simplify.ml" 51 2542 2570
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 52 2571 2599 "obc/transformations/simplify.ml" 52 2571 2601
+type(
+  Types.static_exp
+)
+ident(
+  def sv "obc/transformations/simplify.ml" 53 2614 2628 "obc/transformations/simplify.ml" 53 2614 2683
+)
+"obc/transformations/simplify.ml" 52 2571 2603 "obc/transformations/simplify.ml" 52 2571 2604
+type(
+  Types.static_exp
+)
+"obc/transformations/simplify.ml" 52 2571 2606 "obc/transformations/simplify.ml" 52 2571 2609
+type(
+  Types.static_exp list
+)
+ident(
+  def idx "obc/transformations/simplify.ml" 53 2614 2628 "obc/transformations/simplify.ml" 53 2614 2683
+)
+"obc/transformations/simplify.ml" 52 2571 2603 "obc/transformations/simplify.ml" 52 2571 2609
+type(
+  Types.static_exp list
+)
+"obc/transformations/simplify.ml" 52 2571 2585 "obc/transformations/simplify.ml" 52 2571 2610
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 53 2614 2637 "obc/transformations/simplify.ml" 53 2614 2639
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "obc/transformations/simplify.ml" 48 2421 2435 "obc/transformations/simplify.ml" 48 2421 2437
+)
+"obc/transformations/simplify.ml" 53 2614 2669 "obc/transformations/simplify.ml" 53 2614 2671
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sv "obc/transformations/simplify.ml" 52 2571 2599 "obc/transformations/simplify.ml" 52 2571 2601
+)
+"obc/transformations/simplify.ml" 53 2614 2673 "obc/transformations/simplify.ml" 53 2614 2676
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref idx "obc/transformations/simplify.ml" 52 2571 2606 "obc/transformations/simplify.ml" 52 2571 2609
+)
+"obc/transformations/simplify.ml" 53 2614 2655 "obc/transformations/simplify.ml" 53 2614 2677
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 53 2614 2635 "obc/transformations/simplify.ml" 53 2614 2678
+type(
+  Types.static_exp
+)
+"obc/transformations/simplify.ml" 53 2614 2628 "obc/transformations/simplify.ml" 53 2614 2678
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 53 2614 2680 "obc/transformations/simplify.ml" 53 2614 2683
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/simplify.ml" 45 2323 2337 "obc/transformations/simplify.ml" 45 2323 2340
+)
+"obc/transformations/simplify.ml" 53 2614 2628 "obc/transformations/simplify.ml" 53 2614 2683
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 54 2684 2705 "obc/transformations/simplify.ml" 54 2684 2709
+type(
+  Types.static_exp list
+)
+ident(
+  def sv_l "obc/transformations/simplify.ml" 55 2713 2727 "obc/transformations/simplify.ml" 62 3060 3075
+)
+"obc/transformations/simplify.ml" 54 2684 2698 "obc/transformations/simplify.ml" 54 2684 2709
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 55 2713 2734 "obc/transformations/simplify.ml" 55 2713 2735
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/simplify.ml" 44 2302 2317 "obc/transformations/simplify.ml" 44 2302 2318
+)
+"obc/transformations/simplify.ml" 55 2713 2734 "obc/transformations/simplify.ml" 55 2713 2742
+type(
+  Obc.exp_desc
+)
+"obc/transformations/simplify.ml" 56 2748 2794 "obc/transformations/simplify.ml" 56 2748 2795
+type(
+  Types.static_exp
+)
+ident(
+  def i "obc/transformations/simplify.ml" 57 2801 2819 "obc/transformations/simplify.ml" 60 2963 3014
+)
+"obc/transformations/simplify.ml" 56 2748 2787 "obc/transformations/simplify.ml" 56 2748 2795
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 56 2748 2776 "obc/transformations/simplify.ml" 56 2748 2797
+type(
+  Obc.ext_value
+)
+"obc/transformations/simplify.ml" 56 2748 2766 "obc/transformations/simplify.ml" 56 2748 2797
+type(
+  Obc.exp_desc
+)
+"obc/transformations/simplify.ml" 58 2824 2849 "obc/transformations/simplify.ml" 58 2824 2855
+type(
+  int
+)
+ident(
+  def indice "obc/transformations/simplify.ml" 59 2895 2916 "obc/transformations/simplify.ml" 59 2895 2962
+)
+"obc/transformations/simplify.ml" 58 2824 2858 "obc/transformations/simplify.ml" 58 2824 2875
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> int
+)
+ident(
+  ext_ref Static.int_of_static_exp
+)
+"obc/transformations/simplify.ml" 58 2824 2876 "obc/transformations/simplify.ml" 58 2824 2889
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"obc/transformations/simplify.ml" 58 2824 2890 "obc/transformations/simplify.ml" 58 2824 2891
+type(
+  Types.static_exp
+)
+ident(
+  int_ref i "obc/transformations/simplify.ml" 56 2748 2794 "obc/transformations/simplify.ml" 56 2748 2795
+)
+"obc/transformations/simplify.ml" 58 2824 2858 "obc/transformations/simplify.ml" 58 2824 2891
+call(
+  stack
+)
+type(
+  int
+)
+"obc/transformations/simplify.ml" 59 2895 2924 "obc/transformations/simplify.ml" 59 2895 2940
+type(
+  int -> Types.static_exp list -> Types.static_exp
+)
+ident(
+  ext_ref Misc.nth_of_list
+)
+"obc/transformations/simplify.ml" 59 2895 2942 "obc/transformations/simplify.ml" 59 2895 2948
+type(
+  int
+)
+ident(
+  int_ref indice "obc/transformations/simplify.ml" 58 2824 2849 "obc/transformations/simplify.ml" 58 2824 2855
+)
+"obc/transformations/simplify.ml" 59 2895 2948 "obc/transformations/simplify.ml" 59 2895 2949
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/transformations/simplify.ml" 59 2895 2949 "obc/transformations/simplify.ml" 59 2895 2950
+type(
+  int
+)
+"obc/transformations/simplify.ml" 59 2895 2941 "obc/transformations/simplify.ml" 59 2895 2951
+type(
+  int
+)
+"obc/transformations/simplify.ml" 59 2895 2952 "obc/transformations/simplify.ml" 59 2895 2956
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref sv_l "obc/transformations/simplify.ml" 54 2684 2705 "obc/transformations/simplify.ml" 54 2684 2709
+)
+"obc/transformations/simplify.ml" 59 2895 2923 "obc/transformations/simplify.ml" 59 2895 2957
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"obc/transformations/simplify.ml" 59 2895 2916 "obc/transformations/simplify.ml" 59 2895 2957
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 59 2895 2959 "obc/transformations/simplify.ml" 59 2895 2962
+type(
+  'a
+)
+ident(
+  int_ref acc "obc/transformations/simplify.ml" 45 2323 2337 "obc/transformations/simplify.ml" 45 2323 2340
+)
+"obc/transformations/simplify.ml" 59 2895 2916 "obc/transformations/simplify.ml" 59 2895 2962
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 58 2824 2845 "obc/transformations/simplify.ml" 59 2895 2962
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 60 2963 2987 "obc/transformations/simplify.ml" 60 2963 2988
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 60 2963 2992 "obc/transformations/simplify.ml" 60 2963 2997
+type(
+  exn -> Obc.ext_value_desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/simplify.ml" 60 2963 2998 "obc/transformations/simplify.ml" 60 2963 3013
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 60 2963 2992 "obc/transformations/simplify.ml" 60 2963 3013
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 57 2801 2819 "obc/transformations/simplify.ml" 60 2963 3014
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 61 3015 3033 "obc/transformations/simplify.ml" 61 3015 3034
+type(
+  Obc.exp_desc
+)
+"obc/transformations/simplify.ml" 61 3015 3038 "obc/transformations/simplify.ml" 61 3015 3043
+type(
+  exn -> Obc.ext_value_desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/simplify.ml" 61 3015 3044 "obc/transformations/simplify.ml" 61 3015 3059
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 61 3015 3038 "obc/transformations/simplify.ml" 61 3015 3059
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 55 2713 2727 "obc/transformations/simplify.ml" 62 3060 3075
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 63 3076 3090 "obc/transformations/simplify.ml" 63 3076 3091
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/simplify.ml" 63 3076 3095 "obc/transformations/simplify.ml" 63 3076 3100
+type(
+  exn -> Obc.ext_value_desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/simplify.ml" 63 3076 3101 "obc/transformations/simplify.ml" 63 3076 3116
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 63 3076 3095 "obc/transformations/simplify.ml" 63 3076 3116
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 49 2469 2479 "obc/transformations/simplify.ml" 64 3117 3128
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 48 2421 2431 "obc/transformations/simplify.ml" 64 3117 3128
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 65 3129 3139 "obc/transformations/simplify.ml" 65 3129 3140
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 65 3129 3144 "obc/transformations/simplify.ml" 65 3129 3149
+type(
+  exn -> Obc.ext_value_desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/simplify.ml" 65 3129 3150 "obc/transformations/simplify.ml" 65 3129 3165
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 65 3129 3144 "obc/transformations/simplify.ml" 65 3129 3165
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 46 2370 2376 "obc/transformations/simplify.ml" 66 3166 3173
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 45 2323 2329 "obc/transformations/simplify.ml" 66 3166 3173
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 67 3174 3178 "obc/transformations/simplify.ml" 67 3174 3179
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/simplify.ml" 67 3174 3183 "obc/transformations/simplify.ml" 67 3174 3188
+type(
+  exn -> Obc.ext_value_desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/transformations/simplify.ml" 67 3174 3189 "obc/transformations/simplify.ml" 67 3174 3204
+type(
+  exn
+)
+"obc/transformations/simplify.ml" 67 3174 3183 "obc/transformations/simplify.ml" 67 3174 3204
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 43 2255 2287 "obc/transformations/simplify.ml" 67 3174 3204
+type(
+  Obc.ext_value_desc * 'a
+)
+"obc/transformations/simplify.ml" 69 3206 3210 "obc/transformations/simplify.ml" 69 3206 3217
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/transformations/simplify.ml" 72 3315 3318 "obc/transformations/simplify.ml" 1 0 -1
+)
+"obc/transformations/simplify.ml" 69 3206 3218 "obc/transformations/simplify.ml" 69 3206 3219
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/simplify.ml" 70 3222 3224 "obc/transformations/simplify.ml" 72 3315 3318
+)
+"obc/transformations/simplify.ml" 70 3222 3228 "obc/transformations/simplify.ml" 70 3222 3232
+type(
+  'a Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/simplify.ml" 71 3278 3280 "obc/transformations/simplify.ml" 72 3315 3318
+)
+"obc/transformations/simplify.ml" 70 3222 3237 "obc/transformations/simplify.ml" 70 3222 3245
+type(
+  'a Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/simplify.ml" 70 3222 3260 "obc/transformations/simplify.ml" 70 3222 3272
+type(
+  'a Obc_mapfold.obc_it_funs ->
+  'a -> Obc.ext_value_desc -> Obc.ext_value_desc * 'a
+)
+ident(
+  int_ref extvaluedesc "obc/transformations/simplify.ml" 43 2255 2259 "obc/transformations/simplify.ml" 43 2255 2271
+)
+"obc/transformations/simplify.ml" 70 3222 3235 "obc/transformations/simplify.ml" 70 3222 3274
+type(
+  'a Obc_mapfold.obc_it_funs
+)
+"obc/transformations/simplify.ml" 71 3278 3284 "obc/transformations/simplify.ml" 71 3278 3285
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/simplify.ml" 72 3315 3317 "obc/transformations/simplify.ml" 72 3315 3318
+)
+"obc/transformations/simplify.ml" 71 3278 3287 "obc/transformations/simplify.ml" 71 3278 3288
+type(
+  'b list
+)
+"obc/transformations/simplify.ml" 71 3278 3284 "obc/transformations/simplify.ml" 71 3278 3288
+type(
+  Obc.program * 'b list
+)
+"obc/transformations/simplify.ml" 71 3278 3291 "obc/transformations/simplify.ml" 71 3278 3301
+type(
+  'b list Obc_mapfold.obc_it_funs ->
+  'b list -> Obc.program -> Obc.program * 'b list
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/transformations/simplify.ml" 71 3278 3302 "obc/transformations/simplify.ml" 71 3278 3306
+type(
+  'b list Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/simplify.ml" 70 3222 3228 "obc/transformations/simplify.ml" 70 3222 3232
+)
+"obc/transformations/simplify.ml" 71 3278 3307 "obc/transformations/simplify.ml" 71 3278 3309
+type(
+  'b list
+)
+"obc/transformations/simplify.ml" 71 3278 3310 "obc/transformations/simplify.ml" 71 3278 3311
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/simplify.ml" 69 3206 3218 "obc/transformations/simplify.ml" 69 3206 3219
+)
+"obc/transformations/simplify.ml" 71 3278 3291 "obc/transformations/simplify.ml" 71 3278 3311
+call(
+  stack
+)
+type(
+  Obc.program * 'b list
+)
+"obc/transformations/simplify.ml" 72 3315 3317 "obc/transformations/simplify.ml" 72 3315 3318
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/simplify.ml" 71 3278 3284 "obc/transformations/simplify.ml" 71 3278 3285
+)
+"obc/transformations/simplify.ml" 71 3278 3280 "obc/transformations/simplify.ml" 72 3315 3318
+type(
+  Obc.program
+)
+"obc/transformations/simplify.ml" 70 3222 3224 "obc/transformations/simplify.ml" 72 3315 3318
+type(
+  Obc.program
+)

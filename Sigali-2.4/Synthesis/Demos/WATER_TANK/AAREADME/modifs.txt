@@ -1,0 +1,31 @@
+/** \page note Some modifications
+
+   You can modify the file vt.z3z to accelerate the "sigali compiling" by
+      - replacing the line  (after the declare( ) area )
+        \verbatim
+               CLK_d_normal : d_normal ^2;
+        \endverbatim
+        by
+        \verbatim
+	       CLK_d_normal : 1;
+        \endverbatim
+
+      - and reporting this definition as a constraint in ("constraints" area), 
+        \verbatim
+	        Mvt_Mouse_1 ^2 = CLK_Mvt_Mouse_1,
+        \endverbatim
+        you will have the following lines
+        \verbatim
+              constraints: [
+                   d_normal ^2 = CLK_d_normal ,
+                   d_run ^2 = CLK_d_normal,
+                   d_stuck ^2 = CLK_d_normal,
+                   ...
+        \endverbatim
+
+
+ This basically  says that at  each instant, all  the input events  are present.
+ Otherwise, during the  simulation, <b> the automatic mode of simulation will most of
+ the time choose the input events to be absent</b>.
+
+*/

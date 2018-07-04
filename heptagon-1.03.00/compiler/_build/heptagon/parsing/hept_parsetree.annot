@@ -1,0 +1,1105 @@
+"heptagon/parsing/hept_parsetree.ml" 267 7344 7348 "heptagon/parsing/hept_parsetree.ml" 267 7344 7354
+type(
+  edesc -> ?ct_annot:ct option -> Location.location -> exp
+)
+ident(
+  def mk_exp "heptagon/parsing/hept_parsetree.ml" 270 7442 7442 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 267 7344 7355 "heptagon/parsing/hept_parsetree.ml" 267 7344 7359
+type(
+  edesc
+)
+ident(
+  def desc "heptagon/parsing/hept_parsetree.ml" 267 7344 7360 "heptagon/parsing/hept_parsetree.ml" 268 7385 7440
+)
+"heptagon/parsing/hept_parsetree.ml" 267 7344 7362 "heptagon/parsing/hept_parsetree.ml" 267 7344 7370
+type(
+  ct option
+)
+"heptagon/parsing/hept_parsetree.ml" 267 7344 7373 "heptagon/parsing/hept_parsetree.ml" 267 7344 7377
+type(
+  ct option
+)
+type(
+  ct option
+)
+ident(
+  int_ref *sth* "heptagon/parsing/hept_parsetree.ml" 267 7344 7373 "heptagon/parsing/hept_parsetree.ml" 267 7344 7377
+)
+type(
+  ct option option
+)
+type(
+  ct option option
+)
+type(
+  ct option
+)
+"heptagon/parsing/hept_parsetree.ml" 267 7344 7379 "heptagon/parsing/hept_parsetree.ml" 267 7344 7382
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 268 7385 7387 "heptagon/parsing/hept_parsetree.ml" 268 7385 7440
+)
+"heptagon/parsing/hept_parsetree.ml" 268 7385 7398 "heptagon/parsing/hept_parsetree.ml" 268 7385 7402
+type(
+  edesc
+)
+ident(
+  int_ref desc "heptagon/parsing/hept_parsetree.ml" 267 7344 7355 "heptagon/parsing/hept_parsetree.ml" 267 7344 7359
+)
+"heptagon/parsing/hept_parsetree.ml" 268 7385 7417 "heptagon/parsing/hept_parsetree.ml" 268 7385 7425
+type(
+  ct option
+)
+ident(
+  int_ref ct_annot "heptagon/parsing/hept_parsetree.ml" 267 7344 7362 "heptagon/parsing/hept_parsetree.ml" 267 7344 7370
+)
+"heptagon/parsing/hept_parsetree.ml" 268 7385 7435 "heptagon/parsing/hept_parsetree.ml" 268 7385 7438
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 267 7344 7379 "heptagon/parsing/hept_parsetree.ml" 267 7344 7382
+)
+"heptagon/parsing/hept_parsetree.ml" 268 7385 7387 "heptagon/parsing/hept_parsetree.ml" 268 7385 7440
+type(
+  exp
+)
+"heptagon/parsing/hept_parsetree.ml" 270 7442 7446 "heptagon/parsing/hept_parsetree.ml" 270 7442 7452
+type(
+  op -> exp list -> bool -> app
+)
+ident(
+  def mk_app "heptagon/parsing/hept_parsetree.ml" 273 7530 7530 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 270 7442 7453 "heptagon/parsing/hept_parsetree.ml" 270 7442 7455
+type(
+  op
+)
+ident(
+  def op "heptagon/parsing/hept_parsetree.ml" 270 7442 7456 "heptagon/parsing/hept_parsetree.ml" 271 7473 7528
+)
+"heptagon/parsing/hept_parsetree.ml" 270 7442 7456 "heptagon/parsing/hept_parsetree.ml" 270 7442 7462
+type(
+  exp list
+)
+ident(
+  def params "heptagon/parsing/hept_parsetree.ml" 270 7442 7463 "heptagon/parsing/hept_parsetree.ml" 271 7473 7528
+)
+"heptagon/parsing/hept_parsetree.ml" 270 7442 7463 "heptagon/parsing/hept_parsetree.ml" 270 7442 7470
+type(
+  bool
+)
+ident(
+  def inlined "heptagon/parsing/hept_parsetree.ml" 271 7473 7475 "heptagon/parsing/hept_parsetree.ml" 271 7473 7528
+)
+"heptagon/parsing/hept_parsetree.ml" 271 7473 7484 "heptagon/parsing/hept_parsetree.ml" 271 7473 7486
+type(
+  op
+)
+ident(
+  int_ref op "heptagon/parsing/hept_parsetree.ml" 270 7442 7453 "heptagon/parsing/hept_parsetree.ml" 270 7442 7455
+)
+"heptagon/parsing/hept_parsetree.ml" 271 7473 7499 "heptagon/parsing/hept_parsetree.ml" 271 7473 7505
+type(
+  exp list
+)
+ident(
+  int_ref params "heptagon/parsing/hept_parsetree.ml" 270 7442 7456 "heptagon/parsing/hept_parsetree.ml" 270 7442 7462
+)
+"heptagon/parsing/hept_parsetree.ml" 271 7473 7519 "heptagon/parsing/hept_parsetree.ml" 271 7473 7526
+type(
+  bool
+)
+ident(
+  int_ref inlined "heptagon/parsing/hept_parsetree.ml" 270 7442 7463 "heptagon/parsing/hept_parsetree.ml" 270 7442 7470
+)
+"heptagon/parsing/hept_parsetree.ml" 271 7473 7475 "heptagon/parsing/hept_parsetree.ml" 271 7473 7528
+type(
+  app
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7534 "heptagon/parsing/hept_parsetree.ml" 273 7530 7541
+type(
+  ?params:exp list -> ?inlined:bool -> op -> exp list -> edesc
+)
+ident(
+  def mk_call "heptagon/parsing/hept_parsetree.ml" 276 7623 7623 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7544 "heptagon/parsing/hept_parsetree.ml" 273 7530 7550
+type(
+  exp list
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7551 "heptagon/parsing/hept_parsetree.ml" 273 7530 7553
+type(
+  exp list
+)
+type(
+  exp list
+)
+ident(
+  int_ref *sth* "heptagon/parsing/hept_parsetree.ml" 273 7530 7551 "heptagon/parsing/hept_parsetree.ml" 273 7530 7553
+)
+type(
+  exp list option
+)
+type(
+  exp list option
+)
+type(
+  exp list
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7557 "heptagon/parsing/hept_parsetree.ml" 273 7530 7564
+type(
+  bool
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7565 "heptagon/parsing/hept_parsetree.ml" 273 7530 7570
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/parsing/hept_parsetree.ml" 273 7530 7565 "heptagon/parsing/hept_parsetree.ml" 273 7530 7570
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7572 "heptagon/parsing/hept_parsetree.ml" 273 7530 7574
+type(
+  op
+)
+ident(
+  def op "heptagon/parsing/hept_parsetree.ml" 273 7530 7575 "heptagon/parsing/hept_parsetree.ml" 274 7582 7621
+)
+"heptagon/parsing/hept_parsetree.ml" 273 7530 7575 "heptagon/parsing/hept_parsetree.ml" 273 7530 7579
+type(
+  exp list
+)
+ident(
+  def exps "heptagon/parsing/hept_parsetree.ml" 274 7582 7584 "heptagon/parsing/hept_parsetree.ml" 274 7582 7621
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7590 "heptagon/parsing/hept_parsetree.ml" 274 7582 7596
+type(
+  op -> exp list -> bool -> app
+)
+ident(
+  int_ref mk_app "heptagon/parsing/hept_parsetree.ml" 270 7442 7446 "heptagon/parsing/hept_parsetree.ml" 270 7442 7452
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7597 "heptagon/parsing/hept_parsetree.ml" 274 7582 7599
+type(
+  op
+)
+ident(
+  int_ref op "heptagon/parsing/hept_parsetree.ml" 273 7530 7572 "heptagon/parsing/hept_parsetree.ml" 273 7530 7574
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7600 "heptagon/parsing/hept_parsetree.ml" 274 7582 7606
+type(
+  exp list
+)
+ident(
+  int_ref params "heptagon/parsing/hept_parsetree.ml" 273 7530 7544 "heptagon/parsing/hept_parsetree.ml" 273 7530 7550
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7607 "heptagon/parsing/hept_parsetree.ml" 274 7582 7614
+type(
+  bool
+)
+ident(
+  int_ref inlined "heptagon/parsing/hept_parsetree.ml" 273 7530 7557 "heptagon/parsing/hept_parsetree.ml" 273 7530 7564
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7590 "heptagon/parsing/hept_parsetree.ml" 274 7582 7614
+call(
+  stack
+)
+type(
+  app
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7616 "heptagon/parsing/hept_parsetree.ml" 274 7582 7620
+type(
+  exp list
+)
+ident(
+  int_ref exps "heptagon/parsing/hept_parsetree.ml" 273 7530 7575 "heptagon/parsing/hept_parsetree.ml" 273 7530 7579
+)
+"heptagon/parsing/hept_parsetree.ml" 274 7582 7584 "heptagon/parsing/hept_parsetree.ml" 274 7582 7621
+type(
+  edesc
+)
+"heptagon/parsing/hept_parsetree.ml" 276 7623 7627 "heptagon/parsing/hept_parsetree.ml" 276 7623 7637
+type(
+  ?params:exp list -> Names.name -> exp list -> edesc
+)
+ident(
+  def mk_op_call "heptagon/parsing/hept_parsetree.ml" 279 7707 7707 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 276 7623 7640 "heptagon/parsing/hept_parsetree.ml" 276 7623 7646
+type(
+  exp list
+)
+"heptagon/parsing/hept_parsetree.ml" 276 7623 7647 "heptagon/parsing/hept_parsetree.ml" 276 7623 7649
+type(
+  exp list
+)
+type(
+  exp list
+)
+ident(
+  int_ref *sth* "heptagon/parsing/hept_parsetree.ml" 276 7623 7647 "heptagon/parsing/hept_parsetree.ml" 276 7623 7649
+)
+type(
+  exp list option
+)
+type(
+  exp list option
+)
+type(
+  exp list
+)
+"heptagon/parsing/hept_parsetree.ml" 276 7623 7651 "heptagon/parsing/hept_parsetree.ml" 276 7623 7652
+type(
+  Names.name
+)
+ident(
+  def s "heptagon/parsing/hept_parsetree.ml" 276 7623 7653 "heptagon/parsing/hept_parsetree.ml" 277 7660 7705
+)
+"heptagon/parsing/hept_parsetree.ml" 276 7623 7653 "heptagon/parsing/hept_parsetree.ml" 276 7623 7657
+type(
+  exp list
+)
+ident(
+  def exps "heptagon/parsing/hept_parsetree.ml" 277 7660 7662 "heptagon/parsing/hept_parsetree.ml" 277 7660 7705
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7662 "heptagon/parsing/hept_parsetree.ml" 277 7660 7669
+type(
+  ?params:exp list -> ?inlined:bool -> op -> exp list -> edesc
+)
+ident(
+  int_ref mk_call "heptagon/parsing/hept_parsetree.ml" 273 7530 7534 "heptagon/parsing/hept_parsetree.ml" 273 7530 7541
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7678 "heptagon/parsing/hept_parsetree.ml" 277 7660 7684
+type(
+  exp list
+)
+ident(
+  int_ref params "heptagon/parsing/hept_parsetree.ml" 276 7623 7640 "heptagon/parsing/hept_parsetree.ml" 276 7623 7646
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7697 "heptagon/parsing/hept_parsetree.ml" 277 7660 7698
+type(
+  Names.name
+)
+ident(
+  int_ref s "heptagon/parsing/hept_parsetree.ml" 276 7623 7651 "heptagon/parsing/hept_parsetree.ml" 276 7623 7652
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7692 "heptagon/parsing/hept_parsetree.ml" 277 7660 7699
+type(
+  qualname
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7685 "heptagon/parsing/hept_parsetree.ml" 277 7660 7700
+type(
+  op
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7701 "heptagon/parsing/hept_parsetree.ml" 277 7660 7705
+type(
+  exp list
+)
+ident(
+  int_ref exps "heptagon/parsing/hept_parsetree.ml" 276 7623 7653 "heptagon/parsing/hept_parsetree.ml" 276 7623 7657
+)
+"heptagon/parsing/hept_parsetree.ml" 277 7660 7662 "heptagon/parsing/hept_parsetree.ml" 277 7660 7705
+call(
+  tail
+)
+type(
+  edesc
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7711 "heptagon/parsing/hept_parsetree.ml" 279 7707 7727
+type(
+  iterator_type ->
+  qualname -> exp list -> exp list -> exp list -> exp list -> edesc
+)
+ident(
+  def mk_iterator_call "heptagon/parsing/hept_parsetree.ml" 282 7832 7832 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7728 "heptagon/parsing/hept_parsetree.ml" 279 7707 7730
+type(
+  iterator_type
+)
+ident(
+  def it "heptagon/parsing/hept_parsetree.ml" 279 7707 7731 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7731 "heptagon/parsing/hept_parsetree.ml" 279 7707 7733
+type(
+  qualname
+)
+ident(
+  def ln "heptagon/parsing/hept_parsetree.ml" 279 7707 7734 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7734 "heptagon/parsing/hept_parsetree.ml" 279 7707 7740
+type(
+  exp list
+)
+ident(
+  def params "heptagon/parsing/hept_parsetree.ml" 279 7707 7741 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7741 "heptagon/parsing/hept_parsetree.ml" 279 7707 7747
+type(
+  exp list
+)
+ident(
+  def n_list "heptagon/parsing/hept_parsetree.ml" 279 7707 7748 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7748 "heptagon/parsing/hept_parsetree.ml" 279 7707 7753
+type(
+  exp list
+)
+ident(
+  def pexps "heptagon/parsing/hept_parsetree.ml" 279 7707 7754 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 279 7707 7754 "heptagon/parsing/hept_parsetree.ml" 279 7707 7758
+type(
+  exp list
+)
+ident(
+  def exps "heptagon/parsing/hept_parsetree.ml" 280 7761 7763 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7774 "heptagon/parsing/hept_parsetree.ml" 280 7761 7776
+type(
+  iterator_type
+)
+ident(
+  int_ref it "heptagon/parsing/hept_parsetree.ml" 279 7707 7728 "heptagon/parsing/hept_parsetree.ml" 279 7707 7730
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7778 "heptagon/parsing/hept_parsetree.ml" 280 7761 7784
+type(
+  op -> exp list -> bool -> app
+)
+ident(
+  int_ref mk_app "heptagon/parsing/hept_parsetree.ml" 270 7442 7446 "heptagon/parsing/hept_parsetree.ml" 270 7442 7452
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7792 "heptagon/parsing/hept_parsetree.ml" 280 7761 7794
+type(
+  qualname
+)
+ident(
+  int_ref ln "heptagon/parsing/hept_parsetree.ml" 279 7707 7731 "heptagon/parsing/hept_parsetree.ml" 279 7707 7733
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7785 "heptagon/parsing/hept_parsetree.ml" 280 7761 7795
+type(
+  op
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7796 "heptagon/parsing/hept_parsetree.ml" 280 7761 7802
+type(
+  exp list
+)
+ident(
+  int_ref params "heptagon/parsing/hept_parsetree.ml" 279 7707 7734 "heptagon/parsing/hept_parsetree.ml" 279 7707 7740
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7803 "heptagon/parsing/hept_parsetree.ml" 280 7761 7808
+type(
+  bool
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7778 "heptagon/parsing/hept_parsetree.ml" 280 7761 7808
+call(
+  stack
+)
+type(
+  app
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7810 "heptagon/parsing/hept_parsetree.ml" 280 7761 7816
+type(
+  exp list
+)
+ident(
+  int_ref n_list "heptagon/parsing/hept_parsetree.ml" 279 7707 7741 "heptagon/parsing/hept_parsetree.ml" 279 7707 7747
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7818 "heptagon/parsing/hept_parsetree.ml" 280 7761 7823
+type(
+  exp list
+)
+ident(
+  int_ref pexps "heptagon/parsing/hept_parsetree.ml" 279 7707 7748 "heptagon/parsing/hept_parsetree.ml" 279 7707 7753
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7825 "heptagon/parsing/hept_parsetree.ml" 280 7761 7829
+type(
+  exp list
+)
+ident(
+  int_ref exps "heptagon/parsing/hept_parsetree.ml" 279 7707 7754 "heptagon/parsing/hept_parsetree.ml" 279 7707 7758
+)
+"heptagon/parsing/hept_parsetree.ml" 280 7761 7763 "heptagon/parsing/hept_parsetree.ml" 280 7761 7830
+type(
+  edesc
+)
+"heptagon/parsing/hept_parsetree.ml" 282 7832 7836 "heptagon/parsing/hept_parsetree.ml" 282 7832 7849
+type(
+  static_exp_desc -> Location.location -> static_exp
+)
+ident(
+  def mk_static_exp "heptagon/parsing/hept_parsetree.ml" 285 7897 7897 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 282 7832 7850 "heptagon/parsing/hept_parsetree.ml" 282 7832 7854
+type(
+  static_exp_desc
+)
+ident(
+  def desc "heptagon/parsing/hept_parsetree.ml" 282 7832 7855 "heptagon/parsing/hept_parsetree.ml" 283 7861 7895
+)
+"heptagon/parsing/hept_parsetree.ml" 282 7832 7855 "heptagon/parsing/hept_parsetree.ml" 282 7832 7858
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 283 7861 7863 "heptagon/parsing/hept_parsetree.ml" 283 7861 7895
+)
+"heptagon/parsing/hept_parsetree.ml" 283 7861 7875 "heptagon/parsing/hept_parsetree.ml" 283 7861 7879
+type(
+  static_exp_desc
+)
+ident(
+  int_ref desc "heptagon/parsing/hept_parsetree.ml" 282 7832 7850 "heptagon/parsing/hept_parsetree.ml" 282 7832 7854
+)
+"heptagon/parsing/hept_parsetree.ml" 283 7861 7890 "heptagon/parsing/hept_parsetree.ml" 283 7861 7893
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 282 7832 7855 "heptagon/parsing/hept_parsetree.ml" 282 7832 7858
+)
+"heptagon/parsing/hept_parsetree.ml" 283 7861 7863 "heptagon/parsing/hept_parsetree.ml" 283 7861 7895
+type(
+  static_exp
+)
+"heptagon/parsing/hept_parsetree.ml" 285 7897 7901 "heptagon/parsing/hept_parsetree.ml" 285 7897 7919
+type(
+  constructor_name -> Location.location -> exp
+)
+ident(
+  def mk_constructor_exp "heptagon/parsing/hept_parsetree.ml" 288 7988 7988 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 285 7897 7920 "heptagon/parsing/hept_parsetree.ml" 285 7897 7921
+type(
+  constructor_name
+)
+ident(
+  def f "heptagon/parsing/hept_parsetree.ml" 285 7897 7922 "heptagon/parsing/hept_parsetree.ml" 286 7928 7986
+)
+"heptagon/parsing/hept_parsetree.ml" 285 7897 7922 "heptagon/parsing/hept_parsetree.ml" 285 7897 7925
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 286 7928 7930 "heptagon/parsing/hept_parsetree.ml" 286 7928 7986
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7930 "heptagon/parsing/hept_parsetree.ml" 286 7928 7936
+type(
+  edesc -> ?ct_annot:ct option -> Location.location -> exp
+)
+ident(
+  int_ref mk_exp "heptagon/parsing/hept_parsetree.ml" 267 7344 7348 "heptagon/parsing/hept_parsetree.ml" 267 7344 7354
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7946 "heptagon/parsing/hept_parsetree.ml" 286 7928 7959
+type(
+  static_exp_desc -> Location.location -> static_exp
+)
+ident(
+  int_ref mk_static_exp "heptagon/parsing/hept_parsetree.ml" 282 7832 7836 "heptagon/parsing/hept_parsetree.ml" 282 7832 7849
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7974 "heptagon/parsing/hept_parsetree.ml" 286 7928 7975
+type(
+  constructor_name
+)
+ident(
+  int_ref f "heptagon/parsing/hept_parsetree.ml" 285 7897 7920 "heptagon/parsing/hept_parsetree.ml" 285 7897 7921
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7960 "heptagon/parsing/hept_parsetree.ml" 286 7928 7976
+type(
+  static_exp_desc
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7977 "heptagon/parsing/hept_parsetree.ml" 286 7928 7980
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 285 7897 7922 "heptagon/parsing/hept_parsetree.ml" 285 7897 7925
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7945 "heptagon/parsing/hept_parsetree.ml" 286 7928 7981
+call(
+  stack
+)
+type(
+  static_exp
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7937 "heptagon/parsing/hept_parsetree.ml" 286 7928 7982
+type(
+  edesc
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7983 "heptagon/parsing/hept_parsetree.ml" 286 7928 7986
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 285 7897 7922 "heptagon/parsing/hept_parsetree.ml" 285 7897 7925
+)
+"heptagon/parsing/hept_parsetree.ml" 286 7928 7930 "heptagon/parsing/hept_parsetree.ml" 286 7928 7986
+call(
+  tail
+)
+type(
+  exp
+)
+"heptagon/parsing/hept_parsetree.ml" 288 7988 7992 "heptagon/parsing/hept_parsetree.ml" 288 7988 8004
+type(
+  field_name -> Location.location -> exp
+)
+ident(
+  def mk_field_exp "heptagon/parsing/hept_parsetree.ml" 291 8067 8067 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 288 7988 8005 "heptagon/parsing/hept_parsetree.ml" 288 7988 8006
+type(
+  field_name
+)
+ident(
+  def f "heptagon/parsing/hept_parsetree.ml" 288 7988 8007 "heptagon/parsing/hept_parsetree.ml" 289 8013 8065
+)
+"heptagon/parsing/hept_parsetree.ml" 288 7988 8007 "heptagon/parsing/hept_parsetree.ml" 288 7988 8010
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 289 8013 8015 "heptagon/parsing/hept_parsetree.ml" 289 8013 8065
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8015 "heptagon/parsing/hept_parsetree.ml" 289 8013 8021
+type(
+  edesc -> ?ct_annot:ct option -> Location.location -> exp
+)
+ident(
+  int_ref mk_exp "heptagon/parsing/hept_parsetree.ml" 267 7344 7348 "heptagon/parsing/hept_parsetree.ml" 267 7344 7354
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8031 "heptagon/parsing/hept_parsetree.ml" 289 8013 8044
+type(
+  static_exp_desc -> Location.location -> static_exp
+)
+ident(
+  int_ref mk_static_exp "heptagon/parsing/hept_parsetree.ml" 282 7832 7836 "heptagon/parsing/hept_parsetree.ml" 282 7832 7849
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8053 "heptagon/parsing/hept_parsetree.ml" 289 8013 8054
+type(
+  field_name
+)
+ident(
+  int_ref f "heptagon/parsing/hept_parsetree.ml" 288 7988 8005 "heptagon/parsing/hept_parsetree.ml" 288 7988 8006
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8045 "heptagon/parsing/hept_parsetree.ml" 289 8013 8055
+type(
+  static_exp_desc
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8056 "heptagon/parsing/hept_parsetree.ml" 289 8013 8059
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 288 7988 8007 "heptagon/parsing/hept_parsetree.ml" 288 7988 8010
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8030 "heptagon/parsing/hept_parsetree.ml" 289 8013 8060
+call(
+  stack
+)
+type(
+  static_exp
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8022 "heptagon/parsing/hept_parsetree.ml" 289 8013 8061
+type(
+  edesc
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8062 "heptagon/parsing/hept_parsetree.ml" 289 8013 8065
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 288 7988 8007 "heptagon/parsing/hept_parsetree.ml" 288 7988 8010
+)
+"heptagon/parsing/hept_parsetree.ml" 289 8013 8015 "heptagon/parsing/hept_parsetree.ml" 289 8013 8065
+call(
+  tail
+)
+type(
+  exp
+)
+"heptagon/parsing/hept_parsetree.ml" 291 8067 8071 "heptagon/parsing/hept_parsetree.ml" 291 8067 8082
+type(
+  dec_name -> type_desc -> Location.location -> type_dec
+)
+ident(
+  def mk_type_dec "heptagon/parsing/hept_parsetree.ml" 294 8148 8148 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 291 8067 8083 "heptagon/parsing/hept_parsetree.ml" 291 8067 8087
+type(
+  dec_name
+)
+ident(
+  def name "heptagon/parsing/hept_parsetree.ml" 291 8067 8088 "heptagon/parsing/hept_parsetree.ml" 292 8099 8146
+)
+"heptagon/parsing/hept_parsetree.ml" 291 8067 8088 "heptagon/parsing/hept_parsetree.ml" 291 8067 8092
+type(
+  type_desc
+)
+ident(
+  def desc "heptagon/parsing/hept_parsetree.ml" 291 8067 8093 "heptagon/parsing/hept_parsetree.ml" 292 8099 8146
+)
+"heptagon/parsing/hept_parsetree.ml" 291 8067 8093 "heptagon/parsing/hept_parsetree.ml" 291 8067 8096
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 292 8099 8101 "heptagon/parsing/hept_parsetree.ml" 292 8099 8146
+)
+"heptagon/parsing/hept_parsetree.ml" 292 8099 8112 "heptagon/parsing/hept_parsetree.ml" 292 8099 8116
+type(
+  dec_name
+)
+ident(
+  int_ref name "heptagon/parsing/hept_parsetree.ml" 291 8067 8083 "heptagon/parsing/hept_parsetree.ml" 291 8067 8087
+)
+"heptagon/parsing/hept_parsetree.ml" 292 8099 8127 "heptagon/parsing/hept_parsetree.ml" 292 8099 8131
+type(
+  type_desc
+)
+ident(
+  int_ref desc "heptagon/parsing/hept_parsetree.ml" 291 8067 8088 "heptagon/parsing/hept_parsetree.ml" 291 8067 8092
+)
+"heptagon/parsing/hept_parsetree.ml" 292 8099 8141 "heptagon/parsing/hept_parsetree.ml" 292 8099 8144
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 291 8067 8093 "heptagon/parsing/hept_parsetree.ml" 291 8067 8096
+)
+"heptagon/parsing/hept_parsetree.ml" 292 8099 8101 "heptagon/parsing/hept_parsetree.ml" 292 8099 8146
+type(
+  type_dec
+)
+"heptagon/parsing/hept_parsetree.ml" 294 8148 8152 "heptagon/parsing/hept_parsetree.ml" 294 8148 8163
+type(
+  eqdesc -> Location.location -> eq
+)
+ident(
+  def mk_equation "heptagon/parsing/hept_parsetree.ml" 297 8211 8211 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 294 8148 8164 "heptagon/parsing/hept_parsetree.ml" 294 8148 8168
+type(
+  eqdesc
+)
+ident(
+  def desc "heptagon/parsing/hept_parsetree.ml" 294 8148 8169 "heptagon/parsing/hept_parsetree.ml" 295 8175 8209
+)
+"heptagon/parsing/hept_parsetree.ml" 294 8148 8169 "heptagon/parsing/hept_parsetree.ml" 294 8148 8172
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 295 8175 8177 "heptagon/parsing/hept_parsetree.ml" 295 8175 8209
+)
+"heptagon/parsing/hept_parsetree.ml" 295 8175 8189 "heptagon/parsing/hept_parsetree.ml" 295 8175 8193
+type(
+  eqdesc
+)
+ident(
+  int_ref desc "heptagon/parsing/hept_parsetree.ml" 294 8148 8164 "heptagon/parsing/hept_parsetree.ml" 294 8148 8168
+)
+"heptagon/parsing/hept_parsetree.ml" 295 8175 8204 "heptagon/parsing/hept_parsetree.ml" 295 8175 8207
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 294 8148 8169 "heptagon/parsing/hept_parsetree.ml" 294 8148 8172
+)
+"heptagon/parsing/hept_parsetree.ml" 295 8175 8177 "heptagon/parsing/hept_parsetree.ml" 295 8175 8209
+type(
+  eq
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8215 "heptagon/parsing/hept_parsetree.ml" 297 8211 8225
+type(
+  ?linearity:Linearity.linearity ->
+  var_name -> ty -> ck option -> last -> Location.location -> var_dec
+)
+ident(
+  def mk_var_dec "heptagon/parsing/hept_parsetree.ml" 301 8380 8380 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8228 "heptagon/parsing/hept_parsetree.ml" 297 8211 8237
+type(
+  Linearity.linearity
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8238 "heptagon/parsing/hept_parsetree.ml" 297 8211 8252
+type(
+  Linearity.linearity
+)
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref *sth* "heptagon/parsing/hept_parsetree.ml" 297 8211 8238 "heptagon/parsing/hept_parsetree.ml" 297 8211 8252
+)
+type(
+  Linearity.linearity option
+)
+type(
+  Linearity.linearity option
+)
+type(
+  Linearity.linearity
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8254 "heptagon/parsing/hept_parsetree.ml" 297 8211 8258
+type(
+  var_name
+)
+ident(
+  def name "heptagon/parsing/hept_parsetree.ml" 297 8211 8259 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8259 "heptagon/parsing/hept_parsetree.ml" 297 8211 8261
+type(
+  ty
+)
+ident(
+  def ty "heptagon/parsing/hept_parsetree.ml" 297 8211 8262 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8262 "heptagon/parsing/hept_parsetree.ml" 297 8211 8264
+type(
+  ck option
+)
+ident(
+  def ck "heptagon/parsing/hept_parsetree.ml" 297 8211 8265 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8265 "heptagon/parsing/hept_parsetree.ml" 297 8211 8269
+type(
+  last
+)
+ident(
+  def last "heptagon/parsing/hept_parsetree.ml" 297 8211 8270 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+)
+"heptagon/parsing/hept_parsetree.ml" 297 8211 8270 "heptagon/parsing/hept_parsetree.ml" 297 8211 8273
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 298 8276 8278 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+)
+"heptagon/parsing/hept_parsetree.ml" 298 8276 8289 "heptagon/parsing/hept_parsetree.ml" 298 8276 8293
+type(
+  var_name
+)
+ident(
+  int_ref name "heptagon/parsing/hept_parsetree.ml" 297 8211 8254 "heptagon/parsing/hept_parsetree.ml" 297 8211 8258
+)
+"heptagon/parsing/hept_parsetree.ml" 298 8276 8304 "heptagon/parsing/hept_parsetree.ml" 298 8276 8306
+type(
+  ty
+)
+ident(
+  int_ref ty "heptagon/parsing/hept_parsetree.ml" 297 8211 8259 "heptagon/parsing/hept_parsetree.ml" 297 8211 8261
+)
+"heptagon/parsing/hept_parsetree.ml" 298 8276 8322 "heptagon/parsing/hept_parsetree.ml" 298 8276 8331
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref linearity "heptagon/parsing/hept_parsetree.ml" 297 8211 8228 "heptagon/parsing/hept_parsetree.ml" 297 8211 8237
+)
+"heptagon/parsing/hept_parsetree.ml" 299 8333 8346 "heptagon/parsing/hept_parsetree.ml" 299 8333 8348
+type(
+  ck option
+)
+ident(
+  int_ref ck "heptagon/parsing/hept_parsetree.ml" 297 8211 8262 "heptagon/parsing/hept_parsetree.ml" 297 8211 8264
+)
+"heptagon/parsing/hept_parsetree.ml" 299 8333 8359 "heptagon/parsing/hept_parsetree.ml" 299 8333 8363
+type(
+  last
+)
+ident(
+  int_ref last "heptagon/parsing/hept_parsetree.ml" 297 8211 8265 "heptagon/parsing/hept_parsetree.ml" 297 8211 8269
+)
+"heptagon/parsing/hept_parsetree.ml" 299 8333 8373 "heptagon/parsing/hept_parsetree.ml" 299 8333 8376
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 297 8211 8270 "heptagon/parsing/hept_parsetree.ml" 297 8211 8273
+)
+"heptagon/parsing/hept_parsetree.ml" 298 8276 8278 "heptagon/parsing/hept_parsetree.ml" 299 8333 8378
+type(
+  var_dec
+)
+"heptagon/parsing/hept_parsetree.ml" 301 8380 8384 "heptagon/parsing/hept_parsetree.ml" 301 8380 8392
+type(
+  var_dec list -> eq list -> Location.location -> block
+)
+ident(
+  def mk_block "heptagon/parsing/hept_parsetree.ml" 305 8466 8466 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 301 8380 8393 "heptagon/parsing/hept_parsetree.ml" 301 8380 8399
+type(
+  var_dec list
+)
+ident(
+  def locals "heptagon/parsing/hept_parsetree.ml" 301 8380 8400 "heptagon/parsing/hept_parsetree.ml" 303 8446 8464
+)
+"heptagon/parsing/hept_parsetree.ml" 301 8380 8400 "heptagon/parsing/hept_parsetree.ml" 301 8380 8403
+type(
+  eq list
+)
+ident(
+  def eqs "heptagon/parsing/hept_parsetree.ml" 301 8380 8404 "heptagon/parsing/hept_parsetree.ml" 303 8446 8464
+)
+"heptagon/parsing/hept_parsetree.ml" 301 8380 8404 "heptagon/parsing/hept_parsetree.ml" 301 8380 8407
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 302 8410 8412 "heptagon/parsing/hept_parsetree.ml" 303 8446 8464
+)
+"heptagon/parsing/hept_parsetree.ml" 302 8410 8424 "heptagon/parsing/hept_parsetree.ml" 302 8410 8430
+type(
+  var_dec list
+)
+ident(
+  int_ref locals "heptagon/parsing/hept_parsetree.ml" 301 8380 8393 "heptagon/parsing/hept_parsetree.ml" 301 8380 8399
+)
+"heptagon/parsing/hept_parsetree.ml" 302 8410 8441 "heptagon/parsing/hept_parsetree.ml" 302 8410 8444
+type(
+  eq list
+)
+ident(
+  int_ref eqs "heptagon/parsing/hept_parsetree.ml" 301 8380 8400 "heptagon/parsing/hept_parsetree.ml" 301 8380 8403
+)
+"heptagon/parsing/hept_parsetree.ml" 303 8446 8458 "heptagon/parsing/hept_parsetree.ml" 303 8446 8461
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 301 8380 8404 "heptagon/parsing/hept_parsetree.ml" 301 8380 8407
+)
+"heptagon/parsing/hept_parsetree.ml" 302 8410 8412 "heptagon/parsing/hept_parsetree.ml" 303 8446 8464
+type(
+  block
+)
+"heptagon/parsing/hept_parsetree.ml" 305 8466 8470 "heptagon/parsing/hept_parsetree.ml" 305 8466 8482
+type(
+  objective_kind -> exp -> objective
+)
+ident(
+  def mk_objective "heptagon/parsing/hept_parsetree.ml" 308 8528 8528 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 305 8466 8483 "heptagon/parsing/hept_parsetree.ml" 305 8466 8487
+type(
+  objective_kind
+)
+ident(
+  def kind "heptagon/parsing/hept_parsetree.ml" 305 8466 8488 "heptagon/parsing/hept_parsetree.ml" 306 8494 8526
+)
+"heptagon/parsing/hept_parsetree.ml" 305 8466 8488 "heptagon/parsing/hept_parsetree.ml" 305 8466 8491
+type(
+  exp
+)
+ident(
+  def exp "heptagon/parsing/hept_parsetree.ml" 306 8494 8496 "heptagon/parsing/hept_parsetree.ml" 306 8494 8526
+)
+"heptagon/parsing/hept_parsetree.ml" 306 8494 8507 "heptagon/parsing/hept_parsetree.ml" 306 8494 8511
+type(
+  objective_kind
+)
+ident(
+  int_ref kind "heptagon/parsing/hept_parsetree.ml" 305 8466 8483 "heptagon/parsing/hept_parsetree.ml" 305 8466 8487
+)
+"heptagon/parsing/hept_parsetree.ml" 306 8494 8521 "heptagon/parsing/hept_parsetree.ml" 306 8494 8524
+type(
+  exp
+)
+ident(
+  int_ref exp "heptagon/parsing/hept_parsetree.ml" 305 8466 8488 "heptagon/parsing/hept_parsetree.ml" 305 8466 8491
+)
+"heptagon/parsing/hept_parsetree.ml" 306 8494 8496 "heptagon/parsing/hept_parsetree.ml" 306 8494 8526
+type(
+  objective
+)
+"heptagon/parsing/hept_parsetree.ml" 308 8528 8532 "heptagon/parsing/hept_parsetree.ml" 308 8528 8544
+type(
+  dec_name -> ty -> exp -> Location.location -> const_dec
+)
+ident(
+  def mk_const_dec "heptagon/parsing/hept_parsetree.ml" 311 8617 8617 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 308 8528 8545 "heptagon/parsing/hept_parsetree.ml" 308 8528 8547
+type(
+  dec_name
+)
+ident(
+  def id "heptagon/parsing/hept_parsetree.ml" 308 8528 8548 "heptagon/parsing/hept_parsetree.ml" 309 8559 8615
+)
+"heptagon/parsing/hept_parsetree.ml" 308 8528 8548 "heptagon/parsing/hept_parsetree.ml" 308 8528 8550
+type(
+  ty
+)
+ident(
+  def ty "heptagon/parsing/hept_parsetree.ml" 308 8528 8551 "heptagon/parsing/hept_parsetree.ml" 309 8559 8615
+)
+"heptagon/parsing/hept_parsetree.ml" 308 8528 8551 "heptagon/parsing/hept_parsetree.ml" 308 8528 8552
+type(
+  exp
+)
+ident(
+  def e "heptagon/parsing/hept_parsetree.ml" 308 8528 8553 "heptagon/parsing/hept_parsetree.ml" 309 8559 8615
+)
+"heptagon/parsing/hept_parsetree.ml" 308 8528 8553 "heptagon/parsing/hept_parsetree.ml" 308 8528 8556
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/parsing/hept_parsetree.ml" 309 8559 8561 "heptagon/parsing/hept_parsetree.ml" 309 8559 8615
+)
+"heptagon/parsing/hept_parsetree.ml" 309 8559 8572 "heptagon/parsing/hept_parsetree.ml" 309 8559 8574
+type(
+  dec_name
+)
+ident(
+  int_ref id "heptagon/parsing/hept_parsetree.ml" 308 8528 8545 "heptagon/parsing/hept_parsetree.ml" 308 8528 8547
+)
+"heptagon/parsing/hept_parsetree.ml" 309 8559 8585 "heptagon/parsing/hept_parsetree.ml" 309 8559 8587
+type(
+  ty
+)
+ident(
+  int_ref ty "heptagon/parsing/hept_parsetree.ml" 308 8528 8548 "heptagon/parsing/hept_parsetree.ml" 308 8528 8550
+)
+"heptagon/parsing/hept_parsetree.ml" 309 8559 8599 "heptagon/parsing/hept_parsetree.ml" 309 8559 8600
+type(
+  exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_parsetree.ml" 308 8528 8551 "heptagon/parsing/hept_parsetree.ml" 308 8528 8552
+)
+"heptagon/parsing/hept_parsetree.ml" 309 8559 8610 "heptagon/parsing/hept_parsetree.ml" 309 8559 8613
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/parsing/hept_parsetree.ml" 308 8528 8553 "heptagon/parsing/hept_parsetree.ml" 308 8528 8556
+)
+"heptagon/parsing/hept_parsetree.ml" 309 8559 8561 "heptagon/parsing/hept_parsetree.ml" 309 8559 8615
+type(
+  const_dec
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8621 "heptagon/parsing/hept_parsetree.ml" 311 8617 8627
+type(
+  var_name option -> ty * Linearity.linearity -> ck option -> arg
+)
+ident(
+  def mk_arg "heptagon/parsing/hept_parsetree.ml" 314 8714 8714 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8628 "heptagon/parsing/hept_parsetree.ml" 311 8617 8632
+type(
+  var_name option
+)
+ident(
+  def name "heptagon/parsing/hept_parsetree.ml" 311 8617 8633 "heptagon/parsing/hept_parsetree.ml" 312 8647 8712
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8634 "heptagon/parsing/hept_parsetree.ml" 311 8617 8636
+type(
+  ty
+)
+ident(
+  def ty "heptagon/parsing/hept_parsetree.ml" 311 8617 8642 "heptagon/parsing/hept_parsetree.ml" 312 8647 8712
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8637 "heptagon/parsing/hept_parsetree.ml" 311 8617 8640
+type(
+  Linearity.linearity
+)
+ident(
+  def lin "heptagon/parsing/hept_parsetree.ml" 311 8617 8642 "heptagon/parsing/hept_parsetree.ml" 312 8647 8712
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8633 "heptagon/parsing/hept_parsetree.ml" 311 8617 8641
+type(
+  ty * Linearity.linearity
+)
+"heptagon/parsing/hept_parsetree.ml" 311 8617 8642 "heptagon/parsing/hept_parsetree.ml" 311 8617 8644
+type(
+  ck option
+)
+ident(
+  def ck "heptagon/parsing/hept_parsetree.ml" 312 8647 8649 "heptagon/parsing/hept_parsetree.ml" 312 8647 8712
+)
+"heptagon/parsing/hept_parsetree.ml" 312 8647 8660 "heptagon/parsing/hept_parsetree.ml" 312 8647 8662
+type(
+  ty
+)
+ident(
+  int_ref ty "heptagon/parsing/hept_parsetree.ml" 311 8617 8634 "heptagon/parsing/hept_parsetree.ml" 311 8617 8636
+)
+"heptagon/parsing/hept_parsetree.ml" 312 8647 8678 "heptagon/parsing/hept_parsetree.ml" 312 8647 8681
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref lin "heptagon/parsing/hept_parsetree.ml" 311 8617 8637 "heptagon/parsing/hept_parsetree.ml" 311 8617 8640
+)
+"heptagon/parsing/hept_parsetree.ml" 312 8647 8692 "heptagon/parsing/hept_parsetree.ml" 312 8647 8696
+type(
+  var_name option
+)
+ident(
+  int_ref name "heptagon/parsing/hept_parsetree.ml" 311 8617 8628 "heptagon/parsing/hept_parsetree.ml" 311 8617 8632
+)
+"heptagon/parsing/hept_parsetree.ml" 312 8647 8708 "heptagon/parsing/hept_parsetree.ml" 312 8647 8710
+type(
+  ck option
+)
+ident(
+  int_ref ck "heptagon/parsing/hept_parsetree.ml" 311 8617 8642 "heptagon/parsing/hept_parsetree.ml" 311 8617 8644
+)
+"heptagon/parsing/hept_parsetree.ml" 312 8647 8649 "heptagon/parsing/hept_parsetree.ml" 312 8647 8712
+type(
+  arg
+)
+"heptagon/parsing/hept_parsetree.ml" 314 8714 8718 "heptagon/parsing/hept_parsetree.ml" 314 8714 8723
+type(
+  qualname
+)
+ident(
+  def ptrue "heptagon/parsing/hept_parsetree.ml" 315 8742 8742 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 314 8714 8728 "heptagon/parsing/hept_parsetree.ml" 314 8714 8741
+type(
+  Names.qualname
+)
+ident(
+  ext_ref Initial.ptrue
+)
+"heptagon/parsing/hept_parsetree.ml" 314 8714 8726 "heptagon/parsing/hept_parsetree.ml" 314 8714 8741
+type(
+  qualname
+)
+"heptagon/parsing/hept_parsetree.ml" 315 8742 8746 "heptagon/parsing/hept_parsetree.ml" 315 8742 8752
+type(
+  qualname
+)
+ident(
+  def pfalse "heptagon/parsing/hept_parsetree.ml" 315 8742 8771 "heptagon/parsing/hept_parsetree.ml" 1 0 -1
+)
+"heptagon/parsing/hept_parsetree.ml" 315 8742 8757 "heptagon/parsing/hept_parsetree.ml" 315 8742 8771
+type(
+  Names.qualname
+)
+ident(
+  ext_ref Initial.pfalse
+)
+"heptagon/parsing/hept_parsetree.ml" 315 8742 8755 "heptagon/parsing/hept_parsetree.ml" 315 8742 8771
+type(
+  qualname
+)

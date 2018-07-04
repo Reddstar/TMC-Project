@@ -1,0 +1,4539 @@
+"minils/transformations/schedule_interf.ml" 39 2501 2505 "minils/transformations/schedule_interf.ml" 39 2501 2515
+type(
+  Minils.eq -> Clocks.ck
+)
+ident(
+  def control_ck "minils/transformations/schedule_interf.ml" 45 2710 2710 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 39 2501 2516 "minils/transformations/schedule_interf.ml" 39 2501 2518
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 40 2521 2523 "minils/transformations/schedule_interf.ml" 42 2590 2624
+)
+"minils/transformations/schedule_interf.ml" 40 2521 2529 "minils/transformations/schedule_interf.ml" 40 2521 2531
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 39 2501 2516 "minils/transformations/schedule_interf.ml" 39 2501 2518
+)
+"minils/transformations/schedule_interf.ml" 40 2521 2529 "minils/transformations/schedule_interf.ml" 40 2521 2538
+type(
+  Minils.exp
+)
+"minils/transformations/schedule_interf.ml" 40 2521 2529 "minils/transformations/schedule_interf.ml" 40 2521 2545
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2565 "minils/transformations/schedule_interf.ml" 41 2551 2566
+type(
+  Idents.var_ident
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2569 "minils/transformations/schedule_interf.ml" 41 2551 2570
+type(
+  Names.constructor_name
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2572 "minils/transformations/schedule_interf.ml" 41 2551 2573
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/schedule_interf.ml" 41 2551 2583 "minils/transformations/schedule_interf.ml" 41 2551 2589
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2568 "minils/transformations/schedule_interf.ml" 41 2551 2574
+type(
+  Names.constructor_name * Minils.extvalue
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2576 "minils/transformations/schedule_interf.ml" 41 2551 2577
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2568 "minils/transformations/schedule_interf.ml" 41 2551 2577
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2557 "minils/transformations/schedule_interf.ml" 41 2551 2578
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2583 "minils/transformations/schedule_interf.ml" 41 2551 2584
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/schedule_interf.ml" 41 2551 2572 "minils/transformations/schedule_interf.ml" 41 2551 2573
+)
+"minils/transformations/schedule_interf.ml" 41 2551 2583 "minils/transformations/schedule_interf.ml" 41 2551 2589
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 42 2590 2596 "minils/transformations/schedule_interf.ml" 42 2590 2597
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 42 2590 2601 "minils/transformations/schedule_interf.ml" 42 2590 2621
+type(
+  Minils.eq -> Clocks.ck
+)
+ident(
+  ext_ref Mls_utils.Vars.clock
+)
+"minils/transformations/schedule_interf.ml" 42 2590 2622 "minils/transformations/schedule_interf.ml" 42 2590 2624
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 39 2501 2516 "minils/transformations/schedule_interf.ml" 39 2501 2518
+)
+"minils/transformations/schedule_interf.ml" 42 2590 2601 "minils/transformations/schedule_interf.ml" 42 2590 2624
+call(
+  tail
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 40 2521 2523 "minils/transformations/schedule_interf.ml" 42 2590 2624
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 45 2710 2714 "minils/transformations/schedule_interf.ml" 45 2710 2726
+type(
+  Minils.eq list -> int Idents.Env.t
+)
+ident(
+  def compute_uses "minils/transformations/schedule_interf.ml" 64 3204 3204 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 45 2710 2727 "minils/transformations/schedule_interf.ml" 45 2710 2730
+type(
+  Minils.eq list
+)
+ident(
+  def eqs "minils/transformations/schedule_interf.ml" 46 2733 2735 "minils/transformations/schedule_interf.ml" 62 3168 3202
+)
+"minils/transformations/schedule_interf.ml" 46 2733 2739 "minils/transformations/schedule_interf.ml" 46 2733 2742
+type(
+  int Idents.Env.t -> Minils.eq -> int Idents.Env.t
+)
+ident(
+  def aux "minils/transformations/schedule_interf.ml" 62 3168 3170 "minils/transformations/schedule_interf.ml" 62 3168 3202
+)
+"minils/transformations/schedule_interf.ml" 46 2733 2743 "minils/transformations/schedule_interf.ml" 46 2733 2746
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 46 2733 2747 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 46 2733 2747 "minils/transformations/schedule_interf.ml" 46 2733 2749
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 47 2752 2756 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 47 2752 2760 "minils/transformations/schedule_interf.ml" 47 2752 2769
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  def incr_uses "minils/transformations/schedule_interf.ml" 53 2893 2897 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 47 2752 2770 "minils/transformations/schedule_interf.ml" 47 2752 2773
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 51 2862 2885
+)
+"minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 47 2752 2775
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 48 2778 2784 "minils/transformations/schedule_interf.ml" 51 2862 2885
+)
+"minils/transformations/schedule_interf.ml" 48 2778 2787 "minils/transformations/schedule_interf.ml" 48 2778 2794
+type(
+  Idents.Env.key -> int Idents.Env.t -> bool
+)
+ident(
+  ext_ref Idents.Env.mem
+)
+"minils/transformations/schedule_interf.ml" 48 2778 2795 "minils/transformations/schedule_interf.ml" 48 2778 2796
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 47 2752 2775
+)
+"minils/transformations/schedule_interf.ml" 48 2778 2797 "minils/transformations/schedule_interf.ml" 48 2778 2800
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 47 2752 2770 "minils/transformations/schedule_interf.ml" 47 2752 2773
+)
+"minils/transformations/schedule_interf.ml" 48 2778 2787 "minils/transformations/schedule_interf.ml" 48 2778 2800
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2814 "minils/transformations/schedule_interf.ml" 49 2806 2821
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2822 "minils/transformations/schedule_interf.ml" 49 2806 2823
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 47 2752 2775
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2826 "minils/transformations/schedule_interf.ml" 49 2806 2834
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2835 "minils/transformations/schedule_interf.ml" 49 2806 2836
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 47 2752 2775
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2837 "minils/transformations/schedule_interf.ml" 49 2806 2840
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 47 2752 2770 "minils/transformations/schedule_interf.ml" 47 2752 2773
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2825 "minils/transformations/schedule_interf.ml" 49 2806 2841
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2842 "minils/transformations/schedule_interf.ml" 49 2806 2843
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2844 "minils/transformations/schedule_interf.ml" 49 2806 2845
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2824 "minils/transformations/schedule_interf.ml" 49 2806 2846
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2847 "minils/transformations/schedule_interf.ml" 49 2806 2850
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 47 2752 2770 "minils/transformations/schedule_interf.ml" 47 2752 2773
+)
+"minils/transformations/schedule_interf.ml" 49 2806 2814 "minils/transformations/schedule_interf.ml" 49 2806 2850
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 51 2862 2870 "minils/transformations/schedule_interf.ml" 51 2862 2877
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/schedule_interf.ml" 51 2862 2878 "minils/transformations/schedule_interf.ml" 51 2862 2879
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 47 2752 2774 "minils/transformations/schedule_interf.ml" 47 2752 2775
+)
+"minils/transformations/schedule_interf.ml" 51 2862 2880 "minils/transformations/schedule_interf.ml" 51 2862 2881
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 51 2862 2882 "minils/transformations/schedule_interf.ml" 51 2862 2885
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 47 2752 2770 "minils/transformations/schedule_interf.ml" 47 2752 2773
+)
+"minils/transformations/schedule_interf.ml" 51 2862 2870 "minils/transformations/schedule_interf.ml" 51 2862 2885
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 48 2778 2784 "minils/transformations/schedule_interf.ml" 51 2862 2885
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2901 "minils/transformations/schedule_interf.ml" 53 2893 2906
+type(
+  Idents.var_ident list
+)
+ident(
+  def reads "minils/transformations/schedule_interf.ml" 55 2973 2977 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2909 "minils/transformations/schedule_interf.ml" 53 2893 2928
+type(
+  bool -> Minils.eq -> Idents.var_ident list
+)
+ident(
+  ext_ref Mls_utils.Vars.read
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2929 "minils/transformations/schedule_interf.ml" 53 2893 2934
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2935 "minils/transformations/schedule_interf.ml" 53 2893 2937
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 46 2733 2747 "minils/transformations/schedule_interf.ml" 46 2733 2749
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2909 "minils/transformations/schedule_interf.ml" 53 2893 2937
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 55 2973 2981 "minils/transformations/schedule_interf.ml" 55 2973 2985
+type(
+  Idents.var_ident list
+)
+ident(
+  def defs "minils/transformations/schedule_interf.ml" 56 3016 3020 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 55 2973 2988 "minils/transformations/schedule_interf.ml" 55 2973 3006
+type(
+  Idents.var_ident list -> Minils.eq -> Idents.var_ident list
+)
+ident(
+  ext_ref Mls_utils.Vars.def
+)
+"minils/transformations/schedule_interf.ml" 55 2973 3007 "minils/transformations/schedule_interf.ml" 55 2973 3009
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 55 2973 3010 "minils/transformations/schedule_interf.ml" 55 2973 3012
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 46 2733 2747 "minils/transformations/schedule_interf.ml" 46 2733 2749
+)
+"minils/transformations/schedule_interf.ml" 55 2973 2988 "minils/transformations/schedule_interf.ml" 55 2973 3012
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 56 3016 3024 "minils/transformations/schedule_interf.ml" 56 3016 3029
+type(
+  Idents.var_ident list
+)
+ident(
+  def reads "minils/transformations/schedule_interf.ml" 60 3124 3128 "minils/transformations/schedule_interf.ml" 60 3124 3162
+)
+"minils/transformations/schedule_interf.ml" 57 3032 3038 "minils/transformations/schedule_interf.ml" 57 3032 3052
+type(
+  (Idents.var_ident list -> Idents.var_ident -> Idents.var_ident list) ->
+  Idents.var_ident list -> Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3059 "minils/transformations/schedule_interf.ml" 58 3053 3062
+type(
+  Idents.var_ident list
+)
+ident(
+  def acc "minils/transformations/schedule_interf.ml" 58 3053 3063 "minils/transformations/schedule_interf.ml" 58 3053 3109
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3063 "minils/transformations/schedule_interf.ml" 58 3053 3064
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 58 3053 3068 "minils/transformations/schedule_interf.ml" 58 3053 3109
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3071 "minils/transformations/schedule_interf.ml" 58 3053 3079
+type(
+  Idents.var_ident -> Idents.var_ident list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3080 "minils/transformations/schedule_interf.ml" 58 3053 3081
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 58 3053 3063 "minils/transformations/schedule_interf.ml" 58 3053 3064
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3082 "minils/transformations/schedule_interf.ml" 58 3053 3086
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref defs "minils/transformations/schedule_interf.ml" 55 2973 2981 "minils/transformations/schedule_interf.ml" 55 2973 2985
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3071 "minils/transformations/schedule_interf.ml" 58 3053 3086
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3092 "minils/transformations/schedule_interf.ml" 58 3053 3095
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref acc "minils/transformations/schedule_interf.ml" 58 3053 3059 "minils/transformations/schedule_interf.ml" 58 3053 3062
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3102 "minils/transformations/schedule_interf.ml" 58 3053 3103
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 58 3053 3063 "minils/transformations/schedule_interf.ml" 58 3053 3064
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3105 "minils/transformations/schedule_interf.ml" 58 3053 3108
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref acc "minils/transformations/schedule_interf.ml" 58 3053 3059 "minils/transformations/schedule_interf.ml" 58 3053 3062
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3101 "minils/transformations/schedule_interf.ml" 58 3053 3109
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3068 "minils/transformations/schedule_interf.ml" 58 3053 3109
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 58 3053 3054 "minils/transformations/schedule_interf.ml" 58 3053 3110
+type(
+  Idents.var_ident list -> Idents.var_ident -> Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 59 3111 3112 "minils/transformations/schedule_interf.ml" 59 3111 3114
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 59 3111 3115 "minils/transformations/schedule_interf.ml" 59 3111 3120
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref reads "minils/transformations/schedule_interf.ml" 53 2893 2901 "minils/transformations/schedule_interf.ml" 53 2893 2906
+)
+"minils/transformations/schedule_interf.ml" 57 3032 3038 "minils/transformations/schedule_interf.ml" 59 3111 3120
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 60 3124 3128 "minils/transformations/schedule_interf.ml" 60 3124 3142
+type(
+  (int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t) ->
+  int Idents.Env.t -> Idents.Env.key list -> int Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 60 3124 3143 "minils/transformations/schedule_interf.ml" 60 3124 3152
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  int_ref incr_uses "minils/transformations/schedule_interf.ml" 47 2752 2760 "minils/transformations/schedule_interf.ml" 47 2752 2769
+)
+"minils/transformations/schedule_interf.ml" 60 3124 3153 "minils/transformations/schedule_interf.ml" 60 3124 3156
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 46 2733 2743 "minils/transformations/schedule_interf.ml" 46 2733 2746
+)
+"minils/transformations/schedule_interf.ml" 60 3124 3157 "minils/transformations/schedule_interf.ml" 60 3124 3162
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref reads "minils/transformations/schedule_interf.ml" 56 3016 3024 "minils/transformations/schedule_interf.ml" 56 3016 3029
+)
+"minils/transformations/schedule_interf.ml" 60 3124 3128 "minils/transformations/schedule_interf.ml" 60 3124 3162
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 56 3016 3020 "minils/transformations/schedule_interf.ml" 60 3124 3162
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 55 2973 2977 "minils/transformations/schedule_interf.ml" 60 3124 3162
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 53 2893 2897 "minils/transformations/schedule_interf.ml" 60 3124 3162
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 47 2752 2756 "minils/transformations/schedule_interf.ml" 60 3124 3162
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 62 3168 3170 "minils/transformations/schedule_interf.ml" 62 3168 3184
+type(
+  (int Idents.Env.t -> Minils.eq -> int Idents.Env.t) ->
+  int Idents.Env.t -> Minils.eq list -> int Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 62 3168 3185 "minils/transformations/schedule_interf.ml" 62 3168 3188
+type(
+  int Idents.Env.t -> Minils.eq -> int Idents.Env.t
+)
+ident(
+  int_ref aux "minils/transformations/schedule_interf.ml" 46 2733 2739 "minils/transformations/schedule_interf.ml" 46 2733 2742
+)
+"minils/transformations/schedule_interf.ml" 62 3168 3189 "minils/transformations/schedule_interf.ml" 62 3168 3198
+type(
+  int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/schedule_interf.ml" 62 3168 3199 "minils/transformations/schedule_interf.ml" 62 3168 3202
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eqs "minils/transformations/schedule_interf.ml" 45 2710 2727 "minils/transformations/schedule_interf.ml" 45 2710 2730
+)
+"minils/transformations/schedule_interf.ml" 62 3168 3170 "minils/transformations/schedule_interf.ml" 62 3168 3202
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 46 2733 2735 "minils/transformations/schedule_interf.ml" 62 3168 3202
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 64 3204 3208 "minils/transformations/schedule_interf.ml" 64 3204 3219
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  def number_uses "minils/transformations/schedule_interf.ml" 75 3473 3473 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 64 3204 3220 "minils/transformations/schedule_interf.ml" 64 3204 3221
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 64 3204 3222 "minils/transformations/schedule_interf.ml" 68 3262 3282
+)
+"minils/transformations/schedule_interf.ml" 64 3204 3222 "minils/transformations/schedule_interf.ml" 64 3204 3226
+type(
+  int Idents.Env.t
+)
+ident(
+  def uses "minils/transformations/schedule_interf.ml" 65 3229 3231 "minils/transformations/schedule_interf.ml" 68 3262 3282
+)
+"minils/transformations/schedule_interf.ml" 66 3235 3239 "minils/transformations/schedule_interf.ml" 66 3235 3247
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/schedule_interf.ml" 66 3235 3248 "minils/transformations/schedule_interf.ml" 66 3235 3249
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 64 3204 3220 "minils/transformations/schedule_interf.ml" 64 3204 3221
+)
+"minils/transformations/schedule_interf.ml" 66 3235 3250 "minils/transformations/schedule_interf.ml" 66 3235 3254
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 64 3204 3222 "minils/transformations/schedule_interf.ml" 64 3204 3226
+)
+"minils/transformations/schedule_interf.ml" 66 3235 3239 "minils/transformations/schedule_interf.ml" 66 3235 3254
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 68 3262 3268 "minils/transformations/schedule_interf.ml" 68 3262 3277
+type(
+  exn
+)
+"minils/transformations/schedule_interf.ml" 68 3262 3281 "minils/transformations/schedule_interf.ml" 68 3262 3282
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 65 3229 3231 "minils/transformations/schedule_interf.ml" 68 3262 3282
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 81 3592 3598 "minils/transformations/schedule_interf.ml" 81 3592 3608
+type(
+  Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  def filter_opt "minils/transformations/schedule_interf.ml" 85 3727 3729 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 81 3592 3609 "minils/transformations/schedule_interf.ml" 81 3592 3612
+type(
+  Idents.var_ident list
+)
+ident(
+  def x_l "minils/transformations/schedule_interf.ml" 82 3615 3619 "minils/transformations/schedule_interf.ml" 82 3615 3673
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3619 "minils/transformations/schedule_interf.ml" 82 3615 3630
+type(
+  (Idents.var_ident -> bool) ->
+  Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  ext_ref List.filter
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3636 "minils/transformations/schedule_interf.ml" 82 3615 3637
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 82 3615 3641 "minils/transformations/schedule_interf.ml" 82 3615 3668
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3641 "minils/transformations/schedule_interf.ml" 82 3615 3659
+type(
+  Interference_graph.ivar -> bool
+)
+ident(
+  ext_ref Interference.World.is_optimized
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3666 "minils/transformations/schedule_interf.ml" 82 3615 3667
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 82 3615 3636 "minils/transformations/schedule_interf.ml" 82 3615 3637
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3660 "minils/transformations/schedule_interf.ml" 82 3615 3668
+type(
+  Interference_graph.ivar
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3641 "minils/transformations/schedule_interf.ml" 82 3615 3668
+call(
+  tail
+)
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3631 "minils/transformations/schedule_interf.ml" 82 3615 3669
+type(
+  Idents.var_ident -> bool
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3670 "minils/transformations/schedule_interf.ml" 82 3615 3673
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref x_l "minils/transformations/schedule_interf.ml" 81 3592 3609 "minils/transformations/schedule_interf.ml" 81 3592 3612
+)
+"minils/transformations/schedule_interf.ml" 82 3615 3619 "minils/transformations/schedule_interf.ml" 82 3615 3673
+call(
+  tail
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 85 3727 3733 "minils/transformations/schedule_interf.ml" 85 3727 3741
+type(
+  Minils.eq -> Idents.var_ident list
+)
+ident(
+  def read_opt "minils/transformations/schedule_interf.ml" 90 3869 3871 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 85 3727 3742 "minils/transformations/schedule_interf.ml" 85 3727 3744
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 86 3747 3751 "minils/transformations/schedule_interf.ml" 87 3795 3815
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3755 "minils/transformations/schedule_interf.ml" 86 3747 3760
+type(
+  Idents.var_ident list
+)
+ident(
+  def reads "minils/transformations/schedule_interf.ml" 87 3795 3799 "minils/transformations/schedule_interf.ml" 87 3795 3815
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3763 "minils/transformations/schedule_interf.ml" 86 3747 3782
+type(
+  bool -> Minils.eq -> Idents.var_ident list
+)
+ident(
+  ext_ref Mls_utils.Vars.read
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3783 "minils/transformations/schedule_interf.ml" 86 3747 3788
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3789 "minils/transformations/schedule_interf.ml" 86 3747 3791
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 85 3727 3742 "minils/transformations/schedule_interf.ml" 85 3727 3744
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3763 "minils/transformations/schedule_interf.ml" 86 3747 3791
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 87 3795 3799 "minils/transformations/schedule_interf.ml" 87 3795 3809
+type(
+  Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  int_ref filter_opt "minils/transformations/schedule_interf.ml" 81 3592 3598 "minils/transformations/schedule_interf.ml" 81 3592 3608
+)
+"minils/transformations/schedule_interf.ml" 87 3795 3810 "minils/transformations/schedule_interf.ml" 87 3795 3815
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref reads "minils/transformations/schedule_interf.ml" 86 3747 3755 "minils/transformations/schedule_interf.ml" 86 3747 3760
+)
+"minils/transformations/schedule_interf.ml" 87 3795 3799 "minils/transformations/schedule_interf.ml" 87 3795 3815
+call(
+  tail
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 86 3747 3751 "minils/transformations/schedule_interf.ml" 87 3795 3815
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 90 3869 3875 "minils/transformations/schedule_interf.ml" 90 3869 3882
+type(
+  Minils.eq -> Idents.var_ident list
+)
+ident(
+  def def_opt "minils/transformations/schedule_interf.ml" 94 3952 3954 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 90 3869 3883 "minils/transformations/schedule_interf.ml" 90 3869 3885
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 91 3888 3892 "minils/transformations/schedule_interf.ml" 92 3931 3950
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3896 "minils/transformations/schedule_interf.ml" 91 3888 3900
+type(
+  Idents.var_ident list
+)
+ident(
+  def defs "minils/transformations/schedule_interf.ml" 92 3931 3935 "minils/transformations/schedule_interf.ml" 92 3931 3950
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3903 "minils/transformations/schedule_interf.ml" 91 3888 3921
+type(
+  Idents.var_ident list -> Minils.eq -> Idents.var_ident list
+)
+ident(
+  ext_ref Mls_utils.Vars.def
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3922 "minils/transformations/schedule_interf.ml" 91 3888 3924
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3925 "minils/transformations/schedule_interf.ml" 91 3888 3927
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 90 3869 3883 "minils/transformations/schedule_interf.ml" 90 3869 3885
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3903 "minils/transformations/schedule_interf.ml" 91 3888 3927
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 92 3931 3935 "minils/transformations/schedule_interf.ml" 92 3931 3945
+type(
+  Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  int_ref filter_opt "minils/transformations/schedule_interf.ml" 81 3592 3598 "minils/transformations/schedule_interf.ml" 81 3592 3608
+)
+"minils/transformations/schedule_interf.ml" 92 3931 3946 "minils/transformations/schedule_interf.ml" 92 3931 3950
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref defs "minils/transformations/schedule_interf.ml" 91 3888 3896 "minils/transformations/schedule_interf.ml" 91 3888 3900
+)
+"minils/transformations/schedule_interf.ml" 92 3931 3935 "minils/transformations/schedule_interf.ml" 92 3931 3950
+call(
+  tail
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 91 3888 3892 "minils/transformations/schedule_interf.ml" 92 3931 3950
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 94 3952 3958 "minils/transformations/schedule_interf.ml" 94 3952 3966
+type(
+  int Idents.Env.t -> int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  def add_uses "minils/transformations/schedule_interf.ml" 99 4117 4119 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 94 3952 3967 "minils/transformations/schedule_interf.ml" 94 3952 3971
+type(
+  int Idents.Env.t
+)
+ident(
+  def uses "minils/transformations/schedule_interf.ml" 94 3952 3972 "minils/transformations/schedule_interf.ml" 97 4077 4115
+)
+"minils/transformations/schedule_interf.ml" 94 3952 3972 "minils/transformations/schedule_interf.ml" 94 3952 3975
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 97 4077 4115
+)
+"minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 94 3952 3977
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 95 3980 3984 "minils/transformations/schedule_interf.ml" 97 4077 4115
+)
+"minils/transformations/schedule_interf.ml" 95 3980 3984 "minils/transformations/schedule_interf.ml" 95 3980 4008
+type(
+  (int ->
+   (Format.formatter -> Idents.Env.key -> unit) -> Idents.Env.key -> unit,
+   Format.formatter, unit)
+  format ->
+  int ->
+  (Format.formatter -> Idents.Env.key -> unit) -> Idents.Env.key -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4015 "minils/transformations/schedule_interf.ml" 96 4009 4040
+type(
+  (int ->
+   (Format.formatter -> Idents.Env.key -> unit) -> Idents.Env.key -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4042 "minils/transformations/schedule_interf.ml" 96 4009 4053
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  int_ref number_uses "minils/transformations/schedule_interf.ml" 64 3204 3208 "minils/transformations/schedule_interf.ml" 64 3204 3219
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4054 "minils/transformations/schedule_interf.ml" 96 4009 4055
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 94 3952 3977
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4056 "minils/transformations/schedule_interf.ml" 96 4009 4060
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 94 3952 3967 "minils/transformations/schedule_interf.ml" 94 3952 3971
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4041 "minils/transformations/schedule_interf.ml" 96 4009 4061
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4062 "minils/transformations/schedule_interf.ml" 96 4009 4073
+type(
+  Format.formatter -> Idents.Env.key -> unit
+)
+ident(
+  ext_ref Idents.print_ident
+)
+"minils/transformations/schedule_interf.ml" 96 4009 4074 "minils/transformations/schedule_interf.ml" 96 4009 4075
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 94 3952 3977
+)
+"minils/transformations/schedule_interf.ml" 95 3980 3984 "minils/transformations/schedule_interf.ml" 96 4009 4075
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4081 "minils/transformations/schedule_interf.ml" 97 4077 4088
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4089 "minils/transformations/schedule_interf.ml" 97 4077 4090
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 94 3952 3977
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4092 "minils/transformations/schedule_interf.ml" 97 4077 4103
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  int_ref number_uses "minils/transformations/schedule_interf.ml" 64 3204 3208 "minils/transformations/schedule_interf.ml" 64 3204 3219
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4104 "minils/transformations/schedule_interf.ml" 97 4077 4105
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 94 3952 3976 "minils/transformations/schedule_interf.ml" 94 3952 3977
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4106 "minils/transformations/schedule_interf.ml" 97 4077 4110
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 94 3952 3967 "minils/transformations/schedule_interf.ml" 94 3952 3971
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4091 "minils/transformations/schedule_interf.ml" 97 4077 4111
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4112 "minils/transformations/schedule_interf.ml" 97 4077 4115
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 94 3952 3972 "minils/transformations/schedule_interf.ml" 94 3952 3975
+)
+"minils/transformations/schedule_interf.ml" 97 4077 4081 "minils/transformations/schedule_interf.ml" 97 4077 4115
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 95 3980 3984 "minils/transformations/schedule_interf.ml" 97 4077 4115
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 99 4117 4123 "minils/transformations/schedule_interf.ml" 99 4117 4132
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  def decr_uses "minils/transformations/schedule_interf.ml" 106 4334 4336 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 99 4117 4133 "minils/transformations/schedule_interf.ml" 99 4117 4136
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 99 4117 4137 "minils/transformations/schedule_interf.ml" 102 4192 4251
+)
+"minils/transformations/schedule_interf.ml" 99 4117 4137 "minils/transformations/schedule_interf.ml" 99 4117 4138
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 100 4141 4145 "minils/transformations/schedule_interf.ml" 102 4192 4251
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4155 "minils/transformations/schedule_interf.ml" 101 4149 4162
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4163 "minils/transformations/schedule_interf.ml" 101 4149 4164
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 99 4117 4137 "minils/transformations/schedule_interf.ml" 99 4117 4138
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4167 "minils/transformations/schedule_interf.ml" 101 4149 4175
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4176 "minils/transformations/schedule_interf.ml" 101 4149 4177
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 99 4117 4137 "minils/transformations/schedule_interf.ml" 99 4117 4138
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4178 "minils/transformations/schedule_interf.ml" 101 4149 4181
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 99 4117 4133 "minils/transformations/schedule_interf.ml" 99 4117 4136
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4166 "minils/transformations/schedule_interf.ml" 101 4149 4182
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4183 "minils/transformations/schedule_interf.ml" 101 4149 4184
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4185 "minils/transformations/schedule_interf.ml" 101 4149 4186
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4165 "minils/transformations/schedule_interf.ml" 101 4149 4187
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4188 "minils/transformations/schedule_interf.ml" 101 4149 4191
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 99 4117 4133 "minils/transformations/schedule_interf.ml" 99 4117 4136
+)
+"minils/transformations/schedule_interf.ml" 101 4149 4155 "minils/transformations/schedule_interf.ml" 101 4149 4191
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 102 4192 4201 "minils/transformations/schedule_interf.ml" 102 4192 4210
+type(
+  exn
+)
+"minils/transformations/schedule_interf.ml" 102 4192 4248 "minils/transformations/schedule_interf.ml" 102 4192 4251
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 99 4117 4133 "minils/transformations/schedule_interf.ml" 99 4117 4136
+)
+"minils/transformations/schedule_interf.ml" 100 4141 4145 "minils/transformations/schedule_interf.ml" 102 4192 4251
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 106 4334 4340 "minils/transformations/schedule_interf.ml" 106 4334 4351
+type(
+  int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  def remove_null "minils/transformations/schedule_interf.ml" 114 4607 4609 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 106 4334 4352 "minils/transformations/schedule_interf.ml" 106 4334 4353
+type(
+  int Idents.Env.t
+)
+ident(
+  def m "minils/transformations/schedule_interf.ml" 107 4356 4360 "minils/transformations/schedule_interf.ml" 110 4435 4476
+)
+"minils/transformations/schedule_interf.ml" 107 4356 4364 "minils/transformations/schedule_interf.ml" 107 4356 4378
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  def check_not_null "minils/transformations/schedule_interf.ml" 110 4435 4441 "minils/transformations/schedule_interf.ml" 110 4435 4476
+)
+"minils/transformations/schedule_interf.ml" 107 4356 4379 "minils/transformations/schedule_interf.ml" 107 4356 4380
+type(
+  Idents.Env.key
+)
+ident(
+  def k "minils/transformations/schedule_interf.ml" 107 4356 4381 "minils/transformations/schedule_interf.ml" 108 4387 4427
+)
+"minils/transformations/schedule_interf.ml" 107 4356 4381 "minils/transformations/schedule_interf.ml" 107 4356 4382
+type(
+  int
+)
+ident(
+  def d "minils/transformations/schedule_interf.ml" 107 4356 4383 "minils/transformations/schedule_interf.ml" 108 4387 4427
+)
+"minils/transformations/schedule_interf.ml" 107 4356 4383 "minils/transformations/schedule_interf.ml" 107 4356 4384
+type(
+  int Idents.Env.t
+)
+ident(
+  def m "minils/transformations/schedule_interf.ml" 108 4387 4393 "minils/transformations/schedule_interf.ml" 108 4387 4427
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4396 "minils/transformations/schedule_interf.ml" 108 4387 4397
+type(
+  int
+)
+ident(
+  int_ref d "minils/transformations/schedule_interf.ml" 107 4356 4381 "minils/transformations/schedule_interf.ml" 107 4356 4382
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4398 "minils/transformations/schedule_interf.ml" 108 4387 4399
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4400 "minils/transformations/schedule_interf.ml" 108 4387 4401
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4396 "minils/transformations/schedule_interf.ml" 108 4387 4401
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4407 "minils/transformations/schedule_interf.ml" 108 4387 4414
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4415 "minils/transformations/schedule_interf.ml" 108 4387 4416
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref k "minils/transformations/schedule_interf.ml" 107 4356 4379 "minils/transformations/schedule_interf.ml" 107 4356 4380
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4417 "minils/transformations/schedule_interf.ml" 108 4387 4418
+type(
+  int
+)
+ident(
+  int_ref d "minils/transformations/schedule_interf.ml" 107 4356 4381 "minils/transformations/schedule_interf.ml" 107 4356 4382
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4419 "minils/transformations/schedule_interf.ml" 108 4387 4420
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref m "minils/transformations/schedule_interf.ml" 107 4356 4383 "minils/transformations/schedule_interf.ml" 107 4356 4384
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4407 "minils/transformations/schedule_interf.ml" 108 4387 4420
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4426 "minils/transformations/schedule_interf.ml" 108 4387 4427
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref m "minils/transformations/schedule_interf.ml" 107 4356 4383 "minils/transformations/schedule_interf.ml" 107 4356 4384
+)
+"minils/transformations/schedule_interf.ml" 108 4387 4393 "minils/transformations/schedule_interf.ml" 108 4387 4427
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 110 4435 4441 "minils/transformations/schedule_interf.ml" 110 4435 4449
+type(
+  (Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t) ->
+  int Idents.Env.t -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.fold
+)
+"minils/transformations/schedule_interf.ml" 110 4435 4450 "minils/transformations/schedule_interf.ml" 110 4435 4464
+type(
+  Idents.Env.key -> int -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  int_ref check_not_null "minils/transformations/schedule_interf.ml" 107 4356 4364 "minils/transformations/schedule_interf.ml" 107 4356 4378
+)
+"minils/transformations/schedule_interf.ml" 110 4435 4465 "minils/transformations/schedule_interf.ml" 110 4435 4466
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref m "minils/transformations/schedule_interf.ml" 106 4334 4352 "minils/transformations/schedule_interf.ml" 106 4334 4353
+)
+"minils/transformations/schedule_interf.ml" 110 4435 4467 "minils/transformations/schedule_interf.ml" 110 4435 4476
+type(
+  int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/schedule_interf.ml" 110 4435 4441 "minils/transformations/schedule_interf.ml" 110 4435 4476
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 107 4356 4360 "minils/transformations/schedule_interf.ml" 110 4435 4476
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 114 4607 4613 "minils/transformations/schedule_interf.ml" 114 4607 4624
+type(
+  Minils.eq -> int Idents.Env.t -> int
+)
+ident(
+  def killed_vars "minils/transformations/schedule_interf.ml" 126 4889 4891 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 114 4607 4625 "minils/transformations/schedule_interf.ml" 114 4607 4627
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 114 4607 4628 "minils/transformations/schedule_interf.ml" 123 4797 4841
+)
+"minils/transformations/schedule_interf.ml" 114 4607 4628 "minils/transformations/schedule_interf.ml" 114 4607 4631
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 115 4634 4638 "minils/transformations/schedule_interf.ml" 123 4797 4841
+)
+"minils/transformations/schedule_interf.ml" 115 4634 4642 "minils/transformations/schedule_interf.ml" 115 4634 4651
+type(
+  int -> Idents.Env.key -> int
+)
+ident(
+  def is_killed "minils/transformations/schedule_interf.ml" 123 4797 4801 "minils/transformations/schedule_interf.ml" 123 4797 4841
+)
+"minils/transformations/schedule_interf.ml" 115 4634 4652 "minils/transformations/schedule_interf.ml" 115 4634 4655
+type(
+  int
+)
+ident(
+  def acc "minils/transformations/schedule_interf.ml" 115 4634 4656 "minils/transformations/schedule_interf.ml" 121 4781 4789
+)
+"minils/transformations/schedule_interf.ml" 115 4634 4656 "minils/transformations/schedule_interf.ml" 115 4634 4657
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 116 4660 4666 "minils/transformations/schedule_interf.ml" 121 4781 4789
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4681 "minils/transformations/schedule_interf.ml" 117 4670 4689
+type(
+  Idents.Env.key -> int Idents.Env.t -> int
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4690 "minils/transformations/schedule_interf.ml" 117 4670 4691
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 115 4634 4656 "minils/transformations/schedule_interf.ml" 115 4634 4657
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4692 "minils/transformations/schedule_interf.ml" 117 4670 4695
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 114 4607 4628 "minils/transformations/schedule_interf.ml" 114 4607 4631
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4681 "minils/transformations/schedule_interf.ml" 117 4670 4695
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4696 "minils/transformations/schedule_interf.ml" 117 4670 4697
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4698 "minils/transformations/schedule_interf.ml" 117 4670 4699
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4681 "minils/transformations/schedule_interf.ml" 117 4670 4699
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4705 "minils/transformations/schedule_interf.ml" 117 4670 4708
+type(
+  int
+)
+ident(
+  int_ref acc "minils/transformations/schedule_interf.ml" 115 4634 4652 "minils/transformations/schedule_interf.ml" 115 4634 4655
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4709 "minils/transformations/schedule_interf.ml" 117 4670 4710
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4711 "minils/transformations/schedule_interf.ml" 117 4670 4712
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4705 "minils/transformations/schedule_interf.ml" 117 4670 4712
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4718 "minils/transformations/schedule_interf.ml" 117 4670 4721
+type(
+  int
+)
+ident(
+  int_ref acc "minils/transformations/schedule_interf.ml" 115 4634 4652 "minils/transformations/schedule_interf.ml" 115 4634 4655
+)
+"minils/transformations/schedule_interf.ml" 117 4670 4678 "minils/transformations/schedule_interf.ml" 117 4670 4721
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 119 4733 4743 "minils/transformations/schedule_interf.ml" 119 4733 4752
+type(
+  exn
+)
+"minils/transformations/schedule_interf.ml" 121 4781 4786 "minils/transformations/schedule_interf.ml" 121 4781 4789
+type(
+  int
+)
+ident(
+  int_ref acc "minils/transformations/schedule_interf.ml" 115 4634 4652 "minils/transformations/schedule_interf.ml" 115 4634 4655
+)
+"minils/transformations/schedule_interf.ml" 116 4660 4666 "minils/transformations/schedule_interf.ml" 121 4781 4789
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4801 "minils/transformations/schedule_interf.ml" 123 4797 4815
+type(
+  (int -> Idents.Env.key -> int) -> int -> Idents.Env.key list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4816 "minils/transformations/schedule_interf.ml" 123 4797 4825
+type(
+  int -> Idents.Env.key -> int
+)
+ident(
+  int_ref is_killed "minils/transformations/schedule_interf.ml" 115 4634 4642 "minils/transformations/schedule_interf.ml" 115 4634 4651
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4826 "minils/transformations/schedule_interf.ml" 123 4797 4827
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4829 "minils/transformations/schedule_interf.ml" 123 4797 4837
+type(
+  Minils.eq -> Idents.Env.key list
+)
+ident(
+  int_ref read_opt "minils/transformations/schedule_interf.ml" 85 3727 3733 "minils/transformations/schedule_interf.ml" 85 3727 3741
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4838 "minils/transformations/schedule_interf.ml" 123 4797 4840
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 114 4607 4625 "minils/transformations/schedule_interf.ml" 114 4607 4627
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4828 "minils/transformations/schedule_interf.ml" 123 4797 4841
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"minils/transformations/schedule_interf.ml" 123 4797 4801 "minils/transformations/schedule_interf.ml" 123 4797 4841
+call(
+  tail
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 115 4634 4638 "minils/transformations/schedule_interf.ml" 123 4797 4841
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 126 4889 4895 "minils/transformations/schedule_interf.ml" 126 4889 4904
+type(
+  int Idents.Env.t -> Minils.var_dec list -> int Idents.Env.t
+)
+ident(
+  def init_cost "minils/transformations/schedule_interf.ml" 141 5479 5481 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 126 4889 4905 "minils/transformations/schedule_interf.ml" 126 4889 4909
+type(
+  int Idents.Env.t
+)
+ident(
+  def uses "minils/transformations/schedule_interf.ml" 126 4889 4910 "minils/transformations/schedule_interf.ml" 135 5218 5263
+)
+"minils/transformations/schedule_interf.ml" 126 4889 4910 "minils/transformations/schedule_interf.ml" 126 4889 4916
+type(
+  Minils.var_dec list
+)
+ident(
+  def inputs "minils/transformations/schedule_interf.ml" 127 4919 4923 "minils/transformations/schedule_interf.ml" 135 5218 5263
+)
+"minils/transformations/schedule_interf.ml" 127 4919 4923 "minils/transformations/schedule_interf.ml" 127 4919 4934
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"minils/transformations/schedule_interf.ml" 127 4919 4935 "minils/transformations/schedule_interf.ml" 127 4919 4948
+type(
+  (unit, Format.formatter, unit) format
+)
+"minils/transformations/schedule_interf.ml" 127 4919 4923 "minils/transformations/schedule_interf.ml" 127 4919 4948
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 128 4950 4958 "minils/transformations/schedule_interf.ml" 128 4950 4965
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def mem_opt "minils/transformations/schedule_interf.ml" 131 5052 5056 "minils/transformations/schedule_interf.ml" 135 5218 5263
+)
+"minils/transformations/schedule_interf.ml" 129 4968 4974 "minils/transformations/schedule_interf.ml" 129 4968 4989
+type(
+  (Idents.IdentSet.elt -> bool) -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.filter
+)
+"minils/transformations/schedule_interf.ml" 129 4968 4995 "minils/transformations/schedule_interf.ml" 129 4968 4996
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 129 4968 5000 "minils/transformations/schedule_interf.ml" 129 4968 5027
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5000 "minils/transformations/schedule_interf.ml" 129 4968 5018
+type(
+  Interference_graph.ivar -> bool
+)
+ident(
+  ext_ref Interference.World.is_optimized
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5025 "minils/transformations/schedule_interf.ml" 129 4968 5026
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 129 4968 4995 "minils/transformations/schedule_interf.ml" 129 4968 4996
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5019 "minils/transformations/schedule_interf.ml" 129 4968 5027
+type(
+  Interference_graph.ivar
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5000 "minils/transformations/schedule_interf.ml" 129 4968 5027
+call(
+  tail
+)
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 129 4968 4990 "minils/transformations/schedule_interf.ml" 129 4968 5028
+type(
+  Idents.IdentSet.elt -> bool
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5029 "minils/transformations/schedule_interf.ml" 129 4968 5030
+type(
+  Idents.IdentSet.t ref -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5030 "minils/transformations/schedule_interf.ml" 129 4968 5044
+type(
+  Idents.IdentSet.t ref
+)
+ident(
+  ext_ref Interference.World.memories
+)
+"minils/transformations/schedule_interf.ml" 129 4968 5029 "minils/transformations/schedule_interf.ml" 129 4968 5044
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/schedule_interf.ml" 129 4968 4974 "minils/transformations/schedule_interf.ml" 129 4968 5044
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/schedule_interf.ml" 131 5052 5060 "minils/transformations/schedule_interf.ml" 131 5052 5063
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 134 5146 5150 "minils/transformations/schedule_interf.ml" 135 5218 5263
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5072 "minils/transformations/schedule_interf.ml" 132 5066 5085
+type(
+  (Idents.IdentSet.elt -> int Idents.Env.t -> int Idents.Env.t) ->
+  Idents.IdentSet.t -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  ext_ref Idents.IdentSet.fold
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5091 "minils/transformations/schedule_interf.ml" 132 5066 5092
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  def x "minils/transformations/schedule_interf.ml" 132 5066 5093 "minils/transformations/schedule_interf.ml" 132 5066 5119
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5093 "minils/transformations/schedule_interf.ml" 132 5066 5096
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 132 5066 5100 "minils/transformations/schedule_interf.ml" 132 5066 5119
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5100 "minils/transformations/schedule_interf.ml" 132 5066 5108
+type(
+  int Idents.Env.t -> int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  int_ref add_uses "minils/transformations/schedule_interf.ml" 94 3952 3958 "minils/transformations/schedule_interf.ml" 94 3952 3966
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5109 "minils/transformations/schedule_interf.ml" 132 5066 5113
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 126 4889 4905 "minils/transformations/schedule_interf.ml" 126 4889 4909
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5114 "minils/transformations/schedule_interf.ml" 132 5066 5117
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 132 5066 5093 "minils/transformations/schedule_interf.ml" 132 5066 5096
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5118 "minils/transformations/schedule_interf.ml" 132 5066 5119
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  int_ref x "minils/transformations/schedule_interf.ml" 132 5066 5091 "minils/transformations/schedule_interf.ml" 132 5066 5092
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5100 "minils/transformations/schedule_interf.ml" 132 5066 5119
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5086 "minils/transformations/schedule_interf.ml" 132 5066 5120
+type(
+  Idents.IdentSet.elt -> int Idents.Env.t -> int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5121 "minils/transformations/schedule_interf.ml" 132 5066 5128
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref mem_opt "minils/transformations/schedule_interf.ml" 128 4950 4958 "minils/transformations/schedule_interf.ml" 128 4950 4965
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5129 "minils/transformations/schedule_interf.ml" 132 5066 5138
+type(
+  int Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/schedule_interf.ml" 132 5066 5072 "minils/transformations/schedule_interf.ml" 132 5066 5138
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5154 "minils/transformations/schedule_interf.ml" 134 5146 5160
+type(
+  Idents.var_ident list
+)
+ident(
+  def inputs "minils/transformations/schedule_interf.ml" 135 5218 5222 "minils/transformations/schedule_interf.ml" 135 5218 5263
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5163 "minils/transformations/schedule_interf.ml" 134 5146 5173
+type(
+  Idents.var_ident list -> Idents.var_ident list
+)
+ident(
+  int_ref filter_opt "minils/transformations/schedule_interf.ml" 81 3592 3598 "minils/transformations/schedule_interf.ml" 81 3592 3608
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5175 "minils/transformations/schedule_interf.ml" 134 5146 5183
+type(
+  (Minils.var_dec -> Idents.var_ident) ->
+  Minils.var_dec list -> Idents.var_ident list
+)
+ident(
+  ext_ref List.map
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5189 "minils/transformations/schedule_interf.ml" 134 5146 5191
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/transformations/schedule_interf.ml" 134 5146 5195 "minils/transformations/schedule_interf.ml" 134 5146 5205
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5195 "minils/transformations/schedule_interf.ml" 134 5146 5197
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/schedule_interf.ml" 134 5146 5189 "minils/transformations/schedule_interf.ml" 134 5146 5191
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5195 "minils/transformations/schedule_interf.ml" 134 5146 5205
+type(
+  Idents.var_ident
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5184 "minils/transformations/schedule_interf.ml" 134 5146 5206
+type(
+  Minils.var_dec -> Idents.var_ident
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5207 "minils/transformations/schedule_interf.ml" 134 5146 5213
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref inputs "minils/transformations/schedule_interf.ml" 126 4889 4910 "minils/transformations/schedule_interf.ml" 126 4889 4916
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5174 "minils/transformations/schedule_interf.ml" 134 5146 5214
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5163 "minils/transformations/schedule_interf.ml" 134 5146 5214
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5222 "minils/transformations/schedule_interf.ml" 135 5218 5236
+type(
+  (int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t) ->
+  int Idents.Env.t -> Idents.Env.key list -> int Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5238 "minils/transformations/schedule_interf.ml" 135 5218 5246
+type(
+  int Idents.Env.t -> int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  int_ref add_uses "minils/transformations/schedule_interf.ml" 94 3952 3958 "minils/transformations/schedule_interf.ml" 94 3952 3966
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5247 "minils/transformations/schedule_interf.ml" 135 5218 5251
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 126 4889 4905 "minils/transformations/schedule_interf.ml" 126 4889 4909
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5237 "minils/transformations/schedule_interf.ml" 135 5218 5252
+call(
+  stack
+)
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5253 "minils/transformations/schedule_interf.ml" 135 5218 5256
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 131 5052 5060 "minils/transformations/schedule_interf.ml" 131 5052 5063
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5257 "minils/transformations/schedule_interf.ml" 135 5218 5263
+type(
+  Idents.Env.key list
+)
+ident(
+  int_ref inputs "minils/transformations/schedule_interf.ml" 134 5146 5154 "minils/transformations/schedule_interf.ml" 134 5146 5160
+)
+"minils/transformations/schedule_interf.ml" 135 5218 5222 "minils/transformations/schedule_interf.ml" 135 5218 5263
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 134 5146 5150 "minils/transformations/schedule_interf.ml" 135 5218 5263
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 131 5052 5056 "minils/transformations/schedule_interf.ml" 135 5218 5263
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 128 4950 4954 "minils/transformations/schedule_interf.ml" 135 5218 5263
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 127 4919 4923 "minils/transformations/schedule_interf.ml" 135 5218 5263
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 141 5479 5485 "minils/transformations/schedule_interf.ml" 141 5479 5496
+type(
+  Minils.eq -> int Idents.Env.t -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  def update_cost "minils/transformations/schedule_interf.ml" 146 5704 5706 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 141 5479 5497 "minils/transformations/schedule_interf.ml" 141 5479 5499
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 141 5479 5500 "minils/transformations/schedule_interf.ml" 143 5571 5624
+)
+"minils/transformations/schedule_interf.ml" 141 5479 5500 "minils/transformations/schedule_interf.ml" 141 5479 5504
+type(
+  int Idents.Env.t
+)
+ident(
+  def uses "minils/transformations/schedule_interf.ml" 141 5479 5505 "minils/transformations/schedule_interf.ml" 143 5571 5624
+)
+"minils/transformations/schedule_interf.ml" 141 5479 5505 "minils/transformations/schedule_interf.ml" 141 5479 5508
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 142 5511 5515 "minils/transformations/schedule_interf.ml" 143 5571 5624
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5519 "minils/transformations/schedule_interf.ml" 142 5511 5522
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 143 5571 5577 "minils/transformations/schedule_interf.ml" 143 5571 5624
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5525 "minils/transformations/schedule_interf.ml" 142 5511 5539
+type(
+  (int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t) ->
+  int Idents.Env.t -> Idents.Env.key list -> int Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5540 "minils/transformations/schedule_interf.ml" 142 5511 5549
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  int_ref decr_uses "minils/transformations/schedule_interf.ml" 99 4117 4123 "minils/transformations/schedule_interf.ml" 99 4117 4132
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5550 "minils/transformations/schedule_interf.ml" 142 5511 5553
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 141 5479 5505 "minils/transformations/schedule_interf.ml" 141 5479 5508
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5555 "minils/transformations/schedule_interf.ml" 142 5511 5563
+type(
+  Minils.eq -> Idents.Env.key list
+)
+ident(
+  int_ref read_opt "minils/transformations/schedule_interf.ml" 85 3727 3733 "minils/transformations/schedule_interf.ml" 85 3727 3741
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5564 "minils/transformations/schedule_interf.ml" 142 5511 5566
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 141 5479 5497 "minils/transformations/schedule_interf.ml" 141 5479 5499
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5554 "minils/transformations/schedule_interf.ml" 142 5511 5567
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5525 "minils/transformations/schedule_interf.ml" 142 5511 5567
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5577 "minils/transformations/schedule_interf.ml" 143 5571 5591
+type(
+  (int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t) ->
+  int Idents.Env.t -> Idents.Env.key list -> int Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5593 "minils/transformations/schedule_interf.ml" 143 5571 5601
+type(
+  int Idents.Env.t -> int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+ident(
+  int_ref add_uses "minils/transformations/schedule_interf.ml" 94 3952 3958 "minils/transformations/schedule_interf.ml" 94 3952 3966
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5602 "minils/transformations/schedule_interf.ml" 143 5571 5606
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 141 5479 5500 "minils/transformations/schedule_interf.ml" 141 5479 5504
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5592 "minils/transformations/schedule_interf.ml" 143 5571 5607
+call(
+  stack
+)
+type(
+  int Idents.Env.t -> Idents.Env.key -> int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5608 "minils/transformations/schedule_interf.ml" 143 5571 5611
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 142 5511 5519 "minils/transformations/schedule_interf.ml" 142 5511 5522
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5613 "minils/transformations/schedule_interf.ml" 143 5571 5620
+type(
+  Minils.eq -> Idents.Env.key list
+)
+ident(
+  int_ref def_opt "minils/transformations/schedule_interf.ml" 90 3869 3875 "minils/transformations/schedule_interf.ml" 90 3869 3882
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5621 "minils/transformations/schedule_interf.ml" 143 5571 5623
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 141 5479 5497 "minils/transformations/schedule_interf.ml" 141 5479 5499
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5612 "minils/transformations/schedule_interf.ml" 143 5571 5624
+call(
+  stack
+)
+type(
+  Idents.Env.key list
+)
+"minils/transformations/schedule_interf.ml" 143 5571 5577 "minils/transformations/schedule_interf.ml" 143 5571 5624
+call(
+  tail
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 142 5511 5515 "minils/transformations/schedule_interf.ml" 143 5571 5624
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 146 5704 5710 "minils/transformations/schedule_interf.ml" 146 5704 5723
+type(
+  Minils.eq list -> Clocks.ck -> int Idents.Env.t -> Minils.eq
+)
+ident(
+  def next_equation "minils/transformations/schedule_interf.ml" 176 6798 6842 "minils/transformations/schedule_interf.ml" 177 6843 6846
+)
+"minils/transformations/schedule_interf.ml" 146 5704 5724 "minils/transformations/schedule_interf.ml" 146 5704 5731
+type(
+  Minils.eq list
+)
+ident(
+  def rem_eqs "minils/transformations/schedule_interf.ml" 146 5704 5732 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 146 5704 5732 "minils/transformations/schedule_interf.ml" 146 5704 5734
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/schedule_interf.ml" 146 5704 5735 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 146 5704 5735 "minils/transformations/schedule_interf.ml" 146 5704 5738
+type(
+  int Idents.Env.t
+)
+ident(
+  def env "minils/transformations/schedule_interf.ml" 147 5741 5745 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5749 "minils/transformations/schedule_interf.ml" 147 5741 5754
+type(
+  Minils.eq -> int
+)
+ident(
+  def bonus "minils/transformations/schedule_interf.ml" 152 5891 5895 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5755 "minils/transformations/schedule_interf.ml" 147 5741 5757
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 147 5741 5760 "minils/transformations/schedule_interf.ml" 150 5869 5883
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5766 "minils/transformations/schedule_interf.ml" 147 5741 5768
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 147 5741 5755 "minils/transformations/schedule_interf.ml" 147 5741 5757
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5766 "minils/transformations/schedule_interf.ml" 147 5741 5775
+type(
+  Minils.exp
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5766 "minils/transformations/schedule_interf.ml" 147 5741 5782
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5811 "minils/transformations/schedule_interf.ml" 148 5788 5818
+type(
+  Minils.op
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5821 "minils/transformations/schedule_interf.ml" 148 5788 5834
+type(
+  Minils.op
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5810 "minils/transformations/schedule_interf.ml" 148 5788 5835
+type(
+  Minils.op
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5802 "minils/transformations/schedule_interf.ml" 148 5788 5837
+type(
+  Minils.app
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5838 "minils/transformations/schedule_interf.ml" 148 5788 5839
+type(
+  Minils.extvalue list
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5840 "minils/transformations/schedule_interf.ml" 148 5788 5841
+type(
+  Idents.var_ident option
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5796 "minils/transformations/schedule_interf.ml" 148 5788 5842
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 148 5788 5846 "minils/transformations/schedule_interf.ml" 148 5788 5847
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 149 5848 5861 "minils/transformations/schedule_interf.ml" 149 5848 5862
+type(
+  Minils.extvalue
+)
+type(
+  Types.static_exp option
+)
+"minils/transformations/schedule_interf.ml" 149 5848 5856 "minils/transformations/schedule_interf.ml" 149 5848 5862
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 149 5848 5866 "minils/transformations/schedule_interf.ml" 149 5848 5868
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 150 5869 5877 "minils/transformations/schedule_interf.ml" 150 5869 5878
+type(
+  Minils.edesc
+)
+"minils/transformations/schedule_interf.ml" 150 5869 5882 "minils/transformations/schedule_interf.ml" 150 5869 5883
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5760 "minils/transformations/schedule_interf.ml" 150 5869 5883
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 152 5891 5899 "minils/transformations/schedule_interf.ml" 152 5891 5903
+type(
+  Minils.eq -> int
+)
+ident(
+  def cost "minils/transformations/schedule_interf.ml" 162 6265 6269 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 152 5891 5904 "minils/transformations/schedule_interf.ml" 152 5891 5906
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 153 5909 5915 "minils/transformations/schedule_interf.ml" 158 6133 6171
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5919 "minils/transformations/schedule_interf.ml" 153 5909 5933
+type(
+  int
+)
+ident(
+  def nb_killed_vars "minils/transformations/schedule_interf.ml" 154 5958 5964 "minils/transformations/schedule_interf.ml" 158 6133 6171
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5936 "minils/transformations/schedule_interf.ml" 153 5909 5947
+type(
+  Minils.eq -> int Idents.Env.t -> int
+)
+ident(
+  int_ref killed_vars "minils/transformations/schedule_interf.ml" 114 4607 4613 "minils/transformations/schedule_interf.ml" 114 4607 4624
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5948 "minils/transformations/schedule_interf.ml" 153 5909 5950
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 152 5891 5904 "minils/transformations/schedule_interf.ml" 152 5891 5906
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5951 "minils/transformations/schedule_interf.ml" 153 5909 5954
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/schedule_interf.ml" 146 5704 5735 "minils/transformations/schedule_interf.ml" 146 5704 5738
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5936 "minils/transformations/schedule_interf.ml" 153 5909 5954
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5968 "minils/transformations/schedule_interf.ml" 154 5958 5979
+type(
+  int
+)
+ident(
+  def nb_def_vars "minils/transformations/schedule_interf.ml" 155 6010 6016 "minils/transformations/schedule_interf.ml" 158 6133 6171
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5982 "minils/transformations/schedule_interf.ml" 154 5958 5993
+type(
+  Idents.var_ident list -> int
+)
+ident(
+  ext_ref List.length
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5995 "minils/transformations/schedule_interf.ml" 154 5958 6002
+type(
+  Minils.eq -> Idents.var_ident list
+)
+ident(
+  int_ref def_opt "minils/transformations/schedule_interf.ml" 90 3869 3875 "minils/transformations/schedule_interf.ml" 90 3869 3882
+)
+"minils/transformations/schedule_interf.ml" 154 5958 6003 "minils/transformations/schedule_interf.ml" 154 5958 6005
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 152 5891 5904 "minils/transformations/schedule_interf.ml" 152 5891 5906
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5994 "minils/transformations/schedule_interf.ml" 154 5958 6006
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5982 "minils/transformations/schedule_interf.ml" 154 5958 6006
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 155 6010 6020 "minils/transformations/schedule_interf.ml" 155 6010 6021
+type(
+  int
+)
+ident(
+  def b "minils/transformations/schedule_interf.ml" 156 6036 6042 "minils/transformations/schedule_interf.ml" 158 6133 6171
+)
+"minils/transformations/schedule_interf.ml" 155 6010 6024 "minils/transformations/schedule_interf.ml" 155 6010 6029
+type(
+  Minils.eq -> int
+)
+ident(
+  int_ref bonus "minils/transformations/schedule_interf.ml" 147 5741 5749 "minils/transformations/schedule_interf.ml" 147 5741 5754
+)
+"minils/transformations/schedule_interf.ml" 155 6010 6030 "minils/transformations/schedule_interf.ml" 155 6010 6032
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 152 5891 5904 "minils/transformations/schedule_interf.ml" 152 5891 5906
+)
+"minils/transformations/schedule_interf.ml" 155 6010 6024 "minils/transformations/schedule_interf.ml" 155 6010 6032
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 156 6036 6042 "minils/transformations/schedule_interf.ml" 156 6036 6053
+type(
+  (int ->
+   int -> int -> (Format.formatter -> Minils.eq -> unit) -> Minils.eq -> unit,
+   Format.formatter, unit)
+  format ->
+  int ->
+  int -> int -> (Format.formatter -> Minils.eq -> unit) -> Minils.eq -> unit
+)
+ident(
+  ext_ref Interference.print_debug
+)
+"minils/transformations/schedule_interf.ml" 156 6036 6054 "minils/transformations/schedule_interf.ml" 156 6036 6070
+type(
+  (int ->
+   int -> int -> (Format.formatter -> Minils.eq -> unit) -> Minils.eq -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/transformations/schedule_interf.ml" 157 6071 6079 "minils/transformations/schedule_interf.ml" 157 6071 6093
+type(
+  int
+)
+ident(
+  int_ref nb_killed_vars "minils/transformations/schedule_interf.ml" 153 5909 5919 "minils/transformations/schedule_interf.ml" 153 5909 5933
+)
+"minils/transformations/schedule_interf.ml" 157 6071 6094 "minils/transformations/schedule_interf.ml" 157 6071 6105
+type(
+  int
+)
+ident(
+  int_ref nb_def_vars "minils/transformations/schedule_interf.ml" 154 5958 5968 "minils/transformations/schedule_interf.ml" 154 5958 5979
+)
+"minils/transformations/schedule_interf.ml" 157 6071 6106 "minils/transformations/schedule_interf.ml" 157 6071 6107
+type(
+  int
+)
+ident(
+  int_ref b "minils/transformations/schedule_interf.ml" 155 6010 6020 "minils/transformations/schedule_interf.ml" 155 6010 6021
+)
+"minils/transformations/schedule_interf.ml" 157 6071 6108 "minils/transformations/schedule_interf.ml" 157 6071 6128
+type(
+  Format.formatter -> Minils.eq -> unit
+)
+ident(
+  ext_ref Mls_printer.print_eq
+)
+"minils/transformations/schedule_interf.ml" 157 6071 6129 "minils/transformations/schedule_interf.ml" 157 6071 6131
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 152 5891 5904 "minils/transformations/schedule_interf.ml" 152 5891 5906
+)
+"minils/transformations/schedule_interf.ml" 156 6036 6042 "minils/transformations/schedule_interf.ml" 157 6071 6131
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6139 "minils/transformations/schedule_interf.ml" 158 6133 6150
+type(
+  int
+)
+ident(
+  int_ref nb_def_vars "minils/transformations/schedule_interf.ml" 154 5958 5968 "minils/transformations/schedule_interf.ml" 154 5958 5979
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6151 "minils/transformations/schedule_interf.ml" 158 6133 6152
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6153 "minils/transformations/schedule_interf.ml" 158 6133 6167
+type(
+  int
+)
+ident(
+  int_ref nb_killed_vars "minils/transformations/schedule_interf.ml" 153 5909 5919 "minils/transformations/schedule_interf.ml" 153 5909 5933
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6139 "minils/transformations/schedule_interf.ml" 158 6133 6167
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6168 "minils/transformations/schedule_interf.ml" 158 6133 6169
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6170 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+ident(
+  int_ref b "minils/transformations/schedule_interf.ml" 155 6010 6020 "minils/transformations/schedule_interf.ml" 155 6010 6021
+)
+"minils/transformations/schedule_interf.ml" 158 6133 6139 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 156 6036 6042 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 155 6010 6016 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 154 5958 5964 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 153 5909 5915 "minils/transformations/schedule_interf.ml" 158 6133 6171
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6277 "minils/transformations/schedule_interf.ml" 162 6265 6288
+type(
+  'a * 'b * bool -> ('a * 'b * bool) list -> 'a
+)
+ident(
+  def min_same_ck "minils/transformations/schedule_interf.ml" 162 6265 6269 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6290 "minils/transformations/schedule_interf.ml" 162 6265 6296
+type(
+  'a
+)
+ident(
+  def min_eq "minils/transformations/schedule_interf.ml" 162 6265 6320 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6298 "minils/transformations/schedule_interf.ml" 162 6265 6303
+type(
+  'b
+)
+ident(
+  def min_c "minils/transformations/schedule_interf.ml" 162 6265 6320 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6305 "minils/transformations/schedule_interf.ml" 162 6265 6318
+type(
+  bool
+)
+ident(
+  def min_same_ctrl "minils/transformations/schedule_interf.ml" 162 6265 6320 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6289 "minils/transformations/schedule_interf.ml" 162 6265 6319
+type(
+  'a * 'b * bool
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6320 "minils/transformations/schedule_interf.ml" 162 6265 6321
+type(
+  ('a * 'b * bool) list
+)
+ident(
+  def l "minils/transformations/schedule_interf.ml" 162 6265 6324 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6330 "minils/transformations/schedule_interf.ml" 162 6265 6331
+type(
+  ('a * 'b * bool) list
+)
+ident(
+  int_ref l "minils/transformations/schedule_interf.ml" 162 6265 6320 "minils/transformations/schedule_interf.ml" 162 6265 6321
+)
+"minils/transformations/schedule_interf.ml" 163 6337 6345 "minils/transformations/schedule_interf.ml" 163 6337 6347
+type(
+  ('a * 'b * bool) list
+)
+"minils/transformations/schedule_interf.ml" 163 6337 6351 "minils/transformations/schedule_interf.ml" 163 6337 6357
+type(
+  'a
+)
+ident(
+  int_ref min_eq "minils/transformations/schedule_interf.ml" 162 6265 6290 "minils/transformations/schedule_interf.ml" 162 6265 6296
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6367 "minils/transformations/schedule_interf.ml" 164 6358 6369
+type(
+  'a
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 165 6391 6401 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6371 "minils/transformations/schedule_interf.ml" 164 6358 6372
+type(
+  'b
+)
+ident(
+  def c "minils/transformations/schedule_interf.ml" 165 6391 6401 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6374 "minils/transformations/schedule_interf.ml" 164 6358 6383
+type(
+  bool
+)
+ident(
+  def same_ctrl "minils/transformations/schedule_interf.ml" 165 6391 6401 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6366 "minils/transformations/schedule_interf.ml" 164 6358 6384
+type(
+  'a * 'b * bool
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6386 "minils/transformations/schedule_interf.ml" 164 6358 6387
+type(
+  ('a * 'b * bool) list
+)
+ident(
+  def l "minils/transformations/schedule_interf.ml" 165 6391 6401 "minils/transformations/schedule_interf.ml" 168 6532 6588
+)
+"minils/transformations/schedule_interf.ml" 164 6358 6366 "minils/transformations/schedule_interf.ml" 164 6358 6387
+type(
+  ('a * 'b * bool) list
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6405 "minils/transformations/schedule_interf.ml" 165 6391 6406
+type(
+  'b
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 164 6358 6371 "minils/transformations/schedule_interf.ml" 164 6358 6372
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6407 "minils/transformations/schedule_interf.ml" 165 6391 6408
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6409 "minils/transformations/schedule_interf.ml" 165 6391 6414
+type(
+  'b
+)
+ident(
+  int_ref min_c "minils/transformations/schedule_interf.ml" 162 6265 6298 "minils/transformations/schedule_interf.ml" 162 6265 6303
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6404 "minils/transformations/schedule_interf.ml" 165 6391 6415
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6416 "minils/transformations/schedule_interf.ml" 165 6391 6418
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6420 "minils/transformations/schedule_interf.ml" 165 6391 6421
+type(
+  'b
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 164 6358 6371 "minils/transformations/schedule_interf.ml" 164 6358 6372
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6422 "minils/transformations/schedule_interf.ml" 165 6391 6423
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6424 "minils/transformations/schedule_interf.ml" 165 6391 6429
+type(
+  'b
+)
+ident(
+  int_ref min_c "minils/transformations/schedule_interf.ml" 162 6265 6298 "minils/transformations/schedule_interf.ml" 162 6265 6303
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6420 "minils/transformations/schedule_interf.ml" 165 6391 6429
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6430 "minils/transformations/schedule_interf.ml" 165 6391 6432
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6434 "minils/transformations/schedule_interf.ml" 165 6391 6443
+type(
+  bool
+)
+ident(
+  int_ref same_ctrl "minils/transformations/schedule_interf.ml" 164 6358 6374 "minils/transformations/schedule_interf.ml" 164 6358 6383
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6444 "minils/transformations/schedule_interf.ml" 165 6391 6446
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6447 "minils/transformations/schedule_interf.ml" 165 6391 6450
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6451 "minils/transformations/schedule_interf.ml" 165 6391 6464
+type(
+  bool
+)
+ident(
+  int_ref min_same_ctrl "minils/transformations/schedule_interf.ml" 162 6265 6305 "minils/transformations/schedule_interf.ml" 162 6265 6318
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6447 "minils/transformations/schedule_interf.ml" 165 6391 6464
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6433 "minils/transformations/schedule_interf.ml" 165 6391 6465
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6419 "minils/transformations/schedule_interf.ml" 165 6391 6466
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6404 "minils/transformations/schedule_interf.ml" 165 6391 6466
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6484 "minils/transformations/schedule_interf.ml" 166 6472 6495
+type(
+  'a * 'b * bool -> ('a * 'b * bool) list -> 'a
+)
+ident(
+  int_ref min_same_ck "minils/transformations/schedule_interf.ml" 162 6265 6277 "minils/transformations/schedule_interf.ml" 162 6265 6288
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6497 "minils/transformations/schedule_interf.ml" 166 6472 6499
+type(
+  'a
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 164 6358 6367 "minils/transformations/schedule_interf.ml" 164 6358 6369
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6501 "minils/transformations/schedule_interf.ml" 166 6472 6502
+type(
+  'b
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 164 6358 6371 "minils/transformations/schedule_interf.ml" 164 6358 6372
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6504 "minils/transformations/schedule_interf.ml" 166 6472 6513
+type(
+  bool
+)
+ident(
+  int_ref same_ctrl "minils/transformations/schedule_interf.ml" 164 6358 6374 "minils/transformations/schedule_interf.ml" 164 6358 6383
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6496 "minils/transformations/schedule_interf.ml" 166 6472 6514
+type(
+  'a * 'b * bool
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6515 "minils/transformations/schedule_interf.ml" 166 6472 6516
+type(
+  ('a * 'b * bool) list
+)
+ident(
+  int_ref l "minils/transformations/schedule_interf.ml" 164 6358 6386 "minils/transformations/schedule_interf.ml" 164 6358 6387
+)
+"minils/transformations/schedule_interf.ml" 166 6472 6484 "minils/transformations/schedule_interf.ml" 166 6472 6516
+call(
+  tail
+)
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6544 "minils/transformations/schedule_interf.ml" 168 6532 6555
+type(
+  'a * 'b * bool -> ('a * 'b * bool) list -> 'a
+)
+ident(
+  int_ref min_same_ck "minils/transformations/schedule_interf.ml" 162 6265 6277 "minils/transformations/schedule_interf.ml" 162 6265 6288
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6557 "minils/transformations/schedule_interf.ml" 168 6532 6563
+type(
+  'a
+)
+ident(
+  int_ref min_eq "minils/transformations/schedule_interf.ml" 162 6265 6290 "minils/transformations/schedule_interf.ml" 162 6265 6296
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6565 "minils/transformations/schedule_interf.ml" 168 6532 6570
+type(
+  'b
+)
+ident(
+  int_ref min_c "minils/transformations/schedule_interf.ml" 162 6265 6298 "minils/transformations/schedule_interf.ml" 162 6265 6303
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6572 "minils/transformations/schedule_interf.ml" 168 6532 6585
+type(
+  bool
+)
+ident(
+  int_ref min_same_ctrl "minils/transformations/schedule_interf.ml" 162 6265 6305 "minils/transformations/schedule_interf.ml" 162 6265 6318
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6556 "minils/transformations/schedule_interf.ml" 168 6532 6586
+type(
+  'a * 'b * bool
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6587 "minils/transformations/schedule_interf.ml" 168 6532 6588
+type(
+  ('a * 'b * bool) list
+)
+ident(
+  int_ref l "minils/transformations/schedule_interf.ml" 164 6358 6386 "minils/transformations/schedule_interf.ml" 164 6358 6387
+)
+"minils/transformations/schedule_interf.ml" 168 6532 6544 "minils/transformations/schedule_interf.ml" 168 6532 6588
+call(
+  tail
+)
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 165 6391 6401 "minils/transformations/schedule_interf.ml" 168 6532 6588
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6324 "minils/transformations/schedule_interf.ml" 168 6532 6588
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 170 6596 6604 "minils/transformations/schedule_interf.ml" 170 6596 6613
+type(
+  (Minils.eq * int * bool) list
+)
+ident(
+  def eqs_wcost "minils/transformations/schedule_interf.ml" 175 6728 6732 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 171 6616 6622 "minils/transformations/schedule_interf.ml" 171 6616 6630
+type(
+  (Minils.eq -> Minils.eq * int * bool) ->
+  Minils.eq list -> (Minils.eq * int * bool) list
+)
+ident(
+  ext_ref List.map
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6644 "minils/transformations/schedule_interf.ml" 172 6631 6646
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 172 6631 6650 "minils/transformations/schedule_interf.ml" 172 6631 6703
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6651 "minils/transformations/schedule_interf.ml" 172 6631 6653
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 172 6631 6644 "minils/transformations/schedule_interf.ml" 172 6631 6646
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6655 "minils/transformations/schedule_interf.ml" 172 6631 6659
+type(
+  Minils.eq -> int
+)
+ident(
+  int_ref cost "minils/transformations/schedule_interf.ml" 152 5891 5899 "minils/transformations/schedule_interf.ml" 152 5891 5903
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6660 "minils/transformations/schedule_interf.ml" 172 6631 6662
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 172 6631 6644 "minils/transformations/schedule_interf.ml" 172 6631 6646
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6655 "minils/transformations/schedule_interf.ml" 172 6631 6662
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6664 "minils/transformations/schedule_interf.ml" 172 6631 6683
+type(
+  Clocks.ck -> Clocks.ck -> bool
+)
+ident(
+  ext_ref Clocks.same_control
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6685 "minils/transformations/schedule_interf.ml" 172 6631 6695
+type(
+  Minils.eq -> Clocks.ck
+)
+ident(
+  int_ref control_ck "minils/transformations/schedule_interf.ml" 39 2501 2505 "minils/transformations/schedule_interf.ml" 39 2501 2515
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6696 "minils/transformations/schedule_interf.ml" 172 6631 6698
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 172 6631 6644 "minils/transformations/schedule_interf.ml" 172 6631 6646
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6684 "minils/transformations/schedule_interf.ml" 172 6631 6699
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6700 "minils/transformations/schedule_interf.ml" 172 6631 6702
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/schedule_interf.ml" 146 5704 5732 "minils/transformations/schedule_interf.ml" 146 5704 5734
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6664 "minils/transformations/schedule_interf.ml" 172 6631 6702
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6650 "minils/transformations/schedule_interf.ml" 172 6631 6703
+type(
+  Minils.eq * int * bool
+)
+"minils/transformations/schedule_interf.ml" 172 6631 6639 "minils/transformations/schedule_interf.ml" 172 6631 6704
+type(
+  Minils.eq -> Minils.eq * int * bool
+)
+"minils/transformations/schedule_interf.ml" 173 6705 6713 "minils/transformations/schedule_interf.ml" 173 6705 6720
+type(
+  Minils.eq list
+)
+ident(
+  int_ref rem_eqs "minils/transformations/schedule_interf.ml" 146 5704 5724 "minils/transformations/schedule_interf.ml" 146 5704 5731
+)
+"minils/transformations/schedule_interf.ml" 171 6616 6622 "minils/transformations/schedule_interf.ml" 173 6705 6720
+call(
+  stack
+)
+type(
+  (Minils.eq * int * bool) list
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6737 "minils/transformations/schedule_interf.ml" 175 6728 6739
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6741 "minils/transformations/schedule_interf.ml" 175 6728 6742
+type(
+  int
+)
+ident(
+  def c "minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6744 "minils/transformations/schedule_interf.ml" 175 6728 6753
+type(
+  bool
+)
+ident(
+  def same_ctrl "minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6736 "minils/transformations/schedule_interf.ml" 175 6728 6754
+type(
+  Minils.eq * int * bool
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6756 "minils/transformations/schedule_interf.ml" 175 6728 6765
+type(
+  (Minils.eq * int * bool) list
+)
+ident(
+  def eqs_wcost "minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6842
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6736 "minils/transformations/schedule_interf.ml" 175 6728 6765
+type(
+  (Minils.eq * int * bool) * (Minils.eq * int * bool) list
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6768 "minils/transformations/schedule_interf.ml" 175 6728 6784
+type(
+  (Minils.eq * int * bool) list ->
+  (Minils.eq * int * bool) * (Minils.eq * int * bool) list
+)
+ident(
+  ext_ref Misc.assert_1min
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6785 "minils/transformations/schedule_interf.ml" 175 6728 6794
+type(
+  (Minils.eq * int * bool) list
+)
+ident(
+  int_ref eqs_wcost "minils/transformations/schedule_interf.ml" 170 6596 6604 "minils/transformations/schedule_interf.ml" 170 6596 6613
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6768 "minils/transformations/schedule_interf.ml" 175 6728 6794
+call(
+  stack
+)
+type(
+  (Minils.eq * int * bool) * (Minils.eq * int * bool) list
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6813
+type(
+  Minils.eq * int * bool -> (Minils.eq * int * bool) list -> Minils.eq
+)
+ident(
+  int_ref min_same_ck "minils/transformations/schedule_interf.ml" 162 6265 6277 "minils/transformations/schedule_interf.ml" 162 6265 6288
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6815 "minils/transformations/schedule_interf.ml" 176 6798 6817
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 175 6728 6737 "minils/transformations/schedule_interf.ml" 175 6728 6739
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6819 "minils/transformations/schedule_interf.ml" 176 6798 6820
+type(
+  int
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 175 6728 6741 "minils/transformations/schedule_interf.ml" 175 6728 6742
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6822 "minils/transformations/schedule_interf.ml" 176 6798 6831
+type(
+  bool
+)
+ident(
+  int_ref same_ctrl "minils/transformations/schedule_interf.ml" 175 6728 6744 "minils/transformations/schedule_interf.ml" 175 6728 6753
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6814 "minils/transformations/schedule_interf.ml" 176 6798 6832
+type(
+  Minils.eq * int * bool
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6833 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  (Minils.eq * int * bool) list
+)
+ident(
+  int_ref eqs_wcost "minils/transformations/schedule_interf.ml" 175 6728 6756 "minils/transformations/schedule_interf.ml" 175 6728 6765
+)
+"minils/transformations/schedule_interf.ml" 176 6798 6802 "minils/transformations/schedule_interf.ml" 176 6798 6842
+call(
+  tail
+)
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 175 6728 6732 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 170 6596 6600 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 162 6265 6269 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 152 5891 5895 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 147 5741 5745 "minils/transformations/schedule_interf.ml" 176 6798 6842
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 181 6946 6950 "minils/transformations/schedule_interf.ml" 181 6946 6958
+type(
+  'a Sgraph.node list -> 'a list
+)
+ident(
+  def free_eqs "minils/transformations/schedule_interf.ml" 187 7101 7101 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 181 6946 6959 "minils/transformations/schedule_interf.ml" 181 6946 6968
+type(
+  'a Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 182 6971 6973 "minils/transformations/schedule_interf.ml" 185 7031 7099
+)
+"minils/transformations/schedule_interf.ml" 182 6971 6977 "minils/transformations/schedule_interf.ml" 182 6971 6984
+type(
+  'b Sgraph.node -> bool
+)
+ident(
+  def is_free "minils/transformations/schedule_interf.ml" 185 7031 7035 "minils/transformations/schedule_interf.ml" 185 7031 7099
+)
+"minils/transformations/schedule_interf.ml" 182 6971 6985 "minils/transformations/schedule_interf.ml" 182 6971 6986
+type(
+  'b Sgraph.node
+)
+ident(
+  def n "minils/transformations/schedule_interf.ml" 183 6989 6993 "minils/transformations/schedule_interf.ml" 183 6989 7025
+)
+"minils/transformations/schedule_interf.ml" 183 6989 6994 "minils/transformations/schedule_interf.ml" 183 6989 7005
+type(
+  'b Sgraph.node list -> int
+)
+ident(
+  ext_ref List.length
+)
+"minils/transformations/schedule_interf.ml" 183 6989 7006 "minils/transformations/schedule_interf.ml" 183 6989 7007
+type(
+  'b Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 182 6971 6985 "minils/transformations/schedule_interf.ml" 182 6971 6986
+)
+"minils/transformations/schedule_interf.ml" 183 6989 7006 "minils/transformations/schedule_interf.ml" 183 6989 7020
+type(
+  'b Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 183 6989 6993 "minils/transformations/schedule_interf.ml" 183 6989 7021
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 183 6989 7022 "minils/transformations/schedule_interf.ml" 183 6989 7023
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/schedule_interf.ml" 183 6989 7024 "minils/transformations/schedule_interf.ml" 183 6989 7025
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 183 6989 6993 "minils/transformations/schedule_interf.ml" 183 6989 7025
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7035 "minils/transformations/schedule_interf.ml" 185 7031 7043
+type(
+  ('a Sgraph.node -> 'a) -> 'a Sgraph.node list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7049 "minils/transformations/schedule_interf.ml" 185 7031 7050
+type(
+  'a Sgraph.node
+)
+ident(
+  def n "minils/transformations/schedule_interf.ml" 185 7031 7054 "minils/transformations/schedule_interf.ml" 185 7031 7066
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7054 "minils/transformations/schedule_interf.ml" 185 7031 7055
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 185 7031 7049 "minils/transformations/schedule_interf.ml" 185 7031 7050
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7054 "minils/transformations/schedule_interf.ml" 185 7031 7066
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7044 "minils/transformations/schedule_interf.ml" 185 7031 7067
+type(
+  'a Sgraph.node -> 'a
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7069 "minils/transformations/schedule_interf.ml" 185 7031 7080
+type(
+  ('a Sgraph.node -> bool) -> 'a Sgraph.node list -> 'a Sgraph.node list
+)
+ident(
+  ext_ref List.filter
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7081 "minils/transformations/schedule_interf.ml" 185 7031 7088
+type(
+  'a Sgraph.node -> bool
+)
+ident(
+  int_ref is_free "minils/transformations/schedule_interf.ml" 182 6971 6977 "minils/transformations/schedule_interf.ml" 182 6971 6984
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7089 "minils/transformations/schedule_interf.ml" 185 7031 7098
+type(
+  'a Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 181 6946 6959 "minils/transformations/schedule_interf.ml" 181 6946 6968
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7068 "minils/transformations/schedule_interf.ml" 185 7031 7099
+call(
+  stack
+)
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 185 7031 7035 "minils/transformations/schedule_interf.ml" 185 7031 7099
+call(
+  tail
+)
+type(
+  'a list
+)
+"minils/transformations/schedule_interf.ml" 182 6971 6973 "minils/transformations/schedule_interf.ml" 185 7031 7099
+type(
+  'a list
+)
+"minils/transformations/schedule_interf.ml" 187 7101 7109 "minils/transformations/schedule_interf.ml" 187 7101 7120
+type(
+  'a -> 'a Sgraph.node list -> 'a Sgraph.node
+)
+ident(
+  def node_for_eq "minils/transformations/schedule_interf.ml" 187 7101 7101 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 187 7101 7121 "minils/transformations/schedule_interf.ml" 187 7101 7123
+type(
+  'a
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 187 7101 7124 "minils/transformations/schedule_interf.ml" 194 7265 7298
+)
+"minils/transformations/schedule_interf.ml" 187 7101 7124 "minils/transformations/schedule_interf.ml" 187 7101 7134
+type(
+  'a Sgraph.node list
+)
+ident(
+  def nodes_list "minils/transformations/schedule_interf.ml" 188 7137 7139 "minils/transformations/schedule_interf.ml" 194 7265 7298
+)
+"minils/transformations/schedule_interf.ml" 188 7137 7145 "minils/transformations/schedule_interf.ml" 188 7137 7155
+type(
+  'a Sgraph.node list
+)
+ident(
+  int_ref nodes_list "minils/transformations/schedule_interf.ml" 187 7101 7124 "minils/transformations/schedule_interf.ml" 187 7101 7134
+)
+"minils/transformations/schedule_interf.ml" 189 7161 7167 "minils/transformations/schedule_interf.ml" 189 7161 7169
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 189 7161 7173 "minils/transformations/schedule_interf.ml" 189 7161 7178
+type(
+  exn -> 'a Sgraph.node
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/transformations/schedule_interf.ml" 189 7161 7179 "minils/transformations/schedule_interf.ml" 189 7161 7188
+type(
+  exn
+)
+"minils/transformations/schedule_interf.ml" 189 7161 7173 "minils/transformations/schedule_interf.ml" 189 7161 7188
+type(
+  'a Sgraph.node
+)
+"minils/transformations/schedule_interf.ml" 190 7189 7195 "minils/transformations/schedule_interf.ml" 190 7189 7196
+type(
+  'a Sgraph.node
+)
+ident(
+  def n "minils/transformations/schedule_interf.ml" 191 7212 7218 "minils/transformations/schedule_interf.ml" 194 7265 7298
+)
+"minils/transformations/schedule_interf.ml" 190 7189 7198 "minils/transformations/schedule_interf.ml" 190 7189 7208
+type(
+  'a Sgraph.node list
+)
+ident(
+  def nodes_list "minils/transformations/schedule_interf.ml" 191 7212 7218 "minils/transformations/schedule_interf.ml" 194 7265 7298
+)
+"minils/transformations/schedule_interf.ml" 190 7189 7195 "minils/transformations/schedule_interf.ml" 190 7189 7208
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7221 "minils/transformations/schedule_interf.ml" 191 7212 7223
+type(
+  'a
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 187 7101 7121 "minils/transformations/schedule_interf.ml" 187 7101 7123
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7224 "minils/transformations/schedule_interf.ml" 191 7212 7225
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7226 "minils/transformations/schedule_interf.ml" 191 7212 7227
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 190 7189 7195 "minils/transformations/schedule_interf.ml" 190 7189 7196
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7226 "minils/transformations/schedule_interf.ml" 191 7212 7238
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7221 "minils/transformations/schedule_interf.ml" 191 7212 7238
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 192 7244 7252 "minils/transformations/schedule_interf.ml" 192 7244 7253
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 190 7189 7195 "minils/transformations/schedule_interf.ml" 190 7189 7196
+)
+"minils/transformations/schedule_interf.ml" 194 7265 7273 "minils/transformations/schedule_interf.ml" 194 7265 7284
+type(
+  'a -> 'a Sgraph.node list -> 'a Sgraph.node
+)
+ident(
+  int_ref node_for_eq "minils/transformations/schedule_interf.ml" 187 7101 7109 "minils/transformations/schedule_interf.ml" 187 7101 7120
+)
+"minils/transformations/schedule_interf.ml" 194 7265 7285 "minils/transformations/schedule_interf.ml" 194 7265 7287
+type(
+  'a
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 187 7101 7121 "minils/transformations/schedule_interf.ml" 187 7101 7123
+)
+"minils/transformations/schedule_interf.ml" 194 7265 7288 "minils/transformations/schedule_interf.ml" 194 7265 7298
+type(
+  'a Sgraph.node list
+)
+ident(
+  int_ref nodes_list "minils/transformations/schedule_interf.ml" 190 7189 7198 "minils/transformations/schedule_interf.ml" 190 7189 7208
+)
+"minils/transformations/schedule_interf.ml" 194 7265 7273 "minils/transformations/schedule_interf.ml" 194 7265 7298
+call(
+  tail
+)
+type(
+  'a Sgraph.node
+)
+"minils/transformations/schedule_interf.ml" 191 7212 7218 "minils/transformations/schedule_interf.ml" 194 7265 7298
+type(
+  'a Sgraph.node
+)
+"minils/transformations/schedule_interf.ml" 188 7137 7139 "minils/transformations/schedule_interf.ml" 194 7265 7298
+type(
+  'a Sgraph.node
+)
+"minils/transformations/schedule_interf.ml" 198 7399 7403 "minils/transformations/schedule_interf.ml" 198 7399 7412
+type(
+  'a -> 'a Sgraph.node list -> 'a Sgraph.node list
+)
+ident(
+  def remove_eq "minils/transformations/schedule_interf.ml" 205 7677 7677 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 198 7399 7413 "minils/transformations/schedule_interf.ml" 198 7399 7415
+type(
+  'a
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 198 7399 7416 "minils/transformations/schedule_interf.ml" 202 7577 7634
+)
+"minils/transformations/schedule_interf.ml" 198 7399 7416 "minils/transformations/schedule_interf.ml" 198 7399 7425
+type(
+  'a Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 199 7428 7430 "minils/transformations/schedule_interf.ml" 202 7577 7634
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+type(
+  'a Sgraph.node
+)
+ident(
+  def n "minils/transformations/schedule_interf.ml" 200 7466 7470 "minils/transformations/schedule_interf.ml" 202 7577 7634
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7438 "minils/transformations/schedule_interf.ml" 199 7428 7449
+type(
+  'a -> 'a Sgraph.node list -> 'a Sgraph.node
+)
+ident(
+  int_ref node_for_eq "minils/transformations/schedule_interf.ml" 187 7101 7109 "minils/transformations/schedule_interf.ml" 187 7101 7120
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7450 "minils/transformations/schedule_interf.ml" 199 7428 7452
+type(
+  'a
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 198 7399 7413 "minils/transformations/schedule_interf.ml" 198 7399 7415
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7453 "minils/transformations/schedule_interf.ml" 199 7428 7462
+type(
+  'a Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 198 7399 7416 "minils/transformations/schedule_interf.ml" 198 7399 7425
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7438 "minils/transformations/schedule_interf.ml" 199 7428 7462
+call(
+  stack
+)
+type(
+  'a Sgraph.node
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7470 "minils/transformations/schedule_interf.ml" 200 7466 7479
+type(
+  ('a Sgraph.node -> unit) -> 'a Sgraph.node list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7481 "minils/transformations/schedule_interf.ml" 200 7466 7495
+type(
+  'a Sgraph.node -> 'a Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.remove_depends
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7496 "minils/transformations/schedule_interf.ml" 200 7466 7497
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7480 "minils/transformations/schedule_interf.ml" 200 7466 7498
+call(
+  stack
+)
+type(
+  'a Sgraph.node -> unit
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7499 "minils/transformations/schedule_interf.ml" 200 7466 7500
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7499 "minils/transformations/schedule_interf.ml" 200 7466 7513
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7470 "minils/transformations/schedule_interf.ml" 200 7466 7513
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7519 "minils/transformations/schedule_interf.ml" 201 7515 7528
+type(
+  ('a Sgraph.node -> unit) -> 'a Sgraph.node list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7534 "minils/transformations/schedule_interf.ml" 201 7515 7536
+type(
+  'a Sgraph.node
+)
+ident(
+  def n2 "minils/transformations/schedule_interf.ml" 201 7515 7540 "minils/transformations/schedule_interf.ml" 201 7515 7559
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7540 "minils/transformations/schedule_interf.ml" 201 7515 7554
+type(
+  'a Sgraph.node -> 'a Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.remove_depends
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7555 "minils/transformations/schedule_interf.ml" 201 7515 7557
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n2 "minils/transformations/schedule_interf.ml" 201 7515 7534 "minils/transformations/schedule_interf.ml" 201 7515 7536
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7558 "minils/transformations/schedule_interf.ml" 201 7515 7559
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7540 "minils/transformations/schedule_interf.ml" 201 7515 7559
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7529 "minils/transformations/schedule_interf.ml" 201 7515 7560
+type(
+  'a Sgraph.node -> unit
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7561 "minils/transformations/schedule_interf.ml" 201 7515 7562
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7561 "minils/transformations/schedule_interf.ml" 201 7515 7575
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7519 "minils/transformations/schedule_interf.ml" 201 7515 7575
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7581 "minils/transformations/schedule_interf.ml" 202 7577 7592
+type(
+  ('a Sgraph.node -> bool) -> 'a Sgraph.node list -> 'a Sgraph.node list
+)
+ident(
+  ext_ref List.filter
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7598 "minils/transformations/schedule_interf.ml" 202 7577 7600
+type(
+  'a Sgraph.node
+)
+ident(
+  def n2 "minils/transformations/schedule_interf.ml" 202 7577 7604 "minils/transformations/schedule_interf.ml" 202 7577 7623
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7604 "minils/transformations/schedule_interf.ml" 202 7577 7605
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n "minils/transformations/schedule_interf.ml" 199 7428 7434 "minils/transformations/schedule_interf.ml" 199 7428 7435
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7604 "minils/transformations/schedule_interf.ml" 202 7577 7611
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7612 "minils/transformations/schedule_interf.ml" 202 7577 7614
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7615 "minils/transformations/schedule_interf.ml" 202 7577 7617
+type(
+  'a Sgraph.node
+)
+ident(
+  int_ref n2 "minils/transformations/schedule_interf.ml" 202 7577 7598 "minils/transformations/schedule_interf.ml" 202 7577 7600
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7615 "minils/transformations/schedule_interf.ml" 202 7577 7623
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7604 "minils/transformations/schedule_interf.ml" 202 7577 7623
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7593 "minils/transformations/schedule_interf.ml" 202 7577 7624
+type(
+  'a Sgraph.node -> bool
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7625 "minils/transformations/schedule_interf.ml" 202 7577 7634
+type(
+  'a Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 198 7399 7416 "minils/transformations/schedule_interf.ml" 198 7399 7425
+)
+"minils/transformations/schedule_interf.ml" 202 7577 7581 "minils/transformations/schedule_interf.ml" 202 7577 7634
+call(
+  tail
+)
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 201 7515 7519 "minils/transformations/schedule_interf.ml" 202 7577 7634
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 200 7466 7470 "minils/transformations/schedule_interf.ml" 202 7577 7634
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 199 7428 7430 "minils/transformations/schedule_interf.ml" 202 7577 7634
+type(
+  'a Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 205 7677 7681 "minils/transformations/schedule_interf.ml" 205 7677 7689
+type(
+  Minils.eq list ->
+  Minils.var_dec list -> Minils.eq Sgraph.node list -> Minils.eq list
+)
+ident(
+  def schedule "minils/transformations/schedule_interf.ml" 229 8704 8704 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 205 7677 7690 "minils/transformations/schedule_interf.ml" 205 7677 7697
+type(
+  Minils.eq list
+)
+ident(
+  def eq_list "minils/transformations/schedule_interf.ml" 205 7677 7698 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 205 7677 7698 "minils/transformations/schedule_interf.ml" 205 7677 7704
+type(
+  Minils.var_dec list
+)
+ident(
+  def inputs "minils/transformations/schedule_interf.ml" 205 7677 7705 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 205 7677 7705 "minils/transformations/schedule_interf.ml" 205 7677 7714
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 207 7762 7764 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 207 7762 7768 "minils/transformations/schedule_interf.ml" 207 7762 7772
+type(
+  int Idents.Env.t
+)
+ident(
+  def uses "minils/transformations/schedule_interf.ml" 208 7799 7801 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 207 7762 7775 "minils/transformations/schedule_interf.ml" 207 7762 7787
+type(
+  Minils.eq list -> int Idents.Env.t
+)
+ident(
+  int_ref compute_uses "minils/transformations/schedule_interf.ml" 45 2710 2714 "minils/transformations/schedule_interf.ml" 45 2710 2726
+)
+"minils/transformations/schedule_interf.ml" 207 7762 7788 "minils/transformations/schedule_interf.ml" 207 7762 7795
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eq_list "minils/transformations/schedule_interf.ml" 205 7677 7690 "minils/transformations/schedule_interf.ml" 205 7677 7697
+)
+"minils/transformations/schedule_interf.ml" 207 7762 7775 "minils/transformations/schedule_interf.ml" 207 7762 7795
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7809 "minils/transformations/schedule_interf.ml" 208 7799 7821
+type(
+  Minils.eq list ->
+  Minils.eq list ->
+  Minils.eq Sgraph.node list ->
+  Clocks.ck -> int Idents.Env.t -> Minils.eq list
+)
+ident(
+  def schedule_aux "minils/transformations/schedule_interf.ml" 208 7799 7801 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7822 "minils/transformations/schedule_interf.ml" 208 7799 7829
+type(
+  Minils.eq list
+)
+ident(
+  def rem_eqs "minils/transformations/schedule_interf.ml" 208 7799 7830 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7830 "minils/transformations/schedule_interf.ml" 208 7799 7839
+type(
+  Minils.eq list
+)
+ident(
+  def sched_eqs "minils/transformations/schedule_interf.ml" 208 7799 7840 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7840 "minils/transformations/schedule_interf.ml" 208 7799 7849
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 208 7799 7850 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7850 "minils/transformations/schedule_interf.ml" 208 7799 7852
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/schedule_interf.ml" 208 7799 7853 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7853 "minils/transformations/schedule_interf.ml" 208 7799 7858
+type(
+  int Idents.Env.t
+)
+ident(
+  def costs "minils/transformations/schedule_interf.ml" 209 7861 7865 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 209 7861 7871 "minils/transformations/schedule_interf.ml" 209 7861 7878
+type(
+  Minils.eq list
+)
+ident(
+  int_ref rem_eqs "minils/transformations/schedule_interf.ml" 208 7799 7822 "minils/transformations/schedule_interf.ml" 208 7799 7829
+)
+"minils/transformations/schedule_interf.ml" 210 7884 7892 "minils/transformations/schedule_interf.ml" 210 7884 7894
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7909 "minils/transformations/schedule_interf.ml" 211 7898 7920
+type(
+  Minils.eq Sgraph.node list -> int
+)
+ident(
+  ext_ref List.length
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7921 "minils/transformations/schedule_interf.ml" 211 7898 7930
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 208 7799 7840 "minils/transformations/schedule_interf.ml" 208 7799 7849
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7909 "minils/transformations/schedule_interf.ml" 211 7898 7930
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7931 "minils/transformations/schedule_interf.ml" 211 7898 7933
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7934 "minils/transformations/schedule_interf.ml" 211 7898 7935
+type(
+  int
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7909 "minils/transformations/schedule_interf.ml" 211 7898 7935
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 212 7941 7951 "minils/transformations/schedule_interf.ml" 212 7941 7970
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"minils/transformations/schedule_interf.ml" 212 7941 7971 "minils/transformations/schedule_interf.ml" 212 7941 7994
+type(
+  string
+)
+"minils/transformations/schedule_interf.ml" 212 7941 7951 "minils/transformations/schedule_interf.ml" 212 7941 7994
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7906 "minils/transformations/schedule_interf.ml" 212 7941 7994
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 213 7996 8004 "minils/transformations/schedule_interf.ml" 213 7996 8013
+type(
+  Minils.eq list
+)
+ident(
+  int_ref sched_eqs "minils/transformations/schedule_interf.ml" 208 7799 7830 "minils/transformations/schedule_interf.ml" 208 7799 7839
+)
+"minils/transformations/schedule_interf.ml" 211 7898 7906 "minils/transformations/schedule_interf.ml" 213 7996 8013
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 214 8014 8022 "minils/transformations/schedule_interf.ml" 214 8014 8023
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8114 "minils/transformations/schedule_interf.ml" 216 8102 8116
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/schedule_interf.ml" 218 8208 8216 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8119 "minils/transformations/schedule_interf.ml" 216 8102 8137
+type(
+  Minils.eq list -> Clocks.ck -> int Idents.Env.t -> Minils.eq
+)
+ident(
+  int_ref Cost.next_equation "minils/transformations/schedule_interf.ml" 146 5704 5710 "minils/transformations/schedule_interf.ml" 146 5704 5723
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8138 "minils/transformations/schedule_interf.ml" 216 8102 8145
+type(
+  Minils.eq list
+)
+ident(
+  int_ref rem_eqs "minils/transformations/schedule_interf.ml" 208 7799 7822 "minils/transformations/schedule_interf.ml" 208 7799 7829
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8146 "minils/transformations/schedule_interf.ml" 216 8102 8148
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/schedule_interf.ml" 208 7799 7850 "minils/transformations/schedule_interf.ml" 208 7799 7852
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8149 "minils/transformations/schedule_interf.ml" 216 8102 8154
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref costs "minils/transformations/schedule_interf.ml" 208 7799 7853 "minils/transformations/schedule_interf.ml" 208 7799 7858
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8119 "minils/transformations/schedule_interf.ml" 216 8102 8154
+call(
+  stack
+)
+type(
+  Minils.eq
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8220 "minils/transformations/schedule_interf.ml" 218 8208 8229
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 220 8323 8331 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8232 "minils/transformations/schedule_interf.ml" 218 8208 8241
+type(
+  Minils.eq -> Minils.eq Sgraph.node list -> Minils.eq Sgraph.node list
+)
+ident(
+  int_ref remove_eq "minils/transformations/schedule_interf.ml" 198 7399 7403 "minils/transformations/schedule_interf.ml" 198 7399 7412
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8242 "minils/transformations/schedule_interf.ml" 218 8208 8244
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 216 8102 8114 "minils/transformations/schedule_interf.ml" 216 8102 8116
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8245 "minils/transformations/schedule_interf.ml" 218 8208 8254
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 208 7799 7840 "minils/transformations/schedule_interf.ml" 208 7799 7849
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8232 "minils/transformations/schedule_interf.ml" 218 8208 8254
+call(
+  stack
+)
+type(
+  Minils.eq Sgraph.node list
+)
+"minils/transformations/schedule_interf.ml" 220 8323 8335 "minils/transformations/schedule_interf.ml" 220 8323 8342
+type(
+  Minils.eq list
+)
+ident(
+  def rem_eqs "minils/transformations/schedule_interf.ml" 222 8417 8425 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 220 8323 8345 "minils/transformations/schedule_interf.ml" 220 8323 8353
+type(
+  Minils.eq Sgraph.node list -> Minils.eq list
+)
+ident(
+  int_ref free_eqs "minils/transformations/schedule_interf.ml" 181 6946 6950 "minils/transformations/schedule_interf.ml" 181 6946 6958
+)
+"minils/transformations/schedule_interf.ml" 220 8323 8354 "minils/transformations/schedule_interf.ml" 220 8323 8363
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 218 8208 8220 "minils/transformations/schedule_interf.ml" 218 8208 8229
+)
+"minils/transformations/schedule_interf.ml" 220 8323 8345 "minils/transformations/schedule_interf.ml" 220 8323 8363
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8429 "minils/transformations/schedule_interf.ml" 222 8417 8434
+type(
+  int Idents.Env.t
+)
+ident(
+  def costs "minils/transformations/schedule_interf.ml" 223 8471 8479 "minils/transformations/schedule_interf.ml" 223 8471 8547
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8437 "minils/transformations/schedule_interf.ml" 222 8417 8453
+type(
+  Minils.eq -> int Idents.Env.t -> int Idents.Env.t -> int Idents.Env.t
+)
+ident(
+  int_ref Cost.update_cost "minils/transformations/schedule_interf.ml" 141 5479 5485 "minils/transformations/schedule_interf.ml" 141 5479 5496
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8454 "minils/transformations/schedule_interf.ml" 222 8417 8456
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 216 8102 8114 "minils/transformations/schedule_interf.ml" 216 8102 8116
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8457 "minils/transformations/schedule_interf.ml" 222 8417 8461
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 207 7762 7768 "minils/transformations/schedule_interf.ml" 207 7762 7772
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8462 "minils/transformations/schedule_interf.ml" 222 8417 8467
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref costs "minils/transformations/schedule_interf.ml" 208 7799 7853 "minils/transformations/schedule_interf.ml" 208 7799 7858
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8437 "minils/transformations/schedule_interf.ml" 222 8417 8467
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8479 "minils/transformations/schedule_interf.ml" 223 8471 8491
+type(
+  Minils.eq list ->
+  Minils.eq list ->
+  Minils.eq Sgraph.node list ->
+  Clocks.ck -> int Idents.Env.t -> Minils.eq list
+)
+ident(
+  int_ref schedule_aux "minils/transformations/schedule_interf.ml" 208 7799 7809 "minils/transformations/schedule_interf.ml" 208 7799 7821
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8492 "minils/transformations/schedule_interf.ml" 223 8471 8499
+type(
+  Minils.eq list
+)
+ident(
+  int_ref rem_eqs "minils/transformations/schedule_interf.ml" 220 8323 8335 "minils/transformations/schedule_interf.ml" 220 8323 8342
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8501 "minils/transformations/schedule_interf.ml" 223 8471 8503
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 216 8102 8114 "minils/transformations/schedule_interf.ml" 216 8102 8116
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8505 "minils/transformations/schedule_interf.ml" 223 8471 8514
+type(
+  Minils.eq list
+)
+ident(
+  int_ref sched_eqs "minils/transformations/schedule_interf.ml" 208 7799 7830 "minils/transformations/schedule_interf.ml" 208 7799 7839
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8500 "minils/transformations/schedule_interf.ml" 223 8471 8515
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8516 "minils/transformations/schedule_interf.ml" 223 8471 8525
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 218 8208 8220 "minils/transformations/schedule_interf.ml" 218 8208 8229
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8527 "minils/transformations/schedule_interf.ml" 223 8471 8537
+type(
+  Minils.eq -> Clocks.ck
+)
+ident(
+  int_ref control_ck "minils/transformations/schedule_interf.ml" 39 2501 2505 "minils/transformations/schedule_interf.ml" 39 2501 2515
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8538 "minils/transformations/schedule_interf.ml" 223 8471 8540
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/schedule_interf.ml" 216 8102 8114 "minils/transformations/schedule_interf.ml" 216 8102 8116
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8526 "minils/transformations/schedule_interf.ml" 223 8471 8541
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8542 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref costs "minils/transformations/schedule_interf.ml" 222 8417 8429 "minils/transformations/schedule_interf.ml" 222 8417 8434
+)
+"minils/transformations/schedule_interf.ml" 223 8471 8479 "minils/transformations/schedule_interf.ml" 223 8471 8547
+call(
+  tail
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 222 8417 8425 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 220 8323 8331 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 218 8208 8216 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 216 8102 8110 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 209 7861 7865 "minils/transformations/schedule_interf.ml" 223 8471 8547
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8559 "minils/transformations/schedule_interf.ml" 225 8553 8564
+type(
+  int Idents.Env.t
+)
+ident(
+  def costs "minils/transformations/schedule_interf.ml" 226 8597 8599 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8567 "minils/transformations/schedule_interf.ml" 225 8553 8581
+type(
+  int Idents.Env.t -> Minils.var_dec list -> int Idents.Env.t
+)
+ident(
+  int_ref Cost.init_cost "minils/transformations/schedule_interf.ml" 126 4889 4895 "minils/transformations/schedule_interf.ml" 126 4889 4904
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8582 "minils/transformations/schedule_interf.ml" 225 8553 8586
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref uses "minils/transformations/schedule_interf.ml" 207 7762 7768 "minils/transformations/schedule_interf.ml" 207 7762 7772
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8587 "minils/transformations/schedule_interf.ml" 225 8553 8593
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref inputs "minils/transformations/schedule_interf.ml" 205 7677 7698 "minils/transformations/schedule_interf.ml" 205 7677 7704
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8567 "minils/transformations/schedule_interf.ml" 225 8553 8593
+call(
+  stack
+)
+type(
+  int Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 226 8597 8603 "minils/transformations/schedule_interf.ml" 226 8597 8610
+type(
+  Minils.eq list
+)
+ident(
+  def rem_eqs "minils/transformations/schedule_interf.ml" 227 8635 8639 "minils/transformations/schedule_interf.ml" 227 8635 8702
+)
+"minils/transformations/schedule_interf.ml" 226 8597 8613 "minils/transformations/schedule_interf.ml" 226 8597 8621
+type(
+  Minils.eq Sgraph.node list -> Minils.eq list
+)
+ident(
+  int_ref free_eqs "minils/transformations/schedule_interf.ml" 181 6946 6950 "minils/transformations/schedule_interf.ml" 181 6946 6958
+)
+"minils/transformations/schedule_interf.ml" 226 8597 8622 "minils/transformations/schedule_interf.ml" 226 8597 8631
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 205 7677 7705 "minils/transformations/schedule_interf.ml" 205 7677 7714
+)
+"minils/transformations/schedule_interf.ml" 226 8597 8613 "minils/transformations/schedule_interf.ml" 226 8597 8631
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8639 "minils/transformations/schedule_interf.ml" 227 8635 8647
+type(
+  Minils.eq list -> Minils.eq list
+)
+ident(
+  ext_ref List.rev
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8649 "minils/transformations/schedule_interf.ml" 227 8635 8661
+type(
+  Minils.eq list ->
+  Minils.eq list ->
+  Minils.eq Sgraph.node list ->
+  Clocks.ck -> int Idents.Env.t -> Minils.eq list
+)
+ident(
+  int_ref schedule_aux "minils/transformations/schedule_interf.ml" 208 7799 7809 "minils/transformations/schedule_interf.ml" 208 7799 7821
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8662 "minils/transformations/schedule_interf.ml" 227 8635 8669
+type(
+  Minils.eq list
+)
+ident(
+  int_ref rem_eqs "minils/transformations/schedule_interf.ml" 226 8597 8603 "minils/transformations/schedule_interf.ml" 226 8597 8610
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8670 "minils/transformations/schedule_interf.ml" 227 8635 8672
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8673 "minils/transformations/schedule_interf.ml" 227 8635 8682
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 205 7677 7705 "minils/transformations/schedule_interf.ml" 205 7677 7714
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8683 "minils/transformations/schedule_interf.ml" 227 8635 8695
+type(
+  Clocks.ck
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8696 "minils/transformations/schedule_interf.ml" 227 8635 8701
+type(
+  int Idents.Env.t
+)
+ident(
+  int_ref costs "minils/transformations/schedule_interf.ml" 225 8553 8559 "minils/transformations/schedule_interf.ml" 225 8553 8564
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8648 "minils/transformations/schedule_interf.ml" 227 8635 8702
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 227 8635 8639 "minils/transformations/schedule_interf.ml" 227 8635 8702
+call(
+  tail
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 226 8597 8599 "minils/transformations/schedule_interf.ml" 227 8635 8702
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 225 8553 8555 "minils/transformations/schedule_interf.ml" 227 8635 8702
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 208 7799 7801 "minils/transformations/schedule_interf.ml" 227 8635 8702
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 207 7762 7764 "minils/transformations/schedule_interf.ml" 227 8635 8702
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 229 8704 8708 "minils/transformations/schedule_interf.ml" 229 8704 8725
+type(
+  Minils.contract option ->
+  Minils.var_dec list -> Minils.contract option * Minils.var_dec list
+)
+ident(
+  def schedule_contract "minils/transformations/schedule_interf.ml" 237 8949 8949 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 229 8704 8726 "minils/transformations/schedule_interf.ml" 229 8704 8734
+type(
+  Minils.contract option
+)
+ident(
+  def contract "minils/transformations/schedule_interf.ml" 229 8704 8735 "minils/transformations/schedule_interf.ml" 235 8924 8947
+)
+"minils/transformations/schedule_interf.ml" 229 8704 8735 "minils/transformations/schedule_interf.ml" 229 8704 8743
+type(
+  Minils.var_dec list
+)
+ident(
+  def c_inputs "minils/transformations/schedule_interf.ml" 230 8746 8748 "minils/transformations/schedule_interf.ml" 235 8924 8947
+)
+"minils/transformations/schedule_interf.ml" 230 8746 8754 "minils/transformations/schedule_interf.ml" 230 8746 8762
+type(
+  Minils.contract option
+)
+ident(
+  int_ref contract "minils/transformations/schedule_interf.ml" 229 8704 8726 "minils/transformations/schedule_interf.ml" 229 8704 8734
+)
+"minils/transformations/schedule_interf.ml" 231 8768 8772 "minils/transformations/schedule_interf.ml" 231 8768 8776
+type(
+  Minils.contract option
+)
+"minils/transformations/schedule_interf.ml" 231 8768 8780 "minils/transformations/schedule_interf.ml" 231 8768 8784
+type(
+  Minils.contract option
+)
+"minils/transformations/schedule_interf.ml" 231 8768 8786 "minils/transformations/schedule_interf.ml" 231 8768 8788
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 231 8768 8780 "minils/transformations/schedule_interf.ml" 231 8768 8788
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 232 8789 8798 "minils/transformations/schedule_interf.ml" 232 8789 8799
+type(
+  Minils.contract
+)
+ident(
+  def c "minils/transformations/schedule_interf.ml" 233 8803 8809 "minils/transformations/schedule_interf.ml" 235 8924 8947
+)
+"minils/transformations/schedule_interf.ml" 232 8789 8793 "minils/transformations/schedule_interf.ml" 232 8789 8799
+type(
+  Minils.contract option
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8813 "minils/transformations/schedule_interf.ml" 233 8803 8822
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 234 8856 8862 "minils/transformations/schedule_interf.ml" 235 8924 8947
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8824 "minils/transformations/schedule_interf.ml" 233 8803 8825
+type(
+  Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8813 "minils/transformations/schedule_interf.ml" 233 8803 8825
+type(
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8828 "minils/transformations/schedule_interf.ml" 233 8803 8845
+type(
+  Minils.eq list ->
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+ident(
+  ext_ref Mls_utils.DataFlowDep.build
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8846 "minils/transformations/schedule_interf.ml" 233 8803 8847
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 232 8789 8798 "minils/transformations/schedule_interf.ml" 232 8789 8799
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8846 "minils/transformations/schedule_interf.ml" 233 8803 8852
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8828 "minils/transformations/schedule_interf.ml" 233 8803 8852
+call(
+  stack
+)
+type(
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8870 "minils/transformations/schedule_interf.ml" 234 8856 8871
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 232 8789 8798 "minils/transformations/schedule_interf.ml" 232 8789 8799
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8884 "minils/transformations/schedule_interf.ml" 234 8856 8892
+type(
+  Minils.eq list ->
+  Minils.var_dec list -> Minils.eq Sgraph.node list -> Minils.eq list
+)
+ident(
+  int_ref schedule "minils/transformations/schedule_interf.ml" 205 7677 7681 "minils/transformations/schedule_interf.ml" 205 7677 7689
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8893 "minils/transformations/schedule_interf.ml" 234 8856 8894
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 232 8789 8798 "minils/transformations/schedule_interf.ml" 232 8789 8799
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8893 "minils/transformations/schedule_interf.ml" 234 8856 8899
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8900 "minils/transformations/schedule_interf.ml" 234 8856 8908
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref c_inputs "minils/transformations/schedule_interf.ml" 229 8704 8735 "minils/transformations/schedule_interf.ml" 229 8704 8743
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8909 "minils/transformations/schedule_interf.ml" 234 8856 8918
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 233 8803 8813 "minils/transformations/schedule_interf.ml" 233 8803 8822
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8884 "minils/transformations/schedule_interf.ml" 234 8856 8918
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8868 "minils/transformations/schedule_interf.ml" 234 8856 8921
+type(
+  Minils.contract
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8862 "minils/transformations/schedule_interf.ml" 234 8856 8922
+type(
+  Minils.contract option
+)
+"minils/transformations/schedule_interf.ml" 235 8924 8930 "minils/transformations/schedule_interf.ml" 235 8924 8931
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/schedule_interf.ml" 232 8789 8798 "minils/transformations/schedule_interf.ml" 232 8789 8799
+)
+"minils/transformations/schedule_interf.ml" 235 8924 8930 "minils/transformations/schedule_interf.ml" 235 8924 8947
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 234 8856 8862 "minils/transformations/schedule_interf.ml" 235 8924 8947
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 233 8803 8809 "minils/transformations/schedule_interf.ml" 235 8924 8947
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 230 8746 8748 "minils/transformations/schedule_interf.ml" 235 8924 8947
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 237 8949 8953 "minils/transformations/schedule_interf.ml" 237 8949 8957
+type(
+  'a -> unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  def node "minils/transformations/schedule_interf.ml" 250 9468 9468 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 237 8949 8958 "minils/transformations/schedule_interf.ml" 237 8949 8959
+type(
+  'a
+)
+"minils/transformations/schedule_interf.ml" 237 8949 8960 "minils/transformations/schedule_interf.ml" 237 8949 8962
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+type(
+  Minils.node_dec
+)
+ident(
+  def f "minils/transformations/schedule_interf.ml" 239 9029 9031 "minils/transformations/schedule_interf.ml" 248 9457 9466
+)
+"minils/transformations/schedule_interf.ml" 239 9029 9031 "minils/transformations/schedule_interf.ml" 239 9029 9054
+type(
+  Minils.node_dec -> unit
+)
+ident(
+  ext_ref Interference.World.init
+)
+"minils/transformations/schedule_interf.ml" 239 9029 9055 "minils/transformations/schedule_interf.ml" 239 9029 9056
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 239 9029 9031 "minils/transformations/schedule_interf.ml" 239 9029 9056
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9090 "minils/transformations/schedule_interf.ml" 241 9084 9098
+type(
+  Minils.contract option
+)
+ident(
+  def contract "minils/transformations/schedule_interf.ml" 243 9212 9214 "minils/transformations/schedule_interf.ml" 248 9457 9466
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9099 "minils/transformations/schedule_interf.ml" 241 9084 9112
+type(
+  Minils.var_dec list
+)
+ident(
+  def controllables "minils/transformations/schedule_interf.ml" 243 9212 9214 "minils/transformations/schedule_interf.ml" 248 9457 9466
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9090 "minils/transformations/schedule_interf.ml" 241 9084 9112
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9115 "minils/transformations/schedule_interf.ml" 241 9084 9132
+type(
+  Minils.contract option ->
+  Minils.var_dec list -> Minils.contract option * Minils.var_dec list
+)
+ident(
+  int_ref schedule_contract "minils/transformations/schedule_interf.ml" 229 8704 8708 "minils/transformations/schedule_interf.ml" 229 8704 8725
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9133 "minils/transformations/schedule_interf.ml" 241 9084 9134
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9133 "minils/transformations/schedule_interf.ml" 241 9084 9145
+type(
+  Minils.contract option
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9147 "minils/transformations/schedule_interf.ml" 241 9084 9148
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9147 "minils/transformations/schedule_interf.ml" 241 9084 9156
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9156 "minils/transformations/schedule_interf.ml" 241 9084 9157
+type(
+  Minils.var_dec list -> Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9157 "minils/transformations/schedule_interf.ml" 241 9084 9158
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9157 "minils/transformations/schedule_interf.ml" 241 9084 9167
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9146 "minils/transformations/schedule_interf.ml" 241 9084 9168
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9115 "minils/transformations/schedule_interf.ml" 241 9084 9168
+call(
+  stack
+)
+type(
+  Minils.contract option * Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9218 "minils/transformations/schedule_interf.ml" 243 9212 9227
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  def node_list "minils/transformations/schedule_interf.ml" 245 9319 9321 "minils/transformations/schedule_interf.ml" 248 9457 9466
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9229 "minils/transformations/schedule_interf.ml" 243 9212 9230
+type(
+  Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9218 "minils/transformations/schedule_interf.ml" 243 9212 9230
+type(
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9233 "minils/transformations/schedule_interf.ml" 243 9212 9250
+type(
+  Minils.eq list ->
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+ident(
+  ext_ref Mls_utils.DataFlowDep.build
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9251 "minils/transformations/schedule_interf.ml" 243 9212 9252
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9251 "minils/transformations/schedule_interf.ml" 243 9212 9259
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9233 "minils/transformations/schedule_interf.ml" 243 9212 9259
+call(
+  stack
+)
+type(
+  Minils.eq Sgraph.node list * Minils.eq Sgraph.node Idents.Env.t
+)
+"minils/transformations/schedule_interf.ml" 245 9319 9325 "minils/transformations/schedule_interf.ml" 245 9319 9326
+type(
+  Minils.node_dec
+)
+ident(
+  def f "minils/transformations/schedule_interf.ml" 248 9457 9461 "minils/transformations/schedule_interf.ml" 248 9457 9466
+)
+"minils/transformations/schedule_interf.ml" 245 9319 9331 "minils/transformations/schedule_interf.ml" 245 9319 9332
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9361 "minils/transformations/schedule_interf.ml" 246 9338 9369
+type(
+  Minils.eq list ->
+  Minils.var_dec list -> Minils.eq Sgraph.node list -> Minils.eq list
+)
+ident(
+  int_ref schedule "minils/transformations/schedule_interf.ml" 205 7677 7681 "minils/transformations/schedule_interf.ml" 205 7677 7689
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9370 "minils/transformations/schedule_interf.ml" 246 9338 9371
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9370 "minils/transformations/schedule_interf.ml" 246 9338 9378
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9380 "minils/transformations/schedule_interf.ml" 246 9338 9381
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 237 8949 8963 "minils/transformations/schedule_interf.ml" 237 8949 8964
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9380 "minils/transformations/schedule_interf.ml" 246 9338 9389
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9389 "minils/transformations/schedule_interf.ml" 246 9338 9390
+type(
+  Minils.var_dec list -> Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9390 "minils/transformations/schedule_interf.ml" 246 9338 9403
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref controllables "minils/transformations/schedule_interf.ml" 241 9084 9099 "minils/transformations/schedule_interf.ml" 241 9084 9112
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9379 "minils/transformations/schedule_interf.ml" 246 9338 9404
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9405 "minils/transformations/schedule_interf.ml" 246 9338 9414
+type(
+  Minils.eq Sgraph.node list
+)
+ident(
+  int_ref node_list "minils/transformations/schedule_interf.ml" 243 9212 9218 "minils/transformations/schedule_interf.ml" 243 9212 9227
+)
+"minils/transformations/schedule_interf.ml" 246 9338 9361 "minils/transformations/schedule_interf.ml" 246 9338 9414
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/transformations/schedule_interf.ml" 247 9416 9443 "minils/transformations/schedule_interf.ml" 247 9416 9451
+type(
+  Minils.contract option
+)
+ident(
+  int_ref contract "minils/transformations/schedule_interf.ml" 241 9084 9090 "minils/transformations/schedule_interf.ml" 241 9084 9098
+)
+"minils/transformations/schedule_interf.ml" 245 9319 9329 "minils/transformations/schedule_interf.ml" 247 9416 9453
+type(
+  Minils.node_dec
+)
+"minils/transformations/schedule_interf.ml" 248 9457 9461 "minils/transformations/schedule_interf.ml" 248 9457 9462
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref f "minils/transformations/schedule_interf.ml" 245 9319 9325 "minils/transformations/schedule_interf.ml" 245 9319 9326
+)
+"minils/transformations/schedule_interf.ml" 248 9457 9464 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 248 9457 9461 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/schedule_interf.ml" 245 9319 9321 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/schedule_interf.ml" 243 9212 9214 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/schedule_interf.ml" 241 9084 9086 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/schedule_interf.ml" 239 9029 9031 "minils/transformations/schedule_interf.ml" 248 9457 9466
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/schedule_interf.ml" 250 9468 9472 "minils/transformations/schedule_interf.ml" 250 9468 9479
+type(
+  Minils.program -> Minils.program
+)
+ident(
+  def program "minils/transformations/schedule_interf.ml" 256 9726 9729 "minils/transformations/schedule_interf.ml" 1 0 -1
+)
+"minils/transformations/schedule_interf.ml" 250 9468 9480 "minils/transformations/schedule_interf.ml" 250 9468 9481
+type(
+  Minils.program
+)
+ident(
+  def p "minils/transformations/schedule_interf.ml" 251 9484 9486 "minils/transformations/schedule_interf.ml" 256 9726 9729
+)
+"minils/transformations/schedule_interf.ml" 251 9484 9490 "minils/transformations/schedule_interf.ml" 251 9484 9491
+type(
+  bool
+)
+ident(
+  def m "minils/transformations/schedule_interf.ml" 252 9526 9528 "minils/transformations/schedule_interf.ml" 256 9726 9729
+)
+"minils/transformations/schedule_interf.ml" 251 9484 9494 "minils/transformations/schedule_interf.ml" 251 9484 9495
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"minils/transformations/schedule_interf.ml" 251 9484 9495 "minils/transformations/schedule_interf.ml" 251 9484 9522
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.interf_all
+)
+"minils/transformations/schedule_interf.ml" 251 9484 9494 "minils/transformations/schedule_interf.ml" 251 9484 9522
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 252 9526 9528 "minils/transformations/schedule_interf.ml" 252 9526 9555
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.interf_all
+)
+"minils/transformations/schedule_interf.ml" 252 9526 9556 "minils/transformations/schedule_interf.ml" 252 9526 9558
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"minils/transformations/schedule_interf.ml" 252 9526 9559 "minils/transformations/schedule_interf.ml" 252 9526 9564
+type(
+  bool
+)
+"minils/transformations/schedule_interf.ml" 252 9526 9528 "minils/transformations/schedule_interf.ml" 252 9526 9564
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 253 9566 9572 "minils/transformations/schedule_interf.ml" 253 9566 9576
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/schedule_interf.ml" 254 9640 9642 "minils/transformations/schedule_interf.ml" 256 9726 9729
+)
+"minils/transformations/schedule_interf.ml" 253 9566 9581 "minils/transformations/schedule_interf.ml" 253 9566 9601
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/schedule_interf.ml" 253 9566 9630 "minils/transformations/schedule_interf.ml" 253 9566 9634
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  int_ref node "minils/transformations/schedule_interf.ml" 237 8949 8953 "minils/transformations/schedule_interf.ml" 237 8949 8957
+)
+"minils/transformations/schedule_interf.ml" 253 9566 9579 "minils/transformations/schedule_interf.ml" 253 9566 9636
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9646 "minils/transformations/schedule_interf.ml" 254 9640 9647
+type(
+  Minils.program
+)
+ident(
+  def p "minils/transformations/schedule_interf.ml" 255 9690 9692 "minils/transformations/schedule_interf.ml" 256 9726 9729
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9649 "minils/transformations/schedule_interf.ml" 254 9640 9651
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9646 "minils/transformations/schedule_interf.ml" 254 9640 9651
+type(
+  Minils.program * unit
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9654 "minils/transformations/schedule_interf.ml" 254 9640 9676
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.program -> Minils.program * unit
+)
+ident(
+  ext_ref Mls_mapfold.program_it
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9677 "minils/transformations/schedule_interf.ml" 254 9640 9681
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/schedule_interf.ml" 253 9566 9572 "minils/transformations/schedule_interf.ml" 253 9566 9576
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9682 "minils/transformations/schedule_interf.ml" 254 9640 9684
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9685 "minils/transformations/schedule_interf.ml" 254 9640 9686
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/transformations/schedule_interf.ml" 250 9468 9480 "minils/transformations/schedule_interf.ml" 250 9468 9481
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9654 "minils/transformations/schedule_interf.ml" 254 9640 9686
+call(
+  stack
+)
+type(
+  Minils.program * unit
+)
+"minils/transformations/schedule_interf.ml" 255 9690 9692 "minils/transformations/schedule_interf.ml" 255 9690 9719
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.interf_all
+)
+"minils/transformations/schedule_interf.ml" 255 9690 9720 "minils/transformations/schedule_interf.ml" 255 9690 9722
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"minils/transformations/schedule_interf.ml" 255 9690 9723 "minils/transformations/schedule_interf.ml" 255 9690 9724
+type(
+  bool
+)
+ident(
+  int_ref m "minils/transformations/schedule_interf.ml" 251 9484 9490 "minils/transformations/schedule_interf.ml" 251 9484 9491
+)
+"minils/transformations/schedule_interf.ml" 255 9690 9692 "minils/transformations/schedule_interf.ml" 255 9690 9724
+type(
+  unit
+)
+"minils/transformations/schedule_interf.ml" 256 9726 9728 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/transformations/schedule_interf.ml" 254 9640 9646 "minils/transformations/schedule_interf.ml" 254 9640 9647
+)
+"minils/transformations/schedule_interf.ml" 255 9690 9692 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)
+"minils/transformations/schedule_interf.ml" 254 9640 9642 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)
+"minils/transformations/schedule_interf.ml" 253 9566 9568 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)
+"minils/transformations/schedule_interf.ml" 252 9526 9528 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)
+"minils/transformations/schedule_interf.ml" 251 9484 9486 "minils/transformations/schedule_interf.ml" 256 9726 9729
+type(
+  Minils.program
+)

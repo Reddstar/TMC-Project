@@ -1,0 +1,5098 @@
+"minils/transformations/inline_extvalues.ml" 50 2511 2515 "minils/transformations/inline_extvalues.ml" 50 2511 2536
+type(
+  Minils.node_dec -> Minils.extvalue Idents.Env.t
+)
+ident(
+  def gather_extvalues_node "minils/transformations/inline_extvalues.ml" 93 3840 3840 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 51 2542 2544 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 51 2542 2548 "minils/transformations/inline_extvalues.ml" 51 2542 2554
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  def ty_env "minils/transformations/inline_extvalues.ml" 61 2942 2944 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2565 "minils/transformations/inline_extvalues.ml" 52 2557 2568
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec -> Linearity.linearity Idents.Env.t
+)
+ident(
+  def add "minils/transformations/inline_extvalues.ml" 53 2619 2623 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2569 "minils/transformations/inline_extvalues.ml" 52 2557 2572
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 52 2557 2573 "minils/transformations/inline_extvalues.ml" 52 2557 2615
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2573 "minils/transformations/inline_extvalues.ml" 52 2557 2575
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/transformations/inline_extvalues.ml" 52 2557 2578 "minils/transformations/inline_extvalues.ml" 52 2557 2615
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2578 "minils/transformations/inline_extvalues.ml" 52 2557 2585
+type(
+  Idents.Env.key ->
+  Linearity.linearity ->
+  Linearity.linearity Idents.Env.t -> Linearity.linearity Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2586 "minils/transformations/inline_extvalues.ml" 52 2557 2588
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/inline_extvalues.ml" 52 2557 2573 "minils/transformations/inline_extvalues.ml" 52 2557 2575
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2586 "minils/transformations/inline_extvalues.ml" 52 2557 2596
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2597 "minils/transformations/inline_extvalues.ml" 52 2557 2599
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/transformations/inline_extvalues.ml" 52 2557 2573 "minils/transformations/inline_extvalues.ml" 52 2557 2575
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2597 "minils/transformations/inline_extvalues.ml" 52 2557 2611
+type(
+  Linearity.linearity
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2612 "minils/transformations/inline_extvalues.ml" 52 2557 2615
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 52 2557 2569 "minils/transformations/inline_extvalues.ml" 52 2557 2572
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2578 "minils/transformations/inline_extvalues.ml" 52 2557 2615
+call(
+  tail
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  def add_l "minils/transformations/inline_extvalues.ml" 54 2681 2685 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2633 "minils/transformations/inline_extvalues.ml" 53 2619 2636
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 53 2619 2637 "minils/transformations/inline_extvalues.ml" 53 2619 2677
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2637 "minils/transformations/inline_extvalues.ml" 53 2619 2644
+type(
+  Minils.var_dec list
+)
+ident(
+  def vd_list "minils/transformations/inline_extvalues.ml" 53 2619 2647 "minils/transformations/inline_extvalues.ml" 53 2619 2677
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2647 "minils/transformations/inline_extvalues.ml" 53 2619 2661
+type(
+  (Linearity.linearity Idents.Env.t ->
+   Minils.var_dec -> Linearity.linearity Idents.Env.t) ->
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2662 "minils/transformations/inline_extvalues.ml" 53 2619 2665
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add "minils/transformations/inline_extvalues.ml" 52 2557 2565 "minils/transformations/inline_extvalues.ml" 52 2557 2568
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2666 "minils/transformations/inline_extvalues.ml" 53 2619 2669
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 53 2619 2633 "minils/transformations/inline_extvalues.ml" 53 2619 2636
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2670 "minils/transformations/inline_extvalues.ml" 53 2619 2677
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref vd_list "minils/transformations/inline_extvalues.ml" 53 2619 2637 "minils/transformations/inline_extvalues.ml" 53 2619 2644
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2647 "minils/transformations/inline_extvalues.ml" 53 2619 2677
+call(
+  tail
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2689 "minils/transformations/inline_extvalues.ml" 54 2681 2692
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 55 2764 2768 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2695 "minils/transformations/inline_extvalues.ml" 54 2681 2700
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add_l "minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2702 "minils/transformations/inline_extvalues.ml" 54 2681 2707
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add_l "minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2709 "minils/transformations/inline_extvalues.ml" 54 2681 2714
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add_l "minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2715 "minils/transformations/inline_extvalues.ml" 54 2681 2724
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2725 "minils/transformations/inline_extvalues.ml" 54 2681 2727
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2725 "minils/transformations/inline_extvalues.ml" 54 2681 2736
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2708 "minils/transformations/inline_extvalues.ml" 54 2681 2737
+call(
+  stack
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2738 "minils/transformations/inline_extvalues.ml" 54 2681 2740
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2738 "minils/transformations/inline_extvalues.ml" 54 2681 2748
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2701 "minils/transformations/inline_extvalues.ml" 54 2681 2749
+call(
+  stack
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2750 "minils/transformations/inline_extvalues.ml" 54 2681 2752
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2750 "minils/transformations/inline_extvalues.ml" 54 2681 2760
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2695 "minils/transformations/inline_extvalues.ml" 54 2681 2760
+call(
+  stack
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 55 2764 2774 "minils/transformations/inline_extvalues.ml" 55 2764 2776
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+)
+"minils/transformations/inline_extvalues.ml" 55 2764 2774 "minils/transformations/inline_extvalues.ml" 55 2764 2787
+type(
+  Minils.contract option
+)
+"minils/transformations/inline_extvalues.ml" 56 2793 2799 "minils/transformations/inline_extvalues.ml" 56 2793 2803
+type(
+  Minils.contract option
+)
+"minils/transformations/inline_extvalues.ml" 56 2793 2807 "minils/transformations/inline_extvalues.ml" 56 2793 2810
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 54 2681 2689 "minils/transformations/inline_extvalues.ml" 54 2681 2692
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2822 "minils/transformations/inline_extvalues.ml" 57 2811 2823
+type(
+  Minils.contract
+)
+ident(
+  def c "minils/transformations/inline_extvalues.ml" 57 2811 2827 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2817 "minils/transformations/inline_extvalues.ml" 57 2811 2823
+type(
+  Minils.contract option
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2827 "minils/transformations/inline_extvalues.ml" 57 2811 2832
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add_l "minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2834 "minils/transformations/inline_extvalues.ml" 57 2811 2839
+type(
+  Linearity.linearity Idents.Env.t ->
+  Minils.var_dec list -> Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref add_l "minils/transformations/inline_extvalues.ml" 53 2619 2627 "minils/transformations/inline_extvalues.ml" 53 2619 2632
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2840 "minils/transformations/inline_extvalues.ml" 57 2811 2843
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 54 2681 2689 "minils/transformations/inline_extvalues.ml" 54 2681 2692
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2844 "minils/transformations/inline_extvalues.ml" 57 2811 2845
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/inline_extvalues.ml" 57 2811 2822 "minils/transformations/inline_extvalues.ml" 57 2811 2823
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2844 "minils/transformations/inline_extvalues.ml" 57 2811 2861
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2833 "minils/transformations/inline_extvalues.ml" 57 2811 2862
+call(
+  stack
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2863 "minils/transformations/inline_extvalues.ml" 57 2811 2864
+type(
+  Minils.contract
+)
+ident(
+  int_ref c "minils/transformations/inline_extvalues.ml" 57 2811 2822 "minils/transformations/inline_extvalues.ml" 57 2811 2823
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2863 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 57 2811 2827 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+call(
+  stack
+)
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 55 2764 2768 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 54 2681 2685 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 53 2619 2623 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 52 2557 2561 "minils/transformations/inline_extvalues.ml" 57 2811 2872
+type(
+  Linearity.linearity Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 61 2942 2948 "minils/transformations/inline_extvalues.ml" 61 2942 2957
+type(
+  Minils.extvalue -> bool
+)
+ident(
+  def is_linear "minils/transformations/inline_extvalues.ml" 76 3348 3350 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 61 2942 2958 "minils/transformations/inline_extvalues.ml" 61 2942 2959
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 62 2962 2966 "minils/transformations/inline_extvalues.ml" 73 3323 3341
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 2974 "minils/transformations/inline_extvalues.ml" 62 2962 2989
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  def var_of_extvalue "minils/transformations/inline_extvalues.ml" 62 2962 2966 "minils/transformations/inline_extvalues.ml" 73 3323 3341
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 2990 "minils/transformations/inline_extvalues.ml" 62 2962 2991
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 62 2962 2994 "minils/transformations/inline_extvalues.ml" 67 3150 3193
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 3000 "minils/transformations/inline_extvalues.ml" 62 2962 3001
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 62 2962 2990 "minils/transformations/inline_extvalues.ml" 62 2962 2991
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 3000 "minils/transformations/inline_extvalues.ml" 62 2962 3008
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 63 3014 3027 "minils/transformations/inline_extvalues.ml" 63 3014 3028
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 63 3014 3032 "minils/transformations/inline_extvalues.ml" 63 3014 3038
+)
+"minils/transformations/inline_extvalues.ml" 63 3014 3022 "minils/transformations/inline_extvalues.ml" 63 3014 3028
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 63 3014 3037 "minils/transformations/inline_extvalues.ml" 63 3014 3038
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 63 3014 3027 "minils/transformations/inline_extvalues.ml" 63 3014 3028
+)
+"minils/transformations/inline_extvalues.ml" 63 3014 3032 "minils/transformations/inline_extvalues.ml" 63 3014 3038
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3054 "minils/transformations/inline_extvalues.ml" 64 3039 3055
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 64 3039 3063 "minils/transformations/inline_extvalues.ml" 64 3039 3080
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3057 "minils/transformations/inline_extvalues.ml" 64 3039 3058
+type(
+  Names.field_name
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3047 "minils/transformations/inline_extvalues.ml" 64 3039 3059
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3063 "minils/transformations/inline_extvalues.ml" 64 3039 3078
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  int_ref var_of_extvalue "minils/transformations/inline_extvalues.ml" 62 2962 2974 "minils/transformations/inline_extvalues.ml" 62 2962 2989
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3079 "minils/transformations/inline_extvalues.ml" 64 3039 3080
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 64 3039 3054 "minils/transformations/inline_extvalues.ml" 64 3039 3055
+)
+"minils/transformations/inline_extvalues.ml" 64 3039 3063 "minils/transformations/inline_extvalues.ml" 64 3039 3080
+call(
+  tail
+)
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3095 "minils/transformations/inline_extvalues.ml" 65 3081 3096
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 65 3081 3107 "minils/transformations/inline_extvalues.ml" 65 3081 3124
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3098 "minils/transformations/inline_extvalues.ml" 65 3081 3099
+type(
+  Names.constructor_name
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3101 "minils/transformations/inline_extvalues.ml" 65 3081 3102
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3089 "minils/transformations/inline_extvalues.ml" 65 3081 3103
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3107 "minils/transformations/inline_extvalues.ml" 65 3081 3122
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  int_ref var_of_extvalue "minils/transformations/inline_extvalues.ml" 62 2962 2974 "minils/transformations/inline_extvalues.ml" 62 2962 2989
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3123 "minils/transformations/inline_extvalues.ml" 65 3081 3124
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 65 3081 3095 "minils/transformations/inline_extvalues.ml" 65 3081 3096
+)
+"minils/transformations/inline_extvalues.ml" 65 3081 3107 "minils/transformations/inline_extvalues.ml" 65 3081 3124
+call(
+  tail
+)
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 66 3125 3140 "minils/transformations/inline_extvalues.ml" 66 3125 3141
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 66 3125 3133 "minils/transformations/inline_extvalues.ml" 66 3125 3141
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 66 3125 3145 "minils/transformations/inline_extvalues.ml" 66 3125 3149
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3167 "minils/transformations/inline_extvalues.ml" 67 3150 3168
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3170 "minils/transformations/inline_extvalues.ml" 67 3150 3171
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 67 3150 3176 "minils/transformations/inline_extvalues.ml" 67 3150 3193
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3158 "minils/transformations/inline_extvalues.ml" 67 3150 3172
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3176 "minils/transformations/inline_extvalues.ml" 67 3150 3191
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  int_ref var_of_extvalue "minils/transformations/inline_extvalues.ml" 62 2962 2974 "minils/transformations/inline_extvalues.ml" 62 2962 2989
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3192 "minils/transformations/inline_extvalues.ml" 67 3150 3193
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 67 3150 3170 "minils/transformations/inline_extvalues.ml" 67 3150 3171
+)
+"minils/transformations/inline_extvalues.ml" 67 3150 3176 "minils/transformations/inline_extvalues.ml" 67 3150 3193
+call(
+  tail
+)
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 2994 "minils/transformations/inline_extvalues.ml" 67 3150 3193
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 69 3201 3211 "minils/transformations/inline_extvalues.ml" 69 3201 3226
+type(
+  Minils.extvalue -> Idents.var_ident option
+)
+ident(
+  int_ref var_of_extvalue "minils/transformations/inline_extvalues.ml" 62 2962 2974 "minils/transformations/inline_extvalues.ml" 62 2962 2989
+)
+"minils/transformations/inline_extvalues.ml" 69 3201 3227 "minils/transformations/inline_extvalues.ml" 69 3201 3228
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 61 2942 2958 "minils/transformations/inline_extvalues.ml" 61 2942 2959
+)
+"minils/transformations/inline_extvalues.ml" 69 3201 3211 "minils/transformations/inline_extvalues.ml" 69 3201 3228
+call(
+  stack
+)
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 70 3234 3247 "minils/transformations/inline_extvalues.ml" 70 3234 3248
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 71 3252 3260 "minils/transformations/inline_extvalues.ml" 72 3291 3322
+)
+"minils/transformations/inline_extvalues.ml" 70 3234 3242 "minils/transformations/inline_extvalues.ml" 70 3234 3248
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3264 "minils/transformations/inline_extvalues.ml" 71 3252 3267
+type(
+  Linearity.linearity
+)
+ident(
+  def lin "minils/transformations/inline_extvalues.ml" 72 3291 3299 "minils/transformations/inline_extvalues.ml" 72 3291 3322
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3270 "minils/transformations/inline_extvalues.ml" 71 3252 3278
+type(
+  Idents.Env.key -> Linearity.linearity Idents.Env.t -> Linearity.linearity
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3279 "minils/transformations/inline_extvalues.ml" 71 3252 3280
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 70 3234 3247 "minils/transformations/inline_extvalues.ml" 70 3234 3248
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3281 "minils/transformations/inline_extvalues.ml" 71 3252 3287
+type(
+  Linearity.linearity Idents.Env.t
+)
+ident(
+  int_ref ty_env "minils/transformations/inline_extvalues.ml" 51 2542 2548 "minils/transformations/inline_extvalues.ml" 51 2542 2554
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3270 "minils/transformations/inline_extvalues.ml" 71 3252 3287
+call(
+  stack
+)
+type(
+  Linearity.linearity
+)
+"minils/transformations/inline_extvalues.ml" 72 3291 3299 "minils/transformations/inline_extvalues.ml" 72 3291 3318
+type(
+  Linearity.linearity -> bool
+)
+ident(
+  ext_ref Linearity.is_linear
+)
+"minils/transformations/inline_extvalues.ml" 72 3291 3319 "minils/transformations/inline_extvalues.ml" 72 3291 3322
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref lin "minils/transformations/inline_extvalues.ml" 71 3252 3264 "minils/transformations/inline_extvalues.ml" 71 3252 3267
+)
+"minils/transformations/inline_extvalues.ml" 72 3291 3299 "minils/transformations/inline_extvalues.ml" 72 3291 3322
+call(
+  tail
+)
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 71 3252 3260 "minils/transformations/inline_extvalues.ml" 72 3291 3322
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 73 3323 3331 "minils/transformations/inline_extvalues.ml" 73 3323 3332
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 73 3323 3336 "minils/transformations/inline_extvalues.ml" 73 3323 3341
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 69 3201 3205 "minils/transformations/inline_extvalues.ml" 73 3323 3341
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 62 2962 2966 "minils/transformations/inline_extvalues.ml" 73 3323 3341
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3354 "minils/transformations/inline_extvalues.ml" 76 3348 3363
+type(
+  Minils.extvalue -> bool
+)
+ident(
+  def inlinable "minils/transformations/inline_extvalues.ml" 81 3472 3474 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3364 "minils/transformations/inline_extvalues.ml" 76 3348 3365
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 76 3348 3368 "minils/transformations/inline_extvalues.ml" 78 3450 3465
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3374 "minils/transformations/inline_extvalues.ml" 76 3348 3375
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 76 3348 3364 "minils/transformations/inline_extvalues.ml" 76 3348 3365
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3374 "minils/transformations/inline_extvalues.ml" 76 3348 3382
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3420 "minils/transformations/inline_extvalues.ml" 77 3388 3421
+type(
+  Types.static_exp list
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3413 "minils/transformations/inline_extvalues.ml" 77 3388 3421
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3437 "minils/transformations/inline_extvalues.ml" 77 3388 3438
+type(
+  Types.static_exp list
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3424 "minils/transformations/inline_extvalues.ml" 77 3388 3438
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3413 "minils/transformations/inline_extvalues.ml" 77 3388 3438
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3401 "minils/transformations/inline_extvalues.ml" 77 3388 3440
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3394 "minils/transformations/inline_extvalues.ml" 77 3388 3440
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 77 3388 3444 "minils/transformations/inline_extvalues.ml" 77 3388 3449
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 78 3450 3456 "minils/transformations/inline_extvalues.ml" 78 3450 3457
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 78 3450 3461 "minils/transformations/inline_extvalues.ml" 78 3450 3465
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3368 "minils/transformations/inline_extvalues.ml" 78 3450 3465
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 81 3472 3478 "minils/transformations/inline_extvalues.ml" 81 3472 3497
+type(
+  'a ->
+  Minils.extvalue Idents.Env.t ->
+  Minils.eq -> Minils.eq * Minils.extvalue Idents.Env.t
+)
+ident(
+  def gather_extvalues_eq "minils/transformations/inline_extvalues.ml" 89 3692 3694 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 81 3472 3498 "minils/transformations/inline_extvalues.ml" 81 3472 3499
+type(
+  'a
+)
+"minils/transformations/inline_extvalues.ml" 81 3472 3500 "minils/transformations/inline_extvalues.ml" 81 3472 3503
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 81 3472 3504 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+)
+"minils/transformations/inline_extvalues.ml" 81 3472 3504 "minils/transformations/inline_extvalues.ml" 81 3472 3506
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/inline_extvalues.ml" 82 3509 3513 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3517 "minils/transformations/inline_extvalues.ml" 82 3509 3520
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 86 3674 3678 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3529 "minils/transformations/inline_extvalues.ml" 82 3509 3531
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 81 3472 3504 "minils/transformations/inline_extvalues.ml" 81 3472 3506
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3529 "minils/transformations/inline_extvalues.ml" 82 3509 3538
+type(
+  Minils.pat
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3540 "minils/transformations/inline_extvalues.ml" 82 3509 3542
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 81 3472 3504 "minils/transformations/inline_extvalues.ml" 81 3472 3506
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3540 "minils/transformations/inline_extvalues.ml" 82 3509 3549
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3540 "minils/transformations/inline_extvalues.ml" 82 3509 3556
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3529 "minils/transformations/inline_extvalues.ml" 82 3509 3556
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3578 "minils/transformations/inline_extvalues.ml" 83 3562 3579
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 83 3562 3598 "minils/transformations/inline_extvalues.ml" 83 3562 3649
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3570 "minils/transformations/inline_extvalues.ml" 83 3562 3579
+type(
+  Minils.pat
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3591 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 83 3562 3598 "minils/transformations/inline_extvalues.ml" 83 3562 3649
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3581 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3570 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3598 "minils/transformations/inline_extvalues.ml" 83 3562 3601
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3603 "minils/transformations/inline_extvalues.ml" 83 3562 3612
+type(
+  Minils.extvalue -> bool
+)
+ident(
+  int_ref is_linear "minils/transformations/inline_extvalues.ml" 61 2942 2948 "minils/transformations/inline_extvalues.ml" 61 2942 2957
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3613 "minils/transformations/inline_extvalues.ml" 83 3562 3614
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 83 3562 3591 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3602 "minils/transformations/inline_extvalues.ml" 83 3562 3615
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3598 "minils/transformations/inline_extvalues.ml" 83 3562 3615
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3616 "minils/transformations/inline_extvalues.ml" 83 3562 3618
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3619 "minils/transformations/inline_extvalues.ml" 83 3562 3628
+type(
+  Minils.extvalue -> bool
+)
+ident(
+  int_ref inlinable "minils/transformations/inline_extvalues.ml" 76 3348 3354 "minils/transformations/inline_extvalues.ml" 76 3348 3363
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3629 "minils/transformations/inline_extvalues.ml" 83 3562 3630
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 83 3562 3591 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3619 "minils/transformations/inline_extvalues.ml" 83 3562 3630
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3598 "minils/transformations/inline_extvalues.ml" 83 3562 3630
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3634 "minils/transformations/inline_extvalues.ml" 83 3562 3641
+type(
+  Idents.Env.key ->
+  Minils.extvalue ->
+  Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3642 "minils/transformations/inline_extvalues.ml" 83 3562 3643
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 83 3562 3578 "minils/transformations/inline_extvalues.ml" 83 3562 3579
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3644 "minils/transformations/inline_extvalues.ml" 83 3562 3645
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 83 3562 3591 "minils/transformations/inline_extvalues.ml" 83 3562 3592
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3646 "minils/transformations/inline_extvalues.ml" 83 3562 3649
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 81 3472 3500 "minils/transformations/inline_extvalues.ml" 81 3472 3503
+)
+"minils/transformations/inline_extvalues.ml" 83 3562 3634 "minils/transformations/inline_extvalues.ml" 83 3562 3649
+call(
+  stack
+)
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 84 3650 3658 "minils/transformations/inline_extvalues.ml" 84 3650 3659
+type(
+  Minils.pat * Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 84 3650 3663 "minils/transformations/inline_extvalues.ml" 84 3650 3666
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 81 3472 3500 "minils/transformations/inline_extvalues.ml" 81 3472 3503
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3523 "minils/transformations/inline_extvalues.ml" 84 3650 3666
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 86 3674 3678 "minils/transformations/inline_extvalues.ml" 86 3674 3680
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 81 3472 3504 "minils/transformations/inline_extvalues.ml" 81 3472 3506
+)
+"minils/transformations/inline_extvalues.ml" 86 3674 3682 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 82 3509 3517 "minils/transformations/inline_extvalues.ml" 82 3509 3520
+)
+"minils/transformations/inline_extvalues.ml" 86 3674 3678 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+type(
+  Minils.eq * Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 82 3509 3513 "minils/transformations/inline_extvalues.ml" 86 3674 3685
+type(
+  Minils.eq * Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 89 3692 3698 "minils/transformations/inline_extvalues.ml" 89 3692 3702
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 90 3776 3778 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 89 3692 3707 "minils/transformations/inline_extvalues.ml" 89 3692 3727
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 89 3692 3750 "minils/transformations/inline_extvalues.ml" 89 3692 3769
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs ->
+  Minils.extvalue Idents.Env.t ->
+  Minils.eq -> Minils.eq * Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref gather_extvalues_eq "minils/transformations/inline_extvalues.ml" 81 3472 3478 "minils/transformations/inline_extvalues.ml" 81 3472 3497
+)
+"minils/transformations/inline_extvalues.ml" 89 3692 3705 "minils/transformations/inline_extvalues.ml" 89 3692 3772
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3782 "minils/transformations/inline_extvalues.ml" 90 3776 3783
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3785 "minils/transformations/inline_extvalues.ml" 90 3776 3788
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 91 3833 3835 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3782 "minils/transformations/inline_extvalues.ml" 90 3776 3788
+type(
+  Minils.node_dec * Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3791 "minils/transformations/inline_extvalues.ml" 90 3776 3811
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs ->
+  Minils.extvalue Idents.Env.t ->
+  Minils.node_dec -> Minils.node_dec * Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Mls_mapfold.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3812 "minils/transformations/inline_extvalues.ml" 90 3776 3816
+type(
+  Minils.extvalue Idents.Env.t Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 89 3692 3698 "minils/transformations/inline_extvalues.ml" 89 3692 3702
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3817 "minils/transformations/inline_extvalues.ml" 90 3776 3826
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3827 "minils/transformations/inline_extvalues.ml" 90 3776 3829
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 50 2511 2537 "minils/transformations/inline_extvalues.ml" 50 2511 2539
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3791 "minils/transformations/inline_extvalues.ml" 90 3776 3829
+call(
+  stack
+)
+type(
+  Minils.node_dec * Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 91 3833 3835 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 90 3776 3785 "minils/transformations/inline_extvalues.ml" 90 3776 3788
+)
+"minils/transformations/inline_extvalues.ml" 90 3776 3778 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 89 3692 3694 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 81 3472 3474 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 76 3348 3350 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 61 2942 2944 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 51 2542 2544 "minils/transformations/inline_extvalues.ml" 91 3833 3838
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 93 3840 3844 "minils/transformations/inline_extvalues.ml" 93 3840 3864
+type(
+  Minils.extvalue Idents.Env.t -> Minils.node_dec -> Minils.node_dec
+)
+ident(
+  def inline_extvalue_node "minils/transformations/inline_extvalues.ml" 161 5871 5871 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 93 3840 3865 "minils/transformations/inline_extvalues.ml" 93 3840 3868
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 93 3840 3869 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 93 3840 3869 "minils/transformations/inline_extvalues.ml" 93 3840 3871
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 94 3874 3876 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  def find_sampler "minils/transformations/inline_extvalues.ml" 99 3987 3989 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3893 "minils/transformations/inline_extvalues.ml" 94 3874 3896
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 94 3874 3897 "minils/transformations/inline_extvalues.ml" 96 3954 3980
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3897 "minils/transformations/inline_extvalues.ml" 94 3874 3898
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 94 3874 3901 "minils/transformations/inline_extvalues.ml" 96 3954 3980
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3908 "minils/transformations/inline_extvalues.ml" 94 3874 3916
+type(
+  Idents.Env.key -> Minils.extvalue Idents.Env.t -> Minils.extvalue
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3917 "minils/transformations/inline_extvalues.ml" 94 3874 3918
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 94 3874 3897 "minils/transformations/inline_extvalues.ml" 94 3874 3898
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3919 "minils/transformations/inline_extvalues.ml" 94 3874 3922
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 94 3874 3893 "minils/transformations/inline_extvalues.ml" 94 3874 3896
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3907 "minils/transformations/inline_extvalues.ml" 94 3874 3923
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3907 "minils/transformations/inline_extvalues.ml" 94 3874 3930
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 95 3936 3947 "minils/transformations/inline_extvalues.ml" 95 3936 3948
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 95 3936 3952 "minils/transformations/inline_extvalues.ml" 95 3936 3953
+)
+"minils/transformations/inline_extvalues.ml" 95 3936 3942 "minils/transformations/inline_extvalues.ml" 95 3936 3948
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 95 3936 3952 "minils/transformations/inline_extvalues.ml" 95 3936 3953
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 95 3936 3947 "minils/transformations/inline_extvalues.ml" 95 3936 3948
+)
+"minils/transformations/inline_extvalues.ml" 96 3954 3960 "minils/transformations/inline_extvalues.ml" 96 3954 3961
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 96 3954 3965 "minils/transformations/inline_extvalues.ml" 96 3954 3970
+type(
+  exn -> Idents.var_ident
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/transformations/inline_extvalues.ml" 96 3954 3971 "minils/transformations/inline_extvalues.ml" 96 3954 3980
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 96 3954 3965 "minils/transformations/inline_extvalues.ml" 96 3954 3980
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3901 "minils/transformations/inline_extvalues.ml" 96 3954 3980
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 3993 "minils/transformations/inline_extvalues.ml" 99 3987 4013
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+ident(
+  def inline_extvalue_desc "minils/transformations/inline_extvalues.ml" 108 4274 4276 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 4014 "minils/transformations/inline_extvalues.ml" 99 3987 4017
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 99 3987 4018 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 4018 "minils/transformations/inline_extvalues.ml" 99 3987 4022
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 99 3987 4023 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 4023 "minils/transformations/inline_extvalues.ml" 99 3987 4025
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 4026 "minils/transformations/inline_extvalues.ml" 99 3987 4029
+type(
+  Minils.extvalue_desc
+)
+ident(
+  def w_d "minils/transformations/inline_extvalues.ml" 100 4032 4036 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4040 "minils/transformations/inline_extvalues.ml" 100 4032 4043
+type(
+  Minils.extvalue_desc
+)
+ident(
+  def w_d "minils/transformations/inline_extvalues.ml" 101 4091 4095 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4045 "minils/transformations/inline_extvalues.ml" 100 4032 4047
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4040 "minils/transformations/inline_extvalues.ml" 100 4032 4047
+type(
+  Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4050 "minils/transformations/inline_extvalues.ml" 100 4032 4075
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+ident(
+  ext_ref Mls_mapfold.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4076 "minils/transformations/inline_extvalues.ml" 100 4032 4080
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 99 3987 4018 "minils/transformations/inline_extvalues.ml" 99 3987 4022
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4081 "minils/transformations/inline_extvalues.ml" 100 4032 4083
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4084 "minils/transformations/inline_extvalues.ml" 100 4032 4087
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 99 3987 4026 "minils/transformations/inline_extvalues.ml" 99 3987 4029
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4050 "minils/transformations/inline_extvalues.ml" 100 4032 4087
+call(
+  stack
+)
+type(
+  Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 101 4091 4106 "minils/transformations/inline_extvalues.ml" 101 4091 4109
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 100 4032 4040 "minils/transformations/inline_extvalues.ml" 100 4032 4043
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4128 "minils/transformations/inline_extvalues.ml" 102 4115 4129
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 102 4115 4133 "minils/transformations/inline_extvalues.ml" 102 4115 4158
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4123 "minils/transformations/inline_extvalues.ml" 102 4115 4129
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4135 "minils/transformations/inline_extvalues.ml" 102 4115 4143
+type(
+  Idents.Env.key -> Minils.extvalue Idents.Env.t -> Minils.extvalue
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4144 "minils/transformations/inline_extvalues.ml" 102 4115 4145
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 102 4115 4128 "minils/transformations/inline_extvalues.ml" 102 4115 4129
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4146 "minils/transformations/inline_extvalues.ml" 102 4115 4149
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 99 3987 4014 "minils/transformations/inline_extvalues.ml" 99 3987 4017
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4134 "minils/transformations/inline_extvalues.ml" 102 4115 4150
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 102 4115 4133 "minils/transformations/inline_extvalues.ml" 102 4115 4158
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4174 "minils/transformations/inline_extvalues.ml" 103 4159 4175
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 103 4159 4186 "minils/transformations/inline_extvalues.ml" 103 4159 4218
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4177 "minils/transformations/inline_extvalues.ml" 103 4159 4178
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/transformations/inline_extvalues.ml" 103 4159 4186 "minils/transformations/inline_extvalues.ml" 103 4159 4218
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4180 "minils/transformations/inline_extvalues.ml" 103 4159 4181
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 103 4159 4186 "minils/transformations/inline_extvalues.ml" 103 4159 4218
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4167 "minils/transformations/inline_extvalues.ml" 103 4159 4182
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4193 "minils/transformations/inline_extvalues.ml" 103 4159 4194
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 103 4159 4174 "minils/transformations/inline_extvalues.ml" 103 4159 4175
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4196 "minils/transformations/inline_extvalues.ml" 103 4159 4197
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/transformations/inline_extvalues.ml" 103 4159 4177 "minils/transformations/inline_extvalues.ml" 103 4159 4178
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4199 "minils/transformations/inline_extvalues.ml" 103 4159 4211
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  int_ref find_sampler "minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4212 "minils/transformations/inline_extvalues.ml" 103 4159 4215
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 99 3987 4014 "minils/transformations/inline_extvalues.ml" 99 3987 4017
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4216 "minils/transformations/inline_extvalues.ml" 103 4159 4217
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 103 4159 4180 "minils/transformations/inline_extvalues.ml" 103 4159 4181
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4199 "minils/transformations/inline_extvalues.ml" 103 4159 4217
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 103 4159 4186 "minils/transformations/inline_extvalues.ml" 103 4159 4218
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 104 4219 4227 "minils/transformations/inline_extvalues.ml" 104 4219 4228
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 104 4219 4232 "minils/transformations/inline_extvalues.ml" 104 4219 4235
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 100 4032 4040 "minils/transformations/inline_extvalues.ml" 100 4032 4043
+)
+"minils/transformations/inline_extvalues.ml" 101 4091 4100 "minils/transformations/inline_extvalues.ml" 104 4219 4235
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 105 4236 4246 "minils/transformations/inline_extvalues.ml" 105 4236 4255
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 105 4236 4259 "minils/transformations/inline_extvalues.ml" 105 4236 4262
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 100 4032 4040 "minils/transformations/inline_extvalues.ml" 100 4032 4043
+)
+"minils/transformations/inline_extvalues.ml" 101 4091 4095 "minils/transformations/inline_extvalues.ml" 105 4236 4263
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 105 4236 4265 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 101 4091 4095 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+type(
+  Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 100 4032 4036 "minils/transformations/inline_extvalues.ml" 105 4236 4267
+type(
+  Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4280 "minils/transformations/inline_extvalues.ml" 108 4274 4292
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+ident(
+  def inline_edesc "minils/transformations/inline_extvalues.ml" 120 4743 4745 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4293 "minils/transformations/inline_extvalues.ml" 108 4274 4296
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 108 4274 4297 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4297 "minils/transformations/inline_extvalues.ml" 108 4274 4301
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 108 4274 4302 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4302 "minils/transformations/inline_extvalues.ml" 108 4274 4304
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4305 "minils/transformations/inline_extvalues.ml" 108 4274 4308
+type(
+  Minils.edesc
+)
+ident(
+  def e_d "minils/transformations/inline_extvalues.ml" 109 4311 4315 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4319 "minils/transformations/inline_extvalues.ml" 109 4311 4323
+type(
+  Minils.edesc
+)
+ident(
+  def e_d' "minils/transformations/inline_extvalues.ml" 111 4446 4450 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4325 "minils/transformations/inline_extvalues.ml" 109 4311 4327
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4319 "minils/transformations/inline_extvalues.ml" 109 4311 4327
+type(
+  Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4330 "minils/transformations/inline_extvalues.ml" 109 4311 4347
+type(
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+ident(
+  ext_ref Mls_mapfold.edesc
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4348 "minils/transformations/inline_extvalues.ml" 109 4311 4352
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 108 4274 4297 "minils/transformations/inline_extvalues.ml" 108 4274 4301
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4353 "minils/transformations/inline_extvalues.ml" 109 4311 4355
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4356 "minils/transformations/inline_extvalues.ml" 109 4311 4359
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 108 4274 4305 "minils/transformations/inline_extvalues.ml" 108 4274 4308
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4330 "minils/transformations/inline_extvalues.ml" 109 4311 4359
+call(
+  stack
+)
+type(
+  Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 111 4446 4454 "minils/transformations/inline_extvalues.ml" 111 4446 4457
+type(
+  Minils.edesc
+)
+ident(
+  def e_d "minils/transformations/inline_extvalues.ml" 112 4468 4472 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+)
+"minils/transformations/inline_extvalues.ml" 111 4446 4460 "minils/transformations/inline_extvalues.ml" 111 4446 4464
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d' "minils/transformations/inline_extvalues.ml" 109 4311 4319 "minils/transformations/inline_extvalues.ml" 109 4311 4323
+)
+"minils/transformations/inline_extvalues.ml" 112 4468 4483 "minils/transformations/inline_extvalues.ml" 112 4468 4486
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 111 4446 4454 "minils/transformations/inline_extvalues.ml" 111 4446 4457
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4508 "minils/transformations/inline_extvalues.ml" 113 4492 4509
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 113 4492 4518 "minils/transformations/inline_extvalues.ml" 113 4492 4549
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4511 "minils/transformations/inline_extvalues.ml" 113 4492 4513
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+ident(
+  def cl "minils/transformations/inline_extvalues.ml" 113 4492 4518 "minils/transformations/inline_extvalues.ml" 113 4492 4549
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4500 "minils/transformations/inline_extvalues.ml" 113 4492 4514
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4526 "minils/transformations/inline_extvalues.ml" 113 4492 4538
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  int_ref find_sampler "minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4539 "minils/transformations/inline_extvalues.ml" 113 4492 4542
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 108 4274 4293 "minils/transformations/inline_extvalues.ml" 108 4274 4296
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4543 "minils/transformations/inline_extvalues.ml" 113 4492 4544
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 113 4492 4508 "minils/transformations/inline_extvalues.ml" 113 4492 4509
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4526 "minils/transformations/inline_extvalues.ml" 113 4492 4544
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4546 "minils/transformations/inline_extvalues.ml" 113 4492 4548
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+ident(
+  int_ref cl "minils/transformations/inline_extvalues.ml" 113 4492 4511 "minils/transformations/inline_extvalues.ml" 113 4492 4513
+)
+"minils/transformations/inline_extvalues.ml" 113 4492 4518 "minils/transformations/inline_extvalues.ml" 113 4492 4549
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4565 "minils/transformations/inline_extvalues.ml" 114 4550 4566
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/inline_extvalues.ml" 114 4550 4577 "minils/transformations/inline_extvalues.ml" 114 4550 4609
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4568 "minils/transformations/inline_extvalues.ml" 114 4550 4569
+type(
+  Names.constructor_name
+)
+ident(
+  def v "minils/transformations/inline_extvalues.ml" 114 4550 4577 "minils/transformations/inline_extvalues.ml" 114 4550 4609
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4571 "minils/transformations/inline_extvalues.ml" 114 4550 4572
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 114 4550 4577 "minils/transformations/inline_extvalues.ml" 114 4550 4609
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4558 "minils/transformations/inline_extvalues.ml" 114 4550 4573
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4584 "minils/transformations/inline_extvalues.ml" 114 4550 4585
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 114 4550 4565 "minils/transformations/inline_extvalues.ml" 114 4550 4566
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4587 "minils/transformations/inline_extvalues.ml" 114 4550 4588
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref v "minils/transformations/inline_extvalues.ml" 114 4550 4568 "minils/transformations/inline_extvalues.ml" 114 4550 4569
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4590 "minils/transformations/inline_extvalues.ml" 114 4550 4602
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  int_ref find_sampler "minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4603 "minils/transformations/inline_extvalues.ml" 114 4550 4606
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 108 4274 4293 "minils/transformations/inline_extvalues.ml" 108 4274 4296
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4607 "minils/transformations/inline_extvalues.ml" 114 4550 4608
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 114 4550 4571 "minils/transformations/inline_extvalues.ml" 114 4550 4572
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4590 "minils/transformations/inline_extvalues.ml" 114 4550 4608
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 114 4550 4577 "minils/transformations/inline_extvalues.ml" 114 4550 4609
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4624 "minils/transformations/inline_extvalues.ml" 115 4610 4626
+type(
+  Minils.app
+)
+ident(
+  def op "minils/transformations/inline_extvalues.ml" 115 4610 4645 "minils/transformations/inline_extvalues.ml" 115 4610 4687
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4628 "minils/transformations/inline_extvalues.ml" 115 4610 4632
+type(
+  Minils.extvalue list
+)
+ident(
+  def args "minils/transformations/inline_extvalues.ml" 115 4610 4645 "minils/transformations/inline_extvalues.ml" 115 4610 4687
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4639 "minils/transformations/inline_extvalues.ml" 115 4610 4640
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 115 4610 4645 "minils/transformations/inline_extvalues.ml" 115 4610 4687
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4634 "minils/transformations/inline_extvalues.ml" 115 4610 4640
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4618 "minils/transformations/inline_extvalues.ml" 115 4610 4641
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4651 "minils/transformations/inline_extvalues.ml" 115 4610 4653
+type(
+  Minils.app
+)
+ident(
+  int_ref op "minils/transformations/inline_extvalues.ml" 115 4610 4624 "minils/transformations/inline_extvalues.ml" 115 4610 4626
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4655 "minils/transformations/inline_extvalues.ml" 115 4610 4659
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/transformations/inline_extvalues.ml" 115 4610 4628 "minils/transformations/inline_extvalues.ml" 115 4610 4632
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4667 "minils/transformations/inline_extvalues.ml" 115 4610 4679
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  int_ref find_sampler "minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4680 "minils/transformations/inline_extvalues.ml" 115 4610 4683
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 108 4274 4293 "minils/transformations/inline_extvalues.ml" 108 4274 4296
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4684 "minils/transformations/inline_extvalues.ml" 115 4610 4685
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 115 4610 4639 "minils/transformations/inline_extvalues.ml" 115 4610 4640
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4666 "minils/transformations/inline_extvalues.ml" 115 4610 4686
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4661 "minils/transformations/inline_extvalues.ml" 115 4610 4686
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 115 4610 4645 "minils/transformations/inline_extvalues.ml" 115 4610 4687
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 116 4688 4696 "minils/transformations/inline_extvalues.ml" 116 4688 4697
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 116 4688 4701 "minils/transformations/inline_extvalues.ml" 116 4688 4704
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 111 4446 4454 "minils/transformations/inline_extvalues.ml" 111 4446 4457
+)
+"minils/transformations/inline_extvalues.ml" 112 4468 4477 "minils/transformations/inline_extvalues.ml" 116 4688 4704
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 117 4705 4715 "minils/transformations/inline_extvalues.ml" 117 4705 4724
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 117 4705 4728 "minils/transformations/inline_extvalues.ml" 117 4705 4731
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 111 4446 4454 "minils/transformations/inline_extvalues.ml" 111 4446 4457
+)
+"minils/transformations/inline_extvalues.ml" 112 4468 4472 "minils/transformations/inline_extvalues.ml" 117 4705 4732
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 117 4705 4734 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 112 4468 4472 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+type(
+  Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 111 4446 4450 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+type(
+  Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 109 4311 4315 "minils/transformations/inline_extvalues.ml" 117 4705 4736
+type(
+  Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4749 "minils/transformations/inline_extvalues.ml" 120 4743 4758
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+ident(
+  def inline_ck "minils/transformations/inline_extvalues.ml" 128 4961 4963 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4759 "minils/transformations/inline_extvalues.ml" 120 4743 4762
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 120 4743 4763 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4763 "minils/transformations/inline_extvalues.ml" 120 4743 4767
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 120 4743 4768 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4768 "minils/transformations/inline_extvalues.ml" 120 4743 4770
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4771 "minils/transformations/inline_extvalues.ml" 120 4743 4773
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/inline_extvalues.ml" 121 4776 4780 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4784 "minils/transformations/inline_extvalues.ml" 121 4776 4786
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/inline_extvalues.ml" 122 4825 4829 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4788 "minils/transformations/inline_extvalues.ml" 121 4776 4790
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4784 "minils/transformations/inline_extvalues.ml" 121 4776 4790
+type(
+  Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4793 "minils/transformations/inline_extvalues.ml" 121 4776 4810
+type(
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+ident(
+  ext_ref Global_mapfold.ck
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4811 "minils/transformations/inline_extvalues.ml" 121 4776 4815
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 120 4743 4763 "minils/transformations/inline_extvalues.ml" 120 4743 4767
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4816 "minils/transformations/inline_extvalues.ml" 121 4776 4818
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4819 "minils/transformations/inline_extvalues.ml" 121 4776 4821
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/inline_extvalues.ml" 120 4743 4771 "minils/transformations/inline_extvalues.ml" 120 4743 4773
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4793 "minils/transformations/inline_extvalues.ml" 121 4776 4821
+call(
+  stack
+)
+type(
+  Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 122 4825 4840 "minils/transformations/inline_extvalues.ml" 122 4825 4842
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/inline_extvalues.ml" 121 4776 4784 "minils/transformations/inline_extvalues.ml" 121 4776 4786
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4861 "minils/transformations/inline_extvalues.ml" 123 4848 4863
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/transformations/inline_extvalues.ml" 123 4848 4875 "minils/transformations/inline_extvalues.ml" 123 4848 4907
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4865 "minils/transformations/inline_extvalues.ml" 123 4848 4867
+type(
+  Names.constructor_name
+)
+ident(
+  def cn "minils/transformations/inline_extvalues.ml" 123 4848 4875 "minils/transformations/inline_extvalues.ml" 123 4848 4907
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4869 "minils/transformations/inline_extvalues.ml" 123 4848 4870
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 123 4848 4875 "minils/transformations/inline_extvalues.ml" 123 4848 4907
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4856 "minils/transformations/inline_extvalues.ml" 123 4848 4871
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4880 "minils/transformations/inline_extvalues.ml" 123 4848 4882
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/inline_extvalues.ml" 123 4848 4861 "minils/transformations/inline_extvalues.ml" 123 4848 4863
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4884 "minils/transformations/inline_extvalues.ml" 123 4848 4886
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref cn "minils/transformations/inline_extvalues.ml" 123 4848 4865 "minils/transformations/inline_extvalues.ml" 123 4848 4867
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4888 "minils/transformations/inline_extvalues.ml" 123 4848 4900
+type(
+  Minils.extvalue Idents.Env.t -> Idents.Env.key -> Idents.var_ident
+)
+ident(
+  int_ref find_sampler "minils/transformations/inline_extvalues.ml" 94 3874 3880 "minils/transformations/inline_extvalues.ml" 94 3874 3892
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4901 "minils/transformations/inline_extvalues.ml" 123 4848 4904
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 120 4743 4759 "minils/transformations/inline_extvalues.ml" 120 4743 4762
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4905 "minils/transformations/inline_extvalues.ml" 123 4848 4906
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 123 4848 4869 "minils/transformations/inline_extvalues.ml" 123 4848 4870
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4888 "minils/transformations/inline_extvalues.ml" 123 4848 4906
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 123 4848 4875 "minils/transformations/inline_extvalues.ml" 123 4848 4907
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 124 4908 4916 "minils/transformations/inline_extvalues.ml" 124 4908 4917
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 124 4908 4921 "minils/transformations/inline_extvalues.ml" 124 4908 4923
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/inline_extvalues.ml" 121 4776 4784 "minils/transformations/inline_extvalues.ml" 121 4776 4786
+)
+"minils/transformations/inline_extvalues.ml" 122 4825 4834 "minils/transformations/inline_extvalues.ml" 124 4908 4923
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 125 4924 4934 "minils/transformations/inline_extvalues.ml" 125 4924 4943
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 125 4924 4947 "minils/transformations/inline_extvalues.ml" 125 4924 4949
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/transformations/inline_extvalues.ml" 121 4776 4784 "minils/transformations/inline_extvalues.ml" 121 4776 4786
+)
+"minils/transformations/inline_extvalues.ml" 122 4825 4829 "minils/transformations/inline_extvalues.ml" 125 4924 4950
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 125 4924 4952 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 122 4825 4829 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+type(
+  Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 121 4776 4780 "minils/transformations/inline_extvalues.ml" 125 4924 4954
+type(
+  Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 128 4961 4967 "minils/transformations/inline_extvalues.ml" 128 4961 4970
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 147 5523 5525 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 129 4973 4981 "minils/transformations/inline_extvalues.ml" 129 4973 4985
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 137 5261 5265 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+)
+"minils/transformations/inline_extvalues.ml" 130 4988 4996 "minils/transformations/inline_extvalues.ml" 130 4988 5016
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 131 5022 5058 "minils/transformations/inline_extvalues.ml" 131 5022 5078
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+ident(
+  int_ref inline_extvalue_desc "minils/transformations/inline_extvalues.ml" 99 3987 3993 "minils/transformations/inline_extvalues.ml" 99 3987 4013
+)
+"minils/transformations/inline_extvalues.ml" 131 5022 5079 "minils/transformations/inline_extvalues.ml" 131 5022 5082
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 93 3840 3865 "minils/transformations/inline_extvalues.ml" 93 3840 3868
+)
+"minils/transformations/inline_extvalues.ml" 131 5022 5058 "minils/transformations/inline_extvalues.ml" 131 5022 5082
+call(
+  stack
+)
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 132 5084 5112 "minils/transformations/inline_extvalues.ml" 132 5084 5124
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+ident(
+  int_ref inline_edesc "minils/transformations/inline_extvalues.ml" 108 4274 4280 "minils/transformations/inline_extvalues.ml" 108 4274 4292
+)
+"minils/transformations/inline_extvalues.ml" 132 5084 5125 "minils/transformations/inline_extvalues.ml" 132 5084 5128
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 93 3840 3865 "minils/transformations/inline_extvalues.ml" 93 3840 3868
+)
+"minils/transformations/inline_extvalues.ml" 132 5084 5112 "minils/transformations/inline_extvalues.ml" 132 5084 5128
+call(
+  stack
+)
+type(
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 134 5164 5176 "minils/transformations/inline_extvalues.ml" 134 5164 5199
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 135 5205 5237 "minils/transformations/inline_extvalues.ml" 135 5205 5246
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+ident(
+  int_ref inline_ck "minils/transformations/inline_extvalues.ml" 120 4743 4749 "minils/transformations/inline_extvalues.ml" 120 4743 4758
+)
+"minils/transformations/inline_extvalues.ml" 135 5205 5247 "minils/transformations/inline_extvalues.ml" 135 5205 5250
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 93 3840 3865 "minils/transformations/inline_extvalues.ml" 93 3840 3868
+)
+"minils/transformations/inline_extvalues.ml" 135 5205 5237 "minils/transformations/inline_extvalues.ml" 135 5205 5250
+call(
+  stack
+)
+type(
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 134 5164 5174 "minils/transformations/inline_extvalues.ml" 135 5205 5253
+type(
+  unit Global_mapfold.global_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 130 4988 4994 "minils/transformations/inline_extvalues.ml" 135 5205 5256
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 137 5261 5269 "minils/transformations/inline_extvalues.ml" 137 5261 5275
+type(
+  Idents.Env.key ->
+  Minils.extvalue ->
+  Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t
+)
+ident(
+  def tclose "minils/transformations/inline_extvalues.ml" 144 5483 5487 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+)
+"minils/transformations/inline_extvalues.ml" 137 5261 5276 "minils/transformations/inline_extvalues.ml" 137 5261 5277
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 137 5261 5278 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+)
+"minils/transformations/inline_extvalues.ml" 137 5261 5278 "minils/transformations/inline_extvalues.ml" 137 5261 5279
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 137 5261 5280 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+)
+"minils/transformations/inline_extvalues.ml" 137 5261 5280 "minils/transformations/inline_extvalues.ml" 137 5261 5287
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def new_env "minils/transformations/inline_extvalues.ml" 138 5290 5296 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+)
+"minils/transformations/inline_extvalues.ml" 138 5290 5304 "minils/transformations/inline_extvalues.ml" 138 5290 5307
+type(
+  Minils.extvalue -> Minils.extvalue
+)
+ident(
+  def fix "minils/transformations/inline_extvalues.ml" 138 5290 5296 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+)
+"minils/transformations/inline_extvalues.ml" 138 5290 5308 "minils/transformations/inline_extvalues.ml" 138 5290 5309
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 139 5312 5320 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5324 "minils/transformations/inline_extvalues.ml" 139 5312 5326
+type(
+  Minils.extvalue
+)
+ident(
+  def w' "minils/transformations/inline_extvalues.ml" 140 5367 5375 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5328 "minils/transformations/inline_extvalues.ml" 139 5312 5330
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5324 "minils/transformations/inline_extvalues.ml" 139 5312 5330
+type(
+  Minils.extvalue * unit
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5333 "minils/transformations/inline_extvalues.ml" 139 5312 5353
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue -> Minils.extvalue * unit
+)
+ident(
+  ext_ref Mls_mapfold.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5354 "minils/transformations/inline_extvalues.ml" 139 5312 5358
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 129 4973 4981 "minils/transformations/inline_extvalues.ml" 129 4973 4985
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5359 "minils/transformations/inline_extvalues.ml" 139 5312 5361
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5362 "minils/transformations/inline_extvalues.ml" 139 5312 5363
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 138 5290 5308 "minils/transformations/inline_extvalues.ml" 138 5290 5309
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5333 "minils/transformations/inline_extvalues.ml" 139 5312 5363
+call(
+  stack
+)
+type(
+  Minils.extvalue * unit
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5378 "minils/transformations/inline_extvalues.ml" 140 5367 5406
+type(
+  Minils.extvalue -> Minils.extvalue -> int
+)
+ident(
+  ext_ref Mls_compare.extvalue_compare
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5407 "minils/transformations/inline_extvalues.ml" 140 5367 5408
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 138 5290 5308 "minils/transformations/inline_extvalues.ml" 138 5290 5309
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5409 "minils/transformations/inline_extvalues.ml" 140 5367 5411
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w' "minils/transformations/inline_extvalues.ml" 139 5312 5324 "minils/transformations/inline_extvalues.ml" 139 5312 5326
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5378 "minils/transformations/inline_extvalues.ml" 140 5367 5411
+call(
+  stack
+)
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5412 "minils/transformations/inline_extvalues.ml" 140 5367 5413
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5414 "minils/transformations/inline_extvalues.ml" 140 5367 5415
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5378 "minils/transformations/inline_extvalues.ml" 140 5367 5415
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5421 "minils/transformations/inline_extvalues.ml" 140 5367 5422
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 138 5290 5308 "minils/transformations/inline_extvalues.ml" 138 5290 5309
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5428 "minils/transformations/inline_extvalues.ml" 140 5367 5431
+type(
+  Minils.extvalue -> Minils.extvalue
+)
+ident(
+  int_ref fix "minils/transformations/inline_extvalues.ml" 138 5290 5304 "minils/transformations/inline_extvalues.ml" 138 5290 5307
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5432 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w' "minils/transformations/inline_extvalues.ml" 139 5312 5324 "minils/transformations/inline_extvalues.ml" 139 5312 5326
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5428 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+call(
+  tail
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 140 5367 5375 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 139 5312 5320 "minils/transformations/inline_extvalues.ml" 140 5367 5434
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5450 "minils/transformations/inline_extvalues.ml" 142 5444 5457
+type(
+  Idents.Env.key ->
+  Minils.extvalue ->
+  Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5458 "minils/transformations/inline_extvalues.ml" 142 5444 5459
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 137 5261 5276 "minils/transformations/inline_extvalues.ml" 137 5261 5277
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5461 "minils/transformations/inline_extvalues.ml" 142 5444 5464
+type(
+  Minils.extvalue -> Minils.extvalue
+)
+ident(
+  int_ref fix "minils/transformations/inline_extvalues.ml" 138 5290 5304 "minils/transformations/inline_extvalues.ml" 138 5290 5307
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5465 "minils/transformations/inline_extvalues.ml" 142 5444 5466
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 137 5261 5278 "minils/transformations/inline_extvalues.ml" 137 5261 5279
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5460 "minils/transformations/inline_extvalues.ml" 142 5444 5467
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5468 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref new_env "minils/transformations/inline_extvalues.ml" 137 5261 5280 "minils/transformations/inline_extvalues.ml" 137 5261 5287
+)
+"minils/transformations/inline_extvalues.ml" 142 5444 5450 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+call(
+  tail
+)
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 138 5290 5296 "minils/transformations/inline_extvalues.ml" 142 5444 5475
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 144 5483 5487 "minils/transformations/inline_extvalues.ml" 144 5483 5495
+type(
+  (Idents.Env.key ->
+   Minils.extvalue ->
+   Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t) ->
+  Minils.extvalue Idents.Env.t ->
+  Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.fold
+)
+"minils/transformations/inline_extvalues.ml" 144 5483 5496 "minils/transformations/inline_extvalues.ml" 144 5483 5502
+type(
+  Idents.Env.key ->
+  Minils.extvalue ->
+  Minils.extvalue Idents.Env.t -> Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref tclose "minils/transformations/inline_extvalues.ml" 137 5261 5269 "minils/transformations/inline_extvalues.ml" 137 5261 5275
+)
+"minils/transformations/inline_extvalues.ml" 144 5483 5503 "minils/transformations/inline_extvalues.ml" 144 5483 5506
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 93 3840 3865 "minils/transformations/inline_extvalues.ml" 93 3840 3868
+)
+"minils/transformations/inline_extvalues.ml" 144 5483 5507 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/transformations/inline_extvalues.ml" 144 5483 5487 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+call(
+  stack
+)
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 137 5261 5265 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 129 4973 4977 "minils/transformations/inline_extvalues.ml" 144 5483 5516
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 147 5523 5529 "minils/transformations/inline_extvalues.ml" 147 5523 5533
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 158 5815 5817 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 149 5542 5548 "minils/transformations/inline_extvalues.ml" 149 5542 5568
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 150 5574 5610 "minils/transformations/inline_extvalues.ml" 150 5574 5630
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+ident(
+  int_ref inline_extvalue_desc "minils/transformations/inline_extvalues.ml" 99 3987 3993 "minils/transformations/inline_extvalues.ml" 99 3987 4013
+)
+"minils/transformations/inline_extvalues.ml" 150 5574 5631 "minils/transformations/inline_extvalues.ml" 150 5574 5634
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 128 4961 4967 "minils/transformations/inline_extvalues.ml" 128 4961 4970
+)
+"minils/transformations/inline_extvalues.ml" 150 5574 5610 "minils/transformations/inline_extvalues.ml" 150 5574 5634
+call(
+  stack
+)
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.extvalue_desc -> Minils.extvalue_desc * unit
+)
+"minils/transformations/inline_extvalues.ml" 151 5636 5664 "minils/transformations/inline_extvalues.ml" 151 5636 5676
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+ident(
+  int_ref inline_edesc "minils/transformations/inline_extvalues.ml" 108 4274 4280 "minils/transformations/inline_extvalues.ml" 108 4274 4292
+)
+"minils/transformations/inline_extvalues.ml" 151 5636 5677 "minils/transformations/inline_extvalues.ml" 151 5636 5680
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 128 4961 4967 "minils/transformations/inline_extvalues.ml" 128 4961 4970
+)
+"minils/transformations/inline_extvalues.ml" 151 5636 5664 "minils/transformations/inline_extvalues.ml" 151 5636 5680
+call(
+  stack
+)
+type(
+  unit Mls_mapfold.mls_it_funs -> unit -> Minils.edesc -> Minils.edesc * unit
+)
+"minils/transformations/inline_extvalues.ml" 153 5716 5726 "minils/transformations/inline_extvalues.ml" 153 5716 5749
+type(
+  unit Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 154 5755 5785 "minils/transformations/inline_extvalues.ml" 154 5755 5794
+type(
+  Minils.extvalue Idents.Env.t ->
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+ident(
+  int_ref inline_ck "minils/transformations/inline_extvalues.ml" 120 4743 4749 "minils/transformations/inline_extvalues.ml" 120 4743 4758
+)
+"minils/transformations/inline_extvalues.ml" 154 5755 5795 "minils/transformations/inline_extvalues.ml" 154 5755 5798
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 128 4961 4967 "minils/transformations/inline_extvalues.ml" 128 4961 4970
+)
+"minils/transformations/inline_extvalues.ml" 154 5755 5785 "minils/transformations/inline_extvalues.ml" 154 5755 5798
+call(
+  stack
+)
+type(
+  unit Global_mapfold.global_it_funs -> unit -> Clocks.ck -> Clocks.ck * unit
+)
+"minils/transformations/inline_extvalues.ml" 153 5716 5724 "minils/transformations/inline_extvalues.ml" 154 5755 5801
+type(
+  unit Global_mapfold.global_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 148 5536 5540 "minils/transformations/inline_extvalues.ml" 155 5803 5808
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5821 "minils/transformations/inline_extvalues.ml" 158 5815 5823
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 159 5865 5867 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5825 "minils/transformations/inline_extvalues.ml" 158 5815 5827
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5821 "minils/transformations/inline_extvalues.ml" 158 5815 5827
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5830 "minils/transformations/inline_extvalues.ml" 158 5815 5850
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  ext_ref Mls_mapfold.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5851 "minils/transformations/inline_extvalues.ml" 158 5815 5855
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 147 5523 5529 "minils/transformations/inline_extvalues.ml" 147 5523 5533
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5856 "minils/transformations/inline_extvalues.ml" 158 5815 5858
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5859 "minils/transformations/inline_extvalues.ml" 158 5815 5861
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 93 3840 3869 "minils/transformations/inline_extvalues.ml" 93 3840 3871
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5830 "minils/transformations/inline_extvalues.ml" 158 5815 5861
+call(
+  stack
+)
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 159 5865 5867 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 158 5815 5821 "minils/transformations/inline_extvalues.ml" 158 5815 5823
+)
+"minils/transformations/inline_extvalues.ml" 158 5815 5817 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 147 5523 5525 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 128 4961 4963 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 120 4743 4745 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 108 4274 4276 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 99 3987 3989 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 94 3874 3876 "minils/transformations/inline_extvalues.ml" 159 5865 5869
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 161 5871 5875 "minils/transformations/inline_extvalues.ml" 161 5871 5897
+type(
+  Minils.node_dec -> Minils.node_dec * bool
+)
+ident(
+  def form_new_extvalue_node "minils/transformations/inline_extvalues.ml" 223 7934 7934 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 161 5871 5898 "minils/transformations/inline_extvalues.ml" 161 5871 5900
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 162 5903 5913 "minils/transformations/inline_extvalues.ml" 162 5903 5930
+type(
+  Minils.exp -> Minils.extvalue
+)
+ident(
+  def form_new_extvalue "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/inline_extvalues.ml" 163 5935 5939 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+)
+"minils/transformations/inline_extvalues.ml" 164 5943 5953 "minils/transformations/inline_extvalues.ml" 164 5943 5955
+type(
+  Types.static_exp
+)
+ident(
+  def se "minils/transformations/inline_extvalues.ml" 165 5978 5984 "minils/transformations/inline_extvalues.ml" 167 6040 6104
+)
+"minils/transformations/inline_extvalues.ml" 164 5943 5958 "minils/transformations/inline_extvalues.ml" 164 5943 5972
+type(
+  Minils.exp -> Types.static_exp
+)
+ident(
+  int_ref form_new_const "minils/transformations/inline_extvalues.ml" 177 6424 6430 "minils/transformations/inline_extvalues.ml" 177 6424 6444
+)
+"minils/transformations/inline_extvalues.ml" 164 5943 5973 "minils/transformations/inline_extvalues.ml" 164 5943 5974
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 164 5943 5958 "minils/transformations/inline_extvalues.ml" 164 5943 5974
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 165 5978 5984 "minils/transformations/inline_extvalues.ml" 165 5978 5995
+type(
+  ty:Types.ty ->
+  linearity:Linearity.linearity ->
+  ?clock:Clocks.ck ->
+  ?loc:Location.location -> Minils.extvalue_desc -> Minils.extvalue
+)
+ident(
+  ext_ref Minils.mk_extvalue
+)
+"minils/transformations/inline_extvalues.ml" 166 5996 6008 "minils/transformations/inline_extvalues.ml" 166 5996 6009
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 166 5996 6008 "minils/transformations/inline_extvalues.ml" 166 5996 6014
+type(
+  Types.ty
+)
+"minils/transformations/inline_extvalues.ml" 166 5996 6026 "minils/transformations/inline_extvalues.ml" 166 5996 6027
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 166 5996 6026 "minils/transformations/inline_extvalues.ml" 166 5996 6039
+type(
+  Linearity.linearity
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6056 "minils/transformations/inline_extvalues.ml" 167 6040 6071
+type(
+  Clocks.ct -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.first_ck
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6072 "minils/transformations/inline_extvalues.ml" 167 6040 6073
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6072 "minils/transformations/inline_extvalues.ml" 167 6040 6078
+type(
+  Clocks.ct
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6055 "minils/transformations/inline_extvalues.ml" 167 6040 6079
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6085 "minils/transformations/inline_extvalues.ml" 167 6040 6086
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6085 "minils/transformations/inline_extvalues.ml" 167 6040 6092
+type(
+  Location.location
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6101 "minils/transformations/inline_extvalues.ml" 167 6040 6103
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "minils/transformations/inline_extvalues.ml" 164 5943 5953 "minils/transformations/inline_extvalues.ml" 164 5943 5955
+)
+"minils/transformations/inline_extvalues.ml" 167 6040 6093 "minils/transformations/inline_extvalues.ml" 167 6040 6104
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 165 5978 5984 "minils/transformations/inline_extvalues.ml" 167 6040 6104
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 164 5943 5949 "minils/transformations/inline_extvalues.ml" 167 6040 6104
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 168 6105 6114 "minils/transformations/inline_extvalues.ml" 168 6105 6129
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 169 6133 6143 "minils/transformations/inline_extvalues.ml" 169 6133 6146
+type(
+  Minils.extvalue_desc
+)
+ident(
+  def w_d "minils/transformations/inline_extvalues.ml" 174 6312 6318 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+)
+"minils/transformations/inline_extvalues.ml" 169 6133 6155 "minils/transformations/inline_extvalues.ml" 169 6133 6156
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 169 6133 6155 "minils/transformations/inline_extvalues.ml" 169 6133 6163
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 170 6169 6189 "minils/transformations/inline_extvalues.ml" 170 6169 6190
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 170 6169 6194 "minils/transformations/inline_extvalues.ml" 170 6169 6202
+)
+"minils/transformations/inline_extvalues.ml" 170 6169 6179 "minils/transformations/inline_extvalues.ml" 170 6169 6190
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 170 6169 6194 "minils/transformations/inline_extvalues.ml" 170 6169 6195
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 170 6169 6189 "minils/transformations/inline_extvalues.ml" 170 6169 6190
+)
+"minils/transformations/inline_extvalues.ml" 170 6169 6194 "minils/transformations/inline_extvalues.ml" 170 6169 6202
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6220 "minils/transformations/inline_extvalues.ml" 171 6203 6221
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/inline_extvalues.ml" 171 6203 6232 "minils/transformations/inline_extvalues.ml" 171 6203 6265
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6223 "minils/transformations/inline_extvalues.ml" 171 6203 6224
+type(
+  Names.constructor_name
+)
+ident(
+  def v "minils/transformations/inline_extvalues.ml" 171 6203 6232 "minils/transformations/inline_extvalues.ml" 171 6203 6265
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6226 "minils/transformations/inline_extvalues.ml" 171 6203 6227
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 171 6203 6232 "minils/transformations/inline_extvalues.ml" 171 6203 6265
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6213 "minils/transformations/inline_extvalues.ml" 171 6203 6228
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6239 "minils/transformations/inline_extvalues.ml" 171 6203 6256
+type(
+  Minils.exp -> Minils.extvalue
+)
+ident(
+  int_ref form_new_extvalue "minils/transformations/inline_extvalues.ml" 162 5903 5913 "minils/transformations/inline_extvalues.ml" 162 5903 5930
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6257 "minils/transformations/inline_extvalues.ml" 171 6203 6258
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 171 6203 6220 "minils/transformations/inline_extvalues.ml" 171 6203 6221
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6239 "minils/transformations/inline_extvalues.ml" 171 6203 6258
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6260 "minils/transformations/inline_extvalues.ml" 171 6203 6261
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref v "minils/transformations/inline_extvalues.ml" 171 6203 6223 "minils/transformations/inline_extvalues.ml" 171 6203 6224
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6263 "minils/transformations/inline_extvalues.ml" 171 6203 6264
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 171 6203 6226 "minils/transformations/inline_extvalues.ml" 171 6203 6227
+)
+"minils/transformations/inline_extvalues.ml" 171 6203 6232 "minils/transformations/inline_extvalues.ml" 171 6203 6265
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 172 6266 6276 "minils/transformations/inline_extvalues.ml" 172 6266 6277
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 172 6266 6281 "minils/transformations/inline_extvalues.ml" 172 6266 6286
+type(
+  exn -> Minils.extvalue_desc
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/transformations/inline_extvalues.ml" 172 6266 6287 "minils/transformations/inline_extvalues.ml" 172 6266 6302
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 172 6266 6281 "minils/transformations/inline_extvalues.ml" 172 6266 6302
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 169 6133 6149 "minils/transformations/inline_extvalues.ml" 172 6266 6302
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6318 "minils/transformations/inline_extvalues.ml" 174 6312 6329
+type(
+  ty:Types.ty ->
+  linearity:Linearity.linearity ->
+  ?clock:Clocks.ck ->
+  ?loc:Location.location -> Minils.extvalue_desc -> Minils.extvalue
+)
+ident(
+  ext_ref Minils.mk_extvalue
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6334 "minils/transformations/inline_extvalues.ml" 174 6312 6335
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6334 "minils/transformations/inline_extvalues.ml" 174 6312 6340
+type(
+  Types.ty
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6352 "minils/transformations/inline_extvalues.ml" 174 6312 6353
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6352 "minils/transformations/inline_extvalues.ml" 174 6312 6365
+type(
+  Linearity.linearity
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6382 "minils/transformations/inline_extvalues.ml" 175 6366 6397
+type(
+  Clocks.ct -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.first_ck
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6398 "minils/transformations/inline_extvalues.ml" 175 6366 6399
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6398 "minils/transformations/inline_extvalues.ml" 175 6366 6404
+type(
+  Clocks.ct
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6381 "minils/transformations/inline_extvalues.ml" 175 6366 6405
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6411 "minils/transformations/inline_extvalues.ml" 175 6366 6412
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 162 5903 5931 "minils/transformations/inline_extvalues.ml" 162 5903 5932
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6411 "minils/transformations/inline_extvalues.ml" 175 6366 6418
+type(
+  Location.location
+)
+"minils/transformations/inline_extvalues.ml" 175 6366 6419 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 169 6133 6143 "minils/transformations/inline_extvalues.ml" 169 6133 6146
+)
+"minils/transformations/inline_extvalues.ml" 174 6312 6318 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+call(
+  tail
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 169 6133 6139 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 163 5935 5939 "minils/transformations/inline_extvalues.ml" 175 6366 6422
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 177 6424 6430 "minils/transformations/inline_extvalues.ml" 177 6424 6444
+type(
+  Minils.exp -> Types.static_exp
+)
+ident(
+  def form_new_const "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 177 6424 6445 "minils/transformations/inline_extvalues.ml" 177 6424 6446
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/inline_extvalues.ml" 178 6449 6453 "minils/transformations/inline_extvalues.ml" 199 7207 7249
+)
+"minils/transformations/inline_extvalues.ml" 178 6449 6457 "minils/transformations/inline_extvalues.ml" 178 6449 6461
+type(
+  Types.static_exp_desc
+)
+ident(
+  def se_d "minils/transformations/inline_extvalues.ml" 199 7207 7211 "minils/transformations/inline_extvalues.ml" 199 7207 7249
+)
+"minils/transformations/inline_extvalues.ml" 178 6449 6470 "minils/transformations/inline_extvalues.ml" 178 6449 6471
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 177 6424 6445 "minils/transformations/inline_extvalues.ml" 177 6424 6446
+)
+"minils/transformations/inline_extvalues.ml" 178 6449 6470 "minils/transformations/inline_extvalues.ml" 178 6449 6478
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6520 "minils/transformations/inline_extvalues.ml" 179 6484 6521
+type(
+  Types.static_exp
+)
+ident(
+  def c "minils/transformations/inline_extvalues.ml" 179 6484 6528 "minils/transformations/inline_extvalues.ml" 179 6484 6537
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6513 "minils/transformations/inline_extvalues.ml" 179 6484 6521
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6502 "minils/transformations/inline_extvalues.ml" 179 6484 6524
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6492 "minils/transformations/inline_extvalues.ml" 179 6484 6524
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6528 "minils/transformations/inline_extvalues.ml" 179 6484 6529
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "minils/transformations/inline_extvalues.ml" 179 6484 6520 "minils/transformations/inline_extvalues.ml" 179 6484 6521
+)
+"minils/transformations/inline_extvalues.ml" 179 6484 6528 "minils/transformations/inline_extvalues.ml" 179 6484 6537
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6757 "minils/transformations/inline_extvalues.ml" 185 6719 6773
+type(
+  Names.modul
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6748 "minils/transformations/inline_extvalues.ml" 185 6719 6776
+type(
+  Names.fun_name
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6780 "minils/transformations/inline_extvalues.ml" 185 6719 6784
+ident(
+  def funn "minils/transformations/inline_extvalues.ml" 186 6807 6815 "minils/transformations/inline_extvalues.ml" 186 6807 6849
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6747 "minils/transformations/inline_extvalues.ml" 185 6719 6785
+type(
+  Names.fun_name
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6742 "minils/transformations/inline_extvalues.ml" 185 6719 6785
+type(
+  Minils.op
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6733 "minils/transformations/inline_extvalues.ml" 185 6719 6788
+type(
+  Minils.app
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6790 "minils/transformations/inline_extvalues.ml" 185 6719 6796
+type(
+  Minils.extvalue list
+)
+ident(
+  def w_list "minils/transformations/inline_extvalues.ml" 186 6807 6815 "minils/transformations/inline_extvalues.ml" 186 6807 6849
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6798 "minils/transformations/inline_extvalues.ml" 185 6719 6802
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 185 6719 6727 "minils/transformations/inline_extvalues.ml" 185 6719 6803
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 186 6807 6820 "minils/transformations/inline_extvalues.ml" 186 6807 6824
+type(
+  Names.fun_name
+)
+ident(
+  int_ref funn "minils/transformations/inline_extvalues.ml" 185 6719 6747 "minils/transformations/inline_extvalues.ml" 185 6719 6785
+)
+"minils/transformations/inline_extvalues.ml" 186 6807 6826 "minils/transformations/inline_extvalues.ml" 186 6807 6841
+type(
+  Minils.extvalue list -> Types.static_exp list
+)
+ident(
+  int_ref form_new_consts "minils/transformations/inline_extvalues.ml" 201 7251 7257 "minils/transformations/inline_extvalues.ml" 201 7251 7272
+)
+"minils/transformations/inline_extvalues.ml" 186 6807 6842 "minils/transformations/inline_extvalues.ml" 186 6807 6848
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/transformations/inline_extvalues.ml" 185 6719 6790 "minils/transformations/inline_extvalues.ml" 185 6719 6796
+)
+"minils/transformations/inline_extvalues.ml" 186 6807 6826 "minils/transformations/inline_extvalues.ml" 186 6807 6848
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"minils/transformations/inline_extvalues.ml" 186 6807 6815 "minils/transformations/inline_extvalues.ml" 186 6807 6849
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6874 "minils/transformations/inline_extvalues.ml" 188 6851 6885
+type(
+  Minils.op
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6898 "minils/transformations/inline_extvalues.ml" 188 6851 6904
+type(
+  Types.static_exp list
+)
+ident(
+  def n_list "minils/transformations/inline_extvalues.ml" 189 6923 6931 "minils/transformations/inline_extvalues.ml" 189 6923 6972
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6865 "minils/transformations/inline_extvalues.ml" 188 6851 6907
+type(
+  Minils.app
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6910 "minils/transformations/inline_extvalues.ml" 188 6851 6911
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 189 6923 6931 "minils/transformations/inline_extvalues.ml" 189 6923 6972
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6909 "minils/transformations/inline_extvalues.ml" 188 6851 6912
+type(
+  Minils.extvalue list
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6914 "minils/transformations/inline_extvalues.ml" 188 6851 6918
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 188 6851 6859 "minils/transformations/inline_extvalues.ml" 188 6851 6919
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 189 6923 6945 "minils/transformations/inline_extvalues.ml" 189 6923 6961
+type(
+  Minils.extvalue -> Types.static_exp
+)
+ident(
+  int_ref form_new_const_w "minils/transformations/inline_extvalues.ml" 203 7316 7322 "minils/transformations/inline_extvalues.ml" 203 7316 7338
+)
+"minils/transformations/inline_extvalues.ml" 189 6923 6962 "minils/transformations/inline_extvalues.ml" 189 6923 6963
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 188 6851 6910 "minils/transformations/inline_extvalues.ml" 188 6851 6911
+)
+"minils/transformations/inline_extvalues.ml" 189 6923 6945 "minils/transformations/inline_extvalues.ml" 189 6923 6963
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 189 6923 6965 "minils/transformations/inline_extvalues.ml" 189 6923 6971
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n_list "minils/transformations/inline_extvalues.ml" 188 6851 6898 "minils/transformations/inline_extvalues.ml" 188 6851 6904
+)
+"minils/transformations/inline_extvalues.ml" 189 6923 6931 "minils/transformations/inline_extvalues.ml" 189 6923 6972
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 191 6974 6997 "minils/transformations/inline_extvalues.ml" 191 6974 7003
+type(
+  Minils.op
+)
+"minils/transformations/inline_extvalues.ml" 191 6974 6988 "minils/transformations/inline_extvalues.ml" 191 6974 7006
+type(
+  Minils.app
+)
+"minils/transformations/inline_extvalues.ml" 191 6974 7008 "minils/transformations/inline_extvalues.ml" 191 6974 7014
+type(
+  Minils.extvalue list
+)
+ident(
+  def w_list "minils/transformations/inline_extvalues.ml" 192 7025 7033 "minils/transformations/inline_extvalues.ml" 192 7025 7064
+)
+"minils/transformations/inline_extvalues.ml" 191 6974 7016 "minils/transformations/inline_extvalues.ml" 191 6974 7020
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 191 6974 6982 "minils/transformations/inline_extvalues.ml" 191 6974 7021
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 192 7025 7041 "minils/transformations/inline_extvalues.ml" 192 7025 7056
+type(
+  Minils.extvalue list -> Types.static_exp list
+)
+ident(
+  int_ref form_new_consts "minils/transformations/inline_extvalues.ml" 201 7251 7257 "minils/transformations/inline_extvalues.ml" 201 7251 7272
+)
+"minils/transformations/inline_extvalues.ml" 192 7025 7057 "minils/transformations/inline_extvalues.ml" 192 7025 7063
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/transformations/inline_extvalues.ml" 191 6974 7008 "minils/transformations/inline_extvalues.ml" 191 6974 7014
+)
+"minils/transformations/inline_extvalues.ml" 192 7025 7040 "minils/transformations/inline_extvalues.ml" 192 7025 7064
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"minils/transformations/inline_extvalues.ml" 192 7025 7033 "minils/transformations/inline_extvalues.ml" 192 7025 7064
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 194 7066 7082 "minils/transformations/inline_extvalues.ml" 194 7066 7088
+type(
+  (Names.field_name * Minils.extvalue) list
+)
+ident(
+  def w_list "minils/transformations/inline_extvalues.ml" 195 7092 7100 "minils/transformations/inline_extvalues.ml" 195 7092 7163
+)
+"minils/transformations/inline_extvalues.ml" 194 7066 7074 "minils/transformations/inline_extvalues.ml" 194 7066 7088
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7109 "minils/transformations/inline_extvalues.ml" 195 7092 7117
+type(
+  (Names.field_name * Minils.extvalue -> Names.field_name * Types.static_exp) ->
+  (Names.field_name * Minils.extvalue) list ->
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  ext_ref List.map
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7124 "minils/transformations/inline_extvalues.ml" 195 7092 7125
+type(
+  Names.field_name
+)
+ident(
+  def f "minils/transformations/inline_extvalues.ml" 195 7092 7133 "minils/transformations/inline_extvalues.ml" 195 7092 7154
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7127 "minils/transformations/inline_extvalues.ml" 195 7092 7128
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 195 7092 7133 "minils/transformations/inline_extvalues.ml" 195 7092 7154
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7123 "minils/transformations/inline_extvalues.ml" 195 7092 7129
+type(
+  Names.field_name * Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7133 "minils/transformations/inline_extvalues.ml" 195 7092 7134
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "minils/transformations/inline_extvalues.ml" 195 7092 7124 "minils/transformations/inline_extvalues.ml" 195 7092 7125
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7136 "minils/transformations/inline_extvalues.ml" 195 7092 7152
+type(
+  Minils.extvalue -> Types.static_exp
+)
+ident(
+  int_ref form_new_const_w "minils/transformations/inline_extvalues.ml" 203 7316 7322 "minils/transformations/inline_extvalues.ml" 203 7316 7338
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7153 "minils/transformations/inline_extvalues.ml" 195 7092 7154
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 195 7092 7127 "minils/transformations/inline_extvalues.ml" 195 7092 7128
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7136 "minils/transformations/inline_extvalues.ml" 195 7092 7154
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7133 "minils/transformations/inline_extvalues.ml" 195 7092 7154
+type(
+  Names.field_name * Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7118 "minils/transformations/inline_extvalues.ml" 195 7092 7155
+type(
+  Names.field_name * Minils.extvalue -> Names.field_name * Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7156 "minils/transformations/inline_extvalues.ml" 195 7092 7162
+type(
+  (Names.field_name * Minils.extvalue) list
+)
+ident(
+  int_ref w_list "minils/transformations/inline_extvalues.ml" 194 7066 7082 "minils/transformations/inline_extvalues.ml" 194 7066 7088
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7108 "minils/transformations/inline_extvalues.ml" 195 7092 7163
+call(
+  stack
+)
+type(
+  (Names.field_name * Types.static_exp) list
+)
+"minils/transformations/inline_extvalues.ml" 195 7092 7100 "minils/transformations/inline_extvalues.ml" 195 7092 7163
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 197 7165 7173 "minils/transformations/inline_extvalues.ml" 197 7165 7174
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 197 7165 7178 "minils/transformations/inline_extvalues.ml" 197 7165 7183
+type(
+  exn -> Types.static_exp_desc
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/transformations/inline_extvalues.ml" 197 7165 7184 "minils/transformations/inline_extvalues.ml" 197 7165 7199
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 197 7165 7178 "minils/transformations/inline_extvalues.ml" 197 7165 7199
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 178 6449 6464 "minils/transformations/inline_extvalues.ml" 197 7165 7199
+type(
+  Types.static_exp_desc
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7211 "minils/transformations/inline_extvalues.ml" 199 7207 7224
+type(
+  ?loc:Location.location ->
+  Types.ty -> Types.static_exp_desc -> Types.static_exp
+)
+ident(
+  ext_ref Types.mk_static_exp
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7230 "minils/transformations/inline_extvalues.ml" 199 7207 7231
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 177 6424 6445 "minils/transformations/inline_extvalues.ml" 177 6424 6446
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7230 "minils/transformations/inline_extvalues.ml" 199 7207 7237
+type(
+  Location.location
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7238 "minils/transformations/inline_extvalues.ml" 199 7207 7239
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 177 6424 6445 "minils/transformations/inline_extvalues.ml" 177 6424 6446
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7238 "minils/transformations/inline_extvalues.ml" 199 7207 7244
+type(
+  Types.ty
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7245 "minils/transformations/inline_extvalues.ml" 199 7207 7249
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref se_d "minils/transformations/inline_extvalues.ml" 178 6449 6457 "minils/transformations/inline_extvalues.ml" 178 6449 6461
+)
+"minils/transformations/inline_extvalues.ml" 199 7207 7211 "minils/transformations/inline_extvalues.ml" 199 7207 7249
+call(
+  tail
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 178 6449 6453 "minils/transformations/inline_extvalues.ml" 199 7207 7249
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7257 "minils/transformations/inline_extvalues.ml" 201 7251 7272
+type(
+  Minils.extvalue list -> Types.static_exp list
+)
+ident(
+  def form_new_consts "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7273 "minils/transformations/inline_extvalues.ml" 201 7251 7279
+type(
+  Minils.extvalue list
+)
+ident(
+  def w_list "minils/transformations/inline_extvalues.ml" 201 7251 7282 "minils/transformations/inline_extvalues.ml" 201 7251 7314
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7282 "minils/transformations/inline_extvalues.ml" 201 7251 7290
+type(
+  (Minils.extvalue -> Types.static_exp) ->
+  Minils.extvalue list -> Types.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7291 "minils/transformations/inline_extvalues.ml" 201 7251 7307
+type(
+  Minils.extvalue -> Types.static_exp
+)
+ident(
+  int_ref form_new_const_w "minils/transformations/inline_extvalues.ml" 203 7316 7322 "minils/transformations/inline_extvalues.ml" 203 7316 7338
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7308 "minils/transformations/inline_extvalues.ml" 201 7251 7314
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/transformations/inline_extvalues.ml" 201 7251 7273 "minils/transformations/inline_extvalues.ml" 201 7251 7279
+)
+"minils/transformations/inline_extvalues.ml" 201 7251 7282 "minils/transformations/inline_extvalues.ml" 201 7251 7314
+call(
+  tail
+)
+type(
+  Types.static_exp list
+)
+"minils/transformations/inline_extvalues.ml" 203 7316 7322 "minils/transformations/inline_extvalues.ml" 203 7316 7338
+type(
+  Minils.extvalue -> Types.static_exp
+)
+ident(
+  def form_new_const_w "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 203 7316 7339 "minils/transformations/inline_extvalues.ml" 203 7316 7340
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 204 7343 7347 "minils/transformations/inline_extvalues.ml" 206 7447 7476
+)
+"minils/transformations/inline_extvalues.ml" 204 7343 7351 "minils/transformations/inline_extvalues.ml" 204 7343 7357
+type(
+  Minils.extvalue -> Minils.exp
+)
+ident(
+  def mk_exp "minils/transformations/inline_extvalues.ml" 206 7447 7451 "minils/transformations/inline_extvalues.ml" 206 7447 7476
+)
+"minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 205 7362 7368 "minils/transformations/inline_extvalues.ml" 205 7362 7443
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7368 "minils/transformations/inline_extvalues.ml" 205 7362 7374
+type(
+  Clocks.ck ->
+  Types.ty ->
+  linearity:Linearity.linearity ->
+  ?ct:Clocks.ct -> ?loc:Location.location -> Minils.edesc -> Minils.exp
+)
+ident(
+  ext_ref Minils.mk_exp
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7375 "minils/transformations/inline_extvalues.ml" 205 7362 7376
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7375 "minils/transformations/inline_extvalues.ml" 205 7362 7381
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7382 "minils/transformations/inline_extvalues.ml" 205 7362 7383
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7382 "minils/transformations/inline_extvalues.ml" 205 7362 7388
+type(
+  Types.ty
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7400 "minils/transformations/inline_extvalues.ml" 205 7362 7401
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7400 "minils/transformations/inline_extvalues.ml" 205 7362 7413
+type(
+  Linearity.linearity
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7422 "minils/transformations/inline_extvalues.ml" 205 7362 7423
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7422 "minils/transformations/inline_extvalues.ml" 205 7362 7428
+type(
+  Clocks.ck
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7418 "minils/transformations/inline_extvalues.ml" 205 7362 7429
+type(
+  Clocks.ct
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7441 "minils/transformations/inline_extvalues.ml" 205 7362 7442
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 204 7343 7358 "minils/transformations/inline_extvalues.ml" 204 7343 7359
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7430 "minils/transformations/inline_extvalues.ml" 205 7362 7443
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 205 7362 7368 "minils/transformations/inline_extvalues.ml" 205 7362 7443
+call(
+  tail
+)
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 206 7447 7451 "minils/transformations/inline_extvalues.ml" 206 7447 7465
+type(
+  Minils.exp -> Types.static_exp
+)
+ident(
+  int_ref form_new_const "minils/transformations/inline_extvalues.ml" 177 6424 6430 "minils/transformations/inline_extvalues.ml" 177 6424 6444
+)
+"minils/transformations/inline_extvalues.ml" 206 7447 7467 "minils/transformations/inline_extvalues.ml" 206 7447 7473
+type(
+  Minils.extvalue -> Minils.exp
+)
+ident(
+  int_ref mk_exp "minils/transformations/inline_extvalues.ml" 204 7343 7351 "minils/transformations/inline_extvalues.ml" 204 7343 7357
+)
+"minils/transformations/inline_extvalues.ml" 206 7447 7474 "minils/transformations/inline_extvalues.ml" 206 7447 7475
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 203 7316 7339 "minils/transformations/inline_extvalues.ml" 203 7316 7340
+)
+"minils/transformations/inline_extvalues.ml" 206 7447 7466 "minils/transformations/inline_extvalues.ml" 206 7447 7476
+call(
+  stack
+)
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 206 7447 7451 "minils/transformations/inline_extvalues.ml" 206 7447 7476
+call(
+  tail
+)
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 204 7343 7347 "minils/transformations/inline_extvalues.ml" 206 7447 7476
+type(
+  Types.static_exp
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7484 "minils/transformations/inline_extvalues.ml" 208 7478 7504
+type(
+  'a -> int -> Minils.eq -> Minils.eq * int
+)
+ident(
+  def form_new_extvalue_eq "minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7505 "minils/transformations/inline_extvalues.ml" 208 7478 7506
+type(
+  'a
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7507 "minils/transformations/inline_extvalues.ml" 208 7478 7508
+type(
+  int
+)
+ident(
+  def n "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+type(
+  Minils.eq
+)
+ident(
+  def eq "minils/transformations/inline_extvalues.ml" 208 7478 7514 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7520 "minils/transformations/inline_extvalues.ml" 208 7478 7522
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7520 "minils/transformations/inline_extvalues.ml" 208 7478 7529
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7520 "minils/transformations/inline_extvalues.ml" 208 7478 7536
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 209 7542 7558 "minils/transformations/inline_extvalues.ml" 209 7542 7559
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 209 7542 7548 "minils/transformations/inline_extvalues.ml" 209 7542 7559
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 209 7542 7564 "minils/transformations/inline_extvalues.ml" 209 7542 7566
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 209 7542 7568 "minils/transformations/inline_extvalues.ml" 209 7542 7569
+type(
+  int
+)
+ident(
+  int_ref n "minils/transformations/inline_extvalues.ml" 208 7478 7507 "minils/transformations/inline_extvalues.ml" 208 7478 7508
+)
+"minils/transformations/inline_extvalues.ml" 209 7542 7563 "minils/transformations/inline_extvalues.ml" 209 7542 7570
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 210 7571 7577 "minils/transformations/inline_extvalues.ml" 210 7571 7578
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7604 "minils/transformations/inline_extvalues.ml" 212 7592 7605
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/transformations/inline_extvalues.ml" 213 7639 7647 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7608 "minils/transformations/inline_extvalues.ml" 212 7592 7625
+type(
+  Minils.exp -> Minils.extvalue
+)
+ident(
+  int_ref form_new_extvalue "minils/transformations/inline_extvalues.ml" 162 5903 5913 "minils/transformations/inline_extvalues.ml" 162 5903 5930
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7626 "minils/transformations/inline_extvalues.ml" 212 7592 7628
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7626 "minils/transformations/inline_extvalues.ml" 212 7592 7635
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7608 "minils/transformations/inline_extvalues.ml" 212 7592 7635
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7651 "minils/transformations/inline_extvalues.ml" 213 7639 7652
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/transformations/inline_extvalues.ml" 214 7699 7707 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7657 "minils/transformations/inline_extvalues.ml" 213 7639 7659
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7657 "minils/transformations/inline_extvalues.ml" 213 7639 7666
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7691 "minils/transformations/inline_extvalues.ml" 213 7639 7692
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/transformations/inline_extvalues.ml" 212 7592 7604 "minils/transformations/inline_extvalues.ml" 212 7592 7605
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7681 "minils/transformations/inline_extvalues.ml" 213 7639 7692
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7655 "minils/transformations/inline_extvalues.ml" 213 7639 7695
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7709 "minils/transformations/inline_extvalues.ml" 214 7699 7711
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7726 "minils/transformations/inline_extvalues.ml" 214 7699 7727
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/transformations/inline_extvalues.ml" 213 7639 7651 "minils/transformations/inline_extvalues.ml" 213 7639 7652
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7707 "minils/transformations/inline_extvalues.ml" 214 7699 7730
+type(
+  Minils.eq
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7732 "minils/transformations/inline_extvalues.ml" 214 7699 7733
+type(
+  int
+)
+ident(
+  int_ref n "minils/transformations/inline_extvalues.ml" 208 7478 7507 "minils/transformations/inline_extvalues.ml" 208 7478 7508
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7734 "minils/transformations/inline_extvalues.ml" 214 7699 7735
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7736 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7732 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 214 7699 7707 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 213 7639 7647 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 212 7592 7600 "minils/transformations/inline_extvalues.ml" 214 7699 7737
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 215 7738 7749 "minils/transformations/inline_extvalues.ml" 215 7738 7764
+type(
+  exn
+)
+"minils/transformations/inline_extvalues.ml" 216 7768 7776 "minils/transformations/inline_extvalues.ml" 216 7768 7778
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/transformations/inline_extvalues.ml" 208 7478 7509 "minils/transformations/inline_extvalues.ml" 208 7478 7511
+)
+"minils/transformations/inline_extvalues.ml" 216 7768 7780 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+type(
+  int
+)
+ident(
+  int_ref n "minils/transformations/inline_extvalues.ml" 208 7478 7507 "minils/transformations/inline_extvalues.ml" 208 7478 7508
+)
+"minils/transformations/inline_extvalues.ml" 216 7768 7776 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 211 7582 7588 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 208 7478 7514 "minils/transformations/inline_extvalues.ml" 216 7768 7781
+type(
+  Minils.eq * int
+)
+"minils/transformations/inline_extvalues.ml" 219 7788 7794 "minils/transformations/inline_extvalues.ml" 219 7788 7798
+type(
+  int Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 220 7873 7875 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 219 7788 7803 "minils/transformations/inline_extvalues.ml" 219 7788 7823
+type(
+  int Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 219 7788 7846 "minils/transformations/inline_extvalues.ml" 219 7788 7866
+type(
+  int Mls_mapfold.mls_it_funs -> int -> Minils.eq -> Minils.eq * int
+)
+ident(
+  int_ref form_new_extvalue_eq "minils/transformations/inline_extvalues.ml" 208 7478 7484 "minils/transformations/inline_extvalues.ml" 208 7478 7504
+)
+"minils/transformations/inline_extvalues.ml" 219 7788 7801 "minils/transformations/inline_extvalues.ml" 219 7788 7869
+type(
+  int Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7879 "minils/transformations/inline_extvalues.ml" 220 7873 7881
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 221 7921 7923 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7883 "minils/transformations/inline_extvalues.ml" 220 7873 7884
+type(
+  int
+)
+ident(
+  def n "minils/transformations/inline_extvalues.ml" 221 7921 7923 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7879 "minils/transformations/inline_extvalues.ml" 220 7873 7884
+type(
+  Minils.node_dec * int
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7887 "minils/transformations/inline_extvalues.ml" 220 7873 7907
+type(
+  int Mls_mapfold.mls_it_funs ->
+  int -> Minils.node_dec -> Minils.node_dec * int
+)
+ident(
+  ext_ref Mls_mapfold.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7908 "minils/transformations/inline_extvalues.ml" 220 7873 7912
+type(
+  int Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 219 7788 7794 "minils/transformations/inline_extvalues.ml" 219 7788 7798
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7913 "minils/transformations/inline_extvalues.ml" 220 7873 7914
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7915 "minils/transformations/inline_extvalues.ml" 220 7873 7917
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 161 5871 5898 "minils/transformations/inline_extvalues.ml" 161 5871 5900
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7887 "minils/transformations/inline_extvalues.ml" 220 7873 7917
+call(
+  stack
+)
+type(
+  Minils.node_dec * int
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7923 "minils/transformations/inline_extvalues.ml" 221 7921 7925
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 220 7873 7879 "minils/transformations/inline_extvalues.ml" 220 7873 7881
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7927 "minils/transformations/inline_extvalues.ml" 221 7921 7928
+type(
+  int
+)
+ident(
+  int_ref n "minils/transformations/inline_extvalues.ml" 220 7873 7883 "minils/transformations/inline_extvalues.ml" 220 7873 7884
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7929 "minils/transformations/inline_extvalues.ml" 221 7921 7930
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7931 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  int
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7927 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 221 7921 7923 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 220 7873 7875 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 219 7788 7790 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 162 5903 5905 "minils/transformations/inline_extvalues.ml" 221 7921 7932
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 223 7934 7938 "minils/transformations/inline_extvalues.ml" 223 7934 7952
+type(
+  Minils.node_dec -> Idents.IdentSet.t
+)
+ident(
+  def compute_needed "minils/transformations/inline_extvalues.ml" 251 8895 8895 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 223 7934 7953 "minils/transformations/inline_extvalues.ml" 223 7934 7955
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 224 7958 7960 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+)
+"minils/transformations/inline_extvalues.ml" 224 7958 7964 "minils/transformations/inline_extvalues.ml" 224 7958 7984
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.edesc -> Minils.edesc * Idents.IdentSet.t
+)
+ident(
+  def compute_needed_edesc "minils/transformations/inline_extvalues.ml" 244 8627 8629 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+)
+"minils/transformations/inline_extvalues.ml" 224 7958 7985 "minils/transformations/inline_extvalues.ml" 224 7958 7989
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 224 7958 7990 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+)
+"minils/transformations/inline_extvalues.ml" 224 7958 7990 "minils/transformations/inline_extvalues.ml" 224 7958 7993
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 224 7958 7994 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+)
+"minils/transformations/inline_extvalues.ml" 224 7958 7994 "minils/transformations/inline_extvalues.ml" 224 7958 7997
+type(
+  Minils.edesc
+)
+ident(
+  def e_d "minils/transformations/inline_extvalues.ml" 225 8000 8004 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8008 "minils/transformations/inline_extvalues.ml" 225 8000 8011
+type(
+  Minils.edesc
+)
+ident(
+  def e_d "minils/transformations/inline_extvalues.ml" 226 8053 8057 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8013 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 226 8053 8057 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8008 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+type(
+  Minils.edesc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8019 "minils/transformations/inline_extvalues.ml" 225 8000 8036
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.edesc -> Minils.edesc * Idents.IdentSet.t
+)
+ident(
+  ext_ref Mls_mapfold.edesc
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8037 "minils/transformations/inline_extvalues.ml" 225 8000 8041
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 224 7958 7985 "minils/transformations/inline_extvalues.ml" 224 7958 7989
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8042 "minils/transformations/inline_extvalues.ml" 225 8000 8045
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 224 7958 7990 "minils/transformations/inline_extvalues.ml" 224 7958 7993
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8046 "minils/transformations/inline_extvalues.ml" 225 8000 8049
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 224 7958 7994 "minils/transformations/inline_extvalues.ml" 224 7958 7997
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8019 "minils/transformations/inline_extvalues.ml" 225 8000 8049
+call(
+  stack
+)
+type(
+  Minils.edesc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 226 8053 8057 "minils/transformations/inline_extvalues.ml" 226 8053 8060
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 225 8000 8008 "minils/transformations/inline_extvalues.ml" 225 8000 8011
+)
+"minils/transformations/inline_extvalues.ml" 227 8062 8073 "minils/transformations/inline_extvalues.ml" 227 8062 8076
+type(
+  Minils.edesc
+)
+ident(
+  int_ref e_d "minils/transformations/inline_extvalues.ml" 225 8000 8008 "minils/transformations/inline_extvalues.ml" 225 8000 8011
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8098 "minils/transformations/inline_extvalues.ml" 228 8082 8099
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 228 8082 8107 "minils/transformations/inline_extvalues.ml" 228 8082 8125
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8101 "minils/transformations/inline_extvalues.ml" 228 8082 8102
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8090 "minils/transformations/inline_extvalues.ml" 228 8082 8103
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8107 "minils/transformations/inline_extvalues.ml" 228 8082 8119
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8120 "minils/transformations/inline_extvalues.ml" 228 8082 8121
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 228 8082 8098 "minils/transformations/inline_extvalues.ml" 228 8082 8099
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8122 "minils/transformations/inline_extvalues.ml" 228 8082 8125
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 225 8000 8013 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+)
+"minils/transformations/inline_extvalues.ml" 228 8082 8107 "minils/transformations/inline_extvalues.ml" 228 8082 8125
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8141 "minils/transformations/inline_extvalues.ml" 229 8126 8142
+type(
+  Minils.exp
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8144 "minils/transformations/inline_extvalues.ml" 229 8126 8145
+type(
+  Names.constructor_name
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8147 "minils/transformations/inline_extvalues.ml" 229 8126 8148
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 229 8126 8153 "minils/transformations/inline_extvalues.ml" 229 8126 8171
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8134 "minils/transformations/inline_extvalues.ml" 229 8126 8149
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8153 "minils/transformations/inline_extvalues.ml" 229 8126 8165
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8166 "minils/transformations/inline_extvalues.ml" 229 8126 8167
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 229 8126 8147 "minils/transformations/inline_extvalues.ml" 229 8126 8148
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8168 "minils/transformations/inline_extvalues.ml" 229 8126 8171
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 225 8000 8013 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+)
+"minils/transformations/inline_extvalues.ml" 229 8126 8153 "minils/transformations/inline_extvalues.ml" 229 8126 8171
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8186 "minils/transformations/inline_extvalues.ml" 230 8172 8187
+type(
+  Minils.app
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8189 "minils/transformations/inline_extvalues.ml" 230 8172 8190
+type(
+  Minils.extvalue list
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8197 "minils/transformations/inline_extvalues.ml" 230 8172 8198
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 230 8172 8203 "minils/transformations/inline_extvalues.ml" 230 8172 8221
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8192 "minils/transformations/inline_extvalues.ml" 230 8172 8198
+type(
+  Idents.var_ident option
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8180 "minils/transformations/inline_extvalues.ml" 230 8172 8199
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8203 "minils/transformations/inline_extvalues.ml" 230 8172 8215
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8216 "minils/transformations/inline_extvalues.ml" 230 8172 8217
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 230 8172 8197 "minils/transformations/inline_extvalues.ml" 230 8172 8198
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8218 "minils/transformations/inline_extvalues.ml" 230 8172 8221
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 225 8000 8013 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+)
+"minils/transformations/inline_extvalues.ml" 230 8172 8203 "minils/transformations/inline_extvalues.ml" 230 8172 8221
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 231 8222 8230 "minils/transformations/inline_extvalues.ml" 231 8222 8231
+type(
+  Minils.edesc
+)
+"minils/transformations/inline_extvalues.ml" 231 8222 8235 "minils/transformations/inline_extvalues.ml" 231 8222 8238
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 225 8000 8013 "minils/transformations/inline_extvalues.ml" 225 8000 8016
+)
+"minils/transformations/inline_extvalues.ml" 227 8062 8066 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 226 8053 8057 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+type(
+  Minils.edesc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 225 8000 8004 "minils/transformations/inline_extvalues.ml" 231 8222 8239
+type(
+  Minils.edesc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 233 8241 8247 "minils/transformations/inline_extvalues.ml" 233 8241 8275
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t ->
+  Minils.extvalue_desc -> Minils.extvalue_desc * Idents.IdentSet.t
+)
+ident(
+  def compute_needed_extvalue_desc "minils/transformations/inline_extvalues.ml" 244 8627 8629 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+)
+"minils/transformations/inline_extvalues.ml" 233 8241 8276 "minils/transformations/inline_extvalues.ml" 233 8241 8280
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 233 8241 8281 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+)
+"minils/transformations/inline_extvalues.ml" 233 8241 8281 "minils/transformations/inline_extvalues.ml" 233 8241 8284
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 233 8241 8285 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+)
+"minils/transformations/inline_extvalues.ml" 233 8241 8285 "minils/transformations/inline_extvalues.ml" 233 8241 8288
+type(
+  Minils.extvalue_desc
+)
+ident(
+  def w_d "minils/transformations/inline_extvalues.ml" 234 8291 8295 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8299 "minils/transformations/inline_extvalues.ml" 234 8291 8302
+type(
+  Minils.extvalue_desc
+)
+ident(
+  def w_d "minils/transformations/inline_extvalues.ml" 235 8352 8356 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8304 "minils/transformations/inline_extvalues.ml" 234 8291 8307
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 235 8352 8356 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8299 "minils/transformations/inline_extvalues.ml" 234 8291 8307
+type(
+  Minils.extvalue_desc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8310 "minils/transformations/inline_extvalues.ml" 234 8291 8335
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t ->
+  Minils.extvalue_desc -> Minils.extvalue_desc * Idents.IdentSet.t
+)
+ident(
+  ext_ref Mls_mapfold.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8336 "minils/transformations/inline_extvalues.ml" 234 8291 8340
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 233 8241 8276 "minils/transformations/inline_extvalues.ml" 233 8241 8280
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8341 "minils/transformations/inline_extvalues.ml" 234 8291 8344
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 233 8241 8281 "minils/transformations/inline_extvalues.ml" 233 8241 8284
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8345 "minils/transformations/inline_extvalues.ml" 234 8291 8348
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 233 8241 8285 "minils/transformations/inline_extvalues.ml" 233 8241 8288
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8310 "minils/transformations/inline_extvalues.ml" 234 8291 8348
+call(
+  stack
+)
+type(
+  Minils.extvalue_desc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 235 8352 8356 "minils/transformations/inline_extvalues.ml" 235 8352 8359
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 234 8291 8299 "minils/transformations/inline_extvalues.ml" 234 8291 8302
+)
+"minils/transformations/inline_extvalues.ml" 236 8361 8372 "minils/transformations/inline_extvalues.ml" 236 8361 8375
+type(
+  Minils.extvalue_desc
+)
+ident(
+  int_ref w_d "minils/transformations/inline_extvalues.ml" 234 8291 8299 "minils/transformations/inline_extvalues.ml" 234 8291 8302
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8396 "minils/transformations/inline_extvalues.ml" 237 8381 8397
+type(
+  Minils.extvalue
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8399 "minils/transformations/inline_extvalues.ml" 237 8381 8400
+type(
+  Names.constructor_name
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8402 "minils/transformations/inline_extvalues.ml" 237 8381 8403
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/transformations/inline_extvalues.ml" 237 8381 8408 "minils/transformations/inline_extvalues.ml" 237 8381 8426
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8389 "minils/transformations/inline_extvalues.ml" 237 8381 8404
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8408 "minils/transformations/inline_extvalues.ml" 237 8381 8420
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8421 "minils/transformations/inline_extvalues.ml" 237 8381 8422
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/transformations/inline_extvalues.ml" 237 8381 8402 "minils/transformations/inline_extvalues.ml" 237 8381 8403
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8423 "minils/transformations/inline_extvalues.ml" 237 8381 8426
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 234 8291 8304 "minils/transformations/inline_extvalues.ml" 234 8291 8307
+)
+"minils/transformations/inline_extvalues.ml" 237 8381 8408 "minils/transformations/inline_extvalues.ml" 237 8381 8426
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 238 8427 8435 "minils/transformations/inline_extvalues.ml" 238 8427 8436
+type(
+  Minils.extvalue_desc
+)
+"minils/transformations/inline_extvalues.ml" 238 8427 8440 "minils/transformations/inline_extvalues.ml" 238 8427 8443
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 234 8291 8304 "minils/transformations/inline_extvalues.ml" 234 8291 8307
+)
+"minils/transformations/inline_extvalues.ml" 236 8361 8365 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 235 8352 8356 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+type(
+  Minils.extvalue_desc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 234 8291 8295 "minils/transformations/inline_extvalues.ml" 238 8427 8444
+type(
+  Minils.extvalue_desc * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 240 8446 8452 "minils/transformations/inline_extvalues.ml" 240 8446 8471
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.node_dec -> Minils.node_dec * Idents.IdentSet.t
+)
+ident(
+  def compute_needed_node "minils/transformations/inline_extvalues.ml" 244 8627 8629 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+)
+"minils/transformations/inline_extvalues.ml" 240 8446 8472 "minils/transformations/inline_extvalues.ml" 240 8446 8476
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 240 8446 8477 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+)
+"minils/transformations/inline_extvalues.ml" 240 8446 8477 "minils/transformations/inline_extvalues.ml" 240 8446 8480
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 240 8446 8481 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+)
+"minils/transformations/inline_extvalues.ml" 240 8446 8481 "minils/transformations/inline_extvalues.ml" 240 8446 8483
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 241 8486 8490 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8494 "minils/transformations/inline_extvalues.ml" 241 8486 8496
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 242 8540 8544 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8498 "minils/transformations/inline_extvalues.ml" 241 8486 8501
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 242 8540 8544 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8494 "minils/transformations/inline_extvalues.ml" 241 8486 8501
+type(
+  Minils.node_dec * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8504 "minils/transformations/inline_extvalues.ml" 241 8486 8524
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.node_dec -> Minils.node_dec * Idents.IdentSet.t
+)
+ident(
+  ext_ref Mls_mapfold.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8525 "minils/transformations/inline_extvalues.ml" 241 8486 8529
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 240 8446 8472 "minils/transformations/inline_extvalues.ml" 240 8446 8476
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8530 "minils/transformations/inline_extvalues.ml" 241 8486 8533
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 240 8446 8477 "minils/transformations/inline_extvalues.ml" 240 8446 8480
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8534 "minils/transformations/inline_extvalues.ml" 241 8486 8536
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 240 8446 8481 "minils/transformations/inline_extvalues.ml" 240 8446 8483
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8504 "minils/transformations/inline_extvalues.ml" 241 8486 8536
+call(
+  stack
+)
+type(
+  Minils.node_dec * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8544 "minils/transformations/inline_extvalues.ml" 242 8540 8546
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 241 8486 8494 "minils/transformations/inline_extvalues.ml" 241 8486 8496
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8549 "minils/transformations/inline_extvalues.ml" 242 8540 8563
+type(
+  (Idents.IdentSet.t -> Minils.var_dec -> Idents.IdentSet.t) ->
+  Idents.IdentSet.t -> Minils.var_dec list -> Idents.IdentSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8569 "minils/transformations/inline_extvalues.ml" 242 8540 8572
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 242 8540 8573 "minils/transformations/inline_extvalues.ml" 242 8540 8604
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8573 "minils/transformations/inline_extvalues.ml" 242 8540 8574
+type(
+  Minils.var_dec
+)
+ident(
+  def v "minils/transformations/inline_extvalues.ml" 242 8540 8578 "minils/transformations/inline_extvalues.ml" 242 8540 8604
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8578 "minils/transformations/inline_extvalues.ml" 242 8540 8590
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8591 "minils/transformations/inline_extvalues.ml" 242 8540 8592
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref v "minils/transformations/inline_extvalues.ml" 242 8540 8573 "minils/transformations/inline_extvalues.ml" 242 8540 8574
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8591 "minils/transformations/inline_extvalues.ml" 242 8540 8600
+type(
+  Idents.var_ident
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8601 "minils/transformations/inline_extvalues.ml" 242 8540 8604
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 242 8540 8569 "minils/transformations/inline_extvalues.ml" 242 8540 8572
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8578 "minils/transformations/inline_extvalues.ml" 242 8540 8604
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8564 "minils/transformations/inline_extvalues.ml" 242 8540 8605
+type(
+  Idents.IdentSet.t -> Minils.var_dec -> Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8606 "minils/transformations/inline_extvalues.ml" 242 8540 8609
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 241 8486 8498 "minils/transformations/inline_extvalues.ml" 241 8486 8501
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8610 "minils/transformations/inline_extvalues.ml" 242 8540 8612
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 241 8486 8494 "minils/transformations/inline_extvalues.ml" 241 8486 8496
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8610 "minils/transformations/inline_extvalues.ml" 242 8540 8621
+type(
+  Minils.var_dec list
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8548 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 242 8540 8544 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+type(
+  Minils.node_dec * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 241 8486 8490 "minils/transformations/inline_extvalues.ml" 242 8540 8622
+type(
+  Minils.node_dec * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 244 8627 8633 "minils/transformations/inline_extvalues.ml" 244 8627 8637
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 249 8839 8841 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+)
+"minils/transformations/inline_extvalues.ml" 245 8640 8646 "minils/transformations/inline_extvalues.ml" 245 8640 8666
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 246 8672 8701 "minils/transformations/inline_extvalues.ml" 246 8672 8720
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.node_dec -> Minils.node_dec * Idents.IdentSet.t
+)
+ident(
+  int_ref compute_needed_node "minils/transformations/inline_extvalues.ml" 240 8446 8452 "minils/transformations/inline_extvalues.ml" 240 8446 8471
+)
+"minils/transformations/inline_extvalues.ml" 247 8722 8756 "minils/transformations/inline_extvalues.ml" 247 8722 8784
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t ->
+  Minils.extvalue_desc -> Minils.extvalue_desc * Idents.IdentSet.t
+)
+ident(
+  int_ref compute_needed_extvalue_desc "minils/transformations/inline_extvalues.ml" 233 8241 8247 "minils/transformations/inline_extvalues.ml" 233 8241 8275
+)
+"minils/transformations/inline_extvalues.ml" 248 8786 8812 "minils/transformations/inline_extvalues.ml" 248 8786 8832
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.edesc -> Minils.edesc * Idents.IdentSet.t
+)
+ident(
+  int_ref compute_needed_edesc "minils/transformations/inline_extvalues.ml" 224 7958 7964 "minils/transformations/inline_extvalues.ml" 224 7958 7984
+)
+"minils/transformations/inline_extvalues.ml" 245 8640 8644 "minils/transformations/inline_extvalues.ml" 248 8786 8835
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8841 "minils/transformations/inline_extvalues.ml" 249 8839 8844
+type(
+  Minils.node_dec * Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8846 "minils/transformations/inline_extvalues.ml" 249 8839 8869
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs ->
+  Idents.IdentSet.t -> Minils.node_dec -> Minils.node_dec * Idents.IdentSet.t
+)
+ident(
+  ext_ref Mls_mapfold.node_dec_it
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8870 "minils/transformations/inline_extvalues.ml" 249 8839 8874
+type(
+  Idents.IdentSet.t Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 244 8627 8633 "minils/transformations/inline_extvalues.ml" 244 8627 8637
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8875 "minils/transformations/inline_extvalues.ml" 249 8839 8889
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8890 "minils/transformations/inline_extvalues.ml" 249 8839 8892
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 223 7934 7953 "minils/transformations/inline_extvalues.ml" 223 7934 7955
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8845 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+call(
+  stack
+)
+type(
+  Minils.node_dec * Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 249 8839 8841 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 244 8627 8629 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 224 7958 7960 "minils/transformations/inline_extvalues.ml" 249 8839 8893
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 251 8895 8899 "minils/transformations/inline_extvalues.ml" 251 8895 8912
+type(
+  Minils.node_dec -> 'a Idents.Env.t -> Idents.IdentSet.t
+)
+ident(
+  def id_set_of_env "minils/transformations/inline_extvalues.ml" 256 9077 9077 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 251 8895 8913 "minils/transformations/inline_extvalues.ml" 251 8895 8915
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 251 8895 8916 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+)
+"minils/transformations/inline_extvalues.ml" 251 8895 8916 "minils/transformations/inline_extvalues.ml" 251 8895 8919
+type(
+  'a Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 252 8922 8924 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+)
+"minils/transformations/inline_extvalues.ml" 252 8922 8928 "minils/transformations/inline_extvalues.ml" 252 8922 8934
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def needed "minils/transformations/inline_extvalues.ml" 253 8958 8960 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+)
+"minils/transformations/inline_extvalues.ml" 252 8922 8937 "minils/transformations/inline_extvalues.ml" 252 8922 8951
+type(
+  Minils.node_dec -> Idents.IdentSet.t
+)
+ident(
+  int_ref compute_needed "minils/transformations/inline_extvalues.ml" 223 7934 7938 "minils/transformations/inline_extvalues.ml" 223 7934 7952
+)
+"minils/transformations/inline_extvalues.ml" 252 8922 8952 "minils/transformations/inline_extvalues.ml" 252 8922 8954
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 251 8895 8913 "minils/transformations/inline_extvalues.ml" 251 8895 8915
+)
+"minils/transformations/inline_extvalues.ml" 252 8922 8937 "minils/transformations/inline_extvalues.ml" 252 8922 8954
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8964 "minils/transformations/inline_extvalues.ml" 253 8958 8967
+type(
+  Idents.IdentSet.elt -> 'b -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  def add "minils/transformations/inline_extvalues.ml" 254 9042 9044 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8968 "minils/transformations/inline_extvalues.ml" 253 8958 8970
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  def id "minils/transformations/inline_extvalues.ml" 253 8958 8971 "minils/transformations/inline_extvalues.ml" 253 8958 9038
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8971 "minils/transformations/inline_extvalues.ml" 253 8958 8972
+type(
+  'b
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8973 "minils/transformations/inline_extvalues.ml" 253 8958 8976
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def ids "minils/transformations/inline_extvalues.ml" 253 8958 8979 "minils/transformations/inline_extvalues.ml" 253 8958 9038
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8982 "minils/transformations/inline_extvalues.ml" 253 8958 8994
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> bool
+)
+ident(
+  ext_ref Idents.IdentSet.mem
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8995 "minils/transformations/inline_extvalues.ml" 253 8958 8997
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  int_ref id "minils/transformations/inline_extvalues.ml" 253 8958 8968 "minils/transformations/inline_extvalues.ml" 253 8958 8970
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8998 "minils/transformations/inline_extvalues.ml" 253 8958 9004
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref needed "minils/transformations/inline_extvalues.ml" 252 8922 8928 "minils/transformations/inline_extvalues.ml" 252 8922 8934
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8982 "minils/transformations/inline_extvalues.ml" 253 8958 9004
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 9010 "minils/transformations/inline_extvalues.ml" 253 8958 9013
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 253 8958 8973 "minils/transformations/inline_extvalues.ml" 253 8958 8976
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 9019 "minils/transformations/inline_extvalues.ml" 253 8958 9031
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 9032 "minils/transformations/inline_extvalues.ml" 253 8958 9034
+type(
+  Idents.IdentSet.elt
+)
+ident(
+  int_ref id "minils/transformations/inline_extvalues.ml" 253 8958 8968 "minils/transformations/inline_extvalues.ml" 253 8958 8970
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 9035 "minils/transformations/inline_extvalues.ml" 253 8958 9038
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref ids "minils/transformations/inline_extvalues.ml" 253 8958 8973 "minils/transformations/inline_extvalues.ml" 253 8958 8976
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 9019 "minils/transformations/inline_extvalues.ml" 253 8958 9038
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8979 "minils/transformations/inline_extvalues.ml" 253 8958 9038
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 254 9042 9044 "minils/transformations/inline_extvalues.ml" 254 9042 9052
+type(
+  (Idents.Env.key -> 'a -> Idents.IdentSet.t -> Idents.IdentSet.t) ->
+  'a Idents.Env.t -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.Env.fold
+)
+"minils/transformations/inline_extvalues.ml" 254 9042 9053 "minils/transformations/inline_extvalues.ml" 254 9042 9056
+type(
+  Idents.Env.key -> 'a -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  int_ref add "minils/transformations/inline_extvalues.ml" 253 8958 8964 "minils/transformations/inline_extvalues.ml" 253 8958 8967
+)
+"minils/transformations/inline_extvalues.ml" 254 9042 9057 "minils/transformations/inline_extvalues.ml" 254 9042 9060
+type(
+  'a Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 251 8895 8916 "minils/transformations/inline_extvalues.ml" 251 8895 8919
+)
+"minils/transformations/inline_extvalues.ml" 254 9042 9061 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"minils/transformations/inline_extvalues.ml" 254 9042 9044 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 253 8958 8960 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 252 8922 8924 "minils/transformations/inline_extvalues.ml" 254 9042 9075
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 256 9077 9085 "minils/transformations/inline_extvalues.ml" 256 9077 9089
+type(
+  'a -> unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  def node "minils/transformations/inline_extvalues.ml" 256 9077 9077 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 256 9077 9090 "minils/transformations/inline_extvalues.ml" 256 9077 9094
+type(
+  'a
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 256 9077 9095 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 256 9077 9095 "minils/transformations/inline_extvalues.ml" 256 9077 9097
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 256 9077 9098 "minils/transformations/inline_extvalues.ml" 256 9077 9100
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 257 9103 9105 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 257 9103 9109 "minils/transformations/inline_extvalues.ml" 257 9103 9112
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  def env "minils/transformations/inline_extvalues.ml" 261 9303 9305 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 257 9103 9115 "minils/transformations/inline_extvalues.ml" 257 9103 9136
+type(
+  Minils.node_dec -> Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref gather_extvalues_node "minils/transformations/inline_extvalues.ml" 50 2511 2515 "minils/transformations/inline_extvalues.ml" 50 2511 2536
+)
+"minils/transformations/inline_extvalues.ml" 257 9103 9137 "minils/transformations/inline_extvalues.ml" 257 9103 9139
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 256 9077 9098 "minils/transformations/inline_extvalues.ml" 256 9077 9100
+)
+"minils/transformations/inline_extvalues.ml" 257 9103 9115 "minils/transformations/inline_extvalues.ml" 257 9103 9139
+call(
+  stack
+)
+type(
+  Minils.extvalue Idents.Env.t
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9309 "minils/transformations/inline_extvalues.ml" 261 9303 9311
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 262 9345 9347 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9314 "minils/transformations/inline_extvalues.ml" 261 9303 9334
+type(
+  Minils.extvalue Idents.Env.t -> Minils.node_dec -> Minils.node_dec
+)
+ident(
+  int_ref inline_extvalue_node "minils/transformations/inline_extvalues.ml" 93 3840 3844 "minils/transformations/inline_extvalues.ml" 93 3840 3864
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9335 "minils/transformations/inline_extvalues.ml" 261 9303 9338
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 257 9103 9109 "minils/transformations/inline_extvalues.ml" 257 9103 9112
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9339 "minils/transformations/inline_extvalues.ml" 261 9303 9341
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 256 9077 9098 "minils/transformations/inline_extvalues.ml" 256 9077 9100
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9314 "minils/transformations/inline_extvalues.ml" 261 9303 9341
+call(
+  stack
+)
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9351 "minils/transformations/inline_extvalues.ml" 262 9345 9353
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 263 9406 9408 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9356 "minils/transformations/inline_extvalues.ml" 262 9345 9376
+type(
+  Minils.node_dec -> Idents.IdentSet.t -> Minils.node_dec
+)
+ident(
+  ext_ref Mls_utils.remove_eqs_from_node
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9377 "minils/transformations/inline_extvalues.ml" 262 9345 9379
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 261 9303 9309 "minils/transformations/inline_extvalues.ml" 261 9303 9311
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9381 "minils/transformations/inline_extvalues.ml" 262 9345 9394
+type(
+  Minils.node_dec -> Minils.extvalue Idents.Env.t -> Idents.IdentSet.t
+)
+ident(
+  int_ref id_set_of_env "minils/transformations/inline_extvalues.ml" 251 8895 8899 "minils/transformations/inline_extvalues.ml" 251 8895 8912
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9395 "minils/transformations/inline_extvalues.ml" 262 9345 9397
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 261 9303 9309 "minils/transformations/inline_extvalues.ml" 261 9303 9311
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9398 "minils/transformations/inline_extvalues.ml" 262 9345 9401
+type(
+  Minils.extvalue Idents.Env.t
+)
+ident(
+  int_ref env "minils/transformations/inline_extvalues.ml" 257 9103 9109 "minils/transformations/inline_extvalues.ml" 257 9103 9112
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9380 "minils/transformations/inline_extvalues.ml" 262 9345 9402
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9356 "minils/transformations/inline_extvalues.ml" 262 9345 9402
+call(
+  stack
+)
+type(
+  Minils.node_dec
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9412 "minils/transformations/inline_extvalues.ml" 263 9406 9414
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/transformations/inline_extvalues.ml" 264 9455 9457 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9416 "minils/transformations/inline_extvalues.ml" 263 9406 9423
+type(
+  bool
+)
+ident(
+  def changed "minils/transformations/inline_extvalues.ml" 264 9455 9457 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9412 "minils/transformations/inline_extvalues.ml" 263 9406 9423
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9426 "minils/transformations/inline_extvalues.ml" 263 9406 9448
+type(
+  Minils.node_dec -> Minils.node_dec * bool
+)
+ident(
+  int_ref form_new_extvalue_node "minils/transformations/inline_extvalues.ml" 161 5871 5875 "minils/transformations/inline_extvalues.ml" 161 5871 5897
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9449 "minils/transformations/inline_extvalues.ml" 263 9406 9451
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 262 9345 9351 "minils/transformations/inline_extvalues.ml" 262 9345 9353
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9426 "minils/transformations/inline_extvalues.ml" 263 9406 9451
+call(
+  stack
+)
+type(
+  Minils.node_dec * bool
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9460 "minils/transformations/inline_extvalues.ml" 264 9455 9467
+type(
+  bool
+)
+ident(
+  int_ref changed "minils/transformations/inline_extvalues.ml" 263 9406 9416 "minils/transformations/inline_extvalues.ml" 263 9406 9423
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9473 "minils/transformations/inline_extvalues.ml" 264 9455 9477
+type(
+  'a -> unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  int_ref node "minils/transformations/inline_extvalues.ml" 256 9077 9085 "minils/transformations/inline_extvalues.ml" 256 9077 9089
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9478 "minils/transformations/inline_extvalues.ml" 264 9455 9482
+type(
+  'a
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 256 9077 9090 "minils/transformations/inline_extvalues.ml" 256 9077 9094
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9483 "minils/transformations/inline_extvalues.ml" 264 9455 9485
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9486 "minils/transformations/inline_extvalues.ml" 264 9455 9488
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 263 9406 9412 "minils/transformations/inline_extvalues.ml" 263 9406 9414
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9473 "minils/transformations/inline_extvalues.ml" 264 9455 9488
+call(
+  tail
+)
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9495 "minils/transformations/inline_extvalues.ml" 264 9455 9497
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/transformations/inline_extvalues.ml" 263 9406 9412 "minils/transformations/inline_extvalues.ml" 263 9406 9414
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9499 "minils/transformations/inline_extvalues.ml" 264 9455 9501
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9494 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 264 9455 9457 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 263 9406 9408 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 262 9345 9347 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 261 9303 9305 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 257 9103 9105 "minils/transformations/inline_extvalues.ml" 264 9455 9502
+type(
+  Minils.node_dec * unit
+)
+"minils/transformations/inline_extvalues.ml" 266 9504 9508 "minils/transformations/inline_extvalues.ml" 266 9504 9515
+type(
+  Minils.program -> Minils.program
+)
+ident(
+  def program "minils/transformations/inline_extvalues.ml" 269 9660 9669 "minils/transformations/inline_extvalues.ml" 1 0 -1
+)
+"minils/transformations/inline_extvalues.ml" 266 9504 9516 "minils/transformations/inline_extvalues.ml" 266 9504 9523
+type(
+  Minils.program
+)
+ident(
+  def program "minils/transformations/inline_extvalues.ml" 267 9526 9528 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+)
+"minils/transformations/inline_extvalues.ml" 267 9526 9532 "minils/transformations/inline_extvalues.ml" 267 9526 9536
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  def funs "minils/transformations/inline_extvalues.ml" 268 9601 9603 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+)
+"minils/transformations/inline_extvalues.ml" 267 9526 9541 "minils/transformations/inline_extvalues.ml" 267 9526 9561
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  ext_ref Mls_mapfold.defaults
+)
+"minils/transformations/inline_extvalues.ml" 267 9526 9590 "minils/transformations/inline_extvalues.ml" 267 9526 9594
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.node_dec -> Minils.node_dec * unit
+)
+ident(
+  int_ref node "minils/transformations/inline_extvalues.ml" 256 9077 9085 "minils/transformations/inline_extvalues.ml" 256 9077 9089
+)
+"minils/transformations/inline_extvalues.ml" 267 9526 9539 "minils/transformations/inline_extvalues.ml" 267 9526 9597
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9607 "minils/transformations/inline_extvalues.ml" 268 9601 9614
+type(
+  Minils.program
+)
+ident(
+  def program "minils/transformations/inline_extvalues.ml" 269 9660 9662 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9616 "minils/transformations/inline_extvalues.ml" 268 9601 9618
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9607 "minils/transformations/inline_extvalues.ml" 268 9601 9618
+type(
+  Minils.program * unit
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9621 "minils/transformations/inline_extvalues.ml" 268 9601 9640
+type(
+  unit Mls_mapfold.mls_it_funs ->
+  unit -> Minils.program -> Minils.program * unit
+)
+ident(
+  ext_ref Mls_mapfold.program
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9641 "minils/transformations/inline_extvalues.ml" 268 9601 9645
+type(
+  unit Mls_mapfold.mls_it_funs
+)
+ident(
+  int_ref funs "minils/transformations/inline_extvalues.ml" 267 9526 9532 "minils/transformations/inline_extvalues.ml" 267 9526 9536
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9646 "minils/transformations/inline_extvalues.ml" 268 9601 9648
+type(
+  unit
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9649 "minils/transformations/inline_extvalues.ml" 268 9601 9656
+type(
+  Minils.program
+)
+ident(
+  int_ref program "minils/transformations/inline_extvalues.ml" 266 9504 9516 "minils/transformations/inline_extvalues.ml" 266 9504 9523
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9621 "minils/transformations/inline_extvalues.ml" 268 9601 9656
+call(
+  stack
+)
+type(
+  Minils.program * unit
+)
+"minils/transformations/inline_extvalues.ml" 269 9660 9662 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+type(
+  Minils.program
+)
+ident(
+  int_ref program "minils/transformations/inline_extvalues.ml" 268 9601 9607 "minils/transformations/inline_extvalues.ml" 268 9601 9614
+)
+"minils/transformations/inline_extvalues.ml" 268 9601 9603 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+type(
+  Minils.program
+)
+"minils/transformations/inline_extvalues.ml" 267 9526 9528 "minils/transformations/inline_extvalues.ml" 269 9660 9669
+type(
+  Minils.program
+)

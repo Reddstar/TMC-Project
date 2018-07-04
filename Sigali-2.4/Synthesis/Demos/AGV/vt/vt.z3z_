@@ -1,0 +1,646 @@
+
+declare(
+        NEXT_WST11,
+        NEXT_WST12,
+        NEXT_WST13,
+        NEXT_WST14,
+        NEXT_WST21,
+        NEXT_WST22,
+        NEXT_WST23,
+        NEXT_WST24,
+        NEXT_WST31,
+        NEXT_WST32,
+        NEXT_WST33,
+        NEXT_WST34,
+        NEXT_WST41,
+        NEXT_WST42,
+        NEXT_WST51,
+        NEXT_WST52,
+        NEXT_WST53,
+        NEXT_WST54,
+        NEXT_WST55,
+        NEXT_WST56,
+        NEXT_AGV11,
+        NEXT_AGV12,
+        NEXT_AGV13,
+        NEXT_AGV14,
+        NEXT_AGV15,
+        NEXT_AGV16,
+        NEXT_AGV21,
+        NEXT_AGV22,
+        NEXT_AGV23,
+        NEXT_AGV24,
+        NEXT_AGV25,
+        NEXT_AGV26,
+        NEXT_AGV27,
+        NEXT_AGV28,
+        NEXT_AGV29,
+        NEXT_AGV210,
+        NEXT_AGV211,
+        NEXT_AGV212,
+        NEXT_AGV31,
+        NEXT_AGV32,
+        NEXT_AGV33,
+        NEXT_AGV34,
+        NEXT_AGV35,
+        NEXT_AGV36,
+        NEXT_AGV41,
+        NEXT_AGV42,
+        NEXT_AGV43,
+        NEXT_AGV44,
+        NEXT_AGV45,
+        NEXT_AGV46,
+        NEXT_AGV47,
+        NEXT_AGV48,
+        NEXT_AGV49,
+        NEXT_AGV410,
+        NEXT_AGV51,
+        NEXT_AGV52,
+        NEXT_AGV53,
+        NEXT_AGV54,
+        NEXT_AGV55,
+        NEXT_AGV56,
+        NEXT_AGV57,
+        NEXT_AGV58,
+        C1,
+        C2,
+        C3,
+        C4,
+        C5,
+        C6,
+        C7,
+        C8,
+        C9,
+        C10);
+
+
+
+Tick : C1 ^2;
+
+Zone_4 : (when NEXT_AGV53 or NEXT_AGV58) when NEXT_AGV45 or NEXT_AGV48 default 
+    when NEXT_AGV53 and NEXT_AGV58 default not Tick * (1 - ((when NEXT_AGV53 or 
+    NEXT_AGV58) when NEXT_AGV45 or NEXT_AGV48 default when NEXT_AGV53 and 
+    NEXT_AGV58));
+
+Zone_3 : (when NEXT_AGV43 or NEXT_AGV410) when NEXT_AGV26 or NEXT_AGV29 default 
+    not Tick * (1 - ((when NEXT_AGV43 or NEXT_AGV410) when NEXT_AGV26 or 
+    NEXT_AGV29));
+
+Zone_2 : (when NEXT_AGV33 or NEXT_AGV36) when NEXT_AGV25 or NEXT_AGV210 default 
+    when NEXT_AGV33 and NEXT_AGV36 default not Tick * (1 - ((when NEXT_AGV33 or 
+    NEXT_AGV36) when NEXT_AGV25 or NEXT_AGV210 default when NEXT_AGV33 and 
+    NEXT_AGV36));
+
+Zone_1 : (when NEXT_AGV23 or NEXT_AGV212) when NEXT_AGV16 or NEXT_AGV13 default 
+    when NEXT_AGV16 and NEXT_AGV13 default not Tick * (1 - ((when NEXT_AGV23 or 
+    NEXT_AGV212) when NEXT_AGV16 or NEXT_AGV13 default when NEXT_AGV16 and 
+    NEXT_AGV13));
+
+Conflit : Zone_1 or Zone_2 or Zone_3 or Zone_4;
+
+CLK_INTER_NEXT_AGV11 : (when NEXT_WST11) when NEXT_AGV11 default when NEXT_AGV16
+    ;
+
+INTER_NEXT_AGV11 : when NEXT_AGV16 default not ((when NEXT_WST11) when 
+    NEXT_AGV11);
+
+CLK_INTER_NEXT_AGV12 : (when NEXT_AGV12) when C1 default (when NEXT_WST11) when 
+    NEXT_AGV11;
+
+INTER_NEXT_AGV12 : (when NEXT_WST11) when NEXT_AGV11 default not ((when 
+    NEXT_AGV12) when C1);
+
+CLK_INTER_NEXT_AGV13 : when NEXT_AGV13 default (when NEXT_AGV12) when C1;
+
+INTER_NEXT_AGV13 : (when NEXT_AGV12) when C1 default not (when NEXT_AGV13);
+
+CLK_INTER_NEXT_AGV14 : (when NEXT_WST21) when NEXT_AGV14 default when NEXT_AGV13
+    ;
+
+INTER_NEXT_AGV14 : when NEXT_AGV13 default not ((when NEXT_WST21) when 
+    NEXT_AGV14);
+
+CLK_INTER_NEXT_AGV15 : (when NEXT_AGV15) when C2 default (when NEXT_WST21) when 
+    NEXT_AGV14;
+
+INTER_NEXT_AGV15 : (when NEXT_WST21) when NEXT_AGV14 default not ((when 
+    NEXT_AGV15) when C2);
+
+CLK_INTER_NEXT_AGV16 : (when NEXT_AGV15) when C2 default when NEXT_AGV16;
+
+INTER_NEXT_AGV16 : (when NEXT_AGV15) when C2 default not (when NEXT_AGV16);
+
+CLK_INTER_NEXT_AGV21 : (when NEXT_WST13) when NEXT_AGV21 default when 
+    NEXT_AGV212;
+
+INTER_NEXT_AGV21 : when NEXT_AGV212 default not ((when NEXT_WST13) when 
+    NEXT_AGV21);
+
+CLK_INTER_NEXT_AGV22 : (when NEXT_AGV22) when C3 default (when NEXT_WST13) when 
+    NEXT_AGV21;
+
+INTER_NEXT_AGV22 : (when NEXT_WST13) when NEXT_AGV21 default not ((when 
+    NEXT_AGV22) when C3);
+
+CLK_INTER_NEXT_AGV23 : when NEXT_AGV23 default (when NEXT_AGV22) when C3;
+
+INTER_NEXT_AGV23 : (when NEXT_AGV22) when C3 default not (when NEXT_AGV23);
+
+CLK_INTER_NEXT_AGV24 : when NEXT_AGV23 default when NEXT_AGV24;
+
+INTER_NEXT_AGV24 : when NEXT_AGV23 default not (when NEXT_AGV24);
+
+CLK_INTER_NEXT_AGV25 : when NEXT_AGV24 default when NEXT_AGV25;
+
+INTER_NEXT_AGV25 : when NEXT_AGV24 default not (when NEXT_AGV25);
+
+CLK_INTER_NEXT_AGV26 : when NEXT_AGV25 default when NEXT_AGV26;
+
+INTER_NEXT_AGV26 : when NEXT_AGV25 default not (when NEXT_AGV26);
+
+CLK_INTER_NEXT_AGV27 : (when NEXT_WST31) when NEXT_AGV27 default when NEXT_AGV26
+    ;
+
+INTER_NEXT_AGV27 : when NEXT_AGV26 default not ((when NEXT_WST31) when 
+    NEXT_AGV27);
+
+CLK_INTER_NEXT_AGV28 : (when NEXT_AGV28) when C4 default (when NEXT_WST31) when 
+    NEXT_AGV27;
+
+INTER_NEXT_AGV28 : (when NEXT_WST31) when NEXT_AGV27 default not ((when 
+    NEXT_AGV28) when C4);
+
+CLK_INTER_NEXT_AGV29 : when NEXT_AGV29 default (when NEXT_AGV28) when C4;
+
+INTER_NEXT_AGV29 : (when NEXT_AGV28) when C4 default not (when NEXT_AGV29);
+
+CLK_INTER_NEXT_AGV210 : when NEXT_AGV29 default when NEXT_AGV210;
+
+INTER_NEXT_AGV210 : when NEXT_AGV29 default not (when NEXT_AGV210);
+
+CLK_INTER_NEXT_AGV211 : when NEXT_AGV210 default when NEXT_AGV211;
+
+INTER_NEXT_AGV211 : when NEXT_AGV210 default not (when NEXT_AGV211);
+
+CLK_INTER_NEXT_AGV212 : when NEXT_AGV212 default when NEXT_AGV211;
+
+INTER_NEXT_AGV212 : when NEXT_AGV211 default not (when NEXT_AGV212);
+
+CLK_INTER_NEXT_AGV31 : (when NEXT_WST51) when NEXT_AGV31 default when NEXT_AGV36
+    ;
+
+INTER_NEXT_AGV31 : when NEXT_AGV36 default not ((when NEXT_WST51) when 
+    NEXT_AGV31);
+
+CLK_INTER_NEXT_AGV32 : (when NEXT_AGV32) when C5 default (when NEXT_WST51) when 
+    NEXT_AGV31;
+
+INTER_NEXT_AGV32 : (when NEXT_WST51) when NEXT_AGV31 default not ((when 
+    NEXT_AGV32) when C5);
+
+CLK_INTER_NEXT_AGV33 : when NEXT_AGV33 default (when NEXT_AGV32) when C5;
+
+INTER_NEXT_AGV33 : (when NEXT_AGV32) when C5 default not (when NEXT_AGV33);
+
+CLK_INTER_NEXT_AGV34 : (when NEXT_WST24) when NEXT_AGV34 default when NEXT_AGV33
+    ;
+
+INTER_NEXT_AGV34 : when NEXT_AGV33 default not ((when NEXT_WST24) when 
+    NEXT_AGV34);
+
+CLK_INTER_NEXT_WST21 : (when NEXT_WST24) when NEXT_AGV34 default (when 
+    NEXT_WST21) when NEXT_AGV14;
+
+INTER_NEXT_WST21 : (when NEXT_WST24) when NEXT_AGV34 default not ((when 
+    NEXT_WST21) when NEXT_AGV14);
+
+CLK_INTER_NEXT_AGV35 : (when NEXT_AGV35) when C6 default (when NEXT_WST24) when 
+    NEXT_AGV34;
+
+INTER_NEXT_AGV35 : (when NEXT_WST24) when NEXT_AGV34 default not ((when 
+    NEXT_AGV35) when C6);
+
+CLK_INTER_NEXT_AGV36 : (when NEXT_AGV35) when C6 default when NEXT_AGV36;
+
+INTER_NEXT_AGV36 : (when NEXT_AGV35) when C6 default not (when NEXT_AGV36);
+
+CLK_INTER_NEXT_AGV41 : (when NEXT_WST53) when NEXT_AGV41 default when 
+    NEXT_AGV410;
+
+INTER_NEXT_AGV41 : when NEXT_AGV410 default not ((when NEXT_WST53) when 
+    NEXT_AGV41);
+
+CLK_INTER_NEXT_AGV42 : (when NEXT_AGV42) when C7 default (when NEXT_WST53) when 
+    NEXT_AGV41;
+
+INTER_NEXT_AGV42 : (when NEXT_WST53) when NEXT_AGV41 default not ((when 
+    NEXT_AGV42) when C7);
+
+CLK_INTER_NEXT_AGV43 : when NEXT_AGV43 default (when NEXT_AGV42) when C7;
+
+INTER_NEXT_AGV43 : (when NEXT_AGV42) when C7 default not (when NEXT_AGV43);
+
+CLK_INTER_NEXT_AGV44 : when NEXT_AGV43 default when NEXT_AGV44;
+
+INTER_NEXT_AGV44 : when NEXT_AGV43 default not (when NEXT_AGV44);
+
+CLK_INTER_NEXT_AGV45 : when NEXT_AGV44 default when NEXT_AGV45;
+
+INTER_NEXT_AGV45 : when NEXT_AGV44 default not (when NEXT_AGV45);
+
+CLK_INTER_NEXT_AGV46 : (when NEXT_WST34) when NEXT_AGV46 default when NEXT_AGV45
+    ;
+
+INTER_NEXT_AGV46 : when NEXT_AGV45 default not ((when NEXT_WST34) when 
+    NEXT_AGV46);
+
+CLK_INTER_NEXT_WST31 : (when NEXT_WST34) when NEXT_AGV46 default (when 
+    NEXT_WST31) when NEXT_AGV27;
+
+INTER_NEXT_WST31 : (when NEXT_WST34) when NEXT_AGV46 default not ((when 
+    NEXT_WST31) when NEXT_AGV27);
+
+CLK_INTER_NEXT_AGV47 : (when NEXT_AGV47) when C8 default (when NEXT_WST34) when 
+    NEXT_AGV46;
+
+INTER_NEXT_AGV47 : (when NEXT_WST34) when NEXT_AGV46 default not ((when 
+    NEXT_AGV47) when C8);
+
+CLK_INTER_NEXT_AGV48 : when NEXT_AGV48 default (when NEXT_AGV47) when C8;
+
+INTER_NEXT_AGV48 : (when NEXT_AGV47) when C8 default not (when NEXT_AGV48);
+
+CLK_INTER_NEXT_AGV49 : when NEXT_AGV48 default when NEXT_AGV49;
+
+INTER_NEXT_AGV49 : when NEXT_AGV48 default not (when NEXT_AGV49);
+
+CLK_INTER_NEXT_AGV410 : when NEXT_AGV410 default when NEXT_AGV49;
+
+INTER_NEXT_AGV410 : when NEXT_AGV49 default not (when NEXT_AGV410);
+
+CLK_INTER_NEXT_AGV51 : (when NEXT_WST56) when NEXT_AGV51 default when NEXT_AGV58
+    ;
+
+INTER_NEXT_AGV51 : when NEXT_AGV58 default not ((when NEXT_WST56) when 
+    NEXT_AGV51);
+
+CLK_INTER_NEXT_WST53 : (when NEXT_WST56) when NEXT_AGV51 default (when 
+    NEXT_WST53) when NEXT_AGV41;
+
+INTER_NEXT_WST53 : (when NEXT_WST56) when NEXT_AGV51 default not ((when 
+    NEXT_WST53) when NEXT_AGV41);
+
+CLK_INTER_NEXT_WST51 : (when NEXT_WST56) when NEXT_AGV51 default (when 
+    NEXT_WST51) when NEXT_AGV31;
+
+INTER_NEXT_WST51 : (when NEXT_WST56) when NEXT_AGV51 default not ((when 
+    NEXT_WST51) when NEXT_AGV31);
+
+CLK_INTER_NEXT_AGV52 : (when NEXT_AGV52) when C9 default (when NEXT_WST56) when 
+    NEXT_AGV51;
+
+INTER_NEXT_AGV52 : (when NEXT_WST56) when NEXT_AGV51 default not ((when 
+    NEXT_AGV52) when C9);
+
+CLK_INTER_NEXT_AGV53 : when NEXT_AGV53 default (when NEXT_AGV52) when C9;
+
+INTER_NEXT_AGV53 : (when NEXT_AGV52) when C9 default not (when NEXT_AGV53);
+
+CLK_INTER_NEXT_AGV54 : when NEXT_AGV53 default when NEXT_AGV54;
+
+INTER_NEXT_AGV54 : when NEXT_AGV53 default not (when NEXT_AGV54);
+
+CLK_INTER_NEXT_AGV55 : (when NEXT_WST42) when NEXT_AGV55 default when NEXT_AGV54
+    ;
+
+INTER_NEXT_AGV55 : when NEXT_AGV54 default not ((when NEXT_WST42) when 
+    NEXT_AGV55);
+
+CLK_INTER_NEXT_AGV56 : when NEXT_AGV56 default (when NEXT_WST42) when NEXT_AGV55
+    ;
+
+INTER_NEXT_AGV56 : (when NEXT_WST42) when NEXT_AGV55 default not (when 
+    NEXT_AGV56);
+
+CLK_INTER_NEXT_AGV57 : (when NEXT_AGV57) when C10 default when NEXT_AGV56;
+
+INTER_NEXT_AGV57 : when NEXT_AGV56 default not ((when NEXT_AGV57) when C10);
+
+CLK_INTER_NEXT_AGV58 : (when NEXT_AGV57) when C10 default when NEXT_AGV58;
+
+INTER_NEXT_AGV58 : (when NEXT_AGV57) when C10 default not (when NEXT_AGV58);
+
+CLK_INTER_NEXT_WST11 : when NEXT_WST12 default (when NEXT_WST11) when NEXT_AGV11
+    ;
+
+INTER_NEXT_WST11 : when NEXT_WST12 default not ((when NEXT_WST11) when 
+    NEXT_AGV11);
+
+INTER_NEXT_WST12 : (when NEXT_WST11) when NEXT_AGV11 default not (when 
+    NEXT_WST12);
+
+CLK_INTER_NEXT_WST13 : when NEXT_WST14 default (when NEXT_WST13) when NEXT_AGV21
+    ;
+
+INTER_NEXT_WST13 : when NEXT_WST14 default not ((when NEXT_WST13) when 
+    NEXT_AGV21);
+
+INTER_NEXT_WST14 : (when NEXT_WST13) when NEXT_AGV21 default not (when 
+    NEXT_WST14);
+
+CLK_INTER_NEXT_WST22 : when NEXT_WST22 default (when NEXT_WST21) when NEXT_AGV14
+    ;
+
+INTER_NEXT_WST22 : (when NEXT_WST21) when NEXT_AGV14 default not (when 
+    NEXT_WST22);
+
+CLK_INTER_NEXT_WST23 : when NEXT_WST22 default when NEXT_WST23;
+
+INTER_NEXT_WST23 : when NEXT_WST22 default not (when NEXT_WST23);
+
+CLK_INTER_NEXT_WST24 : when NEXT_WST23 default (when NEXT_WST24) when NEXT_AGV34
+    ;
+
+INTER_NEXT_WST24 : when NEXT_WST23 default not ((when NEXT_WST24) when 
+    NEXT_AGV34);
+
+CLK_INTER_NEXT_WST32 : when NEXT_WST32 default (when NEXT_WST31) when NEXT_AGV27
+    ;
+
+INTER_NEXT_WST32 : (when NEXT_WST31) when NEXT_AGV27 default not (when 
+    NEXT_WST32);
+
+CLK_INTER_NEXT_WST33 : when NEXT_WST32 default when NEXT_WST33;
+
+INTER_NEXT_WST33 : when NEXT_WST32 default not (when NEXT_WST33);
+
+CLK_INTER_NEXT_WST34 : when NEXT_WST33 default (when NEXT_WST34) when NEXT_AGV46
+    ;
+
+INTER_NEXT_WST34 : when NEXT_WST33 default not ((when NEXT_WST34) when 
+    NEXT_AGV46);
+
+CLK_INTER_NEXT_WST41 : when NEXT_WST41 default (when NEXT_WST42) when NEXT_AGV55
+    ;
+
+INTER_NEXT_WST41 : (when NEXT_WST42) when NEXT_AGV55 default not (when 
+    NEXT_WST41);
+
+INTER_NEXT_WST42 : when NEXT_WST41 default not ((when NEXT_WST42) when 
+    NEXT_AGV55);
+
+CLK_INTER_NEXT_WST54 : (when NEXT_WST54) when NEXT_WST52 default (when 
+    NEXT_WST53) when NEXT_AGV41;
+
+INTER_NEXT_WST54 : (when NEXT_WST53) when NEXT_AGV41 default not ((when 
+    NEXT_WST54) when NEXT_WST52);
+
+CLK_INTER_NEXT_WST52 : (when NEXT_WST54) when NEXT_WST52 default (when 
+    NEXT_WST51) when NEXT_AGV31;
+
+INTER_NEXT_WST52 : (when NEXT_WST51) when NEXT_AGV31 default not ((when 
+    NEXT_WST54) when NEXT_WST52);
+
+CLK_INTER_NEXT_WST55 : when NEXT_WST55 default (when NEXT_WST54) when NEXT_WST52
+    ;
+
+INTER_NEXT_WST55 : (when NEXT_WST54) when NEXT_WST52 default not (when 
+    NEXT_WST55);
+
+CLK_INTER_NEXT_WST56 : when NEXT_WST55 default (when NEXT_WST56) when NEXT_AGV51
+    ;
+
+INTER_NEXT_WST56 : when NEXT_WST55 default not ((when NEXT_WST56) when 
+    NEXT_AGV51);
+
+
+
+
+events: [
+        C1,
+        C2,
+        C3,
+        C4,
+        C5,
+        C6,
+        C7,
+        C8,
+        C9,
+        C10];
+
+
+states: [
+        NEXT_WST11,
+        NEXT_WST12,
+        NEXT_WST13,
+        NEXT_WST14,
+        NEXT_WST21,
+        NEXT_WST22,
+        NEXT_WST23,
+        NEXT_WST24,
+        NEXT_WST31,
+        NEXT_WST32,
+        NEXT_WST33,
+        NEXT_WST34,
+        NEXT_WST41,
+        NEXT_WST42,
+        NEXT_WST51,
+        NEXT_WST52,
+        NEXT_WST53,
+        NEXT_WST54,
+        NEXT_WST55,
+        NEXT_WST56,
+        NEXT_AGV11,
+        NEXT_AGV12,
+        NEXT_AGV13,
+        NEXT_AGV14,
+        NEXT_AGV15,
+        NEXT_AGV16,
+        NEXT_AGV21,
+        NEXT_AGV22,
+        NEXT_AGV23,
+        NEXT_AGV24,
+        NEXT_AGV25,
+        NEXT_AGV26,
+        NEXT_AGV27,
+        NEXT_AGV28,
+        NEXT_AGV29,
+        NEXT_AGV210,
+        NEXT_AGV211,
+        NEXT_AGV212,
+        NEXT_AGV31,
+        NEXT_AGV32,
+        NEXT_AGV33,
+        NEXT_AGV34,
+        NEXT_AGV35,
+        NEXT_AGV36,
+        NEXT_AGV41,
+        NEXT_AGV42,
+        NEXT_AGV43,
+        NEXT_AGV44,
+        NEXT_AGV45,
+        NEXT_AGV46,
+        NEXT_AGV47,
+        NEXT_AGV48,
+        NEXT_AGV49,
+        NEXT_AGV410,
+        NEXT_AGV51,
+        NEXT_AGV52,
+        NEXT_AGV53,
+        NEXT_AGV54,
+        NEXT_AGV55,
+        NEXT_AGV56,
+        NEXT_AGV57,
+        NEXT_AGV58];
+
+
+initialisations: [
+        NEXT_WST11 = 1,
+        NEXT_WST12 = - 1,
+        NEXT_WST13 = - 1,
+        NEXT_WST14 = - 1,
+        NEXT_WST21 = 1,
+        NEXT_WST22 = - 1,
+        NEXT_WST23 = - 1,
+        NEXT_WST24 = - 1,
+        NEXT_WST31 = 1,
+        NEXT_WST32 = - 1,
+        NEXT_WST33 = - 1,
+        NEXT_WST34 = - 1,
+        NEXT_WST41 = 1,
+        NEXT_WST42 = - 1,
+        NEXT_WST51 = 1,
+        NEXT_WST52 = - 1,
+        NEXT_WST53 = - 1,
+        NEXT_WST54 = - 1,
+        NEXT_WST55 = - 1,
+        NEXT_WST56 = - 1,
+        NEXT_AGV11 = 1,
+        NEXT_AGV12 = - 1,
+        NEXT_AGV13 = - 1,
+        NEXT_AGV14 = - 1,
+        NEXT_AGV15 = - 1,
+        NEXT_AGV16 = - 1,
+        NEXT_AGV21 = 1,
+        NEXT_AGV22 = - 1,
+        NEXT_AGV23 = - 1,
+        NEXT_AGV24 = - 1,
+        NEXT_AGV25 = - 1,
+        NEXT_AGV26 = - 1,
+        NEXT_AGV27 = - 1,
+        NEXT_AGV28 = - 1,
+        NEXT_AGV29 = - 1,
+        NEXT_AGV210 = - 1,
+        NEXT_AGV211 = - 1,
+        NEXT_AGV212 = - 1,
+        NEXT_AGV31 = 1,
+        NEXT_AGV32 = - 1,
+        NEXT_AGV33 = - 1,
+        NEXT_AGV34 = - 1,
+        NEXT_AGV35 = - 1,
+        NEXT_AGV36 = - 1,
+        NEXT_AGV41 = 1,
+        NEXT_AGV42 = - 1,
+        NEXT_AGV43 = - 1,
+        NEXT_AGV44 = - 1,
+        NEXT_AGV45 = - 1,
+        NEXT_AGV46 = - 1,
+        NEXT_AGV47 = - 1,
+        NEXT_AGV48 = - 1,
+        NEXT_AGV49 = - 1,
+        NEXT_AGV410 = - 1,
+        NEXT_AGV51 = 1,
+        NEXT_AGV52 = - 1,
+        NEXT_AGV53 = - 1,
+        NEXT_AGV54 = - 1,
+        NEXT_AGV55 = - 1,
+        NEXT_AGV56 = - 1,
+        NEXT_AGV57 = - 1,
+        NEXT_AGV58 = - 1];
+
+
+evolutions: [
+        INTER_NEXT_WST11 + (1 - CLK_INTER_NEXT_WST11) * NEXT_WST11,
+        INTER_NEXT_WST12 + (1 - CLK_INTER_NEXT_WST11) * NEXT_WST12,
+        INTER_NEXT_WST13 + (1 - CLK_INTER_NEXT_WST13) * NEXT_WST13,
+        INTER_NEXT_WST14 + (1 - CLK_INTER_NEXT_WST13) * NEXT_WST14,
+        INTER_NEXT_WST21 + (1 - CLK_INTER_NEXT_WST21) * NEXT_WST21,
+        INTER_NEXT_WST22 + (1 - CLK_INTER_NEXT_WST22) * NEXT_WST22,
+        INTER_NEXT_WST23 + (1 - CLK_INTER_NEXT_WST23) * NEXT_WST23,
+        INTER_NEXT_WST24 + (1 - CLK_INTER_NEXT_WST24) * NEXT_WST24,
+        INTER_NEXT_WST31 + (1 - CLK_INTER_NEXT_WST31) * NEXT_WST31,
+        INTER_NEXT_WST32 + (1 - CLK_INTER_NEXT_WST32) * NEXT_WST32,
+        INTER_NEXT_WST33 + (1 - CLK_INTER_NEXT_WST33) * NEXT_WST33,
+        INTER_NEXT_WST34 + (1 - CLK_INTER_NEXT_WST34) * NEXT_WST34,
+        INTER_NEXT_WST41 + (1 - CLK_INTER_NEXT_WST41) * NEXT_WST41,
+        INTER_NEXT_WST42 + (1 - CLK_INTER_NEXT_WST41) * NEXT_WST42,
+        INTER_NEXT_WST51 + (1 - CLK_INTER_NEXT_WST51) * NEXT_WST51,
+        INTER_NEXT_WST52 + (1 - CLK_INTER_NEXT_WST52) * NEXT_WST52,
+        INTER_NEXT_WST53 + (1 - CLK_INTER_NEXT_WST53) * NEXT_WST53,
+        INTER_NEXT_WST54 + (1 - CLK_INTER_NEXT_WST54) * NEXT_WST54,
+        INTER_NEXT_WST55 + (1 - CLK_INTER_NEXT_WST55) * NEXT_WST55,
+        INTER_NEXT_WST56 + (1 - CLK_INTER_NEXT_WST56) * NEXT_WST56,
+        INTER_NEXT_AGV11 + (1 - CLK_INTER_NEXT_AGV11) * NEXT_AGV11,
+        INTER_NEXT_AGV12 + (1 - CLK_INTER_NEXT_AGV12) * NEXT_AGV12,
+        INTER_NEXT_AGV13 + (1 - CLK_INTER_NEXT_AGV13) * NEXT_AGV13,
+        INTER_NEXT_AGV14 + (1 - CLK_INTER_NEXT_AGV14) * NEXT_AGV14,
+        INTER_NEXT_AGV15 + (1 - CLK_INTER_NEXT_AGV15) * NEXT_AGV15,
+        INTER_NEXT_AGV16 + (1 - CLK_INTER_NEXT_AGV16) * NEXT_AGV16,
+        INTER_NEXT_AGV21 + (1 - CLK_INTER_NEXT_AGV21) * NEXT_AGV21,
+        INTER_NEXT_AGV22 + (1 - CLK_INTER_NEXT_AGV22) * NEXT_AGV22,
+        INTER_NEXT_AGV23 + (1 - CLK_INTER_NEXT_AGV23) * NEXT_AGV23,
+        INTER_NEXT_AGV24 + (1 - CLK_INTER_NEXT_AGV24) * NEXT_AGV24,
+        INTER_NEXT_AGV25 + (1 - CLK_INTER_NEXT_AGV25) * NEXT_AGV25,
+        INTER_NEXT_AGV26 + (1 - CLK_INTER_NEXT_AGV26) * NEXT_AGV26,
+        INTER_NEXT_AGV27 + (1 - CLK_INTER_NEXT_AGV27) * NEXT_AGV27,
+        INTER_NEXT_AGV28 + (1 - CLK_INTER_NEXT_AGV28) * NEXT_AGV28,
+        INTER_NEXT_AGV29 + (1 - CLK_INTER_NEXT_AGV29) * NEXT_AGV29,
+        INTER_NEXT_AGV210 + (1 - CLK_INTER_NEXT_AGV210) * NEXT_AGV210,
+        INTER_NEXT_AGV211 + (1 - CLK_INTER_NEXT_AGV211) * NEXT_AGV211,
+        INTER_NEXT_AGV212 + (1 - CLK_INTER_NEXT_AGV212) * NEXT_AGV212,
+        INTER_NEXT_AGV31 + (1 - CLK_INTER_NEXT_AGV31) * NEXT_AGV31,
+        INTER_NEXT_AGV32 + (1 - CLK_INTER_NEXT_AGV32) * NEXT_AGV32,
+        INTER_NEXT_AGV33 + (1 - CLK_INTER_NEXT_AGV33) * NEXT_AGV33,
+        INTER_NEXT_AGV34 + (1 - CLK_INTER_NEXT_AGV34) * NEXT_AGV34,
+        INTER_NEXT_AGV35 + (1 - CLK_INTER_NEXT_AGV35) * NEXT_AGV35,
+        INTER_NEXT_AGV36 + (1 - CLK_INTER_NEXT_AGV36) * NEXT_AGV36,
+        INTER_NEXT_AGV41 + (1 - CLK_INTER_NEXT_AGV41) * NEXT_AGV41,
+        INTER_NEXT_AGV42 + (1 - CLK_INTER_NEXT_AGV42) * NEXT_AGV42,
+        INTER_NEXT_AGV43 + (1 - CLK_INTER_NEXT_AGV43) * NEXT_AGV43,
+        INTER_NEXT_AGV44 + (1 - CLK_INTER_NEXT_AGV44) * NEXT_AGV44,
+        INTER_NEXT_AGV45 + (1 - CLK_INTER_NEXT_AGV45) * NEXT_AGV45,
+        INTER_NEXT_AGV46 + (1 - CLK_INTER_NEXT_AGV46) * NEXT_AGV46,
+        INTER_NEXT_AGV47 + (1 - CLK_INTER_NEXT_AGV47) * NEXT_AGV47,
+        INTER_NEXT_AGV48 + (1 - CLK_INTER_NEXT_AGV48) * NEXT_AGV48,
+        INTER_NEXT_AGV49 + (1 - CLK_INTER_NEXT_AGV49) * NEXT_AGV49,
+        INTER_NEXT_AGV410 + (1 - CLK_INTER_NEXT_AGV410) * NEXT_AGV410,
+        INTER_NEXT_AGV51 + (1 - CLK_INTER_NEXT_AGV51) * NEXT_AGV51,
+        INTER_NEXT_AGV52 + (1 - CLK_INTER_NEXT_AGV52) * NEXT_AGV52,
+        INTER_NEXT_AGV53 + (1 - CLK_INTER_NEXT_AGV53) * NEXT_AGV53,
+        INTER_NEXT_AGV54 + (1 - CLK_INTER_NEXT_AGV54) * NEXT_AGV54,
+        INTER_NEXT_AGV55 + (1 - CLK_INTER_NEXT_AGV55) * NEXT_AGV55,
+        INTER_NEXT_AGV56 + (1 - CLK_INTER_NEXT_AGV56) * NEXT_AGV56,
+        INTER_NEXT_AGV57 + (1 - CLK_INTER_NEXT_AGV57) * NEXT_AGV57,
+        INTER_NEXT_AGV58 + (1 - CLK_INTER_NEXT_AGV58) * NEXT_AGV58];
+
+
+constraints: [
+        C2 ^2 = Tick,
+        C3 ^2 = Tick,
+        C4 ^2 = Tick,
+        C5 ^2 = Tick,
+        C6 ^2 = Tick,
+        C7 ^2 = Tick,
+        C8 ^2 = Tick,
+        C9 ^2 = Tick,
+        C10 ^2 = Tick];
+
+
+controllables: [
+        ];
+
+
+free_cond: [
+        ];
+
+

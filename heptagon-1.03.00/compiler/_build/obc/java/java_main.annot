@@ -1,0 +1,3099 @@
+"obc/java/java_main.ml" 35 2140 2144 "obc/java/java_main.ml" 35 2140 2153
+type(
+  unit -> unit
+)
+ident(
+  def load_conf "obc/java/java_main.ml" 40 2269 2269 "obc/java/java_main.ml" 1 0 -1
+)
+"obc/java/java_main.ml" 35 2140 2154 "obc/java/java_main.ml" 35 2140 2156
+type(
+  unit
+)
+"obc/java/java_main.ml" 36 2159 2161 "obc/java/java_main.ml" 36 2159 2190
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_scalarize
+)
+"obc/java/java_main.ml" 36 2159 2191 "obc/java/java_main.ml" 36 2159 2193
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"obc/java/java_main.ml" 36 2159 2194 "obc/java/java_main.ml" 36 2159 2198
+type(
+  bool
+)
+"obc/java/java_main.ml" 36 2159 2161 "obc/java/java_main.ml" 36 2159 2198
+type(
+  unit
+)
+"obc/java/java_main.ml" 37 2200 2202 "obc/java/java_main.ml" 37 2200 2204
+type(
+  unit
+)
+"obc/java/java_main.ml" 36 2159 2161 "obc/java/java_main.ml" 37 2200 2204
+type(
+  unit
+)
+"obc/java/java_main.ml" 40 2269 2273 "obc/java/java_main.ml" 40 2269 2279
+type(
+  Java.ty -> bool -> string -> Java.var_dec * Java.pattern * Java.exp
+)
+ident(
+  def mk_var "obc/java/java_main.ml" 45 2393 2393 "obc/java/java_main.ml" 1 0 -1
+)
+"obc/java/java_main.ml" 40 2269 2280 "obc/java/java_main.ml" 40 2269 2282
+type(
+  Java.ty
+)
+ident(
+  def ty "obc/java/java_main.ml" 40 2269 2283 "obc/java/java_main.ml" 42 2345 2390
+)
+"obc/java/java_main.ml" 40 2269 2283 "obc/java/java_main.ml" 40 2269 2291
+type(
+  bool
+)
+ident(
+  def is_alias "obc/java/java_main.ml" 40 2269 2292 "obc/java/java_main.ml" 42 2345 2390
+)
+"obc/java/java_main.ml" 40 2269 2292 "obc/java/java_main.ml" 40 2269 2296
+type(
+  string
+)
+ident(
+  def name "obc/java/java_main.ml" 41 2299 2301 "obc/java/java_main.ml" 42 2345 2390
+)
+"obc/java/java_main.ml" 41 2299 2305 "obc/java/java_main.ml" 41 2299 2307
+type(
+  Idents.ident
+)
+ident(
+  def id "obc/java/java_main.ml" 42 2345 2347 "obc/java/java_main.ml" 42 2345 2390
+)
+"obc/java/java_main.ml" 41 2299 2310 "obc/java/java_main.ml" 41 2299 2324
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/java/java_main.ml" 41 2299 2325 "obc/java/java_main.ml" 41 2299 2336
+type(
+  string
+)
+"obc/java/java_main.ml" 41 2299 2337 "obc/java/java_main.ml" 41 2299 2341
+type(
+  string
+)
+ident(
+  int_ref name "obc/java/java_main.ml" 40 2269 2292 "obc/java/java_main.ml" 40 2269 2296
+)
+"obc/java/java_main.ml" 41 2299 2310 "obc/java/java_main.ml" 41 2299 2341
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/java/java_main.ml" 42 2345 2347 "obc/java/java_main.ml" 42 2345 2357
+type(
+  Java.var_ident -> bool -> Java.ty -> Java.var_dec
+)
+ident(
+  ext_ref Java.mk_var_dec
+)
+"obc/java/java_main.ml" 42 2345 2358 "obc/java/java_main.ml" 42 2345 2360
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 41 2299 2305 "obc/java/java_main.ml" 41 2299 2307
+)
+"obc/java/java_main.ml" 42 2345 2361 "obc/java/java_main.ml" 42 2345 2369
+type(
+  bool
+)
+ident(
+  int_ref is_alias "obc/java/java_main.ml" 40 2269 2283 "obc/java/java_main.ml" 40 2269 2291
+)
+"obc/java/java_main.ml" 42 2345 2370 "obc/java/java_main.ml" 42 2345 2372
+type(
+  Java.ty
+)
+ident(
+  int_ref ty "obc/java/java_main.ml" 40 2269 2280 "obc/java/java_main.ml" 40 2269 2282
+)
+"obc/java/java_main.ml" 42 2345 2347 "obc/java/java_main.ml" 42 2345 2372
+call(
+  stack
+)
+type(
+  Java.var_dec
+)
+"obc/java/java_main.ml" 42 2345 2379 "obc/java/java_main.ml" 42 2345 2381
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 41 2299 2305 "obc/java/java_main.ml" 41 2299 2307
+)
+"obc/java/java_main.ml" 42 2345 2374 "obc/java/java_main.ml" 42 2345 2381
+type(
+  Java.pattern
+)
+"obc/java/java_main.ml" 42 2345 2388 "obc/java/java_main.ml" 42 2345 2390
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 41 2299 2305 "obc/java/java_main.ml" 41 2299 2307
+)
+"obc/java/java_main.ml" 42 2345 2383 "obc/java/java_main.ml" 42 2345 2390
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 42 2345 2347 "obc/java/java_main.ml" 42 2345 2390
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 41 2299 2301 "obc/java/java_main.ml" 42 2345 2390
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 45 2393 2397 "obc/java/java_main.ml" 45 2393 2404
+type(
+  Obc.program -> unit
+)
+ident(
+  def program "obc/java/java_main.ml" 178 8572 8575 "obc/java/java_main.ml" 1 0 -1
+)
+"obc/java/java_main.ml" 45 2393 2405 "obc/java/java_main.ml" 45 2393 2406
+type(
+  Obc.program
+)
+ident(
+  def p "obc/java/java_main.ml" 46 2409 2411 "obc/java/java_main.ml" 178 8572 8575
+)
+"obc/java/java_main.ml" 46 2409 2415 "obc/java/java_main.ml" 46 2409 2421
+type(
+  Java.classe list
+)
+ident(
+  def p_java "obc/java/java_main.ml" 47 2446 2448 "obc/java/java_main.ml" 178 8572 8575
+)
+"obc/java/java_main.ml" 46 2409 2424 "obc/java/java_main.ml" 46 2409 2440
+type(
+  Obc.program -> Java.classe list
+)
+ident(
+  ext_ref Obc2java.program
+)
+"obc/java/java_main.ml" 46 2409 2441 "obc/java/java_main.ml" 46 2409 2442
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/java/java_main.ml" 45 2393 2405 "obc/java/java_main.ml" 45 2393 2406
+)
+"obc/java/java_main.ml" 46 2409 2424 "obc/java/java_main.ml" 46 2409 2442
+call(
+  stack
+)
+type(
+  Java.classe list
+)
+"obc/java/java_main.ml" 47 2446 2452 "obc/java/java_main.ml" 47 2446 2455
+type(
+  string
+)
+ident(
+  def dir "obc/java/java_main.ml" 48 2494 2496 "obc/java/java_main.ml" 178 8572 8575
+)
+"obc/java/java_main.ml" 47 2446 2458 "obc/java/java_main.ml" 47 2446 2483
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.build_path
+)
+"obc/java/java_main.ml" 47 2446 2484 "obc/java/java_main.ml" 47 2446 2490
+type(
+  string
+)
+"obc/java/java_main.ml" 47 2446 2458 "obc/java/java_main.ml" 47 2446 2490
+call(
+  stack
+)
+type(
+  string
+)
+"obc/java/java_main.ml" 48 2494 2496 "obc/java/java_main.ml" 48 2494 2521
+type(
+  string -> unit
+)
+ident(
+  ext_ref Compiler_utils.ensure_dir
+)
+"obc/java/java_main.ml" 48 2494 2522 "obc/java/java_main.ml" 48 2494 2525
+type(
+  string
+)
+ident(
+  int_ref dir "obc/java/java_main.ml" 47 2446 2452 "obc/java/java_main.ml" 47 2446 2455
+)
+"obc/java/java_main.ml" 48 2494 2496 "obc/java/java_main.ml" 48 2494 2525
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/java/java_main.ml" 51 2565 2567 "obc/java/java_main.ml" 51 2565 2581
+type(
+  string -> Java.program -> unit
+)
+ident(
+  ext_ref Java_printer.output_program
+)
+"obc/java/java_main.ml" 51 2565 2582 "obc/java/java_main.ml" 51 2565 2585
+type(
+  string
+)
+ident(
+  int_ref dir "obc/java/java_main.ml" 47 2446 2452 "obc/java/java_main.ml" 47 2446 2455
+)
+"obc/java/java_main.ml" 51 2565 2586 "obc/java/java_main.ml" 51 2565 2592
+type(
+  Java.program
+)
+ident(
+  int_ref p_java "obc/java/java_main.ml" 46 2409 2415 "obc/java/java_main.ml" 46 2409 2421
+)
+"obc/java/java_main.ml" 51 2565 2567 "obc/java/java_main.ml" 51 2565 2592
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/java/java_main.ml" 54 2637 2642 "obc/java/java_main.ml" 54 2637 2643
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 54 2637 2643 "obc/java/java_main.ml" 54 2637 2670
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.simulation
+)
+"obc/java/java_main.ml" 54 2637 2642 "obc/java/java_main.ml" 54 2637 2670
+type(
+  bool
+)
+"obc/java/java_main.ml" 56 2680 2688 "obc/java/java_main.ml" 56 2680 2694
+type(
+  Names.qualname
+)
+ident(
+  def q_main "obc/java/java_main.ml" 62 2907 2911 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 57 2697 2707 "obc/java/java_main.ml" 57 2697 2708
+type(
+  Names.name ref -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 57 2697 2708 "obc/java/java_main.ml" 57 2697 2740
+type(
+  Names.name ref
+)
+ident(
+  ext_ref Compiler_options.simulation_node
+)
+"obc/java/java_main.ml" 57 2697 2707 "obc/java/java_main.ml" 57 2697 2740
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 57 2697 2741 "obc/java/java_main.ml" 57 2697 2743
+type(
+  Names.name -> (Names.name -> Names.qualname) -> Names.qualname
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"obc/java/java_main.ml" 57 2697 2744 "obc/java/java_main.ml" 57 2697 2757
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.qualify_value
+)
+"obc/java/java_main.ml" 57 2697 2707 "obc/java/java_main.ml" 57 2697 2757
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 58 2758 2769 "obc/java/java_main.ml" 58 2758 2778
+type(
+  exn
+)
+"obc/java/java_main.ml" 59 2782 2790 "obc/java/java_main.ml" 59 2782 2804
+type(
+  (Names.name -> unit, Format.formatter, unit) format -> Names.name -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"obc/java/java_main.ml" 59 2782 2805 "obc/java/java_main.ml" 59 2782 2837
+type(
+  (Names.name -> unit, Format.formatter, unit) format
+)
+"obc/java/java_main.ml" 59 2782 2838 "obc/java/java_main.ml" 59 2782 2839
+type(
+  Names.name ref -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 59 2782 2839 "obc/java/java_main.ml" 59 2782 2871
+type(
+  Names.name ref
+)
+ident(
+  ext_ref Compiler_options.simulation_node
+)
+"obc/java/java_main.ml" 59 2782 2838 "obc/java/java_main.ml" 59 2782 2871
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 59 2782 2790 "obc/java/java_main.ml" 59 2782 2871
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/java/java_main.ml" 60 2873 2881 "obc/java/java_main.ml" 60 2873 2886
+type(
+  exn -> Names.qualname
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/java/java_main.ml" 60 2873 2887 "obc/java/java_main.ml" 60 2873 2899
+type(
+  exn
+)
+"obc/java/java_main.ml" 60 2873 2881 "obc/java/java_main.ml" 60 2873 2899
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 59 2782 2790 "obc/java/java_main.ml" 60 2873 2899
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 57 2697 2703 "obc/java/java_main.ml" 60 2873 2899
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 62 2907 2915 "obc/java/java_main.ml" 62 2907 2923
+type(
+  Signature.node
+)
+ident(
+  def sig_main "obc/java/java_main.ml" 63 2947 2951 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 62 2907 2926 "obc/java/java_main.ml" 62 2907 2936
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"obc/java/java_main.ml" 62 2907 2937 "obc/java/java_main.ml" 62 2907 2943
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q_main "obc/java/java_main.ml" 56 2680 2688 "obc/java/java_main.ml" 56 2680 2694
+)
+"obc/java/java_main.ml" 62 2907 2926 "obc/java/java_main.ml" 62 2907 2943
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"obc/java/java_main.ml" 63 2947 2955 "obc/java/java_main.ml" 63 2947 2962
+type(
+  Types.ty
+)
+ident(
+  def ty_main "obc/java/java_main.ml" 64 3025 3029 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 63 2947 2965 "obc/java/java_main.ml" 63 2947 2973
+type(
+  Signature.node
+)
+ident(
+  int_ref sig_main "obc/java/java_main.ml" 62 2907 2915 "obc/java/java_main.ml" 62 2907 2923
+)
+"obc/java/java_main.ml" 63 2947 2965 "obc/java/java_main.ml" 63 2947 2986
+type(
+  Signature.arg list
+)
+"obc/java/java_main.ml" 63 2947 2987 "obc/java/java_main.ml" 63 2947 2989
+type(
+  Signature.arg list ->
+  (Signature.arg list -> Types.ty list) -> Types.ty list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"obc/java/java_main.ml" 63 2947 2990 "obc/java/java_main.ml" 63 2947 3007
+type(
+  Signature.arg list -> Types.ty list
+)
+ident(
+  ext_ref Signature.types_of_arg_list
+)
+"obc/java/java_main.ml" 63 2947 2965 "obc/java/java_main.ml" 63 2947 3007
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 63 2947 3008 "obc/java/java_main.ml" 63 2947 3010
+type(
+  Types.ty list -> (Types.ty list -> Types.ty) -> Types.ty
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"obc/java/java_main.ml" 63 2947 3011 "obc/java/java_main.ml" 63 2947 3021
+type(
+  Types.ty list -> Types.ty
+)
+ident(
+  ext_ref Types.prod
+)
+"obc/java/java_main.ml" 63 2947 2965 "obc/java/java_main.ml" 63 2947 3021
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"obc/java/java_main.ml" 64 3025 3033 "obc/java/java_main.ml" 64 3025 3045
+type(
+  Types.ty list
+)
+ident(
+  def ty_main_args "obc/java/java_main.ml" 65 3095 3099 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 64 3025 3048 "obc/java/java_main.ml" 64 3025 3056
+type(
+  Signature.node
+)
+ident(
+  int_ref sig_main "obc/java/java_main.ml" 62 2907 2915 "obc/java/java_main.ml" 62 2907 2923
+)
+"obc/java/java_main.ml" 64 3025 3048 "obc/java/java_main.ml" 64 3025 3068
+type(
+  Signature.param list
+)
+"obc/java/java_main.ml" 64 3025 3069 "obc/java/java_main.ml" 64 3025 3071
+type(
+  Signature.param list ->
+  (Signature.param list -> Types.ty list) -> Types.ty list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"obc/java/java_main.ml" 64 3025 3072 "obc/java/java_main.ml" 64 3025 3091
+type(
+  Signature.param list -> Types.ty list
+)
+ident(
+  ext_ref Signature.types_of_param_list
+)
+"obc/java/java_main.ml" 64 3025 3048 "obc/java/java_main.ml" 64 3025 3091
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 65 3095 3103 "obc/java/java_main.ml" 65 3095 3113
+type(
+  Names.qualname
+)
+ident(
+  def class_name "obc/java/java_main.ml" 66 3186 3190 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 65 3095 3116 "obc/java/java_main.ml" 65 3095 3137
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Obc2java.fresh_classe
+)
+"obc/java/java_main.ml" 65 3095 3139 "obc/java/java_main.ml" 65 3095 3140
+type(
+  Names.name ref -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 65 3095 3140 "obc/java/java_main.ml" 65 3095 3172
+type(
+  Names.name ref
+)
+ident(
+  ext_ref Compiler_options.simulation_node
+)
+"obc/java/java_main.ml" 65 3095 3139 "obc/java/java_main.ml" 65 3095 3172
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 65 3095 3173 "obc/java/java_main.ml" 65 3095 3174
+type(
+  Names.name -> string -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/java/java_main.ml" 65 3095 3175 "obc/java/java_main.ml" 65 3095 3181
+type(
+  string
+)
+"obc/java/java_main.ml" 65 3095 3138 "obc/java/java_main.ml" 65 3095 3182
+call(
+  stack
+)
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 65 3095 3116 "obc/java/java_main.ml" 65 3095 3182
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 66 3186 3190 "obc/java/java_main.ml" 66 3186 3207
+type(
+  Names.qualname -> unit
+)
+ident(
+  ext_ref Idents.enter_node
+)
+"obc/java/java_main.ml" 66 3186 3208 "obc/java/java_main.ml" 66 3186 3218
+type(
+  Names.qualname
+)
+ident(
+  int_ref class_name "obc/java/java_main.ml" 65 3095 3103 "obc/java/java_main.ml" 65 3095 3113
+)
+"obc/java/java_main.ml" 66 3186 3190 "obc/java/java_main.ml" 66 3186 3218
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/java/java_main.ml" 67 3220 3228 "obc/java/java_main.ml" 67 3220 3242
+type(
+  Java.field
+)
+ident(
+  def field_step_dnb "obc/java/java_main.ml" 71 3412 3416 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 67 3220 3244 "obc/java/java_main.ml" 67 3220 3255
+type(
+  Idents.ident
+)
+ident(
+  def id_step_dnb "obc/java/java_main.ml" 71 3412 3416 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 67 3220 3228 "obc/java/java_main.ml" 67 3220 3255
+type(
+  Java.field * Idents.ident
+)
+"obc/java/java_main.ml" 68 3258 3268 "obc/java/java_main.ml" 68 3258 3270
+type(
+  Idents.ident
+)
+ident(
+  def id "obc/java/java_main.ml" 69 3321 3327 "obc/java/java_main.ml" 69 3321 3404
+)
+"obc/java/java_main.ml" 68 3258 3273 "obc/java/java_main.ml" 68 3258 3287
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/java/java_main.ml" 68 3258 3288 "obc/java/java_main.ml" 68 3258 3299
+type(
+  string
+)
+"obc/java/java_main.ml" 68 3258 3300 "obc/java/java_main.ml" 68 3258 3317
+type(
+  string
+)
+"obc/java/java_main.ml" 68 3258 3273 "obc/java/java_main.ml" 68 3258 3317
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/java/java_main.ml" 69 3321 3327 "obc/java/java_main.ml" 69 3321 3340
+type(
+  ?protection:Java.protection ->
+  ?static:bool ->
+  ?final:bool ->
+  ?value:Java.exp option -> Java.ty -> Java.field_ident -> Java.field
+)
+ident(
+  ext_ref Java.mk_field
+)
+"obc/java/java_main.ml" 69 3321 3349 "obc/java/java_main.ml" 69 3321 3353
+type(
+  bool
+)
+"obc/java/java_main.ml" 69 3321 3361 "obc/java/java_main.ml" 69 3321 3365
+type(
+  bool
+)
+"obc/java/java_main.ml" 69 3321 3385 "obc/java/java_main.ml" 69 3321 3390
+type(
+  int
+)
+"obc/java/java_main.ml" 69 3321 3379 "obc/java/java_main.ml" 69 3321 3391
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 69 3321 3373 "obc/java/java_main.ml" 69 3321 3392
+type(
+  Java.exp option
+)
+"obc/java/java_main.ml" 69 3321 3393 "obc/java/java_main.ml" 69 3321 3397
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 69 3321 3398 "obc/java/java_main.ml" 69 3321 3400
+type(
+  Java.field_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 68 3258 3268 "obc/java/java_main.ml" 68 3258 3270
+)
+"obc/java/java_main.ml" 69 3321 3327 "obc/java/java_main.ml" 69 3321 3400
+call(
+  stack
+)
+type(
+  Java.field
+)
+"obc/java/java_main.ml" 69 3321 3402 "obc/java/java_main.ml" 69 3321 3404
+type(
+  Idents.ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 68 3258 3268 "obc/java/java_main.ml" 68 3258 3270
+)
+"obc/java/java_main.ml" 69 3321 3327 "obc/java/java_main.ml" 69 3321 3404
+type(
+  Java.field * Idents.ident
+)
+"obc/java/java_main.ml" 68 3258 3264 "obc/java/java_main.ml" 69 3321 3404
+type(
+  Java.field * Idents.ident
+)
+"obc/java/java_main.ml" 71 3412 3420 "obc/java/java_main.ml" 71 3412 3432
+type(
+  Java.methode
+)
+ident(
+  def main_methode "obc/java/java_main.ml" 176 8459 8463 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 74 3483 3493 "obc/java/java_main.ml" 74 3483 3500
+type(
+  Java.var_dec
+)
+ident(
+  def vd_step "obc/java/java_main.ml" 76 3552 3558 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 74 3483 3502 "obc/java/java_main.ml" 74 3483 3510
+type(
+  Java.pattern
+)
+ident(
+  def pat_step "obc/java/java_main.ml" 76 3552 3558 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 74 3483 3512 "obc/java/java_main.ml" 74 3483 3520
+type(
+  Java.exp
+)
+ident(
+  def exp_step "obc/java/java_main.ml" 76 3552 3558 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 74 3483 3493 "obc/java/java_main.ml" 74 3483 3520
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 74 3483 3523 "obc/java/java_main.ml" 74 3483 3529
+type(
+  Java.ty -> bool -> string -> Java.var_dec * Java.pattern * Java.exp
+)
+ident(
+  int_ref mk_var "obc/java/java_main.ml" 40 2269 2273 "obc/java/java_main.ml" 40 2269 2279
+)
+"obc/java/java_main.ml" 74 3483 3530 "obc/java/java_main.ml" 74 3483 3534
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 74 3483 3535 "obc/java/java_main.ml" 74 3483 3540
+type(
+  bool
+)
+"obc/java/java_main.ml" 74 3483 3541 "obc/java/java_main.ml" 74 3483 3547
+type(
+  string
+)
+"obc/java/java_main.ml" 74 3483 3523 "obc/java/java_main.ml" 74 3483 3547
+call(
+  stack
+)
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 76 3552 3562 "obc/java/java_main.ml" 76 3552 3569
+type(
+  Java.var_dec
+)
+ident(
+  def vd_args "obc/java/java_main.ml" 79 3676 3682 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 76 3552 3571 "obc/java/java_main.ml" 76 3552 3572
+type(
+  Java.pattern
+)
+"obc/java/java_main.ml" 76 3552 3574 "obc/java/java_main.ml" 76 3552 3582
+type(
+  Java.exp
+)
+ident(
+  def exp_args "obc/java/java_main.ml" 79 3676 3682 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 76 3552 3562 "obc/java/java_main.ml" 76 3552 3582
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 77 3585 3593 "obc/java/java_main.ml" 77 3585 3599
+type(
+  Java.ty -> bool -> string -> Java.var_dec * Java.pattern * Java.exp
+)
+ident(
+  int_ref mk_var "obc/java/java_main.ml" 40 2269 2273 "obc/java/java_main.ml" 40 2269 2279
+)
+"obc/java/java_main.ml" 77 3585 3617 "obc/java/java_main.ml" 77 3585 3636
+type(
+  Names.name -> Java.class_name
+)
+ident(
+  ext_ref Names.pervasives_qn
+)
+"obc/java/java_main.ml" 77 3585 3637 "obc/java/java_main.ml" 77 3585 3645
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 77 3585 3616 "obc/java/java_main.ml" 77 3585 3646
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 77 3585 3609 "obc/java/java_main.ml" 77 3585 3646
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 77 3585 3654 "obc/java/java_main.ml" 77 3585 3655
+type(
+  int
+)
+"obc/java/java_main.ml" 77 3585 3649 "obc/java/java_main.ml" 77 3585 3655
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 77 3585 3648 "obc/java/java_main.ml" 77 3585 3656
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 77 3585 3600 "obc/java/java_main.ml" 77 3585 3658
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 77 3585 3659 "obc/java/java_main.ml" 77 3585 3664
+type(
+  bool
+)
+"obc/java/java_main.ml" 77 3585 3665 "obc/java/java_main.ml" 77 3585 3671
+type(
+  string
+)
+"obc/java/java_main.ml" 77 3585 3593 "obc/java/java_main.ml" 77 3585 3671
+call(
+  stack
+)
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 79 3676 3686 "obc/java/java_main.ml" 79 3676 3693
+type(
+  int -> Java.exp
+)
+ident(
+  def get_arg "obc/java/java_main.ml" 87 4078 4084 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 79 3676 3694 "obc/java/java_main.ml" 79 3676 3695
+type(
+  int
+)
+ident(
+  def i "obc/java/java_main.ml" 79 3676 3698 "obc/java/java_main.ml" 79 3676 3729
+)
+"obc/java/java_main.ml" 79 3676 3710 "obc/java/java_main.ml" 79 3676 3718
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_args "obc/java/java_main.ml" 76 3552 3574 "obc/java/java_main.ml" 76 3552 3582
+)
+"obc/java/java_main.ml" 79 3676 3726 "obc/java/java_main.ml" 79 3676 3727
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 79 3676 3694 "obc/java/java_main.ml" 79 3676 3695
+)
+"obc/java/java_main.ml" 79 3676 3721 "obc/java/java_main.ml" 79 3676 3727
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 79 3676 3720 "obc/java/java_main.ml" 79 3676 3728
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 79 3676 3698 "obc/java/java_main.ml" 79 3676 3729
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 87 4078 4088 "obc/java/java_main.ml" 87 4078 4092
+type(
+  Java.block
+)
+ident(
+  def body "obc/java/java_main.ml" 174 8394 8400 "obc/java/java_main.ml" 174 8394 8451
+)
+"obc/java/java_main.ml" 88 4095 4107 "obc/java/java_main.ml" 88 4095 4114
+type(
+  Java.var_dec
+)
+ident(
+  def vd_main "obc/java/java_main.ml" 93 4364 4372 "obc/java/java_main.ml" 172 8345 8384
+)
+"obc/java/java_main.ml" 88 4095 4116 "obc/java/java_main.ml" 88 4095 4122
+type(
+  Java.exp
+)
+ident(
+  def e_main "obc/java/java_main.ml" 93 4364 4372 "obc/java/java_main.ml" 172 8345 8384
+)
+"obc/java/java_main.ml" 88 4095 4124 "obc/java/java_main.ml" 88 4095 4130
+type(
+  Names.qualname
+)
+ident(
+  def q_main "obc/java/java_main.ml" 93 4364 4372 "obc/java/java_main.ml" 172 8345 8384
+)
+"obc/java/java_main.ml" 88 4095 4132 "obc/java/java_main.ml" 88 4095 4139
+type(
+  Types.ty
+)
+ident(
+  def ty_main "obc/java/java_main.ml" 93 4364 4372 "obc/java/java_main.ml" 172 8345 8384
+)
+"obc/java/java_main.ml" 88 4095 4107 "obc/java/java_main.ml" 88 4095 4139
+type(
+  Java.var_dec * Java.exp * Names.qualname * Types.ty
+)
+"obc/java/java_main.ml" 89 4142 4156 "obc/java/java_main.ml" 89 4142 4162
+type(
+  Names.qualname
+)
+ident(
+  def q_main "obc/java/java_main.ml" 90 4225 4235 "obc/java/java_main.ml" 91 4281 4352
+)
+"obc/java/java_main.ml" 89 4142 4165 "obc/java/java_main.ml" 89 4142 4200
+type(
+  Names.qualname -> Names.qualname
+)
+ident(
+  ext_ref Obc2java.qualname_to_package_classe
+)
+"obc/java/java_main.ml" 89 4142 4201 "obc/java/java_main.ml" 89 4142 4207
+type(
+  Names.qualname
+)
+ident(
+  int_ref q_main "obc/java/java_main.ml" 56 2680 2688 "obc/java/java_main.ml" 56 2680 2694
+)
+"obc/java/java_main.ml" 89 4142 4165 "obc/java/java_main.ml" 89 4142 4207
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 90 4225 4239 "obc/java/java_main.ml" 90 4225 4241
+type(
+  Idents.ident
+)
+ident(
+  def id "obc/java/java_main.ml" 91 4281 4291 "obc/java/java_main.ml" 91 4281 4352
+)
+"obc/java/java_main.ml" 90 4225 4244 "obc/java/java_main.ml" 90 4225 4258
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/java/java_main.ml" 90 4225 4259 "obc/java/java_main.ml" 90 4225 4270
+type(
+  string
+)
+"obc/java/java_main.ml" 90 4225 4271 "obc/java/java_main.ml" 90 4225 4277
+type(
+  string
+)
+"obc/java/java_main.ml" 90 4225 4244 "obc/java/java_main.ml" 90 4225 4277
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/java/java_main.ml" 91 4281 4291 "obc/java/java_main.ml" 91 4281 4301
+type(
+  Java.var_ident -> bool -> Java.ty -> Java.var_dec
+)
+ident(
+  ext_ref Java.mk_var_dec
+)
+"obc/java/java_main.ml" 91 4281 4302 "obc/java/java_main.ml" 91 4281 4304
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 90 4225 4239 "obc/java/java_main.ml" 90 4225 4241
+)
+"obc/java/java_main.ml" 91 4281 4305 "obc/java/java_main.ml" 91 4281 4310
+type(
+  bool
+)
+"obc/java/java_main.ml" 91 4281 4319 "obc/java/java_main.ml" 91 4281 4325
+type(
+  Java.class_name
+)
+ident(
+  int_ref q_main "obc/java/java_main.ml" 89 4142 4156 "obc/java/java_main.ml" 89 4142 4162
+)
+"obc/java/java_main.ml" 91 4281 4311 "obc/java/java_main.ml" 91 4281 4326
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 91 4281 4291 "obc/java/java_main.ml" 91 4281 4326
+call(
+  stack
+)
+type(
+  Java.var_dec
+)
+"obc/java/java_main.ml" 91 4281 4333 "obc/java/java_main.ml" 91 4281 4335
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 90 4225 4239 "obc/java/java_main.ml" 90 4225 4241
+)
+"obc/java/java_main.ml" 91 4281 4328 "obc/java/java_main.ml" 91 4281 4335
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 91 4281 4337 "obc/java/java_main.ml" 91 4281 4343
+type(
+  Names.qualname
+)
+ident(
+  int_ref q_main "obc/java/java_main.ml" 89 4142 4156 "obc/java/java_main.ml" 89 4142 4162
+)
+"obc/java/java_main.ml" 91 4281 4345 "obc/java/java_main.ml" 91 4281 4352
+type(
+  Types.ty
+)
+ident(
+  int_ref ty_main "obc/java/java_main.ml" 63 2947 2955 "obc/java/java_main.ml" 63 2947 2962
+)
+"obc/java/java_main.ml" 91 4281 4291 "obc/java/java_main.ml" 91 4281 4352
+type(
+  Java.var_dec * Java.exp * Names.qualname * Types.ty
+)
+"obc/java/java_main.ml" 90 4225 4235 "obc/java/java_main.ml" 91 4281 4352
+type(
+  Java.var_dec * Java.exp * Names.qualname * Types.ty
+)
+"obc/java/java_main.ml" 89 4142 4152 "obc/java/java_main.ml" 91 4281 4352
+type(
+  Java.var_dec * Java.exp * Names.qualname * Types.ty
+)
+"obc/java/java_main.ml" 93 4364 4376 "obc/java/java_main.ml" 93 4364 4380
+type(
+  Java.act list
+)
+ident(
+  def acts "obc/java/java_main.ml" 172 8345 8353 "obc/java/java_main.ml" 172 8345 8384
+)
+"obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+type(
+  Java.exp
+)
+ident(
+  def out "obc/java/java_main.ml" 95 4462 4472 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 94 4383 4410 "obc/java/java_main.ml" 94 4383 4434
+type(
+  string -> Java.class_name
+)
+ident(
+  ext_ref Names.qualname_of_string
+)
+"obc/java/java_main.ml" 94 4383 4435 "obc/java/java_main.ml" 94 4383 4457
+type(
+  string
+)
+"obc/java/java_main.ml" 94 4383 4409 "obc/java/java_main.ml" 94 4383 4458
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 94 4383 4403 "obc/java/java_main.ml" 94 4383 4458
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 95 4462 4476 "obc/java/java_main.ml" 95 4462 4480
+type(
+  Java.exp
+)
+ident(
+  def jint "obc/java/java_main.ml" 96 4529 4539 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 95 4462 4490 "obc/java/java_main.ml" 95 4462 4514
+type(
+  string -> Java.class_name
+)
+ident(
+  ext_ref Names.qualname_of_string
+)
+"obc/java/java_main.ml" 95 4462 4515 "obc/java/java_main.ml" 95 4462 4524
+type(
+  string
+)
+"obc/java/java_main.ml" 95 4462 4489 "obc/java/java_main.ml" 95 4462 4525
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 95 4462 4483 "obc/java/java_main.ml" 95 4462 4525
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 96 4529 4543 "obc/java/java_main.ml" 96 4529 4549
+type(
+  Java.exp
+)
+ident(
+  def jfloat "obc/java/java_main.ml" 97 4596 4606 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 96 4529 4559 "obc/java/java_main.ml" 96 4529 4583
+type(
+  string -> Java.class_name
+)
+ident(
+  ext_ref Names.qualname_of_string
+)
+"obc/java/java_main.ml" 96 4529 4584 "obc/java/java_main.ml" 96 4529 4591
+type(
+  string
+)
+"obc/java/java_main.ml" 96 4529 4558 "obc/java/java_main.ml" 96 4529 4592
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 96 4529 4552 "obc/java/java_main.ml" 96 4529 4592
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 97 4596 4610 "obc/java/java_main.ml" 97 4596 4615
+type(
+  Java.exp
+)
+ident(
+  def jbool "obc/java/java_main.ml" 98 4664 4674 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 97 4596 4625 "obc/java/java_main.ml" 97 4596 4649
+type(
+  string -> Java.class_name
+)
+ident(
+  ext_ref Names.qualname_of_string
+)
+"obc/java/java_main.ml" 97 4596 4650 "obc/java/java_main.ml" 97 4596 4659
+type(
+  string
+)
+"obc/java/java_main.ml" 97 4596 4624 "obc/java/java_main.ml" 97 4596 4660
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 97 4596 4618 "obc/java/java_main.ml" 97 4596 4660
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 98 4664 4678 "obc/java/java_main.ml" 98 4664 4682
+type(
+  Java.exp
+)
+ident(
+  def jsys "obc/java/java_main.ml" 99 4740 4750 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 98 4664 4692 "obc/java/java_main.ml" 98 4664 4716
+type(
+  string -> Java.class_name
+)
+ident(
+  ext_ref Names.qualname_of_string
+)
+"obc/java/java_main.ml" 98 4664 4717 "obc/java/java_main.ml" 98 4664 4735
+type(
+  string
+)
+"obc/java/java_main.ml" 98 4664 4691 "obc/java/java_main.ml" 98 4664 4736
+call(
+  stack
+)
+type(
+  Java.class_name
+)
+"obc/java/java_main.ml" 98 4664 4685 "obc/java/java_main.ml" 98 4664 4736
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 99 4740 4754 "obc/java/java_main.ml" 99 4740 4760
+type(
+  Names.qualname
+)
+ident(
+  def jminus "obc/java/java_main.ml" 102 4830 4840 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 99 4740 4763 "obc/java/java_main.ml" 99 4740 4776
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Names.pervasives_qn
+)
+"obc/java/java_main.ml" 99 4740 4777 "obc/java/java_main.ml" 99 4740 4780
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 99 4740 4763 "obc/java/java_main.ml" 99 4740 4780
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/java/java_main.ml" 102 4830 4844 "obc/java/java_main.ml" 102 4830 4852
+type(
+  int
+)
+ident(
+  def num_args "obc/java/java_main.ml" 105 4936 4946 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 102 4830 4855 "obc/java/java_main.ml" 102 4830 4866
+type(
+  Types.ty list -> int
+)
+ident(
+  ext_ref List.length
+)
+"obc/java/java_main.ml" 102 4830 4867 "obc/java/java_main.ml" 102 4830 4879
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_main_args "obc/java/java_main.ml" 64 3025 3033 "obc/java/java_main.ml" 64 3025 3045
+)
+"obc/java/java_main.ml" 102 4830 4855 "obc/java/java_main.ml" 102 4830 4879
+call(
+  stack
+)
+type(
+  int
+)
+"obc/java/java_main.ml" 105 4936 4954 "obc/java/java_main.ml" 105 4936 4964
+type(
+  Types.ty list -> int -> Java.exp list
+)
+ident(
+  def parse_args "obc/java/java_main.ml" 105 4936 4946 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 105 4936 4965 "obc/java/java_main.ml" 105 4936 4968
+type(
+  Types.ty list
+)
+ident(
+  def t_l "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 116 5463 5556
+)
+"obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+type(
+  int
+)
+ident(
+  def i "obc/java/java_main.ml" 105 4936 4973 "obc/java/java_main.ml" 116 5463 5556
+)
+"obc/java/java_main.ml" 105 4936 4979 "obc/java/java_main.ml" 105 4936 4982
+type(
+  Types.ty list
+)
+ident(
+  int_ref t_l "obc/java/java_main.ml" 105 4936 4965 "obc/java/java_main.ml" 105 4936 4968
+)
+"obc/java/java_main.ml" 106 4988 5002 "obc/java/java_main.ml" 106 4988 5004
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 106 4988 5008 "obc/java/java_main.ml" 106 4988 5010
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 107 5011 5025 "obc/java/java_main.ml" 107 5011 5026
+type(
+  Types.ty
+)
+ident(
+  def t "obc/java/java_main.ml" 107 5011 5037 "obc/java/java_main.ml" 109 5119 5158
+)
+"obc/java/java_main.ml" 107 5011 5028 "obc/java/java_main.ml" 107 5011 5031
+type(
+  Types.ty list
+)
+ident(
+  def t_l "obc/java/java_main.ml" 107 5011 5037 "obc/java/java_main.ml" 109 5119 5158
+)
+"obc/java/java_main.ml" 107 5011 5025 "obc/java/java_main.ml" 107 5011 5031
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 107 5011 5037 "obc/java/java_main.ml" 107 5011 5038
+type(
+  Types.ty
+)
+ident(
+  int_ref t "obc/java/java_main.ml" 107 5011 5025 "obc/java/java_main.ml" 107 5011 5026
+)
+"obc/java/java_main.ml" 107 5011 5039 "obc/java/java_main.ml" 107 5011 5040
+type(
+  Types.ty -> Types.ty -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/java/java_main.ml" 107 5011 5041 "obc/java/java_main.ml" 107 5011 5053
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/java/java_main.ml" 107 5011 5037 "obc/java/java_main.ml" 107 5011 5053
+type(
+  bool
+)
+"obc/java/java_main.ml" 108 5057 5087 "obc/java/java_main.ml" 108 5057 5091
+type(
+  Java.exp
+)
+ident(
+  int_ref jint "obc/java/java_main.ml" 95 4462 4476 "obc/java/java_main.ml" 95 4462 4480
+)
+"obc/java/java_main.ml" 108 5057 5093 "obc/java/java_main.ml" 108 5057 5103
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 108 5057 5106 "obc/java/java_main.ml" 108 5057 5113
+type(
+  int -> Java.exp
+)
+ident(
+  int_ref get_arg "obc/java/java_main.ml" 79 3676 3686 "obc/java/java_main.ml" 79 3676 3693
+)
+"obc/java/java_main.ml" 108 5057 5114 "obc/java/java_main.ml" 108 5057 5115
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 108 5057 5106 "obc/java/java_main.ml" 108 5057 5115
+call(
+  stack
+)
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 108 5057 5105 "obc/java/java_main.ml" 108 5057 5116
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 108 5057 5073 "obc/java/java_main.ml" 108 5057 5118
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 109 5119 5138 "obc/java/java_main.ml" 109 5119 5148
+type(
+  Types.ty list -> int -> Java.exp list
+)
+ident(
+  int_ref parse_args "obc/java/java_main.ml" 105 4936 4954 "obc/java/java_main.ml" 105 4936 4964
+)
+"obc/java/java_main.ml" 109 5119 5149 "obc/java/java_main.ml" 109 5119 5152
+type(
+  Types.ty list
+)
+ident(
+  int_ref t_l "obc/java/java_main.ml" 107 5011 5028 "obc/java/java_main.ml" 107 5011 5031
+)
+"obc/java/java_main.ml" 109 5119 5154 "obc/java/java_main.ml" 109 5119 5155
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 109 5119 5155 "obc/java/java_main.ml" 109 5119 5156
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/java/java_main.ml" 109 5119 5156 "obc/java/java_main.ml" 109 5119 5157
+type(
+  int
+)
+"obc/java/java_main.ml" 109 5119 5153 "obc/java/java_main.ml" 109 5119 5158
+type(
+  int
+)
+"obc/java/java_main.ml" 109 5119 5138 "obc/java/java_main.ml" 109 5119 5158
+call(
+  stack
+)
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 108 5057 5073 "obc/java/java_main.ml" 109 5119 5158
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 110 5159 5173 "obc/java/java_main.ml" 110 5159 5174
+type(
+  Types.ty
+)
+ident(
+  def t "obc/java/java_main.ml" 110 5159 5185 "obc/java/java_main.ml" 112 5273 5312
+)
+"obc/java/java_main.ml" 110 5159 5176 "obc/java/java_main.ml" 110 5159 5179
+type(
+  Types.ty list
+)
+ident(
+  def t_l "obc/java/java_main.ml" 110 5159 5185 "obc/java/java_main.ml" 112 5273 5312
+)
+"obc/java/java_main.ml" 110 5159 5173 "obc/java/java_main.ml" 110 5159 5179
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 110 5159 5185 "obc/java/java_main.ml" 110 5159 5186
+type(
+  Types.ty
+)
+ident(
+  int_ref t "obc/java/java_main.ml" 110 5159 5173 "obc/java/java_main.ml" 110 5159 5174
+)
+"obc/java/java_main.ml" 110 5159 5187 "obc/java/java_main.ml" 110 5159 5188
+type(
+  Types.ty -> Types.ty -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/java/java_main.ml" 110 5159 5189 "obc/java/java_main.ml" 110 5159 5203
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tfloat
+)
+"obc/java/java_main.ml" 110 5159 5185 "obc/java/java_main.ml" 110 5159 5203
+type(
+  bool
+)
+"obc/java/java_main.ml" 111 5207 5237 "obc/java/java_main.ml" 111 5207 5243
+type(
+  Java.exp
+)
+ident(
+  int_ref jfloat "obc/java/java_main.ml" 96 4529 4543 "obc/java/java_main.ml" 96 4529 4549
+)
+"obc/java/java_main.ml" 111 5207 5245 "obc/java/java_main.ml" 111 5207 5257
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 111 5207 5260 "obc/java/java_main.ml" 111 5207 5267
+type(
+  int -> Java.exp
+)
+ident(
+  int_ref get_arg "obc/java/java_main.ml" 79 3676 3686 "obc/java/java_main.ml" 79 3676 3693
+)
+"obc/java/java_main.ml" 111 5207 5268 "obc/java/java_main.ml" 111 5207 5269
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 111 5207 5260 "obc/java/java_main.ml" 111 5207 5269
+call(
+  stack
+)
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 111 5207 5259 "obc/java/java_main.ml" 111 5207 5270
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 111 5207 5223 "obc/java/java_main.ml" 111 5207 5272
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 112 5273 5292 "obc/java/java_main.ml" 112 5273 5302
+type(
+  Types.ty list -> int -> Java.exp list
+)
+ident(
+  int_ref parse_args "obc/java/java_main.ml" 105 4936 4954 "obc/java/java_main.ml" 105 4936 4964
+)
+"obc/java/java_main.ml" 112 5273 5303 "obc/java/java_main.ml" 112 5273 5306
+type(
+  Types.ty list
+)
+ident(
+  int_ref t_l "obc/java/java_main.ml" 110 5159 5176 "obc/java/java_main.ml" 110 5159 5179
+)
+"obc/java/java_main.ml" 112 5273 5308 "obc/java/java_main.ml" 112 5273 5309
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 112 5273 5309 "obc/java/java_main.ml" 112 5273 5310
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/java/java_main.ml" 112 5273 5310 "obc/java/java_main.ml" 112 5273 5311
+type(
+  int
+)
+"obc/java/java_main.ml" 112 5273 5307 "obc/java/java_main.ml" 112 5273 5312
+type(
+  int
+)
+"obc/java/java_main.ml" 112 5273 5292 "obc/java/java_main.ml" 112 5273 5312
+call(
+  stack
+)
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 111 5207 5223 "obc/java/java_main.ml" 112 5273 5312
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 113 5313 5327 "obc/java/java_main.ml" 113 5313 5328
+type(
+  Types.ty
+)
+ident(
+  def t "obc/java/java_main.ml" 113 5313 5339 "obc/java/java_main.ml" 115 5423 5462
+)
+"obc/java/java_main.ml" 113 5313 5330 "obc/java/java_main.ml" 113 5313 5333
+type(
+  Types.ty list
+)
+ident(
+  def t_l "obc/java/java_main.ml" 113 5313 5339 "obc/java/java_main.ml" 115 5423 5462
+)
+"obc/java/java_main.ml" 113 5313 5327 "obc/java/java_main.ml" 113 5313 5333
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 113 5313 5339 "obc/java/java_main.ml" 113 5313 5340
+type(
+  Types.ty
+)
+ident(
+  int_ref t "obc/java/java_main.ml" 113 5313 5327 "obc/java/java_main.ml" 113 5313 5328
+)
+"obc/java/java_main.ml" 113 5313 5341 "obc/java/java_main.ml" 113 5313 5342
+type(
+  Types.ty -> Types.ty -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/java/java_main.ml" 113 5313 5343 "obc/java/java_main.ml" 113 5313 5355
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/java/java_main.ml" 113 5313 5339 "obc/java/java_main.ml" 113 5313 5355
+type(
+  bool
+)
+"obc/java/java_main.ml" 114 5359 5389 "obc/java/java_main.ml" 114 5359 5394
+type(
+  Java.exp
+)
+ident(
+  int_ref jbool "obc/java/java_main.ml" 97 4596 4610 "obc/java/java_main.ml" 97 4596 4615
+)
+"obc/java/java_main.ml" 114 5359 5396 "obc/java/java_main.ml" 114 5359 5407
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 114 5359 5410 "obc/java/java_main.ml" 114 5359 5417
+type(
+  int -> Java.exp
+)
+ident(
+  int_ref get_arg "obc/java/java_main.ml" 79 3676 3686 "obc/java/java_main.ml" 79 3676 3693
+)
+"obc/java/java_main.ml" 114 5359 5418 "obc/java/java_main.ml" 114 5359 5419
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 114 5359 5410 "obc/java/java_main.ml" 114 5359 5419
+call(
+  stack
+)
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 114 5359 5409 "obc/java/java_main.ml" 114 5359 5420
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 114 5359 5375 "obc/java/java_main.ml" 114 5359 5422
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 115 5423 5442 "obc/java/java_main.ml" 115 5423 5452
+type(
+  Types.ty list -> int -> Java.exp list
+)
+ident(
+  int_ref parse_args "obc/java/java_main.ml" 105 4936 4954 "obc/java/java_main.ml" 105 4936 4964
+)
+"obc/java/java_main.ml" 115 5423 5453 "obc/java/java_main.ml" 115 5423 5456
+type(
+  Types.ty list
+)
+ident(
+  int_ref t_l "obc/java/java_main.ml" 113 5313 5330 "obc/java/java_main.ml" 113 5313 5333
+)
+"obc/java/java_main.ml" 115 5423 5458 "obc/java/java_main.ml" 115 5423 5459
+type(
+  int
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 105 4936 4969 "obc/java/java_main.ml" 105 4936 4970
+)
+"obc/java/java_main.ml" 115 5423 5459 "obc/java/java_main.ml" 115 5423 5460
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/java/java_main.ml" 115 5423 5460 "obc/java/java_main.ml" 115 5423 5461
+type(
+  int
+)
+"obc/java/java_main.ml" 115 5423 5457 "obc/java/java_main.ml" 115 5423 5462
+type(
+  int
+)
+"obc/java/java_main.ml" 115 5423 5442 "obc/java/java_main.ml" 115 5423 5462
+call(
+  stack
+)
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 114 5359 5375 "obc/java/java_main.ml" 115 5423 5462
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 116 5463 5477 "obc/java/java_main.ml" 116 5463 5478
+type(
+  Types.ty list
+)
+"obc/java/java_main.ml" 116 5463 5482 "obc/java/java_main.ml" 116 5463 5498
+type(
+  string -> Java.exp list
+)
+ident(
+  ext_ref Misc.unsupported
+)
+"obc/java/java_main.ml" 116 5463 5499 "obc/java/java_main.ml" 116 5463 5556
+type(
+  string
+)
+"obc/java/java_main.ml" 116 5463 5482 "obc/java/java_main.ml" 116 5463 5556
+call(
+  tail
+)
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 105 4936 4973 "obc/java/java_main.ml" 116 5463 5556
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 118 5570 5584 "obc/java/java_main.ml" 118 5570 5593
+type(
+  Java.exp list
+)
+ident(
+  def main_args "obc/java/java_main.ml" 120 5626 5636 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 118 5570 5596 "obc/java/java_main.ml" 118 5570 5606
+type(
+  Types.ty list -> int -> Java.exp list
+)
+ident(
+  int_ref parse_args "obc/java/java_main.ml" 105 4936 4954 "obc/java/java_main.ml" 105 4936 4964
+)
+"obc/java/java_main.ml" 118 5570 5607 "obc/java/java_main.ml" 118 5570 5619
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_main_args "obc/java/java_main.ml" 64 3025 3033 "obc/java/java_main.ml" 64 3025 3045
+)
+"obc/java/java_main.ml" 118 5570 5620 "obc/java/java_main.ml" 118 5570 5621
+type(
+  int
+)
+"obc/java/java_main.ml" 118 5570 5596 "obc/java/java_main.ml" 118 5570 5621
+call(
+  stack
+)
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 120 5626 5640 "obc/java/java_main.ml" 120 5626 5659
+type(
+  Java.act
+)
+ident(
+  def parse_max_iteration "obc/java/java_main.ml" 129 6182 6192 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 122 5755 5780 "obc/java/java_main.ml" 122 5755 5799
+type(
+  Names.name -> Java.op_name
+)
+ident(
+  ext_ref Names.pervasives_qn
+)
+"obc/java/java_main.ml" 122 5755 5800 "obc/java/java_main.ml" 122 5755 5803
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 122 5755 5780 "obc/java/java_main.ml" 122 5755 5803
+call(
+  stack
+)
+type(
+  Java.op_name
+)
+"obc/java/java_main.ml" 122 5755 5815 "obc/java/java_main.ml" 122 5755 5823
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_args "obc/java/java_main.ml" 76 3552 3574 "obc/java/java_main.ml" 76 3552 3582
+)
+"obc/java/java_main.ml" 122 5755 5825 "obc/java/java_main.ml" 122 5755 5833
+type(
+  Java.field_name
+)
+"obc/java/java_main.ml" 122 5755 5807 "obc/java/java_main.ml" 122 5755 5834
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 122 5755 5841 "obc/java/java_main.ml" 122 5755 5849
+type(
+  int
+)
+ident(
+  int_ref num_args "obc/java/java_main.ml" 102 4830 4844 "obc/java/java_main.ml" 102 4830 4852
+)
+"obc/java/java_main.ml" 122 5755 5836 "obc/java/java_main.ml" 122 5755 5849
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 122 5755 5805 "obc/java/java_main.ml" 122 5755 5851
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 122 5755 5775 "obc/java/java_main.ml" 122 5755 5852
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 124 5911 5931 "obc/java/java_main.ml" 124 5911 5939
+type(
+  ?locals:Java.var_dec list -> Java.act list -> Java.block
+)
+ident(
+  ext_ref Java.mk_block
+)
+"obc/java/java_main.ml" 124 5911 5948 "obc/java/java_main.ml" 124 5911 5956
+type(
+  Java.pattern
+)
+ident(
+  int_ref pat_step "obc/java/java_main.ml" 74 3483 3502 "obc/java/java_main.ml" 74 3483 3510
+)
+"obc/java/java_main.ml" 125 5958 6001 "obc/java/java_main.ml" 125 5958 6005
+type(
+  Java.exp
+)
+ident(
+  int_ref jint "obc/java/java_main.ml" 95 4462 4476 "obc/java/java_main.ml" 95 4462 4480
+)
+"obc/java/java_main.ml" 125 5958 6007 "obc/java/java_main.ml" 125 5958 6017
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 125 5958 6020 "obc/java/java_main.ml" 125 5958 6027
+type(
+  int -> Java.exp
+)
+ident(
+  int_ref get_arg "obc/java/java_main.ml" 79 3676 3686 "obc/java/java_main.ml" 79 3676 3693
+)
+"obc/java/java_main.ml" 125 5958 6028 "obc/java/java_main.ml" 125 5958 6036
+type(
+  int
+)
+ident(
+  int_ref num_args "obc/java/java_main.ml" 102 4830 4844 "obc/java/java_main.ml" 102 4830 4852
+)
+"obc/java/java_main.ml" 125 5958 6020 "obc/java/java_main.ml" 125 5958 6036
+call(
+  stack
+)
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 125 5958 6019 "obc/java/java_main.ml" 125 5958 6037
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 125 5958 5988 "obc/java/java_main.ml" 125 5958 6038
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 124 5911 5941 "obc/java/java_main.ml" 125 5958 6039
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 124 5911 5940 "obc/java/java_main.ml" 125 5958 6040
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 124 5911 5931 "obc/java/java_main.ml" 125 5958 6040
+call(
+  stack
+)
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 127 6101 6121 "obc/java/java_main.ml" 127 6101 6129
+type(
+  ?locals:Java.var_dec list -> Java.act list -> Java.block
+)
+ident(
+  ext_ref Java.mk_block
+)
+"obc/java/java_main.ml" 127 6101 6138 "obc/java/java_main.ml" 127 6101 6146
+type(
+  Java.pattern
+)
+ident(
+  int_ref pat_step "obc/java/java_main.ml" 74 3483 3502 "obc/java/java_main.ml" 74 3483 3510
+)
+"obc/java/java_main.ml" 127 6101 6153 "obc/java/java_main.ml" 127 6101 6164
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id_step_dnb "obc/java/java_main.ml" 67 3220 3244 "obc/java/java_main.ml" 67 3220 3255
+)
+"obc/java/java_main.ml" 127 6101 6148 "obc/java/java_main.ml" 127 6101 6164
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 127 6101 6131 "obc/java/java_main.ml" 127 6101 6165
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 127 6101 6130 "obc/java/java_main.ml" 127 6101 6166
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 127 6101 6121 "obc/java/java_main.ml" 127 6101 6166
+call(
+  stack
+)
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 122 5755 5767 "obc/java/java_main.ml" 127 6101 6168
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 129 6182 6196 "obc/java/java_main.ml" 129 6182 6202
+type(
+  Java.ty
+)
+ident(
+  def ty_ret "obc/java/java_main.ml" 130 6243 6253 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 129 6182 6205 "obc/java/java_main.ml" 129 6182 6216
+type(
+  Idents.ident Names.NamesEnv.t -> Types.ty -> Java.ty
+)
+ident(
+  ext_ref Obc2java.ty
+)
+"obc/java/java_main.ml" 129 6182 6217 "obc/java/java_main.ml" 129 6182 6231
+type(
+  Idents.ident Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.empty
+)
+"obc/java/java_main.ml" 129 6182 6232 "obc/java/java_main.ml" 129 6182 6239
+type(
+  Types.ty
+)
+ident(
+  int_ref ty_main "obc/java/java_main.ml" 88 4095 4132 "obc/java/java_main.ml" 88 4095 4139
+)
+"obc/java/java_main.ml" 129 6182 6205 "obc/java/java_main.ml" 129 6182 6239
+call(
+  stack
+)
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 130 6243 6257 "obc/java/java_main.ml" 130 6243 6263
+type(
+  Java.var_dec
+)
+ident(
+  def vd_ret "obc/java/java_main.ml" 131 6307 6317 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 130 6243 6265 "obc/java/java_main.ml" 130 6243 6266
+type(
+  Java.pattern
+)
+"obc/java/java_main.ml" 130 6243 6268 "obc/java/java_main.ml" 130 6243 6275
+type(
+  Java.exp
+)
+ident(
+  def exp_ret "obc/java/java_main.ml" 131 6307 6317 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 130 6243 6257 "obc/java/java_main.ml" 130 6243 6275
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 130 6243 6278 "obc/java/java_main.ml" 130 6243 6284
+type(
+  Java.ty -> bool -> string -> Java.var_dec * Java.pattern * Java.exp
+)
+ident(
+  int_ref mk_var "obc/java/java_main.ml" 40 2269 2273 "obc/java/java_main.ml" 40 2269 2279
+)
+"obc/java/java_main.ml" 130 6243 6285 "obc/java/java_main.ml" 130 6243 6291
+type(
+  Java.ty
+)
+ident(
+  int_ref ty_ret "obc/java/java_main.ml" 129 6182 6196 "obc/java/java_main.ml" 129 6182 6202
+)
+"obc/java/java_main.ml" 130 6243 6292 "obc/java/java_main.ml" 130 6243 6297
+type(
+  bool
+)
+"obc/java/java_main.ml" 130 6243 6298 "obc/java/java_main.ml" 130 6243 6303
+type(
+  string
+)
+"obc/java/java_main.ml" 130 6243 6278 "obc/java/java_main.ml" 130 6243 6303
+call(
+  stack
+)
+type(
+  Java.var_dec * Java.pattern * Java.exp
+)
+"obc/java/java_main.ml" 131 6307 6321 "obc/java/java_main.ml" 131 6307 6330
+type(
+  Java.act
+)
+ident(
+  def call_main "obc/java/java_main.ml" 135 6496 6506 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 131 6307 6339 "obc/java/java_main.ml" 131 6307 6345
+type(
+  Java.ty
+)
+ident(
+  int_ref ty_ret "obc/java/java_main.ml" 129 6182 6196 "obc/java/java_main.ml" 129 6182 6202
+)
+"obc/java/java_main.ml" 132 6351 6365 "obc/java/java_main.ml" 132 6351 6370
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 132 6351 6392 "obc/java/java_main.ml" 132 6351 6398
+type(
+  Java.exp
+)
+ident(
+  int_ref e_main "obc/java/java_main.ml" 88 4095 4116 "obc/java/java_main.ml" 88 4095 4122
+)
+"obc/java/java_main.ml" 132 6351 6400 "obc/java/java_main.ml" 132 6351 6406
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 132 6351 6408 "obc/java/java_main.ml" 132 6351 6410
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 132 6351 6378 "obc/java/java_main.ml" 132 6351 6412
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 132 6351 6374 "obc/java/java_main.ml" 132 6351 6412
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 133 6413 6427 "obc/java/java_main.ml" 133 6413 6428
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 133 6413 6441 "obc/java/java_main.ml" 133 6413 6447
+type(
+  Java.var_dec
+)
+ident(
+  int_ref vd_ret "obc/java/java_main.ml" 130 6243 6257 "obc/java/java_main.ml" 130 6243 6263
+)
+"obc/java/java_main.ml" 133 6413 6462 "obc/java/java_main.ml" 133 6413 6468
+type(
+  Java.exp
+)
+ident(
+  int_ref e_main "obc/java/java_main.ml" 88 4095 4116 "obc/java/java_main.ml" 88 4095 4122
+)
+"obc/java/java_main.ml" 133 6413 6470 "obc/java/java_main.ml" 133 6413 6476
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 133 6413 6478 "obc/java/java_main.ml" 133 6413 6480
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 133 6413 6449 "obc/java/java_main.ml" 133 6413 6481
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 133 6413 6432 "obc/java/java_main.ml" 133 6413 6482
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 131 6307 6333 "obc/java/java_main.ml" 133 6413 6482
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 135 6496 6510 "obc/java/java_main.ml" 135 6496 6519
+type(
+  Java.var_ident -> Java.act list
+)
+ident(
+  def print_ret "obc/java/java_main.ml" 154 7430 7440 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 135 6496 6520 "obc/java/java_main.ml" 135 6496 6521
+type(
+  Java.var_ident
+)
+ident(
+  def i "obc/java/java_main.ml" 135 6496 6524 "obc/java/java_main.ml" 152 7335 7416
+)
+"obc/java/java_main.ml" 135 6496 6530 "obc/java/java_main.ml" 135 6496 6536
+type(
+  Java.ty
+)
+ident(
+  int_ref ty_ret "obc/java/java_main.ml" 129 6182 6196 "obc/java/java_main.ml" 129 6182 6202
+)
+"obc/java/java_main.ml" 136 6542 6556 "obc/java/java_main.ml" 136 6542 6561
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 137 6565 6584 "obc/java/java_main.ml" 137 6565 6585
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 137 6565 6585 "obc/java/java_main.ml" 137 6565 6618
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/java/java_main.ml" 137 6565 6584 "obc/java/java_main.ml" 137 6565 6618
+type(
+  bool
+)
+"obc/java/java_main.ml" 138 6619 6640 "obc/java/java_main.ml" 138 6619 6642
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 139 6643 6684 "obc/java/java_main.ml" 139 6643 6687
+type(
+  Java.exp
+)
+ident(
+  int_ref out "obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+)
+"obc/java/java_main.ml" 139 6643 6689 "obc/java/java_main.ml" 139 6643 6697
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 139 6643 6708 "obc/java/java_main.ml" 139 6643 6718
+type(
+  string
+)
+"obc/java/java_main.ml" 139 6643 6700 "obc/java/java_main.ml" 139 6643 6718
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 139 6643 6725 "obc/java/java_main.ml" 139 6643 6726
+type(
+  Java.var_ident
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 135 6496 6520 "obc/java/java_main.ml" 135 6496 6521
+)
+"obc/java/java_main.ml" 139 6643 6720 "obc/java/java_main.ml" 139 6643 6726
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 139 6643 6699 "obc/java/java_main.ml" 139 6643 6727
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 139 6643 6670 "obc/java/java_main.ml" 139 6643 6729
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 139 6643 6665 "obc/java/java_main.ml" 139 6643 6729
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 139 6643 6664 "obc/java/java_main.ml" 139 6643 6730
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 137 6565 6581 "obc/java/java_main.ml" 139 6643 6730
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 140 6731 6745 "obc/java/java_main.ml" 140 6731 6746
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 141 6750 6769 "obc/java/java_main.ml" 141 6750 6770
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/java/java_main.ml" 141 6750 6770 "obc/java/java_main.ml" 141 6750 6803
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/java/java_main.ml" 141 6750 6769 "obc/java/java_main.ml" 141 6750 6803
+type(
+  bool
+)
+"obc/java/java_main.ml" 143 6825 6863 "obc/java/java_main.ml" 143 6825 6866
+type(
+  Java.exp
+)
+ident(
+  int_ref out "obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+)
+"obc/java/java_main.ml" 143 6825 6868 "obc/java/java_main.ml" 143 6825 6876
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 144 6878 6925 "obc/java/java_main.ml" 144 6878 6931
+type(
+  string
+)
+"obc/java/java_main.ml" 144 6878 6917 "obc/java/java_main.ml" 144 6878 6931
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 145 6933 6985 "obc/java/java_main.ml" 145 6933 7000
+type(
+  Java.exp
+)
+ident(
+  ext_ref Java.java_pervasives
+)
+"obc/java/java_main.ml" 146 7002 7054 "obc/java/java_main.ml" 146 7002 7067
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 146 7002 7070 "obc/java/java_main.ml" 146 7002 7077
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_ret "obc/java/java_main.ml" 130 6243 6268 "obc/java/java_main.ml" 130 6243 6275
+)
+"obc/java/java_main.ml" 146 7002 7069 "obc/java/java_main.ml" 146 7002 7078
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 145 6933 6972 "obc/java/java_main.ml" 146 7002 7079
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 144 6878 6916 "obc/java/java_main.ml" 146 7002 7080
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 143 6825 6849 "obc/java/java_main.ml" 146 7002 7082
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 143 6825 6844 "obc/java/java_main.ml" 146 7002 7082
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 143 6825 6843 "obc/java/java_main.ml" 146 7002 7083
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 148 7105 7143 "obc/java/java_main.ml" 148 7105 7146
+type(
+  Java.exp
+)
+ident(
+  int_ref out "obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+)
+"obc/java/java_main.ml" 148 7105 7148 "obc/java/java_main.ml" 148 7105 7156
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 149 7158 7205 "obc/java/java_main.ml" 149 7158 7217
+type(
+  string
+)
+"obc/java/java_main.ml" 149 7158 7197 "obc/java/java_main.ml" 149 7158 7217
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 150 7219 7263 "obc/java/java_main.ml" 150 7219 7264
+type(
+  Java.var_ident
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 135 6496 6520 "obc/java/java_main.ml" 135 6496 6521
+)
+"obc/java/java_main.ml" 150 7219 7258 "obc/java/java_main.ml" 150 7219 7264
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 151 7266 7318 "obc/java/java_main.ml" 151 7266 7333
+type(
+  Java.exp
+)
+ident(
+  ext_ref Java.java_pervasives
+)
+"obc/java/java_main.ml" 152 7335 7387 "obc/java/java_main.ml" 152 7335 7400
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 152 7335 7403 "obc/java/java_main.ml" 152 7335 7410
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_ret "obc/java/java_main.ml" 130 6243 6268 "obc/java/java_main.ml" 130 6243 6275
+)
+"obc/java/java_main.ml" 152 7335 7402 "obc/java/java_main.ml" 152 7335 7411
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 151 7266 7305 "obc/java/java_main.ml" 152 7335 7412
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 149 7158 7196 "obc/java/java_main.ml" 152 7335 7413
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 148 7105 7129 "obc/java/java_main.ml" 152 7335 7415
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 148 7105 7124 "obc/java/java_main.ml" 152 7335 7415
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 148 7105 7123 "obc/java/java_main.ml" 152 7335 7416
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 141 6750 6766 "obc/java/java_main.ml" 152 7335 7416
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 135 6496 6524 "obc/java/java_main.ml" 152 7335 7416
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 154 7430 7444 "obc/java/java_main.ml" 154 7430 7457
+type(
+  Java.var_ident -> Java.act list
+)
+ident(
+  def main_for_loop "obc/java/java_main.ml" 155 7492 7502 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 154 7430 7458 "obc/java/java_main.ml" 154 7430 7459
+type(
+  Java.var_ident
+)
+ident(
+  def i "obc/java/java_main.ml" 154 7430 7462 "obc/java/java_main.ml" 154 7430 7488
+)
+"obc/java/java_main.ml" 154 7430 7462 "obc/java/java_main.ml" 154 7430 7471
+type(
+  Java.act
+)
+ident(
+  int_ref call_main "obc/java/java_main.ml" 131 6307 6321 "obc/java/java_main.ml" 131 6307 6330
+)
+"obc/java/java_main.ml" 154 7430 7476 "obc/java/java_main.ml" 154 7430 7485
+type(
+  Java.var_ident -> Java.act list
+)
+ident(
+  int_ref print_ret "obc/java/java_main.ml" 135 6496 6510 "obc/java/java_main.ml" 135 6496 6519
+)
+"obc/java/java_main.ml" 154 7430 7486 "obc/java/java_main.ml" 154 7430 7487
+type(
+  Java.var_ident
+)
+ident(
+  int_ref i "obc/java/java_main.ml" 154 7430 7458 "obc/java/java_main.ml" 154 7430 7459
+)
+"obc/java/java_main.ml" 154 7430 7475 "obc/java/java_main.ml" 154 7430 7488
+call(
+  stack
+)
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 154 7430 7462 "obc/java/java_main.ml" 154 7430 7488
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 155 7492 7506 "obc/java/java_main.ml" 155 7492 7511
+type(
+  Java.var_dec
+)
+ident(
+  def vd_t1 "obc/java/java_main.ml" 159 7635 7645 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 155 7492 7513 "obc/java/java_main.ml" 155 7492 7517
+type(
+  Java.exp
+)
+ident(
+  def e_t1 "obc/java/java_main.ml" 159 7635 7645 "obc/java/java_main.ml" 170 8322 8333
+)
+"obc/java/java_main.ml" 155 7492 7506 "obc/java/java_main.ml" 155 7492 7517
+type(
+  Java.var_dec * Java.exp
+)
+"obc/java/java_main.ml" 156 7520 7536 "obc/java/java_main.ml" 156 7520 7538
+type(
+  Idents.ident
+)
+ident(
+  def id "obc/java/java_main.ml" 157 7575 7587 "obc/java/java_main.ml" 157 7575 7621
+)
+"obc/java/java_main.ml" 156 7520 7541 "obc/java/java_main.ml" 156 7520 7555
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/java/java_main.ml" 156 7520 7556 "obc/java/java_main.ml" 156 7520 7567
+type(
+  string
+)
+"obc/java/java_main.ml" 156 7520 7568 "obc/java/java_main.ml" 156 7520 7571
+type(
+  string
+)
+"obc/java/java_main.ml" 156 7520 7541 "obc/java/java_main.ml" 156 7520 7571
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/java/java_main.ml" 157 7575 7587 "obc/java/java_main.ml" 157 7575 7597
+type(
+  Java.var_ident -> bool -> Java.ty -> Java.var_dec
+)
+ident(
+  ext_ref Java.mk_var_dec
+)
+"obc/java/java_main.ml" 157 7575 7598 "obc/java/java_main.ml" 157 7575 7600
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 156 7520 7536 "obc/java/java_main.ml" 156 7520 7538
+)
+"obc/java/java_main.ml" 157 7575 7601 "obc/java/java_main.ml" 157 7575 7606
+type(
+  bool
+)
+"obc/java/java_main.ml" 157 7575 7607 "obc/java/java_main.ml" 157 7575 7612
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 157 7575 7587 "obc/java/java_main.ml" 157 7575 7612
+call(
+  stack
+)
+type(
+  Java.var_dec
+)
+"obc/java/java_main.ml" 157 7575 7619 "obc/java/java_main.ml" 157 7575 7621
+type(
+  Java.var_ident
+)
+ident(
+  int_ref id "obc/java/java_main.ml" 156 7520 7536 "obc/java/java_main.ml" 156 7520 7538
+)
+"obc/java/java_main.ml" 157 7575 7614 "obc/java/java_main.ml" 157 7575 7621
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 157 7575 7587 "obc/java/java_main.ml" 157 7575 7621
+type(
+  Java.var_dec * Java.exp
+)
+"obc/java/java_main.ml" 156 7520 7532 "obc/java/java_main.ml" 157 7575 7621
+type(
+  Java.var_dec * Java.exp
+)
+"obc/java/java_main.ml" 159 7635 7656 "obc/java/java_main.ml" 159 7635 7675
+type(
+  Names.name -> Java.op_name
+)
+ident(
+  ext_ref Names.pervasives_qn
+)
+"obc/java/java_main.ml" 159 7635 7676 "obc/java/java_main.ml" 159 7635 7679
+type(
+  Names.name
+)
+"obc/java/java_main.ml" 159 7635 7656 "obc/java/java_main.ml" 159 7635 7679
+call(
+  stack
+)
+type(
+  Java.op_name
+)
+"obc/java/java_main.ml" 159 7635 7691 "obc/java/java_main.ml" 159 7635 7699
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_args "obc/java/java_main.ml" 76 3552 3574 "obc/java/java_main.ml" 76 3552 3582
+)
+"obc/java/java_main.ml" 159 7635 7701 "obc/java/java_main.ml" 159 7635 7709
+type(
+  Java.field_name
+)
+"obc/java/java_main.ml" 159 7635 7683 "obc/java/java_main.ml" 159 7635 7710
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 159 7635 7717 "obc/java/java_main.ml" 159 7635 7725
+type(
+  int
+)
+ident(
+  int_ref num_args "obc/java/java_main.ml" 102 4830 4844 "obc/java/java_main.ml" 102 4830 4852
+)
+"obc/java/java_main.ml" 159 7635 7712 "obc/java/java_main.ml" 159 7635 7725
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 159 7635 7681 "obc/java/java_main.ml" 159 7635 7727
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 159 7635 7651 "obc/java/java_main.ml" 159 7635 7728
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 160 7730 7747 "obc/java/java_main.ml" 160 7730 7755
+type(
+  ?locals:Java.var_dec list -> Java.act list -> Java.block
+)
+ident(
+  ext_ref Java.mk_block
+)
+"obc/java/java_main.ml" 160 7730 7776 "obc/java/java_main.ml" 160 7730 7779
+type(
+  Java.exp
+)
+ident(
+  int_ref out "obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+)
+"obc/java/java_main.ml" 160 7730 7781 "obc/java/java_main.ml" 160 7730 7789
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 161 7791 7846 "obc/java/java_main.ml" 161 7791 7879
+type(
+  string
+)
+"obc/java/java_main.ml" 161 7791 7838 "obc/java/java_main.ml" 161 7791 7879
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 161 7791 7837 "obc/java/java_main.ml" 161 7791 7880
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 160 7730 7762 "obc/java/java_main.ml" 161 7791 7882
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 160 7730 7757 "obc/java/java_main.ml" 161 7791 7882
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 162 7884 7919 "obc/java/java_main.ml" 162 7884 7924
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 162 7884 7911 "obc/java/java_main.ml" 162 7884 7924
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 160 7730 7756 "obc/java/java_main.ml" 162 7884 7925
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 160 7730 7747 "obc/java/java_main.ml" 162 7884 7925
+call(
+  stack
+)
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 159 7635 7647 "obc/java/java_main.ml" 162 7884 7926
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 163 7928 7948 "obc/java/java_main.ml" 163 7928 7955
+type(
+  Java.var_dec
+)
+ident(
+  int_ref vd_main "obc/java/java_main.ml" 88 4095 4107 "obc/java/java_main.ml" 88 4095 4114
+)
+"obc/java/java_main.ml" 163 7928 7970 "obc/java/java_main.ml" 163 7928 7976
+type(
+  Java.class_name
+)
+ident(
+  int_ref q_main "obc/java/java_main.ml" 88 4095 4124 "obc/java/java_main.ml" 88 4095 4130
+)
+"obc/java/java_main.ml" 163 7928 7963 "obc/java/java_main.ml" 163 7928 7976
+type(
+  Java.ty
+)
+"obc/java/java_main.ml" 163 7928 7978 "obc/java/java_main.ml" 163 7928 7987
+type(
+  Java.exp list
+)
+ident(
+  int_ref main_args "obc/java/java_main.ml" 118 5570 5584 "obc/java/java_main.ml" 118 5570 5593
+)
+"obc/java/java_main.ml" 163 7928 7957 "obc/java/java_main.ml" 163 7928 7988
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 163 7928 7940 "obc/java/java_main.ml" 163 7928 7989
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 164 7991 8003 "obc/java/java_main.ml" 164 7991 8022
+type(
+  Java.act
+)
+ident(
+  int_ref parse_max_iteration "obc/java/java_main.ml" 120 5626 5640 "obc/java/java_main.ml" 120 5626 5659
+)
+"obc/java/java_main.ml" 165 8024 8044 "obc/java/java_main.ml" 165 8024 8049
+type(
+  Java.var_dec
+)
+ident(
+  int_ref vd_t1 "obc/java/java_main.ml" 155 7492 7506 "obc/java/java_main.ml" 155 7492 7511
+)
+"obc/java/java_main.ml" 165 8024 8064 "obc/java/java_main.ml" 165 8024 8068
+type(
+  Java.exp
+)
+ident(
+  int_ref jsys "obc/java/java_main.ml" 98 4664 4678 "obc/java/java_main.ml" 98 4664 4682
+)
+"obc/java/java_main.ml" 165 8024 8070 "obc/java/java_main.ml" 165 8024 8089
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 165 8024 8091 "obc/java/java_main.ml" 165 8024 8093
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 165 8024 8051 "obc/java/java_main.ml" 165 8024 8094
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 165 8024 8036 "obc/java/java_main.ml" 165 8024 8095
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 166 8097 8109 "obc/java/java_main.ml" 166 8097 8127
+type(
+  Java.exp -> (Java.var_ident -> Java.act list) -> Java.act
+)
+ident(
+  ext_ref Obc2java.fresh_for
+)
+"obc/java/java_main.ml" 166 8097 8128 "obc/java/java_main.ml" 166 8097 8136
+type(
+  Java.exp
+)
+ident(
+  int_ref exp_step "obc/java/java_main.ml" 74 3483 3512 "obc/java/java_main.ml" 74 3483 3520
+)
+"obc/java/java_main.ml" 166 8097 8137 "obc/java/java_main.ml" 166 8097 8150
+type(
+  Java.var_ident -> Java.act list
+)
+ident(
+  int_ref main_for_loop "obc/java/java_main.ml" 154 7430 7444 "obc/java/java_main.ml" 154 7430 7457
+)
+"obc/java/java_main.ml" 166 8097 8109 "obc/java/java_main.ml" 166 8097 8150
+call(
+  stack
+)
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 167 8152 8183 "obc/java/java_main.ml" 167 8152 8186
+type(
+  Java.exp
+)
+ident(
+  int_ref out "obc/java/java_main.ml" 94 4383 4397 "obc/java/java_main.ml" 94 4383 4400
+)
+"obc/java/java_main.ml" 167 8152 8188 "obc/java/java_main.ml" 167 8152 8196
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 168 8198 8222 "obc/java/java_main.ml" 168 8198 8235
+type(
+  string
+)
+"obc/java/java_main.ml" 168 8198 8214 "obc/java/java_main.ml" 168 8198 8235
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 169 8237 8258 "obc/java/java_main.ml" 169 8237 8264
+type(
+  Java.op_name
+)
+ident(
+  int_ref jminus "obc/java/java_main.ml" 99 4740 4754 "obc/java/java_main.ml" 99 4740 4760
+)
+"obc/java/java_main.ml" 169 8237 8280 "obc/java/java_main.ml" 169 8237 8284
+type(
+  Java.exp
+)
+ident(
+  int_ref jsys "obc/java/java_main.ml" 98 4664 4678 "obc/java/java_main.ml" 98 4664 4682
+)
+"obc/java/java_main.ml" 169 8237 8286 "obc/java/java_main.ml" 169 8237 8305
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 169 8237 8307 "obc/java/java_main.ml" 169 8237 8309
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 169 8237 8267 "obc/java/java_main.ml" 169 8237 8310
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 169 8237 8312 "obc/java/java_main.ml" 169 8237 8316
+type(
+  Java.exp
+)
+ident(
+  int_ref e_t1 "obc/java/java_main.ml" 155 7492 7513 "obc/java/java_main.ml" 155 7492 7517
+)
+"obc/java/java_main.ml" 169 8237 8266 "obc/java/java_main.ml" 169 8237 8317
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 169 8237 8253 "obc/java/java_main.ml" 169 8237 8318
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 168 8198 8212 "obc/java/java_main.ml" 169 8237 8319
+type(
+  Java.exp list
+)
+"obc/java/java_main.ml" 167 8152 8169 "obc/java/java_main.ml" 169 8237 8321
+type(
+  Java.exp
+)
+"obc/java/java_main.ml" 167 8152 8164 "obc/java/java_main.ml" 169 8237 8321
+type(
+  Java.act
+)
+"obc/java/java_main.ml" 159 7635 7645 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 155 7492 7502 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 154 7430 7440 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 135 6496 6506 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 131 6307 6317 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 130 6243 6253 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 129 6182 6192 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 120 5626 5636 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 118 5570 5580 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 105 4936 4946 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 102 4830 4840 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 99 4740 4750 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 98 4664 4674 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 97 4596 4606 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 96 4529 4539 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 95 4462 4472 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 94 4383 4393 "obc/java/java_main.ml" 170 8322 8333
+type(
+  Java.act list
+)
+"obc/java/java_main.ml" 172 8345 8353 "obc/java/java_main.ml" 172 8345 8361
+type(
+  ?locals:Java.var_dec list -> Java.act list -> Java.block
+)
+ident(
+  ext_ref Java.mk_block
+)
+"obc/java/java_main.ml" 172 8345 8371 "obc/java/java_main.ml" 172 8345 8378
+type(
+  Java.var_dec
+)
+ident(
+  int_ref vd_step "obc/java/java_main.ml" 74 3483 3493 "obc/java/java_main.ml" 74 3483 3500
+)
+"obc/java/java_main.ml" 172 8345 8370 "obc/java/java_main.ml" 172 8345 8379
+type(
+  Java.var_dec list
+)
+"obc/java/java_main.ml" 172 8345 8380 "obc/java/java_main.ml" 172 8345 8384
+type(
+  Java.act list
+)
+ident(
+  int_ref acts "obc/java/java_main.ml" 93 4364 4376 "obc/java/java_main.ml" 93 4364 4380
+)
+"obc/java/java_main.ml" 172 8345 8353 "obc/java/java_main.ml" 172 8345 8384
+call(
+  stack
+)
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 93 4364 4372 "obc/java/java_main.ml" 172 8345 8384
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 88 4095 4103 "obc/java/java_main.ml" 172 8345 8384
+type(
+  Java.block
+)
+"obc/java/java_main.ml" 174 8394 8400 "obc/java/java_main.ml" 174 8394 8410
+type(
+  ?protection:Java.protection ->
+  ?static:bool ->
+  ?args:Java.var_dec list ->
+  ?returns:Java.ty ->
+  ?throws:Java.class_name list ->
+  Java.block -> Java.method_name -> Java.methode
+)
+ident(
+  ext_ref Java.mk_methode
+)
+"obc/java/java_main.ml" 174 8394 8419 "obc/java/java_main.ml" 174 8394 8423
+type(
+  bool
+)
+"obc/java/java_main.ml" 174 8394 8431 "obc/java/java_main.ml" 174 8394 8438
+type(
+  Java.var_dec
+)
+ident(
+  int_ref vd_args "obc/java/java_main.ml" 76 3552 3562 "obc/java/java_main.ml" 76 3552 3569
+)
+"obc/java/java_main.ml" 174 8394 8430 "obc/java/java_main.ml" 174 8394 8439
+type(
+  Java.var_dec list
+)
+"obc/java/java_main.ml" 174 8394 8440 "obc/java/java_main.ml" 174 8394 8444
+type(
+  Java.block
+)
+ident(
+  int_ref body "obc/java/java_main.ml" 87 4078 4088 "obc/java/java_main.ml" 87 4078 4092
+)
+"obc/java/java_main.ml" 174 8394 8445 "obc/java/java_main.ml" 174 8394 8451
+type(
+  Java.method_name
+)
+"obc/java/java_main.ml" 174 8394 8400 "obc/java/java_main.ml" 174 8394 8451
+call(
+  stack
+)
+type(
+  Java.methode
+)
+"obc/java/java_main.ml" 87 4078 4084 "obc/java/java_main.ml" 174 8394 8451
+type(
+  Java.methode
+)
+"obc/java/java_main.ml" 79 3676 3682 "obc/java/java_main.ml" 174 8394 8451
+type(
+  Java.methode
+)
+"obc/java/java_main.ml" 76 3552 3558 "obc/java/java_main.ml" 174 8394 8451
+type(
+  Java.methode
+)
+"obc/java/java_main.ml" 74 3483 3489 "obc/java/java_main.ml" 174 8394 8451
+type(
+  Java.methode
+)
+"obc/java/java_main.ml" 176 8459 8467 "obc/java/java_main.ml" 176 8459 8468
+type(
+  Java.classe
+)
+ident(
+  def c "obc/java/java_main.ml" 177 8545 8549 "obc/java/java_main.ml" 177 8545 8571
+)
+"obc/java/java_main.ml" 176 8459 8471 "obc/java/java_main.ml" 176 8459 8480
+type(
+  ?imports:Java.class_name list ->
+  ?protection:Java.protection ->
+  ?static:bool ->
+  ?fields:Java.field list ->
+  ?classes:Java.classe list ->
+  ?constrs:Java.methode list ->
+  ?methodes:Java.methode list ->
+  ?implements:Java.class_name list -> Java.class_name -> Java.classe
+)
+ident(
+  ext_ref Java.mk_classe
+)
+"obc/java/java_main.ml" 176 8459 8490 "obc/java/java_main.ml" 176 8459 8504
+type(
+  Java.field
+)
+ident(
+  int_ref field_step_dnb "obc/java/java_main.ml" 67 3220 3228 "obc/java/java_main.ml" 67 3220 3242
+)
+"obc/java/java_main.ml" 176 8459 8489 "obc/java/java_main.ml" 176 8459 8505
+type(
+  Java.field list
+)
+"obc/java/java_main.ml" 176 8459 8517 "obc/java/java_main.ml" 176 8459 8529
+type(
+  Java.methode
+)
+ident(
+  int_ref main_methode "obc/java/java_main.ml" 71 3412 3420 "obc/java/java_main.ml" 71 3412 3432
+)
+"obc/java/java_main.ml" 176 8459 8516 "obc/java/java_main.ml" 176 8459 8530
+type(
+  Java.methode list
+)
+"obc/java/java_main.ml" 176 8459 8531 "obc/java/java_main.ml" 176 8459 8541
+type(
+  Java.class_name
+)
+ident(
+  int_ref class_name "obc/java/java_main.ml" 65 3095 3103 "obc/java/java_main.ml" 65 3095 3113
+)
+"obc/java/java_main.ml" 176 8459 8471 "obc/java/java_main.ml" 176 8459 8541
+call(
+  stack
+)
+type(
+  Java.classe
+)
+"obc/java/java_main.ml" 177 8545 8549 "obc/java/java_main.ml" 177 8545 8563
+type(
+  string -> Java.program -> unit
+)
+ident(
+  ext_ref Java_printer.output_program
+)
+"obc/java/java_main.ml" 177 8545 8564 "obc/java/java_main.ml" 177 8545 8567
+type(
+  string
+)
+ident(
+  int_ref dir "obc/java/java_main.ml" 47 2446 2452 "obc/java/java_main.ml" 47 2446 2455
+)
+"obc/java/java_main.ml" 177 8545 8569 "obc/java/java_main.ml" 177 8545 8570
+type(
+  Java.classe
+)
+ident(
+  int_ref c "obc/java/java_main.ml" 176 8459 8467 "obc/java/java_main.ml" 176 8459 8468
+)
+"obc/java/java_main.ml" 177 8545 8568 "obc/java/java_main.ml" 177 8545 8571
+type(
+  Java.program
+)
+"obc/java/java_main.ml" 177 8545 8549 "obc/java/java_main.ml" 177 8545 8571
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/java/java_main.ml" 176 8459 8463 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 71 3412 3416 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 67 3220 3224 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 66 3186 3190 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 65 3095 3099 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 64 3025 3029 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 63 2947 2951 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 62 2907 2911 "obc/java/java_main.ml" 177 8545 8571
+type(
+  unit
+)
+"obc/java/java_main.ml" 55 2671 2678 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)
+"obc/java/java_main.ml" 54 2637 2639 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)
+"obc/java/java_main.ml" 51 2565 2567 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)
+"obc/java/java_main.ml" 48 2494 2496 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)
+"obc/java/java_main.ml" 47 2446 2448 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)
+"obc/java/java_main.ml" 46 2409 2411 "obc/java/java_main.ml" 178 8572 8575
+type(
+  unit
+)

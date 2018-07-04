@@ -1,0 +1,72 @@
+
+declare(
+        New_B1,
+        New_B2,
+        Incr,
+        Mult);
+
+
+
+CLK_Incr : 1;
+
+C1a : not New_B1 when Incr default New_B1 when not Incr;
+
+Cout1 : New_B1 and not C1a;
+
+C2a : not New_B2 when Cout1 default New_B2 when not Cout1;
+
+CCa : New_B2 and not C2a;
+
+CLK_CCb : when Mult;
+
+CCb : New_B2 * CLK_CCb;
+
+CLK_C2 : when Incr default CLK_CCb;
+
+CC : CCa when Incr default CCb default not CLK_Incr * (1 - CLK_C2);
+
+Prop : New_B1 and New_B2;
+
+Cout1_71 : New_B1 * CLK_CCb;
+
+C2 : C2a when Incr default Cout1_71;
+
+C1 : C1a when Incr default not CLK_CCb;
+
+
+
+
+events: [
+        Incr,
+        Mult];
+
+
+states: [
+        New_B1,
+        New_B2];
+
+
+initialisations: [
+        New_B1 = - 1,
+        New_B2 = - 1];
+
+
+evolutions: [
+        C1 + (1 - CLK_C2) * New_B1,
+        C2 + (1 - CLK_C2) * New_B2];
+
+
+constraints: [
+        Incr ^2 = CLK_Incr,
+        Mult ^2 = CLK_Incr,
+        0 = (when Incr) * CLK_CCb];
+
+
+controllables: [
+        Incr];
+
+
+free_cond: [
+        ];
+
+

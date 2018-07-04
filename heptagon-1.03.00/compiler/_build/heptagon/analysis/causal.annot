@@ -1,0 +1,5589 @@
+"heptagon/analysis/causal.ml" 75 3079 3083 "heptagon/analysis/causal.ml" 75 3079 3092
+type(
+  Format.formatter -> ac -> unit
+)
+ident(
+  def output_ac "heptagon/analysis/causal.ml" 99 3975 3975 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 75 3079 3093 "heptagon/analysis/causal.ml" 75 3079 3095
+type(
+  Format.formatter
+)
+ident(
+  def ff "heptagon/analysis/causal.ml" 75 3079 3096 "heptagon/analysis/causal.ml" 96 3931 3972
+)
+"heptagon/analysis/causal.ml" 75 3079 3096 "heptagon/analysis/causal.ml" 75 3079 3098
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 76 3101 3103 "heptagon/analysis/causal.ml" 96 3931 3972
+)
+"heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  def print "heptagon/analysis/causal.ml" 76 3101 3103 "heptagon/analysis/causal.ml" 96 3931 3972
+)
+"heptagon/analysis/causal.ml" 76 3101 3117 "heptagon/analysis/causal.ml" 76 3101 3125
+type(
+  int
+)
+ident(
+  def priority "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 94 3874 3925
+)
+"heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+type(
+  Format.formatter
+)
+ident(
+  def ff "heptagon/analysis/causal.ml" 76 3101 3129 "heptagon/analysis/causal.ml" 94 3874 3925
+)
+"heptagon/analysis/causal.ml" 76 3101 3129 "heptagon/analysis/causal.ml" 76 3101 3131
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 76 3101 3134 "heptagon/analysis/causal.ml" 94 3874 3925
+)
+"heptagon/analysis/causal.ml" 76 3101 3140 "heptagon/analysis/causal.ml" 76 3101 3142
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 76 3101 3129 "heptagon/analysis/causal.ml" 76 3101 3131
+)
+"heptagon/analysis/causal.ml" 77 3148 3159 "heptagon/analysis/causal.ml" 77 3148 3162
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 78 3189 3197 "heptagon/analysis/causal.ml" 82 3359 3396
+)
+"heptagon/analysis/causal.ml" 77 3148 3164 "heptagon/analysis/causal.ml" 77 3148 3167
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 78 3189 3197 "heptagon/analysis/causal.ml" 82 3359 3396
+)
+"heptagon/analysis/causal.ml" 77 3148 3154 "heptagon/analysis/causal.ml" 77 3148 3168
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 78 3189 3201 "heptagon/analysis/causal.ml" 78 3189 3209
+type(
+  int
+)
+ident(
+  int_ref priority "heptagon/analysis/causal.ml" 76 3101 3117 "heptagon/analysis/causal.ml" 76 3101 3125
+)
+"heptagon/analysis/causal.ml" 78 3189 3210 "heptagon/analysis/causal.ml" 78 3189 3211
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/analysis/causal.ml" 78 3189 3212 "heptagon/analysis/causal.ml" 78 3189 3213
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 78 3189 3201 "heptagon/analysis/causal.ml" 78 3189 3213
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 78 3189 3219 "heptagon/analysis/causal.ml" 78 3189 3226
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 78 3189 3227 "heptagon/analysis/causal.ml" 78 3189 3229
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 78 3189 3230 "heptagon/analysis/causal.ml" 78 3189 3240
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 78 3189 3219 "heptagon/analysis/causal.ml" 78 3189 3240
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 79 3241 3258 "heptagon/analysis/causal.ml" 79 3241 3266
+type(
+  int
+)
+ident(
+  int_ref priority "heptagon/analysis/causal.ml" 76 3101 3117 "heptagon/analysis/causal.ml" 76 3101 3125
+)
+"heptagon/analysis/causal.ml" 79 3241 3267 "heptagon/analysis/causal.ml" 79 3241 3268
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"heptagon/analysis/causal.ml" 79 3241 3269 "heptagon/analysis/causal.ml" 79 3241 3270
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 79 3241 3258 "heptagon/analysis/causal.ml" 79 3241 3270
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 80 3271 3285 "heptagon/analysis/causal.ml" 80 3271 3292
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 80 3271 3293 "heptagon/analysis/causal.ml" 80 3271 3295
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 80 3271 3296 "heptagon/analysis/causal.ml" 80 3271 3317
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 80 3271 3285 "heptagon/analysis/causal.ml" 80 3271 3317
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 81 3318 3332 "heptagon/analysis/causal.ml" 81 3318 3339
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 81 3318 3340 "heptagon/analysis/causal.ml" 81 3318 3342
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 81 3318 3343 "heptagon/analysis/causal.ml" 81 3318 3357
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 81 3318 3332 "heptagon/analysis/causal.ml" 81 3318 3357
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 79 3241 3255 "heptagon/analysis/causal.ml" 81 3318 3357
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 78 3189 3197 "heptagon/analysis/causal.ml" 81 3318 3358
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 82 3359 3370 "heptagon/analysis/causal.ml" 82 3359 3375
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 82 3359 3376 "heptagon/analysis/causal.ml" 82 3359 3377
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 82 3359 3369 "heptagon/analysis/causal.ml" 82 3359 3378
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 82 3359 3379 "heptagon/analysis/causal.ml" 82 3359 3382
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 77 3148 3159 "heptagon/analysis/causal.ml" 77 3148 3162
+)
+"heptagon/analysis/causal.ml" 82 3359 3384 "heptagon/analysis/causal.ml" 82 3359 3389
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 82 3359 3390 "heptagon/analysis/causal.ml" 82 3359 3391
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 82 3359 3383 "heptagon/analysis/causal.ml" 82 3359 3392
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 82 3359 3393 "heptagon/analysis/causal.ml" 82 3359 3396
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 77 3148 3164 "heptagon/analysis/causal.ml" 77 3148 3167
+)
+"heptagon/analysis/causal.ml" 78 3189 3197 "heptagon/analysis/causal.ml" 82 3359 3396
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 83 3397 3408 "heptagon/analysis/causal.ml" 83 3397 3411
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 84 3438 3446 "heptagon/analysis/causal.ml" 88 3611 3648
+)
+"heptagon/analysis/causal.ml" 83 3397 3413 "heptagon/analysis/causal.ml" 83 3397 3416
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 84 3438 3446 "heptagon/analysis/causal.ml" 88 3611 3648
+)
+"heptagon/analysis/causal.ml" 83 3397 3403 "heptagon/analysis/causal.ml" 83 3397 3417
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 84 3438 3450 "heptagon/analysis/causal.ml" 84 3438 3458
+type(
+  int
+)
+ident(
+  int_ref priority "heptagon/analysis/causal.ml" 76 3101 3117 "heptagon/analysis/causal.ml" 76 3101 3125
+)
+"heptagon/analysis/causal.ml" 84 3438 3459 "heptagon/analysis/causal.ml" 84 3438 3460
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/analysis/causal.ml" 84 3438 3461 "heptagon/analysis/causal.ml" 84 3438 3462
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 84 3438 3450 "heptagon/analysis/causal.ml" 84 3438 3462
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 84 3438 3468 "heptagon/analysis/causal.ml" 84 3438 3475
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 84 3438 3476 "heptagon/analysis/causal.ml" 84 3438 3478
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 84 3438 3479 "heptagon/analysis/causal.ml" 84 3438 3490
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 84 3438 3468 "heptagon/analysis/causal.ml" 84 3438 3490
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 85 3491 3508 "heptagon/analysis/causal.ml" 85 3491 3516
+type(
+  int
+)
+ident(
+  int_ref priority "heptagon/analysis/causal.ml" 76 3101 3117 "heptagon/analysis/causal.ml" 76 3101 3125
+)
+"heptagon/analysis/causal.ml" 85 3491 3517 "heptagon/analysis/causal.ml" 85 3491 3518
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"heptagon/analysis/causal.ml" 85 3491 3519 "heptagon/analysis/causal.ml" 85 3491 3520
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 85 3491 3508 "heptagon/analysis/causal.ml" 85 3491 3520
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 86 3521 3535 "heptagon/analysis/causal.ml" 86 3521 3542
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 86 3521 3543 "heptagon/analysis/causal.ml" 86 3521 3545
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 86 3521 3546 "heptagon/analysis/causal.ml" 86 3521 3568
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 86 3521 3535 "heptagon/analysis/causal.ml" 86 3521 3568
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 87 3569 3583 "heptagon/analysis/causal.ml" 87 3569 3590
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 87 3569 3591 "heptagon/analysis/causal.ml" 87 3569 3593
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 87 3569 3594 "heptagon/analysis/causal.ml" 87 3569 3609
+type(
+  ((Format.formatter -> ac -> unit) ->
+   ac -> (Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter,
+   unit)
+  format
+)
+"heptagon/analysis/causal.ml" 87 3569 3583 "heptagon/analysis/causal.ml" 87 3569 3609
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 85 3491 3505 "heptagon/analysis/causal.ml" 87 3569 3609
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 84 3438 3446 "heptagon/analysis/causal.ml" 87 3569 3610
+type(
+  (Format.formatter -> ac -> unit) ->
+  ac -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 88 3611 3622 "heptagon/analysis/causal.ml" 88 3611 3627
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 88 3611 3628 "heptagon/analysis/causal.ml" 88 3611 3629
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 88 3611 3621 "heptagon/analysis/causal.ml" 88 3611 3630
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 88 3611 3631 "heptagon/analysis/causal.ml" 88 3611 3634
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 83 3397 3408 "heptagon/analysis/causal.ml" 83 3397 3411
+)
+"heptagon/analysis/causal.ml" 88 3611 3636 "heptagon/analysis/causal.ml" 88 3611 3641
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 88 3611 3642 "heptagon/analysis/causal.ml" 88 3611 3643
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 88 3611 3635 "heptagon/analysis/causal.ml" 88 3611 3644
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 88 3611 3645 "heptagon/analysis/causal.ml" 88 3611 3648
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 83 3397 3413 "heptagon/analysis/causal.ml" 83 3397 3416
+)
+"heptagon/analysis/causal.ml" 84 3438 3446 "heptagon/analysis/causal.ml" 88 3611 3648
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 89 3649 3662 "heptagon/analysis/causal.ml" 89 3649 3665
+ident(
+  def acs "heptagon/analysis/causal.ml" 90 3670 3678 "heptagon/analysis/causal.ml" 90 3670 3738
+)
+"heptagon/analysis/causal.ml" 89 3649 3661 "heptagon/analysis/causal.ml" 89 3649 3666
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 89 3649 3655 "heptagon/analysis/causal.ml" 89 3649 3666
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 90 3670 3678 "heptagon/analysis/causal.ml" 90 3670 3685
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac list -> unit) -> ac list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> ac list -> unit) -> ac list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 90 3670 3686 "heptagon/analysis/causal.ml" 90 3670 3688
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 90 3670 3689 "heptagon/analysis/causal.ml" 90 3670 3697
+type(
+  ((Format.formatter -> ac list -> unit) -> ac list -> unit,
+   Format.formatter, unit)
+  format
+)
+"heptagon/analysis/causal.ml" 90 3670 3699 "heptagon/analysis/causal.ml" 90 3670 3711
+type(
+  (Format.formatter -> ac -> unit) ->
+  string -> string -> string -> Format.formatter -> ac list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"heptagon/analysis/causal.ml" 90 3670 3713 "heptagon/analysis/causal.ml" 90 3670 3718
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 90 3670 3719 "heptagon/analysis/causal.ml" 90 3670 3720
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 90 3670 3712 "heptagon/analysis/causal.ml" 90 3670 3721
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 90 3670 3722 "heptagon/analysis/causal.ml" 90 3670 3725
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 90 3670 3726 "heptagon/analysis/causal.ml" 90 3670 3729
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 90 3670 3730 "heptagon/analysis/causal.ml" 90 3670 3733
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 90 3670 3698 "heptagon/analysis/causal.ml" 90 3670 3734
+call(
+  stack
+)
+type(
+  Format.formatter -> ac list -> unit
+)
+"heptagon/analysis/causal.ml" 90 3670 3735 "heptagon/analysis/causal.ml" 90 3670 3738
+type(
+  ac list
+)
+ident(
+  int_ref acs "heptagon/analysis/causal.ml" 89 3649 3661 "heptagon/analysis/causal.ml" 89 3649 3666
+)
+"heptagon/analysis/causal.ml" 90 3670 3678 "heptagon/analysis/causal.ml" 90 3670 3738
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 91 3739 3752 "heptagon/analysis/causal.ml" 91 3739 3753
+ident(
+  def m "heptagon/analysis/causal.ml" 91 3739 3758 "heptagon/analysis/causal.ml" 91 3739 3782
+)
+"heptagon/analysis/causal.ml" 91 3739 3751 "heptagon/analysis/causal.ml" 91 3739 3754
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 91 3739 3745 "heptagon/analysis/causal.ml" 91 3739 3754
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 91 3739 3758 "heptagon/analysis/causal.ml" 91 3739 3765
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 91 3739 3766 "heptagon/analysis/causal.ml" 91 3739 3768
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 91 3739 3769 "heptagon/analysis/causal.ml" 91 3739 3773
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"heptagon/analysis/causal.ml" 91 3739 3775 "heptagon/analysis/causal.ml" 91 3739 3779
+type(
+  Idents.ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/analysis/causal.ml" 91 3739 3780 "heptagon/analysis/causal.ml" 91 3739 3781
+type(
+  Idents.ident
+)
+ident(
+  int_ref m "heptagon/analysis/causal.ml" 91 3739 3751 "heptagon/analysis/causal.ml" 91 3739 3754
+)
+"heptagon/analysis/causal.ml" 91 3739 3774 "heptagon/analysis/causal.ml" 91 3739 3782
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 91 3739 3758 "heptagon/analysis/causal.ml" 91 3739 3782
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 92 3783 3795 "heptagon/analysis/causal.ml" 92 3783 3796
+ident(
+  def m "heptagon/analysis/causal.ml" 92 3783 3801 "heptagon/analysis/causal.ml" 92 3783 3826
+)
+"heptagon/analysis/causal.ml" 92 3783 3794 "heptagon/analysis/causal.ml" 92 3783 3797
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 92 3783 3789 "heptagon/analysis/causal.ml" 92 3783 3797
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 92 3783 3801 "heptagon/analysis/causal.ml" 92 3783 3808
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 92 3783 3809 "heptagon/analysis/causal.ml" 92 3783 3811
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 92 3783 3812 "heptagon/analysis/causal.ml" 92 3783 3817
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"heptagon/analysis/causal.ml" 92 3783 3819 "heptagon/analysis/causal.ml" 92 3783 3823
+type(
+  Idents.ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/analysis/causal.ml" 92 3783 3824 "heptagon/analysis/causal.ml" 92 3783 3825
+type(
+  Idents.ident
+)
+ident(
+  int_ref m "heptagon/analysis/causal.ml" 92 3783 3794 "heptagon/analysis/causal.ml" 92 3783 3797
+)
+"heptagon/analysis/causal.ml" 92 3783 3818 "heptagon/analysis/causal.ml" 92 3783 3826
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 92 3783 3801 "heptagon/analysis/causal.ml" 92 3783 3826
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 93 3827 3842 "heptagon/analysis/causal.ml" 93 3827 3843
+ident(
+  def m "heptagon/analysis/causal.ml" 93 3827 3848 "heptagon/analysis/causal.ml" 93 3827 3873
+)
+"heptagon/analysis/causal.ml" 93 3827 3841 "heptagon/analysis/causal.ml" 93 3827 3844
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 93 3827 3833 "heptagon/analysis/causal.ml" 93 3827 3844
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 93 3827 3848 "heptagon/analysis/causal.ml" 93 3827 3855
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 93 3827 3856 "heptagon/analysis/causal.ml" 93 3827 3858
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 93 3827 3859 "heptagon/analysis/causal.ml" 93 3827 3864
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"heptagon/analysis/causal.ml" 93 3827 3866 "heptagon/analysis/causal.ml" 93 3827 3870
+type(
+  Idents.ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/analysis/causal.ml" 93 3827 3871 "heptagon/analysis/causal.ml" 93 3827 3872
+type(
+  Idents.ident
+)
+ident(
+  int_ref m "heptagon/analysis/causal.ml" 93 3827 3841 "heptagon/analysis/causal.ml" 93 3827 3844
+)
+"heptagon/analysis/causal.ml" 93 3827 3865 "heptagon/analysis/causal.ml" 93 3827 3873
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 93 3827 3848 "heptagon/analysis/causal.ml" 93 3827 3873
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 94 3874 3890 "heptagon/analysis/causal.ml" 94 3874 3891
+ident(
+  def m "heptagon/analysis/causal.ml" 94 3874 3896 "heptagon/analysis/causal.ml" 94 3874 3925
+)
+"heptagon/analysis/causal.ml" 94 3874 3889 "heptagon/analysis/causal.ml" 94 3874 3892
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 94 3874 3880 "heptagon/analysis/causal.ml" 94 3874 3892
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 94 3874 3896 "heptagon/analysis/causal.ml" 94 3874 3903
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 94 3874 3904 "heptagon/analysis/causal.ml" 94 3874 3906
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 76 3101 3126 "heptagon/analysis/causal.ml" 76 3101 3128
+)
+"heptagon/analysis/causal.ml" 94 3874 3907 "heptagon/analysis/causal.ml" 94 3874 3916
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"heptagon/analysis/causal.ml" 94 3874 3918 "heptagon/analysis/causal.ml" 94 3874 3922
+type(
+  Idents.ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/analysis/causal.ml" 94 3874 3923 "heptagon/analysis/causal.ml" 94 3874 3924
+type(
+  Idents.ident
+)
+ident(
+  int_ref m "heptagon/analysis/causal.ml" 94 3874 3889 "heptagon/analysis/causal.ml" 94 3874 3892
+)
+"heptagon/analysis/causal.ml" 94 3874 3917 "heptagon/analysis/causal.ml" 94 3874 3925
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/analysis/causal.ml" 94 3874 3896 "heptagon/analysis/causal.ml" 94 3874 3925
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 76 3101 3134 "heptagon/analysis/causal.ml" 94 3874 3925
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 96 3931 3933 "heptagon/analysis/causal.ml" 96 3931 3940
+type(
+  Format.formatter ->
+  ((Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"heptagon/analysis/causal.ml" 96 3931 3941 "heptagon/analysis/causal.ml" 96 3931 3943
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "heptagon/analysis/causal.ml" 75 3079 3093 "heptagon/analysis/causal.ml" 75 3079 3095
+)
+"heptagon/analysis/causal.ml" 96 3931 3944 "heptagon/analysis/causal.ml" 96 3931 3959
+type(
+  ((Format.formatter -> ac -> unit) -> ac -> unit, Format.formatter, unit)
+  format
+)
+"heptagon/analysis/causal.ml" 96 3931 3961 "heptagon/analysis/causal.ml" 96 3931 3966
+type(
+  int -> Format.formatter -> ac -> unit
+)
+ident(
+  int_ref print "heptagon/analysis/causal.ml" 76 3101 3111 "heptagon/analysis/causal.ml" 76 3101 3116
+)
+"heptagon/analysis/causal.ml" 96 3931 3967 "heptagon/analysis/causal.ml" 96 3931 3968
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 96 3931 3960 "heptagon/analysis/causal.ml" 96 3931 3969
+call(
+  stack
+)
+type(
+  Format.formatter -> ac -> unit
+)
+"heptagon/analysis/causal.ml" 96 3931 3970 "heptagon/analysis/causal.ml" 96 3931 3972
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 75 3079 3096 "heptagon/analysis/causal.ml" 75 3079 3098
+)
+"heptagon/analysis/causal.ml" 96 3931 3933 "heptagon/analysis/causal.ml" 96 3931 3972
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 76 3101 3103 "heptagon/analysis/causal.ml" 96 3931 3972
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 103 4039 4043 "heptagon/analysis/causal.ml" 103 4039 4048
+type(
+  error -> 'a
+)
+ident(
+  def error "heptagon/analysis/causal.ml" 105 4077 4077 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 103 4039 4049 "heptagon/analysis/causal.ml" 103 4039 4053
+type(
+  error
+)
+ident(
+  def kind "heptagon/analysis/causal.ml" 103 4039 4056 "heptagon/analysis/causal.ml" 103 4039 4075
+)
+"heptagon/analysis/causal.ml" 103 4039 4056 "heptagon/analysis/causal.ml" 103 4039 4061
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 103 4039 4068 "heptagon/analysis/causal.ml" 103 4039 4074
+type(
+  error
+)
+ident(
+  int_ref kind "heptagon/analysis/causal.ml" 103 4039 4049 "heptagon/analysis/causal.ml" 103 4039 4053
+)
+"heptagon/analysis/causal.ml" 103 4039 4062 "heptagon/analysis/causal.ml" 103 4039 4075
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 103 4039 4056 "heptagon/analysis/causal.ml" 103 4039 4075
+type(
+  'a
+)
+"heptagon/analysis/causal.ml" 105 4077 4081 "heptagon/analysis/causal.ml" 105 4077 4088
+type(
+  Location.location -> error -> 'a
+)
+ident(
+  def message "heptagon/analysis/causal.ml" 115 4329 4329 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 105 4077 4089 "heptagon/analysis/causal.ml" 105 4077 4092
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/analysis/causal.ml" 105 4077 4093 "heptagon/analysis/causal.ml" 113 4307 4327
+)
+"heptagon/analysis/causal.ml" 105 4077 4093 "heptagon/analysis/causal.ml" 105 4077 4097
+type(
+  error
+)
+ident(
+  def kind "heptagon/analysis/causal.ml" 106 4100 4102 "heptagon/analysis/causal.ml" 113 4307 4327
+)
+"heptagon/analysis/causal.ml" 106 4100 4114 "heptagon/analysis/causal.ml" 106 4100 4118
+type(
+  error
+)
+ident(
+  int_ref kind "heptagon/analysis/causal.ml" 105 4077 4093 "heptagon/analysis/causal.ml" 105 4077 4097
+)
+"heptagon/analysis/causal.ml" 107 4124 4147 "heptagon/analysis/causal.ml" 107 4124 4149
+ident(
+  def ac "heptagon/analysis/causal.ml" 108 4154 4162 "heptagon/analysis/causal.ml" 111 4277 4299
+)
+"heptagon/analysis/causal.ml" 107 4124 4146 "heptagon/analysis/causal.ml" 107 4124 4150
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 107 4124 4130 "heptagon/analysis/causal.ml" 107 4124 4150
+type(
+  error
+)
+"heptagon/analysis/causal.ml" 108 4154 4162 "heptagon/analysis/causal.ml" 108 4154 4169
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> (Format.formatter -> ac -> unit) -> ac -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> (Format.formatter -> ac -> unit) -> ac -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/analysis/causal.ml" 109 4170 4180 "heptagon/analysis/causal.ml" 109 4170 4247
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> (Format.formatter -> ac -> unit) -> ac -> unit,
+   Format.formatter, unit)
+  format
+)
+"heptagon/analysis/causal.ml" 110 4248 4258 "heptagon/analysis/causal.ml" 110 4248 4272
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"heptagon/analysis/causal.ml" 110 4248 4273 "heptagon/analysis/causal.ml" 110 4248 4276
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/analysis/causal.ml" 105 4077 4089 "heptagon/analysis/causal.ml" 105 4077 4092
+)
+"heptagon/analysis/causal.ml" 111 4277 4287 "heptagon/analysis/causal.ml" 111 4277 4296
+type(
+  Format.formatter -> ac -> unit
+)
+ident(
+  int_ref output_ac "heptagon/analysis/causal.ml" 75 3079 3083 "heptagon/analysis/causal.ml" 75 3079 3092
+)
+"heptagon/analysis/causal.ml" 111 4277 4297 "heptagon/analysis/causal.ml" 111 4277 4299
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 107 4124 4146 "heptagon/analysis/causal.ml" 107 4124 4150
+)
+"heptagon/analysis/causal.ml" 108 4154 4162 "heptagon/analysis/causal.ml" 111 4277 4299
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 106 4100 4102 "heptagon/analysis/causal.ml" 112 4300 4305
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 113 4307 4309 "heptagon/analysis/causal.ml" 113 4307 4314
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 113 4307 4315 "heptagon/analysis/causal.ml" 113 4307 4327
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 113 4307 4309 "heptagon/analysis/causal.ml" 113 4307 4327
+type(
+  'a
+)
+"heptagon/analysis/causal.ml" 106 4100 4102 "heptagon/analysis/causal.ml" 113 4307 4327
+type(
+  'a
+)
+"heptagon/analysis/causal.ml" 115 4329 4333 "heptagon/analysis/causal.ml" 115 4329 4336
+type(
+  nc -> nc -> nc
+)
+ident(
+  def cor "heptagon/analysis/causal.ml" 120 4426 4426 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 115 4329 4337 "heptagon/analysis/causal.ml" 115 4329 4340
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 115 4329 4341 "heptagon/analysis/causal.ml" 118 4400 4424
+)
+"heptagon/analysis/causal.ml" 115 4329 4341 "heptagon/analysis/causal.ml" 115 4329 4344
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 116 4347 4349 "heptagon/analysis/causal.ml" 118 4400 4424
+)
+"heptagon/analysis/causal.ml" 116 4347 4355 "heptagon/analysis/causal.ml" 116 4347 4358
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 115 4329 4337 "heptagon/analysis/causal.ml" 115 4329 4340
+)
+"heptagon/analysis/causal.ml" 116 4347 4360 "heptagon/analysis/causal.ml" 116 4347 4363
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 115 4329 4341 "heptagon/analysis/causal.ml" 115 4329 4344
+)
+"heptagon/analysis/causal.ml" 116 4347 4355 "heptagon/analysis/causal.ml" 116 4347 4363
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 117 4369 4375 "heptagon/analysis/causal.ml" 117 4369 4381
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 117 4369 4383 "heptagon/analysis/causal.ml" 117 4369 4389
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 117 4369 4375 "heptagon/analysis/causal.ml" 117 4369 4389
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 117 4369 4393 "heptagon/analysis/causal.ml" 117 4369 4399
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 118 4400 4406 "heptagon/analysis/causal.ml" 118 4400 4407
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 118 4400 4415 "heptagon/analysis/causal.ml" 118 4400 4418
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 115 4329 4337 "heptagon/analysis/causal.ml" 115 4329 4340
+)
+"heptagon/analysis/causal.ml" 118 4400 4420 "heptagon/analysis/causal.ml" 118 4400 4423
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 115 4329 4341 "heptagon/analysis/causal.ml" 115 4329 4344
+)
+"heptagon/analysis/causal.ml" 118 4400 4411 "heptagon/analysis/causal.ml" 118 4400 4424
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 116 4347 4349 "heptagon/analysis/causal.ml" 118 4400 4424
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+type(
+  nc -> nc -> nc
+)
+ident(
+  def cseq "heptagon/analysis/causal.ml" 120 4426 4426 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 120 4426 4439 "heptagon/analysis/causal.ml" 120 4426 4442
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 120 4426 4443 "heptagon/analysis/causal.ml" 126 4641 4688
+)
+"heptagon/analysis/causal.ml" 120 4426 4443 "heptagon/analysis/causal.ml" 120 4426 4446
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 121 4449 4451 "heptagon/analysis/causal.ml" 126 4641 4688
+)
+"heptagon/analysis/causal.ml" 121 4449 4457 "heptagon/analysis/causal.ml" 121 4449 4460
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 120 4426 4439 "heptagon/analysis/causal.ml" 120 4426 4442
+)
+"heptagon/analysis/causal.ml" 121 4449 4462 "heptagon/analysis/causal.ml" 121 4449 4465
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 120 4426 4443 "heptagon/analysis/causal.ml" 120 4426 4446
+)
+"heptagon/analysis/causal.ml" 121 4449 4457 "heptagon/analysis/causal.ml" 121 4449 4465
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 122 4471 4477 "heptagon/analysis/causal.ml" 122 4471 4483
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 122 4471 4485 "heptagon/analysis/causal.ml" 122 4471 4486
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 122 4471 4477 "heptagon/analysis/causal.ml" 122 4471 4486
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 122 4471 4490 "heptagon/analysis/causal.ml" 122 4471 4493
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 120 4426 4443 "heptagon/analysis/causal.ml" 120 4426 4446
+)
+"heptagon/analysis/causal.ml" 123 4494 4500 "heptagon/analysis/causal.ml" 123 4494 4501
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 123 4494 4503 "heptagon/analysis/causal.ml" 123 4494 4509
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 123 4494 4500 "heptagon/analysis/causal.ml" 123 4494 4509
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 123 4494 4513 "heptagon/analysis/causal.ml" 123 4494 4516
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 120 4426 4439 "heptagon/analysis/causal.ml" 120 4426 4442
+)
+"heptagon/analysis/causal.ml" 124 4517 4527 "heptagon/analysis/causal.ml" 124 4517 4530
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 124 4517 4546 "heptagon/analysis/causal.ml" 124 4517 4578
+)
+"heptagon/analysis/causal.ml" 124 4517 4532 "heptagon/analysis/causal.ml" 124 4517 4536
+type(
+  nc
+)
+ident(
+  def nc11 "heptagon/analysis/causal.ml" 124 4517 4546 "heptagon/analysis/causal.ml" 124 4517 4578
+)
+"heptagon/analysis/causal.ml" 124 4517 4523 "heptagon/analysis/causal.ml" 124 4517 4537
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 124 4517 4539 "heptagon/analysis/causal.ml" 124 4517 4542
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 124 4517 4546 "heptagon/analysis/causal.ml" 124 4517 4578
+)
+"heptagon/analysis/causal.ml" 124 4517 4523 "heptagon/analysis/causal.ml" 124 4517 4542
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 124 4517 4550 "heptagon/analysis/causal.ml" 124 4517 4554
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 124 4517 4555 "heptagon/analysis/causal.ml" 124 4517 4558
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 124 4517 4527 "heptagon/analysis/causal.ml" 124 4517 4530
+)
+"heptagon/analysis/causal.ml" 124 4517 4559 "heptagon/analysis/causal.ml" 124 4517 4562
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 124 4517 4539 "heptagon/analysis/causal.ml" 124 4517 4542
+)
+"heptagon/analysis/causal.ml" 124 4517 4550 "heptagon/analysis/causal.ml" 124 4517 4562
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 124 4517 4564 "heptagon/analysis/causal.ml" 124 4517 4568
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 124 4517 4569 "heptagon/analysis/causal.ml" 124 4517 4573
+type(
+  nc
+)
+ident(
+  int_ref nc11 "heptagon/analysis/causal.ml" 124 4517 4532 "heptagon/analysis/causal.ml" 124 4517 4536
+)
+"heptagon/analysis/causal.ml" 124 4517 4574 "heptagon/analysis/causal.ml" 124 4517 4577
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 124 4517 4539 "heptagon/analysis/causal.ml" 124 4517 4542
+)
+"heptagon/analysis/causal.ml" 124 4517 4564 "heptagon/analysis/causal.ml" 124 4517 4577
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 124 4517 4546 "heptagon/analysis/causal.ml" 124 4517 4578
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 125 4579 4585 "heptagon/analysis/causal.ml" 125 4579 4588
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 125 4579 4608 "heptagon/analysis/causal.ml" 125 4579 4640
+)
+"heptagon/analysis/causal.ml" 125 4579 4594 "heptagon/analysis/causal.ml" 125 4579 4597
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 125 4579 4608 "heptagon/analysis/causal.ml" 125 4579 4640
+)
+"heptagon/analysis/causal.ml" 125 4579 4599 "heptagon/analysis/causal.ml" 125 4579 4603
+type(
+  nc
+)
+ident(
+  def nc22 "heptagon/analysis/causal.ml" 125 4579 4608 "heptagon/analysis/causal.ml" 125 4579 4640
+)
+"heptagon/analysis/causal.ml" 125 4579 4590 "heptagon/analysis/causal.ml" 125 4579 4604
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 125 4579 4585 "heptagon/analysis/causal.ml" 125 4579 4604
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 125 4579 4612 "heptagon/analysis/causal.ml" 125 4579 4616
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 125 4579 4617 "heptagon/analysis/causal.ml" 125 4579 4620
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 125 4579 4585 "heptagon/analysis/causal.ml" 125 4579 4588
+)
+"heptagon/analysis/causal.ml" 125 4579 4621 "heptagon/analysis/causal.ml" 125 4579 4624
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 125 4579 4594 "heptagon/analysis/causal.ml" 125 4579 4597
+)
+"heptagon/analysis/causal.ml" 125 4579 4612 "heptagon/analysis/causal.ml" 125 4579 4624
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 125 4579 4626 "heptagon/analysis/causal.ml" 125 4579 4630
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 125 4579 4631 "heptagon/analysis/causal.ml" 125 4579 4634
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 125 4579 4585 "heptagon/analysis/causal.ml" 125 4579 4588
+)
+"heptagon/analysis/causal.ml" 125 4579 4635 "heptagon/analysis/causal.ml" 125 4579 4639
+type(
+  nc
+)
+ident(
+  int_ref nc22 "heptagon/analysis/causal.ml" 125 4579 4599 "heptagon/analysis/causal.ml" 125 4579 4603
+)
+"heptagon/analysis/causal.ml" 125 4579 4626 "heptagon/analysis/causal.ml" 125 4579 4639
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 125 4579 4608 "heptagon/analysis/causal.ml" 125 4579 4640
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 126 4641 4651 "heptagon/analysis/causal.ml" 126 4641 4654
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 126 4641 4669 "heptagon/analysis/causal.ml" 126 4641 4688
+)
+"heptagon/analysis/causal.ml" 126 4641 4650 "heptagon/analysis/causal.ml" 126 4641 4655
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 126 4641 4647 "heptagon/analysis/causal.ml" 126 4641 4655
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 126 4641 4661 "heptagon/analysis/causal.ml" 126 4641 4664
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 126 4641 4669 "heptagon/analysis/causal.ml" 126 4641 4688
+)
+"heptagon/analysis/causal.ml" 126 4641 4660 "heptagon/analysis/causal.ml" 126 4641 4665
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 126 4641 4657 "heptagon/analysis/causal.ml" 126 4641 4665
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 126 4641 4647 "heptagon/analysis/causal.ml" 126 4641 4665
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 126 4641 4678 "heptagon/analysis/causal.ml" 126 4641 4681
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 126 4641 4650 "heptagon/analysis/causal.ml" 126 4641 4655
+)
+"heptagon/analysis/causal.ml" 126 4641 4683 "heptagon/analysis/causal.ml" 126 4641 4686
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 126 4641 4660 "heptagon/analysis/causal.ml" 126 4641 4665
+)
+"heptagon/analysis/causal.ml" 126 4641 4672 "heptagon/analysis/causal.ml" 126 4641 4688
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 126 4641 4669 "heptagon/analysis/causal.ml" 126 4641 4688
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 121 4449 4451 "heptagon/analysis/causal.ml" 126 4641 4688
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+type(
+  nc -> nc -> nc
+)
+ident(
+  def cand "heptagon/analysis/causal.ml" 128 4690 4690 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 128 4690 4703 "heptagon/analysis/causal.ml" 128 4690 4706
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 128 4690 4707 "heptagon/analysis/causal.ml" 133 4901 4948
+)
+"heptagon/analysis/causal.ml" 128 4690 4707 "heptagon/analysis/causal.ml" 128 4690 4710
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 129 4713 4715 "heptagon/analysis/causal.ml" 133 4901 4948
+)
+"heptagon/analysis/causal.ml" 129 4713 4721 "heptagon/analysis/causal.ml" 129 4713 4724
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 128 4690 4703 "heptagon/analysis/causal.ml" 128 4690 4706
+)
+"heptagon/analysis/causal.ml" 129 4713 4726 "heptagon/analysis/causal.ml" 129 4713 4729
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 128 4690 4707 "heptagon/analysis/causal.ml" 128 4690 4710
+)
+"heptagon/analysis/causal.ml" 129 4713 4721 "heptagon/analysis/causal.ml" 129 4713 4729
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4741 "heptagon/analysis/causal.ml" 130 4735 4747
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4749 "heptagon/analysis/causal.ml" 130 4735 4750
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4741 "heptagon/analysis/causal.ml" 130 4735 4750
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4754 "heptagon/analysis/causal.ml" 130 4735 4757
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 128 4690 4707 "heptagon/analysis/causal.ml" 128 4690 4710
+)
+"heptagon/analysis/causal.ml" 130 4735 4760 "heptagon/analysis/causal.ml" 130 4735 4761
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4763 "heptagon/analysis/causal.ml" 130 4735 4769
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4760 "heptagon/analysis/causal.ml" 130 4735 4769
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 130 4735 4773 "heptagon/analysis/causal.ml" 130 4735 4776
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 128 4690 4703 "heptagon/analysis/causal.ml" 128 4690 4706
+)
+"heptagon/analysis/causal.ml" 131 4777 4787 "heptagon/analysis/causal.ml" 131 4777 4790
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 131 4777 4806 "heptagon/analysis/causal.ml" 131 4777 4838
+)
+"heptagon/analysis/causal.ml" 131 4777 4792 "heptagon/analysis/causal.ml" 131 4777 4796
+type(
+  nc
+)
+ident(
+  def nc11 "heptagon/analysis/causal.ml" 131 4777 4806 "heptagon/analysis/causal.ml" 131 4777 4838
+)
+"heptagon/analysis/causal.ml" 131 4777 4783 "heptagon/analysis/causal.ml" 131 4777 4797
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 131 4777 4799 "heptagon/analysis/causal.ml" 131 4777 4802
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 131 4777 4806 "heptagon/analysis/causal.ml" 131 4777 4838
+)
+"heptagon/analysis/causal.ml" 131 4777 4783 "heptagon/analysis/causal.ml" 131 4777 4802
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 131 4777 4810 "heptagon/analysis/causal.ml" 131 4777 4814
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 131 4777 4815 "heptagon/analysis/causal.ml" 131 4777 4818
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 131 4777 4787 "heptagon/analysis/causal.ml" 131 4777 4790
+)
+"heptagon/analysis/causal.ml" 131 4777 4819 "heptagon/analysis/causal.ml" 131 4777 4822
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 131 4777 4799 "heptagon/analysis/causal.ml" 131 4777 4802
+)
+"heptagon/analysis/causal.ml" 131 4777 4810 "heptagon/analysis/causal.ml" 131 4777 4822
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 131 4777 4824 "heptagon/analysis/causal.ml" 131 4777 4828
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 131 4777 4829 "heptagon/analysis/causal.ml" 131 4777 4833
+type(
+  nc
+)
+ident(
+  int_ref nc11 "heptagon/analysis/causal.ml" 131 4777 4792 "heptagon/analysis/causal.ml" 131 4777 4796
+)
+"heptagon/analysis/causal.ml" 131 4777 4834 "heptagon/analysis/causal.ml" 131 4777 4837
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 131 4777 4799 "heptagon/analysis/causal.ml" 131 4777 4802
+)
+"heptagon/analysis/causal.ml" 131 4777 4824 "heptagon/analysis/causal.ml" 131 4777 4837
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 131 4777 4806 "heptagon/analysis/causal.ml" 131 4777 4838
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 132 4839 4845 "heptagon/analysis/causal.ml" 132 4839 4848
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 132 4839 4868 "heptagon/analysis/causal.ml" 132 4839 4900
+)
+"heptagon/analysis/causal.ml" 132 4839 4854 "heptagon/analysis/causal.ml" 132 4839 4857
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 132 4839 4868 "heptagon/analysis/causal.ml" 132 4839 4900
+)
+"heptagon/analysis/causal.ml" 132 4839 4859 "heptagon/analysis/causal.ml" 132 4839 4863
+type(
+  nc
+)
+ident(
+  def nc22 "heptagon/analysis/causal.ml" 132 4839 4868 "heptagon/analysis/causal.ml" 132 4839 4900
+)
+"heptagon/analysis/causal.ml" 132 4839 4850 "heptagon/analysis/causal.ml" 132 4839 4864
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 132 4839 4845 "heptagon/analysis/causal.ml" 132 4839 4864
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 132 4839 4872 "heptagon/analysis/causal.ml" 132 4839 4876
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 132 4839 4877 "heptagon/analysis/causal.ml" 132 4839 4880
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 132 4839 4845 "heptagon/analysis/causal.ml" 132 4839 4848
+)
+"heptagon/analysis/causal.ml" 132 4839 4881 "heptagon/analysis/causal.ml" 132 4839 4884
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 132 4839 4854 "heptagon/analysis/causal.ml" 132 4839 4857
+)
+"heptagon/analysis/causal.ml" 132 4839 4872 "heptagon/analysis/causal.ml" 132 4839 4884
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 132 4839 4886 "heptagon/analysis/causal.ml" 132 4839 4890
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 132 4839 4891 "heptagon/analysis/causal.ml" 132 4839 4894
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 132 4839 4845 "heptagon/analysis/causal.ml" 132 4839 4848
+)
+"heptagon/analysis/causal.ml" 132 4839 4895 "heptagon/analysis/causal.ml" 132 4839 4899
+type(
+  nc
+)
+ident(
+  int_ref nc22 "heptagon/analysis/causal.ml" 132 4839 4859 "heptagon/analysis/causal.ml" 132 4839 4863
+)
+"heptagon/analysis/causal.ml" 132 4839 4886 "heptagon/analysis/causal.ml" 132 4839 4899
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 132 4839 4868 "heptagon/analysis/causal.ml" 132 4839 4900
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 133 4901 4911 "heptagon/analysis/causal.ml" 133 4901 4914
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 133 4901 4929 "heptagon/analysis/causal.ml" 133 4901 4948
+)
+"heptagon/analysis/causal.ml" 133 4901 4910 "heptagon/analysis/causal.ml" 133 4901 4915
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 133 4901 4907 "heptagon/analysis/causal.ml" 133 4901 4915
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 133 4901 4921 "heptagon/analysis/causal.ml" 133 4901 4924
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 133 4901 4929 "heptagon/analysis/causal.ml" 133 4901 4948
+)
+"heptagon/analysis/causal.ml" 133 4901 4920 "heptagon/analysis/causal.ml" 133 4901 4925
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 133 4901 4917 "heptagon/analysis/causal.ml" 133 4901 4925
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 133 4901 4907 "heptagon/analysis/causal.ml" 133 4901 4925
+type(
+  nc * nc
+)
+"heptagon/analysis/causal.ml" 133 4901 4938 "heptagon/analysis/causal.ml" 133 4901 4941
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 133 4901 4910 "heptagon/analysis/causal.ml" 133 4901 4915
+)
+"heptagon/analysis/causal.ml" 133 4901 4943 "heptagon/analysis/causal.ml" 133 4901 4946
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 133 4901 4920 "heptagon/analysis/causal.ml" 133 4901 4925
+)
+"heptagon/analysis/causal.ml" 133 4901 4932 "heptagon/analysis/causal.ml" 133 4901 4948
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 133 4901 4929 "heptagon/analysis/causal.ml" 133 4901 4948
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 129 4713 4715 "heptagon/analysis/causal.ml" 133 4901 4948
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 135 4950 4954 "heptagon/analysis/causal.ml" 135 4950 4962
+type(
+  ac list -> nc
+)
+ident(
+  def mk_tuple "heptagon/analysis/causal.ml" 140 5041 5041 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 135 4950 4963 "heptagon/analysis/causal.ml" 135 4950 4964
+type(
+  ac list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 135 4950 4967 "heptagon/analysis/causal.ml" 138 5016 5039
+)
+"heptagon/analysis/causal.ml" 135 4950 4973 "heptagon/analysis/causal.ml" 135 4950 4974
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 135 4950 4963 "heptagon/analysis/causal.ml" 135 4950 4964
+)
+"heptagon/analysis/causal.ml" 136 4980 4984 "heptagon/analysis/causal.ml" 136 4980 4986
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 136 4980 4990 "heptagon/analysis/causal.ml" 136 4980 4996
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 137 4997 5002 "heptagon/analysis/causal.ml" 137 4997 5004
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 137 4997 5009 "heptagon/analysis/causal.ml" 137 4997 5015
+)
+"heptagon/analysis/causal.ml" 137 4997 5001 "heptagon/analysis/causal.ml" 137 4997 5005
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 137 4997 5013 "heptagon/analysis/causal.ml" 137 4997 5015
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 137 4997 5002 "heptagon/analysis/causal.ml" 137 4997 5004
+)
+"heptagon/analysis/causal.ml" 137 4997 5009 "heptagon/analysis/causal.ml" 137 4997 5015
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 138 5016 5020 "heptagon/analysis/causal.ml" 138 5016 5021
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 138 5016 5037 "heptagon/analysis/causal.ml" 138 5016 5038
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 135 4950 4963 "heptagon/analysis/causal.ml" 135 4950 4964
+)
+"heptagon/analysis/causal.ml" 138 5016 5029 "heptagon/analysis/causal.ml" 138 5016 5039
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 138 5016 5025 "heptagon/analysis/causal.ml" 138 5016 5039
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 135 4950 4967 "heptagon/analysis/causal.ml" 138 5016 5039
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 140 5041 5049 "heptagon/analysis/causal.ml" 140 5041 5055
+type(
+  nc list -> nc
+)
+ident(
+  def ctuple "heptagon/analysis/causal.ml" 140 5041 5041 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 140 5041 5056 "heptagon/analysis/causal.ml" 140 5041 5057
+type(
+  nc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 141 5060 5062 "heptagon/analysis/causal.ml" 150 5412 5436
+)
+"heptagon/analysis/causal.ml" 141 5060 5070 "heptagon/analysis/causal.ml" 141 5060 5080
+type(
+  nc list -> nc -> ac list -> nc
+)
+ident(
+  def norm_tuple "heptagon/analysis/causal.ml" 141 5060 5062 "heptagon/analysis/causal.ml" 150 5412 5436
+)
+"heptagon/analysis/causal.ml" 141 5060 5081 "heptagon/analysis/causal.ml" 141 5060 5082
+type(
+  nc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 148 5374 5406
+)
+"heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 141 5060 5089
+type(
+  nc
+)
+ident(
+  def before "heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 148 5374 5406
+)
+"heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 141 5060 5094
+type(
+  ac list
+)
+ident(
+  def newl "heptagon/analysis/causal.ml" 141 5060 5097 "heptagon/analysis/causal.ml" 148 5374 5406
+)
+"heptagon/analysis/causal.ml" 141 5060 5103 "heptagon/analysis/causal.ml" 141 5060 5104
+type(
+  nc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 141 5060 5081 "heptagon/analysis/causal.ml" 141 5060 5082
+)
+"heptagon/analysis/causal.ml" 142 5110 5116 "heptagon/analysis/causal.ml" 142 5110 5118
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 142 5110 5122 "heptagon/analysis/causal.ml" 142 5110 5126
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 142 5110 5127 "heptagon/analysis/causal.ml" 142 5110 5133
+type(
+  nc
+)
+ident(
+  int_ref before "heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 141 5060 5089
+)
+"heptagon/analysis/causal.ml" 142 5110 5135 "heptagon/analysis/causal.ml" 142 5110 5143
+type(
+  ac list -> nc
+)
+ident(
+  int_ref mk_tuple "heptagon/analysis/causal.ml" 135 4950 4954 "heptagon/analysis/causal.ml" 135 4950 4962
+)
+"heptagon/analysis/causal.ml" 142 5110 5144 "heptagon/analysis/causal.ml" 142 5110 5148
+type(
+  ac list
+)
+ident(
+  int_ref newl "heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 141 5060 5094
+)
+"heptagon/analysis/causal.ml" 142 5110 5134 "heptagon/analysis/causal.ml" 142 5110 5149
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 142 5110 5122 "heptagon/analysis/causal.ml" 142 5110 5149
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 143 5150 5156 "heptagon/analysis/causal.ml" 143 5150 5162
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 143 5150 5164 "heptagon/analysis/causal.ml" 143 5150 5165
+type(
+  nc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 143 5150 5169 "heptagon/analysis/causal.ml" 143 5150 5193
+)
+"heptagon/analysis/causal.ml" 143 5150 5156 "heptagon/analysis/causal.ml" 143 5150 5165
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 143 5150 5169 "heptagon/analysis/causal.ml" 143 5150 5179
+type(
+  nc list -> nc -> ac list -> nc
+)
+ident(
+  int_ref norm_tuple "heptagon/analysis/causal.ml" 141 5060 5070 "heptagon/analysis/causal.ml" 141 5060 5080
+)
+"heptagon/analysis/causal.ml" 143 5150 5180 "heptagon/analysis/causal.ml" 143 5150 5181
+type(
+  nc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 143 5150 5164 "heptagon/analysis/causal.ml" 143 5150 5165
+)
+"heptagon/analysis/causal.ml" 143 5150 5182 "heptagon/analysis/causal.ml" 143 5150 5188
+type(
+  nc
+)
+ident(
+  int_ref before "heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 141 5060 5089
+)
+"heptagon/analysis/causal.ml" 143 5150 5189 "heptagon/analysis/causal.ml" 143 5150 5193
+type(
+  ac list
+)
+ident(
+  int_ref newl "heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 141 5060 5094
+)
+"heptagon/analysis/causal.ml" 143 5150 5169 "heptagon/analysis/causal.ml" 143 5150 5193
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 144 5194 5214 "heptagon/analysis/causal.ml" 144 5194 5215
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 144 5194 5207 "heptagon/analysis/causal.ml" 144 5194 5215
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5224 "heptagon/analysis/causal.ml" 144 5194 5225
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 144 5194 5218 "heptagon/analysis/causal.ml" 144 5194 5225
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5207 "heptagon/analysis/causal.ml" 144 5194 5225
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5237 "heptagon/analysis/causal.ml" 144 5194 5238
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 144 5194 5228 "heptagon/analysis/causal.ml" 144 5194 5238
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5207 "heptagon/analysis/causal.ml" 144 5194 5238
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5251 "heptagon/analysis/causal.ml" 144 5194 5252
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 144 5194 5241 "heptagon/analysis/causal.ml" 144 5194 5252
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5206 "heptagon/analysis/causal.ml" 144 5194 5253
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5257 "heptagon/analysis/causal.ml" 144 5194 5259
+ident(
+  def ac "heptagon/analysis/causal.ml" 145 5268 5274 "heptagon/analysis/causal.ml" 145 5268 5304
+)
+"heptagon/analysis/causal.ml" 144 5194 5205 "heptagon/analysis/causal.ml" 144 5194 5260
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 144 5194 5200 "heptagon/analysis/causal.ml" 144 5194 5261
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 144 5194 5263 "heptagon/analysis/causal.ml" 144 5194 5264
+type(
+  nc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 145 5268 5274 "heptagon/analysis/causal.ml" 145 5268 5304
+)
+"heptagon/analysis/causal.ml" 144 5194 5200 "heptagon/analysis/causal.ml" 144 5194 5264
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 145 5268 5274 "heptagon/analysis/causal.ml" 145 5268 5284
+type(
+  nc list -> nc -> ac list -> nc
+)
+ident(
+  int_ref norm_tuple "heptagon/analysis/causal.ml" 141 5060 5070 "heptagon/analysis/causal.ml" 141 5060 5080
+)
+"heptagon/analysis/causal.ml" 145 5268 5285 "heptagon/analysis/causal.ml" 145 5268 5286
+type(
+  nc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 144 5194 5263 "heptagon/analysis/causal.ml" 144 5194 5264
+)
+"heptagon/analysis/causal.ml" 145 5268 5287 "heptagon/analysis/causal.ml" 145 5268 5293
+type(
+  nc
+)
+ident(
+  int_ref before "heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 141 5060 5089
+)
+"heptagon/analysis/causal.ml" 145 5268 5295 "heptagon/analysis/causal.ml" 145 5268 5297
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 144 5194 5205 "heptagon/analysis/causal.ml" 144 5194 5260
+)
+"heptagon/analysis/causal.ml" 145 5268 5299 "heptagon/analysis/causal.ml" 145 5268 5303
+type(
+  ac list
+)
+ident(
+  int_ref newl "heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 141 5060 5094
+)
+"heptagon/analysis/causal.ml" 145 5268 5294 "heptagon/analysis/causal.ml" 145 5268 5304
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 145 5268 5274 "heptagon/analysis/causal.ml" 145 5268 5304
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 146 5305 5317 "heptagon/analysis/causal.ml" 146 5305 5318
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 146 5305 5312 "heptagon/analysis/causal.ml" 146 5305 5319
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 146 5305 5323 "heptagon/analysis/causal.ml" 146 5305 5325
+ident(
+  def ac "heptagon/analysis/causal.ml" 147 5333 5339 "heptagon/analysis/causal.ml" 147 5333 5373
+)
+"heptagon/analysis/causal.ml" 146 5305 5311 "heptagon/analysis/causal.ml" 146 5305 5326
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 146 5305 5328 "heptagon/analysis/causal.ml" 146 5305 5329
+type(
+  nc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 147 5333 5339 "heptagon/analysis/causal.ml" 147 5333 5373
+)
+"heptagon/analysis/causal.ml" 146 5305 5311 "heptagon/analysis/causal.ml" 146 5305 5329
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 147 5333 5339 "heptagon/analysis/causal.ml" 147 5333 5349
+type(
+  nc list -> nc -> ac list -> nc
+)
+ident(
+  int_ref norm_tuple "heptagon/analysis/causal.ml" 141 5060 5070 "heptagon/analysis/causal.ml" 141 5060 5080
+)
+"heptagon/analysis/causal.ml" 147 5333 5350 "heptagon/analysis/causal.ml" 147 5333 5351
+type(
+  nc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 146 5305 5328 "heptagon/analysis/causal.ml" 146 5305 5329
+)
+"heptagon/analysis/causal.ml" 147 5333 5353 "heptagon/analysis/causal.ml" 147 5333 5357
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 147 5333 5358 "heptagon/analysis/causal.ml" 147 5333 5364
+type(
+  nc
+)
+ident(
+  int_ref before "heptagon/analysis/causal.ml" 141 5060 5083 "heptagon/analysis/causal.ml" 141 5060 5089
+)
+"heptagon/analysis/causal.ml" 147 5333 5365 "heptagon/analysis/causal.ml" 147 5333 5367
+type(
+  nc
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 146 5305 5311 "heptagon/analysis/causal.ml" 146 5305 5326
+)
+"heptagon/analysis/causal.ml" 147 5333 5352 "heptagon/analysis/causal.ml" 147 5333 5368
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 147 5333 5369 "heptagon/analysis/causal.ml" 147 5333 5373
+type(
+  ac list
+)
+ident(
+  int_ref newl "heptagon/analysis/causal.ml" 141 5060 5090 "heptagon/analysis/causal.ml" 141 5060 5094
+)
+"heptagon/analysis/causal.ml" 147 5333 5339 "heptagon/analysis/causal.ml" 147 5333 5373
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 148 5374 5385 "heptagon/analysis/causal.ml" 148 5374 5386
+type(
+  nc
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 148 5374 5380 "heptagon/analysis/causal.ml" 148 5374 5387
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 148 5374 5389 "heptagon/analysis/causal.ml" 148 5374 5390
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 148 5374 5380 "heptagon/analysis/causal.ml" 148 5374 5390
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 148 5374 5401 "heptagon/analysis/causal.ml" 148 5374 5406
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 148 5374 5394 "heptagon/analysis/causal.ml" 148 5374 5406
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 141 5060 5097 "heptagon/analysis/causal.ml" 148 5374 5406
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 150 5412 5414 "heptagon/analysis/causal.ml" 150 5412 5424
+type(
+  nc list -> nc -> ac list -> nc
+)
+ident(
+  int_ref norm_tuple "heptagon/analysis/causal.ml" 141 5060 5070 "heptagon/analysis/causal.ml" 141 5060 5080
+)
+"heptagon/analysis/causal.ml" 150 5412 5425 "heptagon/analysis/causal.ml" 150 5412 5426
+type(
+  nc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 140 5041 5056 "heptagon/analysis/causal.ml" 140 5041 5057
+)
+"heptagon/analysis/causal.ml" 150 5412 5427 "heptagon/analysis/causal.ml" 150 5412 5433
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 150 5412 5434 "heptagon/analysis/causal.ml" 150 5412 5436
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 150 5412 5414 "heptagon/analysis/causal.ml" 150 5412 5436
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 141 5060 5062 "heptagon/analysis/causal.ml" 150 5412 5436
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+type(
+  sc -> nc
+)
+ident(
+  def norm "heptagon/analysis/causal.ml" 140 5041 5041 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 153 5458 5466 "heptagon/analysis/causal.ml" 153 5458 5468
+type(
+  sc
+)
+ident(
+  def c1 "heptagon/analysis/causal.ml" 153 5458 5477 "heptagon/analysis/causal.ml" 153 5458 5500
+)
+"heptagon/analysis/causal.ml" 153 5458 5470 "heptagon/analysis/causal.ml" 153 5458 5472
+type(
+  sc
+)
+ident(
+  def c2 "heptagon/analysis/causal.ml" 153 5458 5477 "heptagon/analysis/causal.ml" 153 5458 5500
+)
+"heptagon/analysis/causal.ml" 153 5458 5462 "heptagon/analysis/causal.ml" 153 5458 5473
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 153 5458 5477 "heptagon/analysis/causal.ml" 153 5458 5480
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cor "heptagon/analysis/causal.ml" 115 4329 4333 "heptagon/analysis/causal.ml" 115 4329 4336
+)
+"heptagon/analysis/causal.ml" 153 5458 5482 "heptagon/analysis/causal.ml" 153 5458 5486
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 153 5458 5487 "heptagon/analysis/causal.ml" 153 5458 5489
+type(
+  sc
+)
+ident(
+  int_ref c1 "heptagon/analysis/causal.ml" 153 5458 5466 "heptagon/analysis/causal.ml" 153 5458 5468
+)
+"heptagon/analysis/causal.ml" 153 5458 5481 "heptagon/analysis/causal.ml" 153 5458 5490
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 153 5458 5492 "heptagon/analysis/causal.ml" 153 5458 5496
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 153 5458 5497 "heptagon/analysis/causal.ml" 153 5458 5499
+type(
+  sc
+)
+ident(
+  int_ref c2 "heptagon/analysis/causal.ml" 153 5458 5470 "heptagon/analysis/causal.ml" 153 5458 5472
+)
+"heptagon/analysis/causal.ml" 153 5458 5491 "heptagon/analysis/causal.ml" 153 5458 5500
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 153 5458 5477 "heptagon/analysis/causal.ml" 153 5458 5500
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 154 5501 5510 "heptagon/analysis/causal.ml" 154 5501 5512
+type(
+  sc
+)
+ident(
+  def c1 "heptagon/analysis/causal.ml" 154 5501 5521 "heptagon/analysis/causal.ml" 154 5501 5545
+)
+"heptagon/analysis/causal.ml" 154 5501 5514 "heptagon/analysis/causal.ml" 154 5501 5516
+type(
+  sc
+)
+ident(
+  def c2 "heptagon/analysis/causal.ml" 154 5501 5521 "heptagon/analysis/causal.ml" 154 5501 5545
+)
+"heptagon/analysis/causal.ml" 154 5501 5505 "heptagon/analysis/causal.ml" 154 5501 5517
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 154 5501 5521 "heptagon/analysis/causal.ml" 154 5501 5525
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cand "heptagon/analysis/causal.ml" 128 4690 4698 "heptagon/analysis/causal.ml" 128 4690 4702
+)
+"heptagon/analysis/causal.ml" 154 5501 5527 "heptagon/analysis/causal.ml" 154 5501 5531
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 154 5501 5532 "heptagon/analysis/causal.ml" 154 5501 5534
+type(
+  sc
+)
+ident(
+  int_ref c1 "heptagon/analysis/causal.ml" 154 5501 5510 "heptagon/analysis/causal.ml" 154 5501 5512
+)
+"heptagon/analysis/causal.ml" 154 5501 5526 "heptagon/analysis/causal.ml" 154 5501 5535
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 154 5501 5537 "heptagon/analysis/causal.ml" 154 5501 5541
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 154 5501 5542 "heptagon/analysis/causal.ml" 154 5501 5544
+type(
+  sc
+)
+ident(
+  int_ref c2 "heptagon/analysis/causal.ml" 154 5501 5514 "heptagon/analysis/causal.ml" 154 5501 5516
+)
+"heptagon/analysis/causal.ml" 154 5501 5536 "heptagon/analysis/causal.ml" 154 5501 5545
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 154 5501 5521 "heptagon/analysis/causal.ml" 154 5501 5545
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 155 5546 5555 "heptagon/analysis/causal.ml" 155 5546 5557
+type(
+  sc
+)
+ident(
+  def c1 "heptagon/analysis/causal.ml" 155 5546 5566 "heptagon/analysis/causal.ml" 155 5546 5590
+)
+"heptagon/analysis/causal.ml" 155 5546 5559 "heptagon/analysis/causal.ml" 155 5546 5561
+type(
+  sc
+)
+ident(
+  def c2 "heptagon/analysis/causal.ml" 155 5546 5566 "heptagon/analysis/causal.ml" 155 5546 5590
+)
+"heptagon/analysis/causal.ml" 155 5546 5550 "heptagon/analysis/causal.ml" 155 5546 5562
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 155 5546 5566 "heptagon/analysis/causal.ml" 155 5546 5570
+type(
+  nc -> nc -> nc
+)
+ident(
+  int_ref cseq "heptagon/analysis/causal.ml" 120 4426 4434 "heptagon/analysis/causal.ml" 120 4426 4438
+)
+"heptagon/analysis/causal.ml" 155 5546 5572 "heptagon/analysis/causal.ml" 155 5546 5576
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 155 5546 5577 "heptagon/analysis/causal.ml" 155 5546 5579
+type(
+  sc
+)
+ident(
+  int_ref c1 "heptagon/analysis/causal.ml" 155 5546 5555 "heptagon/analysis/causal.ml" 155 5546 5557
+)
+"heptagon/analysis/causal.ml" 155 5546 5571 "heptagon/analysis/causal.ml" 155 5546 5580
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 155 5546 5582 "heptagon/analysis/causal.ml" 155 5546 5586
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 155 5546 5587 "heptagon/analysis/causal.ml" 155 5546 5589
+type(
+  sc
+)
+ident(
+  int_ref c2 "heptagon/analysis/causal.ml" 155 5546 5559 "heptagon/analysis/causal.ml" 155 5546 5561
+)
+"heptagon/analysis/causal.ml" 155 5546 5581 "heptagon/analysis/causal.ml" 155 5546 5590
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 155 5546 5566 "heptagon/analysis/causal.ml" 155 5546 5590
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 156 5591 5602 "heptagon/analysis/causal.ml" 156 5591 5603
+type(
+  sc list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 156 5591 5607 "heptagon/analysis/causal.ml" 156 5591 5631
+)
+"heptagon/analysis/causal.ml" 156 5591 5595 "heptagon/analysis/causal.ml" 156 5591 5603
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 156 5591 5607 "heptagon/analysis/causal.ml" 156 5591 5613
+type(
+  nc list -> nc
+)
+ident(
+  int_ref ctuple "heptagon/analysis/causal.ml" 140 5041 5049 "heptagon/analysis/causal.ml" 140 5041 5055
+)
+"heptagon/analysis/causal.ml" 156 5591 5615 "heptagon/analysis/causal.ml" 156 5591 5623
+type(
+  (sc -> nc) -> sc list -> nc list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/analysis/causal.ml" 156 5591 5624 "heptagon/analysis/causal.ml" 156 5591 5628
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 156 5591 5629 "heptagon/analysis/causal.ml" 156 5591 5630
+type(
+  sc list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 156 5591 5602 "heptagon/analysis/causal.ml" 156 5591 5603
+)
+"heptagon/analysis/causal.ml" 156 5591 5614 "heptagon/analysis/causal.ml" 156 5591 5631
+call(
+  stack
+)
+type(
+  nc list
+)
+"heptagon/analysis/causal.ml" 156 5591 5607 "heptagon/analysis/causal.ml" 156 5591 5631
+call(
+  tail
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 157 5632 5643 "heptagon/analysis/causal.ml" 157 5632 5644
+ident(
+  def n "heptagon/analysis/causal.ml" 157 5632 5649 "heptagon/analysis/causal.ml" 157 5632 5663
+)
+"heptagon/analysis/causal.ml" 157 5632 5642 "heptagon/analysis/causal.ml" 157 5632 5645
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 157 5632 5636 "heptagon/analysis/causal.ml" 157 5632 5645
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 157 5632 5659 "heptagon/analysis/causal.ml" 157 5632 5662
+type(
+  Idents.ident
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 157 5632 5642 "heptagon/analysis/causal.ml" 157 5632 5645
+)
+"heptagon/analysis/causal.ml" 157 5632 5652 "heptagon/analysis/causal.ml" 157 5632 5663
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 157 5632 5649 "heptagon/analysis/causal.ml" 157 5632 5663
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 158 5664 5674 "heptagon/analysis/causal.ml" 158 5664 5675
+ident(
+  def n "heptagon/analysis/causal.ml" 158 5664 5680 "heptagon/analysis/causal.ml" 158 5664 5693
+)
+"heptagon/analysis/causal.ml" 158 5664 5673 "heptagon/analysis/causal.ml" 158 5664 5676
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 158 5664 5668 "heptagon/analysis/causal.ml" 158 5664 5676
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 158 5664 5689 "heptagon/analysis/causal.ml" 158 5664 5692
+type(
+  Idents.ident
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 158 5664 5673 "heptagon/analysis/causal.ml" 158 5664 5676
+)
+"heptagon/analysis/causal.ml" 158 5664 5683 "heptagon/analysis/causal.ml" 158 5664 5693
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 158 5664 5680 "heptagon/analysis/causal.ml" 158 5664 5693
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 159 5694 5707 "heptagon/analysis/causal.ml" 159 5694 5708
+ident(
+  def n "heptagon/analysis/causal.ml" 159 5694 5713 "heptagon/analysis/causal.ml" 159 5694 5729
+)
+"heptagon/analysis/causal.ml" 159 5694 5706 "heptagon/analysis/causal.ml" 159 5694 5709
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 159 5694 5698 "heptagon/analysis/causal.ml" 159 5694 5709
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 159 5694 5725 "heptagon/analysis/causal.ml" 159 5694 5728
+type(
+  Idents.ident
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 159 5694 5706 "heptagon/analysis/causal.ml" 159 5694 5709
+)
+"heptagon/analysis/causal.ml" 159 5694 5716 "heptagon/analysis/causal.ml" 159 5694 5729
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 159 5694 5713 "heptagon/analysis/causal.ml" 159 5694 5729
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 160 5730 5744 "heptagon/analysis/causal.ml" 160 5730 5745
+ident(
+  def n "heptagon/analysis/causal.ml" 160 5730 5750 "heptagon/analysis/causal.ml" 160 5730 5767
+)
+"heptagon/analysis/causal.ml" 160 5730 5743 "heptagon/analysis/causal.ml" 160 5730 5746
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 160 5730 5734 "heptagon/analysis/causal.ml" 160 5730 5746
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 160 5730 5763 "heptagon/analysis/causal.ml" 160 5730 5766
+type(
+  Idents.ident
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 160 5730 5743 "heptagon/analysis/causal.ml" 160 5730 5746
+)
+"heptagon/analysis/causal.ml" 160 5730 5753 "heptagon/analysis/causal.ml" 160 5730 5767
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 160 5730 5750 "heptagon/analysis/causal.ml" 160 5730 5767
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 161 5768 5772 "heptagon/analysis/causal.ml" 161 5768 5773
+type(
+  sc
+)
+"heptagon/analysis/causal.ml" 161 5768 5777 "heptagon/analysis/causal.ml" 161 5768 5783
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 152 5438 5449 "heptagon/analysis/causal.ml" 161 5768 5783
+type(
+  sc -> nc
+)
+"heptagon/analysis/causal.ml" 166 5875 5879 "heptagon/analysis/causal.ml" 166 5875 5884
+type(
+  ac -> ac Sgraph.graph
+)
+ident(
+  def build "heptagon/analysis/causal.ml" 274 9108 9108 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 166 5875 5885 "heptagon/analysis/causal.ml" 166 5875 5887
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 168 5947 5949 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 168 5947 5953 "heptagon/analysis/causal.ml" 168 5947 5964
+type(
+  Idents.Env.key -> 'a -> 'a Idents.Env.t -> 'a Idents.Env.t
+)
+ident(
+  def nametograph "heptagon/analysis/causal.ml" 170 6009 6011 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 168 5947 5965 "heptagon/analysis/causal.ml" 168 5947 5966
+type(
+  Idents.Env.key
+)
+ident(
+  def n "heptagon/analysis/causal.ml" 168 5947 5967 "heptagon/analysis/causal.ml" 168 5947 6004
+)
+"heptagon/analysis/causal.ml" 168 5947 5967 "heptagon/analysis/causal.ml" 168 5947 5968
+type(
+  'a
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 168 5947 5969 "heptagon/analysis/causal.ml" 168 5947 6004
+)
+"heptagon/analysis/causal.ml" 168 5947 5969 "heptagon/analysis/causal.ml" 168 5947 5979
+type(
+  'a Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 168 5947 5982 "heptagon/analysis/causal.ml" 168 5947 6004
+)
+"heptagon/analysis/causal.ml" 168 5947 5982 "heptagon/analysis/causal.ml" 168 5947 5989
+type(
+  Idents.Env.key -> 'a -> 'a Idents.Env.t -> 'a Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/analysis/causal.ml" 168 5947 5990 "heptagon/analysis/causal.ml" 168 5947 5991
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 168 5947 5965 "heptagon/analysis/causal.ml" 168 5947 5966
+)
+"heptagon/analysis/causal.ml" 168 5947 5992 "heptagon/analysis/causal.ml" 168 5947 5993
+type(
+  'a
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 168 5947 5967 "heptagon/analysis/causal.ml" 168 5947 5968
+)
+"heptagon/analysis/causal.ml" 168 5947 5994 "heptagon/analysis/causal.ml" 168 5947 6004
+type(
+  'a Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 168 5947 5969 "heptagon/analysis/causal.ml" 168 5947 5979
+)
+"heptagon/analysis/causal.ml" 168 5947 5982 "heptagon/analysis/causal.ml" 168 5947 6004
+call(
+  tail
+)
+type(
+  'a Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 170 6009 6019 "heptagon/analysis/causal.ml" 170 6009 6033
+type(
+  'b ->
+  'b Idents.Env.t * 'b Idents.Env.t ->
+  ac -> 'b Idents.Env.t * 'b Idents.Env.t
+)
+ident(
+  def associate_node "heptagon/analysis/causal.ml" 170 6009 6011 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 170 6009 6034 "heptagon/analysis/causal.ml" 170 6009 6035
+type(
+  'b
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 170 6009 6036 "heptagon/analysis/causal.ml" 178 6292 6319
+)
+"heptagon/analysis/causal.ml" 170 6009 6037 "heptagon/analysis/causal.ml" 170 6009 6047
+type(
+  'b Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 170 6009 6060 "heptagon/analysis/causal.ml" 178 6292 6319
+)
+"heptagon/analysis/causal.ml" 170 6009 6049 "heptagon/analysis/causal.ml" 170 6009 6056
+type(
+  'b Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 170 6009 6060 "heptagon/analysis/causal.ml" 178 6292 6319
+)
+"heptagon/analysis/causal.ml" 170 6009 6036 "heptagon/analysis/causal.ml" 170 6009 6057
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 171 6069 6082 "heptagon/analysis/causal.ml" 171 6069 6083
+ident(
+  def n "heptagon/analysis/causal.ml" 172 6088 6096 "heptagon/analysis/causal.ml" 172 6088 6131
+)
+"heptagon/analysis/causal.ml" 171 6069 6081 "heptagon/analysis/causal.ml" 171 6069 6084
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 171 6069 6075 "heptagon/analysis/causal.ml" 171 6069 6084
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 172 6088 6096 "heptagon/analysis/causal.ml" 172 6088 6107
+type(
+  Idents.Env.key -> 'b -> 'b Idents.Env.t -> 'b Idents.Env.t
+)
+ident(
+  int_ref nametograph "heptagon/analysis/causal.ml" 168 5947 5953 "heptagon/analysis/causal.ml" 168 5947 5964
+)
+"heptagon/analysis/causal.ml" 172 6088 6108 "heptagon/analysis/causal.ml" 172 6088 6109
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 171 6069 6081 "heptagon/analysis/causal.ml" 171 6069 6084
+)
+"heptagon/analysis/causal.ml" 172 6088 6110 "heptagon/analysis/causal.ml" 172 6088 6111
+type(
+  'b
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 170 6009 6034 "heptagon/analysis/causal.ml" 170 6009 6035
+)
+"heptagon/analysis/causal.ml" 172 6088 6112 "heptagon/analysis/causal.ml" 172 6088 6122
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 170 6009 6037 "heptagon/analysis/causal.ml" 170 6009 6047
+)
+"heptagon/analysis/causal.ml" 172 6088 6096 "heptagon/analysis/causal.ml" 172 6088 6122
+call(
+  stack
+)
+type(
+  'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 172 6088 6124 "heptagon/analysis/causal.ml" 172 6088 6131
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 170 6009 6049 "heptagon/analysis/causal.ml" 170 6009 6056
+)
+"heptagon/analysis/causal.ml" 172 6088 6096 "heptagon/analysis/causal.ml" 172 6088 6131
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 173 6132 6147 "heptagon/analysis/causal.ml" 173 6132 6148
+ident(
+  def n "heptagon/analysis/causal.ml" 174 6153 6161 "heptagon/analysis/causal.ml" 174 6153 6196
+)
+"heptagon/analysis/causal.ml" 173 6132 6146 "heptagon/analysis/causal.ml" 173 6132 6149
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 173 6132 6138 "heptagon/analysis/causal.ml" 173 6132 6149
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 174 6153 6161 "heptagon/analysis/causal.ml" 174 6153 6171
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 170 6009 6037 "heptagon/analysis/causal.ml" 170 6009 6047
+)
+"heptagon/analysis/causal.ml" 174 6153 6173 "heptagon/analysis/causal.ml" 174 6153 6184
+type(
+  Idents.Env.key -> 'b -> 'b Idents.Env.t -> 'b Idents.Env.t
+)
+ident(
+  int_ref nametograph "heptagon/analysis/causal.ml" 168 5947 5953 "heptagon/analysis/causal.ml" 168 5947 5964
+)
+"heptagon/analysis/causal.ml" 174 6153 6185 "heptagon/analysis/causal.ml" 174 6153 6186
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 173 6132 6146 "heptagon/analysis/causal.ml" 173 6132 6149
+)
+"heptagon/analysis/causal.ml" 174 6153 6187 "heptagon/analysis/causal.ml" 174 6153 6188
+type(
+  'b
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 170 6009 6034 "heptagon/analysis/causal.ml" 170 6009 6035
+)
+"heptagon/analysis/causal.ml" 174 6153 6189 "heptagon/analysis/causal.ml" 174 6153 6196
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 170 6009 6049 "heptagon/analysis/causal.ml" 170 6009 6056
+)
+"heptagon/analysis/causal.ml" 174 6153 6173 "heptagon/analysis/causal.ml" 174 6153 6196
+call(
+  stack
+)
+type(
+  'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 174 6153 6161 "heptagon/analysis/causal.ml" 174 6153 6196
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 175 6197 6210 "heptagon/analysis/causal.ml" 175 6197 6211
+type(
+  ac list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 176 6215 6223 "heptagon/analysis/causal.ml" 176 6215 6280
+)
+"heptagon/analysis/causal.ml" 175 6197 6203 "heptagon/analysis/causal.ml" 175 6197 6211
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 176 6215 6223 "heptagon/analysis/causal.ml" 176 6215 6237
+type(
+  ('b Idents.Env.t * 'b Idents.Env.t ->
+   ac -> 'b Idents.Env.t * 'b Idents.Env.t) ->
+  'b Idents.Env.t * 'b Idents.Env.t ->
+  ac list -> 'b Idents.Env.t * 'b Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/analysis/causal.ml" 176 6215 6239 "heptagon/analysis/causal.ml" 176 6215 6253
+type(
+  'b ->
+  'b Idents.Env.t * 'b Idents.Env.t ->
+  ac -> 'b Idents.Env.t * 'b Idents.Env.t
+)
+ident(
+  int_ref associate_node "heptagon/analysis/causal.ml" 170 6009 6019 "heptagon/analysis/causal.ml" 170 6009 6033
+)
+"heptagon/analysis/causal.ml" 176 6215 6254 "heptagon/analysis/causal.ml" 176 6215 6255
+type(
+  'b
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 170 6009 6034 "heptagon/analysis/causal.ml" 170 6009 6035
+)
+"heptagon/analysis/causal.ml" 176 6215 6238 "heptagon/analysis/causal.ml" 176 6215 6256
+call(
+  stack
+)
+type(
+  'b Idents.Env.t * 'b Idents.Env.t ->
+  ac -> 'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 176 6215 6258 "heptagon/analysis/causal.ml" 176 6215 6268
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 170 6009 6037 "heptagon/analysis/causal.ml" 170 6009 6047
+)
+"heptagon/analysis/causal.ml" 176 6215 6270 "heptagon/analysis/causal.ml" 176 6215 6277
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 170 6009 6049 "heptagon/analysis/causal.ml" 170 6009 6056
+)
+"heptagon/analysis/causal.ml" 176 6215 6257 "heptagon/analysis/causal.ml" 176 6215 6278
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 176 6215 6279 "heptagon/analysis/causal.ml" 176 6215 6280
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 175 6197 6210 "heptagon/analysis/causal.ml" 175 6197 6211
+)
+"heptagon/analysis/causal.ml" 176 6215 6223 "heptagon/analysis/causal.ml" 176 6215 6280
+call(
+  tail
+)
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 177 6281 6287 "heptagon/analysis/causal.ml" 177 6281 6288
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 178 6292 6300 "heptagon/analysis/causal.ml" 178 6292 6310
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 170 6009 6037 "heptagon/analysis/causal.ml" 170 6009 6047
+)
+"heptagon/analysis/causal.ml" 178 6292 6312 "heptagon/analysis/causal.ml" 178 6292 6319
+type(
+  'b Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 170 6009 6049 "heptagon/analysis/causal.ml" 170 6009 6056
+)
+"heptagon/analysis/causal.ml" 178 6292 6300 "heptagon/analysis/causal.ml" 178 6292 6319
+type(
+  'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 170 6009 6060 "heptagon/analysis/causal.ml" 178 6292 6319
+type(
+  ac -> 'b Idents.Env.t * 'b Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  def initialize "heptagon/analysis/causal.ml" 183 6409 6411 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 183 6409 6430 "heptagon/analysis/causal.ml" 183 6409 6432
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 183 6409 6433 "heptagon/analysis/causal.ml" 193 6800 6851
+)
+"heptagon/analysis/causal.ml" 183 6409 6433 "heptagon/analysis/causal.ml" 183 6409 6443
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 183 6409 6444 "heptagon/analysis/causal.ml" 193 6800 6851
+)
+"heptagon/analysis/causal.ml" 183 6409 6444 "heptagon/analysis/causal.ml" 183 6409 6451
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 184 6454 6458 "heptagon/analysis/causal.ml" 193 6800 6851
+)
+"heptagon/analysis/causal.ml" 184 6454 6464 "heptagon/analysis/causal.ml" 184 6454 6466
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 183 6409 6430 "heptagon/analysis/causal.ml" 183 6409 6432
+)
+"heptagon/analysis/causal.ml" 185 6472 6485 "heptagon/analysis/causal.ml" 185 6472 6488
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 186 6498 6508 "heptagon/analysis/causal.ml" 187 6571 6614
+)
+"heptagon/analysis/causal.ml" 185 6472 6490 "heptagon/analysis/causal.ml" 185 6472 6493
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 186 6498 6508 "heptagon/analysis/causal.ml" 187 6571 6614
+)
+"heptagon/analysis/causal.ml" 185 6472 6480 "heptagon/analysis/causal.ml" 185 6472 6494
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 186 6498 6512 "heptagon/analysis/causal.ml" 186 6498 6522
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 187 6571 6581 "heptagon/analysis/causal.ml" 187 6571 6614
+)
+"heptagon/analysis/causal.ml" 186 6498 6524 "heptagon/analysis/causal.ml" 186 6498 6531
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 187 6571 6581 "heptagon/analysis/causal.ml" 187 6571 6614
+)
+"heptagon/analysis/causal.ml" 186 6498 6512 "heptagon/analysis/causal.ml" 186 6498 6531
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 186 6498 6534 "heptagon/analysis/causal.ml" 186 6498 6544
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref initialize "heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+)
+"heptagon/analysis/causal.ml" 186 6498 6545 "heptagon/analysis/causal.ml" 186 6498 6548
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 185 6472 6485 "heptagon/analysis/causal.ml" 185 6472 6488
+)
+"heptagon/analysis/causal.ml" 186 6498 6549 "heptagon/analysis/causal.ml" 186 6498 6559
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 183 6409 6433 "heptagon/analysis/causal.ml" 183 6409 6443
+)
+"heptagon/analysis/causal.ml" 186 6498 6560 "heptagon/analysis/causal.ml" 186 6498 6567
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 183 6409 6444 "heptagon/analysis/causal.ml" 183 6409 6451
+)
+"heptagon/analysis/causal.ml" 186 6498 6534 "heptagon/analysis/causal.ml" 186 6498 6567
+call(
+  stack
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 187 6571 6581 "heptagon/analysis/causal.ml" 187 6571 6591
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref initialize "heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+)
+"heptagon/analysis/causal.ml" 187 6571 6592 "heptagon/analysis/causal.ml" 187 6571 6595
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 185 6472 6490 "heptagon/analysis/causal.ml" 185 6472 6493
+)
+"heptagon/analysis/causal.ml" 187 6571 6596 "heptagon/analysis/causal.ml" 187 6571 6606
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 186 6498 6512 "heptagon/analysis/causal.ml" 186 6498 6522
+)
+"heptagon/analysis/causal.ml" 187 6571 6607 "heptagon/analysis/causal.ml" 187 6571 6614
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 186 6498 6524 "heptagon/analysis/causal.ml" 186 6498 6531
+)
+"heptagon/analysis/causal.ml" 187 6571 6581 "heptagon/analysis/causal.ml" 187 6571 6614
+call(
+  tail
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 186 6498 6508 "heptagon/analysis/causal.ml" 187 6571 6614
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 188 6615 6628 "heptagon/analysis/causal.ml" 188 6615 6631
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 189 6641 6651 "heptagon/analysis/causal.ml" 190 6714 6757
+)
+"heptagon/analysis/causal.ml" 188 6615 6633 "heptagon/analysis/causal.ml" 188 6615 6636
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 189 6641 6651 "heptagon/analysis/causal.ml" 190 6714 6757
+)
+"heptagon/analysis/causal.ml" 188 6615 6623 "heptagon/analysis/causal.ml" 188 6615 6637
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 189 6641 6655 "heptagon/analysis/causal.ml" 189 6641 6665
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 190 6714 6724 "heptagon/analysis/causal.ml" 190 6714 6757
+)
+"heptagon/analysis/causal.ml" 189 6641 6667 "heptagon/analysis/causal.ml" 189 6641 6674
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 190 6714 6724 "heptagon/analysis/causal.ml" 190 6714 6757
+)
+"heptagon/analysis/causal.ml" 189 6641 6655 "heptagon/analysis/causal.ml" 189 6641 6674
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 189 6641 6677 "heptagon/analysis/causal.ml" 189 6641 6687
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref initialize "heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+)
+"heptagon/analysis/causal.ml" 189 6641 6688 "heptagon/analysis/causal.ml" 189 6641 6691
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 188 6615 6628 "heptagon/analysis/causal.ml" 188 6615 6631
+)
+"heptagon/analysis/causal.ml" 189 6641 6692 "heptagon/analysis/causal.ml" 189 6641 6702
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 183 6409 6433 "heptagon/analysis/causal.ml" 183 6409 6443
+)
+"heptagon/analysis/causal.ml" 189 6641 6703 "heptagon/analysis/causal.ml" 189 6641 6710
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 183 6409 6444 "heptagon/analysis/causal.ml" 183 6409 6451
+)
+"heptagon/analysis/causal.ml" 189 6641 6677 "heptagon/analysis/causal.ml" 189 6641 6710
+call(
+  stack
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 190 6714 6724 "heptagon/analysis/causal.ml" 190 6714 6734
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref initialize "heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+)
+"heptagon/analysis/causal.ml" 190 6714 6735 "heptagon/analysis/causal.ml" 190 6714 6738
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 188 6615 6633 "heptagon/analysis/causal.ml" 188 6615 6636
+)
+"heptagon/analysis/causal.ml" 190 6714 6739 "heptagon/analysis/causal.ml" 190 6714 6749
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 189 6641 6655 "heptagon/analysis/causal.ml" 189 6641 6665
+)
+"heptagon/analysis/causal.ml" 190 6714 6750 "heptagon/analysis/causal.ml" 190 6714 6757
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 189 6641 6667 "heptagon/analysis/causal.ml" 189 6641 6674
+)
+"heptagon/analysis/causal.ml" 190 6714 6724 "heptagon/analysis/causal.ml" 190 6714 6757
+call(
+  tail
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 189 6641 6651 "heptagon/analysis/causal.ml" 190 6714 6757
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 191 6758 6766 "heptagon/analysis/causal.ml" 191 6758 6767
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 192 6771 6785 "heptagon/analysis/causal.ml" 192 6771 6786
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 193 6800 6810 "heptagon/analysis/causal.ml" 193 6800 6851
+)
+"heptagon/analysis/causal.ml" 192 6771 6789 "heptagon/analysis/causal.ml" 192 6771 6793
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  ext_ref Sgraph.make
+)
+"heptagon/analysis/causal.ml" 192 6771 6794 "heptagon/analysis/causal.ml" 192 6771 6796
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 183 6409 6430 "heptagon/analysis/causal.ml" 183 6409 6432
+)
+"heptagon/analysis/causal.ml" 192 6771 6789 "heptagon/analysis/causal.ml" 192 6771 6796
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 193 6800 6810 "heptagon/analysis/causal.ml" 193 6800 6824
+type(
+  ac Sgraph.node ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t ->
+  ac -> ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref associate_node "heptagon/analysis/causal.ml" 170 6009 6019 "heptagon/analysis/causal.ml" 170 6009 6033
+)
+"heptagon/analysis/causal.ml" 193 6800 6825 "heptagon/analysis/causal.ml" 193 6800 6826
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 192 6771 6785 "heptagon/analysis/causal.ml" 192 6771 6786
+)
+"heptagon/analysis/causal.ml" 193 6800 6828 "heptagon/analysis/causal.ml" 193 6800 6838
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 183 6409 6433 "heptagon/analysis/causal.ml" 183 6409 6443
+)
+"heptagon/analysis/causal.ml" 193 6800 6840 "heptagon/analysis/causal.ml" 193 6800 6847
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 183 6409 6444 "heptagon/analysis/causal.ml" 183 6409 6451
+)
+"heptagon/analysis/causal.ml" 193 6800 6827 "heptagon/analysis/causal.ml" 193 6800 6848
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 193 6800 6849 "heptagon/analysis/causal.ml" 193 6800 6851
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 183 6409 6430 "heptagon/analysis/causal.ml" 183 6409 6432
+)
+"heptagon/analysis/causal.ml" 193 6800 6810 "heptagon/analysis/causal.ml" 193 6800 6851
+call(
+  tail
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 192 6771 6781 "heptagon/analysis/causal.ml" 193 6800 6851
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 184 6454 6458 "heptagon/analysis/causal.ml" 193 6800 6851
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 196 6858 6864 "heptagon/analysis/causal.ml" 196 6858 6874
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t -> ac Sgraph.graph
+)
+ident(
+  def make_graph "heptagon/analysis/causal.ml" 269 8970 8972 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 196 6858 6875 "heptagon/analysis/causal.ml" 196 6858 6877
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 196 6858 6878 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 196 6858 6878 "heptagon/analysis/causal.ml" 196 6858 6888
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 196 6858 6889 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 196 6858 6889 "heptagon/analysis/causal.ml" 196 6858 6896
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 197 6899 6903 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 197 6899 6907 "heptagon/analysis/causal.ml" 197 6899 6913
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  def attach "heptagon/analysis/causal.ml" 207 7126 7130 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 197 6899 6914 "heptagon/analysis/causal.ml" 197 6899 6918
+type(
+  ac Sgraph.node
+)
+ident(
+  def node "heptagon/analysis/causal.ml" 197 6899 6919 "heptagon/analysis/causal.ml" 205 7096 7121
+)
+"heptagon/analysis/causal.ml" 197 6899 6919 "heptagon/analysis/causal.ml" 197 6899 6920
+type(
+  Idents.Env.key
+)
+ident(
+  def n "heptagon/analysis/causal.ml" 198 6923 6929 "heptagon/analysis/causal.ml" 205 7096 7121
+)
+"heptagon/analysis/causal.ml" 199 6933 6945 "heptagon/analysis/causal.ml" 199 6933 6946
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 200 6974 6982 "heptagon/analysis/causal.ml" 203 7056 7084
+)
+"heptagon/analysis/causal.ml" 199 6933 6949 "heptagon/analysis/causal.ml" 199 6933 6957
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 199 6933 6958 "heptagon/analysis/causal.ml" 199 6933 6959
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 197 6899 6919 "heptagon/analysis/causal.ml" 197 6899 6920
+)
+"heptagon/analysis/causal.ml" 199 6933 6960 "heptagon/analysis/causal.ml" 199 6933 6970
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 196 6858 6878 "heptagon/analysis/causal.ml" 196 6858 6888
+)
+"heptagon/analysis/causal.ml" 199 6933 6949 "heptagon/analysis/causal.ml" 199 6933 6970
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 200 6974 6985 "heptagon/analysis/causal.ml" 200 6974 6986
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 199 6933 6945 "heptagon/analysis/causal.ml" 199 6933 6946
+)
+"heptagon/analysis/causal.ml" 200 6974 6985 "heptagon/analysis/causal.ml" 200 6974 6992
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 200 6974 6993 "heptagon/analysis/causal.ml" 200 6974 6994
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/analysis/causal.ml" 200 6974 6995 "heptagon/analysis/causal.ml" 200 6974 6999
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref node "heptagon/analysis/causal.ml" 197 6899 6914 "heptagon/analysis/causal.ml" 197 6899 6918
+)
+"heptagon/analysis/causal.ml" 200 6974 6995 "heptagon/analysis/causal.ml" 200 6974 7005
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 200 6974 6985 "heptagon/analysis/causal.ml" 200 6974 7005
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 201 7011 7021 "heptagon/analysis/causal.ml" 201 7011 7026
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 201 7011 7027 "heptagon/analysis/causal.ml" 201 7011 7042
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 201 7011 7021 "heptagon/analysis/causal.ml" 201 7011 7042
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 203 7056 7066 "heptagon/analysis/causal.ml" 203 7056 7077
+type(
+  ac Sgraph.node -> ac Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.add_depends
+)
+"heptagon/analysis/causal.ml" 203 7056 7078 "heptagon/analysis/causal.ml" 203 7056 7082
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref node "heptagon/analysis/causal.ml" 197 6899 6914 "heptagon/analysis/causal.ml" 197 6899 6918
+)
+"heptagon/analysis/causal.ml" 203 7056 7083 "heptagon/analysis/causal.ml" 203 7056 7084
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 199 6933 6945 "heptagon/analysis/causal.ml" 199 6933 6946
+)
+"heptagon/analysis/causal.ml" 203 7056 7066 "heptagon/analysis/causal.ml" 203 7056 7084
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 200 6974 6982 "heptagon/analysis/causal.ml" 203 7056 7084
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 199 6933 6941 "heptagon/analysis/causal.ml" 203 7056 7084
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 205 7096 7106 "heptagon/analysis/causal.ml" 205 7096 7115
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 205 7096 7119 "heptagon/analysis/causal.ml" 205 7096 7121
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 198 6923 6929 "heptagon/analysis/causal.ml" 205 7096 7121
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 207 7126 7134 "heptagon/analysis/causal.ml" 207 7126 7144
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  def attach_lin "heptagon/analysis/causal.ml" 217 7354 7358 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 207 7126 7145 "heptagon/analysis/causal.ml" 207 7126 7149
+type(
+  ac Sgraph.node
+)
+ident(
+  def node "heptagon/analysis/causal.ml" 207 7126 7150 "heptagon/analysis/causal.ml" 215 7324 7349
+)
+"heptagon/analysis/causal.ml" 207 7126 7150 "heptagon/analysis/causal.ml" 207 7126 7151
+type(
+  Idents.Env.key
+)
+ident(
+  def n "heptagon/analysis/causal.ml" 208 7154 7160 "heptagon/analysis/causal.ml" 215 7324 7349
+)
+"heptagon/analysis/causal.ml" 209 7164 7176 "heptagon/analysis/causal.ml" 209 7164 7177
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 210 7202 7210 "heptagon/analysis/causal.ml" 213 7284 7312
+)
+"heptagon/analysis/causal.ml" 209 7164 7180 "heptagon/analysis/causal.ml" 209 7164 7188
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 209 7164 7189 "heptagon/analysis/causal.ml" 209 7164 7190
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 207 7126 7150 "heptagon/analysis/causal.ml" 207 7126 7151
+)
+"heptagon/analysis/causal.ml" 209 7164 7191 "heptagon/analysis/causal.ml" 209 7164 7198
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 196 6858 6889 "heptagon/analysis/causal.ml" 196 6858 6896
+)
+"heptagon/analysis/causal.ml" 209 7164 7180 "heptagon/analysis/causal.ml" 209 7164 7198
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 210 7202 7213 "heptagon/analysis/causal.ml" 210 7202 7214
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 209 7164 7176 "heptagon/analysis/causal.ml" 209 7164 7177
+)
+"heptagon/analysis/causal.ml" 210 7202 7213 "heptagon/analysis/causal.ml" 210 7202 7220
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 210 7202 7221 "heptagon/analysis/causal.ml" 210 7202 7222
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/analysis/causal.ml" 210 7202 7223 "heptagon/analysis/causal.ml" 210 7202 7227
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref node "heptagon/analysis/causal.ml" 207 7126 7145 "heptagon/analysis/causal.ml" 207 7126 7149
+)
+"heptagon/analysis/causal.ml" 210 7202 7223 "heptagon/analysis/causal.ml" 210 7202 7233
+type(
+  int
+)
+"heptagon/analysis/causal.ml" 210 7202 7213 "heptagon/analysis/causal.ml" 210 7202 7233
+type(
+  bool
+)
+"heptagon/analysis/causal.ml" 211 7239 7249 "heptagon/analysis/causal.ml" 211 7239 7254
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 211 7239 7255 "heptagon/analysis/causal.ml" 211 7239 7270
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 211 7239 7249 "heptagon/analysis/causal.ml" 211 7239 7270
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 213 7284 7294 "heptagon/analysis/causal.ml" 213 7284 7305
+type(
+  ac Sgraph.node -> ac Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.add_depends
+)
+"heptagon/analysis/causal.ml" 213 7284 7306 "heptagon/analysis/causal.ml" 213 7284 7307
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 209 7164 7176 "heptagon/analysis/causal.ml" 209 7164 7177
+)
+"heptagon/analysis/causal.ml" 213 7284 7308 "heptagon/analysis/causal.ml" 213 7284 7312
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref node "heptagon/analysis/causal.ml" 207 7126 7145 "heptagon/analysis/causal.ml" 207 7126 7149
+)
+"heptagon/analysis/causal.ml" 213 7284 7294 "heptagon/analysis/causal.ml" 213 7284 7312
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 210 7202 7210 "heptagon/analysis/causal.ml" 213 7284 7312
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 209 7164 7172 "heptagon/analysis/causal.ml" 213 7284 7312
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 215 7324 7334 "heptagon/analysis/causal.ml" 215 7324 7343
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 215 7324 7347 "heptagon/analysis/causal.ml" 215 7324 7349
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 208 7154 7160 "heptagon/analysis/causal.ml" 215 7324 7349
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 217 7354 7362 "heptagon/analysis/causal.ml" 217 7354 7376
+type(
+  ac Sgraph.node -> ac -> unit
+)
+ident(
+  def add_dependence "heptagon/analysis/causal.ml" 223 7495 7499 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 217 7354 7377 "heptagon/analysis/causal.ml" 217 7354 7378
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 217 7354 7381 "heptagon/analysis/causal.ml" 220 7471 7486
+)
+"heptagon/analysis/causal.ml" 218 7390 7404 "heptagon/analysis/causal.ml" 218 7390 7405
+ident(
+  def n "heptagon/analysis/causal.ml" 218 7390 7410 "heptagon/analysis/causal.ml" 218 7390 7436
+)
+"heptagon/analysis/causal.ml" 218 7390 7403 "heptagon/analysis/causal.ml" 218 7390 7406
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 218 7390 7398 "heptagon/analysis/causal.ml" 218 7390 7406
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 218 7390 7410 "heptagon/analysis/causal.ml" 218 7390 7416
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "heptagon/analysis/causal.ml" 197 6899 6907 "heptagon/analysis/causal.ml" 197 6899 6913
+)
+"heptagon/analysis/causal.ml" 218 7390 7417 "heptagon/analysis/causal.ml" 218 7390 7418
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 217 7354 7377 "heptagon/analysis/causal.ml" 217 7354 7378
+)
+"heptagon/analysis/causal.ml" 218 7390 7419 "heptagon/analysis/causal.ml" 218 7390 7420
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 218 7390 7403 "heptagon/analysis/causal.ml" 218 7390 7406
+)
+"heptagon/analysis/causal.ml" 218 7390 7410 "heptagon/analysis/causal.ml" 218 7390 7420
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 218 7390 7422 "heptagon/analysis/causal.ml" 218 7390 7432
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach_lin "heptagon/analysis/causal.ml" 207 7126 7134 "heptagon/analysis/causal.ml" 207 7126 7144
+)
+"heptagon/analysis/causal.ml" 218 7390 7433 "heptagon/analysis/causal.ml" 218 7390 7434
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 217 7354 7377 "heptagon/analysis/causal.ml" 217 7354 7378
+)
+"heptagon/analysis/causal.ml" 218 7390 7435 "heptagon/analysis/causal.ml" 218 7390 7436
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 218 7390 7403 "heptagon/analysis/causal.ml" 218 7390 7406
+)
+"heptagon/analysis/causal.ml" 218 7390 7422 "heptagon/analysis/causal.ml" 218 7390 7436
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 218 7390 7410 "heptagon/analysis/causal.ml" 218 7390 7436
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 219 7437 7454 "heptagon/analysis/causal.ml" 219 7437 7455
+ident(
+  def n "heptagon/analysis/causal.ml" 219 7437 7460 "heptagon/analysis/causal.ml" 219 7437 7470
+)
+"heptagon/analysis/causal.ml" 219 7437 7453 "heptagon/analysis/causal.ml" 219 7437 7456
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 219 7437 7445 "heptagon/analysis/causal.ml" 219 7437 7456
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 219 7437 7460 "heptagon/analysis/causal.ml" 219 7437 7466
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "heptagon/analysis/causal.ml" 197 6899 6907 "heptagon/analysis/causal.ml" 197 6899 6913
+)
+"heptagon/analysis/causal.ml" 219 7437 7467 "heptagon/analysis/causal.ml" 219 7437 7468
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 217 7354 7377 "heptagon/analysis/causal.ml" 217 7354 7378
+)
+"heptagon/analysis/causal.ml" 219 7437 7469 "heptagon/analysis/causal.ml" 219 7437 7470
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 219 7437 7453 "heptagon/analysis/causal.ml" 219 7437 7456
+)
+"heptagon/analysis/causal.ml" 219 7437 7460 "heptagon/analysis/causal.ml" 219 7437 7470
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 220 7471 7479 "heptagon/analysis/causal.ml" 220 7471 7480
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 220 7471 7484 "heptagon/analysis/causal.ml" 220 7471 7486
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 217 7354 7381 "heptagon/analysis/causal.ml" 220 7471 7486
+type(
+  ac -> unit
+)
+"heptagon/analysis/causal.ml" 223 7495 7507 "heptagon/analysis/causal.ml" 223 7495 7518
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  def node_for_ac "heptagon/analysis/causal.ml" 223 7495 7499 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 223 7495 7519 "heptagon/analysis/causal.ml" 223 7495 7521
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 224 7524 7530 "heptagon/analysis/causal.ml" 240 7968 7998
+)
+"heptagon/analysis/causal.ml" 224 7524 7538 "heptagon/analysis/causal.ml" 224 7524 7552
+type(
+  ac list -> ac Sgraph.node
+)
+ident(
+  def node_for_tuple "heptagon/analysis/causal.ml" 224 7524 7530 "heptagon/analysis/causal.ml" 240 7968 7998
+)
+"heptagon/analysis/causal.ml" 225 7564 7574 "heptagon/analysis/causal.ml" 225 7564 7576
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 225 7564 7580 "heptagon/analysis/causal.ml" 225 7564 7585
+type(
+  exn -> ac Sgraph.node
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 225 7564 7586 "heptagon/analysis/causal.ml" 225 7564 7595
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 225 7564 7580 "heptagon/analysis/causal.ml" 225 7564 7595
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 226 7596 7606 "heptagon/analysis/causal.ml" 226 7596 7607
+type(
+  ac
+)
+ident(
+  def v "heptagon/analysis/causal.ml" 227 7614 7626 "heptagon/analysis/causal.ml" 231 7725 7738
+)
+"heptagon/analysis/causal.ml" 226 7596 7609 "heptagon/analysis/causal.ml" 226 7596 7610
+type(
+  ac list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 227 7614 7626 "heptagon/analysis/causal.ml" 231 7725 7738
+)
+"heptagon/analysis/causal.ml" 226 7596 7606 "heptagon/analysis/causal.ml" 226 7596 7610
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 228 7631 7646 "heptagon/analysis/causal.ml" 228 7631 7657
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  int_ref node_for_ac "heptagon/analysis/causal.ml" 223 7495 7507 "heptagon/analysis/causal.ml" 223 7495 7518
+)
+"heptagon/analysis/causal.ml" 228 7631 7658 "heptagon/analysis/causal.ml" 228 7631 7659
+type(
+  ac
+)
+ident(
+  int_ref v "heptagon/analysis/causal.ml" 226 7596 7606 "heptagon/analysis/causal.ml" 226 7596 7607
+)
+"heptagon/analysis/causal.ml" 228 7631 7646 "heptagon/analysis/causal.ml" 228 7631 7659
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 230 7678 7695 "heptagon/analysis/causal.ml" 230 7678 7704
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 230 7678 7708 "heptagon/analysis/causal.ml" 230 7678 7722
+type(
+  ac list -> ac Sgraph.node
+)
+ident(
+  int_ref node_for_tuple "heptagon/analysis/causal.ml" 224 7524 7538 "heptagon/analysis/causal.ml" 224 7524 7552
+)
+"heptagon/analysis/causal.ml" 230 7678 7723 "heptagon/analysis/causal.ml" 230 7678 7724
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 226 7596 7609 "heptagon/analysis/causal.ml" 226 7596 7610
+)
+"heptagon/analysis/causal.ml" 230 7678 7708 "heptagon/analysis/causal.ml" 230 7678 7724
+call(
+  tail
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 227 7614 7626 "heptagon/analysis/causal.ml" 231 7725 7738
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 224 7524 7555 "heptagon/analysis/causal.ml" 231 7725 7738
+type(
+  ac list -> ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 233 7748 7760 "heptagon/analysis/causal.ml" 233 7748 7762
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 223 7495 7519 "heptagon/analysis/causal.ml" 223 7495 7521
+)
+"heptagon/analysis/causal.ml" 234 7768 7785 "heptagon/analysis/causal.ml" 234 7768 7786
+type(
+  Idents.ident
+)
+ident(
+  def n "heptagon/analysis/causal.ml" 234 7768 7790 "heptagon/analysis/causal.ml" 234 7768 7811
+)
+"heptagon/analysis/causal.ml" 234 7768 7778 "heptagon/analysis/causal.ml" 234 7768 7786
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 234 7768 7790 "heptagon/analysis/causal.ml" 234 7768 7798
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 234 7768 7799 "heptagon/analysis/causal.ml" 234 7768 7800
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 234 7768 7785 "heptagon/analysis/causal.ml" 234 7768 7786
+)
+"heptagon/analysis/causal.ml" 234 7768 7801 "heptagon/analysis/causal.ml" 234 7768 7811
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 196 6858 6878 "heptagon/analysis/causal.ml" 196 6858 6888
+)
+"heptagon/analysis/causal.ml" 234 7768 7790 "heptagon/analysis/causal.ml" 234 7768 7811
+call(
+  tail
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 235 7812 7831 "heptagon/analysis/causal.ml" 235 7812 7832
+type(
+  Idents.ident
+)
+ident(
+  def n "heptagon/analysis/causal.ml" 235 7812 7836 "heptagon/analysis/causal.ml" 235 7812 7854
+)
+"heptagon/analysis/causal.ml" 235 7812 7822 "heptagon/analysis/causal.ml" 235 7812 7832
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 235 7812 7836 "heptagon/analysis/causal.ml" 235 7812 7844
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 235 7812 7845 "heptagon/analysis/causal.ml" 235 7812 7846
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 235 7812 7831 "heptagon/analysis/causal.ml" 235 7812 7832
+)
+"heptagon/analysis/causal.ml" 235 7812 7847 "heptagon/analysis/causal.ml" 235 7812 7854
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 196 6858 6889 "heptagon/analysis/causal.ml" 196 6858 6896
+)
+"heptagon/analysis/causal.ml" 235 7812 7836 "heptagon/analysis/causal.ml" 235 7812 7854
+call(
+  tail
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 236 7855 7872 "heptagon/analysis/causal.ml" 236 7855 7873
+type(
+  ac list
+)
+ident(
+  def l "heptagon/analysis/causal.ml" 237 7877 7889 "heptagon/analysis/causal.ml" 239 7927 7967
+)
+"heptagon/analysis/causal.ml" 236 7855 7865 "heptagon/analysis/causal.ml" 236 7855 7873
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 238 7894 7910 "heptagon/analysis/causal.ml" 238 7894 7924
+type(
+  ac list -> ac Sgraph.node
+)
+ident(
+  int_ref node_for_tuple "heptagon/analysis/causal.ml" 224 7524 7538 "heptagon/analysis/causal.ml" 224 7524 7552
+)
+"heptagon/analysis/causal.ml" 238 7894 7925 "heptagon/analysis/causal.ml" 238 7894 7926
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 236 7855 7872 "heptagon/analysis/causal.ml" 236 7855 7873
+)
+"heptagon/analysis/causal.ml" 238 7894 7910 "heptagon/analysis/causal.ml" 238 7894 7926
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 239 7927 7946 "heptagon/analysis/causal.ml" 239 7927 7955
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 239 7927 7959 "heptagon/analysis/causal.ml" 239 7927 7963
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  ext_ref Sgraph.make
+)
+"heptagon/analysis/causal.ml" 239 7927 7964 "heptagon/analysis/causal.ml" 239 7927 7966
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 223 7495 7519 "heptagon/analysis/causal.ml" 223 7495 7521
+)
+"heptagon/analysis/causal.ml" 239 7927 7959 "heptagon/analysis/causal.ml" 239 7927 7966
+call(
+  tail
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 237 7877 7889 "heptagon/analysis/causal.ml" 239 7927 7967
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 240 7968 7978 "heptagon/analysis/causal.ml" 240 7968 7979
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 240 7968 7983 "heptagon/analysis/causal.ml" 240 7968 7988
+type(
+  exn -> ac Sgraph.node
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/causal.ml" 240 7968 7989 "heptagon/analysis/causal.ml" 240 7968 7998
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 240 7968 7983 "heptagon/analysis/causal.ml" 240 7968 7998
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 233 7748 7754 "heptagon/analysis/causal.ml" 240 7968 7998
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 224 7524 7530 "heptagon/analysis/causal.ml" 240 7968 7998
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  def make_graph "heptagon/analysis/causal.ml" 243 8007 8011 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 243 8007 8030 "heptagon/analysis/causal.ml" 243 8007 8032
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 244 8035 8041 "heptagon/analysis/causal.ml" 263 8862 8883
+)
+"heptagon/analysis/causal.ml" 244 8035 8047 "heptagon/analysis/causal.ml" 244 8035 8049
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 243 8007 8030 "heptagon/analysis/causal.ml" 243 8007 8032
+)
+"heptagon/analysis/causal.ml" 245 8055 8070 "heptagon/analysis/causal.ml" 245 8055 8073
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 246 8083 8095 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 245 8055 8075 "heptagon/analysis/causal.ml" 245 8055 8078
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 246 8083 8095 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 245 8055 8065 "heptagon/analysis/causal.ml" 245 8055 8079
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 246 8083 8099 "heptagon/analysis/causal.ml" 246 8083 8103
+type(
+  ac Sgraph.node list
+)
+ident(
+  def top1 "heptagon/analysis/causal.ml" 247 8130 8142 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 246 8083 8105 "heptagon/analysis/causal.ml" 246 8083 8109
+type(
+  ac Sgraph.node list
+)
+ident(
+  def bot1 "heptagon/analysis/causal.ml" 247 8130 8142 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 246 8083 8099 "heptagon/analysis/causal.ml" 246 8083 8109
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 246 8083 8112 "heptagon/analysis/causal.ml" 246 8083 8122
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+)
+"heptagon/analysis/causal.ml" 246 8083 8123 "heptagon/analysis/causal.ml" 246 8083 8126
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 245 8055 8070 "heptagon/analysis/causal.ml" 245 8055 8073
+)
+"heptagon/analysis/causal.ml" 246 8083 8112 "heptagon/analysis/causal.ml" 246 8083 8126
+call(
+  stack
+)
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 247 8130 8146 "heptagon/analysis/causal.ml" 247 8130 8150
+type(
+  ac Sgraph.node list
+)
+ident(
+  def top2 "heptagon/analysis/causal.ml" 248 8177 8189 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 247 8130 8152 "heptagon/analysis/causal.ml" 247 8130 8156
+type(
+  ac Sgraph.node list
+)
+ident(
+  def bot2 "heptagon/analysis/causal.ml" 248 8177 8189 "heptagon/analysis/causal.ml" 248 8177 8213
+)
+"heptagon/analysis/causal.ml" 247 8130 8146 "heptagon/analysis/causal.ml" 247 8130 8156
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 247 8130 8159 "heptagon/analysis/causal.ml" 247 8130 8169
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+)
+"heptagon/analysis/causal.ml" 247 8130 8170 "heptagon/analysis/causal.ml" 247 8130 8173
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 245 8055 8075 "heptagon/analysis/causal.ml" 245 8055 8078
+)
+"heptagon/analysis/causal.ml" 247 8130 8159 "heptagon/analysis/causal.ml" 247 8130 8173
+call(
+  stack
+)
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 248 8177 8189 "heptagon/analysis/causal.ml" 248 8177 8193
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top1 "heptagon/analysis/causal.ml" 246 8083 8099 "heptagon/analysis/causal.ml" 246 8083 8103
+)
+"heptagon/analysis/causal.ml" 248 8177 8194 "heptagon/analysis/causal.ml" 248 8177 8195
+type(
+  ac Sgraph.node list -> ac Sgraph.node list -> ac Sgraph.node list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/analysis/causal.ml" 248 8177 8196 "heptagon/analysis/causal.ml" 248 8177 8200
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top2 "heptagon/analysis/causal.ml" 247 8130 8146 "heptagon/analysis/causal.ml" 247 8130 8150
+)
+"heptagon/analysis/causal.ml" 248 8177 8189 "heptagon/analysis/causal.ml" 248 8177 8200
+call(
+  stack
+)
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 248 8177 8202 "heptagon/analysis/causal.ml" 248 8177 8206
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot1 "heptagon/analysis/causal.ml" 246 8083 8105 "heptagon/analysis/causal.ml" 246 8083 8109
+)
+"heptagon/analysis/causal.ml" 248 8177 8207 "heptagon/analysis/causal.ml" 248 8177 8208
+type(
+  ac Sgraph.node list -> ac Sgraph.node list -> ac Sgraph.node list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/analysis/causal.ml" 248 8177 8209 "heptagon/analysis/causal.ml" 248 8177 8213
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot2 "heptagon/analysis/causal.ml" 247 8130 8152 "heptagon/analysis/causal.ml" 247 8130 8156
+)
+"heptagon/analysis/causal.ml" 248 8177 8202 "heptagon/analysis/causal.ml" 248 8177 8213
+call(
+  stack
+)
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 248 8177 8189 "heptagon/analysis/causal.ml" 248 8177 8213
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 247 8130 8142 "heptagon/analysis/causal.ml" 248 8177 8213
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 246 8083 8095 "heptagon/analysis/causal.ml" 248 8177 8213
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 249 8214 8229 "heptagon/analysis/causal.ml" 249 8214 8232
+type(
+  ac
+)
+ident(
+  def ac1 "heptagon/analysis/causal.ml" 250 8242 8254 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 249 8214 8234 "heptagon/analysis/causal.ml" 249 8214 8237
+type(
+  ac
+)
+ident(
+  def ac2 "heptagon/analysis/causal.ml" 250 8242 8254 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 249 8214 8224 "heptagon/analysis/causal.ml" 249 8214 8238
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 250 8242 8258 "heptagon/analysis/causal.ml" 250 8242 8262
+type(
+  ac Sgraph.node list
+)
+ident(
+  def top1 "heptagon/analysis/causal.ml" 251 8289 8301 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 250 8242 8264 "heptagon/analysis/causal.ml" 250 8242 8268
+type(
+  ac Sgraph.node list
+)
+ident(
+  def bot1 "heptagon/analysis/causal.ml" 251 8289 8301 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 250 8242 8258 "heptagon/analysis/causal.ml" 250 8242 8268
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 250 8242 8271 "heptagon/analysis/causal.ml" 250 8242 8281
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+)
+"heptagon/analysis/causal.ml" 250 8242 8282 "heptagon/analysis/causal.ml" 250 8242 8285
+type(
+  ac
+)
+ident(
+  int_ref ac1 "heptagon/analysis/causal.ml" 249 8214 8229 "heptagon/analysis/causal.ml" 249 8214 8232
+)
+"heptagon/analysis/causal.ml" 250 8242 8271 "heptagon/analysis/causal.ml" 250 8242 8285
+call(
+  stack
+)
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 251 8289 8305 "heptagon/analysis/causal.ml" 251 8289 8309
+type(
+  ac Sgraph.node list
+)
+ident(
+  def top2 "heptagon/analysis/causal.ml" 253 8376 8388 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 251 8289 8311 "heptagon/analysis/causal.ml" 251 8289 8315
+type(
+  ac Sgraph.node list
+)
+ident(
+  def bot2 "heptagon/analysis/causal.ml" 253 8376 8388 "heptagon/analysis/causal.ml" 256 8493 8529
+)
+"heptagon/analysis/causal.ml" 251 8289 8305 "heptagon/analysis/causal.ml" 251 8289 8315
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 251 8289 8318 "heptagon/analysis/causal.ml" 251 8289 8328
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+)
+"heptagon/analysis/causal.ml" 251 8289 8329 "heptagon/analysis/causal.ml" 251 8289 8332
+type(
+  ac
+)
+ident(
+  int_ref ac2 "heptagon/analysis/causal.ml" 249 8214 8234 "heptagon/analysis/causal.ml" 249 8214 8237
+)
+"heptagon/analysis/causal.ml" 251 8289 8318 "heptagon/analysis/causal.ml" 251 8289 8332
+call(
+  stack
+)
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 253 8376 8388 "heptagon/analysis/causal.ml" 253 8376 8397
+type(
+  (ac Sgraph.node -> unit) -> ac Sgraph.node list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/analysis/causal.ml" 254 8398 8417 "heptagon/analysis/causal.ml" 254 8398 8420
+type(
+  ac Sgraph.node
+)
+ident(
+  def top "heptagon/analysis/causal.ml" 254 8398 8424 "heptagon/analysis/causal.ml" 254 8398 8471
+)
+"heptagon/analysis/causal.ml" 254 8398 8424 "heptagon/analysis/causal.ml" 254 8398 8433
+type(
+  (ac Sgraph.node -> unit) -> ac Sgraph.node list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/analysis/causal.ml" 254 8398 8439 "heptagon/analysis/causal.ml" 254 8398 8442
+type(
+  ac Sgraph.node
+)
+ident(
+  def bot "heptagon/analysis/causal.ml" 254 8398 8446 "heptagon/analysis/causal.ml" 254 8398 8465
+)
+"heptagon/analysis/causal.ml" 254 8398 8446 "heptagon/analysis/causal.ml" 254 8398 8457
+type(
+  ac Sgraph.node -> ac Sgraph.node -> unit
+)
+ident(
+  ext_ref Sgraph.add_depends
+)
+"heptagon/analysis/causal.ml" 254 8398 8458 "heptagon/analysis/causal.ml" 254 8398 8461
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref top "heptagon/analysis/causal.ml" 254 8398 8417 "heptagon/analysis/causal.ml" 254 8398 8420
+)
+"heptagon/analysis/causal.ml" 254 8398 8462 "heptagon/analysis/causal.ml" 254 8398 8465
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref bot "heptagon/analysis/causal.ml" 254 8398 8439 "heptagon/analysis/causal.ml" 254 8398 8442
+)
+"heptagon/analysis/causal.ml" 254 8398 8446 "heptagon/analysis/causal.ml" 254 8398 8465
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 254 8398 8434 "heptagon/analysis/causal.ml" 254 8398 8466
+type(
+  ac Sgraph.node -> unit
+)
+"heptagon/analysis/causal.ml" 254 8398 8467 "heptagon/analysis/causal.ml" 254 8398 8471
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot1 "heptagon/analysis/causal.ml" 250 8242 8264 "heptagon/analysis/causal.ml" 250 8242 8268
+)
+"heptagon/analysis/causal.ml" 254 8398 8424 "heptagon/analysis/causal.ml" 254 8398 8471
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 254 8398 8412 "heptagon/analysis/causal.ml" 254 8398 8472
+type(
+  ac Sgraph.node -> unit
+)
+"heptagon/analysis/causal.ml" 255 8473 8487 "heptagon/analysis/causal.ml" 255 8473 8491
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top2 "heptagon/analysis/causal.ml" 251 8289 8305 "heptagon/analysis/causal.ml" 251 8289 8309
+)
+"heptagon/analysis/causal.ml" 253 8376 8388 "heptagon/analysis/causal.ml" 255 8473 8491
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 256 8493 8505 "heptagon/analysis/causal.ml" 256 8493 8509
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top1 "heptagon/analysis/causal.ml" 250 8242 8258 "heptagon/analysis/causal.ml" 250 8242 8262
+)
+"heptagon/analysis/causal.ml" 256 8493 8510 "heptagon/analysis/causal.ml" 256 8493 8511
+type(
+  ac Sgraph.node list -> ac Sgraph.node list -> ac Sgraph.node list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/analysis/causal.ml" 256 8493 8512 "heptagon/analysis/causal.ml" 256 8493 8516
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top2 "heptagon/analysis/causal.ml" 251 8289 8305 "heptagon/analysis/causal.ml" 251 8289 8309
+)
+"heptagon/analysis/causal.ml" 256 8493 8505 "heptagon/analysis/causal.ml" 256 8493 8516
+call(
+  stack
+)
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 256 8493 8518 "heptagon/analysis/causal.ml" 256 8493 8522
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot1 "heptagon/analysis/causal.ml" 250 8242 8264 "heptagon/analysis/causal.ml" 250 8242 8268
+)
+"heptagon/analysis/causal.ml" 256 8493 8523 "heptagon/analysis/causal.ml" 256 8493 8524
+type(
+  ac Sgraph.node list -> ac Sgraph.node list -> ac Sgraph.node list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/analysis/causal.ml" 256 8493 8525 "heptagon/analysis/causal.ml" 256 8493 8529
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot2 "heptagon/analysis/causal.ml" 251 8289 8311 "heptagon/analysis/causal.ml" 251 8289 8315
+)
+"heptagon/analysis/causal.ml" 256 8493 8518 "heptagon/analysis/causal.ml" 256 8493 8529
+call(
+  stack
+)
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 256 8493 8505 "heptagon/analysis/causal.ml" 256 8493 8529
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 253 8376 8388 "heptagon/analysis/causal.ml" 256 8493 8529
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 251 8289 8301 "heptagon/analysis/causal.ml" 256 8493 8529
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 250 8242 8254 "heptagon/analysis/causal.ml" 256 8493 8529
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 257 8530 8547 "heptagon/analysis/causal.ml" 257 8530 8548
+ident(
+  def n "heptagon/analysis/causal.ml" 257 8530 8553 "heptagon/analysis/causal.ml" 257 8530 8594
+)
+"heptagon/analysis/causal.ml" 257 8530 8546 "heptagon/analysis/causal.ml" 257 8530 8549
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 257 8530 8540 "heptagon/analysis/causal.ml" 257 8530 8549
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 257 8530 8557 "heptagon/analysis/causal.ml" 257 8530 8558
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 257 8530 8586 "heptagon/analysis/causal.ml" 257 8530 8594
+)
+"heptagon/analysis/causal.ml" 257 8530 8561 "heptagon/analysis/causal.ml" 257 8530 8569
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 257 8530 8570 "heptagon/analysis/causal.ml" 257 8530 8571
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 257 8530 8546 "heptagon/analysis/causal.ml" 257 8530 8549
+)
+"heptagon/analysis/causal.ml" 257 8530 8572 "heptagon/analysis/causal.ml" 257 8530 8582
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 196 6858 6878 "heptagon/analysis/causal.ml" 196 6858 6888
+)
+"heptagon/analysis/causal.ml" 257 8530 8561 "heptagon/analysis/causal.ml" 257 8530 8582
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 257 8530 8587 "heptagon/analysis/causal.ml" 257 8530 8588
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 257 8530 8557 "heptagon/analysis/causal.ml" 257 8530 8558
+)
+"heptagon/analysis/causal.ml" 257 8530 8586 "heptagon/analysis/causal.ml" 257 8530 8589
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 257 8530 8592 "heptagon/analysis/causal.ml" 257 8530 8593
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 257 8530 8557 "heptagon/analysis/causal.ml" 257 8530 8558
+)
+"heptagon/analysis/causal.ml" 257 8530 8591 "heptagon/analysis/causal.ml" 257 8530 8594
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 257 8530 8586 "heptagon/analysis/causal.ml" 257 8530 8594
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 257 8530 8553 "heptagon/analysis/causal.ml" 257 8530 8594
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8611 "heptagon/analysis/causal.ml" 258 8595 8612
+ident(
+  def n "heptagon/analysis/causal.ml" 258 8595 8616 "heptagon/analysis/causal.ml" 258 8595 8671
+)
+"heptagon/analysis/causal.ml" 258 8595 8610 "heptagon/analysis/causal.ml" 258 8595 8613
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 258 8595 8605 "heptagon/analysis/causal.ml" 258 8595 8613
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 258 8595 8620 "heptagon/analysis/causal.ml" 258 8595 8621
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 258 8595 8635 "heptagon/analysis/causal.ml" 258 8595 8671
+)
+"heptagon/analysis/causal.ml" 258 8595 8624 "heptagon/analysis/causal.ml" 258 8595 8628
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  ext_ref Sgraph.make
+)
+"heptagon/analysis/causal.ml" 258 8595 8629 "heptagon/analysis/causal.ml" 258 8595 8631
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 243 8007 8030 "heptagon/analysis/causal.ml" 243 8007 8032
+)
+"heptagon/analysis/causal.ml" 258 8595 8624 "heptagon/analysis/causal.ml" 258 8595 8631
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 258 8595 8635 "heptagon/analysis/causal.ml" 258 8595 8641
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "heptagon/analysis/causal.ml" 197 6899 6907 "heptagon/analysis/causal.ml" 197 6899 6913
+)
+"heptagon/analysis/causal.ml" 258 8595 8642 "heptagon/analysis/causal.ml" 258 8595 8643
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 258 8595 8620 "heptagon/analysis/causal.ml" 258 8595 8621
+)
+"heptagon/analysis/causal.ml" 258 8595 8644 "heptagon/analysis/causal.ml" 258 8595 8645
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 258 8595 8610 "heptagon/analysis/causal.ml" 258 8595 8613
+)
+"heptagon/analysis/causal.ml" 258 8595 8635 "heptagon/analysis/causal.ml" 258 8595 8645
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 258 8595 8647 "heptagon/analysis/causal.ml" 258 8595 8657
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach_lin "heptagon/analysis/causal.ml" 207 7126 7134 "heptagon/analysis/causal.ml" 207 7126 7144
+)
+"heptagon/analysis/causal.ml" 258 8595 8658 "heptagon/analysis/causal.ml" 258 8595 8659
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 258 8595 8620 "heptagon/analysis/causal.ml" 258 8595 8621
+)
+"heptagon/analysis/causal.ml" 258 8595 8660 "heptagon/analysis/causal.ml" 258 8595 8661
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 258 8595 8610 "heptagon/analysis/causal.ml" 258 8595 8613
+)
+"heptagon/analysis/causal.ml" 258 8595 8647 "heptagon/analysis/causal.ml" 258 8595 8661
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 258 8595 8664 "heptagon/analysis/causal.ml" 258 8595 8665
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 258 8595 8620 "heptagon/analysis/causal.ml" 258 8595 8621
+)
+"heptagon/analysis/causal.ml" 258 8595 8663 "heptagon/analysis/causal.ml" 258 8595 8666
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8669 "heptagon/analysis/causal.ml" 258 8595 8670
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 258 8595 8620 "heptagon/analysis/causal.ml" 258 8595 8621
+)
+"heptagon/analysis/causal.ml" 258 8595 8668 "heptagon/analysis/causal.ml" 258 8595 8671
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8663 "heptagon/analysis/causal.ml" 258 8595 8671
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8647 "heptagon/analysis/causal.ml" 258 8595 8671
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8635 "heptagon/analysis/causal.ml" 258 8595 8671
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 258 8595 8616 "heptagon/analysis/causal.ml" 258 8595 8671
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 259 8672 8691 "heptagon/analysis/causal.ml" 259 8672 8692
+ident(
+  def n "heptagon/analysis/causal.ml" 259 8672 8697 "heptagon/analysis/causal.ml" 259 8672 8747
+)
+"heptagon/analysis/causal.ml" 259 8672 8690 "heptagon/analysis/causal.ml" 259 8672 8693
+type(
+  Idents.ident
+)
+"heptagon/analysis/causal.ml" 259 8672 8682 "heptagon/analysis/causal.ml" 259 8672 8693
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 259 8672 8701 "heptagon/analysis/causal.ml" 259 8672 8702
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 259 8672 8727 "heptagon/analysis/causal.ml" 259 8672 8747
+)
+"heptagon/analysis/causal.ml" 259 8672 8705 "heptagon/analysis/causal.ml" 259 8672 8713
+type(
+  Idents.Env.key -> ac Sgraph.node Idents.Env.t -> ac Sgraph.node
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/analysis/causal.ml" 259 8672 8714 "heptagon/analysis/causal.ml" 259 8672 8715
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 259 8672 8690 "heptagon/analysis/causal.ml" 259 8672 8693
+)
+"heptagon/analysis/causal.ml" 259 8672 8716 "heptagon/analysis/causal.ml" 259 8672 8723
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 196 6858 6889 "heptagon/analysis/causal.ml" 196 6858 6896
+)
+"heptagon/analysis/causal.ml" 259 8672 8705 "heptagon/analysis/causal.ml" 259 8672 8723
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 259 8672 8727 "heptagon/analysis/causal.ml" 259 8672 8733
+type(
+  ac Sgraph.node -> Idents.Env.key -> unit
+)
+ident(
+  int_ref attach "heptagon/analysis/causal.ml" 197 6899 6907 "heptagon/analysis/causal.ml" 197 6899 6913
+)
+"heptagon/analysis/causal.ml" 259 8672 8734 "heptagon/analysis/causal.ml" 259 8672 8735
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 259 8672 8701 "heptagon/analysis/causal.ml" 259 8672 8702
+)
+"heptagon/analysis/causal.ml" 259 8672 8736 "heptagon/analysis/causal.ml" 259 8672 8737
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref n "heptagon/analysis/causal.ml" 259 8672 8690 "heptagon/analysis/causal.ml" 259 8672 8693
+)
+"heptagon/analysis/causal.ml" 259 8672 8727 "heptagon/analysis/causal.ml" 259 8672 8737
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 259 8672 8740 "heptagon/analysis/causal.ml" 259 8672 8741
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 259 8672 8701 "heptagon/analysis/causal.ml" 259 8672 8702
+)
+"heptagon/analysis/causal.ml" 259 8672 8739 "heptagon/analysis/causal.ml" 259 8672 8742
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 259 8672 8745 "heptagon/analysis/causal.ml" 259 8672 8746
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 259 8672 8701 "heptagon/analysis/causal.ml" 259 8672 8702
+)
+"heptagon/analysis/causal.ml" 259 8672 8744 "heptagon/analysis/causal.ml" 259 8672 8747
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 259 8672 8739 "heptagon/analysis/causal.ml" 259 8672 8747
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 259 8672 8727 "heptagon/analysis/causal.ml" 259 8672 8747
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 259 8672 8697 "heptagon/analysis/causal.ml" 259 8672 8747
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 260 8748 8765 "heptagon/analysis/causal.ml" 260 8748 8766
+ident(
+  def l "heptagon/analysis/causal.ml" 261 8771 8783 "heptagon/analysis/causal.ml" 262 8809 8861
+)
+"heptagon/analysis/causal.ml" 260 8748 8764 "heptagon/analysis/causal.ml" 260 8748 8767
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 260 8748 8758 "heptagon/analysis/causal.ml" 260 8748 8767
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 261 8771 8787 "heptagon/analysis/causal.ml" 261 8771 8788
+type(
+  ac Sgraph.node
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 262 8809 8821 "heptagon/analysis/causal.ml" 262 8809 8861
+)
+"heptagon/analysis/causal.ml" 261 8771 8791 "heptagon/analysis/causal.ml" 261 8771 8802
+type(
+  ac -> ac Sgraph.node
+)
+ident(
+  int_ref node_for_ac "heptagon/analysis/causal.ml" 223 7495 7507 "heptagon/analysis/causal.ml" 223 7495 7518
+)
+"heptagon/analysis/causal.ml" 261 8771 8803 "heptagon/analysis/causal.ml" 261 8771 8805
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 243 8007 8030 "heptagon/analysis/causal.ml" 243 8007 8032
+)
+"heptagon/analysis/causal.ml" 261 8771 8791 "heptagon/analysis/causal.ml" 261 8771 8805
+call(
+  stack
+)
+type(
+  ac Sgraph.node
+)
+"heptagon/analysis/causal.ml" 262 8809 8821 "heptagon/analysis/causal.ml" 262 8809 8830
+type(
+  (ac -> unit) -> ac list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/analysis/causal.ml" 262 8809 8832 "heptagon/analysis/causal.ml" 262 8809 8846
+type(
+  ac Sgraph.node -> ac -> unit
+)
+ident(
+  int_ref add_dependence "heptagon/analysis/causal.ml" 217 7354 7362 "heptagon/analysis/causal.ml" 217 7354 7376
+)
+"heptagon/analysis/causal.ml" 262 8809 8847 "heptagon/analysis/causal.ml" 262 8809 8848
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 261 8771 8787 "heptagon/analysis/causal.ml" 261 8771 8788
+)
+"heptagon/analysis/causal.ml" 262 8809 8831 "heptagon/analysis/causal.ml" 262 8809 8849
+call(
+  stack
+)
+type(
+  ac -> unit
+)
+"heptagon/analysis/causal.ml" 262 8809 8850 "heptagon/analysis/causal.ml" 262 8809 8851
+type(
+  ac list
+)
+ident(
+  int_ref l "heptagon/analysis/causal.ml" 260 8748 8764 "heptagon/analysis/causal.ml" 260 8748 8767
+)
+"heptagon/analysis/causal.ml" 262 8809 8821 "heptagon/analysis/causal.ml" 262 8809 8851
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 262 8809 8854 "heptagon/analysis/causal.ml" 262 8809 8855
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 261 8771 8787 "heptagon/analysis/causal.ml" 261 8771 8788
+)
+"heptagon/analysis/causal.ml" 262 8809 8853 "heptagon/analysis/causal.ml" 262 8809 8856
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 262 8809 8859 "heptagon/analysis/causal.ml" 262 8809 8860
+type(
+  ac Sgraph.node
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 261 8771 8787 "heptagon/analysis/causal.ml" 261 8771 8788
+)
+"heptagon/analysis/causal.ml" 262 8809 8858 "heptagon/analysis/causal.ml" 262 8809 8861
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 262 8809 8853 "heptagon/analysis/causal.ml" 262 8809 8861
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 262 8809 8821 "heptagon/analysis/causal.ml" 262 8809 8861
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 261 8771 8783 "heptagon/analysis/causal.ml" 262 8809 8861
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 263 8862 8872 "heptagon/analysis/causal.ml" 263 8862 8873
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 263 8862 8877 "heptagon/analysis/causal.ml" 263 8862 8879
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 263 8862 8881 "heptagon/analysis/causal.ml" 263 8862 8883
+type(
+  ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 263 8862 8877 "heptagon/analysis/causal.ml" 263 8862 8883
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 244 8035 8041 "heptagon/analysis/causal.ml" 263 8862 8883
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 266 8892 8900 "heptagon/analysis/causal.ml" 266 8892 8908
+type(
+  ac Sgraph.node list
+)
+ident(
+  def top_list "heptagon/analysis/causal.ml" 267 8938 8942 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 266 8892 8910 "heptagon/analysis/causal.ml" 266 8892 8918
+type(
+  ac Sgraph.node list
+)
+ident(
+  def bot_list "heptagon/analysis/causal.ml" 267 8938 8942 "heptagon/analysis/causal.ml" 267 8938 8965
+)
+"heptagon/analysis/causal.ml" 266 8892 8900 "heptagon/analysis/causal.ml" 266 8892 8918
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 266 8892 8921 "heptagon/analysis/causal.ml" 266 8892 8931
+type(
+  ac -> ac Sgraph.node list * ac Sgraph.node list
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 243 8007 8019 "heptagon/analysis/causal.ml" 243 8007 8029
+)
+"heptagon/analysis/causal.ml" 266 8892 8932 "heptagon/analysis/causal.ml" 266 8892 8934
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 196 6858 6875 "heptagon/analysis/causal.ml" 196 6858 6877
+)
+"heptagon/analysis/causal.ml" 266 8892 8921 "heptagon/analysis/causal.ml" 266 8892 8934
+call(
+  stack
+)
+type(
+  ac Sgraph.node list * ac Sgraph.node list
+)
+"heptagon/analysis/causal.ml" 267 8938 8942 "heptagon/analysis/causal.ml" 267 8938 8947
+type(
+  ac Sgraph.node list -> ac Sgraph.node list -> ac Sgraph.graph
+)
+ident(
+  ext_ref Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 267 8938 8948 "heptagon/analysis/causal.ml" 267 8938 8956
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref top_list "heptagon/analysis/causal.ml" 266 8892 8900 "heptagon/analysis/causal.ml" 266 8892 8908
+)
+"heptagon/analysis/causal.ml" 267 8938 8957 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref bot_list "heptagon/analysis/causal.ml" 266 8892 8910 "heptagon/analysis/causal.ml" 266 8892 8918
+)
+"heptagon/analysis/causal.ml" 267 8938 8942 "heptagon/analysis/causal.ml" 267 8938 8965
+call(
+  tail
+)
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 266 8892 8896 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 243 8007 8011 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 223 7495 7499 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 217 7354 7358 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 207 7126 7130 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 197 6899 6903 "heptagon/analysis/causal.ml" 267 8938 8965
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 269 8970 8976 "heptagon/analysis/causal.ml" 269 8970 8986
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def n_to_graph "heptagon/analysis/causal.ml" 270 9035 9037 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 269 8970 8988 "heptagon/analysis/causal.ml" 269 8970 8995
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  def lin_map "heptagon/analysis/causal.ml" 270 9035 9037 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 269 8970 8976 "heptagon/analysis/causal.ml" 269 8970 8995
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 269 8970 8998 "heptagon/analysis/causal.ml" 269 8970 9008
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref initialize "heptagon/analysis/causal.ml" 183 6409 6419 "heptagon/analysis/causal.ml" 183 6409 6429
+)
+"heptagon/analysis/causal.ml" 269 8970 9009 "heptagon/analysis/causal.ml" 269 8970 9011
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 166 5875 5885 "heptagon/analysis/causal.ml" 166 5875 5887
+)
+"heptagon/analysis/causal.ml" 269 8970 9012 "heptagon/analysis/causal.ml" 269 8970 9021
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/analysis/causal.ml" 269 8970 9022 "heptagon/analysis/causal.ml" 269 8970 9031
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/analysis/causal.ml" 269 8970 8998 "heptagon/analysis/causal.ml" 269 8970 9031
+call(
+  stack
+)
+type(
+  ac Sgraph.node Idents.Env.t * ac Sgraph.node Idents.Env.t
+)
+"heptagon/analysis/causal.ml" 270 9035 9041 "heptagon/analysis/causal.ml" 270 9035 9042
+type(
+  ac Sgraph.graph
+)
+ident(
+  def g "heptagon/analysis/causal.ml" 271 9081 9083 "heptagon/analysis/causal.ml" 271 9081 9084
+)
+"heptagon/analysis/causal.ml" 270 9035 9045 "heptagon/analysis/causal.ml" 270 9035 9055
+type(
+  ac ->
+  ac Sgraph.node Idents.Env.t ->
+  ac Sgraph.node Idents.Env.t -> ac Sgraph.graph
+)
+ident(
+  int_ref make_graph "heptagon/analysis/causal.ml" 196 6858 6864 "heptagon/analysis/causal.ml" 196 6858 6874
+)
+"heptagon/analysis/causal.ml" 270 9035 9056 "heptagon/analysis/causal.ml" 270 9035 9058
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 166 5875 5885 "heptagon/analysis/causal.ml" 166 5875 5887
+)
+"heptagon/analysis/causal.ml" 270 9035 9059 "heptagon/analysis/causal.ml" 270 9035 9069
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref n_to_graph "heptagon/analysis/causal.ml" 269 8970 8976 "heptagon/analysis/causal.ml" 269 8970 8986
+)
+"heptagon/analysis/causal.ml" 270 9035 9070 "heptagon/analysis/causal.ml" 270 9035 9077
+type(
+  ac Sgraph.node Idents.Env.t
+)
+ident(
+  int_ref lin_map "heptagon/analysis/causal.ml" 269 8970 8988 "heptagon/analysis/causal.ml" 269 8970 8995
+)
+"heptagon/analysis/causal.ml" 270 9035 9045 "heptagon/analysis/causal.ml" 270 9035 9077
+call(
+  stack
+)
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 271 9081 9083 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+ident(
+  int_ref g "heptagon/analysis/causal.ml" 270 9035 9041 "heptagon/analysis/causal.ml" 270 9035 9042
+)
+"heptagon/analysis/causal.ml" 270 9035 9037 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 269 8970 8972 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 196 6858 6860 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 183 6409 6411 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 170 6009 6011 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 168 5947 5949 "heptagon/analysis/causal.ml" 271 9081 9084
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 274 9108 9112 "heptagon/analysis/causal.ml" 274 9108 9117
+type(
+  Location.location -> sc -> unit
+)
+ident(
+  def check "heptagon/analysis/causal.ml" 295 9539 9576 "heptagon/analysis/causal.ml" 1 0 -1
+)
+"heptagon/analysis/causal.ml" 274 9108 9118 "heptagon/analysis/causal.ml" 274 9108 9121
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/analysis/causal.ml" 274 9108 9122 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 274 9108 9122 "heptagon/analysis/causal.ml" 274 9108 9123
+type(
+  sc
+)
+ident(
+  def c "heptagon/analysis/causal.ml" 275 9126 9128 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 275 9126 9132 "heptagon/analysis/causal.ml" 275 9126 9140
+type(
+  ac -> unit
+)
+ident(
+  def check_ac "heptagon/analysis/causal.ml" 286 9369 9371 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 275 9126 9141 "heptagon/analysis/causal.ml" 275 9126 9143
+type(
+  ac
+)
+ident(
+  def ac "heptagon/analysis/causal.ml" 276 9146 9150 "heptagon/analysis/causal.ml" 282 9307 9361
+)
+"heptagon/analysis/causal.ml" 277 9154 9175 "heptagon/analysis/causal.ml" 277 9154 9181
+type(
+  ac Sgraph.node list
+)
+ident(
+  def g_list "heptagon/analysis/causal.ml" 278 9198 9204 "heptagon/analysis/causal.ml" 280 9249 9296
+)
+"heptagon/analysis/causal.ml" 277 9154 9165 "heptagon/analysis/causal.ml" 277 9154 9183
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 277 9154 9186 "heptagon/analysis/causal.ml" 277 9154 9191
+type(
+  ac -> ac Sgraph.graph
+)
+ident(
+  int_ref build "heptagon/analysis/causal.ml" 166 5875 5879 "heptagon/analysis/causal.ml" 166 5875 5884
+)
+"heptagon/analysis/causal.ml" 277 9154 9192 "heptagon/analysis/causal.ml" 277 9154 9194
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 275 9126 9141 "heptagon/analysis/causal.ml" 275 9126 9143
+)
+"heptagon/analysis/causal.ml" 277 9154 9186 "heptagon/analysis/causal.ml" 277 9154 9194
+call(
+  stack
+)
+type(
+  ac Sgraph.graph
+)
+"heptagon/analysis/causal.ml" 278 9198 9210 "heptagon/analysis/causal.ml" 278 9198 9215
+type(
+  ac Sgraph.node list -> ac list option
+)
+ident(
+  ext_ref Sgraph.cycle
+)
+"heptagon/analysis/causal.ml" 278 9198 9216 "heptagon/analysis/causal.ml" 278 9198 9222
+type(
+  ac Sgraph.node list
+)
+ident(
+  int_ref g_list "heptagon/analysis/causal.ml" 277 9154 9175 "heptagon/analysis/causal.ml" 277 9154 9181
+)
+"heptagon/analysis/causal.ml" 278 9198 9210 "heptagon/analysis/causal.ml" 278 9198 9222
+call(
+  stack
+)
+type(
+  ac list option
+)
+"heptagon/analysis/causal.ml" 279 9228 9238 "heptagon/analysis/causal.ml" 279 9228 9242
+type(
+  ac list option
+)
+"heptagon/analysis/causal.ml" 279 9228 9246 "heptagon/analysis/causal.ml" 279 9228 9248
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 280 9249 9264 "heptagon/analysis/causal.ml" 280 9249 9265
+type(
+  ac list
+)
+"heptagon/analysis/causal.ml" 280 9249 9259 "heptagon/analysis/causal.ml" 280 9249 9265
+type(
+  ac list option
+)
+"heptagon/analysis/causal.ml" 280 9249 9269 "heptagon/analysis/causal.ml" 280 9249 9274
+type(
+  error -> unit
+)
+ident(
+  int_ref error "heptagon/analysis/causal.ml" 103 4039 4043 "heptagon/analysis/causal.ml" 103 4039 4048
+)
+"heptagon/analysis/causal.ml" 280 9249 9293 "heptagon/analysis/causal.ml" 280 9249 9295
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 275 9126 9141 "heptagon/analysis/causal.ml" 275 9126 9143
+)
+"heptagon/analysis/causal.ml" 280 9249 9275 "heptagon/analysis/causal.ml" 280 9249 9296
+type(
+  error
+)
+"heptagon/analysis/causal.ml" 280 9249 9269 "heptagon/analysis/causal.ml" 280 9249 9296
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 278 9198 9204 "heptagon/analysis/causal.ml" 280 9249 9296
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 277 9154 9160 "heptagon/analysis/causal.ml" 280 9249 9297
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 282 9307 9315 "heptagon/analysis/causal.ml" 282 9307 9330
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 282 9307 9334 "heptagon/analysis/causal.ml" 282 9307 9339
+type(
+  error -> unit
+)
+ident(
+  int_ref error "heptagon/analysis/causal.ml" 103 4039 4043 "heptagon/analysis/causal.ml" 103 4039 4048
+)
+"heptagon/analysis/causal.ml" 282 9307 9358 "heptagon/analysis/causal.ml" 282 9307 9360
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 275 9126 9141 "heptagon/analysis/causal.ml" 275 9126 9143
+)
+"heptagon/analysis/causal.ml" 282 9307 9340 "heptagon/analysis/causal.ml" 282 9307 9361
+type(
+  error
+)
+"heptagon/analysis/causal.ml" 282 9307 9334 "heptagon/analysis/causal.ml" 282 9307 9361
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 276 9146 9150 "heptagon/analysis/causal.ml" 282 9307 9361
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 286 9369 9379 "heptagon/analysis/causal.ml" 286 9369 9384
+type(
+  nc -> unit
+)
+ident(
+  def check "heptagon/analysis/causal.ml" 286 9369 9371 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 287 9396 9402 "heptagon/analysis/causal.ml" 287 9396 9408
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 287 9396 9412 "heptagon/analysis/causal.ml" 287 9396 9414
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 288 9415 9425 "heptagon/analysis/causal.ml" 288 9415 9427
+ident(
+  def ac "heptagon/analysis/causal.ml" 288 9415 9432 "heptagon/analysis/causal.ml" 288 9415 9443
+)
+"heptagon/analysis/causal.ml" 288 9415 9424 "heptagon/analysis/causal.ml" 288 9415 9428
+type(
+  ac
+)
+"heptagon/analysis/causal.ml" 288 9415 9421 "heptagon/analysis/causal.ml" 288 9415 9428
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 288 9415 9432 "heptagon/analysis/causal.ml" 288 9415 9440
+type(
+  ac -> unit
+)
+ident(
+  int_ref check_ac "heptagon/analysis/causal.ml" 275 9126 9132 "heptagon/analysis/causal.ml" 275 9126 9140
+)
+"heptagon/analysis/causal.ml" 288 9415 9441 "heptagon/analysis/causal.ml" 288 9415 9443
+type(
+  ac
+)
+ident(
+  int_ref ac "heptagon/analysis/causal.ml" 288 9415 9424 "heptagon/analysis/causal.ml" 288 9415 9428
+)
+"heptagon/analysis/causal.ml" 288 9415 9432 "heptagon/analysis/causal.ml" 288 9415 9443
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 289 9444 9454 "heptagon/analysis/causal.ml" 289 9444 9457
+type(
+  nc
+)
+ident(
+  def nc1 "heptagon/analysis/causal.ml" 289 9444 9467 "heptagon/analysis/causal.ml" 289 9444 9487
+)
+"heptagon/analysis/causal.ml" 289 9444 9459 "heptagon/analysis/causal.ml" 289 9444 9462
+type(
+  nc
+)
+ident(
+  def nc2 "heptagon/analysis/causal.ml" 289 9444 9467 "heptagon/analysis/causal.ml" 289 9444 9487
+)
+"heptagon/analysis/causal.ml" 289 9444 9450 "heptagon/analysis/causal.ml" 289 9444 9463
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 289 9444 9467 "heptagon/analysis/causal.ml" 289 9444 9472
+type(
+  nc -> unit
+)
+ident(
+  int_ref check "heptagon/analysis/causal.ml" 286 9369 9379 "heptagon/analysis/causal.ml" 286 9369 9384
+)
+"heptagon/analysis/causal.ml" 289 9444 9473 "heptagon/analysis/causal.ml" 289 9444 9476
+type(
+  nc
+)
+ident(
+  int_ref nc1 "heptagon/analysis/causal.ml" 289 9444 9454 "heptagon/analysis/causal.ml" 289 9444 9457
+)
+"heptagon/analysis/causal.ml" 289 9444 9467 "heptagon/analysis/causal.ml" 289 9444 9476
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 289 9444 9478 "heptagon/analysis/causal.ml" 289 9444 9483
+type(
+  nc -> unit
+)
+ident(
+  int_ref check "heptagon/analysis/causal.ml" 286 9369 9379 "heptagon/analysis/causal.ml" 286 9369 9384
+)
+"heptagon/analysis/causal.ml" 289 9444 9484 "heptagon/analysis/causal.ml" 289 9444 9487
+type(
+  nc
+)
+ident(
+  int_ref nc2 "heptagon/analysis/causal.ml" 289 9444 9459 "heptagon/analysis/causal.ml" 289 9444 9462
+)
+"heptagon/analysis/causal.ml" 289 9444 9478 "heptagon/analysis/causal.ml" 289 9444 9487
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 289 9444 9467 "heptagon/analysis/causal.ml" 289 9444 9487
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 286 9369 9387 "heptagon/analysis/causal.ml" 289 9444 9487
+type(
+  nc -> unit
+)
+"heptagon/analysis/causal.ml" 291 9492 9498 "heptagon/analysis/causal.ml" 291 9492 9500
+type(
+  nc
+)
+ident(
+  def nc "heptagon/analysis/causal.ml" 292 9513 9515 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 291 9492 9503 "heptagon/analysis/causal.ml" 291 9492 9507
+type(
+  sc -> nc
+)
+ident(
+  int_ref norm "heptagon/analysis/causal.ml" 152 5438 5442 "heptagon/analysis/causal.ml" 152 5438 5446
+)
+"heptagon/analysis/causal.ml" 291 9492 9508 "heptagon/analysis/causal.ml" 291 9492 9509
+type(
+  sc
+)
+ident(
+  int_ref c "heptagon/analysis/causal.ml" 274 9108 9122 "heptagon/analysis/causal.ml" 274 9108 9123
+)
+"heptagon/analysis/causal.ml" 291 9492 9503 "heptagon/analysis/causal.ml" 291 9492 9509
+call(
+  stack
+)
+type(
+  nc
+)
+"heptagon/analysis/causal.ml" 293 9519 9523 "heptagon/analysis/causal.ml" 293 9519 9528
+type(
+  nc -> unit
+)
+ident(
+  int_ref check "heptagon/analysis/causal.ml" 286 9369 9379 "heptagon/analysis/causal.ml" 286 9369 9384
+)
+"heptagon/analysis/causal.ml" 293 9519 9529 "heptagon/analysis/causal.ml" 293 9519 9531
+type(
+  nc
+)
+ident(
+  int_ref nc "heptagon/analysis/causal.ml" 291 9492 9498 "heptagon/analysis/causal.ml" 291 9492 9500
+)
+"heptagon/analysis/causal.ml" 293 9519 9523 "heptagon/analysis/causal.ml" 293 9519 9531
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 295 9539 9551 "heptagon/analysis/causal.ml" 295 9539 9555
+ident(
+  def kind "heptagon/analysis/causal.ml" 295 9539 9560 "heptagon/analysis/causal.ml" 295 9539 9576
+)
+"heptagon/analysis/causal.ml" 295 9539 9550 "heptagon/analysis/causal.ml" 295 9539 9556
+type(
+  error
+)
+"heptagon/analysis/causal.ml" 295 9539 9545 "heptagon/analysis/causal.ml" 295 9539 9556
+type(
+  exn
+)
+"heptagon/analysis/causal.ml" 295 9539 9560 "heptagon/analysis/causal.ml" 295 9539 9567
+type(
+  Location.location -> error -> unit
+)
+ident(
+  int_ref message "heptagon/analysis/causal.ml" 105 4077 4081 "heptagon/analysis/causal.ml" 105 4077 4088
+)
+"heptagon/analysis/causal.ml" 295 9539 9568 "heptagon/analysis/causal.ml" 295 9539 9571
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/analysis/causal.ml" 274 9108 9118 "heptagon/analysis/causal.ml" 274 9108 9121
+)
+"heptagon/analysis/causal.ml" 295 9539 9572 "heptagon/analysis/causal.ml" 295 9539 9576
+type(
+  error
+)
+ident(
+  int_ref kind "heptagon/analysis/causal.ml" 295 9539 9550 "heptagon/analysis/causal.ml" 295 9539 9556
+)
+"heptagon/analysis/causal.ml" 295 9539 9560 "heptagon/analysis/causal.ml" 295 9539 9576
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 292 9513 9515 "heptagon/analysis/causal.ml" 295 9539 9576
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 291 9492 9494 "heptagon/analysis/causal.ml" 295 9539 9576
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 286 9369 9371 "heptagon/analysis/causal.ml" 295 9539 9576
+type(
+  unit
+)
+"heptagon/analysis/causal.ml" 275 9126 9128 "heptagon/analysis/causal.ml" 295 9539 9576
+type(
+  unit
+)

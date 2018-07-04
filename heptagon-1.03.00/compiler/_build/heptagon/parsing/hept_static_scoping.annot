@@ -1,0 +1,1906 @@
+"heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  def assert_se "heptagon/parsing/hept_static_scoping.ml" 44 2443 2443 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 40 2358 2372 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2373
+type(
+  Hept_parsetree.exp
+)
+ident(
+  def e "heptagon/parsing/hept_static_scoping.ml" 40 2358 2376 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2441
+)
+"heptagon/parsing/hept_static_scoping.ml" 40 2358 2382 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2383
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 40 2358 2372 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2373
+)
+"heptagon/parsing/hept_static_scoping.ml" 40 2358 2382 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2390
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 41 2396 2407 "heptagon/parsing/hept_static_scoping.ml" 41 2396 2409
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  def se "heptagon/parsing/hept_static_scoping.ml" 41 2396 2413 "heptagon/parsing/hept_static_scoping.ml" 41 2396 2415
+)
+"heptagon/parsing/hept_static_scoping.ml" 41 2396 2400 "heptagon/parsing/hept_static_scoping.ml" 41 2396 2409
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 41 2396 2413 "heptagon/parsing/hept_static_scoping.ml" 41 2396 2415
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  int_ref se "heptagon/parsing/hept_static_scoping.ml" 41 2396 2407 "heptagon/parsing/hept_static_scoping.ml" 41 2396 2409
+)
+"heptagon/parsing/hept_static_scoping.ml" 42 2416 2420 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2421
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 42 2416 2425 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2430
+type(
+  exn -> Hept_parsetree.static_exp
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 42 2416 2431 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2441
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 42 2416 2425 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2441
+type(
+  Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 40 2358 2376 "heptagon/parsing/hept_static_scoping.ml" 42 2416 2441
+type(
+  Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 44 2443 2447 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2457
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs ->
+  'a -> Hept_parsetree.static_exp -> Hept_parsetree.static_exp * 'a
+)
+ident(
+  def static_exp "heptagon/parsing/hept_static_scoping.ml" 53 2757 2757 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 44 2443 2458 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2462
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 44 2443 2463 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+)
+"heptagon/parsing/hept_static_scoping.ml" 44 2443 2463 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2474
+type(
+  'a
+)
+ident(
+  def local_const "heptagon/parsing/hept_static_scoping.ml" 44 2443 2475 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+)
+"heptagon/parsing/hept_static_scoping.ml" 44 2443 2475 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2477
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  def se "heptagon/parsing/hept_static_scoping.ml" 45 2480 2482 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+)
+"heptagon/parsing/hept_static_scoping.ml" 45 2480 2489 "heptagon/parsing/hept_static_scoping.ml" 45 2480 2491
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  int_ref se "heptagon/parsing/hept_static_scoping.ml" 44 2443 2475 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2477
+)
+"heptagon/parsing/hept_static_scoping.ml" 45 2480 2489 "heptagon/parsing/hept_static_scoping.ml" 45 2480 2499
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 46 2505 2519 "heptagon/parsing/hept_static_scoping.ml" 46 2505 2520
+type(
+  Names.qualname
+)
+ident(
+  def q "heptagon/parsing/hept_static_scoping.ml" 47 2525 2533 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2640
+)
+"heptagon/parsing/hept_static_scoping.ml" 46 2505 2516 "heptagon/parsing/hept_static_scoping.ml" 46 2505 2521
+type(
+  Hept_parsetree.constant_name
+)
+"heptagon/parsing/hept_static_scoping.ml" 46 2505 2511 "heptagon/parsing/hept_static_scoping.ml" 46 2505 2521
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2536 "heptagon/parsing/hept_static_scoping.ml" 47 2525 2539
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2541 "heptagon/parsing/hept_static_scoping.ml" 47 2525 2560
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  ext_ref Modules.check_const
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2561 "heptagon/parsing/hept_static_scoping.ml" 47 2525 2562
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 46 2505 2519 "heptagon/parsing/hept_static_scoping.ml" 46 2505 2520
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2540 "heptagon/parsing/hept_static_scoping.ml" 47 2525 2563
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2536 "heptagon/parsing/hept_static_scoping.ml" 47 2525 2563
+type(
+  bool
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2579 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2592
+type(
+  Location.location -> Hept_scoping.Error.error -> unit
+)
+ident(
+  ext_ref Hept_scoping.Error.message
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2593 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2595
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  int_ref se "heptagon/parsing/hept_static_scoping.ml" 44 2443 2475 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2477
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2593 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2602
+type(
+  Location.location
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2625 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2635
+type(
+  Names.name
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2637 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2638
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 46 2505 2519 "heptagon/parsing/hept_static_scoping.ml" 46 2505 2520
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2603 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2640
+type(
+  Hept_scoping.Error.error
+)
+"heptagon/parsing/hept_static_scoping.ml" 48 2569 2579 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2640
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 47 2525 2533 "heptagon/parsing/hept_static_scoping.ml" 48 2569 2640
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 49 2641 2647 "heptagon/parsing/hept_static_scoping.ml" 49 2641 2648
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 49 2641 2652 "heptagon/parsing/hept_static_scoping.ml" 49 2641 2654
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 45 2480 2482 "heptagon/parsing/hept_static_scoping.ml" 49 2641 2655
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 50 2657 2659 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2692
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs ->
+  'a -> Hept_parsetree.static_exp -> Hept_parsetree.static_exp * 'a
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 50 2657 2693 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2697
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 44 2443 2458 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2462
+)
+"heptagon/parsing/hept_static_scoping.ml" 50 2657 2698 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2709
+type(
+  'a
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 44 2443 2463 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2474
+)
+"heptagon/parsing/hept_static_scoping.ml" 50 2657 2710 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+type(
+  Hept_parsetree.static_exp
+)
+ident(
+  int_ref se "heptagon/parsing/hept_static_scoping.ml" 44 2443 2475 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2477
+)
+"heptagon/parsing/hept_static_scoping.ml" 50 2657 2659 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+call(
+  tail
+)
+type(
+  Hept_parsetree.static_exp * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 45 2480 2482 "heptagon/parsing/hept_static_scoping.ml" 50 2657 2712
+type(
+  Hept_parsetree.static_exp * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 53 2757 2761 "heptagon/parsing/hept_static_scoping.ml" 53 2757 2778
+type(
+  Hept_parsetree.qualname -> Hept_parsetree.qualname
+)
+ident(
+  def qualify_pervasive "heptagon/parsing/hept_static_scoping.ml" 69 3244 3244 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 53 2757 2779 "heptagon/parsing/hept_static_scoping.ml" 53 2757 2780
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  def q "heptagon/parsing/hept_static_scoping.ml" 54 2783 2785 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3119
+)
+"heptagon/parsing/hept_static_scoping.ml" 54 2783 2791 "heptagon/parsing/hept_static_scoping.ml" 54 2783 2792
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 53 2757 2779 "heptagon/parsing/hept_static_scoping.ml" 53 2757 2780
+)
+"heptagon/parsing/hept_static_scoping.ml" 55 2798 2806 "heptagon/parsing/hept_static_scoping.ml" 55 2798 2810
+type(
+  Names.name
+)
+ident(
+  def name "heptagon/parsing/hept_static_scoping.ml" 56 2814 2820 "heptagon/parsing/hept_static_scoping.ml" 63 3039 3048
+)
+"heptagon/parsing/hept_static_scoping.ml" 55 2798 2802 "heptagon/parsing/hept_static_scoping.ml" 55 2798 2810
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 58 2838 2855 "heptagon/parsing/hept_static_scoping.ml" 58 2838 2876
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.qualify_value
+)
+"heptagon/parsing/hept_static_scoping.ml" 58 2838 2877 "heptagon/parsing/hept_static_scoping.ml" 58 2838 2881
+type(
+  Names.name
+)
+ident(
+  int_ref name "heptagon/parsing/hept_static_scoping.ml" 55 2798 2806 "heptagon/parsing/hept_static_scoping.ml" 55 2798 2810
+)
+"heptagon/parsing/hept_static_scoping.ml" 58 2838 2854 "heptagon/parsing/hept_static_scoping.ml" 58 2838 2882
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 59 2888 2915 "heptagon/parsing/hept_static_scoping.ml" 59 2888 2931
+type(
+  Names.modul
+)
+"heptagon/parsing/hept_static_scoping.ml" 59 2888 2900 "heptagon/parsing/hept_static_scoping.ml" 59 2888 2933
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 59 2888 2937 "heptagon/parsing/hept_static_scoping.ml" 59 2888 2939
+ident(
+  def qn "heptagon/parsing/hept_static_scoping.ml" 60 2943 2957 "heptagon/parsing/hept_static_scoping.ml" 60 2943 2961
+)
+"heptagon/parsing/hept_static_scoping.ml" 59 2888 2900 "heptagon/parsing/hept_static_scoping.ml" 59 2888 2939
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 60 2943 2959 "heptagon/parsing/hept_static_scoping.ml" 60 2943 2961
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "heptagon/parsing/hept_static_scoping.ml" 59 2888 2900 "heptagon/parsing/hept_static_scoping.ml" 59 2888 2939
+)
+"heptagon/parsing/hept_static_scoping.ml" 60 2943 2957 "heptagon/parsing/hept_static_scoping.ml" 60 2943 2961
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 61 2962 2974 "heptagon/parsing/hept_static_scoping.ml" 61 2962 2975
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 61 2962 2979 "heptagon/parsing/hept_static_scoping.ml" 61 2962 2984
+type(
+  exn -> Hept_parsetree.qualname
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 61 2962 2985 "heptagon/parsing/hept_static_scoping.ml" 61 2962 2995
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 61 2962 2979 "heptagon/parsing/hept_static_scoping.ml" 61 2962 2995
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 58 2838 2848 "heptagon/parsing/hept_static_scoping.ml" 61 2962 2995
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 62 2996 3009 "heptagon/parsing/hept_static_scoping.ml" 62 2996 3018
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 62 2996 3022 "heptagon/parsing/hept_static_scoping.ml" 62 2996 3027
+type(
+  exn -> Hept_parsetree.qualname
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 62 2996 3028 "heptagon/parsing/hept_static_scoping.ml" 62 2996 3038
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 62 2996 3022 "heptagon/parsing/hept_static_scoping.ml" 62 2996 3038
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 56 2814 2820 "heptagon/parsing/hept_static_scoping.ml" 63 3039 3048
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 64 3049 3070 "heptagon/parsing/hept_static_scoping.ml" 64 3049 3086
+type(
+  Names.modul
+)
+"heptagon/parsing/hept_static_scoping.ml" 64 3049 3055 "heptagon/parsing/hept_static_scoping.ml" 64 3049 3088
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 64 3049 3053 "heptagon/parsing/hept_static_scoping.ml" 64 3049 3088
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 64 3049 3092 "heptagon/parsing/hept_static_scoping.ml" 64 3049 3093
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 53 2757 2779 "heptagon/parsing/hept_static_scoping.ml" 53 2757 2780
+)
+"heptagon/parsing/hept_static_scoping.ml" 65 3094 3098 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3099
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 65 3094 3103 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3108
+type(
+  exn -> Hept_parsetree.qualname
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 65 3094 3109 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3119
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 65 3094 3103 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3119
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 54 2783 2785 "heptagon/parsing/hept_static_scoping.ml" 65 3094 3119
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 69 3244 3248 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3267
+type(
+  Hept_parsetree.app ->
+  Hept_parsetree.exp list ->
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+ident(
+  def static_app_from_app "heptagon/parsing/hept_static_scoping.ml" 77 3432 3432 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 69 3244 3268 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3271
+type(
+  Hept_parsetree.app
+)
+ident(
+  def app "heptagon/parsing/hept_static_scoping.ml" 69 3244 3272 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3430
+)
+"heptagon/parsing/hept_static_scoping.ml" 69 3244 3272 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3276
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def args "heptagon/parsing/hept_static_scoping.ml" 70 3279 3281 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3430
+)
+"heptagon/parsing/hept_static_scoping.ml" 70 3279 3287 "heptagon/parsing/hept_static_scoping.ml" 70 3279 3290
+type(
+  Hept_parsetree.app
+)
+ident(
+  int_ref app "heptagon/parsing/hept_static_scoping.ml" 69 3244 3268 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3271
+)
+"heptagon/parsing/hept_static_scoping.ml" 70 3279 3287 "heptagon/parsing/hept_static_scoping.ml" 70 3279 3295
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 71 3301 3312 "heptagon/parsing/hept_static_scoping.ml" 71 3301 3313
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  def q "heptagon/parsing/hept_static_scoping.ml" 73 3331 3339 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+)
+"heptagon/parsing/hept_static_scoping.ml" 71 3301 3307 "heptagon/parsing/hept_static_scoping.ml" 71 3301 3313
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 72 3314 3326 "heptagon/parsing/hept_static_scoping.ml" 72 3314 3327
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  def q "heptagon/parsing/hept_static_scoping.ml" 73 3331 3339 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+)
+"heptagon/parsing/hept_static_scoping.ml" 72 3314 3320 "heptagon/parsing/hept_static_scoping.ml" 72 3314 3327
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 71 3301 3307 "heptagon/parsing/hept_static_scoping.ml" 72 3314 3327
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 73 3331 3343 "heptagon/parsing/hept_static_scoping.ml" 73 3331 3344
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  def q "heptagon/parsing/hept_static_scoping.ml" 74 3370 3378 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+)
+"heptagon/parsing/hept_static_scoping.ml" 73 3331 3347 "heptagon/parsing/hept_static_scoping.ml" 73 3331 3364
+type(
+  Hept_parsetree.qualname -> Hept_parsetree.qualname
+)
+ident(
+  int_ref qualify_pervasive "heptagon/parsing/hept_static_scoping.ml" 53 2757 2761 "heptagon/parsing/hept_static_scoping.ml" 53 2757 2778
+)
+"heptagon/parsing/hept_static_scoping.ml" 73 3331 3365 "heptagon/parsing/hept_static_scoping.ml" 73 3331 3366
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 71 3301 3312 "heptagon/parsing/hept_static_scoping.ml" 71 3301 3313
+)
+"heptagon/parsing/hept_static_scoping.ml" 73 3331 3347 "heptagon/parsing/hept_static_scoping.ml" 73 3331 3366
+call(
+  stack
+)
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3378 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3379
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  int_ref q "heptagon/parsing/hept_static_scoping.ml" 73 3331 3343 "heptagon/parsing/hept_static_scoping.ml" 73 3331 3344
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3382 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3385
+type(
+  Hept_parsetree.app
+)
+ident(
+  int_ref app "heptagon/parsing/hept_static_scoping.ml" 69 3244 3268 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3271
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3382 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3394
+type(
+  Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3395 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3396
+type(
+  Hept_parsetree.exp list ->
+  Hept_parsetree.exp list -> Hept_parsetree.exp list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3397 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3401
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref args "heptagon/parsing/hept_static_scoping.ml" 69 3244 3272 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3276
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3381 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+call(
+  stack
+)
+type(
+  Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 74 3370 3378 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 73 3331 3339 "heptagon/parsing/hept_static_scoping.ml" 74 3370 3402
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 75 3403 3409 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3410
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 75 3403 3414 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3419
+type(
+  exn -> Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 75 3403 3420 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3430
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 75 3403 3414 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3430
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 70 3279 3281 "heptagon/parsing/hept_static_scoping.ml" 75 3403 3430
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 77 3432 3436 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3439
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.exp -> Hept_parsetree.exp * Names.NamesSet.t
+)
+ident(
+  def exp "heptagon/parsing/hept_static_scoping.ml" 102 4475 4475 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 77 3432 3440 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3444
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+)
+"heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3456
+type(
+  Names.NamesSet.t
+)
+ident(
+  def local_const "heptagon/parsing/hept_static_scoping.ml" 77 3432 3457 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+)
+"heptagon/parsing/hept_static_scoping.ml" 77 3432 3457 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3458
+type(
+  Hept_parsetree.exp
+)
+ident(
+  def e "heptagon/parsing/hept_static_scoping.ml" 78 3461 3463 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3468
+type(
+  Hept_parsetree.exp
+)
+ident(
+  def e "heptagon/parsing/hept_static_scoping.ml" 79 3523 3527 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3470 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3471
+type(
+  Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3471
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3474 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3500
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.exp -> Hept_parsetree.exp * Names.NamesSet.t
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3501 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3505
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 77 3432 3440 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3444
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3506 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3517
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3456
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3518 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3519
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 77 3432 3457 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3458
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3474 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3519
+call(
+  stack
+)
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 80 3531 3541 "heptagon/parsing/hept_static_scoping.ml" 80 3531 3544
+type(
+  Hept_parsetree.static_exp_desc
+)
+ident(
+  def sed "heptagon/parsing/hept_static_scoping.ml" 98 4354 4360 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4427
+)
+"heptagon/parsing/hept_static_scoping.ml" 81 3547 3561 "heptagon/parsing/hept_static_scoping.ml" 81 3547 3562
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3468
+)
+"heptagon/parsing/hept_static_scoping.ml" 81 3547 3561 "heptagon/parsing/hept_static_scoping.ml" 81 3547 3569
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 82 3575 3592 "heptagon/parsing/hept_static_scoping.ml" 82 3575 3593
+type(
+  Hept_parsetree.var_name
+)
+ident(
+  def n "heptagon/parsing/hept_static_scoping.ml" 83 3597 3611 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3734
+)
+"heptagon/parsing/hept_static_scoping.ml" 82 3575 3587 "heptagon/parsing/hept_static_scoping.ml" 82 3575 3593
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3625 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3651
+type(
+  Names.NamesSet.t -> Hept_parsetree.qualname -> Names.qualname
+)
+ident(
+  ext_ref Hept_scoping.qualify_const
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3652 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3663
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3456
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3669 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3670
+type(
+  Hept_parsetree.var_name
+)
+ident(
+  int_ref n "heptagon/parsing/hept_static_scoping.ml" 82 3575 3592 "heptagon/parsing/hept_static_scoping.ml" 82 3575 3593
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3664 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3671
+type(
+  Hept_parsetree.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3624 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3672
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3621 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3673
+type(
+  Hept_parsetree.constant_name
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3616 "heptagon/parsing/hept_static_scoping.ml" 83 3597 3673
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 84 3674 3712 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3713
+type(
+  Hept_scoping.Error.error
+)
+"heptagon/parsing/hept_static_scoping.ml" 84 3674 3693 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3713
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 84 3674 3717 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3722
+type(
+  exn -> Hept_parsetree.static_exp_desc
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 84 3674 3723 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3733
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 84 3674 3717 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3733
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 83 3597 3611 "heptagon/parsing/hept_static_scoping.ml" 84 3674 3734
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3761 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3772
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3785 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3791
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def n_list "heptagon/parsing/hept_static_scoping.ml" 86 3803 3817 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3870
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3752 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3793
+type(
+  Hept_parsetree.app
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3796 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3797
+type(
+  Hept_parsetree.exp
+)
+ident(
+  def e "heptagon/parsing/hept_static_scoping.ml" 86 3803 3817 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3870
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3795 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3798
+type(
+  Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 85 3735 3747 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3799
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3831 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3840
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3841 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3842
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 85 3735 3796 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3797
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3831 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3842
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3844 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3852
+type(
+  (Hept_parsetree.exp -> Hept_parsetree.static_exp) ->
+  Hept_parsetree.exp list -> Hept_parsetree.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3853 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3862
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3863 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3869
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref n_list "heptagon/parsing/hept_static_scoping.ml" 85 3735 3785 "heptagon/parsing/hept_static_scoping.ml" 85 3735 3791
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3844 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3869
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 86 3803 3817 "heptagon/parsing/hept_static_scoping.ml" 86 3803 3870
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 87 3871 3897 "heptagon/parsing/hept_static_scoping.ml" 87 3871 3903
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 87 3871 3888 "heptagon/parsing/hept_static_scoping.ml" 87 3871 3905
+type(
+  Hept_parsetree.app
+)
+"heptagon/parsing/hept_static_scoping.ml" 87 3871 3907 "heptagon/parsing/hept_static_scoping.ml" 87 3871 3913
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def e_list "heptagon/parsing/hept_static_scoping.ml" 88 3918 3932 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3966
+)
+"heptagon/parsing/hept_static_scoping.ml" 87 3871 3883 "heptagon/parsing/hept_static_scoping.ml" 87 3871 3914
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 88 3918 3940 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3948
+type(
+  (Hept_parsetree.exp -> Hept_parsetree.static_exp) ->
+  Hept_parsetree.exp list -> Hept_parsetree.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/parsing/hept_static_scoping.ml" 88 3918 3949 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3958
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 88 3918 3959 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3965
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref e_list "heptagon/parsing/hept_static_scoping.ml" 87 3871 3907 "heptagon/parsing/hept_static_scoping.ml" 87 3871 3913
+)
+"heptagon/parsing/hept_static_scoping.ml" 88 3918 3939 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3966
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 88 3918 3932 "heptagon/parsing/hept_static_scoping.ml" 88 3918 3966
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 89 3967 3993 "heptagon/parsing/hept_static_scoping.ml" 89 3967 3999
+type(
+  Hept_parsetree.op
+)
+"heptagon/parsing/hept_static_scoping.ml" 89 3967 3984 "heptagon/parsing/hept_static_scoping.ml" 89 3967 4001
+type(
+  Hept_parsetree.app
+)
+"heptagon/parsing/hept_static_scoping.ml" 89 3967 4003 "heptagon/parsing/hept_static_scoping.ml" 89 3967 4009
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def e_list "heptagon/parsing/hept_static_scoping.ml" 90 4014 4028 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4062
+)
+"heptagon/parsing/hept_static_scoping.ml" 89 3967 3979 "heptagon/parsing/hept_static_scoping.ml" 89 3967 4010
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 90 4014 4036 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4044
+type(
+  (Hept_parsetree.exp -> Hept_parsetree.static_exp) ->
+  Hept_parsetree.exp list -> Hept_parsetree.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/parsing/hept_static_scoping.ml" 90 4014 4045 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4054
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 90 4014 4055 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4061
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref e_list "heptagon/parsing/hept_static_scoping.ml" 89 3967 4003 "heptagon/parsing/hept_static_scoping.ml" 89 3967 4009
+)
+"heptagon/parsing/hept_static_scoping.ml" 90 4014 4035 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4062
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 90 4014 4028 "heptagon/parsing/hept_static_scoping.ml" 90 4014 4062
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 91 4063 4080 "heptagon/parsing/hept_static_scoping.ml" 91 4063 4083
+type(
+  Hept_parsetree.app
+)
+ident(
+  def app "heptagon/parsing/hept_static_scoping.ml" 92 4096 4110 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+)
+"heptagon/parsing/hept_static_scoping.ml" 91 4063 4085 "heptagon/parsing/hept_static_scoping.ml" 91 4063 4091
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def e_list "heptagon/parsing/hept_static_scoping.ml" 92 4096 4110 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+)
+"heptagon/parsing/hept_static_scoping.ml" 91 4063 4075 "heptagon/parsing/hept_static_scoping.ml" 91 4063 4092
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4114 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4116
+type(
+  Hept_parsetree.qualname
+)
+ident(
+  def op "heptagon/parsing/hept_static_scoping.ml" 93 4161 4175 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4118 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4124
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  def e_list "heptagon/parsing/hept_static_scoping.ml" 93 4161 4175 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4114 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4124
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4127 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4146
+type(
+  Hept_parsetree.app ->
+  Hept_parsetree.exp list ->
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+ident(
+  int_ref static_app_from_app "heptagon/parsing/hept_static_scoping.ml" 69 3244 3248 "heptagon/parsing/hept_static_scoping.ml" 69 3244 3267
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4147 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4150
+type(
+  Hept_parsetree.app
+)
+ident(
+  int_ref app "heptagon/parsing/hept_static_scoping.ml" 91 4063 4080 "heptagon/parsing/hept_static_scoping.ml" 91 4063 4083
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4151 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4157
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref e_list "heptagon/parsing/hept_static_scoping.ml" 91 4063 4085 "heptagon/parsing/hept_static_scoping.ml" 91 4063 4091
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4127 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4157
+call(
+  stack
+)
+type(
+  Hept_parsetree.qualname * Hept_parsetree.exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4180 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4182
+type(
+  Hept_parsetree.fun_name
+)
+ident(
+  int_ref op "heptagon/parsing/hept_static_scoping.ml" 92 4096 4114 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4116
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4184 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4192
+type(
+  (Hept_parsetree.exp -> Hept_parsetree.static_exp) ->
+  Hept_parsetree.exp list -> Hept_parsetree.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4193 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4202
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4203 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4209
+type(
+  Hept_parsetree.exp list
+)
+ident(
+  int_ref e_list "heptagon/parsing/hept_static_scoping.ml" 92 4096 4118 "heptagon/parsing/hept_static_scoping.ml" 92 4096 4124
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4184 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4209
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp list
+)
+"heptagon/parsing/hept_static_scoping.ml" 93 4161 4175 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 92 4096 4110 "heptagon/parsing/hept_static_scoping.ml" 93 4161 4210
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 94 4211 4231 "heptagon/parsing/hept_static_scoping.ml" 94 4211 4237
+type(
+  (Hept_parsetree.qualname * Hept_parsetree.exp) list
+)
+ident(
+  def e_list "heptagon/parsing/hept_static_scoping.ml" 95 4241 4255 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4310
+)
+"heptagon/parsing/hept_static_scoping.ml" 94 4211 4223 "heptagon/parsing/hept_static_scoping.ml" 94 4211 4237
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4264 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4272
+type(
+  (Hept_parsetree.field_name * Hept_parsetree.exp ->
+   Hept_parsetree.field_name * Hept_parsetree.static_exp) ->
+  (Hept_parsetree.field_name * Hept_parsetree.exp) list ->
+  (Hept_parsetree.field_name * Hept_parsetree.static_exp) list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4279 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4280
+type(
+  Hept_parsetree.field_name
+)
+ident(
+  def f "heptagon/parsing/hept_static_scoping.ml" 95 4241 4287 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4301
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4281 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4282
+type(
+  Hept_parsetree.exp
+)
+ident(
+  def e "heptagon/parsing/hept_static_scoping.ml" 95 4241 4287 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4301
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4278 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4283
+type(
+  Hept_parsetree.field_name * Hept_parsetree.exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4287 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4288
+type(
+  Hept_parsetree.field_name
+)
+ident(
+  int_ref f "heptagon/parsing/hept_static_scoping.ml" 95 4241 4279 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4280
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4290 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4299
+type(
+  Hept_parsetree.exp -> Hept_parsetree.static_exp
+)
+ident(
+  int_ref assert_se "heptagon/parsing/hept_static_scoping.ml" 40 2358 2362 "heptagon/parsing/hept_static_scoping.ml" 40 2358 2371
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4300 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4301
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 95 4241 4281 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4282
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4290 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4301
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4287 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4301
+type(
+  Hept_parsetree.field_name * Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4273 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4302
+type(
+  Hept_parsetree.field_name * Hept_parsetree.exp ->
+  Hept_parsetree.field_name * Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4303 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4309
+type(
+  (Hept_parsetree.field_name * Hept_parsetree.exp) list
+)
+ident(
+  int_ref e_list "heptagon/parsing/hept_static_scoping.ml" 94 4211 4231 "heptagon/parsing/hept_static_scoping.ml" 94 4211 4237
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4263 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4310
+call(
+  stack
+)
+type(
+  (Hept_parsetree.field_name * Hept_parsetree.static_exp) list
+)
+"heptagon/parsing/hept_static_scoping.ml" 95 4241 4255 "heptagon/parsing/hept_static_scoping.ml" 95 4241 4310
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 96 4311 4323 "heptagon/parsing/hept_static_scoping.ml" 96 4311 4324
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 96 4311 4328 "heptagon/parsing/hept_static_scoping.ml" 96 4311 4333
+type(
+  exn -> Hept_parsetree.static_exp_desc
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/parsing/hept_static_scoping.ml" 96 4311 4334 "heptagon/parsing/hept_static_scoping.ml" 96 4311 4344
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 96 4311 4328 "heptagon/parsing/hept_static_scoping.ml" 96 4311 4344
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 81 3547 3555 "heptagon/parsing/hept_static_scoping.ml" 96 4311 4344
+type(
+  Hept_parsetree.static_exp_desc
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4362 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4363
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3468
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4386 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4399
+type(
+  Hept_parsetree.static_exp_desc ->
+  Location.location -> Hept_parsetree.static_exp
+)
+ident(
+  ext_ref Hept_parsetree.mk_static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4400 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4403
+type(
+  Hept_parsetree.static_exp_desc
+)
+ident(
+  int_ref sed "heptagon/parsing/hept_static_scoping.ml" 80 3531 3541 "heptagon/parsing/hept_static_scoping.ml" 80 3531 3544
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4404 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4405
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3468
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4404 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4411
+type(
+  Location.location
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4385 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4412
+call(
+  stack
+)
+type(
+  Hept_parsetree.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4378 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4412
+type(
+  Hept_parsetree.edesc
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4360 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4414
+type(
+  Hept_parsetree.exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4416 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4427
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3456
+)
+"heptagon/parsing/hept_static_scoping.ml" 98 4354 4360 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4427
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 80 3531 3537 "heptagon/parsing/hept_static_scoping.ml" 98 4354 4427
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 100 4437 4445 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4455
+type(
+  exn
+)
+"heptagon/parsing/hept_static_scoping.ml" 100 4437 4459 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4460
+type(
+  Hept_parsetree.exp
+)
+ident(
+  int_ref e "heptagon/parsing/hept_static_scoping.ml" 78 3461 3467 "heptagon/parsing/hept_static_scoping.ml" 78 3461 3468
+)
+"heptagon/parsing/hept_static_scoping.ml" 100 4437 4462 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 77 3432 3445 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3456
+)
+"heptagon/parsing/hept_static_scoping.ml" 100 4437 4459 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 79 3523 3527 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 78 3461 3463 "heptagon/parsing/hept_static_scoping.ml" 100 4437 4473
+type(
+  Hept_parsetree.exp * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 102 4475 4479 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4483
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  'a -> Hept_parsetree.node_dec -> Hept_parsetree.node_dec * Names.NamesSet.t
+)
+ident(
+  def node "heptagon/parsing/hept_static_scoping.ml" 106 4616 4616 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 102 4475 4484 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4488
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 102 4475 4489 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+)
+"heptagon/parsing/hept_static_scoping.ml" 102 4475 4489 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4490
+type(
+  'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 102 4475 4491 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4492
+type(
+  Hept_parsetree.node_dec
+)
+ident(
+  def n "heptagon/parsing/hept_static_scoping.ml" 103 4495 4497 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4501 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4512
+type(
+  Names.NamesSet.t
+)
+ident(
+  def local_const "heptagon/parsing/hept_static_scoping.ml" 104 4562 4564 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4515 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4539
+type(
+  Location.location -> Hept_parsetree.var_dec list -> Names.NamesSet.t
+)
+ident(
+  ext_ref Hept_scoping.build_const
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4540 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4541
+type(
+  Hept_parsetree.node_dec
+)
+ident(
+  int_ref n "heptagon/parsing/hept_static_scoping.ml" 102 4475 4491 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4492
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4540 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4547
+type(
+  Location.location
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4548 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4549
+type(
+  Hept_parsetree.node_dec
+)
+ident(
+  int_ref n "heptagon/parsing/hept_static_scoping.ml" 102 4475 4491 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4492
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4548 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4558
+type(
+  Hept_parsetree.var_dec list
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4515 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4558
+call(
+  stack
+)
+type(
+  Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 104 4562 4564 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4595
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.node_dec -> Hept_parsetree.node_dec * Names.NamesSet.t
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.node_dec
+)
+"heptagon/parsing/hept_static_scoping.ml" 104 4562 4596 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4600
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 102 4475 4484 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4488
+)
+"heptagon/parsing/hept_static_scoping.ml" 104 4562 4601 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4612
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 103 4495 4501 "heptagon/parsing/hept_static_scoping.ml" 103 4495 4512
+)
+"heptagon/parsing/hept_static_scoping.ml" 104 4562 4613 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+type(
+  Hept_parsetree.node_dec
+)
+ident(
+  int_ref n "heptagon/parsing/hept_static_scoping.ml" 102 4475 4491 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4492
+)
+"heptagon/parsing/hept_static_scoping.ml" 104 4562 4564 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+call(
+  tail
+)
+type(
+  Hept_parsetree.node_dec * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 103 4495 4497 "heptagon/parsing/hept_static_scoping.ml" 104 4562 4614
+type(
+  Hept_parsetree.node_dec * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 106 4616 4620 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4629
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs ->
+  'a -> Hept_parsetree.const_dec -> Hept_parsetree.const_dec * 'a
+)
+ident(
+  def const_dec "heptagon/parsing/hept_static_scoping.ml" 114 5019 5019 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 106 4616 4630 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4634
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 106 4616 4635 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+)
+"heptagon/parsing/hept_static_scoping.ml" 106 4616 4635 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4646
+type(
+  'a
+)
+ident(
+  def local_const "heptagon/parsing/hept_static_scoping.ml" 106 4616 4647 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+)
+"heptagon/parsing/hept_static_scoping.ml" 106 4616 4647 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4649
+type(
+  Hept_parsetree.const_dec
+)
+ident(
+  def cd "heptagon/parsing/hept_static_scoping.ml" 107 4652 4654 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4658 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4660
+type(
+  Hept_parsetree.const_dec
+)
+ident(
+  def cd "heptagon/parsing/hept_static_scoping.ml" 108 4722 4724 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4662 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4663
+type(
+  'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4658 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4663
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4666 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4698
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs ->
+  'a -> Hept_parsetree.const_dec -> Hept_parsetree.const_dec * 'a
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.const_dec
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4699 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4703
+type(
+  'a Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 106 4616 4630 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4634
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4704 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4715
+type(
+  'a
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 106 4616 4635 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4646
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4716 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4718
+type(
+  Hept_parsetree.const_dec
+)
+ident(
+  int_ref cd "heptagon/parsing/hept_static_scoping.ml" 106 4616 4647 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4649
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4666 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4718
+call(
+  stack
+)
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4728 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4734
+type(
+  Names.qualname
+)
+ident(
+  def c_name "heptagon/parsing/hept_static_scoping.ml" 111 4903 4905 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4737 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4749
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.current_qual
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4750 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4752
+type(
+  Hept_parsetree.const_dec
+)
+ident(
+  int_ref cd "heptagon/parsing/hept_static_scoping.ml" 107 4652 4658 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4660
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4750 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4759
+type(
+  Hept_parsetree.dec_name
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4737 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4759
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4905 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4914
+type(
+  Names.QualEnv.key -> Signature.const_def -> unit
+)
+ident(
+  ext_ref Modules.add_const
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4915 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4921
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref c_name "heptagon/parsing/hept_static_scoping.ml" 108 4722 4728 "heptagon/parsing/hept_static_scoping.ml" 108 4722 4734
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4923 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4945
+type(
+  Types.ty -> Types.static_exp -> Signature.const_def
+)
+ident(
+  ext_ref Signature.mk_const_def
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4946 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4960
+type(
+  Types.ty
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4962 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4986
+type(
+  string -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_string
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4987 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4996
+type(
+  string
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4961 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4997
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4922 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4998
+call(
+  stack
+)
+type(
+  Signature.const_def
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4905 "heptagon/parsing/hept_static_scoping.ml" 111 4903 4998
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 112 5000 5002 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5004
+type(
+  Hept_parsetree.const_dec
+)
+ident(
+  int_ref cd "heptagon/parsing/hept_static_scoping.ml" 107 4652 4658 "heptagon/parsing/hept_static_scoping.ml" 107 4652 4660
+)
+"heptagon/parsing/hept_static_scoping.ml" 112 5000 5006 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+type(
+  'a
+)
+ident(
+  int_ref local_const "heptagon/parsing/hept_static_scoping.ml" 106 4616 4635 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4646
+)
+"heptagon/parsing/hept_static_scoping.ml" 112 5000 5002 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 111 4903 4905 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 108 4722 4724 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 107 4652 4654 "heptagon/parsing/hept_static_scoping.ml" 112 5000 5017
+type(
+  Hept_parsetree.const_dec * 'a
+)
+"heptagon/parsing/hept_static_scoping.ml" 114 5019 5023 "heptagon/parsing/hept_static_scoping.ml" 114 5019 5030
+type(
+  Hept_parsetree.program -> Hept_parsetree.program
+)
+ident(
+  def program "heptagon/parsing/hept_static_scoping.ml" 121 5301 5301 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 114 5019 5031 "heptagon/parsing/hept_static_scoping.ml" 114 5019 5032
+type(
+  Hept_parsetree.program
+)
+ident(
+  def p "heptagon/parsing/hept_static_scoping.ml" 115 5035 5037 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+)
+"heptagon/parsing/hept_static_scoping.ml" 115 5035 5041 "heptagon/parsing/hept_static_scoping.ml" 115 5035 5045
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 117 5182 5184 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+)
+"heptagon/parsing/hept_static_scoping.ml" 115 5035 5050 "heptagon/parsing/hept_static_scoping.ml" 115 5035 5081
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.defaults
+)
+"heptagon/parsing/hept_static_scoping.ml" 116 5082 5113 "heptagon/parsing/hept_static_scoping.ml" 116 5082 5117
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.node_dec -> Hept_parsetree.node_dec * Names.NamesSet.t
+)
+ident(
+  int_ref node "heptagon/parsing/hept_static_scoping.ml" 102 4475 4479 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4483
+)
+"heptagon/parsing/hept_static_scoping.ml" 116 5082 5125 "heptagon/parsing/hept_static_scoping.ml" 116 5082 5128
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.exp -> Hept_parsetree.exp * Names.NamesSet.t
+)
+ident(
+  int_ref exp "heptagon/parsing/hept_static_scoping.ml" 77 3432 3436 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3439
+)
+"heptagon/parsing/hept_static_scoping.ml" 116 5082 5143 "heptagon/parsing/hept_static_scoping.ml" 116 5082 5153
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.static_exp -> Hept_parsetree.static_exp * Names.NamesSet.t
+)
+ident(
+  int_ref static_exp "heptagon/parsing/hept_static_scoping.ml" 44 2443 2447 "heptagon/parsing/hept_static_scoping.ml" 44 2443 2457
+)
+"heptagon/parsing/hept_static_scoping.ml" 116 5082 5167 "heptagon/parsing/hept_static_scoping.ml" 116 5082 5176
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.const_dec -> Hept_parsetree.const_dec * Names.NamesSet.t
+)
+ident(
+  int_ref const_dec "heptagon/parsing/hept_static_scoping.ml" 106 4616 4620 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4629
+)
+"heptagon/parsing/hept_static_scoping.ml" 115 5035 5048 "heptagon/parsing/hept_static_scoping.ml" 116 5082 5178
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5184 "heptagon/parsing/hept_static_scoping.ml" 117 5182 5193
+type(
+  (Hept_parsetree.module_name -> unit) ->
+  Hept_parsetree.module_name list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5194 "heptagon/parsing/hept_static_scoping.ml" 117 5182 5205
+type(
+  Hept_parsetree.module_name -> unit
+)
+ident(
+  ext_ref Modules.open_module
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5206 "heptagon/parsing/hept_static_scoping.ml" 117 5182 5207
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/parsing/hept_static_scoping.ml" 114 5019 5031 "heptagon/parsing/hept_static_scoping.ml" 114 5019 5032
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5206 "heptagon/parsing/hept_static_scoping.ml" 117 5182 5216
+type(
+  Hept_parsetree.module_name list
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5184 "heptagon/parsing/hept_static_scoping.ml" 117 5182 5216
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5224 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5225
+type(
+  Hept_parsetree.program
+)
+ident(
+  def p "heptagon/parsing/hept_static_scoping.ml" 119 5296 5298 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5227 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5228
+type(
+  Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5224 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5228
+type(
+  Hept_parsetree.program * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5231 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5264
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.program -> Hept_parsetree.program * Names.NamesSet.t
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.program_it
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5265 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5269
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 115 5035 5041 "heptagon/parsing/hept_static_scoping.ml" 115 5035 5045
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5270 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5290
+type(
+  Names.NamesSet.t
+)
+ident(
+  ext_ref Names.NamesSet.empty
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5291 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5292
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/parsing/hept_static_scoping.ml" 114 5019 5031 "heptagon/parsing/hept_static_scoping.ml" 114 5019 5032
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5231 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5292
+call(
+  stack
+)
+type(
+  Hept_parsetree.program * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 119 5296 5298 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/parsing/hept_static_scoping.ml" 118 5218 5224 "heptagon/parsing/hept_static_scoping.ml" 118 5218 5225
+)
+"heptagon/parsing/hept_static_scoping.ml" 118 5218 5220 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+type(
+  Hept_parsetree.program
+)
+"heptagon/parsing/hept_static_scoping.ml" 117 5182 5184 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+type(
+  Hept_parsetree.program
+)
+"heptagon/parsing/hept_static_scoping.ml" 115 5035 5037 "heptagon/parsing/hept_static_scoping.ml" 119 5296 5299
+type(
+  Hept_parsetree.program
+)
+"heptagon/parsing/hept_static_scoping.ml" 121 5301 5305 "heptagon/parsing/hept_static_scoping.ml" 121 5301 5314
+type(
+  Hept_parsetree.interface -> Hept_parsetree.interface
+)
+ident(
+  def interface "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560 "heptagon/parsing/hept_static_scoping.ml" 1 0 -1
+)
+"heptagon/parsing/hept_static_scoping.ml" 121 5301 5315 "heptagon/parsing/hept_static_scoping.ml" 121 5301 5316
+type(
+  Hept_parsetree.interface
+)
+ident(
+  def i "heptagon/parsing/hept_static_scoping.ml" 122 5319 5321 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+)
+"heptagon/parsing/hept_static_scoping.ml" 122 5319 5325 "heptagon/parsing/hept_static_scoping.ml" 122 5319 5329
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/parsing/hept_static_scoping.ml" 124 5441 5443 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+)
+"heptagon/parsing/hept_static_scoping.ml" 122 5319 5334 "heptagon/parsing/hept_static_scoping.ml" 122 5319 5365
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.defaults
+)
+"heptagon/parsing/hept_static_scoping.ml" 123 5366 5397 "heptagon/parsing/hept_static_scoping.ml" 123 5366 5401
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.node_dec -> Hept_parsetree.node_dec * Names.NamesSet.t
+)
+ident(
+  int_ref node "heptagon/parsing/hept_static_scoping.ml" 102 4475 4479 "heptagon/parsing/hept_static_scoping.ml" 102 4475 4483
+)
+"heptagon/parsing/hept_static_scoping.ml" 123 5366 5409 "heptagon/parsing/hept_static_scoping.ml" 123 5366 5412
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.exp -> Hept_parsetree.exp * Names.NamesSet.t
+)
+ident(
+  int_ref exp "heptagon/parsing/hept_static_scoping.ml" 77 3432 3436 "heptagon/parsing/hept_static_scoping.ml" 77 3432 3439
+)
+"heptagon/parsing/hept_static_scoping.ml" 123 5366 5426 "heptagon/parsing/hept_static_scoping.ml" 123 5366 5435
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.const_dec -> Hept_parsetree.const_dec * Names.NamesSet.t
+)
+ident(
+  int_ref const_dec "heptagon/parsing/hept_static_scoping.ml" 106 4616 4620 "heptagon/parsing/hept_static_scoping.ml" 106 4616 4629
+)
+"heptagon/parsing/hept_static_scoping.ml" 122 5319 5332 "heptagon/parsing/hept_static_scoping.ml" 123 5366 5437
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5443 "heptagon/parsing/hept_static_scoping.ml" 124 5441 5452
+type(
+  (Hept_parsetree.module_name -> unit) ->
+  Hept_parsetree.module_name list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5453 "heptagon/parsing/hept_static_scoping.ml" 124 5441 5464
+type(
+  Hept_parsetree.module_name -> unit
+)
+ident(
+  ext_ref Modules.open_module
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5465 "heptagon/parsing/hept_static_scoping.ml" 124 5441 5466
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/parsing/hept_static_scoping.ml" 121 5301 5315 "heptagon/parsing/hept_static_scoping.ml" 121 5301 5316
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5465 "heptagon/parsing/hept_static_scoping.ml" 124 5441 5475
+type(
+  Hept_parsetree.module_name list
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5443 "heptagon/parsing/hept_static_scoping.ml" 124 5441 5475
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5483 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5484
+type(
+  Hept_parsetree.interface
+)
+ident(
+  def i "heptagon/parsing/hept_static_scoping.ml" 126 5557 5559 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5486 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5487
+type(
+  Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5483 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5487
+type(
+  Hept_parsetree.interface * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5490 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5525
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs ->
+  Names.NamesSet.t ->
+  Hept_parsetree.interface -> Hept_parsetree.interface * Names.NamesSet.t
+)
+ident(
+  ext_ref Hept_parsetree_mapfold.interface_it
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5526 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5530
+type(
+  Names.NamesSet.t Hept_parsetree_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/parsing/hept_static_scoping.ml" 122 5319 5325 "heptagon/parsing/hept_static_scoping.ml" 122 5319 5329
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5531 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5551
+type(
+  Names.NamesSet.t
+)
+ident(
+  ext_ref Names.NamesSet.empty
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5552 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5553
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/parsing/hept_static_scoping.ml" 121 5301 5315 "heptagon/parsing/hept_static_scoping.ml" 121 5301 5316
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5490 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5553
+call(
+  stack
+)
+type(
+  Hept_parsetree.interface * Names.NamesSet.t
+)
+"heptagon/parsing/hept_static_scoping.ml" 126 5557 5559 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/parsing/hept_static_scoping.ml" 125 5477 5483 "heptagon/parsing/hept_static_scoping.ml" 125 5477 5484
+)
+"heptagon/parsing/hept_static_scoping.ml" 125 5477 5479 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+type(
+  Hept_parsetree.interface
+)
+"heptagon/parsing/hept_static_scoping.ml" 124 5441 5443 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+type(
+  Hept_parsetree.interface
+)
+"heptagon/parsing/hept_static_scoping.ml" 122 5319 5321 "heptagon/parsing/hept_static_scoping.ml" 126 5557 5560
+type(
+  Hept_parsetree.interface
+)

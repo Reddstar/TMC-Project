@@ -1,0 +1,936 @@
+"utilities/global/printf_parser.ml" 35 2173 2177 "utilities/global/printf_parser.ml" 35 2173 2181
+type(
+  string -> int -> string
+)
+ident(
+  def tail "utilities/global/printf_parser.ml" 39 2300 2300 "utilities/global/printf_parser.ml" 1 0 -1
+)
+"utilities/global/printf_parser.ml" 35 2173 2182 "utilities/global/printf_parser.ml" 35 2173 2183
+type(
+  string
+)
+ident(
+  def s "utilities/global/printf_parser.ml" 35 2173 2184 "utilities/global/printf_parser.ml" 36 2192 2238
+)
+"utilities/global/printf_parser.ml" 35 2173 2184 "utilities/global/printf_parser.ml" 35 2173 2189
+type(
+  int
+)
+ident(
+  def start "utilities/global/printf_parser.ml" 36 2192 2194 "utilities/global/printf_parser.ml" 36 2192 2238
+)
+"utilities/global/printf_parser.ml" 36 2192 2194 "utilities/global/printf_parser.ml" 36 2192 2204
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"utilities/global/printf_parser.ml" 36 2192 2205 "utilities/global/printf_parser.ml" 36 2192 2206
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 35 2173 2182 "utilities/global/printf_parser.ml" 35 2173 2183
+)
+"utilities/global/printf_parser.ml" 36 2192 2207 "utilities/global/printf_parser.ml" 36 2192 2212
+type(
+  int
+)
+ident(
+  int_ref start "utilities/global/printf_parser.ml" 35 2173 2184 "utilities/global/printf_parser.ml" 35 2173 2189
+)
+"utilities/global/printf_parser.ml" 36 2192 2214 "utilities/global/printf_parser.ml" 36 2192 2227
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utilities/global/printf_parser.ml" 36 2192 2228 "utilities/global/printf_parser.ml" 36 2192 2229
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 35 2173 2182 "utilities/global/printf_parser.ml" 35 2173 2183
+)
+"utilities/global/printf_parser.ml" 36 2192 2214 "utilities/global/printf_parser.ml" 36 2192 2229
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 36 2192 2230 "utilities/global/printf_parser.ml" 36 2192 2231
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/global/printf_parser.ml" 36 2192 2232 "utilities/global/printf_parser.ml" 36 2192 2237
+type(
+  int
+)
+ident(
+  int_ref start "utilities/global/printf_parser.ml" 35 2173 2184 "utilities/global/printf_parser.ml" 35 2173 2189
+)
+"utilities/global/printf_parser.ml" 36 2192 2213 "utilities/global/printf_parser.ml" 36 2192 2238
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 36 2192 2194 "utilities/global/printf_parser.ml" 36 2192 2238
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 39 2300 2308 "utilities/global/printf_parser.ml" 39 2300 2324
+type(
+  string -> token list
+)
+ident(
+  def format_of_string "utilities/global/printf_parser.ml" 39 2300 2300 "utilities/global/printf_parser.ml" 1 0 -1
+)
+"utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+type(
+  string
+)
+ident(
+  def s "utilities/global/printf_parser.ml" 40 2329 2331 "utilities/global/printf_parser.ml" 52 2713 2743
+)
+"utilities/global/printf_parser.ml" 41 2335 2343 "utilities/global/printf_parser.ml" 41 2335 2344
+type(
+  int
+)
+ident(
+  def i "utilities/global/printf_parser.ml" 42 2369 2373 "utilities/global/printf_parser.ml" 49 2594 2637
+)
+"utilities/global/printf_parser.ml" 41 2335 2347 "utilities/global/printf_parser.ml" 41 2335 2359
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"utilities/global/printf_parser.ml" 41 2335 2360 "utilities/global/printf_parser.ml" 41 2335 2361
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 41 2335 2362 "utilities/global/printf_parser.ml" 41 2335 2365
+type(
+  char
+)
+"utilities/global/printf_parser.ml" 41 2335 2347 "utilities/global/printf_parser.ml" 41 2335 2365
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 42 2369 2377 "utilities/global/printf_parser.ml" 42 2369 2378
+type(
+  token list
+)
+ident(
+  def l "utilities/global/printf_parser.ml" 43 2416 2420 "utilities/global/printf_parser.ml" 49 2594 2637
+)
+"utilities/global/printf_parser.ml" 42 2369 2381 "utilities/global/printf_parser.ml" 42 2369 2397
+type(
+  string -> token list
+)
+ident(
+  int_ref format_of_string "utilities/global/printf_parser.ml" 39 2300 2308 "utilities/global/printf_parser.ml" 39 2300 2324
+)
+"utilities/global/printf_parser.ml" 42 2369 2399 "utilities/global/printf_parser.ml" 42 2369 2403
+type(
+  string -> int -> string
+)
+ident(
+  int_ref tail "utilities/global/printf_parser.ml" 35 2173 2177 "utilities/global/printf_parser.ml" 35 2173 2181
+)
+"utilities/global/printf_parser.ml" 42 2369 2404 "utilities/global/printf_parser.ml" 42 2369 2405
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 42 2369 2407 "utilities/global/printf_parser.ml" 42 2369 2408
+type(
+  int
+)
+ident(
+  int_ref i "utilities/global/printf_parser.ml" 41 2335 2343 "utilities/global/printf_parser.ml" 41 2335 2344
+)
+"utilities/global/printf_parser.ml" 42 2369 2408 "utilities/global/printf_parser.ml" 42 2369 2409
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/printf_parser.ml" 42 2369 2409 "utilities/global/printf_parser.ml" 42 2369 2410
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 42 2369 2406 "utilities/global/printf_parser.ml" 42 2369 2411
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 42 2369 2398 "utilities/global/printf_parser.ml" 42 2369 2412
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 42 2369 2381 "utilities/global/printf_parser.ml" 42 2369 2412
+call(
+  stack
+)
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 43 2416 2423 "utilities/global/printf_parser.ml" 43 2416 2424
+type(
+  int
+)
+ident(
+  int_ref i "utilities/global/printf_parser.ml" 41 2335 2343 "utilities/global/printf_parser.ml" 41 2335 2344
+)
+"utilities/global/printf_parser.ml" 43 2416 2425 "utilities/global/printf_parser.ml" 43 2416 2426
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/global/printf_parser.ml" 43 2416 2427 "utilities/global/printf_parser.ml" 43 2416 2428
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 43 2416 2423 "utilities/global/printf_parser.ml" 43 2416 2428
+type(
+  bool
+)
+"utilities/global/printf_parser.ml" 44 2434 2444 "utilities/global/printf_parser.ml" 44 2434 2452
+type(
+  string
+)
+ident(
+  def modifier "utilities/global/printf_parser.ml" 45 2475 2481 "utilities/global/printf_parser.ml" 45 2475 2503
+)
+"utilities/global/printf_parser.ml" 44 2434 2455 "utilities/global/printf_parser.ml" 44 2434 2465
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"utilities/global/printf_parser.ml" 44 2434 2466 "utilities/global/printf_parser.ml" 44 2434 2467
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 44 2434 2468 "utilities/global/printf_parser.ml" 44 2434 2469
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 44 2434 2470 "utilities/global/printf_parser.ml" 44 2434 2471
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 44 2434 2455 "utilities/global/printf_parser.ml" 44 2434 2471
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 45 2475 2491 "utilities/global/printf_parser.ml" 45 2475 2499
+type(
+  string
+)
+ident(
+  int_ref modifier "utilities/global/printf_parser.ml" 44 2434 2444 "utilities/global/printf_parser.ml" 44 2434 2452
+)
+"utilities/global/printf_parser.ml" 45 2475 2481 "utilities/global/printf_parser.ml" 45 2475 2500
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 45 2475 2502 "utilities/global/printf_parser.ml" 45 2475 2503
+type(
+  token list
+)
+ident(
+  int_ref l "utilities/global/printf_parser.ml" 42 2369 2377 "utilities/global/printf_parser.ml" 42 2369 2378
+)
+"utilities/global/printf_parser.ml" 45 2475 2481 "utilities/global/printf_parser.ml" 45 2475 2503
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 44 2434 2440 "utilities/global/printf_parser.ml" 45 2475 2503
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 47 2513 2523 "utilities/global/printf_parser.ml" 47 2513 2526
+type(
+  string
+)
+ident(
+  def lit "utilities/global/printf_parser.ml" 48 2549 2555 "utilities/global/printf_parser.ml" 49 2594 2637
+)
+"utilities/global/printf_parser.ml" 47 2513 2529 "utilities/global/printf_parser.ml" 47 2513 2539
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"utilities/global/printf_parser.ml" 47 2513 2540 "utilities/global/printf_parser.ml" 47 2513 2541
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 47 2513 2542 "utilities/global/printf_parser.ml" 47 2513 2543
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 47 2513 2544 "utilities/global/printf_parser.ml" 47 2513 2545
+type(
+  int
+)
+ident(
+  int_ref i "utilities/global/printf_parser.ml" 41 2335 2343 "utilities/global/printf_parser.ml" 41 2335 2344
+)
+"utilities/global/printf_parser.ml" 47 2513 2529 "utilities/global/printf_parser.ml" 47 2513 2545
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 48 2549 2559 "utilities/global/printf_parser.ml" 48 2549 2567
+type(
+  string
+)
+ident(
+  def modifier "utilities/global/printf_parser.ml" 49 2594 2600 "utilities/global/printf_parser.ml" 49 2594 2637
+)
+"utilities/global/printf_parser.ml" 48 2549 2570 "utilities/global/printf_parser.ml" 48 2549 2580
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"utilities/global/printf_parser.ml" 48 2549 2581 "utilities/global/printf_parser.ml" 48 2549 2582
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 48 2549 2584 "utilities/global/printf_parser.ml" 48 2549 2585
+type(
+  int
+)
+ident(
+  int_ref i "utilities/global/printf_parser.ml" 41 2335 2343 "utilities/global/printf_parser.ml" 41 2335 2344
+)
+"utilities/global/printf_parser.ml" 48 2549 2585 "utilities/global/printf_parser.ml" 48 2549 2586
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/printf_parser.ml" 48 2549 2586 "utilities/global/printf_parser.ml" 48 2549 2587
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 48 2549 2583 "utilities/global/printf_parser.ml" 48 2549 2588
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 48 2549 2589 "utilities/global/printf_parser.ml" 48 2549 2590
+type(
+  int
+)
+"utilities/global/printf_parser.ml" 48 2549 2570 "utilities/global/printf_parser.ml" 48 2549 2590
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 49 2594 2609 "utilities/global/printf_parser.ml" 49 2594 2612
+type(
+  string
+)
+ident(
+  int_ref lit "utilities/global/printf_parser.ml" 47 2513 2523 "utilities/global/printf_parser.ml" 47 2513 2526
+)
+"utilities/global/printf_parser.ml" 49 2594 2600 "utilities/global/printf_parser.ml" 49 2594 2613
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 49 2594 2625 "utilities/global/printf_parser.ml" 49 2594 2633
+type(
+  string
+)
+ident(
+  int_ref modifier "utilities/global/printf_parser.ml" 48 2549 2559 "utilities/global/printf_parser.ml" 48 2549 2567
+)
+"utilities/global/printf_parser.ml" 49 2594 2615 "utilities/global/printf_parser.ml" 49 2594 2634
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 49 2594 2636 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+ident(
+  int_ref l "utilities/global/printf_parser.ml" 42 2369 2377 "utilities/global/printf_parser.ml" 42 2369 2378
+)
+"utilities/global/printf_parser.ml" 49 2594 2615 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 49 2594 2600 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 48 2549 2555 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 47 2513 2519 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 43 2416 2420 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 42 2369 2373 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 41 2335 2339 "utilities/global/printf_parser.ml" 49 2594 2637
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 51 2645 2668 "utilities/global/printf_parser.ml" 51 2645 2669
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 51 2645 2651 "utilities/global/printf_parser.ml" 51 2645 2669
+type(
+  exn
+)
+"utilities/global/printf_parser.ml" 51 2645 2673 "utilities/global/printf_parser.ml" 51 2645 2678
+type(
+  exn -> token list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/printf_parser.ml" 51 2645 2679 "utilities/global/printf_parser.ml" 51 2645 2689
+type(
+  exn
+)
+"utilities/global/printf_parser.ml" 51 2645 2673 "utilities/global/printf_parser.ml" 51 2645 2689
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 52 2713 2719 "utilities/global/printf_parser.ml" 52 2713 2728
+type(
+  exn
+)
+"utilities/global/printf_parser.ml" 52 2713 2741 "utilities/global/printf_parser.ml" 52 2713 2742
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 39 2300 2325 "utilities/global/printf_parser.ml" 39 2300 2326
+)
+"utilities/global/printf_parser.ml" 52 2713 2733 "utilities/global/printf_parser.ml" 52 2713 2742
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 52 2713 2732 "utilities/global/printf_parser.ml" 52 2713 2743
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 40 2329 2331 "utilities/global/printf_parser.ml" 52 2713 2743
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 54 2745 2749 "utilities/global/printf_parser.ml" 54 2745 2771
+type(
+  string -> Types.ty list
+)
+ident(
+  def types_of_format_string "utilities/global/printf_parser.ml" 65 3073 3073 "utilities/global/printf_parser.ml" 1 0 -1
+)
+"utilities/global/printf_parser.ml" 54 2745 2772 "utilities/global/printf_parser.ml" 54 2745 2773
+type(
+  string
+)
+ident(
+  def s "utilities/global/printf_parser.ml" 55 2776 2778 "utilities/global/printf_parser.ml" 63 3035 3071
+)
+"utilities/global/printf_parser.ml" 55 2776 2782 "utilities/global/printf_parser.ml" 55 2776 2794
+type(
+  token -> Types.ty list -> Types.ty list
+)
+ident(
+  def ty_of_format "utilities/global/printf_parser.ml" 62 3002 3004 "utilities/global/printf_parser.ml" 63 3035 3071
+)
+"utilities/global/printf_parser.ml" 55 2776 2795 "utilities/global/printf_parser.ml" 55 2776 2796
+type(
+  token
+)
+ident(
+  def f "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 60 2982 2996
+)
+"utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+type(
+  Types.ty list
+)
+ident(
+  def acc "utilities/global/printf_parser.ml" 55 2776 2803 "utilities/global/printf_parser.ml" 60 2982 2996
+)
+"utilities/global/printf_parser.ml" 55 2776 2809 "utilities/global/printf_parser.ml" 55 2776 2810
+type(
+  token
+)
+ident(
+  int_ref f "utilities/global/printf_parser.ml" 55 2776 2795 "utilities/global/printf_parser.ml" 55 2776 2796
+)
+"utilities/global/printf_parser.ml" 56 2816 2831 "utilities/global/printf_parser.ml" 56 2816 2834
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 56 2816 2822 "utilities/global/printf_parser.ml" 56 2816 2834
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 56 2816 2838 "utilities/global/printf_parser.ml" 56 2816 2851
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tbool
+)
+"utilities/global/printf_parser.ml" 56 2816 2853 "utilities/global/printf_parser.ml" 56 2816 2856
+type(
+  Types.ty list
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+)
+"utilities/global/printf_parser.ml" 56 2816 2838 "utilities/global/printf_parser.ml" 56 2816 2856
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 57 2857 2872 "utilities/global/printf_parser.ml" 57 2857 2875
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 57 2857 2863 "utilities/global/printf_parser.ml" 57 2857 2875
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 57 2857 2879 "utilities/global/printf_parser.ml" 57 2857 2891
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"utilities/global/printf_parser.ml" 57 2857 2893 "utilities/global/printf_parser.ml" 57 2857 2896
+type(
+  Types.ty list
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+)
+"utilities/global/printf_parser.ml" 57 2857 2879 "utilities/global/printf_parser.ml" 57 2857 2896
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 58 2897 2912 "utilities/global/printf_parser.ml" 58 2897 2915
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 58 2897 2903 "utilities/global/printf_parser.ml" 58 2897 2915
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 58 2897 2919 "utilities/global/printf_parser.ml" 58 2897 2933
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tfloat
+)
+"utilities/global/printf_parser.ml" 58 2897 2935 "utilities/global/printf_parser.ml" 58 2897 2938
+type(
+  Types.ty list
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+)
+"utilities/global/printf_parser.ml" 58 2897 2919 "utilities/global/printf_parser.ml" 58 2897 2938
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 59 2939 2954 "utilities/global/printf_parser.ml" 59 2939 2957
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 59 2939 2945 "utilities/global/printf_parser.ml" 59 2939 2957
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 59 2939 2961 "utilities/global/printf_parser.ml" 59 2939 2976
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tstring
+)
+"utilities/global/printf_parser.ml" 59 2939 2978 "utilities/global/printf_parser.ml" 59 2939 2981
+type(
+  Types.ty list
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+)
+"utilities/global/printf_parser.ml" 59 2939 2961 "utilities/global/printf_parser.ml" 59 2939 2981
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 60 2982 2988 "utilities/global/printf_parser.ml" 60 2982 2989
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 60 2982 2993 "utilities/global/printf_parser.ml" 60 2982 2996
+type(
+  Types.ty list
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 55 2776 2797 "utilities/global/printf_parser.ml" 55 2776 2800
+)
+"utilities/global/printf_parser.ml" 55 2776 2803 "utilities/global/printf_parser.ml" 60 2982 2996
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 62 3002 3008 "utilities/global/printf_parser.ml" 62 3002 3010
+type(
+  token list
+)
+ident(
+  def sl "utilities/global/printf_parser.ml" 63 3035 3037 "utilities/global/printf_parser.ml" 63 3035 3071
+)
+"utilities/global/printf_parser.ml" 62 3002 3013 "utilities/global/printf_parser.ml" 62 3002 3029
+type(
+  string -> token list
+)
+ident(
+  int_ref format_of_string "utilities/global/printf_parser.ml" 39 2300 2308 "utilities/global/printf_parser.ml" 39 2300 2324
+)
+"utilities/global/printf_parser.ml" 62 3002 3030 "utilities/global/printf_parser.ml" 62 3002 3031
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 54 2745 2772 "utilities/global/printf_parser.ml" 54 2745 2773
+)
+"utilities/global/printf_parser.ml" 62 3002 3013 "utilities/global/printf_parser.ml" 62 3002 3031
+call(
+  stack
+)
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 63 3035 3037 "utilities/global/printf_parser.ml" 63 3035 3052
+type(
+  (token -> Types.ty list -> Types.ty list) ->
+  token list -> Types.ty list -> Types.ty list
+)
+ident(
+  ext_ref List.fold_right
+)
+"utilities/global/printf_parser.ml" 63 3035 3053 "utilities/global/printf_parser.ml" 63 3035 3065
+type(
+  token -> Types.ty list -> Types.ty list
+)
+ident(
+  int_ref ty_of_format "utilities/global/printf_parser.ml" 55 2776 2782 "utilities/global/printf_parser.ml" 55 2776 2794
+)
+"utilities/global/printf_parser.ml" 63 3035 3066 "utilities/global/printf_parser.ml" 63 3035 3068
+type(
+  token list
+)
+ident(
+  int_ref sl "utilities/global/printf_parser.ml" 62 3002 3008 "utilities/global/printf_parser.ml" 62 3002 3010
+)
+"utilities/global/printf_parser.ml" 63 3035 3069 "utilities/global/printf_parser.ml" 63 3035 3071
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 63 3035 3037 "utilities/global/printf_parser.ml" 63 3035 3071
+call(
+  tail
+)
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 62 3002 3004 "utilities/global/printf_parser.ml" 63 3035 3071
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 55 2776 2778 "utilities/global/printf_parser.ml" 63 3035 3071
+type(
+  Types.ty list
+)
+"utilities/global/printf_parser.ml" 65 3073 3077 "utilities/global/printf_parser.ml" 65 3073 3086
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  def tr_format "utilities/global/printf_parser.ml" 71 3225 3252 "utilities/global/printf_parser.ml" 1 0 -1
+)
+"utilities/global/printf_parser.ml" 65 3073 3087 "utilities/global/printf_parser.ml" 65 3073 3088
+type(
+  string -> string
+)
+ident(
+  def f "utilities/global/printf_parser.ml" 65 3073 3089 "utilities/global/printf_parser.ml" 71 3225 3252
+)
+"utilities/global/printf_parser.ml" 65 3073 3089 "utilities/global/printf_parser.ml" 65 3073 3090
+type(
+  string
+)
+ident(
+  def s "utilities/global/printf_parser.ml" 66 3093 3095 "utilities/global/printf_parser.ml" 71 3225 3252
+)
+"utilities/global/printf_parser.ml" 66 3093 3099 "utilities/global/printf_parser.ml" 66 3093 3102
+type(
+  token -> string -> string
+)
+ident(
+  def aux "utilities/global/printf_parser.ml" 70 3192 3194 "utilities/global/printf_parser.ml" 71 3225 3252
+)
+"utilities/global/printf_parser.ml" 66 3093 3103 "utilities/global/printf_parser.ml" 66 3093 3106
+type(
+  token
+)
+ident(
+  def tok "utilities/global/printf_parser.ml" 66 3093 3107 "utilities/global/printf_parser.ml" 68 3153 3186
+)
+"utilities/global/printf_parser.ml" 66 3093 3107 "utilities/global/printf_parser.ml" 66 3093 3110
+type(
+  string
+)
+ident(
+  def acc "utilities/global/printf_parser.ml" 66 3093 3113 "utilities/global/printf_parser.ml" 68 3153 3186
+)
+"utilities/global/printf_parser.ml" 66 3093 3119 "utilities/global/printf_parser.ml" 66 3093 3122
+type(
+  token
+)
+ident(
+  int_ref tok "utilities/global/printf_parser.ml" 66 3093 3103 "utilities/global/printf_parser.ml" 66 3093 3106
+)
+"utilities/global/printf_parser.ml" 67 3128 3142 "utilities/global/printf_parser.ml" 67 3128 3143
+type(
+  string
+)
+ident(
+  def s "utilities/global/printf_parser.ml" 67 3128 3147 "utilities/global/printf_parser.ml" 67 3128 3152
+)
+"utilities/global/printf_parser.ml" 67 3128 3134 "utilities/global/printf_parser.ml" 67 3128 3143
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 67 3128 3147 "utilities/global/printf_parser.ml" 67 3128 3148
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 67 3128 3142 "utilities/global/printf_parser.ml" 67 3128 3143
+)
+"utilities/global/printf_parser.ml" 67 3128 3148 "utilities/global/printf_parser.ml" 67 3128 3149
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/printf_parser.ml" 67 3128 3149 "utilities/global/printf_parser.ml" 67 3128 3152
+type(
+  string
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 66 3093 3107 "utilities/global/printf_parser.ml" 66 3093 3110
+)
+"utilities/global/printf_parser.ml" 67 3128 3147 "utilities/global/printf_parser.ml" 67 3128 3152
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 68 3153 3168 "utilities/global/printf_parser.ml" 68 3153 3169
+type(
+  string
+)
+ident(
+  def m "utilities/global/printf_parser.ml" 68 3153 3173 "utilities/global/printf_parser.ml" 68 3153 3186
+)
+"utilities/global/printf_parser.ml" 68 3153 3159 "utilities/global/printf_parser.ml" 68 3153 3169
+type(
+  token
+)
+"utilities/global/printf_parser.ml" 68 3153 3173 "utilities/global/printf_parser.ml" 68 3153 3176
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 68 3153 3176 "utilities/global/printf_parser.ml" 68 3153 3177
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/printf_parser.ml" 68 3153 3178 "utilities/global/printf_parser.ml" 68 3153 3179
+type(
+  string -> string
+)
+ident(
+  int_ref f "utilities/global/printf_parser.ml" 65 3073 3087 "utilities/global/printf_parser.ml" 65 3073 3088
+)
+"utilities/global/printf_parser.ml" 68 3153 3180 "utilities/global/printf_parser.ml" 68 3153 3181
+type(
+  string
+)
+ident(
+  int_ref m "utilities/global/printf_parser.ml" 68 3153 3168 "utilities/global/printf_parser.ml" 68 3153 3169
+)
+"utilities/global/printf_parser.ml" 68 3153 3177 "utilities/global/printf_parser.ml" 68 3153 3182
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 68 3153 3182 "utilities/global/printf_parser.ml" 68 3153 3183
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/printf_parser.ml" 68 3153 3183 "utilities/global/printf_parser.ml" 68 3153 3186
+type(
+  string
+)
+ident(
+  int_ref acc "utilities/global/printf_parser.ml" 66 3093 3107 "utilities/global/printf_parser.ml" 66 3093 3110
+)
+"utilities/global/printf_parser.ml" 68 3153 3177 "utilities/global/printf_parser.ml" 68 3153 3186
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 68 3153 3173 "utilities/global/printf_parser.ml" 68 3153 3186
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 66 3093 3113 "utilities/global/printf_parser.ml" 68 3153 3186
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 70 3192 3198 "utilities/global/printf_parser.ml" 70 3192 3200
+type(
+  token list
+)
+ident(
+  def sl "utilities/global/printf_parser.ml" 71 3225 3227 "utilities/global/printf_parser.ml" 71 3225 3252
+)
+"utilities/global/printf_parser.ml" 70 3192 3203 "utilities/global/printf_parser.ml" 70 3192 3219
+type(
+  string -> token list
+)
+ident(
+  int_ref format_of_string "utilities/global/printf_parser.ml" 39 2300 2308 "utilities/global/printf_parser.ml" 39 2300 2324
+)
+"utilities/global/printf_parser.ml" 70 3192 3220 "utilities/global/printf_parser.ml" 70 3192 3221
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/printf_parser.ml" 65 3073 3089 "utilities/global/printf_parser.ml" 65 3073 3090
+)
+"utilities/global/printf_parser.ml" 70 3192 3203 "utilities/global/printf_parser.ml" 70 3192 3221
+call(
+  stack
+)
+type(
+  token list
+)
+"utilities/global/printf_parser.ml" 71 3225 3227 "utilities/global/printf_parser.ml" 71 3225 3242
+type(
+  (token -> string -> string) -> token list -> string -> string
+)
+ident(
+  ext_ref List.fold_right
+)
+"utilities/global/printf_parser.ml" 71 3225 3243 "utilities/global/printf_parser.ml" 71 3225 3246
+type(
+  token -> string -> string
+)
+ident(
+  int_ref aux "utilities/global/printf_parser.ml" 66 3093 3099 "utilities/global/printf_parser.ml" 66 3093 3102
+)
+"utilities/global/printf_parser.ml" 71 3225 3247 "utilities/global/printf_parser.ml" 71 3225 3249
+type(
+  token list
+)
+ident(
+  int_ref sl "utilities/global/printf_parser.ml" 70 3192 3198 "utilities/global/printf_parser.ml" 70 3192 3200
+)
+"utilities/global/printf_parser.ml" 71 3225 3250 "utilities/global/printf_parser.ml" 71 3225 3252
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 71 3225 3227 "utilities/global/printf_parser.ml" 71 3225 3252
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 70 3192 3194 "utilities/global/printf_parser.ml" 71 3225 3252
+type(
+  string
+)
+"utilities/global/printf_parser.ml" 66 3093 3095 "utilities/global/printf_parser.ml" 71 3225 3252
+type(
+  string
+)

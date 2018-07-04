@@ -1,0 +1,147 @@
+declare(
+      a,
+      b,
+      xx,
+      P0_de_std_task_0,
+      P1_de_std_task_0,
+      P2_de_std_task_0,
+      P3_de_std_task_0,
+      P4_de_std_task_0,
+      Q1_de_std_task_0,
+      Q2_de_std_task_0,
+      Q3_de_std_task_0,
+      Q4_de_std_task_0
+   );
+
+P0_de_std_task_0_Choix : 1;
+P1_de_std_task_0_Choix : -1;
+P2_de_std_task_0_Choix : -1;
+P3_de_std_task_0_Choix : -1;
+P4_de_std_task_0_Choix : -1;
+Q1_de_std_task_0_Choix : -1;
+Q2_de_std_task_0_Choix : -1;
+Q3_de_std_task_0_Choix : -1;
+Q4_de_std_task_0_Choix : -1;
+condition_de_P0_de_std_task_0_vers_P1_de_std_task_0_0 : (((a and b)) when P0_de_std_task_0) default (-1);
+condition_de_P0_de_std_task_0_vers_P2_de_std_task_0_1 : (((not (a) and b)) when P0_de_std_task_0) default (-1);
+condition_de_P0_de_std_task_0_vers_P4_de_std_task_0_2 : (((not (a) and not (b))) when P0_de_std_task_0) default (-1);
+condition_de_P1_de_std_task_0_vers_Q1_de_std_task_0_3 : ((xx) when P1_de_std_task_0) default (-1);
+condition_de_P1_de_std_task_0_vers_Q2_de_std_task_0_4 : (((not (xx) and a)) when P1_de_std_task_0) default (-1);
+condition_de_P1_de_std_task_0_vers_Q3_de_std_task_0_5 : (((not (xx) and not (a))) when P1_de_std_task_0) default (-1);
+condition_de_P2_de_std_task_0_vers_P3_de_std_task_0_6 : ((a) when P2_de_std_task_0) default (-1);
+condition_de_P4_de_std_task_0_vers_P3_de_std_task_0_7 : ((a) when P4_de_std_task_0) default (-1);
+condition_de_Q1_de_std_task_0_vers_P3_de_std_task_0_8 : ((a) when Q1_de_std_task_0) default (-1);
+condition_de_Q2_de_std_task_0_vers_P3_de_std_task_0_9 : ((a) when Q2_de_std_task_0) default (-1);
+condition_de_Q3_de_std_task_0_vers_P3_de_std_task_0_10 : (((not (xx) and a)) when Q3_de_std_task_0) default (-1);
+condition_de_Q3_de_std_task_0_vers_Q4_de_std_task_0_11 : ((xx) when Q3_de_std_task_0) default (-1);
+condition_de_Q4_de_std_task_0_vers_Q3_de_std_task_0_12 : ((a) when Q4_de_std_task_0) default (-1);
+
+conditions: [
+      a,
+      b,
+      xx
+   ];
+
+etats: [
+   
+         P0_de_std_task_0,
+         P1_de_std_task_0,
+         P2_de_std_task_0,
+         P3_de_std_task_0,
+         P4_de_std_task_0,
+         Q1_de_std_task_0,
+         Q2_de_std_task_0,
+         Q3_de_std_task_0,
+         Q4_de_std_task_0
+      ];
+
+initialisations: [
+   
+         P0_de_std_task_0 = 1,
+         P1_de_std_task_0 = -1,
+         P2_de_std_task_0 = -1,
+         P3_de_std_task_0 = -1,
+         P4_de_std_task_0 = -1,
+         Q1_de_std_task_0 = -1,
+         Q2_de_std_task_0 = -1,
+         Q3_de_std_task_0 = -1,
+         Q4_de_std_task_0 = -1
+      ];
+
+evolutions: [
+   
+         ((not (((condition_de_P0_de_std_task_0_vers_P1_de_std_task_0_0 or condition_de_P0_de_std_task_0_vers_P2_de_std_task_0_1)
+ or condition_de_P0_de_std_task_0_vers_P4_de_std_task_0_2))) when P0_de_std_task_0) default (P0_de_std_task_0),
+         ((condition_de_P0_de_std_task_0_vers_P1_de_std_task_0_0) when P0_de_std_task_0) default (((not (((
+condition_de_P1_de_std_task_0_vers_Q1_de_std_task_0_3 or condition_de_P1_de_std_task_0_vers_Q2_de_std_task_0_4) or 
+condition_de_P1_de_std_task_0_vers_Q3_de_std_task_0_5))) when P1_de_std_task_0) default (P1_de_std_task_0)),
+         ((condition_de_P0_de_std_task_0_vers_P2_de_std_task_0_1) when P0_de_std_task_0) default (((not (
+condition_de_P2_de_std_task_0_vers_P3_de_std_task_0_6)) when P2_de_std_task_0) default (P2_de_std_task_0)),
+         ((condition_de_P2_de_std_task_0_vers_P3_de_std_task_0_6) when P2_de_std_task_0) default (((1
+) when P3_de_std_task_0) default (((condition_de_P4_de_std_task_0_vers_P3_de_std_task_0_7) when P4_de_std_task_0) default (((
+condition_de_Q1_de_std_task_0_vers_P3_de_std_task_0_8) when Q1_de_std_task_0) default (((
+condition_de_Q2_de_std_task_0_vers_P3_de_std_task_0_9) when Q2_de_std_task_0) default (((
+condition_de_Q3_de_std_task_0_vers_P3_de_std_task_0_10) when Q3_de_std_task_0) default (P3_de_std_task_0)))))),
+         ((condition_de_P0_de_std_task_0_vers_P4_de_std_task_0_2) when P0_de_std_task_0) default (((not (
+condition_de_P4_de_std_task_0_vers_P3_de_std_task_0_7)) when P4_de_std_task_0) default (P4_de_std_task_0)),
+         ((condition_de_P1_de_std_task_0_vers_Q1_de_std_task_0_3) when P1_de_std_task_0) default (((not (
+condition_de_Q1_de_std_task_0_vers_P3_de_std_task_0_8)) when Q1_de_std_task_0) default (Q1_de_std_task_0)),
+         ((condition_de_P1_de_std_task_0_vers_Q2_de_std_task_0_4) when P1_de_std_task_0) default (((not (
+condition_de_Q2_de_std_task_0_vers_P3_de_std_task_0_9)) when Q2_de_std_task_0) default (Q2_de_std_task_0)),
+         ((condition_de_P1_de_std_task_0_vers_Q3_de_std_task_0_5) when P1_de_std_task_0) default (((not ((
+condition_de_Q3_de_std_task_0_vers_P3_de_std_task_0_10 or condition_de_Q3_de_std_task_0_vers_Q4_de_std_task_0_11))
+) when Q3_de_std_task_0) default (((condition_de_Q4_de_std_task_0_vers_Q3_de_std_task_0_12) when Q4_de_std_task_0) default (
+Q3_de_std_task_0))),
+         ((condition_de_Q3_de_std_task_0_vers_Q4_de_std_task_0_11) when Q3_de_std_task_0) default (((not (
+condition_de_Q4_de_std_task_0_vers_Q3_de_std_task_0_12)) when Q4_de_std_task_0) default (Q4_de_std_task_0))
+      ];
+
+contraintes: [
+   
+         a^2=1,
+         b^2=1,
+         xx^2=1,
+         P0_de_std_task_0_Choix^2=1,
+         P1_de_std_task_0_Choix^2=1,
+         P2_de_std_task_0_Choix^2=1,
+         P3_de_std_task_0_Choix^2=1,
+         P4_de_std_task_0_Choix^2=1,
+         Q1_de_std_task_0_Choix^2=1,
+         Q2_de_std_task_0_Choix^2=1,
+         Q3_de_std_task_0_Choix^2=1,
+         Q4_de_std_task_0_Choix^2=1,
+         condition_de_P0_de_std_task_0_vers_P1_de_std_task_0_0^2=1,
+         condition_de_P0_de_std_task_0_vers_P2_de_std_task_0_1^2=1,
+         condition_de_P0_de_std_task_0_vers_P4_de_std_task_0_2^2=1,
+         condition_de_P1_de_std_task_0_vers_Q1_de_std_task_0_3^2=1,
+         condition_de_P1_de_std_task_0_vers_Q2_de_std_task_0_4^2=1,
+         condition_de_P1_de_std_task_0_vers_Q3_de_std_task_0_5^2=1,
+         condition_de_P2_de_std_task_0_vers_P3_de_std_task_0_6^2=1,
+         condition_de_P4_de_std_task_0_vers_P3_de_std_task_0_7^2=1,
+         condition_de_Q1_de_std_task_0_vers_P3_de_std_task_0_8^2=1,
+         condition_de_Q2_de_std_task_0_vers_P3_de_std_task_0_9^2=1,
+         condition_de_Q3_de_std_task_0_vers_P3_de_std_task_0_10^2=1,
+         condition_de_Q3_de_std_task_0_vers_Q4_de_std_task_0_11^2=1,
+         condition_de_Q4_de_std_task_0_vers_Q3_de_std_task_0_12^2=1,
+         P0_de_std_task_0^2=1,
+         P1_de_std_task_0^2=1,
+         P2_de_std_task_0^2=1,
+         P3_de_std_task_0^2=1,
+         P4_de_std_task_0^2=1,
+         Q1_de_std_task_0^2=1,
+         Q2_de_std_task_0^2=1,
+         Q3_de_std_task_0^2=1,
+         Q4_de_std_task_0^2=1
+      ];
+
+controlables: [
+   
+         a,
+         b
+      ];
+
+cond_libres: [
+   
+         
+      ];
+

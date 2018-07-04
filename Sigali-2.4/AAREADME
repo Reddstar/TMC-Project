@@ -1,0 +1,47 @@
+
+Update from INRIA gforge
+------------------------
+
+First time: (XXX is the name of your account for the forge)
+      svn checkout svn+ssh://XXX@scm.gforge.inria.fr/svn/sigali A_DIRECTORY
+
+  then 
+   goto the cmake directory and execute the command
+            cmake ..
+      ( it generates the sigaliEnv[.bat] file)
+     
+    then
+      See "To rebuild the software" section above
+
+  otherwise (go to A_DIRECTORY) and execute
+    svn update
+    then
+      See "To rebuild the software" section above
+
+===================================================================================================
+
+Access to sigali tool (setup)
+-----------------------------
+
+ To use sigali tool, you must execute the following command
+  * Unix 
+      source sigaliEnv
+  * Windows
+      sigaliEnv.bat
+
+To rebuild the software, run 
+-----------------------
+        makeSigali   for Sigali 
+        makeResolver for the solver part.
+
+	This commands are available when the setup has been done.
+
+===================================================================================================
+
+Exporting:
+     For Linux, go to the root of the SIGALI soft.
+     execute the command
+	      com/mkExportVersion
+     It produces the file (pKSigali.tar.gz) in the Export directory.
+
+    To be completed for other platforms (windows).

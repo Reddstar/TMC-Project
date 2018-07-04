@@ -1,0 +1,7768 @@
+"utilities/misc.ml" 31 2092 2096 "utilities/misc.ml" 31 2092 2104
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def optional "utilities/misc.ml" 35 2161 2161 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 31 2092 2105 "utilities/misc.ml" 31 2092 2106
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 31 2092 2109 "utilities/misc.ml" 33 2135 2159
+)
+"utilities/misc.ml" 32 2118 2122 "utilities/misc.ml" 32 2118 2126
+type(
+  'a option
+)
+"utilities/misc.ml" 32 2118 2130 "utilities/misc.ml" 32 2118 2134
+type(
+  'b option
+)
+"utilities/misc.ml" 33 2135 2144 "utilities/misc.ml" 33 2135 2145
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 33 2135 2149 "utilities/misc.ml" 33 2135 2159
+)
+"utilities/misc.ml" 33 2135 2139 "utilities/misc.ml" 33 2135 2145
+type(
+  'a option
+)
+"utilities/misc.ml" 33 2135 2155 "utilities/misc.ml" 33 2135 2156
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 31 2092 2105 "utilities/misc.ml" 31 2092 2106
+)
+"utilities/misc.ml" 33 2135 2157 "utilities/misc.ml" 33 2135 2158
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 33 2135 2144 "utilities/misc.ml" 33 2135 2145
+)
+"utilities/misc.ml" 33 2135 2154 "utilities/misc.ml" 33 2135 2159
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 33 2135 2149 "utilities/misc.ml" 33 2135 2159
+type(
+  'b option
+)
+"utilities/misc.ml" 31 2092 2109 "utilities/misc.ml" 33 2135 2159
+type(
+  'a option -> 'b option
+)
+"utilities/misc.ml" 35 2161 2165 "utilities/misc.ml" 35 2161 2178
+type(
+  ('a -> 'b -> 'c * 'a) -> 'a -> 'b option -> 'c option * 'a
+)
+ident(
+  def optional_wacc "utilities/misc.ml" 39 2269 2269 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 35 2161 2179 "utilities/misc.ml" 35 2161 2180
+type(
+  'a -> 'b -> 'c * 'a
+)
+ident(
+  def f "utilities/misc.ml" 35 2161 2181 "utilities/misc.ml" 37 2218 2267
+)
+"utilities/misc.ml" 35 2161 2181 "utilities/misc.ml" 35 2161 2184
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 35 2161 2187 "utilities/misc.ml" 37 2218 2267
+)
+"utilities/misc.ml" 36 2196 2200 "utilities/misc.ml" 36 2196 2204
+type(
+  'b option
+)
+"utilities/misc.ml" 36 2196 2208 "utilities/misc.ml" 36 2196 2212
+type(
+  'c option
+)
+"utilities/misc.ml" 36 2196 2214 "utilities/misc.ml" 36 2196 2217
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 35 2161 2181 "utilities/misc.ml" 35 2161 2184
+)
+"utilities/misc.ml" 36 2196 2208 "utilities/misc.ml" 36 2196 2217
+type(
+  'c option * 'a
+)
+"utilities/misc.ml" 37 2218 2227 "utilities/misc.ml" 37 2218 2228
+type(
+  'b
+)
+ident(
+  def x "utilities/misc.ml" 37 2218 2232 "utilities/misc.ml" 37 2218 2267
+)
+"utilities/misc.ml" 37 2218 2222 "utilities/misc.ml" 37 2218 2228
+type(
+  'b option
+)
+"utilities/misc.ml" 37 2218 2236 "utilities/misc.ml" 37 2218 2237
+type(
+  'c
+)
+ident(
+  def x "utilities/misc.ml" 37 2218 2256 "utilities/misc.ml" 37 2218 2267
+)
+"utilities/misc.ml" 37 2218 2239 "utilities/misc.ml" 37 2218 2242
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 37 2218 2256 "utilities/misc.ml" 37 2218 2267
+)
+"utilities/misc.ml" 37 2218 2236 "utilities/misc.ml" 37 2218 2242
+type(
+  'c * 'a
+)
+"utilities/misc.ml" 37 2218 2245 "utilities/misc.ml" 37 2218 2246
+type(
+  'a -> 'b -> 'c * 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 35 2161 2179 "utilities/misc.ml" 35 2161 2180
+)
+"utilities/misc.ml" 37 2218 2247 "utilities/misc.ml" 37 2218 2250
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 35 2161 2181 "utilities/misc.ml" 35 2161 2184
+)
+"utilities/misc.ml" 37 2218 2251 "utilities/misc.ml" 37 2218 2252
+type(
+  'b
+)
+ident(
+  int_ref x "utilities/misc.ml" 37 2218 2227 "utilities/misc.ml" 37 2218 2228
+)
+"utilities/misc.ml" 37 2218 2245 "utilities/misc.ml" 37 2218 2252
+call(
+  stack
+)
+type(
+  'c * 'a
+)
+"utilities/misc.ml" 37 2218 2261 "utilities/misc.ml" 37 2218 2262
+type(
+  'c
+)
+ident(
+  int_ref x "utilities/misc.ml" 37 2218 2236 "utilities/misc.ml" 37 2218 2237
+)
+"utilities/misc.ml" 37 2218 2256 "utilities/misc.ml" 37 2218 2262
+type(
+  'c option
+)
+"utilities/misc.ml" 37 2218 2264 "utilities/misc.ml" 37 2218 2267
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 37 2218 2239 "utilities/misc.ml" 37 2218 2242
+)
+"utilities/misc.ml" 37 2218 2256 "utilities/misc.ml" 37 2218 2267
+type(
+  'c option * 'a
+)
+"utilities/misc.ml" 37 2218 2232 "utilities/misc.ml" 37 2218 2267
+type(
+  'c option * 'a
+)
+"utilities/misc.ml" 35 2161 2187 "utilities/misc.ml" 37 2218 2267
+type(
+  'b option -> 'c option * 'a
+)
+"utilities/misc.ml" 39 2269 2273 "utilities/misc.ml" 39 2269 2280
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def optunit "utilities/misc.ml" 45 2354 2354 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 39 2269 2281 "utilities/misc.ml" 39 2269 2282
+type(
+  'a -> unit
+)
+ident(
+  def f "utilities/misc.ml" 39 2269 2285 "utilities/misc.ml" 41 2309 2326
+)
+"utilities/misc.ml" 40 2294 2298 "utilities/misc.ml" 40 2294 2302
+type(
+  'a option
+)
+"utilities/misc.ml" 40 2294 2306 "utilities/misc.ml" 40 2294 2308
+type(
+  unit
+)
+"utilities/misc.ml" 41 2309 2318 "utilities/misc.ml" 41 2309 2319
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 41 2309 2323 "utilities/misc.ml" 41 2309 2326
+)
+"utilities/misc.ml" 41 2309 2313 "utilities/misc.ml" 41 2309 2319
+type(
+  'a option
+)
+"utilities/misc.ml" 41 2309 2323 "utilities/misc.ml" 41 2309 2324
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "utilities/misc.ml" 39 2269 2281 "utilities/misc.ml" 39 2269 2282
+)
+"utilities/misc.ml" 41 2309 2325 "utilities/misc.ml" 41 2309 2326
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 41 2309 2318 "utilities/misc.ml" 41 2309 2319
+)
+"utilities/misc.ml" 41 2309 2323 "utilities/misc.ml" 41 2309 2326
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 39 2269 2285 "utilities/misc.ml" 41 2309 2326
+type(
+  'a option -> unit
+)
+"utilities/misc.ml" 45 2354 2358 "utilities/misc.ml" 45 2354 2376
+type(
+  (Format.formatter -> 'a -> 'b) -> 'a -> string
+)
+ident(
+  def print_pp_to_string "utilities/misc.ml" 51 2619 2619 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 45 2354 2377 "utilities/misc.ml" 45 2354 2386
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  def print_fun "utilities/misc.ml" 45 2354 2387 "utilities/misc.ml" 48 2520 2551
+)
+"utilities/misc.ml" 45 2354 2387 "utilities/misc.ml" 45 2354 2394
+type(
+  'a
+)
+ident(
+  def element "utilities/misc.ml" 46 2397 2399 "utilities/misc.ml" 48 2520 2551
+)
+"utilities/misc.ml" 46 2397 2403 "utilities/misc.ml" 46 2397 2404
+type(
+  string
+)
+"utilities/misc.ml" 46 2397 2407 "utilities/misc.ml" 46 2397 2433
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"utilities/misc.ml" 46 2397 2434 "utilities/misc.ml" 46 2397 2436
+type(
+  unit
+)
+"utilities/misc.ml" 46 2397 2407 "utilities/misc.ml" 46 2397 2436
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/misc.ml" 47 2478 2480 "utilities/misc.ml" 47 2478 2489
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  int_ref print_fun "utilities/misc.ml" 45 2354 2377 "utilities/misc.ml" 45 2354 2386
+)
+"utilities/misc.ml" 47 2478 2490 "utilities/misc.ml" 47 2478 2510
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.str_formatter
+)
+"utilities/misc.ml" 47 2478 2511 "utilities/misc.ml" 47 2478 2518
+type(
+  'a
+)
+ident(
+  int_ref element "utilities/misc.ml" 45 2354 2387 "utilities/misc.ml" 45 2354 2394
+)
+"utilities/misc.ml" 47 2478 2480 "utilities/misc.ml" 47 2478 2518
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 48 2520 2522 "utilities/misc.ml" 48 2520 2548
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"utilities/misc.ml" 48 2520 2549 "utilities/misc.ml" 48 2520 2551
+type(
+  unit
+)
+"utilities/misc.ml" 48 2520 2522 "utilities/misc.ml" 48 2520 2551
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/misc.ml" 47 2478 2480 "utilities/misc.ml" 48 2520 2551
+type(
+  string
+)
+"utilities/misc.ml" 46 2397 2399 "utilities/misc.ml" 48 2520 2551
+type(
+  string
+)
+"utilities/misc.ml" 51 2619 2623 "utilities/misc.ml" 51 2619 2638
+type(
+  string -> string
+)
+ident(
+  def sanitize_string "utilities/misc.ml" 56 2772 2772 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 51 2619 2639 "utilities/misc.ml" 51 2619 2640
+type(
+  string
+)
+ident(
+  def s "utilities/misc.ml" 52 2643 2645 "utilities/misc.ml" 52 2643 2697
+)
+"utilities/misc.ml" 52 2643 2645 "utilities/misc.ml" 52 2643 2663
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"utilities/misc.ml" 52 2643 2665 "utilities/misc.ml" 52 2643 2675
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"utilities/misc.ml" 52 2643 2676 "utilities/misc.ml" 52 2643 2690
+type(
+  string
+)
+"utilities/misc.ml" 52 2643 2664 "utilities/misc.ml" 52 2643 2691
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"utilities/misc.ml" 52 2643 2692 "utilities/misc.ml" 52 2643 2695
+type(
+  string
+)
+"utilities/misc.ml" 52 2643 2696 "utilities/misc.ml" 52 2643 2697
+type(
+  string
+)
+ident(
+  int_ref s "utilities/misc.ml" 51 2619 2639 "utilities/misc.ml" 51 2619 2640
+)
+"utilities/misc.ml" 52 2643 2645 "utilities/misc.ml" 52 2643 2697
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/misc.ml" 56 2772 2776 "utilities/misc.ml" 56 2772 2782
+type(
+  int ref
+)
+ident(
+  def symbol "utilities/misc.ml" 58 2792 2792 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 56 2772 2785 "utilities/misc.ml" 56 2772 2788
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/misc.ml" 56 2772 2789 "utilities/misc.ml" 56 2772 2790
+type(
+  int
+)
+"utilities/misc.ml" 56 2772 2785 "utilities/misc.ml" 56 2772 2790
+type(
+  int ref
+)
+"utilities/misc.ml" 58 2792 2796 "utilities/misc.ml" 58 2792 2806
+type(
+  unit -> string
+)
+ident(
+  def gen_symbol "utilities/misc.ml" 59 2853 2853 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 58 2792 2807 "utilities/misc.ml" 58 2792 2809
+type(
+  unit
+)
+"utilities/misc.ml" 58 2792 2812 "utilities/misc.ml" 58 2792 2816
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"utilities/misc.ml" 58 2792 2817 "utilities/misc.ml" 58 2792 2823
+type(
+  int ref
+)
+ident(
+  int_ref symbol "utilities/misc.ml" 56 2772 2776 "utilities/misc.ml" 56 2772 2782
+)
+"utilities/misc.ml" 58 2792 2812 "utilities/misc.ml" 58 2792 2823
+type(
+  unit
+)
+"utilities/misc.ml" 58 2792 2825 "utilities/misc.ml" 58 2792 2828
+type(
+  string
+)
+"utilities/misc.ml" 58 2792 2828 "utilities/misc.ml" 58 2792 2829
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/misc.ml" 58 2792 2830 "utilities/misc.ml" 58 2792 2843
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"utilities/misc.ml" 58 2792 2844 "utilities/misc.ml" 58 2792 2845
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/misc.ml" 58 2792 2845 "utilities/misc.ml" 58 2792 2851
+type(
+  int ref
+)
+ident(
+  int_ref symbol "utilities/misc.ml" 56 2772 2776 "utilities/misc.ml" 56 2772 2782
+)
+"utilities/misc.ml" 58 2792 2844 "utilities/misc.ml" 58 2792 2851
+type(
+  int
+)
+"utilities/misc.ml" 58 2792 2829 "utilities/misc.ml" 58 2792 2852
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/misc.ml" 58 2792 2825 "utilities/misc.ml" 58 2792 2852
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/misc.ml" 58 2792 2812 "utilities/misc.ml" 58 2792 2852
+type(
+  string
+)
+"utilities/misc.ml" 59 2853 2857 "utilities/misc.ml" 59 2853 2869
+type(
+  unit -> unit
+)
+ident(
+  def reset_symbol "utilities/misc.ml" 61 2904 2904 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 59 2853 2870 "utilities/misc.ml" 59 2853 2872
+type(
+  unit
+)
+"utilities/misc.ml" 59 2853 2875 "utilities/misc.ml" 59 2853 2881
+type(
+  int ref
+)
+ident(
+  int_ref symbol "utilities/misc.ml" 56 2772 2776 "utilities/misc.ml" 56 2772 2782
+)
+"utilities/misc.ml" 59 2853 2882 "utilities/misc.ml" 59 2853 2884
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/misc.ml" 59 2853 2901 "utilities/misc.ml" 59 2853 2902
+type(
+  int
+)
+"utilities/misc.ml" 59 2853 2875 "utilities/misc.ml" 59 2853 2902
+type(
+  unit
+)
+"utilities/misc.ml" 61 2904 2908 "utilities/misc.ml" 61 2904 2914
+type(
+  'a list -> 'a list
+)
+ident(
+  def unique "utilities/misc.ml" 66 3071 3071 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 61 2904 2915 "utilities/misc.ml" 61 2904 2916
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 62 2919 2921 "utilities/misc.ml" 64 3016 3069
+)
+"utilities/misc.ml" 62 2919 2925 "utilities/misc.ml" 62 2919 2928
+type(
+  ('a, unit) Hashtbl.t
+)
+ident(
+  def tbl "utilities/misc.ml" 63 2965 2967 "utilities/misc.ml" 64 3016 3069
+)
+"utilities/misc.ml" 62 2919 2931 "utilities/misc.ml" 62 2919 2945
+type(
+  ?random:bool -> int -> ('a, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"utilities/misc.ml" 62 2919 2947 "utilities/misc.ml" 62 2919 2958
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"utilities/misc.ml" 62 2919 2959 "utilities/misc.ml" 62 2919 2960
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 61 2904 2915 "utilities/misc.ml" 61 2904 2916
+)
+"utilities/misc.ml" 62 2919 2946 "utilities/misc.ml" 62 2919 2961
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/misc.ml" 62 2919 2931 "utilities/misc.ml" 62 2919 2961
+call(
+  stack
+)
+type(
+  ('a, unit) Hashtbl.t
+)
+"utilities/misc.ml" 63 2965 2967 "utilities/misc.ml" 63 2965 2976
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/misc.ml" 63 2965 2982 "utilities/misc.ml" 63 2965 2983
+type(
+  'a
+)
+ident(
+  def i "utilities/misc.ml" 63 2965 2987 "utilities/misc.ml" 63 2965 3011
+)
+"utilities/misc.ml" 63 2965 2987 "utilities/misc.ml" 63 2965 3002
+type(
+  ('a, unit) Hashtbl.t -> 'a -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"utilities/misc.ml" 63 2965 3003 "utilities/misc.ml" 63 2965 3006
+type(
+  ('a, unit) Hashtbl.t
+)
+ident(
+  int_ref tbl "utilities/misc.ml" 62 2919 2925 "utilities/misc.ml" 62 2919 2928
+)
+"utilities/misc.ml" 63 2965 3007 "utilities/misc.ml" 63 2965 3008
+type(
+  'a
+)
+ident(
+  int_ref i "utilities/misc.ml" 63 2965 2982 "utilities/misc.ml" 63 2965 2983
+)
+"utilities/misc.ml" 63 2965 3009 "utilities/misc.ml" 63 2965 3011
+type(
+  unit
+)
+"utilities/misc.ml" 63 2965 2987 "utilities/misc.ml" 63 2965 3011
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 63 2965 2977 "utilities/misc.ml" 63 2965 3012
+type(
+  'a -> unit
+)
+"utilities/misc.ml" 63 2965 3013 "utilities/misc.ml" 63 2965 3014
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 61 2904 2915 "utilities/misc.ml" 61 2904 2916
+)
+"utilities/misc.ml" 63 2965 2967 "utilities/misc.ml" 63 2965 3014
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 64 3016 3018 "utilities/misc.ml" 64 3016 3030
+type(
+  ('a -> unit -> 'a list -> 'a list) ->
+  ('a, unit) Hashtbl.t -> 'a list -> 'a list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"utilities/misc.ml" 64 3016 3036 "utilities/misc.ml" 64 3016 3039
+type(
+  'a
+)
+ident(
+  def key "utilities/misc.ml" 64 3016 3040 "utilities/misc.ml" 64 3016 3061
+)
+"utilities/misc.ml" 64 3016 3040 "utilities/misc.ml" 64 3016 3041
+type(
+  unit
+)
+"utilities/misc.ml" 64 3016 3042 "utilities/misc.ml" 64 3016 3046
+type(
+  'a list
+)
+ident(
+  def accu "utilities/misc.ml" 64 3016 3050 "utilities/misc.ml" 64 3016 3061
+)
+"utilities/misc.ml" 64 3016 3050 "utilities/misc.ml" 64 3016 3053
+type(
+  'a
+)
+ident(
+  int_ref key "utilities/misc.ml" 64 3016 3036 "utilities/misc.ml" 64 3016 3039
+)
+"utilities/misc.ml" 64 3016 3057 "utilities/misc.ml" 64 3016 3061
+type(
+  'a list
+)
+ident(
+  int_ref accu "utilities/misc.ml" 64 3016 3042 "utilities/misc.ml" 64 3016 3046
+)
+"utilities/misc.ml" 64 3016 3050 "utilities/misc.ml" 64 3016 3061
+type(
+  'a list
+)
+"utilities/misc.ml" 64 3016 3031 "utilities/misc.ml" 64 3016 3062
+type(
+  'a -> unit -> 'a list -> 'a list
+)
+"utilities/misc.ml" 64 3016 3063 "utilities/misc.ml" 64 3016 3066
+type(
+  ('a, unit) Hashtbl.t
+)
+ident(
+  int_ref tbl "utilities/misc.ml" 62 2919 2925 "utilities/misc.ml" 62 2919 2928
+)
+"utilities/misc.ml" 64 3016 3067 "utilities/misc.ml" 64 3016 3069
+type(
+  'a list
+)
+"utilities/misc.ml" 64 3016 3018 "utilities/misc.ml" 64 3016 3069
+call(
+  tail
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 63 2965 2967 "utilities/misc.ml" 64 3016 3069
+type(
+  'a list
+)
+"utilities/misc.ml" 62 2919 2921 "utilities/misc.ml" 64 3016 3069
+type(
+  'a list
+)
+"utilities/misc.ml" 66 3071 3079 "utilities/misc.ml" 66 3071 3090
+type(
+  ('a -> 'a) -> 'a list -> 'a list
+)
+ident(
+  def map_butlast "utilities/misc.ml" 66 3071 3071 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 66 3071 3091 "utilities/misc.ml" 66 3071 3092
+type(
+  'a -> 'a
+)
+ident(
+  def f "utilities/misc.ml" 66 3071 3093 "utilities/misc.ml" 70 3144 3182
+)
+"utilities/misc.ml" 66 3071 3093 "utilities/misc.ml" 66 3071 3094
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 67 3097 3099 "utilities/misc.ml" 70 3144 3182
+)
+"utilities/misc.ml" 67 3097 3105 "utilities/misc.ml" 67 3097 3106
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 66 3071 3093 "utilities/misc.ml" 66 3071 3094
+)
+"utilities/misc.ml" 68 3112 3118 "utilities/misc.ml" 68 3112 3120
+type(
+  'a list
+)
+"utilities/misc.ml" 68 3112 3124 "utilities/misc.ml" 68 3112 3126
+type(
+  'a list
+)
+"utilities/misc.ml" 69 3127 3134 "utilities/misc.ml" 69 3127 3135
+type(
+  'a
+)
+ident(
+  def a "utilities/misc.ml" 69 3127 3140 "utilities/misc.ml" 69 3127 3143
+)
+"utilities/misc.ml" 69 3127 3133 "utilities/misc.ml" 69 3127 3136
+type(
+  'a list
+)
+"utilities/misc.ml" 69 3127 3141 "utilities/misc.ml" 69 3127 3142
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 69 3127 3134 "utilities/misc.ml" 69 3127 3135
+)
+"utilities/misc.ml" 69 3127 3140 "utilities/misc.ml" 69 3127 3143
+type(
+  'a list
+)
+"utilities/misc.ml" 70 3144 3150 "utilities/misc.ml" 70 3144 3151
+type(
+  'a
+)
+ident(
+  def a "utilities/misc.ml" 70 3144 3158 "utilities/misc.ml" 70 3144 3182
+)
+"utilities/misc.ml" 70 3144 3153 "utilities/misc.ml" 70 3144 3154
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 70 3144 3158 "utilities/misc.ml" 70 3144 3182
+)
+"utilities/misc.ml" 70 3144 3150 "utilities/misc.ml" 70 3144 3154
+type(
+  'a list
+)
+"utilities/misc.ml" 70 3144 3159 "utilities/misc.ml" 70 3144 3160
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 66 3071 3091 "utilities/misc.ml" 66 3071 3092
+)
+"utilities/misc.ml" 70 3144 3161 "utilities/misc.ml" 70 3144 3162
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 70 3144 3150 "utilities/misc.ml" 70 3144 3151
+)
+"utilities/misc.ml" 70 3144 3158 "utilities/misc.ml" 70 3144 3163
+call(
+  stack
+)
+type(
+  'a
+)
+"utilities/misc.ml" 70 3144 3166 "utilities/misc.ml" 70 3144 3177
+type(
+  ('a -> 'a) -> 'a list -> 'a list
+)
+ident(
+  int_ref map_butlast "utilities/misc.ml" 66 3071 3079 "utilities/misc.ml" 66 3071 3090
+)
+"utilities/misc.ml" 70 3144 3178 "utilities/misc.ml" 70 3144 3179
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 66 3071 3091 "utilities/misc.ml" 66 3071 3092
+)
+"utilities/misc.ml" 70 3144 3180 "utilities/misc.ml" 70 3144 3181
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 70 3144 3153 "utilities/misc.ml" 70 3144 3154
+)
+"utilities/misc.ml" 70 3144 3165 "utilities/misc.ml" 70 3144 3182
+call(
+  stack
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 70 3144 3158 "utilities/misc.ml" 70 3144 3182
+type(
+  'a list
+)
+"utilities/misc.ml" 67 3097 3099 "utilities/misc.ml" 70 3144 3182
+type(
+  'a list
+)
+"utilities/misc.ml" 72 3184 3188 "utilities/misc.ml" 72 3184 3200
+type(
+  int -> ('a -> 'a) -> 'a list -> 'a list
+)
+ident(
+  def map_butnlast "utilities/misc.ml" 85 3429 3429 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 72 3184 3201 "utilities/misc.ml" 72 3184 3202
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 72 3184 3203 "utilities/misc.ml" 83 3422 3427
+)
+"utilities/misc.ml" 72 3184 3203 "utilities/misc.ml" 72 3184 3204
+type(
+  'a -> 'a
+)
+ident(
+  def f "utilities/misc.ml" 72 3184 3205 "utilities/misc.ml" 83 3422 3427
+)
+"utilities/misc.ml" 72 3184 3205 "utilities/misc.ml" 72 3184 3206
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 73 3209 3211 "utilities/misc.ml" 83 3422 3427
+)
+"utilities/misc.ml" 73 3209 3219 "utilities/misc.ml" 73 3209 3222
+type(
+  'a list -> 'a list * int
+)
+ident(
+  def aux "utilities/misc.ml" 73 3209 3211 "utilities/misc.ml" 83 3422 3427
+)
+"utilities/misc.ml" 73 3209 3223 "utilities/misc.ml" 73 3209 3224
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 73 3209 3227 "utilities/misc.ml" 80 3365 3392
+)
+"utilities/misc.ml" 73 3209 3233 "utilities/misc.ml" 73 3209 3234
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 73 3209 3223 "utilities/misc.ml" 73 3209 3224
+)
+"utilities/misc.ml" 74 3240 3246 "utilities/misc.ml" 74 3240 3248
+type(
+  'a list
+)
+"utilities/misc.ml" 74 3240 3252 "utilities/misc.ml" 74 3240 3254
+type(
+  'a list
+)
+"utilities/misc.ml" 74 3240 3256 "utilities/misc.ml" 74 3240 3257
+type(
+  int
+)
+"utilities/misc.ml" 74 3240 3252 "utilities/misc.ml" 74 3240 3257
+type(
+  'a list * int
+)
+"utilities/misc.ml" 75 3258 3264 "utilities/misc.ml" 75 3258 3265
+type(
+  'a
+)
+ident(
+  def a "utilities/misc.ml" 76 3272 3280 "utilities/misc.ml" 80 3365 3392
+)
+"utilities/misc.ml" 75 3258 3267 "utilities/misc.ml" 75 3258 3268
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 76 3272 3280 "utilities/misc.ml" 80 3365 3392
+)
+"utilities/misc.ml" 75 3258 3264 "utilities/misc.ml" 75 3258 3268
+type(
+  'a list
+)
+"utilities/misc.ml" 76 3272 3285 "utilities/misc.ml" 76 3272 3288
+type(
+  'a list
+)
+ident(
+  def res "utilities/misc.ml" 77 3304 3312 "utilities/misc.ml" 80 3365 3392
+)
+"utilities/misc.ml" 76 3272 3290 "utilities/misc.ml" 76 3272 3291
+type(
+  int
+)
+ident(
+  def k "utilities/misc.ml" 77 3304 3312 "utilities/misc.ml" 80 3365 3392
+)
+"utilities/misc.ml" 76 3272 3284 "utilities/misc.ml" 76 3272 3292
+type(
+  'a list * int
+)
+"utilities/misc.ml" 76 3272 3295 "utilities/misc.ml" 76 3272 3298
+type(
+  'a list -> 'a list * int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 73 3209 3219 "utilities/misc.ml" 73 3209 3222
+)
+"utilities/misc.ml" 76 3272 3299 "utilities/misc.ml" 76 3272 3300
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 75 3258 3267 "utilities/misc.ml" 75 3258 3268
+)
+"utilities/misc.ml" 76 3272 3295 "utilities/misc.ml" 76 3272 3300
+call(
+  stack
+)
+type(
+  'a list * int
+)
+"utilities/misc.ml" 77 3304 3315 "utilities/misc.ml" 77 3304 3316
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 76 3272 3290 "utilities/misc.ml" 76 3272 3291
+)
+"utilities/misc.ml" 77 3304 3317 "utilities/misc.ml" 77 3304 3318
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"utilities/misc.ml" 77 3304 3319 "utilities/misc.ml" 77 3304 3320
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 72 3184 3201 "utilities/misc.ml" 72 3184 3202
+)
+"utilities/misc.ml" 77 3304 3315 "utilities/misc.ml" 77 3304 3320
+type(
+  bool
+)
+"utilities/misc.ml" 78 3326 3336 "utilities/misc.ml" 78 3326 3337
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 75 3258 3264 "utilities/misc.ml" 75 3258 3265
+)
+"utilities/misc.ml" 78 3326 3339 "utilities/misc.ml" 78 3326 3342
+type(
+  'a list
+)
+ident(
+  int_ref res "utilities/misc.ml" 76 3272 3285 "utilities/misc.ml" 76 3272 3288
+)
+"utilities/misc.ml" 78 3326 3336 "utilities/misc.ml" 78 3326 3342
+type(
+  'a list
+)
+"utilities/misc.ml" 78 3326 3345 "utilities/misc.ml" 78 3326 3346
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 76 3272 3290 "utilities/misc.ml" 76 3272 3291
+)
+"utilities/misc.ml" 78 3326 3347 "utilities/misc.ml" 78 3326 3348
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 78 3326 3349 "utilities/misc.ml" 78 3326 3350
+type(
+  int
+)
+"utilities/misc.ml" 78 3326 3344 "utilities/misc.ml" 78 3326 3351
+type(
+  int
+)
+"utilities/misc.ml" 78 3326 3336 "utilities/misc.ml" 78 3326 3351
+type(
+  'a list * int
+)
+"utilities/misc.ml" 80 3365 3376 "utilities/misc.ml" 80 3365 3377
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 72 3184 3203 "utilities/misc.ml" 72 3184 3204
+)
+"utilities/misc.ml" 80 3365 3378 "utilities/misc.ml" 80 3365 3379
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 75 3258 3264 "utilities/misc.ml" 75 3258 3265
+)
+"utilities/misc.ml" 80 3365 3375 "utilities/misc.ml" 80 3365 3380
+call(
+  stack
+)
+type(
+  'a
+)
+"utilities/misc.ml" 80 3365 3382 "utilities/misc.ml" 80 3365 3385
+type(
+  'a list
+)
+ident(
+  int_ref res "utilities/misc.ml" 76 3272 3285 "utilities/misc.ml" 76 3272 3288
+)
+"utilities/misc.ml" 80 3365 3375 "utilities/misc.ml" 80 3365 3385
+type(
+  'a list
+)
+"utilities/misc.ml" 80 3365 3388 "utilities/misc.ml" 80 3365 3389
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 76 3272 3290 "utilities/misc.ml" 76 3272 3291
+)
+"utilities/misc.ml" 80 3365 3389 "utilities/misc.ml" 80 3365 3390
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 80 3365 3390 "utilities/misc.ml" 80 3365 3391
+type(
+  int
+)
+"utilities/misc.ml" 80 3365 3387 "utilities/misc.ml" 80 3365 3392
+type(
+  int
+)
+"utilities/misc.ml" 80 3365 3375 "utilities/misc.ml" 80 3365 3392
+type(
+  'a list * int
+)
+"utilities/misc.ml" 77 3304 3312 "utilities/misc.ml" 80 3365 3392
+type(
+  'a list * int
+)
+"utilities/misc.ml" 76 3272 3280 "utilities/misc.ml" 80 3365 3392
+type(
+  'a list * int
+)
+"utilities/misc.ml" 73 3209 3227 "utilities/misc.ml" 80 3365 3392
+type(
+  'a list * int
+)
+"utilities/misc.ml" 82 3398 3404 "utilities/misc.ml" 82 3398 3407
+type(
+  'a list
+)
+ident(
+  def res "utilities/misc.ml" 83 3422 3424 "utilities/misc.ml" 83 3422 3427
+)
+"utilities/misc.ml" 82 3398 3409 "utilities/misc.ml" 82 3398 3410
+type(
+  int
+)
+"utilities/misc.ml" 82 3398 3404 "utilities/misc.ml" 82 3398 3410
+type(
+  'a list * int
+)
+"utilities/misc.ml" 82 3398 3413 "utilities/misc.ml" 82 3398 3416
+type(
+  'a list -> 'a list * int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 73 3209 3219 "utilities/misc.ml" 73 3209 3222
+)
+"utilities/misc.ml" 82 3398 3417 "utilities/misc.ml" 82 3398 3418
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 72 3184 3205 "utilities/misc.ml" 72 3184 3206
+)
+"utilities/misc.ml" 82 3398 3413 "utilities/misc.ml" 82 3398 3418
+call(
+  stack
+)
+type(
+  'a list * int
+)
+"utilities/misc.ml" 83 3422 3424 "utilities/misc.ml" 83 3422 3427
+type(
+  'a list
+)
+ident(
+  int_ref res "utilities/misc.ml" 82 3398 3404 "utilities/misc.ml" 82 3398 3407
+)
+"utilities/misc.ml" 82 3398 3400 "utilities/misc.ml" 83 3422 3427
+type(
+  'a list
+)
+"utilities/misc.ml" 73 3209 3211 "utilities/misc.ml" 83 3422 3427
+type(
+  'a list
+)
+"utilities/misc.ml" 85 3429 3437 "utilities/misc.ml" 85 3429 3449
+type(
+  'a list -> 'a
+)
+ident(
+  def last_element "utilities/misc.ml" 85 3429 3429 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 85 3429 3450 "utilities/misc.ml" 85 3429 3451
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 86 3454 3456 "utilities/misc.ml" 89 3509 3537
+)
+"utilities/misc.ml" 86 3454 3462 "utilities/misc.ml" 86 3454 3463
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 85 3429 3450 "utilities/misc.ml" 85 3429 3451
+)
+"utilities/misc.ml" 87 3469 3475 "utilities/misc.ml" 87 3469 3477
+type(
+  'a list
+)
+"utilities/misc.ml" 87 3469 3488 "utilities/misc.ml" 87 3469 3493
+type(
+  bool
+)
+"utilities/misc.ml" 87 3469 3481 "utilities/misc.ml" 87 3469 3493
+type(
+  'a
+)
+"utilities/misc.ml" 88 3494 3501 "utilities/misc.ml" 88 3494 3502
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 88 3494 3507 "utilities/misc.ml" 88 3494 3508
+)
+"utilities/misc.ml" 88 3494 3500 "utilities/misc.ml" 88 3494 3503
+type(
+  'a list
+)
+"utilities/misc.ml" 88 3494 3507 "utilities/misc.ml" 88 3494 3508
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 88 3494 3501 "utilities/misc.ml" 88 3494 3502
+)
+"utilities/misc.ml" 89 3509 3515 "utilities/misc.ml" 89 3509 3516
+type(
+  'a
+)
+"utilities/misc.ml" 89 3509 3518 "utilities/misc.ml" 89 3509 3519
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 89 3509 3523 "utilities/misc.ml" 89 3509 3537
+)
+"utilities/misc.ml" 89 3509 3515 "utilities/misc.ml" 89 3509 3519
+type(
+  'a list
+)
+"utilities/misc.ml" 89 3509 3523 "utilities/misc.ml" 89 3509 3535
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref last_element "utilities/misc.ml" 85 3429 3437 "utilities/misc.ml" 85 3429 3449
+)
+"utilities/misc.ml" 89 3509 3536 "utilities/misc.ml" 89 3509 3537
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 89 3509 3518 "utilities/misc.ml" 89 3509 3519
+)
+"utilities/misc.ml" 89 3509 3523 "utilities/misc.ml" 89 3509 3537
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 86 3454 3456 "utilities/misc.ml" 89 3509 3537
+type(
+  'a
+)
+"utilities/misc.ml" 93 3627 3635 "utilities/misc.ml" 93 3627 3645
+type(
+  'a list -> 'a list * 'a
+)
+ident(
+  def split_last "utilities/misc.ml" 93 3627 3627 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 94 3657 3661 "utilities/misc.ml" 94 3657 3663
+type(
+  'a list
+)
+"utilities/misc.ml" 94 3657 3674 "utilities/misc.ml" 94 3657 3679
+type(
+  bool
+)
+"utilities/misc.ml" 94 3657 3667 "utilities/misc.ml" 94 3657 3679
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 95 3680 3685 "utilities/misc.ml" 95 3680 3686
+type(
+  'a
+)
+ident(
+  def a "utilities/misc.ml" 95 3680 3691 "utilities/misc.ml" 95 3680 3696
+)
+"utilities/misc.ml" 95 3680 3684 "utilities/misc.ml" 95 3680 3687
+type(
+  'a list
+)
+"utilities/misc.ml" 95 3680 3691 "utilities/misc.ml" 95 3680 3693
+type(
+  'a list
+)
+"utilities/misc.ml" 95 3680 3695 "utilities/misc.ml" 95 3680 3696
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 95 3680 3685 "utilities/misc.ml" 95 3680 3686
+)
+"utilities/misc.ml" 95 3680 3691 "utilities/misc.ml" 95 3680 3696
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 96 3697 3701 "utilities/misc.ml" 96 3697 3702
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 97 3709 3715 "utilities/misc.ml" 98 3742 3755
+)
+"utilities/misc.ml" 96 3697 3704 "utilities/misc.ml" 96 3697 3705
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 97 3709 3715 "utilities/misc.ml" 98 3742 3755
+)
+"utilities/misc.ml" 96 3697 3701 "utilities/misc.ml" 96 3697 3705
+type(
+  'a list
+)
+"utilities/misc.ml" 97 3709 3719 "utilities/misc.ml" 97 3709 3720
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 98 3742 3748 "utilities/misc.ml" 98 3742 3755
+)
+"utilities/misc.ml" 97 3709 3722 "utilities/misc.ml" 97 3709 3723
+type(
+  'a
+)
+ident(
+  def a "utilities/misc.ml" 98 3742 3748 "utilities/misc.ml" 98 3742 3755
+)
+"utilities/misc.ml" 97 3709 3719 "utilities/misc.ml" 97 3709 3723
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 97 3709 3726 "utilities/misc.ml" 97 3709 3736
+type(
+  'a list -> 'a list * 'a
+)
+ident(
+  int_ref split_last "utilities/misc.ml" 93 3627 3635 "utilities/misc.ml" 93 3627 3645
+)
+"utilities/misc.ml" 97 3709 3737 "utilities/misc.ml" 97 3709 3738
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 96 3697 3704 "utilities/misc.ml" 96 3697 3705
+)
+"utilities/misc.ml" 97 3709 3726 "utilities/misc.ml" 97 3709 3738
+call(
+  stack
+)
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 98 3742 3748 "utilities/misc.ml" 98 3742 3749
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 96 3697 3701 "utilities/misc.ml" 96 3697 3702
+)
+"utilities/misc.ml" 98 3742 3751 "utilities/misc.ml" 98 3742 3752
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 97 3709 3719 "utilities/misc.ml" 97 3709 3720
+)
+"utilities/misc.ml" 98 3742 3748 "utilities/misc.ml" 98 3742 3752
+type(
+  'a list
+)
+"utilities/misc.ml" 98 3742 3754 "utilities/misc.ml" 98 3742 3755
+type(
+  'a
+)
+ident(
+  int_ref a "utilities/misc.ml" 97 3709 3722 "utilities/misc.ml" 97 3709 3723
+)
+"utilities/misc.ml" 98 3742 3748 "utilities/misc.ml" 98 3742 3755
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 97 3709 3715 "utilities/misc.ml" 98 3742 3755
+type(
+  'a list * 'a
+)
+"utilities/misc.ml" 93 3627 3648 "utilities/misc.ml" 98 3742 3755
+type(
+  'a list -> 'a list * 'a
+)
+"utilities/misc.ml" 102 3853 3857 "utilities/misc.ml" 102 3853 3868
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  def split_nlast "utilities/misc.ml" 117 4150 4150 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 102 3853 3869 "utilities/misc.ml" 102 3853 3870
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 102 3853 3871 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 102 3853 3871 "utilities/misc.ml" 102 3853 3872
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 103 3875 3877 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 103 3875 3885 "utilities/misc.ml" 103 3875 3888
+type(
+  'b list -> 'b list * 'b list * int
+)
+ident(
+  def aux "utilities/misc.ml" 103 3875 3877 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 103 3875 3889 "utilities/misc.ml" 103 3875 3890
+type(
+  'b list
+)
+ident(
+  def l "utilities/misc.ml" 103 3875 3893 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 103 3875 3899 "utilities/misc.ml" 103 3875 3900
+type(
+  'b list
+)
+ident(
+  int_ref l "utilities/misc.ml" 103 3875 3889 "utilities/misc.ml" 103 3875 3890
+)
+"utilities/misc.ml" 104 3906 3912 "utilities/misc.ml" 104 3906 3914
+type(
+  'b list
+)
+"utilities/misc.ml" 104 3906 3918 "utilities/misc.ml" 104 3906 3920
+type(
+  'b list
+)
+"utilities/misc.ml" 104 3906 3922 "utilities/misc.ml" 104 3906 3924
+type(
+  'b list
+)
+"utilities/misc.ml" 104 3906 3926 "utilities/misc.ml" 104 3906 3927
+type(
+  int
+)
+"utilities/misc.ml" 104 3906 3918 "utilities/misc.ml" 104 3906 3927
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 105 3928 3934 "utilities/misc.ml" 105 3928 3935
+type(
+  'b
+)
+ident(
+  def a "utilities/misc.ml" 106 3942 3950 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 105 3928 3937 "utilities/misc.ml" 105 3928 3938
+type(
+  'b list
+)
+ident(
+  def l "utilities/misc.ml" 106 3942 3950 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 105 3928 3934 "utilities/misc.ml" 105 3928 3938
+type(
+  'b list
+)
+"utilities/misc.ml" 106 3942 3955 "utilities/misc.ml" 106 3942 3957
+type(
+  'b list
+)
+ident(
+  def l1 "utilities/misc.ml" 107 3977 3985 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 106 3942 3959 "utilities/misc.ml" 106 3942 3961
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 107 3977 3985 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 106 3942 3963 "utilities/misc.ml" 106 3942 3964
+type(
+  int
+)
+ident(
+  def k "utilities/misc.ml" 107 3977 3985 "utilities/misc.ml" 110 4041 4067
+)
+"utilities/misc.ml" 106 3942 3954 "utilities/misc.ml" 106 3942 3965
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 106 3942 3968 "utilities/misc.ml" 106 3942 3971
+type(
+  'b list -> 'b list * 'b list * int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 103 3875 3885 "utilities/misc.ml" 103 3875 3888
+)
+"utilities/misc.ml" 106 3942 3972 "utilities/misc.ml" 106 3942 3973
+type(
+  'b list
+)
+ident(
+  int_ref l "utilities/misc.ml" 105 3928 3937 "utilities/misc.ml" 105 3928 3938
+)
+"utilities/misc.ml" 106 3942 3968 "utilities/misc.ml" 106 3942 3973
+call(
+  stack
+)
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 107 3977 3988 "utilities/misc.ml" 107 3977 3989
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 106 3942 3963 "utilities/misc.ml" 106 3942 3964
+)
+"utilities/misc.ml" 107 3977 3990 "utilities/misc.ml" 107 3977 3991
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"utilities/misc.ml" 107 3977 3992 "utilities/misc.ml" 107 3977 3993
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 102 3853 3869 "utilities/misc.ml" 102 3853 3870
+)
+"utilities/misc.ml" 107 3977 3988 "utilities/misc.ml" 107 3977 3993
+type(
+  bool
+)
+"utilities/misc.ml" 108 3999 4009 "utilities/misc.ml" 108 3999 4011
+type(
+  'b list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 106 3942 3955 "utilities/misc.ml" 106 3942 3957
+)
+"utilities/misc.ml" 108 3999 4013 "utilities/misc.ml" 108 3999 4014
+type(
+  'b
+)
+ident(
+  int_ref a "utilities/misc.ml" 105 3928 3934 "utilities/misc.ml" 105 3928 3935
+)
+"utilities/misc.ml" 108 3999 4016 "utilities/misc.ml" 108 3999 4018
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 106 3942 3959 "utilities/misc.ml" 106 3942 3961
+)
+"utilities/misc.ml" 108 3999 4013 "utilities/misc.ml" 108 3999 4018
+type(
+  'b list
+)
+"utilities/misc.ml" 108 3999 4021 "utilities/misc.ml" 108 3999 4022
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 106 3942 3963 "utilities/misc.ml" 106 3942 3964
+)
+"utilities/misc.ml" 108 3999 4023 "utilities/misc.ml" 108 3999 4024
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 108 3999 4025 "utilities/misc.ml" 108 3999 4026
+type(
+  int
+)
+"utilities/misc.ml" 108 3999 4020 "utilities/misc.ml" 108 3999 4027
+type(
+  int
+)
+"utilities/misc.ml" 108 3999 4009 "utilities/misc.ml" 108 3999 4027
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 110 4041 4051 "utilities/misc.ml" 110 4041 4052
+type(
+  'b
+)
+ident(
+  int_ref a "utilities/misc.ml" 105 3928 3934 "utilities/misc.ml" 105 3928 3935
+)
+"utilities/misc.ml" 110 4041 4054 "utilities/misc.ml" 110 4041 4056
+type(
+  'b list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 106 3942 3955 "utilities/misc.ml" 106 3942 3957
+)
+"utilities/misc.ml" 110 4041 4051 "utilities/misc.ml" 110 4041 4056
+type(
+  'b list
+)
+"utilities/misc.ml" 110 4041 4058 "utilities/misc.ml" 110 4041 4060
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 106 3942 3959 "utilities/misc.ml" 106 3942 3961
+)
+"utilities/misc.ml" 110 4041 4063 "utilities/misc.ml" 110 4041 4064
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 106 3942 3963 "utilities/misc.ml" 106 3942 3964
+)
+"utilities/misc.ml" 110 4041 4064 "utilities/misc.ml" 110 4041 4065
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 110 4041 4065 "utilities/misc.ml" 110 4041 4066
+type(
+  int
+)
+"utilities/misc.ml" 110 4041 4062 "utilities/misc.ml" 110 4041 4067
+type(
+  int
+)
+"utilities/misc.ml" 110 4041 4051 "utilities/misc.ml" 110 4041 4067
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 107 3977 3985 "utilities/misc.ml" 110 4041 4067
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 106 3942 3950 "utilities/misc.ml" 110 4041 4067
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 103 3875 3893 "utilities/misc.ml" 110 4041 4067
+type(
+  'b list * 'b list * int
+)
+"utilities/misc.ml" 112 4073 4079 "utilities/misc.ml" 112 4073 4081
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 113 4100 4102 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 112 4073 4083 "utilities/misc.ml" 112 4073 4085
+type(
+  'a list
+)
+ident(
+  def l2 "utilities/misc.ml" 113 4100 4102 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 112 4073 4087 "utilities/misc.ml" 112 4073 4088
+type(
+  int
+)
+ident(
+  def k "utilities/misc.ml" 113 4100 4102 "utilities/misc.ml" 115 4135 4148
+)
+"utilities/misc.ml" 112 4073 4079 "utilities/misc.ml" 112 4073 4088
+type(
+  'a list * 'a list * int
+)
+"utilities/misc.ml" 112 4073 4091 "utilities/misc.ml" 112 4073 4094
+type(
+  'a list -> 'a list * 'a list * int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 103 3875 3885 "utilities/misc.ml" 103 3875 3888
+)
+"utilities/misc.ml" 112 4073 4095 "utilities/misc.ml" 112 4073 4096
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 102 3853 3871 "utilities/misc.ml" 102 3853 3872
+)
+"utilities/misc.ml" 112 4073 4091 "utilities/misc.ml" 112 4073 4096
+call(
+  stack
+)
+type(
+  'a list * 'a list * int
+)
+"utilities/misc.ml" 113 4100 4106 "utilities/misc.ml" 113 4100 4107
+type(
+  int
+)
+ident(
+  int_ref k "utilities/misc.ml" 112 4073 4087 "utilities/misc.ml" 112 4073 4088
+)
+"utilities/misc.ml" 113 4100 4108 "utilities/misc.ml" 113 4100 4109
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"utilities/misc.ml" 113 4100 4110 "utilities/misc.ml" 113 4100 4111
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 102 3853 3869 "utilities/misc.ml" 102 3853 3870
+)
+"utilities/misc.ml" 113 4100 4105 "utilities/misc.ml" 113 4100 4112
+type(
+  bool
+)
+"utilities/misc.ml" 114 4118 4129 "utilities/misc.ml" 114 4118 4134
+type(
+  bool
+)
+"utilities/misc.ml" 114 4118 4122 "utilities/misc.ml" 114 4118 4134
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 115 4135 4142 "utilities/misc.ml" 115 4135 4144
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 112 4073 4079 "utilities/misc.ml" 112 4073 4081
+)
+"utilities/misc.ml" 115 4135 4146 "utilities/misc.ml" 115 4135 4148
+type(
+  'a list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 112 4073 4083 "utilities/misc.ml" 112 4073 4085
+)
+"utilities/misc.ml" 115 4135 4142 "utilities/misc.ml" 115 4135 4148
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 113 4100 4102 "utilities/misc.ml" 115 4135 4148
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 112 4073 4075 "utilities/misc.ml" 115 4135 4148
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 103 3875 3877 "utilities/misc.ml" 115 4135 4148
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 120 4300 4308 "utilities/misc.ml" 120 4300 4316
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  def split_at "utilities/misc.ml" 120 4300 4300 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 120 4300 4317 "utilities/misc.ml" 120 4300 4318
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 120 4300 4319 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 120 4300 4319 "utilities/misc.ml" 120 4300 4320
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 120 4300 4323 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 120 4300 4329 "utilities/misc.ml" 120 4300 4330
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 120 4300 4317 "utilities/misc.ml" 120 4300 4318
+)
+"utilities/misc.ml" 120 4300 4332 "utilities/misc.ml" 120 4300 4333
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 120 4300 4319 "utilities/misc.ml" 120 4300 4320
+)
+"utilities/misc.ml" 120 4300 4329 "utilities/misc.ml" 120 4300 4333
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 121 4339 4343 "utilities/misc.ml" 121 4339 4344
+type(
+  int
+)
+"utilities/misc.ml" 121 4339 4346 "utilities/misc.ml" 121 4339 4347
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 121 4339 4351 "utilities/misc.ml" 121 4339 4356
+)
+"utilities/misc.ml" 121 4339 4343 "utilities/misc.ml" 121 4339 4347
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 121 4339 4351 "utilities/misc.ml" 121 4339 4353
+type(
+  'a list
+)
+"utilities/misc.ml" 121 4339 4355 "utilities/misc.ml" 121 4339 4356
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 121 4339 4346 "utilities/misc.ml" 121 4339 4347
+)
+"utilities/misc.ml" 121 4339 4351 "utilities/misc.ml" 121 4339 4356
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 122 4357 4361 "utilities/misc.ml" 122 4357 4362
+type(
+  int
+)
+"utilities/misc.ml" 122 4357 4364 "utilities/misc.ml" 122 4357 4366
+type(
+  'a list
+)
+"utilities/misc.ml" 122 4357 4361 "utilities/misc.ml" 122 4357 4366
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 122 4357 4370 "utilities/misc.ml" 122 4357 4375
+type(
+  exn -> 'a list * 'a list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 122 4357 4376 "utilities/misc.ml" 122 4357 4390
+type(
+  exn
+)
+"utilities/misc.ml" 122 4357 4370 "utilities/misc.ml" 122 4357 4390
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 123 4391 4395 "utilities/misc.ml" 123 4391 4396
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 124 4406 4412 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 123 4391 4398 "utilities/misc.ml" 123 4391 4399
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 124 4406 4412 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 123 4391 4401 "utilities/misc.ml" 123 4391 4402
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 124 4406 4412 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 123 4391 4398 "utilities/misc.ml" 123 4391 4402
+type(
+  'a list
+)
+"utilities/misc.ml" 123 4391 4395 "utilities/misc.ml" 123 4391 4402
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 124 4406 4416 "utilities/misc.ml" 124 4406 4418
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 125 4445 4453 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 124 4406 4420 "utilities/misc.ml" 124 4406 4422
+type(
+  'a list
+)
+ident(
+  def l2 "utilities/misc.ml" 125 4445 4453 "utilities/misc.ml" 125 4445 4462
+)
+"utilities/misc.ml" 124 4406 4416 "utilities/misc.ml" 124 4406 4422
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 124 4406 4425 "utilities/misc.ml" 124 4406 4433
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref split_at "utilities/misc.ml" 120 4300 4308 "utilities/misc.ml" 120 4300 4316
+)
+"utilities/misc.ml" 124 4406 4435 "utilities/misc.ml" 124 4406 4436
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 123 4391 4395 "utilities/misc.ml" 123 4391 4396
+)
+"utilities/misc.ml" 124 4406 4436 "utilities/misc.ml" 124 4406 4437
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/misc.ml" 124 4406 4437 "utilities/misc.ml" 124 4406 4438
+type(
+  int
+)
+"utilities/misc.ml" 124 4406 4434 "utilities/misc.ml" 124 4406 4439
+type(
+  int
+)
+"utilities/misc.ml" 124 4406 4440 "utilities/misc.ml" 124 4406 4441
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 123 4391 4401 "utilities/misc.ml" 123 4391 4402
+)
+"utilities/misc.ml" 124 4406 4425 "utilities/misc.ml" 124 4406 4441
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 125 4445 4453 "utilities/misc.ml" 125 4445 4454
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 123 4391 4398 "utilities/misc.ml" 123 4391 4399
+)
+"utilities/misc.ml" 125 4445 4456 "utilities/misc.ml" 125 4445 4458
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 124 4406 4416 "utilities/misc.ml" 124 4406 4418
+)
+"utilities/misc.ml" 125 4445 4453 "utilities/misc.ml" 125 4445 4458
+type(
+  'a list
+)
+"utilities/misc.ml" 125 4445 4460 "utilities/misc.ml" 125 4445 4462
+type(
+  'a list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 124 4406 4420 "utilities/misc.ml" 124 4406 4422
+)
+"utilities/misc.ml" 125 4445 4453 "utilities/misc.ml" 125 4445 4462
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 124 4406 4412 "utilities/misc.ml" 125 4445 4462
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 120 4300 4323 "utilities/misc.ml" 125 4445 4462
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 127 4464 4468 "utilities/misc.ml" 127 4464 4472
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  def take "utilities/misc.ml" 131 4515 4515 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 127 4464 4473 "utilities/misc.ml" 127 4464 4474
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 127 4464 4475 "utilities/misc.ml" 129 4510 4513
+)
+"utilities/misc.ml" 127 4464 4475 "utilities/misc.ml" 127 4464 4476
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 128 4479 4481 "utilities/misc.ml" 129 4510 4513
+)
+"utilities/misc.ml" 128 4479 4486 "utilities/misc.ml" 128 4479 4487
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 129 4510 4512 "utilities/misc.ml" 129 4510 4513
+)
+"utilities/misc.ml" 128 4479 4489 "utilities/misc.ml" 128 4479 4490
+type(
+  'a list
+)
+"utilities/misc.ml" 128 4479 4485 "utilities/misc.ml" 128 4479 4491
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 128 4479 4494 "utilities/misc.ml" 128 4479 4502
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref split_at "utilities/misc.ml" 120 4300 4308 "utilities/misc.ml" 120 4300 4316
+)
+"utilities/misc.ml" 128 4479 4503 "utilities/misc.ml" 128 4479 4504
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 127 4464 4473 "utilities/misc.ml" 127 4464 4474
+)
+"utilities/misc.ml" 128 4479 4505 "utilities/misc.ml" 128 4479 4506
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 127 4464 4475 "utilities/misc.ml" 127 4464 4476
+)
+"utilities/misc.ml" 128 4479 4494 "utilities/misc.ml" 128 4479 4506
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 129 4510 4512 "utilities/misc.ml" 129 4510 4513
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 128 4479 4486 "utilities/misc.ml" 128 4479 4487
+)
+"utilities/misc.ml" 128 4479 4481 "utilities/misc.ml" 129 4510 4513
+type(
+  'a list
+)
+"utilities/misc.ml" 131 4515 4519 "utilities/misc.ml" 131 4515 4523
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  def drop "utilities/misc.ml" 135 4566 4566 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 131 4515 4524 "utilities/misc.ml" 131 4515 4525
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 131 4515 4526 "utilities/misc.ml" 133 4561 4564
+)
+"utilities/misc.ml" 131 4515 4526 "utilities/misc.ml" 131 4515 4527
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 132 4530 4532 "utilities/misc.ml" 133 4561 4564
+)
+"utilities/misc.ml" 132 4530 4537 "utilities/misc.ml" 132 4530 4538
+type(
+  'a list
+)
+"utilities/misc.ml" 132 4530 4540 "utilities/misc.ml" 132 4530 4541
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 133 4561 4563 "utilities/misc.ml" 133 4561 4564
+)
+"utilities/misc.ml" 132 4530 4536 "utilities/misc.ml" 132 4530 4542
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 132 4530 4545 "utilities/misc.ml" 132 4530 4553
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref split_at "utilities/misc.ml" 120 4300 4308 "utilities/misc.ml" 120 4300 4316
+)
+"utilities/misc.ml" 132 4530 4554 "utilities/misc.ml" 132 4530 4555
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 131 4515 4524 "utilities/misc.ml" 131 4515 4525
+)
+"utilities/misc.ml" 132 4530 4556 "utilities/misc.ml" 132 4530 4557
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 131 4515 4526 "utilities/misc.ml" 131 4515 4527
+)
+"utilities/misc.ml" 132 4530 4545 "utilities/misc.ml" 132 4530 4557
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"utilities/misc.ml" 133 4561 4563 "utilities/misc.ml" 133 4561 4564
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 132 4530 4540 "utilities/misc.ml" 132 4530 4541
+)
+"utilities/misc.ml" 132 4530 4532 "utilities/misc.ml" 133 4561 4564
+type(
+  'a list
+)
+"utilities/misc.ml" 135 4566 4574 "utilities/misc.ml" 135 4566 4585
+type(
+  int -> 'a list -> 'a
+)
+ident(
+  def nth_of_list "utilities/misc.ml" 135 4566 4566 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 135 4566 4586 "utilities/misc.ml" 135 4566 4587
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 135 4566 4588 "utilities/misc.ml" 138 4660 4689
+)
+"utilities/misc.ml" 135 4566 4588 "utilities/misc.ml" 135 4566 4589
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 135 4566 4592 "utilities/misc.ml" 138 4660 4689
+)
+"utilities/misc.ml" 135 4566 4598 "utilities/misc.ml" 135 4566 4599
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 135 4566 4586 "utilities/misc.ml" 135 4566 4587
+)
+"utilities/misc.ml" 135 4566 4601 "utilities/misc.ml" 135 4566 4602
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 135 4566 4588 "utilities/misc.ml" 135 4566 4589
+)
+"utilities/misc.ml" 135 4566 4598 "utilities/misc.ml" 135 4566 4602
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 136 4608 4612 "utilities/misc.ml" 136 4608 4613
+type(
+  int
+)
+"utilities/misc.ml" 136 4608 4615 "utilities/misc.ml" 136 4608 4616
+type(
+  'a
+)
+ident(
+  def h "utilities/misc.ml" 136 4608 4623 "utilities/misc.ml" 136 4608 4624
+)
+"utilities/misc.ml" 136 4608 4618 "utilities/misc.ml" 136 4608 4619
+type(
+  'a list
+)
+"utilities/misc.ml" 136 4608 4615 "utilities/misc.ml" 136 4608 4619
+type(
+  'a list
+)
+"utilities/misc.ml" 136 4608 4612 "utilities/misc.ml" 136 4608 4619
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 136 4608 4623 "utilities/misc.ml" 136 4608 4624
+type(
+  'a
+)
+ident(
+  int_ref h "utilities/misc.ml" 136 4608 4615 "utilities/misc.ml" 136 4608 4616
+)
+"utilities/misc.ml" 137 4625 4629 "utilities/misc.ml" 137 4625 4630
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 137 4625 4640 "utilities/misc.ml" 137 4625 4659
+)
+"utilities/misc.ml" 137 4625 4632 "utilities/misc.ml" 137 4625 4633
+type(
+  'a
+)
+"utilities/misc.ml" 137 4625 4635 "utilities/misc.ml" 137 4625 4636
+type(
+  'a list
+)
+ident(
+  def t "utilities/misc.ml" 137 4625 4640 "utilities/misc.ml" 137 4625 4659
+)
+"utilities/misc.ml" 137 4625 4632 "utilities/misc.ml" 137 4625 4636
+type(
+  'a list
+)
+"utilities/misc.ml" 137 4625 4629 "utilities/misc.ml" 137 4625 4636
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 137 4625 4640 "utilities/misc.ml" 137 4625 4651
+type(
+  int -> 'a list -> 'a
+)
+ident(
+  int_ref nth_of_list "utilities/misc.ml" 135 4566 4574 "utilities/misc.ml" 135 4566 4585
+)
+"utilities/misc.ml" 137 4625 4653 "utilities/misc.ml" 137 4625 4654
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 137 4625 4629 "utilities/misc.ml" 137 4625 4630
+)
+"utilities/misc.ml" 137 4625 4654 "utilities/misc.ml" 137 4625 4655
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/misc.ml" 137 4625 4655 "utilities/misc.ml" 137 4625 4656
+type(
+  int
+)
+"utilities/misc.ml" 137 4625 4652 "utilities/misc.ml" 137 4625 4657
+type(
+  int
+)
+"utilities/misc.ml" 137 4625 4658 "utilities/misc.ml" 137 4625 4659
+type(
+  'a list
+)
+ident(
+  int_ref t "utilities/misc.ml" 137 4625 4635 "utilities/misc.ml" 137 4625 4636
+)
+"utilities/misc.ml" 137 4625 4640 "utilities/misc.ml" 137 4625 4659
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 138 4660 4664 "utilities/misc.ml" 138 4660 4665
+type(
+  int * 'a list
+)
+"utilities/misc.ml" 138 4660 4669 "utilities/misc.ml" 138 4660 4674
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 138 4660 4675 "utilities/misc.ml" 138 4660 4689
+type(
+  exn
+)
+"utilities/misc.ml" 138 4660 4669 "utilities/misc.ml" 138 4660 4689
+type(
+  'a
+)
+"utilities/misc.ml" 135 4566 4592 "utilities/misc.ml" 138 4660 4689
+type(
+  'a
+)
+"utilities/misc.ml" 141 4692 4696 "utilities/misc.ml" 141 4692 4702
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def remove "utilities/misc.ml" 144 4744 4744 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 141 4692 4703 "utilities/misc.ml" 141 4692 4704
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 141 4692 4705 "utilities/misc.ml" 142 4709 4742
+)
+"utilities/misc.ml" 141 4692 4705 "utilities/misc.ml" 141 4692 4706
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 142 4709 4711 "utilities/misc.ml" 142 4709 4742
+)
+"utilities/misc.ml" 142 4709 4711 "utilities/misc.ml" 142 4709 4722
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"utilities/misc.ml" 142 4709 4728 "utilities/misc.ml" 142 4709 4729
+type(
+  'a
+)
+ident(
+  def y "utilities/misc.ml" 142 4709 4733 "utilities/misc.ml" 142 4709 4739
+)
+"utilities/misc.ml" 142 4709 4733 "utilities/misc.ml" 142 4709 4734
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 141 4692 4703 "utilities/misc.ml" 141 4692 4704
+)
+"utilities/misc.ml" 142 4709 4735 "utilities/misc.ml" 142 4709 4737
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"utilities/misc.ml" 142 4709 4738 "utilities/misc.ml" 142 4709 4739
+type(
+  'a
+)
+ident(
+  int_ref y "utilities/misc.ml" 142 4709 4728 "utilities/misc.ml" 142 4709 4729
+)
+"utilities/misc.ml" 142 4709 4733 "utilities/misc.ml" 142 4709 4739
+type(
+  bool
+)
+"utilities/misc.ml" 142 4709 4723 "utilities/misc.ml" 142 4709 4740
+type(
+  'a -> bool
+)
+"utilities/misc.ml" 142 4709 4741 "utilities/misc.ml" 142 4709 4742
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 141 4692 4705 "utilities/misc.ml" 141 4692 4706
+)
+"utilities/misc.ml" 142 4709 4711 "utilities/misc.ml" 142 4709 4742
+call(
+  tail
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 144 4744 4748 "utilities/misc.ml" 144 4744 4760
+type(
+  ('a -> 'b -> int) -> 'a list -> 'b list -> int
+)
+ident(
+  def list_compare "utilities/misc.ml" 154 5021 5021 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 144 4744 4761 "utilities/misc.ml" 144 4744 4762
+type(
+  'a -> 'b -> int
+)
+ident(
+  def c "utilities/misc.ml" 144 4744 4763 "utilities/misc.ml" 152 5005 5019
+)
+"utilities/misc.ml" 144 4744 4763 "utilities/misc.ml" 144 4744 4765
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 144 4744 4766 "utilities/misc.ml" 152 5005 5019
+)
+"utilities/misc.ml" 144 4744 4766 "utilities/misc.ml" 144 4744 4768
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 145 4771 4773 "utilities/misc.ml" 152 5005 5019
+)
+"utilities/misc.ml" 145 4771 4781 "utilities/misc.ml" 145 4771 4784
+type(
+  'a list -> 'b list -> int
+)
+ident(
+  def aux "utilities/misc.ml" 145 4771 4773 "utilities/misc.ml" 152 5005 5019
+)
+"utilities/misc.ml" 145 4771 4785 "utilities/misc.ml" 145 4771 4787
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 145 4771 4788 "utilities/misc.ml" 151 4976 5004
+)
+"utilities/misc.ml" 145 4771 4788 "utilities/misc.ml" 145 4771 4790
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 145 4771 4793 "utilities/misc.ml" 151 4976 5004
+)
+"utilities/misc.ml" 145 4771 4800 "utilities/misc.ml" 145 4771 4802
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 145 4771 4785 "utilities/misc.ml" 145 4771 4787
+)
+"utilities/misc.ml" 145 4771 4804 "utilities/misc.ml" 145 4771 4806
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 145 4771 4788 "utilities/misc.ml" 145 4771 4790
+)
+"utilities/misc.ml" 145 4771 4799 "utilities/misc.ml" 145 4771 4807
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 146 4813 4820 "utilities/misc.ml" 146 4813 4822
+type(
+  'a
+)
+ident(
+  def h1 "utilities/misc.ml" 147 4839 4847 "utilities/misc.ml" 148 4871 4919
+)
+"utilities/misc.ml" 146 4813 4824 "utilities/misc.ml" 146 4813 4826
+type(
+  'a list
+)
+ident(
+  def t1 "utilities/misc.ml" 147 4839 4847 "utilities/misc.ml" 148 4871 4919
+)
+"utilities/misc.ml" 146 4813 4820 "utilities/misc.ml" 146 4813 4826
+type(
+  'a list
+)
+"utilities/misc.ml" 146 4813 4828 "utilities/misc.ml" 146 4813 4830
+type(
+  'b
+)
+ident(
+  def h2 "utilities/misc.ml" 147 4839 4847 "utilities/misc.ml" 148 4871 4919
+)
+"utilities/misc.ml" 146 4813 4832 "utilities/misc.ml" 146 4813 4834
+type(
+  'b list
+)
+ident(
+  def t2 "utilities/misc.ml" 147 4839 4847 "utilities/misc.ml" 148 4871 4919
+)
+"utilities/misc.ml" 146 4813 4828 "utilities/misc.ml" 146 4813 4834
+type(
+  'b list
+)
+"utilities/misc.ml" 146 4813 4819 "utilities/misc.ml" 146 4813 4835
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 147 4839 4851 "utilities/misc.ml" 147 4839 4857
+type(
+  int
+)
+ident(
+  def result "utilities/misc.ml" 148 4871 4879 "utilities/misc.ml" 148 4871 4919
+)
+"utilities/misc.ml" 147 4839 4860 "utilities/misc.ml" 147 4839 4861
+type(
+  'a -> 'b -> int
+)
+ident(
+  int_ref c "utilities/misc.ml" 144 4744 4761 "utilities/misc.ml" 144 4744 4762
+)
+"utilities/misc.ml" 147 4839 4862 "utilities/misc.ml" 147 4839 4864
+type(
+  'a
+)
+ident(
+  int_ref h1 "utilities/misc.ml" 146 4813 4820 "utilities/misc.ml" 146 4813 4822
+)
+"utilities/misc.ml" 147 4839 4865 "utilities/misc.ml" 147 4839 4867
+type(
+  'b
+)
+ident(
+  int_ref h2 "utilities/misc.ml" 146 4813 4828 "utilities/misc.ml" 146 4813 4830
+)
+"utilities/misc.ml" 147 4839 4860 "utilities/misc.ml" 147 4839 4867
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/misc.ml" 148 4871 4882 "utilities/misc.ml" 148 4871 4888
+type(
+  int
+)
+ident(
+  int_ref result "utilities/misc.ml" 147 4839 4851 "utilities/misc.ml" 147 4839 4857
+)
+"utilities/misc.ml" 148 4871 4889 "utilities/misc.ml" 148 4871 4890
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/misc.ml" 148 4871 4891 "utilities/misc.ml" 148 4871 4892
+type(
+  int
+)
+"utilities/misc.ml" 148 4871 4882 "utilities/misc.ml" 148 4871 4892
+type(
+  bool
+)
+"utilities/misc.ml" 148 4871 4898 "utilities/misc.ml" 148 4871 4901
+type(
+  'a list -> 'b list -> int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 145 4771 4781 "utilities/misc.ml" 145 4771 4784
+)
+"utilities/misc.ml" 148 4871 4902 "utilities/misc.ml" 148 4871 4904
+type(
+  'a list
+)
+ident(
+  int_ref t1 "utilities/misc.ml" 146 4813 4824 "utilities/misc.ml" 146 4813 4826
+)
+"utilities/misc.ml" 148 4871 4905 "utilities/misc.ml" 148 4871 4907
+type(
+  'b list
+)
+ident(
+  int_ref t2 "utilities/misc.ml" 146 4813 4832 "utilities/misc.ml" 146 4813 4834
+)
+"utilities/misc.ml" 148 4871 4898 "utilities/misc.ml" 148 4871 4907
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/misc.ml" 148 4871 4913 "utilities/misc.ml" 148 4871 4919
+type(
+  int
+)
+ident(
+  int_ref result "utilities/misc.ml" 147 4839 4851 "utilities/misc.ml" 147 4839 4857
+)
+"utilities/misc.ml" 148 4871 4879 "utilities/misc.ml" 148 4871 4919
+type(
+  int
+)
+"utilities/misc.ml" 147 4839 4847 "utilities/misc.ml" 148 4871 4919
+type(
+  int
+)
+"utilities/misc.ml" 149 4920 4927 "utilities/misc.ml" 149 4920 4929
+type(
+  'a list
+)
+"utilities/misc.ml" 149 4920 4935 "utilities/misc.ml" 149 4920 4937
+type(
+  'b list
+)
+"utilities/misc.ml" 149 4920 4926 "utilities/misc.ml" 149 4920 4942
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 149 4920 4946 "utilities/misc.ml" 149 4920 4947
+type(
+  int
+)
+"utilities/misc.ml" 150 4948 4955 "utilities/misc.ml" 150 4948 4956
+type(
+  'a list
+)
+"utilities/misc.ml" 150 4948 4963 "utilities/misc.ml" 150 4948 4965
+type(
+  'b list
+)
+"utilities/misc.ml" 150 4948 4954 "utilities/misc.ml" 150 4948 4970
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 150 4948 4974 "utilities/misc.ml" 150 4948 4975
+type(
+  int
+)
+"utilities/misc.ml" 151 4976 4983 "utilities/misc.ml" 151 4976 4985
+type(
+  'a list
+)
+"utilities/misc.ml" 151 4976 4991 "utilities/misc.ml" 151 4976 4992
+type(
+  'b list
+)
+"utilities/misc.ml" 151 4976 4982 "utilities/misc.ml" 151 4976 4998
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 151 4976 5002 "utilities/misc.ml" 151 4976 5004
+type(
+  int
+)
+"utilities/misc.ml" 145 4771 4793 "utilities/misc.ml" 151 4976 5004
+type(
+  int
+)
+"utilities/misc.ml" 152 5005 5010 "utilities/misc.ml" 152 5005 5013
+type(
+  'a list -> 'b list -> int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 145 4771 4781 "utilities/misc.ml" 145 4771 4784
+)
+"utilities/misc.ml" 152 5005 5014 "utilities/misc.ml" 152 5005 5016
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 144 4744 4763 "utilities/misc.ml" 144 4744 4765
+)
+"utilities/misc.ml" 152 5005 5017 "utilities/misc.ml" 152 5005 5019
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 144 4744 4766 "utilities/misc.ml" 144 4744 4768
+)
+"utilities/misc.ml" 152 5005 5010 "utilities/misc.ml" 152 5005 5019
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/misc.ml" 145 4771 4773 "utilities/misc.ml" 152 5005 5019
+type(
+  int
+)
+"utilities/misc.ml" 154 5021 5025 "utilities/misc.ml" 154 5021 5039
+type(
+  ('a -> 'b -> int) -> 'a option -> 'b option -> int
+)
+ident(
+  def option_compare "utilities/misc.ml" 160 5160 5160 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 154 5021 5040 "utilities/misc.ml" 154 5021 5041
+type(
+  'a -> 'b -> int
+)
+ident(
+  def f "utilities/misc.ml" 154 5021 5042 "utilities/misc.ml" 158 5142 5158
+)
+"utilities/misc.ml" 154 5021 5042 "utilities/misc.ml" 154 5021 5045
+type(
+  'a option
+)
+ident(
+  def ox1 "utilities/misc.ml" 154 5021 5046 "utilities/misc.ml" 158 5142 5158
+)
+"utilities/misc.ml" 154 5021 5046 "utilities/misc.ml" 154 5021 5049
+type(
+  'b option
+)
+ident(
+  def ox2 "utilities/misc.ml" 154 5021 5052 "utilities/misc.ml" 158 5142 5158
+)
+"utilities/misc.ml" 154 5021 5058 "utilities/misc.ml" 154 5021 5061
+type(
+  'a option
+)
+ident(
+  int_ref ox1 "utilities/misc.ml" 154 5021 5042 "utilities/misc.ml" 154 5021 5045
+)
+"utilities/misc.ml" 154 5021 5063 "utilities/misc.ml" 154 5021 5066
+type(
+  'b option
+)
+ident(
+  int_ref ox2 "utilities/misc.ml" 154 5021 5046 "utilities/misc.ml" 154 5021 5049
+)
+"utilities/misc.ml" 154 5021 5058 "utilities/misc.ml" 154 5021 5066
+type(
+  'a option * 'b option
+)
+"utilities/misc.ml" 155 5072 5076 "utilities/misc.ml" 155 5072 5080
+type(
+  'a option
+)
+"utilities/misc.ml" 155 5072 5082 "utilities/misc.ml" 155 5072 5086
+type(
+  'b option
+)
+"utilities/misc.ml" 155 5072 5076 "utilities/misc.ml" 155 5072 5086
+type(
+  'a option * 'b option
+)
+"utilities/misc.ml" 155 5072 5090 "utilities/misc.ml" 155 5072 5091
+type(
+  int
+)
+"utilities/misc.ml" 156 5092 5101 "utilities/misc.ml" 156 5092 5103
+type(
+  'a
+)
+ident(
+  def x1 "utilities/misc.ml" 156 5092 5116 "utilities/misc.ml" 156 5092 5123
+)
+"utilities/misc.ml" 156 5092 5096 "utilities/misc.ml" 156 5092 5103
+type(
+  'a option
+)
+"utilities/misc.ml" 156 5092 5110 "utilities/misc.ml" 156 5092 5112
+type(
+  'b
+)
+ident(
+  def x2 "utilities/misc.ml" 156 5092 5116 "utilities/misc.ml" 156 5092 5123
+)
+"utilities/misc.ml" 156 5092 5105 "utilities/misc.ml" 156 5092 5112
+type(
+  'b option
+)
+"utilities/misc.ml" 156 5092 5096 "utilities/misc.ml" 156 5092 5112
+type(
+  'a option * 'b option
+)
+"utilities/misc.ml" 156 5092 5116 "utilities/misc.ml" 156 5092 5117
+type(
+  'a -> 'b -> int
+)
+ident(
+  int_ref f "utilities/misc.ml" 154 5021 5040 "utilities/misc.ml" 154 5021 5041
+)
+"utilities/misc.ml" 156 5092 5118 "utilities/misc.ml" 156 5092 5120
+type(
+  'a
+)
+ident(
+  int_ref x1 "utilities/misc.ml" 156 5092 5101 "utilities/misc.ml" 156 5092 5103
+)
+"utilities/misc.ml" 156 5092 5121 "utilities/misc.ml" 156 5092 5123
+type(
+  'b
+)
+ident(
+  int_ref x2 "utilities/misc.ml" 156 5092 5110 "utilities/misc.ml" 156 5092 5112
+)
+"utilities/misc.ml" 156 5092 5116 "utilities/misc.ml" 156 5092 5123
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/misc.ml" 157 5124 5128 "utilities/misc.ml" 157 5124 5132
+type(
+  'a option
+)
+"utilities/misc.ml" 157 5124 5134 "utilities/misc.ml" 157 5124 5135
+type(
+  'b option
+)
+"utilities/misc.ml" 157 5124 5128 "utilities/misc.ml" 157 5124 5135
+type(
+  'a option * 'b option
+)
+"utilities/misc.ml" 157 5124 5139 "utilities/misc.ml" 157 5124 5141
+type(
+  int
+)
+"utilities/misc.ml" 158 5142 5146 "utilities/misc.ml" 158 5142 5147
+type(
+  'a option
+)
+"utilities/misc.ml" 158 5142 5149 "utilities/misc.ml" 158 5142 5153
+type(
+  'b option
+)
+"utilities/misc.ml" 158 5142 5146 "utilities/misc.ml" 158 5142 5153
+type(
+  'a option * 'b option
+)
+"utilities/misc.ml" 158 5142 5157 "utilities/misc.ml" 158 5142 5158
+type(
+  int
+)
+"utilities/misc.ml" 154 5021 5052 "utilities/misc.ml" 158 5142 5158
+type(
+  int
+)
+"utilities/misc.ml" 160 5160 5164 "utilities/misc.ml" 160 5160 5172
+type(
+  'a list -> bool
+)
+ident(
+  def is_empty "utilities/misc.ml" 165 5281 5281 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 161 5184 5188 "utilities/misc.ml" 161 5184 5190
+type(
+  'a list
+)
+"utilities/misc.ml" 161 5184 5194 "utilities/misc.ml" 161 5184 5198
+type(
+  bool
+)
+"utilities/misc.ml" 162 5199 5203 "utilities/misc.ml" 162 5199 5204
+type(
+  'a list
+)
+"utilities/misc.ml" 162 5199 5208 "utilities/misc.ml" 162 5199 5213
+type(
+  bool
+)
+"utilities/misc.ml" 160 5160 5175 "utilities/misc.ml" 162 5199 5213
+type(
+  'a list -> bool
+)
+"utilities/misc.ml" 165 5281 5285 "utilities/misc.ml" 165 5281 5296
+type(
+  'a -> int -> 'a list
+)
+ident(
+  def repeat_list "utilities/misc.ml" 173 5452 5452 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 165 5281 5297 "utilities/misc.ml" 165 5281 5298
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 165 5281 5299 "utilities/misc.ml" 170 5373 5380
+)
+"utilities/misc.ml" 165 5281 5299 "utilities/misc.ml" 165 5281 5300
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 166 5303 5305 "utilities/misc.ml" 170 5373 5380
+)
+"utilities/misc.ml" 166 5303 5313 "utilities/misc.ml" 166 5303 5316
+type(
+  int -> 'a list
+)
+ident(
+  def aux "utilities/misc.ml" 166 5303 5305 "utilities/misc.ml" 170 5373 5380
+)
+"utilities/misc.ml" 167 5328 5334 "utilities/misc.ml" 167 5328 5335
+type(
+  int
+)
+"utilities/misc.ml" 167 5328 5339 "utilities/misc.ml" 167 5328 5341
+type(
+  'a list
+)
+"utilities/misc.ml" 168 5342 5348 "utilities/misc.ml" 168 5342 5349
+type(
+  int
+)
+ident(
+  def n "utilities/misc.ml" 168 5342 5353 "utilities/misc.ml" 168 5342 5367
+)
+"utilities/misc.ml" 168 5342 5353 "utilities/misc.ml" 168 5342 5354
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 165 5281 5297 "utilities/misc.ml" 165 5281 5298
+)
+"utilities/misc.ml" 168 5342 5357 "utilities/misc.ml" 168 5342 5360
+type(
+  int -> 'a list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 166 5303 5313 "utilities/misc.ml" 166 5303 5316
+)
+"utilities/misc.ml" 168 5342 5362 "utilities/misc.ml" 168 5342 5363
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 168 5342 5348 "utilities/misc.ml" 168 5342 5349
+)
+"utilities/misc.ml" 168 5342 5363 "utilities/misc.ml" 168 5342 5364
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utilities/misc.ml" 168 5342 5364 "utilities/misc.ml" 168 5342 5365
+type(
+  int
+)
+"utilities/misc.ml" 168 5342 5361 "utilities/misc.ml" 168 5342 5366
+type(
+  int
+)
+"utilities/misc.ml" 168 5342 5356 "utilities/misc.ml" 168 5342 5367
+call(
+  stack
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 168 5342 5353 "utilities/misc.ml" 168 5342 5367
+type(
+  'a list
+)
+"utilities/misc.ml" 166 5303 5319 "utilities/misc.ml" 168 5342 5367
+type(
+  int -> 'a list
+)
+"utilities/misc.ml" 170 5373 5375 "utilities/misc.ml" 170 5373 5378
+type(
+  int -> 'a list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 166 5303 5313 "utilities/misc.ml" 166 5303 5316
+)
+"utilities/misc.ml" 170 5373 5379 "utilities/misc.ml" 170 5373 5380
+type(
+  int
+)
+ident(
+  int_ref n "utilities/misc.ml" 165 5281 5299 "utilities/misc.ml" 165 5281 5300
+)
+"utilities/misc.ml" 170 5373 5375 "utilities/misc.ml" 170 5373 5380
+call(
+  tail
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 166 5303 5305 "utilities/misc.ml" 170 5373 5380
+type(
+  'a list
+)
+"utilities/misc.ml" 173 5452 5460 "utilities/misc.ml" 173 5452 5470
+type(
+  'a -> ('b * 'a) list -> bool
+)
+ident(
+  def memd_assoc "utilities/misc.ml" 173 5452 5452 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 173 5452 5471 "utilities/misc.ml" 173 5452 5476
+type(
+  'a
+)
+ident(
+  def value "utilities/misc.ml" 173 5452 5479 "utilities/misc.ml" 175 5504 5555
+)
+"utilities/misc.ml" 174 5488 5492 "utilities/misc.ml" 174 5488 5494
+type(
+  ('b * 'a) list
+)
+"utilities/misc.ml" 174 5488 5498 "utilities/misc.ml" 174 5488 5503
+type(
+  bool
+)
+"utilities/misc.ml" 175 5504 5509 "utilities/misc.ml" 175 5504 5510
+type(
+  'b
+)
+"utilities/misc.ml" 175 5504 5511 "utilities/misc.ml" 175 5504 5512
+type(
+  'a
+)
+ident(
+  def d "utilities/misc.ml" 175 5504 5520 "utilities/misc.ml" 175 5504 5555
+)
+"utilities/misc.ml" 175 5504 5508 "utilities/misc.ml" 175 5504 5513
+type(
+  'b * 'a
+)
+"utilities/misc.ml" 175 5504 5515 "utilities/misc.ml" 175 5504 5516
+type(
+  ('b * 'a) list
+)
+ident(
+  def l "utilities/misc.ml" 175 5504 5520 "utilities/misc.ml" 175 5504 5555
+)
+"utilities/misc.ml" 175 5504 5508 "utilities/misc.ml" 175 5504 5516
+type(
+  ('b * 'a) list
+)
+"utilities/misc.ml" 175 5504 5521 "utilities/misc.ml" 175 5504 5522
+type(
+  'a
+)
+ident(
+  int_ref d "utilities/misc.ml" 175 5504 5511 "utilities/misc.ml" 175 5504 5512
+)
+"utilities/misc.ml" 175 5504 5523 "utilities/misc.ml" 175 5504 5524
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/misc.ml" 175 5504 5525 "utilities/misc.ml" 175 5504 5530
+type(
+  'a
+)
+ident(
+  int_ref value "utilities/misc.ml" 173 5452 5471 "utilities/misc.ml" 173 5452 5476
+)
+"utilities/misc.ml" 175 5504 5520 "utilities/misc.ml" 175 5504 5531
+type(
+  bool
+)
+"utilities/misc.ml" 175 5504 5532 "utilities/misc.ml" 175 5504 5534
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"utilities/misc.ml" 175 5504 5536 "utilities/misc.ml" 175 5504 5546
+type(
+  'a -> ('b * 'a) list -> bool
+)
+ident(
+  int_ref memd_assoc "utilities/misc.ml" 173 5452 5460 "utilities/misc.ml" 173 5452 5470
+)
+"utilities/misc.ml" 175 5504 5547 "utilities/misc.ml" 175 5504 5552
+type(
+  'a
+)
+ident(
+  int_ref value "utilities/misc.ml" 173 5452 5471 "utilities/misc.ml" 173 5452 5476
+)
+"utilities/misc.ml" 175 5504 5553 "utilities/misc.ml" 175 5504 5554
+type(
+  ('b * 'a) list
+)
+ident(
+  int_ref l "utilities/misc.ml" 175 5504 5515 "utilities/misc.ml" 175 5504 5516
+)
+"utilities/misc.ml" 175 5504 5535 "utilities/misc.ml" 175 5504 5555
+call(
+  tail
+)
+type(
+  bool
+)
+"utilities/misc.ml" 175 5504 5520 "utilities/misc.ml" 175 5504 5555
+type(
+  bool
+)
+"utilities/misc.ml" 173 5452 5479 "utilities/misc.ml" 175 5504 5555
+type(
+  ('b * 'a) list -> bool
+)
+"utilities/misc.ml" 178 5631 5639 "utilities/misc.ml" 178 5631 5645
+type(
+  'a -> ('b * 'a) list -> 'b
+)
+ident(
+  def assocd "utilities/misc.ml" 178 5631 5631 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 178 5631 5646 "utilities/misc.ml" 178 5631 5651
+type(
+  'a
+)
+ident(
+  def value "utilities/misc.ml" 178 5631 5654 "utilities/misc.ml" 184 5750 5772
+)
+"utilities/misc.ml" 179 5663 5667 "utilities/misc.ml" 179 5663 5669
+type(
+  ('b * 'a) list
+)
+"utilities/misc.ml" 179 5663 5673 "utilities/misc.ml" 179 5663 5678
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 179 5663 5679 "utilities/misc.ml" 179 5663 5688
+type(
+  exn
+)
+"utilities/misc.ml" 179 5663 5673 "utilities/misc.ml" 179 5663 5688
+type(
+  'b
+)
+"utilities/misc.ml" 180 5689 5694 "utilities/misc.ml" 180 5689 5695
+type(
+  'b
+)
+ident(
+  def k "utilities/misc.ml" 181 5705 5711 "utilities/misc.ml" 184 5750 5772
+)
+"utilities/misc.ml" 180 5689 5696 "utilities/misc.ml" 180 5689 5697
+type(
+  'a
+)
+ident(
+  def d "utilities/misc.ml" 181 5705 5711 "utilities/misc.ml" 184 5750 5772
+)
+"utilities/misc.ml" 180 5689 5693 "utilities/misc.ml" 180 5689 5698
+type(
+  'b * 'a
+)
+"utilities/misc.ml" 180 5689 5700 "utilities/misc.ml" 180 5689 5701
+type(
+  ('b * 'a) list
+)
+ident(
+  def l "utilities/misc.ml" 181 5705 5711 "utilities/misc.ml" 184 5750 5772
+)
+"utilities/misc.ml" 180 5689 5693 "utilities/misc.ml" 180 5689 5701
+type(
+  ('b * 'a) list
+)
+"utilities/misc.ml" 181 5705 5714 "utilities/misc.ml" 181 5705 5715
+type(
+  'a
+)
+ident(
+  int_ref d "utilities/misc.ml" 180 5689 5696 "utilities/misc.ml" 180 5689 5697
+)
+"utilities/misc.ml" 181 5705 5716 "utilities/misc.ml" 181 5705 5717
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/misc.ml" 181 5705 5718 "utilities/misc.ml" 181 5705 5723
+type(
+  'a
+)
+ident(
+  int_ref value "utilities/misc.ml" 178 5631 5646 "utilities/misc.ml" 178 5631 5651
+)
+"utilities/misc.ml" 181 5705 5714 "utilities/misc.ml" 181 5705 5723
+type(
+  bool
+)
+"utilities/misc.ml" 182 5729 5737 "utilities/misc.ml" 182 5729 5738
+type(
+  'b
+)
+ident(
+  int_ref k "utilities/misc.ml" 180 5689 5694 "utilities/misc.ml" 180 5689 5695
+)
+"utilities/misc.ml" 184 5750 5758 "utilities/misc.ml" 184 5750 5764
+type(
+  'a -> ('b * 'a) list -> 'b
+)
+ident(
+  int_ref assocd "utilities/misc.ml" 178 5631 5639 "utilities/misc.ml" 178 5631 5645
+)
+"utilities/misc.ml" 184 5750 5765 "utilities/misc.ml" 184 5750 5770
+type(
+  'a
+)
+ident(
+  int_ref value "utilities/misc.ml" 178 5631 5646 "utilities/misc.ml" 178 5631 5651
+)
+"utilities/misc.ml" 184 5750 5771 "utilities/misc.ml" 184 5750 5772
+type(
+  ('b * 'a) list
+)
+ident(
+  int_ref l "utilities/misc.ml" 180 5689 5700 "utilities/misc.ml" 180 5689 5701
+)
+"utilities/misc.ml" 184 5750 5758 "utilities/misc.ml" 184 5750 5772
+call(
+  tail
+)
+type(
+  'b
+)
+"utilities/misc.ml" 181 5705 5711 "utilities/misc.ml" 184 5750 5772
+type(
+  'b
+)
+"utilities/misc.ml" 178 5631 5654 "utilities/misc.ml" 184 5750 5772
+type(
+  ('b * 'a) list -> 'b
+)
+"utilities/misc.ml" 187 5849 5857 "utilities/misc.ml" 187 5849 5866
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def list_diff "utilities/misc.ml" 187 5849 5849 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 187 5849 5867 "utilities/misc.ml" 187 5849 5868
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 187 5849 5869 "utilities/misc.ml" 191 5948 5987
+)
+"utilities/misc.ml" 187 5849 5869 "utilities/misc.ml" 187 5849 5871
+type(
+  'a list
+)
+ident(
+  def dl "utilities/misc.ml" 187 5849 5874 "utilities/misc.ml" 191 5948 5987
+)
+"utilities/misc.ml" 187 5849 5880 "utilities/misc.ml" 187 5849 5881
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 187 5849 5867 "utilities/misc.ml" 187 5849 5868
+)
+"utilities/misc.ml" 188 5887 5893 "utilities/misc.ml" 188 5887 5895
+type(
+  'a list
+)
+"utilities/misc.ml" 188 5887 5899 "utilities/misc.ml" 188 5887 5901
+type(
+  'a list
+)
+"utilities/misc.ml" 189 5902 5908 "utilities/misc.ml" 189 5902 5909
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 190 5916 5922 "utilities/misc.ml" 191 5948 5987
+)
+"utilities/misc.ml" 189 5902 5911 "utilities/misc.ml" 189 5902 5912
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 190 5916 5922 "utilities/misc.ml" 191 5948 5987
+)
+"utilities/misc.ml" 189 5902 5908 "utilities/misc.ml" 189 5902 5912
+type(
+  'a list
+)
+"utilities/misc.ml" 190 5916 5926 "utilities/misc.ml" 190 5916 5927
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 191 5948 5954 "utilities/misc.ml" 191 5948 5987
+)
+"utilities/misc.ml" 190 5916 5930 "utilities/misc.ml" 190 5916 5939
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref list_diff "utilities/misc.ml" 187 5849 5857 "utilities/misc.ml" 187 5849 5866
+)
+"utilities/misc.ml" 190 5916 5940 "utilities/misc.ml" 190 5916 5941
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 189 5902 5911 "utilities/misc.ml" 189 5902 5912
+)
+"utilities/misc.ml" 190 5916 5942 "utilities/misc.ml" 190 5916 5944
+type(
+  'a list
+)
+ident(
+  int_ref dl "utilities/misc.ml" 187 5849 5869 "utilities/misc.ml" 187 5849 5871
+)
+"utilities/misc.ml" 190 5916 5930 "utilities/misc.ml" 190 5916 5944
+call(
+  stack
+)
+type(
+  'a list
+)
+"utilities/misc.ml" 191 5948 5957 "utilities/misc.ml" 191 5948 5965
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"utilities/misc.ml" 191 5948 5966 "utilities/misc.ml" 191 5948 5967
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 189 5902 5908 "utilities/misc.ml" 189 5902 5909
+)
+"utilities/misc.ml" 191 5948 5968 "utilities/misc.ml" 191 5948 5970
+type(
+  'a list
+)
+ident(
+  int_ref dl "utilities/misc.ml" 187 5849 5869 "utilities/misc.ml" 187 5849 5871
+)
+"utilities/misc.ml" 191 5948 5957 "utilities/misc.ml" 191 5948 5970
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/misc.ml" 191 5948 5976 "utilities/misc.ml" 191 5948 5977
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 190 5916 5926 "utilities/misc.ml" 190 5916 5927
+)
+"utilities/misc.ml" 191 5948 5983 "utilities/misc.ml" 191 5948 5984
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 189 5902 5908 "utilities/misc.ml" 189 5902 5909
+)
+"utilities/misc.ml" 191 5948 5986 "utilities/misc.ml" 191 5948 5987
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 190 5916 5926 "utilities/misc.ml" 190 5916 5927
+)
+"utilities/misc.ml" 191 5948 5983 "utilities/misc.ml" 191 5948 5987
+type(
+  'a list
+)
+"utilities/misc.ml" 191 5948 5954 "utilities/misc.ml" 191 5948 5987
+type(
+  'a list
+)
+"utilities/misc.ml" 190 5916 5922 "utilities/misc.ml" 191 5948 5987
+type(
+  'a list
+)
+"utilities/misc.ml" 187 5849 5874 "utilities/misc.ml" 191 5948 5987
+type(
+  'a list
+)
+"utilities/misc.ml" 196 6100 6104 "utilities/misc.ml" 196 6100 6111
+type(
+  ('a -> 'b -> 'c * 'a) -> 'a -> 'b list -> 'c list * 'a
+)
+ident(
+  def mapfold "utilities/misc.ml" 202 6268 6268 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 196 6100 6112 "utilities/misc.ml" 196 6100 6113
+type(
+  'a -> 'b -> 'c * 'a
+)
+ident(
+  def f "utilities/misc.ml" 196 6100 6114 "utilities/misc.ml" 200 6249 6266
+)
+"utilities/misc.ml" 196 6100 6114 "utilities/misc.ml" 196 6100 6117
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 196 6100 6118 "utilities/misc.ml" 200 6249 6266
+)
+"utilities/misc.ml" 196 6100 6118 "utilities/misc.ml" 196 6100 6119
+type(
+  'b list
+)
+ident(
+  def l "utilities/misc.ml" 197 6122 6124 "utilities/misc.ml" 200 6249 6266
+)
+"utilities/misc.ml" 197 6122 6128 "utilities/misc.ml" 197 6122 6129
+type(
+  'c list
+)
+ident(
+  def l "utilities/misc.ml" 200 6249 6251 "utilities/misc.ml" 200 6249 6266
+)
+"utilities/misc.ml" 197 6122 6130 "utilities/misc.ml" 197 6122 6133
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 200 6249 6251 "utilities/misc.ml" 200 6249 6266
+)
+"utilities/misc.ml" 197 6122 6128 "utilities/misc.ml" 197 6122 6133
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 197 6122 6136 "utilities/misc.ml" 197 6122 6150
+type(
+  ('c list * 'a -> 'b -> 'c list * 'a) ->
+  'c list * 'a -> 'b list -> 'c list * 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/misc.ml" 198 6151 6173 "utilities/misc.ml" 198 6151 6174
+type(
+  'c list
+)
+ident(
+  def l "utilities/misc.ml" 198 6151 6180 "utilities/misc.ml" 198 6151 6217
+)
+"utilities/misc.ml" 198 6151 6175 "utilities/misc.ml" 198 6151 6178
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 198 6151 6180 "utilities/misc.ml" 198 6151 6217
+)
+"utilities/misc.ml" 198 6151 6172 "utilities/misc.ml" 198 6151 6179
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 198 6151 6180 "utilities/misc.ml" 198 6151 6181
+type(
+  'b
+)
+ident(
+  def e "utilities/misc.ml" 198 6151 6185 "utilities/misc.ml" 198 6151 6217
+)
+"utilities/misc.ml" 198 6151 6189 "utilities/misc.ml" 198 6151 6190
+type(
+  'c
+)
+ident(
+  def e "utilities/misc.ml" 198 6151 6208 "utilities/misc.ml" 198 6151 6217
+)
+"utilities/misc.ml" 198 6151 6191 "utilities/misc.ml" 198 6151 6194
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 198 6151 6208 "utilities/misc.ml" 198 6151 6217
+)
+"utilities/misc.ml" 198 6151 6189 "utilities/misc.ml" 198 6151 6194
+type(
+  'c * 'a
+)
+"utilities/misc.ml" 198 6151 6197 "utilities/misc.ml" 198 6151 6198
+type(
+  'a -> 'b -> 'c * 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 196 6100 6112 "utilities/misc.ml" 196 6100 6113
+)
+"utilities/misc.ml" 198 6151 6199 "utilities/misc.ml" 198 6151 6202
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 198 6151 6175 "utilities/misc.ml" 198 6151 6178
+)
+"utilities/misc.ml" 198 6151 6203 "utilities/misc.ml" 198 6151 6204
+type(
+  'b
+)
+ident(
+  int_ref e "utilities/misc.ml" 198 6151 6180 "utilities/misc.ml" 198 6151 6181
+)
+"utilities/misc.ml" 198 6151 6197 "utilities/misc.ml" 198 6151 6204
+call(
+  stack
+)
+type(
+  'c * 'a
+)
+"utilities/misc.ml" 198 6151 6208 "utilities/misc.ml" 198 6151 6209
+type(
+  'c
+)
+ident(
+  int_ref e "utilities/misc.ml" 198 6151 6189 "utilities/misc.ml" 198 6151 6190
+)
+"utilities/misc.ml" 198 6151 6211 "utilities/misc.ml" 198 6151 6212
+type(
+  'c list
+)
+ident(
+  int_ref l "utilities/misc.ml" 198 6151 6173 "utilities/misc.ml" 198 6151 6174
+)
+"utilities/misc.ml" 198 6151 6208 "utilities/misc.ml" 198 6151 6212
+type(
+  'c list
+)
+"utilities/misc.ml" 198 6151 6214 "utilities/misc.ml" 198 6151 6217
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 198 6151 6191 "utilities/misc.ml" 198 6151 6194
+)
+"utilities/misc.ml" 198 6151 6208 "utilities/misc.ml" 198 6151 6217
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 198 6151 6185 "utilities/misc.ml" 198 6151 6217
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 198 6151 6167 "utilities/misc.ml" 198 6151 6218
+type(
+  'c list * 'a -> 'b -> 'c list * 'a
+)
+"utilities/misc.ml" 199 6219 6236 "utilities/misc.ml" 199 6219 6238
+type(
+  'c list
+)
+"utilities/misc.ml" 199 6219 6239 "utilities/misc.ml" 199 6219 6242
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 196 6100 6114 "utilities/misc.ml" 196 6100 6117
+)
+"utilities/misc.ml" 199 6219 6235 "utilities/misc.ml" 199 6219 6243
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 199 6219 6244 "utilities/misc.ml" 199 6219 6245
+type(
+  'b list
+)
+ident(
+  int_ref l "utilities/misc.ml" 196 6100 6118 "utilities/misc.ml" 196 6100 6119
+)
+"utilities/misc.ml" 197 6122 6136 "utilities/misc.ml" 199 6219 6245
+call(
+  stack
+)
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 200 6249 6251 "utilities/misc.ml" 200 6249 6259
+type(
+  'c list -> 'c list
+)
+ident(
+  ext_ref List.rev
+)
+"utilities/misc.ml" 200 6249 6260 "utilities/misc.ml" 200 6249 6261
+type(
+  'c list
+)
+ident(
+  int_ref l "utilities/misc.ml" 197 6122 6128 "utilities/misc.ml" 197 6122 6129
+)
+"utilities/misc.ml" 200 6249 6251 "utilities/misc.ml" 200 6249 6261
+call(
+  stack
+)
+type(
+  'c list
+)
+"utilities/misc.ml" 200 6249 6263 "utilities/misc.ml" 200 6249 6266
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 197 6122 6130 "utilities/misc.ml" 197 6122 6133
+)
+"utilities/misc.ml" 200 6249 6251 "utilities/misc.ml" 200 6249 6266
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 197 6122 6124 "utilities/misc.ml" 200 6249 6266
+type(
+  'c list * 'a
+)
+"utilities/misc.ml" 202 6268 6272 "utilities/misc.ml" 202 6268 6280
+type(
+  ('a -> 'b -> 'c -> 'd * 'a) -> 'a -> 'b list -> 'c list -> 'd list * 'a
+)
+ident(
+  def mapfold2 "utilities/misc.ml" 208 6454 6454 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 202 6268 6281 "utilities/misc.ml" 202 6268 6282
+type(
+  'a -> 'b -> 'c -> 'd * 'a
+)
+ident(
+  def f "utilities/misc.ml" 202 6268 6283 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 202 6268 6283 "utilities/misc.ml" 202 6268 6286
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 202 6268 6287 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 202 6268 6287 "utilities/misc.ml" 202 6268 6289
+type(
+  'b list
+)
+ident(
+  def l1 "utilities/misc.ml" 202 6268 6290 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 202 6268 6290 "utilities/misc.ml" 202 6268 6292
+type(
+  'c list
+)
+ident(
+  def l2 "utilities/misc.ml" 203 6295 6297 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 203 6295 6301 "utilities/misc.ml" 203 6295 6302
+type(
+  'd list
+)
+ident(
+  def l "utilities/misc.ml" 206 6435 6437 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 203 6295 6303 "utilities/misc.ml" 203 6295 6306
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 206 6435 6437 "utilities/misc.ml" 206 6435 6452
+)
+"utilities/misc.ml" 203 6295 6301 "utilities/misc.ml" 203 6295 6306
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 203 6295 6309 "utilities/misc.ml" 203 6295 6324
+type(
+  ('d list * 'a -> 'b -> 'c -> 'd list * 'a) ->
+  'd list * 'a -> 'b list -> 'c list -> 'd list * 'a
+)
+ident(
+  ext_ref List.fold_left2
+)
+"utilities/misc.ml" 204 6325 6347 "utilities/misc.ml" 204 6325 6348
+type(
+  'd list
+)
+ident(
+  def l "utilities/misc.ml" 204 6325 6354 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6349 "utilities/misc.ml" 204 6325 6352
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 204 6325 6354 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6346 "utilities/misc.ml" 204 6325 6353
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 204 6325 6354 "utilities/misc.ml" 204 6325 6356
+type(
+  'b
+)
+ident(
+  def e1 "utilities/misc.ml" 204 6325 6357 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6357 "utilities/misc.ml" 204 6325 6359
+type(
+  'c
+)
+ident(
+  def e2 "utilities/misc.ml" 204 6325 6363 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6367 "utilities/misc.ml" 204 6325 6368
+type(
+  'd
+)
+ident(
+  def e "utilities/misc.ml" 204 6325 6390 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6369 "utilities/misc.ml" 204 6325 6372
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 204 6325 6390 "utilities/misc.ml" 204 6325 6399
+)
+"utilities/misc.ml" 204 6325 6367 "utilities/misc.ml" 204 6325 6372
+type(
+  'd * 'a
+)
+"utilities/misc.ml" 204 6325 6375 "utilities/misc.ml" 204 6325 6376
+type(
+  'a -> 'b -> 'c -> 'd * 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 202 6268 6281 "utilities/misc.ml" 202 6268 6282
+)
+"utilities/misc.ml" 204 6325 6377 "utilities/misc.ml" 204 6325 6380
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 204 6325 6349 "utilities/misc.ml" 204 6325 6352
+)
+"utilities/misc.ml" 204 6325 6381 "utilities/misc.ml" 204 6325 6383
+type(
+  'b
+)
+ident(
+  int_ref e1 "utilities/misc.ml" 204 6325 6354 "utilities/misc.ml" 204 6325 6356
+)
+"utilities/misc.ml" 204 6325 6384 "utilities/misc.ml" 204 6325 6386
+type(
+  'c
+)
+ident(
+  int_ref e2 "utilities/misc.ml" 204 6325 6357 "utilities/misc.ml" 204 6325 6359
+)
+"utilities/misc.ml" 204 6325 6375 "utilities/misc.ml" 204 6325 6386
+call(
+  stack
+)
+type(
+  'd * 'a
+)
+"utilities/misc.ml" 204 6325 6390 "utilities/misc.ml" 204 6325 6391
+type(
+  'd
+)
+ident(
+  int_ref e "utilities/misc.ml" 204 6325 6367 "utilities/misc.ml" 204 6325 6368
+)
+"utilities/misc.ml" 204 6325 6393 "utilities/misc.ml" 204 6325 6394
+type(
+  'd list
+)
+ident(
+  int_ref l "utilities/misc.ml" 204 6325 6347 "utilities/misc.ml" 204 6325 6348
+)
+"utilities/misc.ml" 204 6325 6390 "utilities/misc.ml" 204 6325 6394
+type(
+  'd list
+)
+"utilities/misc.ml" 204 6325 6396 "utilities/misc.ml" 204 6325 6399
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 204 6325 6369 "utilities/misc.ml" 204 6325 6372
+)
+"utilities/misc.ml" 204 6325 6390 "utilities/misc.ml" 204 6325 6399
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 204 6325 6363 "utilities/misc.ml" 204 6325 6399
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 204 6325 6341 "utilities/misc.ml" 204 6325 6400
+type(
+  'd list * 'a -> 'b -> 'c -> 'd list * 'a
+)
+"utilities/misc.ml" 205 6401 6418 "utilities/misc.ml" 205 6401 6420
+type(
+  'd list
+)
+"utilities/misc.ml" 205 6401 6421 "utilities/misc.ml" 205 6401 6424
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 202 6268 6283 "utilities/misc.ml" 202 6268 6286
+)
+"utilities/misc.ml" 205 6401 6417 "utilities/misc.ml" 205 6401 6425
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 205 6401 6426 "utilities/misc.ml" 205 6401 6428
+type(
+  'b list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 202 6268 6287 "utilities/misc.ml" 202 6268 6289
+)
+"utilities/misc.ml" 205 6401 6429 "utilities/misc.ml" 205 6401 6431
+type(
+  'c list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 202 6268 6290 "utilities/misc.ml" 202 6268 6292
+)
+"utilities/misc.ml" 203 6295 6309 "utilities/misc.ml" 205 6401 6431
+call(
+  stack
+)
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 206 6435 6437 "utilities/misc.ml" 206 6435 6445
+type(
+  'd list -> 'd list
+)
+ident(
+  ext_ref List.rev
+)
+"utilities/misc.ml" 206 6435 6446 "utilities/misc.ml" 206 6435 6447
+type(
+  'd list
+)
+ident(
+  int_ref l "utilities/misc.ml" 203 6295 6301 "utilities/misc.ml" 203 6295 6302
+)
+"utilities/misc.ml" 206 6435 6437 "utilities/misc.ml" 206 6435 6447
+call(
+  stack
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 206 6435 6449 "utilities/misc.ml" 206 6435 6452
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 203 6295 6303 "utilities/misc.ml" 203 6295 6306
+)
+"utilities/misc.ml" 206 6435 6437 "utilities/misc.ml" 206 6435 6452
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 203 6295 6297 "utilities/misc.ml" 206 6435 6452
+type(
+  'd list * 'a
+)
+"utilities/misc.ml" 208 6454 6458 "utilities/misc.ml" 208 6454 6471
+type(
+  ('a -> 'b -> 'b * 'c) -> 'a list -> 'b -> 'b * 'c list
+)
+ident(
+  def mapfold_right "utilities/misc.ml" 212 6575 6575 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 208 6454 6472 "utilities/misc.ml" 208 6454 6473
+type(
+  'a -> 'b -> 'b * 'c
+)
+ident(
+  def f "utilities/misc.ml" 208 6454 6474 "utilities/misc.ml" 210 6558 6573
+)
+"utilities/misc.ml" 208 6454 6474 "utilities/misc.ml" 208 6454 6475
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 208 6454 6476 "utilities/misc.ml" 210 6558 6573
+)
+"utilities/misc.ml" 208 6454 6476 "utilities/misc.ml" 208 6454 6479
+type(
+  'b
+)
+ident(
+  def acc "utilities/misc.ml" 209 6482 6484 "utilities/misc.ml" 210 6558 6573
+)
+"utilities/misc.ml" 209 6482 6484 "utilities/misc.ml" 209 6482 6499
+type(
+  ('a -> 'b * 'c list -> 'b * 'c list) ->
+  'a list -> 'b * 'c list -> 'b * 'c list
+)
+ident(
+  ext_ref List.fold_right
+)
+"utilities/misc.ml" 209 6482 6505 "utilities/misc.ml" 209 6482 6506
+type(
+  'a
+)
+ident(
+  def e "utilities/misc.ml" 209 6482 6507 "utilities/misc.ml" 209 6482 6556
+)
+"utilities/misc.ml" 209 6482 6508 "utilities/misc.ml" 209 6482 6511
+type(
+  'b
+)
+ident(
+  def acc "utilities/misc.ml" 209 6482 6519 "utilities/misc.ml" 209 6482 6556
+)
+"utilities/misc.ml" 209 6482 6513 "utilities/misc.ml" 209 6482 6514
+type(
+  'c list
+)
+ident(
+  def l "utilities/misc.ml" 209 6482 6519 "utilities/misc.ml" 209 6482 6556
+)
+"utilities/misc.ml" 209 6482 6507 "utilities/misc.ml" 209 6482 6515
+type(
+  'b * 'c list
+)
+"utilities/misc.ml" 209 6482 6523 "utilities/misc.ml" 209 6482 6526
+type(
+  'b
+)
+ident(
+  def acc "utilities/misc.ml" 209 6482 6543 "utilities/misc.ml" 209 6482 6556
+)
+"utilities/misc.ml" 209 6482 6528 "utilities/misc.ml" 209 6482 6529
+type(
+  'c
+)
+ident(
+  def e "utilities/misc.ml" 209 6482 6543 "utilities/misc.ml" 209 6482 6556
+)
+"utilities/misc.ml" 209 6482 6523 "utilities/misc.ml" 209 6482 6529
+type(
+  'b * 'c
+)
+"utilities/misc.ml" 209 6482 6532 "utilities/misc.ml" 209 6482 6533
+type(
+  'a -> 'b -> 'b * 'c
+)
+ident(
+  int_ref f "utilities/misc.ml" 208 6454 6472 "utilities/misc.ml" 208 6454 6473
+)
+"utilities/misc.ml" 209 6482 6534 "utilities/misc.ml" 209 6482 6535
+type(
+  'a
+)
+ident(
+  int_ref e "utilities/misc.ml" 209 6482 6505 "utilities/misc.ml" 209 6482 6506
+)
+"utilities/misc.ml" 209 6482 6536 "utilities/misc.ml" 209 6482 6539
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 209 6482 6508 "utilities/misc.ml" 209 6482 6511
+)
+"utilities/misc.ml" 209 6482 6532 "utilities/misc.ml" 209 6482 6539
+call(
+  stack
+)
+type(
+  'b * 'c
+)
+"utilities/misc.ml" 209 6482 6544 "utilities/misc.ml" 209 6482 6547
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 209 6482 6523 "utilities/misc.ml" 209 6482 6526
+)
+"utilities/misc.ml" 209 6482 6549 "utilities/misc.ml" 209 6482 6550
+type(
+  'c
+)
+ident(
+  int_ref e "utilities/misc.ml" 209 6482 6528 "utilities/misc.ml" 209 6482 6529
+)
+"utilities/misc.ml" 209 6482 6554 "utilities/misc.ml" 209 6482 6555
+type(
+  'c list
+)
+ident(
+  int_ref l "utilities/misc.ml" 209 6482 6513 "utilities/misc.ml" 209 6482 6514
+)
+"utilities/misc.ml" 209 6482 6549 "utilities/misc.ml" 209 6482 6555
+type(
+  'c list
+)
+"utilities/misc.ml" 209 6482 6543 "utilities/misc.ml" 209 6482 6556
+type(
+  'b * 'c list
+)
+"utilities/misc.ml" 209 6482 6519 "utilities/misc.ml" 209 6482 6556
+type(
+  'b * 'c list
+)
+"utilities/misc.ml" 209 6482 6500 "utilities/misc.ml" 209 6482 6557
+type(
+  'a -> 'b * 'c list -> 'b * 'c list
+)
+"utilities/misc.ml" 210 6558 6562 "utilities/misc.ml" 210 6558 6563
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 208 6454 6474 "utilities/misc.ml" 208 6454 6475
+)
+"utilities/misc.ml" 210 6558 6565 "utilities/misc.ml" 210 6558 6568
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 208 6454 6476 "utilities/misc.ml" 208 6454 6479
+)
+"utilities/misc.ml" 210 6558 6570 "utilities/misc.ml" 210 6558 6572
+type(
+  'c list
+)
+"utilities/misc.ml" 210 6558 6564 "utilities/misc.ml" 210 6558 6573
+type(
+  'b * 'c list
+)
+"utilities/misc.ml" 209 6482 6484 "utilities/misc.ml" 210 6558 6573
+call(
+  tail
+)
+type(
+  'b * 'c list
+)
+"utilities/misc.ml" 212 6575 6583 "utilities/misc.ml" 212 6575 6595
+type(
+  ('a -> 'a -> 'a) -> 'a list -> 'a
+)
+ident(
+  def fold_right_1 "utilities/misc.ml" 212 6575 6575 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 212 6575 6596 "utilities/misc.ml" 212 6575 6597
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  def f "utilities/misc.ml" 212 6575 6598 "utilities/misc.ml" 215 6677 6713
+)
+"utilities/misc.ml" 212 6575 6598 "utilities/misc.ml" 212 6575 6599
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 212 6575 6602 "utilities/misc.ml" 215 6677 6713
+)
+"utilities/misc.ml" 212 6575 6608 "utilities/misc.ml" 212 6575 6609
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 212 6575 6598 "utilities/misc.ml" 212 6575 6599
+)
+"utilities/misc.ml" 213 6615 6619 "utilities/misc.ml" 213 6615 6621
+type(
+  'a list
+)
+"utilities/misc.ml" 213 6615 6625 "utilities/misc.ml" 213 6615 6636
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 213 6615 6637 "utilities/misc.ml" 213 6615 6663
+type(
+  string
+)
+"utilities/misc.ml" 213 6615 6625 "utilities/misc.ml" 213 6615 6663
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 214 6664 6669 "utilities/misc.ml" 214 6664 6670
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 214 6664 6675 "utilities/misc.ml" 214 6664 6676
+)
+"utilities/misc.ml" 214 6664 6668 "utilities/misc.ml" 214 6664 6671
+type(
+  'a list
+)
+"utilities/misc.ml" 214 6664 6675 "utilities/misc.ml" 214 6664 6676
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 214 6664 6669 "utilities/misc.ml" 214 6664 6670
+)
+"utilities/misc.ml" 215 6677 6681 "utilities/misc.ml" 215 6677 6682
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 215 6677 6691 "utilities/misc.ml" 215 6677 6713
+)
+"utilities/misc.ml" 215 6677 6686 "utilities/misc.ml" 215 6677 6687
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 215 6677 6691 "utilities/misc.ml" 215 6677 6713
+)
+"utilities/misc.ml" 215 6677 6681 "utilities/misc.ml" 215 6677 6687
+type(
+  'a list
+)
+"utilities/misc.ml" 215 6677 6691 "utilities/misc.ml" 215 6677 6692
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 212 6575 6596 "utilities/misc.ml" 212 6575 6597
+)
+"utilities/misc.ml" 215 6677 6693 "utilities/misc.ml" 215 6677 6694
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 215 6677 6681 "utilities/misc.ml" 215 6677 6682
+)
+"utilities/misc.ml" 215 6677 6696 "utilities/misc.ml" 215 6677 6708
+type(
+  ('a -> 'a -> 'a) -> 'a list -> 'a
+)
+ident(
+  int_ref fold_right_1 "utilities/misc.ml" 212 6575 6583 "utilities/misc.ml" 212 6575 6595
+)
+"utilities/misc.ml" 215 6677 6709 "utilities/misc.ml" 215 6677 6710
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 212 6575 6596 "utilities/misc.ml" 212 6575 6597
+)
+"utilities/misc.ml" 215 6677 6711 "utilities/misc.ml" 215 6677 6712
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 215 6677 6686 "utilities/misc.ml" 215 6677 6687
+)
+"utilities/misc.ml" 215 6677 6695 "utilities/misc.ml" 215 6677 6713
+call(
+  stack
+)
+type(
+  'a
+)
+"utilities/misc.ml" 215 6677 6691 "utilities/misc.ml" 215 6677 6713
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 212 6575 6602 "utilities/misc.ml" 215 6677 6713
+type(
+  'a
+)
+"utilities/misc.ml" 217 6715 6723 "utilities/misc.ml" 217 6715 6734
+type(
+  ('a -> 'a -> 'a) -> 'a list -> 'a
+)
+ident(
+  def fold_left_1 "utilities/misc.ml" 217 6715 6715 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 217 6715 6735 "utilities/misc.ml" 217 6715 6736
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  def f "utilities/misc.ml" 217 6715 6737 "utilities/misc.ml" 220 6815 6850
+)
+"utilities/misc.ml" 217 6715 6737 "utilities/misc.ml" 217 6715 6738
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 217 6715 6741 "utilities/misc.ml" 220 6815 6850
+)
+"utilities/misc.ml" 217 6715 6747 "utilities/misc.ml" 217 6715 6748
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 217 6715 6737 "utilities/misc.ml" 217 6715 6738
+)
+"utilities/misc.ml" 218 6754 6758 "utilities/misc.ml" 218 6754 6760
+type(
+  'a list
+)
+"utilities/misc.ml" 218 6754 6764 "utilities/misc.ml" 218 6754 6775
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 218 6754 6776 "utilities/misc.ml" 218 6754 6801
+type(
+  string
+)
+"utilities/misc.ml" 218 6754 6764 "utilities/misc.ml" 218 6754 6801
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 219 6802 6807 "utilities/misc.ml" 219 6802 6808
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 219 6802 6813 "utilities/misc.ml" 219 6802 6814
+)
+"utilities/misc.ml" 219 6802 6806 "utilities/misc.ml" 219 6802 6809
+type(
+  'a list
+)
+"utilities/misc.ml" 219 6802 6813 "utilities/misc.ml" 219 6802 6814
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 219 6802 6807 "utilities/misc.ml" 219 6802 6808
+)
+"utilities/misc.ml" 220 6815 6819 "utilities/misc.ml" 220 6815 6820
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 220 6815 6829 "utilities/misc.ml" 220 6815 6850
+)
+"utilities/misc.ml" 220 6815 6824 "utilities/misc.ml" 220 6815 6825
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 220 6815 6829 "utilities/misc.ml" 220 6815 6850
+)
+"utilities/misc.ml" 220 6815 6819 "utilities/misc.ml" 220 6815 6825
+type(
+  'a list
+)
+"utilities/misc.ml" 220 6815 6829 "utilities/misc.ml" 220 6815 6830
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 217 6715 6735 "utilities/misc.ml" 217 6715 6736
+)
+"utilities/misc.ml" 220 6815 6832 "utilities/misc.ml" 220 6815 6843
+type(
+  ('a -> 'a -> 'a) -> 'a list -> 'a
+)
+ident(
+  int_ref fold_left_1 "utilities/misc.ml" 217 6715 6723 "utilities/misc.ml" 217 6715 6734
+)
+"utilities/misc.ml" 220 6815 6844 "utilities/misc.ml" 220 6815 6845
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 217 6715 6735 "utilities/misc.ml" 217 6715 6736
+)
+"utilities/misc.ml" 220 6815 6846 "utilities/misc.ml" 220 6815 6847
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 220 6815 6824 "utilities/misc.ml" 220 6815 6825
+)
+"utilities/misc.ml" 220 6815 6831 "utilities/misc.ml" 220 6815 6848
+call(
+  stack
+)
+type(
+  'a
+)
+"utilities/misc.ml" 220 6815 6849 "utilities/misc.ml" 220 6815 6850
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 220 6815 6819 "utilities/misc.ml" 220 6815 6820
+)
+"utilities/misc.ml" 220 6815 6829 "utilities/misc.ml" 220 6815 6850
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 217 6715 6741 "utilities/misc.ml" 220 6815 6850
+type(
+  'a
+)
+"utilities/misc.ml" 222 6852 6860 "utilities/misc.ml" 222 6852 6870
+type(
+  ('a -> 'b -> 'c -> 'd -> 'e -> 'a) ->
+  'a -> 'b list -> 'c list -> 'd list -> 'e list -> 'a
+)
+ident(
+  def fold_left4 "utilities/misc.ml" 222 6852 6852 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 222 6852 6871 "utilities/misc.ml" 222 6852 6872
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'a
+)
+ident(
+  def f "utilities/misc.ml" 222 6852 6873 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6873 "utilities/misc.ml" 222 6852 6876
+type(
+  'a
+)
+ident(
+  def acc "utilities/misc.ml" 222 6852 6877 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6877 "utilities/misc.ml" 222 6852 6879
+type(
+  'b list
+)
+ident(
+  def l1 "utilities/misc.ml" 222 6852 6880 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6880 "utilities/misc.ml" 222 6852 6882
+type(
+  'c list
+)
+ident(
+  def l2 "utilities/misc.ml" 222 6852 6883 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6883 "utilities/misc.ml" 222 6852 6885
+type(
+  'd list
+)
+ident(
+  def l3 "utilities/misc.ml" 222 6852 6886 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6886 "utilities/misc.ml" 222 6852 6888
+type(
+  'e list
+)
+ident(
+  def l4 "utilities/misc.ml" 222 6852 6891 "utilities/misc.ml" 225 7034 7072
+)
+"utilities/misc.ml" 222 6852 6897 "utilities/misc.ml" 222 6852 6899
+type(
+  'b list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 222 6852 6877 "utilities/misc.ml" 222 6852 6879
+)
+"utilities/misc.ml" 222 6852 6901 "utilities/misc.ml" 222 6852 6903
+type(
+  'c list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 222 6852 6880 "utilities/misc.ml" 222 6852 6882
+)
+"utilities/misc.ml" 222 6852 6905 "utilities/misc.ml" 222 6852 6907
+type(
+  'd list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 222 6852 6883 "utilities/misc.ml" 222 6852 6885
+)
+"utilities/misc.ml" 222 6852 6909 "utilities/misc.ml" 222 6852 6911
+type(
+  'e list
+)
+ident(
+  int_ref l4 "utilities/misc.ml" 222 6852 6886 "utilities/misc.ml" 222 6852 6888
+)
+"utilities/misc.ml" 222 6852 6897 "utilities/misc.ml" 222 6852 6911
+type(
+  'b list * 'c list * 'd list * 'e list
+)
+"utilities/misc.ml" 223 6917 6921 "utilities/misc.ml" 223 6917 6923
+type(
+  'b list
+)
+"utilities/misc.ml" 223 6917 6925 "utilities/misc.ml" 223 6917 6927
+type(
+  'c list
+)
+"utilities/misc.ml" 223 6917 6929 "utilities/misc.ml" 223 6917 6931
+type(
+  'd list
+)
+"utilities/misc.ml" 223 6917 6933 "utilities/misc.ml" 223 6917 6935
+type(
+  'e list
+)
+"utilities/misc.ml" 223 6917 6921 "utilities/misc.ml" 223 6917 6935
+type(
+  'b list * 'c list * 'd list * 'e list
+)
+"utilities/misc.ml" 223 6917 6939 "utilities/misc.ml" 223 6917 6942
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 222 6852 6873 "utilities/misc.ml" 222 6852 6876
+)
+"utilities/misc.ml" 224 6943 6947 "utilities/misc.ml" 224 6943 6949
+type(
+  'b
+)
+ident(
+  def x1 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6953 "utilities/misc.ml" 224 6943 6955
+type(
+  'b list
+)
+ident(
+  def l1 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6947 "utilities/misc.ml" 224 6943 6955
+type(
+  'b list
+)
+"utilities/misc.ml" 224 6943 6957 "utilities/misc.ml" 224 6943 6959
+type(
+  'c
+)
+ident(
+  def x2 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6963 "utilities/misc.ml" 224 6943 6965
+type(
+  'c list
+)
+ident(
+  def l2 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6957 "utilities/misc.ml" 224 6943 6965
+type(
+  'c list
+)
+"utilities/misc.ml" 224 6943 6967 "utilities/misc.ml" 224 6943 6969
+type(
+  'd
+)
+ident(
+  def x3 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6973 "utilities/misc.ml" 224 6943 6975
+type(
+  'd list
+)
+ident(
+  def l3 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6967 "utilities/misc.ml" 224 6943 6975
+type(
+  'd list
+)
+"utilities/misc.ml" 224 6943 6977 "utilities/misc.ml" 224 6943 6979
+type(
+  'e
+)
+ident(
+  def x4 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6983 "utilities/misc.ml" 224 6943 6985
+type(
+  'e list
+)
+ident(
+  def l4 "utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+)
+"utilities/misc.ml" 224 6943 6977 "utilities/misc.ml" 224 6943 6985
+type(
+  'e list
+)
+"utilities/misc.ml" 224 6943 6947 "utilities/misc.ml" 224 6943 6985
+type(
+  'b list * 'c list * 'd list * 'e list
+)
+"utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 6999
+type(
+  ('a -> 'b -> 'c -> 'd -> 'e -> 'a) ->
+  'a -> 'b list -> 'c list -> 'd list -> 'e list -> 'a
+)
+ident(
+  int_ref fold_left4 "utilities/misc.ml" 222 6852 6860 "utilities/misc.ml" 222 6852 6870
+)
+"utilities/misc.ml" 224 6943 7000 "utilities/misc.ml" 224 6943 7001
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 222 6852 6871 "utilities/misc.ml" 222 6852 6872
+)
+"utilities/misc.ml" 224 6943 7003 "utilities/misc.ml" 224 6943 7004
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'a
+)
+ident(
+  int_ref f "utilities/misc.ml" 222 6852 6871 "utilities/misc.ml" 222 6852 6872
+)
+"utilities/misc.ml" 224 6943 7005 "utilities/misc.ml" 224 6943 7008
+type(
+  'a
+)
+ident(
+  int_ref acc "utilities/misc.ml" 222 6852 6873 "utilities/misc.ml" 222 6852 6876
+)
+"utilities/misc.ml" 224 6943 7009 "utilities/misc.ml" 224 6943 7011
+type(
+  'b
+)
+ident(
+  int_ref x1 "utilities/misc.ml" 224 6943 6947 "utilities/misc.ml" 224 6943 6949
+)
+"utilities/misc.ml" 224 6943 7012 "utilities/misc.ml" 224 6943 7014
+type(
+  'c
+)
+ident(
+  int_ref x2 "utilities/misc.ml" 224 6943 6957 "utilities/misc.ml" 224 6943 6959
+)
+"utilities/misc.ml" 224 6943 7015 "utilities/misc.ml" 224 6943 7017
+type(
+  'd
+)
+ident(
+  int_ref x3 "utilities/misc.ml" 224 6943 6967 "utilities/misc.ml" 224 6943 6969
+)
+"utilities/misc.ml" 224 6943 7018 "utilities/misc.ml" 224 6943 7020
+type(
+  'e
+)
+ident(
+  int_ref x4 "utilities/misc.ml" 224 6943 6977 "utilities/misc.ml" 224 6943 6979
+)
+"utilities/misc.ml" 224 6943 7002 "utilities/misc.ml" 224 6943 7021
+call(
+  stack
+)
+type(
+  'a
+)
+"utilities/misc.ml" 224 6943 7022 "utilities/misc.ml" 224 6943 7024
+type(
+  'b list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 224 6943 6953 "utilities/misc.ml" 224 6943 6955
+)
+"utilities/misc.ml" 224 6943 7025 "utilities/misc.ml" 224 6943 7027
+type(
+  'c list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 224 6943 6963 "utilities/misc.ml" 224 6943 6965
+)
+"utilities/misc.ml" 224 6943 7028 "utilities/misc.ml" 224 6943 7030
+type(
+  'd list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 224 6943 6973 "utilities/misc.ml" 224 6943 6975
+)
+"utilities/misc.ml" 224 6943 7031 "utilities/misc.ml" 224 6943 7033
+type(
+  'e list
+)
+ident(
+  int_ref l4 "utilities/misc.ml" 224 6943 6983 "utilities/misc.ml" 224 6943 6985
+)
+"utilities/misc.ml" 224 6943 6989 "utilities/misc.ml" 224 6943 7033
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 225 7034 7038 "utilities/misc.ml" 225 7034 7039
+type(
+  'b list * 'c list * 'd list * 'e list
+)
+"utilities/misc.ml" 225 7034 7043 "utilities/misc.ml" 225 7034 7054
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 225 7034 7055 "utilities/misc.ml" 225 7034 7072
+type(
+  string
+)
+"utilities/misc.ml" 225 7034 7043 "utilities/misc.ml" 225 7034 7072
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 222 6852 6891 "utilities/misc.ml" 225 7034 7072
+type(
+  'a
+)
+"utilities/misc.ml" 227 7074 7078 "utilities/misc.ml" 227 7074 7082
+type(
+  (int -> 'a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def mapi "utilities/misc.ml" 234 7186 7186 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 227 7074 7083 "utilities/misc.ml" 227 7074 7084
+type(
+  int -> 'a -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 227 7074 7085 "utilities/misc.ml" 232 7173 7184
+)
+"utilities/misc.ml" 227 7074 7085 "utilities/misc.ml" 227 7074 7086
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 228 7089 7091 "utilities/misc.ml" 232 7173 7184
+)
+"utilities/misc.ml" 228 7089 7099 "utilities/misc.ml" 228 7089 7102
+type(
+  int -> 'a list -> 'b list
+)
+ident(
+  def aux "utilities/misc.ml" 228 7089 7091 "utilities/misc.ml" 232 7173 7184
+)
+"utilities/misc.ml" 228 7089 7103 "utilities/misc.ml" 228 7089 7104
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 228 7089 7107 "utilities/misc.ml" 230 7131 7167
+)
+"utilities/misc.ml" 229 7116 7122 "utilities/misc.ml" 229 7116 7124
+type(
+  'a list
+)
+"utilities/misc.ml" 229 7116 7128 "utilities/misc.ml" 229 7116 7130
+type(
+  'b list
+)
+"utilities/misc.ml" 230 7131 7137 "utilities/misc.ml" 230 7131 7138
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 230 7131 7145 "utilities/misc.ml" 230 7131 7167
+)
+"utilities/misc.ml" 230 7131 7140 "utilities/misc.ml" 230 7131 7141
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 230 7131 7145 "utilities/misc.ml" 230 7131 7167
+)
+"utilities/misc.ml" 230 7131 7137 "utilities/misc.ml" 230 7131 7141
+type(
+  'a list
+)
+"utilities/misc.ml" 230 7131 7146 "utilities/misc.ml" 230 7131 7147
+type(
+  int -> 'a -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 227 7074 7083 "utilities/misc.ml" 227 7074 7084
+)
+"utilities/misc.ml" 230 7131 7148 "utilities/misc.ml" 230 7131 7149
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 228 7089 7103 "utilities/misc.ml" 228 7089 7104
+)
+"utilities/misc.ml" 230 7131 7150 "utilities/misc.ml" 230 7131 7151
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 230 7131 7137 "utilities/misc.ml" 230 7131 7138
+)
+"utilities/misc.ml" 230 7131 7145 "utilities/misc.ml" 230 7131 7152
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 230 7131 7155 "utilities/misc.ml" 230 7131 7158
+type(
+  int -> 'a list -> 'b list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 228 7089 7099 "utilities/misc.ml" 228 7089 7102
+)
+"utilities/misc.ml" 230 7131 7160 "utilities/misc.ml" 230 7131 7161
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 228 7089 7103 "utilities/misc.ml" 228 7089 7104
+)
+"utilities/misc.ml" 230 7131 7161 "utilities/misc.ml" 230 7131 7162
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 230 7131 7162 "utilities/misc.ml" 230 7131 7163
+type(
+  int
+)
+"utilities/misc.ml" 230 7131 7159 "utilities/misc.ml" 230 7131 7164
+type(
+  int
+)
+"utilities/misc.ml" 230 7131 7165 "utilities/misc.ml" 230 7131 7166
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 230 7131 7140 "utilities/misc.ml" 230 7131 7141
+)
+"utilities/misc.ml" 230 7131 7154 "utilities/misc.ml" 230 7131 7167
+call(
+  stack
+)
+type(
+  'b list
+)
+"utilities/misc.ml" 230 7131 7145 "utilities/misc.ml" 230 7131 7167
+type(
+  'b list
+)
+"utilities/misc.ml" 228 7089 7107 "utilities/misc.ml" 230 7131 7167
+type(
+  'a list -> 'b list
+)
+"utilities/misc.ml" 232 7173 7177 "utilities/misc.ml" 232 7173 7180
+type(
+  int -> 'a list -> 'b list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 228 7089 7099 "utilities/misc.ml" 228 7089 7102
+)
+"utilities/misc.ml" 232 7173 7181 "utilities/misc.ml" 232 7173 7182
+type(
+  int
+)
+"utilities/misc.ml" 232 7173 7183 "utilities/misc.ml" 232 7173 7184
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 227 7074 7085 "utilities/misc.ml" 227 7074 7086
+)
+"utilities/misc.ml" 232 7173 7177 "utilities/misc.ml" 232 7173 7184
+call(
+  tail
+)
+type(
+  'b list
+)
+"utilities/misc.ml" 228 7089 7091 "utilities/misc.ml" 232 7173 7184
+type(
+  'b list
+)
+"utilities/misc.ml" 234 7186 7190 "utilities/misc.ml" 234 7186 7195
+type(
+  (int -> 'a -> 'b -> 'c) -> 'a list -> 'b list -> 'c list
+)
+ident(
+  def mapi2 "utilities/misc.ml" 244 7416 7416 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 234 7186 7196 "utilities/misc.ml" 234 7186 7197
+type(
+  int -> 'a -> 'b -> 'c
+)
+ident(
+  def f "utilities/misc.ml" 234 7186 7198 "utilities/misc.ml" 242 7399 7414
+)
+"utilities/misc.ml" 234 7186 7198 "utilities/misc.ml" 234 7186 7200
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 234 7186 7201 "utilities/misc.ml" 242 7399 7414
+)
+"utilities/misc.ml" 234 7186 7201 "utilities/misc.ml" 234 7186 7203
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 235 7206 7208 "utilities/misc.ml" 242 7399 7414
+)
+"utilities/misc.ml" 235 7206 7216 "utilities/misc.ml" 235 7206 7219
+type(
+  int -> 'a list -> 'b list -> 'c list
+)
+ident(
+  def aux "utilities/misc.ml" 235 7206 7208 "utilities/misc.ml" 242 7399 7414
+)
+"utilities/misc.ml" 235 7206 7220 "utilities/misc.ml" 235 7206 7221
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 235 7206 7222 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 235 7206 7222 "utilities/misc.ml" 235 7206 7224
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 235 7206 7225 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 235 7206 7225 "utilities/misc.ml" 235 7206 7227
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 236 7230 7234 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 236 7230 7240 "utilities/misc.ml" 236 7230 7242
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 235 7206 7222 "utilities/misc.ml" 235 7206 7224
+)
+"utilities/misc.ml" 236 7230 7244 "utilities/misc.ml" 236 7230 7246
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 235 7206 7225 "utilities/misc.ml" 235 7206 7227
+)
+"utilities/misc.ml" 236 7230 7240 "utilities/misc.ml" 236 7230 7246
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 237 7252 7260 "utilities/misc.ml" 237 7252 7262
+type(
+  'a list
+)
+"utilities/misc.ml" 237 7252 7264 "utilities/misc.ml" 237 7252 7266
+type(
+  'b list
+)
+"utilities/misc.ml" 237 7252 7260 "utilities/misc.ml" 237 7252 7266
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 237 7252 7270 "utilities/misc.ml" 237 7252 7272
+type(
+  'c list
+)
+"utilities/misc.ml" 238 7273 7281 "utilities/misc.ml" 238 7273 7283
+type(
+  'a list
+)
+"utilities/misc.ml" 238 7273 7285 "utilities/misc.ml" 238 7273 7286
+type(
+  'b list
+)
+"utilities/misc.ml" 238 7273 7281 "utilities/misc.ml" 238 7273 7286
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 238 7273 7290 "utilities/misc.ml" 238 7273 7301
+type(
+  string -> 'c list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 238 7273 7302 "utilities/misc.ml" 238 7273 7304
+type(
+  string
+)
+"utilities/misc.ml" 238 7273 7290 "utilities/misc.ml" 238 7273 7304
+call(
+  tail
+)
+type(
+  'c list
+)
+"utilities/misc.ml" 239 7305 7313 "utilities/misc.ml" 239 7305 7314
+type(
+  'a list
+)
+"utilities/misc.ml" 239 7305 7316 "utilities/misc.ml" 239 7305 7318
+type(
+  'b list
+)
+"utilities/misc.ml" 239 7305 7313 "utilities/misc.ml" 239 7305 7318
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 239 7305 7322 "utilities/misc.ml" 239 7305 7333
+type(
+  string -> 'c list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 239 7305 7334 "utilities/misc.ml" 239 7305 7336
+type(
+  string
+)
+"utilities/misc.ml" 239 7305 7322 "utilities/misc.ml" 239 7305 7336
+call(
+  tail
+)
+type(
+  'c list
+)
+"utilities/misc.ml" 240 7337 7345 "utilities/misc.ml" 240 7337 7347
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 240 7337 7349 "utilities/misc.ml" 240 7337 7351
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 240 7337 7345 "utilities/misc.ml" 240 7337 7351
+type(
+  'a list
+)
+"utilities/misc.ml" 240 7337 7353 "utilities/misc.ml" 240 7337 7355
+type(
+  'b
+)
+ident(
+  def v2 "utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 240 7337 7357 "utilities/misc.ml" 240 7337 7359
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7393
+)
+"utilities/misc.ml" 240 7337 7353 "utilities/misc.ml" 240 7337 7359
+type(
+  'b list
+)
+"utilities/misc.ml" 240 7337 7345 "utilities/misc.ml" 240 7337 7359
+type(
+  'a list * 'b list
+)
+"utilities/misc.ml" 240 7337 7364 "utilities/misc.ml" 240 7337 7365
+type(
+  int -> 'a -> 'b -> 'c
+)
+ident(
+  int_ref f "utilities/misc.ml" 234 7186 7196 "utilities/misc.ml" 234 7186 7197
+)
+"utilities/misc.ml" 240 7337 7366 "utilities/misc.ml" 240 7337 7367
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 235 7206 7220 "utilities/misc.ml" 235 7206 7221
+)
+"utilities/misc.ml" 240 7337 7368 "utilities/misc.ml" 240 7337 7370
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 240 7337 7345 "utilities/misc.ml" 240 7337 7347
+)
+"utilities/misc.ml" 240 7337 7371 "utilities/misc.ml" 240 7337 7373
+type(
+  'b
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 240 7337 7353 "utilities/misc.ml" 240 7337 7355
+)
+"utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7374
+call(
+  stack
+)
+type(
+  'c
+)
+"utilities/misc.ml" 240 7337 7377 "utilities/misc.ml" 240 7337 7380
+type(
+  int -> 'a list -> 'b list -> 'c list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 235 7206 7216 "utilities/misc.ml" 235 7206 7219
+)
+"utilities/misc.ml" 240 7337 7382 "utilities/misc.ml" 240 7337 7383
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 235 7206 7220 "utilities/misc.ml" 235 7206 7221
+)
+"utilities/misc.ml" 240 7337 7383 "utilities/misc.ml" 240 7337 7384
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 240 7337 7384 "utilities/misc.ml" 240 7337 7385
+type(
+  int
+)
+"utilities/misc.ml" 240 7337 7381 "utilities/misc.ml" 240 7337 7386
+type(
+  int
+)
+"utilities/misc.ml" 240 7337 7387 "utilities/misc.ml" 240 7337 7389
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 240 7337 7349 "utilities/misc.ml" 240 7337 7351
+)
+"utilities/misc.ml" 240 7337 7390 "utilities/misc.ml" 240 7337 7392
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 240 7337 7357 "utilities/misc.ml" 240 7337 7359
+)
+"utilities/misc.ml" 240 7337 7376 "utilities/misc.ml" 240 7337 7393
+call(
+  stack
+)
+type(
+  'c list
+)
+"utilities/misc.ml" 240 7337 7363 "utilities/misc.ml" 240 7337 7393
+type(
+  'c list
+)
+"utilities/misc.ml" 236 7230 7234 "utilities/misc.ml" 240 7337 7393
+type(
+  'c list
+)
+"utilities/misc.ml" 242 7399 7403 "utilities/misc.ml" 242 7399 7406
+type(
+  int -> 'a list -> 'b list -> 'c list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 235 7206 7216 "utilities/misc.ml" 235 7206 7219
+)
+"utilities/misc.ml" 242 7399 7407 "utilities/misc.ml" 242 7399 7408
+type(
+  int
+)
+"utilities/misc.ml" 242 7399 7409 "utilities/misc.ml" 242 7399 7411
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 234 7186 7198 "utilities/misc.ml" 234 7186 7200
+)
+"utilities/misc.ml" 242 7399 7412 "utilities/misc.ml" 242 7399 7414
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 234 7186 7201 "utilities/misc.ml" 234 7186 7203
+)
+"utilities/misc.ml" 242 7399 7403 "utilities/misc.ml" 242 7399 7414
+call(
+  tail
+)
+type(
+  'c list
+)
+"utilities/misc.ml" 235 7206 7208 "utilities/misc.ml" 242 7399 7414
+type(
+  'c list
+)
+"utilities/misc.ml" 244 7416 7420 "utilities/misc.ml" 244 7416 7425
+type(
+  (int -> 'a -> 'b -> 'c -> 'd) -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  def mapi3 "utilities/misc.ml" 256 7728 7728 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 244 7416 7426 "utilities/misc.ml" 244 7416 7427
+type(
+  int -> 'a -> 'b -> 'c -> 'd
+)
+ident(
+  def f "utilities/misc.ml" 244 7416 7428 "utilities/misc.ml" 254 7708 7726
+)
+"utilities/misc.ml" 244 7416 7428 "utilities/misc.ml" 244 7416 7430
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 244 7416 7431 "utilities/misc.ml" 254 7708 7726
+)
+"utilities/misc.ml" 244 7416 7431 "utilities/misc.ml" 244 7416 7433
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 244 7416 7434 "utilities/misc.ml" 254 7708 7726
+)
+"utilities/misc.ml" 244 7416 7434 "utilities/misc.ml" 244 7416 7436
+type(
+  'c list
+)
+ident(
+  def l3 "utilities/misc.ml" 245 7439 7441 "utilities/misc.ml" 254 7708 7726
+)
+"utilities/misc.ml" 245 7439 7449 "utilities/misc.ml" 245 7439 7452
+type(
+  int -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  def aux "utilities/misc.ml" 245 7439 7441 "utilities/misc.ml" 254 7708 7726
+)
+"utilities/misc.ml" 245 7439 7453 "utilities/misc.ml" 245 7439 7454
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 245 7439 7455 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 245 7439 7455 "utilities/misc.ml" 245 7439 7457
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 245 7439 7458 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 245 7439 7458 "utilities/misc.ml" 245 7439 7460
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 245 7439 7461 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 245 7439 7461 "utilities/misc.ml" 245 7439 7463
+type(
+  'c list
+)
+ident(
+  def l3 "utilities/misc.ml" 246 7466 7470 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 246 7466 7476 "utilities/misc.ml" 246 7466 7478
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 245 7439 7455 "utilities/misc.ml" 245 7439 7457
+)
+"utilities/misc.ml" 246 7466 7480 "utilities/misc.ml" 246 7466 7482
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 245 7439 7458 "utilities/misc.ml" 245 7439 7460
+)
+"utilities/misc.ml" 246 7466 7484 "utilities/misc.ml" 246 7466 7486
+type(
+  'c list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 245 7439 7461 "utilities/misc.ml" 245 7439 7463
+)
+"utilities/misc.ml" 246 7466 7476 "utilities/misc.ml" 246 7466 7486
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 247 7492 7500 "utilities/misc.ml" 247 7492 7502
+type(
+  'a list
+)
+"utilities/misc.ml" 247 7492 7504 "utilities/misc.ml" 247 7492 7506
+type(
+  'b list
+)
+"utilities/misc.ml" 247 7492 7508 "utilities/misc.ml" 247 7492 7510
+type(
+  'c list
+)
+"utilities/misc.ml" 247 7492 7500 "utilities/misc.ml" 247 7492 7510
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 247 7492 7514 "utilities/misc.ml" 247 7492 7516
+type(
+  'd list
+)
+"utilities/misc.ml" 248 7517 7525 "utilities/misc.ml" 248 7517 7527
+type(
+  'a list
+)
+"utilities/misc.ml" 248 7517 7529 "utilities/misc.ml" 248 7517 7530
+type(
+  'b list
+)
+"utilities/misc.ml" 248 7517 7532 "utilities/misc.ml" 248 7517 7533
+type(
+  'c list
+)
+"utilities/misc.ml" 248 7517 7525 "utilities/misc.ml" 248 7517 7533
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 248 7517 7537 "utilities/misc.ml" 248 7517 7548
+type(
+  string -> 'd list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 248 7517 7549 "utilities/misc.ml" 248 7517 7551
+type(
+  string
+)
+"utilities/misc.ml" 248 7517 7537 "utilities/misc.ml" 248 7517 7551
+call(
+  tail
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 249 7552 7560 "utilities/misc.ml" 249 7552 7561
+type(
+  'a list
+)
+"utilities/misc.ml" 249 7552 7563 "utilities/misc.ml" 249 7552 7565
+type(
+  'b list
+)
+"utilities/misc.ml" 249 7552 7567 "utilities/misc.ml" 249 7552 7568
+type(
+  'c list
+)
+"utilities/misc.ml" 249 7552 7560 "utilities/misc.ml" 249 7552 7568
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 249 7552 7572 "utilities/misc.ml" 249 7552 7583
+type(
+  string -> 'd list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 249 7552 7584 "utilities/misc.ml" 249 7552 7586
+type(
+  string
+)
+"utilities/misc.ml" 249 7552 7572 "utilities/misc.ml" 249 7552 7586
+call(
+  tail
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 250 7587 7595 "utilities/misc.ml" 250 7587 7596
+type(
+  'a list
+)
+"utilities/misc.ml" 250 7587 7598 "utilities/misc.ml" 250 7587 7599
+type(
+  'b list
+)
+"utilities/misc.ml" 250 7587 7601 "utilities/misc.ml" 250 7587 7603
+type(
+  'c list
+)
+"utilities/misc.ml" 250 7587 7595 "utilities/misc.ml" 250 7587 7603
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 250 7587 7607 "utilities/misc.ml" 250 7587 7618
+type(
+  string -> 'd list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 250 7587 7619 "utilities/misc.ml" 250 7587 7621
+type(
+  string
+)
+"utilities/misc.ml" 250 7587 7607 "utilities/misc.ml" 250 7587 7621
+call(
+  tail
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 251 7622 7630 "utilities/misc.ml" 251 7622 7632
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7634 "utilities/misc.ml" 251 7622 7636
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7630 "utilities/misc.ml" 251 7622 7636
+type(
+  'a list
+)
+"utilities/misc.ml" 251 7622 7638 "utilities/misc.ml" 251 7622 7640
+type(
+  'b
+)
+ident(
+  def v2 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7642 "utilities/misc.ml" 251 7622 7644
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7638 "utilities/misc.ml" 251 7622 7644
+type(
+  'b list
+)
+"utilities/misc.ml" 251 7622 7646 "utilities/misc.ml" 251 7622 7648
+type(
+  'c
+)
+ident(
+  def v3 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7650 "utilities/misc.ml" 251 7622 7652
+type(
+  'c list
+)
+ident(
+  def l3 "utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+)
+"utilities/misc.ml" 251 7622 7646 "utilities/misc.ml" 251 7622 7652
+type(
+  'c list
+)
+"utilities/misc.ml" 251 7622 7630 "utilities/misc.ml" 251 7622 7652
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 252 7656 7667 "utilities/misc.ml" 252 7656 7668
+type(
+  int -> 'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "utilities/misc.ml" 244 7416 7426 "utilities/misc.ml" 244 7416 7427
+)
+"utilities/misc.ml" 252 7656 7669 "utilities/misc.ml" 252 7656 7670
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 245 7439 7453 "utilities/misc.ml" 245 7439 7454
+)
+"utilities/misc.ml" 252 7656 7671 "utilities/misc.ml" 252 7656 7673
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 251 7622 7630 "utilities/misc.ml" 251 7622 7632
+)
+"utilities/misc.ml" 252 7656 7674 "utilities/misc.ml" 252 7656 7676
+type(
+  'b
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 251 7622 7638 "utilities/misc.ml" 251 7622 7640
+)
+"utilities/misc.ml" 252 7656 7677 "utilities/misc.ml" 252 7656 7679
+type(
+  'c
+)
+ident(
+  int_ref v3 "utilities/misc.ml" 251 7622 7646 "utilities/misc.ml" 251 7622 7648
+)
+"utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7680
+call(
+  stack
+)
+type(
+  'd
+)
+"utilities/misc.ml" 252 7656 7683 "utilities/misc.ml" 252 7656 7686
+type(
+  int -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 245 7439 7449 "utilities/misc.ml" 245 7439 7452
+)
+"utilities/misc.ml" 252 7656 7688 "utilities/misc.ml" 252 7656 7689
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 245 7439 7453 "utilities/misc.ml" 245 7439 7454
+)
+"utilities/misc.ml" 252 7656 7689 "utilities/misc.ml" 252 7656 7690
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 252 7656 7690 "utilities/misc.ml" 252 7656 7691
+type(
+  int
+)
+"utilities/misc.ml" 252 7656 7687 "utilities/misc.ml" 252 7656 7692
+type(
+  int
+)
+"utilities/misc.ml" 252 7656 7693 "utilities/misc.ml" 252 7656 7695
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 251 7622 7634 "utilities/misc.ml" 251 7622 7636
+)
+"utilities/misc.ml" 252 7656 7696 "utilities/misc.ml" 252 7656 7698
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 251 7622 7642 "utilities/misc.ml" 251 7622 7644
+)
+"utilities/misc.ml" 252 7656 7699 "utilities/misc.ml" 252 7656 7701
+type(
+  'c list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 251 7622 7650 "utilities/misc.ml" 251 7622 7652
+)
+"utilities/misc.ml" 252 7656 7682 "utilities/misc.ml" 252 7656 7702
+call(
+  stack
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 252 7656 7666 "utilities/misc.ml" 252 7656 7702
+type(
+  'd list
+)
+"utilities/misc.ml" 246 7466 7470 "utilities/misc.ml" 252 7656 7702
+type(
+  'd list
+)
+"utilities/misc.ml" 254 7708 7712 "utilities/misc.ml" 254 7708 7715
+type(
+  int -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  int_ref aux "utilities/misc.ml" 245 7439 7449 "utilities/misc.ml" 245 7439 7452
+)
+"utilities/misc.ml" 254 7708 7716 "utilities/misc.ml" 254 7708 7717
+type(
+  int
+)
+"utilities/misc.ml" 254 7708 7718 "utilities/misc.ml" 254 7708 7720
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 244 7416 7428 "utilities/misc.ml" 244 7416 7430
+)
+"utilities/misc.ml" 254 7708 7721 "utilities/misc.ml" 254 7708 7723
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 244 7416 7431 "utilities/misc.ml" 244 7416 7433
+)
+"utilities/misc.ml" 254 7708 7724 "utilities/misc.ml" 254 7708 7726
+type(
+  'c list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 244 7416 7434 "utilities/misc.ml" 244 7416 7436
+)
+"utilities/misc.ml" 254 7708 7712 "utilities/misc.ml" 254 7708 7726
+call(
+  tail
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 245 7439 7441 "utilities/misc.ml" 254 7708 7726
+type(
+  'd list
+)
+"utilities/misc.ml" 256 7728 7732 "utilities/misc.ml" 256 7728 7743
+type(
+  (int -> 'a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+)
+ident(
+  def fold_righti "utilities/misc.ml" 262 7867 7867 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 256 7728 7744 "utilities/misc.ml" 256 7728 7745
+type(
+  int -> 'a -> 'b -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 256 7728 7746 "utilities/misc.ml" 260 7852 7865
+)
+"utilities/misc.ml" 256 7728 7746 "utilities/misc.ml" 256 7728 7747
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 256 7728 7748 "utilities/misc.ml" 260 7852 7865
+)
+"utilities/misc.ml" 256 7728 7748 "utilities/misc.ml" 256 7728 7751
+type(
+  'b
+)
+ident(
+  def acc "utilities/misc.ml" 257 7754 7756 "utilities/misc.ml" 260 7852 7865
+)
+"utilities/misc.ml" 257 7754 7764 "utilities/misc.ml" 257 7754 7767
+type(
+  int -> 'a list -> 'b -> 'b
+)
+ident(
+  def aux "utilities/misc.ml" 257 7754 7756 "utilities/misc.ml" 260 7852 7865
+)
+"utilities/misc.ml" 257 7754 7768 "utilities/misc.ml" 257 7754 7769
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 257 7754 7770 "utilities/misc.ml" 259 7807 7848
+)
+"utilities/misc.ml" 257 7754 7770 "utilities/misc.ml" 257 7754 7771
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 257 7754 7772 "utilities/misc.ml" 259 7807 7848
+)
+"utilities/misc.ml" 257 7754 7772 "utilities/misc.ml" 257 7754 7775
+type(
+  'b
+)
+ident(
+  def acc "utilities/misc.ml" 257 7754 7778 "utilities/misc.ml" 259 7807 7848
+)
+"utilities/misc.ml" 257 7754 7784 "utilities/misc.ml" 257 7754 7785
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 257 7754 7770 "utilities/misc.ml" 257 7754 7771
+)
+"utilities/misc.ml" 258 7791 7797 "utilities/misc.ml" 258 7791 7799
+type(
+  'a list
+)
+"utilities/misc.ml" 258 7791 7803 "utilities/misc.ml" 258 7791 7806
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 257 7754 7772 "utilities/misc.ml" 257 7754 7775
+)
+"utilities/misc.ml" 259 7807 7813 "utilities/misc.ml" 259 7807 7814
+type(
+  'a
+)
+ident(
+  def h "utilities/misc.ml" 259 7807 7823 "utilities/misc.ml" 259 7807 7848
+)
+"utilities/misc.ml" 259 7807 7818 "utilities/misc.ml" 259 7807 7819
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 259 7807 7823 "utilities/misc.ml" 259 7807 7848
+)
+"utilities/misc.ml" 259 7807 7813 "utilities/misc.ml" 259 7807 7819
+type(
+  'a list
+)
+"utilities/misc.ml" 259 7807 7823 "utilities/misc.ml" 259 7807 7824
+type(
+  int -> 'a -> 'b -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 256 7728 7744 "utilities/misc.ml" 256 7728 7745
+)
+"utilities/misc.ml" 259 7807 7825 "utilities/misc.ml" 259 7807 7826
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 257 7754 7768 "utilities/misc.ml" 257 7754 7769
+)
+"utilities/misc.ml" 259 7807 7827 "utilities/misc.ml" 259 7807 7828
+type(
+  'a
+)
+ident(
+  int_ref h "utilities/misc.ml" 259 7807 7813 "utilities/misc.ml" 259 7807 7814
+)
+"utilities/misc.ml" 259 7807 7830 "utilities/misc.ml" 259 7807 7833
+type(
+  int -> 'a list -> 'b -> 'b
+)
+ident(
+  int_ref aux "utilities/misc.ml" 257 7754 7764 "utilities/misc.ml" 257 7754 7767
+)
+"utilities/misc.ml" 259 7807 7835 "utilities/misc.ml" 259 7807 7836
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 257 7754 7768 "utilities/misc.ml" 257 7754 7769
+)
+"utilities/misc.ml" 259 7807 7837 "utilities/misc.ml" 259 7807 7838
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 259 7807 7839 "utilities/misc.ml" 259 7807 7840
+type(
+  int
+)
+"utilities/misc.ml" 259 7807 7834 "utilities/misc.ml" 259 7807 7841
+type(
+  int
+)
+"utilities/misc.ml" 259 7807 7842 "utilities/misc.ml" 259 7807 7843
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 259 7807 7818 "utilities/misc.ml" 259 7807 7819
+)
+"utilities/misc.ml" 259 7807 7844 "utilities/misc.ml" 259 7807 7847
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 257 7754 7772 "utilities/misc.ml" 257 7754 7775
+)
+"utilities/misc.ml" 259 7807 7829 "utilities/misc.ml" 259 7807 7848
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 259 7807 7823 "utilities/misc.ml" 259 7807 7848
+call(
+  tail
+)
+type(
+  'b
+)
+"utilities/misc.ml" 257 7754 7778 "utilities/misc.ml" 259 7807 7848
+type(
+  'b
+)
+"utilities/misc.ml" 260 7852 7854 "utilities/misc.ml" 260 7852 7857
+type(
+  int -> 'a list -> 'b -> 'b
+)
+ident(
+  int_ref aux "utilities/misc.ml" 257 7754 7764 "utilities/misc.ml" 257 7754 7767
+)
+"utilities/misc.ml" 260 7852 7858 "utilities/misc.ml" 260 7852 7859
+type(
+  int
+)
+"utilities/misc.ml" 260 7852 7860 "utilities/misc.ml" 260 7852 7861
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 256 7728 7746 "utilities/misc.ml" 256 7728 7747
+)
+"utilities/misc.ml" 260 7852 7862 "utilities/misc.ml" 260 7852 7865
+type(
+  'b
+)
+ident(
+  int_ref acc "utilities/misc.ml" 256 7728 7748 "utilities/misc.ml" 256 7728 7751
+)
+"utilities/misc.ml" 260 7852 7854 "utilities/misc.ml" 260 7852 7865
+call(
+  tail
+)
+type(
+  'b
+)
+"utilities/misc.ml" 257 7754 7756 "utilities/misc.ml" 260 7852 7865
+type(
+  'b
+)
+"utilities/misc.ml" 262 7867 7875 "utilities/misc.ml" 262 7867 7879
+type(
+  ('a -> 'b -> 'c -> 'd) -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  def map3 "utilities/misc.ml" 262 7867 7867 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 262 7867 7880 "utilities/misc.ml" 262 7867 7881
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def f "utilities/misc.ml" 262 7867 7882 "utilities/misc.ml" 265 7998 8030
+)
+"utilities/misc.ml" 262 7867 7882 "utilities/misc.ml" 262 7867 7884
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 262 7867 7885 "utilities/misc.ml" 265 7998 8030
+)
+"utilities/misc.ml" 262 7867 7885 "utilities/misc.ml" 262 7867 7887
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 262 7867 7888 "utilities/misc.ml" 265 7998 8030
+)
+"utilities/misc.ml" 262 7867 7888 "utilities/misc.ml" 262 7867 7890
+type(
+  'c list
+)
+ident(
+  def l3 "utilities/misc.ml" 262 7867 7893 "utilities/misc.ml" 265 7998 8030
+)
+"utilities/misc.ml" 262 7867 7899 "utilities/misc.ml" 262 7867 7901
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 262 7867 7882 "utilities/misc.ml" 262 7867 7884
+)
+"utilities/misc.ml" 262 7867 7903 "utilities/misc.ml" 262 7867 7905
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 262 7867 7885 "utilities/misc.ml" 262 7867 7887
+)
+"utilities/misc.ml" 262 7867 7907 "utilities/misc.ml" 262 7867 7909
+type(
+  'c list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 262 7867 7888 "utilities/misc.ml" 262 7867 7890
+)
+"utilities/misc.ml" 262 7867 7899 "utilities/misc.ml" 262 7867 7909
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 263 7915 7919 "utilities/misc.ml" 263 7915 7921
+type(
+  'a list
+)
+"utilities/misc.ml" 263 7915 7923 "utilities/misc.ml" 263 7915 7925
+type(
+  'b list
+)
+"utilities/misc.ml" 263 7915 7927 "utilities/misc.ml" 263 7915 7929
+type(
+  'c list
+)
+"utilities/misc.ml" 263 7915 7919 "utilities/misc.ml" 263 7915 7929
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 263 7915 7933 "utilities/misc.ml" 263 7915 7935
+type(
+  'd list
+)
+"utilities/misc.ml" 264 7936 7940 "utilities/misc.ml" 264 7936 7942
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7944 "utilities/misc.ml" 264 7936 7946
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7940 "utilities/misc.ml" 264 7936 7946
+type(
+  'a list
+)
+"utilities/misc.ml" 264 7936 7948 "utilities/misc.ml" 264 7936 7950
+type(
+  'b
+)
+ident(
+  def v2 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7952 "utilities/misc.ml" 264 7936 7954
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7948 "utilities/misc.ml" 264 7936 7954
+type(
+  'b list
+)
+"utilities/misc.ml" 264 7936 7956 "utilities/misc.ml" 264 7936 7958
+type(
+  'c
+)
+ident(
+  def v3 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7960 "utilities/misc.ml" 264 7936 7962
+type(
+  'c list
+)
+ident(
+  def l3 "utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+)
+"utilities/misc.ml" 264 7936 7956 "utilities/misc.ml" 264 7936 7962
+type(
+  'c list
+)
+"utilities/misc.ml" 264 7936 7940 "utilities/misc.ml" 264 7936 7962
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 264 7936 7967 "utilities/misc.ml" 264 7936 7968
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "utilities/misc.ml" 262 7867 7880 "utilities/misc.ml" 262 7867 7881
+)
+"utilities/misc.ml" 264 7936 7969 "utilities/misc.ml" 264 7936 7971
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 264 7936 7940 "utilities/misc.ml" 264 7936 7942
+)
+"utilities/misc.ml" 264 7936 7972 "utilities/misc.ml" 264 7936 7974
+type(
+  'b
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 264 7936 7948 "utilities/misc.ml" 264 7936 7950
+)
+"utilities/misc.ml" 264 7936 7975 "utilities/misc.ml" 264 7936 7977
+type(
+  'c
+)
+ident(
+  int_ref v3 "utilities/misc.ml" 264 7936 7956 "utilities/misc.ml" 264 7936 7958
+)
+"utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7978
+call(
+  stack
+)
+type(
+  'd
+)
+"utilities/misc.ml" 264 7936 7981 "utilities/misc.ml" 264 7936 7985
+type(
+  ('a -> 'b -> 'c -> 'd) -> 'a list -> 'b list -> 'c list -> 'd list
+)
+ident(
+  int_ref map3 "utilities/misc.ml" 262 7867 7875 "utilities/misc.ml" 262 7867 7879
+)
+"utilities/misc.ml" 264 7936 7986 "utilities/misc.ml" 264 7936 7987
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "utilities/misc.ml" 262 7867 7880 "utilities/misc.ml" 262 7867 7881
+)
+"utilities/misc.ml" 264 7936 7988 "utilities/misc.ml" 264 7936 7990
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 264 7936 7944 "utilities/misc.ml" 264 7936 7946
+)
+"utilities/misc.ml" 264 7936 7991 "utilities/misc.ml" 264 7936 7993
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 264 7936 7952 "utilities/misc.ml" 264 7936 7954
+)
+"utilities/misc.ml" 264 7936 7994 "utilities/misc.ml" 264 7936 7996
+type(
+  'c list
+)
+ident(
+  int_ref l3 "utilities/misc.ml" 264 7936 7960 "utilities/misc.ml" 264 7936 7962
+)
+"utilities/misc.ml" 264 7936 7980 "utilities/misc.ml" 264 7936 7997
+call(
+  stack
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 264 7936 7966 "utilities/misc.ml" 264 7936 7997
+type(
+  'd list
+)
+"utilities/misc.ml" 265 7998 8002 "utilities/misc.ml" 265 7998 8003
+type(
+  'a list * 'b list * 'c list
+)
+"utilities/misc.ml" 265 7998 8007 "utilities/misc.ml" 265 7998 8018
+type(
+  string -> 'd list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"utilities/misc.ml" 265 7998 8019 "utilities/misc.ml" 265 7998 8030
+type(
+  string
+)
+"utilities/misc.ml" 265 7998 8007 "utilities/misc.ml" 265 7998 8030
+call(
+  tail
+)
+type(
+  'd list
+)
+"utilities/misc.ml" 262 7867 7893 "utilities/misc.ml" 265 7998 8030
+type(
+  'd list
+)
+"utilities/misc.ml" 268 8055 8059 "utilities/misc.ml" 268 8055 8073
+type(
+  string -> 'a
+)
+ident(
+  def internal_error "utilities/misc.ml" 275 8256 8256 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 268 8055 8074 "utilities/misc.ml" 268 8055 8079
+type(
+  string
+)
+ident(
+  def passe "utilities/misc.ml" 269 8082 8084 "utilities/misc.ml" 273 8234 8254
+)
+"utilities/misc.ml" 269 8082 8084 "utilities/misc.ml" 269 8082 8098
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/misc.ml" 269 8082 8099 "utilities/misc.ml" 272 8195 8226
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utilities/misc.ml" 272 8195 8227 "utilities/misc.ml" 272 8195 8232
+type(
+  string
+)
+ident(
+  int_ref passe "utilities/misc.ml" 268 8055 8074 "utilities/misc.ml" 268 8055 8079
+)
+"utilities/misc.ml" 269 8082 8084 "utilities/misc.ml" 272 8195 8232
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 273 8234 8236 "utilities/misc.ml" 273 8234 8241
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 273 8234 8242 "utilities/misc.ml" 273 8234 8254
+type(
+  exn
+)
+"utilities/misc.ml" 273 8234 8236 "utilities/misc.ml" 273 8234 8254
+type(
+  'a
+)
+"utilities/misc.ml" 269 8082 8084 "utilities/misc.ml" 273 8234 8254
+type(
+  'a
+)
+"utilities/misc.ml" 276 8278 8282 "utilities/misc.ml" 276 8278 8293
+type(
+  string -> 'a
+)
+ident(
+  def unsupported "utilities/misc.ml" 284 8484 8484 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 276 8278 8294 "utilities/misc.ml" 276 8278 8299
+type(
+  string
+)
+ident(
+  def passe "utilities/misc.ml" 277 8302 8304 "utilities/misc.ml" 281 8414 8433
+)
+"utilities/misc.ml" 277 8302 8304 "utilities/misc.ml" 277 8302 8318
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/misc.ml" 277 8302 8319 "utilities/misc.ml" 280 8393 8406
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utilities/misc.ml" 280 8393 8407 "utilities/misc.ml" 280 8393 8412
+type(
+  string
+)
+ident(
+  int_ref passe "utilities/misc.ml" 276 8278 8294 "utilities/misc.ml" 276 8278 8299
+)
+"utilities/misc.ml" 277 8302 8304 "utilities/misc.ml" 280 8393 8412
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 281 8414 8416 "utilities/misc.ml" 281 8414 8421
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 281 8414 8422 "utilities/misc.ml" 281 8414 8433
+type(
+  exn
+)
+"utilities/misc.ml" 281 8414 8416 "utilities/misc.ml" 281 8414 8433
+type(
+  'a
+)
+"utilities/misc.ml" 277 8302 8304 "utilities/misc.ml" 281 8414 8433
+type(
+  'a
+)
+"utilities/misc.ml" 284 8484 8488 "utilities/misc.ml" 284 8484 8500
+type(
+  int -> 'a list -> 'b
+)
+ident(
+  def _arity_error "utilities/misc.ml" 290 8666 8666 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 284 8484 8501 "utilities/misc.ml" 284 8484 8502
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 284 8484 8503 "utilities/misc.ml" 288 8644 8664
+)
+"utilities/misc.ml" 284 8484 8503 "utilities/misc.ml" 284 8484 8504
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 285 8507 8509 "utilities/misc.ml" 288 8644 8664
+)
+"utilities/misc.ml" 285 8507 8509 "utilities/misc.ml" 285 8507 8523
+type(
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/misc.ml" 285 8507 8524 "utilities/misc.ml" 287 8611 8624
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"utilities/misc.ml" 287 8611 8626 "utilities/misc.ml" 287 8611 8637
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"utilities/misc.ml" 287 8611 8638 "utilities/misc.ml" 287 8611 8639
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 284 8484 8503 "utilities/misc.ml" 284 8484 8504
+)
+"utilities/misc.ml" 287 8611 8625 "utilities/misc.ml" 287 8611 8640
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/misc.ml" 287 8611 8641 "utilities/misc.ml" 287 8611 8642
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 284 8484 8501 "utilities/misc.ml" 284 8484 8502
+)
+"utilities/misc.ml" 285 8507 8509 "utilities/misc.ml" 287 8611 8642
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 288 8644 8646 "utilities/misc.ml" 288 8644 8651
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 288 8644 8652 "utilities/misc.ml" 288 8644 8664
+type(
+  exn
+)
+"utilities/misc.ml" 288 8644 8646 "utilities/misc.ml" 288 8644 8664
+type(
+  'b
+)
+"utilities/misc.ml" 285 8507 8509 "utilities/misc.ml" 288 8644 8664
+type(
+  'b
+)
+"utilities/misc.ml" 290 8666 8670 "utilities/misc.ml" 290 8666 8686
+type(
+  int -> 'a list -> 'b
+)
+ident(
+  def _arity_min_error "utilities/misc.ml" 296 8861 8861 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 290 8666 8687 "utilities/misc.ml" 290 8666 8688
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 290 8666 8689 "utilities/misc.ml" 294 8839 8859
+)
+"utilities/misc.ml" 290 8666 8689 "utilities/misc.ml" 290 8666 8690
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 291 8693 8695 "utilities/misc.ml" 294 8839 8859
+)
+"utilities/misc.ml" 291 8693 8695 "utilities/misc.ml" 291 8693 8709
+type(
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/misc.ml" 291 8693 8710 "utilities/misc.ml" 293 8806 8819
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"utilities/misc.ml" 293 8806 8821 "utilities/misc.ml" 293 8806 8832
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"utilities/misc.ml" 293 8806 8833 "utilities/misc.ml" 293 8806 8834
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 290 8666 8689 "utilities/misc.ml" 290 8666 8690
+)
+"utilities/misc.ml" 293 8806 8820 "utilities/misc.ml" 293 8806 8835
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/misc.ml" 293 8806 8836 "utilities/misc.ml" 293 8806 8837
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 290 8666 8687 "utilities/misc.ml" 290 8666 8688
+)
+"utilities/misc.ml" 291 8693 8695 "utilities/misc.ml" 293 8806 8837
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 294 8839 8841 "utilities/misc.ml" 294 8839 8846
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/misc.ml" 294 8839 8847 "utilities/misc.ml" 294 8839 8859
+type(
+  exn
+)
+"utilities/misc.ml" 294 8839 8841 "utilities/misc.ml" 294 8839 8859
+type(
+  'b
+)
+"utilities/misc.ml" 291 8693 8695 "utilities/misc.ml" 294 8839 8859
+type(
+  'b
+)
+"utilities/misc.ml" 296 8861 8865 "utilities/misc.ml" 296 8861 8877
+type(
+  'a list -> unit
+)
+ident(
+  def assert_empty "utilities/misc.ml" 300 8929 8929 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 297 8889 8893 "utilities/misc.ml" 297 8889 8895
+type(
+  'a list
+)
+"utilities/misc.ml" 297 8889 8899 "utilities/misc.ml" 297 8889 8901
+type(
+  unit
+)
+"utilities/misc.ml" 298 8902 8906 "utilities/misc.ml" 298 8902 8907
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 298 8902 8911 "utilities/misc.ml" 298 8902 8927
+)
+"utilities/misc.ml" 298 8902 8911 "utilities/misc.ml" 298 8902 8923
+type(
+  int -> 'a list -> unit
+)
+ident(
+  int_ref _arity_error "utilities/misc.ml" 284 8484 8488 "utilities/misc.ml" 284 8484 8500
+)
+"utilities/misc.ml" 298 8902 8924 "utilities/misc.ml" 298 8902 8925
+type(
+  int
+)
+"utilities/misc.ml" 298 8902 8926 "utilities/misc.ml" 298 8902 8927
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 298 8902 8906 "utilities/misc.ml" 298 8902 8907
+)
+"utilities/misc.ml" 298 8902 8911 "utilities/misc.ml" 298 8902 8927
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 296 8861 8880 "utilities/misc.ml" 298 8902 8927
+type(
+  'a list -> unit
+)
+"utilities/misc.ml" 300 8929 8933 "utilities/misc.ml" 300 8929 8941
+type(
+  'a list -> 'a
+)
+ident(
+  def assert_1 "utilities/misc.ml" 304 8993 8993 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 301 8953 8958 "utilities/misc.ml" 301 8953 8959
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 301 8953 8964 "utilities/misc.ml" 301 8953 8965
+)
+"utilities/misc.ml" 301 8953 8957 "utilities/misc.ml" 301 8953 8960
+type(
+  'a list
+)
+"utilities/misc.ml" 301 8953 8964 "utilities/misc.ml" 301 8953 8965
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 301 8953 8958 "utilities/misc.ml" 301 8953 8959
+)
+"utilities/misc.ml" 302 8966 8970 "utilities/misc.ml" 302 8966 8971
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 302 8966 8975 "utilities/misc.ml" 302 8966 8991
+)
+"utilities/misc.ml" 302 8966 8975 "utilities/misc.ml" 302 8966 8987
+type(
+  int -> 'a list -> 'a
+)
+ident(
+  int_ref _arity_error "utilities/misc.ml" 284 8484 8488 "utilities/misc.ml" 284 8484 8500
+)
+"utilities/misc.ml" 302 8966 8988 "utilities/misc.ml" 302 8966 8989
+type(
+  int
+)
+"utilities/misc.ml" 302 8966 8990 "utilities/misc.ml" 302 8966 8991
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 302 8966 8970 "utilities/misc.ml" 302 8966 8971
+)
+"utilities/misc.ml" 302 8966 8975 "utilities/misc.ml" 302 8966 8991
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/misc.ml" 300 8929 8944 "utilities/misc.ml" 302 8966 8991
+type(
+  'a list -> 'a
+)
+"utilities/misc.ml" 304 8993 8997 "utilities/misc.ml" 304 8993 9008
+type(
+  'a list -> 'a * 'a list
+)
+ident(
+  def assert_1min "utilities/misc.ml" 308 9068 9068 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 305 9020 9024 "utilities/misc.ml" 305 9020 9025
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 305 9020 9032 "utilities/misc.ml" 305 9020 9036
+)
+"utilities/misc.ml" 305 9020 9027 "utilities/misc.ml" 305 9020 9028
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 305 9020 9032 "utilities/misc.ml" 305 9020 9036
+)
+"utilities/misc.ml" 305 9020 9024 "utilities/misc.ml" 305 9020 9028
+type(
+  'a list
+)
+"utilities/misc.ml" 305 9020 9032 "utilities/misc.ml" 305 9020 9033
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 305 9020 9024 "utilities/misc.ml" 305 9020 9025
+)
+"utilities/misc.ml" 305 9020 9035 "utilities/misc.ml" 305 9020 9036
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 305 9020 9027 "utilities/misc.ml" 305 9020 9028
+)
+"utilities/misc.ml" 305 9020 9032 "utilities/misc.ml" 305 9020 9036
+type(
+  'a * 'a list
+)
+"utilities/misc.ml" 306 9037 9041 "utilities/misc.ml" 306 9037 9042
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 306 9037 9046 "utilities/misc.ml" 306 9037 9066
+)
+"utilities/misc.ml" 306 9037 9046 "utilities/misc.ml" 306 9037 9062
+type(
+  int -> 'a list -> 'a * 'a list
+)
+ident(
+  int_ref _arity_min_error "utilities/misc.ml" 290 8666 8670 "utilities/misc.ml" 290 8666 8686
+)
+"utilities/misc.ml" 306 9037 9063 "utilities/misc.ml" 306 9037 9064
+type(
+  int
+)
+"utilities/misc.ml" 306 9037 9065 "utilities/misc.ml" 306 9037 9066
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 306 9037 9041 "utilities/misc.ml" 306 9037 9042
+)
+"utilities/misc.ml" 306 9037 9046 "utilities/misc.ml" 306 9037 9066
+call(
+  tail
+)
+type(
+  'a * 'a list
+)
+"utilities/misc.ml" 304 8993 9011 "utilities/misc.ml" 306 9037 9066
+type(
+  'a list -> 'a * 'a list
+)
+"utilities/misc.ml" 308 9068 9072 "utilities/misc.ml" 308 9068 9080
+type(
+  'a list -> 'a * 'a
+)
+ident(
+  def assert_2 "utilities/misc.ml" 312 9142 9142 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 309 9092 9097 "utilities/misc.ml" 309 9092 9099
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 309 9092 9108 "utilities/misc.ml" 309 9092 9114
+)
+"utilities/misc.ml" 309 9092 9101 "utilities/misc.ml" 309 9092 9103
+type(
+  'a
+)
+ident(
+  def v2 "utilities/misc.ml" 309 9092 9108 "utilities/misc.ml" 309 9092 9114
+)
+"utilities/misc.ml" 309 9092 9096 "utilities/misc.ml" 309 9092 9104
+type(
+  'a list
+)
+"utilities/misc.ml" 309 9092 9108 "utilities/misc.ml" 309 9092 9110
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 309 9092 9097 "utilities/misc.ml" 309 9092 9099
+)
+"utilities/misc.ml" 309 9092 9112 "utilities/misc.ml" 309 9092 9114
+type(
+  'a
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 309 9092 9101 "utilities/misc.ml" 309 9092 9103
+)
+"utilities/misc.ml" 309 9092 9108 "utilities/misc.ml" 309 9092 9114
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 310 9115 9119 "utilities/misc.ml" 310 9115 9120
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 310 9115 9124 "utilities/misc.ml" 310 9115 9140
+)
+"utilities/misc.ml" 310 9115 9124 "utilities/misc.ml" 310 9115 9136
+type(
+  int -> 'a list -> 'a * 'a
+)
+ident(
+  int_ref _arity_error "utilities/misc.ml" 284 8484 8488 "utilities/misc.ml" 284 8484 8500
+)
+"utilities/misc.ml" 310 9115 9137 "utilities/misc.ml" 310 9115 9138
+type(
+  int
+)
+"utilities/misc.ml" 310 9115 9139 "utilities/misc.ml" 310 9115 9140
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 310 9115 9119 "utilities/misc.ml" 310 9115 9120
+)
+"utilities/misc.ml" 310 9115 9124 "utilities/misc.ml" 310 9115 9140
+call(
+  tail
+)
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 308 9068 9083 "utilities/misc.ml" 310 9115 9140
+type(
+  'a list -> 'a * 'a
+)
+"utilities/misc.ml" 312 9142 9146 "utilities/misc.ml" 312 9142 9157
+type(
+  'a list -> 'a * 'a * 'a list
+)
+ident(
+  def assert_2min "utilities/misc.ml" 316 9227 9227 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 313 9169 9173 "utilities/misc.ml" 313 9169 9175
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 313 9169 9186 "utilities/misc.ml" 313 9169 9195
+)
+"utilities/misc.ml" 313 9169 9177 "utilities/misc.ml" 313 9169 9179
+type(
+  'a
+)
+ident(
+  def v2 "utilities/misc.ml" 313 9169 9186 "utilities/misc.ml" 313 9169 9195
+)
+"utilities/misc.ml" 313 9169 9181 "utilities/misc.ml" 313 9169 9182
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 313 9169 9186 "utilities/misc.ml" 313 9169 9195
+)
+"utilities/misc.ml" 313 9169 9177 "utilities/misc.ml" 313 9169 9182
+type(
+  'a list
+)
+"utilities/misc.ml" 313 9169 9173 "utilities/misc.ml" 313 9169 9182
+type(
+  'a list
+)
+"utilities/misc.ml" 313 9169 9186 "utilities/misc.ml" 313 9169 9188
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 313 9169 9173 "utilities/misc.ml" 313 9169 9175
+)
+"utilities/misc.ml" 313 9169 9190 "utilities/misc.ml" 313 9169 9192
+type(
+  'a
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 313 9169 9177 "utilities/misc.ml" 313 9169 9179
+)
+"utilities/misc.ml" 313 9169 9194 "utilities/misc.ml" 313 9169 9195
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 313 9169 9181 "utilities/misc.ml" 313 9169 9182
+)
+"utilities/misc.ml" 313 9169 9186 "utilities/misc.ml" 313 9169 9195
+type(
+  'a * 'a * 'a list
+)
+"utilities/misc.ml" 314 9196 9200 "utilities/misc.ml" 314 9196 9201
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 314 9196 9205 "utilities/misc.ml" 314 9196 9225
+)
+"utilities/misc.ml" 314 9196 9205 "utilities/misc.ml" 314 9196 9221
+type(
+  int -> 'a list -> 'a * 'a * 'a list
+)
+ident(
+  int_ref _arity_min_error "utilities/misc.ml" 290 8666 8670 "utilities/misc.ml" 290 8666 8686
+)
+"utilities/misc.ml" 314 9196 9222 "utilities/misc.ml" 314 9196 9223
+type(
+  int
+)
+"utilities/misc.ml" 314 9196 9224 "utilities/misc.ml" 314 9196 9225
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 314 9196 9200 "utilities/misc.ml" 314 9196 9201
+)
+"utilities/misc.ml" 314 9196 9205 "utilities/misc.ml" 314 9196 9225
+call(
+  tail
+)
+type(
+  'a * 'a * 'a list
+)
+"utilities/misc.ml" 312 9142 9160 "utilities/misc.ml" 314 9196 9225
+type(
+  'a list -> 'a * 'a * 'a list
+)
+"utilities/misc.ml" 316 9227 9231 "utilities/misc.ml" 316 9227 9239
+type(
+  'a list -> 'a * 'a * 'a
+)
+ident(
+  def assert_3 "utilities/misc.ml" 320 9309 9309 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 317 9251 9256 "utilities/misc.ml" 317 9251 9258
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 317 9251 9271 "utilities/misc.ml" 317 9251 9281
+)
+"utilities/misc.ml" 317 9251 9260 "utilities/misc.ml" 317 9251 9262
+type(
+  'a
+)
+ident(
+  def v2 "utilities/misc.ml" 317 9251 9271 "utilities/misc.ml" 317 9251 9281
+)
+"utilities/misc.ml" 317 9251 9264 "utilities/misc.ml" 317 9251 9266
+type(
+  'a
+)
+ident(
+  def v3 "utilities/misc.ml" 317 9251 9271 "utilities/misc.ml" 317 9251 9281
+)
+"utilities/misc.ml" 317 9251 9255 "utilities/misc.ml" 317 9251 9267
+type(
+  'a list
+)
+"utilities/misc.ml" 317 9251 9271 "utilities/misc.ml" 317 9251 9273
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 317 9251 9256 "utilities/misc.ml" 317 9251 9258
+)
+"utilities/misc.ml" 317 9251 9275 "utilities/misc.ml" 317 9251 9277
+type(
+  'a
+)
+ident(
+  int_ref v2 "utilities/misc.ml" 317 9251 9260 "utilities/misc.ml" 317 9251 9262
+)
+"utilities/misc.ml" 317 9251 9279 "utilities/misc.ml" 317 9251 9281
+type(
+  'a
+)
+ident(
+  int_ref v3 "utilities/misc.ml" 317 9251 9264 "utilities/misc.ml" 317 9251 9266
+)
+"utilities/misc.ml" 317 9251 9271 "utilities/misc.ml" 317 9251 9281
+type(
+  'a * 'a * 'a
+)
+"utilities/misc.ml" 318 9282 9286 "utilities/misc.ml" 318 9282 9287
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 318 9282 9291 "utilities/misc.ml" 318 9282 9307
+)
+"utilities/misc.ml" 318 9282 9291 "utilities/misc.ml" 318 9282 9303
+type(
+  int -> 'a list -> 'a * 'a * 'a
+)
+ident(
+  int_ref _arity_error "utilities/misc.ml" 284 8484 8488 "utilities/misc.ml" 284 8484 8500
+)
+"utilities/misc.ml" 318 9282 9304 "utilities/misc.ml" 318 9282 9305
+type(
+  int
+)
+"utilities/misc.ml" 318 9282 9306 "utilities/misc.ml" 318 9282 9307
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 318 9282 9286 "utilities/misc.ml" 318 9282 9287
+)
+"utilities/misc.ml" 318 9282 9291 "utilities/misc.ml" 318 9282 9307
+call(
+  tail
+)
+type(
+  'a * 'a * 'a
+)
+"utilities/misc.ml" 316 9227 9242 "utilities/misc.ml" 318 9282 9307
+type(
+  'a list -> 'a * 'a * 'a
+)
+"utilities/misc.ml" 320 9309 9313 "utilities/misc.ml" 320 9309 9317
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def |> "utilities/misc.ml" 322 9329 9329 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 320 9309 9318 "utilities/misc.ml" 320 9309 9319
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 320 9309 9320 "utilities/misc.ml" 320 9309 9327
+)
+"utilities/misc.ml" 320 9309 9320 "utilities/misc.ml" 320 9309 9321
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 320 9309 9324 "utilities/misc.ml" 320 9309 9327
+)
+"utilities/misc.ml" 320 9309 9324 "utilities/misc.ml" 320 9309 9325
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 320 9309 9320 "utilities/misc.ml" 320 9309 9321
+)
+"utilities/misc.ml" 320 9309 9326 "utilities/misc.ml" 320 9309 9327
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 320 9309 9318 "utilities/misc.ml" 320 9309 9319
+)
+"utilities/misc.ml" 320 9309 9324 "utilities/misc.ml" 320 9309 9327
+call(
+  tail
+)
+type(
+  'b
+)
+"utilities/misc.ml" 322 9329 9333 "utilities/misc.ml" 322 9329 9345
+type(
+  string -> string -> string list
+)
+ident(
+  def split_string "utilities/misc.ml" 324 9412 9412 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 322 9329 9346 "utilities/misc.ml" 322 9329 9347
+type(
+  string
+)
+ident(
+  def s "utilities/misc.ml" 322 9329 9348 "utilities/misc.ml" 322 9329 9410
+)
+"utilities/misc.ml" 322 9329 9348 "utilities/misc.ml" 322 9329 9357
+type(
+  string
+)
+ident(
+  def separator "utilities/misc.ml" 322 9329 9360 "utilities/misc.ml" 322 9329 9410
+)
+"utilities/misc.ml" 322 9329 9360 "utilities/misc.ml" 322 9329 9369
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"utilities/misc.ml" 322 9329 9371 "utilities/misc.ml" 322 9329 9380
+type(
+  string
+)
+ident(
+  int_ref separator "utilities/misc.ml" 322 9329 9348 "utilities/misc.ml" 322 9329 9357
+)
+"utilities/misc.ml" 322 9329 9381 "utilities/misc.ml" 322 9329 9383
+type(
+  string -> (string -> string) -> string
+)
+ident(
+  int_ref |> "utilities/misc.ml" 320 9309 9313 "utilities/misc.ml" 320 9309 9317
+)
+"utilities/misc.ml" 322 9329 9384 "utilities/misc.ml" 322 9329 9393
+type(
+  string -> string
+)
+ident(
+  ext_ref Str.quote
+)
+"utilities/misc.ml" 322 9329 9371 "utilities/misc.ml" 322 9329 9393
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/misc.ml" 322 9329 9394 "utilities/misc.ml" 322 9329 9396
+type(
+  string -> (string -> Str.regexp) -> Str.regexp
+)
+ident(
+  int_ref |> "utilities/misc.ml" 320 9309 9313 "utilities/misc.ml" 320 9309 9317
+)
+"utilities/misc.ml" 322 9329 9397 "utilities/misc.ml" 322 9329 9407
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"utilities/misc.ml" 322 9329 9370 "utilities/misc.ml" 322 9329 9408
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"utilities/misc.ml" 322 9329 9409 "utilities/misc.ml" 322 9329 9410
+type(
+  string
+)
+ident(
+  int_ref s "utilities/misc.ml" 322 9329 9346 "utilities/misc.ml" 322 9329 9347
+)
+"utilities/misc.ml" 322 9329 9360 "utilities/misc.ml" 322 9329 9410
+call(
+  tail
+)
+type(
+  string list
+)
+"utilities/misc.ml" 324 9412 9416 "utilities/misc.ml" 324 9412 9430
+type(
+  string -> string
+)
+ident(
+  def file_extension "utilities/misc.ml" 327 9516 9516 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 324 9412 9431 "utilities/misc.ml" 324 9412 9432
+type(
+  string
+)
+ident(
+  def s "utilities/misc.ml" 324 9412 9435 "utilities/misc.ml" 324 9412 9469
+)
+"utilities/misc.ml" 324 9412 9435 "utilities/misc.ml" 324 9412 9447
+type(
+  string -> string -> string list
+)
+ident(
+  int_ref split_string "utilities/misc.ml" 322 9329 9333 "utilities/misc.ml" 322 9329 9345
+)
+"utilities/misc.ml" 324 9412 9448 "utilities/misc.ml" 324 9412 9449
+type(
+  string
+)
+ident(
+  int_ref s "utilities/misc.ml" 324 9412 9431 "utilities/misc.ml" 324 9412 9432
+)
+"utilities/misc.ml" 324 9412 9450 "utilities/misc.ml" 324 9412 9453
+type(
+  string
+)
+"utilities/misc.ml" 324 9412 9435 "utilities/misc.ml" 324 9412 9453
+call(
+  stack
+)
+type(
+  string list
+)
+"utilities/misc.ml" 324 9412 9454 "utilities/misc.ml" 324 9412 9456
+type(
+  string list -> (string list -> string) -> string
+)
+ident(
+  int_ref |> "utilities/misc.ml" 320 9309 9313 "utilities/misc.ml" 320 9309 9317
+)
+"utilities/misc.ml" 324 9412 9457 "utilities/misc.ml" 324 9412 9469
+type(
+  string list -> string
+)
+ident(
+  int_ref last_element "utilities/misc.ml" 85 3429 3437 "utilities/misc.ml" 85 3429 3449
+)
+"utilities/misc.ml" 324 9412 9435 "utilities/misc.ml" 324 9412 9469
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/misc.ml" 327 9516 9520 "utilities/misc.ml" 327 9516 9527
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def memoize "utilities/misc.ml" 337 9812 9812 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 327 9516 9528 "utilities/misc.ml" 327 9516 9529
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 328 9532 9534 "utilities/misc.ml" 333 9627 9687
+)
+"utilities/misc.ml" 328 9532 9538 "utilities/misc.ml" 328 9532 9541
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def map "utilities/misc.ml" 329 9566 9570 "utilities/misc.ml" 333 9627 9687
+)
+"utilities/misc.ml" 328 9532 9544 "utilities/misc.ml" 328 9532 9558
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"utilities/misc.ml" 328 9532 9559 "utilities/misc.ml" 328 9532 9562
+type(
+  int
+)
+"utilities/misc.ml" 328 9532 9544 "utilities/misc.ml" 328 9532 9562
+call(
+  stack
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"utilities/misc.ml" 329 9566 9574 "utilities/misc.ml" 329 9566 9575
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 330 9579 9585 "utilities/misc.ml" 333 9627 9687
+)
+"utilities/misc.ml" 331 9589 9597 "utilities/misc.ml" 331 9589 9609
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"utilities/misc.ml" 331 9589 9610 "utilities/misc.ml" 331 9589 9613
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref map "utilities/misc.ml" 328 9532 9538 "utilities/misc.ml" 328 9532 9541
+)
+"utilities/misc.ml" 331 9589 9614 "utilities/misc.ml" 331 9589 9615
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 329 9566 9574 "utilities/misc.ml" 329 9566 9575
+)
+"utilities/misc.ml" 331 9589 9597 "utilities/misc.ml" 331 9589 9615
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 333 9627 9637 "utilities/misc.ml" 333 9627 9646
+type(
+  exn
+)
+"utilities/misc.ml" 333 9627 9654 "utilities/misc.ml" 333 9627 9655
+type(
+  'b
+)
+ident(
+  def r "utilities/misc.ml" 333 9627 9665 "utilities/misc.ml" 333 9627 9687
+)
+"utilities/misc.ml" 333 9627 9658 "utilities/misc.ml" 333 9627 9659
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 327 9516 9528 "utilities/misc.ml" 327 9516 9529
+)
+"utilities/misc.ml" 333 9627 9660 "utilities/misc.ml" 333 9627 9661
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 329 9566 9574 "utilities/misc.ml" 329 9566 9575
+)
+"utilities/misc.ml" 333 9627 9658 "utilities/misc.ml" 333 9627 9661
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 333 9627 9665 "utilities/misc.ml" 333 9627 9676
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"utilities/misc.ml" 333 9627 9677 "utilities/misc.ml" 333 9627 9680
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref map "utilities/misc.ml" 328 9532 9538 "utilities/misc.ml" 328 9532 9541
+)
+"utilities/misc.ml" 333 9627 9681 "utilities/misc.ml" 333 9627 9682
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 329 9566 9574 "utilities/misc.ml" 329 9566 9575
+)
+"utilities/misc.ml" 333 9627 9683 "utilities/misc.ml" 333 9627 9684
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/misc.ml" 333 9627 9654 "utilities/misc.ml" 333 9627 9655
+)
+"utilities/misc.ml" 333 9627 9665 "utilities/misc.ml" 333 9627 9684
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 333 9627 9686 "utilities/misc.ml" 333 9627 9687
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/misc.ml" 333 9627 9654 "utilities/misc.ml" 333 9627 9655
+)
+"utilities/misc.ml" 333 9627 9665 "utilities/misc.ml" 333 9627 9687
+type(
+  'b
+)
+"utilities/misc.ml" 333 9627 9650 "utilities/misc.ml" 333 9627 9687
+type(
+  'b
+)
+"utilities/misc.ml" 330 9579 9585 "utilities/misc.ml" 333 9627 9687
+type(
+  'b
+)
+"utilities/misc.ml" 329 9566 9570 "utilities/misc.ml" 333 9627 9687
+type(
+  'a -> 'b
+)
+"utilities/misc.ml" 328 9532 9534 "utilities/misc.ml" 333 9627 9687
+type(
+  'a -> 'b
+)
+"utilities/misc.ml" 337 9812 9816 "utilities/misc.ml" 337 9812 9830
+type(
+  ('a * 'a -> 'b) -> 'a * 'a -> 'b
+)
+ident(
+  def memoize_couple "utilities/misc.ml" 347 10112 10112 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 337 9812 9831 "utilities/misc.ml" 337 9812 9832
+type(
+  'a * 'a -> 'b
+)
+ident(
+  def f "utilities/misc.ml" 338 9835 9837 "utilities/misc.ml" 344 9961 10043
+)
+"utilities/misc.ml" 338 9835 9841 "utilities/misc.ml" 338 9835 9844
+type(
+  ('a * 'a, 'b) Hashtbl.t
+)
+ident(
+  def map "utilities/misc.ml" 339 9869 9873 "utilities/misc.ml" 344 9961 10043
+)
+"utilities/misc.ml" 338 9835 9847 "utilities/misc.ml" 338 9835 9861
+type(
+  ?random:bool -> int -> ('a * 'a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"utilities/misc.ml" 338 9835 9862 "utilities/misc.ml" 338 9835 9865
+type(
+  int
+)
+"utilities/misc.ml" 338 9835 9847 "utilities/misc.ml" 338 9835 9865
+call(
+  stack
+)
+type(
+  ('a * 'a, 'b) Hashtbl.t
+)
+"utilities/misc.ml" 339 9869 9878 "utilities/misc.ml" 339 9869 9879
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 340 9886 9892 "utilities/misc.ml" 344 9961 10043
+)
+"utilities/misc.ml" 339 9869 9880 "utilities/misc.ml" 339 9869 9881
+type(
+  'a
+)
+ident(
+  def y "utilities/misc.ml" 340 9886 9892 "utilities/misc.ml" 344 9961 10043
+)
+"utilities/misc.ml" 339 9869 9877 "utilities/misc.ml" 339 9869 9882
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 341 9896 9904 "utilities/misc.ml" 341 9896 9916
+type(
+  ('a * 'a, 'b) Hashtbl.t -> 'a * 'a -> 'b
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"utilities/misc.ml" 341 9896 9917 "utilities/misc.ml" 341 9896 9920
+type(
+  ('a * 'a, 'b) Hashtbl.t
+)
+ident(
+  int_ref map "utilities/misc.ml" 338 9835 9841 "utilities/misc.ml" 338 9835 9844
+)
+"utilities/misc.ml" 341 9896 9922 "utilities/misc.ml" 341 9896 9923
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 339 9869 9878 "utilities/misc.ml" 339 9869 9879
+)
+"utilities/misc.ml" 341 9896 9924 "utilities/misc.ml" 341 9896 9925
+type(
+  'a
+)
+ident(
+  int_ref y "utilities/misc.ml" 339 9869 9880 "utilities/misc.ml" 339 9869 9881
+)
+"utilities/misc.ml" 341 9896 9921 "utilities/misc.ml" 341 9896 9926
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 341 9896 9904 "utilities/misc.ml" 341 9896 9926
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 343 9938 9948 "utilities/misc.ml" 343 9938 9957
+type(
+  exn
+)
+"utilities/misc.ml" 344 9961 9977 "utilities/misc.ml" 344 9961 9978
+type(
+  'b
+)
+ident(
+  def r "utilities/misc.ml" 344 9961 9992 "utilities/misc.ml" 344 9961 10043
+)
+"utilities/misc.ml" 344 9961 9981 "utilities/misc.ml" 344 9961 9982
+type(
+  'a * 'a -> 'b
+)
+ident(
+  int_ref f "utilities/misc.ml" 337 9812 9831 "utilities/misc.ml" 337 9812 9832
+)
+"utilities/misc.ml" 344 9961 9984 "utilities/misc.ml" 344 9961 9985
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 339 9869 9878 "utilities/misc.ml" 339 9869 9879
+)
+"utilities/misc.ml" 344 9961 9986 "utilities/misc.ml" 344 9961 9987
+type(
+  'a
+)
+ident(
+  int_ref y "utilities/misc.ml" 339 9869 9880 "utilities/misc.ml" 339 9869 9881
+)
+"utilities/misc.ml" 344 9961 9983 "utilities/misc.ml" 344 9961 9988
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 344 9961 9981 "utilities/misc.ml" 344 9961 9988
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/misc.ml" 344 9961 9992 "utilities/misc.ml" 344 9961 10003
+type(
+  ('a * 'a, 'b) Hashtbl.t -> 'a * 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"utilities/misc.ml" 344 9961 10004 "utilities/misc.ml" 344 9961 10007
+type(
+  ('a * 'a, 'b) Hashtbl.t
+)
+ident(
+  int_ref map "utilities/misc.ml" 338 9835 9841 "utilities/misc.ml" 338 9835 9844
+)
+"utilities/misc.ml" 344 9961 10009 "utilities/misc.ml" 344 9961 10010
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 339 9869 9878 "utilities/misc.ml" 339 9869 9879
+)
+"utilities/misc.ml" 344 9961 10011 "utilities/misc.ml" 344 9961 10012
+type(
+  'a
+)
+ident(
+  int_ref y "utilities/misc.ml" 339 9869 9880 "utilities/misc.ml" 339 9869 9881
+)
+"utilities/misc.ml" 344 9961 10008 "utilities/misc.ml" 344 9961 10013
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 344 9961 10014 "utilities/misc.ml" 344 9961 10015
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/misc.ml" 344 9961 9977 "utilities/misc.ml" 344 9961 9978
+)
+"utilities/misc.ml" 344 9961 9992 "utilities/misc.ml" 344 9961 10015
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 344 9961 10017 "utilities/misc.ml" 344 9961 10028
+type(
+  ('a * 'a, 'b) Hashtbl.t -> 'a * 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"utilities/misc.ml" 344 9961 10029 "utilities/misc.ml" 344 9961 10032
+type(
+  ('a * 'a, 'b) Hashtbl.t
+)
+ident(
+  int_ref map "utilities/misc.ml" 338 9835 9841 "utilities/misc.ml" 338 9835 9844
+)
+"utilities/misc.ml" 344 9961 10034 "utilities/misc.ml" 344 9961 10035
+type(
+  'a
+)
+ident(
+  int_ref y "utilities/misc.ml" 339 9869 9880 "utilities/misc.ml" 339 9869 9881
+)
+"utilities/misc.ml" 344 9961 10036 "utilities/misc.ml" 344 9961 10037
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 339 9869 9878 "utilities/misc.ml" 339 9869 9879
+)
+"utilities/misc.ml" 344 9961 10033 "utilities/misc.ml" 344 9961 10038
+type(
+  'a * 'a
+)
+"utilities/misc.ml" 344 9961 10039 "utilities/misc.ml" 344 9961 10040
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/misc.ml" 344 9961 9977 "utilities/misc.ml" 344 9961 9978
+)
+"utilities/misc.ml" 344 9961 10017 "utilities/misc.ml" 344 9961 10040
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 344 9961 10042 "utilities/misc.ml" 344 9961 10043
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/misc.ml" 344 9961 9977 "utilities/misc.ml" 344 9961 9978
+)
+"utilities/misc.ml" 344 9961 10017 "utilities/misc.ml" 344 9961 10043
+type(
+  'b
+)
+"utilities/misc.ml" 344 9961 9992 "utilities/misc.ml" 344 9961 10043
+type(
+  'b
+)
+"utilities/misc.ml" 344 9961 9973 "utilities/misc.ml" 344 9961 10043
+type(
+  'b
+)
+"utilities/misc.ml" 340 9886 9892 "utilities/misc.ml" 344 9961 10043
+type(
+  'b
+)
+"utilities/misc.ml" 339 9869 9873 "utilities/misc.ml" 344 9961 10043
+type(
+  'a * 'a -> 'b
+)
+"utilities/misc.ml" 338 9835 9837 "utilities/misc.ml" 344 9961 10043
+type(
+  'a * 'a -> 'b
+)
+"utilities/misc.ml" 347 10112 10120 "utilities/misc.ml" 347 10112 10131
+type(
+  ('a -> 'a -> unit) -> 'a list -> unit
+)
+ident(
+  def iter_couple "utilities/misc.ml" 347 10112 10112 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 347 10112 10132 "utilities/misc.ml" 347 10112 10133
+type(
+  'a -> 'a -> unit
+)
+ident(
+  def f "utilities/misc.ml" 347 10112 10134 "utilities/misc.ml" 351 10201 10222
+)
+"utilities/misc.ml" 347 10112 10134 "utilities/misc.ml" 347 10112 10135
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 347 10112 10138 "utilities/misc.ml" 351 10201 10222
+)
+"utilities/misc.ml" 347 10112 10144 "utilities/misc.ml" 347 10112 10145
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 347 10112 10134 "utilities/misc.ml" 347 10112 10135
+)
+"utilities/misc.ml" 348 10151 10155 "utilities/misc.ml" 348 10151 10157
+type(
+  'a list
+)
+"utilities/misc.ml" 348 10151 10161 "utilities/misc.ml" 348 10151 10163
+type(
+  unit
+)
+"utilities/misc.ml" 349 10164 10168 "utilities/misc.ml" 349 10164 10169
+type(
+  'a
+)
+ident(
+  def x "utilities/misc.ml" 350 10176 10182 "utilities/misc.ml" 351 10201 10222
+)
+"utilities/misc.ml" 349 10164 10171 "utilities/misc.ml" 349 10164 10172
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 350 10176 10182 "utilities/misc.ml" 351 10201 10222
+)
+"utilities/misc.ml" 349 10164 10168 "utilities/misc.ml" 349 10164 10172
+type(
+  'a list
+)
+"utilities/misc.ml" 350 10176 10182 "utilities/misc.ml" 350 10176 10191
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/misc.ml" 350 10176 10193 "utilities/misc.ml" 350 10176 10194
+type(
+  'a -> 'a -> unit
+)
+ident(
+  int_ref f "utilities/misc.ml" 347 10112 10132 "utilities/misc.ml" 347 10112 10133
+)
+"utilities/misc.ml" 350 10176 10195 "utilities/misc.ml" 350 10176 10196
+type(
+  'a
+)
+ident(
+  int_ref x "utilities/misc.ml" 349 10164 10168 "utilities/misc.ml" 349 10164 10169
+)
+"utilities/misc.ml" 350 10176 10192 "utilities/misc.ml" 350 10176 10197
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"utilities/misc.ml" 350 10176 10198 "utilities/misc.ml" 350 10176 10199
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 349 10164 10171 "utilities/misc.ml" 349 10164 10172
+)
+"utilities/misc.ml" 350 10176 10182 "utilities/misc.ml" 350 10176 10199
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/misc.ml" 351 10201 10207 "utilities/misc.ml" 351 10201 10218
+type(
+  ('a -> 'a -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref iter_couple "utilities/misc.ml" 347 10112 10120 "utilities/misc.ml" 347 10112 10131
+)
+"utilities/misc.ml" 351 10201 10219 "utilities/misc.ml" 351 10201 10220
+type(
+  'a -> 'a -> unit
+)
+ident(
+  int_ref f "utilities/misc.ml" 347 10112 10132 "utilities/misc.ml" 347 10112 10133
+)
+"utilities/misc.ml" 351 10201 10221 "utilities/misc.ml" 351 10201 10222
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 349 10164 10171 "utilities/misc.ml" 349 10164 10172
+)
+"utilities/misc.ml" 351 10201 10207 "utilities/misc.ml" 351 10201 10222
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 350 10176 10182 "utilities/misc.ml" 351 10201 10222
+type(
+  unit
+)
+"utilities/misc.ml" 347 10112 10138 "utilities/misc.ml" 351 10201 10222
+type(
+  unit
+)
+"utilities/misc.ml" 354 10297 10301 "utilities/misc.ml" 354 10297 10314
+type(
+  ('a -> 'b -> unit) -> 'a list -> 'b list -> unit
+)
+ident(
+  def iter_couple_2 "utilities/misc.ml" 359 10465 10465 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 354 10297 10315 "utilities/misc.ml" 354 10297 10316
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def f "utilities/misc.ml" 354 10297 10317 "utilities/misc.ml" 355 10325 10371
+)
+"utilities/misc.ml" 354 10297 10317 "utilities/misc.ml" 354 10297 10319
+type(
+  'a list
+)
+ident(
+  def l1 "utilities/misc.ml" 354 10297 10320 "utilities/misc.ml" 355 10325 10371
+)
+"utilities/misc.ml" 354 10297 10320 "utilities/misc.ml" 354 10297 10322
+type(
+  'b list
+)
+ident(
+  def l2 "utilities/misc.ml" 355 10325 10327 "utilities/misc.ml" 355 10325 10371
+)
+"utilities/misc.ml" 355 10325 10327 "utilities/misc.ml" 355 10325 10336
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/misc.ml" 355 10325 10342 "utilities/misc.ml" 355 10325 10344
+type(
+  'a
+)
+ident(
+  def v1 "utilities/misc.ml" 355 10325 10348 "utilities/misc.ml" 355 10325 10367
+)
+"utilities/misc.ml" 355 10325 10348 "utilities/misc.ml" 355 10325 10357
+type(
+  ('b -> unit) -> 'b list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"utilities/misc.ml" 355 10325 10359 "utilities/misc.ml" 355 10325 10360
+type(
+  'a -> 'b -> unit
+)
+ident(
+  int_ref f "utilities/misc.ml" 354 10297 10315 "utilities/misc.ml" 354 10297 10316
+)
+"utilities/misc.ml" 355 10325 10361 "utilities/misc.ml" 355 10325 10363
+type(
+  'a
+)
+ident(
+  int_ref v1 "utilities/misc.ml" 355 10325 10342 "utilities/misc.ml" 355 10325 10344
+)
+"utilities/misc.ml" 355 10325 10358 "utilities/misc.ml" 355 10325 10364
+call(
+  stack
+)
+type(
+  'b -> unit
+)
+"utilities/misc.ml" 355 10325 10365 "utilities/misc.ml" 355 10325 10367
+type(
+  'b list
+)
+ident(
+  int_ref l2 "utilities/misc.ml" 354 10297 10320 "utilities/misc.ml" 354 10297 10322
+)
+"utilities/misc.ml" 355 10325 10348 "utilities/misc.ml" 355 10325 10367
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 355 10325 10337 "utilities/misc.ml" 355 10325 10368
+type(
+  'a -> unit
+)
+"utilities/misc.ml" 355 10325 10369 "utilities/misc.ml" 355 10325 10371
+type(
+  'a list
+)
+ident(
+  int_ref l1 "utilities/misc.ml" 354 10297 10317 "utilities/misc.ml" 354 10297 10319
+)
+"utilities/misc.ml" 355 10325 10327 "utilities/misc.ml" 355 10325 10371
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/misc.ml" 359 10465 10469 "utilities/misc.ml" 359 10465 10474
+type(
+  ('a -> bool) -> 'a list -> int
+)
+ident(
+  def index "utilities/misc.ml" 364 10573 10584 "utilities/misc.ml" 1 0 -1
+)
+"utilities/misc.ml" 359 10465 10475 "utilities/misc.ml" 359 10465 10476
+type(
+  'a -> bool
+)
+ident(
+  def p "utilities/misc.ml" 359 10465 10477 "utilities/misc.ml" 364 10573 10584
+)
+"utilities/misc.ml" 359 10465 10477 "utilities/misc.ml" 359 10465 10478
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 360 10481 10483 "utilities/misc.ml" 364 10573 10584
+)
+"utilities/misc.ml" 360 10481 10491 "utilities/misc.ml" 360 10481 10494
+type(
+  int -> 'a list -> int
+)
+ident(
+  def aux "utilities/misc.ml" 360 10481 10483 "utilities/misc.ml" 364 10573 10584
+)
+"utilities/misc.ml" 360 10481 10495 "utilities/misc.ml" 360 10481 10496
+type(
+  int
+)
+ident(
+  def i "utilities/misc.ml" 360 10481 10499 "utilities/misc.ml" 362 10523 10567
+)
+"utilities/misc.ml" 361 10508 10514 "utilities/misc.ml" 361 10508 10516
+type(
+  'a list
+)
+"utilities/misc.ml" 361 10508 10520 "utilities/misc.ml" 361 10508 10522
+type(
+  int
+)
+"utilities/misc.ml" 362 10523 10529 "utilities/misc.ml" 362 10523 10530
+type(
+  'a
+)
+ident(
+  def v "utilities/misc.ml" 362 10523 10537 "utilities/misc.ml" 362 10523 10567
+)
+"utilities/misc.ml" 362 10523 10532 "utilities/misc.ml" 362 10523 10533
+type(
+  'a list
+)
+ident(
+  def l "utilities/misc.ml" 362 10523 10537 "utilities/misc.ml" 362 10523 10567
+)
+"utilities/misc.ml" 362 10523 10529 "utilities/misc.ml" 362 10523 10533
+type(
+  'a list
+)
+"utilities/misc.ml" 362 10523 10540 "utilities/misc.ml" 362 10523 10541
+type(
+  'a -> bool
+)
+ident(
+  int_ref p "utilities/misc.ml" 359 10465 10475 "utilities/misc.ml" 359 10465 10476
+)
+"utilities/misc.ml" 362 10523 10542 "utilities/misc.ml" 362 10523 10543
+type(
+  'a
+)
+ident(
+  int_ref v "utilities/misc.ml" 362 10523 10529 "utilities/misc.ml" 362 10523 10530
+)
+"utilities/misc.ml" 362 10523 10540 "utilities/misc.ml" 362 10523 10543
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/misc.ml" 362 10523 10549 "utilities/misc.ml" 362 10523 10550
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 360 10481 10495 "utilities/misc.ml" 360 10481 10496
+)
+"utilities/misc.ml" 362 10523 10556 "utilities/misc.ml" 362 10523 10559
+type(
+  int -> 'a list -> int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 360 10481 10491 "utilities/misc.ml" 360 10481 10494
+)
+"utilities/misc.ml" 362 10523 10561 "utilities/misc.ml" 362 10523 10562
+type(
+  int
+)
+ident(
+  int_ref i "utilities/misc.ml" 360 10481 10495 "utilities/misc.ml" 360 10481 10496
+)
+"utilities/misc.ml" 362 10523 10562 "utilities/misc.ml" 362 10523 10563
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/misc.ml" 362 10523 10563 "utilities/misc.ml" 362 10523 10564
+type(
+  int
+)
+"utilities/misc.ml" 362 10523 10560 "utilities/misc.ml" 362 10523 10565
+type(
+  int
+)
+"utilities/misc.ml" 362 10523 10566 "utilities/misc.ml" 362 10523 10567
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 362 10523 10532 "utilities/misc.ml" 362 10523 10533
+)
+"utilities/misc.ml" 362 10523 10556 "utilities/misc.ml" 362 10523 10567
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/misc.ml" 362 10523 10537 "utilities/misc.ml" 362 10523 10567
+type(
+  int
+)
+"utilities/misc.ml" 360 10481 10499 "utilities/misc.ml" 362 10523 10567
+type(
+  'a list -> int
+)
+"utilities/misc.ml" 364 10573 10577 "utilities/misc.ml" 364 10573 10580
+type(
+  int -> 'a list -> int
+)
+ident(
+  int_ref aux "utilities/misc.ml" 360 10481 10491 "utilities/misc.ml" 360 10481 10494
+)
+"utilities/misc.ml" 364 10573 10581 "utilities/misc.ml" 364 10573 10582
+type(
+  int
+)
+"utilities/misc.ml" 364 10573 10583 "utilities/misc.ml" 364 10573 10584
+type(
+  'a list
+)
+ident(
+  int_ref l "utilities/misc.ml" 359 10465 10477 "utilities/misc.ml" 359 10465 10478
+)
+"utilities/misc.ml" 364 10573 10577 "utilities/misc.ml" 364 10573 10584
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/misc.ml" 360 10481 10483 "utilities/misc.ml" 364 10573 10584
+type(
+  int
+)

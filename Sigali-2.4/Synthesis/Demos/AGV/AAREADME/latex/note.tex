@@ -1,0 +1,34 @@
+\section{Some modifications}\label{note}
+You can modify the file vt.z3z to accelerate the \char`\"{}sigali compiling\char`\"{} by\begin{itemize}
+\item replacing the line (after the declare( ) area ) 
+
+\footnotesize\begin{verbatim}              Tick : C1 ^2;
+        \end{verbatim}
+\normalsize
+ by 
+
+\footnotesize\begin{verbatim}	       Tick: 1 ;
+        \end{verbatim}
+\normalsize
+\end{itemize}
+
+
+\begin{itemize}
+\item and reporting this definition as a constraint in (\char`\"{}constraints\char`\"{} area), 
+
+\footnotesize\begin{verbatim}	    C1 ^2 = Tick,
+        \end{verbatim}
+\normalsize
+ you will have the following lines 
+
+\footnotesize\begin{verbatim}             constraints: [
+                C1 ^2 = Tick,
+                C2 ^2 = Tick,
+                C3 ^2 = Tick,
+                ...
+        \end{verbatim}
+\normalsize
+\end{itemize}
+
+
+This basically says that at each instant, all the input events are present. Otherwise, during the simulation, {\bf  the automatic mode of simulation will most of the time choose the input events to be absent}. 

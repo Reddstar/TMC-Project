@@ -1,0 +1,967 @@
+"obc/transformations/unroll.ml" 38 2170 2174 "obc/transformations/unroll.ml" 38 2170 2183
+type(
+  Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  def fresh_for "obc/transformations/unroll.ml" 40 2209 2209 "obc/transformations/unroll.ml" 1 0 -1
+)
+"obc/transformations/unroll.ml" 38 2170 2186 "obc/transformations/unroll.ml" 38 2170 2195
+type(
+  string -> Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  ext_ref Obc_utils.fresh_for
+)
+"obc/transformations/unroll.ml" 38 2170 2196 "obc/transformations/unroll.ml" 38 2170 2207
+type(
+  string
+)
+"obc/transformations/unroll.ml" 38 2170 2186 "obc/transformations/unroll.ml" 38 2170 2207
+call(
+  stack
+)
+type(
+  Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+"obc/transformations/unroll.ml" 40 2209 2213 "obc/transformations/unroll.ml" 40 2209 2222
+type(
+  Obc.exp -> int option
+)
+ident(
+  def is_static "obc/transformations/unroll.ml" 44 2329 2329 "obc/transformations/unroll.ml" 1 0 -1
+)
+"obc/transformations/unroll.ml" 40 2209 2223 "obc/transformations/unroll.ml" 40 2209 2224
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/transformations/unroll.ml" 40 2209 2227 "obc/transformations/unroll.ml" 42 2314 2327
+)
+"obc/transformations/unroll.ml" 40 2209 2233 "obc/transformations/unroll.ml" 40 2209 2234
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/transformations/unroll.ml" 40 2209 2223 "obc/transformations/unroll.ml" 40 2209 2224
+)
+"obc/transformations/unroll.ml" 40 2209 2233 "obc/transformations/unroll.ml" 40 2209 2241
+type(
+  Obc.exp_desc
+)
+"obc/transformations/unroll.ml" 41 2247 2296 "obc/transformations/unroll.ml" 41 2247 2297
+type(
+  int
+)
+ident(
+  def i "obc/transformations/unroll.ml" 41 2247 2307 "obc/transformations/unroll.ml" 41 2247 2313
+)
+"obc/transformations/unroll.ml" 41 2247 2291 "obc/transformations/unroll.ml" 41 2247 2297
+type(
+  Types.static_exp_desc
+)
+"obc/transformations/unroll.ml" 41 2247 2279 "obc/transformations/unroll.ml" 41 2247 2300
+type(
+  Types.static_exp
+)
+"obc/transformations/unroll.ml" 41 2247 2272 "obc/transformations/unroll.ml" 41 2247 2300
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/unroll.ml" 41 2247 2261 "obc/transformations/unroll.ml" 41 2247 2303
+type(
+  Obc.ext_value
+)
+"obc/transformations/unroll.ml" 41 2247 2251 "obc/transformations/unroll.ml" 41 2247 2303
+type(
+  Obc.exp_desc
+)
+"obc/transformations/unroll.ml" 41 2247 2312 "obc/transformations/unroll.ml" 41 2247 2313
+type(
+  int
+)
+ident(
+  int_ref i "obc/transformations/unroll.ml" 41 2247 2296 "obc/transformations/unroll.ml" 41 2247 2297
+)
+"obc/transformations/unroll.ml" 41 2247 2307 "obc/transformations/unroll.ml" 41 2247 2313
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 42 2314 2318 "obc/transformations/unroll.ml" 42 2314 2319
+type(
+  Obc.exp_desc
+)
+"obc/transformations/unroll.ml" 42 2314 2323 "obc/transformations/unroll.ml" 42 2314 2327
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 40 2209 2227 "obc/transformations/unroll.ml" 42 2314 2327
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 44 2329 2333 "obc/transformations/unroll.ml" 44 2329 2339
+type(
+  Obc.var_dec -> int -> int -> Obc.block -> Obc.block
+)
+ident(
+  def unroll "obc/transformations/unroll.ml" 62 2871 2871 "obc/transformations/unroll.ml" 1 0 -1
+)
+"obc/transformations/unroll.ml" 44 2329 2340 "obc/transformations/unroll.ml" 44 2329 2342
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/unroll.ml" 44 2329 2343 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 44 2329 2343 "obc/transformations/unroll.ml" 44 2329 2348
+type(
+  int
+)
+ident(
+  def start "obc/transformations/unroll.ml" 44 2329 2349 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 44 2329 2349 "obc/transformations/unroll.ml" 44 2329 2353
+type(
+  int
+)
+ident(
+  def stop "obc/transformations/unroll.ml" 44 2329 2354 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 44 2329 2354 "obc/transformations/unroll.ml" 44 2329 2355
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/unroll.ml" 45 2358 2360 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 45 2358 2368 "obc/transformations/unroll.ml" 45 2358 2371
+type(
+  int -> Obc.act list list -> Obc.act list list
+)
+ident(
+  def add "obc/transformations/unroll.ml" 45 2358 2360 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 45 2358 2372 "obc/transformations/unroll.ml" 45 2358 2373
+type(
+  int
+)
+ident(
+  def c "obc/transformations/unroll.ml" 45 2358 2374 "obc/transformations/unroll.ml" 57 2753 2790
+)
+"obc/transformations/unroll.ml" 45 2358 2374 "obc/transformations/unroll.ml" 45 2358 2375
+type(
+  Obc.act list list
+)
+ident(
+  def l "obc/transformations/unroll.ml" 46 2378 2382 "obc/transformations/unroll.ml" 57 2753 2790
+)
+"obc/transformations/unroll.ml" 46 2378 2386 "obc/transformations/unroll.ml" 46 2378 2395
+type(
+  unit Obc_mapfold.obc_it_funs ->
+  unit -> Obc.ext_value -> Obc.ext_value * unit
+)
+ident(
+  def ext_value "obc/transformations/unroll.ml" 52 2592 2596 "obc/transformations/unroll.ml" 57 2753 2790
+)
+"obc/transformations/unroll.ml" 46 2378 2396 "obc/transformations/unroll.ml" 46 2378 2400
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/unroll.ml" 46 2378 2401 "obc/transformations/unroll.ml" 49 2540 2583
+)
+"obc/transformations/unroll.ml" 46 2378 2401 "obc/transformations/unroll.ml" 46 2378 2403
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 46 2378 2404 "obc/transformations/unroll.ml" 46 2378 2405
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/transformations/unroll.ml" 46 2378 2408 "obc/transformations/unroll.ml" 49 2540 2583
+)
+"obc/transformations/unroll.ml" 46 2378 2414 "obc/transformations/unroll.ml" 46 2378 2415
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/unroll.ml" 46 2378 2404 "obc/transformations/unroll.ml" 46 2378 2405
+)
+"obc/transformations/unroll.ml" 46 2378 2414 "obc/transformations/unroll.ml" 46 2378 2422
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/unroll.ml" 47 2428 2441 "obc/transformations/unroll.ml" 47 2428 2443
+type(
+  Idents.var_ident
+)
+ident(
+  def vi "obc/transformations/unroll.ml" 48 2447 2455 "obc/transformations/unroll.ml" 48 2447 2539
+)
+"obc/transformations/unroll.ml" 47 2428 2436 "obc/transformations/unroll.ml" 47 2428 2443
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/unroll.ml" 48 2447 2459 "obc/transformations/unroll.ml" 48 2447 2479
+type(
+  Idents.var_ident -> Idents.var_ident -> int
+)
+ident(
+  ext_ref Idents.ident_compare
+)
+"obc/transformations/unroll.ml" 48 2447 2480 "obc/transformations/unroll.ml" 48 2447 2482
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref vi "obc/transformations/unroll.ml" 47 2428 2441 "obc/transformations/unroll.ml" 47 2428 2443
+)
+"obc/transformations/unroll.ml" 48 2447 2483 "obc/transformations/unroll.ml" 48 2447 2485
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/unroll.ml" 44 2329 2340 "obc/transformations/unroll.ml" 44 2329 2342
+)
+"obc/transformations/unroll.ml" 48 2447 2483 "obc/transformations/unroll.ml" 48 2447 2493
+type(
+  Idents.var_ident
+)
+"obc/transformations/unroll.ml" 48 2447 2459 "obc/transformations/unroll.ml" 48 2447 2493
+call(
+  stack
+)
+type(
+  int
+)
+"obc/transformations/unroll.ml" 48 2447 2494 "obc/transformations/unroll.ml" 48 2447 2495
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/transformations/unroll.ml" 48 2447 2496 "obc/transformations/unroll.ml" 48 2447 2497
+type(
+  int
+)
+"obc/transformations/unroll.ml" 48 2447 2459 "obc/transformations/unroll.ml" 48 2447 2497
+type(
+  bool
+)
+"obc/transformations/unroll.ml" 48 2447 2503 "obc/transformations/unroll.ml" 48 2447 2525
+type(
+  int -> Obc.ext_value
+)
+ident(
+  ext_ref Obc_utils.mk_ext_value_const_int
+)
+"obc/transformations/unroll.ml" 48 2447 2526 "obc/transformations/unroll.ml" 48 2447 2527
+type(
+  int
+)
+ident(
+  int_ref c "obc/transformations/unroll.ml" 45 2358 2372 "obc/transformations/unroll.ml" 45 2358 2373
+)
+"obc/transformations/unroll.ml" 48 2447 2503 "obc/transformations/unroll.ml" 48 2447 2527
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/transformations/unroll.ml" 48 2447 2533 "obc/transformations/unroll.ml" 48 2447 2534
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/unroll.ml" 46 2378 2404 "obc/transformations/unroll.ml" 46 2378 2405
+)
+"obc/transformations/unroll.ml" 48 2447 2455 "obc/transformations/unroll.ml" 48 2447 2535
+type(
+  Obc.ext_value
+)
+"obc/transformations/unroll.ml" 48 2447 2537 "obc/transformations/unroll.ml" 48 2447 2539
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 48 2447 2455 "obc/transformations/unroll.ml" 48 2447 2539
+type(
+  Obc.ext_value * unit
+)
+"obc/transformations/unroll.ml" 49 2540 2548 "obc/transformations/unroll.ml" 49 2540 2549
+type(
+  Obc.ext_value_desc
+)
+"obc/transformations/unroll.ml" 49 2540 2553 "obc/transformations/unroll.ml" 49 2540 2573
+type(
+  unit Obc_mapfold.obc_it_funs ->
+  unit -> Obc.ext_value -> Obc.ext_value * unit
+)
+ident(
+  ext_ref Obc_mapfold.extvalue
+)
+"obc/transformations/unroll.ml" 49 2540 2574 "obc/transformations/unroll.ml" 49 2540 2578
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/unroll.ml" 46 2378 2396 "obc/transformations/unroll.ml" 46 2378 2400
+)
+"obc/transformations/unroll.ml" 49 2540 2579 "obc/transformations/unroll.ml" 49 2540 2581
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 49 2540 2582 "obc/transformations/unroll.ml" 49 2540 2583
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/transformations/unroll.ml" 46 2378 2404 "obc/transformations/unroll.ml" 46 2378 2405
+)
+"obc/transformations/unroll.ml" 49 2540 2553 "obc/transformations/unroll.ml" 49 2540 2583
+call(
+  tail
+)
+type(
+  Obc.ext_value * unit
+)
+"obc/transformations/unroll.ml" 46 2378 2408 "obc/transformations/unroll.ml" 49 2540 2583
+type(
+  Obc.ext_value * unit
+)
+"obc/transformations/unroll.ml" 52 2592 2599 "obc/transformations/unroll.ml" 52 2592 2600
+type(
+  int
+)
+ident(
+  int_ref c "obc/transformations/unroll.ml" 45 2358 2372 "obc/transformations/unroll.ml" 45 2358 2373
+)
+"obc/transformations/unroll.ml" 52 2592 2601 "obc/transformations/unroll.ml" 52 2592 2602
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/transformations/unroll.ml" 52 2592 2603 "obc/transformations/unroll.ml" 52 2592 2607
+type(
+  int
+)
+ident(
+  int_ref stop "obc/transformations/unroll.ml" 44 2329 2349 "obc/transformations/unroll.ml" 44 2329 2353
+)
+"obc/transformations/unroll.ml" 52 2592 2599 "obc/transformations/unroll.ml" 52 2592 2607
+type(
+  bool
+)
+"obc/transformations/unroll.ml" 53 2608 2617 "obc/transformations/unroll.ml" 53 2608 2618
+type(
+  Obc.act list list
+)
+ident(
+  int_ref l "obc/transformations/unroll.ml" 45 2358 2374 "obc/transformations/unroll.ml" 45 2358 2375
+)
+"obc/transformations/unroll.ml" 55 2628 2638 "obc/transformations/unroll.ml" 55 2628 2642
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/unroll.ml" 56 2700 2706 "obc/transformations/unroll.ml" 57 2753 2790
+)
+"obc/transformations/unroll.ml" 55 2628 2647 "obc/transformations/unroll.ml" 55 2628 2667
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/unroll.ml" 55 2628 2684 "obc/transformations/unroll.ml" 55 2628 2693
+type(
+  unit Obc_mapfold.obc_it_funs ->
+  unit -> Obc.ext_value -> Obc.ext_value * unit
+)
+ident(
+  int_ref ext_value "obc/transformations/unroll.ml" 46 2378 2386 "obc/transformations/unroll.ml" 46 2378 2395
+)
+"obc/transformations/unroll.ml" 55 2628 2645 "obc/transformations/unroll.ml" 55 2628 2696
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+"obc/transformations/unroll.ml" 56 2700 2710 "obc/transformations/unroll.ml" 56 2700 2715
+type(
+  Obc.block
+)
+ident(
+  def new_b "obc/transformations/unroll.ml" 57 2753 2759 "obc/transformations/unroll.ml" 57 2753 2790
+)
+"obc/transformations/unroll.ml" 56 2700 2717 "obc/transformations/unroll.ml" 56 2700 2719
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 56 2700 2710 "obc/transformations/unroll.ml" 56 2700 2719
+type(
+  Obc.block * unit
+)
+"obc/transformations/unroll.ml" 56 2700 2722 "obc/transformations/unroll.ml" 56 2700 2739
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.block -> Obc.block * unit
+)
+ident(
+  ext_ref Obc_mapfold.block
+)
+"obc/transformations/unroll.ml" 56 2700 2740 "obc/transformations/unroll.ml" 56 2700 2744
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/unroll.ml" 55 2628 2638 "obc/transformations/unroll.ml" 55 2628 2642
+)
+"obc/transformations/unroll.ml" 56 2700 2745 "obc/transformations/unroll.ml" 56 2700 2747
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 56 2700 2748 "obc/transformations/unroll.ml" 56 2700 2749
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/unroll.ml" 44 2329 2354 "obc/transformations/unroll.ml" 44 2329 2355
+)
+"obc/transformations/unroll.ml" 56 2700 2722 "obc/transformations/unroll.ml" 56 2700 2749
+call(
+  stack
+)
+type(
+  Obc.block * unit
+)
+"obc/transformations/unroll.ml" 57 2753 2759 "obc/transformations/unroll.ml" 57 2753 2762
+type(
+  int -> Obc.act list list -> Obc.act list list
+)
+ident(
+  int_ref add "obc/transformations/unroll.ml" 45 2358 2368 "obc/transformations/unroll.ml" 45 2358 2371
+)
+"obc/transformations/unroll.ml" 57 2753 2764 "obc/transformations/unroll.ml" 57 2753 2765
+type(
+  int
+)
+ident(
+  int_ref c "obc/transformations/unroll.ml" 45 2358 2372 "obc/transformations/unroll.ml" 45 2358 2373
+)
+"obc/transformations/unroll.ml" 57 2753 2766 "obc/transformations/unroll.ml" 57 2753 2767
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"obc/transformations/unroll.ml" 57 2753 2768 "obc/transformations/unroll.ml" 57 2753 2769
+type(
+  int
+)
+"obc/transformations/unroll.ml" 57 2753 2763 "obc/transformations/unroll.ml" 57 2753 2770
+type(
+  int
+)
+"obc/transformations/unroll.ml" 57 2753 2772 "obc/transformations/unroll.ml" 57 2753 2777
+type(
+  Obc.block
+)
+ident(
+  int_ref new_b "obc/transformations/unroll.ml" 56 2700 2710 "obc/transformations/unroll.ml" 56 2700 2715
+)
+"obc/transformations/unroll.ml" 57 2753 2772 "obc/transformations/unroll.ml" 57 2753 2784
+type(
+  Obc.act list
+)
+"obc/transformations/unroll.ml" 57 2753 2788 "obc/transformations/unroll.ml" 57 2753 2789
+type(
+  Obc.act list list
+)
+ident(
+  int_ref l "obc/transformations/unroll.ml" 45 2358 2374 "obc/transformations/unroll.ml" 45 2358 2375
+)
+"obc/transformations/unroll.ml" 57 2753 2771 "obc/transformations/unroll.ml" 57 2753 2790
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 57 2753 2759 "obc/transformations/unroll.ml" 57 2753 2790
+call(
+  tail
+)
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 56 2700 2706 "obc/transformations/unroll.ml" 57 2753 2790
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 55 2628 2634 "obc/transformations/unroll.ml" 57 2753 2790
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 52 2592 2596 "obc/transformations/unroll.ml" 57 2753 2790
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 46 2378 2382 "obc/transformations/unroll.ml" 57 2753 2790
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 59 2796 2802 "obc/transformations/unroll.ml" 59 2796 2803
+type(
+  Obc.act list list
+)
+ident(
+  def l "obc/transformations/unroll.ml" 60 2822 2824 "obc/transformations/unroll.ml" 60 2822 2869
+)
+"obc/transformations/unroll.ml" 59 2796 2806 "obc/transformations/unroll.ml" 59 2796 2809
+type(
+  int -> Obc.act list list -> Obc.act list list
+)
+ident(
+  int_ref add "obc/transformations/unroll.ml" 45 2358 2368 "obc/transformations/unroll.ml" 45 2358 2371
+)
+"obc/transformations/unroll.ml" 59 2796 2810 "obc/transformations/unroll.ml" 59 2796 2815
+type(
+  int
+)
+ident(
+  int_ref start "obc/transformations/unroll.ml" 44 2329 2343 "obc/transformations/unroll.ml" 44 2329 2348
+)
+"obc/transformations/unroll.ml" 59 2796 2816 "obc/transformations/unroll.ml" 59 2796 2818
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 59 2796 2806 "obc/transformations/unroll.ml" 59 2796 2818
+call(
+  stack
+)
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 60 2822 2826 "obc/transformations/unroll.ml" 60 2822 2827
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/unroll.ml" 44 2329 2354 "obc/transformations/unroll.ml" 44 2329 2355
+)
+"obc/transformations/unroll.ml" 60 2822 2842 "obc/transformations/unroll.ml" 60 2822 2853
+type(
+  Obc.act list list -> Obc.act list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/transformations/unroll.ml" 60 2822 2855 "obc/transformations/unroll.ml" 60 2822 2863
+type(
+  Obc.act list list -> Obc.act list list
+)
+ident(
+  ext_ref List.rev
+)
+"obc/transformations/unroll.ml" 60 2822 2864 "obc/transformations/unroll.ml" 60 2822 2865
+type(
+  Obc.act list list
+)
+ident(
+  int_ref l "obc/transformations/unroll.ml" 59 2796 2802 "obc/transformations/unroll.ml" 59 2796 2803
+)
+"obc/transformations/unroll.ml" 60 2822 2854 "obc/transformations/unroll.ml" 60 2822 2866
+call(
+  stack
+)
+type(
+  Obc.act list list
+)
+"obc/transformations/unroll.ml" 60 2822 2842 "obc/transformations/unroll.ml" 60 2822 2866
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/transformations/unroll.ml" 60 2822 2824 "obc/transformations/unroll.ml" 60 2822 2869
+type(
+  Obc.block
+)
+"obc/transformations/unroll.ml" 59 2796 2798 "obc/transformations/unroll.ml" 60 2822 2869
+type(
+  Obc.block
+)
+"obc/transformations/unroll.ml" 45 2358 2360 "obc/transformations/unroll.ml" 60 2822 2869
+type(
+  Obc.block
+)
+"obc/transformations/unroll.ml" 62 2871 2875 "obc/transformations/unroll.ml" 62 2871 2878
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  def act "obc/transformations/unroll.ml" 71 3131 3131 "obc/transformations/unroll.ml" 1 0 -1
+)
+"obc/transformations/unroll.ml" 62 2871 2879 "obc/transformations/unroll.ml" 62 2871 2883
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/transformations/unroll.ml" 62 2871 2884 "obc/transformations/unroll.ml" 69 3113 3129
+)
+"obc/transformations/unroll.ml" 62 2871 2884 "obc/transformations/unroll.ml" 62 2871 2886
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 62 2871 2887 "obc/transformations/unroll.ml" 62 2871 2888
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/unroll.ml" 63 2891 2893 "obc/transformations/unroll.ml" 69 3113 3129
+)
+"obc/transformations/unroll.ml" 63 2891 2897 "obc/transformations/unroll.ml" 63 2891 2898
+type(
+  Obc.act
+)
+ident(
+  def a "obc/transformations/unroll.ml" 64 2934 2936 "obc/transformations/unroll.ml" 69 3113 3129
+)
+"obc/transformations/unroll.ml" 63 2891 2900 "obc/transformations/unroll.ml" 63 2891 2902
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 63 2891 2897 "obc/transformations/unroll.ml" 63 2891 2902
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 63 2891 2905 "obc/transformations/unroll.ml" 63 2891 2920
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  ext_ref Obc_mapfold.act
+)
+"obc/transformations/unroll.ml" 63 2891 2921 "obc/transformations/unroll.ml" 63 2891 2925
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/transformations/unroll.ml" 62 2871 2879 "obc/transformations/unroll.ml" 62 2871 2883
+)
+"obc/transformations/unroll.ml" 63 2891 2926 "obc/transformations/unroll.ml" 63 2891 2928
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 63 2891 2929 "obc/transformations/unroll.ml" 63 2891 2930
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/unroll.ml" 62 2871 2887 "obc/transformations/unroll.ml" 62 2871 2888
+)
+"obc/transformations/unroll.ml" 63 2891 2905 "obc/transformations/unroll.ml" 63 2891 2930
+call(
+  stack
+)
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 64 2934 2942 "obc/transformations/unroll.ml" 64 2934 2943
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/unroll.ml" 63 2891 2897 "obc/transformations/unroll.ml" 63 2891 2898
+)
+"obc/transformations/unroll.ml" 65 2949 2961 "obc/transformations/unroll.ml" 65 2949 2963
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/transformations/unroll.ml" 66 2984 2990 "obc/transformations/unroll.ml" 68 3091 3112
+)
+"obc/transformations/unroll.ml" 65 2949 2965 "obc/transformations/unroll.ml" 65 2949 2970
+type(
+  Obc.exp
+)
+ident(
+  def start "obc/transformations/unroll.ml" 66 2984 2990 "obc/transformations/unroll.ml" 68 3091 3112
+)
+"obc/transformations/unroll.ml" 65 2949 2972 "obc/transformations/unroll.ml" 65 2949 2976
+type(
+  Obc.exp
+)
+ident(
+  def stop "obc/transformations/unroll.ml" 66 2984 2990 "obc/transformations/unroll.ml" 68 3091 3112
+)
+"obc/transformations/unroll.ml" 65 2949 2978 "obc/transformations/unroll.ml" 65 2949 2979
+type(
+  Obc.block
+)
+ident(
+  def b "obc/transformations/unroll.ml" 66 2984 2990 "obc/transformations/unroll.ml" 68 3091 3112
+)
+"obc/transformations/unroll.ml" 65 2949 2955 "obc/transformations/unroll.ml" 65 2949 2980
+type(
+  Obc.act
+)
+"obc/transformations/unroll.ml" 66 2984 2997 "obc/transformations/unroll.ml" 66 2984 3006
+type(
+  Obc.exp -> int option
+)
+ident(
+  int_ref is_static "obc/transformations/unroll.ml" 40 2209 2213 "obc/transformations/unroll.ml" 40 2209 2222
+)
+"obc/transformations/unroll.ml" 66 2984 3007 "obc/transformations/unroll.ml" 66 2984 3012
+type(
+  Obc.exp
+)
+ident(
+  int_ref start "obc/transformations/unroll.ml" 65 2949 2965 "obc/transformations/unroll.ml" 65 2949 2970
+)
+"obc/transformations/unroll.ml" 66 2984 2997 "obc/transformations/unroll.ml" 66 2984 3012
+call(
+  stack
+)
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 66 2984 3014 "obc/transformations/unroll.ml" 66 2984 3023
+type(
+  Obc.exp -> int option
+)
+ident(
+  int_ref is_static "obc/transformations/unroll.ml" 40 2209 2213 "obc/transformations/unroll.ml" 40 2209 2222
+)
+"obc/transformations/unroll.ml" 66 2984 3024 "obc/transformations/unroll.ml" 66 2984 3028
+type(
+  Obc.exp
+)
+ident(
+  int_ref stop "obc/transformations/unroll.ml" 65 2949 2972 "obc/transformations/unroll.ml" 65 2949 2976
+)
+"obc/transformations/unroll.ml" 66 2984 3014 "obc/transformations/unroll.ml" 66 2984 3028
+call(
+  stack
+)
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 66 2984 2997 "obc/transformations/unroll.ml" 66 2984 3028
+type(
+  int option * int option
+)
+"obc/transformations/unroll.ml" 67 3034 3049 "obc/transformations/unroll.ml" 67 3034 3050
+type(
+  int
+)
+ident(
+  def z "obc/transformations/unroll.ml" 67 3034 3062 "obc/transformations/unroll.ml" 67 3034 3090
+)
+"obc/transformations/unroll.ml" 67 3034 3044 "obc/transformations/unroll.ml" 67 3034 3050
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 67 3034 3057 "obc/transformations/unroll.ml" 67 3034 3058
+type(
+  int
+)
+ident(
+  def n "obc/transformations/unroll.ml" 67 3034 3062 "obc/transformations/unroll.ml" 67 3034 3090
+)
+"obc/transformations/unroll.ml" 67 3034 3052 "obc/transformations/unroll.ml" 67 3034 3058
+type(
+  int option
+)
+"obc/transformations/unroll.ml" 67 3034 3044 "obc/transformations/unroll.ml" 67 3034 3058
+type(
+  int option * int option
+)
+"obc/transformations/unroll.ml" 67 3034 3070 "obc/transformations/unroll.ml" 67 3034 3076
+type(
+  Obc.var_dec -> int -> int -> Obc.block -> Obc.block
+)
+ident(
+  int_ref unroll "obc/transformations/unroll.ml" 44 2329 2333 "obc/transformations/unroll.ml" 44 2329 2339
+)
+"obc/transformations/unroll.ml" 67 3034 3077 "obc/transformations/unroll.ml" 67 3034 3079
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/transformations/unroll.ml" 65 2949 2961 "obc/transformations/unroll.ml" 65 2949 2963
+)
+"obc/transformations/unroll.ml" 67 3034 3080 "obc/transformations/unroll.ml" 67 3034 3081
+type(
+  int
+)
+ident(
+  int_ref z "obc/transformations/unroll.ml" 67 3034 3049 "obc/transformations/unroll.ml" 67 3034 3050
+)
+"obc/transformations/unroll.ml" 67 3034 3082 "obc/transformations/unroll.ml" 67 3034 3083
+type(
+  int
+)
+ident(
+  int_ref n "obc/transformations/unroll.ml" 67 3034 3057 "obc/transformations/unroll.ml" 67 3034 3058
+)
+"obc/transformations/unroll.ml" 67 3034 3084 "obc/transformations/unroll.ml" 67 3034 3085
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/transformations/unroll.ml" 65 2949 2978 "obc/transformations/unroll.ml" 65 2949 2979
+)
+"obc/transformations/unroll.ml" 67 3034 3069 "obc/transformations/unroll.ml" 67 3034 3086
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/transformations/unroll.ml" 67 3034 3062 "obc/transformations/unroll.ml" 67 3034 3086
+type(
+  Obc.act
+)
+"obc/transformations/unroll.ml" 67 3034 3088 "obc/transformations/unroll.ml" 67 3034 3090
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 67 3034 3062 "obc/transformations/unroll.ml" 67 3034 3090
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 68 3091 3101 "obc/transformations/unroll.ml" 68 3091 3102
+type(
+  int option * int option
+)
+"obc/transformations/unroll.ml" 68 3091 3106 "obc/transformations/unroll.ml" 68 3091 3107
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/unroll.ml" 63 2891 2897 "obc/transformations/unroll.ml" 63 2891 2898
+)
+"obc/transformations/unroll.ml" 68 3091 3109 "obc/transformations/unroll.ml" 68 3091 3111
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 68 3091 3106 "obc/transformations/unroll.ml" 68 3091 3111
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 66 2984 2990 "obc/transformations/unroll.ml" 68 3091 3112
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 69 3113 3119 "obc/transformations/unroll.ml" 69 3113 3120
+type(
+  Obc.act
+)
+"obc/transformations/unroll.ml" 69 3113 3124 "obc/transformations/unroll.ml" 69 3113 3125
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/transformations/unroll.ml" 63 2891 2897 "obc/transformations/unroll.ml" 63 2891 2898
+)
+"obc/transformations/unroll.ml" 69 3113 3127 "obc/transformations/unroll.ml" 69 3113 3129
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 69 3113 3124 "obc/transformations/unroll.ml" 69 3113 3129
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 64 2934 2936 "obc/transformations/unroll.ml" 69 3113 3129
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 63 2891 2893 "obc/transformations/unroll.ml" 69 3113 3129
+type(
+  Obc.act * unit
+)
+"obc/transformations/unroll.ml" 71 3131 3135 "obc/transformations/unroll.ml" 71 3131 3142
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def program "obc/transformations/unroll.ml" 73 3207 3210 "obc/transformations/unroll.ml" 1 0 -1
+)
+"obc/transformations/unroll.ml" 71 3131 3143 "obc/transformations/unroll.ml" 71 3131 3144
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/unroll.ml" 72 3147 3149 "obc/transformations/unroll.ml" 73 3207 3210
+)
+"obc/transformations/unroll.ml" 72 3147 3153 "obc/transformations/unroll.ml" 72 3147 3154
+type(
+  Obc.program
+)
+ident(
+  def p "obc/transformations/unroll.ml" 73 3207 3209 "obc/transformations/unroll.ml" 73 3207 3210
+)
+"obc/transformations/unroll.ml" 72 3147 3156 "obc/transformations/unroll.ml" 72 3147 3157
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 72 3147 3153 "obc/transformations/unroll.ml" 72 3147 3157
+type(
+  Obc.program * unit
+)
+"obc/transformations/unroll.ml" 72 3147 3160 "obc/transformations/unroll.ml" 72 3147 3170
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.program -> Obc.program * unit
+)
+ident(
+  ext_ref Obc_mapfold.program_it
+)
+"obc/transformations/unroll.ml" 72 3147 3173 "obc/transformations/unroll.ml" 72 3147 3181
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/transformations/unroll.ml" 72 3147 3193 "obc/transformations/unroll.ml" 72 3147 3196
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.act -> Obc.act * unit
+)
+ident(
+  int_ref act "obc/transformations/unroll.ml" 62 2871 2875 "obc/transformations/unroll.ml" 62 2871 2878
+)
+"obc/transformations/unroll.ml" 72 3147 3171 "obc/transformations/unroll.ml" 72 3147 3198
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+"obc/transformations/unroll.ml" 72 3147 3199 "obc/transformations/unroll.ml" 72 3147 3201
+type(
+  unit
+)
+"obc/transformations/unroll.ml" 72 3147 3202 "obc/transformations/unroll.ml" 72 3147 3203
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/unroll.ml" 71 3131 3143 "obc/transformations/unroll.ml" 71 3131 3144
+)
+"obc/transformations/unroll.ml" 72 3147 3160 "obc/transformations/unroll.ml" 72 3147 3203
+call(
+  stack
+)
+type(
+  Obc.program * unit
+)
+"obc/transformations/unroll.ml" 73 3207 3209 "obc/transformations/unroll.ml" 73 3207 3210
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/transformations/unroll.ml" 72 3147 3153 "obc/transformations/unroll.ml" 72 3147 3154
+)
+"obc/transformations/unroll.ml" 72 3147 3149 "obc/transformations/unroll.ml" 73 3207 3210
+type(
+  Obc.program
+)

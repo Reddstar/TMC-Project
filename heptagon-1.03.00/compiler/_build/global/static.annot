@@ -1,0 +1,4251 @@
+"global/static.ml" 54 2685 2689 "global/static.ml" 54 2685 2696
+type(
+  exn -> 'a
+)
+ident(
+  def message "global/static.ml" 82 3533 3533 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 54 2685 2697 "global/static.ml" 54 2685 2700
+type(
+  exn
+)
+ident(
+  def exn "global/static.ml" 55 2703 2705 "global/static.ml" 75 3346 3366
+)
+"global/static.ml" 55 2703 2717 "global/static.ml" 55 2703 2720
+type(
+  exn
+)
+ident(
+  int_ref exn "global/static.ml" 54 2685 2697 "global/static.ml" 54 2685 2700
+)
+"global/static.ml" 56 2726 2751 "global/static.ml" 56 2726 2752
+type(
+  eval_error
+)
+ident(
+  def e "global/static.ml" 57 2761 2769 "global/static.ml" 61 2901 2910
+)
+"global/static.ml" 56 2726 2753 "global/static.ml" 56 2726 2756
+type(
+  Location.location
+)
+ident(
+  def loc "global/static.ml" 57 2761 2769 "global/static.ml" 61 2901 2910
+)
+"global/static.ml" 56 2726 2732 "global/static.ml" 56 2726 2757
+type(
+  exn
+)
+"global/static.ml" 57 2761 2776 "global/static.ml" 57 2761 2777
+type(
+  eval_error
+)
+ident(
+  int_ref e "global/static.ml" 56 2726 2751 "global/static.ml" 56 2726 2752
+)
+"global/static.ml" 58 2783 2795 "global/static.ml" 58 2783 2811
+type(
+  eval_error
+)
+"global/static.ml" 59 2815 2829 "global/static.ml" 59 2815 2836
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/static.ml" 59 2815 2837 "global/static.ml" 59 2815 2867
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"global/static.ml" 60 2868 2882 "global/static.ml" 60 2868 2896
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"global/static.ml" 60 2868 2897 "global/static.ml" 60 2868 2900
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 56 2726 2753 "global/static.ml" 56 2726 2756
+)
+"global/static.ml" 59 2815 2829 "global/static.ml" 60 2868 2900
+call(
+  stack
+)
+type(
+  unit
+)
+"global/static.ml" 57 2761 2769 "global/static.ml" 61 2901 2910
+type(
+  unit
+)
+"global/static.ml" 62 2911 2937 "global/static.ml" 62 2911 2938
+type(
+  partial_eval_cause
+)
+ident(
+  def e "global/static.ml" 63 2947 2955 "global/static.ml" 72 3308 3317
+)
+"global/static.ml" 62 2911 2939 "global/static.ml" 62 2911 2942
+type(
+  Location.location
+)
+ident(
+  def loc "global/static.ml" 63 2947 2955 "global/static.ml" 72 3308 3317
+)
+"global/static.ml" 62 2911 2917 "global/static.ml" 62 2911 2943
+type(
+  exn
+)
+"global/static.ml" 63 2947 2962 "global/static.ml" 63 2947 2963
+type(
+  partial_eval_cause
+)
+ident(
+  int_ref e "global/static.ml" 62 2911 2937 "global/static.ml" 62 2911 2938
+)
+"global/static.ml" 64 2969 2992 "global/static.ml" 64 2969 2994
+type(
+  Names.fun_name
+)
+ident(
+  def op "global/static.ml" 65 2998 3012 "global/static.ml" 67 3089 3135
+)
+"global/static.ml" 64 2969 2981 "global/static.ml" 64 2969 2994
+type(
+  partial_eval_cause
+)
+"global/static.ml" 65 2998 3012 "global/static.ml" 65 2998 3019
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Names.fun_name -> unit) -> Names.fun_name -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location ->
+  (Format.formatter -> Names.fun_name -> unit) -> Names.fun_name -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/static.ml" 65 2998 3020 "global/static.ml" 65 2998 3046
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Names.fun_name -> unit) -> Names.fun_name -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/static.ml" 66 3047 3061 "global/static.ml" 66 3047 3084
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"global/static.ml" 66 3047 3085 "global/static.ml" 66 3047 3088
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 62 2911 2939 "global/static.ml" 62 2911 2942
+)
+"global/static.ml" 67 3089 3103 "global/static.ml" 67 3089 3132
+type(
+  Format.formatter -> Names.fun_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"global/static.ml" 67 3089 3133 "global/static.ml" 67 3089 3135
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 64 2969 2992 "global/static.ml" 64 2969 2994
+)
+"global/static.ml" 65 2998 3012 "global/static.ml" 67 3089 3135
+call(
+  stack
+)
+type(
+  unit
+)
+"global/static.ml" 68 3136 3162 "global/static.ml" 68 3136 3163
+type(
+  Names.qualname
+)
+ident(
+  def q "global/static.ml" 69 3167 3181 "global/static.ml" 71 3262 3307
+)
+"global/static.ml" 68 3136 3148 "global/static.ml" 68 3136 3163
+type(
+  partial_eval_cause
+)
+"global/static.ml" 69 3167 3181 "global/static.ml" 69 3167 3188
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location ->
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/static.ml" 69 3167 3189 "global/static.ml" 69 3167 3219
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/static.ml" 70 3220 3234 "global/static.ml" 70 3220 3257
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"global/static.ml" 70 3220 3258 "global/static.ml" 70 3220 3261
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 62 2911 2939 "global/static.ml" 62 2911 2942
+)
+"global/static.ml" 71 3262 3276 "global/static.ml" 71 3262 3305
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"global/static.ml" 71 3262 3306 "global/static.ml" 71 3262 3307
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "global/static.ml" 68 3136 3162 "global/static.ml" 68 3136 3163
+)
+"global/static.ml" 69 3167 3181 "global/static.ml" 71 3262 3307
+call(
+  stack
+)
+type(
+  unit
+)
+"global/static.ml" 63 2947 2955 "global/static.ml" 72 3308 3317
+type(
+  unit
+)
+"global/static.ml" 73 3318 3324 "global/static.ml" 73 3318 3325
+type(
+  exn
+)
+"global/static.ml" 73 3318 3329 "global/static.ml" 73 3318 3334
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 73 3318 3335 "global/static.ml" 73 3318 3338
+type(
+  exn
+)
+ident(
+  int_ref exn "global/static.ml" 54 2685 2697 "global/static.ml" 54 2685 2700
+)
+"global/static.ml" 73 3318 3329 "global/static.ml" 73 3318 3338
+type(
+  unit
+)
+"global/static.ml" 55 2703 2705 "global/static.ml" 74 3339 3344
+type(
+  unit
+)
+"global/static.ml" 75 3346 3348 "global/static.ml" 75 3346 3353
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 75 3346 3354 "global/static.ml" 75 3346 3366
+type(
+  exn
+)
+"global/static.ml" 75 3346 3348 "global/static.ml" 75 3346 3366
+type(
+  'a
+)
+"global/static.ml" 55 2703 2705 "global/static.ml" 75 3346 3366
+type(
+  'a
+)
+"global/static.ml" 82 3533 3537 "global/static.ml" 82 3533 3545
+type(
+  bool ->
+  Location.location ->
+  Names.fun_name -> Types.static_exp list -> Types.static_exp_desc
+)
+ident(
+  def apply_op "global/static.ml" 145 6111 6111 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 82 3533 3546 "global/static.ml" 82 3533 3553
+type(
+  bool
+)
+ident(
+  def partial "global/static.ml" 82 3533 3554 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 82 3533 3554 "global/static.ml" 82 3533 3557
+type(
+  Location.location
+)
+ident(
+  def loc "global/static.ml" 82 3533 3558 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+type(
+  Names.fun_name
+)
+ident(
+  def op "global/static.ml" 82 3533 3561 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 82 3533 3561 "global/static.ml" 82 3533 3568
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/static.ml" 83 3571 3573 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 83 3571 3577 "global/static.ml" 83 3571 3589
+type(
+  bool -> Types.static_exp -> Types.static_exp_desc * bool
+)
+ident(
+  def has_var_desc "global/static.ml" 95 3889 3891 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 83 3571 3590 "global/static.ml" 83 3571 3593
+type(
+  bool
+)
+ident(
+  def acc "global/static.ml" 83 3571 3594 "global/static.ml" 93 3864 3883
+)
+"global/static.ml" 83 3571 3594 "global/static.ml" 83 3571 3596
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 84 3599 3603 "global/static.ml" 93 3864 3883
+)
+"global/static.ml" 84 3599 3607 "global/static.ml" 84 3599 3614
+type(
+  'a -> 'b -> Types.static_exp_desc -> Types.static_exp_desc * bool
+)
+ident(
+  def has_var "global/static.ml" 88 3709 3713 "global/static.ml" 93 3864 3883
+)
+"global/static.ml" 84 3599 3615 "global/static.ml" 84 3599 3616
+type(
+  'a
+)
+"global/static.ml" 84 3599 3617 "global/static.ml" 84 3599 3618
+type(
+  'b
+)
+"global/static.ml" 84 3599 3619 "global/static.ml" 84 3599 3622
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sed "global/static.ml" 84 3599 3625 "global/static.ml" 86 3667 3701
+)
+"global/static.ml" 84 3599 3631 "global/static.ml" 84 3599 3634
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sed "global/static.ml" 84 3599 3619 "global/static.ml" 84 3599 3622
+)
+"global/static.ml" 85 3640 3653 "global/static.ml" 85 3640 3654
+type(
+  Names.constant_name
+)
+"global/static.ml" 85 3640 3648 "global/static.ml" 85 3640 3654
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 85 3640 3658 "global/static.ml" 85 3640 3661
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sed "global/static.ml" 84 3599 3619 "global/static.ml" 84 3599 3622
+)
+"global/static.ml" 85 3640 3662 "global/static.ml" 85 3640 3666
+type(
+  bool
+)
+"global/static.ml" 85 3640 3658 "global/static.ml" 85 3640 3666
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 86 3667 3675 "global/static.ml" 86 3667 3676
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 86 3667 3680 "global/static.ml" 86 3667 3685
+type(
+  exn -> Types.static_exp_desc * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 86 3667 3686 "global/static.ml" 86 3667 3701
+type(
+  exn
+)
+"global/static.ml" 86 3667 3680 "global/static.ml" 86 3667 3701
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 84 3599 3625 "global/static.ml" 86 3667 3701
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 88 3709 3717 "global/static.ml" 88 3709 3719
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 93 3864 3868 "global/static.ml" 93 3864 3883
+)
+"global/static.ml" 88 3709 3721 "global/static.ml" 88 3709 3724
+type(
+  bool
+)
+ident(
+  def acc "global/static.ml" 93 3864 3868 "global/static.ml" 93 3864 3883
+)
+"global/static.ml" 88 3709 3717 "global/static.ml" 88 3709 3724
+type(
+  Types.static_exp * bool
+)
+"global/static.ml" 89 3727 3733 "global/static.ml" 89 3727 3761
+type(
+  bool Global_mapfold.global_it_funs ->
+  bool -> Types.static_exp -> Types.static_exp * bool
+)
+ident(
+  ext_ref Global_mapfold.static_exp_it
+)
+"global/static.ml" 90 3762 3771 "global/static.ml" 90 3762 3794
+type(
+  bool Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"global/static.ml" 90 3762 3833 "global/static.ml" 90 3762 3840
+type(
+  bool Global_mapfold.global_it_funs ->
+  bool -> Types.static_exp_desc -> Types.static_exp_desc * bool
+)
+ident(
+  int_ref has_var "global/static.ml" 84 3599 3607 "global/static.ml" 84 3599 3614
+)
+"global/static.ml" 90 3762 3770 "global/static.ml" 90 3762 3841
+type(
+  bool Global_mapfold.global_it_funs
+)
+"global/static.ml" 91 3842 3850 "global/static.ml" 91 3842 3853
+type(
+  bool
+)
+ident(
+  int_ref acc "global/static.ml" 83 3571 3590 "global/static.ml" 83 3571 3593
+)
+"global/static.ml" 91 3842 3854 "global/static.ml" 91 3842 3856
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 83 3571 3594 "global/static.ml" 83 3571 3596
+)
+"global/static.ml" 89 3727 3733 "global/static.ml" 91 3842 3856
+call(
+  stack
+)
+type(
+  Types.static_exp * bool
+)
+"global/static.ml" 93 3864 3868 "global/static.ml" 93 3864 3870
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 88 3709 3717 "global/static.ml" 88 3709 3719
+)
+"global/static.ml" 93 3864 3868 "global/static.ml" 93 3864 3878
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 93 3864 3880 "global/static.ml" 93 3864 3883
+type(
+  bool
+)
+ident(
+  int_ref acc "global/static.ml" 88 3709 3721 "global/static.ml" 88 3709 3724
+)
+"global/static.ml" 93 3864 3868 "global/static.ml" 93 3864 3883
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 88 3709 3713 "global/static.ml" 93 3864 3883
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 84 3599 3603 "global/static.ml" 93 3864 3883
+type(
+  Types.static_exp_desc * bool
+)
+"global/static.ml" 95 3889 3895 "global/static.ml" 95 3889 3900
+type(
+  Types.static_exp_desc list
+)
+ident(
+  def sed_l "global/static.ml" 96 3955 3957 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 95 3889 3902 "global/static.ml" 95 3889 3909
+type(
+  bool
+)
+ident(
+  def has_var "global/static.ml" 96 3955 3957 "global/static.ml" 137 5914 5917
+)
+"global/static.ml" 95 3889 3895 "global/static.ml" 95 3889 3909
+type(
+  Types.static_exp_desc list * bool
+)
+"global/static.ml" 95 3889 3912 "global/static.ml" 95 3889 3924
+type(
+  (bool -> Types.static_exp -> Types.static_exp_desc * bool) ->
+  bool -> Types.static_exp list -> Types.static_exp_desc list * bool
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"global/static.ml" 95 3889 3925 "global/static.ml" 95 3889 3937
+type(
+  bool -> Types.static_exp -> Types.static_exp_desc * bool
+)
+ident(
+  int_ref has_var_desc "global/static.ml" 83 3571 3577 "global/static.ml" 83 3571 3589
+)
+"global/static.ml" 95 3889 3938 "global/static.ml" 95 3889 3943
+type(
+  bool
+)
+"global/static.ml" 95 3889 3944 "global/static.ml" 95 3889 3951
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 82 3533 3561 "global/static.ml" 82 3533 3568
+)
+"global/static.ml" 95 3889 3912 "global/static.ml" 95 3889 3951
+call(
+  stack
+)
+type(
+  Types.static_exp_desc list * bool
+)
+"global/static.ml" 96 3955 3961 "global/static.ml" 96 3955 3963
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+)
+"global/static.ml" 96 3955 3961 "global/static.ml" 96 3955 3968
+type(
+  Names.modul
+)
+"global/static.ml" 96 3955 3969 "global/static.ml" 96 3955 3970
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 96 3955 3971 "global/static.ml" 96 3955 3981
+type(
+  Names.modul
+)
+"global/static.ml" 96 3955 3960 "global/static.ml" 96 3955 3982
+type(
+  bool
+)
+"global/static.ml" 96 3955 3983 "global/static.ml" 96 3955 3985
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/static.ml" 96 3955 3986 "global/static.ml" 96 3955 3989
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/static.ml" 96 3955 3990 "global/static.ml" 96 3955 3997
+type(
+  bool
+)
+ident(
+  int_ref has_var "global/static.ml" 95 3889 3902 "global/static.ml" 95 3889 3909
+)
+"global/static.ml" 96 3955 3986 "global/static.ml" 96 3955 3997
+type(
+  bool
+)
+"global/static.ml" 96 3955 3960 "global/static.ml" 96 3955 3997
+type(
+  bool
+)
+"global/static.ml" 98 4033 4043 "global/static.ml" 98 4033 4045
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+)
+"global/static.ml" 98 4033 4043 "global/static.ml" 98 4033 4050
+type(
+  Names.name
+)
+"global/static.ml" 98 4033 4052 "global/static.ml" 98 4033 4057
+type(
+  Types.static_exp_desc list
+)
+ident(
+  int_ref sed_l "global/static.ml" 95 3889 3895 "global/static.ml" 95 3889 3900
+)
+"global/static.ml" 98 4033 4043 "global/static.ml" 98 4033 4057
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 99 4063 4071 "global/static.ml" 99 4063 4074
+type(
+  Names.name
+)
+"global/static.ml" 99 4063 4082 "global/static.ml" 99 4063 4084
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 99 4063 4098 "global/static.ml" 99 4063 4112
+)
+"global/static.ml" 99 4063 4077 "global/static.ml" 99 4063 4084
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 99 4063 4091 "global/static.ml" 99 4063 4093
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 99 4063 4098 "global/static.ml" 99 4063 4112
+)
+"global/static.ml" 99 4063 4086 "global/static.ml" 99 4063 4093
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 99 4063 4076 "global/static.ml" 99 4063 4094
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 99 4063 4071 "global/static.ml" 99 4063 4094
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 99 4063 4104 "global/static.ml" 99 4063 4106
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 99 4063 4082 "global/static.ml" 99 4063 4084
+)
+"global/static.ml" 99 4063 4107 "global/static.ml" 99 4063 4108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"global/static.ml" 99 4063 4109 "global/static.ml" 99 4063 4111
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 99 4063 4091 "global/static.ml" 99 4063 4093
+)
+"global/static.ml" 99 4063 4103 "global/static.ml" 99 4063 4112
+type(
+  int
+)
+"global/static.ml" 99 4063 4098 "global/static.ml" 99 4063 4112
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 100 4113 4121 "global/static.ml" 100 4113 4124
+type(
+  Names.name
+)
+"global/static.ml" 100 4113 4132 "global/static.ml" 100 4113 4134
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 100 4113 4148 "global/static.ml" 100 4113 4162
+)
+"global/static.ml" 100 4113 4127 "global/static.ml" 100 4113 4134
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 100 4113 4141 "global/static.ml" 100 4113 4143
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 100 4113 4148 "global/static.ml" 100 4113 4162
+)
+"global/static.ml" 100 4113 4136 "global/static.ml" 100 4113 4143
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 100 4113 4126 "global/static.ml" 100 4113 4144
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 100 4113 4121 "global/static.ml" 100 4113 4144
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 100 4113 4154 "global/static.ml" 100 4113 4156
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 100 4113 4132 "global/static.ml" 100 4113 4134
+)
+"global/static.ml" 100 4113 4157 "global/static.ml" 100 4113 4158
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"global/static.ml" 100 4113 4159 "global/static.ml" 100 4113 4161
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 100 4113 4141 "global/static.ml" 100 4113 4143
+)
+"global/static.ml" 100 4113 4153 "global/static.ml" 100 4113 4162
+type(
+  int
+)
+"global/static.ml" 100 4113 4148 "global/static.ml" 100 4113 4162
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 101 4163 4171 "global/static.ml" 101 4163 4174
+type(
+  Names.name
+)
+"global/static.ml" 101 4163 4182 "global/static.ml" 101 4163 4184
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 101 4163 4198 "global/static.ml" 101 4163 4212
+)
+"global/static.ml" 101 4163 4177 "global/static.ml" 101 4163 4184
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 101 4163 4191 "global/static.ml" 101 4163 4193
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 101 4163 4198 "global/static.ml" 101 4163 4212
+)
+"global/static.ml" 101 4163 4186 "global/static.ml" 101 4163 4193
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 101 4163 4176 "global/static.ml" 101 4163 4194
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 101 4163 4171 "global/static.ml" 101 4163 4194
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 101 4163 4204 "global/static.ml" 101 4163 4206
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 101 4163 4182 "global/static.ml" 101 4163 4184
+)
+"global/static.ml" 101 4163 4207 "global/static.ml" 101 4163 4208
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"global/static.ml" 101 4163 4209 "global/static.ml" 101 4163 4211
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 101 4163 4191 "global/static.ml" 101 4163 4193
+)
+"global/static.ml" 101 4163 4203 "global/static.ml" 101 4163 4212
+type(
+  int
+)
+"global/static.ml" 101 4163 4198 "global/static.ml" 101 4163 4212
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 102 4213 4221 "global/static.ml" 102 4213 4224
+type(
+  Names.name
+)
+"global/static.ml" 102 4213 4232 "global/static.ml" 102 4213 4234
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 103 4248 4258 "global/static.ml" 104 4324 4348
+)
+"global/static.ml" 102 4213 4227 "global/static.ml" 102 4213 4234
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 102 4213 4241 "global/static.ml" 102 4213 4243
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 103 4248 4258 "global/static.ml" 104 4324 4348
+)
+"global/static.ml" 102 4213 4236 "global/static.ml" 102 4213 4243
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 102 4213 4226 "global/static.ml" 102 4213 4244
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 102 4213 4221 "global/static.ml" 102 4213 4244
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 103 4248 4261 "global/static.ml" 103 4248 4263
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 102 4213 4241 "global/static.ml" 102 4213 4243
+)
+"global/static.ml" 103 4248 4264 "global/static.ml" 103 4248 4265
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 103 4248 4266 "global/static.ml" 103 4248 4267
+type(
+  int
+)
+"global/static.ml" 103 4248 4261 "global/static.ml" 103 4248 4267
+type(
+  bool
+)
+"global/static.ml" 103 4248 4273 "global/static.ml" 103 4248 4278
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 103 4248 4299 "global/static.ml" 103 4248 4315
+type(
+  eval_error
+)
+"global/static.ml" 103 4248 4317 "global/static.ml" 103 4248 4320
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 82 3533 3554 "global/static.ml" 82 3533 3557
+)
+"global/static.ml" 103 4248 4279 "global/static.ml" 103 4248 4322
+type(
+  exn
+)
+"global/static.ml" 103 4248 4273 "global/static.ml" 103 4248 4322
+type(
+  unit
+)
+"global/static.ml" 103 4248 4258 "global/static.ml" 103 4248 4322
+type(
+  unit
+)
+"global/static.ml" 104 4324 4340 "global/static.ml" 104 4324 4342
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 102 4213 4232 "global/static.ml" 102 4213 4234
+)
+"global/static.ml" 104 4324 4343 "global/static.ml" 104 4324 4344
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"global/static.ml" 104 4324 4345 "global/static.ml" 104 4324 4347
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 102 4213 4241 "global/static.ml" 102 4213 4243
+)
+"global/static.ml" 104 4324 4339 "global/static.ml" 104 4324 4348
+type(
+  int
+)
+"global/static.ml" 104 4324 4334 "global/static.ml" 104 4324 4348
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 103 4248 4258 "global/static.ml" 104 4324 4348
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 105 4349 4357 "global/static.ml" 105 4349 4361
+type(
+  Names.name
+)
+"global/static.ml" 105 4349 4371 "global/static.ml" 105 4349 4373
+type(
+  float
+)
+ident(
+  def f1 "global/static.ml" 105 4349 4389 "global/static.ml" 105 4349 4406
+)
+"global/static.ml" 105 4349 4364 "global/static.ml" 105 4349 4373
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 105 4349 4382 "global/static.ml" 105 4349 4384
+type(
+  float
+)
+ident(
+  def f2 "global/static.ml" 105 4349 4389 "global/static.ml" 105 4349 4406
+)
+"global/static.ml" 105 4349 4375 "global/static.ml" 105 4349 4384
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 105 4349 4363 "global/static.ml" 105 4349 4385
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 105 4349 4357 "global/static.ml" 105 4349 4385
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 105 4349 4397 "global/static.ml" 105 4349 4399
+type(
+  float
+)
+ident(
+  int_ref f1 "global/static.ml" 105 4349 4371 "global/static.ml" 105 4349 4373
+)
+"global/static.ml" 105 4349 4400 "global/static.ml" 105 4349 4402
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"global/static.ml" 105 4349 4403 "global/static.ml" 105 4349 4405
+type(
+  float
+)
+ident(
+  int_ref f2 "global/static.ml" 105 4349 4382 "global/static.ml" 105 4349 4384
+)
+"global/static.ml" 105 4349 4396 "global/static.ml" 105 4349 4406
+type(
+  float
+)
+"global/static.ml" 105 4349 4389 "global/static.ml" 105 4349 4406
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 106 4407 4415 "global/static.ml" 106 4407 4419
+type(
+  Names.name
+)
+"global/static.ml" 106 4407 4429 "global/static.ml" 106 4407 4431
+type(
+  float
+)
+ident(
+  def f1 "global/static.ml" 106 4407 4447 "global/static.ml" 106 4407 4464
+)
+"global/static.ml" 106 4407 4422 "global/static.ml" 106 4407 4431
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 106 4407 4440 "global/static.ml" 106 4407 4442
+type(
+  float
+)
+ident(
+  def f2 "global/static.ml" 106 4407 4447 "global/static.ml" 106 4407 4464
+)
+"global/static.ml" 106 4407 4433 "global/static.ml" 106 4407 4442
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 106 4407 4421 "global/static.ml" 106 4407 4443
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 106 4407 4415 "global/static.ml" 106 4407 4443
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 106 4407 4455 "global/static.ml" 106 4407 4457
+type(
+  float
+)
+ident(
+  int_ref f1 "global/static.ml" 106 4407 4429 "global/static.ml" 106 4407 4431
+)
+"global/static.ml" 106 4407 4458 "global/static.ml" 106 4407 4460
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"global/static.ml" 106 4407 4461 "global/static.ml" 106 4407 4463
+type(
+  float
+)
+ident(
+  int_ref f2 "global/static.ml" 106 4407 4440 "global/static.ml" 106 4407 4442
+)
+"global/static.ml" 106 4407 4454 "global/static.ml" 106 4407 4464
+type(
+  float
+)
+"global/static.ml" 106 4407 4447 "global/static.ml" 106 4407 4464
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 107 4465 4473 "global/static.ml" 107 4465 4477
+type(
+  Names.name
+)
+"global/static.ml" 107 4465 4487 "global/static.ml" 107 4465 4489
+type(
+  float
+)
+ident(
+  def f1 "global/static.ml" 107 4465 4505 "global/static.ml" 107 4465 4522
+)
+"global/static.ml" 107 4465 4480 "global/static.ml" 107 4465 4489
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 107 4465 4498 "global/static.ml" 107 4465 4500
+type(
+  float
+)
+ident(
+  def f2 "global/static.ml" 107 4465 4505 "global/static.ml" 107 4465 4522
+)
+"global/static.ml" 107 4465 4491 "global/static.ml" 107 4465 4500
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 107 4465 4479 "global/static.ml" 107 4465 4501
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 107 4465 4473 "global/static.ml" 107 4465 4501
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 107 4465 4513 "global/static.ml" 107 4465 4515
+type(
+  float
+)
+ident(
+  int_ref f1 "global/static.ml" 107 4465 4487 "global/static.ml" 107 4465 4489
+)
+"global/static.ml" 107 4465 4516 "global/static.ml" 107 4465 4518
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"global/static.ml" 107 4465 4519 "global/static.ml" 107 4465 4521
+type(
+  float
+)
+ident(
+  int_ref f2 "global/static.ml" 107 4465 4498 "global/static.ml" 107 4465 4500
+)
+"global/static.ml" 107 4465 4512 "global/static.ml" 107 4465 4522
+type(
+  float
+)
+"global/static.ml" 107 4465 4505 "global/static.ml" 107 4465 4522
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 108 4523 4531 "global/static.ml" 108 4523 4535
+type(
+  Names.name
+)
+"global/static.ml" 108 4523 4545 "global/static.ml" 108 4523 4547
+type(
+  float
+)
+ident(
+  def f1 "global/static.ml" 109 4563 4573 "global/static.ml" 110 4641 4668
+)
+"global/static.ml" 108 4523 4538 "global/static.ml" 108 4523 4547
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 108 4523 4556 "global/static.ml" 108 4523 4558
+type(
+  float
+)
+ident(
+  def f2 "global/static.ml" 109 4563 4573 "global/static.ml" 110 4641 4668
+)
+"global/static.ml" 108 4523 4549 "global/static.ml" 108 4523 4558
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 108 4523 4537 "global/static.ml" 108 4523 4559
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 108 4523 4531 "global/static.ml" 108 4523 4559
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 109 4563 4576 "global/static.ml" 109 4563 4578
+type(
+  float
+)
+ident(
+  int_ref f2 "global/static.ml" 108 4523 4556 "global/static.ml" 108 4523 4558
+)
+"global/static.ml" 109 4563 4579 "global/static.ml" 109 4563 4580
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 109 4563 4581 "global/static.ml" 109 4563 4584
+type(
+  float
+)
+"global/static.ml" 109 4563 4576 "global/static.ml" 109 4563 4584
+type(
+  bool
+)
+"global/static.ml" 109 4563 4590 "global/static.ml" 109 4563 4595
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 109 4563 4616 "global/static.ml" 109 4563 4632
+type(
+  eval_error
+)
+"global/static.ml" 109 4563 4634 "global/static.ml" 109 4563 4637
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 82 3533 3554 "global/static.ml" 82 3533 3557
+)
+"global/static.ml" 109 4563 4596 "global/static.ml" 109 4563 4639
+type(
+  exn
+)
+"global/static.ml" 109 4563 4590 "global/static.ml" 109 4563 4639
+type(
+  unit
+)
+"global/static.ml" 109 4563 4573 "global/static.ml" 109 4563 4639
+type(
+  unit
+)
+"global/static.ml" 110 4641 4659 "global/static.ml" 110 4641 4661
+type(
+  float
+)
+ident(
+  int_ref f1 "global/static.ml" 108 4523 4545 "global/static.ml" 108 4523 4547
+)
+"global/static.ml" 110 4641 4662 "global/static.ml" 110 4641 4664
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"global/static.ml" 110 4641 4665 "global/static.ml" 110 4641 4667
+type(
+  float
+)
+ident(
+  int_ref f2 "global/static.ml" 108 4523 4556 "global/static.ml" 108 4523 4558
+)
+"global/static.ml" 110 4641 4658 "global/static.ml" 110 4641 4668
+type(
+  float
+)
+"global/static.ml" 110 4641 4651 "global/static.ml" 110 4641 4668
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 109 4563 4573 "global/static.ml" 110 4641 4668
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 111 4669 4677 "global/static.ml" 111 4669 4680
+type(
+  Names.name
+)
+"global/static.ml" 111 4669 4688 "global/static.ml" 111 4669 4690
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 111 4669 4704 "global/static.ml" 111 4669 4719
+)
+"global/static.ml" 111 4669 4683 "global/static.ml" 111 4669 4690
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 111 4669 4697 "global/static.ml" 111 4669 4699
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 111 4669 4704 "global/static.ml" 111 4669 4719
+)
+"global/static.ml" 111 4669 4692 "global/static.ml" 111 4669 4699
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 111 4669 4682 "global/static.ml" 111 4669 4700
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 111 4669 4677 "global/static.ml" 111 4669 4700
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 111 4669 4711 "global/static.ml" 111 4669 4713
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 111 4669 4688 "global/static.ml" 111 4669 4690
+)
+"global/static.ml" 111 4669 4714 "global/static.ml" 111 4669 4715
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 111 4669 4716 "global/static.ml" 111 4669 4718
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 111 4669 4697 "global/static.ml" 111 4669 4699
+)
+"global/static.ml" 111 4669 4710 "global/static.ml" 111 4669 4719
+type(
+  bool
+)
+"global/static.ml" 111 4669 4704 "global/static.ml" 111 4669 4719
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 112 4720 4728 "global/static.ml" 112 4720 4732
+type(
+  Names.name
+)
+"global/static.ml" 112 4720 4740 "global/static.ml" 112 4720 4742
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 112 4720 4756 "global/static.ml" 112 4720 4772
+)
+"global/static.ml" 112 4720 4735 "global/static.ml" 112 4720 4742
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 112 4720 4749 "global/static.ml" 112 4720 4751
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 112 4720 4756 "global/static.ml" 112 4720 4772
+)
+"global/static.ml" 112 4720 4744 "global/static.ml" 112 4720 4751
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 112 4720 4734 "global/static.ml" 112 4720 4752
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 112 4720 4728 "global/static.ml" 112 4720 4752
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 112 4720 4763 "global/static.ml" 112 4720 4765
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 112 4720 4740 "global/static.ml" 112 4720 4742
+)
+"global/static.ml" 112 4720 4766 "global/static.ml" 112 4720 4768
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"global/static.ml" 112 4720 4769 "global/static.ml" 112 4720 4771
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 112 4720 4749 "global/static.ml" 112 4720 4751
+)
+"global/static.ml" 112 4720 4762 "global/static.ml" 112 4720 4772
+type(
+  bool
+)
+"global/static.ml" 112 4720 4756 "global/static.ml" 112 4720 4772
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 113 4773 4781 "global/static.ml" 113 4773 4785
+type(
+  Names.name
+)
+"global/static.ml" 113 4773 4793 "global/static.ml" 113 4773 4795
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 113 4773 4809 "global/static.ml" 113 4773 4825
+)
+"global/static.ml" 113 4773 4788 "global/static.ml" 113 4773 4795
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 113 4773 4802 "global/static.ml" 113 4773 4804
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 113 4773 4809 "global/static.ml" 113 4773 4825
+)
+"global/static.ml" 113 4773 4797 "global/static.ml" 113 4773 4804
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 113 4773 4787 "global/static.ml" 113 4773 4805
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 113 4773 4781 "global/static.ml" 113 4773 4805
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 113 4773 4816 "global/static.ml" 113 4773 4818
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 113 4773 4793 "global/static.ml" 113 4773 4795
+)
+"global/static.ml" 113 4773 4819 "global/static.ml" 113 4773 4821
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"global/static.ml" 113 4773 4822 "global/static.ml" 113 4773 4824
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 113 4773 4802 "global/static.ml" 113 4773 4804
+)
+"global/static.ml" 113 4773 4815 "global/static.ml" 113 4773 4825
+type(
+  bool
+)
+"global/static.ml" 113 4773 4809 "global/static.ml" 113 4773 4825
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 114 4826 4834 "global/static.ml" 114 4826 4837
+type(
+  Names.name
+)
+"global/static.ml" 114 4826 4845 "global/static.ml" 114 4826 4847
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 114 4826 4861 "global/static.ml" 114 4826 4876
+)
+"global/static.ml" 114 4826 4840 "global/static.ml" 114 4826 4847
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 114 4826 4854 "global/static.ml" 114 4826 4856
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 114 4826 4861 "global/static.ml" 114 4826 4876
+)
+"global/static.ml" 114 4826 4849 "global/static.ml" 114 4826 4856
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 114 4826 4839 "global/static.ml" 114 4826 4857
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 114 4826 4834 "global/static.ml" 114 4826 4857
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 114 4826 4868 "global/static.ml" 114 4826 4870
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 114 4826 4845 "global/static.ml" 114 4826 4847
+)
+"global/static.ml" 114 4826 4871 "global/static.ml" 114 4826 4872
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"global/static.ml" 114 4826 4873 "global/static.ml" 114 4826 4875
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 114 4826 4854 "global/static.ml" 114 4826 4856
+)
+"global/static.ml" 114 4826 4867 "global/static.ml" 114 4826 4876
+type(
+  bool
+)
+"global/static.ml" 114 4826 4861 "global/static.ml" 114 4826 4876
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 115 4877 4885 "global/static.ml" 115 4877 4888
+type(
+  Names.name
+)
+"global/static.ml" 115 4877 4896 "global/static.ml" 115 4877 4898
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 115 4877 4912 "global/static.ml" 115 4877 4927
+)
+"global/static.ml" 115 4877 4891 "global/static.ml" 115 4877 4898
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 115 4877 4905 "global/static.ml" 115 4877 4907
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 115 4877 4912 "global/static.ml" 115 4877 4927
+)
+"global/static.ml" 115 4877 4900 "global/static.ml" 115 4877 4907
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 115 4877 4890 "global/static.ml" 115 4877 4908
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 115 4877 4885 "global/static.ml" 115 4877 4908
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 115 4877 4919 "global/static.ml" 115 4877 4921
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 115 4877 4896 "global/static.ml" 115 4877 4898
+)
+"global/static.ml" 115 4877 4922 "global/static.ml" 115 4877 4923
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"global/static.ml" 115 4877 4924 "global/static.ml" 115 4877 4926
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 115 4877 4905 "global/static.ml" 115 4877 4907
+)
+"global/static.ml" 115 4877 4918 "global/static.ml" 115 4877 4927
+type(
+  bool
+)
+"global/static.ml" 115 4877 4912 "global/static.ml" 115 4877 4927
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 116 4928 4936 "global/static.ml" 116 4928 4941
+type(
+  Names.name
+)
+"global/static.ml" 116 4928 4949 "global/static.ml" 116 4928 4951
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 116 4928 4965 "global/static.ml" 116 4928 4981
+)
+"global/static.ml" 116 4928 4944 "global/static.ml" 116 4928 4951
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 116 4928 4958 "global/static.ml" 116 4928 4960
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 116 4928 4965 "global/static.ml" 116 4928 4981
+)
+"global/static.ml" 116 4928 4953 "global/static.ml" 116 4928 4960
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 116 4928 4943 "global/static.ml" 116 4928 4961
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 116 4928 4936 "global/static.ml" 116 4928 4961
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 116 4928 4971 "global/static.ml" 116 4928 4973
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 116 4928 4949 "global/static.ml" 116 4928 4951
+)
+"global/static.ml" 116 4928 4974 "global/static.ml" 116 4928 4977
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"global/static.ml" 116 4928 4978 "global/static.ml" 116 4928 4980
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 116 4928 4958 "global/static.ml" 116 4928 4960
+)
+"global/static.ml" 116 4928 4970 "global/static.ml" 116 4928 4981
+type(
+  int
+)
+"global/static.ml" 116 4928 4965 "global/static.ml" 116 4928 4981
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 117 4982 4990 "global/static.ml" 117 4982 4995
+type(
+  Names.name
+)
+"global/static.ml" 117 4982 5003 "global/static.ml" 117 4982 5005
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 117 4982 5019 "global/static.ml" 117 4982 5035
+)
+"global/static.ml" 117 4982 4998 "global/static.ml" 117 4982 5005
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 117 4982 5012 "global/static.ml" 117 4982 5014
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 117 4982 5019 "global/static.ml" 117 4982 5035
+)
+"global/static.ml" 117 4982 5007 "global/static.ml" 117 4982 5014
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 117 4982 4997 "global/static.ml" 117 4982 5015
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 117 4982 4990 "global/static.ml" 117 4982 5015
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 117 4982 5025 "global/static.ml" 117 4982 5027
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 117 4982 5003 "global/static.ml" 117 4982 5005
+)
+"global/static.ml" 117 4982 5028 "global/static.ml" 117 4982 5031
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"global/static.ml" 117 4982 5032 "global/static.ml" 117 4982 5034
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 117 4982 5012 "global/static.ml" 117 4982 5014
+)
+"global/static.ml" 117 4982 5024 "global/static.ml" 117 4982 5035
+type(
+  int
+)
+"global/static.ml" 117 4982 5019 "global/static.ml" 117 4982 5035
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 118 5036 5044 "global/static.ml" 118 5036 5047
+type(
+  Names.name
+)
+"global/static.ml" 118 5036 5056 "global/static.ml" 118 5036 5058
+type(
+  bool
+)
+ident(
+  def b1 "global/static.ml" 118 5036 5073 "global/static.ml" 118 5036 5089
+)
+"global/static.ml" 118 5036 5050 "global/static.ml" 118 5036 5058
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 118 5036 5066 "global/static.ml" 118 5036 5068
+type(
+  bool
+)
+ident(
+  def b2 "global/static.ml" 118 5036 5073 "global/static.ml" 118 5036 5089
+)
+"global/static.ml" 118 5036 5060 "global/static.ml" 118 5036 5068
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 118 5036 5049 "global/static.ml" 118 5036 5069
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 118 5036 5044 "global/static.ml" 118 5036 5069
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 118 5036 5080 "global/static.ml" 118 5036 5082
+type(
+  bool
+)
+ident(
+  int_ref b1 "global/static.ml" 118 5036 5056 "global/static.ml" 118 5036 5058
+)
+"global/static.ml" 118 5036 5083 "global/static.ml" 118 5036 5085
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/static.ml" 118 5036 5086 "global/static.ml" 118 5036 5088
+type(
+  bool
+)
+ident(
+  int_ref b2 "global/static.ml" 118 5036 5066 "global/static.ml" 118 5036 5068
+)
+"global/static.ml" 118 5036 5079 "global/static.ml" 118 5036 5089
+type(
+  bool
+)
+"global/static.ml" 118 5036 5073 "global/static.ml" 118 5036 5089
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 119 5090 5098 "global/static.ml" 119 5090 5102
+type(
+  Names.name
+)
+"global/static.ml" 119 5090 5111 "global/static.ml" 119 5090 5113
+type(
+  bool
+)
+ident(
+  def b1 "global/static.ml" 119 5090 5128 "global/static.ml" 119 5090 5144
+)
+"global/static.ml" 119 5090 5105 "global/static.ml" 119 5090 5113
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 119 5090 5121 "global/static.ml" 119 5090 5123
+type(
+  bool
+)
+ident(
+  def b2 "global/static.ml" 119 5090 5128 "global/static.ml" 119 5090 5144
+)
+"global/static.ml" 119 5090 5115 "global/static.ml" 119 5090 5123
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 119 5090 5104 "global/static.ml" 119 5090 5124
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 119 5090 5098 "global/static.ml" 119 5090 5124
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 119 5090 5135 "global/static.ml" 119 5090 5137
+type(
+  bool
+)
+ident(
+  int_ref b1 "global/static.ml" 119 5090 5111 "global/static.ml" 119 5090 5113
+)
+"global/static.ml" 119 5090 5138 "global/static.ml" 119 5090 5140
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"global/static.ml" 119 5090 5141 "global/static.ml" 119 5090 5143
+type(
+  bool
+)
+ident(
+  int_ref b2 "global/static.ml" 119 5090 5121 "global/static.ml" 119 5090 5123
+)
+"global/static.ml" 119 5090 5134 "global/static.ml" 119 5090 5144
+type(
+  bool
+)
+"global/static.ml" 119 5090 5128 "global/static.ml" 119 5090 5144
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 120 5145 5153 "global/static.ml" 120 5145 5158
+type(
+  Names.name
+)
+"global/static.ml" 120 5145 5167 "global/static.ml" 120 5145 5168
+type(
+  bool
+)
+ident(
+  def b "global/static.ml" 120 5145 5173 "global/static.ml" 120 5145 5186
+)
+"global/static.ml" 120 5145 5161 "global/static.ml" 120 5145 5168
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 120 5145 5160 "global/static.ml" 120 5145 5169
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 120 5145 5153 "global/static.ml" 120 5145 5169
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 120 5145 5180 "global/static.ml" 120 5145 5183
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/static.ml" 120 5145 5184 "global/static.ml" 120 5145 5185
+type(
+  bool
+)
+ident(
+  int_ref b "global/static.ml" 120 5145 5167 "global/static.ml" 120 5145 5168
+)
+"global/static.ml" 120 5145 5179 "global/static.ml" 120 5145 5186
+type(
+  bool
+)
+"global/static.ml" 120 5145 5173 "global/static.ml" 120 5145 5186
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 121 5187 5195 "global/static.ml" 121 5187 5199
+type(
+  Names.name
+)
+"global/static.ml" 121 5187 5207 "global/static.ml" 121 5187 5208
+type(
+  int
+)
+ident(
+  def n "global/static.ml" 121 5187 5213 "global/static.ml" 121 5187 5222
+)
+"global/static.ml" 121 5187 5202 "global/static.ml" 121 5187 5208
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 121 5187 5201 "global/static.ml" 121 5187 5209
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 121 5187 5195 "global/static.ml" 121 5187 5209
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 121 5187 5219 "global/static.ml" 121 5187 5220
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"global/static.ml" 121 5187 5220 "global/static.ml" 121 5187 5221
+type(
+  int
+)
+ident(
+  int_ref n "global/static.ml" 121 5187 5207 "global/static.ml" 121 5187 5208
+)
+"global/static.ml" 121 5187 5218 "global/static.ml" 121 5187 5222
+type(
+  int
+)
+"global/static.ml" 121 5187 5213 "global/static.ml" 121 5187 5222
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 122 5223 5231 "global/static.ml" 122 5223 5235
+type(
+  Names.name
+)
+"global/static.ml" 122 5223 5243 "global/static.ml" 122 5223 5244
+type(
+  int
+)
+ident(
+  def n "global/static.ml" 122 5223 5249 "global/static.ml" 122 5223 5262
+)
+"global/static.ml" 122 5223 5238 "global/static.ml" 122 5223 5244
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 122 5223 5237 "global/static.ml" 122 5223 5245
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 122 5223 5231 "global/static.ml" 122 5223 5245
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 122 5223 5255 "global/static.ml" 122 5223 5259
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"global/static.ml" 122 5223 5260 "global/static.ml" 122 5223 5261
+type(
+  int
+)
+ident(
+  int_ref n "global/static.ml" 122 5223 5243 "global/static.ml" 122 5223 5244
+)
+"global/static.ml" 122 5223 5254 "global/static.ml" 122 5223 5262
+call(
+  stack
+)
+type(
+  int
+)
+"global/static.ml" 122 5223 5249 "global/static.ml" 122 5223 5262
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 123 5263 5271 "global/static.ml" 123 5263 5276
+type(
+  Names.name
+)
+"global/static.ml" 123 5263 5286 "global/static.ml" 123 5263 5287
+type(
+  float
+)
+ident(
+  def f "global/static.ml" 123 5263 5292 "global/static.ml" 123 5263 5305
+)
+"global/static.ml" 123 5263 5279 "global/static.ml" 123 5263 5287
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 123 5263 5278 "global/static.ml" 123 5263 5288
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 123 5263 5271 "global/static.ml" 123 5263 5288
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 123 5263 5300 "global/static.ml" 123 5263 5302
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"global/static.ml" 123 5263 5303 "global/static.ml" 123 5263 5304
+type(
+  float
+)
+ident(
+  int_ref f "global/static.ml" 123 5263 5286 "global/static.ml" 123 5263 5287
+)
+"global/static.ml" 123 5263 5299 "global/static.ml" 123 5263 5305
+type(
+  float
+)
+"global/static.ml" 123 5263 5292 "global/static.ml" 123 5263 5305
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 124 5306 5314 "global/static.ml" 124 5306 5319
+type(
+  Names.name
+)
+"global/static.ml" 124 5306 5327 "global/static.ml" 124 5306 5329
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 124 5306 5343 "global/static.ml" 124 5306 5360
+)
+"global/static.ml" 124 5306 5322 "global/static.ml" 124 5306 5329
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 124 5306 5336 "global/static.ml" 124 5306 5338
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 124 5306 5343 "global/static.ml" 124 5306 5360
+)
+"global/static.ml" 124 5306 5331 "global/static.ml" 124 5306 5338
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 124 5306 5321 "global/static.ml" 124 5306 5339
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 124 5306 5314 "global/static.ml" 124 5306 5339
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 124 5306 5349 "global/static.ml" 124 5306 5351
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 124 5306 5327 "global/static.ml" 124 5306 5329
+)
+"global/static.ml" 124 5306 5352 "global/static.ml" 124 5306 5356
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"global/static.ml" 124 5306 5357 "global/static.ml" 124 5306 5359
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 124 5306 5336 "global/static.ml" 124 5306 5338
+)
+"global/static.ml" 124 5306 5348 "global/static.ml" 124 5306 5360
+type(
+  int
+)
+"global/static.ml" 124 5306 5343 "global/static.ml" 124 5306 5360
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 125 5361 5369 "global/static.ml" 125 5361 5374
+type(
+  Names.name
+)
+"global/static.ml" 125 5361 5382 "global/static.ml" 125 5361 5384
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 125 5361 5398 "global/static.ml" 125 5361 5414
+)
+"global/static.ml" 125 5361 5377 "global/static.ml" 125 5361 5384
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 125 5361 5391 "global/static.ml" 125 5361 5393
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 125 5361 5398 "global/static.ml" 125 5361 5414
+)
+"global/static.ml" 125 5361 5386 "global/static.ml" 125 5361 5393
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 125 5361 5376 "global/static.ml" 125 5361 5394
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 125 5361 5369 "global/static.ml" 125 5361 5394
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 125 5361 5404 "global/static.ml" 125 5361 5406
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 125 5361 5382 "global/static.ml" 125 5361 5384
+)
+"global/static.ml" 125 5361 5407 "global/static.ml" 125 5361 5410
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"global/static.ml" 125 5361 5411 "global/static.ml" 125 5361 5413
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 125 5361 5391 "global/static.ml" 125 5361 5393
+)
+"global/static.ml" 125 5361 5403 "global/static.ml" 125 5361 5414
+type(
+  int
+)
+"global/static.ml" 125 5361 5398 "global/static.ml" 125 5361 5414
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 126 5415 5423 "global/static.ml" 126 5415 5426
+type(
+  Names.name
+)
+"global/static.ml" 126 5415 5434 "global/static.ml" 126 5415 5436
+type(
+  int
+)
+ident(
+  def n1 "global/static.ml" 126 5415 5450 "global/static.ml" 126 5415 5466
+)
+"global/static.ml" 126 5415 5429 "global/static.ml" 126 5415 5436
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 126 5415 5443 "global/static.ml" 126 5415 5445
+type(
+  int
+)
+ident(
+  def n2 "global/static.ml" 126 5415 5450 "global/static.ml" 126 5415 5466
+)
+"global/static.ml" 126 5415 5438 "global/static.ml" 126 5415 5445
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 126 5415 5428 "global/static.ml" 126 5415 5446
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 126 5415 5423 "global/static.ml" 126 5415 5446
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 126 5415 5456 "global/static.ml" 126 5415 5458
+type(
+  int
+)
+ident(
+  int_ref n1 "global/static.ml" 126 5415 5434 "global/static.ml" 126 5415 5436
+)
+"global/static.ml" 126 5415 5459 "global/static.ml" 126 5415 5462
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"global/static.ml" 126 5415 5463 "global/static.ml" 126 5415 5465
+type(
+  int
+)
+ident(
+  int_ref n2 "global/static.ml" 126 5415 5443 "global/static.ml" 126 5415 5445
+)
+"global/static.ml" 126 5415 5455 "global/static.ml" 126 5415 5466
+type(
+  int
+)
+"global/static.ml" 126 5415 5450 "global/static.ml" 126 5415 5466
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 127 5467 5475 "global/static.ml" 127 5467 5476
+type(
+  Names.name
+)
+ident(
+  def f "global/static.ml" 127 5467 5482 "global/static.ml" 127 5467 5559
+)
+"global/static.ml" 127 5467 5477 "global/static.ml" 127 5467 5478
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 127 5467 5475 "global/static.ml" 127 5467 5478
+type(
+  Names.name * Types.static_exp_desc list
+)
+"global/static.ml" 127 5467 5482 "global/static.ml" 127 5467 5501
+type(
+  string -> Types.static_exp_desc
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"global/static.ml" 127 5467 5503 "global/static.ml" 127 5467 5556
+type(
+  string
+)
+"global/static.ml" 127 5467 5556 "global/static.ml" 127 5467 5557
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/static.ml" 127 5467 5557 "global/static.ml" 127 5467 5558
+type(
+  Names.name
+)
+ident(
+  int_ref f "global/static.ml" 127 5467 5475 "global/static.ml" 127 5467 5476
+)
+"global/static.ml" 127 5467 5502 "global/static.ml" 127 5467 5559
+call(
+  stack
+)
+type(
+  string
+)
+"global/static.ml" 127 5467 5482 "global/static.ml" 127 5467 5559
+call(
+  tail
+)
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 97 3998 4005 "global/static.ml" 128 5560 5563
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 130 5599 5609 "global/static.ml" 130 5599 5611
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+)
+"global/static.ml" 130 5599 5613 "global/static.ml" 130 5599 5618
+type(
+  Types.static_exp_desc list
+)
+ident(
+  int_ref sed_l "global/static.ml" 95 3889 3895 "global/static.ml" 95 3889 3900
+)
+"global/static.ml" 130 5599 5609 "global/static.ml" 130 5599 5618
+type(
+  Names.fun_name * Types.static_exp_desc list
+)
+"global/static.ml" 131 5624 5640 "global/static.ml" 131 5624 5650
+type(
+  Names.modul
+)
+"global/static.ml" 131 5624 5659 "global/static.ml" 131 5624 5662
+type(
+  Names.name
+)
+"global/static.ml" 131 5624 5632 "global/static.ml" 131 5624 5664
+type(
+  Names.fun_name
+)
+"global/static.ml" 131 5624 5667 "global/static.ml" 131 5624 5671
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sed1 "global/static.ml" 132 5678 5693 "global/static.ml" 132 5678 5759
+)
+"global/static.ml" 131 5624 5672 "global/static.ml" 131 5624 5676
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sed2 "global/static.ml" 132 5678 5693 "global/static.ml" 132 5678 5759
+)
+"global/static.ml" 131 5624 5666 "global/static.ml" 131 5624 5677
+type(
+  Types.static_exp_desc list
+)
+"global/static.ml" 131 5624 5632 "global/static.ml" 131 5624 5677
+type(
+  Names.fun_name * Types.static_exp_desc list
+)
+"global/static.ml" 132 5678 5693 "global/static.ml" 132 5678 5731
+type(
+  Types.static_exp_desc -> Types.static_exp_desc -> int
+)
+ident(
+  ext_ref Global_compare.static_exp_desc_compare
+)
+"global/static.ml" 132 5678 5732 "global/static.ml" 132 5678 5736
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sed1 "global/static.ml" 131 5624 5667 "global/static.ml" 131 5624 5671
+)
+"global/static.ml" 132 5678 5737 "global/static.ml" 132 5678 5741
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sed2 "global/static.ml" 131 5624 5672 "global/static.ml" 131 5624 5676
+)
+"global/static.ml" 132 5678 5693 "global/static.ml" 132 5678 5741
+call(
+  stack
+)
+type(
+  int
+)
+"global/static.ml" 132 5678 5742 "global/static.ml" 132 5678 5743
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 132 5678 5744 "global/static.ml" 132 5678 5745
+type(
+  int
+)
+"global/static.ml" 132 5678 5693 "global/static.ml" 132 5678 5745
+type(
+  bool
+)
+"global/static.ml" 132 5678 5755 "global/static.ml" 132 5678 5759
+type(
+  bool
+)
+"global/static.ml" 132 5678 5749 "global/static.ml" 132 5678 5759
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 133 5760 5768 "global/static.ml" 133 5760 5769
+type(
+  Names.fun_name * Types.static_exp_desc list
+)
+"global/static.ml" 134 5773 5786 "global/static.ml" 134 5773 5793
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 82 3533 3546 "global/static.ml" 82 3533 3553
+)
+"global/static.ml" 135 5794 5813 "global/static.ml" 135 5794 5815
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+)
+"global/static.ml" 135 5794 5817 "global/static.ml" 135 5794 5824
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 82 3533 3561 "global/static.ml" 82 3533 3568
+)
+"global/static.ml" 135 5794 5809 "global/static.ml" 135 5794 5825
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 136 5851 5866 "global/static.ml" 136 5851 5871
+type(
+  exn -> Types.static_exp_desc
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 136 5851 5904 "global/static.ml" 136 5851 5906
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 82 3533 3558 "global/static.ml" 82 3533 3560
+)
+"global/static.ml" 136 5851 5893 "global/static.ml" 136 5851 5906
+type(
+  partial_eval_cause
+)
+"global/static.ml" 136 5851 5908 "global/static.ml" 136 5851 5911
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/static.ml" 82 3533 3554 "global/static.ml" 82 3533 3557
+)
+"global/static.ml" 136 5851 5872 "global/static.ml" 136 5851 5913
+type(
+  exn
+)
+"global/static.ml" 136 5851 5866 "global/static.ml" 136 5851 5913
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 134 5773 5783 "global/static.ml" 136 5851 5913
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 129 5564 5571 "global/static.ml" 137 5914 5917
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 96 3955 3957 "global/static.ml" 137 5914 5917
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 95 3889 3891 "global/static.ml" 137 5914 5917
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 83 3571 3573 "global/static.ml" 137 5914 5917
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  def eval_core "global/static.ml" 145 6111 6111 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+type(
+  bool
+)
+ident(
+  def partial "global/static.ml" 145 6111 6137 "global/static.ml" 177 7527 7603
+)
+"global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 145 6111 6141 "global/static.ml" 177 7527 7603
+)
+"global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 145 6111 6146 "global/static.ml" 177 7527 7603
+)
+"global/static.ml" 145 6111 6152 "global/static.ml" 145 6111 6154
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 145 6111 6152 "global/static.ml" 145 6111 6162
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6177 "global/static.ml" 146 6168 6178
+type(
+  int
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6178
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6188 "global/static.ml" 146 6168 6189
+type(
+  float
+)
+"global/static.ml" 146 6168 6181 "global/static.ml" 146 6168 6189
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6189
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6198 "global/static.ml" 146 6168 6199
+type(
+  bool
+)
+"global/static.ml" 146 6168 6192 "global/static.ml" 146 6168 6199
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6199
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6210 "global/static.ml" 146 6168 6211
+type(
+  string
+)
+"global/static.ml" 146 6168 6202 "global/static.ml" 146 6168 6211
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6211
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6227 "global/static.ml" 146 6168 6228
+type(
+  Names.constructor_name
+)
+"global/static.ml" 146 6168 6214 "global/static.ml" 146 6168 6228
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6228
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6238 "global/static.ml" 146 6168 6239
+type(
+  Names.field_name
+)
+"global/static.ml" 146 6168 6231 "global/static.ml" 146 6168 6239
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6172 "global/static.ml" 146 6168 6239
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 146 6168 6243 "global/static.ml" 146 6168 6245
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 147 6246 6255 "global/static.ml" 147 6246 6257
+type(
+  Names.constant_name
+)
+ident(
+  def ln "global/static.ml" 148 6261 6267 "global/static.ml" 163 6918 6925
+)
+"global/static.ml" 147 6246 6250 "global/static.ml" 147 6246 6257
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 149 6316 6329 "global/static.ml" 149 6316 6331
+type(
+  Signature.const_def
+)
+ident(
+  def cd "global/static.ml" 150 6351 6360 "global/static.ml" 150 6351 6392
+)
+"global/static.ml" 149 6316 6334 "global/static.ml" 149 6316 6344
+type(
+  Names.QualEnv.key -> Signature.const_def
+)
+ident(
+  ext_ref Modules.find_const
+)
+"global/static.ml" 149 6316 6345 "global/static.ml" 149 6316 6347
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln "global/static.ml" 147 6246 6255 "global/static.ml" 147 6246 6257
+)
+"global/static.ml" 149 6316 6334 "global/static.ml" 149 6316 6347
+call(
+  stack
+)
+type(
+  Signature.const_def
+)
+"global/static.ml" 150 6351 6360 "global/static.ml" 150 6351 6369
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 150 6351 6370 "global/static.ml" 150 6351 6377
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 150 6351 6378 "global/static.ml" 150 6351 6381
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 150 6351 6382 "global/static.ml" 150 6351 6384
+type(
+  Signature.const_def
+)
+ident(
+  int_ref cd "global/static.ml" 149 6316 6329 "global/static.ml" 149 6316 6331
+)
+"global/static.ml" 150 6351 6382 "global/static.ml" 150 6351 6392
+type(
+  Types.static_exp
+)
+"global/static.ml" 150 6351 6360 "global/static.ml" 150 6351 6392
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 149 6316 6325 "global/static.ml" 150 6351 6392
+type(
+  Types.static_exp
+)
+"global/static.ml" 151 6393 6405 "global/static.ml" 151 6393 6414
+type(
+  exn
+)
+"global/static.ml" 153 6468 6484 "global/static.ml" 153 6468 6486
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 154 6512 6524 "global/static.ml" 158 6727 6740
+)
+"global/static.ml" 153 6468 6489 "global/static.ml" 153 6468 6501
+type(
+  Names.QualEnv.key -> Types.static_exp Names.QualEnv.t -> Types.static_exp
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"global/static.ml" 153 6468 6502 "global/static.ml" 153 6468 6504
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln "global/static.ml" 147 6246 6255 "global/static.ml" 147 6246 6257
+)
+"global/static.ml" 153 6468 6505 "global/static.ml" 153 6468 6508
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 153 6468 6489 "global/static.ml" 153 6468 6508
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 154 6512 6531 "global/static.ml" 154 6512 6533
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 153 6468 6484 "global/static.ml" 153 6468 6486
+)
+"global/static.ml" 154 6512 6531 "global/static.ml" 154 6512 6541
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 155 6547 6569 "global/static.ml" 155 6547 6572
+type(
+  Names.constant_name
+)
+ident(
+  def ln' "global/static.ml" 155 6547 6578 "global/static.ml" 156 6622 6679
+)
+"global/static.ml" 155 6547 6564 "global/static.ml" 155 6547 6572
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 155 6547 6578 "global/static.ml" 155 6547 6581
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln' "global/static.ml" 155 6547 6569 "global/static.ml" 155 6547 6572
+)
+"global/static.ml" 155 6547 6581 "global/static.ml" 155 6547 6582
+type(
+  Names.constant_name -> Names.constant_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/static.ml" 155 6547 6582 "global/static.ml" 155 6547 6584
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln "global/static.ml" 147 6246 6255 "global/static.ml" 147 6246 6257
+)
+"global/static.ml" 155 6547 6578 "global/static.ml" 155 6547 6584
+type(
+  bool
+)
+"global/static.ml" 156 6622 6643 "global/static.ml" 156 6622 6650
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 156 6622 6656 "global/static.ml" 156 6622 6658
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 153 6468 6484 "global/static.ml" 153 6468 6486
+)
+"global/static.ml" 156 6622 6664 "global/static.ml" 156 6622 6669
+type(
+  exn -> Types.static_exp
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 156 6622 6670 "global/static.ml" 156 6622 6679
+type(
+  exn
+)
+"global/static.ml" 156 6622 6664 "global/static.ml" 156 6622 6679
+type(
+  Types.static_exp
+)
+"global/static.ml" 156 6622 6640 "global/static.ml" 156 6622 6679
+type(
+  Types.static_exp
+)
+"global/static.ml" 157 6680 6697 "global/static.ml" 157 6680 6698
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 157 6680 6702 "global/static.ml" 157 6680 6711
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 157 6680 6712 "global/static.ml" 157 6680 6719
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 157 6680 6720 "global/static.ml" 157 6680 6723
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 157 6680 6724 "global/static.ml" 157 6680 6726
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 153 6468 6484 "global/static.ml" 153 6468 6486
+)
+"global/static.ml" 157 6680 6702 "global/static.ml" 157 6680 6726
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 154 6512 6524 "global/static.ml" 158 6727 6740
+type(
+  Types.static_exp
+)
+"global/static.ml" 153 6468 6480 "global/static.ml" 158 6727 6740
+type(
+  Types.static_exp
+)
+"global/static.ml" 159 6741 6756 "global/static.ml" 159 6741 6765
+type(
+  exn
+)
+"global/static.ml" 160 6802 6817 "global/static.ml" 160 6802 6824
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 160 6802 6830 "global/static.ml" 160 6802 6832
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 161 6833 6850 "global/static.ml" 161 6833 6855
+type(
+  exn -> Types.static_exp
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 161 6833 6891 "global/static.ml" 161 6833 6893
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln "global/static.ml" 147 6246 6255 "global/static.ml" 147 6246 6257
+)
+"global/static.ml" 161 6833 6877 "global/static.ml" 161 6833 6893
+type(
+  partial_eval_cause
+)
+"global/static.ml" 161 6833 6895 "global/static.ml" 161 6833 6897
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 161 6833 6895 "global/static.ml" 161 6833 6904
+type(
+  Location.location
+)
+"global/static.ml" 161 6833 6856 "global/static.ml" 161 6833 6906
+type(
+  exn
+)
+"global/static.ml" 161 6833 6850 "global/static.ml" 161 6833 6906
+type(
+  Types.static_exp
+)
+"global/static.ml" 160 6802 6814 "global/static.ml" 161 6833 6906
+type(
+  Types.static_exp
+)
+"global/static.ml" 152 6454 6463 "global/static.ml" 162 6907 6917
+type(
+  Types.static_exp
+)
+"global/static.ml" 148 6261 6267 "global/static.ml" 163 6918 6925
+type(
+  Types.static_exp
+)
+"global/static.ml" 164 6926 6935 "global/static.ml" 164 6926 6937
+type(
+  Names.fun_name
+)
+ident(
+  def op "global/static.ml" 165 6951 6957 "global/static.ml" 167 7076 7111
+)
+"global/static.ml" 164 6926 6939 "global/static.ml" 164 6926 6946
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/static.ml" 165 6951 6957 "global/static.ml" 167 7076 7111
+)
+"global/static.ml" 164 6926 6930 "global/static.ml" 164 6926 6947
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 165 6951 6961 "global/static.ml" 165 6951 6968
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/static.ml" 166 7015 7021 "global/static.ml" 167 7076 7111
+)
+"global/static.ml" 165 6951 6971 "global/static.ml" 165 6951 6979
+type(
+  (Types.static_exp -> Types.static_exp) ->
+  Types.static_exp list -> Types.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 165 6951 6981 "global/static.ml" 165 6951 6990
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 165 6951 6991 "global/static.ml" 165 6951 6998
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 165 6951 6999 "global/static.ml" 165 6951 7002
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 165 6951 6980 "global/static.ml" 165 6951 7003
+call(
+  stack
+)
+type(
+  Types.static_exp -> Types.static_exp
+)
+"global/static.ml" 165 6951 7004 "global/static.ml" 165 6951 7011
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 164 6926 6939 "global/static.ml" 164 6926 6946
+)
+"global/static.ml" 165 6951 6971 "global/static.ml" 165 6951 7011
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"global/static.ml" 166 7015 7025 "global/static.ml" 166 7015 7032
+type(
+  Types.static_exp_desc
+)
+ident(
+  def se_desc "global/static.ml" 167 7076 7082 "global/static.ml" 167 7076 7111
+)
+"global/static.ml" 166 7015 7035 "global/static.ml" 166 7015 7043
+type(
+  bool ->
+  Location.location ->
+  Names.fun_name -> Types.static_exp list -> Types.static_exp_desc
+)
+ident(
+  int_ref apply_op "global/static.ml" 82 3533 3537 "global/static.ml" 82 3533 3545
+)
+"global/static.ml" 166 7015 7044 "global/static.ml" 166 7015 7051
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 166 7015 7052 "global/static.ml" 166 7015 7054
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 166 7015 7052 "global/static.ml" 166 7015 7061
+type(
+  Location.location
+)
+"global/static.ml" 166 7015 7062 "global/static.ml" 166 7015 7064
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/static.ml" 164 6926 6935 "global/static.ml" 164 6926 6937
+)
+"global/static.ml" 166 7015 7065 "global/static.ml" 166 7015 7072
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 165 6951 6961 "global/static.ml" 165 6951 6968
+)
+"global/static.ml" 166 7015 7035 "global/static.ml" 166 7015 7072
+call(
+  stack
+)
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 167 7076 7084 "global/static.ml" 167 7076 7086
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 167 7076 7102 "global/static.ml" 167 7076 7109
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref se_desc "global/static.ml" 166 7015 7025 "global/static.ml" 166 7015 7032
+)
+"global/static.ml" 167 7076 7082 "global/static.ml" 167 7076 7111
+type(
+  Types.static_exp
+)
+"global/static.ml" 166 7015 7021 "global/static.ml" 167 7076 7111
+type(
+  Types.static_exp
+)
+"global/static.ml" 165 6951 6957 "global/static.ml" 167 7076 7111
+type(
+  Types.static_exp
+)
+"global/static.ml" 168 7112 7123 "global/static.ml" 168 7112 7130
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/static.ml" 169 7134 7140 "global/static.ml" 169 7134 7211
+)
+"global/static.ml" 168 7112 7116 "global/static.ml" 168 7112 7130
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 169 7134 7142 "global/static.ml" 169 7134 7144
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 169 7134 7168 "global/static.ml" 169 7134 7176
+type(
+  (Types.static_exp -> Types.static_exp) ->
+  Types.static_exp list -> Types.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 169 7134 7178 "global/static.ml" 169 7134 7187
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 169 7134 7188 "global/static.ml" 169 7134 7195
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 169 7134 7196 "global/static.ml" 169 7134 7199
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 169 7134 7177 "global/static.ml" 169 7134 7200
+call(
+  stack
+)
+type(
+  Types.static_exp -> Types.static_exp
+)
+"global/static.ml" 169 7134 7201 "global/static.ml" 169 7134 7208
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 168 7112 7123 "global/static.ml" 168 7112 7130
+)
+"global/static.ml" 169 7134 7167 "global/static.ml" 169 7134 7209
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"global/static.ml" 169 7134 7160 "global/static.ml" 169 7134 7209
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 169 7134 7140 "global/static.ml" 169 7134 7211
+type(
+  Types.static_exp
+)
+"global/static.ml" 170 7212 7230 "global/static.ml" 170 7212 7232
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 171 7245 7252 "global/static.ml" 172 7272 7366
+)
+"global/static.ml" 170 7212 7234 "global/static.ml" 170 7212 7240
+type(
+  Types.static_exp list
+)
+ident(
+  def n_list "global/static.ml" 171 7245 7252 "global/static.ml" 172 7272 7366
+)
+"global/static.ml" 170 7212 7216 "global/static.ml" 170 7212 7241
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 171 7245 7254 "global/static.ml" 171 7245 7256
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 170 7212 7230 "global/static.ml" 170 7212 7232
+)
+"global/static.ml" 172 7272 7298 "global/static.ml" 172 7272 7307
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 172 7272 7308 "global/static.ml" 172 7272 7315
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 172 7272 7316 "global/static.ml" 172 7272 7319
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 172 7272 7320 "global/static.ml" 172 7272 7322
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 170 7212 7230 "global/static.ml" 170 7212 7232
+)
+"global/static.ml" 172 7272 7298 "global/static.ml" 172 7272 7322
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 172 7272 7324 "global/static.ml" 172 7272 7332
+type(
+  (Types.static_exp -> Types.static_exp) ->
+  Types.static_exp list -> Types.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 172 7272 7334 "global/static.ml" 172 7272 7343
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 172 7272 7344 "global/static.ml" 172 7272 7351
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 172 7272 7352 "global/static.ml" 172 7272 7355
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 172 7272 7333 "global/static.ml" 172 7272 7356
+call(
+  stack
+)
+type(
+  Types.static_exp -> Types.static_exp
+)
+"global/static.ml" 172 7272 7357 "global/static.ml" 172 7272 7363
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n_list "global/static.ml" 170 7212 7234 "global/static.ml" 170 7212 7240
+)
+"global/static.ml" 172 7272 7324 "global/static.ml" 172 7272 7363
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"global/static.ml" 172 7272 7284 "global/static.ml" 172 7272 7364
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 171 7245 7252 "global/static.ml" 172 7272 7366
+type(
+  Types.static_exp
+)
+"global/static.ml" 173 7367 7378 "global/static.ml" 173 7367 7385
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/static.ml" 174 7389 7396 "global/static.ml" 174 7389 7467
+)
+"global/static.ml" 173 7367 7371 "global/static.ml" 173 7367 7385
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 174 7389 7398 "global/static.ml" 174 7389 7400
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 174 7389 7424 "global/static.ml" 174 7389 7432
+type(
+  (Types.static_exp -> Types.static_exp) ->
+  Types.static_exp list -> Types.static_exp list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 174 7389 7434 "global/static.ml" 174 7389 7443
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 174 7389 7444 "global/static.ml" 174 7389 7451
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 174 7389 7452 "global/static.ml" 174 7389 7455
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 174 7389 7433 "global/static.ml" 174 7389 7456
+call(
+  stack
+)
+type(
+  Types.static_exp -> Types.static_exp
+)
+"global/static.ml" 174 7389 7457 "global/static.ml" 174 7389 7464
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/static.ml" 173 7367 7378 "global/static.ml" 173 7367 7385
+)
+"global/static.ml" 174 7389 7423 "global/static.ml" 174 7389 7465
+call(
+  stack
+)
+type(
+  Types.static_exp list
+)
+"global/static.ml" 174 7389 7416 "global/static.ml" 174 7389 7465
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 174 7389 7396 "global/static.ml" 174 7389 7467
+type(
+  Types.static_exp
+)
+"global/static.ml" 175 7468 7480 "global/static.ml" 175 7468 7489
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  def f_se_list "global/static.ml" 176 7493 7499 "global/static.ml" 177 7527 7603
+)
+"global/static.ml" 175 7468 7472 "global/static.ml" 175 7468 7489
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 176 7493 7501 "global/static.ml" 176 7493 7503
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 145 6111 6141 "global/static.ml" 145 6111 6143
+)
+"global/static.ml" 177 7527 7538 "global/static.ml" 177 7527 7546
+type(
+  (Names.field_name * Types.static_exp -> Names.field_name * Types.static_exp) ->
+  (Names.field_name * Types.static_exp) list ->
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 177 7527 7553 "global/static.ml" 177 7527 7554
+type(
+  Names.field_name
+)
+ident(
+  def f "global/static.ml" 177 7527 7562 "global/static.ml" 177 7527 7589
+)
+"global/static.ml" 177 7527 7555 "global/static.ml" 177 7527 7557
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 177 7527 7562 "global/static.ml" 177 7527 7589
+)
+"global/static.ml" 177 7527 7552 "global/static.ml" 177 7527 7558
+type(
+  Names.field_name * Types.static_exp
+)
+"global/static.ml" 177 7527 7562 "global/static.ml" 177 7527 7563
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "global/static.ml" 177 7527 7553 "global/static.ml" 177 7527 7554
+)
+"global/static.ml" 177 7527 7565 "global/static.ml" 177 7527 7574
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 177 7527 7575 "global/static.ml" 177 7527 7582
+type(
+  bool
+)
+ident(
+  int_ref partial "global/static.ml" 145 6111 6129 "global/static.ml" 145 6111 6136
+)
+"global/static.ml" 177 7527 7583 "global/static.ml" 177 7527 7586
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 145 6111 6137 "global/static.ml" 145 6111 6140
+)
+"global/static.ml" 177 7527 7587 "global/static.ml" 177 7527 7589
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 177 7527 7555 "global/static.ml" 177 7527 7557
+)
+"global/static.ml" 177 7527 7565 "global/static.ml" 177 7527 7589
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 177 7527 7562 "global/static.ml" 177 7527 7589
+type(
+  Names.field_name * Types.static_exp
+)
+"global/static.ml" 177 7527 7547 "global/static.ml" 177 7527 7590
+type(
+  Names.field_name * Types.static_exp -> Names.field_name * Types.static_exp
+)
+"global/static.ml" 177 7527 7591 "global/static.ml" 177 7527 7600
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  int_ref f_se_list "global/static.ml" 175 7468 7480 "global/static.ml" 175 7468 7489
+)
+"global/static.ml" 177 7527 7537 "global/static.ml" 177 7527 7601
+call(
+  stack
+)
+type(
+  (Names.field_name * Types.static_exp) list
+)
+"global/static.ml" 176 7493 7519 "global/static.ml" 177 7527 7601
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 176 7493 7499 "global/static.ml" 177 7527 7603
+type(
+  Types.static_exp
+)
+"global/static.ml" 145 6111 6146 "global/static.ml" 177 7527 7603
+type(
+  Types.static_exp
+)
+"global/static.ml" 184 7843 7847 "global/static.ml" 184 7843 7855
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  def simplify "global/static.ml" 188 7920 7920 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 184 7843 7856 "global/static.ml" 184 7843 7859
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 184 7843 7860 "global/static.ml" 186 7893 7918
+)
+"global/static.ml" 184 7843 7860 "global/static.ml" 184 7843 7862
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 185 7865 7867 "global/static.ml" 186 7893 7918
+)
+"global/static.ml" 185 7865 7871 "global/static.ml" 185 7865 7880
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 185 7865 7881 "global/static.ml" 185 7865 7885
+type(
+  bool
+)
+"global/static.ml" 185 7865 7886 "global/static.ml" 185 7865 7889
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 184 7843 7856 "global/static.ml" 184 7843 7859
+)
+"global/static.ml" 185 7865 7890 "global/static.ml" 185 7865 7892
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 184 7843 7860 "global/static.ml" 184 7843 7862
+)
+"global/static.ml" 185 7865 7871 "global/static.ml" 185 7865 7892
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 186 7893 7900 "global/static.ml" 186 7893 7903
+type(
+  exn
+)
+ident(
+  def exn "global/static.ml" 186 7893 7907 "global/static.ml" 186 7893 7918
+)
+"global/static.ml" 186 7893 7907 "global/static.ml" 186 7893 7914
+type(
+  exn -> Types.static_exp
+)
+ident(
+  int_ref message "global/static.ml" 54 2685 2689 "global/static.ml" 54 2685 2696
+)
+"global/static.ml" 186 7893 7915 "global/static.ml" 186 7893 7918
+type(
+  exn
+)
+ident(
+  int_ref exn "global/static.ml" 186 7893 7900 "global/static.ml" 186 7893 7903
+)
+"global/static.ml" 186 7893 7907 "global/static.ml" 186 7893 7918
+call(
+  tail
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 185 7865 7867 "global/static.ml" 186 7893 7918
+type(
+  Types.static_exp
+)
+"global/static.ml" 188 7920 7928 "global/static.ml" 188 7920 7941
+type(
+  Types.static_exp Names.QualEnv.t -> Types.ty -> Types.ty
+)
+ident(
+  def simplify_type "global/static.ml" 188 7920 7920 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 188 7920 7942 "global/static.ml" 188 7920 7945
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 188 7920 7946 "global/static.ml" 191 8085 8095
+)
+"global/static.ml" 188 7920 7946 "global/static.ml" 188 7920 7948
+type(
+  Types.ty
+)
+ident(
+  def ty "global/static.ml" 188 7920 7951 "global/static.ml" 191 8085 8095
+)
+"global/static.ml" 188 7920 7957 "global/static.ml" 188 7920 7959
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/static.ml" 188 7920 7946 "global/static.ml" 188 7920 7948
+)
+"global/static.ml" 189 7965 7976 "global/static.ml" 189 7965 7978
+type(
+  Types.ty
+)
+ident(
+  def ty "global/static.ml" 189 7965 7986 "global/static.ml" 189 7965 8030
+)
+"global/static.ml" 189 7965 7980 "global/static.ml" 189 7965 7981
+type(
+  Types.static_exp
+)
+ident(
+  def e "global/static.ml" 189 7965 7986 "global/static.ml" 189 7965 8030
+)
+"global/static.ml" 189 7965 7969 "global/static.ml" 189 7965 7982
+type(
+  Types.ty
+)
+"global/static.ml" 189 7965 7993 "global/static.ml" 189 7965 8006
+type(
+  Types.static_exp Names.QualEnv.t -> Types.ty -> Types.ty
+)
+ident(
+  int_ref simplify_type "global/static.ml" 188 7920 7928 "global/static.ml" 188 7920 7941
+)
+"global/static.ml" 189 7965 8007 "global/static.ml" 189 7965 8010
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 188 7920 7942 "global/static.ml" 188 7920 7945
+)
+"global/static.ml" 189 7965 8011 "global/static.ml" 189 7965 8013
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/static.ml" 189 7965 7976 "global/static.ml" 189 7965 7978
+)
+"global/static.ml" 189 7965 7993 "global/static.ml" 189 7965 8013
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"global/static.ml" 189 7965 8015 "global/static.ml" 189 7965 8023
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref simplify "global/static.ml" 184 7843 7847 "global/static.ml" 184 7843 7855
+)
+"global/static.ml" 189 7965 8024 "global/static.ml" 189 7965 8027
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 188 7920 7942 "global/static.ml" 188 7920 7945
+)
+"global/static.ml" 189 7965 8028 "global/static.ml" 189 7965 8029
+type(
+  Types.static_exp
+)
+ident(
+  int_ref e "global/static.ml" 189 7965 7980 "global/static.ml" 189 7965 7981
+)
+"global/static.ml" 189 7965 8015 "global/static.ml" 189 7965 8029
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 189 7965 7986 "global/static.ml" 189 7965 8030
+type(
+  Types.ty
+)
+"global/static.ml" 190 8031 8041 "global/static.ml" 190 8031 8042
+type(
+  Types.ty list
+)
+ident(
+  def l "global/static.ml" 190 8031 8046 "global/static.ml" 190 8031 8084
+)
+"global/static.ml" 190 8031 8035 "global/static.ml" 190 8031 8042
+type(
+  Types.ty
+)
+"global/static.ml" 190 8031 8053 "global/static.ml" 190 8031 8061
+type(
+  (Types.ty -> Types.ty) -> Types.ty list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"global/static.ml" 190 8031 8063 "global/static.ml" 190 8031 8076
+type(
+  Types.static_exp Names.QualEnv.t -> Types.ty -> Types.ty
+)
+ident(
+  int_ref simplify_type "global/static.ml" 188 7920 7928 "global/static.ml" 188 7920 7941
+)
+"global/static.ml" 190 8031 8077 "global/static.ml" 190 8031 8080
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 188 7920 7942 "global/static.ml" 188 7920 7945
+)
+"global/static.ml" 190 8031 8062 "global/static.ml" 190 8031 8081
+call(
+  stack
+)
+type(
+  Types.ty -> Types.ty
+)
+"global/static.ml" 190 8031 8082 "global/static.ml" 190 8031 8083
+type(
+  Types.ty list
+)
+ident(
+  int_ref l "global/static.ml" 190 8031 8041 "global/static.ml" 190 8031 8042
+)
+"global/static.ml" 190 8031 8052 "global/static.ml" 190 8031 8084
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"global/static.ml" 190 8031 8046 "global/static.ml" 190 8031 8084
+type(
+  Types.ty
+)
+"global/static.ml" 191 8085 8089 "global/static.ml" 191 8085 8090
+type(
+  Types.ty
+)
+ident(
+  def t "global/static.ml" 191 8085 8094 "global/static.ml" 191 8085 8095
+)
+"global/static.ml" 191 8085 8094 "global/static.ml" 191 8085 8095
+type(
+  Types.ty
+)
+ident(
+  int_ref t "global/static.ml" 191 8085 8089 "global/static.ml" 191 8085 8090
+)
+"global/static.ml" 188 7920 7951 "global/static.ml" 191 8085 8095
+type(
+  Types.ty
+)
+"global/static.ml" 196 8259 8263 "global/static.ml" 196 8259 8267
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  def eval "global/static.ml" 203 8511 8511 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 196 8259 8268 "global/static.ml" 196 8259 8271
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 196 8259 8272 "global/static.ml" 198 8306 8331
+)
+"global/static.ml" 196 8259 8272 "global/static.ml" 196 8259 8274
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 197 8277 8279 "global/static.ml" 198 8306 8331
+)
+"global/static.ml" 197 8277 8283 "global/static.ml" 197 8277 8292
+type(
+  bool ->
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval_core "global/static.ml" 145 6111 6119 "global/static.ml" 145 6111 6128
+)
+"global/static.ml" 197 8277 8293 "global/static.ml" 197 8277 8298
+type(
+  bool
+)
+"global/static.ml" 197 8277 8299 "global/static.ml" 197 8277 8302
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 196 8259 8268 "global/static.ml" 196 8259 8271
+)
+"global/static.ml" 197 8277 8303 "global/static.ml" 197 8277 8305
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 196 8259 8272 "global/static.ml" 196 8259 8274
+)
+"global/static.ml" 197 8277 8283 "global/static.ml" 197 8277 8305
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 198 8306 8313 "global/static.ml" 198 8306 8316
+type(
+  exn
+)
+ident(
+  def exn "global/static.ml" 198 8306 8320 "global/static.ml" 198 8306 8331
+)
+"global/static.ml" 198 8306 8320 "global/static.ml" 198 8306 8327
+type(
+  exn -> Types.static_exp
+)
+ident(
+  int_ref message "global/static.ml" 54 2685 2689 "global/static.ml" 54 2685 2696
+)
+"global/static.ml" 198 8306 8328 "global/static.ml" 198 8306 8331
+type(
+  exn
+)
+ident(
+  int_ref exn "global/static.ml" 198 8306 8313 "global/static.ml" 198 8306 8316
+)
+"global/static.ml" 198 8306 8320 "global/static.ml" 198 8306 8331
+call(
+  tail
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 197 8277 8279 "global/static.ml" 198 8306 8331
+type(
+  Types.static_exp
+)
+"global/static.ml" 203 8511 8515 "global/static.ml" 203 8511 8532
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> int
+)
+ident(
+  def int_of_static_exp "global/static.ml" 210 8809 8809 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 203 8511 8533 "global/static.ml" 203 8511 8536
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 203 8511 8537 "global/static.ml" 205 8591 8646
+)
+"global/static.ml" 203 8511 8537 "global/static.ml" 203 8511 8539
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/static.ml" 203 8511 8542 "global/static.ml" 205 8591 8646
+)
+"global/static.ml" 203 8511 8549 "global/static.ml" 203 8511 8553
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref eval "global/static.ml" 196 8259 8263 "global/static.ml" 196 8259 8267
+)
+"global/static.ml" 203 8511 8554 "global/static.ml" 203 8511 8557
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 203 8511 8533 "global/static.ml" 203 8511 8536
+)
+"global/static.ml" 203 8511 8558 "global/static.ml" 203 8511 8560
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/static.ml" 203 8511 8537 "global/static.ml" 203 8511 8539
+)
+"global/static.ml" 203 8511 8548 "global/static.ml" 203 8511 8561
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 203 8511 8548 "global/static.ml" 203 8511 8569
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 204 8575 8584 "global/static.ml" 204 8575 8585
+type(
+  int
+)
+ident(
+  def i "global/static.ml" 204 8575 8589 "global/static.ml" 204 8575 8590
+)
+"global/static.ml" 204 8575 8579 "global/static.ml" 204 8575 8585
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 204 8575 8589 "global/static.ml" 204 8575 8590
+type(
+  int
+)
+ident(
+  int_ref i "global/static.ml" 204 8575 8584 "global/static.ml" 204 8575 8585
+)
+"global/static.ml" 205 8591 8595 "global/static.ml" 205 8591 8596
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 205 8591 8600 "global/static.ml" 205 8591 8619
+type(
+  string -> int
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"global/static.ml" 205 8591 8620 "global/static.ml" 205 8591 8646
+type(
+  string
+)
+"global/static.ml" 205 8591 8600 "global/static.ml" 205 8591 8646
+call(
+  tail
+)
+type(
+  int
+)
+"global/static.ml" 203 8511 8542 "global/static.ml" 205 8591 8646
+type(
+  int
+)
+"global/static.ml" 210 8809 8813 "global/static.ml" 210 8809 8820
+type(
+  Types.static_exp Names.QualEnv.t ->
+  Types.static_exp -> bool option * Types.static_exp
+)
+ident(
+  def is_true "global/static.ml" 216 8927 8927 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 210 8809 8821 "global/static.ml" 210 8809 8824
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  def env "global/static.ml" 210 8809 8825 "global/static.ml" 214 8907 8925
+)
+"global/static.ml" 210 8809 8825 "global/static.ml" 210 8809 8826
+type(
+  Types.static_exp
+)
+ident(
+  def c "global/static.ml" 211 8829 8831 "global/static.ml" 214 8907 8925
+)
+"global/static.ml" 211 8829 8835 "global/static.ml" 211 8829 8836
+type(
+  Types.static_exp
+)
+ident(
+  def c "global/static.ml" 212 8857 8859 "global/static.ml" 214 8907 8925
+)
+"global/static.ml" 211 8829 8839 "global/static.ml" 211 8829 8847
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  int_ref simplify "global/static.ml" 184 7843 7847 "global/static.ml" 184 7843 7855
+)
+"global/static.ml" 211 8829 8848 "global/static.ml" 211 8829 8851
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  int_ref env "global/static.ml" 210 8809 8821 "global/static.ml" 210 8809 8824
+)
+"global/static.ml" 211 8829 8852 "global/static.ml" 211 8829 8853
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "global/static.ml" 210 8809 8825 "global/static.ml" 210 8809 8826
+)
+"global/static.ml" 211 8829 8839 "global/static.ml" 211 8829 8853
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"global/static.ml" 212 8857 8865 "global/static.ml" 212 8857 8866
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "global/static.ml" 211 8829 8835 "global/static.ml" 211 8829 8836
+)
+"global/static.ml" 212 8857 8865 "global/static.ml" 212 8857 8874
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 213 8880 8892 "global/static.ml" 213 8880 8893
+type(
+  bool
+)
+ident(
+  def b "global/static.ml" 213 8880 8897 "global/static.ml" 213 8880 8906
+)
+"global/static.ml" 213 8880 8886 "global/static.ml" 213 8880 8893
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 213 8880 8902 "global/static.ml" 213 8880 8903
+type(
+  bool
+)
+ident(
+  int_ref b "global/static.ml" 213 8880 8892 "global/static.ml" 213 8880 8893
+)
+"global/static.ml" 213 8880 8897 "global/static.ml" 213 8880 8903
+type(
+  bool option
+)
+"global/static.ml" 213 8880 8905 "global/static.ml" 213 8880 8906
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "global/static.ml" 211 8829 8835 "global/static.ml" 211 8829 8836
+)
+"global/static.ml" 213 8880 8897 "global/static.ml" 213 8880 8906
+type(
+  bool option * Types.static_exp
+)
+"global/static.ml" 214 8907 8913 "global/static.ml" 214 8907 8914
+type(
+  Types.static_exp_desc
+)
+"global/static.ml" 214 8907 8918 "global/static.ml" 214 8907 8922
+type(
+  bool option
+)
+"global/static.ml" 214 8907 8924 "global/static.ml" 214 8907 8925
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "global/static.ml" 211 8829 8835 "global/static.ml" 211 8829 8836
+)
+"global/static.ml" 214 8907 8918 "global/static.ml" 214 8907 8925
+type(
+  bool option * Types.static_exp
+)
+"global/static.ml" 212 8857 8859 "global/static.ml" 214 8907 8925
+type(
+  bool option * Types.static_exp
+)
+"global/static.ml" 211 8829 8831 "global/static.ml" 214 8907 8925
+type(
+  bool option * Types.static_exp
+)
+"global/static.ml" 221 9155 9163 "global/static.ml" 221 9155 9168
+type(
+  Signature.constrnt Names.QualEnv.t ->
+  Signature.constrnt list -> Signature.constrnt list
+)
+ident(
+  def solve "global/static.ml" 221 9155 9155 "global/static.ml" 1 0 -1
+)
+"global/static.ml" 221 9155 9169 "global/static.ml" 221 9155 9178
+type(
+  Signature.constrnt Names.QualEnv.t
+)
+ident(
+  def const_env "global/static.ml" 222 9181 9183 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 223 9192 9198 "global/static.ml" 223 9192 9200
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 223 9192 9204 "global/static.ml" 223 9192 9206
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 224 9207 9213 "global/static.ml" 224 9207 9214
+type(
+  Signature.constrnt
+)
+ident(
+  def c "global/static.ml" 225 9223 9231 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 224 9207 9218 "global/static.ml" 224 9207 9219
+type(
+  Signature.constrnt list
+)
+ident(
+  def l "global/static.ml" 225 9223 9231 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 224 9207 9213 "global/static.ml" 224 9207 9219
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 225 9223 9235 "global/static.ml" 225 9223 9236
+type(
+  Signature.constrnt list
+)
+ident(
+  def l "global/static.ml" 226 9260 9268 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 225 9223 9239 "global/static.ml" 225 9223 9244
+type(
+  Signature.constrnt Names.QualEnv.t ->
+  Signature.constrnt list -> Signature.constrnt list
+)
+ident(
+  int_ref solve "global/static.ml" 221 9155 9163 "global/static.ml" 221 9155 9168
+)
+"global/static.ml" 225 9223 9245 "global/static.ml" 225 9223 9254
+type(
+  Signature.constrnt Names.QualEnv.t
+)
+ident(
+  int_ref const_env "global/static.ml" 221 9155 9169 "global/static.ml" 221 9155 9178
+)
+"global/static.ml" 225 9223 9255 "global/static.ml" 225 9223 9256
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref l "global/static.ml" 224 9207 9218 "global/static.ml" 224 9207 9219
+)
+"global/static.ml" 225 9223 9239 "global/static.ml" 225 9223 9256
+call(
+  stack
+)
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 226 9260 9273 "global/static.ml" 226 9260 9276
+type(
+  bool option
+)
+ident(
+  def res "global/static.ml" 227 9313 9321 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 226 9260 9278 "global/static.ml" 226 9260 9286
+type(
+  Signature.constrnt
+)
+ident(
+  def solved_c "global/static.ml" 227 9313 9321 "global/static.ml" 229 9372 9439
+)
+"global/static.ml" 226 9260 9272 "global/static.ml" 226 9260 9287
+type(
+  bool option * Signature.constrnt
+)
+"global/static.ml" 226 9260 9290 "global/static.ml" 226 9260 9297
+type(
+  Signature.constrnt Names.QualEnv.t ->
+  Signature.constrnt -> bool option * Signature.constrnt
+)
+ident(
+  int_ref is_true "global/static.ml" 210 8809 8813 "global/static.ml" 210 8809 8820
+)
+"global/static.ml" 226 9260 9298 "global/static.ml" 226 9260 9307
+type(
+  Signature.constrnt Names.QualEnv.t
+)
+ident(
+  int_ref const_env "global/static.ml" 221 9155 9169 "global/static.ml" 221 9155 9178
+)
+"global/static.ml" 226 9260 9308 "global/static.ml" 226 9260 9309
+type(
+  Signature.constrnt
+)
+ident(
+  int_ref c "global/static.ml" 224 9207 9213 "global/static.ml" 224 9207 9214
+)
+"global/static.ml" 226 9260 9290 "global/static.ml" 226 9260 9309
+call(
+  stack
+)
+type(
+  bool option * Signature.constrnt
+)
+"global/static.ml" 227 9313 9328 "global/static.ml" 227 9313 9331
+type(
+  bool option
+)
+ident(
+  int_ref res "global/static.ml" 226 9260 9273 "global/static.ml" 226 9260 9276
+)
+"global/static.ml" 228 9337 9350 "global/static.ml" 228 9337 9354
+type(
+  bool option
+)
+"global/static.ml" 228 9337 9358 "global/static.ml" 228 9337 9366
+type(
+  Signature.constrnt
+)
+ident(
+  int_ref solved_c "global/static.ml" 226 9260 9278 "global/static.ml" 226 9260 9286
+)
+"global/static.ml" 228 9337 9370 "global/static.ml" 228 9337 9371
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref l "global/static.ml" 225 9223 9235 "global/static.ml" 225 9223 9236
+)
+"global/static.ml" 228 9337 9358 "global/static.ml" 228 9337 9371
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 229 9372 9390 "global/static.ml" 229 9372 9391
+type(
+  bool
+)
+ident(
+  def v "global/static.ml" 229 9372 9395 "global/static.ml" 229 9372 9438
+)
+"global/static.ml" 229 9372 9385 "global/static.ml" 229 9372 9391
+type(
+  bool option
+)
+"global/static.ml" 229 9372 9398 "global/static.ml" 229 9372 9401
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/static.ml" 229 9372 9402 "global/static.ml" 229 9372 9403
+type(
+  bool
+)
+ident(
+  int_ref v "global/static.ml" 229 9372 9390 "global/static.ml" 229 9372 9391
+)
+"global/static.ml" 229 9372 9398 "global/static.ml" 229 9372 9403
+type(
+  bool
+)
+"global/static.ml" 229 9372 9409 "global/static.ml" 229 9372 9414
+type(
+  exn -> Signature.constrnt list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/static.ml" 229 9372 9429 "global/static.ml" 229 9372 9430
+type(
+  Signature.constrnt
+)
+ident(
+  int_ref c "global/static.ml" 224 9207 9213 "global/static.ml" 224 9207 9214
+)
+"global/static.ml" 229 9372 9415 "global/static.ml" 229 9372 9431
+type(
+  exn
+)
+"global/static.ml" 229 9372 9409 "global/static.ml" 229 9372 9431
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 229 9372 9437 "global/static.ml" 229 9372 9438
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref l "global/static.ml" 225 9223 9235 "global/static.ml" 225 9223 9236
+)
+"global/static.ml" 229 9372 9395 "global/static.ml" 229 9372 9438
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 227 9313 9321 "global/static.ml" 229 9372 9439
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 226 9260 9268 "global/static.ml" 229 9372 9439
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 225 9223 9231 "global/static.ml" 229 9372 9439
+type(
+  Signature.constrnt list
+)
+"global/static.ml" 222 9181 9183 "global/static.ml" 229 9372 9439
+type(
+  Signature.constrnt list -> Signature.constrnt list
+)

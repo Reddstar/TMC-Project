@@ -1,0 +1,88 @@
+% -*- Latex -*-
+\section{Programmes Signal simulables}
+La synthèse de contrôleurs se faisant à partir de l'interprétation abstraite de
+la spécification en {\sc Signal} du système à contrôler, un contrôleur ne peut
+controler en fait que la partie système à évènements discrets d'un système hybride.
+Les assertions sur le modèle qui devront être vérifiées par le résolveur lors de
+la simulation ne pourrons l'être que si la perte d'information due à l'interprétation
+ne rend pas impossible le contrôle de cohérence sur les valeurs de signaux. Bien entendu
+il n'y a aucun problème si le système spécifié est purement logique. Les problèmes
+viennent des prédicats sur les signaux numériques.
+
+Considérons par exemple un processus {\sc Signal} avec trois entrées \verb!y1, y2, y3!
+de type {\em real} et comportant l'instruction \verb! y3^= when(y1>y2)!. 
+\verb!y1! et \verb!y2! sont alors nécessairement synchrones et l'horloge de \verb!y3!
+est un sous échantillonnage de leur horloge commune.
+
+Au niveau de l'interprétation abstraite on aura comme entrées l'horloge commune à 
+\verb!y1, y2! et l'horloge dont les instants correspondent à \verb!y1>y2! vrai.
+L'introduction de cette horloge est rendue nécessaire par l'impossibilité de
+raisonner sur les valeurs numériques des signaux. Les équations d'horloge utilisées
+par le résolveur pour vérifier la cohérence des entrées impliqueront que 
+l'horloge de \verb!y1>y2! est un sous échantillonnage de l'horloge commune des
+signaux \verb!y1! et \verb!y2!. Par contre ces équations  ne permettent pas 
+de vérifier la cohérence des valeurs numériques de  \verb!y1! et  \verb!y2!
+avec l'horloge \verb!when(y1>y2)!.
+
+Par conséquent les programmes qui pourront être simulés de fa\c{c}on fiable sont
+les modèles purement logiques (ne comportant que des booléens et des horloges) et
+les programmes sans prédicats sur les valeurs numériques ou du moins tels que
+les horloges des entrées ne dépendent pas de prédicats numériques.
+
+Un environnement de simulation acceptant une gamme plus large de programmes
+a été envisagé. Sa mise en oeuvre exigeant des études plus poussées et
+(en autre) une modification du générateur de code C, sa réalisation a été 
+remise à plus tard.
+
+Une deuxième limitation est liée à des problèmes techniques de compilation.
+Certains contrôleurs utilisent expressément les variables d'état. Il en est de même
+de certaines assertions: Dans l'exemple CHAT-SOURIS on doit exprimer
+l'impossibilité pour un animal d'être dans deux pièces au même moment, ce qui
+fait intervenir les états. Il est donc nécessaire de communiquer les valeurs
+des variables d'état au résolveur. Remarquons tout de suite que ce problème ne
+concerne que les {\em variables d'état booléennes}.
+
+Or en {\sc Signal}, les variables d'état n'existent pas explicitement. Seul le
+retard (\$) invoque implicitement une mémoire. Au niveau du source il est donc
+impossible de désigner explicitement un état. Il est envisageable de récupérer
+les variables C créées au cours de la génération du code et de coupler les générateurs
+de code C et $Z/3Z$ afin d'assurer la liaison variable symbolique-valeur. Ceci
+demandant une intervention lourde sur le compilateur sans régler complètement le problème,
+nous avons préféré, pour cette première version, imposer une écriture des
+équations d'état que nous savons traiter en modifiant un peu le générateur de code $Z/3Z$.
+Cette écriture est d'ailleur naturelle dès que l'on veut décrire un automate en {\sc Signal}:
+
+\begin{verbatim}
+
+| X_ETAT := X_MODIF default ZX_ETAT
+| ZX_ETAT := X_ETAT $ 1
+
+\end{verbatim}
+où \verb! X_ETAT ! est une variable d'état. La première ligne est l'équation d'évolution
+où \verb! X_MODIF ! est le signal modifiant l'état. La deuxième ligne assure la fonction
+de mémorisation. 
+
+Le problème avec ce codage est de donner une horloge à l'équation d'évolution. En effet,
+les équations précédentes ne précisent pas à quelle horloge l'état est accessible et rafraichi.
+(En {\sc Signal} ce n'est pas un véritable état mais un signal, donc un couple (valeur, horloge)). 
+On peut penser à deux solutions: soit la réunion de l'horloge de \verb! X_MODIF ! et
+de l'horloge d'utilisation de \verb! X_ETAT !, soit l'horloge la plus rapide du programme.
+En fait tout suréchantillonnage de la première convient. Malheureusement aucune de ces
+horloges n'est disponible.
+
+La solution provisoirement retenue est d'imposer une horloge la plus rapide \verb! TICK !
+au modèle et de synchroniser les états booléens à cette horloge.
+Cette horloge sera l'horloge de simulation imposée par l'environnement de simulation
+généré automatiquement. Comme la notion d'horloge la plus rapide n'existe pas en 
+{\sc Signal} nous serons obligés de synchroniser les entrées avec \verb! TICK ! et
+d'interdire tout autre utilisation de l'instruction retard.
+
+La dernière contrainte sur les états est liée uniquement aux techniques de compilation.
+La compilation des processus {\sc Signal} se faisant par macro-expansion, le compilateur renomme
+les identificateurs des signaux de ces processus. Seules les entrées et les sorties d'un programme
+ne sont pas renommées. Afin d'assurer les liaisons entre les variables d'état et leurs valeurs,
+il est demandé à l'utilisateur de mettre les états en sortie du processus {\sc Signal}
+modélisant le système à simuler. Le shéma général \cite{} du simulateur montre l'interfa\c{c}age
+avec l'environnement.
+
+

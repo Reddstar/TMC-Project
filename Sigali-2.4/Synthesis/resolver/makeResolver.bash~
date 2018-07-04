@@ -1,0 +1,42 @@
+#!/bin/bash
+
+    set HERE=`pwd`
+
+    setenv resincl ${SIGALI_resolver}/res/export
+    setenv tddincl ${SIGALI_resolver}/tdd/export
+    setenv memincl ${SIGALI_resolver}/mem/export
+
+    setenv resolver_export ${SIGALI_resolver}/export
+    set resolver_dir=${resolver_export}
+    if ( "$1" == "force" ) \rm ${resolver_dir}/*
+
+    echo "Begin Memory Compilation"
+    cd ${SIGALI_resolver}/mem
+    $MAKE $1
+    echo ""
+
+    echo "Begin TDD Compilation"
+    cd ${SIGALI_resolver}/tdd
+    $MAKE $1
+    echo ""
+
+    echo "Begin Resolver Compilation"
+    cd ${SIGALI_resolver}/res
+    $MAKE $1
+    echo ""
+
+    cd ${SIGALI_resolver}
+
+    mkdir -p ${resolver_dir}
+
+    \cp -p ${SIGALI_resolver}/mem/export/*.o ${resolver_dir}/.
+    \cp -p ${SIGALI_resolver}/res/export/*.o ${resolver_dir}/.  
+    \cp -p ${SIGALI_resolver}/tdd/export/*.o ${resolver_dir}/.
+
+    \cp -p ${SIGALI_resolver}/mem/export/*.h ${resolver_dir}/.
+    \cp -p ${SIGALI_resolver}/tdd/export/*.h ${resolver_dir}/.
+    \cp -p ${SIGALI_resolver}/res/export/*.h ${resolver_dir}/.
+
+    echo "Resolver building--done" 
+    cd  $HERE 
+ 

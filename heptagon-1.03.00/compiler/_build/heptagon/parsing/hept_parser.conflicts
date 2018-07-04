@@ -1,0 +1,223 @@
+
+** Conflict (shift/reduce) in state 404.
+** Tokens involved: VAR LET
+** The following explanations concentrate on token VAR.
+** This state is reached from program after reading:
+
+list(opens) unsafe node_or_fun ident node_params LPAREN in_params RPAREN returns LPAREN out_params RPAREN CONTRACT 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+program 
+list(opens) list(program_desc) EOF 
+            program_desc list(program_desc) 
+            node_dec 
+            (?)
+
+** In state 404, looking ahead at VAR, shifting is permitted
+** because of the following sub-derivation:
+
+unsafe node_or_fun ident node_params LPAREN in_params RPAREN returns LPAREN out_params RPAREN contract block(LET) TEL 
+                                                                                              CONTRACT opt_block opt_assume objectives opt_with 
+                                                                                                       block(LET) TEL 
+                                                                                                       . VAR loc_params LET equs 
+
+** In state 404, looking ahead at VAR, reducing production
+** opt_block -> 
+** is permitted because of the following sub-derivation:
+
+unsafe node_or_fun ident node_params LPAREN in_params RPAREN returns LPAREN out_params RPAREN contract block(LET) TEL // lookahead token appears because block(LET) can begin with VAR
+                                                                                              CONTRACT opt_block opt_assume objectives opt_with // lookahead token is inherited because opt_assume objectives opt_with can vanish
+                                                                                                       . 
+
+** Conflict (reduce/reduce) in state 270.
+** Token involved: ARROW
+** This state is reached from interface after reading:
+
+list(opens) CONST IDENT COLON ty_ident EQUAL MERGE IDENT LPAREN constructor 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+interface 
+list(opens) list(interface_desc) EOF 
+            interface_desc list(interface_desc) 
+            const_dec 
+            CONST IDENT COLON ty_ident EQUAL exp 
+                                             _exp 
+                                             MERGE IDENT merge_handlers 
+                                                         (?)
+
+** In state 270, looking ahead at ARROW, reducing production
+** _const -> constructor 
+** is permitted because of the following sub-derivation:
+
+simple_exp simple_exp 
+LPAREN exp ct_annot RPAREN 
+       _exp 
+       simple_exp ARROW exp // lookahead token appears
+       _simple_exp // lookahead token is inherited
+       const // lookahead token is inherited
+       _const // lookahead token is inherited
+       constructor . 
+
+** In state 270, looking ahead at ARROW, reducing production
+** constructor_or_bool -> constructor 
+** is permitted because of the following sub-derivation:
+
+nonempty_list(merge_handler) 
+merge_handler 
+LPAREN constructor_or_bool ARROW exp RPAREN // lookahead token appears
+       constructor . 
+
+** Conflict (reduce/reduce) in state 265.
+** Token involved: ARROW
+** This state is reached from interface after reading:
+
+list(opens) CONST IDENT COLON ty_ident EQUAL MERGE IDENT LPAREN BOOL 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+interface 
+list(opens) list(interface_desc) EOF 
+            interface_desc list(interface_desc) 
+            const_dec 
+            CONST IDENT COLON ty_ident EQUAL exp 
+                                             _exp 
+                                             MERGE IDENT merge_handlers 
+                                                         (?)
+
+** In state 265, looking ahead at ARROW, reducing production
+** _const -> BOOL 
+** is permitted because of the following sub-derivation:
+
+simple_exp simple_exp 
+LPAREN exp ct_annot RPAREN 
+       _exp 
+       simple_exp ARROW exp // lookahead token appears
+       _simple_exp // lookahead token is inherited
+       const // lookahead token is inherited
+       _const // lookahead token is inherited
+       BOOL . 
+
+** In state 265, looking ahead at ARROW, reducing production
+** constructor_or_bool -> BOOL 
+** is permitted because of the following sub-derivation:
+
+nonempty_list(merge_handler) 
+merge_handler 
+LPAREN constructor_or_bool ARROW exp RPAREN // lookahead token appears
+       BOOL . 
+
+** Conflict (shift/reduce) in state 145.
+** Token involved: POWER
+** This state is reached from interface after reading:
+
+list(opens) CONST IDENT COLON ty_ident EQUAL exp POWER simple_exp 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+interface 
+list(opens) list(interface_desc) EOF 
+            interface_desc list(interface_desc) 
+            const_dec 
+            CONST IDENT COLON ty_ident EQUAL exp 
+                                             _exp 
+                                             (?)
+
+** In state 145, looking ahead at POWER, reducing production
+** separated_nonempty_list(POWER,simple_exp) -> simple_exp 
+** is permitted because of the following sub-derivation:
+
+exp POWER separated_nonempty_list(POWER,simple_exp) // lookahead token appears
+_exp // lookahead token is inherited
+exp POWER separated_nonempty_list(POWER,simple_exp) // lookahead token is inherited
+          simple_exp . 
+
+** In state 145, looking ahead at POWER, shifting is permitted
+** because of the following sub-derivation:
+
+exp POWER separated_nonempty_list(POWER,simple_exp) 
+          simple_exp . POWER separated_nonempty_list(POWER,simple_exp) 
+
+** Conflict (reduce/reduce) in state 83.
+** Token involved: DOT
+** This state is reached from interface after reading:
+
+list(opens) TYPE IDENT EQUAL ty_ident POWER modul DOT Constructor 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+interface 
+list(opens) list(interface_desc) EOF 
+            interface_desc list(interface_desc) 
+            type_dec 
+            TYPE IDENT EQUAL ty_ident 
+                             ty_ident POWER simple_exp 
+                                            _simple_exp 
+                                            (?)
+
+** In state 83, looking ahead at DOT, reducing production
+** modul -> modul DOT Constructor 
+** is permitted because of the following sub-derivation:
+
+const 
+_const 
+qualified(ident) 
+modul DOT ident // lookahead token appears
+modul DOT Constructor . 
+
+** In state 83, looking ahead at DOT, reducing production
+** qualified(Constructor) -> modul DOT Constructor 
+** is permitted because of the following sub-derivation:
+
+simple_exp DOT qualname // lookahead token appears
+_simple_exp // lookahead token is inherited
+const // lookahead token is inherited
+_const // lookahead token is inherited
+constructor // lookahead token is inherited
+qualified(Constructor) // lookahead token is inherited
+modul DOT Constructor . 
+
+** Conflict (reduce/reduce) in state 70.
+** Token involved: DOT
+** This state is reached from interface after reading:
+
+list(opens) TYPE IDENT EQUAL ty_ident POWER Constructor 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+interface 
+list(opens) list(interface_desc) EOF 
+            interface_desc list(interface_desc) 
+            type_dec 
+            TYPE IDENT EQUAL ty_ident 
+                             ty_ident POWER simple_exp 
+                                            _simple_exp 
+                                            (?)
+
+** In state 70, looking ahead at DOT, reducing production
+** constructor -> Constructor 
+** is permitted because of the following sub-derivation:
+
+simple_exp DOT qualname // lookahead token appears
+_simple_exp // lookahead token is inherited
+const // lookahead token is inherited
+_const // lookahead token is inherited
+constructor // lookahead token is inherited
+Constructor . 
+
+** In state 70, looking ahead at DOT, reducing production
+** modul -> Constructor 
+** is permitted because of the following sub-derivation:
+
+const 
+_const 
+qualified(ident) 
+modul DOT ident // lookahead token appears
+Constructor . 

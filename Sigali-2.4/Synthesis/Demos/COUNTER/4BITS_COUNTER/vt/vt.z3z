@@ -1,0 +1,97 @@
+
+declare(
+        New_B1,
+        New_B2,
+        New_B3,
+        New_B4,
+        Incr,
+        Mult);
+
+
+
+CLK_Incr : 1;
+
+C1a : not New_B1 when Incr default New_B1 when not Incr;
+
+Cout1 : New_B1 and not C1a;
+
+C2a : not New_B2 when Cout1 default New_B2 when not Cout1;
+
+CCa_57 : New_B2 and not C2a;
+
+C3a : not New_B3 when CCa_57 default New_B3 when not CCa_57;
+
+Cout1_98 : New_B3 and not C3a;
+
+C4a : not New_B4 when Cout1_98 default New_B4 when not Cout1_98;
+
+CCa : New_B4 and not C4a;
+
+CLK_CCb : when Mult;
+
+CCb : New_B4 * CLK_CCb;
+
+CLK_C1 : when Incr default CLK_CCb;
+
+CC : CCa when Incr default CCb default not CLK_Incr * (1 - CLK_C1);
+
+Forbidden_state : New_B1 and New_B2 and New_B3 and New_B4;
+
+CCa_136 : New_B2 * CLK_CCb;
+
+Cout1_147 : New_B1 * CLK_CCb;
+
+Cout1_168 : New_B3 * CLK_CCb;
+
+C1 : C1a when Incr default not CLK_CCb;
+
+C2 : C2a when Incr default Cout1_147;
+
+C3 : C3a when Incr default CCa_136;
+
+C4 : C4a when Incr default Cout1_168;
+
+
+
+
+events: [
+        Incr,
+        Mult];
+
+
+states: [
+        New_B1,
+        New_B2,
+        New_B3,
+        New_B4];
+
+
+initialisations: [
+        New_B1 = - 1,
+        New_B2 = - 1,
+        New_B3 = - 1,
+        New_B4 = - 1];
+
+
+evolutions: [
+        C1 + (1 - CLK_C1) * New_B1,
+        C2 + (1 - CLK_C1) * New_B2,
+        C3 + (1 - CLK_C1) * New_B3,
+        C4 + (1 - CLK_C1) * New_B4];
+
+
+constraints: [
+        Incr ^2 = CLK_Incr,
+        Mult ^2 = CLK_Incr,
+        0 = (when Incr) * CLK_CCb];
+
+
+controllables: [
+        Incr,
+        Mult];
+
+
+free_cond: [
+        ];
+
+

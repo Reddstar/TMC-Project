@@ -1,0 +1,34 @@
+#!/bin/csh -f
+ 
+    if ( ! $?SIGALIROOT) then
+       echo "WARNING: the shell variable SIGALIROOT is not defined."
+       setenv SIGALIROOT SIGALIROOT_IS_UNDEFINED
+    endif
+ 
+    setenv SynthesisROOT ${SIGALIROOT}/Synthesis
+    setenv LD_RES ${SynthesisROOT}/resolver
+    setenv LD_DEMO ${SynthesisROOT}/Demos
+ 
+ #For Demo Simulation: JDK is needed
+ 
+    if ( ! $?JDK_INCLUDE) then
+        set Jdkroot=/usr
+        setenv JDK_INCLUDE ${Jdkroot}/include
+        setenv JDK_INCL_DEP ${Jdkroot}/include/linux
+    endif
+  
+    if (! -d ${JDK_INCLUDE}) then
+       echo ""
+       echo "-WARNING---------WARNING--------WARNING--------WARNING----------WARNING------"
+       echo " JDK not found ..." 
+       echo " IF YOU WANT TO REBUILD THE BINARY, YOU MUST MODIFY the file: ${SynthesisROOT}/SynthesisEnv"
+       echo " The FOLLOWING SHELL VARIABLES MUST BE REDEFINED:"
+       echo " JDK_INCLUDE: path of the JDK include directory "
+       echo " JDK_INCL_DEP: path of the OS dependent JDK include directory (file: jni_md.h)"
+       echo "----------------------------------------------------------------------------"
+       echo ""
+    endif
+ 
+    if ( ! $?SignalLibC_export) then 
+    setenv SignalLibC_export ${LD_DEMO}/ImportSignal
+    endif

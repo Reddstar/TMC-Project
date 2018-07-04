@@ -1,0 +1,8 @@
+read("vt.z3z");
+read("Creat_SDP.lib");
+read("Bibli.lib");
+PROP:B_False(S,Error);
+S : S_Security(S,PROP);
+PROP_721:B_True(S,Initial_States);
+S : S_Reachable(S,PROP_721);
+simul(S,"vt.res","vt.sim");

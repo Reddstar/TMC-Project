@@ -1,0 +1,3482 @@
+"heptagon/transformations/itfusion.ml" 38 2194 2198 "heptagon/transformations/itfusion.ml" 38 2194 2209
+type(
+  Heptagon.app -> bool
+)
+ident(
+  def is_stateful "heptagon/transformations/itfusion.ml" 44 2330 2330 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 38 2194 2210 "heptagon/transformations/itfusion.ml" 38 2194 2213
+type(
+  Heptagon.app
+)
+ident(
+  def app "heptagon/transformations/itfusion.ml" 39 2216 2218 "heptagon/transformations/itfusion.ml" 41 2260 2276
+)
+"heptagon/transformations/itfusion.ml" 39 2216 2224 "heptagon/transformations/itfusion.ml" 39 2216 2227
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/transformations/itfusion.ml" 38 2194 2210 "heptagon/transformations/itfusion.ml" 38 2194 2213
+)
+"heptagon/transformations/itfusion.ml" 39 2216 2224 "heptagon/transformations/itfusion.ml" 39 2216 2232
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 40 2238 2250 "heptagon/transformations/itfusion.ml" 40 2238 2251
+type(
+  Names.fun_name
+)
+"heptagon/transformations/itfusion.ml" 40 2238 2244 "heptagon/transformations/itfusion.ml" 40 2238 2251
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 40 2238 2255 "heptagon/transformations/itfusion.ml" 40 2238 2259
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 41 2260 2266 "heptagon/transformations/itfusion.ml" 41 2260 2267
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 41 2260 2271 "heptagon/transformations/itfusion.ml" 41 2260 2276
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 39 2216 2218 "heptagon/transformations/itfusion.ml" 41 2260 2276
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2334 "heptagon/transformations/itfusion.ml" 44 2330 2352
+type(
+  unit -> Names.qualname
+)
+ident(
+  def mk_fresh_node_name "heptagon/transformations/itfusion.ml" 46 2397 2397 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2353 "heptagon/transformations/itfusion.ml" 44 2330 2355
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2358 "heptagon/transformations/itfusion.ml" 44 2330 2377
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.fresh_value
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2378 "heptagon/transformations/itfusion.ml" 44 2330 2388
+type(
+  string
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2389 "heptagon/transformations/itfusion.ml" 44 2330 2395
+type(
+  Names.name
+)
+"heptagon/transformations/itfusion.ml" 44 2330 2358 "heptagon/transformations/itfusion.ml" 44 2330 2395
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 46 2397 2401 "heptagon/transformations/itfusion.ml" 46 2397 2416
+type(
+  Signature.arg -> Idents.ident
+)
+ident(
+  def fresh_vd_of_arg "heptagon/transformations/itfusion.ml" 52 2590 2590 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 46 2397 2417 "heptagon/transformations/itfusion.ml" 46 2397 2418
+type(
+  Signature.arg
+)
+ident(
+  def a "heptagon/transformations/itfusion.ml" 47 2421 2423 "heptagon/transformations/itfusion.ml" 50 2543 2588
+)
+"heptagon/transformations/itfusion.ml" 47 2421 2423 "heptagon/transformations/itfusion.ml" 47 2421 2439
+type(
+  string ->
+  (Signature.arg -> Names.name) ->
+  ?reset:bool -> Signature.arg -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_fresh
+)
+"heptagon/transformations/itfusion.ml" 47 2421 2440 "heptagon/transformations/itfusion.ml" 47 2421 2450
+type(
+  string
+)
+"heptagon/transformations/itfusion.ml" 48 2451 2475 "heptagon/transformations/itfusion.ml" 48 2451 2476
+type(
+  Signature.arg
+)
+ident(
+  def a "heptagon/transformations/itfusion.ml" 48 2451 2480 "heptagon/transformations/itfusion.ml" 50 2543 2585
+)
+"heptagon/transformations/itfusion.ml" 48 2451 2486 "heptagon/transformations/itfusion.ml" 48 2451 2487
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "heptagon/transformations/itfusion.ml" 48 2451 2475 "heptagon/transformations/itfusion.ml" 48 2451 2476
+)
+"heptagon/transformations/itfusion.ml" 48 2451 2486 "heptagon/transformations/itfusion.ml" 48 2451 2494
+type(
+  Names.name option
+)
+"heptagon/transformations/itfusion.ml" 49 2500 2531 "heptagon/transformations/itfusion.ml" 49 2500 2535
+type(
+  Names.name option
+)
+"heptagon/transformations/itfusion.ml" 49 2500 2539 "heptagon/transformations/itfusion.ml" 49 2500 2542
+type(
+  Names.name
+)
+"heptagon/transformations/itfusion.ml" 50 2543 2579 "heptagon/transformations/itfusion.ml" 50 2543 2580
+type(
+  Names.name
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 50 2543 2584 "heptagon/transformations/itfusion.ml" 50 2543 2585
+)
+"heptagon/transformations/itfusion.ml" 50 2543 2574 "heptagon/transformations/itfusion.ml" 50 2543 2580
+type(
+  Names.name option
+)
+"heptagon/transformations/itfusion.ml" 50 2543 2584 "heptagon/transformations/itfusion.ml" 50 2543 2585
+type(
+  Names.name
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 50 2543 2579 "heptagon/transformations/itfusion.ml" 50 2543 2580
+)
+"heptagon/transformations/itfusion.ml" 48 2451 2480 "heptagon/transformations/itfusion.ml" 50 2543 2585
+type(
+  Names.name
+)
+"heptagon/transformations/itfusion.ml" 48 2451 2470 "heptagon/transformations/itfusion.ml" 50 2543 2586
+type(
+  Signature.arg -> Names.name
+)
+"heptagon/transformations/itfusion.ml" 50 2543 2587 "heptagon/transformations/itfusion.ml" 50 2543 2588
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "heptagon/transformations/itfusion.ml" 46 2397 2417 "heptagon/transformations/itfusion.ml" 46 2397 2418
+)
+"heptagon/transformations/itfusion.ml" 47 2421 2423 "heptagon/transformations/itfusion.ml" 50 2543 2588
+call(
+  tail
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2594 "heptagon/transformations/itfusion.ml" 52 2590 2603
+type(
+  unit -> Idents.ident
+)
+ident(
+  def fresh_var "heptagon/transformations/itfusion.ml" 54 2640 2640 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2604 "heptagon/transformations/itfusion.ml" 52 2590 2606
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2609 "heptagon/transformations/itfusion.ml" 52 2590 2623
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2624 "heptagon/transformations/itfusion.ml" 52 2590 2634
+type(
+  string
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2635 "heptagon/transformations/itfusion.ml" 52 2590 2638
+type(
+  string
+)
+"heptagon/transformations/itfusion.ml" 52 2590 2609 "heptagon/transformations/itfusion.ml" 52 2590 2638
+call(
+  tail
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  def anon_nodes "heptagon/transformations/itfusion.ml" 56 2676 2676 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 54 2640 2657 "heptagon/transformations/itfusion.ml" 54 2640 2660
+type(
+  Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"heptagon/transformations/itfusion.ml" 54 2640 2661 "heptagon/transformations/itfusion.ml" 54 2640 2674
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"heptagon/transformations/itfusion.ml" 54 2640 2657 "heptagon/transformations/itfusion.ml" 54 2640 2674
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+"heptagon/transformations/itfusion.ml" 56 2676 2680 "heptagon/transformations/itfusion.ml" 56 2676 2693
+type(
+  Heptagon.var_dec list ->
+  Heptagon.var_dec list ->
+  Heptagon.var_dec list -> Heptagon.eq list -> Names.qualname
+)
+ident(
+  def add_anon_node "heptagon/transformations/itfusion.ml" 63 2916 2916 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 56 2676 2694 "heptagon/transformations/itfusion.ml" 56 2676 2700
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def inputs "heptagon/transformations/itfusion.ml" 56 2676 2701 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 56 2676 2701 "heptagon/transformations/itfusion.ml" 56 2676 2708
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def outputs "heptagon/transformations/itfusion.ml" 56 2676 2709 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 56 2676 2709 "heptagon/transformations/itfusion.ml" 56 2676 2715
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def locals "heptagon/transformations/itfusion.ml" 56 2676 2716 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 56 2676 2716 "heptagon/transformations/itfusion.ml" 56 2676 2719
+type(
+  Heptagon.eq list
+)
+ident(
+  def eqs "heptagon/transformations/itfusion.ml" 57 2722 2724 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 57 2722 2728 "heptagon/transformations/itfusion.ml" 57 2722 2729
+type(
+  Names.qualname
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 58 2757 2759 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 57 2722 2732 "heptagon/transformations/itfusion.ml" 57 2722 2750
+type(
+  unit -> Names.qualname
+)
+ident(
+  int_ref mk_fresh_node_name "heptagon/transformations/itfusion.ml" 44 2330 2334 "heptagon/transformations/itfusion.ml" 44 2330 2352
+)
+"heptagon/transformations/itfusion.ml" 57 2722 2751 "heptagon/transformations/itfusion.ml" 57 2722 2753
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 57 2722 2732 "heptagon/transformations/itfusion.ml" 57 2722 2753
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2763 "heptagon/transformations/itfusion.ml" 58 2757 2764
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/itfusion.ml" 59 2798 2800 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2767 "heptagon/transformations/itfusion.ml" 58 2757 2775
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2784 "heptagon/transformations/itfusion.ml" 58 2757 2790
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/transformations/itfusion.ml" 56 2676 2709 "heptagon/transformations/itfusion.ml" 56 2676 2715
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2791 "heptagon/transformations/itfusion.ml" 58 2757 2794
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eqs "heptagon/transformations/itfusion.ml" 56 2676 2716 "heptagon/transformations/itfusion.ml" 56 2676 2719
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2767 "heptagon/transformations/itfusion.ml" 58 2757 2794
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2804 "heptagon/transformations/itfusion.ml" 59 2798 2806
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/itfusion.ml" 60 2865 2867 "heptagon/transformations/itfusion.ml" 61 2911 2914
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2809 "heptagon/transformations/itfusion.ml" 59 2798 2827
+type(
+  ?input:Heptagon.var_dec list ->
+  ?output:Heptagon.var_dec list ->
+  ?contract:Heptagon.contract option ->
+  ?stateful:bool ->
+  ?unsafe:bool ->
+  ?loc:Location.location ->
+  ?param:Signature.param list ->
+  ?constraints:Signature.constrnt list ->
+  Names.qualname -> Heptagon.block -> Heptagon.node_dec
+)
+ident(
+  ext_ref Hept_utils.mk_node
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2835 "heptagon/transformations/itfusion.ml" 59 2798 2841
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref inputs "heptagon/transformations/itfusion.ml" 56 2676 2694 "heptagon/transformations/itfusion.ml" 56 2676 2700
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2850 "heptagon/transformations/itfusion.ml" 59 2798 2857
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref outputs "heptagon/transformations/itfusion.ml" 56 2676 2701 "heptagon/transformations/itfusion.ml" 56 2676 2708
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2858 "heptagon/transformations/itfusion.ml" 59 2798 2859
+type(
+  Names.qualname
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 57 2722 2728 "heptagon/transformations/itfusion.ml" 57 2722 2729
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2860 "heptagon/transformations/itfusion.ml" 59 2798 2861
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/itfusion.ml" 58 2757 2763 "heptagon/transformations/itfusion.ml" 58 2757 2764
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2809 "heptagon/transformations/itfusion.ml" 59 2798 2861
+call(
+  stack
+)
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2867 "heptagon/transformations/itfusion.ml" 60 2865 2877
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2878 "heptagon/transformations/itfusion.ml" 60 2865 2880
+type(
+  Heptagon.node_dec Names.QualEnv.t ref ->
+  Heptagon.node_dec Names.QualEnv.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2881 "heptagon/transformations/itfusion.ml" 60 2865 2892
+type(
+  Names.QualEnv.key ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2893 "heptagon/transformations/itfusion.ml" 60 2865 2894
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 57 2722 2728 "heptagon/transformations/itfusion.ml" 57 2722 2729
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2895 "heptagon/transformations/itfusion.ml" 60 2865 2897
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 59 2798 2804 "heptagon/transformations/itfusion.ml" 59 2798 2806
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2898 "heptagon/transformations/itfusion.ml" 60 2865 2899
+type(
+  Heptagon.node_dec Names.QualEnv.t ref -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2899 "heptagon/transformations/itfusion.ml" 60 2865 2909
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2898 "heptagon/transformations/itfusion.ml" 60 2865 2909
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2881 "heptagon/transformations/itfusion.ml" 60 2865 2909
+call(
+  stack
+)
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2867 "heptagon/transformations/itfusion.ml" 60 2865 2909
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 61 2911 2913 "heptagon/transformations/itfusion.ml" 61 2911 2914
+type(
+  Names.qualname
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 57 2722 2728 "heptagon/transformations/itfusion.ml" 57 2722 2729
+)
+"heptagon/transformations/itfusion.ml" 60 2865 2867 "heptagon/transformations/itfusion.ml" 61 2911 2914
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 59 2798 2800 "heptagon/transformations/itfusion.ml" 61 2911 2914
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 58 2757 2759 "heptagon/transformations/itfusion.ml" 61 2911 2914
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 57 2722 2724 "heptagon/transformations/itfusion.ml" 61 2911 2914
+type(
+  Names.qualname
+)
+"heptagon/transformations/itfusion.ml" 63 2916 2920 "heptagon/transformations/itfusion.ml" 63 2916 2937
+type(
+  Names.QualEnv.key -> Heptagon.node_dec -> unit
+)
+ident(
+  def replace_anon_node "heptagon/transformations/itfusion.ml" 66 2991 2991 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 63 2916 2938 "heptagon/transformations/itfusion.ml" 63 2916 2939
+type(
+  Names.QualEnv.key
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 63 2916 2940 "heptagon/transformations/itfusion.ml" 64 2945 2989
+)
+"heptagon/transformations/itfusion.ml" 63 2916 2940 "heptagon/transformations/itfusion.ml" 63 2916 2942
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/itfusion.ml" 64 2945 2947 "heptagon/transformations/itfusion.ml" 64 2945 2989
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2947 "heptagon/transformations/itfusion.ml" 64 2945 2957
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2958 "heptagon/transformations/itfusion.ml" 64 2945 2960
+type(
+  Heptagon.node_dec Names.QualEnv.t ref ->
+  Heptagon.node_dec Names.QualEnv.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2961 "heptagon/transformations/itfusion.ml" 64 2945 2972
+type(
+  Names.QualEnv.key ->
+  Heptagon.node_dec ->
+  Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.add
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2973 "heptagon/transformations/itfusion.ml" 64 2945 2974
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 63 2916 2938 "heptagon/transformations/itfusion.ml" 63 2916 2939
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2975 "heptagon/transformations/itfusion.ml" 64 2945 2977
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 63 2916 2940 "heptagon/transformations/itfusion.ml" 63 2916 2942
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2978 "heptagon/transformations/itfusion.ml" 64 2945 2979
+type(
+  Heptagon.node_dec Names.QualEnv.t ref -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2979 "heptagon/transformations/itfusion.ml" 64 2945 2989
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2978 "heptagon/transformations/itfusion.ml" 64 2945 2989
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2961 "heptagon/transformations/itfusion.ml" 64 2945 2989
+call(
+  stack
+)
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 64 2945 2947 "heptagon/transformations/itfusion.ml" 64 2945 2989
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 66 2991 2995 "heptagon/transformations/itfusion.ml" 66 2991 3009
+type(
+  Names.QualEnv.key -> Heptagon.node_dec
+)
+ident(
+  def find_anon_node "heptagon/transformations/itfusion.ml" 69 3044 3044 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 66 2991 3010 "heptagon/transformations/itfusion.ml" 66 2991 3011
+type(
+  Names.QualEnv.key
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 67 3014 3016 "heptagon/transformations/itfusion.ml" 67 3014 3042
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3016 "heptagon/transformations/itfusion.ml" 67 3014 3028
+type(
+  Names.QualEnv.key -> Heptagon.node_dec Names.QualEnv.t -> Heptagon.node_dec
+)
+ident(
+  ext_ref Names.QualEnv.find
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3029 "heptagon/transformations/itfusion.ml" 67 3014 3030
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 66 2991 3010 "heptagon/transformations/itfusion.ml" 66 2991 3011
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3031 "heptagon/transformations/itfusion.ml" 67 3014 3032
+type(
+  Heptagon.node_dec Names.QualEnv.t ref -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3032 "heptagon/transformations/itfusion.ml" 67 3014 3042
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3031 "heptagon/transformations/itfusion.ml" 67 3014 3042
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 67 3014 3016 "heptagon/transformations/itfusion.ml" 67 3014 3042
+call(
+  tail
+)
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/itfusion.ml" 69 3044 3048 "heptagon/transformations/itfusion.ml" 69 3044 3060
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  def is_anon_node "heptagon/transformations/itfusion.ml" 72 3094 3094 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 69 3044 3061 "heptagon/transformations/itfusion.ml" 69 3044 3062
+type(
+  Names.QualEnv.key
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 70 3065 3067 "heptagon/transformations/itfusion.ml" 70 3065 3092
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3067 "heptagon/transformations/itfusion.ml" 70 3065 3078
+type(
+  Names.QualEnv.key -> Heptagon.node_dec Names.QualEnv.t -> bool
+)
+ident(
+  ext_ref Names.QualEnv.mem
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3079 "heptagon/transformations/itfusion.ml" 70 3065 3080
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 69 3044 3061 "heptagon/transformations/itfusion.ml" 69 3044 3062
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3081 "heptagon/transformations/itfusion.ml" 70 3065 3082
+type(
+  Heptagon.node_dec Names.QualEnv.t ref -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3082 "heptagon/transformations/itfusion.ml" 70 3065 3092
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3081 "heptagon/transformations/itfusion.ml" 70 3065 3092
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 70 3065 3067 "heptagon/transformations/itfusion.ml" 70 3065 3092
+call(
+  tail
+)
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 72 3094 3098 "heptagon/transformations/itfusion.ml" 72 3094 3107
+type(
+  Types.static_exp -> Types.static_exp -> bool
+)
+ident(
+  def are_equal "heptagon/transformations/itfusion.ml" 77 3201 3201 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 72 3094 3108 "heptagon/transformations/itfusion.ml" 72 3094 3109
+type(
+  Types.static_exp
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 72 3094 3110 "heptagon/transformations/itfusion.ml" 75 3190 3199
+)
+"heptagon/transformations/itfusion.ml" 72 3094 3110 "heptagon/transformations/itfusion.ml" 72 3094 3111
+type(
+  Types.static_exp
+)
+ident(
+  def m "heptagon/transformations/itfusion.ml" 73 3114 3116 "heptagon/transformations/itfusion.ml" 75 3190 3199
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3120 "heptagon/transformations/itfusion.ml" 73 3114 3121
+type(
+  Types.static_exp
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 74 3152 3154 "heptagon/transformations/itfusion.ml" 75 3190 3199
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3124 "heptagon/transformations/itfusion.ml" 73 3114 3132
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  ext_ref Static.simplify
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3133 "heptagon/transformations/itfusion.ml" 73 3114 3146
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3147 "heptagon/transformations/itfusion.ml" 73 3114 3148
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 72 3094 3108 "heptagon/transformations/itfusion.ml" 72 3094 3109
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3124 "heptagon/transformations/itfusion.ml" 73 3114 3148
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3158 "heptagon/transformations/itfusion.ml" 74 3152 3159
+type(
+  Types.static_exp
+)
+ident(
+  def m "heptagon/transformations/itfusion.ml" 75 3190 3194 "heptagon/transformations/itfusion.ml" 75 3190 3199
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3162 "heptagon/transformations/itfusion.ml" 74 3152 3170
+type(
+  Types.static_exp Names.QualEnv.t -> Types.static_exp -> Types.static_exp
+)
+ident(
+  ext_ref Static.simplify
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3171 "heptagon/transformations/itfusion.ml" 74 3152 3184
+type(
+  Types.static_exp Names.QualEnv.t
+)
+ident(
+  ext_ref Names.QualEnv.empty
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3185 "heptagon/transformations/itfusion.ml" 74 3152 3186
+type(
+  Types.static_exp
+)
+ident(
+  int_ref m "heptagon/transformations/itfusion.ml" 72 3094 3110 "heptagon/transformations/itfusion.ml" 72 3094 3111
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3162 "heptagon/transformations/itfusion.ml" 74 3152 3186
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/itfusion.ml" 75 3190 3194 "heptagon/transformations/itfusion.ml" 75 3190 3195
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 73 3114 3120 "heptagon/transformations/itfusion.ml" 73 3114 3121
+)
+"heptagon/transformations/itfusion.ml" 75 3190 3196 "heptagon/transformations/itfusion.ml" 75 3190 3197
+type(
+  Types.static_exp -> Types.static_exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/transformations/itfusion.ml" 75 3190 3198 "heptagon/transformations/itfusion.ml" 75 3190 3199
+type(
+  Types.static_exp
+)
+ident(
+  int_ref m "heptagon/transformations/itfusion.ml" 74 3152 3158 "heptagon/transformations/itfusion.ml" 74 3152 3159
+)
+"heptagon/transformations/itfusion.ml" 75 3190 3194 "heptagon/transformations/itfusion.ml" 75 3190 3199
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 74 3152 3154 "heptagon/transformations/itfusion.ml" 75 3190 3199
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 73 3114 3116 "heptagon/transformations/itfusion.ml" 75 3190 3199
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 77 3201 3205 "heptagon/transformations/itfusion.ml" 77 3201 3219
+type(
+  Heptagon.var_dec list -> Heptagon.pat
+)
+ident(
+  def pat_of_vd_list "heptagon/transformations/itfusion.ml" 82 3334 3334 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 77 3201 3220 "heptagon/transformations/itfusion.ml" 77 3201 3221
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def l "heptagon/transformations/itfusion.ml" 78 3224 3224 "heptagon/transformations/itfusion.ml" 80 3270 3332
+)
+"heptagon/transformations/itfusion.ml" 78 3224 3230 "heptagon/transformations/itfusion.ml" 78 3224 3231
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 77 3201 3220 "heptagon/transformations/itfusion.ml" 77 3201 3221
+)
+"heptagon/transformations/itfusion.ml" 79 3237 3242 "heptagon/transformations/itfusion.ml" 79 3237 3244
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 79 3237 3249 "heptagon/transformations/itfusion.ml" 79 3237 3269
+)
+"heptagon/transformations/itfusion.ml" 79 3237 3241 "heptagon/transformations/itfusion.ml" 79 3237 3245
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 79 3237 3258 "heptagon/transformations/itfusion.ml" 79 3237 3260
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 79 3237 3242 "heptagon/transformations/itfusion.ml" 79 3237 3244
+)
+"heptagon/transformations/itfusion.ml" 79 3237 3257 "heptagon/transformations/itfusion.ml" 79 3237 3269
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/itfusion.ml" 79 3237 3249 "heptagon/transformations/itfusion.ml" 79 3237 3269
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3274 "heptagon/transformations/itfusion.ml" 80 3270 3275
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3290 "heptagon/transformations/itfusion.ml" 80 3270 3298
+type(
+  (Heptagon.var_dec -> Heptagon.pat) ->
+  Heptagon.var_dec list -> Heptagon.pat list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3304 "heptagon/transformations/itfusion.ml" 80 3270 3306
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 80 3270 3310 "heptagon/transformations/itfusion.ml" 80 3270 3328
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3318 "heptagon/transformations/itfusion.ml" 80 3270 3320
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 80 3270 3304 "heptagon/transformations/itfusion.ml" 80 3270 3306
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3318 "heptagon/transformations/itfusion.ml" 80 3270 3328
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3310 "heptagon/transformations/itfusion.ml" 80 3270 3328
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3299 "heptagon/transformations/itfusion.ml" 80 3270 3329
+type(
+  Heptagon.var_dec -> Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3330 "heptagon/transformations/itfusion.ml" 80 3270 3331
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 77 3201 3220 "heptagon/transformations/itfusion.ml" 77 3201 3221
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3289 "heptagon/transformations/itfusion.ml" 80 3270 3332
+call(
+  stack
+)
+type(
+  Heptagon.pat list
+)
+"heptagon/transformations/itfusion.ml" 80 3270 3279 "heptagon/transformations/itfusion.ml" 80 3270 3332
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 78 3224 3224 "heptagon/transformations/itfusion.ml" 80 3270 3332
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 82 3334 3338 "heptagon/transformations/itfusion.ml" 82 3334 3353
+type(
+  Heptagon.var_dec list -> Types.ty
+)
+ident(
+  def type_of_vd_list "heptagon/transformations/itfusion.ml" 85 3407 3407 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 82 3334 3354 "heptagon/transformations/itfusion.ml" 82 3334 3355
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def l "heptagon/transformations/itfusion.ml" 83 3358 3360 "heptagon/transformations/itfusion.ml" 83 3358 3405
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3360 "heptagon/transformations/itfusion.ml" 83 3358 3370
+type(
+  Types.ty list -> Types.ty
+)
+ident(
+  ext_ref Types.prod
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3372 "heptagon/transformations/itfusion.ml" 83 3358 3380
+type(
+  (Heptagon.var_dec -> Types.ty) -> Heptagon.var_dec list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3386 "heptagon/transformations/itfusion.ml" 83 3358 3388
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 83 3358 3392 "heptagon/transformations/itfusion.ml" 83 3358 3401
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3392 "heptagon/transformations/itfusion.ml" 83 3358 3394
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 83 3358 3386 "heptagon/transformations/itfusion.ml" 83 3358 3388
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3392 "heptagon/transformations/itfusion.ml" 83 3358 3401
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3381 "heptagon/transformations/itfusion.ml" 83 3358 3402
+type(
+  Heptagon.var_dec -> Types.ty
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3403 "heptagon/transformations/itfusion.ml" 83 3358 3404
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 82 3334 3354 "heptagon/transformations/itfusion.ml" 82 3334 3355
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3371 "heptagon/transformations/itfusion.ml" 83 3358 3405
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"heptagon/transformations/itfusion.ml" 83 3358 3360 "heptagon/transformations/itfusion.ml" 83 3358 3405
+call(
+  tail
+)
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 85 3407 3411 "heptagon/transformations/itfusion.ml" 85 3407 3431
+type(
+  Heptagon.var_dec list -> Linearity.linearity
+)
+ident(
+  def linearity_of_vd_list "heptagon/transformations/itfusion.ml" 88 3494 3494 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 85 3407 3432 "heptagon/transformations/itfusion.ml" 85 3407 3433
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def l "heptagon/transformations/itfusion.ml" 86 3436 3438 "heptagon/transformations/itfusion.ml" 86 3436 3492
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3438 "heptagon/transformations/itfusion.ml" 86 3436 3452
+type(
+  Linearity.linearity list -> Linearity.linearity
+)
+ident(
+  ext_ref Linearity.prod
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3454 "heptagon/transformations/itfusion.ml" 86 3436 3462
+type(
+  (Heptagon.var_dec -> Linearity.linearity) ->
+  Heptagon.var_dec list -> Linearity.linearity list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3468 "heptagon/transformations/itfusion.ml" 86 3436 3470
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 86 3436 3474 "heptagon/transformations/itfusion.ml" 86 3436 3488
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3474 "heptagon/transformations/itfusion.ml" 86 3436 3476
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 86 3436 3468 "heptagon/transformations/itfusion.ml" 86 3436 3470
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3474 "heptagon/transformations/itfusion.ml" 86 3436 3488
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3463 "heptagon/transformations/itfusion.ml" 86 3436 3489
+type(
+  Heptagon.var_dec -> Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3490 "heptagon/transformations/itfusion.ml" 86 3436 3491
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 85 3407 3432 "heptagon/transformations/itfusion.ml" 85 3407 3433
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3453 "heptagon/transformations/itfusion.ml" 86 3436 3492
+call(
+  stack
+)
+type(
+  Linearity.linearity list
+)
+"heptagon/transformations/itfusion.ml" 86 3436 3438 "heptagon/transformations/itfusion.ml" 86 3436 3492
+call(
+  tail
+)
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 88 3494 3498 "heptagon/transformations/itfusion.ml" 88 3494 3507
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  def exp_of_vd "heptagon/transformations/itfusion.ml" 91 3577 3577 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 88 3494 3508 "heptagon/transformations/itfusion.ml" 88 3494 3510
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 89 3513 3515 "heptagon/transformations/itfusion.ml" 89 3513 3575
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3515 "heptagon/transformations/itfusion.ml" 89 3513 3521
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3528 "heptagon/transformations/itfusion.ml" 89 3513 3530
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 88 3494 3508 "heptagon/transformations/itfusion.ml" 88 3494 3510
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3528 "heptagon/transformations/itfusion.ml" 89 3513 3538
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3522 "heptagon/transformations/itfusion.ml" 89 3513 3539
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3540 "heptagon/transformations/itfusion.ml" 89 3513 3542
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 88 3494 3508 "heptagon/transformations/itfusion.ml" 88 3494 3510
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3540 "heptagon/transformations/itfusion.ml" 89 3513 3549
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3561 "heptagon/transformations/itfusion.ml" 89 3513 3563
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 88 3494 3508 "heptagon/transformations/itfusion.ml" 88 3494 3510
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3561 "heptagon/transformations/itfusion.ml" 89 3513 3575
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 89 3513 3515 "heptagon/transformations/itfusion.ml" 89 3513 3575
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 91 3577 3581 "heptagon/transformations/itfusion.ml" 91 3577 3597
+type(
+  Heptagon.var_dec list -> Heptagon.exp
+)
+ident(
+  def tuple_of_vd_list "heptagon/transformations/itfusion.ml" 97 3770 3770 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 91 3577 3598 "heptagon/transformations/itfusion.ml" 91 3577 3599
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def l "heptagon/transformations/itfusion.ml" 92 3602 3604 "heptagon/transformations/itfusion.ml" 95 3707 3768
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3608 "heptagon/transformations/itfusion.ml" 92 3602 3610
+type(
+  Heptagon.exp list
+)
+ident(
+  def el "heptagon/transformations/itfusion.ml" 93 3637 3639 "heptagon/transformations/itfusion.ml" 95 3707 3768
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3613 "heptagon/transformations/itfusion.ml" 92 3602 3621
+type(
+  (Heptagon.var_dec -> Heptagon.exp) ->
+  Heptagon.var_dec list -> Heptagon.exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3622 "heptagon/transformations/itfusion.ml" 92 3602 3631
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref exp_of_vd "heptagon/transformations/itfusion.ml" 88 3494 3498 "heptagon/transformations/itfusion.ml" 88 3494 3507
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3632 "heptagon/transformations/itfusion.ml" 92 3602 3633
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 91 3577 3598 "heptagon/transformations/itfusion.ml" 91 3577 3599
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3613 "heptagon/transformations/itfusion.ml" 92 3602 3633
+call(
+  stack
+)
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 93 3637 3643 "heptagon/transformations/itfusion.ml" 93 3637 3645
+type(
+  Types.ty
+)
+ident(
+  def ty "heptagon/transformations/itfusion.ml" 94 3669 3671 "heptagon/transformations/itfusion.ml" 95 3707 3768
+)
+"heptagon/transformations/itfusion.ml" 93 3637 3648 "heptagon/transformations/itfusion.ml" 93 3637 3663
+type(
+  Heptagon.var_dec list -> Types.ty
+)
+ident(
+  int_ref type_of_vd_list "heptagon/transformations/itfusion.ml" 82 3334 3338 "heptagon/transformations/itfusion.ml" 82 3334 3353
+)
+"heptagon/transformations/itfusion.ml" 93 3637 3664 "heptagon/transformations/itfusion.ml" 93 3637 3665
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 91 3577 3598 "heptagon/transformations/itfusion.ml" 91 3577 3599
+)
+"heptagon/transformations/itfusion.ml" 93 3637 3648 "heptagon/transformations/itfusion.ml" 93 3637 3665
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 94 3669 3675 "heptagon/transformations/itfusion.ml" 94 3669 3678
+type(
+  Linearity.linearity
+)
+ident(
+  def lin "heptagon/transformations/itfusion.ml" 95 3707 3711 "heptagon/transformations/itfusion.ml" 95 3707 3768
+)
+"heptagon/transformations/itfusion.ml" 94 3669 3681 "heptagon/transformations/itfusion.ml" 94 3669 3701
+type(
+  Heptagon.var_dec list -> Linearity.linearity
+)
+ident(
+  int_ref linearity_of_vd_list "heptagon/transformations/itfusion.ml" 85 3407 3411 "heptagon/transformations/itfusion.ml" 85 3407 3431
+)
+"heptagon/transformations/itfusion.ml" 94 3669 3702 "heptagon/transformations/itfusion.ml" 94 3669 3703
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 91 3577 3598 "heptagon/transformations/itfusion.ml" 91 3577 3599
+)
+"heptagon/transformations/itfusion.ml" 94 3669 3681 "heptagon/transformations/itfusion.ml" 94 3669 3703
+call(
+  stack
+)
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3711 "heptagon/transformations/itfusion.ml" 95 3707 3717
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3725 "heptagon/transformations/itfusion.ml" 95 3707 3731
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool -> ?inlined:bool -> Heptagon.op -> Heptagon.app
+)
+ident(
+  ext_ref Hept_utils.mk_app
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3732 "heptagon/transformations/itfusion.ml" 95 3707 3738
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3725 "heptagon/transformations/itfusion.ml" 95 3707 3738
+call(
+  stack
+)
+type(
+  Heptagon.app
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3740 "heptagon/transformations/itfusion.ml" 95 3707 3742
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref el "heptagon/transformations/itfusion.ml" 92 3602 3608 "heptagon/transformations/itfusion.ml" 92 3602 3610
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3744 "heptagon/transformations/itfusion.ml" 95 3707 3748
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3718 "heptagon/transformations/itfusion.ml" 95 3707 3750
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3751 "heptagon/transformations/itfusion.ml" 95 3707 3753
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "heptagon/transformations/itfusion.ml" 93 3637 3643 "heptagon/transformations/itfusion.ml" 93 3637 3645
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3765 "heptagon/transformations/itfusion.ml" 95 3707 3768
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref lin "heptagon/transformations/itfusion.ml" 94 3669 3675 "heptagon/transformations/itfusion.ml" 94 3669 3678
+)
+"heptagon/transformations/itfusion.ml" 95 3707 3711 "heptagon/transformations/itfusion.ml" 95 3707 3768
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 94 3669 3671 "heptagon/transformations/itfusion.ml" 95 3707 3768
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 93 3637 3639 "heptagon/transformations/itfusion.ml" 95 3707 3768
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 92 3602 3604 "heptagon/transformations/itfusion.ml" 95 3707 3768
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 97 3770 3774 "heptagon/transformations/itfusion.ml" 97 3770 3783
+type(
+  Signature.arg -> Heptagon.var_dec
+)
+ident(
+  def vd_of_arg "heptagon/transformations/itfusion.ml" 102 3944 3944 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 97 3770 3784 "heptagon/transformations/itfusion.ml" 97 3770 3786
+type(
+  Signature.arg
+)
+ident(
+  def ad "heptagon/transformations/itfusion.ml" 98 3789 3793 "heptagon/transformations/itfusion.ml" 98 3789 3860
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3793 "heptagon/transformations/itfusion.ml" 98 3789 3803
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3805 "heptagon/transformations/itfusion.ml" 98 3789 3820
+type(
+  Signature.arg -> Idents.var_ident
+)
+ident(
+  int_ref fresh_vd_of_arg "heptagon/transformations/itfusion.ml" 46 2397 2401 "heptagon/transformations/itfusion.ml" 46 2397 2416
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3821 "heptagon/transformations/itfusion.ml" 98 3789 3823
+type(
+  Signature.arg
+)
+ident(
+  int_ref ad "heptagon/transformations/itfusion.ml" 97 3770 3784 "heptagon/transformations/itfusion.ml" 97 3770 3786
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3804 "heptagon/transformations/itfusion.ml" 98 3789 3824
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3825 "heptagon/transformations/itfusion.ml" 98 3789 3827
+type(
+  Signature.arg
+)
+ident(
+  int_ref ad "heptagon/transformations/itfusion.ml" 97 3770 3784 "heptagon/transformations/itfusion.ml" 97 3770 3786
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3825 "heptagon/transformations/itfusion.ml" 98 3789 3834
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3846 "heptagon/transformations/itfusion.ml" 98 3789 3848
+type(
+  Signature.arg
+)
+ident(
+  int_ref ad "heptagon/transformations/itfusion.ml" 97 3770 3784 "heptagon/transformations/itfusion.ml" 97 3770 3786
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3846 "heptagon/transformations/itfusion.ml" 98 3789 3860
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 98 3789 3793 "heptagon/transformations/itfusion.ml" 98 3789 3860
+call(
+  tail
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/itfusion.ml" 102 3944 3948 "heptagon/transformations/itfusion.ml" 102 3944 3965
+type(
+  Heptagon.app -> Heptagon.var_dec list * Heptagon.var_dec list
+)
+ident(
+  def get_node_inp_outp "heptagon/transformations/itfusion.ml" 119 4626 4626 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 102 3944 3966 "heptagon/transformations/itfusion.ml" 102 3944 3969
+type(
+  Heptagon.app
+)
+ident(
+  def app "heptagon/transformations/itfusion.ml" 102 3944 3972 "heptagon/transformations/itfusion.ml" 113 4387 4408
+)
+"heptagon/transformations/itfusion.ml" 102 3944 3978 "heptagon/transformations/itfusion.ml" 102 3944 3981
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/transformations/itfusion.ml" 102 3944 3966 "heptagon/transformations/itfusion.ml" 102 3944 3969
+)
+"heptagon/transformations/itfusion.ml" 102 3944 3978 "heptagon/transformations/itfusion.ml" 102 3944 3986
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4003 "heptagon/transformations/itfusion.ml" 103 3992 4004
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/transformations/itfusion.ml" 103 3992 4020 "heptagon/transformations/itfusion.ml" 106 4120 4149
+)
+"heptagon/transformations/itfusion.ml" 103 3992 3997 "heptagon/transformations/itfusion.ml" 103 3992 4004
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4012 "heptagon/transformations/itfusion.ml" 103 3992 4013
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/transformations/itfusion.ml" 103 3992 4020 "heptagon/transformations/itfusion.ml" 106 4120 4149
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4007 "heptagon/transformations/itfusion.ml" 103 3992 4013
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 103 3992 3996 "heptagon/transformations/itfusion.ml" 103 3992 4014
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4020 "heptagon/transformations/itfusion.ml" 103 3992 4032
+type(
+  Names.QualEnv.key -> bool
+)
+ident(
+  int_ref is_anon_node "heptagon/transformations/itfusion.ml" 69 3044 3048 "heptagon/transformations/itfusion.ml" 69 3044 3060
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4033 "heptagon/transformations/itfusion.ml" 103 3992 4034
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/transformations/itfusion.ml" 103 3992 4003 "heptagon/transformations/itfusion.ml" 103 3992 4004
+)
+"heptagon/transformations/itfusion.ml" 103 3992 4020 "heptagon/transformations/itfusion.ml" 103 3992 4034
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 105 4087 4095 "heptagon/transformations/itfusion.ml" 105 4087 4097
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/itfusion.ml" 106 4120 4126 "heptagon/transformations/itfusion.ml" 106 4120 4149
+)
+"heptagon/transformations/itfusion.ml" 105 4087 4100 "heptagon/transformations/itfusion.ml" 105 4087 4114
+type(
+  Names.QualEnv.key -> Heptagon.node_dec
+)
+ident(
+  int_ref find_anon_node "heptagon/transformations/itfusion.ml" 66 2991 2995 "heptagon/transformations/itfusion.ml" 66 2991 3009
+)
+"heptagon/transformations/itfusion.ml" 105 4087 4115 "heptagon/transformations/itfusion.ml" 105 4087 4116
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/transformations/itfusion.ml" 103 3992 4003 "heptagon/transformations/itfusion.ml" 103 3992 4004
+)
+"heptagon/transformations/itfusion.ml" 105 4087 4100 "heptagon/transformations/itfusion.ml" 105 4087 4116
+call(
+  stack
+)
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/itfusion.ml" 106 4120 4126 "heptagon/transformations/itfusion.ml" 106 4120 4128
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 105 4087 4095 "heptagon/transformations/itfusion.ml" 105 4087 4097
+)
+"heptagon/transformations/itfusion.ml" 106 4120 4126 "heptagon/transformations/itfusion.ml" 106 4120 4136
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 106 4120 4138 "heptagon/transformations/itfusion.ml" 106 4120 4140
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 105 4087 4095 "heptagon/transformations/itfusion.ml" 105 4087 4097
+)
+"heptagon/transformations/itfusion.ml" 106 4120 4138 "heptagon/transformations/itfusion.ml" 106 4120 4149
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 106 4120 4126 "heptagon/transformations/itfusion.ml" 106 4120 4149
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 105 4087 4091 "heptagon/transformations/itfusion.ml" 106 4120 4149
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 107 4150 4160 "heptagon/transformations/itfusion.ml" 107 4150 4161
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/transformations/itfusion.ml" 109 4206 4210 "heptagon/transformations/itfusion.ml" 112 4363 4386
+)
+"heptagon/transformations/itfusion.ml" 107 4150 4154 "heptagon/transformations/itfusion.ml" 107 4150 4161
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 107 4150 4169 "heptagon/transformations/itfusion.ml" 107 4150 4170
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/transformations/itfusion.ml" 109 4206 4210 "heptagon/transformations/itfusion.ml" 112 4363 4386
+)
+"heptagon/transformations/itfusion.ml" 107 4150 4164 "heptagon/transformations/itfusion.ml" 107 4150 4170
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 107 4150 4154 "heptagon/transformations/itfusion.ml" 107 4150 4170
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 109 4206 4214 "heptagon/transformations/itfusion.ml" 109 4206 4221
+type(
+  Signature.node
+)
+ident(
+  def ty_desc "heptagon/transformations/itfusion.ml" 110 4240 4244 "heptagon/transformations/itfusion.ml" 112 4363 4386
+)
+"heptagon/transformations/itfusion.ml" 109 4206 4224 "heptagon/transformations/itfusion.ml" 109 4206 4234
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"heptagon/transformations/itfusion.ml" 109 4206 4235 "heptagon/transformations/itfusion.ml" 109 4206 4236
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/transformations/itfusion.ml" 107 4150 4160 "heptagon/transformations/itfusion.ml" 107 4150 4161
+)
+"heptagon/transformations/itfusion.ml" 109 4206 4224 "heptagon/transformations/itfusion.ml" 109 4206 4236
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4248 "heptagon/transformations/itfusion.ml" 110 4240 4255
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def new_inp "heptagon/transformations/itfusion.ml" 111 4301 4305 "heptagon/transformations/itfusion.ml" 112 4363 4386
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4258 "heptagon/transformations/itfusion.ml" 110 4240 4266
+type(
+  (Signature.arg -> Heptagon.var_dec) ->
+  Signature.arg list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4267 "heptagon/transformations/itfusion.ml" 110 4240 4276
+type(
+  Signature.arg -> Heptagon.var_dec
+)
+ident(
+  int_ref vd_of_arg "heptagon/transformations/itfusion.ml" 97 3770 3774 "heptagon/transformations/itfusion.ml" 97 3770 3783
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4277 "heptagon/transformations/itfusion.ml" 110 4240 4284
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/transformations/itfusion.ml" 109 4206 4214 "heptagon/transformations/itfusion.ml" 109 4206 4221
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4277 "heptagon/transformations/itfusion.ml" 110 4240 4297
+type(
+  Signature.arg list
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4258 "heptagon/transformations/itfusion.ml" 110 4240 4297
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4309 "heptagon/transformations/itfusion.ml" 111 4301 4317
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def new_outp "heptagon/transformations/itfusion.ml" 112 4363 4369 "heptagon/transformations/itfusion.ml" 112 4363 4386
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4320 "heptagon/transformations/itfusion.ml" 111 4301 4328
+type(
+  (Signature.arg -> Heptagon.var_dec) ->
+  Signature.arg list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4329 "heptagon/transformations/itfusion.ml" 111 4301 4338
+type(
+  Signature.arg -> Heptagon.var_dec
+)
+ident(
+  int_ref vd_of_arg "heptagon/transformations/itfusion.ml" 97 3770 3774 "heptagon/transformations/itfusion.ml" 97 3770 3783
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4339 "heptagon/transformations/itfusion.ml" 111 4301 4346
+type(
+  Signature.node
+)
+ident(
+  int_ref ty_desc "heptagon/transformations/itfusion.ml" 109 4206 4214 "heptagon/transformations/itfusion.ml" 109 4206 4221
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4339 "heptagon/transformations/itfusion.ml" 111 4301 4359
+type(
+  Signature.arg list
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4320 "heptagon/transformations/itfusion.ml" 111 4301 4359
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 112 4363 4369 "heptagon/transformations/itfusion.ml" 112 4363 4376
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_inp "heptagon/transformations/itfusion.ml" 110 4240 4248 "heptagon/transformations/itfusion.ml" 110 4240 4255
+)
+"heptagon/transformations/itfusion.ml" 112 4363 4378 "heptagon/transformations/itfusion.ml" 112 4363 4386
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 111 4301 4309 "heptagon/transformations/itfusion.ml" 111 4301 4317
+)
+"heptagon/transformations/itfusion.ml" 112 4363 4369 "heptagon/transformations/itfusion.ml" 112 4363 4386
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 111 4301 4305 "heptagon/transformations/itfusion.ml" 112 4363 4386
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 110 4240 4244 "heptagon/transformations/itfusion.ml" 112 4363 4386
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 109 4206 4210 "heptagon/transformations/itfusion.ml" 112 4363 4386
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 113 4387 4391 "heptagon/transformations/itfusion.ml" 113 4387 4392
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 113 4387 4403 "heptagon/transformations/itfusion.ml" 113 4387 4408
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 113 4387 4396 "heptagon/transformations/itfusion.ml" 113 4387 4408
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 102 3944 3972 "heptagon/transformations/itfusion.ml" 113 4387 4408
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 119 4626 4630 "heptagon/transformations/itfusion.ml" 119 4626 4637
+type(
+  Heptagon.app ->
+  Heptagon.eq list -> Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+ident(
+  def mk_call "heptagon/transformations/itfusion.ml" 133 5211 5211 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 119 4626 4638 "heptagon/transformations/itfusion.ml" 119 4626 4641
+type(
+  Heptagon.app
+)
+ident(
+  def app "heptagon/transformations/itfusion.ml" 119 4626 4642 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 119 4626 4642 "heptagon/transformations/itfusion.ml" 119 4626 4653
+type(
+  Heptagon.eq list
+)
+ident(
+  def acc_eq_list "heptagon/transformations/itfusion.ml" 120 4656 4658 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4662 "heptagon/transformations/itfusion.ml" 120 4656 4669
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def new_inp "heptagon/transformations/itfusion.ml" 121 4707 4709 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def new_outp "heptagon/transformations/itfusion.ml" 121 4707 4709 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4662 "heptagon/transformations/itfusion.ml" 120 4656 4679
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4682 "heptagon/transformations/itfusion.ml" 120 4656 4699
+type(
+  Heptagon.app -> Heptagon.var_dec list * Heptagon.var_dec list
+)
+ident(
+  int_ref get_node_inp_outp "heptagon/transformations/itfusion.ml" 102 3944 3948 "heptagon/transformations/itfusion.ml" 102 3944 3965
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4700 "heptagon/transformations/itfusion.ml" 120 4656 4703
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/transformations/itfusion.ml" 119 4626 4638 "heptagon/transformations/itfusion.ml" 119 4626 4641
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4682 "heptagon/transformations/itfusion.ml" 120 4656 4703
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4713 "heptagon/transformations/itfusion.ml" 121 4707 4717
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/itfusion.ml" 122 4750 4752 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4720 "heptagon/transformations/itfusion.ml" 121 4707 4728
+type(
+  (Heptagon.var_dec -> Heptagon.exp) ->
+  Heptagon.var_dec list -> Heptagon.exp list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4729 "heptagon/transformations/itfusion.ml" 121 4707 4738
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref exp_of_vd "heptagon/transformations/itfusion.ml" 88 3494 3498 "heptagon/transformations/itfusion.ml" 88 3494 3507
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4739 "heptagon/transformations/itfusion.ml" 121 4707 4746
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_inp "heptagon/transformations/itfusion.ml" 120 4656 4662 "heptagon/transformations/itfusion.ml" 120 4656 4669
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4720 "heptagon/transformations/itfusion.ml" 121 4707 4746
+call(
+  stack
+)
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 122 4750 4756 "heptagon/transformations/itfusion.ml" 122 4750 4762
+type(
+  Types.ty
+)
+ident(
+  def out_ty "heptagon/transformations/itfusion.ml" 123 4793 4795 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 122 4750 4765 "heptagon/transformations/itfusion.ml" 122 4750 4780
+type(
+  Heptagon.var_dec list -> Types.ty
+)
+ident(
+  int_ref type_of_vd_list "heptagon/transformations/itfusion.ml" 82 3334 3338 "heptagon/transformations/itfusion.ml" 82 3334 3353
+)
+"heptagon/transformations/itfusion.ml" 122 4750 4781 "heptagon/transformations/itfusion.ml" 122 4750 4789
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+)
+"heptagon/transformations/itfusion.ml" 122 4750 4765 "heptagon/transformations/itfusion.ml" 122 4750 4789
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 123 4793 4799 "heptagon/transformations/itfusion.ml" 123 4793 4806
+type(
+  Linearity.linearity
+)
+ident(
+  def out_lin "heptagon/transformations/itfusion.ml" 124 4842 4844 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 123 4793 4809 "heptagon/transformations/itfusion.ml" 123 4793 4829
+type(
+  Heptagon.var_dec list -> Linearity.linearity
+)
+ident(
+  int_ref linearity_of_vd_list "heptagon/transformations/itfusion.ml" 85 3407 3411 "heptagon/transformations/itfusion.ml" 85 3407 3431
+)
+"heptagon/transformations/itfusion.ml" 123 4793 4830 "heptagon/transformations/itfusion.ml" 123 4793 4838
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+)
+"heptagon/transformations/itfusion.ml" 123 4793 4809 "heptagon/transformations/itfusion.ml" 123 4793 4838
+call(
+  stack
+)
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4848 "heptagon/transformations/itfusion.ml" 124 4842 4849
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/itfusion.ml" 125 4913 4915 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4852 "heptagon/transformations/itfusion.ml" 124 4842 4858
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4866 "heptagon/transformations/itfusion.ml" 124 4842 4869
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/transformations/itfusion.ml" 119 4626 4638 "heptagon/transformations/itfusion.ml" 119 4626 4641
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4871 "heptagon/transformations/itfusion.ml" 124 4842 4875
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/itfusion.ml" 121 4707 4713 "heptagon/transformations/itfusion.ml" 121 4707 4717
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4877 "heptagon/transformations/itfusion.ml" 124 4842 4881
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4859 "heptagon/transformations/itfusion.ml" 124 4842 4883
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4884 "heptagon/transformations/itfusion.ml" 124 4842 4890
+type(
+  Types.ty
+)
+ident(
+  int_ref out_ty "heptagon/transformations/itfusion.ml" 122 4750 4756 "heptagon/transformations/itfusion.ml" 122 4750 4762
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4902 "heptagon/transformations/itfusion.ml" 124 4842 4909
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref out_lin "heptagon/transformations/itfusion.ml" 123 4793 4799 "heptagon/transformations/itfusion.ml" 123 4793 4806
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4852 "heptagon/transformations/itfusion.ml" 124 4842 4909
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 125 4913 4921 "heptagon/transformations/itfusion.ml" 125 4913 4932
+type(
+  Heptagon.var_dec list -> int
+)
+ident(
+  ext_ref List.length
+)
+"heptagon/transformations/itfusion.ml" 125 4913 4933 "heptagon/transformations/itfusion.ml" 125 4913 4941
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+)
+"heptagon/transformations/itfusion.ml" 125 4913 4921 "heptagon/transformations/itfusion.ml" 125 4913 4941
+call(
+  stack
+)
+type(
+  int
+)
+"heptagon/transformations/itfusion.ml" 126 4947 4953 "heptagon/transformations/itfusion.ml" 126 4947 4954
+type(
+  int
+)
+"heptagon/transformations/itfusion.ml" 126 4947 4958 "heptagon/transformations/itfusion.ml" 126 4947 4965
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_inp "heptagon/transformations/itfusion.ml" 120 4656 4662 "heptagon/transformations/itfusion.ml" 120 4656 4669
+)
+"heptagon/transformations/itfusion.ml" 126 4947 4967 "heptagon/transformations/itfusion.ml" 126 4947 4968
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 124 4842 4848 "heptagon/transformations/itfusion.ml" 124 4842 4849
+)
+"heptagon/transformations/itfusion.ml" 126 4947 4970 "heptagon/transformations/itfusion.ml" 126 4947 4981
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 119 4626 4642 "heptagon/transformations/itfusion.ml" 119 4626 4653
+)
+"heptagon/transformations/itfusion.ml" 126 4947 4958 "heptagon/transformations/itfusion.ml" 126 4947 4981
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 127 4982 4988 "heptagon/transformations/itfusion.ml" 127 4982 4989
+type(
+  int
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5073 "heptagon/transformations/itfusion.ml" 129 5061 5075
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/itfusion.ml" 130 5127 5135 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5078 "heptagon/transformations/itfusion.ml" 129 5061 5089
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5095 "heptagon/transformations/itfusion.ml" 129 5061 5109
+type(
+  Heptagon.var_dec list -> Heptagon.pat
+)
+ident(
+  int_ref pat_of_vd_list "heptagon/transformations/itfusion.ml" 77 3201 3205 "heptagon/transformations/itfusion.ml" 77 3201 3219
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5110 "heptagon/transformations/itfusion.ml" 129 5061 5118
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5095 "heptagon/transformations/itfusion.ml" 129 5061 5118
+call(
+  stack
+)
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5120 "heptagon/transformations/itfusion.ml" 129 5061 5121
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 124 4842 4848 "heptagon/transformations/itfusion.ml" 124 4842 4849
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5090 "heptagon/transformations/itfusion.ml" 129 5061 5123
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5078 "heptagon/transformations/itfusion.ml" 129 5061 5123
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/itfusion.ml" 130 5127 5139 "heptagon/transformations/itfusion.ml" 130 5127 5140
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/itfusion.ml" 131 5172 5182 "heptagon/transformations/itfusion.ml" 131 5172 5209
+)
+"heptagon/transformations/itfusion.ml" 130 5127 5143 "heptagon/transformations/itfusion.ml" 130 5127 5159
+type(
+  Heptagon.var_dec list -> Heptagon.exp
+)
+ident(
+  int_ref tuple_of_vd_list "heptagon/transformations/itfusion.ml" 91 3577 3581 "heptagon/transformations/itfusion.ml" 91 3577 3597
+)
+"heptagon/transformations/itfusion.ml" 130 5127 5160 "heptagon/transformations/itfusion.ml" 130 5127 5168
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_outp "heptagon/transformations/itfusion.ml" 120 4656 4671 "heptagon/transformations/itfusion.ml" 120 4656 4679
+)
+"heptagon/transformations/itfusion.ml" 130 5127 5143 "heptagon/transformations/itfusion.ml" 130 5127 5168
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5182 "heptagon/transformations/itfusion.ml" 131 5172 5189
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_inp "heptagon/transformations/itfusion.ml" 120 4656 4662 "heptagon/transformations/itfusion.ml" 120 4656 4669
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5191 "heptagon/transformations/itfusion.ml" 131 5172 5192
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 130 5127 5139 "heptagon/transformations/itfusion.ml" 130 5127 5140
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5194 "heptagon/transformations/itfusion.ml" 131 5172 5196
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/itfusion.ml" 129 5061 5073 "heptagon/transformations/itfusion.ml" 129 5061 5075
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5198 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 119 4626 4642 "heptagon/transformations/itfusion.ml" 119 4626 4653
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5194 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 131 5172 5182 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 130 5127 5135 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 129 5061 5069 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 125 4913 4915 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 124 4842 4844 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 123 4793 4795 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 122 4750 4752 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 121 4707 4709 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 120 4656 4658 "heptagon/transformations/itfusion.ml" 131 5172 5209
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 133 5211 5215 "heptagon/transformations/itfusion.ml" 133 5211 5220
+type(
+  'a Hept_mapfold.hept_it_funs -> 'a -> Heptagon.desc -> Heptagon.desc * 'a
+)
+ident(
+  def edesc "heptagon/transformations/itfusion.ml" 178 7124 7124 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 133 5211 5221 "heptagon/transformations/itfusion.ml" 133 5211 5225
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/itfusion.ml" 133 5211 5226 "heptagon/transformations/itfusion.ml" 175 7089 7121
+)
+"heptagon/transformations/itfusion.ml" 133 5211 5226 "heptagon/transformations/itfusion.ml" 133 5211 5229
+type(
+  'a
+)
+ident(
+  def acc "heptagon/transformations/itfusion.ml" 133 5211 5230 "heptagon/transformations/itfusion.ml" 175 7089 7121
+)
+"heptagon/transformations/itfusion.ml" 133 5211 5230 "heptagon/transformations/itfusion.ml" 133 5211 5232
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/transformations/itfusion.ml" 134 5235 5237 "heptagon/transformations/itfusion.ml" 175 7089 7121
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5241 "heptagon/transformations/itfusion.ml" 134 5235 5243
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/transformations/itfusion.ml" 135 5285 5287 "heptagon/transformations/itfusion.ml" 175 7089 7121
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5245 "heptagon/transformations/itfusion.ml" 134 5235 5248
+type(
+  'a
+)
+ident(
+  def acc "heptagon/transformations/itfusion.ml" 135 5285 5287 "heptagon/transformations/itfusion.ml" 175 7089 7121
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5241 "heptagon/transformations/itfusion.ml" 134 5235 5248
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5251 "heptagon/transformations/itfusion.ml" 134 5235 5269
+type(
+  'a Hept_mapfold.hept_it_funs -> 'a -> Heptagon.desc -> Heptagon.desc * 'a
+)
+ident(
+  ext_ref Hept_mapfold.edesc
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5270 "heptagon/transformations/itfusion.ml" 134 5235 5274
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/itfusion.ml" 133 5211 5221 "heptagon/transformations/itfusion.ml" 133 5211 5225
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5275 "heptagon/transformations/itfusion.ml" 134 5235 5278
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/itfusion.ml" 133 5211 5226 "heptagon/transformations/itfusion.ml" 133 5211 5229
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5279 "heptagon/transformations/itfusion.ml" 134 5235 5281
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/transformations/itfusion.ml" 133 5211 5230 "heptagon/transformations/itfusion.ml" 133 5211 5232
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5251 "heptagon/transformations/itfusion.ml" 134 5235 5281
+call(
+  stack
+)
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 135 5285 5293 "heptagon/transformations/itfusion.ml" 135 5285 5295
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/transformations/itfusion.ml" 134 5235 5241 "heptagon/transformations/itfusion.ml" 134 5235 5243
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5317 "heptagon/transformations/itfusion.ml" 136 5301 5321
+type(
+  Heptagon.iterator_type
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5323 "heptagon/transformations/itfusion.ml" 136 5301 5324
+type(
+  Heptagon.app
+)
+ident(
+  def f "heptagon/transformations/itfusion.ml" 148 5851 5859 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5326 "heptagon/transformations/itfusion.ml" 136 5301 5327
+type(
+  Types.static_exp list
+)
+ident(
+  def n "heptagon/transformations/itfusion.ml" 148 5851 5859 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5329 "heptagon/transformations/itfusion.ml" 136 5301 5331
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5333 "heptagon/transformations/itfusion.ml" 136 5301 5339
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/transformations/itfusion.ml" 148 5851 5859 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5341 "heptagon/transformations/itfusion.ml" 136 5301 5342
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/transformations/itfusion.ml" 148 5851 5859 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 136 5301 5307 "heptagon/transformations/itfusion.ml" 136 5301 5343
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5863 "heptagon/transformations/itfusion.ml" 148 5851 5869
+type(
+  Heptagon.exp ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+ident(
+  def mk_arg "heptagon/transformations/itfusion.ml" 157 6346 6354 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5870 "heptagon/transformations/itfusion.ml" 148 5851 5871
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/itfusion.ml" 148 5851 5872 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5873 "heptagon/transformations/itfusion.ml" 148 5851 5876
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def inp "heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5878 "heptagon/transformations/itfusion.ml" 148 5851 5889
+type(
+  Heptagon.eq list
+)
+ident(
+  def acc_eq_list "heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5891 "heptagon/transformations/itfusion.ml" 148 5851 5896
+type(
+  Heptagon.exp list
+)
+ident(
+  def largs "heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5898 "heptagon/transformations/itfusion.ml" 148 5851 5902
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5904 "heptagon/transformations/itfusion.ml" 148 5851 5905
+type(
+  bool
+)
+ident(
+  def b "heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5872 "heptagon/transformations/itfusion.ml" 148 5851 5906
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5915 "heptagon/transformations/itfusion.ml" 148 5851 5916
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 148 5851 5870 "heptagon/transformations/itfusion.ml" 148 5851 5871
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5915 "heptagon/transformations/itfusion.ml" 148 5851 5923
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5951 "heptagon/transformations/itfusion.ml" 149 5929 5955
+type(
+  Heptagon.iterator_type
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5957 "heptagon/transformations/itfusion.ml" 149 5929 5958
+type(
+  Heptagon.app
+)
+ident(
+  def g "heptagon/transformations/itfusion.ml" 149 5929 5987 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5960 "heptagon/transformations/itfusion.ml" 149 5929 5961
+type(
+  Types.static_exp list
+)
+ident(
+  def m "heptagon/transformations/itfusion.ml" 149 5929 5987 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5963 "heptagon/transformations/itfusion.ml" 149 5929 5965
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5967 "heptagon/transformations/itfusion.ml" 149 5929 5977
+type(
+  Heptagon.exp list
+)
+ident(
+  def local_args "heptagon/transformations/itfusion.ml" 149 5929 5987 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5979 "heptagon/transformations/itfusion.ml" 149 5929 5980
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5941 "heptagon/transformations/itfusion.ml" 149 5929 5981
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5987 "heptagon/transformations/itfusion.ml" 149 5929 6000
+type(
+  (Types.static_exp -> Types.static_exp -> bool) ->
+  Types.static_exp list -> Types.static_exp list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"heptagon/transformations/itfusion.ml" 149 5929 6001 "heptagon/transformations/itfusion.ml" 149 5929 6010
+type(
+  Types.static_exp -> Types.static_exp -> bool
+)
+ident(
+  int_ref are_equal "heptagon/transformations/itfusion.ml" 72 3094 3098 "heptagon/transformations/itfusion.ml" 72 3094 3107
+)
+"heptagon/transformations/itfusion.ml" 149 5929 6011 "heptagon/transformations/itfusion.ml" 149 5929 6012
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 136 5301 5326 "heptagon/transformations/itfusion.ml" 136 5301 5327
+)
+"heptagon/transformations/itfusion.ml" 149 5929 6013 "heptagon/transformations/itfusion.ml" 149 5929 6014
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref m "heptagon/transformations/itfusion.ml" 149 5929 5960 "heptagon/transformations/itfusion.ml" 149 5929 5961
+)
+"heptagon/transformations/itfusion.ml" 149 5929 5987 "heptagon/transformations/itfusion.ml" 149 5929 6014
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6036 "heptagon/transformations/itfusion.ml" 150 6018 6043
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def new_inp "heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6045 "heptagon/transformations/itfusion.ml" 150 6018 6046
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6048 "heptagon/transformations/itfusion.ml" 150 6018 6059
+type(
+  Heptagon.eq list
+)
+ident(
+  def acc_eq_list "heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6162
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6036 "heptagon/transformations/itfusion.ml" 150 6018 6059
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6062 "heptagon/transformations/itfusion.ml" 150 6018 6069
+type(
+  Heptagon.app ->
+  Heptagon.eq list -> Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+ident(
+  int_ref mk_call "heptagon/transformations/itfusion.ml" 119 4626 4630 "heptagon/transformations/itfusion.ml" 119 4626 4637
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6070 "heptagon/transformations/itfusion.ml" 150 6018 6071
+type(
+  Heptagon.app
+)
+ident(
+  int_ref g "heptagon/transformations/itfusion.ml" 149 5929 5957 "heptagon/transformations/itfusion.ml" 149 5929 5958
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6072 "heptagon/transformations/itfusion.ml" 150 6018 6083
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 148 5851 5878 "heptagon/transformations/itfusion.ml" 148 5851 5889
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6062 "heptagon/transformations/itfusion.ml" 150 6018 6083
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.exp * Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6108
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref new_inp "heptagon/transformations/itfusion.ml" 150 6018 6036 "heptagon/transformations/itfusion.ml" 150 6018 6043
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6109 "heptagon/transformations/itfusion.ml" 151 6087 6110
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6111 "heptagon/transformations/itfusion.ml" 151 6087 6114
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref inp "heptagon/transformations/itfusion.ml" 148 5851 5873 "heptagon/transformations/itfusion.ml" 148 5851 5876
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6114
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6116 "heptagon/transformations/itfusion.ml" 151 6087 6127
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 150 6018 6048 "heptagon/transformations/itfusion.ml" 150 6018 6059
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6129 "heptagon/transformations/itfusion.ml" 151 6087 6130
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 150 6018 6045 "heptagon/transformations/itfusion.ml" 150 6018 6046
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6132 "heptagon/transformations/itfusion.ml" 151 6087 6137
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref largs "heptagon/transformations/itfusion.ml" 148 5851 5891 "heptagon/transformations/itfusion.ml" 148 5851 5896
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6129 "heptagon/transformations/itfusion.ml" 151 6087 6137
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6139 "heptagon/transformations/itfusion.ml" 151 6087 6149
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref local_args "heptagon/transformations/itfusion.ml" 149 5929 5967 "heptagon/transformations/itfusion.ml" 149 5929 5977
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6150 "heptagon/transformations/itfusion.ml" 151 6087 6151
+type(
+  Heptagon.exp list -> Heptagon.exp list -> Heptagon.exp list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6152 "heptagon/transformations/itfusion.ml" 151 6087 6156
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/itfusion.ml" 148 5851 5898 "heptagon/transformations/itfusion.ml" 148 5851 5902
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6139 "heptagon/transformations/itfusion.ml" 151 6087 6156
+call(
+  stack
+)
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6158 "heptagon/transformations/itfusion.ml" 151 6087 6162
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 151 6087 6101 "heptagon/transformations/itfusion.ml" 151 6087 6162
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 150 6018 6032 "heptagon/transformations/itfusion.ml" 151 6087 6162
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 152 6163 6175 "heptagon/transformations/itfusion.ml" 152 6163 6176
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6198 "heptagon/transformations/itfusion.ml" 153 6180 6200
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/itfusion.ml" 154 6264 6278 "heptagon/transformations/itfusion.ml" 154 6264 6333
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6203 "heptagon/transformations/itfusion.ml" 153 6180 6213
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6215 "heptagon/transformations/itfusion.ml" 153 6180 6224
+type(
+  unit -> Idents.var_ident
+)
+ident(
+  int_ref fresh_var "heptagon/transformations/itfusion.ml" 52 2590 2594 "heptagon/transformations/itfusion.ml" 52 2590 2603
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6225 "heptagon/transformations/itfusion.ml" 153 6180 6227
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6214 "heptagon/transformations/itfusion.ml" 153 6180 6228
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6229 "heptagon/transformations/itfusion.ml" 153 6180 6230
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 148 5851 5870 "heptagon/transformations/itfusion.ml" 148 5851 5871
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6229 "heptagon/transformations/itfusion.ml" 153 6180 6235
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6247 "heptagon/transformations/itfusion.ml" 153 6180 6248
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 148 5851 5870 "heptagon/transformations/itfusion.ml" 148 5851 5871
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6247 "heptagon/transformations/itfusion.ml" 153 6180 6260
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6203 "heptagon/transformations/itfusion.ml" 153 6180 6260
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6278 "heptagon/transformations/itfusion.ml" 154 6264 6280
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 153 6180 6198 "heptagon/transformations/itfusion.ml" 153 6180 6200
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6282 "heptagon/transformations/itfusion.ml" 154 6264 6285
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref inp "heptagon/transformations/itfusion.ml" 148 5851 5873 "heptagon/transformations/itfusion.ml" 148 5851 5876
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6278 "heptagon/transformations/itfusion.ml" 154 6264 6285
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6287 "heptagon/transformations/itfusion.ml" 154 6264 6298
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 148 5851 5878 "heptagon/transformations/itfusion.ml" 148 5851 5889
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6301 "heptagon/transformations/itfusion.ml" 154 6264 6310
+type(
+  Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref exp_of_vd "heptagon/transformations/itfusion.ml" 88 3494 3498 "heptagon/transformations/itfusion.ml" 88 3494 3507
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6311 "heptagon/transformations/itfusion.ml" 154 6264 6313
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/itfusion.ml" 153 6180 6198 "heptagon/transformations/itfusion.ml" 153 6180 6200
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6300 "heptagon/transformations/itfusion.ml" 154 6264 6314
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6316 "heptagon/transformations/itfusion.ml" 154 6264 6321
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref largs "heptagon/transformations/itfusion.ml" 148 5851 5891 "heptagon/transformations/itfusion.ml" 148 5851 5896
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6300 "heptagon/transformations/itfusion.ml" 154 6264 6321
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6323 "heptagon/transformations/itfusion.ml" 154 6264 6324
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/itfusion.ml" 148 5851 5870 "heptagon/transformations/itfusion.ml" 148 5851 5871
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6326 "heptagon/transformations/itfusion.ml" 154 6264 6330
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/itfusion.ml" 148 5851 5898 "heptagon/transformations/itfusion.ml" 148 5851 5902
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6323 "heptagon/transformations/itfusion.ml" 154 6264 6330
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6332 "heptagon/transformations/itfusion.ml" 154 6264 6333
+type(
+  bool
+)
+ident(
+  int_ref b "heptagon/transformations/itfusion.ml" 148 5851 5904 "heptagon/transformations/itfusion.ml" 148 5851 5905
+)
+"heptagon/transformations/itfusion.ml" 154 6264 6278 "heptagon/transformations/itfusion.ml" 154 6264 6333
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 153 6180 6194 "heptagon/transformations/itfusion.ml" 154 6264 6333
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5909 "heptagon/transformations/itfusion.ml" 154 6264 6333
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6358 "heptagon/transformations/itfusion.ml" 157 6346 6361
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def inp "heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6363 "heptagon/transformations/itfusion.ml" 157 6346 6374
+type(
+  Heptagon.eq list
+)
+ident(
+  def acc_eq_list "heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6376 "heptagon/transformations/itfusion.ml" 157 6346 6381
+type(
+  Heptagon.exp list
+)
+ident(
+  def largs "heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6383 "heptagon/transformations/itfusion.ml" 157 6346 6387
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6389 "heptagon/transformations/itfusion.ml" 157 6346 6401
+type(
+  bool
+)
+ident(
+  def can_be_fused "heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6358 "heptagon/transformations/itfusion.ml" 157 6346 6401
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6414 "heptagon/transformations/itfusion.ml" 158 6404 6429
+type(
+  (Heptagon.exp ->
+   Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+   Heptagon.exp list * bool ->
+   Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+   Heptagon.exp list * bool) ->
+  Heptagon.exp list ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+ident(
+  ext_ref List.fold_right
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6430 "heptagon/transformations/itfusion.ml" 158 6404 6436
+type(
+  Heptagon.exp ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool ->
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+ident(
+  int_ref mk_arg "heptagon/transformations/itfusion.ml" 148 5851 5863 "heptagon/transformations/itfusion.ml" 148 5851 5869
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6437 "heptagon/transformations/itfusion.ml" 158 6404 6443
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/transformations/itfusion.ml" 136 5301 5333 "heptagon/transformations/itfusion.ml" 136 5301 5339
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6445 "heptagon/transformations/itfusion.ml" 158 6404 6447
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6449 "heptagon/transformations/itfusion.ml" 158 6404 6451
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6453 "heptagon/transformations/itfusion.ml" 158 6404 6455
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6457 "heptagon/transformations/itfusion.ml" 158 6404 6459
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6461 "heptagon/transformations/itfusion.ml" 158 6404 6466
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6444 "heptagon/transformations/itfusion.ml" 158 6404 6467
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 158 6404 6414 "heptagon/transformations/itfusion.ml" 158 6404 6467
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.eq list * Heptagon.exp list *
+  Heptagon.exp list * bool
+)
+"heptagon/transformations/itfusion.ml" 159 6471 6482 "heptagon/transformations/itfusion.ml" 159 6471 6494
+type(
+  bool
+)
+ident(
+  int_ref can_be_fused "heptagon/transformations/itfusion.ml" 157 6346 6389 "heptagon/transformations/itfusion.ml" 157 6346 6401
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6579 "heptagon/transformations/itfusion.ml" 162 6565 6580
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6582 "heptagon/transformations/itfusion.ml" 162 6565 6586
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def outp "heptagon/transformations/itfusion.ml" 163 6612 6622 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6579 "heptagon/transformations/itfusion.ml" 162 6565 6586
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6589 "heptagon/transformations/itfusion.ml" 162 6565 6606
+type(
+  Heptagon.app -> Heptagon.var_dec list * Heptagon.var_dec list
+)
+ident(
+  int_ref get_node_inp_outp "heptagon/transformations/itfusion.ml" 102 3944 3948 "heptagon/transformations/itfusion.ml" 102 3944 3965
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6607 "heptagon/transformations/itfusion.ml" 162 6565 6608
+type(
+  Heptagon.app
+)
+ident(
+  int_ref f "heptagon/transformations/itfusion.ml" 136 5301 5323 "heptagon/transformations/itfusion.ml" 136 5301 5324
+)
+"heptagon/transformations/itfusion.ml" 162 6565 6589 "heptagon/transformations/itfusion.ml" 162 6565 6608
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 163 6612 6626 "heptagon/transformations/itfusion.ml" 163 6612 6636
+type(
+  Types.ty
+)
+ident(
+  def f_out_type "heptagon/transformations/itfusion.ml" 164 6663 6673 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 163 6612 6639 "heptagon/transformations/itfusion.ml" 163 6612 6654
+type(
+  Heptagon.var_dec list -> Types.ty
+)
+ident(
+  int_ref type_of_vd_list "heptagon/transformations/itfusion.ml" 82 3334 3338 "heptagon/transformations/itfusion.ml" 82 3334 3353
+)
+"heptagon/transformations/itfusion.ml" 163 6612 6655 "heptagon/transformations/itfusion.ml" 163 6612 6659
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref outp "heptagon/transformations/itfusion.ml" 162 6565 6582 "heptagon/transformations/itfusion.ml" 162 6565 6586
+)
+"heptagon/transformations/itfusion.ml" 163 6612 6639 "heptagon/transformations/itfusion.ml" 163 6612 6659
+call(
+  stack
+)
+type(
+  Types.ty
+)
+"heptagon/transformations/itfusion.ml" 164 6663 6677 "heptagon/transformations/itfusion.ml" 164 6663 6686
+type(
+  Linearity.linearity
+)
+ident(
+  def f_out_lin "heptagon/transformations/itfusion.ml" 165 6718 6728 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 164 6663 6689 "heptagon/transformations/itfusion.ml" 164 6663 6709
+type(
+  Heptagon.var_dec list -> Linearity.linearity
+)
+ident(
+  int_ref linearity_of_vd_list "heptagon/transformations/itfusion.ml" 85 3407 3411 "heptagon/transformations/itfusion.ml" 85 3407 3431
+)
+"heptagon/transformations/itfusion.ml" 164 6663 6710 "heptagon/transformations/itfusion.ml" 164 6663 6714
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref outp "heptagon/transformations/itfusion.ml" 162 6565 6582 "heptagon/transformations/itfusion.ml" 162 6565 6586
+)
+"heptagon/transformations/itfusion.ml" 164 6663 6689 "heptagon/transformations/itfusion.ml" 164 6663 6714
+call(
+  stack
+)
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6732 "heptagon/transformations/itfusion.ml" 165 6718 6736
+type(
+  Heptagon.exp
+)
+ident(
+  def call "heptagon/transformations/itfusion.ml" 166 6804 6814 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6739 "heptagon/transformations/itfusion.ml" 165 6718 6745
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6752 "heptagon/transformations/itfusion.ml" 165 6718 6753
+type(
+  Heptagon.app
+)
+ident(
+  int_ref f "heptagon/transformations/itfusion.ml" 136 5301 5323 "heptagon/transformations/itfusion.ml" 136 5301 5324
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6755 "heptagon/transformations/itfusion.ml" 165 6718 6760
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref largs "heptagon/transformations/itfusion.ml" 157 6346 6376 "heptagon/transformations/itfusion.ml" 157 6346 6381
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6762 "heptagon/transformations/itfusion.ml" 165 6718 6766
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6746 "heptagon/transformations/itfusion.ml" 165 6718 6768
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6769 "heptagon/transformations/itfusion.ml" 165 6718 6779
+type(
+  Types.ty
+)
+ident(
+  int_ref f_out_type "heptagon/transformations/itfusion.ml" 163 6612 6626 "heptagon/transformations/itfusion.ml" 163 6612 6636
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6791 "heptagon/transformations/itfusion.ml" 165 6718 6800
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref f_out_lin "heptagon/transformations/itfusion.ml" 164 6663 6677 "heptagon/transformations/itfusion.ml" 164 6663 6686
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6739 "heptagon/transformations/itfusion.ml" 165 6718 6800
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6818 "heptagon/transformations/itfusion.ml" 166 6804 6820
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/itfusion.ml" 168 6905 6915 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6823 "heptagon/transformations/itfusion.ml" 166 6804 6834
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6840 "heptagon/transformations/itfusion.ml" 166 6804 6854
+type(
+  Heptagon.var_dec list -> Heptagon.pat
+)
+ident(
+  int_ref pat_of_vd_list "heptagon/transformations/itfusion.ml" 77 3201 3205 "heptagon/transformations/itfusion.ml" 77 3201 3219
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6855 "heptagon/transformations/itfusion.ml" 166 6804 6859
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref outp "heptagon/transformations/itfusion.ml" 162 6565 6582 "heptagon/transformations/itfusion.ml" 162 6565 6586
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6840 "heptagon/transformations/itfusion.ml" 166 6804 6859
+call(
+  stack
+)
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6861 "heptagon/transformations/itfusion.ml" 166 6804 6865
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref call "heptagon/transformations/itfusion.ml" 165 6718 6732 "heptagon/transformations/itfusion.ml" 165 6718 6736
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6835 "heptagon/transformations/itfusion.ml" 166 6804 6867
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6823 "heptagon/transformations/itfusion.ml" 166 6804 6867
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/itfusion.ml" 168 6905 6919 "heptagon/transformations/itfusion.ml" 168 6905 6923
+type(
+  Heptagon.app
+)
+ident(
+  def anon "heptagon/transformations/itfusion.ml" 170 7002 7012 "heptagon/transformations/itfusion.ml" 170 7002 7054
+)
+"heptagon/transformations/itfusion.ml" 168 6905 6926 "heptagon/transformations/itfusion.ml" 168 6905 6932
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool -> ?inlined:bool -> Heptagon.op -> Heptagon.app
+)
+ident(
+  ext_ref Hept_utils.mk_app
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6953 "heptagon/transformations/itfusion.ml" 169 6933 6966
+type(
+  Heptagon.var_dec list ->
+  Heptagon.var_dec list ->
+  Heptagon.var_dec list -> Heptagon.eq list -> Names.fun_name
+)
+ident(
+  int_ref add_anon_node "heptagon/transformations/itfusion.ml" 56 2676 2680 "heptagon/transformations/itfusion.ml" 56 2676 2693
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6967 "heptagon/transformations/itfusion.ml" 169 6933 6970
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref inp "heptagon/transformations/itfusion.ml" 157 6346 6358 "heptagon/transformations/itfusion.ml" 157 6346 6361
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6971 "heptagon/transformations/itfusion.ml" 169 6933 6975
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref outp "heptagon/transformations/itfusion.ml" 162 6565 6582 "heptagon/transformations/itfusion.ml" 162 6565 6586
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6976 "heptagon/transformations/itfusion.ml" 169 6933 6978
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6980 "heptagon/transformations/itfusion.ml" 169 6933 6982
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/itfusion.ml" 166 6804 6818 "heptagon/transformations/itfusion.ml" 166 6804 6820
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6984 "heptagon/transformations/itfusion.ml" 169 6933 6995
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/itfusion.ml" 157 6346 6363 "heptagon/transformations/itfusion.ml" 157 6346 6374
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6979 "heptagon/transformations/itfusion.ml" 169 6933 6996
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6952 "heptagon/transformations/itfusion.ml" 169 6933 6997
+call(
+  stack
+)
+type(
+  Names.fun_name
+)
+"heptagon/transformations/itfusion.ml" 169 6933 6945 "heptagon/transformations/itfusion.ml" 169 6933 6998
+type(
+  Heptagon.op
+)
+"heptagon/transformations/itfusion.ml" 168 6905 6926 "heptagon/transformations/itfusion.ml" 169 6933 6998
+call(
+  stack
+)
+type(
+  Heptagon.app
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7022 "heptagon/transformations/itfusion.ml" 170 7002 7026
+type(
+  Heptagon.iterator_type
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7028 "heptagon/transformations/itfusion.ml" 170 7002 7032
+type(
+  Heptagon.app
+)
+ident(
+  int_ref anon "heptagon/transformations/itfusion.ml" 168 6905 6919 "heptagon/transformations/itfusion.ml" 168 6905 6923
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7034 "heptagon/transformations/itfusion.ml" 170 7002 7035
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/transformations/itfusion.ml" 136 5301 5326 "heptagon/transformations/itfusion.ml" 136 5301 5327
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7037 "heptagon/transformations/itfusion.ml" 170 7002 7039
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7041 "heptagon/transformations/itfusion.ml" 170 7002 7045
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/itfusion.ml" 157 6346 6383 "heptagon/transformations/itfusion.ml" 157 6346 6387
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7047 "heptagon/transformations/itfusion.ml" 170 7002 7048
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/transformations/itfusion.ml" 136 5301 5341 "heptagon/transformations/itfusion.ml" 136 5301 5342
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7012 "heptagon/transformations/itfusion.ml" 170 7002 7049
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7051 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/itfusion.ml" 134 5235 5245 "heptagon/transformations/itfusion.ml" 134 5235 5248
+)
+"heptagon/transformations/itfusion.ml" 170 7002 7012 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 168 6905 6915 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 166 6804 6814 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 165 6718 6728 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 164 6663 6673 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 163 6612 6622 "heptagon/transformations/itfusion.ml" 170 7002 7054
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 160 6495 6508 "heptagon/transformations/itfusion.ml" 170 7002 7055
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 172 7069 7079 "heptagon/transformations/itfusion.ml" 172 7069 7081
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/transformations/itfusion.ml" 134 5235 5241 "heptagon/transformations/itfusion.ml" 134 5235 5243
+)
+"heptagon/transformations/itfusion.ml" 172 7069 7083 "heptagon/transformations/itfusion.ml" 172 7069 7086
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/itfusion.ml" 134 5235 5245 "heptagon/transformations/itfusion.ml" 134 5235 5248
+)
+"heptagon/transformations/itfusion.ml" 172 7069 7079 "heptagon/transformations/itfusion.ml" 172 7069 7086
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 159 6471 6479 "heptagon/transformations/itfusion.ml" 172 7069 7086
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 157 6346 6354 "heptagon/transformations/itfusion.ml" 172 7069 7086
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 148 5851 5859 "heptagon/transformations/itfusion.ml" 172 7069 7086
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 175 7089 7095 "heptagon/transformations/itfusion.ml" 175 7089 7096
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/itfusion.ml" 175 7089 7100 "heptagon/transformations/itfusion.ml" 175 7089 7105
+type(
+  exn -> Heptagon.desc * 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/itfusion.ml" 175 7089 7106 "heptagon/transformations/itfusion.ml" 175 7089 7121
+type(
+  exn
+)
+"heptagon/transformations/itfusion.ml" 175 7089 7100 "heptagon/transformations/itfusion.ml" 175 7089 7121
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 135 5285 5287 "heptagon/transformations/itfusion.ml" 175 7089 7121
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 134 5235 5237 "heptagon/transformations/itfusion.ml" 175 7089 7121
+type(
+  Heptagon.desc * 'a
+)
+"heptagon/transformations/itfusion.ml" 178 7124 7128 "heptagon/transformations/itfusion.ml" 178 7124 7135
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/itfusion.ml" 188 7424 7450 "heptagon/transformations/itfusion.ml" 1 0 -1
+)
+"heptagon/transformations/itfusion.ml" 178 7124 7136 "heptagon/transformations/itfusion.ml" 178 7124 7137
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/itfusion.ml" 179 7140 7142 "heptagon/transformations/itfusion.ml" 188 7424 7450
+)
+"heptagon/transformations/itfusion.ml" 179 7140 7146 "heptagon/transformations/itfusion.ml" 179 7140 7150
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/itfusion.ml" 180 7201 7203 "heptagon/transformations/itfusion.ml" 188 7424 7450
+)
+"heptagon/transformations/itfusion.ml" 179 7140 7155 "heptagon/transformations/itfusion.ml" 179 7140 7176
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/itfusion.ml" 179 7140 7190 "heptagon/transformations/itfusion.ml" 179 7140 7195
+type(
+  'a Hept_mapfold.hept_it_funs -> 'a -> Heptagon.desc -> Heptagon.desc * 'a
+)
+ident(
+  int_ref edesc "heptagon/transformations/itfusion.ml" 133 5211 5215 "heptagon/transformations/itfusion.ml" 133 5211 5220
+)
+"heptagon/transformations/itfusion.ml" 179 7140 7153 "heptagon/transformations/itfusion.ml" 179 7140 7197
+type(
+  'a Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7207 "heptagon/transformations/itfusion.ml" 180 7201 7208
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/itfusion.ml" 181 7254 7256 "heptagon/transformations/itfusion.ml" 188 7424 7450
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7210 "heptagon/transformations/itfusion.ml" 180 7201 7211
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7207 "heptagon/transformations/itfusion.ml" 180 7201 7211
+type(
+  Heptagon.program * bool
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7214 "heptagon/transformations/itfusion.ml" 180 7201 7237
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.program -> Heptagon.program * bool
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7238 "heptagon/transformations/itfusion.ml" 180 7201 7242
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/itfusion.ml" 179 7140 7146 "heptagon/transformations/itfusion.ml" 179 7140 7150
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7243 "heptagon/transformations/itfusion.ml" 180 7201 7248
+type(
+  bool
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7249 "heptagon/transformations/itfusion.ml" 180 7201 7250
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/itfusion.ml" 178 7124 7136 "heptagon/transformations/itfusion.ml" 178 7124 7137
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7214 "heptagon/transformations/itfusion.ml" 180 7201 7250
+call(
+  stack
+)
+type(
+  Heptagon.program * bool
+)
+"heptagon/transformations/itfusion.ml" 181 7254 7260 "heptagon/transformations/itfusion.ml" 181 7254 7262
+type(
+  Heptagon.program_desc list
+)
+ident(
+  def pd "heptagon/transformations/itfusion.ml" 188 7424 7428 "heptagon/transformations/itfusion.ml" 188 7424 7450
+)
+"heptagon/transformations/itfusion.ml" 182 7265 7269 "heptagon/transformations/itfusion.ml" 182 7265 7281
+type(
+  (Names.QualEnv.key ->
+   Heptagon.node_dec ->
+   Heptagon.program_desc list -> Heptagon.program_desc list) ->
+  Heptagon.node_dec Names.QualEnv.t ->
+  Heptagon.program_desc list -> Heptagon.program_desc list
+)
+ident(
+  ext_ref Names.QualEnv.fold
+)
+"heptagon/transformations/itfusion.ml" 183 7282 7293 "heptagon/transformations/itfusion.ml" 183 7282 7294
+type(
+  Names.QualEnv.key
+)
+"heptagon/transformations/itfusion.ml" 183 7282 7295 "heptagon/transformations/itfusion.ml" 183 7282 7297
+type(
+  Heptagon.node_dec
+)
+ident(
+  def nd "heptagon/transformations/itfusion.ml" 183 7282 7298 "heptagon/transformations/itfusion.ml" 185 7364 7386
+)
+"heptagon/transformations/itfusion.ml" 183 7282 7298 "heptagon/transformations/itfusion.ml" 183 7282 7299
+type(
+  Heptagon.program_desc list
+)
+ident(
+  def l "heptagon/transformations/itfusion.ml" 184 7303 7312 "heptagon/transformations/itfusion.ml" 185 7364 7386
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7312 "heptagon/transformations/itfusion.ml" 184 7303 7329
+type(
+  Names.QualEnv.key -> Signature.node -> unit
+)
+ident(
+  ext_ref Modules.add_value
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7330 "heptagon/transformations/itfusion.ml" 184 7303 7332
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 183 7282 7295 "heptagon/transformations/itfusion.ml" 183 7282 7297
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7330 "heptagon/transformations/itfusion.ml" 184 7303 7339
+type(
+  Names.QualEnv.key
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7341 "heptagon/transformations/itfusion.ml" 184 7303 7358
+type(
+  Heptagon.node_dec -> Signature.node
+)
+ident(
+  ext_ref Hept_utils.signature_of_node
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7359 "heptagon/transformations/itfusion.ml" 184 7303 7361
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 183 7282 7295 "heptagon/transformations/itfusion.ml" 183 7282 7297
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7340 "heptagon/transformations/itfusion.ml" 184 7303 7362
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7312 "heptagon/transformations/itfusion.ml" 184 7303 7362
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/itfusion.ml" 185 7364 7379 "heptagon/transformations/itfusion.ml" 185 7364 7381
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref nd "heptagon/transformations/itfusion.ml" 183 7282 7295 "heptagon/transformations/itfusion.ml" 183 7282 7297
+)
+"heptagon/transformations/itfusion.ml" 185 7364 7373 "heptagon/transformations/itfusion.ml" 185 7364 7381
+type(
+  Heptagon.program_desc
+)
+"heptagon/transformations/itfusion.ml" 185 7364 7385 "heptagon/transformations/itfusion.ml" 185 7364 7386
+type(
+  Heptagon.program_desc list
+)
+ident(
+  int_ref l "heptagon/transformations/itfusion.ml" 183 7282 7298 "heptagon/transformations/itfusion.ml" 183 7282 7299
+)
+"heptagon/transformations/itfusion.ml" 185 7364 7373 "heptagon/transformations/itfusion.ml" 185 7364 7386
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/itfusion.ml" 184 7303 7312 "heptagon/transformations/itfusion.ml" 185 7364 7386
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/itfusion.ml" 183 7282 7288 "heptagon/transformations/itfusion.ml" 185 7364 7387
+type(
+  Names.QualEnv.key ->
+  Heptagon.node_dec ->
+  Heptagon.program_desc list -> Heptagon.program_desc list
+)
+"heptagon/transformations/itfusion.ml" 186 7388 7394 "heptagon/transformations/itfusion.ml" 186 7388 7395
+type(
+  Heptagon.node_dec Names.QualEnv.t ref -> Heptagon.node_dec Names.QualEnv.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/itfusion.ml" 186 7388 7395 "heptagon/transformations/itfusion.ml" 186 7388 7405
+type(
+  Heptagon.node_dec Names.QualEnv.t ref
+)
+ident(
+  int_ref anon_nodes "heptagon/transformations/itfusion.ml" 54 2640 2644 "heptagon/transformations/itfusion.ml" 54 2640 2654
+)
+"heptagon/transformations/itfusion.ml" 186 7388 7394 "heptagon/transformations/itfusion.ml" 186 7388 7405
+type(
+  Heptagon.node_dec Names.QualEnv.t
+)
+"heptagon/transformations/itfusion.ml" 187 7406 7412 "heptagon/transformations/itfusion.ml" 187 7406 7413
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/itfusion.ml" 180 7201 7207 "heptagon/transformations/itfusion.ml" 180 7201 7208
+)
+"heptagon/transformations/itfusion.ml" 187 7406 7412 "heptagon/transformations/itfusion.ml" 187 7406 7420
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/itfusion.ml" 182 7265 7269 "heptagon/transformations/itfusion.ml" 187 7406 7420
+call(
+  stack
+)
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/itfusion.ml" 188 7424 7430 "heptagon/transformations/itfusion.ml" 188 7424 7431
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/itfusion.ml" 180 7201 7207 "heptagon/transformations/itfusion.ml" 180 7201 7208
+)
+"heptagon/transformations/itfusion.ml" 188 7424 7446 "heptagon/transformations/itfusion.ml" 188 7424 7448
+type(
+  Heptagon.program_desc list
+)
+ident(
+  int_ref pd "heptagon/transformations/itfusion.ml" 181 7254 7260 "heptagon/transformations/itfusion.ml" 181 7254 7262
+)
+"heptagon/transformations/itfusion.ml" 188 7424 7428 "heptagon/transformations/itfusion.ml" 188 7424 7450
+type(
+  Heptagon.program
+)
+"heptagon/transformations/itfusion.ml" 181 7254 7256 "heptagon/transformations/itfusion.ml" 188 7424 7450
+type(
+  Heptagon.program
+)
+"heptagon/transformations/itfusion.ml" 180 7201 7203 "heptagon/transformations/itfusion.ml" 188 7424 7450
+type(
+  Heptagon.program
+)
+"heptagon/transformations/itfusion.ml" 179 7140 7142 "heptagon/transformations/itfusion.ml" 188 7424 7450
+type(
+  Heptagon.program
+)

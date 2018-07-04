@@ -1,0 +1,7838 @@
+"obc/c/cmain.ml" 43 2233 2241 "obc/c/cmain.ml" 43 2233 2258
+type(
+  Names.qualname -> unit
+)
+ident(
+  ext_ref Idents.enter_node
+)
+"obc/c/cmain.ml" 43 2233 2260 "obc/c/cmain.ml" 43 2233 2279
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.fresh_value
+)
+"obc/c/cmain.ml" 43 2233 2280 "obc/c/cmain.ml" 43 2233 2287
+type(
+  string
+)
+"obc/c/cmain.ml" 43 2233 2288 "obc/c/cmain.ml" 43 2233 2294
+type(
+  Names.name
+)
+"obc/c/cmain.ml" 43 2233 2259 "obc/c/cmain.ml" 43 2233 2295
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 43 2233 2241 "obc/c/cmain.ml" 43 2233 2295
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+type(
+  string -> string
+)
+ident(
+  def fresh "obc/c/cmain.ml" 47 2351 2351 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 45 2297 2307 "obc/c/cmain.ml" 45 2297 2308
+type(
+  string
+)
+ident(
+  def n "obc/c/cmain.ml" 45 2297 2311 "obc/c/cmain.ml" 45 2297 2349
+)
+"obc/c/cmain.ml" 45 2297 2311 "obc/c/cmain.ml" 45 2297 2322
+type(
+  Idents.ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/c/cmain.ml" 45 2297 2324 "obc/c/cmain.ml" 45 2297 2338
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/c/cmain.ml" 45 2297 2339 "obc/c/cmain.ml" 45 2297 2346
+type(
+  string
+)
+"obc/c/cmain.ml" 45 2297 2347 "obc/c/cmain.ml" 45 2297 2348
+type(
+  string
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 45 2297 2307 "obc/c/cmain.ml" 45 2297 2308
+)
+"obc/c/cmain.ml" 45 2297 2323 "obc/c/cmain.ml" 45 2297 2349
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/c/cmain.ml" 45 2297 2311 "obc/c/cmain.ml" 45 2297 2349
+call(
+  tail
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+type(
+  int -> C.cexpr
+)
+ident(
+  def mk_int "obc/c/cmain.ml" 48 2383 2383 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 47 2351 2362 "obc/c/cmain.ml" 47 2351 2363
+type(
+  int
+)
+ident(
+  def i "obc/c/cmain.ml" 47 2351 2366 "obc/c/cmain.ml" 47 2351 2382
+)
+"obc/c/cmain.ml" 47 2351 2380 "obc/c/cmain.ml" 47 2351 2381
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/cmain.ml" 47 2351 2362 "obc/c/cmain.ml" 47 2351 2363
+)
+"obc/c/cmain.ml" 47 2351 2373 "obc/c/cmain.ml" 47 2351 2382
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 47 2351 2366 "obc/c/cmain.ml" 47 2351 2382
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 48 2383 2387 "obc/c/cmain.ml" 48 2383 2395
+type(
+  float -> C.cexpr
+)
+ident(
+  def mk_float "obc/c/cmain.ml" 51 2477 2477 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 48 2383 2396 "obc/c/cmain.ml" 48 2383 2397
+type(
+  float
+)
+ident(
+  def f "obc/c/cmain.ml" 48 2383 2400 "obc/c/cmain.ml" 48 2383 2418
+)
+"obc/c/cmain.ml" 48 2383 2416 "obc/c/cmain.ml" 48 2383 2417
+type(
+  float
+)
+ident(
+  int_ref f "obc/c/cmain.ml" 48 2383 2396 "obc/c/cmain.ml" 48 2383 2397
+)
+"obc/c/cmain.ml" 48 2383 2407 "obc/c/cmain.ml" 48 2383 2418
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 48 2383 2400 "obc/c/cmain.ml" 48 2383 2418
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+type(
+  string
+)
+ident(
+  def step_counter "obc/c/cmain.ml" 54 2543 2543 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 51 2477 2496 "obc/c/cmain.ml" 51 2477 2501
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 51 2477 2502 "obc/c/cmain.ml" 51 2477 2510
+type(
+  string
+)
+"obc/c/cmain.ml" 51 2477 2496 "obc/c/cmain.ml" 51 2477 2510
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+type(
+  string
+)
+ident(
+  def max_step "obc/c/cmain.ml" 54 2543 2543 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 52 2511 2526 "obc/c/cmain.ml" 52 2511 2531
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 52 2511 2531 "obc/c/cmain.ml" 52 2511 2541
+type(
+  string
+)
+"obc/c/cmain.ml" 52 2511 2526 "obc/c/cmain.ml" 52 2511 2541
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 54 2543 2547 "obc/c/cmain.ml" 54 2543 2562
+type(
+  Obc.class_def -> (string * C.cty) list * C.cstm list * C.cstm
+)
+ident(
+  def assert_node_res "obc/c/cmain.ml" 114 4856 4856 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/c/cmain.ml" 55 2568 2570 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 55 2568 2574 "obc/c/cmain.ml" 55 2568 2579
+type(
+  Obc.method_def
+)
+ident(
+  def stepm "obc/c/cmain.ml" 56 2605 2607 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 55 2568 2582 "obc/c/cmain.ml" 55 2568 2598
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  ext_ref Obc_utils.find_step_method
+)
+"obc/c/cmain.ml" 55 2568 2599 "obc/c/cmain.ml" 55 2568 2601
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 55 2568 2582 "obc/c/cmain.ml" 55 2568 2601
+call(
+  stack
+)
+type(
+  Obc.method_def
+)
+"obc/c/cmain.ml" 56 2605 2610 "obc/c/cmain.ml" 56 2605 2621
+type(
+  Obc.var_dec list -> int
+)
+ident(
+  ext_ref List.length
+)
+"obc/c/cmain.ml" 56 2605 2622 "obc/c/cmain.ml" 56 2605 2627
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 55 2568 2574 "obc/c/cmain.ml" 55 2568 2579
+)
+"obc/c/cmain.ml" 56 2605 2622 "obc/c/cmain.ml" 56 2605 2636
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 56 2605 2610 "obc/c/cmain.ml" 56 2605 2636
+call(
+  stack
+)
+type(
+  int
+)
+"obc/c/cmain.ml" 56 2605 2637 "obc/c/cmain.ml" 56 2605 2638
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"obc/c/cmain.ml" 56 2605 2639 "obc/c/cmain.ml" 56 2605 2640
+type(
+  int
+)
+"obc/c/cmain.ml" 56 2605 2610 "obc/c/cmain.ml" 56 2605 2640
+type(
+  bool
+)
+"obc/c/cmain.ml" 57 2646 2651 "obc/c/cmain.ml" 57 2646 2665
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"obc/c/cmain.ml" 57 2646 2666 "obc/c/cmain.ml" 57 2646 2725
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/cmain.ml" 58 2726 2734 "obc/c/cmain.ml" 58 2726 2745
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 58 2726 2746 "obc/c/cmain.ml" 58 2726 2748
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 58 2726 2746 "obc/c/cmain.ml" 58 2726 2756
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 58 2726 2733 "obc/c/cmain.ml" 58 2726 2757
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 57 2646 2651 "obc/c/cmain.ml" 58 2726 2757
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 59 2759 2764 "obc/c/cmain.ml" 59 2759 2768
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"obc/c/cmain.ml" 59 2759 2769 "obc/c/cmain.ml" 59 2759 2770
+type(
+  int
+)
+"obc/c/cmain.ml" 59 2759 2764 "obc/c/cmain.ml" 59 2759 2770
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 57 2646 2650 "obc/c/cmain.ml" 59 2759 2771
+type(
+  unit
+)
+"obc/c/cmain.ml" 56 2605 2607 "obc/c/cmain.ml" 59 2759 2771
+type(
+  unit
+)
+"obc/c/cmain.ml" 60 2773 2785 "obc/c/cmain.ml" 60 2773 2790
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 55 2568 2574 "obc/c/cmain.ml" 55 2568 2579
+)
+"obc/c/cmain.ml" 60 2773 2785 "obc/c/cmain.ml" 60 2773 2800
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 61 2806 2832 "obc/c/cmain.ml" 61 2806 2837
+type(
+  Names.type_name
+)
+ident(
+  def nbool "obc/c/cmain.ml" 61 2806 2847 "obc/c/cmain.ml" 61 2806 2877
+)
+"obc/c/cmain.ml" 61 2806 2828 "obc/c/cmain.ml" 61 2806 2837
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 61 2806 2817 "obc/c/cmain.ml" 61 2806 2840
+type(
+  Obc.var_dec
+)
+"obc/c/cmain.ml" 61 2806 2816 "obc/c/cmain.ml" 61 2806 2841
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 61 2806 2847 "obc/c/cmain.ml" 61 2806 2852
+type(
+  Names.type_name
+)
+ident(
+  int_ref nbool "obc/c/cmain.ml" 61 2806 2832 "obc/c/cmain.ml" 61 2806 2837
+)
+"obc/c/cmain.ml" 61 2806 2853 "obc/c/cmain.ml" 61 2806 2854
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 61 2806 2855 "obc/c/cmain.ml" 61 2806 2868
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"obc/c/cmain.ml" 61 2806 2847 "obc/c/cmain.ml" 61 2806 2868
+type(
+  bool
+)
+"obc/c/cmain.ml" 61 2806 2872 "obc/c/cmain.ml" 61 2806 2877
+type(
+  bool
+)
+"obc/c/cmain.ml" 62 2878 2888 "obc/c/cmain.ml" 62 2878 2889
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 62 2878 2893 "obc/c/cmain.ml" 62 2878 2897
+type(
+  bool
+)
+"obc/c/cmain.ml" 60 2773 2778 "obc/c/cmain.ml" 62 2878 2898
+type(
+  bool
+)
+"obc/c/cmain.ml" 63 2904 2909 "obc/c/cmain.ml" 63 2904 2923
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"obc/c/cmain.ml" 64 2924 2931 "obc/c/cmain.ml" 64 2924 3002
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/cmain.ml" 65 3003 3011 "obc/c/cmain.ml" 65 3003 3022
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 65 3003 3023 "obc/c/cmain.ml" 65 3003 3025
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 65 3003 3023 "obc/c/cmain.ml" 65 3003 3033
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 65 3003 3010 "obc/c/cmain.ml" 65 3003 3034
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 63 2904 2909 "obc/c/cmain.ml" 65 3003 3034
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 66 3036 3041 "obc/c/cmain.ml" 66 3036 3045
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"obc/c/cmain.ml" 66 3036 3046 "obc/c/cmain.ml" 66 3036 3047
+type(
+  int
+)
+"obc/c/cmain.ml" 66 3036 3041 "obc/c/cmain.ml" 66 3036 3047
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 63 2904 2908 "obc/c/cmain.ml" 66 3036 3048
+type(
+  unit
+)
+"obc/c/cmain.ml" 60 2773 2775 "obc/c/cmain.ml" 66 3036 3048
+type(
+  unit
+)
+"obc/c/cmain.ml" 67 3050 3056 "obc/c/cmain.ml" 67 3050 3060
+type(
+  string
+)
+ident(
+  def name "obc/c/cmain.ml" 68 3089 3091 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 67 3050 3063 "obc/c/cmain.ml" 67 3050 3074
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 67 3050 3075 "obc/c/cmain.ml" 67 3050 3077
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 67 3050 3075 "obc/c/cmain.ml" 67 3050 3085
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 67 3050 3063 "obc/c/cmain.ml" 67 3050 3085
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 68 3089 3095 "obc/c/cmain.ml" 68 3089 3098
+type(
+  string * C.cty
+)
+ident(
+  def out "obc/c/cmain.ml" 71 3180 3182 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 69 3101 3106 "obc/c/cmain.ml" 69 3101 3111
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 69 3101 3113 "obc/c/cmain.ml" 69 3101 3123
+type(
+  string
+)
+"obc/c/cmain.ml" 69 3101 3124 "obc/c/cmain.ml" 69 3101 3125
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 69 3101 3126 "obc/c/cmain.ml" 69 3101 3130
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 67 3050 3056 "obc/c/cmain.ml" 67 3050 3060
+)
+"obc/c/cmain.ml" 69 3101 3112 "obc/c/cmain.ml" 69 3101 3131
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 69 3101 3106 "obc/c/cmain.ml" 69 3101 3131
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 70 3133 3147 "obc/c/cmain.ml" 70 3133 3156
+type(
+  Obc.class_name -> string -> Names.qualname
+)
+ident(
+  ext_ref Cgen.qn_append
+)
+"obc/c/cmain.ml" 70 3133 3157 "obc/c/cmain.ml" 70 3133 3159
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 70 3133 3157 "obc/c/cmain.ml" 70 3133 3167
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 70 3133 3168 "obc/c/cmain.ml" 70 3133 3174
+type(
+  string
+)
+"obc/c/cmain.ml" 70 3133 3146 "obc/c/cmain.ml" 70 3133 3175
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 70 3133 3139 "obc/c/cmain.ml" 70 3133 3175
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 69 3101 3105 "obc/c/cmain.ml" 70 3133 3176
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 71 3180 3186 "obc/c/cmain.ml" 71 3180 3189
+type(
+  (string * C.cty) list
+)
+ident(
+  def mem "obc/c/cmain.ml" 79 3439 3441 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 71 3180 3191 "obc/c/cmain.ml" 71 3180 3198
+type(
+  C.cstm list
+)
+ident(
+  def reset_i "obc/c/cmain.ml" 79 3439 3441 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 71 3180 3186 "obc/c/cmain.ml" 71 3180 3198
+type(
+  (string * C.cty) list * C.cstm list
+)
+"obc/c/cmain.ml" 72 3201 3208 "obc/c/cmain.ml" 72 3201 3211
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"obc/c/cmain.ml" 72 3201 3212 "obc/c/cmain.ml" 72 3201 3214
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 72 3201 3212 "obc/c/cmain.ml" 72 3201 3226
+type(
+  bool
+)
+"obc/c/cmain.ml" 72 3201 3208 "obc/c/cmain.ml" 72 3201 3226
+type(
+  bool
+)
+"obc/c/cmain.ml" 73 3227 3237 "obc/c/cmain.ml" 73 3227 3239
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 73 3227 3241 "obc/c/cmain.ml" 73 3227 3243
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 73 3227 3236 "obc/c/cmain.ml" 73 3227 3244
+type(
+  (string * C.cty) list * C.cstm list
+)
+"obc/c/cmain.ml" 75 3254 3264 "obc/c/cmain.ml" 75 3254 3267
+type(
+  string * C.cty
+)
+ident(
+  def mem "obc/c/cmain.ml" 77 3347 3353 "obc/c/cmain.ml" 78 3361 3435
+)
+"obc/c/cmain.ml" 76 3270 3279 "obc/c/cmain.ml" 76 3270 3284
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 76 3270 3286 "obc/c/cmain.ml" 76 3270 3296
+type(
+  string
+)
+"obc/c/cmain.ml" 76 3270 3297 "obc/c/cmain.ml" 76 3270 3298
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 76 3270 3299 "obc/c/cmain.ml" 76 3270 3303
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 67 3050 3056 "obc/c/cmain.ml" 67 3050 3060
+)
+"obc/c/cmain.ml" 76 3270 3285 "obc/c/cmain.ml" 76 3270 3304
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 76 3270 3279 "obc/c/cmain.ml" 76 3270 3304
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 76 3270 3314 "obc/c/cmain.ml" 76 3270 3323
+type(
+  Obc.class_name -> string -> Names.qualname
+)
+ident(
+  ext_ref Cgen.qn_append
+)
+"obc/c/cmain.ml" 76 3270 3324 "obc/c/cmain.ml" 76 3270 3326
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 76 3270 3324 "obc/c/cmain.ml" 76 3270 3334
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 76 3270 3335 "obc/c/cmain.ml" 76 3270 3341
+type(
+  string
+)
+"obc/c/cmain.ml" 76 3270 3313 "obc/c/cmain.ml" 76 3270 3342
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 76 3270 3306 "obc/c/cmain.ml" 76 3270 3342
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 76 3270 3278 "obc/c/cmain.ml" 76 3270 3343
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 77 3347 3355 "obc/c/cmain.ml" 77 3347 3358
+type(
+  string * C.cty
+)
+ident(
+  int_ref mem "obc/c/cmain.ml" 75 3254 3264 "obc/c/cmain.ml" 75 3254 3267
+)
+"obc/c/cmain.ml" 77 3347 3354 "obc/c/cmain.ml" 77 3347 3359
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 78 3361 3388 "obc/c/cmain.ml" 78 3361 3392
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 67 3050 3056 "obc/c/cmain.ml" 67 3050 3060
+)
+"obc/c/cmain.ml" 78 3361 3393 "obc/c/cmain.ml" 78 3361 3394
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 78 3361 3395 "obc/c/cmain.ml" 78 3361 3403
+type(
+  string
+)
+"obc/c/cmain.ml" 78 3361 3388 "obc/c/cmain.ml" 78 3361 3403
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 78 3361 3421 "obc/c/cmain.ml" 78 3361 3424
+type(
+  string * C.cty -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/c/cmain.ml" 78 3361 3425 "obc/c/cmain.ml" 78 3361 3428
+type(
+  string * C.cty
+)
+ident(
+  int_ref mem "obc/c/cmain.ml" 75 3254 3264 "obc/c/cmain.ml" 75 3254 3267
+)
+"obc/c/cmain.ml" 78 3361 3420 "obc/c/cmain.ml" 78 3361 3429
+type(
+  string
+)
+"obc/c/cmain.ml" 78 3361 3414 "obc/c/cmain.ml" 78 3361 3430
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 78 3361 3406 "obc/c/cmain.ml" 78 3361 3430
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 78 3361 3405 "obc/c/cmain.ml" 78 3361 3431
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 78 3361 3376 "obc/c/cmain.ml" 78 3361 3433
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 78 3361 3369 "obc/c/cmain.ml" 78 3361 3433
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 78 3361 3368 "obc/c/cmain.ml" 78 3361 3434
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 77 3347 3353 "obc/c/cmain.ml" 78 3361 3435
+type(
+  (string * C.cty) list * C.cstm list
+)
+"obc/c/cmain.ml" 75 3254 3260 "obc/c/cmain.ml" 78 3361 3435
+type(
+  (string * C.cty) list * C.cstm list
+)
+"obc/c/cmain.ml" 72 3201 3205 "obc/c/cmain.ml" 78 3361 3435
+type(
+  (string * C.cty) list * C.cstm list
+)
+"obc/c/cmain.ml" 79 3439 3445 "obc/c/cmain.ml" 79 3439 3451
+type(
+  C.cstm
+)
+ident(
+  def step_i "obc/c/cmain.ml" 109 4607 4609 "obc/c/cmain.ml" 109 4607 4638
+)
+"obc/c/cmain.ml" 87 3611 3619 "obc/c/cmain.ml" 87 3611 3623
+type(
+  string
+)
+ident(
+  def outn "obc/c/cmain.ml" 88 3677 3681 "obc/c/cmain.ml" 108 4596 4603
+)
+"obc/c/cmain.ml" 87 3611 3626 "obc/c/cmain.ml" 87 3611 3637
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/c/cmain.ml" 87 3611 3640 "obc/c/cmain.ml" 87 3611 3647
+type(
+  Obc.var_dec list -> Obc.var_dec
+)
+ident(
+  ext_ref List.hd
+)
+"obc/c/cmain.ml" 87 3611 3648 "obc/c/cmain.ml" 87 3611 3653
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 55 2568 2574 "obc/c/cmain.ml" 55 2568 2579
+)
+"obc/c/cmain.ml" 87 3611 3648 "obc/c/cmain.ml" 87 3611 3663
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 87 3611 3639 "obc/c/cmain.ml" 87 3611 3664
+call(
+  stack
+)
+type(
+  Obc.var_dec
+)
+"obc/c/cmain.ml" 87 3611 3638 "obc/c/cmain.ml" 87 3611 3673
+type(
+  Idents.var_ident
+)
+"obc/c/cmain.ml" 87 3611 3626 "obc/c/cmain.ml" 87 3611 3673
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 89 3689 3709 "obc/c/cmain.ml" 89 3689 3711
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 92 3746 3777 "obc/c/cmain.ml" 92 3746 3781
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 67 3050 3056 "obc/c/cmain.ml" 67 3050 3060
+)
+"obc/c/cmain.ml" 92 3746 3782 "obc/c/cmain.ml" 92 3746 3783
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 92 3746 3784 "obc/c/cmain.ml" 92 3746 3791
+type(
+  string
+)
+"obc/c/cmain.ml" 92 3746 3777 "obc/c/cmain.ml" 92 3746 3791
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 93 3793 3839 "obc/c/cmain.ml" 93 3793 3842
+type(
+  string * C.cty -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/c/cmain.ml" 93 3793 3843 "obc/c/cmain.ml" 93 3793 3846
+type(
+  string * C.cty
+)
+ident(
+  int_ref out "obc/c/cmain.ml" 68 3089 3095 "obc/c/cmain.ml" 68 3089 3098
+)
+"obc/c/cmain.ml" 93 3793 3838 "obc/c/cmain.ml" 93 3793 3847
+type(
+  string
+)
+"obc/c/cmain.ml" 93 3793 3832 "obc/c/cmain.ml" 93 3793 3848
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 93 3793 3824 "obc/c/cmain.ml" 93 3793 3848
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 94 3849 3887 "obc/c/cmain.ml" 94 3849 3889
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 94 3849 3887 "obc/c/cmain.ml" 94 3849 3901
+type(
+  bool
+)
+"obc/c/cmain.ml" 95 3902 3958 "obc/c/cmain.ml" 95 3902 3961
+type(
+  string * C.cty -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/c/cmain.ml" 95 3902 3963 "obc/c/cmain.ml" 95 3902 3970
+type(
+  (string * C.cty) list -> string * C.cty
+)
+ident(
+  ext_ref List.hd
+)
+"obc/c/cmain.ml" 95 3902 3971 "obc/c/cmain.ml" 95 3902 3974
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref mem "obc/c/cmain.ml" 71 3180 3186 "obc/c/cmain.ml" 71 3180 3189
+)
+"obc/c/cmain.ml" 95 3902 3962 "obc/c/cmain.ml" 95 3902 3975
+call(
+  stack
+)
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 95 3902 3957 "obc/c/cmain.ml" 95 3902 3976
+type(
+  string
+)
+"obc/c/cmain.ml" 95 3902 3951 "obc/c/cmain.ml" 95 3902 3977
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 95 3902 3943 "obc/c/cmain.ml" 95 3902 3977
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 95 3902 3942 "obc/c/cmain.ml" 95 3902 3978
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 96 3979 4019 "obc/c/cmain.ml" 96 3979 4021
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 94 3849 3883 "obc/c/cmain.ml" 96 3979 4022
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 93 3793 3824 "obc/c/cmain.ml" 96 3979 4022
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 92 3746 3765 "obc/c/cmain.ml" 96 3979 4024
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 92 3746 3758 "obc/c/cmain.ml" 96 3979 4024
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 97 4026 4049 "obc/c/cmain.ml" 97 4026 4052
+type(
+  string
+)
+"obc/c/cmain.ml" 97 4026 4068 "obc/c/cmain.ml" 97 4026 4071
+type(
+  string * C.cty -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"obc/c/cmain.ml" 97 4026 4072 "obc/c/cmain.ml" 97 4026 4075
+type(
+  string * C.cty
+)
+ident(
+  int_ref out "obc/c/cmain.ml" 68 3089 3095 "obc/c/cmain.ml" 68 3089 3098
+)
+"obc/c/cmain.ml" 97 4026 4067 "obc/c/cmain.ml" 97 4026 4076
+type(
+  string
+)
+"obc/c/cmain.ml" 97 4026 4062 "obc/c/cmain.ml" 97 4026 4076
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 97 4026 4078 "obc/c/cmain.ml" 97 4026 4086
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Names.local_qn
+)
+"obc/c/cmain.ml" 97 4026 4087 "obc/c/cmain.ml" 97 4026 4091
+type(
+  Names.name
+)
+ident(
+  int_ref outn "obc/c/cmain.ml" 87 3611 3619 "obc/c/cmain.ml" 87 3611 3623
+)
+"obc/c/cmain.ml" 97 4026 4078 "obc/c/cmain.ml" 97 4026 4091
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 97 4026 4054 "obc/c/cmain.ml" 97 4026 4092
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 97 4026 4043 "obc/c/cmain.ml" 97 4026 4093
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 98 4095 4132 "obc/c/cmain.ml" 98 4095 4141
+type(
+  string
+)
+"obc/c/cmain.ml" 99 4143 4186 "obc/c/cmain.ml" 99 4143 4194
+type(
+  string
+)
+"obc/c/cmain.ml" 99 4143 4181 "obc/c/cmain.ml" 99 4143 4194
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 100 4196 4251 "obc/c/cmain.ml" 100 4196 4260
+type(
+  string
+)
+"obc/c/cmain.ml" 101 4261 4274 "obc/c/cmain.ml" 101 4261 4275
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 101 4261 4277 "obc/c/cmain.ml" 101 4261 4291
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref Names.fullname
+)
+"obc/c/cmain.ml" 101 4261 4292 "obc/c/cmain.ml" 101 4261 4294
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 54 2543 2563 "obc/c/cmain.ml" 54 2543 2565
+)
+"obc/c/cmain.ml" 101 4261 4292 "obc/c/cmain.ml" 101 4261 4302
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 101 4261 4276 "obc/c/cmain.ml" 101 4261 4303
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 102 4304 4364 "obc/c/cmain.ml" 102 4304 4365
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 102 4304 4366 "obc/c/cmain.ml" 102 4304 4385
+type(
+  string
+)
+"obc/c/cmain.ml" 102 4304 4386 "obc/c/cmain.ml" 102 4304 4387
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 103 4388 4450 "obc/c/cmain.ml" 103 4388 4458
+type(
+  string
+)
+"obc/c/cmain.ml" 102 4304 4366 "obc/c/cmain.ml" 103 4388 4458
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 101 4261 4276 "obc/c/cmain.ml" 103 4388 4458
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 100 4196 4250 "obc/c/cmain.ml" 103 4388 4459
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 100 4196 4241 "obc/c/cmain.ml" 103 4388 4460
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 100 4196 4234 "obc/c/cmain.ml" 103 4388 4460
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 104 4462 4505 "obc/c/cmain.ml" 104 4462 4517
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 104 4462 4500 "obc/c/cmain.ml" 104 4462 4517
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 99 4143 4180 "obc/c/cmain.ml" 104 4462 4518
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 98 4095 4120 "obc/c/cmain.ml" 104 4462 4520
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 98 4095 4113 "obc/c/cmain.ml" 104 4462 4520
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 105 4522 4549 "obc/c/cmain.ml" 105 4522 4555
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 105 4522 4556 "obc/c/cmain.ml" 105 4522 4557
+type(
+  int
+)
+"obc/c/cmain.ml" 105 4522 4548 "obc/c/cmain.ml" 105 4522 4558
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 105 4522 4540 "obc/c/cmain.ml" 105 4522 4558
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 98 4095 4112 "obc/c/cmain.ml" 105 4522 4559
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 106 4561 4578 "obc/c/cmain.ml" 106 4561 4580
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 97 4026 4038 "obc/c/cmain.ml" 106 4561 4581
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 91 3734 3744 "obc/c/cmain.ml" 107 4583 4594
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 89 3689 3695 "obc/c/cmain.ml" 108 4596 4603
+type(
+  C.cblock
+)
+"obc/c/cmain.ml" 88 3677 3681 "obc/c/cmain.ml" 108 4596 4603
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 87 3611 3615 "obc/c/cmain.ml" 108 4596 4603
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 109 4607 4610 "obc/c/cmain.ml" 109 4607 4613
+type(
+  string * C.cty
+)
+ident(
+  int_ref out "obc/c/cmain.ml" 68 3089 3095 "obc/c/cmain.ml" 68 3089 3098
+)
+"obc/c/cmain.ml" 109 4607 4617 "obc/c/cmain.ml" 109 4607 4620
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref mem "obc/c/cmain.ml" 71 3180 3186 "obc/c/cmain.ml" 71 3180 3189
+)
+"obc/c/cmain.ml" 109 4607 4610 "obc/c/cmain.ml" 109 4607 4620
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 109 4607 4622 "obc/c/cmain.ml" 109 4607 4629
+type(
+  C.cstm list
+)
+ident(
+  int_ref reset_i "obc/c/cmain.ml" 71 3180 3191 "obc/c/cmain.ml" 71 3180 3198
+)
+"obc/c/cmain.ml" 109 4607 4631 "obc/c/cmain.ml" 109 4607 4637
+type(
+  C.cstm
+)
+ident(
+  int_ref step_i "obc/c/cmain.ml" 79 3439 3445 "obc/c/cmain.ml" 79 3439 3451
+)
+"obc/c/cmain.ml" 109 4607 4609 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 79 3439 3441 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 71 3180 3182 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 68 3089 3091 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 67 3050 3052 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 60 2773 2775 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 56 2605 2607 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 55 2568 2570 "obc/c/cmain.ml" 109 4607 4638
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 114 4856 4860 "obc/c/cmain.ml" 114 4856 4881
+type(
+  Obc.class_def ->
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+ident(
+  def main_def_of_class_def "obc/c/cmain.ml" 314 12517 12517 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/c/cmain.ml" 115 4887 4889 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 115 4887 4893 "obc/c/cmain.ml" 115 4887 4908
+type(
+  Types.ty -> string
+)
+ident(
+  def format_for_type "obc/c/cmain.ml" 125 5281 5283 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 115 4887 4909 "obc/c/cmain.ml" 115 4887 4911
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 115 4887 4914 "obc/c/cmain.ml" 120 5133 5152
+)
+"obc/c/cmain.ml" 115 4887 4920 "obc/c/cmain.ml" 115 4887 4922
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 115 4887 4909 "obc/c/cmain.ml" 115 4887 4911
+)
+"obc/c/cmain.ml" 116 4928 4941 "obc/c/cmain.ml" 116 4928 4942
+type(
+  Types.static_exp
+)
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4934 "obc/c/cmain.ml" 116 4928 4942
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4951 "obc/c/cmain.ml" 116 4928 4952
+type(
+  Types.ty list
+)
+"obc/c/cmain.ml" 116 4928 4945 "obc/c/cmain.ml" 116 4928 4952
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4934 "obc/c/cmain.ml" 116 4928 4952
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4955 "obc/c/cmain.ml" 116 4928 4963
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4934 "obc/c/cmain.ml" 116 4928 4963
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 116 4928 4974 "obc/c/cmain.ml" 116 4928 4979
+type(
+  bool
+)
+"obc/c/cmain.ml" 116 4928 4967 "obc/c/cmain.ml" 116 4928 4979
+type(
+  string
+)
+"obc/c/cmain.ml" 117 4980 4996 "obc/c/cmain.ml" 117 4980 4998
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 117 4980 5004 "obc/c/cmain.ml" 117 4980 5031
+)
+"obc/c/cmain.ml" 117 4980 4986 "obc/c/cmain.ml" 117 4980 4998
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 117 4980 5004 "obc/c/cmain.ml" 117 4980 5006
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 117 4980 4996 "obc/c/cmain.ml" 117 4980 4998
+)
+"obc/c/cmain.ml" 117 4980 5007 "obc/c/cmain.ml" 117 4980 5008
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 117 4980 5009 "obc/c/cmain.ml" 117 4980 5023
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pfloat
+)
+"obc/c/cmain.ml" 117 4980 5004 "obc/c/cmain.ml" 117 4980 5023
+type(
+  bool
+)
+"obc/c/cmain.ml" 117 4980 5027 "obc/c/cmain.ml" 117 4980 5031
+type(
+  string
+)
+"obc/c/cmain.ml" 118 5032 5048 "obc/c/cmain.ml" 118 5032 5050
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 118 5032 5056 "obc/c/cmain.ml" 118 5032 5081
+)
+"obc/c/cmain.ml" 118 5032 5038 "obc/c/cmain.ml" 118 5032 5050
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 118 5032 5056 "obc/c/cmain.ml" 118 5032 5058
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 118 5032 5048 "obc/c/cmain.ml" 118 5032 5050
+)
+"obc/c/cmain.ml" 118 5032 5059 "obc/c/cmain.ml" 118 5032 5060
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 118 5032 5061 "obc/c/cmain.ml" 118 5032 5073
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pint
+)
+"obc/c/cmain.ml" 118 5032 5056 "obc/c/cmain.ml" 118 5032 5073
+type(
+  bool
+)
+"obc/c/cmain.ml" 118 5032 5077 "obc/c/cmain.ml" 118 5032 5081
+type(
+  string
+)
+"obc/c/cmain.ml" 119 5082 5098 "obc/c/cmain.ml" 119 5082 5100
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 119 5082 5106 "obc/c/cmain.ml" 119 5082 5132
+)
+"obc/c/cmain.ml" 119 5082 5088 "obc/c/cmain.ml" 119 5082 5100
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 119 5082 5106 "obc/c/cmain.ml" 119 5082 5108
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 119 5082 5098 "obc/c/cmain.ml" 119 5082 5100
+)
+"obc/c/cmain.ml" 119 5082 5109 "obc/c/cmain.ml" 119 5082 5110
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 119 5082 5111 "obc/c/cmain.ml" 119 5082 5124
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"obc/c/cmain.ml" 119 5082 5106 "obc/c/cmain.ml" 119 5082 5124
+type(
+  bool
+)
+"obc/c/cmain.ml" 119 5082 5128 "obc/c/cmain.ml" 119 5082 5132
+type(
+  string
+)
+"obc/c/cmain.ml" 120 5133 5143 "obc/c/cmain.ml" 120 5133 5144
+type(
+  Names.type_name
+)
+"obc/c/cmain.ml" 120 5133 5139 "obc/c/cmain.ml" 120 5133 5144
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 120 5133 5148 "obc/c/cmain.ml" 120 5133 5152
+type(
+  string
+)
+"obc/c/cmain.ml" 115 4887 4914 "obc/c/cmain.ml" 120 5133 5152
+type(
+  string
+)
+"obc/c/cmain.ml" 125 5281 5287 "obc/c/cmain.ml" 125 5281 5302
+type(
+  Types.ty -> string option
+)
+ident(
+  def need_buf_for_ty "obc/c/cmain.ml" 132 5570 5572 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 125 5281 5303 "obc/c/cmain.ml" 125 5281 5305
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 125 5281 5308 "obc/c/cmain.ml" 130 5527 5564
+)
+"obc/c/cmain.ml" 125 5281 5314 "obc/c/cmain.ml" 125 5281 5316
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 125 5281 5303 "obc/c/cmain.ml" 125 5281 5305
+)
+"obc/c/cmain.ml" 126 5322 5335 "obc/c/cmain.ml" 126 5322 5336
+type(
+  Types.static_exp
+)
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5328 "obc/c/cmain.ml" 126 5322 5336
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5345 "obc/c/cmain.ml" 126 5322 5346
+type(
+  Types.ty list
+)
+"obc/c/cmain.ml" 126 5322 5339 "obc/c/cmain.ml" 126 5322 5346
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5328 "obc/c/cmain.ml" 126 5322 5346
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5349 "obc/c/cmain.ml" 126 5322 5357
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5328 "obc/c/cmain.ml" 126 5322 5357
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 126 5322 5368 "obc/c/cmain.ml" 126 5322 5373
+type(
+  bool
+)
+"obc/c/cmain.ml" 126 5322 5361 "obc/c/cmain.ml" 126 5322 5373
+type(
+  string option
+)
+"obc/c/cmain.ml" 127 5374 5390 "obc/c/cmain.ml" 127 5374 5392
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 127 5374 5398 "obc/c/cmain.ml" 127 5374 5425
+)
+"obc/c/cmain.ml" 127 5374 5380 "obc/c/cmain.ml" 127 5374 5392
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 127 5374 5398 "obc/c/cmain.ml" 127 5374 5400
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 127 5374 5390 "obc/c/cmain.ml" 127 5374 5392
+)
+"obc/c/cmain.ml" 127 5374 5401 "obc/c/cmain.ml" 127 5374 5402
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 127 5374 5403 "obc/c/cmain.ml" 127 5374 5417
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pfloat
+)
+"obc/c/cmain.ml" 127 5374 5398 "obc/c/cmain.ml" 127 5374 5417
+type(
+  bool
+)
+"obc/c/cmain.ml" 127 5374 5421 "obc/c/cmain.ml" 127 5374 5425
+type(
+  string option
+)
+"obc/c/cmain.ml" 128 5426 5442 "obc/c/cmain.ml" 128 5426 5444
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 128 5426 5450 "obc/c/cmain.ml" 128 5426 5475
+)
+"obc/c/cmain.ml" 128 5426 5432 "obc/c/cmain.ml" 128 5426 5444
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 128 5426 5450 "obc/c/cmain.ml" 128 5426 5452
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 128 5426 5442 "obc/c/cmain.ml" 128 5426 5444
+)
+"obc/c/cmain.ml" 128 5426 5453 "obc/c/cmain.ml" 128 5426 5454
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 128 5426 5455 "obc/c/cmain.ml" 128 5426 5467
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pint
+)
+"obc/c/cmain.ml" 128 5426 5450 "obc/c/cmain.ml" 128 5426 5467
+type(
+  bool
+)
+"obc/c/cmain.ml" 128 5426 5471 "obc/c/cmain.ml" 128 5426 5475
+type(
+  string option
+)
+"obc/c/cmain.ml" 129 5476 5492 "obc/c/cmain.ml" 129 5476 5494
+type(
+  Names.type_name
+)
+ident(
+  def id "obc/c/cmain.ml" 129 5476 5500 "obc/c/cmain.ml" 129 5476 5526
+)
+"obc/c/cmain.ml" 129 5476 5482 "obc/c/cmain.ml" 129 5476 5494
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 129 5476 5500 "obc/c/cmain.ml" 129 5476 5502
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "obc/c/cmain.ml" 129 5476 5492 "obc/c/cmain.ml" 129 5476 5494
+)
+"obc/c/cmain.ml" 129 5476 5503 "obc/c/cmain.ml" 129 5476 5504
+type(
+  Names.type_name -> Names.type_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 129 5476 5505 "obc/c/cmain.ml" 129 5476 5518
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"obc/c/cmain.ml" 129 5476 5500 "obc/c/cmain.ml" 129 5476 5518
+type(
+  bool
+)
+"obc/c/cmain.ml" 129 5476 5522 "obc/c/cmain.ml" 129 5476 5526
+type(
+  string option
+)
+"obc/c/cmain.ml" 130 5527 5537 "obc/c/cmain.ml" 130 5527 5539
+type(
+  Names.type_name
+)
+ident(
+  def tn "obc/c/cmain.ml" 130 5527 5543 "obc/c/cmain.ml" 130 5527 5564
+)
+"obc/c/cmain.ml" 130 5527 5533 "obc/c/cmain.ml" 130 5527 5539
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 130 5527 5549 "obc/c/cmain.ml" 130 5527 5560
+type(
+  Names.type_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 130 5527 5561 "obc/c/cmain.ml" 130 5527 5563
+type(
+  Names.type_name
+)
+ident(
+  int_ref tn "obc/c/cmain.ml" 130 5527 5537 "obc/c/cmain.ml" 130 5527 5539
+)
+"obc/c/cmain.ml" 130 5527 5548 "obc/c/cmain.ml" 130 5527 5564
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 130 5527 5543 "obc/c/cmain.ml" 130 5527 5564
+type(
+  string option
+)
+"obc/c/cmain.ml" 125 5281 5308 "obc/c/cmain.ml" 130 5527 5564
+type(
+  string option
+)
+"obc/c/cmain.ml" 132 5570 5576 "obc/c/cmain.ml" 132 5570 5589
+type(
+  string -> C.cstm
+)
+ident(
+  def cprint_string "obc/c/cmain.ml" 135 5687 5689 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 132 5570 5590 "obc/c/cmain.ml" 132 5570 5591
+type(
+  string
+)
+ident(
+  def s "obc/c/cmain.ml" 132 5570 5594 "obc/c/cmain.ml" 132 5570 5645
+)
+"obc/c/cmain.ml" 132 5570 5613 "obc/c/cmain.ml" 132 5570 5621
+type(
+  string
+)
+"obc/c/cmain.ml" 132 5570 5640 "obc/c/cmain.ml" 132 5570 5641
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/cmain.ml" 132 5570 5590 "obc/c/cmain.ml" 132 5570 5591
+)
+"obc/c/cmain.ml" 132 5570 5631 "obc/c/cmain.ml" 132 5570 5642
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 132 5570 5624 "obc/c/cmain.ml" 132 5570 5642
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 132 5570 5623 "obc/c/cmain.ml" 132 5570 5643
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 132 5570 5601 "obc/c/cmain.ml" 132 5570 5645
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 132 5570 5594 "obc/c/cmain.ml" 132 5570 5645
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 135 5687 5697 "obc/c/cmain.ml" 135 5687 5711
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  def read_lhs_of_ty "obc/c/cmain.ml" 135 5687 5689 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 135 5687 5716 "obc/c/cmain.ml" 197 8323 8398
+)
+"obc/c/cmain.ml" 135 5687 5716 "obc/c/cmain.ml" 135 5687 5718
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 136 5721 5725 "obc/c/cmain.ml" 197 8323 8398
+)
+"obc/c/cmain.ml" 136 5721 5731 "obc/c/cmain.ml" 136 5721 5733
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 135 5687 5716 "obc/c/cmain.ml" 135 5687 5718
+)
+"obc/c/cmain.ml" 137 5739 5753 "obc/c/cmain.ml" 137 5739 5755
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 138 5763 5771 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 137 5739 5757 "obc/c/cmain.ml" 137 5739 5758
+type(
+  Types.static_exp
+)
+ident(
+  def n "obc/c/cmain.ml" 138 5763 5771 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 137 5739 5745 "obc/c/cmain.ml" 137 5739 5759
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 138 5763 5775 "obc/c/cmain.ml" 138 5763 5783
+type(
+  string
+)
+ident(
+  def iter_var "obc/c/cmain.ml" 139 5799 5807 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 138 5763 5786 "obc/c/cmain.ml" 138 5763 5791
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 138 5763 5792 "obc/c/cmain.ml" 138 5763 5795
+type(
+  string
+)
+"obc/c/cmain.ml" 138 5763 5786 "obc/c/cmain.ml" 138 5763 5795
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 139 5799 5811 "obc/c/cmain.ml" 139 5799 5814
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 140 5848 5856 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 139 5799 5825 "obc/c/cmain.ml" 139 5799 5828
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 139 5799 5835 "obc/c/cmain.ml" 139 5799 5843
+type(
+  string
+)
+ident(
+  int_ref iter_var "obc/c/cmain.ml" 138 5763 5775 "obc/c/cmain.ml" 138 5763 5783
+)
+"obc/c/cmain.ml" 139 5799 5830 "obc/c/cmain.ml" 139 5799 5843
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 139 5799 5817 "obc/c/cmain.ml" 139 5799 5844
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 140 5848 5861 "obc/c/cmain.ml" 140 5848 5866
+type(
+  C.cstm list
+)
+ident(
+  def reads "obc/c/cmain.ml" 141 5901 5909 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 140 5848 5868 "obc/c/cmain.ml" 140 5848 5872
+type(
+  (string * C.cty) list
+)
+ident(
+  def bufs "obc/c/cmain.ml" 141 5901 5909 "obc/c/cmain.ml" 141 5901 5974
+)
+"obc/c/cmain.ml" 140 5848 5860 "obc/c/cmain.ml" 140 5848 5873
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 140 5848 5876 "obc/c/cmain.ml" 140 5848 5890
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref read_lhs_of_ty "obc/c/cmain.ml" 135 5687 5697 "obc/c/cmain.ml" 135 5687 5711
+)
+"obc/c/cmain.ml" 140 5848 5891 "obc/c/cmain.ml" 140 5848 5894
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 139 5799 5811 "obc/c/cmain.ml" 139 5799 5814
+)
+"obc/c/cmain.ml" 140 5848 5895 "obc/c/cmain.ml" 140 5848 5897
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 137 5739 5753 "obc/c/cmain.ml" 137 5739 5755
+)
+"obc/c/cmain.ml" 140 5848 5876 "obc/c/cmain.ml" 140 5848 5897
+call(
+  stack
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 141 5901 5917 "obc/c/cmain.ml" 141 5901 5925
+type(
+  string
+)
+ident(
+  int_ref iter_var "obc/c/cmain.ml" 138 5763 5775 "obc/c/cmain.ml" 138 5763 5783
+)
+"obc/c/cmain.ml" 141 5901 5927 "obc/c/cmain.ml" 141 5901 5933
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 141 5901 5934 "obc/c/cmain.ml" 141 5901 5935
+type(
+  int
+)
+"obc/c/cmain.ml" 141 5901 5927 "obc/c/cmain.ml" 141 5901 5935
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 141 5901 5937 "obc/c/cmain.ml" 141 5901 5956
+type(
+  Types.static_exp -> C.cexpr
+)
+ident(
+  ext_ref Cgen.cexpr_of_static_exp
+)
+"obc/c/cmain.ml" 141 5901 5957 "obc/c/cmain.ml" 141 5901 5958
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 137 5739 5757 "obc/c/cmain.ml" 137 5739 5758
+)
+"obc/c/cmain.ml" 141 5901 5937 "obc/c/cmain.ml" 141 5901 5958
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 141 5901 5960 "obc/c/cmain.ml" 141 5901 5965
+type(
+  C.cstm list
+)
+ident(
+  int_ref reads "obc/c/cmain.ml" 140 5848 5861 "obc/c/cmain.ml" 140 5848 5866
+)
+"obc/c/cmain.ml" 141 5901 5911 "obc/c/cmain.ml" 141 5901 5966
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 141 5901 5910 "obc/c/cmain.ml" 141 5901 5967
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 141 5901 5969 "obc/c/cmain.ml" 141 5901 5973
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref bufs "obc/c/cmain.ml" 140 5848 5868 "obc/c/cmain.ml" 140 5848 5872
+)
+"obc/c/cmain.ml" 141 5901 5909 "obc/c/cmain.ml" 141 5901 5974
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 140 5848 5856 "obc/c/cmain.ml" 141 5901 5974
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 139 5799 5807 "obc/c/cmain.ml" 141 5901 5974
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 138 5763 5771 "obc/c/cmain.ml" 141 5901 5974
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 142 5975 5986 "obc/c/cmain.ml" 142 5975 5988
+type(
+  Names.type_name
+)
+ident(
+  def tn "obc/c/cmain.ml" 143 5999 6007 "obc/c/cmain.ml" 196 8311 8322
+)
+"obc/c/cmain.ml" 142 5975 5981 "obc/c/cmain.ml" 142 5975 5989
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 142 5975 5993 "obc/c/cmain.ml" 142 5975 5995
+ident(
+  def ty "obc/c/cmain.ml" 143 5999 6007 "obc/c/cmain.ml" 196 8311 8322
+)
+"obc/c/cmain.ml" 142 5975 5981 "obc/c/cmain.ml" 142 5975 5995
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 143 5999 6019 "obc/c/cmain.ml" 143 5999 6036
+type(
+  Names.QualEnv.key -> Signature.type_def
+)
+ident(
+  ext_ref Modules.find_type
+)
+"obc/c/cmain.ml" 143 5999 6037 "obc/c/cmain.ml" 143 5999 6039
+type(
+  Names.type_name
+)
+ident(
+  int_ref tn "obc/c/cmain.ml" 142 5975 5986 "obc/c/cmain.ml" 142 5975 5988
+)
+"obc/c/cmain.ml" 143 5999 6019 "obc/c/cmain.ml" 143 5999 6039
+call(
+  stack
+)
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 144 6045 6062 "obc/c/cmain.ml" 144 6045 6064
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 144 6045 6068 "obc/c/cmain.ml" 144 6045 6089
+)
+"obc/c/cmain.ml" 144 6045 6055 "obc/c/cmain.ml" 144 6045 6064
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 144 6045 6068 "obc/c/cmain.ml" 144 6045 6082
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref read_lhs_of_ty "obc/c/cmain.ml" 135 5687 5697 "obc/c/cmain.ml" 135 5687 5711
+)
+"obc/c/cmain.ml" 144 6045 6083 "obc/c/cmain.ml" 144 6045 6086
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 144 6045 6087 "obc/c/cmain.ml" 144 6045 6089
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 144 6045 6062 "obc/c/cmain.ml" 144 6045 6064
+)
+"obc/c/cmain.ml" 144 6045 6068 "obc/c/cmain.ml" 144 6045 6089
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 145 6090 6108 "obc/c/cmain.ml" 145 6090 6118
+type(
+  Signature.structure
+)
+ident(
+  def field_list "obc/c/cmain.ml" 146 6122 6134 "obc/c/cmain.ml" 153 6445 6469
+)
+"obc/c/cmain.ml" 145 6090 6100 "obc/c/cmain.ml" 145 6090 6118
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 146 6122 6134 "obc/c/cmain.ml" 146 6122 6148
+type(
+  (C.cstm list * (string * C.cty) list ->
+   Signature.field -> C.cstm list * (string * C.cty) list) ->
+  C.cstm list * (string * C.cty) list ->
+  Signature.structure -> C.cstm list * (string * C.cty) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/c/cmain.ml" 147 6149 6169 "obc/c/cmain.ml" 147 6149 6174
+type(
+  C.cstm list
+)
+ident(
+  def reads "obc/c/cmain.ml" 148 6181 6198 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 147 6149 6175 "obc/c/cmain.ml" 147 6149 6179
+type(
+  (string * C.cty) list
+)
+ident(
+  def bufs "obc/c/cmain.ml" 148 6181 6198 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 147 6149 6168 "obc/c/cmain.ml" 147 6149 6180
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 148 6181 6219 "obc/c/cmain.ml" 148 6181 6225
+type(
+  Names.field_name
+)
+ident(
+  def f_name "obc/c/cmain.ml" 149 6255 6272 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 148 6181 6246 "obc/c/cmain.ml" 148 6181 6250
+type(
+  Types.ty
+)
+ident(
+  def f_ty "obc/c/cmain.ml" 149 6255 6272 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 148 6181 6198 "obc/c/cmain.ml" 148 6181 6251
+type(
+  Signature.field
+)
+"obc/c/cmain.ml" 149 6255 6276 "obc/c/cmain.ml" 149 6255 6281
+type(
+  C.cexpr
+)
+ident(
+  def f_lhs "obc/c/cmain.ml" 150 6306 6323 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 149 6255 6291 "obc/c/cmain.ml" 149 6255 6294
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 149 6255 6295 "obc/c/cmain.ml" 149 6255 6301
+type(
+  Names.field_name
+)
+ident(
+  int_ref f_name "obc/c/cmain.ml" 148 6181 6219 "obc/c/cmain.ml" 148 6181 6225
+)
+"obc/c/cmain.ml" 149 6255 6284 "obc/c/cmain.ml" 149 6255 6302
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 150 6306 6328 "obc/c/cmain.ml" 150 6306 6335
+type(
+  C.cstm list
+)
+ident(
+  def f_reads "obc/c/cmain.ml" 151 6375 6392 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 150 6306 6336 "obc/c/cmain.ml" 150 6306 6342
+type(
+  (string * C.cty) list
+)
+ident(
+  def f_bufs "obc/c/cmain.ml" 151 6375 6392 "obc/c/cmain.ml" 151 6375 6421
+)
+"obc/c/cmain.ml" 150 6306 6327 "obc/c/cmain.ml" 150 6306 6343
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 150 6306 6346 "obc/c/cmain.ml" 150 6306 6360
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref read_lhs_of_ty "obc/c/cmain.ml" 135 5687 5697 "obc/c/cmain.ml" 135 5687 5711
+)
+"obc/c/cmain.ml" 150 6306 6361 "obc/c/cmain.ml" 150 6306 6366
+type(
+  C.cexpr
+)
+ident(
+  int_ref f_lhs "obc/c/cmain.ml" 149 6255 6276 "obc/c/cmain.ml" 149 6255 6281
+)
+"obc/c/cmain.ml" 150 6306 6367 "obc/c/cmain.ml" 150 6306 6371
+type(
+  Types.ty
+)
+ident(
+  int_ref f_ty "obc/c/cmain.ml" 148 6181 6246 "obc/c/cmain.ml" 148 6181 6250
+)
+"obc/c/cmain.ml" 150 6306 6346 "obc/c/cmain.ml" 150 6306 6371
+call(
+  stack
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 151 6375 6393 "obc/c/cmain.ml" 151 6375 6398
+type(
+  C.cstm list
+)
+ident(
+  int_ref reads "obc/c/cmain.ml" 147 6149 6169 "obc/c/cmain.ml" 147 6149 6174
+)
+"obc/c/cmain.ml" 151 6375 6398 "obc/c/cmain.ml" 151 6375 6399
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 151 6375 6399 "obc/c/cmain.ml" 151 6375 6406
+type(
+  C.cstm list
+)
+ident(
+  int_ref f_reads "obc/c/cmain.ml" 150 6306 6328 "obc/c/cmain.ml" 150 6306 6335
+)
+"obc/c/cmain.ml" 151 6375 6392 "obc/c/cmain.ml" 151 6375 6407
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 151 6375 6409 "obc/c/cmain.ml" 151 6375 6413
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref bufs "obc/c/cmain.ml" 147 6149 6175 "obc/c/cmain.ml" 147 6149 6179
+)
+"obc/c/cmain.ml" 151 6375 6413 "obc/c/cmain.ml" 151 6375 6414
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 151 6375 6414 "obc/c/cmain.ml" 151 6375 6420
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref f_bufs "obc/c/cmain.ml" 150 6306 6336 "obc/c/cmain.ml" 150 6306 6342
+)
+"obc/c/cmain.ml" 151 6375 6408 "obc/c/cmain.ml" 151 6375 6421
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 151 6375 6392 "obc/c/cmain.ml" 151 6375 6421
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 150 6306 6323 "obc/c/cmain.ml" 151 6375 6421
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 149 6255 6272 "obc/c/cmain.ml" 151 6375 6421
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 147 6149 6163 "obc/c/cmain.ml" 151 6375 6422
+type(
+  C.cstm list * (string * C.cty) list ->
+  Signature.field -> C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 152 6423 6438 "obc/c/cmain.ml" 152 6423 6440
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 152 6423 6441 "obc/c/cmain.ml" 152 6423 6443
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 152 6423 6437 "obc/c/cmain.ml" 152 6423 6444
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 153 6445 6459 "obc/c/cmain.ml" 153 6445 6469
+type(
+  Signature.structure
+)
+ident(
+  int_ref field_list "obc/c/cmain.ml" 145 6090 6108 "obc/c/cmain.ml" 145 6090 6118
+)
+"obc/c/cmain.ml" 146 6122 6134 "obc/c/cmain.ml" 153 6445 6469
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 154 6470 6480 "obc/c/cmain.ml" 154 6470 6481
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 155 6485 6505 "obc/c/cmain.ml" 155 6485 6514
+type(
+  C.cexpr -> string * C.cexpr list
+)
+ident(
+  def mk_prompt "obc/c/cmain.ml" 155 6485 6497 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 155 6485 6515 "obc/c/cmain.ml" 155 6485 6518
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 155 6485 6521 "obc/c/cmain.ml" 163 6846 6879
+)
+"obc/c/cmain.ml" 155 6485 6527 "obc/c/cmain.ml" 155 6485 6530
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 155 6485 6515 "obc/c/cmain.ml" 155 6485 6518
+)
+"obc/c/cmain.ml" 156 6536 6557 "obc/c/cmain.ml" 156 6536 6559
+type(
+  string
+)
+ident(
+  def vn "obc/c/cmain.ml" 156 6536 6563 "obc/c/cmain.ml" 156 6536 6571
+)
+"obc/c/cmain.ml" 156 6536 6552 "obc/c/cmain.ml" 156 6536 6559
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 156 6536 6564 "obc/c/cmain.ml" 156 6536 6566
+type(
+  string
+)
+ident(
+  int_ref vn "obc/c/cmain.ml" 156 6536 6557 "obc/c/cmain.ml" 156 6536 6559
+)
+"obc/c/cmain.ml" 156 6536 6568 "obc/c/cmain.ml" 156 6536 6570
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 156 6536 6563 "obc/c/cmain.ml" 156 6536 6571
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 157 6572 6596 "obc/c/cmain.ml" 157 6572 6599
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 158 6609 6627 "obc/c/cmain.ml" 159 6661 6705
+)
+"obc/c/cmain.ml" 157 6572 6601 "obc/c/cmain.ml" 157 6572 6604
+type(
+  C.cexpr
+)
+ident(
+  def cvn "obc/c/cmain.ml" 158 6609 6627 "obc/c/cmain.ml" 159 6661 6705
+)
+"obc/c/cmain.ml" 157 6572 6588 "obc/c/cmain.ml" 157 6572 6605
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 158 6609 6632 "obc/c/cmain.ml" 158 6609 6634
+type(
+  string
+)
+ident(
+  def vn "obc/c/cmain.ml" 159 6661 6679 "obc/c/cmain.ml" 159 6661 6705
+)
+"obc/c/cmain.ml" 158 6609 6636 "obc/c/cmain.ml" 158 6609 6640
+type(
+  C.cexpr list
+)
+ident(
+  def args "obc/c/cmain.ml" 159 6661 6679 "obc/c/cmain.ml" 159 6661 6705
+)
+"obc/c/cmain.ml" 158 6609 6631 "obc/c/cmain.ml" 158 6609 6641
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 158 6609 6644 "obc/c/cmain.ml" 158 6609 6653
+type(
+  C.cexpr -> string * C.cexpr list
+)
+ident(
+  int_ref mk_prompt "obc/c/cmain.ml" 155 6485 6505 "obc/c/cmain.ml" 155 6485 6514
+)
+"obc/c/cmain.ml" 158 6609 6654 "obc/c/cmain.ml" 158 6609 6657
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 157 6572 6596 "obc/c/cmain.ml" 157 6572 6599
+)
+"obc/c/cmain.ml" 158 6609 6644 "obc/c/cmain.ml" 158 6609 6657
+call(
+  stack
+)
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 159 6661 6680 "obc/c/cmain.ml" 159 6661 6682
+type(
+  string
+)
+ident(
+  int_ref vn "obc/c/cmain.ml" 158 6609 6632 "obc/c/cmain.ml" 158 6609 6634
+)
+"obc/c/cmain.ml" 159 6661 6683 "obc/c/cmain.ml" 159 6661 6684
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 159 6661 6685 "obc/c/cmain.ml" 159 6661 6691
+type(
+  string
+)
+"obc/c/cmain.ml" 159 6661 6680 "obc/c/cmain.ml" 159 6661 6691
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 159 6661 6693 "obc/c/cmain.ml" 159 6661 6696
+type(
+  C.cexpr
+)
+ident(
+  int_ref cvn "obc/c/cmain.ml" 157 6572 6601 "obc/c/cmain.ml" 157 6572 6604
+)
+"obc/c/cmain.ml" 159 6661 6700 "obc/c/cmain.ml" 159 6661 6704
+type(
+  C.cexpr list
+)
+ident(
+  int_ref args "obc/c/cmain.ml" 158 6609 6636 "obc/c/cmain.ml" 158 6609 6640
+)
+"obc/c/cmain.ml" 159 6661 6693 "obc/c/cmain.ml" 159 6661 6704
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 159 6661 6679 "obc/c/cmain.ml" 159 6661 6705
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 158 6609 6627 "obc/c/cmain.ml" 159 6661 6705
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 160 6706 6730 "obc/c/cmain.ml" 160 6706 6733
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 161 6742 6760 "obc/c/cmain.ml" 162 6794 6845
+)
+"obc/c/cmain.ml" 160 6706 6735 "obc/c/cmain.ml" 160 6706 6737
+type(
+  Names.qualname
+)
+ident(
+  def fn "obc/c/cmain.ml" 161 6742 6760 "obc/c/cmain.ml" 162 6794 6845
+)
+"obc/c/cmain.ml" 160 6706 6722 "obc/c/cmain.ml" 160 6706 6738
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 161 6742 6765 "obc/c/cmain.ml" 161 6742 6767
+type(
+  string
+)
+ident(
+  def vn "obc/c/cmain.ml" 162 6794 6812 "obc/c/cmain.ml" 162 6794 6845
+)
+"obc/c/cmain.ml" 161 6742 6769 "obc/c/cmain.ml" 161 6742 6773
+type(
+  C.cexpr list
+)
+ident(
+  def args "obc/c/cmain.ml" 162 6794 6812 "obc/c/cmain.ml" 162 6794 6845
+)
+"obc/c/cmain.ml" 161 6742 6764 "obc/c/cmain.ml" 161 6742 6774
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 161 6742 6777 "obc/c/cmain.ml" 161 6742 6786
+type(
+  C.cexpr -> string * C.cexpr list
+)
+ident(
+  int_ref mk_prompt "obc/c/cmain.ml" 155 6485 6505 "obc/c/cmain.ml" 155 6485 6514
+)
+"obc/c/cmain.ml" 161 6742 6787 "obc/c/cmain.ml" 161 6742 6790
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 160 6706 6730 "obc/c/cmain.ml" 160 6706 6733
+)
+"obc/c/cmain.ml" 161 6742 6777 "obc/c/cmain.ml" 161 6742 6790
+call(
+  stack
+)
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 162 6794 6813 "obc/c/cmain.ml" 162 6794 6815
+type(
+  string
+)
+ident(
+  int_ref vn "obc/c/cmain.ml" 161 6742 6765 "obc/c/cmain.ml" 161 6742 6767
+)
+"obc/c/cmain.ml" 162 6794 6816 "obc/c/cmain.ml" 162 6794 6817
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 162 6794 6818 "obc/c/cmain.ml" 162 6794 6821
+type(
+  string
+)
+"obc/c/cmain.ml" 162 6794 6822 "obc/c/cmain.ml" 162 6794 6823
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 162 6794 6825 "obc/c/cmain.ml" 162 6794 6834
+type(
+  Names.qualname -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"obc/c/cmain.ml" 162 6794 6835 "obc/c/cmain.ml" 162 6794 6837
+type(
+  Names.qualname
+)
+ident(
+  int_ref fn "obc/c/cmain.ml" 160 6706 6735 "obc/c/cmain.ml" 160 6706 6737
+)
+"obc/c/cmain.ml" 162 6794 6824 "obc/c/cmain.ml" 162 6794 6838
+call(
+  stack
+)
+type(
+  Names.name
+)
+"obc/c/cmain.ml" 162 6794 6818 "obc/c/cmain.ml" 162 6794 6838
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 162 6794 6813 "obc/c/cmain.ml" 162 6794 6838
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 162 6794 6840 "obc/c/cmain.ml" 162 6794 6844
+type(
+  C.cexpr list
+)
+ident(
+  int_ref args "obc/c/cmain.ml" 161 6742 6769 "obc/c/cmain.ml" 161 6742 6773
+)
+"obc/c/cmain.ml" 162 6794 6812 "obc/c/cmain.ml" 162 6794 6845
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 161 6742 6760 "obc/c/cmain.ml" 162 6794 6845
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 163 6846 6862 "obc/c/cmain.ml" 163 6846 6863
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 163 6846 6874 "obc/c/cmain.ml" 163 6846 6879
+type(
+  bool
+)
+"obc/c/cmain.ml" 163 6846 6867 "obc/c/cmain.ml" 163 6846 6879
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 155 6485 6521 "obc/c/cmain.ml" 163 6846 6879
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 164 6883 6900 "obc/c/cmain.ml" 164 6883 6906
+type(
+  string
+)
+ident(
+  def prompt "obc/c/cmain.ml" 165 6942 6954 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 164 6883 6908 "obc/c/cmain.ml" 164 6883 6921
+type(
+  C.cexpr list
+)
+ident(
+  def args_format_s "obc/c/cmain.ml" 165 6942 6954 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 164 6883 6899 "obc/c/cmain.ml" 164 6883 6922
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 164 6883 6925 "obc/c/cmain.ml" 164 6883 6934
+type(
+  C.cexpr -> string * C.cexpr list
+)
+ident(
+  int_ref mk_prompt "obc/c/cmain.ml" 155 6485 6505 "obc/c/cmain.ml" 155 6485 6514
+)
+"obc/c/cmain.ml" 164 6883 6935 "obc/c/cmain.ml" 164 6883 6938
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 164 6883 6925 "obc/c/cmain.ml" 164 6883 6938
+call(
+  stack
+)
+type(
+  string * C.cexpr list
+)
+"obc/c/cmain.ml" 165 6942 6958 "obc/c/cmain.ml" 165 6942 6966
+type(
+  C.cexpr -> C.cstm
+)
+ident(
+  def scan_exp "obc/c/cmain.ml" 186 7900 7912 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 165 6942 6967 "obc/c/cmain.ml" 165 6942 6968
+type(
+  C.cexpr
+)
+ident(
+  def e "obc/c/cmain.ml" 166 6971 6985 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 166 6971 6989 "obc/c/cmain.ml" 166 6971 6997
+type(
+  string
+)
+ident(
+  def printf_s "obc/c/cmain.ml" 167 7033 7047 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 166 6971 7000 "obc/c/cmain.ml" 166 6971 7014
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"obc/c/cmain.ml" 166 6971 7015 "obc/c/cmain.ml" 166 6971 7022
+type(
+  (string -> string, unit, string) format
+)
+"obc/c/cmain.ml" 166 6971 7023 "obc/c/cmain.ml" 166 6971 7029
+type(
+  string
+)
+ident(
+  int_ref prompt "obc/c/cmain.ml" 164 6883 6900 "obc/c/cmain.ml" 164 6883 6906
+)
+"obc/c/cmain.ml" 166 6971 7000 "obc/c/cmain.ml" 166 6971 7029
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 167 7033 7051 "obc/c/cmain.ml" 167 7033 7059
+type(
+  string
+)
+ident(
+  def format_s "obc/c/cmain.ml" 168 7084 7098 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 167 7033 7062 "obc/c/cmain.ml" 167 7033 7077
+type(
+  Types.ty -> string
+)
+ident(
+  int_ref format_for_type "obc/c/cmain.ml" 115 4887 4893 "obc/c/cmain.ml" 115 4887 4908
+)
+"obc/c/cmain.ml" 167 7033 7078 "obc/c/cmain.ml" 167 7033 7080
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 142 5975 5981 "obc/c/cmain.ml" 142 5975 5995
+)
+"obc/c/cmain.ml" 167 7033 7062 "obc/c/cmain.ml" 167 7033 7080
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 168 7084 7102 "obc/c/cmain.ml" 168 7084 7111
+type(
+  C.cexpr
+)
+ident(
+  def exp_scanf "obc/c/cmain.ml" 169 7169 7183 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 168 7084 7125 "obc/c/cmain.ml" 168 7084 7132
+type(
+  string
+)
+"obc/c/cmain.ml" 168 7084 7151 "obc/c/cmain.ml" 168 7084 7159
+type(
+  string
+)
+ident(
+  int_ref format_s "obc/c/cmain.ml" 167 7033 7051 "obc/c/cmain.ml" 167 7033 7059
+)
+"obc/c/cmain.ml" 168 7084 7142 "obc/c/cmain.ml" 168 7084 7160
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 168 7084 7135 "obc/c/cmain.ml" 168 7084 7160
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 168 7084 7162 "obc/c/cmain.ml" 168 7084 7163
+type(
+  C.cexpr
+)
+ident(
+  int_ref e "obc/c/cmain.ml" 165 6942 6967 "obc/c/cmain.ml" 165 6942 6968
+)
+"obc/c/cmain.ml" 168 7084 7134 "obc/c/cmain.ml" 168 7084 7164
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 168 7084 7114 "obc/c/cmain.ml" 168 7084 7165
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 169 7169 7187 "obc/c/cmain.ml" 169 7169 7191
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cmain.ml" 176 7489 7503 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 170 7194 7213 "obc/c/cmain.ml" 170 7194 7214
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 170 7194 7214 "obc/c/cmain.ml" 170 7194 7247
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 170 7194 7213 "obc/c/cmain.ml" 170 7194 7247
+type(
+  bool
+)
+"obc/c/cmain.ml" 172 7320 7348 "obc/c/cmain.ml" 172 7320 7352
+type(
+  string
+)
+"obc/c/cmain.ml" 172 7320 7353 "obc/c/cmain.ml" 172 7320 7362
+type(
+  C.cexpr
+)
+ident(
+  int_ref exp_scanf "obc/c/cmain.ml" 168 7084 7102 "obc/c/cmain.ml" 168 7084 7111
+)
+"obc/c/cmain.ml" 172 7320 7367 "obc/c/cmain.ml" 172 7320 7374
+type(
+  string
+)
+"obc/c/cmain.ml" 172 7320 7363 "obc/c/cmain.ml" 172 7320 7374
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 172 7320 7343 "obc/c/cmain.ml" 172 7320 7375
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 173 7377 7409 "obc/c/cmain.ml" 173 7377 7415
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 173 7377 7416 "obc/c/cmain.ml" 173 7377 7417
+type(
+  int
+)
+"obc/c/cmain.ml" 173 7377 7408 "obc/c/cmain.ml" 173 7377 7418
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 173 7377 7401 "obc/c/cmain.ml" 173 7377 7418
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 173 7377 7400 "obc/c/cmain.ml" 173 7377 7419
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 173 7377 7420 "obc/c/cmain.ml" 173 7377 7422
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 172 7320 7339 "obc/c/cmain.ml" 173 7377 7423
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 172 7320 7338 "obc/c/cmain.ml" 173 7377 7424
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 175 7446 7472 "obc/c/cmain.ml" 175 7446 7483
+type(
+  C.cexpr
+)
+ident(
+  int_ref exp_scanf "obc/c/cmain.ml" 168 7084 7102 "obc/c/cmain.ml" 168 7084 7111
+)
+"obc/c/cmain.ml" 175 7446 7465 "obc/c/cmain.ml" 175 7446 7483
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 175 7446 7464 "obc/c/cmain.ml" 175 7446 7485
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 170 7194 7210 "obc/c/cmain.ml" 175 7446 7485
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 176 7489 7507 "obc/c/cmain.ml" 176 7489 7511
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cmain.ml" 184 7812 7826 "obc/c/cmain.ml" 185 7852 7896
+)
+"obc/c/cmain.ml" 177 7514 7533 "obc/c/cmain.ml" 177 7514 7534
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 177 7514 7534 "obc/c/cmain.ml" 177 7514 7567
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 177 7514 7533 "obc/c/cmain.ml" 177 7514 7567
+type(
+  bool
+)
+"obc/c/cmain.ml" 178 7573 7591 "obc/c/cmain.ml" 178 7573 7595
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cmain.ml" 169 7169 7187 "obc/c/cmain.ml" 169 7169 7191
+)
+"obc/c/cmain.ml" 180 7617 7654 "obc/c/cmain.ml" 180 7617 7662
+type(
+  string
+)
+"obc/c/cmain.ml" 181 7664 7717 "obc/c/cmain.ml" 181 7664 7725
+type(
+  string
+)
+ident(
+  int_ref printf_s "obc/c/cmain.ml" 166 6971 6989 "obc/c/cmain.ml" 166 6971 6997
+)
+"obc/c/cmain.ml" 181 7664 7708 "obc/c/cmain.ml" 181 7664 7726
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 181 7664 7701 "obc/c/cmain.ml" 181 7664 7726
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 182 7727 7767 "obc/c/cmain.ml" 182 7727 7780
+type(
+  C.cexpr list
+)
+ident(
+  int_ref args_format_s "obc/c/cmain.ml" 164 6883 6908 "obc/c/cmain.ml" 164 6883 6921
+)
+"obc/c/cmain.ml" 181 7664 7701 "obc/c/cmain.ml" 182 7727 7780
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 180 7617 7642 "obc/c/cmain.ml" 182 7727 7782
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 180 7617 7635 "obc/c/cmain.ml" 182 7727 7782
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 183 7783 7804 "obc/c/cmain.ml" 183 7783 7808
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cmain.ml" 169 7169 7187 "obc/c/cmain.ml" 169 7169 7191
+)
+"obc/c/cmain.ml" 180 7617 7635 "obc/c/cmain.ml" 183 7783 7808
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 177 7514 7530 "obc/c/cmain.ml" 183 7783 7808
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 184 7812 7848 "obc/c/cmain.ml" 184 7812 7850
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 185 7852 7889 "obc/c/cmain.ml" 185 7852 7893
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cmain.ml" 176 7489 7507 "obc/c/cmain.ml" 176 7489 7511
+)
+"obc/c/cmain.ml" 184 7812 7834 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cblock
+)
+"obc/c/cmain.ml" 184 7812 7826 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 176 7489 7503 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 169 7169 7183 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 168 7084 7098 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 167 7033 7047 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 166 6971 6985 "obc/c/cmain.ml" 185 7852 7896
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 186 7900 7918 "obc/c/cmain.ml" 186 7900 7933
+type(
+  Types.ty -> string option
+)
+ident(
+  int_ref need_buf_for_ty "obc/c/cmain.ml" 125 5281 5287 "obc/c/cmain.ml" 125 5281 5302
+)
+"obc/c/cmain.ml" 186 7900 7934 "obc/c/cmain.ml" 186 7900 7936
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 142 5975 5981 "obc/c/cmain.ml" 142 5975 5995
+)
+"obc/c/cmain.ml" 186 7900 7918 "obc/c/cmain.ml" 186 7900 7936
+call(
+  stack
+)
+type(
+  string option
+)
+"obc/c/cmain.ml" 187 7942 7956 "obc/c/cmain.ml" 187 7942 7960
+type(
+  string option
+)
+"obc/c/cmain.ml" 187 7942 7966 "obc/c/cmain.ml" 187 7942 7974
+type(
+  C.cexpr -> C.cstm
+)
+ident(
+  int_ref scan_exp "obc/c/cmain.ml" 165 6942 6958 "obc/c/cmain.ml" 165 6942 6966
+)
+"obc/c/cmain.ml" 187 7942 7984 "obc/c/cmain.ml" 187 7942 7987
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 187 7942 7975 "obc/c/cmain.ml" 187 7942 7988
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 187 7942 7966 "obc/c/cmain.ml" 187 7942 7988
+call(
+  stack
+)
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 187 7942 7965 "obc/c/cmain.ml" 187 7942 7989
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 187 7942 7991 "obc/c/cmain.ml" 187 7942 7993
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 187 7942 7964 "obc/c/cmain.ml" 187 7942 7994
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 188 7995 8014 "obc/c/cmain.ml" 188 7995 8017
+type(
+  string
+)
+ident(
+  def tyn "obc/c/cmain.ml" 189 8021 8037 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 188 7995 8009 "obc/c/cmain.ml" 188 7995 8017
+type(
+  string option
+)
+"obc/c/cmain.ml" 189 8021 8041 "obc/c/cmain.ml" 189 8021 8045
+type(
+  string
+)
+ident(
+  def varn "obc/c/cmain.ml" 190 8063 8065 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 189 8021 8048 "obc/c/cmain.ml" 189 8021 8053
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 189 8021 8054 "obc/c/cmain.ml" 189 8021 8059
+type(
+  string
+)
+"obc/c/cmain.ml" 189 8021 8048 "obc/c/cmain.ml" 189 8021 8059
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 190 8063 8069 "obc/c/cmain.ml" 190 8063 8072
+type(
+  C.clhs
+)
+ident(
+  def lhs "obc/c/cmain.ml" 191 8096 8112 "obc/c/cmain.ml" 195 8260 8310
+)
+"obc/c/cmain.ml" 190 8063 8075 "obc/c/cmain.ml" 190 8063 8088
+type(
+  C.cexpr -> C.clhs
+)
+ident(
+  ext_ref C.clhs_of_cexpr
+)
+"obc/c/cmain.ml" 190 8063 8089 "obc/c/cmain.ml" 190 8063 8092
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 135 5687 5712 "obc/c/cmain.ml" 135 5687 5715
+)
+"obc/c/cmain.ml" 190 8063 8075 "obc/c/cmain.ml" 190 8063 8092
+call(
+  stack
+)
+type(
+  C.clhs
+)
+"obc/c/cmain.ml" 191 8096 8114 "obc/c/cmain.ml" 191 8096 8122
+type(
+  C.cexpr -> C.cstm
+)
+ident(
+  int_ref scan_exp "obc/c/cmain.ml" 165 6942 6958 "obc/c/cmain.ml" 165 6942 6966
+)
+"obc/c/cmain.ml" 191 8096 8129 "obc/c/cmain.ml" 191 8096 8133
+type(
+  string
+)
+ident(
+  int_ref varn "obc/c/cmain.ml" 189 8021 8041 "obc/c/cmain.ml" 189 8021 8045
+)
+"obc/c/cmain.ml" 191 8096 8123 "obc/c/cmain.ml" 191 8096 8134
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 191 8096 8114 "obc/c/cmain.ml" 191 8096 8134
+call(
+  stack
+)
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 192 8136 8163 "obc/c/cmain.ml" 192 8136 8166
+type(
+  C.clhs
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 190 8063 8069 "obc/c/cmain.ml" 190 8063 8072
+)
+"obc/c/cmain.ml" 193 8168 8186 "obc/c/cmain.ml" 193 8168 8189
+type(
+  string
+)
+ident(
+  int_ref tyn "obc/c/cmain.ml" 188 7995 8014 "obc/c/cmain.ml" 188 7995 8017
+)
+"obc/c/cmain.ml" 193 8168 8190 "obc/c/cmain.ml" 193 8168 8191
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 193 8168 8192 "obc/c/cmain.ml" 193 8168 8204
+type(
+  string
+)
+"obc/c/cmain.ml" 193 8168 8186 "obc/c/cmain.ml" 193 8168 8204
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 194 8206 8249 "obc/c/cmain.ml" 194 8206 8253
+type(
+  string
+)
+ident(
+  int_ref varn "obc/c/cmain.ml" 189 8021 8041 "obc/c/cmain.ml" 189 8021 8045
+)
+"obc/c/cmain.ml" 194 8206 8244 "obc/c/cmain.ml" 194 8206 8253
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 194 8206 8243 "obc/c/cmain.ml" 194 8206 8254
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 193 8168 8174 "obc/c/cmain.ml" 194 8206 8256
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 192 8136 8154 "obc/c/cmain.ml" 194 8206 8257
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 191 8096 8113 "obc/c/cmain.ml" 194 8206 8258
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 195 8260 8279 "obc/c/cmain.ml" 195 8260 8283
+type(
+  string
+)
+ident(
+  int_ref varn "obc/c/cmain.ml" 189 8021 8041 "obc/c/cmain.ml" 189 8021 8045
+)
+"obc/c/cmain.ml" 195 8260 8294 "obc/c/cmain.ml" 195 8260 8296
+type(
+  int
+)
+"obc/c/cmain.ml" 195 8260 8298 "obc/c/cmain.ml" 195 8260 8306
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 195 8260 8285 "obc/c/cmain.ml" 195 8260 8307
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 195 8260 8278 "obc/c/cmain.ml" 195 8260 8308
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 195 8260 8277 "obc/c/cmain.ml" 195 8260 8309
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 191 8096 8112 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 190 8063 8065 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 189 8021 8037 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 186 7900 7912 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 165 6942 6954 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 164 6883 6895 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 155 6485 6497 "obc/c/cmain.ml" 195 8260 8310
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 143 5999 6007 "obc/c/cmain.ml" 196 8311 8322
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 197 8323 8335 "obc/c/cmain.ml" 197 8323 8336
+type(
+  Types.ty list
+)
+"obc/c/cmain.ml" 197 8323 8329 "obc/c/cmain.ml" 197 8323 8336
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 197 8323 8339 "obc/c/cmain.ml" 197 8323 8347
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 197 8323 8329 "obc/c/cmain.ml" 197 8323 8347
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 197 8323 8351 "obc/c/cmain.ml" 197 8323 8359
+type(
+  string -> C.cstm list * (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"obc/c/cmain.ml" 197 8323 8359 "obc/c/cmain.ml" 197 8323 8398
+type(
+  string
+)
+"obc/c/cmain.ml" 197 8323 8351 "obc/c/cmain.ml" 197 8323 8398
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 136 5721 5725 "obc/c/cmain.ml" 197 8323 8398
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 202 8524 8534 "obc/c/cmain.ml" 202 8524 8549
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  def write_lhs_of_ty "obc/c/cmain.ml" 202 8524 8526 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 202 8524 8554 "obc/c/cmain.ml" 248 10342 10418
+)
+"obc/c/cmain.ml" 202 8524 8554 "obc/c/cmain.ml" 202 8524 8556
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 203 8559 8563 "obc/c/cmain.ml" 248 10342 10418
+)
+"obc/c/cmain.ml" 203 8559 8569 "obc/c/cmain.ml" 203 8559 8571
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 202 8524 8554 "obc/c/cmain.ml" 202 8524 8556
+)
+"obc/c/cmain.ml" 204 8577 8591 "obc/c/cmain.ml" 204 8577 8593
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 205 8601 8609 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 204 8577 8595 "obc/c/cmain.ml" 204 8577 8596
+type(
+  Types.static_exp
+)
+ident(
+  def n "obc/c/cmain.ml" 205 8601 8609 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 204 8577 8583 "obc/c/cmain.ml" 204 8577 8597
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 205 8601 8613 "obc/c/cmain.ml" 205 8601 8621
+type(
+  string
+)
+ident(
+  def iter_var "obc/c/cmain.ml" 206 8637 8645 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 205 8601 8624 "obc/c/cmain.ml" 205 8601 8629
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 205 8601 8630 "obc/c/cmain.ml" 205 8601 8633
+type(
+  string
+)
+"obc/c/cmain.ml" 205 8601 8624 "obc/c/cmain.ml" 205 8601 8633
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 206 8637 8649 "obc/c/cmain.ml" 206 8637 8652
+type(
+  C.cexpr
+)
+ident(
+  def lhs "obc/c/cmain.ml" 207 8686 8694 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 206 8637 8663 "obc/c/cmain.ml" 206 8637 8666
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+)
+"obc/c/cmain.ml" 206 8637 8673 "obc/c/cmain.ml" 206 8637 8681
+type(
+  string
+)
+ident(
+  int_ref iter_var "obc/c/cmain.ml" 205 8601 8613 "obc/c/cmain.ml" 205 8601 8621
+)
+"obc/c/cmain.ml" 206 8637 8668 "obc/c/cmain.ml" 206 8637 8681
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 206 8637 8655 "obc/c/cmain.ml" 206 8637 8682
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 207 8686 8699 "obc/c/cmain.ml" 207 8686 8705
+type(
+  C.cstm list
+)
+ident(
+  def writes "obc/c/cmain.ml" 208 8741 8749 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 207 8686 8707 "obc/c/cmain.ml" 207 8686 8711
+type(
+  (string * C.cty) list
+)
+ident(
+  def bufs "obc/c/cmain.ml" 208 8741 8749 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 207 8686 8698 "obc/c/cmain.ml" 207 8686 8712
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 207 8686 8715 "obc/c/cmain.ml" 207 8686 8730
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref write_lhs_of_ty "obc/c/cmain.ml" 202 8524 8534 "obc/c/cmain.ml" 202 8524 8549
+)
+"obc/c/cmain.ml" 207 8686 8731 "obc/c/cmain.ml" 207 8686 8734
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 206 8637 8649 "obc/c/cmain.ml" 206 8637 8652
+)
+"obc/c/cmain.ml" 207 8686 8735 "obc/c/cmain.ml" 207 8686 8737
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 204 8577 8591 "obc/c/cmain.ml" 204 8577 8593
+)
+"obc/c/cmain.ml" 207 8686 8715 "obc/c/cmain.ml" 207 8686 8737
+call(
+  stack
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 208 8741 8753 "obc/c/cmain.ml" 208 8741 8764
+type(
+  C.cstm
+)
+ident(
+  def writes_loop "obc/c/cmain.ml" 210 8837 8845 "obc/c/cmain.ml" 215 8990 9027
+)
+"obc/c/cmain.ml" 209 8767 8783 "obc/c/cmain.ml" 209 8767 8791
+type(
+  string
+)
+ident(
+  int_ref iter_var "obc/c/cmain.ml" 205 8601 8613 "obc/c/cmain.ml" 205 8601 8621
+)
+"obc/c/cmain.ml" 209 8767 8793 "obc/c/cmain.ml" 209 8767 8799
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 209 8767 8800 "obc/c/cmain.ml" 209 8767 8801
+type(
+  int
+)
+"obc/c/cmain.ml" 209 8767 8793 "obc/c/cmain.ml" 209 8767 8801
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 209 8767 8803 "obc/c/cmain.ml" 209 8767 8822
+type(
+  Types.static_exp -> C.cexpr
+)
+ident(
+  ext_ref Cgen.cexpr_of_static_exp
+)
+"obc/c/cmain.ml" 209 8767 8823 "obc/c/cmain.ml" 209 8767 8824
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 204 8577 8595 "obc/c/cmain.ml" 204 8577 8596
+)
+"obc/c/cmain.ml" 209 8767 8803 "obc/c/cmain.ml" 209 8767 8824
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 209 8767 8826 "obc/c/cmain.ml" 209 8767 8832
+type(
+  C.cstm list
+)
+ident(
+  int_ref writes "obc/c/cmain.ml" 207 8686 8699 "obc/c/cmain.ml" 207 8686 8705
+)
+"obc/c/cmain.ml" 209 8767 8777 "obc/c/cmain.ml" 209 8767 8833
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 210 8837 8848 "obc/c/cmain.ml" 210 8837 8849
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 210 8837 8849 "obc/c/cmain.ml" 210 8837 8882
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 210 8837 8848 "obc/c/cmain.ml" 210 8837 8882
+type(
+  bool
+)
+"obc/c/cmain.ml" 211 8888 8900 "obc/c/cmain.ml" 211 8888 8911
+type(
+  C.cstm
+)
+ident(
+  int_ref writes_loop "obc/c/cmain.ml" 208 8741 8753 "obc/c/cmain.ml" 208 8741 8764
+)
+"obc/c/cmain.ml" 211 8888 8899 "obc/c/cmain.ml" 211 8888 8912
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 211 8888 8914 "obc/c/cmain.ml" 211 8888 8918
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref bufs "obc/c/cmain.ml" 207 8686 8707 "obc/c/cmain.ml" 207 8686 8711
+)
+"obc/c/cmain.ml" 211 8888 8898 "obc/c/cmain.ml" 211 8888 8919
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 213 8933 8945 "obc/c/cmain.ml" 213 8933 8958
+type(
+  string -> C.cstm
+)
+ident(
+  int_ref cprint_string "obc/c/cmain.ml" 132 5570 5576 "obc/c/cmain.ml" 132 5570 5589
+)
+"obc/c/cmain.ml" 213 8933 8959 "obc/c/cmain.ml" 213 8933 8963
+type(
+  string
+)
+"obc/c/cmain.ml" 213 8933 8945 "obc/c/cmain.ml" 213 8933 8963
+call(
+  stack
+)
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 214 8965 8977 "obc/c/cmain.ml" 214 8965 8988
+type(
+  C.cstm
+)
+ident(
+  int_ref writes_loop "obc/c/cmain.ml" 208 8741 8753 "obc/c/cmain.ml" 208 8741 8764
+)
+"obc/c/cmain.ml" 215 8990 9002 "obc/c/cmain.ml" 215 8990 9015
+type(
+  string -> C.cstm
+)
+ident(
+  int_ref cprint_string "obc/c/cmain.ml" 132 5570 5576 "obc/c/cmain.ml" 132 5570 5589
+)
+"obc/c/cmain.ml" 215 8990 9016 "obc/c/cmain.ml" 215 8990 9019
+type(
+  string
+)
+"obc/c/cmain.ml" 215 8990 9002 "obc/c/cmain.ml" 215 8990 9019
+call(
+  stack
+)
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 213 8933 8944 "obc/c/cmain.ml" 215 8990 9020
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 215 8990 9022 "obc/c/cmain.ml" 215 8990 9026
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref bufs "obc/c/cmain.ml" 207 8686 8707 "obc/c/cmain.ml" 207 8686 8711
+)
+"obc/c/cmain.ml" 213 8933 8943 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 210 8837 8845 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 208 8741 8749 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 207 8686 8694 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 206 8637 8645 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 205 8601 8609 "obc/c/cmain.ml" 215 8990 9027
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 216 9028 9039 "obc/c/cmain.ml" 216 9028 9041
+type(
+  Names.type_name
+)
+ident(
+  def tn "obc/c/cmain.ml" 217 9052 9060 "obc/c/cmain.ml" 247 10330 10341
+)
+"obc/c/cmain.ml" 216 9028 9034 "obc/c/cmain.ml" 216 9028 9042
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 216 9028 9046 "obc/c/cmain.ml" 216 9028 9048
+ident(
+  def ty "obc/c/cmain.ml" 217 9052 9060 "obc/c/cmain.ml" 247 10330 10341
+)
+"obc/c/cmain.ml" 216 9028 9034 "obc/c/cmain.ml" 216 9028 9048
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 217 9052 9072 "obc/c/cmain.ml" 217 9052 9089
+type(
+  Names.QualEnv.key -> Signature.type_def
+)
+ident(
+  ext_ref Modules.find_type
+)
+"obc/c/cmain.ml" 217 9052 9090 "obc/c/cmain.ml" 217 9052 9092
+type(
+  Names.type_name
+)
+ident(
+  int_ref tn "obc/c/cmain.ml" 216 9028 9039 "obc/c/cmain.ml" 216 9028 9041
+)
+"obc/c/cmain.ml" 217 9052 9072 "obc/c/cmain.ml" 217 9052 9092
+call(
+  stack
+)
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 218 9098 9115 "obc/c/cmain.ml" 218 9098 9117
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/c/cmain.ml" 218 9098 9121 "obc/c/cmain.ml" 218 9098 9143
+)
+"obc/c/cmain.ml" 218 9098 9108 "obc/c/cmain.ml" 218 9098 9117
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 218 9098 9121 "obc/c/cmain.ml" 218 9098 9136
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref write_lhs_of_ty "obc/c/cmain.ml" 202 8524 8534 "obc/c/cmain.ml" 202 8524 8549
+)
+"obc/c/cmain.ml" 218 9098 9137 "obc/c/cmain.ml" 218 9098 9140
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+)
+"obc/c/cmain.ml" 218 9098 9141 "obc/c/cmain.ml" 218 9098 9143
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 218 9098 9115 "obc/c/cmain.ml" 218 9098 9117
+)
+"obc/c/cmain.ml" 218 9098 9121 "obc/c/cmain.ml" 218 9098 9143
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 219 9144 9162 "obc/c/cmain.ml" 219 9144 9172
+type(
+  Signature.structure
+)
+ident(
+  def field_list "obc/c/cmain.ml" 220 9176 9188 "obc/c/cmain.ml" 227 9504 9528
+)
+"obc/c/cmain.ml" 219 9144 9154 "obc/c/cmain.ml" 219 9144 9172
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 220 9176 9188 "obc/c/cmain.ml" 220 9176 9202
+type(
+  (C.cstm list * (string * C.cty) list ->
+   Signature.field -> C.cstm list * (string * C.cty) list) ->
+  C.cstm list * (string * C.cty) list ->
+  Signature.structure -> C.cstm list * (string * C.cty) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/c/cmain.ml" 221 9203 9223 "obc/c/cmain.ml" 221 9203 9229
+type(
+  C.cstm list
+)
+ident(
+  def writes "obc/c/cmain.ml" 222 9236 9253 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 221 9203 9230 "obc/c/cmain.ml" 221 9203 9234
+type(
+  (string * C.cty) list
+)
+ident(
+  def bufs "obc/c/cmain.ml" 222 9236 9253 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 221 9203 9222 "obc/c/cmain.ml" 221 9203 9235
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 222 9236 9274 "obc/c/cmain.ml" 222 9236 9280
+type(
+  Names.field_name
+)
+ident(
+  def f_name "obc/c/cmain.ml" 223 9310 9327 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 222 9236 9301 "obc/c/cmain.ml" 222 9236 9305
+type(
+  Types.ty
+)
+ident(
+  def f_ty "obc/c/cmain.ml" 223 9310 9327 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 222 9236 9253 "obc/c/cmain.ml" 222 9236 9306
+type(
+  Signature.field
+)
+"obc/c/cmain.ml" 223 9310 9331 "obc/c/cmain.ml" 223 9310 9336
+type(
+  C.cexpr
+)
+ident(
+  def f_lhs "obc/c/cmain.ml" 224 9361 9378 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 223 9310 9346 "obc/c/cmain.ml" 223 9310 9349
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+)
+"obc/c/cmain.ml" 223 9310 9350 "obc/c/cmain.ml" 223 9310 9356
+type(
+  Names.field_name
+)
+ident(
+  int_ref f_name "obc/c/cmain.ml" 222 9236 9274 "obc/c/cmain.ml" 222 9236 9280
+)
+"obc/c/cmain.ml" 223 9310 9339 "obc/c/cmain.ml" 223 9310 9357
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 224 9361 9383 "obc/c/cmain.ml" 224 9361 9391
+type(
+  C.cstm list
+)
+ident(
+  def f_writes "obc/c/cmain.ml" 225 9432 9449 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 224 9361 9392 "obc/c/cmain.ml" 224 9361 9398
+type(
+  (string * C.cty) list
+)
+ident(
+  def f_bufs "obc/c/cmain.ml" 225 9432 9449 "obc/c/cmain.ml" 225 9432 9480
+)
+"obc/c/cmain.ml" 224 9361 9382 "obc/c/cmain.ml" 224 9361 9399
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 224 9361 9402 "obc/c/cmain.ml" 224 9361 9417
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref write_lhs_of_ty "obc/c/cmain.ml" 202 8524 8534 "obc/c/cmain.ml" 202 8524 8549
+)
+"obc/c/cmain.ml" 224 9361 9418 "obc/c/cmain.ml" 224 9361 9423
+type(
+  C.cexpr
+)
+ident(
+  int_ref f_lhs "obc/c/cmain.ml" 223 9310 9331 "obc/c/cmain.ml" 223 9310 9336
+)
+"obc/c/cmain.ml" 224 9361 9424 "obc/c/cmain.ml" 224 9361 9428
+type(
+  Types.ty
+)
+ident(
+  int_ref f_ty "obc/c/cmain.ml" 222 9236 9301 "obc/c/cmain.ml" 222 9236 9305
+)
+"obc/c/cmain.ml" 224 9361 9402 "obc/c/cmain.ml" 224 9361 9428
+call(
+  stack
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 225 9432 9450 "obc/c/cmain.ml" 225 9432 9456
+type(
+  C.cstm list
+)
+ident(
+  int_ref writes "obc/c/cmain.ml" 221 9203 9223 "obc/c/cmain.ml" 221 9203 9229
+)
+"obc/c/cmain.ml" 225 9432 9456 "obc/c/cmain.ml" 225 9432 9457
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 225 9432 9457 "obc/c/cmain.ml" 225 9432 9465
+type(
+  C.cstm list
+)
+ident(
+  int_ref f_writes "obc/c/cmain.ml" 224 9361 9383 "obc/c/cmain.ml" 224 9361 9391
+)
+"obc/c/cmain.ml" 225 9432 9449 "obc/c/cmain.ml" 225 9432 9466
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 225 9432 9468 "obc/c/cmain.ml" 225 9432 9472
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref bufs "obc/c/cmain.ml" 221 9203 9230 "obc/c/cmain.ml" 221 9203 9234
+)
+"obc/c/cmain.ml" 225 9432 9472 "obc/c/cmain.ml" 225 9432 9473
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 225 9432 9473 "obc/c/cmain.ml" 225 9432 9479
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref f_bufs "obc/c/cmain.ml" 224 9361 9392 "obc/c/cmain.ml" 224 9361 9398
+)
+"obc/c/cmain.ml" 225 9432 9467 "obc/c/cmain.ml" 225 9432 9480
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 225 9432 9449 "obc/c/cmain.ml" 225 9432 9480
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 224 9361 9378 "obc/c/cmain.ml" 225 9432 9480
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 223 9310 9327 "obc/c/cmain.ml" 225 9432 9480
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 221 9203 9217 "obc/c/cmain.ml" 225 9432 9481
+type(
+  C.cstm list * (string * C.cty) list ->
+  Signature.field -> C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 226 9482 9497 "obc/c/cmain.ml" 226 9482 9499
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 226 9482 9500 "obc/c/cmain.ml" 226 9482 9502
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 226 9482 9496 "obc/c/cmain.ml" 226 9482 9503
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 227 9504 9518 "obc/c/cmain.ml" 227 9504 9528
+type(
+  Signature.structure
+)
+ident(
+  int_ref field_list "obc/c/cmain.ml" 219 9144 9162 "obc/c/cmain.ml" 219 9144 9172
+)
+"obc/c/cmain.ml" 220 9176 9188 "obc/c/cmain.ml" 227 9504 9528
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 228 9529 9539 "obc/c/cmain.ml" 228 9529 9540
+type(
+  Signature.type_def
+)
+"obc/c/cmain.ml" 229 9544 9560 "obc/c/cmain.ml" 229 9544 9564
+type(
+  string
+)
+ident(
+  def varn "obc/c/cmain.ml" 230 9582 9594 "obc/c/cmain.ml" 246 10271 10329
+)
+"obc/c/cmain.ml" 229 9544 9567 "obc/c/cmain.ml" 229 9544 9572
+type(
+  string -> string
+)
+ident(
+  int_ref fresh "obc/c/cmain.ml" 45 2297 2301 "obc/c/cmain.ml" 45 2297 2306
+)
+"obc/c/cmain.ml" 229 9544 9573 "obc/c/cmain.ml" 229 9544 9578
+type(
+  string
+)
+"obc/c/cmain.ml" 229 9544 9567 "obc/c/cmain.ml" 229 9544 9578
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 230 9582 9598 "obc/c/cmain.ml" 230 9582 9606
+type(
+  string
+)
+ident(
+  def format_s "obc/c/cmain.ml" 231 9631 9643 "obc/c/cmain.ml" 246 10271 10329
+)
+"obc/c/cmain.ml" 230 9582 9609 "obc/c/cmain.ml" 230 9582 9624
+type(
+  Types.ty -> string
+)
+ident(
+  int_ref format_for_type "obc/c/cmain.ml" 115 4887 4893 "obc/c/cmain.ml" 115 4887 4908
+)
+"obc/c/cmain.ml" 230 9582 9625 "obc/c/cmain.ml" 230 9582 9627
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 216 9028 9034 "obc/c/cmain.ml" 216 9028 9048
+)
+"obc/c/cmain.ml" 230 9582 9609 "obc/c/cmain.ml" 230 9582 9627
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 231 9631 9647 "obc/c/cmain.ml" 231 9631 9655
+type(
+  string
+)
+ident(
+  def format_s "obc/c/cmain.ml" 235 9782 9794 "obc/c/cmain.ml" 246 10271 10329
+)
+"obc/c/cmain.ml" 232 9658 9675 "obc/c/cmain.ml" 232 9658 9676
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 232 9658 9676 "obc/c/cmain.ml" 232 9658 9709
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 232 9658 9675 "obc/c/cmain.ml" 232 9658 9709
+type(
+  bool
+)
+"obc/c/cmain.ml" 233 9710 9729 "obc/c/cmain.ml" 233 9710 9737
+type(
+  string
+)
+ident(
+  int_ref format_s "obc/c/cmain.ml" 230 9582 9598 "obc/c/cmain.ml" 230 9582 9606
+)
+"obc/c/cmain.ml" 233 9710 9738 "obc/c/cmain.ml" 233 9710 9739
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 233 9710 9740 "obc/c/cmain.ml" 233 9710 9744
+type(
+  string
+)
+"obc/c/cmain.ml" 233 9710 9729 "obc/c/cmain.ml" 233 9710 9744
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 234 9745 9764 "obc/c/cmain.ml" 234 9745 9772
+type(
+  string
+)
+ident(
+  int_ref format_s "obc/c/cmain.ml" 230 9582 9598 "obc/c/cmain.ml" 230 9582 9606
+)
+"obc/c/cmain.ml" 234 9745 9773 "obc/c/cmain.ml" 234 9745 9774
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 234 9745 9775 "obc/c/cmain.ml" 234 9745 9778
+type(
+  string
+)
+"obc/c/cmain.ml" 234 9745 9764 "obc/c/cmain.ml" 234 9745 9778
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 232 9658 9672 "obc/c/cmain.ml" 234 9745 9778
+type(
+  string
+)
+"obc/c/cmain.ml" 235 9782 9798 "obc/c/cmain.ml" 235 9782 9806
+type(
+  string option
+)
+ident(
+  def nbuf_opt "obc/c/cmain.ml" 236 9831 9843 "obc/c/cmain.ml" 246 10271 10329
+)
+"obc/c/cmain.ml" 235 9782 9809 "obc/c/cmain.ml" 235 9782 9824
+type(
+  Types.ty -> string option
+)
+ident(
+  int_ref need_buf_for_ty "obc/c/cmain.ml" 125 5281 5287 "obc/c/cmain.ml" 125 5281 5302
+)
+"obc/c/cmain.ml" 235 9782 9825 "obc/c/cmain.ml" 235 9782 9827
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/c/cmain.ml" 216 9028 9034 "obc/c/cmain.ml" 216 9028 9048
+)
+"obc/c/cmain.ml" 235 9782 9809 "obc/c/cmain.ml" 235 9782 9827
+call(
+  stack
+)
+type(
+  string option
+)
+"obc/c/cmain.ml" 236 9831 9847 "obc/c/cmain.ml" 236 9831 9849
+type(
+  C.cexpr list
+)
+ident(
+  def ep "obc/c/cmain.ml" 241 10065 10077 "obc/c/cmain.ml" 246 10271 10329
+)
+"obc/c/cmain.ml" 236 9831 9858 "obc/c/cmain.ml" 236 9831 9866
+type(
+  string option
+)
+ident(
+  int_ref nbuf_opt "obc/c/cmain.ml" 235 9782 9798 "obc/c/cmain.ml" 235 9782 9806
+)
+"obc/c/cmain.ml" 237 9872 9888 "obc/c/cmain.ml" 237 9872 9892
+type(
+  string option
+)
+"obc/c/cmain.ml" 237 9872 9897 "obc/c/cmain.ml" 237 9872 9900
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+)
+"obc/c/cmain.ml" 237 9872 9896 "obc/c/cmain.ml" 237 9872 9901
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 238 9902 9923 "obc/c/cmain.ml" 238 9902 9926
+type(
+  string
+)
+ident(
+  def sid "obc/c/cmain.ml" 238 9902 9930 "obc/c/cmain.ml" 240 10008 10061
+)
+"obc/c/cmain.ml" 238 9902 9918 "obc/c/cmain.ml" 238 9902 9926
+type(
+  string option
+)
+"obc/c/cmain.ml" 238 9902 9942 "obc/c/cmain.ml" 238 9902 9954
+type(
+  string
+)
+"obc/c/cmain.ml" 238 9902 9955 "obc/c/cmain.ml" 238 9902 9956
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 238 9902 9957 "obc/c/cmain.ml" 238 9902 9960
+type(
+  string
+)
+ident(
+  int_ref sid "obc/c/cmain.ml" 238 9902 9923 "obc/c/cmain.ml" 238 9902 9926
+)
+"obc/c/cmain.ml" 238 9902 9942 "obc/c/cmain.ml" 238 9902 9960
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 239 9962 10003 "obc/c/cmain.ml" 239 9962 10006
+type(
+  C.cexpr
+)
+ident(
+  int_ref lhs "obc/c/cmain.ml" 202 8524 8550 "obc/c/cmain.ml" 202 8524 8553
+)
+"obc/c/cmain.ml" 240 10008 10054 "obc/c/cmain.ml" 240 10008 10058
+type(
+  string
+)
+ident(
+  int_ref varn "obc/c/cmain.ml" 229 9544 9560 "obc/c/cmain.ml" 229 9544 9564
+)
+"obc/c/cmain.ml" 240 10008 10049 "obc/c/cmain.ml" 240 10008 10058
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 239 9962 10002 "obc/c/cmain.ml" 240 10008 10059
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 238 9902 9931 "obc/c/cmain.ml" 240 10008 10060
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 238 9902 9930 "obc/c/cmain.ml" 240 10008 10061
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 236 9831 9852 "obc/c/cmain.ml" 240 10008 10061
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 241 10065 10098 "obc/c/cmain.ml" 241 10065 10106
+type(
+  string
+)
+"obc/c/cmain.ml" 242 10108 10157 "obc/c/cmain.ml" 242 10108 10167
+type(
+  string
+)
+ident(
+  int_ref format_s "obc/c/cmain.ml" 231 9631 9647 "obc/c/cmain.ml" 231 9631 9655
+)
+"obc/c/cmain.ml" 242 10108 10148 "obc/c/cmain.ml" 242 10108 10168
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 242 10108 10141 "obc/c/cmain.ml" 242 10108 10168
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 243 10169 10205 "obc/c/cmain.ml" 243 10169 10207
+type(
+  C.cexpr list
+)
+ident(
+  int_ref ep "obc/c/cmain.ml" 236 9831 9847 "obc/c/cmain.ml" 236 9831 9849
+)
+"obc/c/cmain.ml" 242 10108 10141 "obc/c/cmain.ml" 243 10169 10207
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 241 10065 10086 "obc/c/cmain.ml" 243 10169 10209
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 241 10065 10079 "obc/c/cmain.ml" 243 10169 10209
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 241 10065 10078 "obc/c/cmain.ml" 243 10169 10210
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 244 10212 10231 "obc/c/cmain.ml" 244 10212 10239
+type(
+  string option
+)
+ident(
+  int_ref nbuf_opt "obc/c/cmain.ml" 235 9782 9798 "obc/c/cmain.ml" 235 9782 9806
+)
+"obc/c/cmain.ml" 245 10245 10260 "obc/c/cmain.ml" 245 10245 10264
+type(
+  string option
+)
+"obc/c/cmain.ml" 245 10245 10268 "obc/c/cmain.ml" 245 10245 10270
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 246 10271 10291 "obc/c/cmain.ml" 246 10271 10292
+type(
+  string
+)
+"obc/c/cmain.ml" 246 10271 10286 "obc/c/cmain.ml" 246 10271 10292
+type(
+  string option
+)
+"obc/c/cmain.ml" 246 10271 10298 "obc/c/cmain.ml" 246 10271 10302
+type(
+  string
+)
+ident(
+  int_ref varn "obc/c/cmain.ml" 229 9544 9560 "obc/c/cmain.ml" 229 9544 9564
+)
+"obc/c/cmain.ml" 246 10271 10313 "obc/c/cmain.ml" 246 10271 10315
+type(
+  int
+)
+"obc/c/cmain.ml" 246 10271 10317 "obc/c/cmain.ml" 246 10271 10325
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 246 10271 10304 "obc/c/cmain.ml" 246 10271 10326
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 246 10271 10297 "obc/c/cmain.ml" 246 10271 10327
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 246 10271 10296 "obc/c/cmain.ml" 246 10271 10328
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 244 10212 10225 "obc/c/cmain.ml" 246 10271 10328
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 241 10065 10077 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 236 9831 9843 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 235 9782 9794 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 231 9631 9643 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 230 9582 9594 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 229 9544 9556 "obc/c/cmain.ml" 246 10271 10329
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 217 9052 9060 "obc/c/cmain.ml" 247 10330 10341
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 248 10342 10354 "obc/c/cmain.ml" 248 10342 10355
+type(
+  Types.ty list
+)
+"obc/c/cmain.ml" 248 10342 10348 "obc/c/cmain.ml" 248 10342 10355
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 248 10342 10358 "obc/c/cmain.ml" 248 10342 10366
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 248 10342 10348 "obc/c/cmain.ml" 248 10342 10366
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 248 10342 10370 "obc/c/cmain.ml" 248 10342 10378
+type(
+  string -> C.cstm list * (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"obc/c/cmain.ml" 248 10342 10378 "obc/c/cmain.ml" 248 10342 10418
+type(
+  string
+)
+"obc/c/cmain.ml" 248 10342 10370 "obc/c/cmain.ml" 248 10342 10418
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 203 8559 8563 "obc/c/cmain.ml" 248 10342 10418
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 251 10425 10431 "obc/c/cmain.ml" 251 10425 10436
+type(
+  Obc.method_def
+)
+ident(
+  def stepm "obc/c/cmain.ml" 252 10462 10464 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 251 10425 10439 "obc/c/cmain.ml" 251 10425 10455
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  ext_ref Obc_utils.find_step_method
+)
+"obc/c/cmain.ml" 251 10425 10456 "obc/c/cmain.ml" 251 10425 10458
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 251 10425 10439 "obc/c/cmain.ml" 251 10425 10458
+call(
+  stack
+)
+type(
+  Obc.method_def
+)
+"obc/c/cmain.ml" 252 10462 10469 "obc/c/cmain.ml" 252 10462 10480
+type(
+  C.cstm list list
+)
+ident(
+  def scanf_calls "obc/c/cmain.ml" 257 10655 10657 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 252 10462 10482 "obc/c/cmain.ml" 252 10462 10493
+type(
+  (string * C.cty) list list
+)
+ident(
+  def scanf_decls "obc/c/cmain.ml" 257 10655 10657 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 252 10462 10468 "obc/c/cmain.ml" 252 10462 10494
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 253 10497 10505 "obc/c/cmain.ml" 253 10497 10526
+type(
+  Obc.var_dec -> C.cstm list * (string * C.cty) list
+)
+ident(
+  def read_lhs_of_ty_for_vd "obc/c/cmain.ml" 255 10598 10602 "obc/c/cmain.ml" 255 10598 10650
+)
+"obc/c/cmain.ml" 253 10497 10527 "obc/c/cmain.ml" 253 10497 10529
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/c/cmain.ml" 254 10532 10538 "obc/c/cmain.ml" 254 10532 10594
+)
+"obc/c/cmain.ml" 254 10532 10538 "obc/c/cmain.ml" 254 10532 10552
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref read_lhs_of_ty "obc/c/cmain.ml" 135 5687 5697 "obc/c/cmain.ml" 135 5687 5711
+)
+"obc/c/cmain.ml" 254 10532 10560 "obc/c/cmain.ml" 254 10532 10571
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/c/cmain.ml" 254 10532 10572 "obc/c/cmain.ml" 254 10532 10574
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/c/cmain.ml" 253 10497 10527 "obc/c/cmain.ml" 253 10497 10529
+)
+"obc/c/cmain.ml" 254 10532 10572 "obc/c/cmain.ml" 254 10532 10582
+type(
+  Idents.var_ident
+)
+"obc/c/cmain.ml" 254 10532 10559 "obc/c/cmain.ml" 254 10532 10583
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 254 10532 10553 "obc/c/cmain.ml" 254 10532 10584
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 254 10532 10585 "obc/c/cmain.ml" 254 10532 10587
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/c/cmain.ml" 253 10497 10527 "obc/c/cmain.ml" 253 10497 10529
+)
+"obc/c/cmain.ml" 254 10532 10585 "obc/c/cmain.ml" 254 10532 10594
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 254 10532 10538 "obc/c/cmain.ml" 254 10532 10594
+call(
+  tail
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 255 10598 10602 "obc/c/cmain.ml" 255 10598 10607
+type(
+  (C.cstm list * (string * C.cty) list) list ->
+  C.cstm list list * (string * C.cty) list list
+)
+ident(
+  ext_ref List.split
+)
+"obc/c/cmain.ml" 255 10598 10609 "obc/c/cmain.ml" 255 10598 10612
+type(
+  (Obc.var_dec -> C.cstm list * (string * C.cty) list) ->
+  Obc.var_dec list -> (C.cstm list * (string * C.cty) list) list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cmain.ml" 255 10598 10613 "obc/c/cmain.ml" 255 10598 10634
+type(
+  Obc.var_dec -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref read_lhs_of_ty_for_vd "obc/c/cmain.ml" 253 10497 10505 "obc/c/cmain.ml" 253 10497 10526
+)
+"obc/c/cmain.ml" 255 10598 10635 "obc/c/cmain.ml" 255 10598 10640
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 251 10425 10431 "obc/c/cmain.ml" 251 10425 10436
+)
+"obc/c/cmain.ml" 255 10598 10635 "obc/c/cmain.ml" 255 10598 10649
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 255 10598 10608 "obc/c/cmain.ml" 255 10598 10650
+call(
+  stack
+)
+type(
+  (C.cstm list * (string * C.cty) list) list
+)
+"obc/c/cmain.ml" 255 10598 10602 "obc/c/cmain.ml" 255 10598 10650
+call(
+  stack
+)
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 253 10497 10501 "obc/c/cmain.ml" 255 10598 10650
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 257 10655 10662 "obc/c/cmain.ml" 257 10655 10674
+type(
+  C.cstm list list
+)
+ident(
+  def printf_calls "obc/c/cmain.ml" 268 11049 11051 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 257 10655 10676 "obc/c/cmain.ml" 257 10655 10688
+type(
+  (string * C.cty) list list
+)
+ident(
+  def printf_decls "obc/c/cmain.ml" 268 11049 11051 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 257 10655 10661 "obc/c/cmain.ml" 257 10655 10689
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 258 10692 10700 "obc/c/cmain.ml" 258 10692 10722
+type(
+  Obc.var_dec -> C.cstm list * (string * C.cty) list
+)
+ident(
+  def write_lhs_of_ty_for_vd "obc/c/cmain.ml" 267 10991 10995 "obc/c/cmain.ml" 267 10991 11045
+)
+"obc/c/cmain.ml" 258 10692 10723 "obc/c/cmain.ml" 258 10692 10725
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/c/cmain.ml" 259 10728 10734 "obc/c/cmain.ml" 265 10947 10983
+)
+"obc/c/cmain.ml" 259 10728 10739 "obc/c/cmain.ml" 259 10728 10742
+type(
+  C.cstm list
+)
+ident(
+  def stm "obc/c/cmain.ml" 262 10873 10879 "obc/c/cmain.ml" 265 10947 10983
+)
+"obc/c/cmain.ml" 259 10728 10744 "obc/c/cmain.ml" 259 10728 10748
+type(
+  (string * C.cty) list
+)
+ident(
+  def vars "obc/c/cmain.ml" 262 10873 10879 "obc/c/cmain.ml" 265 10947 10983
+)
+"obc/c/cmain.ml" 259 10728 10738 "obc/c/cmain.ml" 259 10728 10749
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 260 10752 10760 "obc/c/cmain.ml" 260 10752 10775
+type(
+  C.cexpr -> Types.ty -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref write_lhs_of_ty "obc/c/cmain.ml" 202 8524 8534 "obc/c/cmain.ml" 202 8524 8549
+)
+"obc/c/cmain.ml" 260 10752 10790 "obc/c/cmain.ml" 260 10752 10796
+type(
+  string
+)
+"obc/c/cmain.ml" 260 10752 10785 "obc/c/cmain.ml" 260 10752 10796
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 261 10798 10831 "obc/c/cmain.ml" 261 10798 10839
+type(
+  Names.name -> Names.qualname
+)
+ident(
+  ext_ref Names.local_qn
+)
+"obc/c/cmain.ml" 261 10798 10841 "obc/c/cmain.ml" 261 10798 10845
+type(
+  Idents.var_ident -> Names.name
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/c/cmain.ml" 261 10798 10846 "obc/c/cmain.ml" 261 10798 10848
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/c/cmain.ml" 258 10692 10723 "obc/c/cmain.ml" 258 10692 10725
+)
+"obc/c/cmain.ml" 261 10798 10846 "obc/c/cmain.ml" 261 10798 10856
+type(
+  Idents.var_ident
+)
+"obc/c/cmain.ml" 261 10798 10840 "obc/c/cmain.ml" 261 10798 10857
+call(
+  stack
+)
+type(
+  Names.name
+)
+"obc/c/cmain.ml" 261 10798 10831 "obc/c/cmain.ml" 261 10798 10857
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 260 10752 10776 "obc/c/cmain.ml" 261 10798 10859
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 261 10798 10860 "obc/c/cmain.ml" 261 10798 10862
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/c/cmain.ml" 258 10692 10723 "obc/c/cmain.ml" 258 10692 10725
+)
+"obc/c/cmain.ml" 261 10798 10860 "obc/c/cmain.ml" 261 10798 10869
+type(
+  Types.ty
+)
+"obc/c/cmain.ml" 260 10752 10760 "obc/c/cmain.ml" 261 10798 10869
+call(
+  stack
+)
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 262 10873 10882 "obc/c/cmain.ml" 262 10873 10883
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 262 10873 10883 "obc/c/cmain.ml" 262 10873 10916
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 262 10873 10882 "obc/c/cmain.ml" 262 10873 10916
+type(
+  bool
+)
+"obc/c/cmain.ml" 263 10922 10925 "obc/c/cmain.ml" 263 10922 10928
+type(
+  C.cstm list
+)
+ident(
+  int_ref stm "obc/c/cmain.ml" 259 10728 10739 "obc/c/cmain.ml" 259 10728 10742
+)
+"obc/c/cmain.ml" 263 10922 10930 "obc/c/cmain.ml" 263 10922 10934
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref vars "obc/c/cmain.ml" 259 10728 10744 "obc/c/cmain.ml" 259 10728 10748
+)
+"obc/c/cmain.ml" 263 10922 10924 "obc/c/cmain.ml" 263 10922 10935
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 265 10947 10950 "obc/c/cmain.ml" 265 10947 10963
+type(
+  string -> C.cstm
+)
+ident(
+  int_ref cprint_string "obc/c/cmain.ml" 132 5570 5576 "obc/c/cmain.ml" 132 5570 5589
+)
+"obc/c/cmain.ml" 265 10947 10964 "obc/c/cmain.ml" 265 10947 10969
+type(
+  string
+)
+"obc/c/cmain.ml" 265 10947 10950 "obc/c/cmain.ml" 265 10947 10969
+call(
+  stack
+)
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 265 10947 10973 "obc/c/cmain.ml" 265 10947 10976
+type(
+  C.cstm list
+)
+ident(
+  int_ref stm "obc/c/cmain.ml" 259 10728 10739 "obc/c/cmain.ml" 259 10728 10742
+)
+"obc/c/cmain.ml" 265 10947 10950 "obc/c/cmain.ml" 265 10947 10976
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 265 10947 10978 "obc/c/cmain.ml" 265 10947 10982
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref vars "obc/c/cmain.ml" 259 10728 10744 "obc/c/cmain.ml" 259 10728 10748
+)
+"obc/c/cmain.ml" 265 10947 10949 "obc/c/cmain.ml" 265 10947 10983
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 262 10873 10879 "obc/c/cmain.ml" 265 10947 10983
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 259 10728 10734 "obc/c/cmain.ml" 265 10947 10983
+type(
+  C.cstm list * (string * C.cty) list
+)
+"obc/c/cmain.ml" 267 10991 10995 "obc/c/cmain.ml" 267 10991 11000
+type(
+  (C.cstm list * (string * C.cty) list) list ->
+  C.cstm list list * (string * C.cty) list list
+)
+ident(
+  ext_ref List.split
+)
+"obc/c/cmain.ml" 267 10991 11002 "obc/c/cmain.ml" 267 10991 11005
+type(
+  (Obc.var_dec -> C.cstm list * (string * C.cty) list) ->
+  Obc.var_dec list -> (C.cstm list * (string * C.cty) list) list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cmain.ml" 267 10991 11006 "obc/c/cmain.ml" 267 10991 11028
+type(
+  Obc.var_dec -> C.cstm list * (string * C.cty) list
+)
+ident(
+  int_ref write_lhs_of_ty_for_vd "obc/c/cmain.ml" 258 10692 10700 "obc/c/cmain.ml" 258 10692 10722
+)
+"obc/c/cmain.ml" 267 10991 11029 "obc/c/cmain.ml" 267 10991 11034
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 251 10425 10431 "obc/c/cmain.ml" 251 10425 10436
+)
+"obc/c/cmain.ml" 267 10991 11029 "obc/c/cmain.ml" 267 10991 11044
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 267 10991 11001 "obc/c/cmain.ml" 267 10991 11045
+call(
+  stack
+)
+type(
+  (C.cstm list * (string * C.cty) list) list
+)
+"obc/c/cmain.ml" 267 10991 10995 "obc/c/cmain.ml" 267 10991 11045
+call(
+  stack
+)
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 258 10692 10696 "obc/c/cmain.ml" 267 10991 11045
+type(
+  C.cstm list list * (string * C.cty) list list
+)
+"obc/c/cmain.ml" 268 11049 11055 "obc/c/cmain.ml" 268 11049 11067
+type(
+  C.cstm list
+)
+ident(
+  def printf_calls "obc/c/cmain.ml" 270 11099 11101 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 268 11049 11070 "obc/c/cmain.ml" 268 11049 11081
+type(
+  C.cstm list list -> C.cstm list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/c/cmain.ml" 268 11049 11082 "obc/c/cmain.ml" 268 11049 11094
+type(
+  C.cstm list list
+)
+ident(
+  int_ref printf_calls "obc/c/cmain.ml" 257 10655 10662 "obc/c/cmain.ml" 257 10655 10674
+)
+"obc/c/cmain.ml" 268 11049 11070 "obc/c/cmain.ml" 268 11049 11094
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 270 11099 11105 "obc/c/cmain.ml" 270 11099 11109
+type(
+  (string * C.cty) list
+)
+ident(
+  def cinp "obc/c/cmain.ml" 271 11152 11154 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 270 11099 11112 "obc/c/cmain.ml" 270 11099 11133
+type(
+  Obc.var_dec list -> (string * C.cty) list
+)
+ident(
+  ext_ref Cgen.inputlist_of_ovarlist
+)
+"obc/c/cmain.ml" 270 11099 11134 "obc/c/cmain.ml" 270 11099 11139
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 251 10425 10431 "obc/c/cmain.ml" 251 10425 10436
+)
+"obc/c/cmain.ml" 270 11099 11134 "obc/c/cmain.ml" 270 11099 11148
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 270 11099 11112 "obc/c/cmain.ml" 270 11099 11148
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 271 11152 11158 "obc/c/cmain.ml" 271 11152 11162
+type(
+  (string * C.cty) list
+)
+ident(
+  def cout "obc/c/cmain.ml" 273 11218 11220 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 271 11152 11166 "obc/c/cmain.ml" 271 11152 11172
+type(
+  string
+)
+"obc/c/cmain.ml" 271 11152 11183 "obc/c/cmain.ml" 271 11152 11192
+type(
+  Obc.class_name -> string -> Names.qualname
+)
+ident(
+  ext_ref Cgen.qn_append
+)
+"obc/c/cmain.ml" 271 11152 11193 "obc/c/cmain.ml" 271 11152 11195
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 271 11152 11193 "obc/c/cmain.ml" 271 11152 11203
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 271 11152 11204 "obc/c/cmain.ml" 271 11152 11210
+type(
+  string
+)
+"obc/c/cmain.ml" 271 11152 11182 "obc/c/cmain.ml" 271 11152 11211
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 271 11152 11174 "obc/c/cmain.ml" 271 11152 11212
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 271 11152 11166 "obc/c/cmain.ml" 271 11152 11212
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 271 11152 11165 "obc/c/cmain.ml" 271 11152 11213
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 273 11218 11224 "obc/c/cmain.ml" 273 11218 11232
+type(
+  C.cdef option
+)
+ident(
+  def mem_decl "obc/c/cmain.ml" 279 11347 11349 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 274 11235 11242 "obc/c/cmain.ml" 274 11235 11244
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 274 11235 11242 "obc/c/cmain.ml" 274 11235 11256
+type(
+  bool
+)
+"obc/c/cmain.ml" 275 11257 11281 "obc/c/cmain.ml" 275 11257 11286
+type(
+  string
+)
+"obc/c/cmain.ml" 275 11257 11296 "obc/c/cmain.ml" 275 11257 11305
+type(
+  Obc.class_name -> string -> Names.qualname
+)
+ident(
+  ext_ref Cgen.qn_append
+)
+"obc/c/cmain.ml" 275 11257 11306 "obc/c/cmain.ml" 275 11257 11308
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 275 11257 11306 "obc/c/cmain.ml" 275 11257 11316
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 275 11257 11317 "obc/c/cmain.ml" 275 11257 11323
+type(
+  string
+)
+"obc/c/cmain.ml" 275 11257 11295 "obc/c/cmain.ml" 275 11257 11324
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"obc/c/cmain.ml" 275 11257 11288 "obc/c/cmain.ml" 275 11257 11324
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 275 11257 11271 "obc/c/cmain.ml" 275 11257 11326
+type(
+  C.cdef
+)
+"obc/c/cmain.ml" 275 11257 11266 "obc/c/cmain.ml" 275 11257 11326
+type(
+  C.cdef option
+)
+"obc/c/cmain.ml" 276 11327 11336 "obc/c/cmain.ml" 276 11327 11340
+type(
+  C.cdef option
+)
+"obc/c/cmain.ml" 274 11235 11239 "obc/c/cmain.ml" 276 11327 11340
+type(
+  C.cdef option
+)
+"obc/c/cmain.ml" 279 11347 11353 "obc/c/cmain.ml" 279 11347 11360
+type(
+  (string * C.cty) list
+)
+ident(
+  def varlist "obc/c/cmain.ml" 287 11552 11554 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 280 11363 11367 "obc/c/cmain.ml" 280 11363 11371
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref cinp "obc/c/cmain.ml" 270 11099 11105 "obc/c/cmain.ml" 270 11099 11109
+)
+"obc/c/cmain.ml" 281 11372 11376 "obc/c/cmain.ml" 281 11372 11377
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 281 11372 11378 "obc/c/cmain.ml" 281 11372 11382
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref cout "obc/c/cmain.ml" 271 11152 11158 "obc/c/cmain.ml" 271 11152 11162
+)
+"obc/c/cmain.ml" 282 11383 11387 "obc/c/cmain.ml" 282 11383 11388
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 282 11383 11389 "obc/c/cmain.ml" 282 11383 11395
+type(
+  (string * C.cty) list list -> (string * C.cty) list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/c/cmain.ml" 282 11383 11396 "obc/c/cmain.ml" 282 11383 11407
+type(
+  (string * C.cty) list list
+)
+ident(
+  int_ref scanf_decls "obc/c/cmain.ml" 252 10462 10482 "obc/c/cmain.ml" 252 10462 10493
+)
+"obc/c/cmain.ml" 282 11383 11389 "obc/c/cmain.ml" 282 11383 11407
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 283 11408 11412 "obc/c/cmain.ml" 283 11408 11413
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 283 11408 11414 "obc/c/cmain.ml" 283 11408 11420
+type(
+  (string * C.cty) list list -> (string * C.cty) list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/c/cmain.ml" 283 11408 11421 "obc/c/cmain.ml" 283 11408 11433
+type(
+  (string * C.cty) list list
+)
+ident(
+  int_ref printf_decls "obc/c/cmain.ml" 257 10655 10676 "obc/c/cmain.ml" 257 10655 10688
+)
+"obc/c/cmain.ml" 283 11408 11414 "obc/c/cmain.ml" 283 11408 11433
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 282 11383 11389 "obc/c/cmain.ml" 283 11408 11433
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 281 11372 11378 "obc/c/cmain.ml" 283 11408 11433
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 280 11363 11367 "obc/c/cmain.ml" 283 11408 11433
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 287 11552 11558 "obc/c/cmain.ml" 287 11552 11564
+type(
+  C.cstm list
+)
+ident(
+  def step_l "obc/c/cmain.ml" 304 12152 12154 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 288 11567 11575 "obc/c/cmain.ml" 288 11567 11582
+type(
+  C.cexpr
+)
+ident(
+  def funcall "obc/c/cmain.ml" 294 11831 11835 "obc/c/cmain.ml" 301 12028 12082
+)
+"obc/c/cmain.ml" 289 11585 11595 "obc/c/cmain.ml" 289 11585 11599
+type(
+  C.cexpr list
+)
+ident(
+  def args "obc/c/cmain.ml" 293 11769 11775 "obc/c/cmain.ml" 293 11769 11827
+)
+"obc/c/cmain.ml" 290 11602 11610 "obc/c/cmain.ml" 290 11602 11613
+type(
+  (Obc.var_dec -> C.cexpr) -> Obc.var_dec list -> C.cexpr list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cmain.ml" 290 11602 11619 "obc/c/cmain.ml" 290 11602 11621
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/c/cmain.ml" 290 11602 11625 "obc/c/cmain.ml" 290 11602 11647
+)
+"obc/c/cmain.ml" 290 11602 11631 "obc/c/cmain.ml" 290 11602 11635
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/c/cmain.ml" 290 11602 11636 "obc/c/cmain.ml" 290 11602 11638
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/c/cmain.ml" 290 11602 11619 "obc/c/cmain.ml" 290 11602 11621
+)
+"obc/c/cmain.ml" 290 11602 11636 "obc/c/cmain.ml" 290 11602 11646
+type(
+  Idents.var_ident
+)
+"obc/c/cmain.ml" 290 11602 11630 "obc/c/cmain.ml" 290 11602 11647
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 290 11602 11625 "obc/c/cmain.ml" 290 11602 11647
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 290 11602 11614 "obc/c/cmain.ml" 290 11602 11648
+type(
+  Obc.var_dec -> C.cexpr
+)
+"obc/c/cmain.ml" 290 11602 11649 "obc/c/cmain.ml" 290 11602 11654
+type(
+  Obc.method_def
+)
+ident(
+  int_ref stepm "obc/c/cmain.ml" 251 10425 10431 "obc/c/cmain.ml" 251 10425 10436
+)
+"obc/c/cmain.ml" 290 11602 11649 "obc/c/cmain.ml" 290 11602 11663
+type(
+  Obc.var_dec list
+)
+"obc/c/cmain.ml" 290 11602 11610 "obc/c/cmain.ml" 290 11602 11663
+call(
+  stack
+)
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 291 11664 11672 "obc/c/cmain.ml" 291 11664 11673
+type(
+  C.cexpr list -> C.cexpr list -> C.cexpr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 291 11664 11689 "obc/c/cmain.ml" 291 11664 11695
+type(
+  string
+)
+"obc/c/cmain.ml" 291 11664 11683 "obc/c/cmain.ml" 291 11664 11696
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 291 11664 11675 "obc/c/cmain.ml" 291 11664 11696
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 292 11697 11714 "obc/c/cmain.ml" 292 11697 11716
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 292 11697 11714 "obc/c/cmain.ml" 292 11697 11728
+type(
+  bool
+)
+"obc/c/cmain.ml" 292 11697 11749 "obc/c/cmain.ml" 292 11697 11754
+type(
+  string
+)
+"obc/c/cmain.ml" 292 11697 11743 "obc/c/cmain.ml" 292 11697 11755
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 292 11697 11735 "obc/c/cmain.ml" 292 11697 11755
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 292 11697 11734 "obc/c/cmain.ml" 292 11697 11756
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 292 11697 11762 "obc/c/cmain.ml" 292 11697 11764
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 292 11697 11711 "obc/c/cmain.ml" 292 11697 11764
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 291 11664 11674 "obc/c/cmain.ml" 292 11697 11765
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 290 11602 11610 "obc/c/cmain.ml" 292 11697 11765
+call(
+  stack
+)
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 293 11769 11787 "obc/c/cmain.ml" 293 11769 11798
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 293 11769 11799 "obc/c/cmain.ml" 293 11769 11801
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 293 11769 11799 "obc/c/cmain.ml" 293 11769 11809
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 293 11769 11786 "obc/c/cmain.ml" 293 11769 11810
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 293 11769 11811 "obc/c/cmain.ml" 293 11769 11812
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 293 11769 11813 "obc/c/cmain.ml" 293 11769 11820
+type(
+  string
+)
+"obc/c/cmain.ml" 293 11769 11786 "obc/c/cmain.ml" 293 11769 11820
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 293 11769 11822 "obc/c/cmain.ml" 293 11769 11826
+type(
+  C.cexpr list
+)
+ident(
+  int_ref args "obc/c/cmain.ml" 289 11585 11595 "obc/c/cmain.ml" 289 11585 11599
+)
+"obc/c/cmain.ml" 293 11769 11775 "obc/c/cmain.ml" 293 11769 11827
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 289 11585 11591 "obc/c/cmain.ml" 293 11769 11827
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 294 11831 11835 "obc/c/cmain.ml" 294 11831 11841
+type(
+  C.cstm list list -> C.cstm list
+)
+ident(
+  ext_ref List.concat
+)
+"obc/c/cmain.ml" 294 11831 11842 "obc/c/cmain.ml" 294 11831 11853
+type(
+  C.cstm list list
+)
+ident(
+  int_ref scanf_calls "obc/c/cmain.ml" 252 10462 10469 "obc/c/cmain.ml" 252 10462 10480
+)
+"obc/c/cmain.ml" 294 11831 11835 "obc/c/cmain.ml" 294 11831 11853
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 295 11854 11858 "obc/c/cmain.ml" 295 11854 11859
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 295 11854 11868 "obc/c/cmain.ml" 295 11854 11875
+type(
+  C.cexpr
+)
+ident(
+  int_ref funcall "obc/c/cmain.ml" 288 11567 11575 "obc/c/cmain.ml" 288 11567 11582
+)
+"obc/c/cmain.ml" 295 11854 11861 "obc/c/cmain.ml" 295 11854 11875
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 295 11854 11860 "obc/c/cmain.ml" 295 11854 11876
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 296 11877 11881 "obc/c/cmain.ml" 296 11877 11882
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 296 11877 11883 "obc/c/cmain.ml" 296 11877 11895
+type(
+  C.cstm list
+)
+ident(
+  int_ref printf_calls "obc/c/cmain.ml" 268 11049 11055 "obc/c/cmain.ml" 268 11049 11067
+)
+"obc/c/cmain.ml" 297 11896 11900 "obc/c/cmain.ml" 297 11896 11901
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 298 11902 11912 "obc/c/cmain.ml" 298 11902 11913
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 298 11902 11913 "obc/c/cmain.ml" 298 11902 11946
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.hepts_simulation
+)
+"obc/c/cmain.ml" 298 11902 11912 "obc/c/cmain.ml" 298 11902 11946
+type(
+  bool
+)
+"obc/c/cmain.ml" 299 11947 11959 "obc/c/cmain.ml" 299 11947 11961
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 300 11962 11994 "obc/c/cmain.ml" 300 11962 12000
+type(
+  string
+)
+"obc/c/cmain.ml" 300 11962 12019 "obc/c/cmain.ml" 300 11962 12021
+type(
+  string
+)
+"obc/c/cmain.ml" 300 11962 12010 "obc/c/cmain.ml" 300 11962 12022
+type(
+  C.cconst
+)
+"obc/c/cmain.ml" 300 11962 12003 "obc/c/cmain.ml" 300 11962 12022
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 300 11962 12002 "obc/c/cmain.ml" 300 11962 12023
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 300 11962 11982 "obc/c/cmain.ml" 300 11962 12025
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 300 11962 11975 "obc/c/cmain.ml" 300 11962 12025
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 300 11962 11974 "obc/c/cmain.ml" 300 11962 12026
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 298 11902 11908 "obc/c/cmain.ml" 300 11962 12027
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 301 12028 12032 "obc/c/cmain.ml" 301 12028 12033
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 301 12028 12054 "obc/c/cmain.ml" 301 12028 12062
+type(
+  string
+)
+"obc/c/cmain.ml" 301 12028 12070 "obc/c/cmain.ml" 301 12028 12078
+type(
+  string
+)
+"obc/c/cmain.ml" 301 12028 12065 "obc/c/cmain.ml" 301 12028 12078
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 301 12028 12064 "obc/c/cmain.ml" 301 12028 12079
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 301 12028 12042 "obc/c/cmain.ml" 301 12028 12081
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 301 12028 12035 "obc/c/cmain.ml" 301 12028 12081
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 301 12028 12034 "obc/c/cmain.ml" 301 12028 12082
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 298 11902 11908 "obc/c/cmain.ml" 301 12028 12082
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 296 11877 11883 "obc/c/cmain.ml" 301 12028 12082
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 295 11854 11860 "obc/c/cmain.ml" 301 12028 12082
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 294 11831 11835 "obc/c/cmain.ml" 301 12028 12082
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 288 11567 11571 "obc/c/cmain.ml" 301 12028 12082
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 304 12152 12158 "obc/c/cmain.ml" 304 12152 12163
+type(
+  C.cstm list
+)
+ident(
+  def rst_i "obc/c/cmain.ml" 310 12325 12327 "obc/c/cmain.ml" 310 12325 12361
+)
+"obc/c/cmain.ml" 305 12166 12173 "obc/c/cmain.ml" 305 12166 12175
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 305 12166 12173 "obc/c/cmain.ml" 305 12166 12187
+type(
+  bool
+)
+"obc/c/cmain.ml" 306 12188 12218 "obc/c/cmain.ml" 306 12188 12229
+type(
+  Obc.class_name -> string
+)
+ident(
+  ext_ref C.cname_of_qn
+)
+"obc/c/cmain.ml" 306 12188 12230 "obc/c/cmain.ml" 306 12188 12232
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 114 4856 4882 "obc/c/cmain.ml" 114 4856 4884
+)
+"obc/c/cmain.ml" 306 12188 12230 "obc/c/cmain.ml" 306 12188 12240
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 306 12188 12217 "obc/c/cmain.ml" 306 12188 12241
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 306 12188 12242 "obc/c/cmain.ml" 306 12188 12243
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 306 12188 12244 "obc/c/cmain.ml" 306 12188 12252
+type(
+  string
+)
+"obc/c/cmain.ml" 306 12188 12217 "obc/c/cmain.ml" 306 12188 12252
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 307 12254 12298 "obc/c/cmain.ml" 307 12254 12303
+type(
+  string
+)
+"obc/c/cmain.ml" 307 12254 12292 "obc/c/cmain.ml" 307 12254 12304
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 307 12254 12284 "obc/c/cmain.ml" 307 12254 12304
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 307 12254 12283 "obc/c/cmain.ml" 307 12254 12305
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 306 12188 12205 "obc/c/cmain.ml" 307 12254 12307
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 306 12188 12198 "obc/c/cmain.ml" 307 12254 12307
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 306 12188 12197 "obc/c/cmain.ml" 307 12254 12308
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 308 12309 12318 "obc/c/cmain.ml" 308 12309 12320
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 305 12166 12170 "obc/c/cmain.ml" 308 12309 12320
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 310 12325 12328 "obc/c/cmain.ml" 310 12325 12336
+type(
+  C.cdef option
+)
+ident(
+  int_ref mem_decl "obc/c/cmain.ml" 273 11218 11224 "obc/c/cmain.ml" 273 11218 11232
+)
+"obc/c/cmain.ml" 310 12325 12338 "obc/c/cmain.ml" 310 12325 12345
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref varlist "obc/c/cmain.ml" 279 11347 11353 "obc/c/cmain.ml" 279 11347 11360
+)
+"obc/c/cmain.ml" 310 12325 12347 "obc/c/cmain.ml" 310 12325 12352
+type(
+  C.cstm list
+)
+ident(
+  int_ref rst_i "obc/c/cmain.ml" 304 12152 12158 "obc/c/cmain.ml" 304 12152 12163
+)
+"obc/c/cmain.ml" 310 12325 12354 "obc/c/cmain.ml" 310 12325 12360
+type(
+  C.cstm list
+)
+ident(
+  int_ref step_l "obc/c/cmain.ml" 287 11552 11558 "obc/c/cmain.ml" 287 11552 11564
+)
+"obc/c/cmain.ml" 310 12325 12327 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 304 12152 12154 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 287 11552 11554 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 279 11347 11349 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 273 11218 11220 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 271 11152 11154 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 270 11099 11101 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 268 11049 11051 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 257 10655 10657 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 252 10462 10464 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 251 10425 10427 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 202 8524 8526 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 135 5687 5689 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 132 5570 5572 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 125 5281 5283 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 115 4887 4889 "obc/c/cmain.ml" 310 12325 12361
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 314 12517 12521 "obc/c/cmain.ml" 314 12517 12530
+type(
+  (string * C.cty) list -> C.cstm list -> C.cstm list -> C.cdef
+)
+ident(
+  def main_skel "obc/c/cmain.ml" 357 13944 13944 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 314 12517 12531 "obc/c/cmain.ml" 314 12517 12539
+type(
+  (string * C.cty) list
+)
+ident(
+  def var_list "obc/c/cmain.ml" 314 12517 12540 "obc/c/cmain.ml" 355 13939 13942
+)
+"obc/c/cmain.ml" 314 12517 12540 "obc/c/cmain.ml" 314 12517 12548
+type(
+  C.cstm list
+)
+ident(
+  def prologue "obc/c/cmain.ml" 314 12517 12549 "obc/c/cmain.ml" 355 13939 13942
+)
+"obc/c/cmain.ml" 314 12517 12549 "obc/c/cmain.ml" 314 12517 12553
+type(
+  C.cstm list
+)
+ident(
+  def body "obc/c/cmain.ml" 315 12556 12558 "obc/c/cmain.ml" 355 13939 13942
+)
+"obc/c/cmain.ml" 316 12568 12583 "obc/c/cmain.ml" 316 12568 12589
+type(
+  string
+)
+"obc/c/cmain.ml" 317 12591 12605 "obc/c/cmain.ml" 317 12591 12612
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 318 12614 12629 "obc/c/cmain.ml" 318 12614 12635
+type(
+  string
+)
+"obc/c/cmain.ml" 318 12614 12637 "obc/c/cmain.ml" 318 12614 12644
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 318 12614 12628 "obc/c/cmain.ml" 318 12614 12645
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 318 12614 12648 "obc/c/cmain.ml" 318 12614 12654
+type(
+  string
+)
+"obc/c/cmain.ml" 318 12614 12673 "obc/c/cmain.ml" 318 12614 12681
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 318 12614 12664 "obc/c/cmain.ml" 318 12614 12682
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 318 12614 12656 "obc/c/cmain.ml" 318 12614 12682
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 318 12614 12647 "obc/c/cmain.ml" 318 12614 12683
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 318 12614 12627 "obc/c/cmain.ml" 318 12614 12684
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 321 12719 12728 "obc/c/cmain.ml" 321 12719 12740
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 321 12719 12742 "obc/c/cmain.ml" 321 12719 12749
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 321 12719 12727 "obc/c/cmain.ml" 321 12719 12750
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 321 12719 12755 "obc/c/cmain.ml" 321 12719 12763
+type(
+  string
+)
+ident(
+  int_ref max_step "obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+)
+"obc/c/cmain.ml" 321 12719 12765 "obc/c/cmain.ml" 321 12719 12772
+type(
+  C.cty
+)
+"obc/c/cmain.ml" 321 12719 12754 "obc/c/cmain.ml" 321 12719 12773
+type(
+  string * C.cty
+)
+"obc/c/cmain.ml" 321 12719 12777 "obc/c/cmain.ml" 321 12719 12785
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var_list "obc/c/cmain.ml" 314 12517 12531 "obc/c/cmain.ml" 314 12517 12539
+)
+"obc/c/cmain.ml" 321 12719 12754 "obc/c/cmain.ml" 321 12719 12785
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 321 12719 12727 "obc/c/cmain.ml" 321 12719 12785
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 330 12963 12988 "obc/c/cmain.ml" 330 12963 13000
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 330 12963 12982 "obc/c/cmain.ml" 330 12963 13000
+type(
+  C.clhs
+)
+"obc/c/cmain.ml" 330 12963 13002 "obc/c/cmain.ml" 330 12963 13008
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 330 12963 13009 "obc/c/cmain.ml" 330 12963 13010
+type(
+  int
+)
+"obc/c/cmain.ml" 330 12963 13002 "obc/c/cmain.ml" 330 12963 13010
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 330 12963 12973 "obc/c/cmain.ml" 330 12963 13011
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 331 13013 13038 "obc/c/cmain.ml" 331 13013 13046
+type(
+  string
+)
+ident(
+  int_ref max_step "obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+)
+"obc/c/cmain.ml" 331 13013 13032 "obc/c/cmain.ml" 331 13013 13046
+type(
+  C.clhs
+)
+"obc/c/cmain.ml" 331 13013 13048 "obc/c/cmain.ml" 331 13013 13054
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 331 13013 13055 "obc/c/cmain.ml" 331 13013 13056
+type(
+  int
+)
+"obc/c/cmain.ml" 331 13013 13048 "obc/c/cmain.ml" 331 13013 13056
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 331 13013 13023 "obc/c/cmain.ml" 331 13013 13057
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 332 13059 13080 "obc/c/cmain.ml" 332 13059 13084
+type(
+  string
+)
+"obc/c/cmain.ml" 332 13059 13091 "obc/c/cmain.ml" 332 13059 13097
+type(
+  string
+)
+"obc/c/cmain.ml" 332 13059 13086 "obc/c/cmain.ml" 332 13059 13097
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 332 13059 13099 "obc/c/cmain.ml" 332 13059 13105
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 332 13059 13106 "obc/c/cmain.ml" 332 13059 13107
+type(
+  int
+)
+"obc/c/cmain.ml" 332 13059 13099 "obc/c/cmain.ml" 332 13059 13107
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 332 13059 13074 "obc/c/cmain.ml" 332 13059 13108
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 333 13110 13141 "obc/c/cmain.ml" 333 13110 13149
+type(
+  string
+)
+ident(
+  int_ref max_step "obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+)
+"obc/c/cmain.ml" 333 13110 13135 "obc/c/cmain.ml" 333 13110 13149
+type(
+  C.clhs
+)
+"obc/c/cmain.ml" 334 13151 13187 "obc/c/cmain.ml" 334 13151 13193
+type(
+  string
+)
+"obc/c/cmain.ml" 335 13195 13245 "obc/c/cmain.ml" 335 13195 13251
+type(
+  string
+)
+"obc/c/cmain.ml" 335 13195 13240 "obc/c/cmain.ml" 335 13195 13251
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 336 13253 13298 "obc/c/cmain.ml" 336 13253 13304
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 336 13253 13305 "obc/c/cmain.ml" 336 13253 13306
+type(
+  int
+)
+"obc/c/cmain.ml" 336 13253 13298 "obc/c/cmain.ml" 336 13253 13306
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 335 13195 13232 "obc/c/cmain.ml" 336 13253 13307
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 335 13195 13231 "obc/c/cmain.ml" 336 13253 13308
+type(
+  C.cexpr list
+)
+"obc/c/cmain.ml" 334 13151 13176 "obc/c/cmain.ml" 336 13253 13309
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 333 13110 13126 "obc/c/cmain.ml" 336 13253 13310
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 333 13110 13125 "obc/c/cmain.ml" 336 13253 13311
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 336 13253 13313 "obc/c/cmain.ml" 336 13253 13315
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 332 13059 13069 "obc/c/cmain.ml" 336 13253 13316
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 323 12806 12814 "obc/c/cmain.ml" 337 13318 13327
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 338 13328 13336 "obc/c/cmain.ml" 338 13328 13337
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 338 13328 13338 "obc/c/cmain.ml" 338 13328 13346
+type(
+  C.cstm list
+)
+ident(
+  int_ref prologue "obc/c/cmain.ml" 314 12517 12540 "obc/c/cmain.ml" 314 12517 12548
+)
+"obc/c/cmain.ml" 340 13402 13410 "obc/c/cmain.ml" 340 13402 13411
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 341 13414 13438 "obc/c/cmain.ml" 341 13414 13442
+type(
+  string
+)
+"obc/c/cmain.ml" 342 13444 13474 "obc/c/cmain.ml" 342 13444 13477
+type(
+  string
+)
+"obc/c/cmain.ml" 342 13444 13484 "obc/c/cmain.ml" 342 13444 13492
+type(
+  string
+)
+ident(
+  int_ref max_step "obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+)
+"obc/c/cmain.ml" 342 13444 13479 "obc/c/cmain.ml" 342 13444 13492
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 342 13444 13468 "obc/c/cmain.ml" 342 13444 13493
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 343 13495 13525 "obc/c/cmain.ml" 343 13495 13528
+type(
+  string
+)
+"obc/c/cmain.ml" 344 13530 13565 "obc/c/cmain.ml" 344 13530 13577
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 344 13530 13560 "obc/c/cmain.ml" 344 13530 13577
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 345 13579 13614 "obc/c/cmain.ml" 345 13579 13622
+type(
+  string
+)
+ident(
+  int_ref max_step "obc/c/cmain.ml" 52 2511 2515 "obc/c/cmain.ml" 52 2511 2523
+)
+"obc/c/cmain.ml" 345 13579 13609 "obc/c/cmain.ml" 345 13579 13622
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 343 13495 13519 "obc/c/cmain.ml" 345 13579 13623
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 341 13414 13432 "obc/c/cmain.ml" 345 13579 13624
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 347 13683 13716 "obc/c/cmain.ml" 347 13683 13728
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 347 13683 13710 "obc/c/cmain.ml" 347 13683 13728
+type(
+  C.clhs
+)
+"obc/c/cmain.ml" 348 13730 13763 "obc/c/cmain.ml" 348 13730 13766
+type(
+  string
+)
+"obc/c/cmain.ml" 349 13768 13806 "obc/c/cmain.ml" 349 13768 13818
+type(
+  string
+)
+ident(
+  int_ref step_counter "obc/c/cmain.ml" 51 2477 2481 "obc/c/cmain.ml" 51 2477 2493
+)
+"obc/c/cmain.ml" 349 13768 13801 "obc/c/cmain.ml" 349 13768 13818
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 350 13820 13853 "obc/c/cmain.ml" 350 13820 13859
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 350 13820 13860 "obc/c/cmain.ml" 350 13820 13861
+type(
+  int
+)
+"obc/c/cmain.ml" 350 13820 13853 "obc/c/cmain.ml" 350 13820 13861
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 348 13730 13757 "obc/c/cmain.ml" 350 13820 13862
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 347 13683 13701 "obc/c/cmain.ml" 350 13820 13863
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 351 13864 13885 "obc/c/cmain.ml" 351 13864 13889
+type(
+  C.cstm list
+)
+ident(
+  int_ref body "obc/c/cmain.ml" 314 12517 12549 "obc/c/cmain.ml" 314 12517 12553
+)
+"obc/c/cmain.ml" 347 13683 13701 "obc/c/cmain.ml" 351 13864 13889
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 341 13414 13424 "obc/c/cmain.ml" 351 13864 13890
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 352 13892 13911 "obc/c/cmain.ml" 352 13892 13917
+type(
+  int -> C.cexpr
+)
+ident(
+  int_ref mk_int "obc/c/cmain.ml" 47 2351 2355 "obc/c/cmain.ml" 47 2351 2361
+)
+"obc/c/cmain.ml" 352 13892 13918 "obc/c/cmain.ml" 352 13892 13919
+type(
+  int
+)
+"obc/c/cmain.ml" 352 13892 13910 "obc/c/cmain.ml" 352 13892 13920
+call(
+  stack
+)
+type(
+  C.cexpr
+)
+"obc/c/cmain.ml" 352 13892 13902 "obc/c/cmain.ml" 352 13892 13920
+type(
+  C.cstm
+)
+"obc/c/cmain.ml" 340 13402 13412 "obc/c/cmain.ml" 353 13922 13931
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 338 13328 13338 "obc/c/cmain.ml" 353 13922 13931
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 323 12806 12814 "obc/c/cmain.ml" 353 13922 13931
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 319 12686 12699 "obc/c/cmain.ml" 354 13933 13938
+type(
+  C.cblock
+)
+"obc/c/cmain.ml" 315 12556 12566 "obc/c/cmain.ml" 355 13939 13942
+type(
+  C.cfundef
+)
+"obc/c/cmain.ml" 315 12556 12558 "obc/c/cmain.ml" 355 13939 13942
+type(
+  C.cdef
+)
+"obc/c/cmain.ml" 357 13944 13948 "obc/c/cmain.ml" 357 13944 13955
+type(
+  string -> Obc.program -> (string * C.cfile_desc) list
+)
+ident(
+  def mk_main "obc/c/cmain.ml" 397 15168 15168 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 357 13944 13956 "obc/c/cmain.ml" 357 13944 13960
+type(
+  string
+)
+ident(
+  def name "obc/c/cmain.ml" 357 13944 13961 "obc/c/cmain.ml" 391 15124 15130
+)
+"obc/c/cmain.ml" 357 13944 13961 "obc/c/cmain.ml" 357 13944 13962
+type(
+  Obc.program
+)
+ident(
+  def p "obc/c/cmain.ml" 358 13965 13967 "obc/c/cmain.ml" 391 15124 15130
+)
+"obc/c/cmain.ml" 358 13965 13970 "obc/c/cmain.ml" 358 13965 13971
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 358 13965 13971 "obc/c/cmain.ml" 358 13965 13998
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.simulation
+)
+"obc/c/cmain.ml" 358 13965 13970 "obc/c/cmain.ml" 358 13965 13998
+type(
+  bool
+)
+"obc/c/cmain.ml" 359 14006 14016 "obc/c/cmain.ml" 359 14006 14023
+type(
+  Obc.class_def list
+)
+ident(
+  def classes "obc/c/cmain.ml" 360 14047 14053 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 359 14006 14026 "obc/c/cmain.ml" 359 14006 14041
+type(
+  Obc.program -> Obc.class_def list
+)
+ident(
+  ext_ref Obc_utils.program_classes
+)
+"obc/c/cmain.ml" 359 14006 14042 "obc/c/cmain.ml" 359 14006 14043
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/c/cmain.ml" 357 13944 13961 "obc/c/cmain.ml" 357 13944 13962
+)
+"obc/c/cmain.ml" 359 14006 14026 "obc/c/cmain.ml" 359 14006 14043
+call(
+  stack
+)
+type(
+  Obc.class_def list
+)
+"obc/c/cmain.ml" 360 14047 14057 "obc/c/cmain.ml" 360 14047 14064
+type(
+  Names.name list
+)
+ident(
+  def n_names "obc/c/cmain.ml" 361 14101 14107 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 360 14047 14067 "obc/c/cmain.ml" 360 14047 14068
+type(
+  Names.name list ref -> Names.name list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 360 14047 14068 "obc/c/cmain.ml" 360 14047 14097
+type(
+  Names.name list ref
+)
+ident(
+  ext_ref Compiler_options.assert_nodes
+)
+"obc/c/cmain.ml" 360 14047 14067 "obc/c/cmain.ml" 360 14047 14097
+type(
+  Names.name list
+)
+"obc/c/cmain.ml" 361 14101 14111 "obc/c/cmain.ml" 361 14101 14121
+type(
+  Names.name -> Obc.class_def
+)
+ident(
+  def find_class "obc/c/cmain.ml" 365 14194 14200 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 361 14101 14122 "obc/c/cmain.ml" 361 14101 14123
+type(
+  Names.name
+)
+ident(
+  def n "obc/c/cmain.ml" 362 14126 14134 "obc/c/cmain.ml" 362 14126 14183
+)
+"obc/c/cmain.ml" 362 14126 14134 "obc/c/cmain.ml" 362 14126 14143
+type(
+  (Obc.class_def -> bool) -> Obc.class_def list -> Obc.class_def
+)
+ident(
+  ext_ref List.find
+)
+"obc/c/cmain.ml" 362 14126 14149 "obc/c/cmain.ml" 362 14126 14151
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/c/cmain.ml" 362 14126 14155 "obc/c/cmain.ml" 362 14126 14174
+)
+"obc/c/cmain.ml" 362 14126 14155 "obc/c/cmain.ml" 362 14126 14157
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 362 14126 14149 "obc/c/cmain.ml" 362 14126 14151
+)
+"obc/c/cmain.ml" 362 14126 14155 "obc/c/cmain.ml" 362 14126 14165
+type(
+  Obc.class_name
+)
+"obc/c/cmain.ml" 362 14126 14155 "obc/c/cmain.ml" 362 14126 14170
+type(
+  Names.name
+)
+"obc/c/cmain.ml" 362 14126 14171 "obc/c/cmain.ml" 362 14126 14172
+type(
+  Names.name -> Names.name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/c/cmain.ml" 362 14126 14173 "obc/c/cmain.ml" 362 14126 14174
+type(
+  Names.name
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 361 14101 14122 "obc/c/cmain.ml" 361 14101 14123
+)
+"obc/c/cmain.ml" 362 14126 14155 "obc/c/cmain.ml" 362 14126 14174
+type(
+  bool
+)
+"obc/c/cmain.ml" 362 14126 14144 "obc/c/cmain.ml" 362 14126 14175
+type(
+  Obc.class_def -> bool
+)
+"obc/c/cmain.ml" 362 14126 14176 "obc/c/cmain.ml" 362 14126 14183
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref classes "obc/c/cmain.ml" 359 14006 14016 "obc/c/cmain.ml" 359 14006 14023
+)
+"obc/c/cmain.ml" 362 14126 14134 "obc/c/cmain.ml" 362 14126 14183
+call(
+  tail
+)
+type(
+  Obc.class_def
+)
+"obc/c/cmain.ml" 365 14194 14204 "obc/c/cmain.ml" 365 14194 14213
+type(
+  Obc.class_def list
+)
+ident(
+  def a_classes "obc/c/cmain.ml" 374 14386 14392 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 366 14216 14224 "obc/c/cmain.ml" 366 14216 14238
+type(
+  (Obc.class_def list -> Names.name -> Obc.class_def list) ->
+  Obc.class_def list -> Names.name list -> Obc.class_def list
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/c/cmain.ml" 367 14239 14254 "obc/c/cmain.ml" 367 14239 14257
+type(
+  Obc.class_def list
+)
+ident(
+  def acc "obc/c/cmain.ml" 367 14239 14258 "obc/c/cmain.ml" 370 14315 14349
+)
+"obc/c/cmain.ml" 367 14239 14258 "obc/c/cmain.ml" 367 14239 14259
+type(
+  Names.name
+)
+ident(
+  def n "obc/c/cmain.ml" 368 14263 14276 "obc/c/cmain.ml" 370 14315 14349
+)
+"obc/c/cmain.ml" 369 14280 14295 "obc/c/cmain.ml" 369 14280 14305
+type(
+  Names.name -> Obc.class_def
+)
+ident(
+  int_ref find_class "obc/c/cmain.ml" 361 14101 14111 "obc/c/cmain.ml" 361 14101 14121
+)
+"obc/c/cmain.ml" 369 14280 14306 "obc/c/cmain.ml" 369 14280 14307
+type(
+  Names.name
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 367 14239 14258 "obc/c/cmain.ml" 367 14239 14259
+)
+"obc/c/cmain.ml" 369 14280 14295 "obc/c/cmain.ml" 369 14280 14307
+call(
+  stack
+)
+type(
+  Obc.class_def
+)
+"obc/c/cmain.ml" 369 14280 14311 "obc/c/cmain.ml" 369 14280 14314
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref acc "obc/c/cmain.ml" 367 14239 14254 "obc/c/cmain.ml" 367 14239 14257
+)
+"obc/c/cmain.ml" 369 14280 14295 "obc/c/cmain.ml" 369 14280 14314
+type(
+  Obc.class_def list
+)
+"obc/c/cmain.ml" 370 14315 14333 "obc/c/cmain.ml" 370 14315 14342
+type(
+  exn
+)
+"obc/c/cmain.ml" 370 14315 14346 "obc/c/cmain.ml" 370 14315 14349
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref acc "obc/c/cmain.ml" 367 14239 14254 "obc/c/cmain.ml" 367 14239 14257
+)
+"obc/c/cmain.ml" 368 14263 14276 "obc/c/cmain.ml" 370 14315 14349
+type(
+  Obc.class_def list
+)
+"obc/c/cmain.ml" 367 14239 14249 "obc/c/cmain.ml" 370 14315 14350
+type(
+  Obc.class_def list -> Names.name -> Obc.class_def list
+)
+"obc/c/cmain.ml" 371 14351 14361 "obc/c/cmain.ml" 371 14351 14363
+type(
+  Obc.class_def list
+)
+"obc/c/cmain.ml" 372 14364 14374 "obc/c/cmain.ml" 372 14364 14381
+type(
+  Names.name list
+)
+ident(
+  int_ref n_names "obc/c/cmain.ml" 360 14047 14057 "obc/c/cmain.ml" 360 14047 14064
+)
+"obc/c/cmain.ml" 366 14216 14224 "obc/c/cmain.ml" 372 14364 14381
+call(
+  stack
+)
+type(
+  Obc.class_def list
+)
+"obc/c/cmain.ml" 374 14386 14397 "obc/c/cmain.ml" 374 14386 14402
+type(
+  (string * C.cty) list
+)
+ident(
+  def var_l "obc/c/cmain.ml" 380 14631 14637 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 374 14386 14404 "obc/c/cmain.ml" 374 14386 14409
+type(
+  C.cstm list
+)
+ident(
+  def res_l "obc/c/cmain.ml" 380 14631 14637 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 374 14386 14411 "obc/c/cmain.ml" 374 14386 14417
+type(
+  C.cstm list
+)
+ident(
+  def step_l "obc/c/cmain.ml" 380 14631 14637 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 374 14386 14396 "obc/c/cmain.ml" 374 14386 14418
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 375 14421 14433 "obc/c/cmain.ml" 375 14421 14436
+type(
+  Obc.class_def ->
+  (string * C.cty) list * C.cstm list * C.cstm list ->
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+ident(
+  def add "obc/c/cmain.ml" 378 14576 14584 "obc/c/cmain.ml" 378 14576 14626
+)
+"obc/c/cmain.ml" 375 14421 14437 "obc/c/cmain.ml" 375 14421 14439
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/c/cmain.ml" 375 14421 14440 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 375 14421 14441 "obc/c/cmain.ml" 375 14421 14446
+type(
+  (string * C.cty) list
+)
+ident(
+  def var_l "obc/c/cmain.ml" 376 14465 14475 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 375 14421 14448 "obc/c/cmain.ml" 375 14421 14453
+type(
+  C.cstm list
+)
+ident(
+  def res_l "obc/c/cmain.ml" 376 14465 14475 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 375 14421 14455 "obc/c/cmain.ml" 375 14421 14461
+type(
+  C.cstm list
+)
+ident(
+  def step_l "obc/c/cmain.ml" 376 14465 14475 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 375 14421 14440 "obc/c/cmain.ml" 375 14421 14462
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 376 14465 14480 "obc/c/cmain.ml" 376 14465 14483
+type(
+  (string * C.cty) list
+)
+ident(
+  def var "obc/c/cmain.ml" 377 14520 14530 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 376 14465 14485 "obc/c/cmain.ml" 376 14465 14488
+type(
+  C.cstm list
+)
+ident(
+  def res "obc/c/cmain.ml" 377 14520 14530 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 376 14465 14490 "obc/c/cmain.ml" 376 14465 14494
+type(
+  C.cstm
+)
+ident(
+  def step "obc/c/cmain.ml" 377 14520 14530 "obc/c/cmain.ml" 377 14520 14572
+)
+"obc/c/cmain.ml" 376 14465 14479 "obc/c/cmain.ml" 376 14465 14495
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 376 14465 14498 "obc/c/cmain.ml" 376 14465 14513
+type(
+  Obc.class_def -> (string * C.cty) list * C.cstm list * C.cstm
+)
+ident(
+  int_ref assert_node_res "obc/c/cmain.ml" 54 2543 2547 "obc/c/cmain.ml" 54 2543 2562
+)
+"obc/c/cmain.ml" 376 14465 14514 "obc/c/cmain.ml" 376 14465 14516
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/c/cmain.ml" 375 14421 14437 "obc/c/cmain.ml" 375 14421 14439
+)
+"obc/c/cmain.ml" 376 14465 14498 "obc/c/cmain.ml" 376 14465 14516
+call(
+  stack
+)
+type(
+  (string * C.cty) list * C.cstm list * C.cstm
+)
+"obc/c/cmain.ml" 377 14520 14531 "obc/c/cmain.ml" 377 14520 14534
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var "obc/c/cmain.ml" 376 14465 14480 "obc/c/cmain.ml" 376 14465 14483
+)
+"obc/c/cmain.ml" 377 14520 14535 "obc/c/cmain.ml" 377 14520 14536
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 377 14520 14537 "obc/c/cmain.ml" 377 14520 14542
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var_l "obc/c/cmain.ml" 375 14421 14441 "obc/c/cmain.ml" 375 14421 14446
+)
+"obc/c/cmain.ml" 377 14520 14531 "obc/c/cmain.ml" 377 14520 14542
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 377 14520 14544 "obc/c/cmain.ml" 377 14520 14547
+type(
+  C.cstm list
+)
+ident(
+  int_ref res "obc/c/cmain.ml" 376 14465 14485 "obc/c/cmain.ml" 376 14465 14488
+)
+"obc/c/cmain.ml" 377 14520 14548 "obc/c/cmain.ml" 377 14520 14549
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 377 14520 14550 "obc/c/cmain.ml" 377 14520 14555
+type(
+  C.cstm list
+)
+ident(
+  int_ref res_l "obc/c/cmain.ml" 375 14421 14448 "obc/c/cmain.ml" 375 14421 14453
+)
+"obc/c/cmain.ml" 377 14520 14544 "obc/c/cmain.ml" 377 14520 14555
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 377 14520 14557 "obc/c/cmain.ml" 377 14520 14561
+type(
+  C.cstm
+)
+ident(
+  int_ref step "obc/c/cmain.ml" 376 14465 14490 "obc/c/cmain.ml" 376 14465 14494
+)
+"obc/c/cmain.ml" 377 14520 14565 "obc/c/cmain.ml" 377 14520 14571
+type(
+  C.cstm list
+)
+ident(
+  int_ref step_l "obc/c/cmain.ml" 375 14421 14455 "obc/c/cmain.ml" 375 14421 14461
+)
+"obc/c/cmain.ml" 377 14520 14557 "obc/c/cmain.ml" 377 14520 14571
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 377 14520 14530 "obc/c/cmain.ml" 377 14520 14572
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 376 14465 14475 "obc/c/cmain.ml" 377 14520 14572
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 378 14576 14584 "obc/c/cmain.ml" 378 14576 14599
+type(
+  (Obc.class_def ->
+   (string * C.cty) list * C.cstm list * C.cstm list ->
+   (string * C.cty) list * C.cstm list * C.cstm list) ->
+  Obc.class_def list ->
+  (string * C.cty) list * C.cstm list * C.cstm list ->
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+ident(
+  ext_ref List.fold_right
+)
+"obc/c/cmain.ml" 378 14576 14600 "obc/c/cmain.ml" 378 14576 14603
+type(
+  Obc.class_def ->
+  (string * C.cty) list * C.cstm list * C.cstm list ->
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+ident(
+  int_ref add "obc/c/cmain.ml" 375 14421 14433 "obc/c/cmain.ml" 375 14421 14436
+)
+"obc/c/cmain.ml" 378 14576 14604 "obc/c/cmain.ml" 378 14576 14613
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref a_classes "obc/c/cmain.ml" 365 14194 14204 "obc/c/cmain.ml" 365 14194 14213
+)
+"obc/c/cmain.ml" 378 14576 14615 "obc/c/cmain.ml" 378 14576 14617
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 378 14576 14619 "obc/c/cmain.ml" 378 14576 14621
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 378 14576 14623 "obc/c/cmain.ml" 378 14576 14625
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 378 14576 14614 "obc/c/cmain.ml" 378 14576 14626
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 378 14576 14584 "obc/c/cmain.ml" 378 14576 14626
+call(
+  stack
+)
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 375 14421 14429 "obc/c/cmain.ml" 378 14576 14626
+type(
+  (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 380 14631 14641 "obc/c/cmain.ml" 380 14631 14642
+type(
+  Names.name
+)
+ident(
+  def n "obc/c/cmain.ml" 381 14682 14688 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 380 14631 14645 "obc/c/cmain.ml" 380 14631 14646
+type(
+  Names.name ref -> Names.name
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 380 14631 14646 "obc/c/cmain.ml" 380 14631 14678
+type(
+  Names.name ref
+)
+ident(
+  ext_ref Compiler_options.simulation_node
+)
+"obc/c/cmain.ml" 380 14631 14645 "obc/c/cmain.ml" 380 14631 14678
+type(
+  Names.name
+)
+"obc/c/cmain.ml" 381 14682 14693 "obc/c/cmain.ml" 381 14682 14697
+type(
+  C.cdef list
+)
+ident(
+  def defs "obc/c/cmain.ml" 388 15003 15009 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 381 14682 14699 "obc/c/cmain.ml" 381 14682 14704
+type(
+  (string * C.cty) list
+)
+ident(
+  def var_l "obc/c/cmain.ml" 388 15003 15009 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 381 14682 14706 "obc/c/cmain.ml" 381 14682 14711
+type(
+  C.cstm list
+)
+ident(
+  def res_l "obc/c/cmain.ml" 388 15003 15009 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 381 14682 14713 "obc/c/cmain.ml" 381 14682 14719
+type(
+  C.cstm list
+)
+ident(
+  def step_l "obc/c/cmain.ml" 388 15003 15009 "obc/c/cmain.ml" 389 15072 15114
+)
+"obc/c/cmain.ml" 381 14682 14692 "obc/c/cmain.ml" 381 14682 14720
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 383 14735 14750 "obc/c/cmain.ml" 383 14735 14753
+type(
+  C.cdef option
+)
+ident(
+  def mem "obc/c/cmain.ml" 384 14819 14829 "obc/c/cmain.ml" 385 14885 14948
+)
+"obc/c/cmain.ml" 383 14735 14755 "obc/c/cmain.ml" 383 14735 14761
+type(
+  (string * C.cty) list
+)
+ident(
+  def nvar_l "obc/c/cmain.ml" 384 14819 14829 "obc/c/cmain.ml" 385 14885 14948
+)
+"obc/c/cmain.ml" 383 14735 14763 "obc/c/cmain.ml" 383 14735 14766
+type(
+  C.cstm list
+)
+ident(
+  def res "obc/c/cmain.ml" 384 14819 14829 "obc/c/cmain.ml" 385 14885 14948
+)
+"obc/c/cmain.ml" 383 14735 14768 "obc/c/cmain.ml" 383 14735 14775
+type(
+  C.cstm list
+)
+ident(
+  def nstep_l "obc/c/cmain.ml" 384 14819 14829 "obc/c/cmain.ml" 385 14885 14948
+)
+"obc/c/cmain.ml" 383 14735 14749 "obc/c/cmain.ml" 383 14735 14776
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 383 14735 14779 "obc/c/cmain.ml" 383 14735 14800
+type(
+  Obc.class_def ->
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+ident(
+  int_ref main_def_of_class_def "obc/c/cmain.ml" 114 4856 4860 "obc/c/cmain.ml" 114 4856 4881
+)
+"obc/c/cmain.ml" 383 14735 14802 "obc/c/cmain.ml" 383 14735 14812
+type(
+  Names.name -> Obc.class_def
+)
+ident(
+  int_ref find_class "obc/c/cmain.ml" 361 14101 14111 "obc/c/cmain.ml" 361 14101 14121
+)
+"obc/c/cmain.ml" 383 14735 14813 "obc/c/cmain.ml" 383 14735 14814
+type(
+  Names.name
+)
+ident(
+  int_ref n "obc/c/cmain.ml" 380 14631 14641 "obc/c/cmain.ml" 380 14631 14642
+)
+"obc/c/cmain.ml" 383 14735 14801 "obc/c/cmain.ml" 383 14735 14815
+call(
+  stack
+)
+type(
+  Obc.class_def
+)
+"obc/c/cmain.ml" 383 14735 14779 "obc/c/cmain.ml" 383 14735 14815
+call(
+  stack
+)
+type(
+  C.cdef option * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 384 14819 14833 "obc/c/cmain.ml" 384 14819 14837
+type(
+  C.cdef list
+)
+ident(
+  def defs "obc/c/cmain.ml" 385 14885 14895 "obc/c/cmain.ml" 385 14885 14948
+)
+"obc/c/cmain.ml" 384 14819 14846 "obc/c/cmain.ml" 384 14819 14849
+type(
+  C.cdef option
+)
+ident(
+  int_ref mem "obc/c/cmain.ml" 383 14735 14750 "obc/c/cmain.ml" 383 14735 14753
+)
+"obc/c/cmain.ml" 384 14819 14855 "obc/c/cmain.ml" 384 14819 14859
+type(
+  C.cdef option
+)
+"obc/c/cmain.ml" 384 14819 14863 "obc/c/cmain.ml" 384 14819 14865
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 384 14819 14873 "obc/c/cmain.ml" 384 14819 14874
+type(
+  C.cdef
+)
+ident(
+  def m "obc/c/cmain.ml" 384 14819 14878 "obc/c/cmain.ml" 384 14819 14881
+)
+"obc/c/cmain.ml" 384 14819 14868 "obc/c/cmain.ml" 384 14819 14874
+type(
+  C.cdef option
+)
+"obc/c/cmain.ml" 384 14819 14879 "obc/c/cmain.ml" 384 14819 14880
+type(
+  C.cdef
+)
+ident(
+  int_ref m "obc/c/cmain.ml" 384 14819 14873 "obc/c/cmain.ml" 384 14819 14874
+)
+"obc/c/cmain.ml" 384 14819 14878 "obc/c/cmain.ml" 384 14819 14881
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 384 14819 14840 "obc/c/cmain.ml" 384 14819 14881
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 385 14885 14896 "obc/c/cmain.ml" 385 14885 14900
+type(
+  C.cdef list
+)
+ident(
+  int_ref defs "obc/c/cmain.ml" 384 14819 14833 "obc/c/cmain.ml" 384 14819 14837
+)
+"obc/c/cmain.ml" 385 14885 14902 "obc/c/cmain.ml" 385 14885 14908
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref nvar_l "obc/c/cmain.ml" 383 14735 14755 "obc/c/cmain.ml" 383 14735 14761
+)
+"obc/c/cmain.ml" 385 14885 14909 "obc/c/cmain.ml" 385 14885 14910
+type(
+  (string * C.cty) list -> (string * C.cty) list -> (string * C.cty) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 385 14885 14911 "obc/c/cmain.ml" 385 14885 14916
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var_l "obc/c/cmain.ml" 374 14386 14397 "obc/c/cmain.ml" 374 14386 14402
+)
+"obc/c/cmain.ml" 385 14885 14902 "obc/c/cmain.ml" 385 14885 14916
+call(
+  stack
+)
+type(
+  (string * C.cty) list
+)
+"obc/c/cmain.ml" 385 14885 14918 "obc/c/cmain.ml" 385 14885 14921
+type(
+  C.cstm list
+)
+ident(
+  int_ref res "obc/c/cmain.ml" 383 14735 14763 "obc/c/cmain.ml" 383 14735 14766
+)
+"obc/c/cmain.ml" 385 14885 14922 "obc/c/cmain.ml" 385 14885 14923
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 385 14885 14924 "obc/c/cmain.ml" 385 14885 14929
+type(
+  C.cstm list
+)
+ident(
+  int_ref res_l "obc/c/cmain.ml" 374 14386 14404 "obc/c/cmain.ml" 374 14386 14409
+)
+"obc/c/cmain.ml" 385 14885 14918 "obc/c/cmain.ml" 385 14885 14929
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 385 14885 14931 "obc/c/cmain.ml" 385 14885 14938
+type(
+  C.cstm list
+)
+ident(
+  int_ref nstep_l "obc/c/cmain.ml" 383 14735 14768 "obc/c/cmain.ml" 383 14735 14775
+)
+"obc/c/cmain.ml" 385 14885 14939 "obc/c/cmain.ml" 385 14885 14940
+type(
+  C.cstm list -> C.cstm list -> C.cstm list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 385 14885 14941 "obc/c/cmain.ml" 385 14885 14947
+type(
+  C.cstm list
+)
+ident(
+  int_ref step_l "obc/c/cmain.ml" 374 14386 14411 "obc/c/cmain.ml" 374 14386 14417
+)
+"obc/c/cmain.ml" 385 14885 14931 "obc/c/cmain.ml" 385 14885 14947
+call(
+  stack
+)
+type(
+  C.cstm list
+)
+"obc/c/cmain.ml" 385 14885 14895 "obc/c/cmain.ml" 385 14885 14948
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 384 14819 14829 "obc/c/cmain.ml" 385 14885 14948
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 383 14735 14745 "obc/c/cmain.ml" 385 14885 14948
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 386 14949 14962 "obc/c/cmain.ml" 386 14949 14971
+type(
+  exn
+)
+"obc/c/cmain.ml" 386 14949 14976 "obc/c/cmain.ml" 386 14949 14978
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 386 14949 14979 "obc/c/cmain.ml" 386 14949 14984
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var_l "obc/c/cmain.ml" 374 14386 14397 "obc/c/cmain.ml" 374 14386 14402
+)
+"obc/c/cmain.ml" 386 14949 14985 "obc/c/cmain.ml" 386 14949 14990
+type(
+  C.cstm list
+)
+ident(
+  int_ref res_l "obc/c/cmain.ml" 374 14386 14404 "obc/c/cmain.ml" 374 14386 14409
+)
+"obc/c/cmain.ml" 386 14949 14991 "obc/c/cmain.ml" 386 14949 14997
+type(
+  C.cstm list
+)
+ident(
+  int_ref step_l "obc/c/cmain.ml" 374 14386 14411 "obc/c/cmain.ml" 374 14386 14417
+)
+"obc/c/cmain.ml" 386 14949 14975 "obc/c/cmain.ml" 386 14949 14998
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 382 14723 14731 "obc/c/cmain.ml" 386 14949 14998
+type(
+  C.cdef list * (string * C.cty) list * C.cstm list * C.cstm list
+)
+"obc/c/cmain.ml" 388 15003 15011 "obc/c/cmain.ml" 388 15003 15020
+type(
+  string
+)
+"obc/c/cmain.ml" 388 15003 15031 "obc/c/cmain.ml" 388 15003 15035
+type(
+  C.cdef list
+)
+ident(
+  int_ref defs "obc/c/cmain.ml" 381 14682 14693 "obc/c/cmain.ml" 381 14682 14697
+)
+"obc/c/cmain.ml" 388 15003 15036 "obc/c/cmain.ml" 388 15003 15037
+type(
+  C.cdef list -> C.cdef list -> C.cdef list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 388 15003 15039 "obc/c/cmain.ml" 388 15003 15048
+type(
+  (string * C.cty) list -> C.cstm list -> C.cstm list -> C.cdef
+)
+ident(
+  int_ref main_skel "obc/c/cmain.ml" 314 12517 12521 "obc/c/cmain.ml" 314 12517 12530
+)
+"obc/c/cmain.ml" 388 15003 15049 "obc/c/cmain.ml" 388 15003 15054
+type(
+  (string * C.cty) list
+)
+ident(
+  int_ref var_l "obc/c/cmain.ml" 381 14682 14699 "obc/c/cmain.ml" 381 14682 14704
+)
+"obc/c/cmain.ml" 388 15003 15055 "obc/c/cmain.ml" 388 15003 15060
+type(
+  C.cstm list
+)
+ident(
+  int_ref res_l "obc/c/cmain.ml" 381 14682 14706 "obc/c/cmain.ml" 381 14682 14711
+)
+"obc/c/cmain.ml" 388 15003 15061 "obc/c/cmain.ml" 388 15003 15067
+type(
+  C.cstm list
+)
+ident(
+  int_ref step_l "obc/c/cmain.ml" 381 14682 14713 "obc/c/cmain.ml" 381 14682 14719
+)
+"obc/c/cmain.ml" 388 15003 15039 "obc/c/cmain.ml" 388 15003 15067
+call(
+  stack
+)
+type(
+  C.cdef
+)
+"obc/c/cmain.ml" 388 15003 15038 "obc/c/cmain.ml" 388 15003 15068
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 388 15003 15030 "obc/c/cmain.ml" 388 15003 15069
+call(
+  stack
+)
+type(
+  C.cdef list
+)
+"obc/c/cmain.ml" 388 15003 15022 "obc/c/cmain.ml" 388 15003 15069
+type(
+  C.cfile_desc
+)
+"obc/c/cmain.ml" 388 15003 15010 "obc/c/cmain.ml" 388 15003 15070
+type(
+  string * C.cfile_desc
+)
+"obc/c/cmain.ml" 389 15072 15080 "obc/c/cmain.ml" 389 15072 15089
+type(
+  string
+)
+"obc/c/cmain.ml" 389 15072 15101 "obc/c/cmain.ml" 389 15072 15105
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 357 13944 13956 "obc/c/cmain.ml" 357 13944 13960
+)
+"obc/c/cmain.ml" 389 15072 15100 "obc/c/cmain.ml" 389 15072 15106
+type(
+  string list
+)
+"obc/c/cmain.ml" 389 15072 15108 "obc/c/cmain.ml" 389 15072 15110
+type(
+  C.cdecl list
+)
+"obc/c/cmain.ml" 389 15072 15091 "obc/c/cmain.ml" 389 15072 15111
+type(
+  C.cfile_desc
+)
+"obc/c/cmain.ml" 389 15072 15079 "obc/c/cmain.ml" 389 15072 15112
+type(
+  string * C.cfile_desc
+)
+"obc/c/cmain.ml" 388 15003 15009 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 381 14682 14688 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 380 14631 14637 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 374 14386 14392 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 365 14194 14200 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 361 14101 14107 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 360 14047 14053 "obc/c/cmain.ml" 389 15072 15114
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 358 13965 14004 "obc/c/cmain.ml" 390 15115 15118
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 391 15124 15128 "obc/c/cmain.ml" 391 15124 15130
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 358 13965 13967 "obc/c/cmain.ml" 391 15124 15130
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 397 15168 15172 "obc/c/cmain.ml" 397 15168 15181
+type(
+  string -> Obc.program -> (string * C.cfile_desc) list
+)
+ident(
+  def translate "obc/c/cmain.ml" 402 15341 15341 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 397 15168 15182 "obc/c/cmain.ml" 397 15168 15186
+type(
+  string
+)
+ident(
+  def name "obc/c/cmain.ml" 397 15168 15187 "obc/c/cmain.ml" 400 15282 15339
+)
+"obc/c/cmain.ml" 397 15168 15187 "obc/c/cmain.ml" 397 15168 15191
+type(
+  Obc.program
+)
+ident(
+  def prog "obc/c/cmain.ml" 398 15194 15196 "obc/c/cmain.ml" 400 15282 15339
+)
+"obc/c/cmain.ml" 398 15194 15200 "obc/c/cmain.ml" 398 15194 15207
+type(
+  string
+)
+ident(
+  def modname "obc/c/cmain.ml" 399 15238 15240 "obc/c/cmain.ml" 400 15282 15339
+)
+"obc/c/cmain.ml" 398 15194 15211 "obc/c/cmain.ml" 398 15194 15228
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"obc/c/cmain.ml" 398 15194 15229 "obc/c/cmain.ml" 398 15194 15233
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 397 15168 15182 "obc/c/cmain.ml" 397 15168 15186
+)
+"obc/c/cmain.ml" 398 15194 15210 "obc/c/cmain.ml" 398 15194 15234
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 399 15238 15240 "obc/c/cmain.ml" 399 15238 15251
+type(
+  string ref
+)
+ident(
+  ext_ref Cgen.global_name
+)
+"obc/c/cmain.ml" 399 15238 15252 "obc/c/cmain.ml" 399 15238 15254
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"obc/c/cmain.ml" 399 15238 15255 "obc/c/cmain.ml" 399 15238 15272
+type(
+  string -> string
+)
+ident(
+  ext_ref String.capitalize
+)
+"obc/c/cmain.ml" 399 15238 15273 "obc/c/cmain.ml" 399 15238 15280
+type(
+  string
+)
+ident(
+  int_ref modname "obc/c/cmain.ml" 398 15194 15200 "obc/c/cmain.ml" 398 15194 15207
+)
+"obc/c/cmain.ml" 399 15238 15255 "obc/c/cmain.ml" 399 15238 15280
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 399 15238 15240 "obc/c/cmain.ml" 399 15238 15280
+type(
+  unit
+)
+"obc/c/cmain.ml" 400 15282 15285 "obc/c/cmain.ml" 400 15282 15303
+type(
+  string -> Obc.program -> (string * C.cfile_desc) list
+)
+ident(
+  ext_ref Cgen.global_file_header
+)
+"obc/c/cmain.ml" 400 15282 15304 "obc/c/cmain.ml" 400 15282 15311
+type(
+  string
+)
+ident(
+  int_ref modname "obc/c/cmain.ml" 398 15194 15200 "obc/c/cmain.ml" 398 15194 15207
+)
+"obc/c/cmain.ml" 400 15282 15312 "obc/c/cmain.ml" 400 15282 15316
+type(
+  Obc.program
+)
+ident(
+  int_ref prog "obc/c/cmain.ml" 397 15168 15187 "obc/c/cmain.ml" 397 15168 15191
+)
+"obc/c/cmain.ml" 400 15282 15284 "obc/c/cmain.ml" 400 15282 15317
+call(
+  stack
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 400 15282 15318 "obc/c/cmain.ml" 400 15282 15319
+type(
+  (string * C.cfile_desc) list ->
+  (string * C.cfile_desc) list -> (string * C.cfile_desc) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"obc/c/cmain.ml" 400 15282 15321 "obc/c/cmain.ml" 400 15282 15328
+type(
+  string -> Obc.program -> (string * C.cfile_desc) list
+)
+ident(
+  int_ref mk_main "obc/c/cmain.ml" 357 13944 13948 "obc/c/cmain.ml" 357 13944 13955
+)
+"obc/c/cmain.ml" 400 15282 15329 "obc/c/cmain.ml" 400 15282 15333
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/cmain.ml" 397 15168 15182 "obc/c/cmain.ml" 397 15168 15186
+)
+"obc/c/cmain.ml" 400 15282 15334 "obc/c/cmain.ml" 400 15282 15338
+type(
+  Obc.program
+)
+ident(
+  int_ref prog "obc/c/cmain.ml" 397 15168 15187 "obc/c/cmain.ml" 397 15168 15191
+)
+"obc/c/cmain.ml" 400 15282 15320 "obc/c/cmain.ml" 400 15282 15339
+call(
+  stack
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 400 15282 15284 "obc/c/cmain.ml" 400 15282 15339
+call(
+  tail
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 399 15238 15240 "obc/c/cmain.ml" 400 15282 15339
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 398 15194 15196 "obc/c/cmain.ml" 400 15282 15339
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 402 15341 15345 "obc/c/cmain.ml" 402 15341 15352
+type(
+  Obc.program -> unit
+)
+ident(
+  def program "obc/c/cmain.ml" 411 15681 15681 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 402 15341 15353 "obc/c/cmain.ml" 402 15341 15354
+type(
+  Obc.program
+)
+ident(
+  def p "obc/c/cmain.ml" 403 15357 15359 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 403 15357 15363 "obc/c/cmain.ml" 403 15357 15371
+type(
+  string
+)
+ident(
+  def filename "obc/c/cmain.ml" 405 15444 15446 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 404 15374 15378 "obc/c/cmain.ml" 404 15374 15394
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.filename_of_name
+)
+"obc/c/cmain.ml" 404 15374 15396 "obc/c/cmain.ml" 404 15374 15409
+type(
+  Names.module_name -> string
+)
+ident(
+  ext_ref C.cname_of_name
+)
+"obc/c/cmain.ml" 404 15374 15411 "obc/c/cmain.ml" 404 15374 15426
+type(
+  Names.modul -> Names.module_name
+)
+ident(
+  ext_ref Names.modul_to_string
+)
+"obc/c/cmain.ml" 404 15374 15427 "obc/c/cmain.ml" 404 15374 15428
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/c/cmain.ml" 402 15341 15353 "obc/c/cmain.ml" 402 15341 15354
+)
+"obc/c/cmain.ml" 404 15374 15427 "obc/c/cmain.ml" 404 15374 15438
+type(
+  Names.modul
+)
+"obc/c/cmain.ml" 404 15374 15410 "obc/c/cmain.ml" 404 15374 15439
+call(
+  stack
+)
+type(
+  Names.module_name
+)
+"obc/c/cmain.ml" 404 15374 15395 "obc/c/cmain.ml" 404 15374 15440
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 404 15374 15378 "obc/c/cmain.ml" 404 15374 15440
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 405 15444 15450 "obc/c/cmain.ml" 405 15444 15457
+type(
+  string
+)
+ident(
+  def dirname "obc/c/cmain.ml" 406 15492 15494 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 405 15444 15460 "obc/c/cmain.ml" 405 15444 15470
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.build_path
+)
+"obc/c/cmain.ml" 405 15444 15472 "obc/c/cmain.ml" 405 15444 15480
+type(
+  string
+)
+ident(
+  int_ref filename "obc/c/cmain.ml" 403 15357 15363 "obc/c/cmain.ml" 403 15357 15371
+)
+"obc/c/cmain.ml" 405 15444 15481 "obc/c/cmain.ml" 405 15444 15482
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 405 15444 15483 "obc/c/cmain.ml" 405 15444 15487
+type(
+  string
+)
+"obc/c/cmain.ml" 405 15444 15471 "obc/c/cmain.ml" 405 15444 15488
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 405 15444 15460 "obc/c/cmain.ml" 405 15444 15488
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 406 15492 15498 "obc/c/cmain.ml" 406 15492 15501
+type(
+  string
+)
+ident(
+  def dir "obc/c/cmain.ml" 407 15525 15527 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 406 15492 15504 "obc/c/cmain.ml" 406 15492 15513
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.clean_dir
+)
+"obc/c/cmain.ml" 406 15492 15514 "obc/c/cmain.ml" 406 15492 15521
+type(
+  string
+)
+ident(
+  int_ref dirname "obc/c/cmain.ml" 405 15444 15450 "obc/c/cmain.ml" 405 15444 15457
+)
+"obc/c/cmain.ml" 406 15492 15504 "obc/c/cmain.ml" 406 15492 15521
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 407 15525 15531 "obc/c/cmain.ml" 407 15525 15536
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  def c_ast "obc/c/cmain.ml" 408 15563 15565 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 407 15525 15539 "obc/c/cmain.ml" 407 15525 15548
+type(
+  string -> Obc.program -> (string * C.cfile_desc) list
+)
+ident(
+  int_ref translate "obc/c/cmain.ml" 397 15168 15172 "obc/c/cmain.ml" 397 15168 15181
+)
+"obc/c/cmain.ml" 407 15525 15549 "obc/c/cmain.ml" 407 15525 15557
+type(
+  string
+)
+ident(
+  int_ref filename "obc/c/cmain.ml" 403 15357 15363 "obc/c/cmain.ml" 403 15357 15371
+)
+"obc/c/cmain.ml" 407 15525 15558 "obc/c/cmain.ml" 407 15525 15559
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/c/cmain.ml" 402 15341 15353 "obc/c/cmain.ml" 402 15341 15354
+)
+"obc/c/cmain.ml" 407 15525 15539 "obc/c/cmain.ml" 407 15525 15559
+call(
+  stack
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 408 15563 15569 "obc/c/cmain.ml" 408 15563 15574
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  def c_ast "obc/c/cmain.ml" 409 15659 15661 "obc/c/cmain.ml" 409 15659 15679
+)
+"obc/c/cmain.ml" 408 15563 15580 "obc/c/cmain.ml" 408 15563 15581
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/cmain.ml" 408 15563 15581 "obc/c/cmain.ml" 408 15563 15610
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.unroll_loops
+)
+"obc/c/cmain.ml" 408 15563 15580 "obc/c/cmain.ml" 408 15563 15610
+type(
+  bool
+)
+"obc/c/cmain.ml" 408 15563 15616 "obc/c/cmain.ml" 408 15563 15624
+type(
+  (string * C.cfile_desc -> string * C.cfile_desc) ->
+  (string * C.cfile_desc) list -> (string * C.cfile_desc) list
+)
+ident(
+  ext_ref List.map
+)
+"obc/c/cmain.ml" 408 15563 15625 "obc/c/cmain.ml" 408 15563 15638
+type(
+  string * C.cfile_desc -> string * C.cfile_desc
+)
+ident(
+  ext_ref Cunroll.cfile
+)
+"obc/c/cmain.ml" 408 15563 15639 "obc/c/cmain.ml" 408 15563 15644
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  int_ref c_ast "obc/c/cmain.ml" 407 15525 15531 "obc/c/cmain.ml" 407 15525 15536
+)
+"obc/c/cmain.ml" 408 15563 15616 "obc/c/cmain.ml" 408 15563 15644
+call(
+  stack
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 408 15563 15650 "obc/c/cmain.ml" 408 15563 15655
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  int_ref c_ast "obc/c/cmain.ml" 407 15525 15531 "obc/c/cmain.ml" 407 15525 15536
+)
+"obc/c/cmain.ml" 408 15563 15577 "obc/c/cmain.ml" 408 15563 15655
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 409 15659 15661 "obc/c/cmain.ml" 409 15659 15669
+type(
+  string -> (string * C.cfile_desc) list -> unit
+)
+ident(
+  ext_ref C.output
+)
+"obc/c/cmain.ml" 409 15659 15670 "obc/c/cmain.ml" 409 15659 15673
+type(
+  string
+)
+ident(
+  int_ref dir "obc/c/cmain.ml" 406 15492 15498 "obc/c/cmain.ml" 406 15492 15501
+)
+"obc/c/cmain.ml" 409 15659 15674 "obc/c/cmain.ml" 409 15659 15679
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  int_ref c_ast "obc/c/cmain.ml" 408 15563 15569 "obc/c/cmain.ml" 408 15563 15574
+)
+"obc/c/cmain.ml" 409 15659 15661 "obc/c/cmain.ml" 409 15659 15679
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 408 15563 15565 "obc/c/cmain.ml" 409 15659 15679
+type(
+  unit
+)
+"obc/c/cmain.ml" 407 15525 15527 "obc/c/cmain.ml" 409 15659 15679
+type(
+  unit
+)
+"obc/c/cmain.ml" 406 15492 15494 "obc/c/cmain.ml" 409 15659 15679
+type(
+  unit
+)
+"obc/c/cmain.ml" 405 15444 15446 "obc/c/cmain.ml" 409 15659 15679
+type(
+  unit
+)
+"obc/c/cmain.ml" 403 15357 15359 "obc/c/cmain.ml" 409 15659 15679
+type(
+  unit
+)
+"obc/c/cmain.ml" 411 15681 15685 "obc/c/cmain.ml" 411 15681 15694
+type(
+  Obc.interface -> unit
+)
+ident(
+  def interface "obc/c/cmain.ml" 417 15932 15954 "obc/c/cmain.ml" 1 0 -1
+)
+"obc/c/cmain.ml" 411 15681 15695 "obc/c/cmain.ml" 411 15681 15696
+type(
+  Obc.interface
+)
+ident(
+  def i "obc/c/cmain.ml" 412 15699 15701 "obc/c/cmain.ml" 417 15932 15954
+)
+"obc/c/cmain.ml" 412 15699 15705 "obc/c/cmain.ml" 412 15699 15713
+type(
+  string
+)
+ident(
+  def filename "obc/c/cmain.ml" 414 15786 15788 "obc/c/cmain.ml" 417 15932 15954
+)
+"obc/c/cmain.ml" 413 15716 15720 "obc/c/cmain.ml" 413 15716 15736
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.filename_of_name
+)
+"obc/c/cmain.ml" 413 15716 15738 "obc/c/cmain.ml" 413 15716 15751
+type(
+  Names.module_name -> string
+)
+ident(
+  ext_ref C.cname_of_name
+)
+"obc/c/cmain.ml" 413 15716 15753 "obc/c/cmain.ml" 413 15716 15768
+type(
+  Names.modul -> Names.module_name
+)
+ident(
+  ext_ref Names.modul_to_string
+)
+"obc/c/cmain.ml" 413 15716 15769 "obc/c/cmain.ml" 413 15716 15770
+type(
+  Obc.interface
+)
+ident(
+  int_ref i "obc/c/cmain.ml" 411 15681 15695 "obc/c/cmain.ml" 411 15681 15696
+)
+"obc/c/cmain.ml" 413 15716 15769 "obc/c/cmain.ml" 413 15716 15780
+type(
+  Names.modul
+)
+"obc/c/cmain.ml" 413 15716 15752 "obc/c/cmain.ml" 413 15716 15781
+call(
+  stack
+)
+type(
+  Names.module_name
+)
+"obc/c/cmain.ml" 413 15716 15737 "obc/c/cmain.ml" 413 15716 15782
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 413 15716 15720 "obc/c/cmain.ml" 413 15716 15782
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 414 15786 15792 "obc/c/cmain.ml" 414 15786 15799
+type(
+  string
+)
+ident(
+  def dirname "obc/c/cmain.ml" 415 15834 15836 "obc/c/cmain.ml" 417 15932 15954
+)
+"obc/c/cmain.ml" 414 15786 15802 "obc/c/cmain.ml" 414 15786 15812
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.build_path
+)
+"obc/c/cmain.ml" 414 15786 15814 "obc/c/cmain.ml" 414 15786 15822
+type(
+  string
+)
+ident(
+  int_ref filename "obc/c/cmain.ml" 412 15699 15705 "obc/c/cmain.ml" 412 15699 15713
+)
+"obc/c/cmain.ml" 414 15786 15823 "obc/c/cmain.ml" 414 15786 15824
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/cmain.ml" 414 15786 15825 "obc/c/cmain.ml" 414 15786 15829
+type(
+  string
+)
+"obc/c/cmain.ml" 414 15786 15813 "obc/c/cmain.ml" 414 15786 15830
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 414 15786 15802 "obc/c/cmain.ml" 414 15786 15830
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 415 15834 15840 "obc/c/cmain.ml" 415 15834 15843
+type(
+  string
+)
+ident(
+  def dir "obc/c/cmain.ml" 416 15867 15869 "obc/c/cmain.ml" 417 15932 15954
+)
+"obc/c/cmain.ml" 415 15834 15846 "obc/c/cmain.ml" 415 15834 15855
+type(
+  string -> string
+)
+ident(
+  ext_ref Compiler_utils.clean_dir
+)
+"obc/c/cmain.ml" 415 15834 15856 "obc/c/cmain.ml" 415 15834 15863
+type(
+  string
+)
+ident(
+  int_ref dirname "obc/c/cmain.ml" 414 15786 15792 "obc/c/cmain.ml" 414 15786 15799
+)
+"obc/c/cmain.ml" 415 15834 15846 "obc/c/cmain.ml" 415 15834 15863
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 416 15867 15873 "obc/c/cmain.ml" 416 15867 15878
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  def c_ast "obc/c/cmain.ml" 417 15932 15936 "obc/c/cmain.ml" 417 15932 15954
+)
+"obc/c/cmain.ml" 416 15867 15881 "obc/c/cmain.ml" 416 15867 15897
+type(
+  string -> Obc.interface -> (string * C.cfile_desc) list
+)
+ident(
+  ext_ref Cgen.interface_header
+)
+"obc/c/cmain.ml" 416 15867 15899 "obc/c/cmain.ml" 416 15867 15916
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"obc/c/cmain.ml" 416 15867 15917 "obc/c/cmain.ml" 416 15867 15925
+type(
+  string
+)
+ident(
+  int_ref filename "obc/c/cmain.ml" 412 15699 15705 "obc/c/cmain.ml" 412 15699 15713
+)
+"obc/c/cmain.ml" 416 15867 15898 "obc/c/cmain.ml" 416 15867 15926
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/cmain.ml" 416 15867 15927 "obc/c/cmain.ml" 416 15867 15928
+type(
+  Obc.interface
+)
+ident(
+  int_ref i "obc/c/cmain.ml" 411 15681 15695 "obc/c/cmain.ml" 411 15681 15696
+)
+"obc/c/cmain.ml" 416 15867 15881 "obc/c/cmain.ml" 416 15867 15928
+call(
+  stack
+)
+type(
+  (string * C.cfile_desc) list
+)
+"obc/c/cmain.ml" 417 15932 15936 "obc/c/cmain.ml" 417 15932 15944
+type(
+  string -> (string * C.cfile_desc) list -> unit
+)
+ident(
+  ext_ref C.output
+)
+"obc/c/cmain.ml" 417 15932 15945 "obc/c/cmain.ml" 417 15932 15948
+type(
+  string
+)
+ident(
+  int_ref dir "obc/c/cmain.ml" 415 15834 15840 "obc/c/cmain.ml" 415 15834 15843
+)
+"obc/c/cmain.ml" 417 15932 15949 "obc/c/cmain.ml" 417 15932 15954
+type(
+  (string * C.cfile_desc) list
+)
+ident(
+  int_ref c_ast "obc/c/cmain.ml" 416 15867 15873 "obc/c/cmain.ml" 416 15867 15878
+)
+"obc/c/cmain.ml" 417 15932 15936 "obc/c/cmain.ml" 417 15932 15954
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/cmain.ml" 416 15867 15869 "obc/c/cmain.ml" 417 15932 15954
+type(
+  unit
+)
+"obc/c/cmain.ml" 415 15834 15836 "obc/c/cmain.ml" 417 15932 15954
+type(
+  unit
+)
+"obc/c/cmain.ml" 414 15786 15788 "obc/c/cmain.ml" 417 15932 15954
+type(
+  unit
+)
+"obc/c/cmain.ml" 412 15699 15701 "obc/c/cmain.ml" 417 15932 15954
+type(
+  unit
+)

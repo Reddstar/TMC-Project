@@ -1,0 +1,988 @@
+"heptagon/analysis/unsafe.ml" 39 2262 2266 "heptagon/analysis/unsafe.ml" 39 2262 2273
+type(
+  Location.location -> error -> 'a
+)
+ident(
+  def message "heptagon/analysis/unsafe.ml" 48 2525 2525 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 39 2262 2274 "heptagon/analysis/unsafe.ml" 39 2262 2277
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/analysis/unsafe.ml" 39 2262 2278 "heptagon/analysis/unsafe.ml" 45 2465 2485
+)
+"heptagon/analysis/unsafe.ml" 39 2262 2278 "heptagon/analysis/unsafe.ml" 39 2262 2282
+type(
+  error
+)
+ident(
+  def kind "heptagon/analysis/unsafe.ml" 40 2285 2287 "heptagon/analysis/unsafe.ml" 45 2465 2485
+)
+"heptagon/analysis/unsafe.ml" 40 2285 2299 "heptagon/analysis/unsafe.ml" 40 2285 2303
+type(
+  error
+)
+ident(
+  int_ref kind "heptagon/analysis/unsafe.ml" 39 2262 2278 "heptagon/analysis/unsafe.ml" 39 2262 2282
+)
+"heptagon/analysis/unsafe.ml" 41 2309 2315 "heptagon/analysis/unsafe.ml" 41 2309 2332
+type(
+  error
+)
+"heptagon/analysis/unsafe.ml" 42 2336 2344 "heptagon/analysis/unsafe.ml" 42 2336 2358
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/analysis/unsafe.ml" 42 2336 2359 "heptagon/analysis/unsafe.ml" 42 2336 2428
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"heptagon/analysis/unsafe.ml" 43 2429 2439 "heptagon/analysis/unsafe.ml" 43 2429 2453
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"heptagon/analysis/unsafe.ml" 43 2429 2454 "heptagon/analysis/unsafe.ml" 43 2429 2457
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/analysis/unsafe.ml" 39 2262 2274 "heptagon/analysis/unsafe.ml" 39 2262 2277
+)
+"heptagon/analysis/unsafe.ml" 42 2336 2344 "heptagon/analysis/unsafe.ml" 43 2429 2457
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/analysis/unsafe.ml" 40 2285 2287 "heptagon/analysis/unsafe.ml" 44 2458 2463
+type(
+  unit
+)
+"heptagon/analysis/unsafe.ml" 45 2465 2467 "heptagon/analysis/unsafe.ml" 45 2465 2472
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/analysis/unsafe.ml" 45 2465 2473 "heptagon/analysis/unsafe.ml" 45 2465 2485
+type(
+  exn
+)
+"heptagon/analysis/unsafe.ml" 45 2465 2467 "heptagon/analysis/unsafe.ml" 45 2465 2485
+type(
+  'a
+)
+"heptagon/analysis/unsafe.ml" 40 2285 2287 "heptagon/analysis/unsafe.ml" 45 2465 2485
+type(
+  'a
+)
+"heptagon/analysis/unsafe.ml" 48 2525 2529 "heptagon/analysis/unsafe.ml" 48 2525 2538
+type(
+  Heptagon.op -> bool
+)
+ident(
+  def unsafe_op "heptagon/analysis/unsafe.ml" 56 2776 2776 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 48 2525 2539 "heptagon/analysis/unsafe.ml" 48 2525 2541
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/analysis/unsafe.ml" 48 2525 2544 "heptagon/analysis/unsafe.ml" 52 2657 2668
+)
+"heptagon/analysis/unsafe.ml" 48 2525 2550 "heptagon/analysis/unsafe.ml" 48 2525 2552
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/analysis/unsafe.ml" 48 2525 2539 "heptagon/analysis/unsafe.ml" 48 2525 2541
+)
+"heptagon/analysis/unsafe.ml" 49 2558 2568 "heptagon/analysis/unsafe.ml" 49 2558 2569
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/unsafe.ml" 50 2582 2588 "heptagon/analysis/unsafe.ml" 50 2582 2614
+)
+"heptagon/analysis/unsafe.ml" 49 2558 2562 "heptagon/analysis/unsafe.ml" 49 2558 2569
+type(
+  Heptagon.op
+)
+"heptagon/analysis/unsafe.ml" 49 2558 2577 "heptagon/analysis/unsafe.ml" 49 2558 2578
+type(
+  Names.fun_name
+)
+ident(
+  def f "heptagon/analysis/unsafe.ml" 50 2582 2588 "heptagon/analysis/unsafe.ml" 50 2582 2614
+)
+"heptagon/analysis/unsafe.ml" 49 2558 2572 "heptagon/analysis/unsafe.ml" 49 2558 2578
+type(
+  Heptagon.op
+)
+"heptagon/analysis/unsafe.ml" 49 2558 2562 "heptagon/analysis/unsafe.ml" 49 2558 2578
+type(
+  Heptagon.op
+)
+"heptagon/analysis/unsafe.ml" 50 2582 2589 "heptagon/analysis/unsafe.ml" 50 2582 2599
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"heptagon/analysis/unsafe.ml" 50 2582 2600 "heptagon/analysis/unsafe.ml" 50 2582 2601
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "heptagon/analysis/unsafe.ml" 49 2558 2568 "heptagon/analysis/unsafe.ml" 49 2558 2569
+)
+"heptagon/analysis/unsafe.ml" 50 2582 2588 "heptagon/analysis/unsafe.ml" 50 2582 2602
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"heptagon/analysis/unsafe.ml" 50 2582 2588 "heptagon/analysis/unsafe.ml" 50 2582 2614
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 51 2615 2619 "heptagon/analysis/unsafe.ml" 51 2615 2620
+type(
+  Heptagon.op
+)
+"heptagon/analysis/unsafe.ml" 52 2657 2663 "heptagon/analysis/unsafe.ml" 52 2657 2668
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 48 2525 2544 "heptagon/analysis/unsafe.ml" 52 2657 2668
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 56 2776 2780 "heptagon/analysis/unsafe.ml" 56 2776 2783
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.exp -> Heptagon.exp * bool
+)
+ident(
+  def exp "heptagon/analysis/unsafe.ml" 74 3571 3571 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 56 2776 2784 "heptagon/analysis/unsafe.ml" 56 2776 2788
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/unsafe.ml" 56 2776 2789 "heptagon/analysis/unsafe.ml" 71 3483 3505
+)
+"heptagon/analysis/unsafe.ml" 56 2776 2789 "heptagon/analysis/unsafe.ml" 56 2776 2795
+type(
+  bool
+)
+ident(
+  def unsafe "heptagon/analysis/unsafe.ml" 56 2776 2796 "heptagon/analysis/unsafe.ml" 71 3483 3505
+)
+"heptagon/analysis/unsafe.ml" 56 2776 2796 "heptagon/analysis/unsafe.ml" 56 2776 2797
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/analysis/unsafe.ml" 57 2800 2802 "heptagon/analysis/unsafe.ml" 71 3483 3505
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/analysis/unsafe.ml" 58 2852 2856 "heptagon/analysis/unsafe.ml" 71 3483 3505
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+type(
+  bool
+)
+ident(
+  def unsafe "heptagon/analysis/unsafe.ml" 58 2852 2856 "heptagon/analysis/unsafe.ml" 71 3483 3505
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2815
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2818 "heptagon/analysis/unsafe.ml" 57 2800 2834
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.exp -> Heptagon.exp * bool
+)
+ident(
+  ext_ref Hept_mapfold.exp
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2835 "heptagon/analysis/unsafe.ml" 57 2800 2839
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/unsafe.ml" 56 2776 2784 "heptagon/analysis/unsafe.ml" 56 2776 2788
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2840 "heptagon/analysis/unsafe.ml" 57 2800 2846
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 56 2776 2789 "heptagon/analysis/unsafe.ml" 56 2776 2795
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2847 "heptagon/analysis/unsafe.ml" 57 2800 2848
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 56 2776 2796 "heptagon/analysis/unsafe.ml" 56 2776 2797
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2818 "heptagon/analysis/unsafe.ml" 57 2800 2848
+call(
+  stack
+)
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 58 2852 2862 "heptagon/analysis/unsafe.ml" 58 2852 2863
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 58 2852 2862 "heptagon/analysis/unsafe.ml" 58 2852 2870
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2898 "heptagon/analysis/unsafe.ml" 59 2876 2900
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/analysis/unsafe.ml" 60 2922 2932 "heptagon/analysis/unsafe.ml" 63 3054 3141
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2889 "heptagon/analysis/unsafe.ml" 59 2876 2902
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2906 "heptagon/analysis/unsafe.ml" 59 2876 2909
+ident(
+  def app "heptagon/analysis/unsafe.ml" 60 2922 2932 "heptagon/analysis/unsafe.ml" 63 3054 3141
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2889 "heptagon/analysis/unsafe.ml" 59 2876 2909
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2911 "heptagon/analysis/unsafe.ml" 59 2876 2914
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_l "heptagon/analysis/unsafe.ml" 60 2922 2932 "heptagon/analysis/unsafe.ml" 63 3054 3141
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2916 "heptagon/analysis/unsafe.ml" 59 2876 2917
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/analysis/unsafe.ml" 60 2922 2932 "heptagon/analysis/unsafe.ml" 63 3054 3141
+)
+"heptagon/analysis/unsafe.ml" 59 2876 2884 "heptagon/analysis/unsafe.ml" 59 2876 2918
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2936 "heptagon/analysis/unsafe.ml" 60 2922 2937
+type(
+  bool
+)
+ident(
+  def u "heptagon/analysis/unsafe.ml" 61 2974 2984 "heptagon/analysis/unsafe.ml" 63 3054 3141
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2941 "heptagon/analysis/unsafe.ml" 60 2922 2950
+type(
+  Heptagon.op -> bool
+)
+ident(
+  int_ref unsafe_op "heptagon/analysis/unsafe.ml" 48 2525 2529 "heptagon/analysis/unsafe.ml" 48 2525 2538
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2951 "heptagon/analysis/unsafe.ml" 60 2922 2953
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/analysis/unsafe.ml" 59 2876 2898 "heptagon/analysis/unsafe.ml" 59 2876 2900
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2940 "heptagon/analysis/unsafe.ml" 60 2922 2954
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2955 "heptagon/analysis/unsafe.ml" 60 2922 2957
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2958 "heptagon/analysis/unsafe.ml" 60 2922 2961
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/unsafe.ml" 59 2876 2889 "heptagon/analysis/unsafe.ml" 59 2876 2909
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2958 "heptagon/analysis/unsafe.ml" 60 2922 2970
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2940 "heptagon/analysis/unsafe.ml" 60 2922 2970
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2987 "heptagon/analysis/unsafe.ml" 61 2974 2988
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 60 2922 2936 "heptagon/analysis/unsafe.ml" 60 2922 2937
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2989 "heptagon/analysis/unsafe.ml" 61 2974 2991
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2993 "heptagon/analysis/unsafe.ml" 61 2974 2996
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2997 "heptagon/analysis/unsafe.ml" 61 2974 3003
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2992 "heptagon/analysis/unsafe.ml" 61 2974 3004
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2987 "heptagon/analysis/unsafe.ml" 61 2974 3004
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 62 3005 3020 "heptagon/analysis/unsafe.ml" 62 3005 3027
+type(
+  Location.location -> error -> Heptagon.exp * bool
+)
+ident(
+  int_ref message "heptagon/analysis/unsafe.ml" 39 2262 2266 "heptagon/analysis/unsafe.ml" 39 2262 2273
+)
+"heptagon/analysis/unsafe.ml" 62 3005 3028 "heptagon/analysis/unsafe.ml" 62 3005 3029
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 62 3005 3028 "heptagon/analysis/unsafe.ml" 62 3005 3035
+type(
+  Location.location
+)
+"heptagon/analysis/unsafe.ml" 62 3005 3036 "heptagon/analysis/unsafe.ml" 62 3005 3053
+type(
+  error
+)
+"heptagon/analysis/unsafe.ml" 62 3005 3020 "heptagon/analysis/unsafe.ml" 62 3005 3053
+call(
+  tail
+)
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3070 "heptagon/analysis/unsafe.ml" 63 3054 3071
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3093 "heptagon/analysis/unsafe.ml" 63 3054 3096
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/unsafe.ml" 59 2876 2889 "heptagon/analysis/unsafe.ml" 59 2876 2909
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3113 "heptagon/analysis/unsafe.ml" 63 3054 3114
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 60 2922 2936 "heptagon/analysis/unsafe.ml" 60 2922 2937
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3091 "heptagon/analysis/unsafe.ml" 63 3054 3116
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3118 "heptagon/analysis/unsafe.ml" 63 3054 3121
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_l "heptagon/analysis/unsafe.ml" 59 2876 2911 "heptagon/analysis/unsafe.ml" 59 2876 2914
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3123 "heptagon/analysis/unsafe.ml" 63 3054 3124
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/analysis/unsafe.ml" 59 2876 2916 "heptagon/analysis/unsafe.ml" 59 2876 2917
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3086 "heptagon/analysis/unsafe.ml" 63 3054 3125
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3069 "heptagon/analysis/unsafe.ml" 63 3054 3126
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3129 "heptagon/analysis/unsafe.ml" 63 3054 3135
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3136 "heptagon/analysis/unsafe.ml" 63 3054 3138
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3139 "heptagon/analysis/unsafe.ml" 63 3054 3140
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 60 2922 2936 "heptagon/analysis/unsafe.ml" 60 2922 2937
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3128 "heptagon/analysis/unsafe.ml" 63 3054 3141
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 63 3054 3069 "heptagon/analysis/unsafe.ml" 63 3054 3141
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 61 2974 2984 "heptagon/analysis/unsafe.ml" 63 3054 3141
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 60 2922 2932 "heptagon/analysis/unsafe.ml" 63 3054 3141
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3160 "heptagon/analysis/unsafe.ml" 64 3142 3162
+type(
+  Heptagon.iterator_type
+)
+ident(
+  def it "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3174 "heptagon/analysis/unsafe.ml" 64 3142 3176
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3165 "heptagon/analysis/unsafe.ml" 64 3142 3178
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3182 "heptagon/analysis/unsafe.ml" 64 3142 3185
+ident(
+  def app "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3164 "heptagon/analysis/unsafe.ml" 64 3142 3186
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3188 "heptagon/analysis/unsafe.ml" 64 3142 3189
+type(
+  Types.static_exp list
+)
+ident(
+  def n "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3191 "heptagon/analysis/unsafe.ml" 64 3142 3198
+type(
+  Heptagon.exp list
+)
+ident(
+  def pe_list "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3200 "heptagon/analysis/unsafe.ml" 64 3142 3206
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3208 "heptagon/analysis/unsafe.ml" 64 3142 3209
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 64 3142 3150 "heptagon/analysis/unsafe.ml" 64 3142 3210
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3228 "heptagon/analysis/unsafe.ml" 65 3214 3229
+type(
+  bool
+)
+ident(
+  def u "heptagon/analysis/unsafe.ml" 66 3266 3276 "heptagon/analysis/unsafe.ml" 70 3455 3482
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3233 "heptagon/analysis/unsafe.ml" 65 3214 3242
+type(
+  Heptagon.op -> bool
+)
+ident(
+  int_ref unsafe_op "heptagon/analysis/unsafe.ml" 48 2525 2529 "heptagon/analysis/unsafe.ml" 48 2525 2538
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3243 "heptagon/analysis/unsafe.ml" 65 3214 3245
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/analysis/unsafe.ml" 64 3142 3174 "heptagon/analysis/unsafe.ml" 64 3142 3176
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3232 "heptagon/analysis/unsafe.ml" 65 3214 3246
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3247 "heptagon/analysis/unsafe.ml" 65 3214 3249
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3250 "heptagon/analysis/unsafe.ml" 65 3214 3253
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/unsafe.ml" 64 3142 3164 "heptagon/analysis/unsafe.ml" 64 3142 3186
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3250 "heptagon/analysis/unsafe.ml" 65 3214 3262
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3232 "heptagon/analysis/unsafe.ml" 65 3214 3262
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3279 "heptagon/analysis/unsafe.ml" 66 3266 3280
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 65 3214 3228 "heptagon/analysis/unsafe.ml" 65 3214 3229
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3281 "heptagon/analysis/unsafe.ml" 66 3266 3283
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3285 "heptagon/analysis/unsafe.ml" 66 3266 3288
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3289 "heptagon/analysis/unsafe.ml" 66 3266 3295
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3284 "heptagon/analysis/unsafe.ml" 66 3266 3296
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3279 "heptagon/analysis/unsafe.ml" 66 3266 3296
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 67 3297 3312 "heptagon/analysis/unsafe.ml" 67 3297 3319
+type(
+  Location.location -> error -> Heptagon.exp * bool
+)
+ident(
+  int_ref message "heptagon/analysis/unsafe.ml" 39 2262 2266 "heptagon/analysis/unsafe.ml" 39 2262 2273
+)
+"heptagon/analysis/unsafe.ml" 67 3297 3320 "heptagon/analysis/unsafe.ml" 67 3297 3321
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 67 3297 3320 "heptagon/analysis/unsafe.ml" 67 3297 3327
+type(
+  Location.location
+)
+"heptagon/analysis/unsafe.ml" 67 3297 3328 "heptagon/analysis/unsafe.ml" 67 3297 3345
+type(
+  error
+)
+"heptagon/analysis/unsafe.ml" 67 3297 3312 "heptagon/analysis/unsafe.ml" 67 3297 3345
+call(
+  tail
+)
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3374 "heptagon/analysis/unsafe.ml" 69 3361 3375
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3400 "heptagon/analysis/unsafe.ml" 69 3361 3402
+type(
+  Heptagon.iterator_type
+)
+ident(
+  int_ref it "heptagon/analysis/unsafe.ml" 64 3142 3160 "heptagon/analysis/unsafe.ml" 64 3142 3162
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3406 "heptagon/analysis/unsafe.ml" 69 3361 3409
+type(
+  Heptagon.app
+)
+ident(
+  int_ref app "heptagon/analysis/unsafe.ml" 64 3142 3164 "heptagon/analysis/unsafe.ml" 64 3142 3186
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3426 "heptagon/analysis/unsafe.ml" 69 3361 3427
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 65 3214 3228 "heptagon/analysis/unsafe.ml" 65 3214 3229
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3404 "heptagon/analysis/unsafe.ml" 69 3361 3429
+type(
+  Heptagon.app
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3431 "heptagon/analysis/unsafe.ml" 69 3361 3432
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/analysis/unsafe.ml" 64 3142 3188 "heptagon/analysis/unsafe.ml" 64 3142 3189
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3434 "heptagon/analysis/unsafe.ml" 69 3361 3441
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pe_list "heptagon/analysis/unsafe.ml" 64 3142 3191 "heptagon/analysis/unsafe.ml" 64 3142 3198
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3443 "heptagon/analysis/unsafe.ml" 69 3361 3449
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/analysis/unsafe.ml" 64 3142 3200 "heptagon/analysis/unsafe.ml" 64 3142 3206
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3451 "heptagon/analysis/unsafe.ml" 69 3361 3452
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/analysis/unsafe.ml" 64 3142 3208 "heptagon/analysis/unsafe.ml" 64 3142 3209
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3390 "heptagon/analysis/unsafe.ml" 69 3361 3453
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3373 "heptagon/analysis/unsafe.ml" 69 3361 3454
+type(
+  Heptagon.exp
+)
+"heptagon/analysis/unsafe.ml" 70 3455 3470 "heptagon/analysis/unsafe.ml" 70 3455 3476
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+)
+"heptagon/analysis/unsafe.ml" 70 3455 3477 "heptagon/analysis/unsafe.ml" 70 3455 3479
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/analysis/unsafe.ml" 70 3455 3480 "heptagon/analysis/unsafe.ml" 70 3455 3481
+type(
+  bool
+)
+ident(
+  int_ref u "heptagon/analysis/unsafe.ml" 65 3214 3228 "heptagon/analysis/unsafe.ml" 65 3214 3229
+)
+"heptagon/analysis/unsafe.ml" 70 3455 3469 "heptagon/analysis/unsafe.ml" 70 3455 3482
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 69 3361 3373 "heptagon/analysis/unsafe.ml" 70 3455 3482
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 66 3266 3276 "heptagon/analysis/unsafe.ml" 70 3455 3482
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 65 3214 3224 "heptagon/analysis/unsafe.ml" 70 3455 3482
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 71 3483 3491 "heptagon/analysis/unsafe.ml" 71 3483 3492
+type(
+  Heptagon.desc
+)
+"heptagon/analysis/unsafe.ml" 71 3483 3496 "heptagon/analysis/unsafe.ml" 71 3483 3497
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/analysis/unsafe.ml" 57 2800 2806 "heptagon/analysis/unsafe.ml" 57 2800 2807
+)
+"heptagon/analysis/unsafe.ml" 71 3483 3499 "heptagon/analysis/unsafe.ml" 71 3483 3505
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/analysis/unsafe.ml" 57 2800 2809 "heptagon/analysis/unsafe.ml" 57 2800 2815
+)
+"heptagon/analysis/unsafe.ml" 71 3483 3496 "heptagon/analysis/unsafe.ml" 71 3483 3505
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 58 2852 2856 "heptagon/analysis/unsafe.ml" 71 3483 3505
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 57 2800 2802 "heptagon/analysis/unsafe.ml" 71 3483 3505
+type(
+  Heptagon.exp * bool
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3575 "heptagon/analysis/unsafe.ml" 74 3571 3583
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  def node_dec "heptagon/analysis/unsafe.ml" 76 3636 3636 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3584 "heptagon/analysis/unsafe.ml" 74 3571 3588
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/unsafe.ml" 74 3571 3589 "heptagon/analysis/unsafe.ml" 74 3571 3634
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3589 "heptagon/analysis/unsafe.ml" 74 3571 3590
+type(
+  'a
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3591 "heptagon/analysis/unsafe.ml" 74 3571 3592
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/analysis/unsafe.ml" 74 3571 3595 "heptagon/analysis/unsafe.ml" 74 3571 3634
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3595 "heptagon/analysis/unsafe.ml" 74 3571 3616
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3617 "heptagon/analysis/unsafe.ml" 74 3571 3621
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/unsafe.ml" 74 3571 3584 "heptagon/analysis/unsafe.ml" 74 3571 3588
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3622 "heptagon/analysis/unsafe.ml" 74 3571 3623
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/unsafe.ml" 74 3571 3591 "heptagon/analysis/unsafe.ml" 74 3571 3592
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3622 "heptagon/analysis/unsafe.ml" 74 3571 3632
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3633 "heptagon/analysis/unsafe.ml" 74 3571 3634
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/analysis/unsafe.ml" 74 3571 3591 "heptagon/analysis/unsafe.ml" 74 3571 3592
+)
+"heptagon/analysis/unsafe.ml" 74 3571 3595 "heptagon/analysis/unsafe.ml" 74 3571 3634
+call(
+  tail
+)
+type(
+  Heptagon.node_dec * bool
+)
+"heptagon/analysis/unsafe.ml" 76 3636 3640 "heptagon/analysis/unsafe.ml" 76 3636 3644
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/analysis/unsafe.ml" 81 3725 3725 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 77 3647 3651 "heptagon/analysis/unsafe.ml" 77 3647 3672
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/analysis/unsafe.ml" 78 3678 3690 "heptagon/analysis/unsafe.ml" 78 3678 3693
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.exp -> Heptagon.exp * bool
+)
+ident(
+  int_ref exp "heptagon/analysis/unsafe.ml" 56 2776 2780 "heptagon/analysis/unsafe.ml" 56 2776 2783
+)
+"heptagon/analysis/unsafe.ml" 79 3695 3712 "heptagon/analysis/unsafe.ml" 79 3695 3720
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.node_dec -> Heptagon.node_dec * bool
+)
+ident(
+  int_ref node_dec "heptagon/analysis/unsafe.ml" 74 3571 3575 "heptagon/analysis/unsafe.ml" 74 3571 3583
+)
+"heptagon/analysis/unsafe.ml" 77 3647 3649 "heptagon/analysis/unsafe.ml" 79 3695 3723
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+"heptagon/analysis/unsafe.ml" 81 3725 3729 "heptagon/analysis/unsafe.ml" 81 3725 3736
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/analysis/unsafe.ml" 83 3794 3797 "heptagon/analysis/unsafe.ml" 1 0 -1
+)
+"heptagon/analysis/unsafe.ml" 81 3725 3737 "heptagon/analysis/unsafe.ml" 81 3725 3738
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/analysis/unsafe.ml" 82 3741 3743 "heptagon/analysis/unsafe.ml" 83 3794 3797
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3747 "heptagon/analysis/unsafe.ml" 82 3741 3748
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/analysis/unsafe.ml" 83 3794 3796 "heptagon/analysis/unsafe.ml" 83 3794 3797
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3750 "heptagon/analysis/unsafe.ml" 82 3741 3751
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3747 "heptagon/analysis/unsafe.ml" 82 3741 3751
+type(
+  Heptagon.program * bool
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3754 "heptagon/analysis/unsafe.ml" 82 3741 3777
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.program -> Heptagon.program * bool
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3778 "heptagon/analysis/unsafe.ml" 82 3741 3782
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/analysis/unsafe.ml" 76 3636 3640 "heptagon/analysis/unsafe.ml" 76 3636 3644
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3783 "heptagon/analysis/unsafe.ml" 82 3741 3788
+type(
+  bool
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3789 "heptagon/analysis/unsafe.ml" 82 3741 3790
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/analysis/unsafe.ml" 81 3725 3737 "heptagon/analysis/unsafe.ml" 81 3725 3738
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3754 "heptagon/analysis/unsafe.ml" 82 3741 3790
+call(
+  stack
+)
+type(
+  Heptagon.program * bool
+)
+"heptagon/analysis/unsafe.ml" 83 3794 3796 "heptagon/analysis/unsafe.ml" 83 3794 3797
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/analysis/unsafe.ml" 82 3741 3747 "heptagon/analysis/unsafe.ml" 82 3741 3748
+)
+"heptagon/analysis/unsafe.ml" 82 3741 3743 "heptagon/analysis/unsafe.ml" 83 3794 3797
+type(
+  Heptagon.program
+)

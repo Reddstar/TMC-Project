@@ -1,0 +1,38 @@
+TARGOS
+
+AUTOMATON std_task
+STATES
+   P0    init    []
+   P1        []
+       P2              []
+       P3              []
+       P4              []
+       Q1              []
+       Q2              []
+       Q3              []
+       Q4              []
+
+
+TRANS
+   FROM P0 TO P1 WITH rien [a and b]
+   FROM P0 TO P2 WITH rien [not a and b]
+   FROM P0 TO P4 WITH rien [not a and not b]
+   FROM P2 TO P3 WITH rien [a]
+   FROM P4 TO P3 WITH rien [a]
+   FROM P1 TO Q1 WITH rien [xx]
+   FROM P1 TO Q2 WITH rien [not xx and a]
+   FROM P1 TO Q3 WITH rien [not xx and not a]
+   FROM Q1 TO P3 WITH rien [a]
+   FROM Q2 TO P3 WITH rien [a]
+   FROM Q3 TO P3 WITH rien [not xx and a]
+   FROM Q3 TO Q4 WITH rien [xx]
+   FROM Q4 TO Q3 WITH rien [a]
+
+
+
+
+PROCESS system [ in(*a, *b, xx  : bool)
+          ]
+
+RAFF std_task
+ENDTARGOS 

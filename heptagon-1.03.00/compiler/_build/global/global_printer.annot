@@ -1,0 +1,4945 @@
+"global/global_printer.ml" 38 2162 2170 "global/global_printer.ml" 38 2162 2186
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  def _aux_print_modul "global/global_printer.ml" 38 2162 2162 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 38 2162 2189 "global/global_printer.ml" 38 2162 2193
+type(
+  bool
+)
+"global/global_printer.ml" 38 2162 2194 "global/global_printer.ml" 38 2162 2199
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "global/global_printer.ml" 38 2162 2194 "global/global_printer.ml" 38 2162 2199
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"global/global_printer.ml" 38 2162 2201 "global/global_printer.ml" 38 2162 2203
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 38 2162 2204 "global/global_printer.ml" 44 2402 2471
+)
+"global/global_printer.ml" 38 2162 2204 "global/global_printer.ml" 38 2162 2205
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 38 2162 2208 "global/global_printer.ml" 44 2402 2471
+)
+"global/global_printer.ml" 38 2162 2214 "global/global_printer.ml" 38 2162 2215
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 38 2162 2204 "global/global_printer.ml" 38 2162 2205
+)
+"global/global_printer.ml" 39 2221 2225 "global/global_printer.ml" 39 2221 2235
+type(
+  Names.modul
+)
+"global/global_printer.ml" 39 2221 2239 "global/global_printer.ml" 39 2221 2241
+type(
+  unit
+)
+"global/global_printer.ml" 40 2242 2246 "global/global_printer.ml" 40 2242 2257
+type(
+  Names.modul
+)
+"global/global_printer.ml" 40 2242 2261 "global/global_printer.ml" 40 2242 2263
+type(
+  unit
+)
+"global/global_printer.ml" 41 2264 2268 "global/global_printer.ml" 41 2264 2269
+type(
+  Names.modul
+)
+"global/global_printer.ml" 41 2264 2275 "global/global_printer.ml" 41 2264 2276
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 38 2162 2204 "global/global_printer.ml" 38 2162 2205
+)
+"global/global_printer.ml" 41 2264 2277 "global/global_printer.ml" 41 2264 2278
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/global_printer.ml" 41 2264 2279 "global/global_printer.ml" 41 2264 2284
+type(
+  Modules.env
+)
+ident(
+  ext_ref Modules.g_env
+)
+"global/global_printer.ml" 41 2264 2279 "global/global_printer.ml" 41 2264 2296
+type(
+  Names.modul
+)
+"global/global_printer.ml" 41 2264 2275 "global/global_printer.ml" 41 2264 2296
+type(
+  bool
+)
+"global/global_printer.ml" 41 2264 2297 "global/global_printer.ml" 41 2264 2299
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/global_printer.ml" 41 2264 2300 "global/global_printer.ml" 41 2264 2303
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/global_printer.ml" 41 2264 2304 "global/global_printer.ml" 41 2264 2308
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 38 2162 2189 "global/global_printer.ml" 38 2162 2193
+)
+"global/global_printer.ml" 41 2264 2300 "global/global_printer.ml" 41 2264 2308
+type(
+  bool
+)
+"global/global_printer.ml" 41 2264 2275 "global/global_printer.ml" 41 2264 2308
+type(
+  bool
+)
+"global/global_printer.ml" 41 2264 2312 "global/global_printer.ml" 41 2264 2314
+type(
+  unit
+)
+"global/global_printer.ml" 42 2315 2326 "global/global_printer.ml" 42 2315 2327
+type(
+  Names.module_name
+)
+ident(
+  def m "global/global_printer.ml" 42 2315 2331 "global/global_printer.ml" 42 2315 2360
+)
+"global/global_printer.ml" 42 2315 2319 "global/global_printer.ml" 42 2315 2327
+type(
+  Names.modul
+)
+"global/global_printer.ml" 42 2315 2331 "global/global_printer.ml" 42 2315 2338
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 42 2315 2339 "global/global_printer.ml" 42 2315 2341
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 38 2162 2201 "global/global_printer.ml" 38 2162 2203
+)
+"global/global_printer.ml" 42 2315 2342 "global/global_printer.ml" 42 2315 2347
+type(
+  ((Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 42 2315 2348 "global/global_printer.ml" 42 2315 2358
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 42 2315 2359 "global/global_printer.ml" 42 2315 2360
+type(
+  Names.module_name
+)
+ident(
+  int_ref m "global/global_printer.ml" 42 2315 2326 "global/global_printer.ml" 42 2315 2327
+)
+"global/global_printer.ml" 42 2315 2331 "global/global_printer.ml" 42 2315 2360
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 43 2361 2385 "global/global_printer.ml" 43 2361 2386
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 44 2402 2408 "global/global_printer.ml" 44 2402 2471
+)
+"global/global_printer.ml" 43 2361 2395 "global/global_printer.ml" 43 2361 2396
+type(
+  Names.name
+)
+ident(
+  def n "global/global_printer.ml" 44 2402 2408 "global/global_printer.ml" 44 2402 2471
+)
+"global/global_printer.ml" 43 2361 2376 "global/global_printer.ml" 43 2361 2398
+type(
+  Names.qualname
+)
+"global/global_printer.ml" 43 2361 2365 "global/global_printer.ml" 43 2361 2398
+type(
+  Names.modul
+)
+"global/global_printer.ml" 44 2402 2408 "global/global_printer.ml" 44 2402 2415
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.modul -> unit) ->
+  Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 44 2402 2416 "global/global_printer.ml" 44 2402 2418
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 38 2162 2201 "global/global_printer.ml" 38 2162 2203
+)
+"global/global_printer.ml" 44 2402 2419 "global/global_printer.ml" 44 2402 2426
+type(
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 44 2402 2428 "global/global_printer.ml" 44 2402 2444
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref _aux_print_modul "global/global_printer.ml" 38 2162 2170 "global/global_printer.ml" 38 2162 2186
+)
+"global/global_printer.ml" 44 2402 2451 "global/global_printer.ml" 44 2402 2455
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 38 2162 2189 "global/global_printer.ml" 38 2162 2193
+)
+"global/global_printer.ml" 44 2402 2427 "global/global_printer.ml" 44 2402 2456
+call(
+  stack
+)
+type(
+  Format.formatter -> Names.modul -> unit
+)
+"global/global_printer.ml" 44 2402 2457 "global/global_printer.ml" 44 2402 2458
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 43 2361 2385 "global/global_printer.ml" 43 2361 2386
+)
+"global/global_printer.ml" 44 2402 2459 "global/global_printer.ml" 44 2402 2469
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 44 2402 2470 "global/global_printer.ml" 44 2402 2471
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 43 2361 2395 "global/global_printer.ml" 43 2361 2396
+)
+"global/global_printer.ml" 44 2402 2408 "global/global_printer.ml" 44 2402 2471
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 38 2162 2208 "global/global_printer.ml" 44 2402 2471
+type(
+  unit
+)
+"global/global_printer.ml" 47 2534 2538 "global/global_printer.ml" 47 2534 2550
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  def _print_modul "global/global_printer.ml" 55 2835 2835 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 47 2534 2553 "global/global_printer.ml" 47 2534 2557
+type(
+  bool
+)
+"global/global_printer.ml" 47 2534 2558 "global/global_printer.ml" 47 2534 2563
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "global/global_printer.ml" 47 2534 2558 "global/global_printer.ml" 47 2534 2563
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"global/global_printer.ml" 47 2534 2565 "global/global_printer.ml" 47 2534 2567
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 47 2534 2568 "global/global_printer.ml" 53 2765 2833
+)
+"global/global_printer.ml" 47 2534 2568 "global/global_printer.ml" 47 2534 2569
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 47 2534 2572 "global/global_printer.ml" 53 2765 2833
+)
+"global/global_printer.ml" 47 2534 2578 "global/global_printer.ml" 47 2534 2579
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 47 2534 2568 "global/global_printer.ml" 47 2534 2569
+)
+"global/global_printer.ml" 48 2585 2589 "global/global_printer.ml" 48 2585 2599
+type(
+  Names.modul
+)
+"global/global_printer.ml" 48 2585 2603 "global/global_printer.ml" 48 2585 2605
+type(
+  unit
+)
+"global/global_printer.ml" 49 2606 2610 "global/global_printer.ml" 49 2606 2621
+type(
+  Names.modul
+)
+"global/global_printer.ml" 49 2606 2625 "global/global_printer.ml" 49 2606 2627
+type(
+  unit
+)
+"global/global_printer.ml" 50 2628 2632 "global/global_printer.ml" 50 2628 2633
+type(
+  Names.modul
+)
+"global/global_printer.ml" 50 2628 2639 "global/global_printer.ml" 50 2628 2640
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 47 2534 2568 "global/global_printer.ml" 47 2534 2569
+)
+"global/global_printer.ml" 50 2628 2641 "global/global_printer.ml" 50 2628 2642
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/global_printer.ml" 50 2628 2643 "global/global_printer.ml" 50 2628 2648
+type(
+  Modules.env
+)
+ident(
+  ext_ref Modules.g_env
+)
+"global/global_printer.ml" 50 2628 2643 "global/global_printer.ml" 50 2628 2660
+type(
+  Names.modul
+)
+"global/global_printer.ml" 50 2628 2639 "global/global_printer.ml" 50 2628 2660
+type(
+  bool
+)
+"global/global_printer.ml" 50 2628 2661 "global/global_printer.ml" 50 2628 2663
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/global_printer.ml" 50 2628 2664 "global/global_printer.ml" 50 2628 2667
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/global_printer.ml" 50 2628 2668 "global/global_printer.ml" 50 2628 2672
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 47 2534 2553 "global/global_printer.ml" 47 2534 2557
+)
+"global/global_printer.ml" 50 2628 2664 "global/global_printer.ml" 50 2628 2672
+type(
+  bool
+)
+"global/global_printer.ml" 50 2628 2639 "global/global_printer.ml" 50 2628 2672
+type(
+  bool
+)
+"global/global_printer.ml" 50 2628 2676 "global/global_printer.ml" 50 2628 2678
+type(
+  unit
+)
+"global/global_printer.ml" 51 2679 2690 "global/global_printer.ml" 51 2679 2691
+type(
+  Names.module_name
+)
+ident(
+  def m "global/global_printer.ml" 51 2679 2695 "global/global_printer.ml" 51 2679 2723
+)
+"global/global_printer.ml" 51 2679 2683 "global/global_printer.ml" 51 2679 2691
+type(
+  Names.modul
+)
+"global/global_printer.ml" 51 2679 2695 "global/global_printer.ml" 51 2679 2702
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 51 2679 2703 "global/global_printer.ml" 51 2679 2705
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 47 2534 2565 "global/global_printer.ml" 47 2534 2567
+)
+"global/global_printer.ml" 51 2679 2706 "global/global_printer.ml" 51 2679 2710
+type(
+  ((Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 51 2679 2711 "global/global_printer.ml" 51 2679 2721
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 51 2679 2722 "global/global_printer.ml" 51 2679 2723
+type(
+  Names.module_name
+)
+ident(
+  int_ref m "global/global_printer.ml" 51 2679 2690 "global/global_printer.ml" 51 2679 2691
+)
+"global/global_printer.ml" 51 2679 2695 "global/global_printer.ml" 51 2679 2723
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 52 2724 2748 "global/global_printer.ml" 52 2724 2749
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 53 2765 2771 "global/global_printer.ml" 53 2765 2833
+)
+"global/global_printer.ml" 52 2724 2758 "global/global_printer.ml" 52 2724 2759
+type(
+  Names.name
+)
+ident(
+  def n "global/global_printer.ml" 53 2765 2771 "global/global_printer.ml" 53 2765 2833
+)
+"global/global_printer.ml" 52 2724 2739 "global/global_printer.ml" 52 2724 2761
+type(
+  Names.qualname
+)
+"global/global_printer.ml" 52 2724 2728 "global/global_printer.ml" 52 2724 2761
+type(
+  Names.modul
+)
+"global/global_printer.ml" 53 2765 2771 "global/global_printer.ml" 53 2765 2778
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.modul -> unit) ->
+  Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 53 2765 2779 "global/global_printer.ml" 53 2765 2781
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 47 2534 2565 "global/global_printer.ml" 47 2534 2567
+)
+"global/global_printer.ml" 53 2765 2782 "global/global_printer.ml" 53 2765 2788
+type(
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 53 2765 2790 "global/global_printer.ml" 53 2765 2806
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref _aux_print_modul "global/global_printer.ml" 38 2162 2170 "global/global_printer.ml" 38 2162 2186
+)
+"global/global_printer.ml" 53 2765 2813 "global/global_printer.ml" 53 2765 2817
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 47 2534 2553 "global/global_printer.ml" 47 2534 2557
+)
+"global/global_printer.ml" 53 2765 2789 "global/global_printer.ml" 53 2765 2818
+call(
+  stack
+)
+type(
+  Format.formatter -> Names.modul -> unit
+)
+"global/global_printer.ml" 53 2765 2819 "global/global_printer.ml" 53 2765 2820
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 52 2724 2748 "global/global_printer.ml" 52 2724 2749
+)
+"global/global_printer.ml" 53 2765 2821 "global/global_printer.ml" 53 2765 2831
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 53 2765 2832 "global/global_printer.ml" 53 2765 2833
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 52 2724 2758 "global/global_printer.ml" 52 2724 2759
+)
+"global/global_printer.ml" 53 2765 2771 "global/global_printer.ml" 53 2765 2833
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 47 2534 2572 "global/global_printer.ml" 53 2765 2833
+type(
+  unit
+)
+"global/global_printer.ml" 55 2835 2839 "global/global_printer.ml" 55 2835 2855
+type(
+  Format.formatter -> Names.modul -> unit
+)
+ident(
+  def print_full_modul "global/global_printer.ml" 56 2892 2892 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 55 2835 2856 "global/global_printer.ml" 55 2835 2858
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 55 2835 2859 "global/global_printer.ml" 55 2835 2891
+)
+"global/global_printer.ml" 55 2835 2859 "global/global_printer.ml" 55 2835 2860
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 55 2835 2863 "global/global_printer.ml" 55 2835 2891
+)
+"global/global_printer.ml" 55 2835 2863 "global/global_printer.ml" 55 2835 2875
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref _print_modul "global/global_printer.ml" 47 2534 2538 "global/global_printer.ml" 47 2534 2550
+)
+"global/global_printer.ml" 55 2835 2882 "global/global_printer.ml" 55 2835 2886
+type(
+  bool
+)
+"global/global_printer.ml" 55 2835 2887 "global/global_printer.ml" 55 2835 2889
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 55 2835 2856 "global/global_printer.ml" 55 2835 2858
+)
+"global/global_printer.ml" 55 2835 2890 "global/global_printer.ml" 55 2835 2891
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 55 2835 2859 "global/global_printer.ml" 55 2835 2860
+)
+"global/global_printer.ml" 55 2835 2863 "global/global_printer.ml" 55 2835 2891
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 56 2892 2896 "global/global_printer.ml" 56 2892 2907
+type(
+  Format.formatter -> Names.modul -> unit
+)
+ident(
+  def print_modul "global/global_printer.ml" 58 2946 2946 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 56 2892 2908 "global/global_printer.ml" 56 2892 2910
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 56 2892 2911 "global/global_printer.ml" 56 2892 2944
+)
+"global/global_printer.ml" 56 2892 2911 "global/global_printer.ml" 56 2892 2912
+type(
+  Names.modul
+)
+ident(
+  def m "global/global_printer.ml" 56 2892 2915 "global/global_printer.ml" 56 2892 2944
+)
+"global/global_printer.ml" 56 2892 2915 "global/global_printer.ml" 56 2892 2927
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref _print_modul "global/global_printer.ml" 47 2534 2538 "global/global_printer.ml" 47 2534 2550
+)
+"global/global_printer.ml" 56 2892 2934 "global/global_printer.ml" 56 2892 2939
+type(
+  bool
+)
+"global/global_printer.ml" 56 2892 2940 "global/global_printer.ml" 56 2892 2942
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 56 2892 2908 "global/global_printer.ml" 56 2892 2910
+)
+"global/global_printer.ml" 56 2892 2943 "global/global_printer.ml" 56 2892 2944
+type(
+  Names.modul
+)
+ident(
+  int_ref m "global/global_printer.ml" 56 2892 2911 "global/global_printer.ml" 56 2892 2912
+)
+"global/global_printer.ml" 56 2892 2915 "global/global_printer.ml" 56 2892 2944
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 58 2946 2950 "global/global_printer.ml" 58 2946 2965
+type(
+  ?full:bool -> Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def _print_qualname "global/global_printer.ml" 65 3227 3227 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 58 2946 2968 "global/global_printer.ml" 58 2946 2972
+type(
+  bool
+)
+"global/global_printer.ml" 58 2946 2973 "global/global_printer.ml" 58 2946 2978
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "global/global_printer.ml" 58 2946 2973 "global/global_printer.ml" 58 2946 2978
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"global/global_printer.ml" 58 2946 2980 "global/global_printer.ml" 58 2946 2982
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 58 2946 2983 "global/global_printer.ml" 62 3153 3224
+)
+"global/global_printer.ml" 58 2946 2992 "global/global_printer.ml" 58 2946 2993
+type(
+  Names.modul
+)
+ident(
+  def q "global/global_printer.ml" 58 2946 3007 "global/global_printer.ml" 62 3153 3224
+)
+"global/global_printer.ml" 58 2946 3002 "global/global_printer.ml" 58 2946 3003
+type(
+  Names.name
+)
+ident(
+  def n "global/global_printer.ml" 58 2946 3007 "global/global_printer.ml" 62 3153 3224
+)
+"global/global_printer.ml" 58 2946 2983 "global/global_printer.ml" 58 2946 3004
+type(
+  Names.qualname
+)
+"global/global_printer.ml" 58 2946 3013 "global/global_printer.ml" 58 2946 3014
+type(
+  Names.modul
+)
+ident(
+  int_ref q "global/global_printer.ml" 58 2946 2992 "global/global_printer.ml" 58 2946 2993
+)
+"global/global_printer.ml" 59 3020 3024 "global/global_printer.ml" 59 3020 3034
+type(
+  Names.modul
+)
+"global/global_printer.ml" 59 3020 3038 "global/global_printer.ml" 59 3020 3048
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 59 3020 3049 "global/global_printer.ml" 59 3020 3051
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 58 2946 2980 "global/global_printer.ml" 58 2946 2982
+)
+"global/global_printer.ml" 59 3020 3052 "global/global_printer.ml" 59 3020 3053
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 58 2946 3002 "global/global_printer.ml" 58 2946 3003
+)
+"global/global_printer.ml" 59 3020 3038 "global/global_printer.ml" 59 3020 3053
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 60 3054 3058 "global/global_printer.ml" 60 3054 3069
+type(
+  Names.modul
+)
+"global/global_printer.ml" 60 3054 3073 "global/global_printer.ml" 60 3054 3083
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 60 3054 3084 "global/global_printer.ml" 60 3054 3086
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 58 2946 2980 "global/global_printer.ml" 58 2946 2982
+)
+"global/global_printer.ml" 60 3054 3087 "global/global_printer.ml" 60 3054 3088
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 58 2946 3002 "global/global_printer.ml" 58 2946 3003
+)
+"global/global_printer.ml" 60 3054 3073 "global/global_printer.ml" 60 3054 3088
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 61 3089 3093 "global/global_printer.ml" 61 3089 3094
+type(
+  Names.modul
+)
+"global/global_printer.ml" 61 3089 3100 "global/global_printer.ml" 61 3089 3101
+type(
+  Names.modul
+)
+ident(
+  int_ref q "global/global_printer.ml" 58 2946 2992 "global/global_printer.ml" 58 2946 2993
+)
+"global/global_printer.ml" 61 3089 3102 "global/global_printer.ml" 61 3089 3103
+type(
+  Names.modul -> Names.modul -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/global_printer.ml" 61 3089 3104 "global/global_printer.ml" 61 3089 3109
+type(
+  Modules.env
+)
+ident(
+  ext_ref Modules.g_env
+)
+"global/global_printer.ml" 61 3089 3104 "global/global_printer.ml" 61 3089 3121
+type(
+  Names.modul
+)
+"global/global_printer.ml" 61 3089 3100 "global/global_printer.ml" 61 3089 3121
+type(
+  bool
+)
+"global/global_printer.ml" 61 3089 3122 "global/global_printer.ml" 61 3089 3124
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/global_printer.ml" 61 3089 3125 "global/global_printer.ml" 61 3089 3128
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/global_printer.ml" 61 3089 3129 "global/global_printer.ml" 61 3089 3133
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 58 2946 2968 "global/global_printer.ml" 58 2946 2972
+)
+"global/global_printer.ml" 61 3089 3125 "global/global_printer.ml" 61 3089 3133
+type(
+  bool
+)
+"global/global_printer.ml" 61 3089 3100 "global/global_printer.ml" 61 3089 3133
+type(
+  bool
+)
+"global/global_printer.ml" 61 3089 3137 "global/global_printer.ml" 61 3089 3147
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 61 3089 3148 "global/global_printer.ml" 61 3089 3150
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 58 2946 2980 "global/global_printer.ml" 58 2946 2982
+)
+"global/global_printer.ml" 61 3089 3151 "global/global_printer.ml" 61 3089 3152
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 58 2946 3002 "global/global_printer.ml" 58 2946 3003
+)
+"global/global_printer.ml" 61 3089 3137 "global/global_printer.ml" 61 3089 3152
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 62 3153 3157 "global/global_printer.ml" 62 3153 3158
+type(
+  Names.modul
+)
+"global/global_printer.ml" 62 3153 3162 "global/global_printer.ml" 62 3153 3169
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.modul -> unit) ->
+  Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 62 3153 3170 "global/global_printer.ml" 62 3153 3172
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 58 2946 2980 "global/global_printer.ml" 58 2946 2982
+)
+"global/global_printer.ml" 62 3153 3173 "global/global_printer.ml" 62 3153 3179
+type(
+  ((Format.formatter -> Names.modul -> unit) ->
+   Names.modul -> (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 62 3153 3181 "global/global_printer.ml" 62 3153 3197
+type(
+  ?full:bool -> Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref _aux_print_modul "global/global_printer.ml" 38 2162 2170 "global/global_printer.ml" 38 2162 2186
+)
+"global/global_printer.ml" 62 3153 3204 "global/global_printer.ml" 62 3153 3208
+type(
+  bool
+)
+ident(
+  int_ref full "global/global_printer.ml" 58 2946 2968 "global/global_printer.ml" 58 2946 2972
+)
+"global/global_printer.ml" 62 3153 3180 "global/global_printer.ml" 62 3153 3209
+call(
+  stack
+)
+type(
+  Format.formatter -> Names.modul -> unit
+)
+"global/global_printer.ml" 62 3153 3210 "global/global_printer.ml" 62 3153 3211
+type(
+  Names.modul
+)
+ident(
+  int_ref q "global/global_printer.ml" 58 2946 2992 "global/global_printer.ml" 58 2946 2993
+)
+"global/global_printer.ml" 62 3153 3212 "global/global_printer.ml" 62 3153 3222
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 62 3153 3223 "global/global_printer.ml" 62 3153 3224
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 58 2946 3002 "global/global_printer.ml" 58 2946 3003
+)
+"global/global_printer.ml" 62 3153 3162 "global/global_printer.ml" 62 3153 3224
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 58 2946 3007 "global/global_printer.ml" 62 3153 3224
+type(
+  unit
+)
+"global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def print_qualname "global/global_printer.ml" 66 3288 3288 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 65 3227 3246 "global/global_printer.ml" 65 3227 3248
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 65 3227 3249 "global/global_printer.ml" 65 3227 3287
+)
+"global/global_printer.ml" 65 3227 3249 "global/global_printer.ml" 65 3227 3251
+type(
+  Names.qualname
+)
+ident(
+  def qn "global/global_printer.ml" 65 3227 3254 "global/global_printer.ml" 65 3227 3287
+)
+"global/global_printer.ml" 65 3227 3254 "global/global_printer.ml" 65 3227 3269
+type(
+  ?full:bool -> Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref _print_qualname "global/global_printer.ml" 58 2946 2950 "global/global_printer.ml" 58 2946 2965
+)
+"global/global_printer.ml" 65 3227 3276 "global/global_printer.ml" 65 3227 3281
+type(
+  bool
+)
+"global/global_printer.ml" 65 3227 3282 "global/global_printer.ml" 65 3227 3284
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 65 3227 3246 "global/global_printer.ml" 65 3227 3248
+)
+"global/global_printer.ml" 65 3227 3285 "global/global_printer.ml" 65 3227 3287
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "global/global_printer.ml" 65 3227 3249 "global/global_printer.ml" 65 3227 3251
+)
+"global/global_printer.ml" 65 3227 3254 "global/global_printer.ml" 65 3227 3287
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 66 3288 3292 "global/global_printer.ml" 66 3288 3311
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def print_full_qualname "global/global_printer.ml" 68 3354 3354 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 66 3288 3312 "global/global_printer.ml" 66 3288 3314
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 66 3288 3315 "global/global_printer.ml" 66 3288 3352
+)
+"global/global_printer.ml" 66 3288 3315 "global/global_printer.ml" 66 3288 3317
+type(
+  Names.qualname
+)
+ident(
+  def qn "global/global_printer.ml" 66 3288 3320 "global/global_printer.ml" 66 3288 3352
+)
+"global/global_printer.ml" 66 3288 3320 "global/global_printer.ml" 66 3288 3335
+type(
+  ?full:bool -> Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref _print_qualname "global/global_printer.ml" 58 2946 2950 "global/global_printer.ml" 58 2946 2965
+)
+"global/global_printer.ml" 66 3288 3342 "global/global_printer.ml" 66 3288 3346
+type(
+  bool
+)
+"global/global_printer.ml" 66 3288 3347 "global/global_printer.ml" 66 3288 3349
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 66 3288 3312 "global/global_printer.ml" 66 3288 3314
+)
+"global/global_printer.ml" 66 3288 3350 "global/global_printer.ml" 66 3288 3352
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "global/global_printer.ml" 66 3288 3315 "global/global_printer.ml" 66 3288 3317
+)
+"global/global_printer.ml" 66 3288 3320 "global/global_printer.ml" 66 3288 3352
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 68 3354 3358 "global/global_printer.ml" 68 3354 3373
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def print_shortname "global/global_printer.ml" 70 3407 3407 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 68 3354 3374 "global/global_printer.ml" 68 3354 3376
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 68 3354 3377 "global/global_printer.ml" 68 3354 3405
+)
+"global/global_printer.ml" 68 3354 3385 "global/global_printer.ml" 68 3354 3386
+type(
+  Names.name
+)
+ident(
+  def n "global/global_printer.ml" 68 3354 3390 "global/global_printer.ml" 68 3354 3405
+)
+"global/global_printer.ml" 68 3354 3377 "global/global_printer.ml" 68 3354 3387
+type(
+  Names.qualname
+)
+"global/global_printer.ml" 68 3354 3390 "global/global_printer.ml" 68 3354 3400
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 68 3354 3401 "global/global_printer.ml" 68 3354 3403
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 68 3354 3374 "global/global_printer.ml" 68 3354 3376
+)
+"global/global_printer.ml" 68 3354 3404 "global/global_printer.ml" 68 3354 3405
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 68 3354 3385 "global/global_printer.ml" 68 3354 3386
+)
+"global/global_printer.ml" 68 3354 3390 "global/global_printer.ml" 68 3354 3405
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 70 3407 3411 "global/global_printer.ml" 70 3407 3422
+type(
+  Format.formatter -> Idents.ident -> unit
+)
+ident(
+  def print_ident "global/global_printer.ml" 72 3445 3446 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 70 3407 3425 "global/global_printer.ml" 70 3407 3443
+type(
+  Format.formatter -> Idents.ident -> unit
+)
+ident(
+  ext_ref Idents.print_ident
+)
+"global/global_printer.ml" 72 3445 3454 "global/global_printer.ml" 72 3445 3462
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  def print_ck "global/global_printer.ml" 72 3445 3446 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 72 3445 3468 "global/global_printer.ml" 80 3799 3834
+)
+"global/global_printer.ml" 73 3477 3481 "global/global_printer.ml" 73 3477 3493
+type(
+  Clocks.ck
+)
+"global/global_printer.ml" 73 3477 3497 "global/global_printer.ml" 73 3477 3504
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 73 3477 3505 "global/global_printer.ml" 73 3477 3507
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+)
+"global/global_printer.ml" 73 3477 3508 "global/global_printer.ml" 73 3477 3511
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 73 3477 3497 "global/global_printer.ml" 73 3477 3511
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 74 3512 3528 "global/global_printer.ml" 74 3512 3530
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/global_printer.ml" 74 3512 3541 "global/global_printer.ml" 74 3512 3609
+)
+"global/global_printer.ml" 74 3512 3532 "global/global_printer.ml" 74 3512 3533
+type(
+  Names.constructor_name
+)
+ident(
+  def c "global/global_printer.ml" 74 3512 3541 "global/global_printer.ml" 74 3512 3609
+)
+"global/global_printer.ml" 74 3512 3535 "global/global_printer.ml" 74 3512 3536
+type(
+  Idents.var_ident
+)
+ident(
+  def n "global/global_printer.ml" 74 3512 3541 "global/global_printer.ml" 74 3512 3609
+)
+"global/global_printer.ml" 74 3512 3516 "global/global_printer.ml" 74 3512 3537
+type(
+  Clocks.ck
+)
+"global/global_printer.ml" 74 3512 3541 "global/global_printer.ml" 74 3512 3548
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocks.ck -> unit) ->
+   Clocks.ck ->
+   (Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> Idents.var_ident -> unit) -> Idents.var_ident -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocks.ck -> unit) ->
+  Clocks.ck ->
+  (Format.formatter -> Names.constructor_name -> unit) ->
+  Names.constructor_name ->
+  (Format.formatter -> Idents.var_ident -> unit) -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 74 3512 3549 "global/global_printer.ml" 74 3512 3551
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+)
+"global/global_printer.ml" 74 3512 3552 "global/global_printer.ml" 74 3512 3566
+type(
+  ((Format.formatter -> Clocks.ck -> unit) ->
+   Clocks.ck ->
+   (Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> Idents.var_ident -> unit) -> Idents.var_ident -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 74 3512 3567 "global/global_printer.ml" 74 3512 3575
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  int_ref print_ck "global/global_printer.ml" 72 3445 3454 "global/global_printer.ml" 72 3445 3462
+)
+"global/global_printer.ml" 74 3512 3576 "global/global_printer.ml" 74 3512 3578
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/global_printer.ml" 74 3512 3528 "global/global_printer.ml" 74 3512 3530
+)
+"global/global_printer.ml" 74 3512 3579 "global/global_printer.ml" 74 3512 3593
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 74 3512 3594 "global/global_printer.ml" 74 3512 3595
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "global/global_printer.ml" 74 3512 3532 "global/global_printer.ml" 74 3512 3533
+)
+"global/global_printer.ml" 74 3512 3596 "global/global_printer.ml" 74 3512 3607
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  int_ref print_ident "global/global_printer.ml" 70 3407 3411 "global/global_printer.ml" 70 3407 3422
+)
+"global/global_printer.ml" 74 3512 3608 "global/global_printer.ml" 74 3512 3609
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "global/global_printer.ml" 74 3512 3535 "global/global_printer.ml" 74 3512 3536
+)
+"global/global_printer.ml" 74 3512 3541 "global/global_printer.ml" 74 3512 3609
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 75 3610 3639 "global/global_printer.ml" 75 3610 3640
+type(
+  int
+)
+ident(
+  def i "global/global_printer.ml" 75 3610 3646 "global/global_printer.ml" 75 3610 3665
+)
+"global/global_printer.ml" 75 3610 3632 "global/global_printer.ml" 75 3610 3640
+type(
+  Clocks.link
+)
+"global/global_printer.ml" 75 3610 3619 "global/global_printer.ml" 75 3610 3642
+type(
+  Clocks.link ref
+)
+"global/global_printer.ml" 75 3610 3614 "global/global_printer.ml" 75 3610 3642
+type(
+  Clocks.ck
+)
+"global/global_printer.ml" 75 3610 3646 "global/global_printer.ml" 75 3610 3653
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 75 3610 3654 "global/global_printer.ml" 75 3610 3656
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+)
+"global/global_printer.ml" 75 3610 3657 "global/global_printer.ml" 75 3610 3663
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 75 3610 3664 "global/global_printer.ml" 75 3610 3665
+type(
+  int
+)
+ident(
+  int_ref i "global/global_printer.ml" 75 3610 3639 "global/global_printer.ml" 75 3610 3640
+)
+"global/global_printer.ml" 75 3610 3646 "global/global_printer.ml" 75 3610 3665
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 76 3666 3694 "global/global_printer.ml" 76 3666 3696
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/global_printer.ml" 77 3702 3708 "global/global_printer.ml" 80 3799 3834
+)
+"global/global_printer.ml" 76 3666 3688 "global/global_printer.ml" 76 3666 3696
+type(
+  Clocks.link
+)
+"global/global_printer.ml" 76 3666 3675 "global/global_printer.ml" 76 3666 3698
+type(
+  Clocks.link ref
+)
+"global/global_printer.ml" 76 3666 3670 "global/global_printer.ml" 76 3666 3698
+type(
+  Clocks.ck
+)
+"global/global_printer.ml" 77 3702 3711 "global/global_printer.ml" 77 3702 3712
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/global_printer.ml" 77 3702 3712 "global/global_printer.ml" 77 3702 3743
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_type_info
+)
+"global/global_printer.ml" 77 3702 3711 "global/global_printer.ml" 77 3702 3743
+type(
+  bool
+)
+"global/global_printer.ml" 78 3749 3757 "global/global_printer.ml" 78 3749 3764
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 78 3749 3765 "global/global_printer.ml" 78 3749 3767
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+)
+"global/global_printer.ml" 78 3749 3768 "global/global_printer.ml" 78 3749 3775
+type(
+  ((Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 78 3749 3776 "global/global_printer.ml" 78 3749 3784
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  int_ref print_ck "global/global_printer.ml" 72 3445 3454 "global/global_printer.ml" 72 3445 3462
+)
+"global/global_printer.ml" 78 3749 3785 "global/global_printer.ml" 78 3749 3787
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/global_printer.ml" 76 3666 3694 "global/global_printer.ml" 76 3666 3696
+)
+"global/global_printer.ml" 78 3749 3757 "global/global_printer.ml" 78 3749 3787
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 80 3799 3807 "global/global_printer.ml" 80 3799 3814
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 80 3799 3815 "global/global_printer.ml" 80 3799 3817
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 72 3445 3463 "global/global_printer.ml" 72 3445 3465
+)
+"global/global_printer.ml" 80 3799 3818 "global/global_printer.ml" 80 3799 3822
+type(
+  ((Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 80 3799 3823 "global/global_printer.ml" 80 3799 3831
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  int_ref print_ck "global/global_printer.ml" 72 3445 3454 "global/global_printer.ml" 72 3445 3462
+)
+"global/global_printer.ml" 80 3799 3832 "global/global_printer.ml" 80 3799 3834
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/global_printer.ml" 76 3666 3694 "global/global_printer.ml" 76 3666 3696
+)
+"global/global_printer.ml" 80 3799 3807 "global/global_printer.ml" 80 3799 3834
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 77 3702 3708 "global/global_printer.ml" 80 3799 3834
+type(
+  unit
+)
+"global/global_printer.ml" 72 3445 3468 "global/global_printer.ml" 80 3799 3834
+type(
+  Clocks.ck -> unit
+)
+"global/global_printer.ml" 82 3836 3844 "global/global_printer.ml" 82 3836 3852
+type(
+  Format.formatter -> Clocks.ct -> unit
+)
+ident(
+  def print_ct "global/global_printer.ml" 82 3836 3836 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 82 3836 3853 "global/global_printer.ml" 82 3836 3855
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 82 3836 3858 "global/global_printer.ml" 85 3916 3987
+)
+"global/global_printer.ml" 83 3867 3874 "global/global_printer.ml" 83 3867 3876
+type(
+  Clocks.ck
+)
+ident(
+  def ck "global/global_printer.ml" 83 3867 3880 "global/global_printer.ml" 83 3867 3894
+)
+"global/global_printer.ml" 83 3867 3871 "global/global_printer.ml" 83 3867 3876
+type(
+  Clocks.ct
+)
+"global/global_printer.ml" 83 3867 3880 "global/global_printer.ml" 83 3867 3888
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  int_ref print_ck "global/global_printer.ml" 72 3445 3454 "global/global_printer.ml" 72 3445 3462
+)
+"global/global_printer.ml" 83 3867 3889 "global/global_printer.ml" 83 3867 3891
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 82 3836 3853 "global/global_printer.ml" 82 3836 3855
+)
+"global/global_printer.ml" 83 3867 3892 "global/global_printer.ml" 83 3867 3894
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "global/global_printer.ml" 83 3867 3874 "global/global_printer.ml" 83 3867 3876
+)
+"global/global_printer.ml" 83 3867 3880 "global/global_printer.ml" 83 3867 3894
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 84 3895 3905 "global/global_printer.ml" 84 3895 3912
+type(
+  Clocks.ct list
+)
+ident(
+  def ct_list "global/global_printer.ml" 85 3916 3922 "global/global_printer.ml" 85 3916 3987
+)
+"global/global_printer.ml" 84 3895 3899 "global/global_printer.ml" 84 3895 3912
+type(
+  Clocks.ct
+)
+"global/global_printer.ml" 85 3916 3922 "global/global_printer.ml" 85 3916 3929
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocks.ct list -> unit) -> Clocks.ct list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocks.ct list -> unit) -> Clocks.ct list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 85 3916 3930 "global/global_printer.ml" 85 3916 3932
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 82 3836 3853 "global/global_printer.ml" 82 3836 3855
+)
+"global/global_printer.ml" 85 3916 3933 "global/global_printer.ml" 85 3916 3946
+type(
+  ((Format.formatter -> Clocks.ct list -> unit) -> Clocks.ct list -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 85 3916 3948 "global/global_printer.ml" 85 3916 3960
+type(
+  (Format.formatter -> Clocks.ct -> unit) ->
+  string -> string -> string -> Format.formatter -> Clocks.ct list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 85 3916 3961 "global/global_printer.ml" 85 3916 3969
+type(
+  Format.formatter -> Clocks.ct -> unit
+)
+ident(
+  int_ref print_ct "global/global_printer.ml" 82 3836 3844 "global/global_printer.ml" 82 3836 3852
+)
+"global/global_printer.ml" 85 3916 3970 "global/global_printer.ml" 85 3916 3972
+type(
+  string
+)
+"global/global_printer.ml" 85 3916 3972 "global/global_printer.ml" 85 3916 3976
+type(
+  string
+)
+"global/global_printer.ml" 85 3916 3976 "global/global_printer.ml" 85 3916 3978
+type(
+  string
+)
+"global/global_printer.ml" 85 3916 3947 "global/global_printer.ml" 85 3916 3979
+call(
+  stack
+)
+type(
+  Format.formatter -> Clocks.ct list -> unit
+)
+"global/global_printer.ml" 85 3916 3980 "global/global_printer.ml" 85 3916 3987
+type(
+  Clocks.ct list
+)
+ident(
+  int_ref ct_list "global/global_printer.ml" 84 3895 3905 "global/global_printer.ml" 84 3895 3912
+)
+"global/global_printer.ml" 85 3916 3922 "global/global_printer.ml" 85 3916 3987
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 82 3836 3858 "global/global_printer.ml" 85 3916 3987
+type(
+  Clocks.ct -> unit
+)
+"global/global_printer.ml" 87 3989 3998 "global/global_printer.ml" 87 3989 4007
+type(
+  Format.formatter -> Signature.ck -> unit
+)
+ident(
+  def print_sck "global/global_printer.ml" 87 3989 3990 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 87 3989 4008 "global/global_printer.ml" 87 3989 4010
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 87 3989 4013 "global/global_printer.ml" 89 4060 4160
+)
+"global/global_printer.ml" 88 4022 4026 "global/global_printer.ml" 88 4022 4041
+type(
+  Signature.ck
+)
+"global/global_printer.ml" 88 4022 4045 "global/global_printer.ml" 88 4022 4052
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 88 4022 4053 "global/global_printer.ml" 88 4022 4055
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 87 3989 4008 "global/global_printer.ml" 87 3989 4010
+)
+"global/global_printer.ml" 88 4022 4056 "global/global_printer.ml" 88 4022 4059
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 88 4022 4045 "global/global_printer.ml" 88 4022 4059
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 89 4060 4079 "global/global_printer.ml" 89 4060 4081
+type(
+  Signature.ck
+)
+ident(
+  def ck "global/global_printer.ml" 89 4060 4092 "global/global_printer.ml" 89 4060 4160
+)
+"global/global_printer.ml" 89 4060 4083 "global/global_printer.ml" 89 4060 4084
+type(
+  Names.constructor_name
+)
+ident(
+  def c "global/global_printer.ml" 89 4060 4092 "global/global_printer.ml" 89 4060 4160
+)
+"global/global_printer.ml" 89 4060 4086 "global/global_printer.ml" 89 4060 4087
+type(
+  Names.name
+)
+ident(
+  def n "global/global_printer.ml" 89 4060 4092 "global/global_printer.ml" 89 4060 4160
+)
+"global/global_printer.ml" 89 4060 4064 "global/global_printer.ml" 89 4060 4088
+type(
+  Signature.ck
+)
+"global/global_printer.ml" 89 4060 4092 "global/global_printer.ml" 89 4060 4099
+type(
+  Format.formatter ->
+  ((Format.formatter -> Signature.ck -> unit) ->
+   Signature.ck ->
+   (Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Signature.ck -> unit) ->
+  Signature.ck ->
+  (Format.formatter -> Names.constructor_name -> unit) ->
+  Names.constructor_name ->
+  (Format.formatter -> String.t -> unit) -> String.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 89 4060 4100 "global/global_printer.ml" 89 4060 4102
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 87 3989 4008 "global/global_printer.ml" 87 3989 4010
+)
+"global/global_printer.ml" 89 4060 4103 "global/global_printer.ml" 89 4060 4117
+type(
+  ((Format.formatter -> Signature.ck -> unit) ->
+   Signature.ck ->
+   (Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> String.t -> unit) -> String.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 89 4060 4118 "global/global_printer.ml" 89 4060 4127
+type(
+  Format.formatter -> Signature.ck -> unit
+)
+ident(
+  int_ref print_sck "global/global_printer.ml" 87 3989 3998 "global/global_printer.ml" 87 3989 4007
+)
+"global/global_printer.ml" 89 4060 4128 "global/global_printer.ml" 89 4060 4130
+type(
+  Signature.ck
+)
+ident(
+  int_ref ck "global/global_printer.ml" 89 4060 4079 "global/global_printer.ml" 89 4060 4081
+)
+"global/global_printer.ml" 89 4060 4131 "global/global_printer.ml" 89 4060 4145
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 89 4060 4146 "global/global_printer.ml" 89 4060 4147
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "global/global_printer.ml" 89 4060 4083 "global/global_printer.ml" 89 4060 4084
+)
+"global/global_printer.ml" 89 4060 4148 "global/global_printer.ml" 89 4060 4158
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 89 4060 4159 "global/global_printer.ml" 89 4060 4160
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/global_printer.ml" 89 4060 4086 "global/global_printer.ml" 89 4060 4087
+)
+"global/global_printer.ml" 89 4060 4092 "global/global_printer.ml" 89 4060 4160
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 87 3989 4013 "global/global_printer.ml" 89 4060 4160
+type(
+  Signature.ck -> unit
+)
+"global/global_printer.ml" 92 4163 4171 "global/global_printer.ml" 92 4163 4192
+type(
+  Format.formatter -> Types.static_exp_desc -> unit
+)
+ident(
+  def print_static_exp_desc "global/global_printer.ml" 92 4163 4163 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 92 4163 4196 "global/global_printer.ml" 115 5170 5232
+)
+"global/global_printer.ml" 92 4163 4196 "global/global_printer.ml" 92 4163 4199
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sed "global/global_printer.ml" 92 4163 4202 "global/global_printer.ml" 115 5170 5232
+)
+"global/global_printer.ml" 92 4163 4208 "global/global_printer.ml" 92 4163 4211
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sed "global/global_printer.ml" 92 4163 4196 "global/global_printer.ml" 92 4163 4199
+)
+"global/global_printer.ml" 93 4217 4226 "global/global_printer.ml" 93 4217 4227
+type(
+  int
+)
+ident(
+  def i "global/global_printer.ml" 93 4217 4231 "global/global_printer.ml" 93 4217 4248
+)
+"global/global_printer.ml" 93 4217 4221 "global/global_printer.ml" 93 4217 4227
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 93 4217 4231 "global/global_printer.ml" 93 4217 4238
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 93 4217 4239 "global/global_printer.ml" 93 4217 4241
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 93 4217 4242 "global/global_printer.ml" 93 4217 4246
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 93 4217 4247 "global/global_printer.ml" 93 4217 4248
+type(
+  int
+)
+ident(
+  int_ref i "global/global_printer.ml" 93 4217 4226 "global/global_printer.ml" 93 4217 4227
+)
+"global/global_printer.ml" 93 4217 4231 "global/global_printer.ml" 93 4217 4248
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 94 4249 4259 "global/global_printer.ml" 94 4249 4260
+type(
+  bool
+)
+ident(
+  def b "global/global_printer.ml" 94 4249 4264 "global/global_printer.ml" 94 4249 4281
+)
+"global/global_printer.ml" 94 4249 4253 "global/global_printer.ml" 94 4249 4260
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 94 4249 4264 "global/global_printer.ml" 94 4249 4271
+type(
+  Format.formatter ->
+  (bool -> unit, Format.formatter, unit) format -> bool -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 94 4249 4272 "global/global_printer.ml" 94 4249 4274
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 94 4249 4275 "global/global_printer.ml" 94 4249 4279
+type(
+  (bool -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 94 4249 4280 "global/global_printer.ml" 94 4249 4281
+type(
+  bool
+)
+ident(
+  int_ref b "global/global_printer.ml" 94 4249 4259 "global/global_printer.ml" 94 4249 4260
+)
+"global/global_printer.ml" 94 4249 4264 "global/global_printer.ml" 94 4249 4281
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 95 4282 4293 "global/global_printer.ml" 95 4282 4294
+type(
+  float
+)
+ident(
+  def f "global/global_printer.ml" 95 4282 4298 "global/global_printer.ml" 95 4282 4315
+)
+"global/global_printer.ml" 95 4282 4286 "global/global_printer.ml" 95 4282 4294
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 95 4282 4298 "global/global_printer.ml" 95 4282 4305
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 95 4282 4306 "global/global_printer.ml" 95 4282 4308
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 95 4282 4309 "global/global_printer.ml" 95 4282 4313
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 95 4282 4314 "global/global_printer.ml" 95 4282 4315
+type(
+  float
+)
+ident(
+  int_ref f "global/global_printer.ml" 95 4282 4293 "global/global_printer.ml" 95 4282 4294
+)
+"global/global_printer.ml" 95 4282 4298 "global/global_printer.ml" 95 4282 4315
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 96 4316 4328 "global/global_printer.ml" 96 4316 4329
+type(
+  string
+)
+ident(
+  def s "global/global_printer.ml" 96 4316 4333 "global/global_printer.ml" 96 4316 4371
+)
+"global/global_printer.ml" 96 4316 4320 "global/global_printer.ml" 96 4316 4329
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 96 4316 4333 "global/global_printer.ml" 96 4316 4340
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 96 4316 4341 "global/global_printer.ml" 96 4316 4343
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 96 4316 4344 "global/global_printer.ml" 96 4316 4352
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 96 4316 4354 "global/global_printer.ml" 96 4316 4368
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"global/global_printer.ml" 96 4316 4369 "global/global_printer.ml" 96 4316 4370
+type(
+  string
+)
+ident(
+  int_ref s "global/global_printer.ml" 96 4316 4328 "global/global_printer.ml" 96 4316 4329
+)
+"global/global_printer.ml" 96 4316 4353 "global/global_printer.ml" 96 4316 4371
+call(
+  stack
+)
+type(
+  string
+)
+"global/global_printer.ml" 96 4316 4333 "global/global_printer.ml" 96 4316 4371
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 97 4372 4389 "global/global_printer.ml" 97 4372 4391
+type(
+  Names.constructor_name
+)
+ident(
+  def ln "global/global_printer.ml" 97 4372 4395 "global/global_printer.ml" 97 4372 4415
+)
+"global/global_printer.ml" 97 4372 4376 "global/global_printer.ml" 97 4372 4391
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 97 4372 4395 "global/global_printer.ml" 97 4372 4409
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 97 4372 4410 "global/global_printer.ml" 97 4372 4412
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 97 4372 4413 "global/global_printer.ml" 97 4372 4415
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref ln "global/global_printer.ml" 97 4372 4389 "global/global_printer.ml" 97 4372 4391
+)
+"global/global_printer.ml" 97 4372 4395 "global/global_printer.ml" 97 4372 4415
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 98 4416 4427 "global/global_printer.ml" 98 4416 4429
+type(
+  Names.field_name
+)
+ident(
+  def ln "global/global_printer.ml" 98 4416 4433 "global/global_printer.ml" 98 4416 4453
+)
+"global/global_printer.ml" 98 4416 4420 "global/global_printer.ml" 98 4416 4429
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 98 4416 4433 "global/global_printer.ml" 98 4416 4447
+type(
+  Format.formatter -> Names.field_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 98 4416 4448 "global/global_printer.ml" 98 4416 4450
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 98 4416 4451 "global/global_printer.ml" 98 4416 4453
+type(
+  Names.field_name
+)
+ident(
+  int_ref ln "global/global_printer.ml" 98 4416 4427 "global/global_printer.ml" 98 4416 4429
+)
+"global/global_printer.ml" 98 4416 4433 "global/global_printer.ml" 98 4416 4453
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 99 4454 4463 "global/global_printer.ml" 99 4454 4465
+type(
+  Names.constant_name
+)
+ident(
+  def id "global/global_printer.ml" 99 4454 4469 "global/global_printer.ml" 99 4454 4502
+)
+"global/global_printer.ml" 99 4454 4458 "global/global_printer.ml" 99 4454 4465
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 99 4454 4469 "global/global_printer.ml" 99 4454 4476
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.constant_name -> unit) ->
+   Names.constant_name -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.constant_name -> unit) ->
+  Names.constant_name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 99 4454 4477 "global/global_printer.ml" 99 4454 4479
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 99 4454 4480 "global/global_printer.ml" 99 4454 4484
+type(
+  ((Format.formatter -> Names.constant_name -> unit) ->
+   Names.constant_name -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 99 4454 4485 "global/global_printer.ml" 99 4454 4499
+type(
+  Format.formatter -> Names.constant_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 99 4454 4500 "global/global_printer.ml" 99 4454 4502
+type(
+  Names.constant_name
+)
+ident(
+  int_ref id "global/global_printer.ml" 99 4454 4463 "global/global_printer.ml" 99 4454 4465
+)
+"global/global_printer.ml" 99 4454 4469 "global/global_printer.ml" 99 4454 4502
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 100 4503 4512 "global/global_printer.ml" 100 4503 4514
+type(
+  Names.fun_name
+)
+ident(
+  def op "global/global_printer.ml" 101 4528 4534 "global/global_printer.ml" 107 4757 4816
+)
+"global/global_printer.ml" 100 4503 4516 "global/global_printer.ml" 100 4503 4523
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/global_printer.ml" 101 4528 4534 "global/global_printer.ml" 107 4757 4816
+)
+"global/global_printer.ml" 100 4503 4507 "global/global_printer.ml" 100 4503 4524
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 101 4528 4537 "global/global_printer.ml" 101 4528 4545
+type(
+  String.t -> bool
+)
+ident(
+  ext_ref Names.is_infix
+)
+"global/global_printer.ml" 101 4528 4547 "global/global_printer.ml" 101 4528 4556
+type(
+  Names.fun_name -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"global/global_printer.ml" 101 4528 4557 "global/global_printer.ml" 101 4528 4559
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/global_printer.ml" 100 4503 4512 "global/global_printer.ml" 100 4503 4514
+)
+"global/global_printer.ml" 101 4528 4546 "global/global_printer.ml" 101 4528 4560
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/global_printer.ml" 101 4528 4537 "global/global_printer.ml" 101 4528 4560
+call(
+  stack
+)
+type(
+  bool
+)
+"global/global_printer.ml" 103 4572 4584 "global/global_printer.ml" 103 4572 4586
+type(
+  Types.static_exp
+)
+ident(
+  def e1 "global/global_printer.ml" 104 4617 4625 "global/global_printer.ml" 104 4617 4710
+)
+"global/global_printer.ml" 103 4572 4587 "global/global_printer.ml" 103 4572 4589
+type(
+  Types.static_exp
+)
+ident(
+  def e2 "global/global_printer.ml" 104 4617 4625 "global/global_printer.ml" 104 4617 4710
+)
+"global/global_printer.ml" 103 4572 4584 "global/global_printer.ml" 103 4572 4589
+type(
+  Types.static_exp * Types.static_exp
+)
+"global/global_printer.ml" 103 4572 4592 "global/global_printer.ml" 103 4572 4605
+type(
+  Types.static_exp list -> Types.static_exp * Types.static_exp
+)
+ident(
+  ext_ref Misc.assert_2
+)
+"global/global_printer.ml" 103 4572 4606 "global/global_printer.ml" 103 4572 4613
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/global_printer.ml" 100 4503 4516 "global/global_printer.ml" 100 4503 4523
+)
+"global/global_printer.ml" 103 4572 4592 "global/global_printer.ml" 103 4572 4613
+call(
+  stack
+)
+type(
+  Types.static_exp * Types.static_exp
+)
+"global/global_printer.ml" 104 4617 4625 "global/global_printer.ml" 104 4617 4632
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp -> unit) ->
+   Types.static_exp ->
+   Names.name ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp -> unit) ->
+  Types.static_exp ->
+  Names.name ->
+  (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 104 4617 4633 "global/global_printer.ml" 104 4617 4635
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 104 4617 4636 "global/global_printer.ml" 104 4617 4653
+type(
+  ((Format.formatter -> Types.static_exp -> unit) ->
+   Types.static_exp ->
+   Names.name ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 104 4617 4654 "global/global_printer.ml" 104 4617 4670
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 104 4617 4671 "global/global_printer.ml" 104 4617 4673
+type(
+  Types.static_exp
+)
+ident(
+  int_ref e1 "global/global_printer.ml" 103 4572 4584 "global/global_printer.ml" 103 4572 4586
+)
+"global/global_printer.ml" 104 4617 4676 "global/global_printer.ml" 104 4617 4685
+type(
+  Names.fun_name -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"global/global_printer.ml" 104 4617 4686 "global/global_printer.ml" 104 4617 4688
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/global_printer.ml" 100 4503 4512 "global/global_printer.ml" 100 4503 4514
+)
+"global/global_printer.ml" 104 4617 4675 "global/global_printer.ml" 104 4617 4689
+call(
+  stack
+)
+type(
+  Names.name
+)
+"global/global_printer.ml" 104 4617 4691 "global/global_printer.ml" 104 4617 4707
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 104 4617 4708 "global/global_printer.ml" 104 4617 4710
+type(
+  Types.static_exp
+)
+ident(
+  int_ref e2 "global/global_printer.ml" 103 4572 4587 "global/global_printer.ml" 103 4572 4589
+)
+"global/global_printer.ml" 104 4617 4625 "global/global_printer.ml" 104 4617 4710
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 103 4572 4580 "global/global_printer.ml" 104 4617 4710
+type(
+  unit
+)
+"global/global_printer.ml" 106 4722 4730 "global/global_printer.ml" 106 4722 4737
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.fun_name -> unit) ->
+   Names.fun_name ->
+   (Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.fun_name -> unit) ->
+  Names.fun_name ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 106 4722 4738 "global/global_printer.ml" 106 4722 4740
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 106 4722 4741 "global/global_printer.ml" 106 4722 4756
+type(
+  ((Format.formatter -> Names.fun_name -> unit) ->
+   Names.fun_name ->
+   (Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 107 4757 4767 "global/global_printer.ml" 107 4757 4781
+type(
+  Format.formatter -> Names.fun_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 107 4757 4782 "global/global_printer.ml" 107 4757 4784
+type(
+  Names.fun_name
+)
+ident(
+  int_ref op "global/global_printer.ml" 100 4503 4512 "global/global_printer.ml" 100 4503 4514
+)
+"global/global_printer.ml" 107 4757 4786 "global/global_printer.ml" 107 4757 4808
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  int_ref print_static_exp_tuple "global/global_printer.ml" 124 5453 5457 "global/global_printer.ml" 124 5453 5479
+)
+"global/global_printer.ml" 107 4757 4809 "global/global_printer.ml" 107 4757 4816
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/global_printer.ml" 100 4503 4516 "global/global_printer.ml" 100 4503 4523
+)
+"global/global_printer.ml" 106 4722 4730 "global/global_printer.ml" 107 4757 4816
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 101 4528 4534 "global/global_printer.ml" 107 4757 4816
+type(
+  unit
+)
+"global/global_printer.ml" 108 4817 4835 "global/global_printer.ml" 108 4817 4837
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/global_printer.ml" 109 4850 4856 "global/global_printer.ml" 109 4850 4939
+)
+"global/global_printer.ml" 108 4817 4839 "global/global_printer.ml" 108 4817 4845
+type(
+  Types.static_exp list
+)
+ident(
+  def n_list "global/global_printer.ml" 109 4850 4856 "global/global_printer.ml" 109 4850 4939
+)
+"global/global_printer.ml" 108 4817 4821 "global/global_printer.ml" 108 4817 4846
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 109 4850 4856 "global/global_printer.ml" 109 4850 4863
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp -> unit) ->
+   Types.static_exp ->
+   (Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp -> unit) ->
+  Types.static_exp ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 109 4850 4864 "global/global_printer.ml" 109 4850 4866
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 109 4850 4867 "global/global_printer.ml" 109 4850 4874
+type(
+  ((Format.formatter -> Types.static_exp -> unit) ->
+   Types.static_exp ->
+   (Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 109 4850 4875 "global/global_printer.ml" 109 4850 4891
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 109 4850 4892 "global/global_printer.ml" 109 4850 4894
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/global_printer.ml" 108 4817 4835 "global/global_printer.ml" 108 4817 4837
+)
+"global/global_printer.ml" 109 4850 4896 "global/global_printer.ml" 109 4850 4906
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list
+)
+"global/global_printer.ml" 109 4850 4907 "global/global_printer.ml" 109 4850 4923
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 109 4850 4924 "global/global_printer.ml" 109 4850 4926
+type(
+  string
+)
+"global/global_printer.ml" 109 4850 4926 "global/global_printer.ml" 109 4850 4929
+type(
+  string
+)
+"global/global_printer.ml" 109 4850 4929 "global/global_printer.ml" 109 4850 4931
+type(
+  string
+)
+"global/global_printer.ml" 109 4850 4895 "global/global_printer.ml" 109 4850 4932
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"global/global_printer.ml" 109 4850 4933 "global/global_printer.ml" 109 4850 4939
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n_list "global/global_printer.ml" 108 4817 4839 "global/global_printer.ml" 108 4817 4845
+)
+"global/global_printer.ml" 109 4850 4856 "global/global_printer.ml" 109 4850 4939
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 110 4940 4951 "global/global_printer.ml" 110 4940 4958
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/global_printer.ml" 111 4962 4968 "global/global_printer.ml" 111 4962 5040
+)
+"global/global_printer.ml" 110 4940 4944 "global/global_printer.ml" 110 4940 4958
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 111 4962 4968 "global/global_printer.ml" 111 4962 4975
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 111 4962 4976 "global/global_printer.ml" 111 4962 4978
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 111 4962 4979 "global/global_printer.ml" 111 4962 4990
+type(
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 111 4962 4992 "global/global_printer.ml" 111 4962 5004
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 111 4962 5005 "global/global_printer.ml" 111 4962 5021
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 111 4962 5022 "global/global_printer.ml" 111 4962 5025
+type(
+  string
+)
+"global/global_printer.ml" 111 4962 5025 "global/global_printer.ml" 111 4962 5028
+type(
+  string
+)
+"global/global_printer.ml" 111 4962 5028 "global/global_printer.ml" 111 4962 5031
+type(
+  string
+)
+"global/global_printer.ml" 111 4962 4991 "global/global_printer.ml" 111 4962 5032
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"global/global_printer.ml" 111 4962 5033 "global/global_printer.ml" 111 4962 5040
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/global_printer.ml" 110 4940 4951 "global/global_printer.ml" 110 4940 4958
+)
+"global/global_printer.ml" 111 4962 4968 "global/global_printer.ml" 111 4962 5040
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 112 5041 5052 "global/global_printer.ml" 112 5041 5059
+type(
+  Types.static_exp list
+)
+ident(
+  def se_list "global/global_printer.ml" 112 5041 5063 "global/global_printer.ml" 112 5041 5096
+)
+"global/global_printer.ml" 112 5041 5045 "global/global_printer.ml" 112 5041 5059
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 112 5041 5063 "global/global_printer.ml" 112 5041 5085
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  int_ref print_static_exp_tuple "global/global_printer.ml" 124 5453 5457 "global/global_printer.ml" 124 5453 5479
+)
+"global/global_printer.ml" 112 5041 5086 "global/global_printer.ml" 112 5041 5088
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 112 5041 5089 "global/global_printer.ml" 112 5041 5096
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se_list "global/global_printer.ml" 112 5041 5052 "global/global_printer.ml" 112 5041 5059
+)
+"global/global_printer.ml" 112 5041 5063 "global/global_printer.ml" 112 5041 5096
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 113 5097 5109 "global/global_printer.ml" 113 5097 5118
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  def f_se_list "global/global_printer.ml" 114 5122 5128 "global/global_printer.ml" 115 5170 5232
+)
+"global/global_printer.ml" 113 5097 5101 "global/global_printer.ml" 113 5097 5118
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 114 5122 5128 "global/global_printer.ml" 114 5122 5140
+type(
+  (Format.formatter -> Names.field_name * Types.static_exp -> unit) ->
+  Format.formatter -> (Names.field_name * Types.static_exp) list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_record
+)
+"global/global_printer.ml" 114 5122 5142 "global/global_printer.ml" 114 5122 5154
+type(
+  (Format.formatter -> Names.field_name -> unit) ->
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string ->
+  string -> Format.formatter -> Names.field_name * Types.static_exp -> unit
+)
+ident(
+  ext_ref Pp_tools.print_couple
+)
+"global/global_printer.ml" 114 5122 5155 "global/global_printer.ml" 114 5122 5169
+type(
+  Format.formatter -> Names.field_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 115 5170 5192 "global/global_printer.ml" 115 5170 5208
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 115 5170 5209 "global/global_printer.ml" 115 5170 5211
+type(
+  string
+)
+"global/global_printer.ml" 115 5170 5211 "global/global_printer.ml" 115 5170 5216
+type(
+  string
+)
+"global/global_printer.ml" 115 5170 5216 "global/global_printer.ml" 115 5170 5218
+type(
+  string
+)
+"global/global_printer.ml" 114 5122 5141 "global/global_printer.ml" 115 5170 5219
+call(
+  stack
+)
+type(
+  Format.formatter -> Names.field_name * Types.static_exp -> unit
+)
+"global/global_printer.ml" 115 5170 5220 "global/global_printer.ml" 115 5170 5222
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 92 4163 4193 "global/global_printer.ml" 92 4163 4195
+)
+"global/global_printer.ml" 115 5170 5223 "global/global_printer.ml" 115 5170 5232
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  int_ref f_se_list "global/global_printer.ml" 113 5097 5109 "global/global_printer.ml" 113 5097 5118
+)
+"global/global_printer.ml" 114 5122 5128 "global/global_printer.ml" 115 5170 5232
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 92 4163 4202 "global/global_printer.ml" 115 5170 5232
+type(
+  unit
+)
+"global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  def print_static_exp "global/global_printer.ml" 92 4163 4163 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 117 5234 5255 "global/global_printer.ml" 117 5234 5257
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 117 5234 5258 "global/global_printer.ml" 122 5399 5451
+)
+"global/global_printer.ml" 117 5234 5258 "global/global_printer.ml" 117 5234 5260
+type(
+  Types.static_exp
+)
+ident(
+  def se "global/global_printer.ml" 118 5263 5265 "global/global_printer.ml" 122 5399 5451
+)
+"global/global_printer.ml" 118 5263 5268 "global/global_printer.ml" 118 5263 5269
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/global_printer.ml" 118 5263 5269 "global/global_printer.ml" 118 5263 5300
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.full_type_info
+)
+"global/global_printer.ml" 118 5263 5268 "global/global_printer.ml" 118 5263 5300
+type(
+  bool
+)
+"global/global_printer.ml" 119 5306 5310 "global/global_printer.ml" 119 5306 5317
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp_desc -> unit) ->
+   Types.static_exp_desc ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp_desc -> unit) ->
+  Types.static_exp_desc ->
+  (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 119 5306 5318 "global/global_printer.ml" 119 5306 5320
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 117 5234 5255 "global/global_printer.ml" 117 5234 5257
+)
+"global/global_printer.ml" 119 5306 5321 "global/global_printer.ml" 119 5306 5332
+type(
+  ((Format.formatter -> Types.static_exp_desc -> unit) ->
+   Types.static_exp_desc ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 120 5333 5339 "global/global_printer.ml" 120 5333 5360
+type(
+  Format.formatter -> Types.static_exp_desc -> unit
+)
+ident(
+  int_ref print_static_exp_desc "global/global_printer.ml" 92 4163 4171 "global/global_printer.ml" 92 4163 4192
+)
+"global/global_printer.ml" 120 5333 5361 "global/global_printer.ml" 120 5333 5363
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/global_printer.ml" 117 5234 5258 "global/global_printer.ml" 117 5234 5260
+)
+"global/global_printer.ml" 120 5333 5361 "global/global_printer.ml" 120 5333 5371
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 120 5333 5372 "global/global_printer.ml" 120 5333 5382
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 120 5333 5383 "global/global_printer.ml" 120 5333 5385
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/global_printer.ml" 117 5234 5258 "global/global_printer.ml" 117 5234 5260
+)
+"global/global_printer.ml" 120 5333 5383 "global/global_printer.ml" 120 5333 5391
+type(
+  Types.ty
+)
+"global/global_printer.ml" 119 5306 5310 "global/global_printer.ml" 120 5333 5391
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 122 5399 5403 "global/global_printer.ml" 122 5399 5410
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp_desc -> unit) ->
+   Types.static_exp_desc -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp_desc -> unit) ->
+  Types.static_exp_desc -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 122 5399 5411 "global/global_printer.ml" 122 5399 5413
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 117 5234 5255 "global/global_printer.ml" 117 5234 5257
+)
+"global/global_printer.ml" 122 5399 5414 "global/global_printer.ml" 122 5399 5418
+type(
+  ((Format.formatter -> Types.static_exp_desc -> unit) ->
+   Types.static_exp_desc -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 122 5399 5419 "global/global_printer.ml" 122 5399 5440
+type(
+  Format.formatter -> Types.static_exp_desc -> unit
+)
+ident(
+  int_ref print_static_exp_desc "global/global_printer.ml" 92 4163 4171 "global/global_printer.ml" 92 4163 4192
+)
+"global/global_printer.ml" 122 5399 5441 "global/global_printer.ml" 122 5399 5443
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "global/global_printer.ml" 117 5234 5258 "global/global_printer.ml" 117 5234 5260
+)
+"global/global_printer.ml" 122 5399 5441 "global/global_printer.ml" 122 5399 5451
+type(
+  Types.static_exp_desc
+)
+"global/global_printer.ml" 122 5399 5403 "global/global_printer.ml" 122 5399 5451
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 118 5263 5265 "global/global_printer.ml" 122 5399 5451
+type(
+  unit
+)
+"global/global_printer.ml" 124 5453 5457 "global/global_printer.ml" 124 5453 5479
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  def print_static_exp_tuple "global/global_printer.ml" 92 4163 4163 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 124 5453 5480 "global/global_printer.ml" 124 5453 5482
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 124 5453 5483 "global/global_printer.ml" 125 5487 5555
+)
+"global/global_printer.ml" 124 5453 5483 "global/global_printer.ml" 124 5453 5484
+type(
+  Types.static_exp list
+)
+ident(
+  def l "global/global_printer.ml" 125 5487 5489 "global/global_printer.ml" 125 5487 5555
+)
+"global/global_printer.ml" 125 5487 5489 "global/global_printer.ml" 125 5487 5496
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 125 5487 5497 "global/global_printer.ml" 125 5487 5499
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 124 5453 5480 "global/global_printer.ml" 124 5453 5482
+)
+"global/global_printer.ml" 125 5487 5500 "global/global_printer.ml" 125 5487 5511
+type(
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 125 5487 5513 "global/global_printer.ml" 125 5487 5525
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 125 5487 5526 "global/global_printer.ml" 125 5487 5542
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 125 5487 5543 "global/global_printer.ml" 125 5487 5546
+type(
+  string
+)
+"global/global_printer.ml" 125 5487 5546 "global/global_printer.ml" 125 5487 5549
+type(
+  string
+)
+"global/global_printer.ml" 125 5487 5549 "global/global_printer.ml" 125 5487 5552
+type(
+  string
+)
+"global/global_printer.ml" 125 5487 5512 "global/global_printer.ml" 125 5487 5553
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"global/global_printer.ml" 125 5487 5554 "global/global_printer.ml" 125 5487 5555
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref l "global/global_printer.ml" 124 5453 5483 "global/global_printer.ml" 124 5453 5484
+)
+"global/global_printer.ml" 125 5487 5489 "global/global_printer.ml" 125 5487 5555
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  def print_type "global/global_printer.ml" 92 4163 4163 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 127 5557 5572 "global/global_printer.ml" 127 5557 5574
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 127 5557 5577 "global/global_printer.ml" 133 5785 5852
+)
+"global/global_printer.ml" 128 5586 5590 "global/global_printer.ml" 128 5586 5598
+type(
+  Types.ty
+)
+"global/global_printer.ml" 128 5586 5602 "global/global_printer.ml" 128 5586 5609
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 128 5586 5610 "global/global_printer.ml" 128 5586 5612
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 127 5557 5572 "global/global_printer.ml" 127 5557 5574
+)
+"global/global_printer.ml" 128 5586 5613 "global/global_printer.ml" 128 5586 5627
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 128 5586 5602 "global/global_printer.ml" 128 5586 5627
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 129 5628 5638 "global/global_printer.ml" 129 5628 5645
+type(
+  Types.ty list
+)
+ident(
+  def ty_list "global/global_printer.ml" 130 5649 5655 "global/global_printer.ml" 130 5649 5727
+)
+"global/global_printer.ml" 129 5628 5632 "global/global_printer.ml" 129 5628 5645
+type(
+  Types.ty
+)
+"global/global_printer.ml" 130 5649 5655 "global/global_printer.ml" 130 5649 5662
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.ty list -> unit) -> Types.ty list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.ty list -> unit) -> Types.ty list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 130 5649 5663 "global/global_printer.ml" 130 5649 5665
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 127 5557 5572 "global/global_printer.ml" 127 5557 5574
+)
+"global/global_printer.ml" 130 5649 5666 "global/global_printer.ml" 130 5649 5680
+type(
+  ((Format.formatter -> Types.ty list -> unit) -> Types.ty list -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 130 5649 5682 "global/global_printer.ml" 130 5649 5694
+type(
+  (Format.formatter -> Types.ty -> unit) ->
+  string -> string -> string -> Format.formatter -> Types.ty list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 130 5649 5695 "global/global_printer.ml" 130 5649 5705
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 130 5649 5706 "global/global_printer.ml" 130 5649 5709
+type(
+  string
+)
+"global/global_printer.ml" 130 5649 5710 "global/global_printer.ml" 130 5649 5714
+type(
+  string
+)
+"global/global_printer.ml" 130 5649 5715 "global/global_printer.ml" 130 5649 5718
+type(
+  string
+)
+"global/global_printer.ml" 130 5649 5681 "global/global_printer.ml" 130 5649 5719
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.ty list -> unit
+)
+"global/global_printer.ml" 130 5649 5720 "global/global_printer.ml" 130 5649 5727
+type(
+  Types.ty list
+)
+ident(
+  int_ref ty_list "global/global_printer.ml" 129 5628 5638 "global/global_printer.ml" 129 5628 5645
+)
+"global/global_printer.ml" 130 5649 5655 "global/global_printer.ml" 130 5649 5727
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 131 5728 5736 "global/global_printer.ml" 131 5728 5738
+type(
+  Names.type_name
+)
+ident(
+  def id "global/global_printer.ml" 131 5728 5742 "global/global_printer.ml" 131 5728 5762
+)
+"global/global_printer.ml" 131 5728 5732 "global/global_printer.ml" 131 5728 5738
+type(
+  Types.ty
+)
+"global/global_printer.ml" 131 5728 5742 "global/global_printer.ml" 131 5728 5756
+type(
+  Format.formatter -> Names.type_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 131 5728 5757 "global/global_printer.ml" 131 5728 5759
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 127 5557 5572 "global/global_printer.ml" 127 5557 5574
+)
+"global/global_printer.ml" 131 5728 5760 "global/global_printer.ml" 131 5728 5762
+type(
+  Names.type_name
+)
+ident(
+  int_ref id "global/global_printer.ml" 131 5728 5736 "global/global_printer.ml" 131 5728 5738
+)
+"global/global_printer.ml" 131 5728 5742 "global/global_printer.ml" 131 5728 5762
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 132 5763 5775 "global/global_printer.ml" 132 5763 5777
+type(
+  Types.ty
+)
+ident(
+  def ty "global/global_printer.ml" 133 5785 5791 "global/global_printer.ml" 133 5785 5852
+)
+"global/global_printer.ml" 132 5763 5779 "global/global_printer.ml" 132 5763 5780
+type(
+  Types.static_exp
+)
+ident(
+  def n "global/global_printer.ml" 133 5785 5791 "global/global_printer.ml" 133 5785 5852
+)
+"global/global_printer.ml" 132 5763 5767 "global/global_printer.ml" 132 5763 5781
+type(
+  Types.ty
+)
+"global/global_printer.ml" 133 5785 5791 "global/global_printer.ml" 133 5785 5798
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.ty -> unit) ->
+  Types.ty ->
+  (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 133 5785 5799 "global/global_printer.ml" 133 5785 5801
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 127 5557 5572 "global/global_printer.ml" 127 5557 5574
+)
+"global/global_printer.ml" 133 5785 5802 "global/global_printer.ml" 133 5785 5819
+type(
+  ((Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 133 5785 5820 "global/global_printer.ml" 133 5785 5830
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 133 5785 5831 "global/global_printer.ml" 133 5785 5833
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "global/global_printer.ml" 132 5763 5775 "global/global_printer.ml" 132 5763 5777
+)
+"global/global_printer.ml" 133 5785 5834 "global/global_printer.ml" 133 5785 5850
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 133 5785 5851 "global/global_printer.ml" 133 5785 5852
+type(
+  Types.static_exp
+)
+ident(
+  int_ref n "global/global_printer.ml" 132 5763 5779 "global/global_printer.ml" 132 5763 5780
+)
+"global/global_printer.ml" 133 5785 5791 "global/global_printer.ml" 133 5785 5852
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 127 5557 5577 "global/global_printer.ml" 133 5785 5852
+type(
+  Types.ty -> unit
+)
+"global/global_printer.ml" 135 5854 5858 "global/global_printer.ml" 135 5854 5869
+type(
+  Format.formatter -> Signature.field -> unit
+)
+ident(
+  def print_field "global/global_printer.ml" 138 5961 5961 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 135 5854 5870 "global/global_printer.ml" 135 5854 5872
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 135 5854 5873 "global/global_printer.ml" 136 5881 5959
+)
+"global/global_printer.ml" 135 5854 5873 "global/global_printer.ml" 135 5854 5878
+type(
+  Signature.field
+)
+ident(
+  def field "global/global_printer.ml" 136 5881 5883 "global/global_printer.ml" 136 5881 5959
+)
+"global/global_printer.ml" 136 5881 5883 "global/global_printer.ml" 136 5881 5890
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.field_name -> unit) ->
+   Names.field_name ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.field_name -> unit) ->
+  Names.field_name ->
+  (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 136 5881 5891 "global/global_printer.ml" 136 5881 5893
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 135 5854 5870 "global/global_printer.ml" 135 5854 5872
+)
+"global/global_printer.ml" 136 5881 5894 "global/global_printer.ml" 136 5881 5906
+type(
+  ((Format.formatter -> Names.field_name -> unit) ->
+   Names.field_name ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 136 5881 5907 "global/global_printer.ml" 136 5881 5921
+type(
+  Format.formatter -> Names.field_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 136 5881 5922 "global/global_printer.ml" 136 5881 5927
+type(
+  Signature.field
+)
+ident(
+  int_ref field "global/global_printer.ml" 135 5854 5873 "global/global_printer.ml" 135 5854 5878
+)
+"global/global_printer.ml" 136 5881 5922 "global/global_printer.ml" 136 5881 5934
+type(
+  Names.field_name
+)
+"global/global_printer.ml" 136 5881 5936 "global/global_printer.ml" 136 5881 5946
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 136 5881 5947 "global/global_printer.ml" 136 5881 5952
+type(
+  Signature.field
+)
+ident(
+  int_ref field "global/global_printer.ml" 135 5854 5873 "global/global_printer.ml" 135 5854 5878
+)
+"global/global_printer.ml" 136 5881 5947 "global/global_printer.ml" 136 5881 5959
+type(
+  Types.ty
+)
+"global/global_printer.ml" 136 5881 5883 "global/global_printer.ml" 136 5881 5959
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 138 5961 5965 "global/global_printer.ml" 138 5961 5977
+type(
+  Format.formatter -> Signature.field list -> unit
+)
+ident(
+  def print_struct "global/global_printer.ml" 140 6034 6034 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 138 5961 5978 "global/global_printer.ml" 138 5961 5980
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 138 5961 5981 "global/global_printer.ml" 138 5961 6032
+)
+"global/global_printer.ml" 138 5961 5981 "global/global_printer.ml" 138 5961 5991
+type(
+  Signature.field list
+)
+ident(
+  def field_list "global/global_printer.ml" 138 5961 5994 "global/global_printer.ml" 138 5961 6032
+)
+"global/global_printer.ml" 138 5961 5994 "global/global_printer.ml" 138 5961 6006
+type(
+  (Format.formatter -> Signature.field -> unit) ->
+  Format.formatter -> Signature.field list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_record
+)
+"global/global_printer.ml" 138 5961 6007 "global/global_printer.ml" 138 5961 6018
+type(
+  Format.formatter -> Signature.field -> unit
+)
+ident(
+  int_ref print_field "global/global_printer.ml" 135 5854 5858 "global/global_printer.ml" 135 5854 5869
+)
+"global/global_printer.ml" 138 5961 6019 "global/global_printer.ml" 138 5961 6021
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 138 5961 5978 "global/global_printer.ml" 138 5961 5980
+)
+"global/global_printer.ml" 138 5961 6022 "global/global_printer.ml" 138 5961 6032
+type(
+  Signature.field list
+)
+ident(
+  int_ref field_list "global/global_printer.ml" 138 5961 5981 "global/global_printer.ml" 138 5961 5991
+)
+"global/global_printer.ml" 138 5961 5994 "global/global_printer.ml" 138 5961 6032
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 140 6034 6038 "global/global_printer.ml" 140 6034 6052
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  def print_constrnt "global/global_printer.ml" 142 6083 6083 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 140 6034 6053 "global/global_printer.ml" 140 6034 6055
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 140 6034 6056 "global/global_printer.ml" 140 6034 6081
+)
+"global/global_printer.ml" 140 6034 6056 "global/global_printer.ml" 140 6034 6057
+type(
+  Types.static_exp
+)
+ident(
+  def c "global/global_printer.ml" 140 6034 6060 "global/global_printer.ml" 140 6034 6081
+)
+"global/global_printer.ml" 140 6034 6060 "global/global_printer.ml" 140 6034 6076
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 140 6034 6077 "global/global_printer.ml" 140 6034 6079
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 140 6034 6053 "global/global_printer.ml" 140 6034 6055
+)
+"global/global_printer.ml" 140 6034 6080 "global/global_printer.ml" 140 6034 6081
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "global/global_printer.ml" 140 6034 6056 "global/global_printer.ml" 140 6034 6057
+)
+"global/global_printer.ml" 140 6034 6060 "global/global_printer.ml" 140 6034 6081
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 142 6083 6087 "global/global_printer.ml" 142 6083 6104
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  def print_constraints "global/global_printer.ml" 145 6181 6181 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 142 6083 6105 "global/global_printer.ml" 142 6083 6107
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 142 6083 6108 "global/global_printer.ml" 143 6114 6179
+)
+"global/global_printer.ml" 142 6083 6108 "global/global_printer.ml" 142 6083 6111
+type(
+  Types.static_exp list
+)
+ident(
+  def c_l "global/global_printer.ml" 143 6114 6116 "global/global_printer.ml" 143 6114 6179
+)
+"global/global_printer.ml" 143 6114 6116 "global/global_printer.ml" 143 6114 6123
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 143 6114 6124 "global/global_printer.ml" 143 6114 6126
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 142 6083 6105 "global/global_printer.ml" 142 6083 6107
+)
+"global/global_printer.ml" 143 6114 6127 "global/global_printer.ml" 143 6114 6135
+type(
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 143 6114 6137 "global/global_printer.ml" 143 6114 6149
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 143 6114 6150 "global/global_printer.ml" 143 6114 6164
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_constrnt "global/global_printer.ml" 140 6034 6038 "global/global_printer.ml" 140 6034 6052
+)
+"global/global_printer.ml" 143 6114 6165 "global/global_printer.ml" 143 6114 6168
+type(
+  string
+)
+"global/global_printer.ml" 143 6114 6168 "global/global_printer.ml" 143 6114 6171
+type(
+  string
+)
+"global/global_printer.ml" 143 6114 6171 "global/global_printer.ml" 143 6114 6174
+type(
+  string
+)
+"global/global_printer.ml" 143 6114 6136 "global/global_printer.ml" 143 6114 6175
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"global/global_printer.ml" 143 6114 6176 "global/global_printer.ml" 143 6114 6179
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref c_l "global/global_printer.ml" 142 6083 6108 "global/global_printer.ml" 142 6083 6111
+)
+"global/global_printer.ml" 143 6114 6116 "global/global_printer.ml" 143 6114 6179
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 145 6181 6185 "global/global_printer.ml" 145 6181 6196
+type(
+  Format.formatter -> Signature.param -> unit
+)
+ident(
+  def print_param "global/global_printer.ml" 148 6274 6274 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 145 6181 6197 "global/global_printer.ml" 145 6181 6199
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 145 6181 6200 "global/global_printer.ml" 146 6204 6272
+)
+"global/global_printer.ml" 145 6181 6200 "global/global_printer.ml" 145 6181 6201
+type(
+  Signature.param
+)
+ident(
+  def p "global/global_printer.ml" 146 6204 6206 "global/global_printer.ml" 146 6204 6272
+)
+"global/global_printer.ml" 146 6204 6206 "global/global_printer.ml" 146 6204 6213
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) ->
+   String.t -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t -> unit) ->
+  String.t -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 146 6204 6214 "global/global_printer.ml" 146 6204 6216
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 145 6181 6197 "global/global_printer.ml" 145 6181 6199
+)
+"global/global_printer.ml" 146 6204 6217 "global/global_printer.ml" 146 6204 6224
+type(
+  ((Format.formatter -> String.t -> unit) ->
+   String.t -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 146 6204 6226 "global/global_printer.ml" 146 6204 6242
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 146 6204 6243 "global/global_printer.ml" 146 6204 6244
+type(
+  Signature.param
+)
+ident(
+  int_ref p "global/global_printer.ml" 145 6181 6200 "global/global_printer.ml" 145 6181 6201
+)
+"global/global_printer.ml" 146 6204 6243 "global/global_printer.ml" 146 6204 6251
+type(
+  Names.name
+)
+"global/global_printer.ml" 146 6204 6253 "global/global_printer.ml" 146 6204 6263
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 146 6204 6264 "global/global_printer.ml" 146 6204 6265
+type(
+  Signature.param
+)
+ident(
+  int_ref p "global/global_printer.ml" 145 6181 6200 "global/global_printer.ml" 145 6181 6201
+)
+"global/global_printer.ml" 146 6204 6264 "global/global_printer.ml" 146 6204 6272
+type(
+  Types.ty
+)
+"global/global_printer.ml" 146 6204 6206 "global/global_printer.ml" 146 6204 6272
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 148 6274 6278 "global/global_printer.ml" 148 6274 6298
+type(
+  Format.formatter -> string * Signature.type_def -> unit
+)
+ident(
+  def print_interface_type "global/global_printer.ml" 159 6704 6704 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 148 6274 6299 "global/global_printer.ml" 148 6274 6301
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 148 6274 6302 "global/global_printer.ml" 157 6634 6702
+)
+"global/global_printer.ml" 148 6274 6303 "global/global_printer.ml" 148 6274 6307
+type(
+  string
+)
+ident(
+  def name "global/global_printer.ml" 149 6317 6319 "global/global_printer.ml" 157 6634 6702
+)
+"global/global_printer.ml" 148 6274 6308 "global/global_printer.ml" 148 6274 6313
+type(
+  Signature.type_def
+)
+ident(
+  def tdesc "global/global_printer.ml" 149 6317 6319 "global/global_printer.ml" 157 6634 6702
+)
+"global/global_printer.ml" 148 6274 6302 "global/global_printer.ml" 148 6274 6314
+type(
+  string * Signature.type_def
+)
+"global/global_printer.ml" 149 6317 6325 "global/global_printer.ml" 149 6317 6330
+type(
+  Signature.type_def
+)
+ident(
+  int_ref tdesc "global/global_printer.ml" 148 6274 6308 "global/global_printer.ml" 148 6274 6313
+)
+"global/global_printer.ml" 150 6336 6342 "global/global_printer.ml" 150 6336 6351
+type(
+  Signature.type_def
+)
+"global/global_printer.ml" 150 6336 6355 "global/global_printer.ml" 150 6336 6362
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 150 6336 6363 "global/global_printer.ml" 150 6336 6365
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 148 6274 6299 "global/global_printer.ml" 148 6274 6301
+)
+"global/global_printer.ml" 150 6336 6366 "global/global_printer.ml" 150 6336 6379
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 150 6336 6380 "global/global_printer.ml" 150 6336 6384
+type(
+  string
+)
+ident(
+  int_ref name "global/global_printer.ml" 148 6274 6303 "global/global_printer.ml" 148 6274 6307
+)
+"global/global_printer.ml" 150 6336 6355 "global/global_printer.ml" 150 6336 6384
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 151 6385 6397 "global/global_printer.ml" 151 6385 6410
+type(
+  Names.constructor_name list
+)
+ident(
+  def tag_name_list "global/global_printer.ml" 152 6414 6422 "global/global_printer.ml" 154 6471 6536
+)
+"global/global_printer.ml" 151 6385 6391 "global/global_printer.ml" 151 6385 6410
+type(
+  Signature.type_def
+)
+"global/global_printer.ml" 152 6414 6422 "global/global_printer.ml" 152 6414 6429
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Names.constructor_name list -> unit) ->
+   Names.constructor_name list -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Names.constructor_name list -> unit) ->
+  Names.constructor_name list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 152 6414 6430 "global/global_printer.ml" 152 6414 6432
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 148 6274 6299 "global/global_printer.ml" 148 6274 6301
+)
+"global/global_printer.ml" 152 6414 6433 "global/global_printer.ml" 152 6414 6455
+type(
+  (string ->
+   (Format.formatter -> Names.constructor_name list -> unit) ->
+   Names.constructor_name list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 153 6456 6466 "global/global_printer.ml" 153 6456 6470
+type(
+  string
+)
+ident(
+  int_ref name "global/global_printer.ml" 148 6274 6303 "global/global_printer.ml" 148 6274 6307
+)
+"global/global_printer.ml" 154 6471 6482 "global/global_printer.ml" 154 6471 6494
+type(
+  (Format.formatter -> Names.constructor_name -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Names.constructor_name list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 154 6471 6495 "global/global_printer.ml" 154 6471 6509
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  int_ref print_qualname "global/global_printer.ml" 65 3227 3231 "global/global_printer.ml" 65 3227 3245
+)
+"global/global_printer.ml" 154 6471 6510 "global/global_printer.ml" 154 6471 6512
+type(
+  string
+)
+"global/global_printer.ml" 154 6471 6513 "global/global_printer.ml" 154 6471 6517
+type(
+  string
+)
+"global/global_printer.ml" 154 6471 6518 "global/global_printer.ml" 154 6471 6520
+type(
+  string
+)
+"global/global_printer.ml" 154 6471 6481 "global/global_printer.ml" 154 6471 6521
+call(
+  stack
+)
+type(
+  Format.formatter -> Names.constructor_name list -> unit
+)
+"global/global_printer.ml" 154 6471 6522 "global/global_printer.ml" 154 6471 6535
+type(
+  Names.constructor_name list
+)
+ident(
+  int_ref tag_name_list "global/global_printer.ml" 151 6385 6397 "global/global_printer.ml" 151 6385 6410
+)
+"global/global_printer.ml" 152 6414 6422 "global/global_printer.ml" 154 6471 6536
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 155 6537 6551 "global/global_printer.ml" 155 6537 6560
+type(
+  Signature.structure
+)
+ident(
+  def f_ty_list "global/global_printer.ml" 156 6564 6572 "global/global_printer.ml" 156 6564 6633
+)
+"global/global_printer.ml" 155 6537 6543 "global/global_printer.ml" 155 6537 6560
+type(
+  Signature.type_def
+)
+"global/global_printer.ml" 156 6564 6572 "global/global_printer.ml" 156 6564 6579
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Signature.structure -> unit) ->
+   Signature.structure -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Signature.structure -> unit) ->
+  Signature.structure -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 156 6564 6580 "global/global_printer.ml" 156 6564 6582
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 148 6274 6299 "global/global_printer.ml" 148 6274 6301
+)
+"global/global_printer.ml" 156 6564 6583 "global/global_printer.ml" 156 6564 6605
+type(
+  (string ->
+   (Format.formatter -> Signature.structure -> unit) ->
+   Signature.structure -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 156 6564 6606 "global/global_printer.ml" 156 6564 6610
+type(
+  string
+)
+ident(
+  int_ref name "global/global_printer.ml" 148 6274 6303 "global/global_printer.ml" 148 6274 6307
+)
+"global/global_printer.ml" 156 6564 6611 "global/global_printer.ml" 156 6564 6623
+type(
+  Format.formatter -> Signature.structure -> unit
+)
+ident(
+  int_ref print_struct "global/global_printer.ml" 138 5961 5965 "global/global_printer.ml" 138 5961 5977
+)
+"global/global_printer.ml" 156 6564 6624 "global/global_printer.ml" 156 6564 6633
+type(
+  Signature.structure
+)
+ident(
+  int_ref f_ty_list "global/global_printer.ml" 155 6537 6551 "global/global_printer.ml" 155 6537 6560
+)
+"global/global_printer.ml" 156 6564 6572 "global/global_printer.ml" 156 6564 6633
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 157 6634 6647 "global/global_printer.ml" 157 6634 6648
+type(
+  Types.ty
+)
+ident(
+  def t "global/global_printer.ml" 157 6634 6652 "global/global_printer.ml" 157 6634 6702
+)
+"global/global_printer.ml" 157 6634 6640 "global/global_printer.ml" 157 6634 6648
+type(
+  Signature.type_def
+)
+"global/global_printer.ml" 157 6634 6652 "global/global_printer.ml" 157 6634 6659
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 157 6634 6660 "global/global_printer.ml" 157 6634 6662
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 148 6274 6299 "global/global_printer.ml" 148 6274 6301
+)
+"global/global_printer.ml" 157 6634 6663 "global/global_printer.ml" 157 6634 6684
+type(
+  (string -> (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 157 6634 6685 "global/global_printer.ml" 157 6634 6689
+type(
+  string
+)
+ident(
+  int_ref name "global/global_printer.ml" 148 6274 6303 "global/global_printer.ml" 148 6274 6307
+)
+"global/global_printer.ml" 157 6634 6690 "global/global_printer.ml" 157 6634 6700
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 157 6634 6701 "global/global_printer.ml" 157 6634 6702
+type(
+  Types.ty
+)
+ident(
+  int_ref t "global/global_printer.ml" 157 6634 6647 "global/global_printer.ml" 157 6634 6648
+)
+"global/global_printer.ml" 157 6634 6652 "global/global_printer.ml" 157 6634 6702
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 149 6317 6319 "global/global_printer.ml" 157 6634 6702
+type(
+  unit
+)
+"global/global_printer.ml" 159 6704 6708 "global/global_printer.ml" 159 6704 6729
+type(
+  Format.formatter -> String.t * Signature.const_def -> unit
+)
+ident(
+  def print_interface_const "global/global_printer.ml" 165 6887 6887 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 159 6704 6730 "global/global_printer.ml" 159 6704 6732
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 159 6704 6733 "global/global_printer.ml" 163 6843 6885
+)
+"global/global_printer.ml" 159 6704 6734 "global/global_printer.ml" 159 6704 6738
+type(
+  String.t
+)
+ident(
+  def name "global/global_printer.ml" 160 6744 6746 "global/global_printer.ml" 163 6843 6885
+)
+"global/global_printer.ml" 159 6704 6739 "global/global_printer.ml" 159 6704 6740
+type(
+  Signature.const_def
+)
+ident(
+  def c "global/global_printer.ml" 160 6744 6746 "global/global_printer.ml" 163 6843 6885
+)
+"global/global_printer.ml" 159 6704 6733 "global/global_printer.ml" 159 6704 6741
+type(
+  String.t * Signature.const_def
+)
+"global/global_printer.ml" 160 6744 6746 "global/global_printer.ml" 160 6744 6753
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t -> unit) ->
+  String.t ->
+  (Format.formatter -> Types.ty -> unit) ->
+  Types.ty ->
+  (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 160 6744 6754 "global/global_printer.ml" 160 6744 6756
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 159 6704 6730 "global/global_printer.ml" 159 6704 6732
+)
+"global/global_printer.ml" 160 6744 6757 "global/global_printer.ml" 160 6744 6784
+type(
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 161 6785 6791 "global/global_printer.ml" 161 6785 6801
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 161 6785 6802 "global/global_printer.ml" 161 6785 6806
+type(
+  String.t
+)
+ident(
+  int_ref name "global/global_printer.ml" 159 6704 6734 "global/global_printer.ml" 159 6704 6738
+)
+"global/global_printer.ml" 162 6807 6813 "global/global_printer.ml" 162 6807 6823
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 162 6807 6824 "global/global_printer.ml" 162 6807 6825
+type(
+  Signature.const_def
+)
+ident(
+  int_ref c "global/global_printer.ml" 159 6704 6739 "global/global_printer.ml" 159 6704 6740
+)
+"global/global_printer.ml" 162 6807 6824 "global/global_printer.ml" 162 6807 6842
+type(
+  Types.ty
+)
+"global/global_printer.ml" 163 6843 6849 "global/global_printer.ml" 163 6843 6865
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  int_ref print_static_exp "global/global_printer.ml" 117 5234 5238 "global/global_printer.ml" 117 5234 5254
+)
+"global/global_printer.ml" 163 6843 6866 "global/global_printer.ml" 163 6843 6867
+type(
+  Signature.const_def
+)
+ident(
+  int_ref c "global/global_printer.ml" 159 6704 6739 "global/global_printer.ml" 159 6704 6740
+)
+"global/global_printer.ml" 163 6843 6866 "global/global_printer.ml" 163 6843 6885
+type(
+  Types.static_exp
+)
+"global/global_printer.ml" 160 6744 6746 "global/global_printer.ml" 163 6843 6885
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 165 6887 6891 "global/global_printer.ml" 165 6887 6901
+type(
+  Format.formatter -> Signature.arg -> unit
+)
+ident(
+  def print_sarg "global/global_printer.ml" 174 7175 7175 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 165 6887 6902 "global/global_printer.ml" 165 6887 6904
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 172 7142 7173
+)
+"global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+type(
+  Signature.arg
+)
+ident(
+  def arg "global/global_printer.ml" 165 6887 6911 "global/global_printer.ml" 172 7142 7173
+)
+"global/global_printer.ml" 165 6887 6917 "global/global_printer.ml" 165 6887 6920
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+)
+"global/global_printer.ml" 165 6887 6917 "global/global_printer.ml" 165 6887 6927
+type(
+  Names.name option
+)
+"global/global_printer.ml" 166 6933 6939 "global/global_printer.ml" 166 6933 6943
+type(
+  Names.name option
+)
+"global/global_printer.ml" 167 6947 6955 "global/global_printer.ml" 167 6947 6962
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.ty -> unit) ->
+  Types.ty ->
+  (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 167 6947 6963 "global/global_printer.ml" 167 6947 6965
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 165 6887 6902 "global/global_printer.ml" 165 6887 6904
+)
+"global/global_printer.ml" 167 6947 6966 "global/global_printer.ml" 167 6947 6980
+type(
+  ((Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 167 6947 6981 "global/global_printer.ml" 167 6947 6991
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 167 6947 6992 "global/global_printer.ml" 167 6947 6995
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+)
+"global/global_printer.ml" 167 6947 6992 "global/global_printer.ml" 167 6947 7002
+type(
+  Types.ty
+)
+"global/global_printer.ml" 167 6947 7003 "global/global_printer.ml" 167 6947 7012
+type(
+  Format.formatter -> Signature.ck -> unit
+)
+ident(
+  int_ref print_sck "global/global_printer.ml" 87 3989 3998 "global/global_printer.ml" 87 3989 4007
+)
+"global/global_printer.ml" 167 6947 7013 "global/global_printer.ml" 167 6947 7016
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+)
+"global/global_printer.ml" 167 6947 7013 "global/global_printer.ml" 167 6947 7024
+type(
+  Signature.ck
+)
+"global/global_printer.ml" 167 6947 6955 "global/global_printer.ml" 167 6947 7024
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 168 7025 7036 "global/global_printer.ml" 168 7025 7040
+ident(
+  def name "global/global_printer.ml" 169 7045 7053 "global/global_printer.ml" 172 7142 7173
+)
+"global/global_printer.ml" 168 7025 7035 "global/global_printer.ml" 168 7025 7041
+type(
+  Names.name
+)
+"global/global_printer.ml" 168 7025 7031 "global/global_printer.ml" 168 7025 7041
+type(
+  Names.name option
+)
+"global/global_printer.ml" 169 7045 7053 "global/global_printer.ml" 169 7045 7060
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t -> unit) ->
+  String.t ->
+  (Format.formatter -> Types.ty -> unit) ->
+  Types.ty ->
+  (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 169 7045 7061 "global/global_printer.ml" 169 7045 7063
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 165 6887 6902 "global/global_printer.ml" 165 6887 6904
+)
+"global/global_printer.ml" 169 7045 7064 "global/global_printer.ml" 169 7045 7083
+type(
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Types.ty -> unit) ->
+   Types.ty ->
+   (Format.formatter -> Signature.ck -> unit) -> Signature.ck -> unit,
+   Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 170 7084 7094 "global/global_printer.ml" 170 7084 7104
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 170 7084 7105 "global/global_printer.ml" 170 7084 7109
+type(
+  Names.name
+)
+ident(
+  int_ref name "global/global_printer.ml" 168 7025 7035 "global/global_printer.ml" 168 7025 7041
+)
+"global/global_printer.ml" 171 7110 7120 "global/global_printer.ml" 171 7110 7130
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  int_ref print_type "global/global_printer.ml" 127 5557 5561 "global/global_printer.ml" 127 5557 5571
+)
+"global/global_printer.ml" 171 7110 7131 "global/global_printer.ml" 171 7110 7134
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+)
+"global/global_printer.ml" 171 7110 7131 "global/global_printer.ml" 171 7110 7141
+type(
+  Types.ty
+)
+"global/global_printer.ml" 172 7142 7152 "global/global_printer.ml" 172 7142 7161
+type(
+  Format.formatter -> Signature.ck -> unit
+)
+ident(
+  int_ref print_sck "global/global_printer.ml" 87 3989 3998 "global/global_printer.ml" 87 3989 4007
+)
+"global/global_printer.ml" 172 7142 7162 "global/global_printer.ml" 172 7142 7165
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/global_printer.ml" 165 6887 6905 "global/global_printer.ml" 165 6887 6908
+)
+"global/global_printer.ml" 172 7142 7162 "global/global_printer.ml" 172 7142 7173
+type(
+  Signature.ck
+)
+"global/global_printer.ml" 169 7045 7053 "global/global_printer.ml" 172 7142 7173
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 165 6887 6911 "global/global_printer.ml" 172 7142 7173
+type(
+  unit
+)
+"global/global_printer.ml" 174 7175 7179 "global/global_printer.ml" 174 7175 7200
+type(
+  Format.formatter -> String.t * Signature.node -> unit
+)
+ident(
+  def print_interface_value "global/global_printer.ml" 187 7750 7750 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 174 7175 7201 "global/global_printer.ml" 174 7175 7203
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 174 7175 7204 "global/global_printer.ml" 185 7689 7748
+)
+"global/global_printer.ml" 174 7175 7205 "global/global_printer.ml" 174 7175 7209
+type(
+  String.t
+)
+ident(
+  def name "global/global_printer.ml" 180 7426 7428 "global/global_printer.ml" 185 7689 7748
+)
+"global/global_printer.ml" 174 7175 7210 "global/global_printer.ml" 174 7175 7214
+type(
+  Signature.node
+)
+ident(
+  def node "global/global_printer.ml" 180 7426 7428 "global/global_printer.ml" 185 7689 7748
+)
+"global/global_printer.ml" 174 7175 7204 "global/global_printer.ml" 174 7175 7215
+type(
+  String.t * Signature.node
+)
+"global/global_printer.ml" 180 7426 7428 "global/global_printer.ml" 180 7426 7435
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Signature.param list -> unit) ->
+   Signature.param list ->
+   (Format.formatter -> Signature.constrnt list -> unit) ->
+   Signature.constrnt list ->
+   (Format.formatter -> Signature.arg list -> unit) ->
+   Signature.arg list ->
+   (Format.formatter -> Signature.arg list -> unit) ->
+   Signature.arg list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t -> unit) ->
+  String.t ->
+  (Format.formatter -> Signature.param list -> unit) ->
+  Signature.param list ->
+  (Format.formatter -> Signature.constrnt list -> unit) ->
+  Signature.constrnt list ->
+  (Format.formatter -> Signature.arg list -> unit) ->
+  Signature.arg list ->
+  (Format.formatter -> Signature.arg list -> unit) ->
+  Signature.arg list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 180 7426 7436 "global/global_printer.ml" 180 7426 7438
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 174 7175 7201 "global/global_printer.ml" 174 7175 7203
+)
+"global/global_printer.ml" 180 7426 7439 "global/global_printer.ml" 180 7426 7497
+type(
+  ((Format.formatter -> String.t -> unit) ->
+   String.t ->
+   (Format.formatter -> Signature.param list -> unit) ->
+   Signature.param list ->
+   (Format.formatter -> Signature.constrnt list -> unit) ->
+   Signature.constrnt list ->
+   (Format.formatter -> Signature.arg list -> unit) ->
+   Signature.arg list ->
+   (Format.formatter -> Signature.arg list -> unit) ->
+   Signature.arg list -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 181 7498 7502 "global/global_printer.ml" 181 7498 7512
+type(
+  Format.formatter -> String.t -> unit
+)
+ident(
+  ext_ref Names.print_name
+)
+"global/global_printer.ml" 181 7498 7513 "global/global_printer.ml" 181 7498 7517
+type(
+  String.t
+)
+ident(
+  int_ref name "global/global_printer.ml" 174 7175 7205 "global/global_printer.ml" 174 7175 7209
+)
+"global/global_printer.ml" 182 7518 7523 "global/global_printer.ml" 182 7518 7535
+type(
+  (Format.formatter -> Signature.param -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Signature.param list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 182 7518 7536 "global/global_printer.ml" 182 7518 7547
+type(
+  Format.formatter -> Signature.param -> unit
+)
+ident(
+  int_ref print_param "global/global_printer.ml" 145 6181 6185 "global/global_printer.ml" 145 6181 6196
+)
+"global/global_printer.ml" 182 7518 7548 "global/global_printer.ml" 182 7518 7552
+type(
+  string
+)
+"global/global_printer.ml" 182 7518 7553 "global/global_printer.ml" 182 7518 7556
+type(
+  string
+)
+"global/global_printer.ml" 182 7518 7557 "global/global_printer.ml" 182 7518 7561
+type(
+  string
+)
+"global/global_printer.ml" 182 7518 7522 "global/global_printer.ml" 182 7518 7562
+call(
+  stack
+)
+type(
+  Format.formatter -> Signature.param list -> unit
+)
+"global/global_printer.ml" 182 7518 7563 "global/global_printer.ml" 182 7518 7567
+type(
+  Signature.node
+)
+ident(
+  int_ref node "global/global_printer.ml" 174 7175 7210 "global/global_printer.ml" 174 7175 7214
+)
+"global/global_printer.ml" 182 7518 7563 "global/global_printer.ml" 182 7518 7579
+type(
+  Signature.param list
+)
+"global/global_printer.ml" 183 7580 7584 "global/global_printer.ml" 183 7580 7601
+type(
+  Format.formatter -> Signature.constrnt list -> unit
+)
+ident(
+  int_ref print_constraints "global/global_printer.ml" 142 6083 6087 "global/global_printer.ml" 142 6083 6104
+)
+"global/global_printer.ml" 183 7580 7602 "global/global_printer.ml" 183 7580 7606
+type(
+  Signature.node
+)
+ident(
+  int_ref node "global/global_printer.ml" 174 7175 7210 "global/global_printer.ml" 174 7175 7214
+)
+"global/global_printer.ml" 183 7580 7602 "global/global_printer.ml" 183 7580 7629
+type(
+  Signature.constrnt list
+)
+"global/global_printer.ml" 184 7630 7635 "global/global_printer.ml" 184 7630 7647
+type(
+  (Format.formatter -> Signature.arg -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Signature.arg list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 184 7630 7648 "global/global_printer.ml" 184 7630 7658
+type(
+  Format.formatter -> Signature.arg -> unit
+)
+ident(
+  int_ref print_sarg "global/global_printer.ml" 165 6887 6891 "global/global_printer.ml" 165 6887 6901
+)
+"global/global_printer.ml" 184 7630 7659 "global/global_printer.ml" 184 7630 7662
+type(
+  string
+)
+"global/global_printer.ml" 184 7630 7663 "global/global_printer.ml" 184 7630 7666
+type(
+  string
+)
+"global/global_printer.ml" 184 7630 7667 "global/global_printer.ml" 184 7630 7670
+type(
+  string
+)
+"global/global_printer.ml" 184 7630 7634 "global/global_printer.ml" 184 7630 7671
+call(
+  stack
+)
+type(
+  Format.formatter -> Signature.arg list -> unit
+)
+"global/global_printer.ml" 184 7630 7672 "global/global_printer.ml" 184 7630 7676
+type(
+  Signature.node
+)
+ident(
+  int_ref node "global/global_printer.ml" 174 7175 7210 "global/global_printer.ml" 174 7175 7214
+)
+"global/global_printer.ml" 184 7630 7672 "global/global_printer.ml" 184 7630 7688
+type(
+  Signature.arg list
+)
+"global/global_printer.ml" 185 7689 7694 "global/global_printer.ml" 185 7689 7706
+type(
+  (Format.formatter -> Signature.arg -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Signature.arg list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"global/global_printer.ml" 185 7689 7707 "global/global_printer.ml" 185 7689 7717
+type(
+  Format.formatter -> Signature.arg -> unit
+)
+ident(
+  int_ref print_sarg "global/global_printer.ml" 165 6887 6891 "global/global_printer.ml" 165 6887 6901
+)
+"global/global_printer.ml" 185 7689 7718 "global/global_printer.ml" 185 7689 7721
+type(
+  string
+)
+"global/global_printer.ml" 185 7689 7722 "global/global_printer.ml" 185 7689 7725
+type(
+  string
+)
+"global/global_printer.ml" 185 7689 7726 "global/global_printer.ml" 185 7689 7729
+type(
+  string
+)
+"global/global_printer.ml" 185 7689 7693 "global/global_printer.ml" 185 7689 7730
+call(
+  stack
+)
+type(
+  Format.formatter -> Signature.arg list -> unit
+)
+"global/global_printer.ml" 185 7689 7731 "global/global_printer.ml" 185 7689 7735
+type(
+  Signature.node
+)
+ident(
+  int_ref node "global/global_printer.ml" 174 7175 7210 "global/global_printer.ml" 174 7175 7214
+)
+"global/global_printer.ml" 185 7689 7731 "global/global_printer.ml" 185 7689 7748
+type(
+  Signature.arg list
+)
+"global/global_printer.ml" 180 7426 7428 "global/global_printer.ml" 185 7689 7748
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 187 7750 7754 "global/global_printer.ml" 187 7750 7769
+type(
+  Format.formatter -> unit
+)
+ident(
+  def print_interface "global/global_printer.ml" 196 8185 8211 "global/global_printer.ml" 1 0 -1
+)
+"global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/global_printer.ml" 188 7775 7777 "global/global_printer.ml" 196 8185 8211
+)
+"global/global_printer.ml" 188 7775 7781 "global/global_printer.ml" 188 7775 7782
+type(
+  Modules.module_object
+)
+ident(
+  def m "global/global_printer.ml" 189 7814 7816 "global/global_printer.ml" 196 8185 8211
+)
+"global/global_printer.ml" 188 7775 7785 "global/global_printer.ml" 188 7775 7807
+type(
+  unit -> Modules.module_object
+)
+ident(
+  ext_ref Modules.current_module
+)
+"global/global_printer.ml" 188 7775 7808 "global/global_printer.ml" 188 7775 7810
+type(
+  unit
+)
+"global/global_printer.ml" 188 7775 7785 "global/global_printer.ml" 188 7775 7810
+call(
+  stack
+)
+type(
+  Modules.module_object
+)
+"global/global_printer.ml" 189 7814 7816 "global/global_printer.ml" 189 7814 7830
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 189 7814 7831 "global/global_printer.ml" 189 7814 7833
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+)
+"global/global_printer.ml" 189 7814 7834 "global/global_printer.ml" 189 7814 7841
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 189 7814 7816 "global/global_printer.ml" 189 7814 7841
+call(
+  stack
+)
+type(
+  unit
+)
+"global/global_printer.ml" 190 7843 7845 "global/global_printer.ml" 190 7843 7858
+type(
+  (Names.NamesEnv.key -> Signature.type_def -> unit) ->
+  Signature.type_def Names.NamesEnv.t -> unit
+)
+ident(
+  ext_ref Names.NamesEnv.iter
+)
+"global/global_printer.ml" 191 7859 7868 "global/global_printer.ml" 191 7859 7871
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def key "global/global_printer.ml" 191 7859 7872 "global/global_printer.ml" 191 7859 7942
+)
+"global/global_printer.ml" 191 7859 7872 "global/global_printer.ml" 191 7859 7879
+type(
+  Signature.type_def
+)
+ident(
+  def typdesc "global/global_printer.ml" 191 7859 7883 "global/global_printer.ml" 191 7859 7942
+)
+"global/global_printer.ml" 191 7859 7883 "global/global_printer.ml" 191 7859 7897
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.NamesEnv.key * Signature.type_def -> unit) ->
+   Names.NamesEnv.key * Signature.type_def -> unit, Format.formatter, 
+   unit)
+  format ->
+  (Format.formatter -> Names.NamesEnv.key * Signature.type_def -> unit) ->
+  Names.NamesEnv.key * Signature.type_def -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 191 7859 7898 "global/global_printer.ml" 191 7859 7900
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+)
+"global/global_printer.ml" 191 7859 7901 "global/global_printer.ml" 191 7859 7907
+type(
+  ((Format.formatter -> Names.NamesEnv.key * Signature.type_def -> unit) ->
+   Names.NamesEnv.key * Signature.type_def -> unit, Format.formatter, 
+   unit)
+  format
+)
+"global/global_printer.ml" 191 7859 7908 "global/global_printer.ml" 191 7859 7928
+type(
+  Format.formatter -> Names.NamesEnv.key * Signature.type_def -> unit
+)
+ident(
+  int_ref print_interface_type "global/global_printer.ml" 148 6274 6278 "global/global_printer.ml" 148 6274 6298
+)
+"global/global_printer.ml" 191 7859 7930 "global/global_printer.ml" 191 7859 7933
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref key "global/global_printer.ml" 191 7859 7868 "global/global_printer.ml" 191 7859 7871
+)
+"global/global_printer.ml" 191 7859 7934 "global/global_printer.ml" 191 7859 7941
+type(
+  Signature.type_def
+)
+ident(
+  int_ref typdesc "global/global_printer.ml" 191 7859 7872 "global/global_printer.ml" 191 7859 7879
+)
+"global/global_printer.ml" 191 7859 7929 "global/global_printer.ml" 191 7859 7942
+type(
+  Names.NamesEnv.key * Signature.type_def
+)
+"global/global_printer.ml" 191 7859 7883 "global/global_printer.ml" 191 7859 7942
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 191 7859 7863 "global/global_printer.ml" 191 7859 7943
+type(
+  Names.NamesEnv.key -> Signature.type_def -> unit
+)
+"global/global_printer.ml" 191 7859 7944 "global/global_printer.ml" 191 7859 7945
+type(
+  Modules.module_object
+)
+ident(
+  int_ref m "global/global_printer.ml" 188 7775 7781 "global/global_printer.ml" 188 7775 7782
+)
+"global/global_printer.ml" 191 7859 7944 "global/global_printer.ml" 191 7859 7953
+type(
+  Signature.type_def Names.NamesEnv.t
+)
+"global/global_printer.ml" 190 7843 7845 "global/global_printer.ml" 191 7859 7953
+call(
+  stack
+)
+type(
+  unit
+)
+"global/global_printer.ml" 192 7955 7957 "global/global_printer.ml" 192 7955 7970
+type(
+  (Names.NamesEnv.key -> Signature.const_def -> unit) ->
+  Signature.const_def Names.NamesEnv.t -> unit
+)
+ident(
+  ext_ref Names.NamesEnv.iter
+)
+"global/global_printer.ml" 193 7971 7980 "global/global_printer.ml" 193 7971 7983
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def key "global/global_printer.ml" 193 7971 7984 "global/global_printer.ml" 193 7971 8057
+)
+"global/global_printer.ml" 193 7971 7984 "global/global_printer.ml" 193 7971 7992
+type(
+  Signature.const_def
+)
+ident(
+  def constdec "global/global_printer.ml" 193 7971 7996 "global/global_printer.ml" 193 7971 8057
+)
+"global/global_printer.ml" 193 7971 7996 "global/global_printer.ml" 193 7971 8010
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t * Signature.const_def -> unit) ->
+   String.t * Signature.const_def -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t * Signature.const_def -> unit) ->
+  String.t * Signature.const_def -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 193 7971 8011 "global/global_printer.ml" 193 7971 8013
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+)
+"global/global_printer.ml" 193 7971 8014 "global/global_printer.ml" 193 7971 8020
+type(
+  ((Format.formatter -> String.t * Signature.const_def -> unit) ->
+   String.t * Signature.const_def -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 193 7971 8021 "global/global_printer.ml" 193 7971 8042
+type(
+  Format.formatter -> String.t * Signature.const_def -> unit
+)
+ident(
+  int_ref print_interface_const "global/global_printer.ml" 159 6704 6708 "global/global_printer.ml" 159 6704 6729
+)
+"global/global_printer.ml" 193 7971 8044 "global/global_printer.ml" 193 7971 8047
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref key "global/global_printer.ml" 193 7971 7980 "global/global_printer.ml" 193 7971 7983
+)
+"global/global_printer.ml" 193 7971 8048 "global/global_printer.ml" 193 7971 8056
+type(
+  Signature.const_def
+)
+ident(
+  int_ref constdec "global/global_printer.ml" 193 7971 7984 "global/global_printer.ml" 193 7971 7992
+)
+"global/global_printer.ml" 193 7971 8043 "global/global_printer.ml" 193 7971 8057
+type(
+  Names.NamesEnv.key * Signature.const_def
+)
+"global/global_printer.ml" 193 7971 7996 "global/global_printer.ml" 193 7971 8057
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 193 7971 7975 "global/global_printer.ml" 193 7971 8058
+type(
+  Names.NamesEnv.key -> Signature.const_def -> unit
+)
+"global/global_printer.ml" 193 7971 8059 "global/global_printer.ml" 193 7971 8060
+type(
+  Modules.module_object
+)
+ident(
+  int_ref m "global/global_printer.ml" 188 7775 7781 "global/global_printer.ml" 188 7775 7782
+)
+"global/global_printer.ml" 193 7971 8059 "global/global_printer.ml" 193 7971 8069
+type(
+  Signature.const_def Names.NamesEnv.t
+)
+"global/global_printer.ml" 192 7955 7957 "global/global_printer.ml" 193 7971 8069
+call(
+  stack
+)
+type(
+  unit
+)
+"global/global_printer.ml" 194 8071 8073 "global/global_printer.ml" 194 8071 8086
+type(
+  (Names.NamesEnv.key -> Signature.node -> unit) ->
+  Signature.node Names.NamesEnv.t -> unit
+)
+ident(
+  ext_ref Names.NamesEnv.iter
+)
+"global/global_printer.ml" 195 8087 8096 "global/global_printer.ml" 195 8087 8099
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def key "global/global_printer.ml" 195 8087 8100 "global/global_printer.ml" 195 8087 8171
+)
+"global/global_printer.ml" 195 8087 8100 "global/global_printer.ml" 195 8087 8107
+type(
+  Signature.node
+)
+ident(
+  def sigtype "global/global_printer.ml" 195 8087 8111 "global/global_printer.ml" 195 8087 8171
+)
+"global/global_printer.ml" 195 8087 8111 "global/global_printer.ml" 195 8087 8125
+type(
+  Format.formatter ->
+  ((Format.formatter -> String.t * Signature.node -> unit) ->
+   String.t * Signature.node -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> String.t * Signature.node -> unit) ->
+  String.t * Signature.node -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 195 8087 8126 "global/global_printer.ml" 195 8087 8128
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+)
+"global/global_printer.ml" 195 8087 8129 "global/global_printer.ml" 195 8087 8135
+type(
+  ((Format.formatter -> String.t * Signature.node -> unit) ->
+   String.t * Signature.node -> unit, Format.formatter, unit)
+  format
+)
+"global/global_printer.ml" 195 8087 8136 "global/global_printer.ml" 195 8087 8157
+type(
+  Format.formatter -> String.t * Signature.node -> unit
+)
+ident(
+  int_ref print_interface_value "global/global_printer.ml" 174 7175 7179 "global/global_printer.ml" 174 7175 7200
+)
+"global/global_printer.ml" 195 8087 8159 "global/global_printer.ml" 195 8087 8162
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref key "global/global_printer.ml" 195 8087 8096 "global/global_printer.ml" 195 8087 8099
+)
+"global/global_printer.ml" 195 8087 8163 "global/global_printer.ml" 195 8087 8170
+type(
+  Signature.node
+)
+ident(
+  int_ref sigtype "global/global_printer.ml" 195 8087 8100 "global/global_printer.ml" 195 8087 8107
+)
+"global/global_printer.ml" 195 8087 8158 "global/global_printer.ml" 195 8087 8171
+type(
+  Names.NamesEnv.key * Signature.node
+)
+"global/global_printer.ml" 195 8087 8111 "global/global_printer.ml" 195 8087 8171
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 195 8087 8091 "global/global_printer.ml" 195 8087 8172
+type(
+  Names.NamesEnv.key -> Signature.node -> unit
+)
+"global/global_printer.ml" 195 8087 8173 "global/global_printer.ml" 195 8087 8174
+type(
+  Modules.module_object
+)
+ident(
+  int_ref m "global/global_printer.ml" 188 7775 7781 "global/global_printer.ml" 188 7775 7782
+)
+"global/global_printer.ml" 195 8087 8173 "global/global_printer.ml" 195 8087 8183
+type(
+  Signature.node Names.NamesEnv.t
+)
+"global/global_printer.ml" 194 8071 8073 "global/global_printer.ml" 195 8087 8183
+call(
+  stack
+)
+type(
+  unit
+)
+"global/global_printer.ml" 196 8185 8187 "global/global_printer.ml" 196 8185 8201
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/global_printer.ml" 196 8185 8202 "global/global_printer.ml" 196 8185 8204
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/global_printer.ml" 187 7750 7770 "global/global_printer.ml" 187 7750 7772
+)
+"global/global_printer.ml" 196 8185 8205 "global/global_printer.ml" 196 8185 8211
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/global_printer.ml" 196 8185 8187 "global/global_printer.ml" 196 8185 8211
+call(
+  tail
+)
+type(
+  unit
+)
+"global/global_printer.ml" 194 8071 8073 "global/global_printer.ml" 196 8185 8211
+type(
+  unit
+)
+"global/global_printer.ml" 192 7955 7957 "global/global_printer.ml" 196 8185 8211
+type(
+  unit
+)
+"global/global_printer.ml" 190 7843 7845 "global/global_printer.ml" 196 8185 8211
+type(
+  unit
+)
+"global/global_printer.ml" 189 7814 7816 "global/global_printer.ml" 196 8185 8211
+type(
+  unit
+)
+"global/global_printer.ml" 188 7775 7777 "global/global_printer.ml" 196 8185 8211
+type(
+  unit
+)

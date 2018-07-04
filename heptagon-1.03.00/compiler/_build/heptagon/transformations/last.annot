@@ -1,0 +1,1321 @@
+"heptagon/transformations/last.ml" 36 2192 2196 "heptagon/transformations/last.ml" 36 2192 2201
+type(
+  ?reset:bool -> Idents.var_ident -> Idents.ident
+)
+ident(
+  def fresh "heptagon/transformations/last.ml" 41 2339 2339 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 36 2192 2204 "heptagon/transformations/last.ml" 36 2192 2220
+type(
+  string ->
+  (Idents.var_ident -> string) ->
+  ?reset:bool -> Idents.var_ident -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_fresh
+)
+"heptagon/transformations/last.ml" 36 2192 2221 "heptagon/transformations/last.ml" 36 2192 2227
+type(
+  string
+)
+"heptagon/transformations/last.ml" 36 2192 2228 "heptagon/transformations/last.ml" 36 2192 2239
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"heptagon/transformations/last.ml" 36 2192 2204 "heptagon/transformations/last.ml" 36 2192 2239
+call(
+  stack
+)
+type(
+  ?reset:bool -> Idents.var_ident -> Idents.ident
+)
+"heptagon/transformations/last.ml" 41 2339 2343 "heptagon/transformations/last.ml" 41 2339 2347
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list ->
+  Heptagon.var_dec ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  def last "heptagon/transformations/last.ml" 55 2885 2885 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 41 2339 2349 "heptagon/transformations/last.ml" 41 2339 2356
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/last.ml" 41 2339 2366 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2358 "heptagon/transformations/last.ml" 41 2339 2361
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 41 2339 2366 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2363 "heptagon/transformations/last.ml" 41 2339 2364
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/last.ml" 41 2339 2366 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2348 "heptagon/transformations/last.ml" 41 2339 2365
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 41 2339 2378 "heptagon/transformations/last.ml" 41 2339 2379
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/last.ml" 42 2430 2432 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2390 "heptagon/transformations/last.ml" 41 2339 2391
+type(
+  Types.ty
+)
+ident(
+  def t "heptagon/transformations/last.ml" 42 2430 2432 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2407 "heptagon/transformations/last.ml" 41 2339 2410
+type(
+  Linearity.linearity
+)
+ident(
+  def lin "heptagon/transformations/last.ml" 42 2430 2432 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2421 "heptagon/transformations/last.ml" 41 2339 2425
+type(
+  Heptagon.last
+)
+ident(
+  def last "heptagon/transformations/last.ml" 42 2430 2432 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 41 2339 2366 "heptagon/transformations/last.ml" 41 2339 2427
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/last.ml" 42 2430 2438 "heptagon/transformations/last.ml" 42 2430 2442
+type(
+  Heptagon.last
+)
+ident(
+  int_ref last "heptagon/transformations/last.ml" 41 2339 2421 "heptagon/transformations/last.ml" 41 2339 2425
+)
+"heptagon/transformations/last.ml" 43 2448 2454 "heptagon/transformations/last.ml" 43 2448 2457
+type(
+  Heptagon.last
+)
+"heptagon/transformations/last.ml" 43 2448 2462 "heptagon/transformations/last.ml" 43 2448 2469
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/last.ml" 41 2339 2349 "heptagon/transformations/last.ml" 41 2339 2356
+)
+"heptagon/transformations/last.ml" 43 2448 2471 "heptagon/transformations/last.ml" 43 2448 2474
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 41 2339 2358 "heptagon/transformations/last.ml" 41 2339 2361
+)
+"heptagon/transformations/last.ml" 43 2448 2476 "heptagon/transformations/last.ml" 43 2448 2477
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/last.ml" 41 2339 2363 "heptagon/transformations/last.ml" 41 2339 2364
+)
+"heptagon/transformations/last.ml" 43 2448 2461 "heptagon/transformations/last.ml" 43 2448 2478
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 44 2479 2490 "heptagon/transformations/last.ml" 44 2479 2497
+ident(
+  def default "heptagon/transformations/last.ml" 45 2502 2510 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 44 2479 2489 "heptagon/transformations/last.ml" 44 2479 2498
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/last.ml" 44 2479 2485 "heptagon/transformations/last.ml" 44 2479 2498
+type(
+  Heptagon.last
+)
+"heptagon/transformations/last.ml" 45 2502 2514 "heptagon/transformations/last.ml" 45 2502 2519
+type(
+  Idents.ident
+)
+ident(
+  def lastn "heptagon/transformations/last.ml" 46 2533 2541 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 45 2502 2522 "heptagon/transformations/last.ml" 45 2502 2527
+type(
+  ?reset:bool -> Idents.var_ident -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/last.ml" 36 2192 2196 "heptagon/transformations/last.ml" 36 2192 2201
+)
+"heptagon/transformations/last.ml" 45 2502 2528 "heptagon/transformations/last.ml" 45 2502 2529
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 41 2339 2378 "heptagon/transformations/last.ml" 41 2339 2379
+)
+"heptagon/transformations/last.ml" 45 2502 2522 "heptagon/transformations/last.ml" 45 2502 2529
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/last.ml" 46 2533 2545 "heptagon/transformations/last.ml" 46 2533 2547
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/last.ml" 51 2784 2792 "heptagon/transformations/last.ml" 53 2835 2883
+)
+"heptagon/transformations/last.ml" 47 2550 2560 "heptagon/transformations/last.ml" 47 2550 2571
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/last.ml" 47 2550 2586 "heptagon/transformations/last.ml" 47 2550 2591
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref lastn "heptagon/transformations/last.ml" 45 2502 2514 "heptagon/transformations/last.ml" 45 2502 2519
+)
+"heptagon/transformations/last.ml" 47 2550 2578 "heptagon/transformations/last.ml" 47 2550 2591
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/last.ml" 48 2593 2621 "heptagon/transformations/last.ml" 48 2593 2627
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/last.ml" 48 2593 2635 "heptagon/transformations/last.ml" 48 2593 2642
+type(
+  Types.static_exp option
+)
+ident(
+  int_ref default "heptagon/transformations/last.ml" 44 2479 2489 "heptagon/transformations/last.ml" 44 2479 2498
+)
+"heptagon/transformations/last.ml" 49 2644 2686 "heptagon/transformations/last.ml" 49 2644 2692
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/last.ml" 49 2644 2699 "heptagon/transformations/last.ml" 49 2644 2700
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 41 2339 2378 "heptagon/transformations/last.ml" 41 2339 2379
+)
+"heptagon/transformations/last.ml" 49 2644 2693 "heptagon/transformations/last.ml" 49 2644 2701
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/last.ml" 49 2644 2702 "heptagon/transformations/last.ml" 49 2644 2703
+type(
+  Types.ty
+)
+ident(
+  int_ref t "heptagon/transformations/last.ml" 41 2339 2390 "heptagon/transformations/last.ml" 41 2339 2391
+)
+"heptagon/transformations/last.ml" 49 2644 2715 "heptagon/transformations/last.ml" 49 2644 2729
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/last.ml" 49 2644 2686 "heptagon/transformations/last.ml" 49 2644 2729
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/last.ml" 48 2593 2628 "heptagon/transformations/last.ml" 49 2644 2731
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/last.ml" 50 2732 2762 "heptagon/transformations/last.ml" 50 2732 2763
+type(
+  Types.ty
+)
+ident(
+  int_ref t "heptagon/transformations/last.ml" 41 2339 2390 "heptagon/transformations/last.ml" 41 2339 2391
+)
+"heptagon/transformations/last.ml" 50 2732 2775 "heptagon/transformations/last.ml" 50 2732 2778
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref lin "heptagon/transformations/last.ml" 41 2339 2407 "heptagon/transformations/last.ml" 41 2339 2410
+)
+"heptagon/transformations/last.ml" 48 2593 2621 "heptagon/transformations/last.ml" 50 2732 2778
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/last.ml" 47 2550 2572 "heptagon/transformations/last.ml" 50 2732 2780
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/last.ml" 47 2550 2560 "heptagon/transformations/last.ml" 50 2732 2780
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/last.ml" 51 2784 2792 "heptagon/transformations/last.ml" 51 2784 2794
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/last.ml" 46 2533 2545 "heptagon/transformations/last.ml" 46 2533 2547
+)
+"heptagon/transformations/last.ml" 51 2784 2797 "heptagon/transformations/last.ml" 51 2784 2804
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/last.ml" 41 2339 2349 "heptagon/transformations/last.ml" 41 2339 2356
+)
+"heptagon/transformations/last.ml" 51 2784 2792 "heptagon/transformations/last.ml" 51 2784 2804
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 52 2806 2814 "heptagon/transformations/last.ml" 52 2806 2821
+type(
+  Idents.Env.key ->
+  Idents.ident -> Idents.ident Idents.Env.t -> Idents.ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/last.ml" 52 2806 2822 "heptagon/transformations/last.ml" 52 2806 2823
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 41 2339 2378 "heptagon/transformations/last.ml" 41 2339 2379
+)
+"heptagon/transformations/last.ml" 52 2806 2824 "heptagon/transformations/last.ml" 52 2806 2829
+type(
+  Idents.ident
+)
+ident(
+  int_ref lastn "heptagon/transformations/last.ml" 45 2502 2514 "heptagon/transformations/last.ml" 45 2502 2519
+)
+"heptagon/transformations/last.ml" 52 2806 2830 "heptagon/transformations/last.ml" 52 2806 2833
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 41 2339 2358 "heptagon/transformations/last.ml" 41 2339 2361
+)
+"heptagon/transformations/last.ml" 52 2806 2814 "heptagon/transformations/last.ml" 52 2806 2833
+call(
+  stack
+)
+type(
+  Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 53 2835 2844 "heptagon/transformations/last.ml" 53 2835 2854
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/last.ml" 53 2835 2855 "heptagon/transformations/last.ml" 53 2835 2860
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref lastn "heptagon/transformations/last.ml" 45 2502 2514 "heptagon/transformations/last.ml" 45 2502 2519
+)
+"heptagon/transformations/last.ml" 53 2835 2861 "heptagon/transformations/last.ml" 53 2835 2862
+type(
+  Types.ty
+)
+ident(
+  int_ref t "heptagon/transformations/last.ml" 41 2339 2390 "heptagon/transformations/last.ml" 41 2339 2391
+)
+"heptagon/transformations/last.ml" 53 2835 2874 "heptagon/transformations/last.ml" 53 2835 2877
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref lin "heptagon/transformations/last.ml" 41 2339 2407 "heptagon/transformations/last.ml" 41 2339 2410
+)
+"heptagon/transformations/last.ml" 53 2835 2843 "heptagon/transformations/last.ml" 53 2835 2878
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/last.ml" 53 2835 2882 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/last.ml" 41 2339 2363 "heptagon/transformations/last.ml" 41 2339 2364
+)
+"heptagon/transformations/last.ml" 53 2835 2843 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 51 2784 2792 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 46 2533 2541 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 45 2502 2510 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 42 2430 2432 "heptagon/transformations/last.ml" 53 2835 2883
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 55 2885 2889 "heptagon/transformations/last.ml" 55 2885 2899
+type(
+  Idents.ident Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  def extend_env "heptagon/transformations/last.ml" 57 2945 2945 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 55 2885 2900 "heptagon/transformations/last.ml" 55 2885 2903
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 55 2885 2904 "heptagon/transformations/last.ml" 55 2885 2943
+)
+"heptagon/transformations/last.ml" 55 2885 2904 "heptagon/transformations/last.ml" 55 2885 2905
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/last.ml" 55 2885 2908 "heptagon/transformations/last.ml" 55 2885 2943
+)
+"heptagon/transformations/last.ml" 55 2885 2908 "heptagon/transformations/last.ml" 55 2885 2922
+type(
+  (Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list ->
+   Heptagon.var_dec ->
+   Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list) ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list ->
+  Heptagon.var_dec list ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/transformations/last.ml" 55 2885 2923 "heptagon/transformations/last.ml" 55 2885 2927
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list ->
+  Heptagon.var_dec ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  int_ref last "heptagon/transformations/last.ml" 41 2339 2343 "heptagon/transformations/last.ml" 41 2339 2347
+)
+"heptagon/transformations/last.ml" 55 2885 2929 "heptagon/transformations/last.ml" 55 2885 2931
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 55 2885 2933 "heptagon/transformations/last.ml" 55 2885 2936
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 55 2885 2900 "heptagon/transformations/last.ml" 55 2885 2903
+)
+"heptagon/transformations/last.ml" 55 2885 2938 "heptagon/transformations/last.ml" 55 2885 2940
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 55 2885 2928 "heptagon/transformations/last.ml" 55 2885 2941
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 55 2885 2942 "heptagon/transformations/last.ml" 55 2885 2943
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/last.ml" 55 2885 2904 "heptagon/transformations/last.ml" 55 2885 2905
+)
+"heptagon/transformations/last.ml" 55 2885 2908 "heptagon/transformations/last.ml" 55 2885 2943
+call(
+  tail
+)
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 57 2945 2949 "heptagon/transformations/last.ml" 57 2945 2954
+type(
+  'a ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.desc -> Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+ident(
+  def edesc "heptagon/transformations/last.ml" 62 3073 3073 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 57 2945 2955 "heptagon/transformations/last.ml" 57 2945 2956
+type(
+  'a
+)
+"heptagon/transformations/last.ml" 57 2945 2957 "heptagon/transformations/last.ml" 57 2945 2960
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 57 2945 2961 "heptagon/transformations/last.ml" 60 3041 3071
+)
+"heptagon/transformations/last.ml" 57 2945 2961 "heptagon/transformations/last.ml" 57 2945 2963
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/transformations/last.ml" 57 2945 2966 "heptagon/transformations/last.ml" 60 3041 3071
+)
+"heptagon/transformations/last.ml" 57 2945 2972 "heptagon/transformations/last.ml" 57 2945 2974
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/transformations/last.ml" 57 2945 2961 "heptagon/transformations/last.ml" 57 2945 2963
+)
+"heptagon/transformations/last.ml" 58 2980 2990 "heptagon/transformations/last.ml" 58 2980 2991
+type(
+  Idents.var_ident
+)
+ident(
+  def x "heptagon/transformations/last.ml" 59 2995 3001 "heptagon/transformations/last.ml" 59 2995 3040
+)
+"heptagon/transformations/last.ml" 58 2980 2984 "heptagon/transformations/last.ml" 58 2980 2991
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/last.ml" 59 2995 3005 "heptagon/transformations/last.ml" 59 2995 3007
+type(
+  Idents.var_ident
+)
+ident(
+  def lx "heptagon/transformations/last.ml" 59 2995 3028 "heptagon/transformations/last.ml" 59 2995 3040
+)
+"heptagon/transformations/last.ml" 59 2995 3010 "heptagon/transformations/last.ml" 59 2995 3018
+type(
+  Idents.Env.key -> Idents.var_ident Idents.Env.t -> Idents.var_ident
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"heptagon/transformations/last.ml" 59 2995 3019 "heptagon/transformations/last.ml" 59 2995 3020
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/transformations/last.ml" 58 2980 2990 "heptagon/transformations/last.ml" 58 2980 2991
+)
+"heptagon/transformations/last.ml" 59 2995 3021 "heptagon/transformations/last.ml" 59 2995 3024
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 57 2945 2957 "heptagon/transformations/last.ml" 57 2945 2960
+)
+"heptagon/transformations/last.ml" 59 2995 3010 "heptagon/transformations/last.ml" 59 2995 3024
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/last.ml" 59 2995 3033 "heptagon/transformations/last.ml" 59 2995 3035
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref lx "heptagon/transformations/last.ml" 59 2995 3005 "heptagon/transformations/last.ml" 59 2995 3007
+)
+"heptagon/transformations/last.ml" 59 2995 3028 "heptagon/transformations/last.ml" 59 2995 3035
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/last.ml" 59 2995 3037 "heptagon/transformations/last.ml" 59 2995 3040
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 57 2945 2957 "heptagon/transformations/last.ml" 57 2945 2960
+)
+"heptagon/transformations/last.ml" 59 2995 3028 "heptagon/transformations/last.ml" 59 2995 3040
+type(
+  Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 59 2995 3001 "heptagon/transformations/last.ml" 59 2995 3040
+type(
+  Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 60 3041 3045 "heptagon/transformations/last.ml" 60 3041 3046
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/last.ml" 60 3041 3050 "heptagon/transformations/last.ml" 60 3041 3055
+type(
+  exn -> Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/last.ml" 60 3041 3056 "heptagon/transformations/last.ml" 60 3041 3071
+type(
+  exn
+)
+"heptagon/transformations/last.ml" 60 3041 3050 "heptagon/transformations/last.ml" 60 3041 3071
+type(
+  Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 57 2945 2966 "heptagon/transformations/last.ml" 60 3041 3071
+type(
+  Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 62 3073 3077 "heptagon/transformations/last.ml" 62 3073 3082
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.ident Idents.Env.t
+)
+ident(
+  def block "heptagon/transformations/last.ml" 68 3302 3302 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 62 3073 3083 "heptagon/transformations/last.ml" 62 3073 3087
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/last.ml" 62 3073 3088 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 62 3073 3088 "heptagon/transformations/last.ml" 62 3073 3091
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 62 3073 3092 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 62 3073 3092 "heptagon/transformations/last.ml" 62 3073 3093
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/last.ml" 63 3096 3098 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 63 3096 3102 "heptagon/transformations/last.ml" 63 3096 3117
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_lastn_n_list "heptagon/transformations/last.ml" 64 3161 3163 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 63 3096 3119 "heptagon/transformations/last.ml" 63 3096 3122
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 64 3161 3163 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 63 3096 3124 "heptagon/transformations/last.ml" 63 3096 3130
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def last_v "heptagon/transformations/last.ml" 64 3161 3163 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 63 3096 3102 "heptagon/transformations/last.ml" 63 3096 3130
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 63 3096 3133 "heptagon/transformations/last.ml" 63 3096 3143
+type(
+  Idents.ident Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  int_ref extend_env "heptagon/transformations/last.ml" 55 2885 2889 "heptagon/transformations/last.ml" 55 2885 2899
+)
+"heptagon/transformations/last.ml" 63 3096 3144 "heptagon/transformations/last.ml" 63 3096 3147
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 62 3073 3088 "heptagon/transformations/last.ml" 62 3073 3091
+)
+"heptagon/transformations/last.ml" 63 3096 3148 "heptagon/transformations/last.ml" 63 3096 3149
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/last.ml" 62 3073 3092 "heptagon/transformations/last.ml" 62 3073 3093
+)
+"heptagon/transformations/last.ml" 63 3096 3148 "heptagon/transformations/last.ml" 63 3096 3157
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 63 3096 3133 "heptagon/transformations/last.ml" 63 3096 3157
+call(
+  stack
+)
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 64 3161 3167 "heptagon/transformations/last.ml" 64 3161 3168
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/last.ml" 65 3207 3211 "heptagon/transformations/last.ml" 66 3250 3300
+)
+"heptagon/transformations/last.ml" 64 3161 3170 "heptagon/transformations/last.ml" 64 3161 3171
+type(
+  Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 64 3161 3167 "heptagon/transformations/last.ml" 64 3161 3171
+type(
+  Heptagon.block * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 64 3161 3174 "heptagon/transformations/last.ml" 64 3161 3192
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.ident Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/last.ml" 64 3161 3193 "heptagon/transformations/last.ml" 64 3161 3197
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/last.ml" 62 3073 3083 "heptagon/transformations/last.ml" 62 3073 3087
+)
+"heptagon/transformations/last.ml" 64 3161 3198 "heptagon/transformations/last.ml" 64 3161 3201
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 63 3096 3119 "heptagon/transformations/last.ml" 63 3096 3122
+)
+"heptagon/transformations/last.ml" 64 3161 3202 "heptagon/transformations/last.ml" 64 3161 3203
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/last.ml" 62 3073 3092 "heptagon/transformations/last.ml" 62 3073 3093
+)
+"heptagon/transformations/last.ml" 64 3161 3174 "heptagon/transformations/last.ml" 64 3161 3203
+call(
+  stack
+)
+type(
+  Heptagon.block * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 65 3207 3213 "heptagon/transformations/last.ml" 65 3207 3214
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/last.ml" 64 3161 3167 "heptagon/transformations/last.ml" 64 3161 3168
+)
+"heptagon/transformations/last.ml" 65 3207 3230 "heptagon/transformations/last.ml" 65 3207 3231
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/last.ml" 64 3161 3167 "heptagon/transformations/last.ml" 64 3161 3168
+)
+"heptagon/transformations/last.ml" 65 3207 3230 "heptagon/transformations/last.ml" 65 3207 3239
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 65 3207 3240 "heptagon/transformations/last.ml" 65 3207 3241
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/last.ml" 65 3207 3242 "heptagon/transformations/last.ml" 65 3207 3248
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref last_v "heptagon/transformations/last.ml" 63 3096 3124 "heptagon/transformations/last.ml" 63 3096 3130
+)
+"heptagon/transformations/last.ml" 65 3207 3230 "heptagon/transformations/last.ml" 65 3207 3248
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 66 3250 3267 "heptagon/transformations/last.ml" 66 3250 3282
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_lastn_n_list "heptagon/transformations/last.ml" 63 3096 3102 "heptagon/transformations/last.ml" 63 3096 3117
+)
+"heptagon/transformations/last.ml" 66 3250 3283 "heptagon/transformations/last.ml" 66 3250 3284
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/last.ml" 66 3250 3285 "heptagon/transformations/last.ml" 66 3250 3286
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/last.ml" 64 3161 3167 "heptagon/transformations/last.ml" 64 3161 3168
+)
+"heptagon/transformations/last.ml" 66 3250 3285 "heptagon/transformations/last.ml" 66 3250 3293
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 66 3250 3267 "heptagon/transformations/last.ml" 66 3250 3293
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 65 3207 3211 "heptagon/transformations/last.ml" 66 3250 3295
+type(
+  Heptagon.block
+)
+"heptagon/transformations/last.ml" 66 3250 3297 "heptagon/transformations/last.ml" 66 3250 3300
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 63 3096 3119 "heptagon/transformations/last.ml" 63 3096 3122
+)
+"heptagon/transformations/last.ml" 65 3207 3211 "heptagon/transformations/last.ml" 66 3250 3300
+type(
+  Heptagon.block * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 64 3161 3163 "heptagon/transformations/last.ml" 66 3250 3300
+type(
+  Heptagon.block * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 63 3096 3098 "heptagon/transformations/last.ml" 66 3250 3300
+type(
+  Heptagon.block * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 68 3302 3306 "heptagon/transformations/last.ml" 68 3302 3314
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.node_dec -> Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+ident(
+  def node_dec "heptagon/transformations/last.ml" 77 3672 3672 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 68 3302 3315 "heptagon/transformations/last.ml" 68 3302 3319
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/last.ml" 68 3302 3320 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 68 3302 3320 "heptagon/transformations/last.ml" 68 3302 3321
+type(
+  'a
+)
+"heptagon/transformations/last.ml" 68 3302 3322 "heptagon/transformations/last.ml" 68 3302 3323
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/transformations/last.ml" 69 3326 3328 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 69 3326 3328 "heptagon/transformations/last.ml" 69 3326 3345
+type(
+  Names.qualname -> unit
+)
+ident(
+  ext_ref Idents.enter_node
+)
+"heptagon/transformations/last.ml" 69 3326 3346 "heptagon/transformations/last.ml" 69 3326 3347
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 68 3302 3322 "heptagon/transformations/last.ml" 68 3302 3323
+)
+"heptagon/transformations/last.ml" 69 3326 3346 "heptagon/transformations/last.ml" 69 3326 3354
+type(
+  Names.qualname
+)
+"heptagon/transformations/last.ml" 69 3326 3328 "heptagon/transformations/last.ml" 69 3326 3354
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/last.ml" 70 3356 3362 "heptagon/transformations/last.ml" 70 3356 3363
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 70 3356 3365 "heptagon/transformations/last.ml" 70 3356 3368
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 71 3408 3410 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 70 3356 3370 "heptagon/transformations/last.ml" 70 3356 3371
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 70 3356 3362 "heptagon/transformations/last.ml" 70 3356 3371
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 70 3356 3374 "heptagon/transformations/last.ml" 70 3356 3384
+type(
+  Idents.ident Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  int_ref extend_env "heptagon/transformations/last.ml" 55 2885 2889 "heptagon/transformations/last.ml" 55 2885 2899
+)
+"heptagon/transformations/last.ml" 70 3356 3385 "heptagon/transformations/last.ml" 70 3356 3394
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/last.ml" 70 3356 3395 "heptagon/transformations/last.ml" 70 3356 3396
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 68 3302 3322 "heptagon/transformations/last.ml" 68 3302 3323
+)
+"heptagon/transformations/last.ml" 70 3356 3395 "heptagon/transformations/last.ml" 70 3356 3404
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 70 3356 3374 "heptagon/transformations/last.ml" 70 3356 3404
+call(
+  stack
+)
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 71 3408 3414 "heptagon/transformations/last.ml" 71 3408 3427
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_lasto_list "heptagon/transformations/last.ml" 72 3472 3474 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 71 3408 3429 "heptagon/transformations/last.ml" 71 3408 3432
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/last.ml" 72 3472 3474 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 71 3408 3434 "heptagon/transformations/last.ml" 71 3408 3440
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def last_o "heptagon/transformations/last.ml" 72 3472 3474 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 71 3408 3414 "heptagon/transformations/last.ml" 71 3408 3440
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 71 3408 3443 "heptagon/transformations/last.ml" 71 3408 3453
+type(
+  Idents.ident Idents.Env.t ->
+  Heptagon.var_dec list ->
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+ident(
+  int_ref extend_env "heptagon/transformations/last.ml" 55 2885 2889 "heptagon/transformations/last.ml" 55 2885 2899
+)
+"heptagon/transformations/last.ml" 71 3408 3454 "heptagon/transformations/last.ml" 71 3408 3457
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 70 3356 3365 "heptagon/transformations/last.ml" 70 3356 3368
+)
+"heptagon/transformations/last.ml" 71 3408 3458 "heptagon/transformations/last.ml" 71 3408 3459
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 68 3302 3322 "heptagon/transformations/last.ml" 68 3302 3323
+)
+"heptagon/transformations/last.ml" 71 3408 3458 "heptagon/transformations/last.ml" 71 3408 3468
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 71 3408 3443 "heptagon/transformations/last.ml" 71 3408 3468
+call(
+  stack
+)
+type(
+  Heptagon.eq list * Idents.ident Idents.Env.t * Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3479
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/transformations/last.ml" 73 3522 3526 "heptagon/transformations/last.ml" 75 3608 3670
+)
+"heptagon/transformations/last.ml" 72 3472 3481 "heptagon/transformations/last.ml" 72 3472 3482
+type(
+  Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3482
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 72 3472 3486 "heptagon/transformations/last.ml" 72 3472 3507
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.ident Idents.Env.t ->
+  Heptagon.node_dec -> Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.node_dec
+)
+"heptagon/transformations/last.ml" 72 3472 3508 "heptagon/transformations/last.ml" 72 3472 3512
+type(
+  Idents.ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/last.ml" 68 3302 3315 "heptagon/transformations/last.ml" 68 3302 3319
+)
+"heptagon/transformations/last.ml" 72 3472 3513 "heptagon/transformations/last.ml" 72 3472 3516
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 71 3408 3429 "heptagon/transformations/last.ml" 71 3408 3432
+)
+"heptagon/transformations/last.ml" 72 3472 3517 "heptagon/transformations/last.ml" 72 3472 3518
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 68 3302 3322 "heptagon/transformations/last.ml" 68 3302 3323
+)
+"heptagon/transformations/last.ml" 72 3472 3486 "heptagon/transformations/last.ml" 72 3472 3518
+call(
+  stack
+)
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 73 3522 3528 "heptagon/transformations/last.ml" 73 3522 3529
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3479
+)
+"heptagon/transformations/last.ml" 74 3545 3555 "heptagon/transformations/last.ml" 74 3545 3556
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3479
+)
+"heptagon/transformations/last.ml" 74 3545 3555 "heptagon/transformations/last.ml" 74 3545 3564
+type(
+  Heptagon.block
+)
+"heptagon/transformations/last.ml" 74 3545 3580 "heptagon/transformations/last.ml" 74 3545 3581
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3479
+)
+"heptagon/transformations/last.ml" 74 3545 3580 "heptagon/transformations/last.ml" 74 3545 3589
+type(
+  Heptagon.block
+)
+"heptagon/transformations/last.ml" 74 3545 3580 "heptagon/transformations/last.ml" 74 3545 3597
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 74 3545 3598 "heptagon/transformations/last.ml" 74 3545 3599
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/last.ml" 74 3545 3600 "heptagon/transformations/last.ml" 74 3545 3606
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref last_o "heptagon/transformations/last.ml" 71 3408 3434 "heptagon/transformations/last.ml" 71 3408 3440
+)
+"heptagon/transformations/last.ml" 74 3545 3580 "heptagon/transformations/last.ml" 74 3545 3606
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/last.ml" 75 3608 3629 "heptagon/transformations/last.ml" 75 3608 3642
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_lasto_list "heptagon/transformations/last.ml" 71 3408 3414 "heptagon/transformations/last.ml" 71 3408 3427
+)
+"heptagon/transformations/last.ml" 75 3608 3643 "heptagon/transformations/last.ml" 75 3608 3644
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/last.ml" 75 3608 3645 "heptagon/transformations/last.ml" 75 3608 3646
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/transformations/last.ml" 72 3472 3478 "heptagon/transformations/last.ml" 72 3472 3479
+)
+"heptagon/transformations/last.ml" 75 3608 3645 "heptagon/transformations/last.ml" 75 3608 3654
+type(
+  Heptagon.block
+)
+"heptagon/transformations/last.ml" 75 3608 3645 "heptagon/transformations/last.ml" 75 3608 3661
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 75 3608 3629 "heptagon/transformations/last.ml" 75 3608 3661
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/last.ml" 74 3545 3553 "heptagon/transformations/last.ml" 75 3608 3663
+type(
+  Heptagon.block
+)
+"heptagon/transformations/last.ml" 73 3522 3526 "heptagon/transformations/last.ml" 75 3608 3665
+type(
+  Heptagon.node_dec
+)
+"heptagon/transformations/last.ml" 75 3608 3667 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Idents.ident Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/last.ml" 71 3408 3429 "heptagon/transformations/last.ml" 71 3408 3432
+)
+"heptagon/transformations/last.ml" 73 3522 3526 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 72 3472 3474 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 71 3408 3410 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 70 3356 3358 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 69 3326 3328 "heptagon/transformations/last.ml" 75 3608 3670
+type(
+  Heptagon.node_dec * Idents.ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 77 3672 3676 "heptagon/transformations/last.ml" 77 3672 3683
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/last.ml" 81 3859 3864 "heptagon/transformations/last.ml" 1 0 -1
+)
+"heptagon/transformations/last.ml" 77 3672 3684 "heptagon/transformations/last.ml" 77 3672 3685
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/last.ml" 78 3688 3690 "heptagon/transformations/last.ml" 81 3859 3864
+)
+"heptagon/transformations/last.ml" 78 3688 3694 "heptagon/transformations/last.ml" 78 3688 3698
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/last.ml" 80 3802 3804 "heptagon/transformations/last.ml" 81 3859 3864
+)
+"heptagon/transformations/last.ml" 78 3688 3703 "heptagon/transformations/last.ml" 78 3688 3724
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/last.ml" 79 3730 3758 "heptagon/transformations/last.ml" 79 3730 3766
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.node_dec -> Heptagon.node_dec * Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref node_dec "heptagon/transformations/last.ml" 68 3302 3306 "heptagon/transformations/last.ml" 68 3302 3314
+)
+"heptagon/transformations/last.ml" 79 3730 3776 "heptagon/transformations/last.ml" 79 3730 3781
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref block "heptagon/transformations/last.ml" 62 3073 3077 "heptagon/transformations/last.ml" 62 3073 3082
+)
+"heptagon/transformations/last.ml" 79 3730 3791 "heptagon/transformations/last.ml" 79 3730 3796
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.desc -> Heptagon.desc * Idents.var_ident Idents.Env.t
+)
+ident(
+  int_ref edesc "heptagon/transformations/last.ml" 57 2945 2949 "heptagon/transformations/last.ml" 57 2945 2954
+)
+"heptagon/transformations/last.ml" 78 3688 3701 "heptagon/transformations/last.ml" 79 3730 3798
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/last.ml" 80 3802 3808 "heptagon/transformations/last.ml" 80 3802 3809
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/last.ml" 81 3859 3863 "heptagon/transformations/last.ml" 81 3859 3864
+)
+"heptagon/transformations/last.ml" 80 3802 3811 "heptagon/transformations/last.ml" 80 3802 3812
+type(
+  Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 80 3802 3808 "heptagon/transformations/last.ml" 80 3802 3812
+type(
+  Heptagon.program * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 80 3802 3815 "heptagon/transformations/last.ml" 80 3802 3838
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Idents.var_ident Idents.Env.t ->
+  Heptagon.program -> Heptagon.program * Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/last.ml" 80 3802 3839 "heptagon/transformations/last.ml" 80 3802 3843
+type(
+  Idents.var_ident Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/last.ml" 78 3688 3694 "heptagon/transformations/last.ml" 78 3688 3698
+)
+"heptagon/transformations/last.ml" 80 3802 3844 "heptagon/transformations/last.ml" 80 3802 3853
+type(
+  Idents.var_ident Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/last.ml" 80 3802 3854 "heptagon/transformations/last.ml" 80 3802 3855
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/last.ml" 77 3672 3684 "heptagon/transformations/last.ml" 77 3672 3685
+)
+"heptagon/transformations/last.ml" 80 3802 3815 "heptagon/transformations/last.ml" 80 3802 3855
+call(
+  stack
+)
+type(
+  Heptagon.program * Idents.var_ident Idents.Env.t
+)
+"heptagon/transformations/last.ml" 81 3859 3863 "heptagon/transformations/last.ml" 81 3859 3864
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/last.ml" 80 3802 3808 "heptagon/transformations/last.ml" 80 3802 3809
+)
+"heptagon/transformations/last.ml" 80 3802 3804 "heptagon/transformations/last.ml" 81 3859 3864
+type(
+  Heptagon.program
+)
+"heptagon/transformations/last.ml" 78 3688 3690 "heptagon/transformations/last.ml" 81 3859 3864
+type(
+  Heptagon.program
+)

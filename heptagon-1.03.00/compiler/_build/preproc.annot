@@ -1,0 +1,826 @@
+"preproc.ml" 43 2582 2586 "preproc.ml" 43 2582 2590
+type(
+  string
+)
+ident(
+  def date "preproc.ml" 61 3252 3252 "preproc.ml" 1 0 -1
+)
+"preproc.ml" 44 2593 2599 "preproc.ml" 44 2593 2603
+type(
+  string array
+)
+ident(
+  def days "preproc.ml" 50 2887 2889 "preproc.ml" 57 3108 3183
+)
+"preproc.ml" 44 2593 2609 "preproc.ml" 44 2593 2617
+type(
+  string
+)
+"preproc.ml" 44 2593 2619 "preproc.ml" 44 2593 2627
+type(
+  string
+)
+"preproc.ml" 44 2593 2629 "preproc.ml" 44 2593 2638
+type(
+  string
+)
+"preproc.ml" 44 2593 2640 "preproc.ml" 44 2593 2651
+type(
+  string
+)
+"preproc.ml" 44 2593 2653 "preproc.ml" 44 2593 2663
+type(
+  string
+)
+"preproc.ml" 45 2665 2681 "preproc.ml" 45 2665 2689
+type(
+  string
+)
+"preproc.ml" 45 2665 2691 "preproc.ml" 45 2665 2701
+type(
+  string
+)
+"preproc.ml" 44 2593 2606 "preproc.ml" 45 2665 2704
+type(
+  string array
+)
+"preproc.ml" 46 2705 2711 "preproc.ml" 46 2705 2717
+type(
+  string array
+)
+ident(
+  def months "preproc.ml" 50 2887 2889 "preproc.ml" 57 3108 3183
+)
+"preproc.ml" 46 2705 2723 "preproc.ml" 46 2705 2732
+type(
+  string
+)
+"preproc.ml" 46 2705 2734 "preproc.ml" 46 2705 2744
+type(
+  string
+)
+"preproc.ml" 46 2705 2746 "preproc.ml" 46 2705 2753
+type(
+  string
+)
+"preproc.ml" 46 2705 2755 "preproc.ml" 46 2705 2762
+type(
+  string
+)
+"preproc.ml" 46 2705 2764 "preproc.ml" 46 2705 2769
+type(
+  string
+)
+"preproc.ml" 46 2705 2771 "preproc.ml" 46 2705 2777
+type(
+  string
+)
+"preproc.ml" 47 2779 2797 "preproc.ml" 47 2779 2803
+type(
+  string
+)
+"preproc.ml" 47 2779 2805 "preproc.ml" 47 2779 2813
+type(
+  string
+)
+"preproc.ml" 47 2779 2815 "preproc.ml" 47 2779 2826
+type(
+  string
+)
+"preproc.ml" 47 2779 2828 "preproc.ml" 47 2779 2837
+type(
+  string
+)
+"preproc.ml" 47 2779 2839 "preproc.ml" 47 2779 2849
+type(
+  string
+)
+"preproc.ml" 48 2851 2869 "preproc.ml" 48 2851 2879
+type(
+  string
+)
+"preproc.ml" 46 2705 2720 "preproc.ml" 48 2851 2882
+type(
+  string array
+)
+"preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+type(
+  Unix.tm
+)
+ident(
+  def tm "preproc.ml" 52 2940 2942 "preproc.ml" 57 3108 3183
+)
+"preproc.ml" 50 2887 2898 "preproc.ml" 50 2887 2912
+type(
+  float -> Unix.tm
+)
+ident(
+  ext_ref Unix.localtime
+)
+"preproc.ml" 50 2887 2914 "preproc.ml" 50 2887 2931
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"preproc.ml" 50 2887 2932 "preproc.ml" 50 2887 2934
+type(
+  unit
+)
+"preproc.ml" 50 2887 2914 "preproc.ml" 50 2887 2934
+call(
+  stack
+)
+type(
+  float
+)
+"preproc.ml" 50 2887 2898 "preproc.ml" 50 2887 2935
+call(
+  stack
+)
+type(
+  Unix.tm
+)
+"preproc.ml" 52 2940 2947 "preproc.ml" 52 2940 2950
+type(
+  string
+)
+ident(
+  def day "preproc.ml" 56 3062 3064 "preproc.ml" 57 3108 3183
+)
+"preproc.ml" 52 2940 2952 "preproc.ml" 52 2940 2957
+type(
+  string
+)
+ident(
+  def month "preproc.ml" 56 3062 3064 "preproc.ml" 57 3108 3183
+)
+"preproc.ml" 52 2940 2947 "preproc.ml" 52 2940 2957
+type(
+  string * string
+)
+"preproc.ml" 53 2961 2969 "preproc.ml" 53 2961 2975
+type(
+  string -> string
+)
+ident(
+  def prefix "preproc.ml" 54 3000 3005 "preproc.ml" 54 3000 3056
+)
+"preproc.ml" 53 2961 2976 "preproc.ml" 53 2961 2977
+type(
+  string
+)
+ident(
+  def s "preproc.ml" 53 2961 2980 "preproc.ml" 53 2961 2996
+)
+"preproc.ml" 53 2961 2980 "preproc.ml" 53 2961 2990
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"preproc.ml" 53 2961 2991 "preproc.ml" 53 2961 2992
+type(
+  string
+)
+ident(
+  int_ref s "preproc.ml" 53 2961 2976 "preproc.ml" 53 2961 2977
+)
+"preproc.ml" 53 2961 2993 "preproc.ml" 53 2961 2994
+type(
+  int
+)
+"preproc.ml" 53 2961 2995 "preproc.ml" 53 2961 2996
+type(
+  int
+)
+"preproc.ml" 53 2961 2980 "preproc.ml" 53 2961 2996
+call(
+  tail
+)
+type(
+  string
+)
+"preproc.ml" 53 2961 2976 "preproc.ml" 53 2961 2996
+type(
+  string -> string
+)
+"preproc.ml" 54 3000 3005 "preproc.ml" 54 3000 3011
+type(
+  string -> string
+)
+ident(
+  int_ref prefix "preproc.ml" 53 2961 2969 "preproc.ml" 53 2961 2975
+)
+"preproc.ml" 54 3000 3012 "preproc.ml" 54 3000 3016
+type(
+  string array
+)
+ident(
+  int_ref days "preproc.ml" 44 2593 2599 "preproc.ml" 44 2593 2603
+)
+"preproc.ml" 54 3000 3018 "preproc.ml" 54 3000 3020
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 54 3000 3018 "preproc.ml" 54 3000 3028
+type(
+  int
+)
+"preproc.ml" 54 3000 3012 "preproc.ml" 54 3000 3029
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Array.get
+)
+"preproc.ml" 54 3000 3005 "preproc.ml" 54 3000 3029
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 54 3000 3031 "preproc.ml" 54 3000 3037
+type(
+  string -> string
+)
+ident(
+  int_ref prefix "preproc.ml" 53 2961 2969 "preproc.ml" 53 2961 2975
+)
+"preproc.ml" 54 3000 3038 "preproc.ml" 54 3000 3044
+type(
+  string array
+)
+ident(
+  int_ref months "preproc.ml" 46 2705 2711 "preproc.ml" 46 2705 2717
+)
+"preproc.ml" 54 3000 3046 "preproc.ml" 54 3000 3048
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 54 3000 3046 "preproc.ml" 54 3000 3055
+type(
+  int
+)
+"preproc.ml" 54 3000 3038 "preproc.ml" 54 3000 3056
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Array.get
+)
+"preproc.ml" 54 3000 3031 "preproc.ml" 54 3000 3056
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 54 3000 3005 "preproc.ml" 54 3000 3056
+type(
+  string * string
+)
+"preproc.ml" 53 2961 2965 "preproc.ml" 54 3000 3057
+type(
+  string * string
+)
+"preproc.ml" 56 3062 3064 "preproc.ml" 56 3062 3078
+type(
+  (string -> string -> int -> int -> int -> int -> int -> string, unit,
+   string)
+  format -> string -> string -> int -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"preproc.ml" 56 3062 3079 "preproc.ml" 56 3062 3107
+type(
+  (string -> string -> int -> int -> int -> int -> int -> string, unit,
+   string)
+  format
+)
+"preproc.ml" 57 3108 3112 "preproc.ml" 57 3108 3115
+type(
+  string
+)
+ident(
+  int_ref day "preproc.ml" 52 2940 2947 "preproc.ml" 52 2940 2950
+)
+"preproc.ml" 57 3108 3116 "preproc.ml" 57 3108 3121
+type(
+  string
+)
+ident(
+  int_ref month "preproc.ml" 52 2940 2952 "preproc.ml" 52 2940 2957
+)
+"preproc.ml" 57 3108 3122 "preproc.ml" 57 3108 3124
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 57 3108 3122 "preproc.ml" 57 3108 3132
+type(
+  int
+)
+"preproc.ml" 57 3108 3133 "preproc.ml" 57 3108 3135
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 57 3108 3133 "preproc.ml" 57 3108 3143
+type(
+  int
+)
+"preproc.ml" 57 3108 3144 "preproc.ml" 57 3108 3146
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 57 3108 3144 "preproc.ml" 57 3108 3153
+type(
+  int
+)
+"preproc.ml" 57 3108 3154 "preproc.ml" 57 3108 3156
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 57 3108 3154 "preproc.ml" 57 3108 3163
+type(
+  int
+)
+"preproc.ml" 57 3108 3165 "preproc.ml" 57 3108 3169
+type(
+  int
+)
+"preproc.ml" 57 3108 3170 "preproc.ml" 57 3108 3171
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"preproc.ml" 57 3108 3172 "preproc.ml" 57 3108 3174
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "preproc.ml" 50 2887 2893 "preproc.ml" 50 2887 2895
+)
+"preproc.ml" 57 3108 3172 "preproc.ml" 57 3108 3182
+type(
+  int
+)
+"preproc.ml" 57 3108 3165 "preproc.ml" 57 3108 3182
+type(
+  int
+)
+"preproc.ml" 56 3062 3064 "preproc.ml" 57 3108 3183
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 52 2940 2942 "preproc.ml" 57 3108 3183
+type(
+  string
+)
+"preproc.ml" 50 2887 2889 "preproc.ml" 57 3108 3183
+type(
+  string
+)
+"preproc.ml" 44 2593 2595 "preproc.ml" 57 3108 3183
+type(
+  string
+)
+"preproc.ml" 61 3252 3256 "preproc.ml" 61 3252 3262
+type(
+  string
+)
+ident(
+  def stdlib "preproc.ml" 71 3522 3522 "preproc.ml" 1 0 -1
+)
+"preproc.ml" 63 3271 3275 "preproc.ml" 63 3271 3286
+type(
+  string -> string
+)
+ident(
+  ext_ref Unix.getenv
+)
+"preproc.ml" 63 3271 3287 "preproc.ml" 63 3271 3295
+type(
+  string
+)
+"preproc.ml" 63 3271 3275 "preproc.ml" 63 3271 3295
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 65 3303 3309 "preproc.ml" 65 3303 3318
+type(
+  exn
+)
+"preproc.ml" 66 3322 3332 "preproc.ml" 66 3322 3334
+type(
+  string
+)
+ident(
+  def wd "preproc.ml" 67 3355 3361 "preproc.ml" 67 3355 3423
+)
+"preproc.ml" 66 3322 3337 "preproc.ml" 66 3322 3348
+type(
+  unit -> string
+)
+ident(
+  ext_ref Unix.getcwd
+)
+"preproc.ml" 66 3322 3349 "preproc.ml" 66 3322 3351
+type(
+  unit
+)
+"preproc.ml" 66 3322 3337 "preproc.ml" 66 3322 3351
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 67 3355 3361 "preproc.ml" 67 3355 3376
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"preproc.ml" 67 3355 3378 "preproc.ml" 67 3355 3394
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"preproc.ml" 67 3355 3396 "preproc.ml" 67 3355 3412
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"preproc.ml" 67 3355 3413 "preproc.ml" 67 3355 3415
+type(
+  string
+)
+ident(
+  int_ref wd "preproc.ml" 66 3322 3332 "preproc.ml" 66 3322 3334
+)
+"preproc.ml" 67 3355 3396 "preproc.ml" 67 3355 3415
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 67 3355 3378 "preproc.ml" 67 3355 3416
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 67 3355 3418 "preproc.ml" 67 3355 3423
+type(
+  string
+)
+"preproc.ml" 67 3355 3361 "preproc.ml" 67 3355 3423
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 66 3322 3328 "preproc.ml" 67 3355 3423
+type(
+  string
+)
+"preproc.ml" 62 3265 3267 "preproc.ml" 67 3355 3423
+type(
+  string
+)
+"preproc.ml" 71 3522 3526 "preproc.ml" 71 3522 3529
+type(
+  (string * string) list
+)
+ident(
+  def env "preproc.ml" 78 3779 3779 "preproc.ml" 1 0 -1
+)
+"preproc.ml" 71 3522 3534 "preproc.ml" 71 3522 3540
+type(
+  string
+)
+"preproc.ml" 71 3522 3542 "preproc.ml" 71 3522 3546
+type(
+  string
+)
+ident(
+  int_ref date "preproc.ml" 43 2582 2586 "preproc.ml" 43 2582 2590
+)
+"preproc.ml" 71 3522 3534 "preproc.ml" 71 3522 3546
+type(
+  string * string
+)
+"preproc.ml" 71 3522 3550 "preproc.ml" 71 3522 3558
+type(
+  string
+)
+"preproc.ml" 71 3522 3560 "preproc.ml" 71 3522 3566
+type(
+  string
+)
+ident(
+  int_ref stdlib "preproc.ml" 61 3252 3256 "preproc.ml" 61 3252 3262
+)
+"preproc.ml" 71 3522 3550 "preproc.ml" 71 3522 3566
+type(
+  string * string
+)
+"preproc.ml" 71 3522 3549 "preproc.ml" 71 3522 3567
+type(
+  (string * string) list
+)
+"preproc.ml" 71 3522 3533 "preproc.ml" 71 3522 3567
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"preproc.ml" 78 3779 3783 "preproc.ml" 78 3779 3789
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  def filter "preproc.ml" 89 4057 4057 "preproc.ml" 1 0 -1
+)
+"preproc.ml" 81 3817 3832 "preproc.ml" 81 3817 3833
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def e "preproc.ml" 81 3817 3836 "preproc.ml" 85 4008 4020
+)
+"preproc.ml" 81 3817 3842 "preproc.ml" 81 3817 3843
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "preproc.ml" 81 3817 3832 "preproc.ml" 81 3817 3833
+)
+"preproc.ml" 82 3849 3862 "preproc.ml" 82 3849 3862
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+"preproc.ml" 82 3849 3862 "preproc.ml" 82 3849 3863
+type(
+  string
+)
+ident(
+  def s "preproc.ml" 82 3849 3879 "preproc.ml" 84 3975 4007
+)
+"preproc.ml" 82 3849 3879 "preproc.ml" 82 3849 3893
+type(
+  string -> (string * string) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"preproc.ml" 82 3849 3894 "preproc.ml" 82 3849 3895
+type(
+  string
+)
+ident(
+  int_ref s "preproc.ml" 82 3849 3862 "preproc.ml" 82 3849 3863
+)
+"preproc.ml" 82 3849 3896 "preproc.ml" 82 3849 3899
+type(
+  (string * string) list
+)
+ident(
+  int_ref env "preproc.ml" 71 3522 3526 "preproc.ml" 71 3522 3529
+)
+"preproc.ml" 82 3849 3879 "preproc.ml" 82 3849 3899
+call(
+  stack
+)
+type(
+  bool
+)
+"preproc.ml" 83 3903 3913 "preproc.ml" 83 3903 3917
+type(
+  string
+)
+ident(
+  def repl "preproc.ml" 84 3975 3993 "preproc.ml" 84 3975 3993
+)
+"preproc.ml" 83 3903 3924 "preproc.ml" 83 3903 3934
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"preproc.ml" 83 3903 3935 "preproc.ml" 83 3903 3936
+type(
+  string
+)
+ident(
+  int_ref s "preproc.ml" 82 3849 3862 "preproc.ml" 82 3849 3863
+)
+"preproc.ml" 83 3903 3924 "preproc.ml" 83 3903 3936
+type(
+  string
+)
+"preproc.ml" 83 3903 3942 "preproc.ml" 83 3903 3951
+type(
+  exn
+)
+"preproc.ml" 83 3903 3955 "preproc.ml" 83 3903 3965
+type(
+  string -> (string * string) list -> string
+)
+ident(
+  ext_ref List.assoc
+)
+"preproc.ml" 83 3903 3966 "preproc.ml" 83 3903 3967
+type(
+  string
+)
+ident(
+  int_ref s "preproc.ml" 82 3849 3862 "preproc.ml" 82 3849 3863
+)
+"preproc.ml" 83 3903 3968 "preproc.ml" 83 3903 3971
+type(
+  (string * string) list
+)
+ident(
+  int_ref env "preproc.ml" 71 3522 3526 "preproc.ml" 71 3522 3529
+)
+"preproc.ml" 83 3903 3955 "preproc.ml" 83 3903 3971
+call(
+  stack
+)
+type(
+  string
+)
+"preproc.ml" 83 3903 3920 "preproc.ml" 83 3903 3971
+type(
+  string
+)
+"preproc.ml" 84 3975 3993 "preproc.ml" 84 3975 3993
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+type(
+  string * int * int * int * int * int * int * bool
+)
+type(
+  bool
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  string
+)
+type(
+  string * int * int * int * int * int * int * bool -> Camlp4.PreCast.Ast.loc
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.of_tuple
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"preproc.ml" 84 3975 3993 "preproc.ml" 84 3975 3997
+type(
+  string
+)
+ident(
+  int_ref repl "preproc.ml" 83 3903 3913 "preproc.ml" 83 3903 3917
+)
+"preproc.ml" 83 3903 3909 "preproc.ml" 84 3975 4007
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"preproc.ml" 85 4008 4014 "preproc.ml" 85 4008 4015
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def x "preproc.ml" 85 4008 4019 "preproc.ml" 85 4008 4020
+)
+"preproc.ml" 85 4008 4019 "preproc.ml" 85 4008 4020
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref x "preproc.ml" 85 4008 4014 "preproc.ml" 85 4008 4015
+)
+"preproc.ml" 81 3817 3836 "preproc.ml" 85 4008 4020
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"preproc.ml" 81 3817 3832 "preproc.ml" 85 4008 4020
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"preproc.ml" 81 3817 3819 "preproc.ml" 85 4008 4020
+type(
+  Camlp4.PreCast.Ast.map ->
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"preproc.ml" 79 3792 3792 "preproc.ml" 86 4021 4024
+type(
+  Camlp4.PreCast.Ast.map
+)
+type(
+  Camlp4.PreCast.Ast.map
+)
+"preproc.ml" 89 4057 4057 "preproc.ml" 89 4057 4092
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter ->
+  unit
+)
+ident(
+  ext_ref Camlp4.PreCast.AstFilters.register_str_item_filter
+)
+"preproc.ml" 89 4057 4093 "preproc.ml" 89 4057 4099
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref filter "preproc.ml" 78 3779 3783 "preproc.ml" 78 3779 3789
+)
+"preproc.ml" 89 4057 4093 "preproc.ml" 89 4057 4108
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter
+)
+"preproc.ml" 89 4057 4057 "preproc.ml" 89 4057 4108
+call(
+  stack
+)
+type(
+  unit
+)

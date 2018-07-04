@@ -1,0 +1,7 @@
+read("vt.z3z");
+read("Creat_SDP.lib");
+read("Bibli.lib");
+PROP:B_False(S,Conflit);
+S : S_Security(S,PROP);
+simul(S,"vt.res","vt.sim");
+

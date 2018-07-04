@@ -1,0 +1,1190 @@
+"global/check_signature.ml" 40 2270 2274 "global/check_signature.ml" 40 2270 2281
+type(
+  Location.location -> Signature.node * error -> 'a
+)
+ident(
+  def message "global/check_signature.ml" 59 3029 3029 "global/check_signature.ml" 1 0 -1
+)
+"global/check_signature.ml" 40 2270 2282 "global/check_signature.ml" 40 2270 2285
+type(
+  Location.location
+)
+ident(
+  def loc "global/check_signature.ml" 40 2270 2286 "global/check_signature.ml" 55 2954 2974
+)
+"global/check_signature.ml" 40 2270 2287 "global/check_signature.ml" 40 2270 2288
+type(
+  Signature.node
+)
+ident(
+  def s "global/check_signature.ml" 41 2294 2296 "global/check_signature.ml" 55 2954 2974
+)
+"global/check_signature.ml" 40 2270 2289 "global/check_signature.ml" 40 2270 2290
+type(
+  error
+)
+ident(
+  def e "global/check_signature.ml" 41 2294 2296 "global/check_signature.ml" 55 2954 2974
+)
+"global/check_signature.ml" 40 2270 2286 "global/check_signature.ml" 40 2270 2291
+type(
+  Signature.node * error
+)
+"global/check_signature.ml" 41 2294 2296 "global/check_signature.ml" 41 2294 2310
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> String.t * Signature.node -> unit) ->
+   String.t * Signature.node -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location ->
+  (Format.formatter -> String.t * Signature.node -> unit) ->
+  String.t * Signature.node -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/check_signature.ml" 41 2294 2311 "global/check_signature.ml" 41 2294 2342
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> String.t * Signature.node -> unit) ->
+   String.t * Signature.node -> unit, Format.formatter, unit)
+  format
+)
+"global/check_signature.ml" 42 2343 2347 "global/check_signature.ml" 42 2343 2361
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"global/check_signature.ml" 42 2343 2362 "global/check_signature.ml" 42 2343 2365
+type(
+  Location.location
+)
+ident(
+  int_ref loc "global/check_signature.ml" 40 2270 2282 "global/check_signature.ml" 40 2270 2285
+)
+"global/check_signature.ml" 43 2366 2370 "global/check_signature.ml" 43 2366 2406
+type(
+  Format.formatter -> String.t * Signature.node -> unit
+)
+ident(
+  ext_ref Global_printer.print_interface_value
+)
+"global/check_signature.ml" 43 2366 2408 "global/check_signature.ml" 43 2366 2410
+type(
+  String.t
+)
+"global/check_signature.ml" 43 2366 2411 "global/check_signature.ml" 43 2366 2412
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 40 2270 2287 "global/check_signature.ml" 40 2270 2288
+)
+"global/check_signature.ml" 43 2366 2407 "global/check_signature.ml" 43 2366 2413
+type(
+  String.t * Signature.node
+)
+"global/check_signature.ml" 41 2294 2296 "global/check_signature.ml" 43 2366 2413
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 44 2415 2429 "global/check_signature.ml" 44 2415 2430
+type(
+  error
+)
+ident(
+  int_ref e "global/check_signature.ml" 40 2270 2289 "global/check_signature.ml" 40 2270 2290
+)
+"global/check_signature.ml" 45 2436 2461 "global/check_signature.ml" 45 2436 2469
+type(
+  Names.name option
+)
+ident(
+  def var_name "global/check_signature.ml" 46 2482 2488 "global/check_signature.ml" 48 2659 2681
+)
+"global/check_signature.ml" 45 2436 2470 "global/check_signature.ml" 45 2436 2477
+type(
+  Names.name
+)
+ident(
+  def ck_name "global/check_signature.ml" 46 2482 2488 "global/check_signature.ml" 48 2659 2681
+)
+"global/check_signature.ml" 45 2436 2440 "global/check_signature.ml" 45 2436 2478
+type(
+  error
+)
+"global/check_signature.ml" 46 2482 2492 "global/check_signature.ml" 46 2482 2493
+type(
+  string
+)
+ident(
+  def a "global/check_signature.ml" 47 2563 2569 "global/check_signature.ml" 48 2659 2681
+)
+"global/check_signature.ml" 46 2482 2494 "global/check_signature.ml" 46 2482 2498
+type(
+  string
+)
+ident(
+  def name "global/check_signature.ml" 47 2563 2569 "global/check_signature.ml" 48 2659 2681
+)
+"global/check_signature.ml" 46 2482 2492 "global/check_signature.ml" 46 2482 2498
+type(
+  string * string
+)
+"global/check_signature.ml" 46 2482 2507 "global/check_signature.ml" 46 2482 2515
+type(
+  Names.name option
+)
+ident(
+  int_ref var_name "global/check_signature.ml" 45 2436 2461 "global/check_signature.ml" 45 2436 2469
+)
+"global/check_signature.ml" 46 2482 2521 "global/check_signature.ml" 46 2482 2525
+type(
+  Names.name option
+)
+"global/check_signature.ml" 46 2482 2529 "global/check_signature.ml" 46 2482 2532
+type(
+  string
+)
+"global/check_signature.ml" 46 2482 2533 "global/check_signature.ml" 46 2482 2535
+type(
+  string
+)
+"global/check_signature.ml" 46 2482 2529 "global/check_signature.ml" 46 2482 2535
+type(
+  string * string
+)
+"global/check_signature.ml" 46 2482 2543 "global/check_signature.ml" 46 2482 2544
+type(
+  Names.name
+)
+ident(
+  def n "global/check_signature.ml" 46 2482 2548 "global/check_signature.ml" 46 2482 2559
+)
+"global/check_signature.ml" 46 2482 2538 "global/check_signature.ml" 46 2482 2544
+type(
+  Names.name option
+)
+"global/check_signature.ml" 46 2482 2548 "global/check_signature.ml" 46 2482 2553
+type(
+  string
+)
+"global/check_signature.ml" 46 2482 2554 "global/check_signature.ml" 46 2482 2557
+type(
+  string
+)
+"global/check_signature.ml" 46 2482 2557 "global/check_signature.ml" 46 2482 2558
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/check_signature.ml" 46 2482 2558 "global/check_signature.ml" 46 2482 2559
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/check_signature.ml" 46 2482 2543 "global/check_signature.ml" 46 2482 2544
+)
+"global/check_signature.ml" 46 2482 2554 "global/check_signature.ml" 46 2482 2559
+call(
+  stack
+)
+type(
+  string
+)
+"global/check_signature.ml" 46 2482 2548 "global/check_signature.ml" 46 2482 2559
+type(
+  string * string
+)
+"global/check_signature.ml" 46 2482 2501 "global/check_signature.ml" 46 2482 2559
+type(
+  string * string
+)
+"global/check_signature.ml" 47 2563 2569 "global/check_signature.ml" 47 2563 2583
+type(
+  (string -> string -> Names.name -> unit, Format.formatter, unit) format ->
+  string -> string -> Names.name -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/check_signature.ml" 47 2563 2584 "global/check_signature.ml" 47 2563 2658
+type(
+  (string -> string -> Names.name -> unit, Format.formatter, unit) format
+)
+"global/check_signature.ml" 48 2659 2667 "global/check_signature.ml" 48 2659 2668
+type(
+  string
+)
+ident(
+  int_ref a "global/check_signature.ml" 46 2482 2492 "global/check_signature.ml" 46 2482 2493
+)
+"global/check_signature.ml" 48 2659 2669 "global/check_signature.ml" 48 2659 2673
+type(
+  string
+)
+ident(
+  int_ref name "global/check_signature.ml" 46 2482 2494 "global/check_signature.ml" 46 2482 2498
+)
+"global/check_signature.ml" 48 2659 2674 "global/check_signature.ml" 48 2659 2681
+type(
+  Names.name
+)
+ident(
+  int_ref ck_name "global/check_signature.ml" 45 2436 2470 "global/check_signature.ml" 45 2436 2477
+)
+"global/check_signature.ml" 47 2563 2569 "global/check_signature.ml" 48 2659 2681
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 46 2482 2488 "global/check_signature.ml" 48 2659 2681
+type(
+  unit
+)
+"global/check_signature.ml" 49 2682 2708 "global/check_signature.ml" 49 2682 2716
+type(
+  Names.name option
+)
+ident(
+  def var_name "global/check_signature.ml" 50 2729 2735 "global/check_signature.ml" 52 2901 2923
+)
+"global/check_signature.ml" 49 2682 2717 "global/check_signature.ml" 49 2682 2724
+type(
+  Names.name
+)
+ident(
+  def ck_name "global/check_signature.ml" 50 2729 2735 "global/check_signature.ml" 52 2901 2923
+)
+"global/check_signature.ml" 49 2682 2686 "global/check_signature.ml" 49 2682 2725
+type(
+  error
+)
+"global/check_signature.ml" 50 2729 2739 "global/check_signature.ml" 50 2729 2740
+type(
+  string
+)
+ident(
+  def a "global/check_signature.ml" 51 2810 2816 "global/check_signature.ml" 52 2901 2923
+)
+"global/check_signature.ml" 50 2729 2741 "global/check_signature.ml" 50 2729 2745
+type(
+  string
+)
+ident(
+  def name "global/check_signature.ml" 51 2810 2816 "global/check_signature.ml" 52 2901 2923
+)
+"global/check_signature.ml" 50 2729 2739 "global/check_signature.ml" 50 2729 2745
+type(
+  string * string
+)
+"global/check_signature.ml" 50 2729 2754 "global/check_signature.ml" 50 2729 2762
+type(
+  Names.name option
+)
+ident(
+  int_ref var_name "global/check_signature.ml" 49 2682 2708 "global/check_signature.ml" 49 2682 2716
+)
+"global/check_signature.ml" 50 2729 2768 "global/check_signature.ml" 50 2729 2772
+type(
+  Names.name option
+)
+"global/check_signature.ml" 50 2729 2776 "global/check_signature.ml" 50 2729 2779
+type(
+  string
+)
+"global/check_signature.ml" 50 2729 2780 "global/check_signature.ml" 50 2729 2782
+type(
+  string
+)
+"global/check_signature.ml" 50 2729 2776 "global/check_signature.ml" 50 2729 2782
+type(
+  string * string
+)
+"global/check_signature.ml" 50 2729 2790 "global/check_signature.ml" 50 2729 2791
+type(
+  Names.name
+)
+ident(
+  def n "global/check_signature.ml" 50 2729 2795 "global/check_signature.ml" 50 2729 2806
+)
+"global/check_signature.ml" 50 2729 2785 "global/check_signature.ml" 50 2729 2791
+type(
+  Names.name option
+)
+"global/check_signature.ml" 50 2729 2795 "global/check_signature.ml" 50 2729 2800
+type(
+  string
+)
+"global/check_signature.ml" 50 2729 2801 "global/check_signature.ml" 50 2729 2804
+type(
+  string
+)
+"global/check_signature.ml" 50 2729 2804 "global/check_signature.ml" 50 2729 2805
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/check_signature.ml" 50 2729 2805 "global/check_signature.ml" 50 2729 2806
+type(
+  Names.name
+)
+ident(
+  int_ref n "global/check_signature.ml" 50 2729 2790 "global/check_signature.ml" 50 2729 2791
+)
+"global/check_signature.ml" 50 2729 2801 "global/check_signature.ml" 50 2729 2806
+call(
+  stack
+)
+type(
+  string
+)
+"global/check_signature.ml" 50 2729 2795 "global/check_signature.ml" 50 2729 2806
+type(
+  string * string
+)
+"global/check_signature.ml" 50 2729 2748 "global/check_signature.ml" 50 2729 2806
+type(
+  string * string
+)
+"global/check_signature.ml" 51 2810 2816 "global/check_signature.ml" 51 2810 2830
+type(
+  (string -> string -> Names.name -> unit, Format.formatter, unit) format ->
+  string -> string -> Names.name -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/check_signature.ml" 51 2810 2831 "global/check_signature.ml" 51 2810 2900
+type(
+  (string -> string -> Names.name -> unit, Format.formatter, unit) format
+)
+"global/check_signature.ml" 52 2901 2909 "global/check_signature.ml" 52 2901 2910
+type(
+  string
+)
+ident(
+  int_ref a "global/check_signature.ml" 50 2729 2739 "global/check_signature.ml" 50 2729 2740
+)
+"global/check_signature.ml" 52 2901 2911 "global/check_signature.ml" 52 2901 2915
+type(
+  string
+)
+ident(
+  int_ref name "global/check_signature.ml" 50 2729 2741 "global/check_signature.ml" 50 2729 2745
+)
+"global/check_signature.ml" 52 2901 2916 "global/check_signature.ml" 52 2901 2923
+type(
+  Names.name
+)
+ident(
+  int_ref ck_name "global/check_signature.ml" 49 2682 2717 "global/check_signature.ml" 49 2682 2724
+)
+"global/check_signature.ml" 51 2810 2816 "global/check_signature.ml" 52 2901 2923
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 50 2729 2735 "global/check_signature.ml" 52 2901 2923
+type(
+  unit
+)
+"global/check_signature.ml" 44 2415 2417 "global/check_signature.ml" 53 2924 2929
+type(
+  unit
+)
+"global/check_signature.ml" 54 2931 2933 "global/check_signature.ml" 54 2931 2947
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"global/check_signature.ml" 54 2931 2948 "global/check_signature.ml" 54 2931 2952
+type(
+  (unit, Format.formatter, unit) format
+)
+"global/check_signature.ml" 54 2931 2933 "global/check_signature.ml" 54 2931 2952
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 55 2954 2956 "global/check_signature.ml" 55 2954 2961
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/check_signature.ml" 55 2954 2962 "global/check_signature.ml" 55 2954 2974
+type(
+  exn
+)
+"global/check_signature.ml" 55 2954 2956 "global/check_signature.ml" 55 2954 2974
+type(
+  'a
+)
+"global/check_signature.ml" 54 2931 2933 "global/check_signature.ml" 55 2954 2974
+type(
+  'a
+)
+"global/check_signature.ml" 44 2415 2417 "global/check_signature.ml" 55 2954 2974
+type(
+  'a
+)
+"global/check_signature.ml" 41 2294 2296 "global/check_signature.ml" 55 2954 2974
+type(
+  'a
+)
+"global/check_signature.ml" 59 3029 3033 "global/check_signature.ml" 59 3029 3048
+type(
+  Signature.node -> unit
+)
+ident(
+  def check_signature "global/check_signature.ml" 87 3969 4023 "global/check_signature.ml" 1 0 -1
+)
+"global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+type(
+  Signature.node
+)
+ident(
+  def s "global/check_signature.ml" 61 3126 3128 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 61 3126 3136 "global/check_signature.ml" 61 3126 3142
+type(
+  Names.NamesSet.t -> Signature.arg list -> Names.NamesSet.t
+)
+ident(
+  def append "global/check_signature.ml" 61 3126 3128 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 61 3126 3143 "global/check_signature.ml" 61 3126 3146
+type(
+  Names.NamesSet.t
+)
+ident(
+  def env "global/check_signature.ml" 61 3126 3147 "global/check_signature.ml" 65 3259 3311
+)
+"global/check_signature.ml" 61 3126 3147 "global/check_signature.ml" 61 3126 3151
+type(
+  Signature.arg list
+)
+ident(
+  def sa_l "global/check_signature.ml" 61 3126 3154 "global/check_signature.ml" 65 3259 3311
+)
+"global/check_signature.ml" 61 3126 3160 "global/check_signature.ml" 61 3126 3164
+type(
+  Signature.arg list
+)
+ident(
+  int_ref sa_l "global/check_signature.ml" 61 3126 3147 "global/check_signature.ml" 61 3126 3151
+)
+"global/check_signature.ml" 62 3170 3176 "global/check_signature.ml" 62 3170 3178
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 62 3170 3182 "global/check_signature.ml" 62 3170 3185
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 61 3126 3143 "global/check_signature.ml" 61 3126 3146
+)
+"global/check_signature.ml" 63 3186 3192 "global/check_signature.ml" 63 3186 3194
+type(
+  Signature.arg
+)
+ident(
+  def sa "global/check_signature.ml" 63 3186 3204 "global/check_signature.ml" 65 3259 3311
+)
+"global/check_signature.ml" 63 3186 3196 "global/check_signature.ml" 63 3186 3200
+type(
+  Signature.arg list
+)
+ident(
+  def sa_l "global/check_signature.ml" 63 3186 3204 "global/check_signature.ml" 65 3259 3311
+)
+"global/check_signature.ml" 63 3186 3192 "global/check_signature.ml" 63 3186 3200
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 63 3186 3210 "global/check_signature.ml" 63 3186 3212
+type(
+  Signature.arg
+)
+ident(
+  int_ref sa "global/check_signature.ml" 63 3186 3192 "global/check_signature.ml" 63 3186 3194
+)
+"global/check_signature.ml" 63 3186 3210 "global/check_signature.ml" 63 3186 3219
+type(
+  Names.name option
+)
+"global/check_signature.ml" 64 3225 3235 "global/check_signature.ml" 64 3225 3239
+type(
+  Names.name option
+)
+"global/check_signature.ml" 64 3225 3243 "global/check_signature.ml" 64 3225 3249
+type(
+  Names.NamesSet.t -> Signature.arg list -> Names.NamesSet.t
+)
+ident(
+  int_ref append "global/check_signature.ml" 61 3126 3136 "global/check_signature.ml" 61 3126 3142
+)
+"global/check_signature.ml" 64 3225 3250 "global/check_signature.ml" 64 3225 3253
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 61 3126 3143 "global/check_signature.ml" 61 3126 3146
+)
+"global/check_signature.ml" 64 3225 3254 "global/check_signature.ml" 64 3225 3258
+type(
+  Signature.arg list
+)
+ident(
+  int_ref sa_l "global/check_signature.ml" 63 3186 3196 "global/check_signature.ml" 63 3186 3200
+)
+"global/check_signature.ml" 64 3225 3243 "global/check_signature.ml" 64 3225 3258
+call(
+  tail
+)
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 65 3259 3274 "global/check_signature.ml" 65 3259 3275
+type(
+  Names.name
+)
+ident(
+  def x "global/check_signature.ml" 65 3259 3279 "global/check_signature.ml" 65 3259 3311
+)
+"global/check_signature.ml" 65 3259 3269 "global/check_signature.ml" 65 3259 3275
+type(
+  Names.name option
+)
+"global/check_signature.ml" 65 3259 3279 "global/check_signature.ml" 65 3259 3285
+type(
+  Names.NamesSet.t -> Signature.arg list -> Names.NamesSet.t
+)
+ident(
+  int_ref append "global/check_signature.ml" 61 3126 3136 "global/check_signature.ml" 61 3126 3142
+)
+"global/check_signature.ml" 65 3259 3287 "global/check_signature.ml" 65 3259 3299
+type(
+  Names.NamesSet.elt -> Names.NamesSet.t -> Names.NamesSet.t
+)
+ident(
+  ext_ref Names.NamesSet.add
+)
+"global/check_signature.ml" 65 3259 3300 "global/check_signature.ml" 65 3259 3301
+type(
+  Names.name
+)
+ident(
+  int_ref x "global/check_signature.ml" 65 3259 3274 "global/check_signature.ml" 65 3259 3275
+)
+"global/check_signature.ml" 65 3259 3302 "global/check_signature.ml" 65 3259 3305
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 61 3126 3143 "global/check_signature.ml" 61 3126 3146
+)
+"global/check_signature.ml" 65 3259 3286 "global/check_signature.ml" 65 3259 3306
+call(
+  stack
+)
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 65 3259 3307 "global/check_signature.ml" 65 3259 3311
+type(
+  Signature.arg list
+)
+ident(
+  int_ref sa_l "global/check_signature.ml" 63 3186 3196 "global/check_signature.ml" 63 3186 3200
+)
+"global/check_signature.ml" 65 3259 3279 "global/check_signature.ml" 65 3259 3311
+call(
+  tail
+)
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 63 3186 3204 "global/check_signature.ml" 65 3259 3311
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 61 3126 3154 "global/check_signature.ml" 65 3259 3311
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 68 3389 3395 "global/check_signature.ml" 68 3389 3400
+type(
+  Names.NamesSet.t -> Signature.arg -> unit
+)
+ident(
+  def check "global/check_signature.ml" 80 3672 3674 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 68 3389 3401 "global/check_signature.ml" 68 3389 3404
+type(
+  Names.NamesSet.t
+)
+ident(
+  def env "global/check_signature.ml" 68 3389 3405 "global/check_signature.ml" 77 3610 3627
+)
+"global/check_signature.ml" 68 3389 3405 "global/check_signature.ml" 68 3389 3408
+type(
+  Signature.arg
+)
+ident(
+  def arg "global/check_signature.ml" 69 3411 3415 "global/check_signature.ml" 77 3610 3627
+)
+"global/check_signature.ml" 69 3411 3419 "global/check_signature.ml" 69 3411 3420
+type(
+  Names.name option
+)
+ident(
+  def n "global/check_signature.ml" 70 3437 3441 "global/check_signature.ml" 77 3610 3627
+)
+"global/check_signature.ml" 69 3411 3423 "global/check_signature.ml" 69 3411 3426
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/check_signature.ml" 68 3389 3405 "global/check_signature.ml" 68 3389 3408
+)
+"global/check_signature.ml" 69 3411 3423 "global/check_signature.ml" 69 3411 3433
+type(
+  Names.name option
+)
+"global/check_signature.ml" 70 3437 3449 "global/check_signature.ml" 70 3437 3450
+type(
+  Signature.ck -> unit
+)
+ident(
+  def f "global/check_signature.ml" 70 3437 3441 "global/check_signature.ml" 77 3610 3627
+)
+"global/check_signature.ml" 71 3462 3470 "global/check_signature.ml" 71 3462 3475
+type(
+  Signature.ck
+)
+"global/check_signature.ml" 71 3462 3479 "global/check_signature.ml" 71 3462 3481
+type(
+  unit
+)
+"global/check_signature.ml" 72 3482 3494 "global/check_signature.ml" 72 3482 3496
+type(
+  Signature.ck
+)
+ident(
+  def ck "global/check_signature.ml" 73 3505 3515 "global/check_signature.ml" 75 3588 3602
+)
+"global/check_signature.ml" 72 3482 3497 "global/check_signature.ml" 72 3482 3498
+type(
+  Names.constructor_name
+)
+"global/check_signature.ml" 72 3482 3499 "global/check_signature.ml" 72 3482 3500
+type(
+  Names.name
+)
+ident(
+  def x "global/check_signature.ml" 73 3505 3515 "global/check_signature.ml" 75 3588 3602
+)
+"global/check_signature.ml" 72 3482 3490 "global/check_signature.ml" 72 3482 3501
+type(
+  Signature.ck
+)
+"global/check_signature.ml" 73 3505 3518 "global/check_signature.ml" 73 3505 3521
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/check_signature.ml" 73 3505 3523 "global/check_signature.ml" 73 3505 3535
+type(
+  Names.NamesSet.elt -> Names.NamesSet.t -> bool
+)
+ident(
+  ext_ref Names.NamesSet.mem
+)
+"global/check_signature.ml" 73 3505 3536 "global/check_signature.ml" 73 3505 3537
+type(
+  Names.name
+)
+ident(
+  int_ref x "global/check_signature.ml" 72 3482 3499 "global/check_signature.ml" 72 3482 3500
+)
+"global/check_signature.ml" 73 3505 3538 "global/check_signature.ml" 73 3505 3541
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 68 3389 3401 "global/check_signature.ml" 68 3389 3404
+)
+"global/check_signature.ml" 73 3505 3522 "global/check_signature.ml" 73 3505 3542
+call(
+  stack
+)
+type(
+  bool
+)
+"global/check_signature.ml" 73 3505 3518 "global/check_signature.ml" 73 3505 3542
+type(
+  bool
+)
+"global/check_signature.ml" 74 3543 3558 "global/check_signature.ml" 74 3543 3563
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/check_signature.ml" 74 3543 3581 "global/check_signature.ml" 74 3543 3582
+type(
+  Names.name option
+)
+ident(
+  int_ref n "global/check_signature.ml" 69 3411 3419 "global/check_signature.ml" 69 3411 3420
+)
+"global/check_signature.ml" 74 3543 3583 "global/check_signature.ml" 74 3543 3584
+type(
+  Names.name
+)
+ident(
+  int_ref x "global/check_signature.ml" 72 3482 3499 "global/check_signature.ml" 72 3482 3500
+)
+"global/check_signature.ml" 74 3543 3564 "global/check_signature.ml" 74 3543 3586
+type(
+  exn
+)
+"global/check_signature.ml" 74 3543 3558 "global/check_signature.ml" 74 3543 3586
+type(
+  unit
+)
+"global/check_signature.ml" 73 3505 3515 "global/check_signature.ml" 74 3543 3586
+type(
+  unit
+)
+"global/check_signature.ml" 75 3588 3598 "global/check_signature.ml" 75 3588 3599
+type(
+  Signature.ck -> unit
+)
+ident(
+  int_ref f "global/check_signature.ml" 70 3437 3449 "global/check_signature.ml" 70 3437 3450
+)
+"global/check_signature.ml" 75 3588 3600 "global/check_signature.ml" 75 3588 3602
+type(
+  Signature.ck
+)
+ident(
+  int_ref ck "global/check_signature.ml" 72 3482 3494 "global/check_signature.ml" 72 3482 3496
+)
+"global/check_signature.ml" 75 3588 3598 "global/check_signature.ml" 75 3588 3602
+call(
+  tail
+)
+type(
+  unit
+)
+"global/check_signature.ml" 73 3505 3515 "global/check_signature.ml" 75 3588 3602
+type(
+  unit
+)
+"global/check_signature.ml" 70 3437 3453 "global/check_signature.ml" 75 3588 3602
+type(
+  Signature.ck -> unit
+)
+"global/check_signature.ml" 77 3610 3614 "global/check_signature.ml" 77 3610 3615
+type(
+  Signature.ck -> unit
+)
+ident(
+  int_ref f "global/check_signature.ml" 70 3437 3449 "global/check_signature.ml" 70 3437 3450
+)
+"global/check_signature.ml" 77 3610 3616 "global/check_signature.ml" 77 3610 3619
+type(
+  Signature.arg
+)
+ident(
+  int_ref arg "global/check_signature.ml" 68 3389 3405 "global/check_signature.ml" 68 3389 3408
+)
+"global/check_signature.ml" 77 3610 3616 "global/check_signature.ml" 77 3610 3627
+type(
+  Signature.ck
+)
+"global/check_signature.ml" 77 3610 3614 "global/check_signature.ml" 77 3610 3627
+call(
+  tail
+)
+type(
+  unit
+)
+"global/check_signature.ml" 70 3437 3441 "global/check_signature.ml" 77 3610 3627
+type(
+  unit
+)
+"global/check_signature.ml" 69 3411 3415 "global/check_signature.ml" 77 3610 3627
+type(
+  unit
+)
+"global/check_signature.ml" 80 3672 3678 "global/check_signature.ml" 80 3672 3681
+type(
+  Names.NamesSet.t
+)
+ident(
+  def env "global/check_signature.ml" 81 3723 3725 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 80 3672 3684 "global/check_signature.ml" 80 3672 3690
+type(
+  Names.NamesSet.t -> Signature.arg list -> Names.NamesSet.t
+)
+ident(
+  int_ref append "global/check_signature.ml" 61 3126 3136 "global/check_signature.ml" 61 3126 3142
+)
+"global/check_signature.ml" 80 3672 3691 "global/check_signature.ml" 80 3672 3705
+type(
+  Names.NamesSet.t
+)
+ident(
+  ext_ref Names.NamesSet.empty
+)
+"global/check_signature.ml" 80 3672 3706 "global/check_signature.ml" 80 3672 3707
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 80 3672 3706 "global/check_signature.ml" 80 3672 3719
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 80 3672 3684 "global/check_signature.ml" 80 3672 3719
+call(
+  stack
+)
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 81 3723 3730 "global/check_signature.ml" 81 3723 3739
+type(
+  (Signature.arg -> unit) -> Signature.arg list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global/check_signature.ml" 81 3723 3741 "global/check_signature.ml" 81 3723 3746
+type(
+  Names.NamesSet.t -> Signature.arg -> unit
+)
+ident(
+  int_ref check "global/check_signature.ml" 68 3389 3395 "global/check_signature.ml" 68 3389 3400
+)
+"global/check_signature.ml" 81 3723 3747 "global/check_signature.ml" 81 3723 3750
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 80 3672 3678 "global/check_signature.ml" 80 3672 3681
+)
+"global/check_signature.ml" 81 3723 3740 "global/check_signature.ml" 81 3723 3751
+call(
+  stack
+)
+type(
+  Signature.arg -> unit
+)
+"global/check_signature.ml" 81 3723 3752 "global/check_signature.ml" 81 3723 3753
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 81 3723 3752 "global/check_signature.ml" 81 3723 3765
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 81 3723 3730 "global/check_signature.ml" 81 3723 3765
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 82 3766 3789 "global/check_signature.ml" 82 3766 3790
+type(
+  Names.name option
+)
+ident(
+  def x "global/check_signature.ml" 83 3797 3801 "global/check_signature.ml" 83 3797 3851
+)
+"global/check_signature.ml" 82 3766 3791 "global/check_signature.ml" 82 3766 3792
+type(
+  Names.name
+)
+ident(
+  def c "global/check_signature.ml" 83 3797 3801 "global/check_signature.ml" 83 3797 3851
+)
+"global/check_signature.ml" 82 3766 3773 "global/check_signature.ml" 82 3766 3793
+type(
+  exn
+)
+"global/check_signature.ml" 83 3797 3801 "global/check_signature.ml" 83 3797 3808
+type(
+  Location.location -> Signature.node * error -> unit
+)
+ident(
+  int_ref message "global/check_signature.ml" 40 2270 2274 "global/check_signature.ml" 40 2270 2281
+)
+"global/check_signature.ml" 83 3797 3809 "global/check_signature.ml" 83 3797 3810
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 83 3797 3809 "global/check_signature.ml" 83 3797 3819
+type(
+  Location.location
+)
+"global/check_signature.ml" 83 3797 3821 "global/check_signature.ml" 83 3797 3822
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 83 3797 3846 "global/check_signature.ml" 83 3797 3847
+type(
+  Names.name option
+)
+ident(
+  int_ref x "global/check_signature.ml" 82 3766 3789 "global/check_signature.ml" 82 3766 3790
+)
+"global/check_signature.ml" 83 3797 3848 "global/check_signature.ml" 83 3797 3849
+type(
+  Names.name
+)
+ident(
+  int_ref c "global/check_signature.ml" 82 3766 3791 "global/check_signature.ml" 82 3766 3792
+)
+"global/check_signature.ml" 83 3797 3824 "global/check_signature.ml" 83 3797 3850
+type(
+  error
+)
+"global/check_signature.ml" 83 3797 3820 "global/check_signature.ml" 83 3797 3851
+type(
+  Signature.node * error
+)
+"global/check_signature.ml" 83 3797 3801 "global/check_signature.ml" 83 3797 3851
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 81 3723 3725 "global/check_signature.ml" 83 3797 3852
+type(
+  unit
+)
+"global/check_signature.ml" 84 3854 3860 "global/check_signature.ml" 84 3854 3863
+type(
+  Names.NamesSet.t
+)
+ident(
+  def env "global/check_signature.ml" 85 3895 3897 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 84 3854 3866 "global/check_signature.ml" 84 3854 3872
+type(
+  Names.NamesSet.t -> Signature.arg list -> Names.NamesSet.t
+)
+ident(
+  int_ref append "global/check_signature.ml" 61 3126 3136 "global/check_signature.ml" 61 3126 3142
+)
+"global/check_signature.ml" 84 3854 3873 "global/check_signature.ml" 84 3854 3876
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 80 3672 3678 "global/check_signature.ml" 80 3672 3681
+)
+"global/check_signature.ml" 84 3854 3877 "global/check_signature.ml" 84 3854 3878
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 84 3854 3877 "global/check_signature.ml" 84 3854 3891
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 84 3854 3866 "global/check_signature.ml" 84 3854 3891
+call(
+  stack
+)
+type(
+  Names.NamesSet.t
+)
+"global/check_signature.ml" 85 3895 3901 "global/check_signature.ml" 85 3895 3910
+type(
+  (Signature.arg -> unit) -> Signature.arg list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global/check_signature.ml" 85 3895 3912 "global/check_signature.ml" 85 3895 3917
+type(
+  Names.NamesSet.t -> Signature.arg -> unit
+)
+ident(
+  int_ref check "global/check_signature.ml" 68 3389 3395 "global/check_signature.ml" 68 3389 3400
+)
+"global/check_signature.ml" 85 3895 3918 "global/check_signature.ml" 85 3895 3921
+type(
+  Names.NamesSet.t
+)
+ident(
+  int_ref env "global/check_signature.ml" 84 3854 3860 "global/check_signature.ml" 84 3854 3863
+)
+"global/check_signature.ml" 85 3895 3911 "global/check_signature.ml" 85 3895 3922
+call(
+  stack
+)
+type(
+  Signature.arg -> unit
+)
+"global/check_signature.ml" 85 3895 3923 "global/check_signature.ml" 85 3895 3924
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 85 3895 3923 "global/check_signature.ml" 85 3895 3937
+type(
+  Signature.arg list
+)
+"global/check_signature.ml" 85 3895 3901 "global/check_signature.ml" 85 3895 3937
+call(
+  stack
+)
+type(
+  unit
+)
+"global/check_signature.ml" 86 3938 3961 "global/check_signature.ml" 86 3938 3962
+type(
+  Names.name option
+)
+ident(
+  def x "global/check_signature.ml" 87 3969 3973 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 86 3938 3963 "global/check_signature.ml" 86 3938 3964
+type(
+  Names.name
+)
+ident(
+  def c "global/check_signature.ml" 87 3969 3973 "global/check_signature.ml" 87 3969 4023
+)
+"global/check_signature.ml" 86 3938 3945 "global/check_signature.ml" 86 3938 3965
+type(
+  exn
+)
+"global/check_signature.ml" 87 3969 3973 "global/check_signature.ml" 87 3969 3980
+type(
+  Location.location -> Signature.node * error -> unit
+)
+ident(
+  int_ref message "global/check_signature.ml" 40 2270 2274 "global/check_signature.ml" 40 2270 2281
+)
+"global/check_signature.ml" 87 3969 3981 "global/check_signature.ml" 87 3969 3982
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 87 3969 3981 "global/check_signature.ml" 87 3969 3991
+type(
+  Location.location
+)
+"global/check_signature.ml" 87 3969 3993 "global/check_signature.ml" 87 3969 3994
+type(
+  Signature.node
+)
+ident(
+  int_ref s "global/check_signature.ml" 59 3029 3049 "global/check_signature.ml" 59 3029 3050
+)
+"global/check_signature.ml" 87 3969 4018 "global/check_signature.ml" 87 3969 4019
+type(
+  Names.name option
+)
+ident(
+  int_ref x "global/check_signature.ml" 86 3938 3961 "global/check_signature.ml" 86 3938 3962
+)
+"global/check_signature.ml" 87 3969 4020 "global/check_signature.ml" 87 3969 4021
+type(
+  Names.name
+)
+ident(
+  int_ref c "global/check_signature.ml" 86 3938 3963 "global/check_signature.ml" 86 3938 3964
+)
+"global/check_signature.ml" 87 3969 3996 "global/check_signature.ml" 87 3969 4022
+type(
+  error
+)
+"global/check_signature.ml" 87 3969 3992 "global/check_signature.ml" 87 3969 4023
+type(
+  Signature.node * error
+)
+"global/check_signature.ml" 87 3969 3973 "global/check_signature.ml" 87 3969 4023
+call(
+  tail
+)
+type(
+  unit
+)
+"global/check_signature.ml" 85 3895 3897 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)
+"global/check_signature.ml" 84 3854 3856 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)
+"global/check_signature.ml" 81 3723 3725 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)
+"global/check_signature.ml" 80 3672 3674 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)
+"global/check_signature.ml" 68 3389 3391 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)
+"global/check_signature.ml" 61 3126 3128 "global/check_signature.ml" 87 3969 4023
+type(
+  unit
+)

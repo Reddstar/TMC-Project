@@ -1,0 +1,1685 @@
+"global/linearity.ml" 48 2435 2441 "global/linearity.ml" 48 2435 2448
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/linearity.ml" 48 2435 2458 "global/linearity.ml" 49 2459 2462
+)
+"global/linearity.ml" 48 2435 2451 "global/linearity.ml" 48 2435 2458
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/linearity.ml" 46 2376 2398 "global/linearity.ml" 49 2459 2463
+call(
+  stack
+)
+"global/linearity.ml" 54 2535 2545 "global/linearity.ml" 54 2535 2552
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/linearity.ml" 54 2535 2562 "global/linearity.ml" 55 2563 2570
+)
+"global/linearity.ml" 54 2535 2555 "global/linearity.ml" 54 2535 2562
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/linearity.ml" 52 2486 2490 "global/linearity.ml" 55 2563 2571
+call(
+  stack
+)
+"global/linearity.ml" 60 2643 2653 "global/linearity.ml" 60 2643 2660
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "global/linearity.ml" 60 2643 2670 "global/linearity.ml" 61 2671 2678
+)
+"global/linearity.ml" 60 2643 2663 "global/linearity.ml" 60 2643 2670
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/linearity.ml" 58 2594 2598 "global/linearity.ml" 61 2671 2679
+call(
+  stack
+)
+"global/linearity.ml" 64 2738 2742 "global/linearity.ml" 64 2738 2746
+type(
+  linearity list -> linearity
+)
+ident(
+  def prod "global/linearity.ml" 68 2790 2790 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 65 2758 2763 "global/linearity.ml" 65 2758 2764
+type(
+  linearity
+)
+ident(
+  def l "global/linearity.ml" 65 2758 2769 "global/linearity.ml" 65 2758 2770
+)
+"global/linearity.ml" 65 2758 2762 "global/linearity.ml" 65 2758 2765
+type(
+  linearity list
+)
+"global/linearity.ml" 65 2758 2769 "global/linearity.ml" 65 2758 2770
+type(
+  linearity
+)
+ident(
+  int_ref l "global/linearity.ml" 65 2758 2763 "global/linearity.ml" 65 2758 2764
+)
+"global/linearity.ml" 66 2771 2775 "global/linearity.ml" 66 2771 2776
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 66 2771 2780 "global/linearity.ml" 66 2771 2788
+)
+"global/linearity.ml" 66 2771 2787 "global/linearity.ml" 66 2771 2788
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 66 2771 2775 "global/linearity.ml" 66 2771 2776
+)
+"global/linearity.ml" 66 2771 2780 "global/linearity.ml" 66 2771 2788
+type(
+  linearity
+)
+"global/linearity.ml" 64 2738 2749 "global/linearity.ml" 66 2771 2788
+type(
+  linearity list -> linearity
+)
+"global/linearity.ml" 68 2790 2794 "global/linearity.ml" 68 2790 2821
+type(
+  linearity -> linearity list
+)
+ident(
+  def linearity_list_of_linearity "global/linearity.ml" 72 2865 2865 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 69 2833 2844 "global/linearity.ml" 69 2833 2845
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 69 2833 2849 "global/linearity.ml" 69 2833 2850
+)
+"global/linearity.ml" 69 2833 2837 "global/linearity.ml" 69 2833 2845
+type(
+  linearity
+)
+"global/linearity.ml" 69 2833 2849 "global/linearity.ml" 69 2833 2850
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 69 2833 2844 "global/linearity.ml" 69 2833 2845
+)
+"global/linearity.ml" 70 2851 2855 "global/linearity.ml" 70 2851 2856
+type(
+  linearity
+)
+ident(
+  def l "global/linearity.ml" 70 2851 2860 "global/linearity.ml" 70 2851 2863
+)
+"global/linearity.ml" 70 2851 2861 "global/linearity.ml" 70 2851 2862
+type(
+  linearity
+)
+ident(
+  int_ref l "global/linearity.ml" 70 2851 2855 "global/linearity.ml" 70 2851 2856
+)
+"global/linearity.ml" 70 2851 2860 "global/linearity.ml" 70 2851 2863
+type(
+  linearity list
+)
+"global/linearity.ml" 68 2790 2824 "global/linearity.ml" 70 2851 2863
+type(
+  linearity -> linearity list
+)
+"global/linearity.ml" 72 2865 2869 "global/linearity.ml" 72 2865 2885
+type(
+  linearity list -> linearity list
+)
+ident(
+  def flatten_lin_list "global/linearity.ml" 76 2986 2986 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 72 2865 2886 "global/linearity.ml" 72 2865 2887
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 73 2890 2892 "global/linearity.ml" 74 2908 2984
+)
+"global/linearity.ml" 73 2890 2892 "global/linearity.ml" 73 2890 2907
+type(
+  (linearity -> linearity list -> linearity list) ->
+  linearity list -> linearity list -> linearity list
+)
+ident(
+  ext_ref List.fold_right
+)
+"global/linearity.ml" 74 2908 2917 "global/linearity.ml" 74 2908 2920
+type(
+  linearity
+)
+ident(
+  def arg "global/linearity.ml" 74 2908 2921 "global/linearity.ml" 74 2908 2977
+)
+"global/linearity.ml" 74 2908 2921 "global/linearity.ml" 74 2908 2925
+type(
+  linearity list
+)
+ident(
+  def args "global/linearity.ml" 74 2908 2929 "global/linearity.ml" 74 2908 2977
+)
+"global/linearity.ml" 74 2908 2935 "global/linearity.ml" 74 2908 2938
+type(
+  linearity
+)
+ident(
+  int_ref arg "global/linearity.ml" 74 2908 2917 "global/linearity.ml" 74 2908 2920
+)
+"global/linearity.ml" 74 2908 2951 "global/linearity.ml" 74 2908 2952
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 74 2908 2956 "global/linearity.ml" 74 2908 2962
+)
+"global/linearity.ml" 74 2908 2944 "global/linearity.ml" 74 2908 2952
+type(
+  linearity
+)
+"global/linearity.ml" 74 2908 2956 "global/linearity.ml" 74 2908 2957
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 74 2908 2951 "global/linearity.ml" 74 2908 2952
+)
+"global/linearity.ml" 74 2908 2957 "global/linearity.ml" 74 2908 2958
+type(
+  linearity list -> linearity list -> linearity list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"global/linearity.ml" 74 2908 2958 "global/linearity.ml" 74 2908 2962
+type(
+  linearity list
+)
+ident(
+  int_ref args "global/linearity.ml" 74 2908 2921 "global/linearity.ml" 74 2908 2925
+)
+"global/linearity.ml" 74 2908 2956 "global/linearity.ml" 74 2908 2962
+call(
+  tail
+)
+type(
+  linearity list
+)
+"global/linearity.ml" 74 2908 2965 "global/linearity.ml" 74 2908 2966
+type(
+  linearity
+)
+ident(
+  def a "global/linearity.ml" 74 2908 2970 "global/linearity.ml" 74 2908 2977
+)
+"global/linearity.ml" 74 2908 2970 "global/linearity.ml" 74 2908 2971
+type(
+  linearity
+)
+ident(
+  int_ref a "global/linearity.ml" 74 2908 2965 "global/linearity.ml" 74 2908 2966
+)
+"global/linearity.ml" 74 2908 2973 "global/linearity.ml" 74 2908 2977
+type(
+  linearity list
+)
+ident(
+  int_ref args "global/linearity.ml" 74 2908 2921 "global/linearity.ml" 74 2908 2925
+)
+"global/linearity.ml" 74 2908 2970 "global/linearity.ml" 74 2908 2977
+type(
+  linearity list
+)
+"global/linearity.ml" 74 2908 2929 "global/linearity.ml" 74 2908 2977
+type(
+  linearity list
+)
+"global/linearity.ml" 74 2908 2912 "global/linearity.ml" 74 2908 2979
+type(
+  linearity -> linearity list -> linearity list
+)
+"global/linearity.ml" 74 2908 2980 "global/linearity.ml" 74 2908 2981
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 72 2865 2886 "global/linearity.ml" 72 2865 2887
+)
+"global/linearity.ml" 74 2908 2982 "global/linearity.ml" 74 2908 2984
+type(
+  linearity list
+)
+"global/linearity.ml" 73 2890 2892 "global/linearity.ml" 74 2908 2984
+call(
+  tail
+)
+type(
+  linearity list
+)
+"global/linearity.ml" 76 2986 2994 "global/linearity.ml" 76 2986 3006
+type(
+  linearity -> Types.ty -> linearity
+)
+ident(
+  def lin_skeleton "global/linearity.ml" 76 2986 2986 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 76 2986 3007 "global/linearity.ml" 76 2986 3010
+type(
+  linearity
+)
+ident(
+  def lin "global/linearity.ml" 76 2986 3013 "global/linearity.ml" 78 3082 3094
+)
+"global/linearity.ml" 77 3022 3038 "global/linearity.ml" 77 3022 3039
+type(
+  Types.ty list
+)
+ident(
+  def l "global/linearity.ml" 77 3022 3043 "global/linearity.ml" 77 3022 3081
+)
+"global/linearity.ml" 77 3022 3026 "global/linearity.ml" 77 3022 3039
+type(
+  Types.ty
+)
+"global/linearity.ml" 77 3022 3051 "global/linearity.ml" 77 3022 3059
+type(
+  (Types.ty -> linearity) -> Types.ty list -> linearity list
+)
+ident(
+  ext_ref List.map
+)
+"global/linearity.ml" 77 3022 3061 "global/linearity.ml" 77 3022 3073
+type(
+  linearity -> Types.ty -> linearity
+)
+ident(
+  int_ref lin_skeleton "global/linearity.ml" 76 2986 2994 "global/linearity.ml" 76 2986 3006
+)
+"global/linearity.ml" 77 3022 3074 "global/linearity.ml" 77 3022 3077
+type(
+  linearity
+)
+ident(
+  int_ref lin "global/linearity.ml" 76 2986 3007 "global/linearity.ml" 76 2986 3010
+)
+"global/linearity.ml" 77 3022 3060 "global/linearity.ml" 77 3022 3078
+call(
+  stack
+)
+type(
+  Types.ty -> linearity
+)
+"global/linearity.ml" 77 3022 3079 "global/linearity.ml" 77 3022 3080
+type(
+  Types.ty list
+)
+ident(
+  int_ref l "global/linearity.ml" 77 3022 3038 "global/linearity.ml" 77 3022 3039
+)
+"global/linearity.ml" 77 3022 3050 "global/linearity.ml" 77 3022 3081
+call(
+  stack
+)
+type(
+  linearity list
+)
+"global/linearity.ml" 77 3022 3043 "global/linearity.ml" 77 3022 3081
+type(
+  linearity
+)
+"global/linearity.ml" 78 3082 3086 "global/linearity.ml" 78 3082 3087
+type(
+  Types.ty
+)
+"global/linearity.ml" 78 3082 3091 "global/linearity.ml" 78 3082 3094
+type(
+  linearity
+)
+ident(
+  int_ref lin "global/linearity.ml" 76 2986 3007 "global/linearity.ml" 76 2986 3010
+)
+"global/linearity.ml" 76 2986 3013 "global/linearity.ml" 78 3082 3094
+type(
+  Types.ty -> linearity
+)
+"global/linearity.ml" 81 3147 3151 "global/linearity.ml" 81 3147 3165
+type(
+  linearity -> linearity * linearity
+)
+ident(
+  def split_last_lin "global/linearity.ml" 88 3279 3279 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 82 3177 3188 "global/linearity.ml" 82 3177 3189
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 83 3193 3199 "global/linearity.ml" 84 3228 3249
+)
+"global/linearity.ml" 82 3177 3181 "global/linearity.ml" 82 3177 3189
+type(
+  linearity
+)
+"global/linearity.ml" 83 3193 3203 "global/linearity.ml" 83 3193 3204
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 84 3228 3236 "global/linearity.ml" 84 3228 3249
+)
+"global/linearity.ml" 83 3193 3206 "global/linearity.ml" 83 3193 3209
+type(
+  linearity
+)
+ident(
+  def acc "global/linearity.ml" 84 3228 3236 "global/linearity.ml" 84 3228 3249
+)
+"global/linearity.ml" 83 3193 3203 "global/linearity.ml" 83 3193 3209
+type(
+  linearity list * linearity
+)
+"global/linearity.ml" 83 3193 3212 "global/linearity.ml" 83 3193 3222
+type(
+  linearity list -> linearity list * linearity
+)
+ident(
+  ext_ref Misc.split_last
+)
+"global/linearity.ml" 83 3193 3223 "global/linearity.ml" 83 3193 3224
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 82 3177 3188 "global/linearity.ml" 82 3177 3189
+)
+"global/linearity.ml" 83 3193 3212 "global/linearity.ml" 83 3193 3224
+call(
+  stack
+)
+type(
+  linearity list * linearity
+)
+"global/linearity.ml" 84 3228 3243 "global/linearity.ml" 84 3228 3244
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 83 3193 3203 "global/linearity.ml" 83 3193 3204
+)
+"global/linearity.ml" 84 3228 3236 "global/linearity.ml" 84 3228 3244
+type(
+  linearity
+)
+"global/linearity.ml" 84 3228 3246 "global/linearity.ml" 84 3228 3249
+type(
+  linearity
+)
+ident(
+  int_ref acc "global/linearity.ml" 83 3193 3206 "global/linearity.ml" 83 3193 3209
+)
+"global/linearity.ml" 84 3228 3236 "global/linearity.ml" 84 3228 3249
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 83 3193 3199 "global/linearity.ml" 84 3228 3249
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 85 3250 3254 "global/linearity.ml" 85 3250 3255
+type(
+  linearity
+)
+ident(
+  def l "global/linearity.ml" 86 3259 3265 "global/linearity.ml" 86 3259 3277
+)
+"global/linearity.ml" 86 3259 3272 "global/linearity.ml" 86 3259 3274
+type(
+  linearity list
+)
+"global/linearity.ml" 86 3259 3265 "global/linearity.ml" 86 3259 3274
+type(
+  linearity
+)
+"global/linearity.ml" 86 3259 3276 "global/linearity.ml" 86 3259 3277
+type(
+  linearity
+)
+ident(
+  int_ref l "global/linearity.ml" 85 3250 3254 "global/linearity.ml" 85 3250 3255
+)
+"global/linearity.ml" 86 3259 3265 "global/linearity.ml" 86 3259 3277
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 81 3147 3168 "global/linearity.ml" 86 3259 3277
+type(
+  linearity -> linearity * linearity
+)
+"global/linearity.ml" 88 3279 3287 "global/linearity.ml" 88 3279 3300
+type(
+  linearity -> bool
+)
+ident(
+  def is_not_linear "global/linearity.ml" 88 3279 3279 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 89 3312 3316 "global/linearity.ml" 89 3312 3320
+type(
+  linearity
+)
+"global/linearity.ml" 89 3312 3324 "global/linearity.ml" 89 3312 3328
+type(
+  bool
+)
+"global/linearity.ml" 90 3329 3340 "global/linearity.ml" 90 3329 3341
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 90 3329 3345 "global/linearity.ml" 90 3329 3373
+)
+"global/linearity.ml" 90 3329 3333 "global/linearity.ml" 90 3329 3341
+type(
+  linearity
+)
+"global/linearity.ml" 90 3329 3345 "global/linearity.ml" 90 3329 3357
+type(
+  (linearity -> bool) -> linearity list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"global/linearity.ml" 90 3329 3358 "global/linearity.ml" 90 3329 3371
+type(
+  linearity -> bool
+)
+ident(
+  int_ref is_not_linear "global/linearity.ml" 88 3279 3287 "global/linearity.ml" 88 3279 3300
+)
+"global/linearity.ml" 90 3329 3372 "global/linearity.ml" 90 3329 3373
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 90 3329 3340 "global/linearity.ml" 90 3329 3341
+)
+"global/linearity.ml" 90 3329 3345 "global/linearity.ml" 90 3329 3373
+call(
+  tail
+)
+type(
+  bool
+)
+"global/linearity.ml" 91 3374 3378 "global/linearity.ml" 91 3374 3379
+type(
+  linearity
+)
+"global/linearity.ml" 91 3374 3383 "global/linearity.ml" 91 3374 3388
+type(
+  bool
+)
+"global/linearity.ml" 88 3279 3303 "global/linearity.ml" 91 3374 3388
+type(
+  linearity -> bool
+)
+"global/linearity.ml" 93 3390 3398 "global/linearity.ml" 93 3390 3407
+type(
+  linearity -> bool
+)
+ident(
+  def is_linear "global/linearity.ml" 93 3390 3390 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 94 3419 3427 "global/linearity.ml" 94 3419 3428
+type(
+  linearity_var
+)
+"global/linearity.ml" 94 3419 3423 "global/linearity.ml" 94 3419 3428
+type(
+  linearity
+)
+"global/linearity.ml" 94 3419 3436 "global/linearity.ml" 94 3419 3437
+type(
+  linearity_var
+)
+"global/linearity.ml" 94 3419 3431 "global/linearity.ml" 94 3419 3437
+type(
+  linearity
+)
+"global/linearity.ml" 94 3419 3423 "global/linearity.ml" 94 3419 3437
+type(
+  linearity
+)
+"global/linearity.ml" 94 3419 3441 "global/linearity.ml" 94 3419 3445
+type(
+  bool
+)
+"global/linearity.ml" 95 3446 3457 "global/linearity.ml" 95 3446 3458
+type(
+  linearity list
+)
+ident(
+  def l "global/linearity.ml" 95 3446 3462 "global/linearity.ml" 95 3446 3485
+)
+"global/linearity.ml" 95 3446 3450 "global/linearity.ml" 95 3446 3458
+type(
+  linearity
+)
+"global/linearity.ml" 95 3446 3462 "global/linearity.ml" 95 3446 3473
+type(
+  (linearity -> bool) -> linearity list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"global/linearity.ml" 95 3446 3474 "global/linearity.ml" 95 3446 3483
+type(
+  linearity -> bool
+)
+ident(
+  int_ref is_linear "global/linearity.ml" 93 3390 3398 "global/linearity.ml" 93 3390 3407
+)
+"global/linearity.ml" 95 3446 3484 "global/linearity.ml" 95 3446 3485
+type(
+  linearity list
+)
+ident(
+  int_ref l "global/linearity.ml" 95 3446 3457 "global/linearity.ml" 95 3446 3458
+)
+"global/linearity.ml" 95 3446 3462 "global/linearity.ml" 95 3446 3485
+call(
+  tail
+)
+type(
+  bool
+)
+"global/linearity.ml" 96 3486 3490 "global/linearity.ml" 96 3486 3491
+type(
+  linearity
+)
+"global/linearity.ml" 96 3486 3495 "global/linearity.ml" 96 3486 3500
+type(
+  bool
+)
+"global/linearity.ml" 93 3390 3410 "global/linearity.ml" 96 3486 3500
+type(
+  linearity -> bool
+)
+"global/linearity.ml" 98 3502 3506 "global/linearity.ml" 98 3502 3519
+type(
+  linearity -> linearity_var
+)
+ident(
+  def location_name "global/linearity.ml" 102 3578 3578 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 99 3531 3539 "global/linearity.ml" 99 3531 3540
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 99 3531 3553 "global/linearity.ml" 99 3531 3554
+)
+"global/linearity.ml" 99 3531 3535 "global/linearity.ml" 99 3531 3540
+type(
+  linearity
+)
+"global/linearity.ml" 99 3531 3548 "global/linearity.ml" 99 3531 3549
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 99 3531 3553 "global/linearity.ml" 99 3531 3554
+)
+"global/linearity.ml" 99 3531 3543 "global/linearity.ml" 99 3531 3549
+type(
+  linearity
+)
+"global/linearity.ml" 99 3531 3535 "global/linearity.ml" 99 3531 3549
+type(
+  linearity
+)
+"global/linearity.ml" 99 3531 3553 "global/linearity.ml" 99 3531 3554
+type(
+  linearity_var
+)
+ident(
+  int_ref r "global/linearity.ml" 99 3531 3539 "global/linearity.ml" 99 3531 3540
+)
+"global/linearity.ml" 100 3555 3559 "global/linearity.ml" 100 3555 3560
+type(
+  linearity
+)
+"global/linearity.ml" 100 3555 3571 "global/linearity.ml" 100 3555 3576
+type(
+  bool
+)
+"global/linearity.ml" 100 3555 3564 "global/linearity.ml" 100 3555 3576
+type(
+  linearity_var
+)
+"global/linearity.ml" 98 3502 3522 "global/linearity.ml" 100 3555 3576
+type(
+  linearity -> linearity_var
+)
+"global/linearity.ml" 106 3735 3743 "global/linearity.ml" 106 3735 3752
+type(
+  linearity -> linearity -> linearity
+)
+ident(
+  def unify_lin "global/linearity.ml" 106 3735 3735 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 106 3735 3753 "global/linearity.ml" 106 3735 3765
+type(
+  linearity
+)
+ident(
+  def expected_lin "global/linearity.ml" 106 3735 3766 "global/linearity.ml" 115 4047 4078
+)
+"global/linearity.ml" 106 3735 3766 "global/linearity.ml" 106 3735 3769
+type(
+  linearity
+)
+ident(
+  def lin "global/linearity.ml" 107 3772 3774 "global/linearity.ml" 115 4047 4078
+)
+"global/linearity.ml" 107 3772 3780 "global/linearity.ml" 107 3772 3792
+type(
+  linearity
+)
+ident(
+  int_ref expected_lin "global/linearity.ml" 106 3735 3753 "global/linearity.ml" 106 3735 3765
+)
+"global/linearity.ml" 107 3772 3793 "global/linearity.ml" 107 3772 3796
+type(
+  linearity
+)
+ident(
+  int_ref lin "global/linearity.ml" 106 3735 3766 "global/linearity.ml" 106 3735 3769
+)
+"global/linearity.ml" 107 3772 3780 "global/linearity.ml" 107 3772 3796
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 108 3802 3808 "global/linearity.ml" 108 3802 3812
+type(
+  linearity
+)
+"global/linearity.ml" 108 3802 3818 "global/linearity.ml" 108 3802 3819
+type(
+  linearity_var
+)
+"global/linearity.ml" 108 3802 3814 "global/linearity.ml" 108 3802 3819
+type(
+  linearity
+)
+"global/linearity.ml" 108 3802 3808 "global/linearity.ml" 108 3802 3819
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 108 3802 3823 "global/linearity.ml" 108 3802 3827
+type(
+  linearity
+)
+"global/linearity.ml" 109 3828 3834 "global/linearity.ml" 109 3828 3838
+type(
+  linearity
+)
+"global/linearity.ml" 109 3828 3845 "global/linearity.ml" 109 3828 3846
+type(
+  linearity_var
+)
+"global/linearity.ml" 109 3828 3840 "global/linearity.ml" 109 3828 3846
+type(
+  linearity
+)
+"global/linearity.ml" 109 3828 3834 "global/linearity.ml" 109 3828 3846
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 109 3828 3850 "global/linearity.ml" 109 3828 3854
+type(
+  linearity
+)
+"global/linearity.ml" 110 3855 3865 "global/linearity.ml" 110 3855 3867
+type(
+  linearity_var
+)
+ident(
+  def r1 "global/linearity.ml" 110 3855 3881 "global/linearity.ml" 110 3855 3898
+)
+"global/linearity.ml" 110 3855 3861 "global/linearity.ml" 110 3855 3867
+type(
+  linearity
+)
+"global/linearity.ml" 110 3855 3873 "global/linearity.ml" 110 3855 3875
+type(
+  linearity_var
+)
+ident(
+  def r2 "global/linearity.ml" 110 3855 3881 "global/linearity.ml" 110 3855 3898
+)
+"global/linearity.ml" 110 3855 3869 "global/linearity.ml" 110 3855 3875
+type(
+  linearity
+)
+"global/linearity.ml" 110 3855 3861 "global/linearity.ml" 110 3855 3875
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 110 3855 3881 "global/linearity.ml" 110 3855 3883
+type(
+  linearity_var
+)
+ident(
+  int_ref r1 "global/linearity.ml" 110 3855 3865 "global/linearity.ml" 110 3855 3867
+)
+"global/linearity.ml" 110 3855 3884 "global/linearity.ml" 110 3855 3885
+type(
+  linearity_var -> linearity_var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global/linearity.ml" 110 3855 3886 "global/linearity.ml" 110 3855 3888
+type(
+  linearity_var
+)
+ident(
+  int_ref r2 "global/linearity.ml" 110 3855 3873 "global/linearity.ml" 110 3855 3875
+)
+"global/linearity.ml" 110 3855 3881 "global/linearity.ml" 110 3855 3888
+type(
+  bool
+)
+"global/linearity.ml" 110 3855 3896 "global/linearity.ml" 110 3855 3898
+type(
+  linearity_var
+)
+ident(
+  int_ref r1 "global/linearity.ml" 110 3855 3865 "global/linearity.ml" 110 3855 3867
+)
+"global/linearity.ml" 110 3855 3892 "global/linearity.ml" 110 3855 3898
+type(
+  linearity
+)
+"global/linearity.ml" 111 3899 3905 "global/linearity.ml" 111 3899 3909
+type(
+  linearity
+)
+"global/linearity.ml" 111 3899 3911 "global/linearity.ml" 111 3899 3915
+type(
+  linearity
+)
+"global/linearity.ml" 111 3899 3905 "global/linearity.ml" 111 3899 3915
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 111 3899 3919 "global/linearity.ml" 111 3899 3923
+type(
+  linearity
+)
+"global/linearity.ml" 112 3924 3937 "global/linearity.ml" 112 3924 3939
+type(
+  linearity list
+)
+ident(
+  def l1 "global/linearity.ml" 112 3924 3954 "global/linearity.ml" 112 3924 3988
+)
+"global/linearity.ml" 112 3924 3930 "global/linearity.ml" 112 3924 3939
+type(
+  linearity
+)
+"global/linearity.ml" 112 3924 3948 "global/linearity.ml" 112 3924 3950
+type(
+  linearity list
+)
+ident(
+  def l2 "global/linearity.ml" 112 3924 3954 "global/linearity.ml" 112 3924 3988
+)
+"global/linearity.ml" 112 3924 3941 "global/linearity.ml" 112 3924 3950
+type(
+  linearity
+)
+"global/linearity.ml" 112 3924 3930 "global/linearity.ml" 112 3924 3950
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 112 3924 3962 "global/linearity.ml" 112 3924 3971
+type(
+  (linearity -> linearity -> linearity) ->
+  linearity list -> linearity list -> linearity list
+)
+ident(
+  ext_ref List.map2
+)
+"global/linearity.ml" 112 3924 3972 "global/linearity.ml" 112 3924 3981
+type(
+  linearity -> linearity -> linearity
+)
+ident(
+  int_ref unify_lin "global/linearity.ml" 106 3735 3743 "global/linearity.ml" 106 3735 3752
+)
+"global/linearity.ml" 112 3924 3982 "global/linearity.ml" 112 3924 3984
+type(
+  linearity list
+)
+ident(
+  int_ref l1 "global/linearity.ml" 112 3924 3937 "global/linearity.ml" 112 3924 3939
+)
+"global/linearity.ml" 112 3924 3985 "global/linearity.ml" 112 3924 3987
+type(
+  linearity list
+)
+ident(
+  int_ref l2 "global/linearity.ml" 112 3924 3948 "global/linearity.ml" 112 3924 3950
+)
+"global/linearity.ml" 112 3924 3961 "global/linearity.ml" 112 3924 3988
+call(
+  stack
+)
+type(
+  linearity list
+)
+"global/linearity.ml" 112 3924 3954 "global/linearity.ml" 112 3924 3988
+type(
+  linearity
+)
+"global/linearity.ml" 113 3989 4000 "global/linearity.ml" 113 3989 4001
+type(
+  linearity_var
+)
+"global/linearity.ml" 113 3989 3995 "global/linearity.ml" 113 3989 4001
+type(
+  linearity
+)
+"global/linearity.ml" 113 3989 4007 "global/linearity.ml" 113 3989 4008
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 113 3989 4012 "global/linearity.ml" 113 3989 4017
+)
+"global/linearity.ml" 113 3989 4003 "global/linearity.ml" 113 3989 4008
+type(
+  linearity
+)
+"global/linearity.ml" 113 3989 3995 "global/linearity.ml" 113 3989 4008
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 113 3989 4016 "global/linearity.ml" 113 3989 4017
+type(
+  linearity_var
+)
+ident(
+  int_ref r "global/linearity.ml" 113 3989 4007 "global/linearity.ml" 113 3989 4008
+)
+"global/linearity.ml" 113 3989 4012 "global/linearity.ml" 113 3989 4017
+type(
+  linearity
+)
+"global/linearity.ml" 114 4018 4028 "global/linearity.ml" 114 4018 4029
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 114 4018 4041 "global/linearity.ml" 114 4018 4046
+)
+"global/linearity.ml" 114 4018 4024 "global/linearity.ml" 114 4018 4029
+type(
+  linearity
+)
+"global/linearity.ml" 114 4018 4036 "global/linearity.ml" 114 4018 4037
+type(
+  linearity_var
+)
+"global/linearity.ml" 114 4018 4031 "global/linearity.ml" 114 4018 4037
+type(
+  linearity
+)
+"global/linearity.ml" 114 4018 4024 "global/linearity.ml" 114 4018 4037
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 114 4018 4045 "global/linearity.ml" 114 4018 4046
+type(
+  linearity_var
+)
+ident(
+  int_ref r "global/linearity.ml" 114 4018 4028 "global/linearity.ml" 114 4018 4029
+)
+"global/linearity.ml" 114 4018 4041 "global/linearity.ml" 114 4018 4046
+type(
+  linearity
+)
+"global/linearity.ml" 115 4047 4053 "global/linearity.ml" 115 4047 4054
+type(
+  linearity
+)
+"global/linearity.ml" 115 4047 4056 "global/linearity.ml" 115 4047 4057
+type(
+  linearity
+)
+"global/linearity.ml" 115 4047 4053 "global/linearity.ml" 115 4047 4057
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 115 4047 4061 "global/linearity.ml" 115 4047 4066
+type(
+  exn -> linearity
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"global/linearity.ml" 115 4047 4067 "global/linearity.ml" 115 4047 4078
+type(
+  exn
+)
+"global/linearity.ml" 115 4047 4061 "global/linearity.ml" 115 4047 4078
+type(
+  linearity
+)
+"global/linearity.ml" 107 3772 3774 "global/linearity.ml" 115 4047 4078
+type(
+  linearity
+)
+"global/linearity.ml" 117 4080 4084 "global/linearity.ml" 117 4080 4099
+type(
+  linearity -> linearity
+)
+ident(
+  def check_linearity "global/linearity.ml" 123 4197 4197 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 117 4080 4100 "global/linearity.ml" 117 4080 4103
+type(
+  linearity
+)
+ident(
+  def lin "global/linearity.ml" 118 4106 4108 "global/linearity.ml" 121 4188 4195
+)
+"global/linearity.ml" 118 4106 4111 "global/linearity.ml" 118 4106 4120
+type(
+  linearity -> bool
+)
+ident(
+  int_ref is_linear "global/linearity.ml" 93 3390 3398 "global/linearity.ml" 93 3390 3407
+)
+"global/linearity.ml" 118 4106 4121 "global/linearity.ml" 118 4106 4124
+type(
+  linearity
+)
+ident(
+  int_ref lin "global/linearity.ml" 117 4080 4100 "global/linearity.ml" 117 4080 4103
+)
+"global/linearity.ml" 118 4106 4111 "global/linearity.ml" 118 4106 4124
+call(
+  stack
+)
+type(
+  bool
+)
+"global/linearity.ml" 118 4106 4125 "global/linearity.ml" 118 4106 4127
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"global/linearity.ml" 118 4106 4128 "global/linearity.ml" 118 4106 4131
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"global/linearity.ml" 118 4106 4132 "global/linearity.ml" 118 4106 4133
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global/linearity.ml" 118 4106 4133 "global/linearity.ml" 118 4106 4166
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_linear_typing
+)
+"global/linearity.ml" 118 4106 4132 "global/linearity.ml" 118 4106 4166
+type(
+  bool
+)
+"global/linearity.ml" 118 4106 4128 "global/linearity.ml" 118 4106 4166
+type(
+  bool
+)
+"global/linearity.ml" 118 4106 4111 "global/linearity.ml" 118 4106 4166
+type(
+  bool
+)
+"global/linearity.ml" 119 4172 4176 "global/linearity.ml" 119 4172 4180
+type(
+  linearity
+)
+"global/linearity.ml" 121 4188 4192 "global/linearity.ml" 121 4188 4195
+type(
+  linearity
+)
+ident(
+  int_ref lin "global/linearity.ml" 117 4080 4100 "global/linearity.ml" 117 4080 4103
+)
+"global/linearity.ml" 118 4106 4108 "global/linearity.ml" 121 4188 4195
+type(
+  linearity
+)
+"global/linearity.ml" 123 4197 4205 "global/linearity.ml" 123 4197 4218
+type(
+  linearity -> string
+)
+ident(
+  def lin_to_string "global/linearity.ml" 123 4197 4197 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 124 4230 4234 "global/linearity.ml" 124 4230 4238
+type(
+  linearity
+)
+"global/linearity.ml" 124 4230 4242 "global/linearity.ml" 124 4230 4248
+type(
+  string
+)
+"global/linearity.ml" 125 4249 4257 "global/linearity.ml" 125 4249 4258
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 125 4249 4262 "global/linearity.ml" 125 4249 4269
+)
+"global/linearity.ml" 125 4249 4253 "global/linearity.ml" 125 4249 4258
+type(
+  linearity
+)
+"global/linearity.ml" 125 4249 4262 "global/linearity.ml" 125 4249 4267
+type(
+  string
+)
+"global/linearity.ml" 125 4249 4267 "global/linearity.ml" 125 4249 4268
+type(
+  string -> linearity_var -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/linearity.ml" 125 4249 4268 "global/linearity.ml" 125 4249 4269
+type(
+  linearity_var
+)
+ident(
+  int_ref r "global/linearity.ml" 125 4249 4257 "global/linearity.ml" 125 4249 4258
+)
+"global/linearity.ml" 125 4249 4262 "global/linearity.ml" 125 4249 4269
+call(
+  tail
+)
+type(
+  string
+)
+"global/linearity.ml" 126 4270 4279 "global/linearity.ml" 126 4270 4280
+type(
+  linearity_var
+)
+ident(
+  def r "global/linearity.ml" 126 4270 4284 "global/linearity.ml" 126 4270 4292
+)
+"global/linearity.ml" 126 4270 4274 "global/linearity.ml" 126 4270 4280
+type(
+  linearity
+)
+"global/linearity.ml" 126 4270 4284 "global/linearity.ml" 126 4270 4290
+type(
+  string
+)
+"global/linearity.ml" 126 4270 4290 "global/linearity.ml" 126 4270 4291
+type(
+  string -> linearity_var -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global/linearity.ml" 126 4270 4291 "global/linearity.ml" 126 4270 4292
+type(
+  linearity_var
+)
+ident(
+  int_ref r "global/linearity.ml" 126 4270 4279 "global/linearity.ml" 126 4270 4280
+)
+"global/linearity.ml" 126 4270 4284 "global/linearity.ml" 126 4270 4292
+call(
+  tail
+)
+type(
+  string
+)
+"global/linearity.ml" 127 4293 4304 "global/linearity.ml" 127 4293 4310
+type(
+  linearity list
+)
+ident(
+  def l_list "global/linearity.ml" 127 4293 4314 "global/linearity.ml" 127 4293 4364
+)
+"global/linearity.ml" 127 4293 4297 "global/linearity.ml" 127 4293 4310
+type(
+  linearity
+)
+"global/linearity.ml" 127 4293 4314 "global/linearity.ml" 127 4293 4327
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"global/linearity.ml" 127 4293 4328 "global/linearity.ml" 127 4293 4332
+type(
+  string
+)
+"global/linearity.ml" 127 4293 4334 "global/linearity.ml" 127 4293 4342
+type(
+  (linearity -> string) -> linearity list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"global/linearity.ml" 127 4293 4343 "global/linearity.ml" 127 4293 4356
+type(
+  linearity -> string
+)
+ident(
+  int_ref lin_to_string "global/linearity.ml" 123 4197 4205 "global/linearity.ml" 123 4197 4218
+)
+"global/linearity.ml" 127 4293 4357 "global/linearity.ml" 127 4293 4363
+type(
+  linearity list
+)
+ident(
+  int_ref l_list "global/linearity.ml" 127 4293 4304 "global/linearity.ml" 127 4293 4310
+)
+"global/linearity.ml" 127 4293 4333 "global/linearity.ml" 127 4293 4364
+call(
+  stack
+)
+type(
+  string list
+)
+"global/linearity.ml" 127 4293 4314 "global/linearity.ml" 127 4293 4364
+call(
+  tail
+)
+type(
+  string
+)
+"global/linearity.ml" 123 4197 4221 "global/linearity.ml" 127 4293 4364
+type(
+  linearity -> string
+)
+"global/linearity.ml" 129 4366 4370 "global/linearity.ml" 129 4366 4385
+type(
+  Format.formatter -> linearity -> unit
+)
+ident(
+  def print_linearity "global/linearity.ml" 134 4472 4472 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 129 4366 4386 "global/linearity.ml" 129 4366 4388
+type(
+  Format.formatter
+)
+ident(
+  def ff "global/linearity.ml" 129 4366 4389 "global/linearity.ml" 132 4425 4470
+)
+"global/linearity.ml" 129 4366 4389 "global/linearity.ml" 129 4366 4390
+type(
+  linearity
+)
+ident(
+  def l "global/linearity.ml" 130 4393 4395 "global/linearity.ml" 132 4425 4470
+)
+"global/linearity.ml" 130 4393 4401 "global/linearity.ml" 130 4393 4402
+type(
+  linearity
+)
+ident(
+  int_ref l "global/linearity.ml" 129 4366 4389 "global/linearity.ml" 129 4366 4390
+)
+"global/linearity.ml" 131 4408 4414 "global/linearity.ml" 131 4408 4418
+type(
+  linearity
+)
+"global/linearity.ml" 131 4408 4422 "global/linearity.ml" 131 4408 4424
+type(
+  unit
+)
+"global/linearity.ml" 132 4425 4431 "global/linearity.ml" 132 4425 4432
+type(
+  linearity
+)
+"global/linearity.ml" 132 4425 4436 "global/linearity.ml" 132 4425 4443
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"global/linearity.ml" 132 4425 4444 "global/linearity.ml" 132 4425 4446
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "global/linearity.ml" 129 4366 4386 "global/linearity.ml" 129 4366 4388
+)
+"global/linearity.ml" 132 4425 4447 "global/linearity.ml" 132 4425 4452
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"global/linearity.ml" 132 4425 4454 "global/linearity.ml" 132 4425 4467
+type(
+  linearity -> string
+)
+ident(
+  int_ref lin_to_string "global/linearity.ml" 123 4197 4205 "global/linearity.ml" 123 4197 4218
+)
+"global/linearity.ml" 132 4425 4468 "global/linearity.ml" 132 4425 4469
+type(
+  linearity
+)
+ident(
+  int_ref l "global/linearity.ml" 129 4366 4389 "global/linearity.ml" 129 4366 4390
+)
+"global/linearity.ml" 132 4425 4453 "global/linearity.ml" 132 4425 4470
+call(
+  stack
+)
+type(
+  string
+)
+"global/linearity.ml" 132 4425 4436 "global/linearity.ml" 132 4425 4470
+call(
+  tail
+)
+type(
+  unit
+)
+"global/linearity.ml" 130 4393 4395 "global/linearity.ml" 132 4425 4470
+type(
+  unit
+)
+"global/linearity.ml" 134 4472 4480 "global/linearity.ml" 134 4472 4497
+type(
+  linearity -> linearity -> int
+)
+ident(
+  def linearity_compare "global/linearity.ml" 134 4472 4472 "global/linearity.ml" 1 0 -1
+)
+"global/linearity.ml" 134 4472 4498 "global/linearity.ml" 134 4472 4500
+type(
+  linearity
+)
+ident(
+  def l1 "global/linearity.ml" 134 4472 4501 "global/linearity.ml" 148 4799 4820
+)
+"global/linearity.ml" 134 4472 4501 "global/linearity.ml" 134 4472 4503
+type(
+  linearity
+)
+ident(
+  def l2 "global/linearity.ml" 134 4472 4506 "global/linearity.ml" 148 4799 4820
+)
+"global/linearity.ml" 134 4472 4512 "global/linearity.ml" 134 4472 4514
+type(
+  linearity
+)
+ident(
+  int_ref l1 "global/linearity.ml" 134 4472 4498 "global/linearity.ml" 134 4472 4500
+)
+"global/linearity.ml" 134 4472 4516 "global/linearity.ml" 134 4472 4518
+type(
+  linearity
+)
+ident(
+  int_ref l2 "global/linearity.ml" 134 4472 4501 "global/linearity.ml" 134 4472 4503
+)
+"global/linearity.ml" 134 4472 4512 "global/linearity.ml" 134 4472 4518
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 135 4524 4528 "global/linearity.ml" 135 4524 4532
+type(
+  linearity
+)
+"global/linearity.ml" 135 4524 4534 "global/linearity.ml" 135 4524 4538
+type(
+  linearity
+)
+"global/linearity.ml" 135 4524 4528 "global/linearity.ml" 135 4524 4538
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 135 4524 4542 "global/linearity.ml" 135 4524 4543
+type(
+  int
+)
+"global/linearity.ml" 136 4544 4553 "global/linearity.ml" 136 4544 4555
+type(
+  linearity_var
+)
+ident(
+  def v1 "global/linearity.ml" 136 4544 4568 "global/linearity.ml" 136 4544 4581
+)
+"global/linearity.ml" 136 4544 4548 "global/linearity.ml" 136 4544 4555
+type(
+  linearity
+)
+"global/linearity.ml" 136 4544 4562 "global/linearity.ml" 136 4544 4564
+type(
+  linearity_var
+)
+ident(
+  def v2 "global/linearity.ml" 136 4544 4568 "global/linearity.ml" 136 4544 4581
+)
+"global/linearity.ml" 136 4544 4557 "global/linearity.ml" 136 4544 4564
+type(
+  linearity
+)
+"global/linearity.ml" 136 4544 4548 "global/linearity.ml" 136 4544 4564
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 136 4544 4568 "global/linearity.ml" 136 4544 4575
+type(
+  linearity_var -> linearity_var -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/linearity.ml" 136 4544 4576 "global/linearity.ml" 136 4544 4578
+type(
+  linearity_var
+)
+ident(
+  int_ref v1 "global/linearity.ml" 136 4544 4553 "global/linearity.ml" 136 4544 4555
+)
+"global/linearity.ml" 136 4544 4579 "global/linearity.ml" 136 4544 4581
+type(
+  linearity_var
+)
+ident(
+  int_ref v2 "global/linearity.ml" 136 4544 4562 "global/linearity.ml" 136 4544 4564
+)
+"global/linearity.ml" 136 4544 4568 "global/linearity.ml" 136 4544 4581
+type(
+  int
+)
+"global/linearity.ml" 137 4582 4590 "global/linearity.ml" 137 4582 4592
+type(
+  linearity_var
+)
+ident(
+  def v1 "global/linearity.ml" 137 4582 4604 "global/linearity.ml" 137 4582 4617
+)
+"global/linearity.ml" 137 4582 4586 "global/linearity.ml" 137 4582 4592
+type(
+  linearity
+)
+"global/linearity.ml" 137 4582 4598 "global/linearity.ml" 137 4582 4600
+type(
+  linearity_var
+)
+ident(
+  def v2 "global/linearity.ml" 137 4582 4604 "global/linearity.ml" 137 4582 4617
+)
+"global/linearity.ml" 137 4582 4594 "global/linearity.ml" 137 4582 4600
+type(
+  linearity
+)
+"global/linearity.ml" 137 4582 4586 "global/linearity.ml" 137 4582 4600
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 137 4582 4604 "global/linearity.ml" 137 4582 4611
+type(
+  linearity_var -> linearity_var -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"global/linearity.ml" 137 4582 4612 "global/linearity.ml" 137 4582 4614
+type(
+  linearity_var
+)
+ident(
+  int_ref v1 "global/linearity.ml" 137 4582 4590 "global/linearity.ml" 137 4582 4592
+)
+"global/linearity.ml" 137 4582 4615 "global/linearity.ml" 137 4582 4617
+type(
+  linearity_var
+)
+ident(
+  int_ref v2 "global/linearity.ml" 137 4582 4598 "global/linearity.ml" 137 4582 4600
+)
+"global/linearity.ml" 137 4582 4604 "global/linearity.ml" 137 4582 4617
+type(
+  int
+)
+"global/linearity.ml" 138 4618 4629 "global/linearity.ml" 138 4618 4631
+type(
+  linearity list
+)
+ident(
+  def l1 "global/linearity.ml" 138 4618 4646 "global/linearity.ml" 138 4618 4682
+)
+"global/linearity.ml" 138 4618 4622 "global/linearity.ml" 138 4618 4631
+type(
+  linearity
+)
+"global/linearity.ml" 138 4618 4640 "global/linearity.ml" 138 4618 4642
+type(
+  linearity list
+)
+ident(
+  def l2 "global/linearity.ml" 138 4618 4646 "global/linearity.ml" 138 4618 4682
+)
+"global/linearity.ml" 138 4618 4633 "global/linearity.ml" 138 4618 4642
+type(
+  linearity
+)
+"global/linearity.ml" 138 4618 4622 "global/linearity.ml" 138 4618 4642
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 138 4618 4646 "global/linearity.ml" 138 4618 4658
+type(
+  (linearity -> linearity -> int) -> linearity list -> linearity list -> int
+)
+ident(
+  ext_ref Misc.list_compare
+)
+"global/linearity.ml" 138 4618 4659 "global/linearity.ml" 138 4618 4676
+type(
+  linearity -> linearity -> int
+)
+ident(
+  int_ref linearity_compare "global/linearity.ml" 134 4472 4480 "global/linearity.ml" 134 4472 4497
+)
+"global/linearity.ml" 138 4618 4677 "global/linearity.ml" 138 4618 4679
+type(
+  linearity list
+)
+ident(
+  int_ref l1 "global/linearity.ml" 138 4618 4629 "global/linearity.ml" 138 4618 4631
+)
+"global/linearity.ml" 138 4618 4680 "global/linearity.ml" 138 4618 4682
+type(
+  linearity list
+)
+ident(
+  int_ref l2 "global/linearity.ml" 138 4618 4640 "global/linearity.ml" 138 4618 4642
+)
+"global/linearity.ml" 138 4618 4646 "global/linearity.ml" 138 4618 4682
+call(
+  tail
+)
+type(
+  int
+)
+"global/linearity.ml" 140 4684 4688 "global/linearity.ml" 140 4684 4692
+type(
+  linearity
+)
+"global/linearity.ml" 140 4684 4694 "global/linearity.ml" 140 4684 4695
+type(
+  linearity
+)
+"global/linearity.ml" 140 4684 4688 "global/linearity.ml" 140 4684 4695
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 140 4684 4699 "global/linearity.ml" 140 4684 4700
+type(
+  int
+)
+"global/linearity.ml" 142 4702 4711 "global/linearity.ml" 142 4702 4712
+type(
+  linearity_var
+)
+"global/linearity.ml" 142 4702 4706 "global/linearity.ml" 142 4702 4712
+type(
+  linearity
+)
+"global/linearity.ml" 142 4702 4714 "global/linearity.ml" 142 4702 4718
+type(
+  linearity
+)
+"global/linearity.ml" 142 4702 4706 "global/linearity.ml" 142 4702 4718
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 142 4702 4722 "global/linearity.ml" 142 4702 4724
+type(
+  int
+)
+"global/linearity.ml" 143 4725 4734 "global/linearity.ml" 143 4725 4735
+type(
+  linearity_var
+)
+"global/linearity.ml" 143 4725 4729 "global/linearity.ml" 143 4725 4735
+type(
+  linearity
+)
+"global/linearity.ml" 143 4725 4737 "global/linearity.ml" 143 4725 4738
+type(
+  linearity
+)
+"global/linearity.ml" 143 4725 4729 "global/linearity.ml" 143 4725 4738
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 143 4725 4742 "global/linearity.ml" 143 4725 4743
+type(
+  int
+)
+"global/linearity.ml" 145 4745 4753 "global/linearity.ml" 145 4745 4754
+type(
+  linearity_var
+)
+"global/linearity.ml" 145 4745 4749 "global/linearity.ml" 145 4745 4754
+type(
+  linearity
+)
+"global/linearity.ml" 145 4745 4758 "global/linearity.ml" 145 4745 4762
+type(
+  linearity
+)
+"global/linearity.ml" 145 4745 4770 "global/linearity.ml" 145 4745 4771
+type(
+  linearity_var
+)
+"global/linearity.ml" 145 4745 4765 "global/linearity.ml" 145 4745 4771
+type(
+  linearity
+)
+"global/linearity.ml" 145 4745 4757 "global/linearity.ml" 145 4745 4772
+type(
+  linearity
+)
+"global/linearity.ml" 145 4745 4749 "global/linearity.ml" 145 4745 4772
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 145 4745 4776 "global/linearity.ml" 145 4745 4778
+type(
+  int
+)
+"global/linearity.ml" 146 4779 4787 "global/linearity.ml" 146 4779 4788
+type(
+  linearity_var
+)
+"global/linearity.ml" 146 4779 4783 "global/linearity.ml" 146 4779 4788
+type(
+  linearity
+)
+"global/linearity.ml" 146 4779 4791 "global/linearity.ml" 146 4779 4792
+type(
+  linearity
+)
+"global/linearity.ml" 146 4779 4783 "global/linearity.ml" 146 4779 4792
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 146 4779 4796 "global/linearity.ml" 146 4779 4797
+type(
+  int
+)
+"global/linearity.ml" 148 4799 4810 "global/linearity.ml" 148 4799 4811
+type(
+  linearity list
+)
+"global/linearity.ml" 148 4799 4803 "global/linearity.ml" 148 4799 4811
+type(
+  linearity
+)
+"global/linearity.ml" 148 4799 4813 "global/linearity.ml" 148 4799 4814
+type(
+  linearity
+)
+"global/linearity.ml" 148 4799 4803 "global/linearity.ml" 148 4799 4814
+type(
+  linearity * linearity
+)
+"global/linearity.ml" 148 4799 4818 "global/linearity.ml" 148 4799 4820
+type(
+  int
+)
+"global/linearity.ml" 134 4472 4506 "global/linearity.ml" 148 4799 4820
+type(
+  int
+)

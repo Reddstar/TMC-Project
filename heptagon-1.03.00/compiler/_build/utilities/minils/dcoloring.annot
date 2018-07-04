@@ -1,0 +1,1918 @@
+"utilities/minils/dcoloring.ml" 33 2128 2132 "utilities/minils/dcoloring.ml" 33 2128 2140
+type(
+  int
+)
+ident(
+  def no_color "utilities/minils/dcoloring.ml" 34 2145 2145 "utilities/minils/dcoloring.ml" 1 0 -1
+)
+"utilities/minils/dcoloring.ml" 33 2128 2143 "utilities/minils/dcoloring.ml" 33 2128 2144
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 34 2145 2149 "utilities/minils/dcoloring.ml" 34 2145 2158
+type(
+  int
+)
+ident(
+  def min_color "utilities/minils/dcoloring.ml" 36 2164 2164 "utilities/minils/dcoloring.ml" 1 0 -1
+)
+"utilities/minils/dcoloring.ml" 34 2145 2161 "utilities/minils/dcoloring.ml" 34 2145 2162
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 39 2216 2224 "utilities/minils/dcoloring.ml" 39 2216 2231
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "utilities/minils/dcoloring.ml" 39 2216 2241 "utilities/minils/dcoloring.ml" 40 2242 2247
+)
+"utilities/minils/dcoloring.ml" 39 2216 2234 "utilities/minils/dcoloring.ml" 39 2216 2241
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"utilities/minils/dcoloring.ml" 37 2182 2184 "utilities/minils/dcoloring.ml" 40 2242 2248
+call(
+  stack
+)
+"utilities/minils/dcoloring.ml" 45 2303 2311 "utilities/minils/dcoloring.ml" 45 2303 2318
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "utilities/minils/dcoloring.ml" 45 2303 2328 "utilities/minils/dcoloring.ml" 46 2329 2334
+)
+"utilities/minils/dcoloring.ml" 45 2303 2321 "utilities/minils/dcoloring.ml" 45 2303 2328
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"utilities/minils/dcoloring.ml" 43 2268 2270 "utilities/minils/dcoloring.ml" 46 2329 2335
+call(
+  stack
+)
+"utilities/minils/dcoloring.ml" 49 2360 2370 "utilities/minils/dcoloring.ml" 49 2360 2384
+type(
+  Interference_graph.G.Mark.vertex list ->
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  def remove_colored "utilities/minils/dcoloring.ml" 49 2360 2362 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 49 2360 2385 "utilities/minils/dcoloring.ml" 49 2360 2386
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  def l "utilities/minils/dcoloring.ml" 49 2360 2389 "utilities/minils/dcoloring.ml" 51 2417 2484
+)
+"utilities/minils/dcoloring.ml" 49 2360 2395 "utilities/minils/dcoloring.ml" 49 2360 2396
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref l "utilities/minils/dcoloring.ml" 49 2360 2385 "utilities/minils/dcoloring.ml" 49 2360 2386
+)
+"utilities/minils/dcoloring.ml" 50 2402 2408 "utilities/minils/dcoloring.ml" 50 2402 2410
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 50 2402 2414 "utilities/minils/dcoloring.ml" 50 2402 2416
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 51 2417 2423 "utilities/minils/dcoloring.ml" 51 2417 2424
+type(
+  Interference_graph.G.Mark.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 51 2417 2431 "utilities/minils/dcoloring.ml" 51 2417 2484
+)
+"utilities/minils/dcoloring.ml" 51 2417 2426 "utilities/minils/dcoloring.ml" 51 2417 2427
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  def l "utilities/minils/dcoloring.ml" 51 2417 2431 "utilities/minils/dcoloring.ml" 51 2417 2484
+)
+"utilities/minils/dcoloring.ml" 51 2417 2423 "utilities/minils/dcoloring.ml" 51 2417 2427
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 51 2417 2434 "utilities/minils/dcoloring.ml" 51 2417 2444
+type(
+  Interference_graph.G.Mark.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.Mark.get
+)
+"utilities/minils/dcoloring.ml" 51 2417 2445 "utilities/minils/dcoloring.ml" 51 2417 2446
+type(
+  Interference_graph.G.Mark.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 51 2417 2423 "utilities/minils/dcoloring.ml" 51 2417 2424
+)
+"utilities/minils/dcoloring.ml" 51 2417 2434 "utilities/minils/dcoloring.ml" 51 2417 2446
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 51 2417 2447 "utilities/minils/dcoloring.ml" 51 2417 2448
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"utilities/minils/dcoloring.ml" 51 2417 2449 "utilities/minils/dcoloring.ml" 51 2417 2450
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 51 2417 2434 "utilities/minils/dcoloring.ml" 51 2417 2450
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 51 2417 2456 "utilities/minils/dcoloring.ml" 51 2417 2457
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref l "utilities/minils/dcoloring.ml" 51 2417 2426 "utilities/minils/dcoloring.ml" 51 2417 2427
+)
+"utilities/minils/dcoloring.ml" 51 2417 2463 "utilities/minils/dcoloring.ml" 51 2417 2464
+type(
+  Interference_graph.G.Mark.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 51 2417 2423 "utilities/minils/dcoloring.ml" 51 2417 2424
+)
+"utilities/minils/dcoloring.ml" 51 2417 2467 "utilities/minils/dcoloring.ml" 51 2417 2481
+type(
+  Interference_graph.G.Mark.vertex list ->
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref remove_colored "utilities/minils/dcoloring.ml" 49 2360 2370 "utilities/minils/dcoloring.ml" 49 2360 2384
+)
+"utilities/minils/dcoloring.ml" 51 2417 2482 "utilities/minils/dcoloring.ml" 51 2417 2483
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref l "utilities/minils/dcoloring.ml" 51 2417 2426 "utilities/minils/dcoloring.ml" 51 2417 2427
+)
+"utilities/minils/dcoloring.ml" 51 2417 2466 "utilities/minils/dcoloring.ml" 51 2417 2484
+call(
+  stack
+)
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 51 2417 2463 "utilities/minils/dcoloring.ml" 51 2417 2484
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 51 2417 2431 "utilities/minils/dcoloring.ml" 51 2417 2484
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 49 2360 2389 "utilities/minils/dcoloring.ml" 51 2417 2484
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 53 2486 2492 "utilities/minils/dcoloring.ml" 53 2486 2498
+type(
+  Interference_graph.G.E.label ->
+  Interference_graph.G.t -> Interference_graph.G.vertex -> ColorSet.t
+)
+ident(
+  def colors "utilities/minils/dcoloring.ml" 67 2839 2841 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 53 2486 2499 "utilities/minils/dcoloring.ml" 53 2486 2500
+type(
+  Interference_graph.G.E.label
+)
+ident(
+  def i "utilities/minils/dcoloring.ml" 53 2486 2501 "utilities/minils/dcoloring.ml" 64 2730 2774
+)
+"utilities/minils/dcoloring.ml" 53 2486 2501 "utilities/minils/dcoloring.ml" 53 2486 2502
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 53 2486 2503 "utilities/minils/dcoloring.ml" 64 2730 2774
+)
+"utilities/minils/dcoloring.ml" 53 2486 2503 "utilities/minils/dcoloring.ml" 53 2486 2504
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 54 2507 2511 "utilities/minils/dcoloring.ml" 64 2730 2774
+)
+"utilities/minils/dcoloring.ml" 54 2507 2515 "utilities/minils/dcoloring.ml" 54 2507 2520
+type(
+  Interference_graph.G.E.t -> ColorSet.t -> ColorSet.t
+)
+ident(
+  def color "utilities/minils/dcoloring.ml" 64 2730 2736 "utilities/minils/dcoloring.ml" 64 2730 2774
+)
+"utilities/minils/dcoloring.ml" 54 2507 2521 "utilities/minils/dcoloring.ml" 54 2507 2522
+type(
+  Interference_graph.G.E.t
+)
+ident(
+  def e "utilities/minils/dcoloring.ml" 54 2507 2523 "utilities/minils/dcoloring.ml" 62 2708 2722
+)
+"utilities/minils/dcoloring.ml" 54 2507 2523 "utilities/minils/dcoloring.ml" 54 2507 2529
+type(
+  ColorSet.t
+)
+ident(
+  def colors "utilities/minils/dcoloring.ml" 55 2532 2538 "utilities/minils/dcoloring.ml" 62 2708 2722
+)
+"utilities/minils/dcoloring.ml" 55 2532 2541 "utilities/minils/dcoloring.ml" 55 2532 2550
+type(
+  Interference_graph.G.E.t -> Interference_graph.G.E.label
+)
+ident(
+  ext_ref Interference_graph.G.E.label
+)
+"utilities/minils/dcoloring.ml" 55 2532 2551 "utilities/minils/dcoloring.ml" 55 2532 2552
+type(
+  Interference_graph.G.E.t
+)
+ident(
+  int_ref e "utilities/minils/dcoloring.ml" 54 2507 2521 "utilities/minils/dcoloring.ml" 54 2507 2522
+)
+"utilities/minils/dcoloring.ml" 55 2532 2541 "utilities/minils/dcoloring.ml" 55 2532 2552
+call(
+  stack
+)
+type(
+  Interference_graph.G.E.label
+)
+"utilities/minils/dcoloring.ml" 55 2532 2553 "utilities/minils/dcoloring.ml" 55 2532 2554
+type(
+  Interference_graph.G.E.label -> Interference_graph.G.E.label -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/minils/dcoloring.ml" 55 2532 2555 "utilities/minils/dcoloring.ml" 55 2532 2556
+type(
+  Interference_graph.G.E.label
+)
+ident(
+  int_ref i "utilities/minils/dcoloring.ml" 53 2486 2499 "utilities/minils/dcoloring.ml" 53 2486 2500
+)
+"utilities/minils/dcoloring.ml" 55 2532 2541 "utilities/minils/dcoloring.ml" 55 2532 2556
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 56 2562 2574 "utilities/minils/dcoloring.ml" 56 2562 2575
+type(
+  int
+)
+ident(
+  def c "utilities/minils/dcoloring.ml" 57 2604 2614 "utilities/minils/dcoloring.ml" 60 2678 2696
+)
+"utilities/minils/dcoloring.ml" 56 2562 2578 "utilities/minils/dcoloring.ml" 56 2562 2588
+type(
+  Interference_graph.G.Mark.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.Mark.get
+)
+"utilities/minils/dcoloring.ml" 56 2562 2590 "utilities/minils/dcoloring.ml" 56 2562 2597
+type(
+  Interference_graph.G.E.t -> Interference_graph.G.E.vertex
+)
+ident(
+  ext_ref Interference_graph.G.E.dst
+)
+"utilities/minils/dcoloring.ml" 56 2562 2598 "utilities/minils/dcoloring.ml" 56 2562 2599
+type(
+  Interference_graph.G.E.t
+)
+ident(
+  int_ref e "utilities/minils/dcoloring.ml" 54 2507 2521 "utilities/minils/dcoloring.ml" 54 2507 2522
+)
+"utilities/minils/dcoloring.ml" 56 2562 2589 "utilities/minils/dcoloring.ml" 56 2562 2600
+call(
+  stack
+)
+type(
+  Interference_graph.G.E.vertex
+)
+"utilities/minils/dcoloring.ml" 56 2562 2578 "utilities/minils/dcoloring.ml" 56 2562 2600
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 57 2604 2617 "utilities/minils/dcoloring.ml" 57 2604 2618
+type(
+  int
+)
+ident(
+  int_ref c "utilities/minils/dcoloring.ml" 56 2562 2574 "utilities/minils/dcoloring.ml" 56 2562 2575
+)
+"utilities/minils/dcoloring.ml" 57 2604 2619 "utilities/minils/dcoloring.ml" 57 2604 2621
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"utilities/minils/dcoloring.ml" 57 2604 2622 "utilities/minils/dcoloring.ml" 57 2604 2623
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 57 2604 2617 "utilities/minils/dcoloring.ml" 57 2604 2623
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 58 2629 2641 "utilities/minils/dcoloring.ml" 58 2629 2653
+type(
+  ColorSet.elt -> ColorSet.t -> ColorSet.t
+)
+ident(
+  ext_ref ColorSet.add
+)
+"utilities/minils/dcoloring.ml" 58 2629 2654 "utilities/minils/dcoloring.ml" 58 2629 2655
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref c "utilities/minils/dcoloring.ml" 56 2562 2574 "utilities/minils/dcoloring.ml" 56 2562 2575
+)
+"utilities/minils/dcoloring.ml" 58 2629 2656 "utilities/minils/dcoloring.ml" 58 2629 2662
+type(
+  ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 54 2507 2523 "utilities/minils/dcoloring.ml" 54 2507 2529
+)
+"utilities/minils/dcoloring.ml" 58 2629 2641 "utilities/minils/dcoloring.ml" 58 2629 2662
+call(
+  tail
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 60 2678 2690 "utilities/minils/dcoloring.ml" 60 2678 2696
+type(
+  ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 54 2507 2523 "utilities/minils/dcoloring.ml" 54 2507 2529
+)
+"utilities/minils/dcoloring.ml" 57 2604 2614 "utilities/minils/dcoloring.ml" 60 2678 2696
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 56 2562 2570 "utilities/minils/dcoloring.ml" 60 2678 2696
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 62 2708 2716 "utilities/minils/dcoloring.ml" 62 2708 2722
+type(
+  ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 54 2507 2523 "utilities/minils/dcoloring.ml" 54 2507 2529
+)
+"utilities/minils/dcoloring.ml" 55 2532 2538 "utilities/minils/dcoloring.ml" 62 2708 2722
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 64 2730 2736 "utilities/minils/dcoloring.ml" 64 2730 2749
+type(
+  (Interference_graph.G.edge -> ColorSet.t -> ColorSet.t) ->
+  Interference_graph.G.t ->
+  Interference_graph.G.vertex -> ColorSet.t -> ColorSet.t
+)
+ident(
+  ext_ref Interference_graph.G.fold_succ_e
+)
+"utilities/minils/dcoloring.ml" 64 2730 2750 "utilities/minils/dcoloring.ml" 64 2730 2755
+type(
+  Interference_graph.G.edge -> ColorSet.t -> ColorSet.t
+)
+ident(
+  int_ref color "utilities/minils/dcoloring.ml" 54 2507 2515 "utilities/minils/dcoloring.ml" 54 2507 2520
+)
+"utilities/minils/dcoloring.ml" 64 2730 2756 "utilities/minils/dcoloring.ml" 64 2730 2757
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 53 2486 2501 "utilities/minils/dcoloring.ml" 53 2486 2502
+)
+"utilities/minils/dcoloring.ml" 64 2730 2758 "utilities/minils/dcoloring.ml" 64 2730 2759
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 53 2486 2503 "utilities/minils/dcoloring.ml" 53 2486 2504
+)
+"utilities/minils/dcoloring.ml" 64 2730 2760 "utilities/minils/dcoloring.ml" 64 2730 2774
+type(
+  ColorSet.t
+)
+ident(
+  ext_ref ColorSet.empty
+)
+"utilities/minils/dcoloring.ml" 64 2730 2736 "utilities/minils/dcoloring.ml" 64 2730 2774
+call(
+  tail
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 54 2507 2511 "utilities/minils/dcoloring.ml" 64 2730 2774
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 67 2839 2845 "utilities/minils/dcoloring.ml" 67 2839 2869
+type(
+  ColorSet.t -> ColorSet.elt
+)
+ident(
+  def find_min_available_color "utilities/minils/dcoloring.ml" 74 3073 3075 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 67 2839 2870 "utilities/minils/dcoloring.ml" 67 2839 2883
+type(
+  ColorSet.t
+)
+ident(
+  def interf_colors "utilities/minils/dcoloring.ml" 68 2886 2890 "utilities/minils/dcoloring.ml" 71 2979 2998
+)
+"utilities/minils/dcoloring.ml" 68 2886 2898 "utilities/minils/dcoloring.ml" 68 2886 2901
+type(
+  ColorSet.elt -> ColorSet.elt
+)
+ident(
+  def aux "utilities/minils/dcoloring.ml" 68 2886 2890 "utilities/minils/dcoloring.ml" 71 2979 2998
+)
+"utilities/minils/dcoloring.ml" 68 2886 2902 "utilities/minils/dcoloring.ml" 68 2886 2903
+type(
+  ColorSet.elt
+)
+ident(
+  def i "utilities/minils/dcoloring.ml" 69 2906 2912 "utilities/minils/dcoloring.ml" 69 2906 2971
+)
+"utilities/minils/dcoloring.ml" 69 2906 2915 "utilities/minils/dcoloring.ml" 69 2906 2918
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utilities/minils/dcoloring.ml" 69 2906 2920 "utilities/minils/dcoloring.ml" 69 2906 2932
+type(
+  ColorSet.elt -> ColorSet.t -> bool
+)
+ident(
+  ext_ref ColorSet.mem
+)
+"utilities/minils/dcoloring.ml" 69 2906 2933 "utilities/minils/dcoloring.ml" 69 2906 2934
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref i "utilities/minils/dcoloring.ml" 68 2886 2902 "utilities/minils/dcoloring.ml" 68 2886 2903
+)
+"utilities/minils/dcoloring.ml" 69 2906 2935 "utilities/minils/dcoloring.ml" 69 2906 2948
+type(
+  ColorSet.t
+)
+ident(
+  int_ref interf_colors "utilities/minils/dcoloring.ml" 67 2839 2870 "utilities/minils/dcoloring.ml" 67 2839 2883
+)
+"utilities/minils/dcoloring.ml" 69 2906 2919 "utilities/minils/dcoloring.ml" 69 2906 2949
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 69 2906 2915 "utilities/minils/dcoloring.ml" 69 2906 2949
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 69 2906 2955 "utilities/minils/dcoloring.ml" 69 2906 2956
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref i "utilities/minils/dcoloring.ml" 68 2886 2902 "utilities/minils/dcoloring.ml" 68 2886 2903
+)
+"utilities/minils/dcoloring.ml" 69 2906 2962 "utilities/minils/dcoloring.ml" 69 2906 2965
+type(
+  ColorSet.elt -> ColorSet.elt
+)
+ident(
+  int_ref aux "utilities/minils/dcoloring.ml" 68 2886 2898 "utilities/minils/dcoloring.ml" 68 2886 2901
+)
+"utilities/minils/dcoloring.ml" 69 2906 2967 "utilities/minils/dcoloring.ml" 69 2906 2968
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref i "utilities/minils/dcoloring.ml" 68 2886 2902 "utilities/minils/dcoloring.ml" 68 2886 2903
+)
+"utilities/minils/dcoloring.ml" 69 2906 2968 "utilities/minils/dcoloring.ml" 69 2906 2969
+type(
+  ColorSet.elt -> int -> ColorSet.elt
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/minils/dcoloring.ml" 69 2906 2969 "utilities/minils/dcoloring.ml" 69 2906 2970
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 69 2906 2966 "utilities/minils/dcoloring.ml" 69 2906 2971
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 69 2906 2962 "utilities/minils/dcoloring.ml" 69 2906 2971
+call(
+  tail
+)
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 69 2906 2912 "utilities/minils/dcoloring.ml" 69 2906 2971
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 71 2979 2985 "utilities/minils/dcoloring.ml" 71 2979 2988
+type(
+  ColorSet.elt -> ColorSet.elt
+)
+ident(
+  int_ref aux "utilities/minils/dcoloring.ml" 68 2886 2898 "utilities/minils/dcoloring.ml" 68 2886 2901
+)
+"utilities/minils/dcoloring.ml" 71 2979 2989 "utilities/minils/dcoloring.ml" 71 2979 2998
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref min_color "utilities/minils/dcoloring.ml" 34 2145 2149 "utilities/minils/dcoloring.ml" 34 2145 2158
+)
+"utilities/minils/dcoloring.ml" 71 2979 2985 "utilities/minils/dcoloring.ml" 71 2979 2998
+call(
+  tail
+)
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 68 2886 2890 "utilities/minils/dcoloring.ml" 71 2979 2998
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 74 3073 3079 "utilities/minils/dcoloring.ml" 74 3073 3089
+type(
+  ColorSet.t -> ColorSet.t -> ColorSet.elt
+)
+ident(
+  def pick_color "utilities/minils/dcoloring.ml" 81 3323 3325 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 74 3073 3090 "utilities/minils/dcoloring.ml" 74 3073 3103
+type(
+  ColorSet.t
+)
+ident(
+  def interf_colors "utilities/minils/dcoloring.ml" 74 3073 3104 "utilities/minils/dcoloring.ml" 79 3275 3321
+)
+"utilities/minils/dcoloring.ml" 74 3073 3104 "utilities/minils/dcoloring.ml" 74 3073 3114
+type(
+  ColorSet.t
+)
+ident(
+  def aff_colors "utilities/minils/dcoloring.ml" 75 3117 3121 "utilities/minils/dcoloring.ml" 79 3275 3321
+)
+"utilities/minils/dcoloring.ml" 75 3117 3125 "utilities/minils/dcoloring.ml" 75 3117 3135
+type(
+  ColorSet.t
+)
+ident(
+  def aff_colors "utilities/minils/dcoloring.ml" 76 3180 3186 "utilities/minils/dcoloring.ml" 79 3275 3321
+)
+"utilities/minils/dcoloring.ml" 75 3117 3138 "utilities/minils/dcoloring.ml" 75 3117 3151
+type(
+  ColorSet.t -> ColorSet.t -> ColorSet.t
+)
+ident(
+  ext_ref ColorSet.diff
+)
+"utilities/minils/dcoloring.ml" 75 3117 3152 "utilities/minils/dcoloring.ml" 75 3117 3162
+type(
+  ColorSet.t
+)
+ident(
+  int_ref aff_colors "utilities/minils/dcoloring.ml" 74 3073 3104 "utilities/minils/dcoloring.ml" 74 3073 3114
+)
+"utilities/minils/dcoloring.ml" 75 3117 3163 "utilities/minils/dcoloring.ml" 75 3117 3176
+type(
+  ColorSet.t
+)
+ident(
+  int_ref interf_colors "utilities/minils/dcoloring.ml" 74 3073 3090 "utilities/minils/dcoloring.ml" 74 3073 3103
+)
+"utilities/minils/dcoloring.ml" 75 3117 3138 "utilities/minils/dcoloring.ml" 75 3117 3176
+call(
+  stack
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 76 3180 3189 "utilities/minils/dcoloring.ml" 76 3180 3192
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utilities/minils/dcoloring.ml" 76 3180 3194 "utilities/minils/dcoloring.ml" 76 3180 3211
+type(
+  ColorSet.t -> bool
+)
+ident(
+  ext_ref ColorSet.is_empty
+)
+"utilities/minils/dcoloring.ml" 76 3180 3212 "utilities/minils/dcoloring.ml" 76 3180 3222
+type(
+  ColorSet.t
+)
+ident(
+  int_ref aff_colors "utilities/minils/dcoloring.ml" 75 3117 3125 "utilities/minils/dcoloring.ml" 75 3117 3135
+)
+"utilities/minils/dcoloring.ml" 76 3180 3193 "utilities/minils/dcoloring.ml" 76 3180 3223
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 76 3180 3189 "utilities/minils/dcoloring.ml" 76 3180 3223
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 77 3229 3237 "utilities/minils/dcoloring.ml" 77 3229 3252
+type(
+  ColorSet.t -> ColorSet.elt
+)
+ident(
+  ext_ref ColorSet.choose
+)
+"utilities/minils/dcoloring.ml" 77 3229 3253 "utilities/minils/dcoloring.ml" 77 3229 3263
+type(
+  ColorSet.t
+)
+ident(
+  int_ref aff_colors "utilities/minils/dcoloring.ml" 75 3117 3125 "utilities/minils/dcoloring.ml" 75 3117 3135
+)
+"utilities/minils/dcoloring.ml" 77 3229 3237 "utilities/minils/dcoloring.ml" 77 3229 3263
+call(
+  tail
+)
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 79 3275 3283 "utilities/minils/dcoloring.ml" 79 3275 3307
+type(
+  ColorSet.t -> ColorSet.elt
+)
+ident(
+  int_ref find_min_available_color "utilities/minils/dcoloring.ml" 67 2839 2845 "utilities/minils/dcoloring.ml" 67 2839 2869
+)
+"utilities/minils/dcoloring.ml" 79 3275 3308 "utilities/minils/dcoloring.ml" 79 3275 3321
+type(
+  ColorSet.t
+)
+ident(
+  int_ref interf_colors "utilities/minils/dcoloring.ml" 74 3073 3090 "utilities/minils/dcoloring.ml" 74 3073 3103
+)
+"utilities/minils/dcoloring.ml" 79 3275 3283 "utilities/minils/dcoloring.ml" 79 3275 3321
+call(
+  tail
+)
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 76 3180 3186 "utilities/minils/dcoloring.ml" 79 3275 3321
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 75 3117 3121 "utilities/minils/dcoloring.ml" 79 3275 3321
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 81 3323 3329 "utilities/minils/dcoloring.ml" 81 3323 3333
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  def dsat "utilities/minils/dcoloring.ml" 85 3469 3471 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 81 3323 3334 "utilities/minils/dcoloring.ml" 81 3323 3335
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 81 3323 3336 "utilities/minils/dcoloring.ml" 83 3408 3467
+)
+"utilities/minils/dcoloring.ml" 81 3323 3336 "utilities/minils/dcoloring.ml" 81 3323 3337
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 82 3340 3344 "utilities/minils/dcoloring.ml" 83 3408 3467
+)
+"utilities/minils/dcoloring.ml" 82 3340 3348 "utilities/minils/dcoloring.ml" 82 3340 3357
+type(
+  int
+)
+ident(
+  def color_deg "utilities/minils/dcoloring.ml" 83 3408 3414 "utilities/minils/dcoloring.ml" 83 3408 3467
+)
+"utilities/minils/dcoloring.ml" 82 3340 3360 "utilities/minils/dcoloring.ml" 82 3340 3377
+type(
+  ColorSet.t -> int
+)
+ident(
+  ext_ref ColorSet.cardinal
+)
+"utilities/minils/dcoloring.ml" 82 3340 3379 "utilities/minils/dcoloring.ml" 82 3340 3385
+type(
+  Interference_graph.G.E.label ->
+  Interference_graph.G.t -> Interference_graph.G.vertex -> ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 53 2486 2492 "utilities/minils/dcoloring.ml" 53 2486 2498
+)
+"utilities/minils/dcoloring.ml" 82 3340 3386 "utilities/minils/dcoloring.ml" 82 3340 3399
+type(
+  Interference_graph.G.E.label
+)
+"utilities/minils/dcoloring.ml" 82 3340 3400 "utilities/minils/dcoloring.ml" 82 3340 3401
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 81 3323 3334 "utilities/minils/dcoloring.ml" 81 3323 3335
+)
+"utilities/minils/dcoloring.ml" 82 3340 3402 "utilities/minils/dcoloring.ml" 82 3340 3403
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 81 3323 3336 "utilities/minils/dcoloring.ml" 81 3323 3337
+)
+"utilities/minils/dcoloring.ml" 82 3340 3378 "utilities/minils/dcoloring.ml" 82 3340 3404
+call(
+  stack
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 82 3340 3360 "utilities/minils/dcoloring.ml" 82 3340 3404
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 83 3408 3417 "utilities/minils/dcoloring.ml" 83 3408 3426
+type(
+  int
+)
+ident(
+  int_ref color_deg "utilities/minils/dcoloring.ml" 82 3340 3348 "utilities/minils/dcoloring.ml" 82 3340 3357
+)
+"utilities/minils/dcoloring.ml" 83 3408 3427 "utilities/minils/dcoloring.ml" 83 3408 3428
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/minils/dcoloring.ml" 83 3408 3429 "utilities/minils/dcoloring.ml" 83 3408 3430
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 83 3408 3417 "utilities/minils/dcoloring.ml" 83 3408 3430
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 83 3408 3436 "utilities/minils/dcoloring.ml" 83 3408 3448
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.out_degree
+)
+"utilities/minils/dcoloring.ml" 83 3408 3449 "utilities/minils/dcoloring.ml" 83 3408 3450
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 81 3323 3334 "utilities/minils/dcoloring.ml" 81 3323 3335
+)
+"utilities/minils/dcoloring.ml" 83 3408 3451 "utilities/minils/dcoloring.ml" 83 3408 3452
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 81 3323 3336 "utilities/minils/dcoloring.ml" 81 3323 3337
+)
+"utilities/minils/dcoloring.ml" 83 3408 3436 "utilities/minils/dcoloring.ml" 83 3408 3452
+call(
+  tail
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 83 3408 3458 "utilities/minils/dcoloring.ml" 83 3408 3467
+type(
+  int
+)
+ident(
+  int_ref color_deg "utilities/minils/dcoloring.ml" 82 3340 3348 "utilities/minils/dcoloring.ml" 82 3340 3357
+)
+"utilities/minils/dcoloring.ml" 83 3408 3414 "utilities/minils/dcoloring.ml" 83 3408 3467
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 82 3340 3344 "utilities/minils/dcoloring.ml" 83 3408 3467
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 85 3469 3475 "utilities/minils/dcoloring.ml" 85 3469 3483
+type(
+  Interference_graph.G.t ->
+  Interference_graph.G.vertex ->
+  Interference_graph.G.vertex -> Interference_graph.G.vertex
+)
+ident(
+  def dsat_max "utilities/minils/dcoloring.ml" 91 3655 3657 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 85 3469 3484 "utilities/minils/dcoloring.ml" 85 3469 3485
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 89 3638 3653
+)
+"utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 85 3469 3488
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v1 "utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 89 3638 3653
+)
+"utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 85 3469 3491
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v2 "utilities/minils/dcoloring.ml" 86 3494 3498 "utilities/minils/dcoloring.ml" 89 3638 3653
+)
+"utilities/minils/dcoloring.ml" 86 3494 3504 "utilities/minils/dcoloring.ml" 86 3494 3511
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"utilities/minils/dcoloring.ml" 86 3494 3513 "utilities/minils/dcoloring.ml" 86 3494 3517
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  int_ref dsat "utilities/minils/dcoloring.ml" 81 3323 3329 "utilities/minils/dcoloring.ml" 81 3323 3333
+)
+"utilities/minils/dcoloring.ml" 86 3494 3518 "utilities/minils/dcoloring.ml" 86 3494 3519
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 85 3469 3484 "utilities/minils/dcoloring.ml" 85 3469 3485
+)
+"utilities/minils/dcoloring.ml" 86 3494 3520 "utilities/minils/dcoloring.ml" 86 3494 3522
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v1 "utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 85 3469 3488
+)
+"utilities/minils/dcoloring.ml" 86 3494 3512 "utilities/minils/dcoloring.ml" 86 3494 3523
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 86 3494 3525 "utilities/minils/dcoloring.ml" 86 3494 3529
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  int_ref dsat "utilities/minils/dcoloring.ml" 81 3323 3329 "utilities/minils/dcoloring.ml" 81 3323 3333
+)
+"utilities/minils/dcoloring.ml" 86 3494 3530 "utilities/minils/dcoloring.ml" 86 3494 3531
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 85 3469 3484 "utilities/minils/dcoloring.ml" 85 3469 3485
+)
+"utilities/minils/dcoloring.ml" 86 3494 3532 "utilities/minils/dcoloring.ml" 86 3494 3534
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v2 "utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 85 3469 3491
+)
+"utilities/minils/dcoloring.ml" 86 3494 3524 "utilities/minils/dcoloring.ml" 86 3494 3535
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 86 3494 3504 "utilities/minils/dcoloring.ml" 86 3494 3535
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 87 3541 3549 "utilities/minils/dcoloring.ml" 87 3541 3550
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 87 3541 3557 "utilities/minils/dcoloring.ml" 87 3541 3569
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.out_degree
+)
+"utilities/minils/dcoloring.ml" 87 3541 3570 "utilities/minils/dcoloring.ml" 87 3541 3571
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 85 3469 3484 "utilities/minils/dcoloring.ml" 85 3469 3485
+)
+"utilities/minils/dcoloring.ml" 87 3541 3572 "utilities/minils/dcoloring.ml" 87 3541 3574
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v1 "utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 85 3469 3488
+)
+"utilities/minils/dcoloring.ml" 87 3541 3557 "utilities/minils/dcoloring.ml" 87 3541 3574
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 87 3541 3575 "utilities/minils/dcoloring.ml" 87 3541 3576
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"utilities/minils/dcoloring.ml" 87 3541 3577 "utilities/minils/dcoloring.ml" 87 3541 3589
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.out_degree
+)
+"utilities/minils/dcoloring.ml" 87 3541 3590 "utilities/minils/dcoloring.ml" 87 3541 3591
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 85 3469 3484 "utilities/minils/dcoloring.ml" 85 3469 3485
+)
+"utilities/minils/dcoloring.ml" 87 3541 3592 "utilities/minils/dcoloring.ml" 87 3541 3594
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v2 "utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 85 3469 3491
+)
+"utilities/minils/dcoloring.ml" 87 3541 3577 "utilities/minils/dcoloring.ml" 87 3541 3594
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 87 3541 3557 "utilities/minils/dcoloring.ml" 87 3541 3594
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 87 3541 3600 "utilities/minils/dcoloring.ml" 87 3541 3602
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v1 "utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 85 3469 3488
+)
+"utilities/minils/dcoloring.ml" 87 3541 3608 "utilities/minils/dcoloring.ml" 87 3541 3610
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v2 "utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 85 3469 3491
+)
+"utilities/minils/dcoloring.ml" 87 3541 3554 "utilities/minils/dcoloring.ml" 87 3541 3610
+type(
+  Interference_graph.G.vertex
+)
+"utilities/minils/dcoloring.ml" 88 3611 3619 "utilities/minils/dcoloring.ml" 88 3611 3620
+type(
+  int
+)
+ident(
+  def x "utilities/minils/dcoloring.ml" 88 3611 3626 "utilities/minils/dcoloring.ml" 88 3611 3637
+)
+"utilities/minils/dcoloring.ml" 88 3611 3626 "utilities/minils/dcoloring.ml" 88 3611 3627
+type(
+  int
+)
+ident(
+  int_ref x "utilities/minils/dcoloring.ml" 88 3611 3619 "utilities/minils/dcoloring.ml" 88 3611 3620
+)
+"utilities/minils/dcoloring.ml" 88 3611 3628 "utilities/minils/dcoloring.ml" 88 3611 3629
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"utilities/minils/dcoloring.ml" 88 3611 3630 "utilities/minils/dcoloring.ml" 88 3611 3631
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 88 3611 3626 "utilities/minils/dcoloring.ml" 88 3611 3631
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 88 3611 3635 "utilities/minils/dcoloring.ml" 88 3611 3637
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v1 "utilities/minils/dcoloring.ml" 85 3469 3486 "utilities/minils/dcoloring.ml" 85 3469 3488
+)
+"utilities/minils/dcoloring.ml" 89 3638 3646 "utilities/minils/dcoloring.ml" 89 3638 3647
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 89 3638 3651 "utilities/minils/dcoloring.ml" 89 3638 3653
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v2 "utilities/minils/dcoloring.ml" 85 3469 3489 "utilities/minils/dcoloring.ml" 85 3469 3491
+)
+"utilities/minils/dcoloring.ml" 86 3494 3498 "utilities/minils/dcoloring.ml" 89 3638 3653
+type(
+  Interference_graph.G.vertex
+)
+"utilities/minils/dcoloring.ml" 91 3655 3661 "utilities/minils/dcoloring.ml" 91 3655 3679
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex list
+)
+ident(
+  def uncolored_vertices "utilities/minils/dcoloring.ml" 94 3764 3766 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 91 3655 3680 "utilities/minils/dcoloring.ml" 91 3655 3681
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 92 3684 3688 "utilities/minils/dcoloring.ml" 92 3684 3762
+)
+"utilities/minils/dcoloring.ml" 92 3684 3688 "utilities/minils/dcoloring.ml" 92 3684 3701
+type(
+  (Interference_graph.G.vertex ->
+   Interference_graph.G.vertex list -> Interference_graph.G.vertex list) ->
+  Interference_graph.G.t ->
+  Interference_graph.G.vertex list -> Interference_graph.G.vertex list
+)
+ident(
+  ext_ref Interference_graph.G.fold_vertex
+)
+"utilities/minils/dcoloring.ml" 92 3684 3707 "utilities/minils/dcoloring.ml" 92 3684 3708
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 92 3684 3709 "utilities/minils/dcoloring.ml" 92 3684 3756
+)
+"utilities/minils/dcoloring.ml" 92 3684 3709 "utilities/minils/dcoloring.ml" 92 3684 3712
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  def acc "utilities/minils/dcoloring.ml" 92 3684 3716 "utilities/minils/dcoloring.ml" 92 3684 3756
+)
+"utilities/minils/dcoloring.ml" 92 3684 3719 "utilities/minils/dcoloring.ml" 92 3684 3729
+type(
+  Interference_graph.G.Mark.vertex -> int
+)
+ident(
+  ext_ref Interference_graph.G.Mark.get
+)
+"utilities/minils/dcoloring.ml" 92 3684 3730 "utilities/minils/dcoloring.ml" 92 3684 3731
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 92 3684 3707 "utilities/minils/dcoloring.ml" 92 3684 3708
+)
+"utilities/minils/dcoloring.ml" 92 3684 3719 "utilities/minils/dcoloring.ml" 92 3684 3731
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 92 3684 3732 "utilities/minils/dcoloring.ml" 92 3684 3733
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utilities/minils/dcoloring.ml" 92 3684 3734 "utilities/minils/dcoloring.ml" 92 3684 3735
+type(
+  int
+)
+"utilities/minils/dcoloring.ml" 92 3684 3719 "utilities/minils/dcoloring.ml" 92 3684 3735
+type(
+  bool
+)
+"utilities/minils/dcoloring.ml" 92 3684 3741 "utilities/minils/dcoloring.ml" 92 3684 3742
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 92 3684 3707 "utilities/minils/dcoloring.ml" 92 3684 3708
+)
+"utilities/minils/dcoloring.ml" 92 3684 3744 "utilities/minils/dcoloring.ml" 92 3684 3747
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  int_ref acc "utilities/minils/dcoloring.ml" 92 3684 3709 "utilities/minils/dcoloring.ml" 92 3684 3712
+)
+"utilities/minils/dcoloring.ml" 92 3684 3741 "utilities/minils/dcoloring.ml" 92 3684 3747
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 92 3684 3753 "utilities/minils/dcoloring.ml" 92 3684 3756
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  int_ref acc "utilities/minils/dcoloring.ml" 92 3684 3709 "utilities/minils/dcoloring.ml" 92 3684 3712
+)
+"utilities/minils/dcoloring.ml" 92 3684 3716 "utilities/minils/dcoloring.ml" 92 3684 3756
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 92 3684 3702 "utilities/minils/dcoloring.ml" 92 3684 3757
+type(
+  Interference_graph.G.vertex ->
+  Interference_graph.G.vertex list -> Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 92 3684 3758 "utilities/minils/dcoloring.ml" 92 3684 3759
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 91 3655 3680 "utilities/minils/dcoloring.ml" 91 3655 3681
+)
+"utilities/minils/dcoloring.ml" 92 3684 3760 "utilities/minils/dcoloring.ml" 92 3684 3762
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 92 3684 3688 "utilities/minils/dcoloring.ml" 92 3684 3762
+call(
+  tail
+)
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 94 3764 3770 "utilities/minils/dcoloring.ml" 94 3764 3782
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> unit
+)
+ident(
+  def color_vertex "utilities/minils/dcoloring.ml" 98 3889 3891 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 94 3764 3783 "utilities/minils/dcoloring.ml" 94 3764 3784
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 94 3764 3785 "utilities/minils/dcoloring.ml" 96 3867 3887
+)
+"utilities/minils/dcoloring.ml" 94 3764 3785 "utilities/minils/dcoloring.ml" 94 3764 3786
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 95 3789 3793 "utilities/minils/dcoloring.ml" 96 3867 3887
+)
+"utilities/minils/dcoloring.ml" 95 3789 3797 "utilities/minils/dcoloring.ml" 95 3789 3798
+type(
+  ColorSet.elt
+)
+ident(
+  def c "utilities/minils/dcoloring.ml" 96 3867 3873 "utilities/minils/dcoloring.ml" 96 3867 3887
+)
+"utilities/minils/dcoloring.ml" 95 3789 3802 "utilities/minils/dcoloring.ml" 95 3789 3812
+type(
+  ColorSet.t -> ColorSet.t -> ColorSet.elt
+)
+ident(
+  int_ref pick_color "utilities/minils/dcoloring.ml" 74 3073 3079 "utilities/minils/dcoloring.ml" 74 3073 3089
+)
+"utilities/minils/dcoloring.ml" 95 3789 3814 "utilities/minils/dcoloring.ml" 95 3789 3820
+type(
+  Interference_graph.G.E.label ->
+  Interference_graph.G.t -> Interference_graph.G.vertex -> ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 53 2486 2492 "utilities/minils/dcoloring.ml" 53 2486 2498
+)
+"utilities/minils/dcoloring.ml" 95 3789 3821 "utilities/minils/dcoloring.ml" 95 3789 3834
+type(
+  Interference_graph.G.E.label
+)
+"utilities/minils/dcoloring.ml" 95 3789 3835 "utilities/minils/dcoloring.ml" 95 3789 3836
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 94 3764 3783 "utilities/minils/dcoloring.ml" 94 3764 3784
+)
+"utilities/minils/dcoloring.ml" 95 3789 3837 "utilities/minils/dcoloring.ml" 95 3789 3838
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 94 3764 3785 "utilities/minils/dcoloring.ml" 94 3764 3786
+)
+"utilities/minils/dcoloring.ml" 95 3789 3813 "utilities/minils/dcoloring.ml" 95 3789 3839
+call(
+  stack
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 95 3789 3841 "utilities/minils/dcoloring.ml" 95 3789 3847
+type(
+  Interference_graph.G.E.label ->
+  Interference_graph.G.t -> Interference_graph.G.vertex -> ColorSet.t
+)
+ident(
+  int_ref colors "utilities/minils/dcoloring.ml" 53 2486 2492 "utilities/minils/dcoloring.ml" 53 2486 2498
+)
+"utilities/minils/dcoloring.ml" 95 3789 3848 "utilities/minils/dcoloring.ml" 95 3789 3857
+type(
+  Interference_graph.G.E.label
+)
+"utilities/minils/dcoloring.ml" 95 3789 3858 "utilities/minils/dcoloring.ml" 95 3789 3859
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 94 3764 3783 "utilities/minils/dcoloring.ml" 94 3764 3784
+)
+"utilities/minils/dcoloring.ml" 95 3789 3860 "utilities/minils/dcoloring.ml" 95 3789 3861
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 94 3764 3785 "utilities/minils/dcoloring.ml" 94 3764 3786
+)
+"utilities/minils/dcoloring.ml" 95 3789 3840 "utilities/minils/dcoloring.ml" 95 3789 3862
+call(
+  stack
+)
+type(
+  ColorSet.t
+)
+"utilities/minils/dcoloring.ml" 95 3789 3801 "utilities/minils/dcoloring.ml" 95 3789 3863
+call(
+  stack
+)
+type(
+  ColorSet.elt
+)
+"utilities/minils/dcoloring.ml" 96 3867 3873 "utilities/minils/dcoloring.ml" 96 3867 3883
+type(
+  Interference_graph.G.Mark.vertex -> ColorSet.elt -> unit
+)
+ident(
+  ext_ref Interference_graph.G.Mark.set
+)
+"utilities/minils/dcoloring.ml" 96 3867 3884 "utilities/minils/dcoloring.ml" 96 3867 3885
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 94 3764 3785 "utilities/minils/dcoloring.ml" 94 3764 3786
+)
+"utilities/minils/dcoloring.ml" 96 3867 3886 "utilities/minils/dcoloring.ml" 96 3867 3887
+type(
+  ColorSet.elt
+)
+ident(
+  int_ref c "utilities/minils/dcoloring.ml" 95 3789 3797 "utilities/minils/dcoloring.ml" 95 3789 3798
+)
+"utilities/minils/dcoloring.ml" 96 3867 3873 "utilities/minils/dcoloring.ml" 96 3867 3887
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 95 3789 3793 "utilities/minils/dcoloring.ml" 96 3867 3887
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 98 3889 3899 "utilities/minils/dcoloring.ml" 98 3889 3913
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex list -> unit
+)
+ident(
+  def color_vertices "utilities/minils/dcoloring.ml" 98 3889 3891 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 98 3889 3914 "utilities/minils/dcoloring.ml" 98 3889 3915
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 98 3889 3916 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 98 3889 3916 "utilities/minils/dcoloring.ml" 98 3889 3924
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  def vertices "utilities/minils/dcoloring.ml" 98 3889 3927 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 98 3889 3933 "utilities/minils/dcoloring.ml" 98 3889 3941
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  int_ref vertices "utilities/minils/dcoloring.ml" 98 3889 3916 "utilities/minils/dcoloring.ml" 98 3889 3924
+)
+"utilities/minils/dcoloring.ml" 99 3947 3953 "utilities/minils/dcoloring.ml" 99 3947 3955
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 99 3947 3959 "utilities/minils/dcoloring.ml" 99 3947 3961
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 100 3962 3968 "utilities/minils/dcoloring.ml" 100 3962 3969
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 101 3983 3991 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 100 3962 3971 "utilities/minils/dcoloring.ml" 100 3962 3979
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  def vertices "utilities/minils/dcoloring.ml" 101 3983 3991 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 100 3962 3968 "utilities/minils/dcoloring.ml" 100 3962 3979
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 101 3983 3995 "utilities/minils/dcoloring.ml" 101 3983 3999
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def vmax "utilities/minils/dcoloring.ml" 102 4044 4054 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 101 3983 4002 "utilities/minils/dcoloring.ml" 101 3983 4016
+type(
+  (Interference_graph.G.vertex ->
+   Interference_graph.G.vertex -> Interference_graph.G.vertex) ->
+  Interference_graph.G.vertex ->
+  Interference_graph.G.vertex list -> Interference_graph.G.vertex
+)
+ident(
+  ext_ref List.fold_left
+)
+"utilities/minils/dcoloring.ml" 101 3983 4018 "utilities/minils/dcoloring.ml" 101 3983 4026
+type(
+  Interference_graph.G.t ->
+  Interference_graph.G.vertex ->
+  Interference_graph.G.vertex -> Interference_graph.G.vertex
+)
+ident(
+  int_ref dsat_max "utilities/minils/dcoloring.ml" 85 3469 3475 "utilities/minils/dcoloring.ml" 85 3469 3483
+)
+"utilities/minils/dcoloring.ml" 101 3983 4027 "utilities/minils/dcoloring.ml" 101 3983 4028
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 98 3889 3914 "utilities/minils/dcoloring.ml" 98 3889 3915
+)
+"utilities/minils/dcoloring.ml" 101 3983 4017 "utilities/minils/dcoloring.ml" 101 3983 4029
+call(
+  stack
+)
+type(
+  Interference_graph.G.vertex ->
+  Interference_graph.G.vertex -> Interference_graph.G.vertex
+)
+"utilities/minils/dcoloring.ml" 101 3983 4030 "utilities/minils/dcoloring.ml" 101 3983 4031
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 100 3962 3968 "utilities/minils/dcoloring.ml" 100 3962 3969
+)
+"utilities/minils/dcoloring.ml" 101 3983 4032 "utilities/minils/dcoloring.ml" 101 3983 4040
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  int_ref vertices "utilities/minils/dcoloring.ml" 100 3962 3971 "utilities/minils/dcoloring.ml" 100 3962 3979
+)
+"utilities/minils/dcoloring.ml" 101 3983 4002 "utilities/minils/dcoloring.ml" 101 3983 4040
+call(
+  stack
+)
+type(
+  Interference_graph.G.vertex
+)
+"utilities/minils/dcoloring.ml" 102 4044 4054 "utilities/minils/dcoloring.ml" 102 4044 4066
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex -> unit
+)
+ident(
+  int_ref color_vertex "utilities/minils/dcoloring.ml" 94 3764 3770 "utilities/minils/dcoloring.ml" 94 3764 3782
+)
+"utilities/minils/dcoloring.ml" 102 4044 4067 "utilities/minils/dcoloring.ml" 102 4044 4068
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 98 3889 3914 "utilities/minils/dcoloring.ml" 98 3889 3915
+)
+"utilities/minils/dcoloring.ml" 102 4044 4069 "utilities/minils/dcoloring.ml" 102 4044 4073
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref vmax "utilities/minils/dcoloring.ml" 101 3983 3995 "utilities/minils/dcoloring.ml" 101 3983 3999
+)
+"utilities/minils/dcoloring.ml" 102 4044 4054 "utilities/minils/dcoloring.ml" 102 4044 4073
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 103 4075 4089 "utilities/minils/dcoloring.ml" 103 4075 4097
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  def vertices "utilities/minils/dcoloring.ml" 104 4132 4144 "utilities/minils/dcoloring.ml" 104 4132 4169
+)
+"utilities/minils/dcoloring.ml" 103 4075 4100 "utilities/minils/dcoloring.ml" 103 4075 4114
+type(
+  Interference_graph.G.Mark.vertex list ->
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref remove_colored "utilities/minils/dcoloring.ml" 49 2360 2370 "utilities/minils/dcoloring.ml" 49 2360 2384
+)
+"utilities/minils/dcoloring.ml" 103 4075 4116 "utilities/minils/dcoloring.ml" 103 4075 4117
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 100 3962 3968 "utilities/minils/dcoloring.ml" 100 3962 3969
+)
+"utilities/minils/dcoloring.ml" 103 4075 4119 "utilities/minils/dcoloring.ml" 103 4075 4127
+type(
+  Interference_graph.G.Mark.vertex list
+)
+ident(
+  int_ref vertices "utilities/minils/dcoloring.ml" 100 3962 3971 "utilities/minils/dcoloring.ml" 100 3962 3979
+)
+"utilities/minils/dcoloring.ml" 103 4075 4115 "utilities/minils/dcoloring.ml" 103 4075 4128
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 103 4075 4100 "utilities/minils/dcoloring.ml" 103 4075 4128
+call(
+  stack
+)
+type(
+  Interference_graph.G.Mark.vertex list
+)
+"utilities/minils/dcoloring.ml" 104 4132 4144 "utilities/minils/dcoloring.ml" 104 4132 4158
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex list -> unit
+)
+ident(
+  int_ref color_vertices "utilities/minils/dcoloring.ml" 98 3889 3899 "utilities/minils/dcoloring.ml" 98 3889 3913
+)
+"utilities/minils/dcoloring.ml" 104 4132 4159 "utilities/minils/dcoloring.ml" 104 4132 4160
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 98 3889 3914 "utilities/minils/dcoloring.ml" 98 3889 3915
+)
+"utilities/minils/dcoloring.ml" 104 4132 4161 "utilities/minils/dcoloring.ml" 104 4132 4169
+type(
+  Interference_graph.G.vertex list
+)
+ident(
+  int_ref vertices "utilities/minils/dcoloring.ml" 103 4075 4089 "utilities/minils/dcoloring.ml" 103 4075 4097
+)
+"utilities/minils/dcoloring.ml" 104 4132 4144 "utilities/minils/dcoloring.ml" 104 4132 4169
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 103 4075 4085 "utilities/minils/dcoloring.ml" 104 4132 4169
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 102 4044 4054 "utilities/minils/dcoloring.ml" 104 4132 4169
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 101 3983 3991 "utilities/minils/dcoloring.ml" 104 4132 4169
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 98 3889 3927 "utilities/minils/dcoloring.ml" 104 4132 4169
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 106 4171 4177 "utilities/minils/dcoloring.ml" 106 4171 4185
+type(
+  Interference_graph.G.t -> unit
+)
+ident(
+  def coloring "utilities/minils/dcoloring.ml" 107 4190 4233 "utilities/minils/dcoloring.ml" 108 4234 4237
+)
+"utilities/minils/dcoloring.ml" 106 4171 4186 "utilities/minils/dcoloring.ml" 106 4171 4187
+type(
+  Interference_graph.G.t
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 107 4190 4194 "utilities/minils/dcoloring.ml" 107 4190 4233
+)
+"utilities/minils/dcoloring.ml" 107 4190 4194 "utilities/minils/dcoloring.ml" 107 4190 4208
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex list -> unit
+)
+ident(
+  int_ref color_vertices "utilities/minils/dcoloring.ml" 98 3889 3899 "utilities/minils/dcoloring.ml" 98 3889 3913
+)
+"utilities/minils/dcoloring.ml" 107 4190 4209 "utilities/minils/dcoloring.ml" 107 4190 4210
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 106 4171 4186 "utilities/minils/dcoloring.ml" 106 4171 4187
+)
+"utilities/minils/dcoloring.ml" 107 4190 4212 "utilities/minils/dcoloring.ml" 107 4190 4230
+type(
+  Interference_graph.G.t -> Interference_graph.G.vertex list
+)
+ident(
+  int_ref uncolored_vertices "utilities/minils/dcoloring.ml" 91 3655 3661 "utilities/minils/dcoloring.ml" 91 3655 3679
+)
+"utilities/minils/dcoloring.ml" 107 4190 4231 "utilities/minils/dcoloring.ml" 107 4190 4232
+type(
+  Interference_graph.G.t
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 106 4171 4186 "utilities/minils/dcoloring.ml" 106 4171 4187
+)
+"utilities/minils/dcoloring.ml" 107 4190 4211 "utilities/minils/dcoloring.ml" 107 4190 4233
+call(
+  stack
+)
+type(
+  Interference_graph.G.vertex list
+)
+"utilities/minils/dcoloring.ml" 107 4190 4194 "utilities/minils/dcoloring.ml" 107 4190 4233
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/minils/dcoloring.ml" 110 4239 4243 "utilities/minils/dcoloring.ml" 110 4239 4258
+type(
+  Interference_graph.interference_graph -> Interference_graph.ivar list list
+)
+ident(
+  def values_by_color "utilities/minils/dcoloring.ml" 117 4448 4448 "utilities/minils/dcoloring.ml" 1 0 -1
+)
+"utilities/minils/dcoloring.ml" 110 4239 4259 "utilities/minils/dcoloring.ml" 110 4239 4260
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 111 4263 4265 "utilities/minils/dcoloring.ml" 115 4398 4446
+)
+"utilities/minils/dcoloring.ml" 111 4263 4269 "utilities/minils/dcoloring.ml" 111 4263 4272
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  def env "utilities/minils/dcoloring.ml" 115 4398 4402 "utilities/minils/dcoloring.ml" 115 4398 4446
+)
+"utilities/minils/dcoloring.ml" 111 4263 4275 "utilities/minils/dcoloring.ml" 111 4263 4288
+type(
+  (Interference_graph.G.vertex ->
+   Interference_graph.ivar list ColorEnv.t ->
+   Interference_graph.ivar list ColorEnv.t) ->
+  Interference_graph.G.t ->
+  Interference_graph.ivar list ColorEnv.t ->
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  ext_ref Interference_graph.G.fold_vertex
+)
+"utilities/minils/dcoloring.ml" 112 4289 4298 "utilities/minils/dcoloring.ml" 112 4289 4299
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  def n "utilities/minils/dcoloring.ml" 112 4289 4300 "utilities/minils/dcoloring.ml" 112 4289 4362
+)
+"utilities/minils/dcoloring.ml" 112 4289 4300 "utilities/minils/dcoloring.ml" 112 4289 4303
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  def env "utilities/minils/dcoloring.ml" 112 4289 4307 "utilities/minils/dcoloring.ml" 112 4289 4362
+)
+"utilities/minils/dcoloring.ml" 112 4289 4307 "utilities/minils/dcoloring.ml" 112 4289 4328
+type(
+  ColorEnv.key ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list ColorEnv.t ->
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  ext_ref ColorEnv.add_elements
+)
+"utilities/minils/dcoloring.ml" 112 4289 4330 "utilities/minils/dcoloring.ml" 112 4289 4340
+type(
+  Interference_graph.G.Mark.vertex -> ColorEnv.key
+)
+ident(
+  ext_ref Interference_graph.G.Mark.get
+)
+"utilities/minils/dcoloring.ml" 112 4289 4341 "utilities/minils/dcoloring.ml" 112 4289 4342
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref n "utilities/minils/dcoloring.ml" 112 4289 4298 "utilities/minils/dcoloring.ml" 112 4289 4299
+)
+"utilities/minils/dcoloring.ml" 112 4289 4329 "utilities/minils/dcoloring.ml" 112 4289 4343
+call(
+  stack
+)
+type(
+  ColorEnv.key
+)
+"utilities/minils/dcoloring.ml" 112 4289 4344 "utilities/minils/dcoloring.ml" 112 4289 4345
+type(
+  Interference_graph.G.V.label -> Interference_graph.ivar list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/minils/dcoloring.ml" 112 4289 4346 "utilities/minils/dcoloring.ml" 112 4289 4355
+type(
+  Interference_graph.G.V.t -> Interference_graph.G.V.label
+)
+ident(
+  ext_ref Interference_graph.G.V.label
+)
+"utilities/minils/dcoloring.ml" 112 4289 4356 "utilities/minils/dcoloring.ml" 112 4289 4357
+type(
+  Interference_graph.G.vertex
+)
+ident(
+  int_ref n "utilities/minils/dcoloring.ml" 112 4289 4298 "utilities/minils/dcoloring.ml" 112 4289 4299
+)
+"utilities/minils/dcoloring.ml" 112 4289 4345 "utilities/minils/dcoloring.ml" 112 4289 4358
+call(
+  stack
+)
+type(
+  Interference_graph.G.V.label
+)
+"utilities/minils/dcoloring.ml" 112 4289 4344 "utilities/minils/dcoloring.ml" 112 4289 4358
+type(
+  Interference_graph.ivar list
+)
+"utilities/minils/dcoloring.ml" 112 4289 4359 "utilities/minils/dcoloring.ml" 112 4289 4362
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  int_ref env "utilities/minils/dcoloring.ml" 112 4289 4300 "utilities/minils/dcoloring.ml" 112 4289 4303
+)
+"utilities/minils/dcoloring.ml" 112 4289 4307 "utilities/minils/dcoloring.ml" 112 4289 4362
+call(
+  tail
+)
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+"utilities/minils/dcoloring.ml" 112 4289 4293 "utilities/minils/dcoloring.ml" 112 4289 4363
+type(
+  Interference_graph.G.vertex ->
+  Interference_graph.ivar list ColorEnv.t ->
+  Interference_graph.ivar list ColorEnv.t
+)
+"utilities/minils/dcoloring.ml" 113 4364 4368 "utilities/minils/dcoloring.ml" 113 4364 4369
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 110 4239 4259 "utilities/minils/dcoloring.ml" 110 4239 4260
+)
+"utilities/minils/dcoloring.ml" 113 4364 4368 "utilities/minils/dcoloring.ml" 113 4364 4377
+type(
+  Interference_graph.G.t
+)
+"utilities/minils/dcoloring.ml" 113 4364 4378 "utilities/minils/dcoloring.ml" 113 4364 4392
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  ext_ref ColorEnv.empty
+)
+"utilities/minils/dcoloring.ml" 111 4263 4275 "utilities/minils/dcoloring.ml" 113 4364 4392
+call(
+  stack
+)
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+"utilities/minils/dcoloring.ml" 115 4398 4402 "utilities/minils/dcoloring.ml" 115 4398 4415
+type(
+  (ColorEnv.key ->
+   Interference_graph.ivar list ->
+   Interference_graph.ivar list list -> Interference_graph.ivar list list) ->
+  Interference_graph.ivar list ColorEnv.t ->
+  Interference_graph.ivar list list -> Interference_graph.ivar list list
+)
+ident(
+  ext_ref ColorEnv.fold
+)
+"utilities/minils/dcoloring.ml" 115 4398 4421 "utilities/minils/dcoloring.ml" 115 4398 4422
+type(
+  ColorEnv.key
+)
+"utilities/minils/dcoloring.ml" 115 4398 4423 "utilities/minils/dcoloring.ml" 115 4398 4424
+type(
+  Interference_graph.ivar list
+)
+ident(
+  def v "utilities/minils/dcoloring.ml" 115 4398 4425 "utilities/minils/dcoloring.ml" 115 4398 4438
+)
+"utilities/minils/dcoloring.ml" 115 4398 4425 "utilities/minils/dcoloring.ml" 115 4398 4428
+type(
+  Interference_graph.ivar list list
+)
+ident(
+  def acc "utilities/minils/dcoloring.ml" 115 4398 4432 "utilities/minils/dcoloring.ml" 115 4398 4438
+)
+"utilities/minils/dcoloring.ml" 115 4398 4432 "utilities/minils/dcoloring.ml" 115 4398 4433
+type(
+  Interference_graph.ivar list
+)
+ident(
+  int_ref v "utilities/minils/dcoloring.ml" 115 4398 4423 "utilities/minils/dcoloring.ml" 115 4398 4424
+)
+"utilities/minils/dcoloring.ml" 115 4398 4435 "utilities/minils/dcoloring.ml" 115 4398 4438
+type(
+  Interference_graph.ivar list list
+)
+ident(
+  int_ref acc "utilities/minils/dcoloring.ml" 115 4398 4425 "utilities/minils/dcoloring.ml" 115 4398 4428
+)
+"utilities/minils/dcoloring.ml" 115 4398 4432 "utilities/minils/dcoloring.ml" 115 4398 4438
+type(
+  Interference_graph.ivar list list
+)
+"utilities/minils/dcoloring.ml" 115 4398 4416 "utilities/minils/dcoloring.ml" 115 4398 4439
+type(
+  ColorEnv.key ->
+  Interference_graph.ivar list ->
+  Interference_graph.ivar list list -> Interference_graph.ivar list list
+)
+"utilities/minils/dcoloring.ml" 115 4398 4440 "utilities/minils/dcoloring.ml" 115 4398 4443
+type(
+  Interference_graph.ivar list ColorEnv.t
+)
+ident(
+  int_ref env "utilities/minils/dcoloring.ml" 111 4263 4269 "utilities/minils/dcoloring.ml" 111 4263 4272
+)
+"utilities/minils/dcoloring.ml" 115 4398 4444 "utilities/minils/dcoloring.ml" 115 4398 4446
+type(
+  Interference_graph.ivar list list
+)
+"utilities/minils/dcoloring.ml" 115 4398 4402 "utilities/minils/dcoloring.ml" 115 4398 4446
+call(
+  tail
+)
+type(
+  Interference_graph.ivar list list
+)
+"utilities/minils/dcoloring.ml" 111 4263 4265 "utilities/minils/dcoloring.ml" 115 4398 4446
+type(
+  Interference_graph.ivar list list
+)
+"utilities/minils/dcoloring.ml" 117 4448 4452 "utilities/minils/dcoloring.ml" 117 4448 4457
+type(
+  Interference_graph.interference_graph -> unit
+)
+ident(
+  def color "utilities/minils/dcoloring.ml" 118 4462 4489 "utilities/minils/dcoloring.ml" 1 0 -1
+)
+"utilities/minils/dcoloring.ml" 117 4448 4458 "utilities/minils/dcoloring.ml" 117 4448 4459
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  def g "utilities/minils/dcoloring.ml" 118 4462 4464 "utilities/minils/dcoloring.ml" 118 4462 4489
+)
+"utilities/minils/dcoloring.ml" 118 4462 4464 "utilities/minils/dcoloring.ml" 118 4462 4479
+type(
+  Interference_graph.G.t -> unit
+)
+ident(
+  int_ref Dsatur.coloring "utilities/minils/dcoloring.ml" 106 4171 4177 "utilities/minils/dcoloring.ml" 106 4171 4185
+)
+"utilities/minils/dcoloring.ml" 118 4462 4480 "utilities/minils/dcoloring.ml" 118 4462 4481
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  int_ref g "utilities/minils/dcoloring.ml" 117 4448 4458 "utilities/minils/dcoloring.ml" 117 4448 4459
+)
+"utilities/minils/dcoloring.ml" 118 4462 4480 "utilities/minils/dcoloring.ml" 118 4462 4489
+type(
+  Interference_graph.G.t
+)
+"utilities/minils/dcoloring.ml" 118 4462 4464 "utilities/minils/dcoloring.ml" 118 4462 4489
+call(
+  tail
+)
+type(
+  unit
+)

@@ -1,0 +1,584 @@
+"obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+type(
+  Obc.program -> unit
+)
+ident(
+  def pp "obc/main/obc_compiler.ml" 34 2171 2171 "obc/main/obc_compiler.ml" 1 0 -1
+)
+"obc/main/obc_compiler.ml" 32 2115 2122 "obc/main/obc_compiler.ml" 32 2115 2123
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 32 2115 2126 "obc/main/obc_compiler.ml" 32 2115 2169
+)
+"obc/main/obc_compiler.ml" 32 2115 2129 "obc/main/obc_compiler.ml" 32 2115 2130
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 32 2115 2130 "obc/main/obc_compiler.ml" 32 2115 2137
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.verbose
+)
+"obc/main/obc_compiler.ml" 32 2115 2129 "obc/main/obc_compiler.ml" 32 2115 2137
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 32 2115 2143 "obc/main/obc_compiler.ml" 32 2115 2160
+type(
+  out_channel -> Obc.program -> unit
+)
+ident(
+  ext_ref Obc_printer.print
+)
+"obc/main/obc_compiler.ml" 32 2115 2161 "obc/main/obc_compiler.ml" 32 2115 2167
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"obc/main/obc_compiler.ml" 32 2115 2168 "obc/main/obc_compiler.ml" 32 2115 2169
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 32 2115 2122 "obc/main/obc_compiler.ml" 32 2115 2123
+)
+"obc/main/obc_compiler.ml" 32 2115 2143 "obc/main/obc_compiler.ml" 32 2115 2169
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/main/obc_compiler.ml" 32 2115 2126 "obc/main/obc_compiler.ml" 32 2115 2169
+type(
+  unit
+)
+"obc/main/obc_compiler.ml" 34 2171 2175 "obc/main/obc_compiler.ml" 34 2171 2190
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  def compile_program "obc/main/obc_compiler.ml" 57 2900 2903 "obc/main/obc_compiler.ml" 1 0 -1
+)
+"obc/main/obc_compiler.ml" 34 2171 2191 "obc/main/obc_compiler.ml" 34 2171 2192
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 37 2234 2236 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 37 2234 2240 "obc/main/obc_compiler.ml" 37 2234 2241
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 41 2394 2396 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 37 2234 2244 "obc/main/obc_compiler.ml" 37 2234 2248
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 37 2234 2249 "obc/main/obc_compiler.ml" 37 2234 2283
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 38 2284 2289 "obc/main/obc_compiler.ml" 38 2284 2290
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 38 2284 2290 "obc/main/obc_compiler.ml" 38 2284 2302
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_mem_alloc
+)
+"obc/main/obc_compiler.ml" 38 2284 2289 "obc/main/obc_compiler.ml" 38 2284 2302
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 38 2284 2303 "obc/main/obc_compiler.ml" 38 2284 2305
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/main/obc_compiler.ml" 38 2284 2306 "obc/main/obc_compiler.ml" 38 2284 2307
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 38 2284 2307 "obc/main/obc_compiler.ml" 38 2284 2323
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_linear_typing
+)
+"obc/main/obc_compiler.ml" 38 2284 2306 "obc/main/obc_compiler.ml" 38 2284 2323
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 38 2284 2288 "obc/main/obc_compiler.ml" 38 2284 2324
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 38 2284 2325 "obc/main/obc_compiler.ml" 38 2284 2347
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Memalloc_apply.program
+)
+"obc/main/obc_compiler.ml" 38 2284 2348 "obc/main/obc_compiler.ml" 38 2284 2349
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 34 2171 2191 "obc/main/obc_compiler.ml" 34 2171 2192
+)
+"obc/main/obc_compiler.ml" 38 2284 2350 "obc/main/obc_compiler.ml" 38 2284 2352
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 37 2234 2244 "obc/main/obc_compiler.ml" 38 2284 2352
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 41 2394 2400 "obc/main/obc_compiler.ml" 41 2394 2401
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 44 2479 2481 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 41 2394 2404 "obc/main/obc_compiler.ml" 41 2394 2408
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 41 2394 2409 "obc/main/obc_compiler.ml" 41 2394 2420
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 41 2394 2422 "obc/main/obc_compiler.ml" 41 2394 2423
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 41 2394 2423 "obc/main/obc_compiler.ml" 41 2394 2435
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_scalarize
+)
+"obc/main/obc_compiler.ml" 41 2394 2421 "obc/main/obc_compiler.ml" 41 2394 2436
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 41 2394 2437 "obc/main/obc_compiler.ml" 41 2394 2454
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Scalarize.program
+)
+"obc/main/obc_compiler.ml" 41 2394 2455 "obc/main/obc_compiler.ml" 41 2394 2456
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 37 2234 2240 "obc/main/obc_compiler.ml" 37 2234 2241
+)
+"obc/main/obc_compiler.ml" 41 2394 2457 "obc/main/obc_compiler.ml" 41 2394 2459
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 41 2394 2404 "obc/main/obc_compiler.ml" 41 2394 2459
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 44 2479 2485 "obc/main/obc_compiler.ml" 44 2479 2486
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 47 2570 2572 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 44 2479 2489 "obc/main/obc_compiler.ml" 44 2479 2493
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 44 2479 2494 "obc/main/obc_compiler.ml" 44 2479 2504
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 44 2479 2506 "obc/main/obc_compiler.ml" 44 2479 2507
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 44 2479 2507 "obc/main/obc_compiler.ml" 44 2479 2518
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_simplify
+)
+"obc/main/obc_compiler.ml" 44 2479 2505 "obc/main/obc_compiler.ml" 44 2479 2519
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 44 2479 2520 "obc/main/obc_compiler.ml" 44 2479 2536
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Simplify.program
+)
+"obc/main/obc_compiler.ml" 44 2479 2537 "obc/main/obc_compiler.ml" 44 2479 2538
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 41 2394 2400 "obc/main/obc_compiler.ml" 41 2394 2401
+)
+"obc/main/obc_compiler.ml" 44 2479 2539 "obc/main/obc_compiler.ml" 44 2479 2541
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 44 2479 2489 "obc/main/obc_compiler.ml" 44 2479 2541
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 47 2570 2576 "obc/main/obc_compiler.ml" 47 2570 2577
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 52 2724 2726 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 47 2570 2580 "obc/main/obc_compiler.ml" 47 2570 2584
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 47 2570 2585 "obc/main/obc_compiler.ml" 47 2570 2604
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 48 2605 2614 "obc/main/obc_compiler.ml" 48 2605 2615
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 48 2605 2615 "obc/main/obc_compiler.ml" 48 2605 2627
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_mem_alloc
+)
+"obc/main/obc_compiler.ml" 48 2605 2614 "obc/main/obc_compiler.ml" 48 2605 2627
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 48 2605 2628 "obc/main/obc_compiler.ml" 48 2605 2630
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/main/obc_compiler.ml" 48 2605 2631 "obc/main/obc_compiler.ml" 48 2605 2632
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 48 2605 2632 "obc/main/obc_compiler.ml" 48 2605 2648
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.do_linear_typing
+)
+"obc/main/obc_compiler.ml" 48 2605 2631 "obc/main/obc_compiler.ml" 48 2605 2648
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 48 2605 2649 "obc/main/obc_compiler.ml" 48 2605 2651
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/main/obc_compiler.ml" 48 2605 2652 "obc/main/obc_compiler.ml" 48 2605 2653
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 48 2605 2653 "obc/main/obc_compiler.ml" 48 2605 2661
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.deadcode
+)
+"obc/main/obc_compiler.ml" 48 2605 2652 "obc/main/obc_compiler.ml" 48 2605 2661
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 48 2605 2631 "obc/main/obc_compiler.ml" 48 2605 2661
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 48 2605 2613 "obc/main/obc_compiler.ml" 48 2605 2662
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 49 2663 2671 "obc/main/obc_compiler.ml" 49 2663 2687
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Deadcode.program
+)
+"obc/main/obc_compiler.ml" 49 2663 2688 "obc/main/obc_compiler.ml" 49 2663 2689
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 44 2479 2485 "obc/main/obc_compiler.ml" 44 2479 2486
+)
+"obc/main/obc_compiler.ml" 49 2663 2690 "obc/main/obc_compiler.ml" 49 2663 2692
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 47 2570 2580 "obc/main/obc_compiler.ml" 49 2663 2692
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 52 2724 2730 "obc/main/obc_compiler.ml" 52 2724 2731
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 55 2813 2815 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 52 2724 2734 "obc/main/obc_compiler.ml" 52 2724 2738
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 52 2724 2739 "obc/main/obc_compiler.ml" 52 2724 2761
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 52 2724 2762 "obc/main/obc_compiler.ml" 52 2724 2766
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 52 2724 2767 "obc/main/obc_compiler.ml" 52 2724 2782
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Control.program
+)
+"obc/main/obc_compiler.ml" 52 2724 2783 "obc/main/obc_compiler.ml" 52 2724 2784
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 47 2570 2576 "obc/main/obc_compiler.ml" 47 2570 2577
+)
+"obc/main/obc_compiler.ml" 52 2724 2785 "obc/main/obc_compiler.ml" 52 2724 2787
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 52 2724 2734 "obc/main/obc_compiler.ml" 52 2724 2787
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 55 2813 2819 "obc/main/obc_compiler.ml" 55 2813 2820
+type(
+  Obc.program
+)
+ident(
+  def p "obc/main/obc_compiler.ml" 57 2900 2902 "obc/main/obc_compiler.ml" 57 2900 2903
+)
+"obc/main/obc_compiler.ml" 55 2813 2823 "obc/main/obc_compiler.ml" 55 2813 2827
+type(
+  string ->
+  bool ->
+  (Obc.program -> Obc.program) ->
+  Obc.program -> (Obc.program -> unit) -> Obc.program
+)
+ident(
+  ext_ref Compiler_utils.pass
+)
+"obc/main/obc_compiler.ml" 55 2813 2828 "obc/main/obc_compiler.ml" 55 2813 2844
+type(
+  string
+)
+"obc/main/obc_compiler.ml" 55 2813 2845 "obc/main/obc_compiler.ml" 55 2813 2846
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/main/obc_compiler.ml" 55 2813 2846 "obc/main/obc_compiler.ml" 55 2813 2875
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.unroll_loops
+)
+"obc/main/obc_compiler.ml" 55 2813 2845 "obc/main/obc_compiler.ml" 55 2813 2875
+type(
+  bool
+)
+"obc/main/obc_compiler.ml" 55 2813 2876 "obc/main/obc_compiler.ml" 55 2813 2890
+type(
+  Obc.program -> Obc.program
+)
+ident(
+  ext_ref Unroll.program
+)
+"obc/main/obc_compiler.ml" 55 2813 2891 "obc/main/obc_compiler.ml" 55 2813 2892
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 52 2724 2730 "obc/main/obc_compiler.ml" 52 2724 2731
+)
+"obc/main/obc_compiler.ml" 55 2813 2893 "obc/main/obc_compiler.ml" 55 2813 2895
+type(
+  Obc.program -> unit
+)
+ident(
+  int_ref pp "obc/main/obc_compiler.ml" 32 2115 2119 "obc/main/obc_compiler.ml" 32 2115 2121
+)
+"obc/main/obc_compiler.ml" 55 2813 2823 "obc/main/obc_compiler.ml" 55 2813 2895
+call(
+  stack
+)
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 57 2900 2902 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/main/obc_compiler.ml" 55 2813 2819 "obc/main/obc_compiler.ml" 55 2813 2820
+)
+"obc/main/obc_compiler.ml" 55 2813 2815 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 52 2724 2726 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 47 2570 2572 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 44 2479 2481 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 41 2394 2396 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)
+"obc/main/obc_compiler.ml" 37 2234 2236 "obc/main/obc_compiler.ml" 57 2900 2903
+type(
+  Obc.program
+)

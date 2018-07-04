@@ -1,0 +1,1118 @@
+"heptagon/transformations/completion.ml" 43 2432 2436 "heptagon/transformations/completion.ml" 43 2432 2449
+type(
+  'a ->
+  'b -> Heptagon.block -> Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def block_collect "heptagon/transformations/completion.ml" 46 2477 2477 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 43 2432 2450 "heptagon/transformations/completion.ml" 43 2432 2451
+type(
+  'a
+)
+"heptagon/transformations/completion.ml" 43 2432 2452 "heptagon/transformations/completion.ml" 43 2432 2453
+type(
+  'b
+)
+"heptagon/transformations/completion.ml" 43 2432 2454 "heptagon/transformations/completion.ml" 43 2432 2455
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/completion.ml" 44 2458 2460 "heptagon/transformations/completion.ml" 44 2458 2475
+)
+"heptagon/transformations/completion.ml" 44 2458 2460 "heptagon/transformations/completion.ml" 44 2458 2461
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 43 2432 2454 "heptagon/transformations/completion.ml" 43 2432 2455
+)
+"heptagon/transformations/completion.ml" 44 2458 2463 "heptagon/transformations/completion.ml" 44 2458 2464
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 43 2432 2454 "heptagon/transformations/completion.ml" 43 2432 2455
+)
+"heptagon/transformations/completion.ml" 44 2458 2463 "heptagon/transformations/completion.ml" 44 2458 2475
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 44 2458 2460 "heptagon/transformations/completion.ml" 44 2458 2475
+type(
+  Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 46 2477 2481 "heptagon/transformations/completion.ml" 46 2477 2487
+type(
+  ('a -> 'b Idents.Env.t -> 'c -> 'd * 'e Idents.Env.t) ->
+  'a -> 'e Idents.Env.t -> 'c -> 'd * 'e Idents.Env.t
+)
+ident(
+  def gather "heptagon/transformations/completion.ml" 54 2786 2786 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 46 2477 2488 "heptagon/transformations/completion.ml" 46 2477 2489
+type(
+  'a -> 'b Idents.Env.t -> 'c -> 'd * 'e Idents.Env.t
+)
+ident(
+  def f "heptagon/transformations/completion.ml" 46 2477 2490 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 46 2477 2490 "heptagon/transformations/completion.ml" 46 2477 2494
+type(
+  'a
+)
+ident(
+  def funs "heptagon/transformations/completion.ml" 46 2477 2495 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 46 2477 2495 "heptagon/transformations/completion.ml" 46 2477 2498
+type(
+  'e Idents.Env.t
+)
+ident(
+  def env "heptagon/transformations/completion.ml" 46 2477 2499 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 46 2477 2499 "heptagon/transformations/completion.ml" 46 2477 2500
+type(
+  'c
+)
+ident(
+  def x "heptagon/transformations/completion.ml" 47 2503 2505 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 47 2503 2509 "heptagon/transformations/completion.ml" 47 2503 2510
+type(
+  'd
+)
+ident(
+  def x "heptagon/transformations/completion.ml" 48 2544 2546 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 47 2503 2512 "heptagon/transformations/completion.ml" 47 2503 2519
+type(
+  'e Idents.Env.t
+)
+ident(
+  def new_env "heptagon/transformations/completion.ml" 48 2544 2546 "heptagon/transformations/completion.ml" 48 2544 2570
+)
+"heptagon/transformations/completion.ml" 47 2503 2509 "heptagon/transformations/completion.ml" 47 2503 2519
+type(
+  'd * 'e Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 47 2503 2522 "heptagon/transformations/completion.ml" 47 2503 2523
+type(
+  'a -> 'b Idents.Env.t -> 'c -> 'd * 'e Idents.Env.t
+)
+ident(
+  int_ref f "heptagon/transformations/completion.ml" 46 2477 2488 "heptagon/transformations/completion.ml" 46 2477 2489
+)
+"heptagon/transformations/completion.ml" 47 2503 2524 "heptagon/transformations/completion.ml" 47 2503 2528
+type(
+  'a
+)
+ident(
+  int_ref funs "heptagon/transformations/completion.ml" 46 2477 2490 "heptagon/transformations/completion.ml" 46 2477 2494
+)
+"heptagon/transformations/completion.ml" 47 2503 2529 "heptagon/transformations/completion.ml" 47 2503 2538
+type(
+  'b Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/completion.ml" 47 2503 2539 "heptagon/transformations/completion.ml" 47 2503 2540
+type(
+  'c
+)
+ident(
+  int_ref x "heptagon/transformations/completion.ml" 46 2477 2499 "heptagon/transformations/completion.ml" 46 2477 2500
+)
+"heptagon/transformations/completion.ml" 47 2503 2522 "heptagon/transformations/completion.ml" 47 2503 2540
+call(
+  stack
+)
+type(
+  'd * 'e Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 48 2544 2546 "heptagon/transformations/completion.ml" 48 2544 2547
+type(
+  'd
+)
+ident(
+  int_ref x "heptagon/transformations/completion.ml" 47 2503 2509 "heptagon/transformations/completion.ml" 47 2503 2510
+)
+"heptagon/transformations/completion.ml" 48 2544 2549 "heptagon/transformations/completion.ml" 48 2544 2558
+type(
+  'e Idents.Env.t -> 'e Idents.Env.t -> 'e Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.union
+)
+"heptagon/transformations/completion.ml" 48 2544 2559 "heptagon/transformations/completion.ml" 48 2544 2566
+type(
+  'e Idents.Env.t
+)
+ident(
+  int_ref new_env "heptagon/transformations/completion.ml" 47 2503 2512 "heptagon/transformations/completion.ml" 47 2503 2519
+)
+"heptagon/transformations/completion.ml" 48 2544 2567 "heptagon/transformations/completion.ml" 48 2544 2570
+type(
+  'e Idents.Env.t
+)
+ident(
+  int_ref env "heptagon/transformations/completion.ml" 46 2477 2495 "heptagon/transformations/completion.ml" 46 2477 2498
+)
+"heptagon/transformations/completion.ml" 48 2544 2549 "heptagon/transformations/completion.ml" 48 2544 2570
+call(
+  stack
+)
+type(
+  'e Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 48 2544 2546 "heptagon/transformations/completion.ml" 48 2544 2570
+type(
+  'd * 'e Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 47 2503 2505 "heptagon/transformations/completion.ml" 48 2544 2570
+type(
+  'd * 'e Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 54 2786 2790 "heptagon/transformations/completion.ml" 54 2786 2802
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs_collect "heptagon/transformations/completion.ml" 67 3204 3204 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 55 2805 2809 "heptagon/transformations/completion.ml" 55 2805 2835
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults_stop
+)
+"heptagon/transformations/completion.ml" 56 2841 2855 "heptagon/transformations/completion.ml" 56 2841 2868
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref block_collect "heptagon/transformations/completion.ml" 43 2432 2436 "heptagon/transformations/completion.ml" 43 2432 2449
+)
+"heptagon/transformations/completion.ml" 57 2870 2893 "heptagon/transformations/completion.ml" 57 2870 2899
+type(
+  (Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+   Heptagon.var_dec Idents.Env.t ->
+   Heptagon.switch_handler ->
+   Heptagon.switch_handler * Heptagon.var_dec Idents.Env.t) ->
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler ->
+  Heptagon.switch_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref gather "heptagon/transformations/completion.ml" 46 2477 2481 "heptagon/transformations/completion.ml" 46 2477 2487
+)
+"heptagon/transformations/completion.ml" 57 2870 2900 "heptagon/transformations/completion.ml" 57 2870 2927
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler ->
+  Heptagon.switch_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.switch_handler
+)
+"heptagon/transformations/completion.ml" 57 2870 2893 "heptagon/transformations/completion.ml" 57 2870 2927
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.switch_handler ->
+  Heptagon.switch_handler * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 58 2929 2953 "heptagon/transformations/completion.ml" 58 2929 2959
+type(
+  (Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+   Heptagon.var_dec Idents.Env.t ->
+   Heptagon.present_handler ->
+   Heptagon.present_handler * Heptagon.var_dec Idents.Env.t) ->
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.present_handler ->
+  Heptagon.present_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref gather "heptagon/transformations/completion.ml" 46 2477 2481 "heptagon/transformations/completion.ml" 46 2477 2487
+)
+"heptagon/transformations/completion.ml" 58 2929 2960 "heptagon/transformations/completion.ml" 58 2929 2988
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.present_handler ->
+  Heptagon.present_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.present_handler
+)
+"heptagon/transformations/completion.ml" 58 2929 2953 "heptagon/transformations/completion.ml" 58 2929 2988
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.present_handler ->
+  Heptagon.present_handler * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 59 2990 3012 "heptagon/transformations/completion.ml" 59 2990 3018
+type(
+  (Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+   Heptagon.var_dec Idents.Env.t ->
+   Heptagon.state_handler ->
+   Heptagon.state_handler * Heptagon.var_dec Idents.Env.t) ->
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.state_handler ->
+  Heptagon.state_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref gather "heptagon/transformations/completion.ml" 46 2477 2481 "heptagon/transformations/completion.ml" 46 2477 2487
+)
+"heptagon/transformations/completion.ml" 59 2990 3019 "heptagon/transformations/completion.ml" 59 2990 3045
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.state_handler ->
+  Heptagon.state_handler * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.state_handler
+)
+"heptagon/transformations/completion.ml" 59 2990 3012 "heptagon/transformations/completion.ml" 59 2990 3045
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.state_handler ->
+  Heptagon.state_handler * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 55 2805 2807 "heptagon/transformations/completion.ml" 59 2990 3048
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/completion.ml" 67 3204 3208 "heptagon/transformations/completion.ml" 67 3204 3226
+type(
+  Heptagon.var_dec Idents.Env.t ->
+  'a Idents.Env.t -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  def complete_with_last "heptagon/transformations/completion.ml" 75 3521 3521 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 67 3204 3227 "heptagon/transformations/completion.ml" 67 3204 3240
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defined_names "heptagon/transformations/completion.ml" 67 3204 3241 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 67 3204 3241 "heptagon/transformations/completion.ml" 67 3204 3260
+type(
+  'a Idents.Env.t
+)
+ident(
+  def local_defined_names "heptagon/transformations/completion.ml" 67 3204 3261 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 67 3204 3261 "heptagon/transformations/completion.ml" 67 3204 3268
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/completion.ml" 68 3271 3273 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 68 3271 3277 "heptagon/transformations/completion.ml" 68 3271 3281
+type(
+  Idents.var_ident -> Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  def last "heptagon/transformations/completion.ml" 69 3345 3347 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 68 3271 3282 "heptagon/transformations/completion.ml" 68 3271 3283
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/completion.ml" 68 3271 3284 "heptagon/transformations/completion.ml" 68 3271 3341
+)
+"heptagon/transformations/completion.ml" 68 3271 3284 "heptagon/transformations/completion.ml" 68 3271 3286
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/completion.ml" 68 3271 3289 "heptagon/transformations/completion.ml" 68 3271 3341
+)
+"heptagon/transformations/completion.ml" 68 3271 3289 "heptagon/transformations/completion.ml" 68 3271 3295
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/completion.ml" 68 3271 3303 "heptagon/transformations/completion.ml" 68 3271 3304
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/completion.ml" 68 3271 3282 "heptagon/transformations/completion.ml" 68 3271 3283
+)
+"heptagon/transformations/completion.ml" 68 3271 3296 "heptagon/transformations/completion.ml" 68 3271 3305
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/completion.ml" 68 3271 3306 "heptagon/transformations/completion.ml" 68 3271 3308
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/completion.ml" 68 3271 3284 "heptagon/transformations/completion.ml" 68 3271 3286
+)
+"heptagon/transformations/completion.ml" 68 3271 3306 "heptagon/transformations/completion.ml" 68 3271 3315
+type(
+  Types.ty
+)
+"heptagon/transformations/completion.ml" 68 3271 3327 "heptagon/transformations/completion.ml" 68 3271 3341
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/completion.ml" 68 3271 3289 "heptagon/transformations/completion.ml" 68 3271 3341
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/completion.ml" 69 3345 3351 "heptagon/transformations/completion.ml" 69 3345 3359
+type(
+  Idents.var_ident ->
+  Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  def equation "heptagon/transformations/completion.ml" 71 3433 3435 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 69 3345 3360 "heptagon/transformations/completion.ml" 69 3345 3361
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/completion.ml" 69 3345 3362 "heptagon/transformations/completion.ml" 70 3375 3429
+)
+"heptagon/transformations/completion.ml" 69 3345 3362 "heptagon/transformations/completion.ml" 69 3345 3364
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/completion.ml" 69 3345 3365 "heptagon/transformations/completion.ml" 70 3375 3429
+)
+"heptagon/transformations/completion.ml" 69 3345 3365 "heptagon/transformations/completion.ml" 69 3345 3372
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/completion.ml" 70 3375 3379 "heptagon/transformations/completion.ml" 70 3375 3429
+)
+"heptagon/transformations/completion.ml" 70 3375 3380 "heptagon/transformations/completion.ml" 70 3375 3391
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/completion.ml" 70 3375 3405 "heptagon/transformations/completion.ml" 70 3375 3406
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/completion.ml" 69 3345 3360 "heptagon/transformations/completion.ml" 69 3345 3361
+)
+"heptagon/transformations/completion.ml" 70 3375 3397 "heptagon/transformations/completion.ml" 70 3375 3406
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/completion.ml" 70 3375 3408 "heptagon/transformations/completion.ml" 70 3375 3412
+type(
+  Idents.var_ident -> Heptagon.var_dec -> Heptagon.exp
+)
+ident(
+  int_ref last "heptagon/transformations/completion.ml" 68 3271 3277 "heptagon/transformations/completion.ml" 68 3271 3281
+)
+"heptagon/transformations/completion.ml" 70 3375 3413 "heptagon/transformations/completion.ml" 70 3375 3414
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/completion.ml" 69 3345 3360 "heptagon/transformations/completion.ml" 69 3345 3361
+)
+"heptagon/transformations/completion.ml" 70 3375 3415 "heptagon/transformations/completion.ml" 70 3375 3417
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/completion.ml" 69 3345 3362 "heptagon/transformations/completion.ml" 69 3345 3364
+)
+"heptagon/transformations/completion.ml" 70 3375 3408 "heptagon/transformations/completion.ml" 70 3375 3417
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/completion.ml" 70 3375 3392 "heptagon/transformations/completion.ml" 70 3375 3419
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 70 3375 3379 "heptagon/transformations/completion.ml" 70 3375 3420
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/completion.ml" 70 3375 3422 "heptagon/transformations/completion.ml" 70 3375 3429
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/completion.ml" 69 3345 3365 "heptagon/transformations/completion.ml" 69 3345 3372
+)
+"heptagon/transformations/completion.ml" 70 3375 3379 "heptagon/transformations/completion.ml" 70 3375 3429
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 71 3433 3439 "heptagon/transformations/completion.ml" 71 3433 3440
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def d "heptagon/transformations/completion.ml" 72 3489 3491 "heptagon/transformations/completion.ml" 72 3489 3518
+)
+"heptagon/transformations/completion.ml" 71 3433 3443 "heptagon/transformations/completion.ml" 71 3433 3451
+type(
+  Heptagon.var_dec Idents.Env.t ->
+  'a Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.diff
+)
+"heptagon/transformations/completion.ml" 71 3433 3452 "heptagon/transformations/completion.ml" 71 3433 3465
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defined_names "heptagon/transformations/completion.ml" 67 3204 3227 "heptagon/transformations/completion.ml" 67 3204 3240
+)
+"heptagon/transformations/completion.ml" 71 3433 3466 "heptagon/transformations/completion.ml" 71 3433 3485
+type(
+  'a Idents.Env.t
+)
+ident(
+  int_ref local_defined_names "heptagon/transformations/completion.ml" 67 3204 3241 "heptagon/transformations/completion.ml" 67 3204 3260
+)
+"heptagon/transformations/completion.ml" 71 3433 3443 "heptagon/transformations/completion.ml" 71 3433 3485
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 72 3489 3491 "heptagon/transformations/completion.ml" 72 3489 3499
+type(
+  (Idents.Env.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list) ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Idents.Env.fold
+)
+"heptagon/transformations/completion.ml" 72 3489 3500 "heptagon/transformations/completion.ml" 72 3489 3508
+type(
+  Idents.Env.key -> Heptagon.var_dec -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  int_ref equation "heptagon/transformations/completion.ml" 69 3345 3351 "heptagon/transformations/completion.ml" 69 3345 3359
+)
+"heptagon/transformations/completion.ml" 72 3489 3509 "heptagon/transformations/completion.ml" 72 3489 3510
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref d "heptagon/transformations/completion.ml" 71 3433 3439 "heptagon/transformations/completion.ml" 71 3433 3440
+)
+"heptagon/transformations/completion.ml" 72 3489 3511 "heptagon/transformations/completion.ml" 72 3489 3518
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/completion.ml" 67 3204 3261 "heptagon/transformations/completion.ml" 67 3204 3268
+)
+"heptagon/transformations/completion.ml" 72 3489 3491 "heptagon/transformations/completion.ml" 72 3489 3518
+call(
+  tail
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 71 3433 3435 "heptagon/transformations/completion.ml" 72 3489 3518
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 69 3345 3347 "heptagon/transformations/completion.ml" 72 3489 3518
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 68 3271 3273 "heptagon/transformations/completion.ml" 72 3489 3518
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 75 3521 3525 "heptagon/transformations/completion.ml" 75 3521 3530
+type(
+  'a Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def block "heptagon/transformations/completion.ml" 81 3763 3763 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 75 3521 3531 "heptagon/transformations/completion.ml" 75 3521 3535
+type(
+  'a Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/completion.ml" 75 3521 3536 "heptagon/transformations/completion.ml" 79 3749 3761
+)
+"heptagon/transformations/completion.ml" 75 3521 3536 "heptagon/transformations/completion.ml" 75 3521 3544
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/completion.ml" 75 3521 3545 "heptagon/transformations/completion.ml" 79 3749 3761
+)
+"heptagon/transformations/completion.ml" 75 3521 3545 "heptagon/transformations/completion.ml" 75 3521 3546
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/completion.ml" 76 3549 3551 "heptagon/transformations/completion.ml" 79 3749 3761
+)
+"heptagon/transformations/completion.ml" 76 3549 3555 "heptagon/transformations/completion.ml" 76 3549 3556
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/completion.ml" 77 3620 3622 "heptagon/transformations/completion.ml" 79 3749 3761
+)
+"heptagon/transformations/completion.ml" 76 3549 3558 "heptagon/transformations/completion.ml" 76 3549 3559
+type(
+  'a Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 76 3549 3555 "heptagon/transformations/completion.ml" 76 3549 3559
+type(
+  Heptagon.block * 'a Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 76 3549 3562 "heptagon/transformations/completion.ml" 76 3549 3580
+type(
+  'a Idents.Env.t Hept_mapfold.hept_it_funs ->
+  'a Idents.Env.t -> Heptagon.block -> Heptagon.block * 'a Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/completion.ml" 76 3549 3581 "heptagon/transformations/completion.ml" 76 3549 3585
+type(
+  'a Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/completion.ml" 75 3521 3531 "heptagon/transformations/completion.ml" 75 3521 3535
+)
+"heptagon/transformations/completion.ml" 76 3549 3586 "heptagon/transformations/completion.ml" 76 3549 3595
+type(
+  'a Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/completion.ml" 76 3549 3596 "heptagon/transformations/completion.ml" 76 3549 3597
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 75 3521 3545 "heptagon/transformations/completion.ml" 75 3521 3546
+)
+"heptagon/transformations/completion.ml" 76 3549 3562 "heptagon/transformations/completion.ml" 76 3549 3597
+call(
+  stack
+)
+type(
+  Heptagon.block * 'a Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 77 3620 3626 "heptagon/transformations/completion.ml" 77 3620 3634
+type(
+  Heptagon.eq list
+)
+ident(
+  def added_eq "heptagon/transformations/completion.ml" 78 3684 3686 "heptagon/transformations/completion.ml" 79 3749 3761
+)
+"heptagon/transformations/completion.ml" 77 3620 3637 "heptagon/transformations/completion.ml" 77 3620 3655
+type(
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  int_ref complete_with_last "heptagon/transformations/completion.ml" 67 3204 3208 "heptagon/transformations/completion.ml" 67 3204 3226
+)
+"heptagon/transformations/completion.ml" 77 3620 3656 "heptagon/transformations/completion.ml" 77 3620 3664
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/completion.ml" 75 3521 3536 "heptagon/transformations/completion.ml" 75 3521 3544
+)
+"heptagon/transformations/completion.ml" 77 3620 3665 "heptagon/transformations/completion.ml" 77 3620 3666
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 76 3549 3555 "heptagon/transformations/completion.ml" 76 3549 3556
+)
+"heptagon/transformations/completion.ml" 77 3620 3665 "heptagon/transformations/completion.ml" 77 3620 3677
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 77 3620 3678 "heptagon/transformations/completion.ml" 77 3620 3680
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 77 3620 3637 "heptagon/transformations/completion.ml" 77 3620 3680
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 78 3684 3688 "heptagon/transformations/completion.ml" 78 3684 3689
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 76 3549 3555 "heptagon/transformations/completion.ml" 76 3549 3556
+)
+"heptagon/transformations/completion.ml" 78 3684 3704 "heptagon/transformations/completion.ml" 78 3684 3705
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/completion.ml" 76 3549 3555 "heptagon/transformations/completion.ml" 76 3549 3556
+)
+"heptagon/transformations/completion.ml" 78 3684 3704 "heptagon/transformations/completion.ml" 78 3684 3712
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 78 3684 3713 "heptagon/transformations/completion.ml" 78 3684 3714
+type(
+  Heptagon.eq list -> Heptagon.eq list -> Heptagon.eq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/completion.ml" 78 3684 3715 "heptagon/transformations/completion.ml" 78 3684 3723
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref added_eq "heptagon/transformations/completion.ml" 77 3620 3626 "heptagon/transformations/completion.ml" 77 3620 3634
+)
+"heptagon/transformations/completion.ml" 78 3684 3704 "heptagon/transformations/completion.ml" 78 3684 3723
+call(
+  stack
+)
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/completion.ml" 78 3684 3738 "heptagon/transformations/completion.ml" 78 3684 3746
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/completion.ml" 75 3521 3536 "heptagon/transformations/completion.ml" 75 3521 3544
+)
+"heptagon/transformations/completion.ml" 78 3684 3686 "heptagon/transformations/completion.ml" 78 3684 3748
+type(
+  Heptagon.block
+)
+"heptagon/transformations/completion.ml" 79 3749 3753 "heptagon/transformations/completion.ml" 79 3749 3761
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/completion.ml" 75 3521 3536 "heptagon/transformations/completion.ml" 75 3521 3544
+)
+"heptagon/transformations/completion.ml" 78 3684 3686 "heptagon/transformations/completion.ml" 79 3749 3761
+type(
+  Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 77 3620 3622 "heptagon/transformations/completion.ml" 79 3749 3761
+type(
+  Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 76 3549 3551 "heptagon/transformations/completion.ml" 79 3749 3761
+type(
+  Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 81 3763 3767 "heptagon/transformations/completion.ml" 81 3763 3773
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.eqdesc -> Heptagon.eqdesc * 'b Idents.Env.t
+)
+ident(
+  def eqdesc "heptagon/transformations/completion.ml" 91 4134 4134 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 81 3763 3774 "heptagon/transformations/completion.ml" 81 3763 3778
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/completion.ml" 81 3763 3779 "heptagon/transformations/completion.ml" 89 4102 4132
+)
+"heptagon/transformations/completion.ml" 81 3763 3779 "heptagon/transformations/completion.ml" 81 3763 3780
+type(
+  'a
+)
+"heptagon/transformations/completion.ml" 81 3763 3781 "heptagon/transformations/completion.ml" 81 3763 3783
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def ed "heptagon/transformations/completion.ml" 81 3763 3786 "heptagon/transformations/completion.ml" 89 4102 4132
+)
+"heptagon/transformations/completion.ml" 81 3763 3792 "heptagon/transformations/completion.ml" 81 3763 3794
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref ed "heptagon/transformations/completion.ml" 81 3763 3781 "heptagon/transformations/completion.ml" 81 3763 3783
+)
+"heptagon/transformations/completion.ml" 82 3800 3813 "heptagon/transformations/completion.ml" 82 3800 3814
+type(
+  Heptagon.block
+)
+type(
+  Heptagon.present_handler list
+)
+"heptagon/transformations/completion.ml" 82 3800 3804 "heptagon/transformations/completion.ml" 82 3800 3814
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 82 3800 3828 "heptagon/transformations/completion.ml" 82 3800 3829
+type(
+  Heptagon.state_handler list
+)
+"heptagon/transformations/completion.ml" 82 3800 3817 "heptagon/transformations/completion.ml" 82 3800 3829
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 82 3800 3804 "heptagon/transformations/completion.ml" 82 3800 3829
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 82 3800 3840 "heptagon/transformations/completion.ml" 82 3800 3841
+type(
+  Heptagon.switch_handler list
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/completion.ml" 82 3800 3832 "heptagon/transformations/completion.ml" 82 3800 3841
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 82 3800 3804 "heptagon/transformations/completion.ml" 82 3800 3841
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 84 3901 3911 "heptagon/transformations/completion.ml" 84 3901 3913
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def ed "heptagon/transformations/completion.ml" 87 4016 4022 "heptagon/transformations/completion.ml" 88 4082 4101
+)
+"heptagon/transformations/completion.ml" 84 3901 3915 "heptagon/transformations/completion.ml" 84 3901 3923
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/completion.ml" 87 4016 4022 "heptagon/transformations/completion.ml" 88 4082 4101
+)
+"heptagon/transformations/completion.ml" 84 3901 3911 "heptagon/transformations/completion.ml" 84 3901 3923
+type(
+  Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 85 3926 3934 "heptagon/transformations/completion.ml" 85 3926 3953
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.eqdesc -> Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.eqdesc
+)
+"heptagon/transformations/completion.ml" 85 3926 3954 "heptagon/transformations/completion.ml" 85 3926 3966
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs_collect "heptagon/transformations/completion.ml" 54 2786 2790 "heptagon/transformations/completion.ml" 54 2786 2802
+)
+"heptagon/transformations/completion.ml" 85 3926 3967 "heptagon/transformations/completion.ml" 85 3926 3976
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/completion.ml" 85 3926 3977 "heptagon/transformations/completion.ml" 85 3926 3979
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref ed "heptagon/transformations/completion.ml" 81 3763 3781 "heptagon/transformations/completion.ml" 81 3763 3783
+)
+"heptagon/transformations/completion.ml" 85 3926 3934 "heptagon/transformations/completion.ml" 85 3926 3979
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 87 4016 4026 "heptagon/transformations/completion.ml" 87 4016 4028
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def ed "heptagon/transformations/completion.ml" 88 4082 4088 "heptagon/transformations/completion.ml" 88 4082 4101
+)
+"heptagon/transformations/completion.ml" 87 4016 4030 "heptagon/transformations/completion.ml" 87 4016 4039
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def _defnames "heptagon/transformations/completion.ml" 88 4082 4088 "heptagon/transformations/completion.ml" 88 4082 4101
+)
+"heptagon/transformations/completion.ml" 87 4016 4026 "heptagon/transformations/completion.ml" 87 4016 4039
+type(
+  Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 87 4016 4042 "heptagon/transformations/completion.ml" 87 4016 4061
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.eqdesc -> Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.eqdesc
+)
+"heptagon/transformations/completion.ml" 87 4016 4062 "heptagon/transformations/completion.ml" 87 4016 4066
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/completion.ml" 81 3763 3774 "heptagon/transformations/completion.ml" 81 3763 3778
+)
+"heptagon/transformations/completion.ml" 87 4016 4067 "heptagon/transformations/completion.ml" 87 4016 4075
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/completion.ml" 84 3901 3915 "heptagon/transformations/completion.ml" 84 3901 3923
+)
+"heptagon/transformations/completion.ml" 87 4016 4076 "heptagon/transformations/completion.ml" 87 4016 4078
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref ed "heptagon/transformations/completion.ml" 84 3901 3911 "heptagon/transformations/completion.ml" 84 3901 3913
+)
+"heptagon/transformations/completion.ml" 87 4016 4042 "heptagon/transformations/completion.ml" 87 4016 4078
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 88 4082 4088 "heptagon/transformations/completion.ml" 88 4082 4090
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref ed "heptagon/transformations/completion.ml" 87 4016 4026 "heptagon/transformations/completion.ml" 87 4016 4028
+)
+"heptagon/transformations/completion.ml" 88 4082 4092 "heptagon/transformations/completion.ml" 88 4082 4101
+type(
+  'b Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/completion.ml" 88 4082 4088 "heptagon/transformations/completion.ml" 88 4082 4101
+type(
+  Heptagon.eqdesc * 'b Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 87 4016 4022 "heptagon/transformations/completion.ml" 88 4082 4101
+type(
+  Heptagon.eqdesc * 'b Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 84 3901 3907 "heptagon/transformations/completion.ml" 88 4082 4101
+type(
+  Heptagon.eqdesc * 'b Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 89 4102 4106 "heptagon/transformations/completion.ml" 89 4102 4107
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/completion.ml" 89 4102 4111 "heptagon/transformations/completion.ml" 89 4102 4116
+type(
+  exn -> Heptagon.eqdesc * 'b Idents.Env.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/completion.ml" 89 4102 4117 "heptagon/transformations/completion.ml" 89 4102 4132
+type(
+  exn
+)
+"heptagon/transformations/completion.ml" 89 4102 4111 "heptagon/transformations/completion.ml" 89 4102 4132
+type(
+  Heptagon.eqdesc * 'b Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 81 3763 3786 "heptagon/transformations/completion.ml" 89 4102 4132
+type(
+  Heptagon.eqdesc * 'b Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 91 4134 4138 "heptagon/transformations/completion.ml" 91 4134 4142
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/completion.ml" 93 4209 4209 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 91 4134 4147 "heptagon/transformations/completion.ml" 91 4134 4168
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/completion.ml" 91 4134 4183 "heptagon/transformations/completion.ml" 91 4134 4189
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.eqdesc -> Heptagon.eqdesc * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref eqdesc "heptagon/transformations/completion.ml" 81 3763 3767 "heptagon/transformations/completion.ml" 81 3763 3773
+)
+"heptagon/transformations/completion.ml" 91 4134 4199 "heptagon/transformations/completion.ml" 91 4134 4204
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.block -> Heptagon.block * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref block "heptagon/transformations/completion.ml" 75 3521 3525 "heptagon/transformations/completion.ml" 75 3521 3530
+)
+"heptagon/transformations/completion.ml" 91 4134 4145 "heptagon/transformations/completion.ml" 91 4134 4207
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/completion.ml" 93 4209 4213 "heptagon/transformations/completion.ml" 93 4209 4220
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/completion.ml" 93 4209 4268 "heptagon/transformations/completion.ml" 1 0 -1
+)
+"heptagon/transformations/completion.ml" 93 4209 4221 "heptagon/transformations/completion.ml" 93 4209 4222
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/completion.ml" 93 4209 4225 "heptagon/transformations/completion.ml" 93 4209 4268
+)
+"heptagon/transformations/completion.ml" 93 4209 4229 "heptagon/transformations/completion.ml" 93 4209 4230
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/completion.ml" 93 4209 4267 "heptagon/transformations/completion.ml" 93 4209 4268
+)
+"heptagon/transformations/completion.ml" 93 4209 4232 "heptagon/transformations/completion.ml" 93 4209 4233
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 93 4209 4229 "heptagon/transformations/completion.ml" 93 4209 4233
+type(
+  Heptagon.program * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 93 4209 4236 "heptagon/transformations/completion.ml" 93 4209 4246
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec Idents.Env.t ->
+  Heptagon.program -> Heptagon.program * Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/completion.ml" 93 4209 4247 "heptagon/transformations/completion.ml" 93 4209 4251
+type(
+  Heptagon.var_dec Idents.Env.t Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/completion.ml" 91 4134 4138 "heptagon/transformations/completion.ml" 91 4134 4142
+)
+"heptagon/transformations/completion.ml" 93 4209 4252 "heptagon/transformations/completion.ml" 93 4209 4261
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/completion.ml" 93 4209 4262 "heptagon/transformations/completion.ml" 93 4209 4263
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/completion.ml" 93 4209 4221 "heptagon/transformations/completion.ml" 93 4209 4222
+)
+"heptagon/transformations/completion.ml" 93 4209 4236 "heptagon/transformations/completion.ml" 93 4209 4263
+call(
+  stack
+)
+type(
+  Heptagon.program * Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/completion.ml" 93 4209 4267 "heptagon/transformations/completion.ml" 93 4209 4268
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/completion.ml" 93 4209 4229 "heptagon/transformations/completion.ml" 93 4209 4230
+)
+"heptagon/transformations/completion.ml" 93 4209 4225 "heptagon/transformations/completion.ml" 93 4209 4268
+type(
+  Heptagon.program
+)

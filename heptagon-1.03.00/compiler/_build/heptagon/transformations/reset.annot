@@ -1,0 +1,3578 @@
+"heptagon/transformations/reset.ml" 44 2354 2358 "heptagon/transformations/reset.ml" 44 2354 2363
+type(
+  unit -> Idents.ident
+)
+ident(
+  def fresh "heptagon/transformations/reset.ml" 47 2463 2463 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 44 2354 2366 "heptagon/transformations/reset.ml" 44 2354 2382
+type(
+  string -> (unit -> string) -> ?reset:bool -> unit -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_fresh
+)
+"heptagon/transformations/reset.ml" 44 2354 2383 "heptagon/transformations/reset.ml" 44 2354 2390
+type(
+  string
+)
+"heptagon/transformations/reset.ml" 44 2354 2398 "heptagon/transformations/reset.ml" 44 2354 2402
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 44 2354 2408 "heptagon/transformations/reset.ml" 44 2354 2410
+type(
+  unit
+)
+"heptagon/transformations/reset.ml" 44 2354 2414 "heptagon/transformations/reset.ml" 44 2354 2417
+type(
+  string
+)
+"heptagon/transformations/reset.ml" 44 2354 2403 "heptagon/transformations/reset.ml" 44 2354 2418
+type(
+  unit -> string
+)
+"heptagon/transformations/reset.ml" 44 2354 2366 "heptagon/transformations/reset.ml" 44 2354 2418
+call(
+  stack
+)
+type(
+  unit -> Idents.ident
+)
+"heptagon/transformations/reset.ml" 47 2463 2467 "heptagon/transformations/reset.ml" 47 2463 2485
+type(
+  Heptagon.exp -> Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+ident(
+  def reset_var_from_exp "heptagon/transformations/reset.ml" 54 2672 2672 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 47 2463 2486 "heptagon/transformations/reset.ml" 47 2463 2487
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 48 2490 2492 "heptagon/transformations/reset.ml" 51 2603 2636
+)
+"heptagon/transformations/reset.ml" 48 2490 2496 "heptagon/transformations/reset.ml" 48 2490 2497
+type(
+  Idents.ident
+)
+ident(
+  def r "heptagon/transformations/reset.ml" 49 2511 2513 "heptagon/transformations/reset.ml" 51 2603 2636
+)
+"heptagon/transformations/reset.ml" 48 2490 2500 "heptagon/transformations/reset.ml" 48 2490 2505
+type(
+  unit -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/reset.ml" 44 2354 2358 "heptagon/transformations/reset.ml" 44 2354 2363
+)
+"heptagon/transformations/reset.ml" 48 2490 2505 "heptagon/transformations/reset.ml" 48 2490 2507
+type(
+  unit
+)
+"heptagon/transformations/reset.ml" 48 2490 2500 "heptagon/transformations/reset.ml" 48 2490 2507
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/reset.ml" 49 2511 2515 "heptagon/transformations/reset.ml" 49 2511 2516
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 47 2463 2486 "heptagon/transformations/reset.ml" 47 2463 2487
+)
+"heptagon/transformations/reset.ml" 49 2511 2536 "heptagon/transformations/reset.ml" 49 2511 2537
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref r "heptagon/transformations/reset.ml" 48 2490 2496 "heptagon/transformations/reset.ml" 48 2490 2497
+)
+"heptagon/transformations/reset.ml" 49 2511 2531 "heptagon/transformations/reset.ml" 49 2511 2537
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 49 2511 2513 "heptagon/transformations/reset.ml" 49 2511 2539
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 50 2541 2543 "heptagon/transformations/reset.ml" 50 2541 2553
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/reset.ml" 50 2541 2554 "heptagon/transformations/reset.ml" 50 2541 2555
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref r "heptagon/transformations/reset.ml" 48 2490 2496 "heptagon/transformations/reset.ml" 48 2490 2497
+)
+"heptagon/transformations/reset.ml" 50 2541 2561 "heptagon/transformations/reset.ml" 50 2541 2574
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/reset.ml" 50 2541 2556 "heptagon/transformations/reset.ml" 50 2541 2575
+type(
+  Types.ty
+)
+"heptagon/transformations/reset.ml" 50 2541 2587 "heptagon/transformations/reset.ml" 50 2541 2601
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/reset.ml" 50 2541 2543 "heptagon/transformations/reset.ml" 50 2541 2601
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/reset.ml" 51 2603 2605 "heptagon/transformations/reset.ml" 51 2603 2616
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/reset.ml" 51 2603 2630 "heptagon/transformations/reset.ml" 51 2603 2631
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref r "heptagon/transformations/reset.ml" 48 2490 2496 "heptagon/transformations/reset.ml" 48 2490 2497
+)
+"heptagon/transformations/reset.ml" 51 2603 2622 "heptagon/transformations/reset.ml" 51 2603 2631
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/reset.ml" 51 2603 2633 "heptagon/transformations/reset.ml" 51 2603 2634
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 47 2463 2486 "heptagon/transformations/reset.ml" 47 2463 2487
+)
+"heptagon/transformations/reset.ml" 51 2603 2617 "heptagon/transformations/reset.ml" 51 2603 2636
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 51 2603 2605 "heptagon/transformations/reset.ml" 51 2603 2636
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/reset.ml" 49 2511 2513 "heptagon/transformations/reset.ml" 51 2603 2636
+type(
+  Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+"heptagon/transformations/reset.ml" 48 2490 2492 "heptagon/transformations/reset.ml" 51 2603 2636
+type(
+  Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+"heptagon/transformations/reset.ml" 54 2672 2676 "heptagon/transformations/reset.ml" 54 2672 2688
+type(
+  Heptagon.exp option -> Heptagon.exp option -> Heptagon.exp option
+)
+ident(
+  def merge_resets "heptagon/transformations/reset.ml" 63 2925 2925 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 54 2672 2689 "heptagon/transformations/reset.ml" 54 2672 2693
+type(
+  Heptagon.exp option
+)
+ident(
+  def res1 "heptagon/transformations/reset.ml" 54 2672 2694 "heptagon/transformations/reset.ml" 59 2829 2892
+)
+"heptagon/transformations/reset.ml" 54 2672 2694 "heptagon/transformations/reset.ml" 54 2672 2698
+type(
+  Heptagon.exp option
+)
+ident(
+  def res2 "heptagon/transformations/reset.ml" 55 2701 2703 "heptagon/transformations/reset.ml" 59 2829 2892
+)
+"heptagon/transformations/reset.ml" 55 2701 2707 "heptagon/transformations/reset.ml" 55 2701 2712
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  def mk_or "heptagon/transformations/reset.ml" 56 2761 2763 "heptagon/transformations/reset.ml" 59 2829 2892
+)
+"heptagon/transformations/reset.ml" 55 2701 2713 "heptagon/transformations/reset.ml" 55 2701 2715
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 55 2701 2716 "heptagon/transformations/reset.ml" 55 2701 2757
+)
+"heptagon/transformations/reset.ml" 55 2701 2716 "heptagon/transformations/reset.ml" 55 2701 2718
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 55 2701 2721 "heptagon/transformations/reset.ml" 55 2701 2757
+)
+"heptagon/transformations/reset.ml" 55 2701 2721 "heptagon/transformations/reset.ml" 55 2701 2730
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  ext_ref Hept_utils.mk_op_app
+)
+"heptagon/transformations/reset.ml" 55 2701 2737 "heptagon/transformations/reset.ml" 55 2701 2748
+type(
+  Names.fun_name
+)
+ident(
+  ext_ref Initial.por
+)
+"heptagon/transformations/reset.ml" 55 2701 2731 "heptagon/transformations/reset.ml" 55 2701 2749
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 55 2701 2751 "heptagon/transformations/reset.ml" 55 2701 2753
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 55 2701 2713 "heptagon/transformations/reset.ml" 55 2701 2715
+)
+"heptagon/transformations/reset.ml" 55 2701 2754 "heptagon/transformations/reset.ml" 55 2701 2756
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 55 2701 2716 "heptagon/transformations/reset.ml" 55 2701 2718
+)
+"heptagon/transformations/reset.ml" 55 2701 2750 "heptagon/transformations/reset.ml" 55 2701 2757
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/reset.ml" 55 2701 2721 "heptagon/transformations/reset.ml" 55 2701 2757
+call(
+  tail
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 56 2761 2769 "heptagon/transformations/reset.ml" 56 2761 2773
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res1 "heptagon/transformations/reset.ml" 54 2672 2689 "heptagon/transformations/reset.ml" 54 2672 2693
+)
+"heptagon/transformations/reset.ml" 56 2761 2775 "heptagon/transformations/reset.ml" 56 2761 2779
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res2 "heptagon/transformations/reset.ml" 54 2672 2694 "heptagon/transformations/reset.ml" 54 2672 2698
+)
+"heptagon/transformations/reset.ml" 56 2761 2769 "heptagon/transformations/reset.ml" 56 2761 2779
+type(
+  Heptagon.exp option * Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 57 2785 2791 "heptagon/transformations/reset.ml" 57 2785 2795
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 57 2785 2797 "heptagon/transformations/reset.ml" 57 2785 2798
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 57 2785 2791 "heptagon/transformations/reset.ml" 57 2785 2798
+type(
+  Heptagon.exp option * Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 57 2785 2802 "heptagon/transformations/reset.ml" 57 2785 2806
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res2 "heptagon/transformations/reset.ml" 54 2672 2694 "heptagon/transformations/reset.ml" 54 2672 2698
+)
+"heptagon/transformations/reset.ml" 58 2807 2813 "heptagon/transformations/reset.ml" 58 2807 2814
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 58 2807 2816 "heptagon/transformations/reset.ml" 58 2807 2820
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 58 2807 2813 "heptagon/transformations/reset.ml" 58 2807 2820
+type(
+  Heptagon.exp option * Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 58 2807 2824 "heptagon/transformations/reset.ml" 58 2807 2828
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res1 "heptagon/transformations/reset.ml" 54 2672 2689 "heptagon/transformations/reset.ml" 54 2672 2693
+)
+"heptagon/transformations/reset.ml" 59 2829 2840 "heptagon/transformations/reset.ml" 59 2829 2842
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 59 2829 2855 "heptagon/transformations/reset.ml" 59 2829 2892
+)
+"heptagon/transformations/reset.ml" 59 2829 2835 "heptagon/transformations/reset.ml" 59 2829 2842
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 59 2829 2849 "heptagon/transformations/reset.ml" 59 2829 2851
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 59 2829 2855 "heptagon/transformations/reset.ml" 59 2829 2892
+)
+"heptagon/transformations/reset.ml" 59 2829 2844 "heptagon/transformations/reset.ml" 59 2829 2851
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 59 2829 2835 "heptagon/transformations/reset.ml" 59 2829 2851
+type(
+  Heptagon.exp option * Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 59 2829 2862 "heptagon/transformations/reset.ml" 59 2829 2864
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 59 2829 2840 "heptagon/transformations/reset.ml" 59 2829 2842
+)
+"heptagon/transformations/reset.ml" 59 2829 2879 "heptagon/transformations/reset.ml" 59 2829 2884
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  int_ref mk_or "heptagon/transformations/reset.ml" 55 2701 2707 "heptagon/transformations/reset.ml" 55 2701 2712
+)
+"heptagon/transformations/reset.ml" 59 2829 2885 "heptagon/transformations/reset.ml" 59 2829 2887
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 59 2829 2840 "heptagon/transformations/reset.ml" 59 2829 2842
+)
+"heptagon/transformations/reset.ml" 59 2829 2888 "heptagon/transformations/reset.ml" 59 2829 2890
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 59 2829 2849 "heptagon/transformations/reset.ml" 59 2829 2851
+)
+"heptagon/transformations/reset.ml" 59 2829 2879 "heptagon/transformations/reset.ml" 59 2829 2890
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 59 2829 2860 "heptagon/transformations/reset.ml" 59 2829 2892
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 59 2829 2855 "heptagon/transformations/reset.ml" 59 2829 2892
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 56 2761 2763 "heptagon/transformations/reset.ml" 59 2829 2892
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 55 2701 2703 "heptagon/transformations/reset.ml" 59 2829 2892
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 63 2925 2929 "heptagon/transformations/reset.ml" 63 2925 2934
+type(
+  Heptagon.exp option -> Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  def ifres "heptagon/transformations/reset.ml" 73 3270 3270 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 63 2925 2935 "heptagon/transformations/reset.ml" 63 2925 2938
+type(
+  Heptagon.exp option
+)
+ident(
+  def res "heptagon/transformations/reset.ml" 63 2925 2939 "heptagon/transformations/reset.ml" 70 3162 3213
+)
+"heptagon/transformations/reset.ml" 63 2925 2939 "heptagon/transformations/reset.ml" 63 2925 2941
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 63 2925 2942 "heptagon/transformations/reset.ml" 70 3162 3213
+)
+"heptagon/transformations/reset.ml" 63 2925 2942 "heptagon/transformations/reset.ml" 63 2925 2944
+type(
+  Heptagon.exp
+)
+ident(
+  def e3 "heptagon/transformations/reset.ml" 64 2947 2949 "heptagon/transformations/reset.ml" 70 3162 3213
+)
+"heptagon/transformations/reset.ml" 64 2947 2953 "heptagon/transformations/reset.ml" 64 2947 2957
+type(
+  Location.location -> Heptagon.exp
+)
+ident(
+  def init "heptagon/transformations/reset.ml" 68 3085 3087 "heptagon/transformations/reset.ml" 70 3162 3213
+)
+"heptagon/transformations/reset.ml" 64 2947 2958 "heptagon/transformations/reset.ml" 64 2947 2961
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/transformations/reset.ml" 65 2964 2968 "heptagon/transformations/reset.ml" 66 3019 3079
+)
+"heptagon/transformations/reset.ml" 65 2964 2968 "heptagon/transformations/reset.ml" 65 2964 2974
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/reset.ml" 65 2964 2988 "heptagon/transformations/reset.ml" 65 2964 3002
+type(
+  bool -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_bool
+)
+"heptagon/transformations/reset.ml" 65 2964 3003 "heptagon/transformations/reset.ml" 65 2964 3007
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 65 2964 2987 "heptagon/transformations/reset.ml" 65 2964 3008
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/reset.ml" 65 2964 2982 "heptagon/transformations/reset.ml" 65 2964 3008
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 65 2964 3010 "heptagon/transformations/reset.ml" 65 2964 3016
+type(
+  Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.dfalse
+)
+"heptagon/transformations/reset.ml" 65 2964 2975 "heptagon/transformations/reset.ml" 65 2964 3018
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 66 3019 3030 "heptagon/transformations/reset.ml" 66 3019 3033
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/transformations/reset.ml" 64 2947 2958 "heptagon/transformations/reset.ml" 64 2947 2961
+)
+"heptagon/transformations/reset.ml" 66 3019 3039 "heptagon/transformations/reset.ml" 66 3019 3052
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/reset.ml" 66 3019 3034 "heptagon/transformations/reset.ml" 66 3019 3053
+type(
+  Types.ty
+)
+"heptagon/transformations/reset.ml" 66 3019 3065 "heptagon/transformations/reset.ml" 66 3019 3079
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/reset.ml" 65 2964 2968 "heptagon/transformations/reset.ml" 66 3019 3079
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 68 3085 3093 "heptagon/transformations/reset.ml" 68 3085 3096
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 63 2925 2935 "heptagon/transformations/reset.ml" 63 2925 2938
+)
+"heptagon/transformations/reset.ml" 69 3102 3108 "heptagon/transformations/reset.ml" 69 3102 3112
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 69 3102 3116 "heptagon/transformations/reset.ml" 69 3102 3125
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  ext_ref Hept_utils.mk_op_app
+)
+"heptagon/transformations/reset.ml" 69 3102 3126 "heptagon/transformations/reset.ml" 69 3102 3137
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 69 3102 3139 "heptagon/transformations/reset.ml" 69 3102 3143
+type(
+  Location.location -> Heptagon.exp
+)
+ident(
+  int_ref init "heptagon/transformations/reset.ml" 64 2947 2953 "heptagon/transformations/reset.ml" 64 2947 2957
+)
+"heptagon/transformations/reset.ml" 69 3102 3144 "heptagon/transformations/reset.ml" 69 3102 3146
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e3 "heptagon/transformations/reset.ml" 63 2925 2942 "heptagon/transformations/reset.ml" 63 2925 2944
+)
+"heptagon/transformations/reset.ml" 69 3102 3144 "heptagon/transformations/reset.ml" 69 3102 3152
+type(
+  Location.location
+)
+"heptagon/transformations/reset.ml" 69 3102 3139 "heptagon/transformations/reset.ml" 69 3102 3152
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 69 3102 3154 "heptagon/transformations/reset.ml" 69 3102 3156
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 63 2925 2939 "heptagon/transformations/reset.ml" 63 2925 2941
+)
+"heptagon/transformations/reset.ml" 69 3102 3158 "heptagon/transformations/reset.ml" 69 3102 3160
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e3 "heptagon/transformations/reset.ml" 63 2925 2942 "heptagon/transformations/reset.ml" 63 2925 2944
+)
+"heptagon/transformations/reset.ml" 69 3102 3138 "heptagon/transformations/reset.ml" 69 3102 3161
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/reset.ml" 69 3102 3116 "heptagon/transformations/reset.ml" 69 3102 3161
+call(
+  tail
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 70 3162 3173 "heptagon/transformations/reset.ml" 70 3162 3175
+type(
+  Heptagon.exp
+)
+ident(
+  def re "heptagon/transformations/reset.ml" 70 3162 3179 "heptagon/transformations/reset.ml" 70 3162 3213
+)
+"heptagon/transformations/reset.ml" 70 3162 3168 "heptagon/transformations/reset.ml" 70 3162 3175
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 70 3162 3179 "heptagon/transformations/reset.ml" 70 3162 3188
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  ext_ref Hept_utils.mk_op_app
+)
+"heptagon/transformations/reset.ml" 70 3162 3189 "heptagon/transformations/reset.ml" 70 3162 3200
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 70 3162 3202 "heptagon/transformations/reset.ml" 70 3162 3204
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref re "heptagon/transformations/reset.ml" 70 3162 3173 "heptagon/transformations/reset.ml" 70 3162 3175
+)
+"heptagon/transformations/reset.ml" 70 3162 3206 "heptagon/transformations/reset.ml" 70 3162 3208
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 63 2925 2939 "heptagon/transformations/reset.ml" 63 2925 2941
+)
+"heptagon/transformations/reset.ml" 70 3162 3210 "heptagon/transformations/reset.ml" 70 3162 3212
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e3 "heptagon/transformations/reset.ml" 63 2925 2942 "heptagon/transformations/reset.ml" 63 2925 2944
+)
+"heptagon/transformations/reset.ml" 70 3162 3201 "heptagon/transformations/reset.ml" 70 3162 3213
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/reset.ml" 70 3162 3179 "heptagon/transformations/reset.ml" 70 3162 3213
+call(
+  tail
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 68 3085 3087 "heptagon/transformations/reset.ml" 70 3162 3213
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 64 2947 2949 "heptagon/transformations/reset.ml" 70 3162 3213
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 73 3270 3274 "heptagon/transformations/reset.ml" 73 3270 3281
+type(
+  Heptagon.exp -> Types.static_exp option
+)
+ident(
+  def default "heptagon/transformations/reset.ml" 79 3351 3351 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 73 3270 3282 "heptagon/transformations/reset.ml" 73 3270 3283
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 74 3286 3288 "heptagon/transformations/reset.ml" 76 3333 3348
+)
+"heptagon/transformations/reset.ml" 74 3286 3294 "heptagon/transformations/reset.ml" 74 3286 3295
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 73 3270 3282 "heptagon/transformations/reset.ml" 73 3270 3283
+)
+"heptagon/transformations/reset.ml" 74 3286 3294 "heptagon/transformations/reset.ml" 74 3286 3302
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 75 3308 3321 "heptagon/transformations/reset.ml" 75 3308 3322
+type(
+  Types.static_exp
+)
+ident(
+  def c "heptagon/transformations/reset.ml" 75 3308 3326 "heptagon/transformations/reset.ml" 75 3308 3332
+)
+"heptagon/transformations/reset.ml" 75 3308 3314 "heptagon/transformations/reset.ml" 75 3308 3322
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 75 3308 3331 "heptagon/transformations/reset.ml" 75 3308 3332
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "heptagon/transformations/reset.ml" 75 3308 3321 "heptagon/transformations/reset.ml" 75 3308 3322
+)
+"heptagon/transformations/reset.ml" 75 3308 3326 "heptagon/transformations/reset.ml" 75 3308 3332
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 76 3333 3339 "heptagon/transformations/reset.ml" 76 3333 3340
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 76 3333 3344 "heptagon/transformations/reset.ml" 76 3333 3348
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 74 3286 3288 "heptagon/transformations/reset.ml" 76 3333 3348
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 79 3351 3355 "heptagon/transformations/reset.ml" 79 3351 3360
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.desc -> Heptagon.desc * (Heptagon.exp option * 'a)
+)
+ident(
+  def edesc "heptagon/transformations/reset.ml" 119 5339 5339 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 117 5305 5337
+)
+"heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+type(
+  Heptagon.exp option
+)
+ident(
+  def res "heptagon/transformations/reset.ml" 79 3351 3383 "heptagon/transformations/reset.ml" 117 5305 5337
+)
+"heptagon/transformations/reset.ml" 79 3351 3372 "heptagon/transformations/reset.ml" 79 3351 3373
+type(
+  'a
+)
+"heptagon/transformations/reset.ml" 79 3351 3367 "heptagon/transformations/reset.ml" 79 3351 3374
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 79 3351 3378 "heptagon/transformations/reset.ml" 79 3351 3381
+ident(
+  def acc "heptagon/transformations/reset.ml" 79 3351 3383 "heptagon/transformations/reset.ml" 117 5305 5337
+)
+"heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 79 3351 3383 "heptagon/transformations/reset.ml" 79 3351 3385
+type(
+  Heptagon.desc
+)
+ident(
+  def ed "heptagon/transformations/reset.ml" 80 3388 3390 "heptagon/transformations/reset.ml" 117 5305 5337
+)
+"heptagon/transformations/reset.ml" 80 3388 3396 "heptagon/transformations/reset.ml" 80 3388 3398
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref ed "heptagon/transformations/reset.ml" 79 3351 3383 "heptagon/transformations/reset.ml" 79 3351 3385
+)
+"heptagon/transformations/reset.ml" 81 3404 3421 "heptagon/transformations/reset.ml" 81 3404 3422
+type(
+  Types.static_exp
+)
+ident(
+  def c "heptagon/transformations/reset.ml" 82 3430 3437 "heptagon/transformations/reset.ml" 88 3616 3659
+)
+"heptagon/transformations/reset.ml" 81 3404 3416 "heptagon/transformations/reset.ml" 81 3404 3422
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 81 3404 3424 "heptagon/transformations/reset.ml" 81 3404 3425
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 82 3430 3437 "heptagon/transformations/reset.ml" 88 3616 3659
+)
+"heptagon/transformations/reset.ml" 81 3404 3410 "heptagon/transformations/reset.ml" 81 3404 3426
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3442
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 83 3481 3488 "heptagon/transformations/reset.ml" 88 3616 3659
+)
+"heptagon/transformations/reset.ml" 82 3430 3443 "heptagon/transformations/reset.ml" 82 3430 3444
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3444
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 82 3430 3447 "heptagon/transformations/reset.ml" 82 3430 3466
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 82 3430 3467 "heptagon/transformations/reset.ml" 82 3430 3471
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 82 3430 3472 "heptagon/transformations/reset.ml" 82 3430 3475
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 82 3430 3476 "heptagon/transformations/reset.ml" 82 3430 3477
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 81 3404 3424 "heptagon/transformations/reset.ml" 81 3404 3425
+)
+"heptagon/transformations/reset.ml" 82 3430 3447 "heptagon/transformations/reset.ml" 82 3430 3477
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 83 3481 3495 "heptagon/transformations/reset.ml" 83 3481 3498
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 84 3504 3507 "heptagon/transformations/reset.ml" 84 3504 3511
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 84 3504 3525 "heptagon/transformations/reset.ml" 84 3504 3526
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "heptagon/transformations/reset.ml" 81 3404 3421 "heptagon/transformations/reset.ml" 81 3404 3422
+)
+"heptagon/transformations/reset.ml" 84 3504 3520 "heptagon/transformations/reset.ml" 84 3504 3526
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 84 3504 3528 "heptagon/transformations/reset.ml" 84 3504 3529
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3442
+)
+"heptagon/transformations/reset.ml" 84 3504 3515 "heptagon/transformations/reset.ml" 84 3504 3530
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 85 3531 3539 "heptagon/transformations/reset.ml" 85 3531 3540
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 85 3531 3534 "heptagon/transformations/reset.ml" 85 3531 3540
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 86 3544 3548 "heptagon/transformations/reset.ml" 86 3544 3553
+type(
+  Heptagon.exp option -> Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  int_ref ifres "heptagon/transformations/reset.ml" 63 2925 2929 "heptagon/transformations/reset.ml" 63 2925 2934
+)
+"heptagon/transformations/reset.ml" 86 3544 3554 "heptagon/transformations/reset.ml" 86 3544 3557
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 87 3558 3562 "heptagon/transformations/reset.ml" 87 3558 3568
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/reset.ml" 87 3558 3577 "heptagon/transformations/reset.ml" 87 3558 3578
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "heptagon/transformations/reset.ml" 81 3404 3421 "heptagon/transformations/reset.ml" 81 3404 3422
+)
+"heptagon/transformations/reset.ml" 87 3558 3569 "heptagon/transformations/reset.ml" 87 3558 3579
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 87 3558 3581 "heptagon/transformations/reset.ml" 87 3558 3582
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3442
+)
+"heptagon/transformations/reset.ml" 87 3558 3580 "heptagon/transformations/reset.ml" 87 3558 3588
+type(
+  Types.ty
+)
+"heptagon/transformations/reset.ml" 87 3558 3600 "heptagon/transformations/reset.ml" 87 3558 3614
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/reset.ml" 87 3558 3561 "heptagon/transformations/reset.ml" 87 3558 3615
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 88 3616 3621 "heptagon/transformations/reset.ml" 88 3616 3622
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3442
+)
+"heptagon/transformations/reset.ml" 88 3616 3647 "heptagon/transformations/reset.ml" 88 3616 3648
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "heptagon/transformations/reset.ml" 81 3404 3421 "heptagon/transformations/reset.ml" 81 3404 3422
+)
+"heptagon/transformations/reset.ml" 88 3616 3642 "heptagon/transformations/reset.ml" 88 3616 3648
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 88 3616 3649 "heptagon/transformations/reset.ml" 88 3616 3650
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 82 3430 3441 "heptagon/transformations/reset.ml" 82 3430 3442
+)
+"heptagon/transformations/reset.ml" 88 3616 3637 "heptagon/transformations/reset.ml" 88 3616 3651
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 88 3616 3619 "heptagon/transformations/reset.ml" 88 3616 3653
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 86 3544 3548 "heptagon/transformations/reset.ml" 88 3616 3653
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 83 3481 3488 "heptagon/transformations/reset.ml" 88 3616 3654
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 88 3616 3656 "heptagon/transformations/reset.ml" 88 3616 3659
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 83 3481 3488 "heptagon/transformations/reset.ml" 88 3616 3659
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 82 3430 3437 "heptagon/transformations/reset.ml" 88 3616 3659
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 89 3660 3672 "heptagon/transformations/reset.ml" 89 3660 3674
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 90 3683 3691 "heptagon/transformations/reset.ml" 96 3970 4046
+)
+"heptagon/transformations/reset.ml" 89 3660 3676 "heptagon/transformations/reset.ml" 89 3660 3678
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 90 3683 3691 "heptagon/transformations/reset.ml" 96 3970 4046
+)
+"heptagon/transformations/reset.ml" 89 3660 3666 "heptagon/transformations/reset.ml" 89 3660 3679
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 90 3683 3695 "heptagon/transformations/reset.ml" 90 3683 3697
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 91 3737 3745 "heptagon/transformations/reset.ml" 96 3970 4046
+)
+"heptagon/transformations/reset.ml" 90 3683 3698 "heptagon/transformations/reset.ml" 90 3683 3699
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 90 3683 3695 "heptagon/transformations/reset.ml" 90 3683 3699
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 90 3683 3702 "heptagon/transformations/reset.ml" 90 3683 3721
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 90 3683 3722 "heptagon/transformations/reset.ml" 90 3683 3726
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 90 3683 3727 "heptagon/transformations/reset.ml" 90 3683 3730
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 90 3683 3731 "heptagon/transformations/reset.ml" 90 3683 3733
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 89 3660 3672 "heptagon/transformations/reset.ml" 89 3660 3674
+)
+"heptagon/transformations/reset.ml" 90 3683 3702 "heptagon/transformations/reset.ml" 90 3683 3733
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 91 3737 3749 "heptagon/transformations/reset.ml" 91 3737 3751
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 92 3791 3799 "heptagon/transformations/reset.ml" 96 3970 4046
+)
+"heptagon/transformations/reset.ml" 91 3737 3752 "heptagon/transformations/reset.ml" 91 3737 3753
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 91 3737 3749 "heptagon/transformations/reset.ml" 91 3737 3753
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 91 3737 3756 "heptagon/transformations/reset.ml" 91 3737 3775
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 91 3737 3776 "heptagon/transformations/reset.ml" 91 3737 3780
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 91 3737 3781 "heptagon/transformations/reset.ml" 91 3737 3784
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 91 3737 3785 "heptagon/transformations/reset.ml" 91 3737 3787
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 89 3660 3676 "heptagon/transformations/reset.ml" 89 3660 3678
+)
+"heptagon/transformations/reset.ml" 91 3737 3756 "heptagon/transformations/reset.ml" 91 3737 3787
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 92 3791 3806 "heptagon/transformations/reset.ml" 92 3791 3809
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 92 3791 3811 "heptagon/transformations/reset.ml" 92 3791 3813
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 90 3683 3695 "heptagon/transformations/reset.ml" 90 3683 3697
+)
+"heptagon/transformations/reset.ml" 92 3791 3806 "heptagon/transformations/reset.ml" 92 3791 3813
+type(
+  Heptagon.exp option * Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 93 3819 3830 "heptagon/transformations/reset.ml" 93 3819 3834
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 93 3819 3854 "heptagon/transformations/reset.ml" 93 3819 3855
+type(
+  Types.static_exp
+)
+ident(
+  def c "heptagon/transformations/reset.ml" 95 3941 3953 "heptagon/transformations/reset.ml" 95 3941 3969
+)
+"heptagon/transformations/reset.ml" 93 3819 3847 "heptagon/transformations/reset.ml" 93 3819 3855
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 93 3819 3836 "heptagon/transformations/reset.ml" 93 3819 3857
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 93 3819 3830 "heptagon/transformations/reset.ml" 93 3819 3857
+type(
+  Heptagon.exp option * Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 95 3941 3963 "heptagon/transformations/reset.ml" 95 3941 3964
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "heptagon/transformations/reset.ml" 93 3819 3854 "heptagon/transformations/reset.ml" 93 3819 3855
+)
+"heptagon/transformations/reset.ml" 95 3941 3958 "heptagon/transformations/reset.ml" 95 3941 3964
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 95 3941 3966 "heptagon/transformations/reset.ml" 95 3941 3968
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 91 3737 3749 "heptagon/transformations/reset.ml" 91 3737 3751
+)
+"heptagon/transformations/reset.ml" 95 3941 3953 "heptagon/transformations/reset.ml" 95 3941 3969
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 96 3970 3981 "heptagon/transformations/reset.ml" 96 3970 3982
+type(
+  Heptagon.exp option * Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 96 3970 3986 "heptagon/transformations/reset.ml" 96 3970 3991
+type(
+  Heptagon.exp option -> Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  int_ref ifres "heptagon/transformations/reset.ml" 63 2925 2929 "heptagon/transformations/reset.ml" 63 2925 2934
+)
+"heptagon/transformations/reset.ml" 96 3970 3992 "heptagon/transformations/reset.ml" 96 3970 3995
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 96 3970 3996 "heptagon/transformations/reset.ml" 96 3970 3998
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 90 3683 3695 "heptagon/transformations/reset.ml" 90 3683 3697
+)
+"heptagon/transformations/reset.ml" 96 3970 4001 "heptagon/transformations/reset.ml" 96 3970 4003
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 91 3737 3749 "heptagon/transformations/reset.ml" 91 3737 3751
+)
+"heptagon/transformations/reset.ml" 96 3970 4023 "heptagon/transformations/reset.ml" 96 3970 4030
+type(
+  Heptagon.exp -> Types.static_exp option
+)
+ident(
+  int_ref default "heptagon/transformations/reset.ml" 73 3270 3274 "heptagon/transformations/reset.ml" 73 3270 3281
+)
+"heptagon/transformations/reset.ml" 96 3970 4031 "heptagon/transformations/reset.ml" 96 3970 4033
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 90 3683 3695 "heptagon/transformations/reset.ml" 90 3683 3697
+)
+"heptagon/transformations/reset.ml" 96 3970 4023 "heptagon/transformations/reset.ml" 96 3970 4033
+call(
+  stack
+)
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/reset.ml" 96 3970 4035 "heptagon/transformations/reset.ml" 96 3970 4037
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 91 3737 3749 "heptagon/transformations/reset.ml" 91 3737 3751
+)
+"heptagon/transformations/reset.ml" 96 3970 4018 "heptagon/transformations/reset.ml" 96 3970 4038
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 96 3970 3999 "heptagon/transformations/reset.ml" 96 3970 4040
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 96 3970 3986 "heptagon/transformations/reset.ml" 96 3970 4040
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 92 3791 3799 "heptagon/transformations/reset.ml" 96 3970 4041
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 96 3970 4043 "heptagon/transformations/reset.ml" 96 3970 4046
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 92 3791 3799 "heptagon/transformations/reset.ml" 96 3970 4046
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 91 3737 3745 "heptagon/transformations/reset.ml" 96 3970 4046
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 90 3683 3691 "heptagon/transformations/reset.ml" 96 3970 4046
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 97 4047 4067 "heptagon/transformations/reset.ml" 97 4047 4073
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 97 4047 4058 "heptagon/transformations/reset.ml" 97 4047 4075
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 97 4047 4078 "heptagon/transformations/reset.ml" 97 4047 4080
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 98 4092 4100 "heptagon/transformations/reset.ml" 100 4200 4228
+)
+"heptagon/transformations/reset.ml" 97 4047 4081 "heptagon/transformations/reset.ml" 97 4047 4083
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 98 4092 4100 "heptagon/transformations/reset.ml" 100 4200 4228
+)
+"heptagon/transformations/reset.ml" 97 4047 4077 "heptagon/transformations/reset.ml" 97 4047 4084
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/reset.ml" 97 4047 4086 "heptagon/transformations/reset.ml" 97 4047 4087
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 97 4047 4053 "heptagon/transformations/reset.ml" 97 4047 4088
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 98 4092 4104 "heptagon/transformations/reset.ml" 98 4092 4106
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/reset.ml" 99 4146 4154 "heptagon/transformations/reset.ml" 100 4200 4228
+)
+"heptagon/transformations/reset.ml" 98 4092 4107 "heptagon/transformations/reset.ml" 98 4092 4108
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 98 4092 4104 "heptagon/transformations/reset.ml" 98 4092 4108
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 98 4092 4111 "heptagon/transformations/reset.ml" 98 4092 4130
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 98 4092 4131 "heptagon/transformations/reset.ml" 98 4092 4135
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 98 4092 4136 "heptagon/transformations/reset.ml" 98 4092 4139
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 98 4092 4140 "heptagon/transformations/reset.ml" 98 4092 4142
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 97 4047 4078 "heptagon/transformations/reset.ml" 97 4047 4080
+)
+"heptagon/transformations/reset.ml" 98 4092 4111 "heptagon/transformations/reset.ml" 98 4092 4142
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 99 4146 4158 "heptagon/transformations/reset.ml" 99 4146 4160
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/reset.ml" 100 4200 4208 "heptagon/transformations/reset.ml" 100 4200 4228
+)
+"heptagon/transformations/reset.ml" 99 4146 4161 "heptagon/transformations/reset.ml" 99 4146 4162
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 99 4146 4158 "heptagon/transformations/reset.ml" 99 4146 4162
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 99 4146 4165 "heptagon/transformations/reset.ml" 99 4146 4184
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 99 4146 4185 "heptagon/transformations/reset.ml" 99 4146 4189
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 99 4146 4190 "heptagon/transformations/reset.ml" 99 4146 4193
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 99 4146 4194 "heptagon/transformations/reset.ml" 99 4146 4196
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 97 4047 4081 "heptagon/transformations/reset.ml" 97 4047 4083
+)
+"heptagon/transformations/reset.ml" 99 4146 4165 "heptagon/transformations/reset.ml" 99 4146 4196
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 100 4200 4208 "heptagon/transformations/reset.ml" 100 4200 4213
+type(
+  Heptagon.exp option -> Heptagon.exp -> Heptagon.exp -> Heptagon.desc
+)
+ident(
+  int_ref ifres "heptagon/transformations/reset.ml" 63 2925 2929 "heptagon/transformations/reset.ml" 63 2925 2934
+)
+"heptagon/transformations/reset.ml" 100 4200 4214 "heptagon/transformations/reset.ml" 100 4200 4217
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 100 4200 4218 "heptagon/transformations/reset.ml" 100 4200 4220
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/reset.ml" 98 4092 4104 "heptagon/transformations/reset.ml" 98 4092 4106
+)
+"heptagon/transformations/reset.ml" 100 4200 4221 "heptagon/transformations/reset.ml" 100 4200 4223
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/reset.ml" 99 4146 4158 "heptagon/transformations/reset.ml" 99 4146 4160
+)
+"heptagon/transformations/reset.ml" 100 4200 4208 "heptagon/transformations/reset.ml" 100 4200 4223
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 100 4200 4225 "heptagon/transformations/reset.ml" 100 4200 4228
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 100 4200 4208 "heptagon/transformations/reset.ml" 100 4200 4228
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 99 4146 4154 "heptagon/transformations/reset.ml" 100 4200 4228
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 98 4092 4100 "heptagon/transformations/reset.ml" 100 4200 4228
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 101 4229 4255 "heptagon/transformations/reset.ml" 101 4229 4256
+type(
+  Names.fun_name
+)
+"heptagon/transformations/reset.ml" 101 4229 4249 "heptagon/transformations/reset.ml" 101 4229 4256
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 101 4229 4240 "heptagon/transformations/reset.ml" 101 4229 4258
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 101 4229 4262 "heptagon/transformations/reset.ml" 101 4229 4264
+ident(
+  def op "heptagon/transformations/reset.ml" 102 4281 4289 "heptagon/transformations/reset.ml" 104 4421 4469
+)
+"heptagon/transformations/reset.ml" 101 4229 4240 "heptagon/transformations/reset.ml" 101 4229 4264
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 101 4229 4266 "heptagon/transformations/reset.ml" 101 4229 4272
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/transformations/reset.ml" 102 4281 4289 "heptagon/transformations/reset.ml" 104 4421 4469
+)
+"heptagon/transformations/reset.ml" 101 4229 4274 "heptagon/transformations/reset.ml" 101 4229 4276
+type(
+  Heptagon.exp option
+)
+ident(
+  def re "heptagon/transformations/reset.ml" 102 4281 4289 "heptagon/transformations/reset.ml" 104 4421 4469
+)
+"heptagon/transformations/reset.ml" 101 4229 4235 "heptagon/transformations/reset.ml" 101 4229 4277
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 102 4281 4293 "heptagon/transformations/reset.ml" 102 4281 4297
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/reset.ml" 103 4351 4359 "heptagon/transformations/reset.ml" 104 4421 4469
+)
+"heptagon/transformations/reset.ml" 102 4281 4298 "heptagon/transformations/reset.ml" 102 4281 4299
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 102 4281 4293 "heptagon/transformations/reset.ml" 102 4281 4299
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 102 4281 4302 "heptagon/transformations/reset.ml" 102 4281 4309
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 102 4281 4311 "heptagon/transformations/reset.ml" 102 4281 4330
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 102 4281 4331 "heptagon/transformations/reset.ml" 102 4281 4335
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 102 4281 4310 "heptagon/transformations/reset.ml" 102 4281 4336
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 102 4281 4337 "heptagon/transformations/reset.ml" 102 4281 4340
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 102 4281 4341 "heptagon/transformations/reset.ml" 102 4281 4347
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/transformations/reset.ml" 101 4229 4266 "heptagon/transformations/reset.ml" 101 4229 4272
+)
+"heptagon/transformations/reset.ml" 102 4281 4302 "heptagon/transformations/reset.ml" 102 4281 4347
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 103 4351 4363 "heptagon/transformations/reset.ml" 103 4351 4365
+type(
+  Heptagon.exp option
+)
+ident(
+  def re "heptagon/transformations/reset.ml" 104 4421 4429 "heptagon/transformations/reset.ml" 104 4421 4469
+)
+"heptagon/transformations/reset.ml" 103 4351 4366 "heptagon/transformations/reset.ml" 103 4351 4367
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 103 4351 4363 "heptagon/transformations/reset.ml" 103 4351 4367
+type(
+  Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 103 4351 4370 "heptagon/transformations/reset.ml" 103 4351 4383
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp option -> Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.optional_wacc
+)
+"heptagon/transformations/reset.ml" 103 4351 4385 "heptagon/transformations/reset.ml" 103 4351 4404
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 103 4351 4405 "heptagon/transformations/reset.ml" 103 4351 4409
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 103 4351 4384 "heptagon/transformations/reset.ml" 103 4351 4410
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 103 4351 4411 "heptagon/transformations/reset.ml" 103 4351 4414
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 103 4351 4415 "heptagon/transformations/reset.ml" 103 4351 4417
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref re "heptagon/transformations/reset.ml" 101 4229 4274 "heptagon/transformations/reset.ml" 101 4229 4276
+)
+"heptagon/transformations/reset.ml" 103 4351 4370 "heptagon/transformations/reset.ml" 103 4351 4417
+call(
+  stack
+)
+type(
+  Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 104 4421 4434 "heptagon/transformations/reset.ml" 104 4421 4436
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/reset.ml" 101 4229 4240 "heptagon/transformations/reset.ml" 101 4229 4264
+)
+"heptagon/transformations/reset.ml" 104 4421 4438 "heptagon/transformations/reset.ml" 104 4421 4442
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/reset.ml" 102 4281 4293 "heptagon/transformations/reset.ml" 102 4281 4297
+)
+"heptagon/transformations/reset.ml" 104 4421 4444 "heptagon/transformations/reset.ml" 104 4421 4456
+type(
+  Heptagon.exp option -> Heptagon.exp option -> Heptagon.exp option
+)
+ident(
+  int_ref merge_resets "heptagon/transformations/reset.ml" 54 2672 2676 "heptagon/transformations/reset.ml" 54 2672 2688
+)
+"heptagon/transformations/reset.ml" 104 4421 4457 "heptagon/transformations/reset.ml" 104 4421 4460
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 104 4421 4461 "heptagon/transformations/reset.ml" 104 4421 4463
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref re "heptagon/transformations/reset.ml" 103 4351 4363 "heptagon/transformations/reset.ml" 103 4351 4365
+)
+"heptagon/transformations/reset.ml" 104 4421 4444 "heptagon/transformations/reset.ml" 104 4421 4463
+call(
+  stack
+)
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 104 4421 4429 "heptagon/transformations/reset.ml" 104 4421 4464
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 104 4421 4466 "heptagon/transformations/reset.ml" 104 4421 4469
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 104 4421 4429 "heptagon/transformations/reset.ml" 104 4421 4469
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 103 4351 4359 "heptagon/transformations/reset.ml" 104 4421 4469
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 102 4281 4289 "heptagon/transformations/reset.ml" 104 4421 4469
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 105 4470 4486 "heptagon/transformations/reset.ml" 105 4470 4488
+type(
+  Heptagon.iterator_type
+)
+ident(
+  def it "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4506 "heptagon/transformations/reset.ml" 105 4470 4507
+type(
+  Names.fun_name
+)
+"heptagon/transformations/reset.ml" 105 4470 4500 "heptagon/transformations/reset.ml" 105 4470 4507
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 105 4470 4491 "heptagon/transformations/reset.ml" 105 4470 4509
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 105 4470 4513 "heptagon/transformations/reset.ml" 105 4470 4515
+ident(
+  def op "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4490 "heptagon/transformations/reset.ml" 105 4470 4516
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 105 4470 4518 "heptagon/transformations/reset.ml" 105 4470 4519
+type(
+  Types.static_exp list
+)
+ident(
+  def n "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4521 "heptagon/transformations/reset.ml" 105 4470 4528
+type(
+  Heptagon.exp list
+)
+ident(
+  def pe_list "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4530 "heptagon/transformations/reset.ml" 105 4470 4536
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4538 "heptagon/transformations/reset.ml" 105 4470 4540
+type(
+  Heptagon.exp option
+)
+ident(
+  def re "heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 105 4470 4476 "heptagon/transformations/reset.ml" 105 4470 4541
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 106 4545 4557 "heptagon/transformations/reset.ml" 106 4545 4562
+type(
+  Heptagon.exp list
+)
+ident(
+  def pargs "heptagon/transformations/reset.ml" 107 4617 4625 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 106 4545 4563 "heptagon/transformations/reset.ml" 106 4545 4564
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 106 4545 4557 "heptagon/transformations/reset.ml" 106 4545 4564
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 106 4545 4567 "heptagon/transformations/reset.ml" 106 4545 4574
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 106 4545 4576 "heptagon/transformations/reset.ml" 106 4545 4595
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 106 4545 4596 "heptagon/transformations/reset.ml" 106 4545 4600
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 106 4545 4575 "heptagon/transformations/reset.ml" 106 4545 4601
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 106 4545 4602 "heptagon/transformations/reset.ml" 106 4545 4605
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 106 4545 4606 "heptagon/transformations/reset.ml" 106 4545 4613
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pe_list "heptagon/transformations/reset.ml" 105 4470 4521 "heptagon/transformations/reset.ml" 105 4470 4528
+)
+"heptagon/transformations/reset.ml" 106 4545 4567 "heptagon/transformations/reset.ml" 106 4545 4613
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 107 4617 4629 "heptagon/transformations/reset.ml" 107 4617 4633
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/reset.ml" 108 4687 4695 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 107 4617 4634 "heptagon/transformations/reset.ml" 107 4617 4635
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 107 4617 4629 "heptagon/transformations/reset.ml" 107 4617 4635
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 107 4617 4638 "heptagon/transformations/reset.ml" 107 4617 4645
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 107 4617 4647 "heptagon/transformations/reset.ml" 107 4617 4666
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 107 4617 4667 "heptagon/transformations/reset.ml" 107 4617 4671
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 107 4617 4646 "heptagon/transformations/reset.ml" 107 4617 4672
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 107 4617 4673 "heptagon/transformations/reset.ml" 107 4617 4676
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 107 4617 4677 "heptagon/transformations/reset.ml" 107 4617 4683
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/transformations/reset.ml" 105 4470 4530 "heptagon/transformations/reset.ml" 105 4470 4536
+)
+"heptagon/transformations/reset.ml" 107 4617 4638 "heptagon/transformations/reset.ml" 107 4617 4683
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 108 4687 4699 "heptagon/transformations/reset.ml" 108 4687 4701
+type(
+  Heptagon.exp option
+)
+ident(
+  def re "heptagon/transformations/reset.ml" 109 4757 4765 "heptagon/transformations/reset.ml" 109 4757 4824
+)
+"heptagon/transformations/reset.ml" 108 4687 4702 "heptagon/transformations/reset.ml" 108 4687 4703
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 108 4687 4699 "heptagon/transformations/reset.ml" 108 4687 4703
+type(
+  Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 108 4687 4706 "heptagon/transformations/reset.ml" 108 4687 4719
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp option -> Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.optional_wacc
+)
+"heptagon/transformations/reset.ml" 108 4687 4721 "heptagon/transformations/reset.ml" 108 4687 4740
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 108 4687 4741 "heptagon/transformations/reset.ml" 108 4687 4745
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 108 4687 4720 "heptagon/transformations/reset.ml" 108 4687 4746
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 108 4687 4747 "heptagon/transformations/reset.ml" 108 4687 4750
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 108 4687 4751 "heptagon/transformations/reset.ml" 108 4687 4753
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref re "heptagon/transformations/reset.ml" 105 4470 4538 "heptagon/transformations/reset.ml" 105 4470 4540
+)
+"heptagon/transformations/reset.ml" 108 4687 4706 "heptagon/transformations/reset.ml" 108 4687 4753
+call(
+  stack
+)
+type(
+  Heptagon.exp option * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 109 4757 4775 "heptagon/transformations/reset.ml" 109 4757 4777
+type(
+  Heptagon.iterator_type
+)
+ident(
+  int_ref it "heptagon/transformations/reset.ml" 105 4470 4486 "heptagon/transformations/reset.ml" 105 4470 4488
+)
+"heptagon/transformations/reset.ml" 109 4757 4779 "heptagon/transformations/reset.ml" 109 4757 4781
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/reset.ml" 105 4470 4490 "heptagon/transformations/reset.ml" 105 4470 4516
+)
+"heptagon/transformations/reset.ml" 109 4757 4783 "heptagon/transformations/reset.ml" 109 4757 4784
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/transformations/reset.ml" 105 4470 4518 "heptagon/transformations/reset.ml" 105 4470 4519
+)
+"heptagon/transformations/reset.ml" 109 4757 4786 "heptagon/transformations/reset.ml" 109 4757 4791
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pargs "heptagon/transformations/reset.ml" 106 4545 4557 "heptagon/transformations/reset.ml" 106 4545 4562
+)
+"heptagon/transformations/reset.ml" 109 4757 4793 "heptagon/transformations/reset.ml" 109 4757 4797
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/reset.ml" 107 4617 4629 "heptagon/transformations/reset.ml" 107 4617 4633
+)
+"heptagon/transformations/reset.ml" 109 4757 4799 "heptagon/transformations/reset.ml" 109 4757 4811
+type(
+  Heptagon.exp option -> Heptagon.exp option -> Heptagon.exp option
+)
+ident(
+  int_ref merge_resets "heptagon/transformations/reset.ml" 54 2672 2676 "heptagon/transformations/reset.ml" 54 2672 2688
+)
+"heptagon/transformations/reset.ml" 109 4757 4812 "heptagon/transformations/reset.ml" 109 4757 4815
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 79 3351 3368 "heptagon/transformations/reset.ml" 79 3351 3371
+)
+"heptagon/transformations/reset.ml" 109 4757 4816 "heptagon/transformations/reset.ml" 109 4757 4818
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref re "heptagon/transformations/reset.ml" 108 4687 4699 "heptagon/transformations/reset.ml" 108 4687 4701
+)
+"heptagon/transformations/reset.ml" 109 4757 4799 "heptagon/transformations/reset.ml" 109 4757 4818
+call(
+  stack
+)
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 109 4757 4765 "heptagon/transformations/reset.ml" 109 4757 4819
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 109 4757 4821 "heptagon/transformations/reset.ml" 109 4757 4824
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 109 4757 4765 "heptagon/transformations/reset.ml" 109 4757 4824
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 108 4687 4695 "heptagon/transformations/reset.ml" 109 4757 4824
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 107 4617 4625 "heptagon/transformations/reset.ml" 109 4757 4824
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 106 4545 4553 "heptagon/transformations/reset.ml" 109 4757 4824
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 110 4825 4850 "heptagon/transformations/reset.ml" 110 4825 4851
+type(
+  Names.fun_name
+)
+"heptagon/transformations/reset.ml" 110 4825 4845 "heptagon/transformations/reset.ml" 110 4825 4851
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 110 4825 4836 "heptagon/transformations/reset.ml" 110 4825 4853
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 110 4825 4857 "heptagon/transformations/reset.ml" 110 4825 4859
+ident(
+  def op "heptagon/transformations/reset.ml" 111 4875 4883 "heptagon/transformations/reset.ml" 112 4945 4978
+)
+"heptagon/transformations/reset.ml" 110 4825 4836 "heptagon/transformations/reset.ml" 110 4825 4859
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 110 4825 4861 "heptagon/transformations/reset.ml" 110 4825 4867
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/transformations/reset.ml" 111 4875 4883 "heptagon/transformations/reset.ml" 112 4945 4978
+)
+"heptagon/transformations/reset.ml" 110 4825 4869 "heptagon/transformations/reset.ml" 110 4825 4870
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 110 4825 4831 "heptagon/transformations/reset.ml" 110 4825 4871
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 111 4875 4887 "heptagon/transformations/reset.ml" 111 4875 4891
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/reset.ml" 112 4945 4953 "heptagon/transformations/reset.ml" 112 4945 4978
+)
+"heptagon/transformations/reset.ml" 111 4875 4892 "heptagon/transformations/reset.ml" 111 4875 4893
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 111 4875 4887 "heptagon/transformations/reset.ml" 111 4875 4893
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 111 4875 4896 "heptagon/transformations/reset.ml" 111 4875 4903
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 111 4875 4905 "heptagon/transformations/reset.ml" 111 4875 4924
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 111 4875 4925 "heptagon/transformations/reset.ml" 111 4875 4929
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 111 4875 4904 "heptagon/transformations/reset.ml" 111 4875 4930
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 111 4875 4931 "heptagon/transformations/reset.ml" 111 4875 4934
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 111 4875 4935 "heptagon/transformations/reset.ml" 111 4875 4941
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/transformations/reset.ml" 110 4825 4861 "heptagon/transformations/reset.ml" 110 4825 4867
+)
+"heptagon/transformations/reset.ml" 111 4875 4896 "heptagon/transformations/reset.ml" 111 4875 4941
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 112 4945 4958 "heptagon/transformations/reset.ml" 112 4945 4960
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/reset.ml" 110 4825 4836 "heptagon/transformations/reset.ml" 110 4825 4859
+)
+"heptagon/transformations/reset.ml" 112 4945 4962 "heptagon/transformations/reset.ml" 112 4945 4966
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/reset.ml" 111 4875 4887 "heptagon/transformations/reset.ml" 111 4875 4891
+)
+"heptagon/transformations/reset.ml" 112 4945 4968 "heptagon/transformations/reset.ml" 112 4945 4972
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 112 4945 4953 "heptagon/transformations/reset.ml" 112 4945 4973
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 112 4945 4975 "heptagon/transformations/reset.ml" 112 4945 4978
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 112 4945 4953 "heptagon/transformations/reset.ml" 112 4945 4978
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 111 4875 4883 "heptagon/transformations/reset.ml" 112 4945 4978
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 113 5008 5024 "heptagon/transformations/reset.ml" 113 5008 5026
+type(
+  Heptagon.iterator_type
+)
+ident(
+  def it "heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 113 5008 5043 "heptagon/transformations/reset.ml" 113 5008 5044
+type(
+  Names.fun_name
+)
+"heptagon/transformations/reset.ml" 113 5008 5038 "heptagon/transformations/reset.ml" 113 5008 5044
+type(
+  Heptagon.op
+)
+"heptagon/transformations/reset.ml" 113 5008 5029 "heptagon/transformations/reset.ml" 113 5008 5046
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 113 5008 5050 "heptagon/transformations/reset.ml" 113 5008 5052
+ident(
+  def op "heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 113 5008 5028 "heptagon/transformations/reset.ml" 113 5008 5053
+type(
+  Heptagon.app
+)
+"heptagon/transformations/reset.ml" 113 5008 5055 "heptagon/transformations/reset.ml" 113 5008 5056
+type(
+  Types.static_exp list
+)
+ident(
+  def n "heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 113 5008 5058 "heptagon/transformations/reset.ml" 113 5008 5065
+type(
+  Heptagon.exp list
+)
+ident(
+  def pe_list "heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 113 5008 5067 "heptagon/transformations/reset.ml" 113 5008 5073
+type(
+  Heptagon.exp list
+)
+ident(
+  def e_list "heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 113 5008 5075 "heptagon/transformations/reset.ml" 113 5008 5076
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 113 5008 5014 "heptagon/transformations/reset.ml" 113 5008 5077
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 114 5081 5093 "heptagon/transformations/reset.ml" 114 5081 5098
+type(
+  Heptagon.exp list
+)
+ident(
+  def pargs "heptagon/transformations/reset.ml" 115 5153 5161 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 114 5081 5099 "heptagon/transformations/reset.ml" 114 5081 5100
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 114 5081 5093 "heptagon/transformations/reset.ml" 114 5081 5100
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 114 5081 5103 "heptagon/transformations/reset.ml" 114 5081 5110
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 114 5081 5112 "heptagon/transformations/reset.ml" 114 5081 5131
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 114 5081 5132 "heptagon/transformations/reset.ml" 114 5081 5136
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 114 5081 5111 "heptagon/transformations/reset.ml" 114 5081 5137
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 114 5081 5138 "heptagon/transformations/reset.ml" 114 5081 5141
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 114 5081 5142 "heptagon/transformations/reset.ml" 114 5081 5149
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pe_list "heptagon/transformations/reset.ml" 113 5008 5058 "heptagon/transformations/reset.ml" 113 5008 5065
+)
+"heptagon/transformations/reset.ml" 114 5081 5103 "heptagon/transformations/reset.ml" 114 5081 5149
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 115 5153 5165 "heptagon/transformations/reset.ml" 115 5153 5169
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/transformations/reset.ml" 116 5223 5231 "heptagon/transformations/reset.ml" 116 5223 5275
+)
+"heptagon/transformations/reset.ml" 115 5153 5170 "heptagon/transformations/reset.ml" 115 5153 5171
+type(
+  Heptagon.exp option * 'a
+)
+"heptagon/transformations/reset.ml" 115 5153 5165 "heptagon/transformations/reset.ml" 115 5153 5171
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 115 5153 5174 "heptagon/transformations/reset.ml" 115 5153 5181
+type(
+  (Heptagon.exp option * 'a ->
+   Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)) ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp list -> Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Misc.mapfold
+)
+"heptagon/transformations/reset.ml" 115 5153 5183 "heptagon/transformations/reset.ml" 115 5153 5202
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 115 5153 5203 "heptagon/transformations/reset.ml" 115 5153 5207
+type(
+  (Heptagon.exp option * 'a) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 79 3351 3361 "heptagon/transformations/reset.ml" 79 3351 3365
+)
+"heptagon/transformations/reset.ml" 115 5153 5182 "heptagon/transformations/reset.ml" 115 5153 5208
+call(
+  stack
+)
+type(
+  Heptagon.exp option * 'a ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 115 5153 5209 "heptagon/transformations/reset.ml" 115 5153 5212
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 115 5153 5213 "heptagon/transformations/reset.ml" 115 5153 5219
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref e_list "heptagon/transformations/reset.ml" 113 5008 5067 "heptagon/transformations/reset.ml" 113 5008 5073
+)
+"heptagon/transformations/reset.ml" 115 5153 5174 "heptagon/transformations/reset.ml" 115 5153 5219
+call(
+  stack
+)
+type(
+  Heptagon.exp list * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 116 5223 5241 "heptagon/transformations/reset.ml" 116 5223 5243
+type(
+  Heptagon.iterator_type
+)
+ident(
+  int_ref it "heptagon/transformations/reset.ml" 113 5008 5024 "heptagon/transformations/reset.ml" 113 5008 5026
+)
+"heptagon/transformations/reset.ml" 116 5223 5245 "heptagon/transformations/reset.ml" 116 5223 5247
+type(
+  Heptagon.app
+)
+ident(
+  int_ref op "heptagon/transformations/reset.ml" 113 5008 5028 "heptagon/transformations/reset.ml" 113 5008 5053
+)
+"heptagon/transformations/reset.ml" 116 5223 5249 "heptagon/transformations/reset.ml" 116 5223 5250
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref n "heptagon/transformations/reset.ml" 113 5008 5055 "heptagon/transformations/reset.ml" 113 5008 5056
+)
+"heptagon/transformations/reset.ml" 116 5223 5252 "heptagon/transformations/reset.ml" 116 5223 5257
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref pargs "heptagon/transformations/reset.ml" 114 5081 5093 "heptagon/transformations/reset.ml" 114 5081 5098
+)
+"heptagon/transformations/reset.ml" 116 5223 5259 "heptagon/transformations/reset.ml" 116 5223 5263
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/transformations/reset.ml" 115 5153 5165 "heptagon/transformations/reset.ml" 115 5153 5169
+)
+"heptagon/transformations/reset.ml" 116 5223 5265 "heptagon/transformations/reset.ml" 116 5223 5269
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 116 5223 5231 "heptagon/transformations/reset.ml" 116 5223 5270
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 116 5223 5272 "heptagon/transformations/reset.ml" 116 5223 5275
+type(
+  Heptagon.exp option * 'a
+)
+ident(
+  int_ref acc "heptagon/transformations/reset.ml" 79 3351 3366 "heptagon/transformations/reset.ml" 79 3351 3382
+)
+"heptagon/transformations/reset.ml" 116 5223 5231 "heptagon/transformations/reset.ml" 116 5223 5275
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 115 5153 5161 "heptagon/transformations/reset.ml" 116 5223 5275
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 114 5081 5089 "heptagon/transformations/reset.ml" 116 5223 5275
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 117 5305 5311 "heptagon/transformations/reset.ml" 117 5305 5312
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 117 5305 5316 "heptagon/transformations/reset.ml" 117 5305 5321
+type(
+  exn -> Heptagon.desc * (Heptagon.exp option * 'a)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/reset.ml" 117 5305 5322 "heptagon/transformations/reset.ml" 117 5305 5337
+type(
+  exn
+)
+"heptagon/transformations/reset.ml" 117 5305 5316 "heptagon/transformations/reset.ml" 117 5305 5337
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 80 3388 3390 "heptagon/transformations/reset.ml" 117 5305 5337
+type(
+  Heptagon.desc * (Heptagon.exp option * 'a)
+)
+"heptagon/transformations/reset.ml" 119 5339 5343 "heptagon/transformations/reset.ml" 119 5339 5345
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs ->
+  'a * 'b -> Heptagon.eq -> Heptagon.eq * ('a * bool)
+)
+ident(
+  def eq "heptagon/transformations/reset.ml" 122 5412 5412 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 119 5339 5346 "heptagon/transformations/reset.ml" 119 5339 5350
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/reset.ml" 119 5339 5351 "heptagon/transformations/reset.ml" 120 5364 5410
+)
+"heptagon/transformations/reset.ml" 119 5339 5352 "heptagon/transformations/reset.ml" 119 5339 5355
+type(
+  'a
+)
+ident(
+  def res "heptagon/transformations/reset.ml" 119 5339 5359 "heptagon/transformations/reset.ml" 120 5364 5410
+)
+"heptagon/transformations/reset.ml" 119 5339 5356 "heptagon/transformations/reset.ml" 119 5339 5357
+type(
+  'b
+)
+"heptagon/transformations/reset.ml" 119 5339 5351 "heptagon/transformations/reset.ml" 119 5339 5358
+type(
+  'a * 'b
+)
+"heptagon/transformations/reset.ml" 119 5339 5359 "heptagon/transformations/reset.ml" 119 5339 5361
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/reset.ml" 120 5364 5366 "heptagon/transformations/reset.ml" 120 5364 5410
+)
+"heptagon/transformations/reset.ml" 120 5364 5366 "heptagon/transformations/reset.ml" 120 5364 5381
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs ->
+  'a * bool -> Heptagon.eq -> Heptagon.eq * ('a * bool)
+)
+ident(
+  ext_ref Hept_mapfold.eq
+)
+"heptagon/transformations/reset.ml" 120 5364 5382 "heptagon/transformations/reset.ml" 120 5364 5386
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 119 5339 5346 "heptagon/transformations/reset.ml" 119 5339 5350
+)
+"heptagon/transformations/reset.ml" 120 5364 5388 "heptagon/transformations/reset.ml" 120 5364 5391
+type(
+  'a
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 119 5339 5352 "heptagon/transformations/reset.ml" 119 5339 5355
+)
+"heptagon/transformations/reset.ml" 120 5364 5392 "heptagon/transformations/reset.ml" 120 5364 5394
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/reset.ml" 119 5339 5359 "heptagon/transformations/reset.ml" 119 5339 5361
+)
+"heptagon/transformations/reset.ml" 120 5364 5392 "heptagon/transformations/reset.ml" 120 5364 5406
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 120 5364 5387 "heptagon/transformations/reset.ml" 120 5364 5407
+type(
+  'a * bool
+)
+"heptagon/transformations/reset.ml" 120 5364 5408 "heptagon/transformations/reset.ml" 120 5364 5410
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/reset.ml" 119 5339 5359 "heptagon/transformations/reset.ml" 119 5339 5361
+)
+"heptagon/transformations/reset.ml" 120 5364 5366 "heptagon/transformations/reset.ml" 120 5364 5410
+call(
+  tail
+)
+type(
+  Heptagon.eq * ('a * bool)
+)
+"heptagon/transformations/reset.ml" 122 5412 5416 "heptagon/transformations/reset.ml" 122 5412 5421
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs ->
+  'a * 'b -> Heptagon.block -> Heptagon.block * ('a * bool)
+)
+ident(
+  def block "heptagon/transformations/reset.ml" 127 5623 5623 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 122 5412 5422 "heptagon/transformations/reset.ml" 122 5412 5426
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/reset.ml" 122 5412 5427 "heptagon/transformations/reset.ml" 123 5439 5485
+)
+"heptagon/transformations/reset.ml" 122 5412 5428 "heptagon/transformations/reset.ml" 122 5412 5431
+type(
+  'a
+)
+ident(
+  def res "heptagon/transformations/reset.ml" 122 5412 5435 "heptagon/transformations/reset.ml" 123 5439 5485
+)
+"heptagon/transformations/reset.ml" 122 5412 5432 "heptagon/transformations/reset.ml" 122 5412 5433
+type(
+  'b
+)
+"heptagon/transformations/reset.ml" 122 5412 5427 "heptagon/transformations/reset.ml" 122 5412 5434
+type(
+  'a * 'b
+)
+"heptagon/transformations/reset.ml" 122 5412 5435 "heptagon/transformations/reset.ml" 122 5412 5436
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 123 5439 5441 "heptagon/transformations/reset.ml" 123 5439 5485
+)
+"heptagon/transformations/reset.ml" 123 5439 5441 "heptagon/transformations/reset.ml" 123 5439 5459
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs ->
+  'a * bool -> Heptagon.block -> Heptagon.block * ('a * bool)
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/reset.ml" 123 5439 5460 "heptagon/transformations/reset.ml" 123 5439 5464
+type(
+  ('a * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 122 5412 5422 "heptagon/transformations/reset.ml" 122 5412 5426
+)
+"heptagon/transformations/reset.ml" 123 5439 5466 "heptagon/transformations/reset.ml" 123 5439 5469
+type(
+  'a
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 122 5412 5428 "heptagon/transformations/reset.ml" 122 5412 5431
+)
+"heptagon/transformations/reset.ml" 123 5439 5470 "heptagon/transformations/reset.ml" 123 5439 5471
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 122 5412 5435 "heptagon/transformations/reset.ml" 122 5412 5436
+)
+"heptagon/transformations/reset.ml" 123 5439 5470 "heptagon/transformations/reset.ml" 123 5439 5482
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 123 5439 5465 "heptagon/transformations/reset.ml" 123 5439 5483
+type(
+  'a * bool
+)
+"heptagon/transformations/reset.ml" 123 5439 5484 "heptagon/transformations/reset.ml" 123 5439 5485
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 122 5412 5435 "heptagon/transformations/reset.ml" 122 5412 5436
+)
+"heptagon/transformations/reset.ml" 123 5439 5441 "heptagon/transformations/reset.ml" 123 5439 5485
+call(
+  tail
+)
+type(
+  Heptagon.block * ('a * bool)
+)
+"heptagon/transformations/reset.ml" 127 5623 5627 "heptagon/transformations/reset.ml" 127 5623 5633
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.eqdesc -> Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+ident(
+  def eqdesc "heptagon/transformations/reset.ml" 149 6594 6594 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 127 5623 5634 "heptagon/transformations/reset.ml" 127 5623 5638
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/reset.ml" 127 5623 5639 "heptagon/transformations/reset.ml" 146 6561 6591
+)
+"heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+type(
+  Heptagon.exp option
+)
+ident(
+  def res "heptagon/transformations/reset.ml" 127 5623 5656 "heptagon/transformations/reset.ml" 146 6561 6591
+)
+"heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/transformations/reset.ml" 127 5623 5656 "heptagon/transformations/reset.ml" 146 6561 6591
+)
+"heptagon/transformations/reset.ml" 127 5623 5639 "heptagon/transformations/reset.ml" 127 5623 5653
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 128 5665 5676 "heptagon/transformations/reset.ml" 128 5665 5677
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 129 5710 5718 "heptagon/transformations/reset.ml" 131 5845 5878
+)
+"heptagon/transformations/reset.ml" 128 5665 5696 "heptagon/transformations/reset.ml" 128 5665 5697
+type(
+  Idents.var_ident
+)
+"heptagon/transformations/reset.ml" 128 5665 5691 "heptagon/transformations/reset.ml" 128 5665 5697
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/reset.ml" 128 5665 5680 "heptagon/transformations/reset.ml" 128 5665 5699
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 128 5665 5703 "heptagon/transformations/reset.ml" 128 5665 5704
+ident(
+  def e "heptagon/transformations/reset.ml" 129 5710 5718 "heptagon/transformations/reset.ml" 131 5845 5878
+)
+"heptagon/transformations/reset.ml" 128 5665 5679 "heptagon/transformations/reset.ml" 128 5665 5705
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/reset.ml" 128 5665 5669 "heptagon/transformations/reset.ml" 128 5665 5706
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 129 5710 5722 "heptagon/transformations/reset.ml" 129 5710 5723
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/transformations/reset.ml" 130 5781 5789 "heptagon/transformations/reset.ml" 131 5845 5878
+)
+"heptagon/transformations/reset.ml" 129 5710 5729 "heptagon/transformations/reset.ml" 129 5710 5737
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 129 5710 5743 "heptagon/transformations/reset.ml" 129 5710 5755
+type(
+  Heptagon.exp option -> Heptagon.exp option -> Heptagon.exp option
+)
+ident(
+  int_ref merge_resets "heptagon/transformations/reset.ml" 54 2672 2676 "heptagon/transformations/reset.ml" 54 2672 2688
+)
+"heptagon/transformations/reset.ml" 129 5710 5756 "heptagon/transformations/reset.ml" 129 5710 5759
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 129 5710 5766 "heptagon/transformations/reset.ml" 129 5710 5767
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 128 5665 5679 "heptagon/transformations/reset.ml" 128 5665 5705
+)
+"heptagon/transformations/reset.ml" 129 5710 5760 "heptagon/transformations/reset.ml" 129 5710 5768
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 129 5710 5743 "heptagon/transformations/reset.ml" 129 5710 5768
+call(
+  stack
+)
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 129 5710 5774 "heptagon/transformations/reset.ml" 129 5710 5777
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 129 5710 5726 "heptagon/transformations/reset.ml" 129 5710 5777
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 130 5781 5793 "heptagon/transformations/reset.ml" 130 5781 5794
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 131 5845 5853 "heptagon/transformations/reset.ml" 131 5845 5878
+)
+"heptagon/transformations/reset.ml" 130 5781 5796 "heptagon/transformations/reset.ml" 130 5781 5797
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 130 5781 5793 "heptagon/transformations/reset.ml" 130 5781 5797
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 130 5781 5800 "heptagon/transformations/reset.ml" 130 5781 5821
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.block -> Heptagon.block * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Hept_mapfold.block_it
+)
+"heptagon/transformations/reset.ml" 130 5781 5822 "heptagon/transformations/reset.ml" 130 5781 5826
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 127 5623 5634 "heptagon/transformations/reset.ml" 127 5623 5638
+)
+"heptagon/transformations/reset.ml" 130 5781 5828 "heptagon/transformations/reset.ml" 130 5781 5829
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/transformations/reset.ml" 129 5710 5722 "heptagon/transformations/reset.ml" 129 5710 5723
+)
+"heptagon/transformations/reset.ml" 130 5781 5830 "heptagon/transformations/reset.ml" 130 5781 5838
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 130 5781 5827 "heptagon/transformations/reset.ml" 130 5781 5839
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 130 5781 5840 "heptagon/transformations/reset.ml" 130 5781 5841
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 128 5665 5676 "heptagon/transformations/reset.ml" 128 5665 5677
+)
+"heptagon/transformations/reset.ml" 130 5781 5800 "heptagon/transformations/reset.ml" 130 5781 5841
+call(
+  stack
+)
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 131 5845 5859 "heptagon/transformations/reset.ml" 131 5845 5862
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 130 5781 5793 "heptagon/transformations/reset.ml" 130 5781 5794
+)
+"heptagon/transformations/reset.ml" 131 5845 5853 "heptagon/transformations/reset.ml" 131 5845 5862
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 131 5845 5865 "heptagon/transformations/reset.ml" 131 5845 5868
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 131 5845 5869 "heptagon/transformations/reset.ml" 131 5845 5877
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 131 5845 5864 "heptagon/transformations/reset.ml" 131 5845 5878
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 131 5845 5853 "heptagon/transformations/reset.ml" 131 5845 5878
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 130 5781 5789 "heptagon/transformations/reset.ml" 131 5845 5878
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 129 5710 5718 "heptagon/transformations/reset.ml" 131 5845 5878
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 132 5879 5890 "heptagon/transformations/reset.ml" 132 5879 5891
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 133 5899 5905 "heptagon/transformations/reset.ml" 142 6401 6435
+)
+"heptagon/transformations/reset.ml" 132 5879 5893 "heptagon/transformations/reset.ml" 132 5879 5894
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 133 5899 5905 "heptagon/transformations/reset.ml" 142 6401 6435
+)
+"heptagon/transformations/reset.ml" 132 5879 5883 "heptagon/transformations/reset.ml" 132 5879 5895
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 133 5899 5908 "heptagon/transformations/reset.ml" 133 5899 5916
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 134 5924 5936 "heptagon/transformations/reset.ml" 134 5924 5937
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 135 5988 5996 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 134 5924 5939 "heptagon/transformations/reset.ml" 134 5924 5940
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 134 5924 5936 "heptagon/transformations/reset.ml" 134 5924 5940
+type(
+  Heptagon.exp * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 134 5924 5943 "heptagon/transformations/reset.ml" 134 5924 5962
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.exp -> Heptagon.exp * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Hept_mapfold.exp_it
+)
+"heptagon/transformations/reset.ml" 134 5924 5963 "heptagon/transformations/reset.ml" 134 5924 5967
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 127 5623 5634 "heptagon/transformations/reset.ml" 127 5623 5638
+)
+"heptagon/transformations/reset.ml" 134 5924 5969 "heptagon/transformations/reset.ml" 134 5924 5972
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 134 5924 5973 "heptagon/transformations/reset.ml" 134 5924 5981
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 134 5924 5968 "heptagon/transformations/reset.ml" 134 5924 5982
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 134 5924 5983 "heptagon/transformations/reset.ml" 134 5924 5984
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 132 5879 5893 "heptagon/transformations/reset.ml" 132 5879 5894
+)
+"heptagon/transformations/reset.ml" 134 5924 5943 "heptagon/transformations/reset.ml" 134 5924 5984
+call(
+  stack
+)
+type(
+  Heptagon.exp * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 135 5988 6000 "heptagon/transformations/reset.ml" 135 5988 6001
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/reset.ml" 136 6036 6044 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 135 5988 6003 "heptagon/transformations/reset.ml" 135 5988 6005
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/transformations/reset.ml" 136 6036 6044 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 135 5988 6007 "heptagon/transformations/reset.ml" 135 5988 6009
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/reset.ml" 136 6036 6044 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 135 5988 6000 "heptagon/transformations/reset.ml" 135 5988 6009
+type(
+  Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+"heptagon/transformations/reset.ml" 135 5988 6012 "heptagon/transformations/reset.ml" 135 5988 6030
+type(
+  Heptagon.exp -> Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+ident(
+  int_ref reset_var_from_exp "heptagon/transformations/reset.ml" 47 2463 2467 "heptagon/transformations/reset.ml" 47 2463 2485
+)
+"heptagon/transformations/reset.ml" 135 5988 6031 "heptagon/transformations/reset.ml" 135 5988 6032
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 134 5924 5936 "heptagon/transformations/reset.ml" 134 5924 5937
+)
+"heptagon/transformations/reset.ml" 135 5988 6012 "heptagon/transformations/reset.ml" 135 5988 6032
+call(
+  stack
+)
+type(
+  Heptagon.exp * Heptagon.var_dec * Heptagon.eq
+)
+"heptagon/transformations/reset.ml" 136 6036 6048 "heptagon/transformations/reset.ml" 136 6036 6049
+type(
+  Heptagon.exp option
+)
+ident(
+  def r "heptagon/transformations/reset.ml" 137 6081 6089 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 136 6036 6052 "heptagon/transformations/reset.ml" 136 6036 6064
+type(
+  Heptagon.exp option -> Heptagon.exp option -> Heptagon.exp option
+)
+ident(
+  int_ref merge_resets "heptagon/transformations/reset.ml" 54 2672 2676 "heptagon/transformations/reset.ml" 54 2672 2688
+)
+"heptagon/transformations/reset.ml" 136 6036 6065 "heptagon/transformations/reset.ml" 136 6036 6068
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 136 6036 6075 "heptagon/transformations/reset.ml" 136 6036 6076
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/reset.ml" 135 5988 6000 "heptagon/transformations/reset.ml" 135 5988 6001
+)
+"heptagon/transformations/reset.ml" 136 6036 6069 "heptagon/transformations/reset.ml" 136 6036 6077
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 136 6036 6052 "heptagon/transformations/reset.ml" 136 6036 6077
+call(
+  stack
+)
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 137 6081 6093 "heptagon/transformations/reset.ml" 137 6081 6094
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 138 6145 6153 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 137 6081 6096 "heptagon/transformations/reset.ml" 137 6081 6097
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 137 6081 6093 "heptagon/transformations/reset.ml" 137 6081 6097
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 137 6081 6100 "heptagon/transformations/reset.ml" 137 6081 6121
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.block -> Heptagon.block * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Hept_mapfold.block_it
+)
+"heptagon/transformations/reset.ml" 137 6081 6122 "heptagon/transformations/reset.ml" 137 6081 6126
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 127 5623 5634 "heptagon/transformations/reset.ml" 127 5623 5638
+)
+"heptagon/transformations/reset.ml" 137 6081 6128 "heptagon/transformations/reset.ml" 137 6081 6129
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref r "heptagon/transformations/reset.ml" 136 6036 6048 "heptagon/transformations/reset.ml" 136 6036 6049
+)
+"heptagon/transformations/reset.ml" 137 6081 6130 "heptagon/transformations/reset.ml" 137 6081 6138
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 137 6081 6127 "heptagon/transformations/reset.ml" 137 6081 6139
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 137 6081 6140 "heptagon/transformations/reset.ml" 137 6081 6141
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 132 5879 5890 "heptagon/transformations/reset.ml" 132 5879 5891
+)
+"heptagon/transformations/reset.ml" 137 6081 6100 "heptagon/transformations/reset.ml" 137 6081 6141
+call(
+  stack
+)
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 138 6145 6157 "heptagon/transformations/reset.ml" 138 6145 6158
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 139 6241 6249 "heptagon/transformations/reset.ml" 139 6241 6274
+)
+"heptagon/transformations/reset.ml" 138 6145 6163 "heptagon/transformations/reset.ml" 138 6145 6164
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 137 6081 6093 "heptagon/transformations/reset.ml" 137 6081 6094
+)
+"heptagon/transformations/reset.ml" 138 6145 6179 "heptagon/transformations/reset.ml" 138 6145 6181
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/reset.ml" 135 5988 6007 "heptagon/transformations/reset.ml" 135 5988 6009
+)
+"heptagon/transformations/reset.ml" 138 6145 6183 "heptagon/transformations/reset.ml" 138 6145 6184
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 137 6081 6093 "heptagon/transformations/reset.ml" 137 6081 6094
+)
+"heptagon/transformations/reset.ml" 138 6145 6183 "heptagon/transformations/reset.ml" 138 6145 6191
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/reset.ml" 138 6145 6179 "heptagon/transformations/reset.ml" 138 6145 6191
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/reset.ml" 138 6145 6203 "heptagon/transformations/reset.ml" 138 6145 6205
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/transformations/reset.ml" 135 5988 6003 "heptagon/transformations/reset.ml" 135 5988 6005
+)
+"heptagon/transformations/reset.ml" 138 6145 6207 "heptagon/transformations/reset.ml" 138 6145 6208
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 137 6081 6093 "heptagon/transformations/reset.ml" 137 6081 6094
+)
+"heptagon/transformations/reset.ml" 138 6145 6207 "heptagon/transformations/reset.ml" 138 6145 6216
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/reset.ml" 138 6145 6203 "heptagon/transformations/reset.ml" 138 6145 6216
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/reset.ml" 138 6145 6231 "heptagon/transformations/reset.ml" 138 6145 6235
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 138 6145 6161 "heptagon/transformations/reset.ml" 138 6145 6237
+type(
+  Heptagon.block
+)
+"heptagon/transformations/reset.ml" 139 6241 6255 "heptagon/transformations/reset.ml" 139 6241 6258
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 138 6145 6157 "heptagon/transformations/reset.ml" 138 6145 6158
+)
+"heptagon/transformations/reset.ml" 139 6241 6249 "heptagon/transformations/reset.ml" 139 6241 6258
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 139 6241 6261 "heptagon/transformations/reset.ml" 139 6241 6264
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 139 6241 6265 "heptagon/transformations/reset.ml" 139 6241 6273
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 139 6241 6260 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 139 6241 6249 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 138 6145 6153 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 137 6081 6089 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 136 6036 6044 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 135 5988 5996 "heptagon/transformations/reset.ml" 139 6241 6274
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 133 5899 5922 "heptagon/transformations/reset.ml" 139 6241 6275
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 141 6335 6347 "heptagon/transformations/reset.ml" 141 6335 6348
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/reset.ml" 142 6401 6409 "heptagon/transformations/reset.ml" 142 6401 6434
+)
+"heptagon/transformations/reset.ml" 141 6335 6350 "heptagon/transformations/reset.ml" 141 6335 6351
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 141 6335 6347 "heptagon/transformations/reset.ml" 141 6335 6351
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 141 6335 6354 "heptagon/transformations/reset.ml" 141 6335 6375
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.block -> Heptagon.block * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Hept_mapfold.block_it
+)
+"heptagon/transformations/reset.ml" 141 6335 6376 "heptagon/transformations/reset.ml" 141 6335 6380
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 127 5623 5634 "heptagon/transformations/reset.ml" 127 5623 5638
+)
+"heptagon/transformations/reset.ml" 141 6335 6382 "heptagon/transformations/reset.ml" 141 6335 6385
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 141 6335 6386 "heptagon/transformations/reset.ml" 141 6335 6394
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 141 6335 6381 "heptagon/transformations/reset.ml" 141 6335 6395
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 141 6335 6396 "heptagon/transformations/reset.ml" 141 6335 6397
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 132 5879 5890 "heptagon/transformations/reset.ml" 132 5879 5891
+)
+"heptagon/transformations/reset.ml" 141 6335 6354 "heptagon/transformations/reset.ml" 141 6335 6397
+call(
+  stack
+)
+type(
+  Heptagon.block * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 142 6401 6415 "heptagon/transformations/reset.ml" 142 6401 6418
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/reset.ml" 141 6335 6347 "heptagon/transformations/reset.ml" 141 6335 6348
+)
+"heptagon/transformations/reset.ml" 142 6401 6409 "heptagon/transformations/reset.ml" 142 6401 6418
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 142 6401 6421 "heptagon/transformations/reset.ml" 142 6401 6424
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref res "heptagon/transformations/reset.ml" 127 5623 5640 "heptagon/transformations/reset.ml" 127 5623 5643
+)
+"heptagon/transformations/reset.ml" 142 6401 6425 "heptagon/transformations/reset.ml" 142 6401 6433
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/transformations/reset.ml" 127 5623 5644 "heptagon/transformations/reset.ml" 127 5623 5652
+)
+"heptagon/transformations/reset.ml" 142 6401 6420 "heptagon/transformations/reset.ml" 142 6401 6434
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 142 6401 6409 "heptagon/transformations/reset.ml" 142 6401 6434
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 140 6276 6287 "heptagon/transformations/reset.ml" 142 6401 6435
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 133 5899 5905 "heptagon/transformations/reset.ml" 142 6401 6435
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 143 6436 6451 "heptagon/transformations/reset.ml" 143 6436 6452
+type(
+  Heptagon.state_handler list
+)
+"heptagon/transformations/reset.ml" 143 6436 6440 "heptagon/transformations/reset.ml" 143 6436 6452
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 143 6436 6464 "heptagon/transformations/reset.ml" 143 6436 6465
+type(
+  Heptagon.block
+)
+type(
+  Heptagon.present_handler list
+)
+"heptagon/transformations/reset.ml" 143 6436 6455 "heptagon/transformations/reset.ml" 143 6436 6465
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 143 6436 6440 "heptagon/transformations/reset.ml" 143 6436 6465
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 144 6469 6475 "heptagon/transformations/reset.ml" 144 6469 6489
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"heptagon/transformations/reset.ml" 144 6469 6490 "heptagon/transformations/reset.ml" 144 6469 6540
+type(
+  (unit, Format.formatter, unit) format
+)
+"heptagon/transformations/reset.ml" 144 6469 6475 "heptagon/transformations/reset.ml" 144 6469 6540
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/reset.ml" 145 6542 6555 "heptagon/transformations/reset.ml" 145 6542 6560
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 145 6542 6548 "heptagon/transformations/reset.ml" 145 6542 6560
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 144 6469 6475 "heptagon/transformations/reset.ml" 145 6542 6560
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 146 6561 6565 "heptagon/transformations/reset.ml" 146 6561 6566
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/reset.ml" 146 6561 6570 "heptagon/transformations/reset.ml" 146 6561 6575
+type(
+  exn -> Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"heptagon/transformations/reset.ml" 146 6561 6576 "heptagon/transformations/reset.ml" 146 6561 6591
+type(
+  exn
+)
+"heptagon/transformations/reset.ml" 146 6561 6570 "heptagon/transformations/reset.ml" 146 6561 6591
+type(
+  Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 127 5623 5656 "heptagon/transformations/reset.ml" 146 6561 6591
+type(
+  Heptagon.eqdesc -> Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 149 6594 6598 "heptagon/transformations/reset.ml" 149 6594 6602
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/reset.ml" 154 6864 6864 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 149 6594 6607 "heptagon/transformations/reset.ml" 149 6594 6628
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/reset.ml" 149 6594 6652 "heptagon/transformations/reset.ml" 149 6594 6654
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.eq -> Heptagon.eq * (Heptagon.exp option * bool)
+)
+ident(
+  int_ref eq "heptagon/transformations/reset.ml" 119 5339 5343 "heptagon/transformations/reset.ml" 119 5339 5345
+)
+"heptagon/transformations/reset.ml" 150 6656 6717 "heptagon/transformations/reset.ml" 150 6656 6722
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.block -> Heptagon.block * (Heptagon.exp option * bool)
+)
+ident(
+  int_ref block "heptagon/transformations/reset.ml" 122 5412 5416 "heptagon/transformations/reset.ml" 122 5412 5421
+)
+"heptagon/transformations/reset.ml" 151 6724 6786 "heptagon/transformations/reset.ml" 151 6724 6792
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.eqdesc -> Heptagon.eqdesc * (Heptagon.exp option * bool)
+)
+ident(
+  int_ref eqdesc "heptagon/transformations/reset.ml" 127 5623 5627 "heptagon/transformations/reset.ml" 127 5623 5633
+)
+"heptagon/transformations/reset.ml" 152 6794 6855 "heptagon/transformations/reset.ml" 152 6794 6860
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.desc -> Heptagon.desc * (Heptagon.exp option * bool)
+)
+ident(
+  int_ref edesc "heptagon/transformations/reset.ml" 79 3351 3355 "heptagon/transformations/reset.ml" 79 3351 3360
+)
+"heptagon/transformations/reset.ml" 149 6594 6605 "heptagon/transformations/reset.ml" 152 6794 6862
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/reset.ml" 154 6864 6868 "heptagon/transformations/reset.ml" 154 6864 6875
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/reset.ml" 156 6939 6942 "heptagon/transformations/reset.ml" 1 0 -1
+)
+"heptagon/transformations/reset.ml" 154 6864 6876 "heptagon/transformations/reset.ml" 154 6864 6877
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/reset.ml" 155 6880 6882 "heptagon/transformations/reset.ml" 156 6939 6942
+)
+"heptagon/transformations/reset.ml" 155 6880 6886 "heptagon/transformations/reset.ml" 155 6880 6887
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/reset.ml" 156 6939 6941 "heptagon/transformations/reset.ml" 156 6939 6942
+)
+"heptagon/transformations/reset.ml" 155 6880 6889 "heptagon/transformations/reset.ml" 155 6880 6890
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 155 6880 6886 "heptagon/transformations/reset.ml" 155 6880 6890
+type(
+  Heptagon.program * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 155 6880 6893 "heptagon/transformations/reset.ml" 155 6880 6916
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs ->
+  Heptagon.exp option * bool ->
+  Heptagon.program -> Heptagon.program * (Heptagon.exp option * bool)
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/reset.ml" 155 6880 6917 "heptagon/transformations/reset.ml" 155 6880 6921
+type(
+  (Heptagon.exp option * bool) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/reset.ml" 149 6594 6598 "heptagon/transformations/reset.ml" 149 6594 6602
+)
+"heptagon/transformations/reset.ml" 155 6880 6923 "heptagon/transformations/reset.ml" 155 6880 6927
+type(
+  Heptagon.exp option
+)
+"heptagon/transformations/reset.ml" 155 6880 6928 "heptagon/transformations/reset.ml" 155 6880 6932
+type(
+  bool
+)
+"heptagon/transformations/reset.ml" 155 6880 6922 "heptagon/transformations/reset.ml" 155 6880 6933
+type(
+  Heptagon.exp option * bool
+)
+"heptagon/transformations/reset.ml" 155 6880 6934 "heptagon/transformations/reset.ml" 155 6880 6935
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/reset.ml" 154 6864 6876 "heptagon/transformations/reset.ml" 154 6864 6877
+)
+"heptagon/transformations/reset.ml" 155 6880 6893 "heptagon/transformations/reset.ml" 155 6880 6935
+call(
+  stack
+)
+type(
+  Heptagon.program * (Heptagon.exp option * bool)
+)
+"heptagon/transformations/reset.ml" 156 6939 6941 "heptagon/transformations/reset.ml" 156 6939 6942
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/reset.ml" 155 6880 6886 "heptagon/transformations/reset.ml" 155 6880 6887
+)
+"heptagon/transformations/reset.ml" 155 6880 6882 "heptagon/transformations/reset.ml" 156 6939 6942
+type(
+  Heptagon.program
+)

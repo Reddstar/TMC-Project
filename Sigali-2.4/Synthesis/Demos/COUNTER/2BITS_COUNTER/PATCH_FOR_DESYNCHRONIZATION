@@ -1,0 +1,72 @@
+
+
+Modifications à apporter pour avoir du Multi-Horloges en entrée
+
+1) Modif dans le process qui doit être compiler en -z3z (vt.SIG)
+---------------------------------------------------------------
+
+- Ajouter le Signal Tick en entrée du processus vt{}
+- Contraindre les entrées du processus à être incluses dans Tick
+
+    e.g. when ^Y when Tick ^= when ^Y
+
+i.e. l'horloge de Y est toujours la quand le signal Tick est présent
+
+2) Fichier z3z généré : vt.z3z
+------------------------------
+le problème vient du fait que maintenant Tick est une entrée du programme.
+Il faut donc la virer (cela va être géré par la suite par le simulateur)
+
+declare(Y,
+        Tick); <- enlever Tick de cet endroit
+
+Tick  : 1; <- ajouter cette ligne après declaration();
+
+
+conditions : [Y,
+              Tick]; <- enlever Tick de cet endroit
+
+
+3) ficher vt.SIG généré après chargement du résolver
+-----------------------------------------------------
+
+Après la phase de synthèse et le chargement du résolver, 
+on obtient le fichier vt.SIG avec les variables d'entrée
+du processus déclarées comme suit : 
+
+....
+% variables incontrôlables %
+| Y := (true when (cod_y[0]=1)) default 
+       (false when (cod_y[0]=(-1))) default false
+% variables contrôlables %
+| Z := (true when (cod_u[0]=1)) default 
+       (false when (cod_u[0]=(-1))) default false
+| Z^= Y ^= Tick
+....
+
+
+changer les lignes précédentes par 
+
+....
+% variables incontrôlables %
+| Y := (true when (cod_y[0]=1)) default 
+       (false when (cod_y[0]=(-1)))
+% variables contrôlables %
+| Z := (true when (cod_u[0]=1)) default 
+       (false when (cod_u[0]=(-1)))
+....
+
+
+Rque : ^Y = when (cod_y[0]=1)) + (cod_y[0]=-1))
+          avec  when (cod_y[0]=+-1)) inclus dans Tick par construction
+          donc ^Y inclus dans Tick
+
+Rque2 : essai avec le compt2Bits concluant :-)
+
+Question ert Trucs à faire : 
+  - Changer le chargement automatique du resolver pour tenir compte de 3)
+  - Comment éviter d'avoir à faire la passe 1) et 2) ie sortir Tick et le virer
+    du fichier z3z
+
+Rque3 :
+

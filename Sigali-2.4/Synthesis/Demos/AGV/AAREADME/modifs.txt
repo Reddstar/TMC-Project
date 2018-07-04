@@ -1,0 +1,32 @@
+/** \page note Some modifications
+
+   You can modify the file vt.z3z to accelerate the "sigali compiling" by
+      - replacing the line  (after the declare( ) area )
+        \verbatim
+              Tick : C1 ^2;
+        \endverbatim
+        by
+        \verbatim
+	       Tick: 1 ;
+        \endverbatim
+
+      - and reporting this definition as a constraint in ("constraints" area), 
+        \verbatim
+	    C1 ^2 = Tick,
+        \endverbatim
+        you will have the following lines
+        \verbatim
+             constraints: [
+                C1 ^2 = Tick,
+                C2 ^2 = Tick,
+                C3 ^2 = Tick,
+                ...
+        \endverbatim
+
+
+
+ This basically  says that at  each instant, all  the input events  are present.
+ Otherwise, during the  simulation, <b> the automatic mode of simulation will most of
+ the time choose the input events to be absent</b>.
+
+*/

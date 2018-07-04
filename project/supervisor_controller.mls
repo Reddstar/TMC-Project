@@ -1,0 +1,455 @@
+node supervisor_controller_supervisor_c_lac(supervisor_presence : bool;
+                                             supervisor_turn_on_l1 : bool;
+                                             supervisor_turn_on_l2 : bool;
+                                             supervisor_turn_on_rl : bool;
+                                             supervisor_turn_on_l : bool;
+                                             supervisor_turn_on_rac : bool;
+                                             supervisor_turn_on_lac : bool;
+                                             supervisor_turn_on_tv : bool;
+                                             supervisor_turn_on_wm : bool;
+                                             supervisor_do_open : bool;
+                                             supervisor_ck_1 : bool;
+                                             supervisor_pnr_9 : bool;
+                                             supervisor_ck_12_1 : bool;
+                                             supervisor_pnr_8 : bool;
+                                             supervisor_ck_14_1 : bool;
+                                             supervisor_pnr_7 : bool;
+                                             supervisor_ck_16_1 : bool;
+                                             supervisor_pnr_6 : bool;
+                                             supervisor_ck_18_1 : bool;
+                                             supervisor_pnr_5 : bool;
+                                             supervisor_ck_20_1 : bool;
+                                             supervisor_pnr_4 : bool;
+                                             supervisor_ck_22_1 : bool;
+                                             supervisor_pnr_3 : bool;
+                                             supervisor_ck_24_1 : bool;
+                                             supervisor_pnr_2 : bool;
+                                             supervisor_v_152 : bool;
+                                             supervisor_v_151 : bool;
+                                             supervisor_pnr_1 : bool;
+                                             supervisor_v_136 : bool;
+                                             supervisor_v_135 : bool;
+                                             supervisor_pnr : bool;
+                                             p_supervisor_c_lac : bool;
+                                             p_supervisor_c_rac : bool;
+                                             p_supervisor_c_l : bool;
+                                             p_supervisor_c_l2 : bool;
+                                             p_supervisor_c_l1 : bool;
+                                             supervisor_c_rac : bool;
+                                             supervisor_c_l : bool;
+                                             supervisor_c_l2 : bool;
+                                             supervisor_c_l1 : bool)
+returns (supervisor_c_lac : bool)
+var sub_0 : bool; sub_1 : bool; sub_2 : bool; sub_3 : bool; sub_4 : bool;
+    sub_5 : bool; sub_6 : bool; sub_7 : bool; sub_8 : bool; sub_9 : bool;
+    sub_10 : bool; sub_11 : bool; sub_12 : bool; sub_13 : bool;
+    sub_14 : bool; sub_15 : bool; sub_16 : bool; sub_17 : bool;
+    sub_18 : bool; sub_19 : bool; sub_20 : bool; sub_21 : bool;
+    sub_22 : bool; sub_23 : bool; sub_24 : bool; sub_25 : bool;
+    sub_26 : bool; sub_27 : bool;
+let
+  supervisor_c_lac = sub_0;
+  sub_27 = true;
+  sub_26 = sub_27;
+  sub_25 = sub_26;
+  sub_24 = sub_25;
+  sub_23 = sub_24;
+  sub_22 = sub_23;
+  sub_21 = sub_22;
+  sub_20 = sub_21;
+  sub_19 = sub_20;
+  sub_18 = sub_19;
+  sub_17 = sub_18;
+  sub_16 = sub_17;
+  sub_15 = sub_16;
+  sub_14 = false;
+  sub_13 = sub_14;
+  sub_12 = sub_13;
+  sub_11 = sub_12;
+  sub_10 = sub_11;
+  sub_9 = sub_10;
+  sub_8 = sub_9;
+  sub_7 = sub_8;
+  sub_6 = sub_7;
+  sub_5 = sub_6;
+  sub_4 = sub_5;
+  sub_3 = sub_4;
+  sub_2 = sub_3;
+  sub_1 = sub_2;
+  sub_0 = if p_supervisor_c_lac then sub_15 else sub_1
+tel
+
+node supervisor_controller_supervisor_c_rac(supervisor_presence : bool;
+                                             supervisor_turn_on_l1 : bool;
+                                             supervisor_turn_on_l2 : bool;
+                                             supervisor_turn_on_rl : bool;
+                                             supervisor_turn_on_l : bool;
+                                             supervisor_turn_on_rac : bool;
+                                             supervisor_turn_on_lac : bool;
+                                             supervisor_turn_on_tv : bool;
+                                             supervisor_turn_on_wm : bool;
+                                             supervisor_do_open : bool;
+                                             supervisor_ck_1 : bool;
+                                             supervisor_pnr_9 : bool;
+                                             supervisor_ck_12_1 : bool;
+                                             supervisor_pnr_8 : bool;
+                                             supervisor_ck_14_1 : bool;
+                                             supervisor_pnr_7 : bool;
+                                             supervisor_ck_16_1 : bool;
+                                             supervisor_pnr_6 : bool;
+                                             supervisor_ck_18_1 : bool;
+                                             supervisor_pnr_5 : bool;
+                                             supervisor_ck_20_1 : bool;
+                                             supervisor_pnr_4 : bool;
+                                             supervisor_ck_22_1 : bool;
+                                             supervisor_pnr_3 : bool;
+                                             supervisor_ck_24_1 : bool;
+                                             supervisor_pnr_2 : bool;
+                                             supervisor_v_152 : bool;
+                                             supervisor_v_151 : bool;
+                                             supervisor_pnr_1 : bool;
+                                             supervisor_v_136 : bool;
+                                             supervisor_v_135 : bool;
+                                             supervisor_pnr : bool;
+                                             p_supervisor_c_lac : bool;
+                                             p_supervisor_c_rac : bool;
+                                             p_supervisor_c_l : bool;
+                                             p_supervisor_c_l2 : bool;
+                                             p_supervisor_c_l1 : bool;
+                                             supervisor_c_l : bool;
+                                             supervisor_c_l2 : bool;
+                                             supervisor_c_l1 : bool)
+returns (supervisor_c_rac : bool)
+var sub_0 : bool; sub_1 : bool; sub_2 : bool; sub_3 : bool; sub_4 : bool;
+    sub_5 : bool; sub_6 : bool; sub_7 : bool; sub_8 : bool; sub_9 : bool;
+    sub_10 : bool; sub_11 : bool; sub_12 : bool; sub_13 : bool;
+let
+  supervisor_c_rac = sub_0;
+  sub_13 = false;
+  sub_12 = if p_supervisor_c_rac then true else sub_13;
+  sub_11 = sub_12;
+  sub_10 = sub_11;
+  sub_9 = sub_10;
+  sub_8 = sub_9;
+  sub_7 = sub_8;
+  sub_6 = sub_7;
+  sub_5 = sub_6;
+  sub_4 = sub_5;
+  sub_3 = sub_4;
+  sub_2 = sub_3;
+  sub_1 = sub_2;
+  sub_0 = sub_1
+tel
+
+node supervisor_controller_supervisor_c_l(supervisor_presence : bool;
+                                           supervisor_turn_on_l1 : bool;
+                                           supervisor_turn_on_l2 : bool;
+                                           supervisor_turn_on_rl : bool;
+                                           supervisor_turn_on_l : bool;
+                                           supervisor_turn_on_rac : bool;
+                                           supervisor_turn_on_lac : bool;
+                                           supervisor_turn_on_tv : bool;
+                                           supervisor_turn_on_wm : bool;
+                                           supervisor_do_open : bool;
+                                           supervisor_ck_1 : bool;
+                                           supervisor_pnr_9 : bool;
+                                           supervisor_ck_12_1 : bool;
+                                           supervisor_pnr_8 : bool;
+                                           supervisor_ck_14_1 : bool;
+                                           supervisor_pnr_7 : bool;
+                                           supervisor_ck_16_1 : bool;
+                                           supervisor_pnr_6 : bool;
+                                           supervisor_ck_18_1 : bool;
+                                           supervisor_pnr_5 : bool;
+                                           supervisor_ck_20_1 : bool;
+                                           supervisor_pnr_4 : bool;
+                                           supervisor_ck_22_1 : bool;
+                                           supervisor_pnr_3 : bool;
+                                           supervisor_ck_24_1 : bool;
+                                           supervisor_pnr_2 : bool;
+                                           supervisor_v_152 : bool;
+                                           supervisor_v_151 : bool;
+                                           supervisor_pnr_1 : bool;
+                                           supervisor_v_136 : bool;
+                                           supervisor_v_135 : bool;
+                                           supervisor_pnr : bool;
+                                           p_supervisor_c_lac : bool;
+                                           p_supervisor_c_rac : bool;
+                                           p_supervisor_c_l : bool;
+                                           p_supervisor_c_l2 : bool;
+                                           p_supervisor_c_l1 : bool;
+                                           supervisor_c_l2 : bool;
+                                           supervisor_c_l1 : bool)
+returns (supervisor_c_l : bool)
+var sub_0 : bool; sub_1 : bool; sub_2 : bool; sub_3 : bool; sub_4 : bool;
+    sub_5 : bool; sub_6 : bool; sub_7 : bool; sub_8 : bool; sub_9 : bool;
+    sub_10 : bool; sub_11 : bool; sub_12 : bool; sub_13 : bool;
+    sub_14 : bool; sub_15 : bool; sub_16 : bool; sub_17 : bool;
+    sub_18 : bool; sub_19 : bool; sub_20 : bool; sub_21 : bool;
+    sub_22 : bool; sub_23 : bool;
+let
+  supervisor_c_l = sub_0;
+  sub_23 = true;
+  sub_22 = sub_23;
+  sub_21 = sub_22;
+  sub_20 = sub_21;
+  sub_19 = sub_20;
+  sub_18 = sub_19;
+  sub_17 = sub_18;
+  sub_16 = sub_17;
+  sub_15 = sub_16;
+  sub_14 = sub_15;
+  sub_13 = sub_14;
+  sub_12 = false;
+  sub_11 = sub_12;
+  sub_10 = sub_11;
+  sub_9 = sub_10;
+  sub_8 = sub_9;
+  sub_7 = sub_8;
+  sub_6 = sub_7;
+  sub_5 = sub_6;
+  sub_4 = sub_5;
+  sub_3 = sub_4;
+  sub_2 = sub_3;
+  sub_1 = sub_2;
+  sub_0 = if p_supervisor_c_l then sub_13 else sub_1
+tel
+
+node supervisor_controller_supervisor_c_l2(supervisor_presence : bool;
+                                            supervisor_turn_on_l1 : bool;
+                                            supervisor_turn_on_l2 : bool;
+                                            supervisor_turn_on_rl : bool;
+                                            supervisor_turn_on_l : bool;
+                                            supervisor_turn_on_rac : bool;
+                                            supervisor_turn_on_lac : bool;
+                                            supervisor_turn_on_tv : bool;
+                                            supervisor_turn_on_wm : bool;
+                                            supervisor_do_open : bool;
+                                            supervisor_ck_1 : bool;
+                                            supervisor_pnr_9 : bool;
+                                            supervisor_ck_12_1 : bool;
+                                            supervisor_pnr_8 : bool;
+                                            supervisor_ck_14_1 : bool;
+                                            supervisor_pnr_7 : bool;
+                                            supervisor_ck_16_1 : bool;
+                                            supervisor_pnr_6 : bool;
+                                            supervisor_ck_18_1 : bool;
+                                            supervisor_pnr_5 : bool;
+                                            supervisor_ck_20_1 : bool;
+                                            supervisor_pnr_4 : bool;
+                                            supervisor_ck_22_1 : bool;
+                                            supervisor_pnr_3 : bool;
+                                            supervisor_ck_24_1 : bool;
+                                            supervisor_pnr_2 : bool;
+                                            supervisor_v_152 : bool;
+                                            supervisor_v_151 : bool;
+                                            supervisor_pnr_1 : bool;
+                                            supervisor_v_136 : bool;
+                                            supervisor_v_135 : bool;
+                                            supervisor_pnr : bool;
+                                            p_supervisor_c_lac : bool;
+                                            p_supervisor_c_rac : bool;
+                                            p_supervisor_c_l : bool;
+                                            p_supervisor_c_l2 : bool;
+                                            p_supervisor_c_l1 : bool;
+                                            supervisor_c_l1 : bool)
+returns (supervisor_c_l2 : bool)
+var sub_0 : bool; sub_1 : bool; sub_2 : bool; sub_3 : bool; sub_4 : bool;
+    sub_5 : bool; sub_6 : bool; sub_7 : bool; sub_8 : bool; sub_9 : bool;
+    sub_10 : bool; sub_11 : bool; sub_12 : bool; sub_13 : bool;
+    sub_14 : bool; sub_15 : bool; sub_16 : bool; sub_17 : bool;
+    sub_18 : bool; sub_19 : bool; sub_20 : bool; sub_21 : bool;
+let
+  supervisor_c_l2 = sub_0;
+  sub_21 = true;
+  sub_20 = sub_21;
+  sub_19 = sub_20;
+  sub_18 = sub_19;
+  sub_17 = sub_18;
+  sub_16 = sub_17;
+  sub_15 = sub_16;
+  sub_14 = sub_15;
+  sub_13 = sub_14;
+  sub_12 = sub_13;
+  sub_11 = false;
+  sub_10 = sub_11;
+  sub_9 = sub_10;
+  sub_8 = sub_9;
+  sub_7 = sub_8;
+  sub_6 = sub_7;
+  sub_5 = sub_6;
+  sub_4 = sub_5;
+  sub_3 = sub_4;
+  sub_2 = sub_3;
+  sub_1 = sub_2;
+  sub_0 = if p_supervisor_c_l2 then sub_12 else sub_1
+tel
+
+node supervisor_controller_supervisor_c_l1(supervisor_presence : bool;
+                                            supervisor_turn_on_l1 : bool;
+                                            supervisor_turn_on_l2 : bool;
+                                            supervisor_turn_on_rl : bool;
+                                            supervisor_turn_on_l : bool;
+                                            supervisor_turn_on_rac : bool;
+                                            supervisor_turn_on_lac : bool;
+                                            supervisor_turn_on_tv : bool;
+                                            supervisor_turn_on_wm : bool;
+                                            supervisor_do_open : bool;
+                                            supervisor_ck_1 : bool;
+                                            supervisor_pnr_9 : bool;
+                                            supervisor_ck_12_1 : bool;
+                                            supervisor_pnr_8 : bool;
+                                            supervisor_ck_14_1 : bool;
+                                            supervisor_pnr_7 : bool;
+                                            supervisor_ck_16_1 : bool;
+                                            supervisor_pnr_6 : bool;
+                                            supervisor_ck_18_1 : bool;
+                                            supervisor_pnr_5 : bool;
+                                            supervisor_ck_20_1 : bool;
+                                            supervisor_pnr_4 : bool;
+                                            supervisor_ck_22_1 : bool;
+                                            supervisor_pnr_3 : bool;
+                                            supervisor_ck_24_1 : bool;
+                                            supervisor_pnr_2 : bool;
+                                            supervisor_v_152 : bool;
+                                            supervisor_v_151 : bool;
+                                            supervisor_pnr_1 : bool;
+                                            supervisor_v_136 : bool;
+                                            supervisor_v_135 : bool;
+                                            supervisor_pnr : bool;
+                                            p_supervisor_c_lac : bool;
+                                            p_supervisor_c_rac : bool;
+                                            p_supervisor_c_l : bool;
+                                            p_supervisor_c_l2 : bool;
+                                            p_supervisor_c_l1 : bool)
+returns (supervisor_c_l1 : bool)
+var sub_0 : bool; sub_1 : bool; sub_2 : bool; sub_3 : bool; sub_4 : bool;
+    sub_5 : bool; sub_6 : bool; sub_7 : bool; sub_8 : bool; sub_9 : bool;
+    sub_10 : bool;
+let
+  supervisor_c_l1 = sub_0;
+  sub_10 = p_supervisor_c_l1;
+  sub_9 = sub_10;
+  sub_8 = sub_9;
+  sub_7 = sub_8;
+  sub_6 = sub_7;
+  sub_5 = sub_6;
+  sub_4 = sub_5;
+  sub_3 = sub_4;
+  sub_2 = sub_3;
+  sub_1 = sub_2;
+  sub_0 = sub_1
+tel
+
+node supervisor_controller(supervisor_presence : bool;
+                            supervisor_turn_on_l1 : bool;
+                            supervisor_turn_on_l2 : bool;
+                            supervisor_turn_on_rl : bool;
+                            supervisor_turn_on_l : bool;
+                            supervisor_turn_on_rac : bool;
+                            supervisor_turn_on_lac : bool;
+                            supervisor_turn_on_tv : bool;
+                            supervisor_turn_on_wm : bool;
+                            supervisor_do_open : bool;
+                            supervisor_ck_1 : bool; supervisor_pnr_9 : bool;
+                            supervisor_ck_12_1 : bool;
+                            supervisor_pnr_8 : bool;
+                            supervisor_ck_14_1 : bool;
+                            supervisor_pnr_7 : bool;
+                            supervisor_ck_16_1 : bool;
+                            supervisor_pnr_6 : bool;
+                            supervisor_ck_18_1 : bool;
+                            supervisor_pnr_5 : bool;
+                            supervisor_ck_20_1 : bool;
+                            supervisor_pnr_4 : bool;
+                            supervisor_ck_22_1 : bool;
+                            supervisor_pnr_3 : bool;
+                            supervisor_ck_24_1 : bool;
+                            supervisor_pnr_2 : bool; supervisor_v_152 : bool;
+                            supervisor_v_151 : bool; supervisor_pnr_1 : bool;
+                            supervisor_v_136 : bool; supervisor_v_135 : bool;
+                            supervisor_pnr : bool; p_supervisor_c_lac : bool;
+                            p_supervisor_c_rac : bool;
+                            p_supervisor_c_l : bool;
+                            p_supervisor_c_l2 : bool;
+                            p_supervisor_c_l1 : bool)
+returns (supervisor_c_lac : bool; supervisor_c_rac : bool;
+          supervisor_c_l : bool; supervisor_c_l2 : bool;
+          supervisor_c_l1 : bool)
+let
+  supervisor_c_l1 =
+    supervisor_controller_supervisor_c_l1
+    (supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+      supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+      supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+      supervisor_do_open, supervisor_ck_1, supervisor_pnr_9,
+      supervisor_ck_12_1, supervisor_pnr_8, supervisor_ck_14_1,
+      supervisor_pnr_7, supervisor_ck_16_1, supervisor_pnr_6,
+      supervisor_ck_18_1, supervisor_pnr_5, supervisor_ck_20_1,
+      supervisor_pnr_4, supervisor_ck_22_1, supervisor_pnr_3,
+      supervisor_ck_24_1, supervisor_pnr_2, supervisor_v_152,
+      supervisor_v_151, supervisor_pnr_1, supervisor_v_136, supervisor_v_135,
+      supervisor_pnr, p_supervisor_c_lac, p_supervisor_c_rac,
+      p_supervisor_c_l, p_supervisor_c_l2, p_supervisor_c_l1);
+  supervisor_c_l2 =
+    supervisor_controller_supervisor_c_l2
+    (supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+      supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+      supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+      supervisor_do_open, supervisor_ck_1, supervisor_pnr_9,
+      supervisor_ck_12_1, supervisor_pnr_8, supervisor_ck_14_1,
+      supervisor_pnr_7, supervisor_ck_16_1, supervisor_pnr_6,
+      supervisor_ck_18_1, supervisor_pnr_5, supervisor_ck_20_1,
+      supervisor_pnr_4, supervisor_ck_22_1, supervisor_pnr_3,
+      supervisor_ck_24_1, supervisor_pnr_2, supervisor_v_152,
+      supervisor_v_151, supervisor_pnr_1, supervisor_v_136, supervisor_v_135,
+      supervisor_pnr, p_supervisor_c_lac, p_supervisor_c_rac,
+      p_supervisor_c_l, p_supervisor_c_l2, p_supervisor_c_l1,
+      supervisor_c_l1);
+  supervisor_c_l =
+    supervisor_controller_supervisor_c_l
+    (supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+      supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+      supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+      supervisor_do_open, supervisor_ck_1, supervisor_pnr_9,
+      supervisor_ck_12_1, supervisor_pnr_8, supervisor_ck_14_1,
+      supervisor_pnr_7, supervisor_ck_16_1, supervisor_pnr_6,
+      supervisor_ck_18_1, supervisor_pnr_5, supervisor_ck_20_1,
+      supervisor_pnr_4, supervisor_ck_22_1, supervisor_pnr_3,
+      supervisor_ck_24_1, supervisor_pnr_2, supervisor_v_152,
+      supervisor_v_151, supervisor_pnr_1, supervisor_v_136, supervisor_v_135,
+      supervisor_pnr, p_supervisor_c_lac, p_supervisor_c_rac,
+      p_supervisor_c_l, p_supervisor_c_l2, p_supervisor_c_l1,
+      supervisor_c_l2, supervisor_c_l1);
+  supervisor_c_rac =
+    supervisor_controller_supervisor_c_rac
+    (supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+      supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+      supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+      supervisor_do_open, supervisor_ck_1, supervisor_pnr_9,
+      supervisor_ck_12_1, supervisor_pnr_8, supervisor_ck_14_1,
+      supervisor_pnr_7, supervisor_ck_16_1, supervisor_pnr_6,
+      supervisor_ck_18_1, supervisor_pnr_5, supervisor_ck_20_1,
+      supervisor_pnr_4, supervisor_ck_22_1, supervisor_pnr_3,
+      supervisor_ck_24_1, supervisor_pnr_2, supervisor_v_152,
+      supervisor_v_151, supervisor_pnr_1, supervisor_v_136, supervisor_v_135,
+      supervisor_pnr, p_supervisor_c_lac, p_supervisor_c_rac,
+      p_supervisor_c_l, p_supervisor_c_l2, p_supervisor_c_l1, supervisor_c_l,
+      supervisor_c_l2, supervisor_c_l1);
+  supervisor_c_lac =
+    supervisor_controller_supervisor_c_lac
+    (supervisor_presence, supervisor_turn_on_l1, supervisor_turn_on_l2,
+      supervisor_turn_on_rl, supervisor_turn_on_l, supervisor_turn_on_rac,
+      supervisor_turn_on_lac, supervisor_turn_on_tv, supervisor_turn_on_wm,
+      supervisor_do_open, supervisor_ck_1, supervisor_pnr_9,
+      supervisor_ck_12_1, supervisor_pnr_8, supervisor_ck_14_1,
+      supervisor_pnr_7, supervisor_ck_16_1, supervisor_pnr_6,
+      supervisor_ck_18_1, supervisor_pnr_5, supervisor_ck_20_1,
+      supervisor_pnr_4, supervisor_ck_22_1, supervisor_pnr_3,
+      supervisor_ck_24_1, supervisor_pnr_2, supervisor_v_152,
+      supervisor_v_151, supervisor_pnr_1, supervisor_v_136, supervisor_v_135,
+      supervisor_pnr, p_supervisor_c_lac, p_supervisor_c_rac,
+      p_supervisor_c_l, p_supervisor_c_l2, p_supervisor_c_l1,
+      supervisor_c_rac, supervisor_c_l, supervisor_c_l2, supervisor_c_l1)
+tel
+

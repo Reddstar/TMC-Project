@@ -1,0 +1,6545 @@
+"minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+type(
+  Location.location -> error_kind -> 'a
+)
+ident(
+  def error_message "minils/analysis/clocking.ml" 77 3441 3441 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 56 2694 2712 "minils/analysis/clocking.ml" 56 2694 2715
+type(
+  Location.location
+)
+ident(
+  def loc "minils/analysis/clocking.ml" 56 2694 2718 "minils/analysis/clocking.ml" 74 3414 3438
+)
+"minils/analysis/clocking.ml" 57 2727 2743 "minils/analysis/clocking.ml" 57 2727 2752
+type(
+  Clocks.ct
+)
+ident(
+  def actual_ct "minils/analysis/clocking.ml" 58 2770 2776 "minils/analysis/clocking.ml" 63 2986 3010
+)
+"minils/analysis/clocking.ml" 57 2727 2754 "minils/analysis/clocking.ml" 57 2727 2765
+type(
+  Clocks.ct
+)
+ident(
+  def expected_ct "minils/analysis/clocking.ml" 58 2770 2776 "minils/analysis/clocking.ml" 63 2986 3010
+)
+"minils/analysis/clocking.ml" 57 2727 2731 "minils/analysis/clocking.ml" 57 2727 2766
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 58 2770 2776 "minils/analysis/clocking.ml" 58 2770 2790
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Clocks.ct -> unit) ->
+   Clocks.ct -> (Format.formatter -> Clocks.ct -> unit) -> Clocks.ct -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location ->
+  (Format.formatter -> Clocks.ct -> unit) ->
+  Clocks.ct -> (Format.formatter -> Clocks.ct -> unit) -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 58 2770 2791 "minils/analysis/clocking.ml" 59 2841 2901
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Clocks.ct -> unit) ->
+   Clocks.ct -> (Format.formatter -> Clocks.ct -> unit) -> Clocks.ct -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 60 2902 2910 "minils/analysis/clocking.ml" 60 2902 2924
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"minils/analysis/clocking.ml" 60 2902 2925 "minils/analysis/clocking.ml" 60 2902 2928
+type(
+  Location.location
+)
+ident(
+  int_ref loc "minils/analysis/clocking.ml" 56 2694 2712 "minils/analysis/clocking.ml" 56 2694 2715
+)
+"minils/analysis/clocking.ml" 61 2929 2937 "minils/analysis/clocking.ml" 61 2929 2945
+type(
+  Format.formatter -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Global_printer.print_ct
+)
+"minils/analysis/clocking.ml" 61 2929 2946 "minils/analysis/clocking.ml" 61 2929 2955
+type(
+  Clocks.ct
+)
+ident(
+  int_ref actual_ct "minils/analysis/clocking.ml" 57 2727 2743 "minils/analysis/clocking.ml" 57 2727 2752
+)
+"minils/analysis/clocking.ml" 62 2956 2964 "minils/analysis/clocking.ml" 62 2956 2972
+type(
+  Format.formatter -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Global_printer.print_ct
+)
+"minils/analysis/clocking.ml" 62 2956 2973 "minils/analysis/clocking.ml" 62 2956 2984
+type(
+  Clocks.ct
+)
+ident(
+  int_ref expected_ct "minils/analysis/clocking.ml" 57 2727 2754 "minils/analysis/clocking.ml" 57 2727 2765
+)
+"minils/analysis/clocking.ml" 58 2770 2776 "minils/analysis/clocking.ml" 62 2956 2984
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 63 2986 2992 "minils/analysis/clocking.ml" 63 2986 2997
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/analysis/clocking.ml" 63 2986 2998 "minils/analysis/clocking.ml" 63 2986 3010
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 63 2986 2992 "minils/analysis/clocking.ml" 63 2986 3010
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 58 2770 2776 "minils/analysis/clocking.ml" 63 2986 3010
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 64 3011 3028 "minils/analysis/clocking.ml" 64 3011 3037
+type(
+  Clocks.ck
+)
+ident(
+  def actual_ck "minils/analysis/clocking.ml" 65 3055 3061 "minils/analysis/clocking.ml" 70 3266 3290
+)
+"minils/analysis/clocking.ml" 64 3011 3039 "minils/analysis/clocking.ml" 64 3011 3050
+type(
+  Clocks.ck
+)
+ident(
+  def expected_ck "minils/analysis/clocking.ml" 65 3055 3061 "minils/analysis/clocking.ml" 70 3266 3290
+)
+"minils/analysis/clocking.ml" 64 3011 3015 "minils/analysis/clocking.ml" 64 3011 3051
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 65 3055 3061 "minils/analysis/clocking.ml" 65 3055 3075
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Clocks.ck -> unit) ->
+   Clocks.ck -> (Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location ->
+  (Format.formatter -> Clocks.ck -> unit) ->
+  Clocks.ck -> (Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 65 3055 3076 "minils/analysis/clocking.ml" 66 3121 3181
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location ->
+   (Format.formatter -> Clocks.ck -> unit) ->
+   Clocks.ck -> (Format.formatter -> Clocks.ck -> unit) -> Clocks.ck -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 67 3182 3190 "minils/analysis/clocking.ml" 67 3182 3204
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"minils/analysis/clocking.ml" 67 3182 3205 "minils/analysis/clocking.ml" 67 3182 3208
+type(
+  Location.location
+)
+ident(
+  int_ref loc "minils/analysis/clocking.ml" 56 2694 2712 "minils/analysis/clocking.ml" 56 2694 2715
+)
+"minils/analysis/clocking.ml" 68 3209 3217 "minils/analysis/clocking.ml" 68 3209 3225
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Global_printer.print_ck
+)
+"minils/analysis/clocking.ml" 68 3209 3226 "minils/analysis/clocking.ml" 68 3209 3235
+type(
+  Clocks.ck
+)
+ident(
+  int_ref actual_ck "minils/analysis/clocking.ml" 64 3011 3028 "minils/analysis/clocking.ml" 64 3011 3037
+)
+"minils/analysis/clocking.ml" 69 3236 3244 "minils/analysis/clocking.ml" 69 3236 3252
+type(
+  Format.formatter -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Global_printer.print_ck
+)
+"minils/analysis/clocking.ml" 69 3236 3253 "minils/analysis/clocking.ml" 69 3236 3264
+type(
+  Clocks.ck
+)
+ident(
+  int_ref expected_ck "minils/analysis/clocking.ml" 64 3011 3039 "minils/analysis/clocking.ml" 64 3011 3050
+)
+"minils/analysis/clocking.ml" 65 3055 3061 "minils/analysis/clocking.ml" 69 3236 3264
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 70 3266 3272 "minils/analysis/clocking.ml" 70 3266 3277
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/analysis/clocking.ml" 70 3266 3278 "minils/analysis/clocking.ml" 70 3266 3290
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 70 3266 3272 "minils/analysis/clocking.ml" 70 3266 3290
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 65 3055 3061 "minils/analysis/clocking.ml" 70 3266 3290
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 71 3291 3295 "minils/analysis/clocking.ml" 71 3291 3304
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 72 3308 3314 "minils/analysis/clocking.ml" 72 3308 3328
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 72 3308 3329 "minils/analysis/clocking.ml" 72 3308 3385
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 73 3386 3394 "minils/analysis/clocking.ml" 73 3386 3408
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"minils/analysis/clocking.ml" 73 3386 3409 "minils/analysis/clocking.ml" 73 3386 3412
+type(
+  Location.location
+)
+ident(
+  int_ref loc "minils/analysis/clocking.ml" 56 2694 2712 "minils/analysis/clocking.ml" 56 2694 2715
+)
+"minils/analysis/clocking.ml" 72 3308 3314 "minils/analysis/clocking.ml" 73 3386 3412
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 74 3414 3420 "minils/analysis/clocking.ml" 74 3414 3425
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"minils/analysis/clocking.ml" 74 3414 3426 "minils/analysis/clocking.ml" 74 3414 3438
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 74 3414 3420 "minils/analysis/clocking.ml" 74 3414 3438
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 72 3308 3314 "minils/analysis/clocking.ml" 74 3414 3438
+type(
+  'a
+)
+"minils/analysis/clocking.ml" 56 2694 2718 "minils/analysis/clocking.ml" 74 3414 3438
+type(
+  error_kind -> 'a
+)
+"minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  def ck_of_name "minils/analysis/clocking.ml" 87 3790 3790 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 77 3441 3456 "minils/analysis/clocking.ml" 77 3441 3457
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 77 3441 3458 "minils/analysis/clocking.ml" 85 3720 3788
+)
+"minils/analysis/clocking.ml" 77 3441 3458 "minils/analysis/clocking.ml" 77 3441 3459
+type(
+  Idents.Env.key
+)
+ident(
+  def x "minils/analysis/clocking.ml" 78 3462 3464 "minils/analysis/clocking.ml" 85 3720 3788
+)
+"minils/analysis/clocking.ml" 78 3462 3467 "minils/analysis/clocking.ml" 78 3462 3475
+type(
+  Idents.Env.key -> bool
+)
+ident(
+  ext_ref Idents.is_reset
+)
+"minils/analysis/clocking.ml" 78 3462 3476 "minils/analysis/clocking.ml" 78 3462 3477
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 77 3441 3458 "minils/analysis/clocking.ml" 77 3441 3459
+)
+"minils/analysis/clocking.ml" 78 3462 3467 "minils/analysis/clocking.ml" 78 3462 3477
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 79 3478 3485 "minils/analysis/clocking.ml" 79 3478 3496
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"minils/analysis/clocking.ml" 79 3478 3496 "minils/analysis/clocking.ml" 79 3478 3498
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 79 3478 3485 "minils/analysis/clocking.ml" 79 3478 3498
+call(
+  tail
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 81 3506 3514 "minils/analysis/clocking.ml" 81 3506 3522
+type(
+  Idents.Env.key -> Clocks.ck Idents.Env.t -> Clocks.ck
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/analysis/clocking.ml" 81 3506 3523 "minils/analysis/clocking.ml" 81 3506 3524
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 77 3441 3458 "minils/analysis/clocking.ml" 77 3441 3459
+)
+"minils/analysis/clocking.ml" 81 3506 3525 "minils/analysis/clocking.ml" 81 3506 3526
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 77 3441 3456 "minils/analysis/clocking.ml" 77 3441 3457
+)
+"minils/analysis/clocking.ml" 81 3506 3514 "minils/analysis/clocking.ml" 81 3506 3526
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 82 3527 3536 "minils/analysis/clocking.ml" 82 3527 3545
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 85 3720 3726 "minils/analysis/clocking.ml" 85 3720 3745
+type(
+  string -> Clocks.ck
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"minils/analysis/clocking.ml" 85 3720 3747 "minils/analysis/clocking.ml" 85 3720 3778
+type(
+  string
+)
+"minils/analysis/clocking.ml" 85 3720 3779 "minils/analysis/clocking.ml" 85 3720 3780
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"minils/analysis/clocking.ml" 85 3720 3781 "minils/analysis/clocking.ml" 85 3720 3785
+type(
+  Idents.Env.key -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"minils/analysis/clocking.ml" 85 3720 3786 "minils/analysis/clocking.ml" 85 3720 3787
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 77 3441 3458 "minils/analysis/clocking.ml" 77 3441 3459
+)
+"minils/analysis/clocking.ml" 85 3720 3781 "minils/analysis/clocking.ml" 85 3720 3787
+call(
+  stack
+)
+type(
+  string
+)
+"minils/analysis/clocking.ml" 85 3720 3746 "minils/analysis/clocking.ml" 85 3720 3788
+call(
+  stack
+)
+type(
+  string
+)
+"minils/analysis/clocking.ml" 85 3720 3726 "minils/analysis/clocking.ml" 85 3720 3788
+call(
+  tail
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 81 3506 3510 "minils/analysis/clocking.ml" 85 3720 3788
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 78 3462 3464 "minils/analysis/clocking.ml" 85 3720 3788
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  def typing_extvalue "minils/analysis/clocking.ml" 87 3790 3790 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 109 4457 4461
+)
+"minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/analysis/clocking.ml" 88 3820 3822 "minils/analysis/clocking.ml" 109 4457 4461
+)
+"minils/analysis/clocking.ml" 88 3820 3826 "minils/analysis/clocking.ml" 88 3820 3828
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 103 4237 4239 "minils/analysis/clocking.ml" 109 4457 4461
+)
+"minils/analysis/clocking.ml" 88 3820 3837 "minils/analysis/clocking.ml" 88 3820 3838
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 88 3820 3837 "minils/analysis/clocking.ml" 88 3820 3845
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 89 3851 3864 "minils/analysis/clocking.ml" 89 3851 3865
+type(
+  Types.static_exp
+)
+"minils/analysis/clocking.ml" 89 3851 3857 "minils/analysis/clocking.ml" 89 3851 3865
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 89 3851 3869 "minils/analysis/clocking.ml" 89 3851 3880
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"minils/analysis/clocking.ml" 89 3851 3880 "minils/analysis/clocking.ml" 89 3851 3882
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 89 3851 3869 "minils/analysis/clocking.ml" 89 3851 3882
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 90 3883 3894 "minils/analysis/clocking.ml" 90 3883 3895
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/analysis/clocking.ml" 90 3883 3899 "minils/analysis/clocking.ml" 90 3883 3913
+)
+"minils/analysis/clocking.ml" 90 3883 3889 "minils/analysis/clocking.ml" 90 3883 3895
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 90 3883 3899 "minils/analysis/clocking.ml" 90 3883 3909
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  int_ref ck_of_name "minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+)
+"minils/analysis/clocking.ml" 90 3883 3910 "minils/analysis/clocking.ml" 90 3883 3911
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 90 3883 3912 "minils/analysis/clocking.ml" 90 3883 3913
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 90 3883 3894 "minils/analysis/clocking.ml" 90 3883 3895
+)
+"minils/analysis/clocking.ml" 90 3883 3899 "minils/analysis/clocking.ml" 90 3883 3913
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 91 3914 3927 "minils/analysis/clocking.ml" 91 3914 3929
+type(
+  Minils.extvalue
+)
+ident(
+  def w1 "minils/analysis/clocking.ml" 92 3940 3948 "minils/analysis/clocking.ml" 94 4012 4043
+)
+"minils/analysis/clocking.ml" 91 3914 3931 "minils/analysis/clocking.ml" 91 3914 3932
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/analysis/clocking.ml" 92 3940 3948 "minils/analysis/clocking.ml" 94 4012 4043
+)
+"minils/analysis/clocking.ml" 91 3914 3934 "minils/analysis/clocking.ml" 91 3914 3935
+type(
+  Idents.var_ident
+)
+ident(
+  def n "minils/analysis/clocking.ml" 92 3940 3948 "minils/analysis/clocking.ml" 94 4012 4043
+)
+"minils/analysis/clocking.ml" 91 3914 3920 "minils/analysis/clocking.ml" 91 3914 3936
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 92 3940 3952 "minils/analysis/clocking.ml" 92 3940 3956
+type(
+  Clocks.ck
+)
+ident(
+  def ck_n "minils/analysis/clocking.ml" 93 3977 3985 "minils/analysis/clocking.ml" 94 4012 4043
+)
+"minils/analysis/clocking.ml" 92 3940 3959 "minils/analysis/clocking.ml" 92 3940 3969
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  int_ref ck_of_name "minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+)
+"minils/analysis/clocking.ml" 92 3940 3970 "minils/analysis/clocking.ml" 92 3940 3971
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 92 3940 3972 "minils/analysis/clocking.ml" 92 3940 3973
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 91 3914 3934 "minils/analysis/clocking.ml" 91 3914 3935
+)
+"minils/analysis/clocking.ml" 92 3940 3959 "minils/analysis/clocking.ml" 92 3940 3973
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 93 3977 3985 "minils/analysis/clocking.ml" 93 3977 4000
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 93 3977 4001 "minils/analysis/clocking.ml" 93 3977 4002
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 93 3977 4003 "minils/analysis/clocking.ml" 93 3977 4007
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 92 3940 3952 "minils/analysis/clocking.ml" 92 3940 3956
+)
+"minils/analysis/clocking.ml" 93 3977 4008 "minils/analysis/clocking.ml" 93 3977 4010
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w1 "minils/analysis/clocking.ml" 91 3914 3927 "minils/analysis/clocking.ml" 91 3914 3929
+)
+"minils/analysis/clocking.ml" 93 3977 3985 "minils/analysis/clocking.ml" 93 3977 4010
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 94 4012 4032 "minils/analysis/clocking.ml" 94 4012 4036
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 92 3940 3952 "minils/analysis/clocking.ml" 92 3940 3956
+)
+"minils/analysis/clocking.ml" 94 4012 4038 "minils/analysis/clocking.ml" 94 4012 4039
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/analysis/clocking.ml" 91 3914 3931 "minils/analysis/clocking.ml" 91 3914 3932
+)
+"minils/analysis/clocking.ml" 94 4012 4041 "minils/analysis/clocking.ml" 94 4012 4042
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 91 3914 3934 "minils/analysis/clocking.ml" 91 3914 3935
+)
+"minils/analysis/clocking.ml" 94 4012 4020 "minils/analysis/clocking.ml" 94 4012 4043
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 93 3977 3985 "minils/analysis/clocking.ml" 94 4012 4043
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 92 3940 3948 "minils/analysis/clocking.ml" 94 4012 4043
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 95 4044 4058 "minils/analysis/clocking.ml" 95 4044 4060
+type(
+  Minils.extvalue
+)
+ident(
+  def w1 "minils/analysis/clocking.ml" 96 4068 4076 "minils/analysis/clocking.ml" 96 4068 4096
+)
+"minils/analysis/clocking.ml" 95 4044 4062 "minils/analysis/clocking.ml" 95 4044 4063
+type(
+  Names.field_name
+)
+"minils/analysis/clocking.ml" 95 4044 4050 "minils/analysis/clocking.ml" 95 4044 4064
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 96 4068 4076 "minils/analysis/clocking.ml" 96 4068 4091
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  int_ref typing_extvalue "minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+)
+"minils/analysis/clocking.ml" 96 4068 4092 "minils/analysis/clocking.ml" 96 4068 4093
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 96 4068 4094 "minils/analysis/clocking.ml" 96 4068 4096
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w1 "minils/analysis/clocking.ml" 95 4044 4058 "minils/analysis/clocking.ml" 95 4044 4060
+)
+"minils/analysis/clocking.ml" 96 4068 4076 "minils/analysis/clocking.ml" 96 4068 4096
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 97 4097 4112 "minils/analysis/clocking.ml" 97 4097 4114
+type(
+  Minils.extvalue
+)
+ident(
+  def w1 "minils/analysis/clocking.ml" 98 4123 4129 "minils/analysis/clocking.ml" 101 4223 4231
+)
+"minils/analysis/clocking.ml" 97 4097 4116 "minils/analysis/clocking.ml" 97 4097 4118
+type(
+  Minils.extvalue
+)
+ident(
+  def w2 "minils/analysis/clocking.ml" 98 4123 4129 "minils/analysis/clocking.ml" 101 4223 4231
+)
+"minils/analysis/clocking.ml" 97 4097 4103 "minils/analysis/clocking.ml" 97 4097 4119
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 98 4123 4133 "minils/analysis/clocking.ml" 98 4123 4135
+type(
+  Clocks.ck
+)
+ident(
+  def t1 "minils/analysis/clocking.ml" 99 4162 4168 "minils/analysis/clocking.ml" 101 4223 4231
+)
+"minils/analysis/clocking.ml" 98 4123 4138 "minils/analysis/clocking.ml" 98 4123 4153
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  int_ref typing_extvalue "minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+)
+"minils/analysis/clocking.ml" 98 4123 4154 "minils/analysis/clocking.ml" 98 4123 4155
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 98 4123 4156 "minils/analysis/clocking.ml" 98 4123 4158
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w1 "minils/analysis/clocking.ml" 97 4097 4112 "minils/analysis/clocking.ml" 97 4097 4114
+)
+"minils/analysis/clocking.ml" 98 4123 4138 "minils/analysis/clocking.ml" 98 4123 4158
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 99 4162 4172 "minils/analysis/clocking.ml" 99 4162 4174
+type(
+  Clocks.ck
+)
+ident(
+  def t2 "minils/analysis/clocking.ml" 100 4201 4207 "minils/analysis/clocking.ml" 101 4223 4231
+)
+"minils/analysis/clocking.ml" 99 4162 4177 "minils/analysis/clocking.ml" 99 4162 4192
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  int_ref typing_extvalue "minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+)
+"minils/analysis/clocking.ml" 99 4162 4193 "minils/analysis/clocking.ml" 99 4162 4194
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 87 3790 3814 "minils/analysis/clocking.ml" 87 3790 3815
+)
+"minils/analysis/clocking.ml" 99 4162 4195 "minils/analysis/clocking.ml" 99 4162 4197
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w2 "minils/analysis/clocking.ml" 97 4097 4116 "minils/analysis/clocking.ml" 97 4097 4118
+)
+"minils/analysis/clocking.ml" 99 4162 4177 "minils/analysis/clocking.ml" 99 4162 4197
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 100 4201 4207 "minils/analysis/clocking.ml" 100 4201 4215
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 100 4201 4216 "minils/analysis/clocking.ml" 100 4201 4218
+type(
+  Clocks.ck
+)
+ident(
+  int_ref t1 "minils/analysis/clocking.ml" 98 4123 4133 "minils/analysis/clocking.ml" 98 4123 4135
+)
+"minils/analysis/clocking.ml" 100 4201 4219 "minils/analysis/clocking.ml" 100 4201 4221
+type(
+  Clocks.ck
+)
+ident(
+  int_ref t2 "minils/analysis/clocking.ml" 99 4162 4172 "minils/analysis/clocking.ml" 99 4162 4174
+)
+"minils/analysis/clocking.ml" 100 4201 4207 "minils/analysis/clocking.ml" 100 4201 4221
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 101 4223 4229 "minils/analysis/clocking.ml" 101 4223 4231
+type(
+  Clocks.ck
+)
+ident(
+  int_ref t1 "minils/analysis/clocking.ml" 98 4123 4133 "minils/analysis/clocking.ml" 98 4123 4135
+)
+"minils/analysis/clocking.ml" 100 4201 4207 "minils/analysis/clocking.ml" 101 4223 4231
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 99 4162 4168 "minils/analysis/clocking.ml" 101 4223 4231
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 98 4123 4129 "minils/analysis/clocking.ml" 101 4223 4231
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 88 3820 3831 "minils/analysis/clocking.ml" 101 4223 4231
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 103 4237 4244 "minils/analysis/clocking.ml" 103 4237 4252
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 103 4237 4253 "minils/analysis/clocking.ml" 103 4237 4255
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 88 3820 3826 "minils/analysis/clocking.ml" 88 3820 3828
+)
+"minils/analysis/clocking.ml" 103 4237 4256 "minils/analysis/clocking.ml" 103 4237 4257
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 103 4237 4256 "minils/analysis/clocking.ml" 103 4237 4262
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 103 4237 4244 "minils/analysis/clocking.ml" 103 4237 4262
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 104 4263 4271 "minils/analysis/clocking.ml" 104 4263 4276
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 105 4280 4285 "minils/analysis/clocking.ml" 105 4280 4292
+type(
+  ((Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 105 4280 4293 "minils/analysis/clocking.ml" 105 4280 4342
+type(
+  ((Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 106 4343 4350 "minils/analysis/clocking.ml" 106 4343 4376
+type(
+  Format.formatter -> Minils.extvalue -> unit
+)
+ident(
+  ext_ref Mls_printer.print_extvalue
+)
+"minils/analysis/clocking.ml" 106 4343 4377 "minils/analysis/clocking.ml" 106 4343 4378
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 105 4280 4285 "minils/analysis/clocking.ml" 106 4343 4378
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 107 4380 4385 "minils/analysis/clocking.ml" 107 4380 4398
+type(
+  Location.location -> error_kind -> unit
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 107 4380 4399 "minils/analysis/clocking.ml" 107 4380 4400
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 107 4380 4399 "minils/analysis/clocking.ml" 107 4380 4406
+type(
+  Location.location
+)
+"minils/analysis/clocking.ml" 107 4380 4423 "minils/analysis/clocking.ml" 107 4380 4425
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 88 3820 3826 "minils/analysis/clocking.ml" 88 3820 3828
+)
+"minils/analysis/clocking.ml" 107 4380 4420 "minils/analysis/clocking.ml" 107 4380 4425
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 107 4380 4430 "minils/analysis/clocking.ml" 107 4380 4431
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 107 4380 4430 "minils/analysis/clocking.ml" 107 4380 4436
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 107 4380 4427 "minils/analysis/clocking.ml" 107 4380 4436
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 107 4380 4407 "minils/analysis/clocking.ml" 107 4380 4438
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 107 4380 4385 "minils/analysis/clocking.ml" 107 4380 4438
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 105 4280 4285 "minils/analysis/clocking.ml" 107 4380 4438
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 103 4237 4239 "minils/analysis/clocking.ml" 107 4380 4439
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 108 4441 4443 "minils/analysis/clocking.ml" 108 4441 4444
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 87 3790 3816 "minils/analysis/clocking.ml" 87 3790 3817
+)
+"minils/analysis/clocking.ml" 108 4441 4453 "minils/analysis/clocking.ml" 108 4441 4455
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 88 3820 3826 "minils/analysis/clocking.ml" 88 3820 3828
+)
+"minils/analysis/clocking.ml" 108 4441 4443 "minils/analysis/clocking.ml" 108 4441 4455
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 109 4457 4459 "minils/analysis/clocking.ml" 109 4457 4461
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 88 3820 3826 "minils/analysis/clocking.ml" 88 3820 3828
+)
+"minils/analysis/clocking.ml" 108 4441 4443 "minils/analysis/clocking.ml" 109 4457 4461
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 103 4237 4239 "minils/analysis/clocking.ml" 109 4457 4461
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 88 3820 3822 "minils/analysis/clocking.ml" 109 4457 4461
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  def expect_extvalue "minils/analysis/clocking.ml" 87 3790 3790 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 111 4463 4483 "minils/analysis/clocking.ml" 111 4463 4484
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 111 4463 4485 "minils/analysis/clocking.ml" 116 4633 4699
+)
+"minils/analysis/clocking.ml" 111 4463 4485 "minils/analysis/clocking.ml" 111 4463 4496
+type(
+  Clocks.ck
+)
+ident(
+  def expected_ck "minils/analysis/clocking.ml" 111 4463 4497 "minils/analysis/clocking.ml" 116 4633 4699
+)
+"minils/analysis/clocking.ml" 111 4463 4497 "minils/analysis/clocking.ml" 111 4463 4498
+type(
+  Minils.extvalue
+)
+ident(
+  def e "minils/analysis/clocking.ml" 112 4501 4503 "minils/analysis/clocking.ml" 116 4633 4699
+)
+"minils/analysis/clocking.ml" 112 4501 4507 "minils/analysis/clocking.ml" 112 4501 4516
+type(
+  Clocks.ck
+)
+ident(
+  def actual_ck "minils/analysis/clocking.ml" 113 4542 4544 "minils/analysis/clocking.ml" 116 4633 4699
+)
+"minils/analysis/clocking.ml" 112 4501 4519 "minils/analysis/clocking.ml" 112 4501 4534
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  int_ref typing_extvalue "minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+)
+"minils/analysis/clocking.ml" 112 4501 4535 "minils/analysis/clocking.ml" 112 4501 4536
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 111 4463 4483 "minils/analysis/clocking.ml" 111 4463 4484
+)
+"minils/analysis/clocking.ml" 112 4501 4537 "minils/analysis/clocking.ml" 112 4501 4538
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 111 4463 4497 "minils/analysis/clocking.ml" 111 4463 4498
+)
+"minils/analysis/clocking.ml" 112 4501 4519 "minils/analysis/clocking.ml" 112 4501 4538
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 113 4542 4548 "minils/analysis/clocking.ml" 113 4542 4556
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 113 4542 4557 "minils/analysis/clocking.ml" 113 4542 4566
+type(
+  Clocks.ck
+)
+ident(
+  int_ref actual_ck "minils/analysis/clocking.ml" 112 4501 4507 "minils/analysis/clocking.ml" 112 4501 4516
+)
+"minils/analysis/clocking.ml" 113 4542 4567 "minils/analysis/clocking.ml" 113 4542 4578
+type(
+  Clocks.ck
+)
+ident(
+  int_ref expected_ck "minils/analysis/clocking.ml" 111 4463 4485 "minils/analysis/clocking.ml" 111 4463 4496
+)
+"minils/analysis/clocking.ml" 113 4542 4548 "minils/analysis/clocking.ml" 113 4542 4578
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 115 4586 4590 "minils/analysis/clocking.ml" 115 4586 4595
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 115 4586 4599 "minils/analysis/clocking.ml" 115 4586 4606
+type(
+  ((Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 115 4586 4607 "minils/analysis/clocking.ml" 115 4586 4614
+type(
+  ((Format.formatter -> Minils.extvalue -> unit) -> Minils.extvalue -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 115 4586 4615 "minils/analysis/clocking.ml" 115 4586 4629
+type(
+  Format.formatter -> Minils.extvalue -> unit
+)
+ident(
+  ext_ref Mls_printer.print_extvalue
+)
+"minils/analysis/clocking.ml" 115 4586 4630 "minils/analysis/clocking.ml" 115 4586 4631
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 111 4463 4497 "minils/analysis/clocking.ml" 111 4463 4498
+)
+"minils/analysis/clocking.ml" 115 4586 4599 "minils/analysis/clocking.ml" 115 4586 4631
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 116 4633 4639 "minils/analysis/clocking.ml" 116 4633 4652
+type(
+  Location.location -> error_kind -> unit
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 116 4633 4653 "minils/analysis/clocking.ml" 116 4633 4654
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 111 4463 4497 "minils/analysis/clocking.ml" 111 4463 4498
+)
+"minils/analysis/clocking.ml" 116 4633 4653 "minils/analysis/clocking.ml" 116 4633 4660
+type(
+  Location.location
+)
+"minils/analysis/clocking.ml" 116 4633 4675 "minils/analysis/clocking.ml" 116 4633 4684
+type(
+  Clocks.ck
+)
+ident(
+  int_ref actual_ck "minils/analysis/clocking.ml" 112 4501 4507 "minils/analysis/clocking.ml" 112 4501 4516
+)
+"minils/analysis/clocking.ml" 116 4633 4686 "minils/analysis/clocking.ml" 116 4633 4697
+type(
+  Clocks.ck
+)
+ident(
+  int_ref expected_ck "minils/analysis/clocking.ml" 111 4463 4485 "minils/analysis/clocking.ml" 111 4463 4496
+)
+"minils/analysis/clocking.ml" 116 4633 4661 "minils/analysis/clocking.ml" 116 4633 4699
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 116 4633 4639 "minils/analysis/clocking.ml" 116 4633 4699
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 115 4586 4599 "minils/analysis/clocking.ml" 116 4633 4699
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 113 4542 4544 "minils/analysis/clocking.ml" 116 4633 4699
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 112 4501 4503 "minils/analysis/clocking.ml" 116 4633 4699
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 118 4701 4709 "minils/analysis/clocking.ml" 118 4701 4719
+type(
+  Clocks.ck Idents.Env.t -> Minils.pat -> Clocks.ct
+)
+ident(
+  def typing_pat "minils/analysis/clocking.ml" 118 4701 4701 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 118 4701 4720 "minils/analysis/clocking.ml" 118 4701 4721
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 118 4701 4724 "minils/analysis/clocking.ml" 120 4770 4836
+)
+"minils/analysis/clocking.ml" 119 4733 4745 "minils/analysis/clocking.ml" 119 4733 4746
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/analysis/clocking.ml" 119 4733 4750 "minils/analysis/clocking.ml" 119 4733 4769
+)
+"minils/analysis/clocking.ml" 119 4733 4737 "minils/analysis/clocking.ml" 119 4733 4746
+type(
+  Minils.pat
+)
+"minils/analysis/clocking.ml" 119 4733 4754 "minils/analysis/clocking.ml" 119 4733 4764
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  int_ref ck_of_name "minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+)
+"minils/analysis/clocking.ml" 119 4733 4765 "minils/analysis/clocking.ml" 119 4733 4766
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 118 4701 4720 "minils/analysis/clocking.ml" 118 4701 4721
+)
+"minils/analysis/clocking.ml" 119 4733 4767 "minils/analysis/clocking.ml" 119 4733 4768
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 119 4733 4745 "minils/analysis/clocking.ml" 119 4733 4746
+)
+"minils/analysis/clocking.ml" 119 4733 4753 "minils/analysis/clocking.ml" 119 4733 4769
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 119 4733 4750 "minils/analysis/clocking.ml" 119 4733 4769
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 120 4770 4784 "minils/analysis/clocking.ml" 120 4770 4792
+type(
+  Minils.pat list
+)
+ident(
+  def pat_list "minils/analysis/clocking.ml" 120 4770 4796 "minils/analysis/clocking.ml" 120 4770 4836
+)
+"minils/analysis/clocking.ml" 120 4770 4774 "minils/analysis/clocking.ml" 120 4770 4792
+type(
+  Minils.pat
+)
+"minils/analysis/clocking.ml" 120 4770 4803 "minils/analysis/clocking.ml" 120 4770 4811
+type(
+  (Minils.pat -> Clocks.ct) -> Minils.pat list -> Clocks.ct list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 120 4770 4813 "minils/analysis/clocking.ml" 120 4770 4823
+type(
+  Clocks.ck Idents.Env.t -> Minils.pat -> Clocks.ct
+)
+ident(
+  int_ref typing_pat "minils/analysis/clocking.ml" 118 4701 4709 "minils/analysis/clocking.ml" 118 4701 4719
+)
+"minils/analysis/clocking.ml" 120 4770 4824 "minils/analysis/clocking.ml" 120 4770 4825
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 118 4701 4720 "minils/analysis/clocking.ml" 118 4701 4721
+)
+"minils/analysis/clocking.ml" 120 4770 4812 "minils/analysis/clocking.ml" 120 4770 4826
+call(
+  stack
+)
+type(
+  Minils.pat -> Clocks.ct
+)
+"minils/analysis/clocking.ml" 120 4770 4827 "minils/analysis/clocking.ml" 120 4770 4835
+type(
+  Minils.pat list
+)
+ident(
+  int_ref pat_list "minils/analysis/clocking.ml" 120 4770 4784 "minils/analysis/clocking.ml" 120 4770 4792
+)
+"minils/analysis/clocking.ml" 120 4770 4802 "minils/analysis/clocking.ml" 120 4770 4836
+call(
+  stack
+)
+type(
+  Clocks.ct list
+)
+"minils/analysis/clocking.ml" 120 4770 4796 "minils/analysis/clocking.ml" 120 4770 4836
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 118 4701 4724 "minils/analysis/clocking.ml" 120 4770 4836
+type(
+  Minils.pat -> Clocks.ct
+)
+"minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  def typing_app "minils/analysis/clocking.ml" 166 6834 6834 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 123 4839 4854 "minils/analysis/clocking.ml" 123 4839 4855
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 123 4839 4860
+type(
+  Clocks.ck
+)
+ident(
+  def base "minils/analysis/clocking.ml" 123 4839 4861 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 123 4839 4861 "minils/analysis/clocking.ml" 123 4839 4864
+type(
+  Minils.pat
+)
+ident(
+  def pat "minils/analysis/clocking.ml" 123 4839 4865 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 123 4839 4865 "minils/analysis/clocking.ml" 123 4839 4867
+type(
+  Minils.op
+)
+ident(
+  def op "minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 123 4839 4874
+type(
+  Minils.extvalue list
+)
+ident(
+  def w_list "minils/analysis/clocking.ml" 123 4839 4877 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 123 4839 4883 "minils/analysis/clocking.ml" 123 4839 4885
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 123 4839 4865 "minils/analysis/clocking.ml" 123 4839 4867
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4906
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4909 "minils/analysis/clocking.ml" 124 4891 4916
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4916
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4919 "minils/analysis/clocking.ml" 124 4891 4930
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4930
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4933 "minils/analysis/clocking.ml" 124 4891 4946
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4946
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4949 "minils/analysis/clocking.ml" 124 4891 4956
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4956
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4959 "minils/analysis/clocking.ml" 124 4891 4965
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 124 4891 4965
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 125 4966 4970 "minils/analysis/clocking.ml" 125 4966 4983
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 125 4966 4983
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 125 4966 4986 "minils/analysis/clocking.ml" 125 4966 4993
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 125 4966 4993
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 125 4966 4996 "minils/analysis/clocking.ml" 125 4966 5002
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 125 4966 5002
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 125 4966 5005 "minils/analysis/clocking.ml" 125 4966 5018
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 125 4966 5018
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 125 4966 5021 "minils/analysis/clocking.ml" 125 4966 5032
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 124 4891 4895 "minils/analysis/clocking.ml" 125 4966 5032
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 126 5036 5042 "minils/analysis/clocking.ml" 126 5036 5051
+type(
+  (Minils.extvalue -> unit) -> Minils.extvalue list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/analysis/clocking.ml" 126 5036 5053 "minils/analysis/clocking.ml" 126 5036 5068
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 126 5036 5069 "minils/analysis/clocking.ml" 126 5036 5070
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 123 4839 4854 "minils/analysis/clocking.ml" 123 4839 4855
+)
+"minils/analysis/clocking.ml" 126 5036 5071 "minils/analysis/clocking.ml" 126 5036 5075
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 123 4839 4860
+)
+"minils/analysis/clocking.ml" 126 5036 5052 "minils/analysis/clocking.ml" 126 5036 5076
+call(
+  stack
+)
+type(
+  Minils.extvalue -> unit
+)
+"minils/analysis/clocking.ml" 126 5036 5077 "minils/analysis/clocking.ml" 126 5036 5083
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 123 4839 4874
+)
+"minils/analysis/clocking.ml" 126 5036 5042 "minils/analysis/clocking.ml" 126 5036 5083
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 127 5085 5094 "minils/analysis/clocking.ml" 127 5085 5098
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 123 4839 4860
+)
+"minils/analysis/clocking.ml" 127 5085 5091 "minils/analysis/clocking.ml" 127 5085 5098
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 126 5036 5042 "minils/analysis/clocking.ml" 127 5085 5098
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 128 5099 5124 "minils/analysis/clocking.ml" 128 5099 5134
+type(
+  Names.module_name
+)
+"minils/analysis/clocking.ml" 128 5099 5117 "minils/analysis/clocking.ml" 128 5099 5134
+type(
+  Names.modul
+)
+"minils/analysis/clocking.ml" 128 5099 5143 "minils/analysis/clocking.ml" 128 5099 5151
+type(
+  Names.name
+)
+"minils/analysis/clocking.ml" 128 5099 5108 "minils/analysis/clocking.ml" 128 5099 5153
+type(
+  Names.fun_name
+)
+"minils/analysis/clocking.ml" 128 5099 5103 "minils/analysis/clocking.ml" 128 5099 5153
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 129 5154 5179 "minils/analysis/clocking.ml" 129 5154 5189
+type(
+  Names.module_name
+)
+"minils/analysis/clocking.ml" 129 5154 5172 "minils/analysis/clocking.ml" 129 5154 5189
+type(
+  Names.modul
+)
+"minils/analysis/clocking.ml" 129 5154 5198 "minils/analysis/clocking.ml" 129 5154 5207
+type(
+  Names.name
+)
+"minils/analysis/clocking.ml" 129 5154 5163 "minils/analysis/clocking.ml" 129 5154 5209
+type(
+  Names.fun_name
+)
+"minils/analysis/clocking.ml" 129 5154 5158 "minils/analysis/clocking.ml" 129 5154 5209
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 128 5099 5103 "minils/analysis/clocking.ml" 129 5154 5209
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 130 5213 5217 "minils/analysis/clocking.ml" 130 5213 5226
+type(
+  (Minils.extvalue -> unit) -> Minils.extvalue list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/analysis/clocking.ml" 130 5213 5228 "minils/analysis/clocking.ml" 130 5213 5243
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 130 5213 5244 "minils/analysis/clocking.ml" 130 5213 5245
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 123 4839 4854 "minils/analysis/clocking.ml" 123 4839 4855
+)
+"minils/analysis/clocking.ml" 130 5213 5246 "minils/analysis/clocking.ml" 130 5213 5250
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 123 4839 4860
+)
+"minils/analysis/clocking.ml" 130 5213 5227 "minils/analysis/clocking.ml" 130 5213 5251
+call(
+  stack
+)
+type(
+  Minils.extvalue -> unit
+)
+"minils/analysis/clocking.ml" 130 5213 5252 "minils/analysis/clocking.ml" 130 5213 5258
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 123 4839 4874
+)
+"minils/analysis/clocking.ml" 130 5213 5217 "minils/analysis/clocking.ml" 130 5213 5258
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 131 5260 5270 "minils/analysis/clocking.ml" 131 5260 5272
+type(
+  Clocks.ct list
+)
+"minils/analysis/clocking.ml" 131 5260 5264 "minils/analysis/clocking.ml" 131 5260 5272
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 130 5213 5217 "minils/analysis/clocking.ml" 131 5260 5272
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 132 5273 5284 "minils/analysis/clocking.ml" 132 5273 5285
+type(
+  Names.fun_name
+)
+ident(
+  def f "minils/analysis/clocking.ml" 133 5300 5306 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 132 5273 5279 "minils/analysis/clocking.ml" 132 5273 5285
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 132 5273 5294 "minils/analysis/clocking.ml" 132 5273 5295
+type(
+  Names.fun_name
+)
+ident(
+  def f "minils/analysis/clocking.ml" 133 5300 5306 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 132 5273 5288 "minils/analysis/clocking.ml" 132 5273 5295
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 132 5273 5277 "minils/analysis/clocking.ml" 132 5273 5296
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 133 5300 5310 "minils/analysis/clocking.ml" 133 5300 5314
+type(
+  Signature.node
+)
+ident(
+  def node "minils/analysis/clocking.ml" 134 5341 5347 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 133 5300 5317 "minils/analysis/clocking.ml" 133 5300 5335
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"minils/analysis/clocking.ml" 133 5300 5336 "minils/analysis/clocking.ml" 133 5300 5337
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "minils/analysis/clocking.ml" 132 5273 5284 "minils/analysis/clocking.ml" 132 5273 5285
+)
+"minils/analysis/clocking.ml" 133 5300 5317 "minils/analysis/clocking.ml" 133 5300 5337
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"minils/analysis/clocking.ml" 134 5341 5351 "minils/analysis/clocking.ml" 134 5341 5362
+type(
+  Idents.var_ident list
+)
+ident(
+  def pat_id_list "minils/analysis/clocking.ml" 135 5400 5406 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 134 5341 5365 "minils/analysis/clocking.ml" 134 5341 5392
+type(
+  Minils.pat -> Idents.var_ident list
+)
+ident(
+  ext_ref Mls_utils.ident_list_of_pat
+)
+"minils/analysis/clocking.ml" 134 5341 5393 "minils/analysis/clocking.ml" 134 5341 5396
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 123 4839 4861 "minils/analysis/clocking.ml" 123 4839 4864
+)
+"minils/analysis/clocking.ml" 134 5341 5365 "minils/analysis/clocking.ml" 134 5341 5396
+call(
+  stack
+)
+type(
+  Idents.var_ident list
+)
+"minils/analysis/clocking.ml" 135 5400 5414 "minils/analysis/clocking.ml" 135 5400 5423
+type(
+  Signature.arg list ->
+  'a list -> (Names.name * 'a) list -> (Names.name * 'a) list
+)
+ident(
+  def build_env "minils/analysis/clocking.ml" 135 5400 5406 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 135 5400 5424 "minils/analysis/clocking.ml" 135 5400 5427
+type(
+  Signature.arg list
+)
+ident(
+  def a_l "minils/analysis/clocking.ml" 135 5400 5428 "minils/analysis/clocking.ml" 141 5711 5766
+)
+"minils/analysis/clocking.ml" 135 5400 5428 "minils/analysis/clocking.ml" 135 5400 5431
+type(
+  'a list
+)
+ident(
+  def v_l "minils/analysis/clocking.ml" 135 5400 5432 "minils/analysis/clocking.ml" 141 5711 5766
+)
+"minils/analysis/clocking.ml" 135 5400 5432 "minils/analysis/clocking.ml" 135 5400 5435
+type(
+  (Names.name * 'a) list
+)
+ident(
+  def env "minils/analysis/clocking.ml" 135 5400 5438 "minils/analysis/clocking.ml" 141 5711 5766
+)
+"minils/analysis/clocking.ml" 135 5400 5444 "minils/analysis/clocking.ml" 135 5400 5447
+type(
+  Signature.arg list
+)
+ident(
+  int_ref a_l "minils/analysis/clocking.ml" 135 5400 5424 "minils/analysis/clocking.ml" 135 5400 5427
+)
+"minils/analysis/clocking.ml" 135 5400 5449 "minils/analysis/clocking.ml" 135 5400 5452
+type(
+  'a list
+)
+ident(
+  int_ref v_l "minils/analysis/clocking.ml" 135 5400 5428 "minils/analysis/clocking.ml" 135 5400 5431
+)
+"minils/analysis/clocking.ml" 135 5400 5444 "minils/analysis/clocking.ml" 135 5400 5452
+type(
+  Signature.arg list * 'a list
+)
+"minils/analysis/clocking.ml" 136 5458 5468 "minils/analysis/clocking.ml" 136 5458 5470
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 136 5458 5471 "minils/analysis/clocking.ml" 136 5458 5473
+type(
+  'a list
+)
+"minils/analysis/clocking.ml" 136 5458 5468 "minils/analysis/clocking.ml" 136 5458 5473
+type(
+  Signature.arg list * 'a list
+)
+"minils/analysis/clocking.ml" 136 5458 5477 "minils/analysis/clocking.ml" 136 5458 5480
+type(
+  (Names.name * 'a) list
+)
+ident(
+  int_ref env "minils/analysis/clocking.ml" 135 5400 5432 "minils/analysis/clocking.ml" 135 5400 5435
+)
+"minils/analysis/clocking.ml" 137 5481 5491 "minils/analysis/clocking.ml" 137 5481 5492
+type(
+  Signature.arg
+)
+ident(
+  def a "minils/analysis/clocking.ml" 137 5481 5509 "minils/analysis/clocking.ml" 139 5572 5625
+)
+"minils/analysis/clocking.ml" 137 5481 5494 "minils/analysis/clocking.ml" 137 5481 5497
+type(
+  Signature.arg list
+)
+ident(
+  def a_l "minils/analysis/clocking.ml" 137 5481 5509 "minils/analysis/clocking.ml" 139 5572 5625
+)
+"minils/analysis/clocking.ml" 137 5481 5491 "minils/analysis/clocking.ml" 137 5481 5497
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 137 5481 5499 "minils/analysis/clocking.ml" 137 5481 5500
+type(
+  'a
+)
+ident(
+  def v "minils/analysis/clocking.ml" 137 5481 5509 "minils/analysis/clocking.ml" 139 5572 5625
+)
+"minils/analysis/clocking.ml" 137 5481 5502 "minils/analysis/clocking.ml" 137 5481 5505
+type(
+  'a list
+)
+ident(
+  def v_l "minils/analysis/clocking.ml" 137 5481 5509 "minils/analysis/clocking.ml" 139 5572 5625
+)
+"minils/analysis/clocking.ml" 137 5481 5499 "minils/analysis/clocking.ml" 137 5481 5505
+type(
+  'a list
+)
+"minils/analysis/clocking.ml" 137 5481 5491 "minils/analysis/clocking.ml" 137 5481 5505
+type(
+  Signature.arg list * 'a list
+)
+"minils/analysis/clocking.ml" 137 5481 5516 "minils/analysis/clocking.ml" 137 5481 5517
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "minils/analysis/clocking.ml" 137 5481 5491 "minils/analysis/clocking.ml" 137 5481 5492
+)
+"minils/analysis/clocking.ml" 137 5481 5516 "minils/analysis/clocking.ml" 137 5481 5524
+type(
+  Names.name option
+)
+"minils/analysis/clocking.ml" 138 5530 5542 "minils/analysis/clocking.ml" 138 5530 5546
+type(
+  Names.name option
+)
+"minils/analysis/clocking.ml" 138 5530 5550 "minils/analysis/clocking.ml" 138 5530 5559
+type(
+  Signature.arg list ->
+  'a list -> (Names.name * 'a) list -> (Names.name * 'a) list
+)
+ident(
+  int_ref build_env "minils/analysis/clocking.ml" 135 5400 5414 "minils/analysis/clocking.ml" 135 5400 5423
+)
+"minils/analysis/clocking.ml" 138 5530 5560 "minils/analysis/clocking.ml" 138 5530 5563
+type(
+  Signature.arg list
+)
+ident(
+  int_ref a_l "minils/analysis/clocking.ml" 137 5481 5494 "minils/analysis/clocking.ml" 137 5481 5497
+)
+"minils/analysis/clocking.ml" 138 5530 5564 "minils/analysis/clocking.ml" 138 5530 5567
+type(
+  'a list
+)
+ident(
+  int_ref v_l "minils/analysis/clocking.ml" 137 5481 5502 "minils/analysis/clocking.ml" 137 5481 5505
+)
+"minils/analysis/clocking.ml" 138 5530 5568 "minils/analysis/clocking.ml" 138 5530 5571
+type(
+  (Names.name * 'a) list
+)
+ident(
+  int_ref env "minils/analysis/clocking.ml" 135 5400 5432 "minils/analysis/clocking.ml" 135 5400 5435
+)
+"minils/analysis/clocking.ml" 138 5530 5550 "minils/analysis/clocking.ml" 138 5530 5571
+call(
+  tail
+)
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 139 5572 5589 "minils/analysis/clocking.ml" 139 5572 5590
+type(
+  Names.name
+)
+ident(
+  def n "minils/analysis/clocking.ml" 139 5572 5594 "minils/analysis/clocking.ml" 139 5572 5624
+)
+"minils/analysis/clocking.ml" 139 5572 5584 "minils/analysis/clocking.ml" 139 5572 5590
+type(
+  Names.name option
+)
+"minils/analysis/clocking.ml" 139 5572 5594 "minils/analysis/clocking.ml" 139 5572 5603
+type(
+  Signature.arg list ->
+  'a list -> (Names.name * 'a) list -> (Names.name * 'a) list
+)
+ident(
+  int_ref build_env "minils/analysis/clocking.ml" 135 5400 5414 "minils/analysis/clocking.ml" 135 5400 5423
+)
+"minils/analysis/clocking.ml" 139 5572 5604 "minils/analysis/clocking.ml" 139 5572 5607
+type(
+  Signature.arg list
+)
+ident(
+  int_ref a_l "minils/analysis/clocking.ml" 137 5481 5494 "minils/analysis/clocking.ml" 137 5481 5497
+)
+"minils/analysis/clocking.ml" 139 5572 5608 "minils/analysis/clocking.ml" 139 5572 5611
+type(
+  'a list
+)
+ident(
+  int_ref v_l "minils/analysis/clocking.ml" 137 5481 5502 "minils/analysis/clocking.ml" 137 5481 5505
+)
+"minils/analysis/clocking.ml" 139 5572 5614 "minils/analysis/clocking.ml" 139 5572 5615
+type(
+  Names.name
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 139 5572 5589 "minils/analysis/clocking.ml" 139 5572 5590
+)
+"minils/analysis/clocking.ml" 139 5572 5616 "minils/analysis/clocking.ml" 139 5572 5617
+type(
+  'a
+)
+ident(
+  int_ref v "minils/analysis/clocking.ml" 137 5481 5499 "minils/analysis/clocking.ml" 137 5481 5500
+)
+"minils/analysis/clocking.ml" 139 5572 5613 "minils/analysis/clocking.ml" 139 5572 5618
+type(
+  Names.name * 'a
+)
+"minils/analysis/clocking.ml" 139 5572 5620 "minils/analysis/clocking.ml" 139 5572 5623
+type(
+  (Names.name * 'a) list
+)
+ident(
+  int_ref env "minils/analysis/clocking.ml" 135 5400 5432 "minils/analysis/clocking.ml" 135 5400 5435
+)
+"minils/analysis/clocking.ml" 139 5572 5612 "minils/analysis/clocking.ml" 139 5572 5624
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 139 5572 5594 "minils/analysis/clocking.ml" 139 5572 5624
+call(
+  tail
+)
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 137 5481 5509 "minils/analysis/clocking.ml" 139 5572 5625
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 140 5626 5636 "minils/analysis/clocking.ml" 140 5626 5637
+type(
+  Signature.arg list * 'a list
+)
+"minils/analysis/clocking.ml" 140 5626 5641 "minils/analysis/clocking.ml" 140 5626 5660
+type(
+  string -> (Names.name * 'a) list
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"minils/analysis/clocking.ml" 140 5626 5662 "minils/analysis/clocking.ml" 140 5626 5708
+type(
+  string
+)
+"minils/analysis/clocking.ml" 140 5626 5709 "minils/analysis/clocking.ml" 140 5626 5710
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"minils/analysis/clocking.ml" 141 5711 5749 "minils/analysis/clocking.ml" 141 5711 5763
+type(
+  Names.fun_name -> string
+)
+ident(
+  ext_ref Names.fullname
+)
+"minils/analysis/clocking.ml" 141 5711 5764 "minils/analysis/clocking.ml" 141 5711 5765
+type(
+  Names.fun_name
+)
+ident(
+  int_ref f "minils/analysis/clocking.ml" 132 5273 5284 "minils/analysis/clocking.ml" 132 5273 5285
+)
+"minils/analysis/clocking.ml" 141 5711 5749 "minils/analysis/clocking.ml" 141 5711 5765
+call(
+  stack
+)
+type(
+  string
+)
+"minils/analysis/clocking.ml" 140 5626 5661 "minils/analysis/clocking.ml" 141 5711 5766
+call(
+  stack
+)
+type(
+  string
+)
+"minils/analysis/clocking.ml" 140 5626 5641 "minils/analysis/clocking.ml" 141 5711 5766
+call(
+  tail
+)
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 135 5400 5438 "minils/analysis/clocking.ml" 141 5711 5766
+type(
+  (Names.name * 'a) list
+)
+"minils/analysis/clocking.ml" 143 5776 5786 "minils/analysis/clocking.ml" 143 5776 5793
+type(
+  (Names.name * Idents.var_ident) list
+)
+ident(
+  def env_pat "minils/analysis/clocking.ml" 144 5842 5848 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 143 5776 5796 "minils/analysis/clocking.ml" 143 5776 5805
+type(
+  Signature.arg list ->
+  Idents.var_ident list ->
+  (Names.name * Idents.var_ident) list ->
+  (Names.name * Idents.var_ident) list
+)
+ident(
+  int_ref build_env "minils/analysis/clocking.ml" 135 5400 5414 "minils/analysis/clocking.ml" 135 5400 5423
+)
+"minils/analysis/clocking.ml" 143 5776 5806 "minils/analysis/clocking.ml" 143 5776 5810
+type(
+  Signature.node
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 133 5300 5310 "minils/analysis/clocking.ml" 133 5300 5314
+)
+"minils/analysis/clocking.ml" 143 5776 5806 "minils/analysis/clocking.ml" 143 5776 5823
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 143 5776 5824 "minils/analysis/clocking.ml" 143 5776 5835
+type(
+  Idents.var_ident list
+)
+ident(
+  int_ref pat_id_list "minils/analysis/clocking.ml" 134 5341 5351 "minils/analysis/clocking.ml" 134 5341 5362
+)
+"minils/analysis/clocking.ml" 143 5776 5836 "minils/analysis/clocking.ml" 143 5776 5838
+type(
+  (Names.name * Idents.var_ident) list
+)
+"minils/analysis/clocking.ml" 143 5776 5796 "minils/analysis/clocking.ml" 143 5776 5838
+call(
+  stack
+)
+type(
+  (Names.name * Idents.var_ident) list
+)
+"minils/analysis/clocking.ml" 144 5842 5852 "minils/analysis/clocking.ml" 144 5842 5860
+type(
+  (Names.name * Minils.extvalue) list
+)
+ident(
+  def env_args "minils/analysis/clocking.ml" 146 5975 5981 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 144 5842 5863 "minils/analysis/clocking.ml" 144 5842 5872
+type(
+  Signature.arg list ->
+  Minils.extvalue list ->
+  (Names.name * Minils.extvalue) list -> (Names.name * Minils.extvalue) list
+)
+ident(
+  int_ref build_env "minils/analysis/clocking.ml" 135 5400 5414 "minils/analysis/clocking.ml" 135 5400 5423
+)
+"minils/analysis/clocking.ml" 144 5842 5873 "minils/analysis/clocking.ml" 144 5842 5877
+type(
+  Signature.node
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 133 5300 5310 "minils/analysis/clocking.ml" 133 5300 5314
+)
+"minils/analysis/clocking.ml" 144 5842 5873 "minils/analysis/clocking.ml" 144 5842 5889
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 144 5842 5890 "minils/analysis/clocking.ml" 144 5842 5896
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 123 4839 4874
+)
+"minils/analysis/clocking.ml" 144 5842 5897 "minils/analysis/clocking.ml" 144 5842 5899
+type(
+  (Names.name * Minils.extvalue) list
+)
+"minils/analysis/clocking.ml" 144 5842 5863 "minils/analysis/clocking.ml" 144 5842 5899
+call(
+  stack
+)
+type(
+  (Names.name * Minils.extvalue) list
+)
+"minils/analysis/clocking.ml" 146 5975 5989 "minils/analysis/clocking.ml" 146 5975 6000
+type(
+  Signature.ck -> Clocks.ck
+)
+ident(
+  def sigck_to_ck "minils/analysis/clocking.ml" 146 5975 5981 "minils/analysis/clocking.ml" 163 6752 6831
+)
+"minils/analysis/clocking.ml" 146 5975 6001 "minils/analysis/clocking.ml" 146 5975 6004
+type(
+  Signature.ck
+)
+ident(
+  def sck "minils/analysis/clocking.ml" 146 5975 6007 "minils/analysis/clocking.ml" 160 6596 6643
+)
+"minils/analysis/clocking.ml" 146 5975 6013 "minils/analysis/clocking.ml" 146 5975 6016
+type(
+  Signature.ck
+)
+ident(
+  int_ref sck "minils/analysis/clocking.ml" 146 5975 6001 "minils/analysis/clocking.ml" 146 5975 6004
+)
+"minils/analysis/clocking.ml" 147 6022 6032 "minils/analysis/clocking.ml" 147 6022 6047
+type(
+  Signature.ck
+)
+"minils/analysis/clocking.ml" 147 6022 6051 "minils/analysis/clocking.ml" 147 6022 6055
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 123 4839 4856 "minils/analysis/clocking.ml" 123 4839 4860
+)
+"minils/analysis/clocking.ml" 148 6056 6081 "minils/analysis/clocking.ml" 148 6056 6084
+type(
+  Signature.ck
+)
+ident(
+  def sck "minils/analysis/clocking.ml" 150 6132 6144 "minils/analysis/clocking.ml" 160 6596 6643
+)
+"minils/analysis/clocking.ml" 148 6056 6085 "minils/analysis/clocking.ml" 148 6056 6086
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/analysis/clocking.ml" 150 6132 6144 "minils/analysis/clocking.ml" 160 6596 6643
+)
+"minils/analysis/clocking.ml" 148 6056 6087 "minils/analysis/clocking.ml" 148 6056 6088
+type(
+  Names.name
+)
+ident(
+  def x "minils/analysis/clocking.ml" 150 6132 6144 "minils/analysis/clocking.ml" 160 6596 6643
+)
+"minils/analysis/clocking.ml" 148 6056 6066 "minils/analysis/clocking.ml" 148 6056 6089
+type(
+  Signature.ck
+)
+"minils/analysis/clocking.ml" 150 6132 6148 "minils/analysis/clocking.ml" 150 6132 6150
+type(
+  Idents.var_ident
+)
+ident(
+  def id "minils/analysis/clocking.ml" 160 6596 6608 "minils/analysis/clocking.ml" 160 6596 6643
+)
+"minils/analysis/clocking.ml" 150 6132 6157 "minils/analysis/clocking.ml" 150 6132 6167
+type(
+  Names.name -> (Names.name * Idents.var_ident) list -> Idents.var_ident
+)
+ident(
+  ext_ref List.assoc
+)
+"minils/analysis/clocking.ml" 150 6132 6168 "minils/analysis/clocking.ml" 150 6132 6169
+type(
+  Names.name
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 148 6056 6087 "minils/analysis/clocking.ml" 148 6056 6088
+)
+"minils/analysis/clocking.ml" 150 6132 6170 "minils/analysis/clocking.ml" 150 6132 6177
+type(
+  (Names.name * Idents.var_ident) list
+)
+ident(
+  int_ref env_pat "minils/analysis/clocking.ml" 143 5776 5786 "minils/analysis/clocking.ml" 143 5776 5793
+)
+"minils/analysis/clocking.ml" 150 6132 6157 "minils/analysis/clocking.ml" 150 6132 6177
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 151 6178 6204 "minils/analysis/clocking.ml" 151 6178 6213
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 153 6244 6273 "minils/analysis/clocking.ml" 153 6244 6274
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/analysis/clocking.ml" 154 6302 6327 "minils/analysis/clocking.ml" 156 6391 6457
+)
+"minils/analysis/clocking.ml" 153 6244 6277 "minils/analysis/clocking.ml" 153 6244 6287
+type(
+  Names.name -> (Names.name * Minils.extvalue) list -> Minils.extvalue
+)
+ident(
+  ext_ref List.assoc
+)
+"minils/analysis/clocking.ml" 153 6244 6288 "minils/analysis/clocking.ml" 153 6244 6289
+type(
+  Names.name
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 148 6056 6087 "minils/analysis/clocking.ml" 148 6056 6088
+)
+"minils/analysis/clocking.ml" 153 6244 6290 "minils/analysis/clocking.ml" 153 6244 6298
+type(
+  (Names.name * Minils.extvalue) list
+)
+ident(
+  int_ref env_args "minils/analysis/clocking.ml" 144 5842 5852 "minils/analysis/clocking.ml" 144 5842 5860
+)
+"minils/analysis/clocking.ml" 153 6244 6277 "minils/analysis/clocking.ml" 153 6244 6298
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 154 6302 6334 "minils/analysis/clocking.ml" 154 6302 6335
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 153 6244 6273 "minils/analysis/clocking.ml" 153 6244 6274
+)
+"minils/analysis/clocking.ml" 154 6302 6334 "minils/analysis/clocking.ml" 154 6302 6342
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 155 6348 6382 "minils/analysis/clocking.ml" 155 6348 6384
+type(
+  Idents.var_ident
+)
+ident(
+  def id "minils/analysis/clocking.ml" 155 6348 6388 "minils/analysis/clocking.ml" 155 6348 6390
+)
+"minils/analysis/clocking.ml" 155 6348 6377 "minils/analysis/clocking.ml" 155 6348 6384
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 155 6348 6388 "minils/analysis/clocking.ml" 155 6348 6390
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "minils/analysis/clocking.ml" 155 6348 6382 "minils/analysis/clocking.ml" 155 6348 6384
+)
+"minils/analysis/clocking.ml" 156 6391 6420 "minils/analysis/clocking.ml" 156 6391 6421
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 156 6391 6425 "minils/analysis/clocking.ml" 156 6391 6438
+type(
+  Location.location -> error_kind -> Idents.var_ident
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 156 6391 6439 "minils/analysis/clocking.ml" 156 6391 6440
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 153 6244 6273 "minils/analysis/clocking.ml" 153 6244 6274
+)
+"minils/analysis/clocking.ml" 156 6391 6439 "minils/analysis/clocking.ml" 156 6391 6446
+type(
+  Location.location
+)
+"minils/analysis/clocking.ml" 156 6391 6447 "minils/analysis/clocking.ml" 156 6391 6456
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 156 6391 6425 "minils/analysis/clocking.ml" 156 6391 6456
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 154 6302 6327 "minils/analysis/clocking.ml" 156 6391 6457
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 153 6244 6269 "minils/analysis/clocking.ml" 156 6391 6457
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 157 6458 6486 "minils/analysis/clocking.ml" 157 6458 6495
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 158 6499 6524 "minils/analysis/clocking.ml" 158 6499 6543
+type(
+  string -> Idents.var_ident
+)
+ident(
+  ext_ref Misc.internal_error
+)
+"minils/analysis/clocking.ml" 158 6499 6544 "minils/analysis/clocking.ml" 158 6499 6580
+type(
+  string
+)
+"minils/analysis/clocking.ml" 158 6499 6524 "minils/analysis/clocking.ml" 158 6499 6580
+call(
+  stack
+)
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 152 6217 6240 "minils/analysis/clocking.ml" 158 6499 6580
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 150 6132 6153 "minils/analysis/clocking.ml" 158 6499 6580
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 160 6596 6620 "minils/analysis/clocking.ml" 160 6596 6631
+type(
+  Signature.ck -> Clocks.ck
+)
+ident(
+  int_ref sigck_to_ck "minils/analysis/clocking.ml" 146 5975 5989 "minils/analysis/clocking.ml" 146 5975 6000
+)
+"minils/analysis/clocking.ml" 160 6596 6632 "minils/analysis/clocking.ml" 160 6596 6635
+type(
+  Signature.ck
+)
+ident(
+  int_ref sck "minils/analysis/clocking.ml" 148 6056 6081 "minils/analysis/clocking.ml" 148 6056 6084
+)
+"minils/analysis/clocking.ml" 160 6596 6620 "minils/analysis/clocking.ml" 160 6596 6635
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 160 6596 6637 "minils/analysis/clocking.ml" 160 6596 6638
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/analysis/clocking.ml" 148 6056 6085 "minils/analysis/clocking.ml" 148 6056 6086
+)
+"minils/analysis/clocking.ml" 160 6596 6640 "minils/analysis/clocking.ml" 160 6596 6642
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "minils/analysis/clocking.ml" 150 6132 6148 "minils/analysis/clocking.ml" 150 6132 6150
+)
+"minils/analysis/clocking.ml" 160 6596 6608 "minils/analysis/clocking.ml" 160 6596 6643
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 150 6132 6144 "minils/analysis/clocking.ml" 160 6596 6643
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 146 5975 6007 "minils/analysis/clocking.ml" 160 6596 6643
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 162 6653 6659 "minils/analysis/clocking.ml" 162 6653 6669
+type(
+  (Signature.arg -> Minils.extvalue -> unit) ->
+  Signature.arg list -> Minils.extvalue list -> unit
+)
+ident(
+  ext_ref List.iter2
+)
+"minils/analysis/clocking.ml" 162 6653 6675 "minils/analysis/clocking.ml" 162 6653 6676
+type(
+  Signature.arg
+)
+ident(
+  def a "minils/analysis/clocking.ml" 162 6653 6677 "minils/analysis/clocking.ml" 162 6653 6725
+)
+"minils/analysis/clocking.ml" 162 6653 6677 "minils/analysis/clocking.ml" 162 6653 6678
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/analysis/clocking.ml" 162 6653 6682 "minils/analysis/clocking.ml" 162 6653 6725
+)
+"minils/analysis/clocking.ml" 162 6653 6682 "minils/analysis/clocking.ml" 162 6653 6697
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 162 6653 6698 "minils/analysis/clocking.ml" 162 6653 6699
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 123 4839 4854 "minils/analysis/clocking.ml" 123 4839 4855
+)
+"minils/analysis/clocking.ml" 162 6653 6701 "minils/analysis/clocking.ml" 162 6653 6712
+type(
+  Signature.ck -> Clocks.ck
+)
+ident(
+  int_ref sigck_to_ck "minils/analysis/clocking.ml" 146 5975 5989 "minils/analysis/clocking.ml" 146 5975 6000
+)
+"minils/analysis/clocking.ml" 162 6653 6713 "minils/analysis/clocking.ml" 162 6653 6714
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "minils/analysis/clocking.ml" 162 6653 6675 "minils/analysis/clocking.ml" 162 6653 6676
+)
+"minils/analysis/clocking.ml" 162 6653 6713 "minils/analysis/clocking.ml" 162 6653 6722
+type(
+  Signature.ck
+)
+"minils/analysis/clocking.ml" 162 6653 6700 "minils/analysis/clocking.ml" 162 6653 6723
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 162 6653 6724 "minils/analysis/clocking.ml" 162 6653 6725
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 162 6653 6677 "minils/analysis/clocking.ml" 162 6653 6678
+)
+"minils/analysis/clocking.ml" 162 6653 6682 "minils/analysis/clocking.ml" 162 6653 6725
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 162 6653 6670 "minils/analysis/clocking.ml" 162 6653 6726
+type(
+  Signature.arg -> Minils.extvalue -> unit
+)
+"minils/analysis/clocking.ml" 162 6653 6727 "minils/analysis/clocking.ml" 162 6653 6731
+type(
+  Signature.node
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 133 5300 5310 "minils/analysis/clocking.ml" 133 5300 5314
+)
+"minils/analysis/clocking.ml" 162 6653 6727 "minils/analysis/clocking.ml" 162 6653 6743
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 162 6653 6744 "minils/analysis/clocking.ml" 162 6653 6750
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref w_list "minils/analysis/clocking.ml" 123 4839 4868 "minils/analysis/clocking.ml" 123 4839 4874
+)
+"minils/analysis/clocking.ml" 162 6653 6659 "minils/analysis/clocking.ml" 162 6653 6750
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 163 6752 6758 "minils/analysis/clocking.ml" 163 6752 6769
+type(
+  Clocks.ck list -> Clocks.ct
+)
+ident(
+  ext_ref Clocks.prod
+)
+"minils/analysis/clocking.ml" 163 6752 6771 "minils/analysis/clocking.ml" 163 6752 6779
+type(
+  (Signature.arg -> Clocks.ck) -> Signature.arg list -> Clocks.ck list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 163 6752 6785 "minils/analysis/clocking.ml" 163 6752 6786
+type(
+  Signature.arg
+)
+ident(
+  def a "minils/analysis/clocking.ml" 163 6752 6790 "minils/analysis/clocking.ml" 163 6752 6811
+)
+"minils/analysis/clocking.ml" 163 6752 6790 "minils/analysis/clocking.ml" 163 6752 6801
+type(
+  Signature.ck -> Clocks.ck
+)
+ident(
+  int_ref sigck_to_ck "minils/analysis/clocking.ml" 146 5975 5989 "minils/analysis/clocking.ml" 146 5975 6000
+)
+"minils/analysis/clocking.ml" 163 6752 6802 "minils/analysis/clocking.ml" 163 6752 6803
+type(
+  Signature.arg
+)
+ident(
+  int_ref a "minils/analysis/clocking.ml" 163 6752 6785 "minils/analysis/clocking.ml" 163 6752 6786
+)
+"minils/analysis/clocking.ml" 163 6752 6802 "minils/analysis/clocking.ml" 163 6752 6811
+type(
+  Signature.ck
+)
+"minils/analysis/clocking.ml" 163 6752 6790 "minils/analysis/clocking.ml" 163 6752 6811
+call(
+  tail
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 163 6752 6780 "minils/analysis/clocking.ml" 163 6752 6812
+type(
+  Signature.arg -> Clocks.ck
+)
+"minils/analysis/clocking.ml" 163 6752 6813 "minils/analysis/clocking.ml" 163 6752 6817
+type(
+  Signature.node
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 133 5300 5310 "minils/analysis/clocking.ml" 133 5300 5314
+)
+"minils/analysis/clocking.ml" 163 6752 6813 "minils/analysis/clocking.ml" 163 6752 6830
+type(
+  Signature.arg list
+)
+"minils/analysis/clocking.ml" 163 6752 6770 "minils/analysis/clocking.ml" 163 6752 6831
+call(
+  stack
+)
+type(
+  Clocks.ck list
+)
+"minils/analysis/clocking.ml" 163 6752 6758 "minils/analysis/clocking.ml" 163 6752 6831
+call(
+  tail
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 162 6653 6659 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 146 5975 5981 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 144 5842 5848 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 143 5776 5782 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 135 5400 5406 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 134 5341 5347 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 133 5300 5306 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 123 4839 4877 "minils/analysis/clocking.ml" 163 6752 6831
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 166 6834 6842 "minils/analysis/clocking.ml" 166 6834 6850
+type(
+  Minils.exp -> bool
+)
+ident(
+  def stateful "minils/analysis/clocking.ml" 166 6834 6834 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 166 6834 6851 "minils/analysis/clocking.ml" 166 6834 6852
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 166 6834 6855 "minils/analysis/clocking.ml" 171 7023 7037
+)
+"minils/analysis/clocking.ml" 166 6834 6861 "minils/analysis/clocking.ml" 166 6834 6862
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 166 6834 6851 "minils/analysis/clocking.ml" 166 6834 6852
+)
+"minils/analysis/clocking.ml" 166 6834 6861 "minils/analysis/clocking.ml" 166 6834 6869
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 167 6875 6884 "minils/analysis/clocking.ml" 167 6875 6885
+type(
+  Minils.extvalue
+)
+type(
+  Types.static_exp option
+)
+"minils/analysis/clocking.ml" 167 6875 6879 "minils/analysis/clocking.ml" 167 6875 6885
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 167 6875 6889 "minils/analysis/clocking.ml" 167 6875 6893
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 168 6894 6905 "minils/analysis/clocking.ml" 168 6894 6906
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 168 6894 6915 "minils/analysis/clocking.ml" 168 6894 6925
+)
+"minils/analysis/clocking.ml" 168 6894 6907 "minils/analysis/clocking.ml" 168 6894 6908
+type(
+  Names.constructor_name
+)
+"minils/analysis/clocking.ml" 168 6894 6909 "minils/analysis/clocking.ml" 168 6894 6910
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 168 6894 6898 "minils/analysis/clocking.ml" 168 6894 6911
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 168 6894 6915 "minils/analysis/clocking.ml" 168 6894 6923
+type(
+  Minils.exp -> bool
+)
+ident(
+  int_ref stateful "minils/analysis/clocking.ml" 166 6834 6842 "minils/analysis/clocking.ml" 166 6834 6850
+)
+"minils/analysis/clocking.ml" 168 6894 6924 "minils/analysis/clocking.ml" 168 6894 6925
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 168 6894 6905 "minils/analysis/clocking.ml" 168 6894 6906
+)
+"minils/analysis/clocking.ml" 168 6894 6915 "minils/analysis/clocking.ml" 168 6894 6925
+call(
+  tail
+)
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 169 6926 6947 "minils/analysis/clocking.ml" 169 6926 6953
+type(
+  bool
+)
+ident(
+  def unsafe "minils/analysis/clocking.ml" 169 6926 6967 "minils/analysis/clocking.ml" 169 6926 6981
+)
+"minils/analysis/clocking.ml" 169 6926 6935 "minils/analysis/clocking.ml" 169 6926 6954
+type(
+  Minils.app
+)
+"minils/analysis/clocking.ml" 169 6926 6956 "minils/analysis/clocking.ml" 169 6926 6957
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 169 6926 6959 "minils/analysis/clocking.ml" 169 6926 6960
+type(
+  Idents.var_ident option
+)
+"minils/analysis/clocking.ml" 169 6926 6930 "minils/analysis/clocking.ml" 169 6926 6961
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 169 6926 6967 "minils/analysis/clocking.ml" 169 6926 6973
+type(
+  bool
+)
+ident(
+  int_ref unsafe "minils/analysis/clocking.ml" 169 6926 6947 "minils/analysis/clocking.ml" 169 6926 6953
+)
+"minils/analysis/clocking.ml" 169 6926 6977 "minils/analysis/clocking.ml" 169 6926 6981
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 170 6982 7005 "minils/analysis/clocking.ml" 170 6982 7006
+type(
+  Names.fun_name
+)
+"minils/analysis/clocking.ml" 170 6982 6999 "minils/analysis/clocking.ml" 170 6982 7006
+type(
+  Minils.op
+)
+"minils/analysis/clocking.ml" 170 6982 6991 "minils/analysis/clocking.ml" 170 6982 7007
+type(
+  Minils.app
+)
+"minils/analysis/clocking.ml" 170 6982 7009 "minils/analysis/clocking.ml" 170 6982 7010
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 170 6982 7012 "minils/analysis/clocking.ml" 170 6982 7013
+type(
+  Idents.var_ident option
+)
+"minils/analysis/clocking.ml" 170 6982 6986 "minils/analysis/clocking.ml" 170 6982 7014
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 170 6982 7018 "minils/analysis/clocking.ml" 170 6982 7022
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 171 7023 7027 "minils/analysis/clocking.ml" 171 7023 7028
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 171 7023 7032 "minils/analysis/clocking.ml" 171 7023 7037
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 166 6834 6855 "minils/analysis/clocking.ml" 171 7023 7037
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 174 7040 7044 "minils/analysis/clocking.ml" 174 7040 7053
+type(
+  Clocks.ck Idents.Env.t -> Minils.eq -> Minils.eq
+)
+ident(
+  def typing_eq "minils/analysis/clocking.ml" 252 10447 10447 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 174 7040 7056 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+type(
+  Minils.pat
+)
+ident(
+  def pat "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 174 7040 7082 "minils/analysis/clocking.ml" 174 7040 7083
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 174 7040 7094 "minils/analysis/clocking.ml" 174 7040 7097
+type(
+  Location.location
+)
+ident(
+  def loc "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 174 7040 7057 "minils/analysis/clocking.ml" 174 7040 7099
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 174 7040 7103 "minils/analysis/clocking.ml" 174 7040 7105
+ident(
+  def eq "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 174 7040 7056 "minils/analysis/clocking.ml" 174 7040 7106
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 176 7160 7170 "minils/analysis/clocking.ml" 176 7160 7176
+type(
+  Minils.exp -> Clocks.ct * Clocks.ck
+)
+ident(
+  def typing "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 177 7181 7185 "minils/analysis/clocking.ml" 237 9959 9971
+)
+"minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7191
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 231 9747 9751 "minils/analysis/clocking.ml" 237 9959 9971
+)
+"minils/analysis/clocking.ml" 177 7181 7192 "minils/analysis/clocking.ml" 177 7181 7196
+type(
+  Clocks.ck
+)
+ident(
+  def base "minils/analysis/clocking.ml" 231 9747 9751 "minils/analysis/clocking.ml" 237 9959 9971
+)
+"minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7196
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 177 7181 7205 "minils/analysis/clocking.ml" 177 7181 7206
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 177 7181 7205 "minils/analysis/clocking.ml" 177 7181 7213
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 178 7219 7237 "minils/analysis/clocking.ml" 178 7219 7238
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/analysis/clocking.ml" 180 7262 7272 "minils/analysis/clocking.ml" 181 7304 7323
+)
+"minils/analysis/clocking.ml" 178 7219 7227 "minils/analysis/clocking.ml" 178 7219 7238
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 179 7239 7253 "minils/analysis/clocking.ml" 179 7239 7254
+type(
+  Types.static_exp option
+)
+"minils/analysis/clocking.ml" 179 7239 7256 "minils/analysis/clocking.ml" 179 7239 7257
+type(
+  Minils.extvalue
+)
+ident(
+  def w "minils/analysis/clocking.ml" 180 7262 7272 "minils/analysis/clocking.ml" 181 7304 7323
+)
+"minils/analysis/clocking.ml" 179 7239 7247 "minils/analysis/clocking.ml" 179 7239 7258
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 178 7219 7227 "minils/analysis/clocking.ml" 179 7239 7258
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 180 7262 7276 "minils/analysis/clocking.ml" 180 7262 7278
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 181 7304 7314 "minils/analysis/clocking.ml" 181 7304 7323
+)
+"minils/analysis/clocking.ml" 180 7262 7281 "minils/analysis/clocking.ml" 180 7262 7296
+type(
+  Clocks.ck Idents.Env.t -> Minils.extvalue -> Clocks.ck
+)
+ident(
+  int_ref typing_extvalue "minils/analysis/clocking.ml" 87 3790 3798 "minils/analysis/clocking.ml" 87 3790 3813
+)
+"minils/analysis/clocking.ml" 180 7262 7297 "minils/analysis/clocking.ml" 180 7262 7298
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 180 7262 7299 "minils/analysis/clocking.ml" 180 7262 7300
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref w "minils/analysis/clocking.ml" 178 7219 7237 "minils/analysis/clocking.ml" 178 7219 7238
+)
+"minils/analysis/clocking.ml" 180 7262 7281 "minils/analysis/clocking.ml" 180 7262 7300
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 181 7304 7317 "minils/analysis/clocking.ml" 181 7304 7319
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 180 7262 7276 "minils/analysis/clocking.ml" 180 7262 7278
+)
+"minils/analysis/clocking.ml" 181 7304 7314 "minils/analysis/clocking.ml" 181 7304 7319
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 181 7304 7321 "minils/analysis/clocking.ml" 181 7304 7323
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 180 7262 7276 "minils/analysis/clocking.ml" 180 7262 7278
+)
+"minils/analysis/clocking.ml" 181 7304 7314 "minils/analysis/clocking.ml" 181 7304 7323
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 180 7262 7272 "minils/analysis/clocking.ml" 181 7304 7323
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 182 7324 7339 "minils/analysis/clocking.ml" 182 7324 7340
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 183 7349 7359 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 182 7324 7341 "minils/analysis/clocking.ml" 182 7324 7342
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/analysis/clocking.ml" 183 7349 7359 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 182 7324 7343 "minils/analysis/clocking.ml" 182 7324 7344
+type(
+  Idents.var_ident
+)
+ident(
+  def n "minils/analysis/clocking.ml" 183 7349 7359 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 182 7324 7332 "minils/analysis/clocking.ml" 182 7324 7345
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 183 7349 7363 "minils/analysis/clocking.ml" 183 7349 7367
+type(
+  Clocks.ck
+)
+ident(
+  def ck_n "minils/analysis/clocking.ml" 184 7388 7398 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 183 7349 7370 "minils/analysis/clocking.ml" 183 7349 7380
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  int_ref ck_of_name "minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+)
+"minils/analysis/clocking.ml" 183 7349 7381 "minils/analysis/clocking.ml" 183 7349 7382
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 183 7349 7383 "minils/analysis/clocking.ml" 183 7349 7384
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 182 7324 7343 "minils/analysis/clocking.ml" 182 7324 7344
+)
+"minils/analysis/clocking.ml" 183 7349 7370 "minils/analysis/clocking.ml" 183 7349 7384
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 184 7388 7402 "minils/analysis/clocking.ml" 184 7388 7407
+type(
+  Clocks.ck
+)
+ident(
+  def _base "minils/analysis/clocking.ml" 185 7445 7455 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 184 7388 7410 "minils/analysis/clocking.ml" 184 7388 7416
+type(
+  Clocks.ct -> Minils.exp -> Clocks.ck
+)
+ident(
+  int_ref expect "minils/analysis/clocking.ml" 238 9972 9978 "minils/analysis/clocking.ml" 238 9972 9984
+)
+"minils/analysis/clocking.ml" 184 7388 7418 "minils/analysis/clocking.ml" 184 7388 7426
+type(
+  Clocks.ck -> Types.ty -> Clocks.ct
+)
+ident(
+  ext_ref Clocks.skeleton
+)
+"minils/analysis/clocking.ml" 184 7388 7427 "minils/analysis/clocking.ml" 184 7388 7431
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 183 7349 7363 "minils/analysis/clocking.ml" 183 7349 7367
+)
+"minils/analysis/clocking.ml" 184 7388 7432 "minils/analysis/clocking.ml" 184 7388 7433
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 182 7324 7339 "minils/analysis/clocking.ml" 182 7324 7340
+)
+"minils/analysis/clocking.ml" 184 7388 7432 "minils/analysis/clocking.ml" 184 7388 7438
+type(
+  Types.ty
+)
+"minils/analysis/clocking.ml" 184 7388 7417 "minils/analysis/clocking.ml" 184 7388 7439
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 184 7388 7440 "minils/analysis/clocking.ml" 184 7388 7441
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 182 7324 7339 "minils/analysis/clocking.ml" 182 7324 7340
+)
+"minils/analysis/clocking.ml" 184 7388 7410 "minils/analysis/clocking.ml" 184 7388 7441
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 185 7445 7459 "minils/analysis/clocking.ml" 185 7445 7466
+type(
+  Clocks.ck
+)
+ident(
+  def base_ck "minils/analysis/clocking.ml" 186 7525 7535 "minils/analysis/clocking.ml" 186 7525 7585
+)
+"minils/analysis/clocking.ml" 185 7445 7472 "minils/analysis/clocking.ml" 185 7445 7480
+type(
+  Minils.exp -> bool
+)
+ident(
+  int_ref stateful "minils/analysis/clocking.ml" 166 6834 6842 "minils/analysis/clocking.ml" 166 6834 6850
+)
+"minils/analysis/clocking.ml" 185 7445 7481 "minils/analysis/clocking.ml" 185 7445 7482
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 182 7324 7339 "minils/analysis/clocking.ml" 182 7324 7340
+)
+"minils/analysis/clocking.ml" 185 7445 7472 "minils/analysis/clocking.ml" 185 7445 7482
+call(
+  stack
+)
+type(
+  bool
+)
+"minils/analysis/clocking.ml" 185 7445 7488 "minils/analysis/clocking.ml" 185 7445 7492
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 183 7349 7363 "minils/analysis/clocking.ml" 183 7349 7367
+)
+"minils/analysis/clocking.ml" 185 7445 7510 "minils/analysis/clocking.ml" 185 7445 7514
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 183 7349 7363 "minils/analysis/clocking.ml" 183 7349 7367
+)
+"minils/analysis/clocking.ml" 185 7445 7516 "minils/analysis/clocking.ml" 185 7445 7517
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/analysis/clocking.ml" 182 7324 7341 "minils/analysis/clocking.ml" 182 7324 7342
+)
+"minils/analysis/clocking.ml" 185 7445 7519 "minils/analysis/clocking.ml" 185 7445 7520
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 182 7324 7343 "minils/analysis/clocking.ml" 182 7324 7344
+)
+"minils/analysis/clocking.ml" 185 7445 7498 "minils/analysis/clocking.ml" 185 7445 7521
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 185 7445 7469 "minils/analysis/clocking.ml" 185 7445 7521
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 186 7525 7535 "minils/analysis/clocking.ml" 186 7525 7543
+type(
+  Clocks.ck -> Types.ty -> Clocks.ct
+)
+ident(
+  ext_ref Clocks.skeleton
+)
+"minils/analysis/clocking.ml" 186 7525 7557 "minils/analysis/clocking.ml" 186 7525 7561
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck_n "minils/analysis/clocking.ml" 183 7349 7363 "minils/analysis/clocking.ml" 183 7349 7367
+)
+"minils/analysis/clocking.ml" 186 7525 7563 "minils/analysis/clocking.ml" 186 7525 7564
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/analysis/clocking.ml" 182 7324 7341 "minils/analysis/clocking.ml" 182 7324 7342
+)
+"minils/analysis/clocking.ml" 186 7525 7566 "minils/analysis/clocking.ml" 186 7525 7567
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 182 7324 7343 "minils/analysis/clocking.ml" 182 7324 7344
+)
+"minils/analysis/clocking.ml" 186 7525 7544 "minils/analysis/clocking.ml" 186 7525 7569
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 186 7525 7570 "minils/analysis/clocking.ml" 186 7525 7571
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 182 7324 7339 "minils/analysis/clocking.ml" 182 7324 7340
+)
+"minils/analysis/clocking.ml" 186 7525 7570 "minils/analysis/clocking.ml" 186 7525 7576
+type(
+  Types.ty
+)
+"minils/analysis/clocking.ml" 186 7525 7535 "minils/analysis/clocking.ml" 186 7525 7576
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 186 7525 7578 "minils/analysis/clocking.ml" 186 7525 7585
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 185 7445 7459 "minils/analysis/clocking.ml" 185 7445 7466
+)
+"minils/analysis/clocking.ml" 186 7525 7535 "minils/analysis/clocking.ml" 186 7525 7585
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 185 7445 7455 "minils/analysis/clocking.ml" 186 7525 7585
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 184 7388 7398 "minils/analysis/clocking.ml" 186 7525 7585
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 183 7349 7359 "minils/analysis/clocking.ml" 186 7525 7585
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 187 7586 7602 "minils/analysis/clocking.ml" 187 7586 7603
+type(
+  Idents.var_ident
+)
+ident(
+  def x "minils/analysis/clocking.ml" 188 7618 7628 "minils/analysis/clocking.ml" 190 7742 7761
+)
+"minils/analysis/clocking.ml" 187 7586 7605 "minils/analysis/clocking.ml" 187 7586 7613
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+ident(
+  def c_e_list "minils/analysis/clocking.ml" 188 7618 7628 "minils/analysis/clocking.ml" 190 7742 7761
+)
+"minils/analysis/clocking.ml" 187 7586 7594 "minils/analysis/clocking.ml" 187 7586 7614
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 188 7618 7632 "minils/analysis/clocking.ml" 188 7618 7634
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 189 7655 7665 "minils/analysis/clocking.ml" 190 7742 7761
+)
+"minils/analysis/clocking.ml" 188 7618 7637 "minils/analysis/clocking.ml" 188 7618 7647
+type(
+  Clocks.ck Idents.Env.t -> Idents.Env.key -> Clocks.ck
+)
+ident(
+  int_ref ck_of_name "minils/analysis/clocking.ml" 77 3441 3445 "minils/analysis/clocking.ml" 77 3441 3455
+)
+"minils/analysis/clocking.ml" 188 7618 7648 "minils/analysis/clocking.ml" 188 7618 7649
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 188 7618 7650 "minils/analysis/clocking.ml" 188 7618 7651
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 187 7586 7602 "minils/analysis/clocking.ml" 187 7586 7603
+)
+"minils/analysis/clocking.ml" 188 7618 7637 "minils/analysis/clocking.ml" 188 7618 7651
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 189 7655 7665 "minils/analysis/clocking.ml" 189 7655 7674
+type(
+  (Names.constructor_name * Minils.extvalue -> unit) ->
+  (Names.constructor_name * Minils.extvalue) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/analysis/clocking.ml" 189 7655 7681 "minils/analysis/clocking.ml" 189 7655 7682
+type(
+  Names.constructor_name
+)
+ident(
+  def c "minils/analysis/clocking.ml" 189 7655 7689 "minils/analysis/clocking.ml" 189 7655 7730
+)
+"minils/analysis/clocking.ml" 189 7655 7683 "minils/analysis/clocking.ml" 189 7655 7684
+type(
+  Minils.extvalue
+)
+ident(
+  def e "minils/analysis/clocking.ml" 189 7655 7689 "minils/analysis/clocking.ml" 189 7655 7730
+)
+"minils/analysis/clocking.ml" 189 7655 7680 "minils/analysis/clocking.ml" 189 7655 7685
+type(
+  Names.constructor_name * Minils.extvalue
+)
+"minils/analysis/clocking.ml" 189 7655 7689 "minils/analysis/clocking.ml" 189 7655 7704
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 189 7655 7705 "minils/analysis/clocking.ml" 189 7655 7706
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 189 7655 7720 "minils/analysis/clocking.ml" 189 7655 7722
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 188 7618 7632 "minils/analysis/clocking.ml" 188 7618 7634
+)
+"minils/analysis/clocking.ml" 189 7655 7723 "minils/analysis/clocking.ml" 189 7655 7724
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "minils/analysis/clocking.ml" 189 7655 7681 "minils/analysis/clocking.ml" 189 7655 7682
+)
+"minils/analysis/clocking.ml" 189 7655 7725 "minils/analysis/clocking.ml" 189 7655 7726
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "minils/analysis/clocking.ml" 187 7586 7602 "minils/analysis/clocking.ml" 187 7586 7603
+)
+"minils/analysis/clocking.ml" 189 7655 7707 "minils/analysis/clocking.ml" 189 7655 7728
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 189 7655 7729 "minils/analysis/clocking.ml" 189 7655 7730
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 189 7655 7683 "minils/analysis/clocking.ml" 189 7655 7684
+)
+"minils/analysis/clocking.ml" 189 7655 7689 "minils/analysis/clocking.ml" 189 7655 7730
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 189 7655 7675 "minils/analysis/clocking.ml" 189 7655 7731
+type(
+  Names.constructor_name * Minils.extvalue -> unit
+)
+"minils/analysis/clocking.ml" 189 7655 7732 "minils/analysis/clocking.ml" 189 7655 7740
+type(
+  (Names.constructor_name * Minils.extvalue) list
+)
+ident(
+  int_ref c_e_list "minils/analysis/clocking.ml" 187 7586 7605 "minils/analysis/clocking.ml" 187 7586 7613
+)
+"minils/analysis/clocking.ml" 189 7655 7665 "minils/analysis/clocking.ml" 189 7655 7740
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 190 7742 7755 "minils/analysis/clocking.ml" 190 7742 7757
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 188 7618 7632 "minils/analysis/clocking.ml" 188 7618 7634
+)
+"minils/analysis/clocking.ml" 190 7742 7752 "minils/analysis/clocking.ml" 190 7742 7757
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 190 7742 7759 "minils/analysis/clocking.ml" 190 7742 7761
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 188 7618 7632 "minils/analysis/clocking.ml" 188 7618 7634
+)
+"minils/analysis/clocking.ml" 190 7742 7752 "minils/analysis/clocking.ml" 190 7742 7761
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 189 7655 7665 "minils/analysis/clocking.ml" 190 7742 7761
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 188 7618 7628 "minils/analysis/clocking.ml" 190 7742 7761
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 191 7762 7778 "minils/analysis/clocking.ml" 191 7762 7779
+type(
+  (Names.field_name * Minils.extvalue) list
+)
+ident(
+  def l "minils/analysis/clocking.ml" 192 7783 7793 "minils/analysis/clocking.ml" 194 7882 7901
+)
+"minils/analysis/clocking.ml" 191 7762 7770 "minils/analysis/clocking.ml" 191 7762 7779
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 192 7783 7797 "minils/analysis/clocking.ml" 192 7783 7799
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 193 7820 7830 "minils/analysis/clocking.ml" 194 7882 7901
+)
+"minils/analysis/clocking.ml" 192 7783 7802 "minils/analysis/clocking.ml" 192 7783 7813
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"minils/analysis/clocking.ml" 192 7783 7814 "minils/analysis/clocking.ml" 192 7783 7816
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 192 7783 7802 "minils/analysis/clocking.ml" 192 7783 7816
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 193 7820 7830 "minils/analysis/clocking.ml" 193 7820 7839
+type(
+  (Names.field_name * Minils.extvalue -> unit) ->
+  (Names.field_name * Minils.extvalue) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/analysis/clocking.ml" 193 7820 7846 "minils/analysis/clocking.ml" 193 7820 7847
+type(
+  Names.field_name
+)
+"minils/analysis/clocking.ml" 193 7820 7849 "minils/analysis/clocking.ml" 193 7820 7850
+type(
+  Minils.extvalue
+)
+ident(
+  def e "minils/analysis/clocking.ml" 193 7820 7855 "minils/analysis/clocking.ml" 193 7820 7877
+)
+"minils/analysis/clocking.ml" 193 7820 7845 "minils/analysis/clocking.ml" 193 7820 7851
+type(
+  Names.field_name * Minils.extvalue
+)
+"minils/analysis/clocking.ml" 193 7820 7855 "minils/analysis/clocking.ml" 193 7820 7870
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 193 7820 7871 "minils/analysis/clocking.ml" 193 7820 7872
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 193 7820 7873 "minils/analysis/clocking.ml" 193 7820 7875
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 192 7783 7797 "minils/analysis/clocking.ml" 192 7783 7799
+)
+"minils/analysis/clocking.ml" 193 7820 7876 "minils/analysis/clocking.ml" 193 7820 7877
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 193 7820 7849 "minils/analysis/clocking.ml" 193 7820 7850
+)
+"minils/analysis/clocking.ml" 193 7820 7855 "minils/analysis/clocking.ml" 193 7820 7877
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 193 7820 7840 "minils/analysis/clocking.ml" 193 7820 7878
+type(
+  Names.field_name * Minils.extvalue -> unit
+)
+"minils/analysis/clocking.ml" 193 7820 7879 "minils/analysis/clocking.ml" 193 7820 7880
+type(
+  (Names.field_name * Minils.extvalue) list
+)
+ident(
+  int_ref l "minils/analysis/clocking.ml" 191 7762 7778 "minils/analysis/clocking.ml" 191 7762 7779
+)
+"minils/analysis/clocking.ml" 193 7820 7830 "minils/analysis/clocking.ml" 193 7820 7880
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 194 7882 7895 "minils/analysis/clocking.ml" 194 7882 7897
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 192 7783 7797 "minils/analysis/clocking.ml" 192 7783 7799
+)
+"minils/analysis/clocking.ml" 194 7882 7892 "minils/analysis/clocking.ml" 194 7882 7897
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 194 7882 7899 "minils/analysis/clocking.ml" 194 7882 7901
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 192 7783 7797 "minils/analysis/clocking.ml" 192 7783 7799
+)
+"minils/analysis/clocking.ml" 194 7882 7892 "minils/analysis/clocking.ml" 194 7882 7901
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 193 7820 7830 "minils/analysis/clocking.ml" 194 7882 7901
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 192 7783 7793 "minils/analysis/clocking.ml" 194 7882 7901
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 195 7902 7923 "minils/analysis/clocking.ml" 195 7902 7925
+type(
+  Minils.op
+)
+ident(
+  def op "minils/analysis/clocking.ml" 196 7966 7976 "minils/analysis/clocking.ml" 198 8063 8084
+)
+"minils/analysis/clocking.ml" 195 7902 7915 "minils/analysis/clocking.ml" 195 7902 7926
+type(
+  Minils.app
+)
+"minils/analysis/clocking.ml" 195 7902 7928 "minils/analysis/clocking.ml" 195 7902 7932
+type(
+  Minils.extvalue list
+)
+ident(
+  def args "minils/analysis/clocking.ml" 196 7966 7976 "minils/analysis/clocking.ml" 198 8063 8084
+)
+"minils/analysis/clocking.ml" 195 7902 7934 "minils/analysis/clocking.ml" 195 7902 7935
+type(
+  Idents.var_ident option
+)
+"minils/analysis/clocking.ml" 195 7902 7910 "minils/analysis/clocking.ml" 195 7902 7936
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 196 7966 7980 "minils/analysis/clocking.ml" 196 7966 7987
+type(
+  Clocks.ck
+)
+ident(
+  def base_ck "minils/analysis/clocking.ml" 197 8008 8018 "minils/analysis/clocking.ml" 198 8063 8084
+)
+"minils/analysis/clocking.ml" 196 7966 7990 "minils/analysis/clocking.ml" 196 7966 8001
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"minils/analysis/clocking.ml" 196 7966 8002 "minils/analysis/clocking.ml" 196 7966 8004
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 196 7966 7990 "minils/analysis/clocking.ml" 196 7966 8004
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 197 8008 8022 "minils/analysis/clocking.ml" 197 8008 8024
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 198 8063 8073 "minils/analysis/clocking.ml" 198 8063 8084
+)
+"minils/analysis/clocking.ml" 197 8008 8027 "minils/analysis/clocking.ml" 197 8008 8037
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  int_ref typing_app "minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+)
+"minils/analysis/clocking.ml" 197 8008 8038 "minils/analysis/clocking.ml" 197 8008 8039
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 197 8008 8040 "minils/analysis/clocking.ml" 197 8008 8047
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 196 7966 7980 "minils/analysis/clocking.ml" 196 7966 7987
+)
+"minils/analysis/clocking.ml" 197 8008 8048 "minils/analysis/clocking.ml" 197 8008 8051
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 197 8008 8052 "minils/analysis/clocking.ml" 197 8008 8054
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 195 7902 7923 "minils/analysis/clocking.ml" 195 7902 7925
+)
+"minils/analysis/clocking.ml" 197 8008 8055 "minils/analysis/clocking.ml" 197 8008 8059
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 195 7902 7928 "minils/analysis/clocking.ml" 195 7902 7932
+)
+"minils/analysis/clocking.ml" 197 8008 8027 "minils/analysis/clocking.ml" 197 8008 8059
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 198 8063 8073 "minils/analysis/clocking.ml" 198 8063 8075
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 197 8008 8022 "minils/analysis/clocking.ml" 197 8008 8024
+)
+"minils/analysis/clocking.ml" 198 8063 8077 "minils/analysis/clocking.ml" 198 8063 8084
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 196 7966 7980 "minils/analysis/clocking.ml" 196 7966 7987
+)
+"minils/analysis/clocking.ml" 198 8063 8073 "minils/analysis/clocking.ml" 198 8063 8084
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 197 8008 8018 "minils/analysis/clocking.ml" 198 8063 8084
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 196 7966 7976 "minils/analysis/clocking.ml" 198 8063 8084
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 199 8085 8104 "minils/analysis/clocking.ml" 199 8085 8106
+type(
+  Minils.iterator_type
+)
+ident(
+  def it "minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 199 8085 8116 "minils/analysis/clocking.ml" 199 8085 8118
+type(
+  Minils.op
+)
+ident(
+  def op "minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 199 8085 8108 "minils/analysis/clocking.ml" 199 8085 8119
+type(
+  Minils.app
+)
+"minils/analysis/clocking.ml" 199 8085 8121 "minils/analysis/clocking.ml" 199 8085 8123
+type(
+  Types.static_exp list
+)
+ident(
+  def nl "minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 199 8085 8125 "minils/analysis/clocking.ml" 199 8085 8130
+type(
+  Minils.extvalue list
+)
+ident(
+  def pargs "minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+type(
+  Minils.extvalue list
+)
+ident(
+  def args "minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 199 8085 8138 "minils/analysis/clocking.ml" 199 8085 8139
+type(
+  Idents.var_ident option
+)
+"minils/analysis/clocking.ml" 199 8085 8093 "minils/analysis/clocking.ml" 199 8085 8140
+type(
+  Minils.edesc
+)
+"minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+type(
+  Clocks.ck
+)
+ident(
+  def base_ck "minils/analysis/clocking.ml" 201 8211 8221 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 200 8170 8194 "minils/analysis/clocking.ml" 200 8170 8205
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"minils/analysis/clocking.ml" 200 8170 8205 "minils/analysis/clocking.ml" 200 8170 8207
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 200 8170 8194 "minils/analysis/clocking.ml" 200 8170 8207
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 201 8211 8225 "minils/analysis/clocking.ml" 201 8211 8227
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 229 9718 9728 "minils/analysis/clocking.ml" 229 9718 9739
+)
+"minils/analysis/clocking.ml" 201 8211 8236 "minils/analysis/clocking.ml" 201 8211 8238
+type(
+  Minils.iterator_type
+)
+ident(
+  int_ref it "minils/analysis/clocking.ml" 199 8085 8104 "minils/analysis/clocking.ml" 199 8085 8106
+)
+"minils/analysis/clocking.ml" 202 8244 8258 "minils/analysis/clocking.ml" 202 8244 8262
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 203 8304 8320 "minils/analysis/clocking.ml" 203 8304 8330
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  int_ref typing_app "minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+)
+"minils/analysis/clocking.ml" 203 8304 8331 "minils/analysis/clocking.ml" 203 8304 8332
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 203 8304 8333 "minils/analysis/clocking.ml" 203 8304 8340
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 203 8304 8341 "minils/analysis/clocking.ml" 203 8304 8344
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 203 8304 8345 "minils/analysis/clocking.ml" 203 8304 8347
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 199 8085 8116 "minils/analysis/clocking.ml" 199 8085 8118
+)
+"minils/analysis/clocking.ml" 203 8304 8349 "minils/analysis/clocking.ml" 203 8304 8354
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref pargs "minils/analysis/clocking.ml" 199 8085 8125 "minils/analysis/clocking.ml" 199 8085 8130
+)
+"minils/analysis/clocking.ml" 203 8304 8354 "minils/analysis/clocking.ml" 203 8304 8355
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 203 8304 8355 "minils/analysis/clocking.ml" 203 8304 8359
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 203 8304 8348 "minils/analysis/clocking.ml" 203 8304 8360
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 203 8304 8320 "minils/analysis/clocking.ml" 203 8304 8360
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 204 8361 8375 "minils/analysis/clocking.ml" 204 8361 8380
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 205 8441 8461 "minils/analysis/clocking.ml" 205 8441 8463
+type(
+  Minils.extvalue list
+)
+ident(
+  def il "minils/analysis/clocking.ml" 209 8670 8686 "minils/analysis/clocking.ml" 209 8670 8729
+)
+"minils/analysis/clocking.ml" 206 8485 8503 "minils/analysis/clocking.ml" 206 8485 8511
+type(
+  (Types.static_exp -> Minils.extvalue) ->
+  Types.static_exp list -> Minils.extvalue list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 206 8485 8517 "minils/analysis/clocking.ml" 206 8485 8518
+type(
+  Types.static_exp
+)
+"minils/analysis/clocking.ml" 206 8485 8522 "minils/analysis/clocking.ml" 206 8485 8533
+type(
+  ty:Types.ty ->
+  linearity:Linearity.linearity ->
+  ?clock:Clocks.ck ->
+  ?loc:Location.location -> Minils.extvalue_desc -> Minils.extvalue
+)
+ident(
+  ext_ref Minils.mk_extvalue
+)
+"minils/analysis/clocking.ml" 206 8485 8538 "minils/analysis/clocking.ml" 206 8485 8550
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"minils/analysis/clocking.ml" 206 8485 8562 "minils/analysis/clocking.ml" 206 8485 8576
+type(
+  Linearity.linearity
+)
+"minils/analysis/clocking.ml" 207 8577 8604 "minils/analysis/clocking.ml" 207 8577 8611
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 207 8577 8621 "minils/analysis/clocking.ml" 207 8577 8642
+type(
+  int -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_int
+)
+"minils/analysis/clocking.ml" 207 8577 8643 "minils/analysis/clocking.ml" 207 8577 8644
+type(
+  int
+)
+"minils/analysis/clocking.ml" 207 8577 8620 "minils/analysis/clocking.ml" 207 8577 8645
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"minils/analysis/clocking.ml" 207 8577 8612 "minils/analysis/clocking.ml" 207 8577 8646
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 206 8485 8522 "minils/analysis/clocking.ml" 207 8577 8646
+call(
+  tail
+)
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 206 8485 8512 "minils/analysis/clocking.ml" 207 8577 8647
+type(
+  Types.static_exp -> Minils.extvalue
+)
+"minils/analysis/clocking.ml" 207 8577 8648 "minils/analysis/clocking.ml" 207 8577 8650
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref nl "minils/analysis/clocking.ml" 199 8085 8121 "minils/analysis/clocking.ml" 199 8085 8123
+)
+"minils/analysis/clocking.ml" 206 8485 8503 "minils/analysis/clocking.ml" 207 8577 8650
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 209 8670 8686 "minils/analysis/clocking.ml" 209 8670 8696
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  int_ref typing_app "minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+)
+"minils/analysis/clocking.ml" 209 8670 8697 "minils/analysis/clocking.ml" 209 8670 8698
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 209 8670 8699 "minils/analysis/clocking.ml" 209 8670 8706
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 209 8670 8707 "minils/analysis/clocking.ml" 209 8670 8710
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 209 8670 8711 "minils/analysis/clocking.ml" 209 8670 8713
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 199 8085 8116 "minils/analysis/clocking.ml" 199 8085 8118
+)
+"minils/analysis/clocking.ml" 209 8670 8715 "minils/analysis/clocking.ml" 209 8670 8720
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref pargs "minils/analysis/clocking.ml" 199 8085 8125 "minils/analysis/clocking.ml" 199 8085 8130
+)
+"minils/analysis/clocking.ml" 209 8670 8720 "minils/analysis/clocking.ml" 209 8670 8721
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 209 8670 8721 "minils/analysis/clocking.ml" 209 8670 8725
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 209 8670 8725 "minils/analysis/clocking.ml" 209 8670 8726
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 209 8670 8726 "minils/analysis/clocking.ml" 209 8670 8728
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref il "minils/analysis/clocking.ml" 205 8441 8461 "minils/analysis/clocking.ml" 205 8441 8463
+)
+"minils/analysis/clocking.ml" 209 8670 8721 "minils/analysis/clocking.ml" 209 8670 8728
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 209 8670 8714 "minils/analysis/clocking.ml" 209 8670 8729
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 209 8670 8686 "minils/analysis/clocking.ml" 209 8670 8729
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 205 8441 8457 "minils/analysis/clocking.ml" 209 8670 8729
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 210 8730 8744 "minils/analysis/clocking.ml" 210 8730 8749
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 210 8730 8752 "minils/analysis/clocking.ml" 210 8730 8760
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 210 8730 8744 "minils/analysis/clocking.ml" 210 8730 8760
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 212 8854 8874 "minils/analysis/clocking.ml" 212 8854 8876
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 213 8923 8939 "minils/analysis/clocking.ml" 214 9002 9020
+)
+"minils/analysis/clocking.ml" 212 8854 8879 "minils/analysis/clocking.ml" 212 8854 8889
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  int_ref typing_app "minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+)
+"minils/analysis/clocking.ml" 212 8854 8890 "minils/analysis/clocking.ml" 212 8854 8891
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 212 8854 8892 "minils/analysis/clocking.ml" 212 8854 8899
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 212 8854 8900 "minils/analysis/clocking.ml" 212 8854 8903
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 212 8854 8904 "minils/analysis/clocking.ml" 212 8854 8906
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 199 8085 8116 "minils/analysis/clocking.ml" 199 8085 8118
+)
+"minils/analysis/clocking.ml" 212 8854 8908 "minils/analysis/clocking.ml" 212 8854 8913
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref pargs "minils/analysis/clocking.ml" 199 8085 8125 "minils/analysis/clocking.ml" 199 8085 8130
+)
+"minils/analysis/clocking.ml" 212 8854 8913 "minils/analysis/clocking.ml" 212 8854 8914
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 212 8854 8914 "minils/analysis/clocking.ml" 212 8854 8918
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 212 8854 8907 "minils/analysis/clocking.ml" 212 8854 8919
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 212 8854 8879 "minils/analysis/clocking.ml" 212 8854 8919
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 213 8923 8939 "minils/analysis/clocking.ml" 213 8923 8947
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 213 8923 8949 "minils/analysis/clocking.ml" 213 8923 8966
+type(
+  Clocks.ct -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.last_clock
+)
+"minils/analysis/clocking.ml" 213 8923 8967 "minils/analysis/clocking.ml" 213 8923 8969
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 212 8854 8874 "minils/analysis/clocking.ml" 212 8854 8876
+)
+"minils/analysis/clocking.ml" 213 8923 8948 "minils/analysis/clocking.ml" 213 8923 8970
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 213 8923 8972 "minils/analysis/clocking.ml" 213 8923 8989
+type(
+  Minils.extvalue list -> Minils.extvalue
+)
+ident(
+  ext_ref Misc.last_element
+)
+"minils/analysis/clocking.ml" 213 8923 8990 "minils/analysis/clocking.ml" 213 8923 8994
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 213 8923 8971 "minils/analysis/clocking.ml" 213 8923 8995
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 213 8923 8971 "minils/analysis/clocking.ml" 213 8923 9000
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 213 8923 8939 "minils/analysis/clocking.ml" 213 8923 9000
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 214 9002 9018 "minils/analysis/clocking.ml" 214 9002 9020
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 212 8854 8874 "minils/analysis/clocking.ml" 212 8854 8876
+)
+"minils/analysis/clocking.ml" 213 8923 8939 "minils/analysis/clocking.ml" 214 9002 9020
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 212 8854 8870 "minils/analysis/clocking.ml" 214 9002 9020
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 215 9021 9035 "minils/analysis/clocking.ml" 215 9021 9041
+type(
+  Minils.iterator_type
+)
+"minils/analysis/clocking.ml" 216 9114 9134 "minils/analysis/clocking.ml" 216 9114 9136
+type(
+  Minils.extvalue list
+)
+ident(
+  def il "minils/analysis/clocking.ml" 220 9343 9359 "minils/analysis/clocking.ml" 227 9686 9704
+)
+"minils/analysis/clocking.ml" 217 9158 9176 "minils/analysis/clocking.ml" 217 9158 9184
+type(
+  (Types.static_exp -> Minils.extvalue) ->
+  Types.static_exp list -> Minils.extvalue list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 217 9158 9190 "minils/analysis/clocking.ml" 217 9158 9191
+type(
+  Types.static_exp
+)
+"minils/analysis/clocking.ml" 217 9158 9195 "minils/analysis/clocking.ml" 217 9158 9206
+type(
+  ty:Types.ty ->
+  linearity:Linearity.linearity ->
+  ?clock:Clocks.ck ->
+  ?loc:Location.location -> Minils.extvalue_desc -> Minils.extvalue
+)
+ident(
+  ext_ref Minils.mk_extvalue
+)
+"minils/analysis/clocking.ml" 217 9158 9211 "minils/analysis/clocking.ml" 217 9158 9223
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"minils/analysis/clocking.ml" 217 9158 9235 "minils/analysis/clocking.ml" 217 9158 9249
+type(
+  Linearity.linearity
+)
+"minils/analysis/clocking.ml" 218 9250 9277 "minils/analysis/clocking.ml" 218 9250 9284
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 218 9250 9294 "minils/analysis/clocking.ml" 218 9250 9315
+type(
+  int -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_int
+)
+"minils/analysis/clocking.ml" 218 9250 9316 "minils/analysis/clocking.ml" 218 9250 9317
+type(
+  int
+)
+"minils/analysis/clocking.ml" 218 9250 9293 "minils/analysis/clocking.ml" 218 9250 9318
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"minils/analysis/clocking.ml" 218 9250 9285 "minils/analysis/clocking.ml" 218 9250 9319
+type(
+  Minils.extvalue_desc
+)
+"minils/analysis/clocking.ml" 217 9158 9195 "minils/analysis/clocking.ml" 218 9250 9319
+call(
+  tail
+)
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 217 9158 9185 "minils/analysis/clocking.ml" 218 9250 9320
+type(
+  Types.static_exp -> Minils.extvalue
+)
+"minils/analysis/clocking.ml" 218 9250 9321 "minils/analysis/clocking.ml" 218 9250 9323
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref nl "minils/analysis/clocking.ml" 199 8085 8121 "minils/analysis/clocking.ml" 199 8085 8123
+)
+"minils/analysis/clocking.ml" 217 9158 9176 "minils/analysis/clocking.ml" 218 9250 9323
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 220 9343 9367 "minils/analysis/clocking.ml" 220 9343 9375
+type(
+  Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  def insert_i "minils/analysis/clocking.ml" 220 9343 9359 "minils/analysis/clocking.ml" 227 9686 9704
+)
+"minils/analysis/clocking.ml" 220 9343 9376 "minils/analysis/clocking.ml" 220 9343 9380
+type(
+  Minils.extvalue list
+)
+ident(
+  def args "minils/analysis/clocking.ml" 220 9343 9383 "minils/analysis/clocking.ml" 223 9464 9507
+)
+"minils/analysis/clocking.ml" 220 9343 9389 "minils/analysis/clocking.ml" 220 9343 9393
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 220 9343 9376 "minils/analysis/clocking.ml" 220 9343 9380
+)
+"minils/analysis/clocking.ml" 221 9399 9419 "minils/analysis/clocking.ml" 221 9399 9421
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 221 9399 9425 "minils/analysis/clocking.ml" 221 9399 9427
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref il "minils/analysis/clocking.ml" 216 9114 9134 "minils/analysis/clocking.ml" 216 9114 9136
+)
+"minils/analysis/clocking.ml" 222 9428 9449 "minils/analysis/clocking.ml" 222 9428 9450
+type(
+  Minils.extvalue
+)
+ident(
+  def l "minils/analysis/clocking.ml" 222 9428 9455 "minils/analysis/clocking.ml" 222 9428 9463
+)
+"minils/analysis/clocking.ml" 222 9428 9448 "minils/analysis/clocking.ml" 222 9428 9451
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 222 9428 9455 "minils/analysis/clocking.ml" 222 9428 9457
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref il "minils/analysis/clocking.ml" 216 9114 9134 "minils/analysis/clocking.ml" 216 9114 9136
+)
+"minils/analysis/clocking.ml" 222 9428 9458 "minils/analysis/clocking.ml" 222 9428 9459
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 222 9428 9461 "minils/analysis/clocking.ml" 222 9428 9462
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref l "minils/analysis/clocking.ml" 222 9428 9449 "minils/analysis/clocking.ml" 222 9428 9450
+)
+"minils/analysis/clocking.ml" 222 9428 9460 "minils/analysis/clocking.ml" 222 9428 9463
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 222 9428 9455 "minils/analysis/clocking.ml" 222 9428 9463
+call(
+  tail
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 223 9464 9484 "minils/analysis/clocking.ml" 223 9464 9485
+type(
+  Minils.extvalue
+)
+ident(
+  def h "minils/analysis/clocking.ml" 223 9464 9492 "minils/analysis/clocking.ml" 223 9464 9507
+)
+"minils/analysis/clocking.ml" 223 9464 9487 "minils/analysis/clocking.ml" 223 9464 9488
+type(
+  Minils.extvalue list
+)
+ident(
+  def l "minils/analysis/clocking.ml" 223 9464 9492 "minils/analysis/clocking.ml" 223 9464 9507
+)
+"minils/analysis/clocking.ml" 223 9464 9484 "minils/analysis/clocking.ml" 223 9464 9488
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 223 9464 9492 "minils/analysis/clocking.ml" 223 9464 9493
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 223 9464 9484 "minils/analysis/clocking.ml" 223 9464 9485
+)
+"minils/analysis/clocking.ml" 223 9464 9496 "minils/analysis/clocking.ml" 223 9464 9504
+type(
+  Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  int_ref insert_i "minils/analysis/clocking.ml" 220 9343 9367 "minils/analysis/clocking.ml" 220 9343 9375
+)
+"minils/analysis/clocking.ml" 223 9464 9505 "minils/analysis/clocking.ml" 223 9464 9506
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref l "minils/analysis/clocking.ml" 223 9464 9487 "minils/analysis/clocking.ml" 223 9464 9488
+)
+"minils/analysis/clocking.ml" 223 9464 9495 "minils/analysis/clocking.ml" 223 9464 9507
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 223 9464 9492 "minils/analysis/clocking.ml" 223 9464 9507
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 220 9343 9383 "minils/analysis/clocking.ml" 223 9464 9507
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 225 9527 9547 "minils/analysis/clocking.ml" 225 9527 9549
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 226 9607 9623 "minils/analysis/clocking.ml" 227 9686 9704
+)
+"minils/analysis/clocking.ml" 225 9527 9552 "minils/analysis/clocking.ml" 225 9527 9562
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck -> Minils.pat -> Minils.op -> Minils.extvalue list -> Clocks.ct
+)
+ident(
+  int_ref typing_app "minils/analysis/clocking.ml" 123 4839 4843 "minils/analysis/clocking.ml" 123 4839 4853
+)
+"minils/analysis/clocking.ml" 225 9527 9563 "minils/analysis/clocking.ml" 225 9527 9564
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 225 9527 9565 "minils/analysis/clocking.ml" 225 9527 9572
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 225 9527 9573 "minils/analysis/clocking.ml" 225 9527 9576
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 225 9527 9577 "minils/analysis/clocking.ml" 225 9527 9579
+type(
+  Minils.op
+)
+ident(
+  int_ref op "minils/analysis/clocking.ml" 199 8085 8116 "minils/analysis/clocking.ml" 199 8085 8118
+)
+"minils/analysis/clocking.ml" 225 9527 9581 "minils/analysis/clocking.ml" 225 9527 9586
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref pargs "minils/analysis/clocking.ml" 199 8085 8125 "minils/analysis/clocking.ml" 199 8085 8130
+)
+"minils/analysis/clocking.ml" 225 9527 9586 "minils/analysis/clocking.ml" 225 9527 9587
+type(
+  Minils.extvalue list -> Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"minils/analysis/clocking.ml" 225 9527 9588 "minils/analysis/clocking.ml" 225 9527 9596
+type(
+  Minils.extvalue list -> Minils.extvalue list
+)
+ident(
+  int_ref insert_i "minils/analysis/clocking.ml" 220 9343 9367 "minils/analysis/clocking.ml" 220 9343 9375
+)
+"minils/analysis/clocking.ml" 225 9527 9597 "minils/analysis/clocking.ml" 225 9527 9601
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 225 9527 9587 "minils/analysis/clocking.ml" 225 9527 9602
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 225 9527 9580 "minils/analysis/clocking.ml" 225 9527 9603
+call(
+  stack
+)
+type(
+  Minils.extvalue list
+)
+"minils/analysis/clocking.ml" 225 9527 9552 "minils/analysis/clocking.ml" 225 9527 9603
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 226 9607 9623 "minils/analysis/clocking.ml" 226 9607 9631
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 226 9607 9633 "minils/analysis/clocking.ml" 226 9607 9650
+type(
+  Clocks.ct -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.last_clock
+)
+"minils/analysis/clocking.ml" 226 9607 9651 "minils/analysis/clocking.ml" 226 9607 9653
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 225 9527 9547 "minils/analysis/clocking.ml" 225 9527 9549
+)
+"minils/analysis/clocking.ml" 226 9607 9632 "minils/analysis/clocking.ml" 226 9607 9654
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 226 9607 9656 "minils/analysis/clocking.ml" 226 9607 9673
+type(
+  Minils.extvalue list -> Minils.extvalue
+)
+ident(
+  ext_ref Misc.last_element
+)
+"minils/analysis/clocking.ml" 226 9607 9674 "minils/analysis/clocking.ml" 226 9607 9678
+type(
+  Minils.extvalue list
+)
+ident(
+  int_ref args "minils/analysis/clocking.ml" 199 8085 8132 "minils/analysis/clocking.ml" 199 8085 8136
+)
+"minils/analysis/clocking.ml" 226 9607 9655 "minils/analysis/clocking.ml" 226 9607 9679
+call(
+  stack
+)
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 226 9607 9655 "minils/analysis/clocking.ml" 226 9607 9684
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 226 9607 9623 "minils/analysis/clocking.ml" 226 9607 9684
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 227 9686 9702 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 225 9527 9547 "minils/analysis/clocking.ml" 225 9527 9549
+)
+"minils/analysis/clocking.ml" 226 9607 9623 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 225 9527 9543 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 220 9343 9359 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 216 9114 9130 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 201 8211 8230 "minils/analysis/clocking.ml" 227 9686 9704
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 229 9718 9728 "minils/analysis/clocking.ml" 229 9718 9730
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 201 8211 8225 "minils/analysis/clocking.ml" 201 8211 8227
+)
+"minils/analysis/clocking.ml" 229 9718 9732 "minils/analysis/clocking.ml" 229 9718 9739
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 200 8170 8184 "minils/analysis/clocking.ml" 200 8170 8191
+)
+"minils/analysis/clocking.ml" 229 9718 9728 "minils/analysis/clocking.ml" 229 9718 9739
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 201 8211 8221 "minils/analysis/clocking.ml" 229 9718 9739
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 200 8170 8180 "minils/analysis/clocking.ml" 229 9718 9739
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 177 7181 7199 "minils/analysis/clocking.ml" 229 9718 9739
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 231 9747 9756 "minils/analysis/clocking.ml" 231 9747 9761
+type(
+  Clocks.ct -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Clocks.unify
+)
+"minils/analysis/clocking.ml" 231 9747 9762 "minils/analysis/clocking.ml" 231 9747 9764
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7191
+)
+"minils/analysis/clocking.ml" 231 9747 9765 "minils/analysis/clocking.ml" 231 9747 9766
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 231 9747 9765 "minils/analysis/clocking.ml" 231 9747 9771
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 231 9747 9756 "minils/analysis/clocking.ml" 231 9747 9771
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 232 9772 9782 "minils/analysis/clocking.ml" 232 9772 9787
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 233 9791 9798 "minils/analysis/clocking.ml" 233 9791 9805
+type(
+  ((Format.formatter -> Minils.exp -> unit) -> Minils.exp -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Minils.exp -> unit) -> Minils.exp -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 233 9791 9806 "minils/analysis/clocking.ml" 233 9791 9852
+type(
+  ((Format.formatter -> Minils.exp -> unit) -> Minils.exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"minils/analysis/clocking.ml" 234 9853 9860 "minils/analysis/clocking.ml" 234 9853 9881
+type(
+  Format.formatter -> Minils.exp -> unit
+)
+ident(
+  ext_ref Mls_printer.print_exp
+)
+"minils/analysis/clocking.ml" 234 9853 9882 "minils/analysis/clocking.ml" 234 9853 9883
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 233 9791 9798 "minils/analysis/clocking.ml" 234 9853 9883
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 235 9885 9892 "minils/analysis/clocking.ml" 235 9885 9905
+type(
+  Location.location -> error_kind -> unit
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 235 9885 9906 "minils/analysis/clocking.ml" 235 9885 9907
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 235 9885 9906 "minils/analysis/clocking.ml" 235 9885 9913
+type(
+  Location.location
+)
+"minils/analysis/clocking.ml" 235 9885 9927 "minils/analysis/clocking.ml" 235 9885 9929
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7191
+)
+"minils/analysis/clocking.ml" 235 9885 9930 "minils/analysis/clocking.ml" 235 9885 9931
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 235 9885 9930 "minils/analysis/clocking.ml" 235 9885 9936
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 235 9885 9914 "minils/analysis/clocking.ml" 235 9885 9938
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 235 9885 9892 "minils/analysis/clocking.ml" 235 9885 9938
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 233 9791 9798 "minils/analysis/clocking.ml" 235 9885 9938
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 231 9747 9751 "minils/analysis/clocking.ml" 235 9885 9939
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 236 9941 9945 "minils/analysis/clocking.ml" 236 9941 9946
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 176 7160 7177 "minils/analysis/clocking.ml" 176 7160 7178
+)
+"minils/analysis/clocking.ml" 236 9941 9955 "minils/analysis/clocking.ml" 236 9941 9957
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7191
+)
+"minils/analysis/clocking.ml" 236 9941 9945 "minils/analysis/clocking.ml" 236 9941 9957
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 237 9959 9963 "minils/analysis/clocking.ml" 237 9959 9965
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 177 7181 7189 "minils/analysis/clocking.ml" 177 7181 7191
+)
+"minils/analysis/clocking.ml" 237 9959 9967 "minils/analysis/clocking.ml" 237 9959 9971
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 177 7181 7192 "minils/analysis/clocking.ml" 177 7181 7196
+)
+"minils/analysis/clocking.ml" 237 9959 9963 "minils/analysis/clocking.ml" 237 9959 9971
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 236 9941 9945 "minils/analysis/clocking.ml" 237 9959 9971
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 231 9747 9751 "minils/analysis/clocking.ml" 237 9959 9971
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 177 7181 7185 "minils/analysis/clocking.ml" 237 9959 9971
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 238 9972 9978 "minils/analysis/clocking.ml" 238 9972 9984
+type(
+  Clocks.ct -> Minils.exp -> Clocks.ck
+)
+ident(
+  def expect "minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 238 9972 9985 "minils/analysis/clocking.ml" 238 9972 9996
+type(
+  Clocks.ct
+)
+ident(
+  def expected_ct "minils/analysis/clocking.ml" 238 9972 9997 "minils/analysis/clocking.ml" 242 10156 10164
+)
+"minils/analysis/clocking.ml" 238 9972 9997 "minils/analysis/clocking.ml" 238 9972 9998
+type(
+  Minils.exp
+)
+ident(
+  def e "minils/analysis/clocking.ml" 239 10001 10005 "minils/analysis/clocking.ml" 242 10156 10164
+)
+"minils/analysis/clocking.ml" 239 10001 10009 "minils/analysis/clocking.ml" 239 10001 10018
+type(
+  Clocks.ct
+)
+ident(
+  def actual_ct "minils/analysis/clocking.ml" 240 10038 10042 "minils/analysis/clocking.ml" 242 10156 10164
+)
+"minils/analysis/clocking.ml" 239 10001 10019 "minils/analysis/clocking.ml" 239 10001 10023
+type(
+  Clocks.ck
+)
+ident(
+  def base "minils/analysis/clocking.ml" 240 10038 10042 "minils/analysis/clocking.ml" 242 10156 10164
+)
+"minils/analysis/clocking.ml" 239 10001 10009 "minils/analysis/clocking.ml" 239 10001 10023
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 239 10001 10026 "minils/analysis/clocking.ml" 239 10001 10032
+type(
+  Minils.exp -> Clocks.ct * Clocks.ck
+)
+ident(
+  int_ref typing "minils/analysis/clocking.ml" 176 7160 7170 "minils/analysis/clocking.ml" 176 7160 7176
+)
+"minils/analysis/clocking.ml" 239 10001 10033 "minils/analysis/clocking.ml" 239 10001 10034
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 238 9972 9997 "minils/analysis/clocking.ml" 238 9972 9998
+)
+"minils/analysis/clocking.ml" 239 10001 10026 "minils/analysis/clocking.ml" 239 10001 10034
+call(
+  stack
+)
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 240 10038 10047 "minils/analysis/clocking.ml" 240 10038 10052
+type(
+  Clocks.ct -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Clocks.unify
+)
+"minils/analysis/clocking.ml" 240 10038 10053 "minils/analysis/clocking.ml" 240 10038 10062
+type(
+  Clocks.ct
+)
+ident(
+  int_ref actual_ct "minils/analysis/clocking.ml" 239 10001 10009 "minils/analysis/clocking.ml" 239 10001 10018
+)
+"minils/analysis/clocking.ml" 240 10038 10063 "minils/analysis/clocking.ml" 240 10038 10074
+type(
+  Clocks.ct
+)
+ident(
+  int_ref expected_ct "minils/analysis/clocking.ml" 238 9972 9985 "minils/analysis/clocking.ml" 238 9972 9996
+)
+"minils/analysis/clocking.ml" 240 10038 10047 "minils/analysis/clocking.ml" 240 10038 10074
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 241 10075 10085 "minils/analysis/clocking.ml" 241 10075 10090
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 241 10075 10094 "minils/analysis/clocking.ml" 241 10075 10107
+type(
+  Location.location -> error_kind -> unit
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 241 10075 10108 "minils/analysis/clocking.ml" 241 10075 10109
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 238 9972 9997 "minils/analysis/clocking.ml" 238 9972 9998
+)
+"minils/analysis/clocking.ml" 241 10075 10108 "minils/analysis/clocking.ml" 241 10075 10115
+type(
+  Location.location
+)
+"minils/analysis/clocking.ml" 241 10075 10129 "minils/analysis/clocking.ml" 241 10075 10138
+type(
+  Clocks.ct
+)
+ident(
+  int_ref actual_ct "minils/analysis/clocking.ml" 239 10001 10009 "minils/analysis/clocking.ml" 239 10001 10018
+)
+"minils/analysis/clocking.ml" 241 10075 10140 "minils/analysis/clocking.ml" 241 10075 10151
+type(
+  Clocks.ct
+)
+ident(
+  int_ref expected_ct "minils/analysis/clocking.ml" 238 9972 9985 "minils/analysis/clocking.ml" 238 9972 9996
+)
+"minils/analysis/clocking.ml" 241 10075 10116 "minils/analysis/clocking.ml" 241 10075 10153
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 241 10075 10094 "minils/analysis/clocking.ml" 241 10075 10153
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 240 10038 10042 "minils/analysis/clocking.ml" 241 10075 10154
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 242 10156 10160 "minils/analysis/clocking.ml" 242 10156 10164
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base "minils/analysis/clocking.ml" 239 10001 10019 "minils/analysis/clocking.ml" 239 10001 10023
+)
+"minils/analysis/clocking.ml" 240 10038 10042 "minils/analysis/clocking.ml" 242 10156 10164
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 239 10001 10005 "minils/analysis/clocking.ml" 242 10156 10164
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 244 10170 10176 "minils/analysis/clocking.ml" 244 10170 10178
+type(
+  Clocks.ct
+)
+ident(
+  def ct "minils/analysis/clocking.ml" 245 10201 10203 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 244 10170 10179 "minils/analysis/clocking.ml" 244 10170 10186
+type(
+  Clocks.ck
+)
+ident(
+  def base_ck "minils/analysis/clocking.ml" 245 10201 10203 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 244 10170 10176 "minils/analysis/clocking.ml" 244 10170 10186
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 244 10170 10189 "minils/analysis/clocking.ml" 244 10170 10195
+type(
+  Minils.exp -> Clocks.ct * Clocks.ck
+)
+ident(
+  int_ref typing "minils/analysis/clocking.ml" 176 7160 7170 "minils/analysis/clocking.ml" 176 7160 7176
+)
+"minils/analysis/clocking.ml" 244 10170 10196 "minils/analysis/clocking.ml" 244 10170 10197
+type(
+  Minils.exp
+)
+ident(
+  int_ref e "minils/analysis/clocking.ml" 174 7040 7082 "minils/analysis/clocking.ml" 174 7040 7083
+)
+"minils/analysis/clocking.ml" 244 10170 10189 "minils/analysis/clocking.ml" 244 10170 10197
+call(
+  stack
+)
+type(
+  Clocks.ct * Clocks.ck
+)
+"minils/analysis/clocking.ml" 245 10201 10207 "minils/analysis/clocking.ml" 245 10201 10213
+type(
+  Clocks.ct
+)
+ident(
+  def pat_ct "minils/analysis/clocking.ml" 246 10236 10238 "minils/analysis/clocking.ml" 250 10411 10445
+)
+"minils/analysis/clocking.ml" 245 10201 10216 "minils/analysis/clocking.ml" 245 10201 10226
+type(
+  Clocks.ck Idents.Env.t -> Minils.pat -> Clocks.ct
+)
+ident(
+  int_ref typing_pat "minils/analysis/clocking.ml" 118 4701 4709 "minils/analysis/clocking.ml" 118 4701 4719
+)
+"minils/analysis/clocking.ml" 245 10201 10227 "minils/analysis/clocking.ml" 245 10201 10228
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 174 7040 7054 "minils/analysis/clocking.ml" 174 7040 7055
+)
+"minils/analysis/clocking.ml" 245 10201 10229 "minils/analysis/clocking.ml" 245 10201 10232
+type(
+  Minils.pat
+)
+ident(
+  int_ref pat "minils/analysis/clocking.ml" 174 7040 7068 "minils/analysis/clocking.ml" 174 7040 7071
+)
+"minils/analysis/clocking.ml" 245 10201 10216 "minils/analysis/clocking.ml" 245 10201 10232
+call(
+  stack
+)
+type(
+  Clocks.ct
+)
+"minils/analysis/clocking.ml" 246 10236 10243 "minils/analysis/clocking.ml" 246 10236 10248
+type(
+  Clocks.ct -> Clocks.ct -> unit
+)
+ident(
+  ext_ref Clocks.unify
+)
+"minils/analysis/clocking.ml" 246 10236 10249 "minils/analysis/clocking.ml" 246 10236 10251
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 244 10170 10176 "minils/analysis/clocking.ml" 244 10170 10178
+)
+"minils/analysis/clocking.ml" 246 10236 10252 "minils/analysis/clocking.ml" 246 10236 10258
+type(
+  Clocks.ct
+)
+ident(
+  int_ref pat_ct "minils/analysis/clocking.ml" 245 10201 10207 "minils/analysis/clocking.ml" 245 10201 10213
+)
+"minils/analysis/clocking.ml" 246 10236 10243 "minils/analysis/clocking.ml" 246 10236 10258
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 247 10259 10268 "minils/analysis/clocking.ml" 247 10259 10273
+type(
+  exn
+)
+"minils/analysis/clocking.ml" 248 10277 10283 "minils/analysis/clocking.ml" 248 10277 10290
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"minils/analysis/clocking.ml" 248 10277 10291 "minils/analysis/clocking.ml" 248 10277 10357
+type(
+  (unit, Format.formatter, unit) format
+)
+"minils/analysis/clocking.ml" 248 10277 10283 "minils/analysis/clocking.ml" 248 10277 10357
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 249 10359 10365 "minils/analysis/clocking.ml" 249 10359 10378
+type(
+  Location.location -> error_kind -> unit
+)
+ident(
+  int_ref error_message "minils/analysis/clocking.ml" 56 2694 2698 "minils/analysis/clocking.ml" 56 2694 2711
+)
+"minils/analysis/clocking.ml" 249 10359 10379 "minils/analysis/clocking.ml" 249 10359 10382
+type(
+  Location.location
+)
+ident(
+  int_ref loc "minils/analysis/clocking.ml" 174 7040 7094 "minils/analysis/clocking.ml" 174 7040 7097
+)
+"minils/analysis/clocking.ml" 249 10359 10396 "minils/analysis/clocking.ml" 249 10359 10398
+type(
+  Clocks.ct
+)
+ident(
+  int_ref ct "minils/analysis/clocking.ml" 244 10170 10176 "minils/analysis/clocking.ml" 244 10170 10178
+)
+"minils/analysis/clocking.ml" 249 10359 10400 "minils/analysis/clocking.ml" 249 10359 10406
+type(
+  Clocks.ct
+)
+ident(
+  int_ref pat_ct "minils/analysis/clocking.ml" 245 10201 10207 "minils/analysis/clocking.ml" 245 10201 10213
+)
+"minils/analysis/clocking.ml" 249 10359 10383 "minils/analysis/clocking.ml" 249 10359 10408
+type(
+  error_kind
+)
+"minils/analysis/clocking.ml" 249 10359 10365 "minils/analysis/clocking.ml" 249 10359 10408
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 248 10277 10283 "minils/analysis/clocking.ml" 249 10359 10408
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 246 10236 10238 "minils/analysis/clocking.ml" 249 10359 10409
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 250 10411 10415 "minils/analysis/clocking.ml" 250 10411 10417
+type(
+  Minils.eq
+)
+ident(
+  int_ref eq "minils/analysis/clocking.ml" 174 7040 7056 "minils/analysis/clocking.ml" 174 7040 7106
+)
+"minils/analysis/clocking.ml" 250 10411 10436 "minils/analysis/clocking.ml" 250 10411 10443
+type(
+  Clocks.ck
+)
+ident(
+  int_ref base_ck "minils/analysis/clocking.ml" 244 10170 10179 "minils/analysis/clocking.ml" 244 10170 10186
+)
+"minils/analysis/clocking.ml" 250 10411 10413 "minils/analysis/clocking.ml" 250 10411 10445
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 246 10236 10238 "minils/analysis/clocking.ml" 250 10411 10445
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 245 10201 10203 "minils/analysis/clocking.ml" 250 10411 10445
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 244 10170 10172 "minils/analysis/clocking.ml" 250 10411 10445
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 176 7160 7162 "minils/analysis/clocking.ml" 250 10411 10445
+type(
+  Minils.eq
+)
+"minils/analysis/clocking.ml" 252 10447 10451 "minils/analysis/clocking.ml" 252 10447 10461
+type(
+  Clocks.ck Idents.Env.t -> Minils.eq list -> Minils.eq list
+)
+ident(
+  def typing_eqs "minils/analysis/clocking.ml" 254 10506 10506 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 252 10447 10462 "minils/analysis/clocking.ml" 252 10447 10463
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 252 10447 10464 "minils/analysis/clocking.ml" 252 10447 10504
+)
+"minils/analysis/clocking.ml" 252 10447 10464 "minils/analysis/clocking.ml" 252 10447 10471
+type(
+  Minils.eq list
+)
+ident(
+  def eq_list "minils/analysis/clocking.ml" 252 10447 10474 "minils/analysis/clocking.ml" 252 10447 10504
+)
+"minils/analysis/clocking.ml" 252 10447 10474 "minils/analysis/clocking.ml" 252 10447 10482
+type(
+  (Minils.eq -> Minils.eq) -> Minils.eq list -> Minils.eq list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 252 10447 10484 "minils/analysis/clocking.ml" 252 10447 10493
+type(
+  Clocks.ck Idents.Env.t -> Minils.eq -> Minils.eq
+)
+ident(
+  int_ref typing_eq "minils/analysis/clocking.ml" 174 7040 7044 "minils/analysis/clocking.ml" 174 7040 7053
+)
+"minils/analysis/clocking.ml" 252 10447 10494 "minils/analysis/clocking.ml" 252 10447 10495
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 252 10447 10462 "minils/analysis/clocking.ml" 252 10447 10463
+)
+"minils/analysis/clocking.ml" 252 10447 10483 "minils/analysis/clocking.ml" 252 10447 10496
+call(
+  stack
+)
+type(
+  Minils.eq -> Minils.eq
+)
+"minils/analysis/clocking.ml" 252 10447 10497 "minils/analysis/clocking.ml" 252 10447 10504
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eq_list "minils/analysis/clocking.ml" 252 10447 10464 "minils/analysis/clocking.ml" 252 10447 10471
+)
+"minils/analysis/clocking.ml" 252 10447 10474 "minils/analysis/clocking.ml" 252 10447 10504
+call(
+  tail
+)
+type(
+  Minils.eq list
+)
+"minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  def append_env "minils/analysis/clocking.ml" 258 10610 10610 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 254 10506 10521 "minils/analysis/clocking.ml" 254 10506 10522
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 254 10506 10523 "minils/analysis/clocking.ml" 255 10529 10607
+)
+"minils/analysis/clocking.ml" 254 10506 10523 "minils/analysis/clocking.ml" 254 10506 10526
+type(
+  Minils.var_dec list
+)
+ident(
+  def vds "minils/analysis/clocking.ml" 255 10529 10531 "minils/analysis/clocking.ml" 255 10529 10607
+)
+"minils/analysis/clocking.ml" 255 10529 10531 "minils/analysis/clocking.ml" 255 10529 10545
+type(
+  (Clocks.ck Idents.Env.t -> Minils.var_dec -> Clocks.ck Idents.Env.t) ->
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"minils/analysis/clocking.ml" 255 10529 10551 "minils/analysis/clocking.ml" 255 10529 10552
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 255 10529 10553 "minils/analysis/clocking.ml" 255 10529 10600
+)
+"minils/analysis/clocking.ml" 255 10529 10565 "minils/analysis/clocking.ml" 255 10529 10566
+type(
+  Idents.var_ident
+)
+ident(
+  def n "minils/analysis/clocking.ml" 255 10529 10586 "minils/analysis/clocking.ml" 255 10529 10600
+)
+"minils/analysis/clocking.ml" 255 10529 10578 "minils/analysis/clocking.ml" 255 10529 10580
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 255 10529 10586 "minils/analysis/clocking.ml" 255 10529 10600
+)
+"minils/analysis/clocking.ml" 255 10529 10553 "minils/analysis/clocking.ml" 255 10529 10582
+type(
+  Minils.var_dec
+)
+"minils/analysis/clocking.ml" 255 10529 10586 "minils/analysis/clocking.ml" 255 10529 10593
+type(
+  Idents.Env.key ->
+  Clocks.ck -> Clocks.ck Idents.Env.t -> Clocks.ck Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"minils/analysis/clocking.ml" 255 10529 10594 "minils/analysis/clocking.ml" 255 10529 10595
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "minils/analysis/clocking.ml" 255 10529 10565 "minils/analysis/clocking.ml" 255 10529 10566
+)
+"minils/analysis/clocking.ml" 255 10529 10596 "minils/analysis/clocking.ml" 255 10529 10598
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 255 10529 10578 "minils/analysis/clocking.ml" 255 10529 10580
+)
+"minils/analysis/clocking.ml" 255 10529 10599 "minils/analysis/clocking.ml" 255 10529 10600
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 255 10529 10551 "minils/analysis/clocking.ml" 255 10529 10552
+)
+"minils/analysis/clocking.ml" 255 10529 10586 "minils/analysis/clocking.ml" 255 10529 10600
+call(
+  tail
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 255 10529 10546 "minils/analysis/clocking.ml" 255 10529 10601
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec -> Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 255 10529 10602 "minils/analysis/clocking.ml" 255 10529 10603
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 254 10506 10521 "minils/analysis/clocking.ml" 254 10506 10522
+)
+"minils/analysis/clocking.ml" 255 10529 10604 "minils/analysis/clocking.ml" 255 10529 10607
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref vds "minils/analysis/clocking.ml" 254 10506 10523 "minils/analysis/clocking.ml" 254 10506 10526
+)
+"minils/analysis/clocking.ml" 255 10529 10531 "minils/analysis/clocking.ml" 255 10529 10607
+call(
+  tail
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 258 10610 10614 "minils/analysis/clocking.ml" 258 10610 10629
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck Idents.Env.t ->
+  Minils.contract option -> Minils.contract option * Clocks.ck Idents.Env.t
+)
+ident(
+  def typing_contract "minils/analysis/clocking.ml" 280 11387 11387 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 258 10610 10630 "minils/analysis/clocking.ml" 258 10610 10632
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h0 "minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 258 10610 10634
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 258 10610 10635 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 258 10610 10635 "minils/analysis/clocking.ml" 258 10610 10643
+type(
+  Minils.contract option
+)
+ident(
+  def contract "minils/analysis/clocking.ml" 259 10646 10648 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 259 10646 10654 "minils/analysis/clocking.ml" 259 10646 10662
+type(
+  Minils.contract option
+)
+ident(
+  int_ref contract "minils/analysis/clocking.ml" 258 10610 10635 "minils/analysis/clocking.ml" 258 10610 10643
+)
+"minils/analysis/clocking.ml" 260 10668 10674 "minils/analysis/clocking.ml" 260 10668 10678
+type(
+  Minils.contract option
+)
+"minils/analysis/clocking.ml" 260 10668 10682 "minils/analysis/clocking.ml" 260 10668 10686
+type(
+  Minils.contract option
+)
+"minils/analysis/clocking.ml" 260 10668 10688 "minils/analysis/clocking.ml" 260 10668 10689
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 258 10610 10634
+)
+"minils/analysis/clocking.ml" 260 10668 10682 "minils/analysis/clocking.ml" 260 10668 10689
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 261 10690 10714 "minils/analysis/clocking.ml" 261 10690 10720
+type(
+  Minils.var_dec list
+)
+ident(
+  def l_list "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 262 10722 10742 "minils/analysis/clocking.ml" 262 10722 10749
+type(
+  Minils.eq list
+)
+ident(
+  def eq_list "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 263 10751 10775 "minils/analysis/clocking.ml" 263 10751 10778
+type(
+  Minils.extvalue
+)
+ident(
+  def e_a "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 264 10780 10808 "minils/analysis/clocking.ml" 264 10780 10812
+type(
+  Minils.objective list
+)
+ident(
+  def objs "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 265 10814 10842 "minils/analysis/clocking.ml" 265 10814 10849
+type(
+  Minils.extvalue
+)
+ident(
+  def e_a_loc "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 266 10851 10880 "minils/analysis/clocking.ml" 266 10851 10887
+type(
+  Minils.extvalue
+)
+ident(
+  def e_g_loc "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 267 10889 10920 "minils/analysis/clocking.ml" 267 10889 10926
+type(
+  Minils.var_dec list
+)
+ident(
+  def c_list "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 261 10690 10702 "minils/analysis/clocking.ml" 267 10889 10928
+type(
+  Minils.contract
+)
+"minils/analysis/clocking.ml" 267 10889 10932 "minils/analysis/clocking.ml" 267 10889 10940
+ident(
+  def contract "minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 261 10690 10701 "minils/analysis/clocking.ml" 267 10889 10941
+type(
+  Minils.contract
+)
+"minils/analysis/clocking.ml" 261 10690 10696 "minils/analysis/clocking.ml" 267 10889 10941
+type(
+  Minils.contract option
+)
+"minils/analysis/clocking.ml" 268 10945 10957 "minils/analysis/clocking.ml" 268 10945 10959
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h' "minils/analysis/clocking.ml" 271 11034 11042 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 268 10945 10962 "minils/analysis/clocking.ml" 268 10945 10972
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref append_env "minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+)
+"minils/analysis/clocking.ml" 268 10945 10973 "minils/analysis/clocking.ml" 268 10945 10975
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h0 "minils/analysis/clocking.ml" 258 10610 10630 "minils/analysis/clocking.ml" 258 10610 10632
+)
+"minils/analysis/clocking.ml" 268 10945 10976 "minils/analysis/clocking.ml" 268 10945 10982
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref l_list "minils/analysis/clocking.ml" 261 10690 10714 "minils/analysis/clocking.ml" 261 10690 10720
+)
+"minils/analysis/clocking.ml" 268 10945 10962 "minils/analysis/clocking.ml" 268 10945 10982
+call(
+  stack
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 271 11034 11046 "minils/analysis/clocking.ml" 271 11034 11053
+type(
+  Minils.eq list
+)
+ident(
+  def eq_list "minils/analysis/clocking.ml" 272 11081 11089 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 271 11034 11056 "minils/analysis/clocking.ml" 271 11034 11066
+type(
+  Clocks.ck Idents.Env.t -> Minils.eq list -> Minils.eq list
+)
+ident(
+  int_ref typing_eqs "minils/analysis/clocking.ml" 252 10447 10451 "minils/analysis/clocking.ml" 252 10447 10461
+)
+"minils/analysis/clocking.ml" 271 11034 11067 "minils/analysis/clocking.ml" 271 11034 11069
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h' "minils/analysis/clocking.ml" 268 10945 10957 "minils/analysis/clocking.ml" 268 10945 10959
+)
+"minils/analysis/clocking.ml" 271 11034 11070 "minils/analysis/clocking.ml" 271 11034 11077
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eq_list "minils/analysis/clocking.ml" 262 10722 10742 "minils/analysis/clocking.ml" 262 10722 10749
+)
+"minils/analysis/clocking.ml" 271 11034 11056 "minils/analysis/clocking.ml" 271 11034 11077
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/analysis/clocking.ml" 272 11081 11089 "minils/analysis/clocking.ml" 272 11081 11104
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 272 11081 11105 "minils/analysis/clocking.ml" 272 11081 11107
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h' "minils/analysis/clocking.ml" 268 10945 10957 "minils/analysis/clocking.ml" 268 10945 10959
+)
+"minils/analysis/clocking.ml" 272 11081 11108 "minils/analysis/clocking.ml" 272 11081 11120
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 272 11081 11121 "minils/analysis/clocking.ml" 272 11081 11124
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e_a "minils/analysis/clocking.ml" 263 10751 10775 "minils/analysis/clocking.ml" 263 10751 10778
+)
+"minils/analysis/clocking.ml" 272 11081 11089 "minils/analysis/clocking.ml" 272 11081 11124
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 273 11126 11134 "minils/analysis/clocking.ml" 273 11126 11143
+type(
+  (Minils.objective -> unit) -> Minils.objective list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"minils/analysis/clocking.ml" 273 11126 11149 "minils/analysis/clocking.ml" 273 11126 11150
+type(
+  Minils.objective
+)
+ident(
+  def o "minils/analysis/clocking.ml" 273 11126 11154 "minils/analysis/clocking.ml" 273 11126 11193
+)
+"minils/analysis/clocking.ml" 273 11126 11154 "minils/analysis/clocking.ml" 273 11126 11169
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 273 11126 11170 "minils/analysis/clocking.ml" 273 11126 11172
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h' "minils/analysis/clocking.ml" 268 10945 10957 "minils/analysis/clocking.ml" 268 10945 10959
+)
+"minils/analysis/clocking.ml" 273 11126 11173 "minils/analysis/clocking.ml" 273 11126 11185
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 273 11126 11186 "minils/analysis/clocking.ml" 273 11126 11187
+type(
+  Minils.objective
+)
+ident(
+  int_ref o "minils/analysis/clocking.ml" 273 11126 11149 "minils/analysis/clocking.ml" 273 11126 11150
+)
+"minils/analysis/clocking.ml" 273 11126 11186 "minils/analysis/clocking.ml" 273 11126 11193
+type(
+  Minils.extvalue
+)
+"minils/analysis/clocking.ml" 273 11126 11154 "minils/analysis/clocking.ml" 273 11126 11193
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 273 11126 11144 "minils/analysis/clocking.ml" 273 11126 11194
+type(
+  Minils.objective -> unit
+)
+"minils/analysis/clocking.ml" 273 11126 11195 "minils/analysis/clocking.ml" 273 11126 11199
+type(
+  Minils.objective list
+)
+ident(
+  int_ref objs "minils/analysis/clocking.ml" 264 10780 10808 "minils/analysis/clocking.ml" 264 10780 10812
+)
+"minils/analysis/clocking.ml" 273 11126 11134 "minils/analysis/clocking.ml" 273 11126 11199
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 274 11201 11209 "minils/analysis/clocking.ml" 274 11201 11224
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 274 11201 11225 "minils/analysis/clocking.ml" 274 11201 11226
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 258 10610 10634
+)
+"minils/analysis/clocking.ml" 274 11201 11227 "minils/analysis/clocking.ml" 274 11201 11239
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 274 11201 11240 "minils/analysis/clocking.ml" 274 11201 11247
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e_a_loc "minils/analysis/clocking.ml" 265 10814 10842 "minils/analysis/clocking.ml" 265 10814 10849
+)
+"minils/analysis/clocking.ml" 274 11201 11209 "minils/analysis/clocking.ml" 274 11201 11247
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 275 11249 11257 "minils/analysis/clocking.ml" 275 11249 11272
+type(
+  Clocks.ck Idents.Env.t -> Clocks.ck -> Minils.extvalue -> unit
+)
+ident(
+  int_ref expect_extvalue "minils/analysis/clocking.ml" 111 4463 4467 "minils/analysis/clocking.ml" 111 4463 4482
+)
+"minils/analysis/clocking.ml" 275 11249 11273 "minils/analysis/clocking.ml" 275 11249 11274
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 258 10610 10634
+)
+"minils/analysis/clocking.ml" 275 11249 11275 "minils/analysis/clocking.ml" 275 11249 11287
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 275 11249 11288 "minils/analysis/clocking.ml" 275 11249 11295
+type(
+  Minils.extvalue
+)
+ident(
+  int_ref e_g_loc "minils/analysis/clocking.ml" 266 10851 10880 "minils/analysis/clocking.ml" 266 10851 10887
+)
+"minils/analysis/clocking.ml" 275 11249 11257 "minils/analysis/clocking.ml" 275 11249 11295
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 276 11297 11309 "minils/analysis/clocking.ml" 276 11297 11310
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 277 11336 11344 "minils/analysis/clocking.ml" 277 11336 11384
+)
+"minils/analysis/clocking.ml" 276 11297 11313 "minils/analysis/clocking.ml" 276 11297 11323
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref append_env "minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+)
+"minils/analysis/clocking.ml" 276 11297 11324 "minils/analysis/clocking.ml" 276 11297 11325
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 258 10610 10633 "minils/analysis/clocking.ml" 258 10610 10634
+)
+"minils/analysis/clocking.ml" 276 11297 11326 "minils/analysis/clocking.ml" 276 11297 11332
+type(
+  Minils.var_dec list
+)
+ident(
+  int_ref c_list "minils/analysis/clocking.ml" 267 10889 10920 "minils/analysis/clocking.ml" 267 10889 10926
+)
+"minils/analysis/clocking.ml" 276 11297 11313 "minils/analysis/clocking.ml" 276 11297 11332
+call(
+  stack
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 277 11336 11351 "minils/analysis/clocking.ml" 277 11336 11359
+type(
+  Minils.contract
+)
+ident(
+  int_ref contract "minils/analysis/clocking.ml" 261 10690 10701 "minils/analysis/clocking.ml" 267 10889 10941
+)
+"minils/analysis/clocking.ml" 277 11336 11372 "minils/analysis/clocking.ml" 277 11336 11379
+type(
+  Minils.eq list
+)
+ident(
+  int_ref eq_list "minils/analysis/clocking.ml" 271 11034 11046 "minils/analysis/clocking.ml" 271 11034 11053
+)
+"minils/analysis/clocking.ml" 277 11336 11349 "minils/analysis/clocking.ml" 277 11336 11381
+type(
+  Minils.contract
+)
+"minils/analysis/clocking.ml" 277 11336 11344 "minils/analysis/clocking.ml" 277 11336 11381
+type(
+  Minils.contract option
+)
+"minils/analysis/clocking.ml" 277 11336 11383 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 276 11297 11309 "minils/analysis/clocking.ml" 276 11297 11310
+)
+"minils/analysis/clocking.ml" 277 11336 11344 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 276 11297 11305 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 275 11249 11257 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 274 11201 11209 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 273 11126 11134 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 272 11081 11089 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 271 11034 11042 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 268 10945 10953 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 259 10646 10648 "minils/analysis/clocking.ml" 277 11336 11384
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 280 11387 11391 "minils/analysis/clocking.ml" 280 11387 11402
+type(
+  Minils.node_dec -> Minils.node_dec
+)
+ident(
+  def typing_node "minils/analysis/clocking.ml" 302 12411 12411 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+type(
+  Minils.node_dec
+)
+ident(
+  def node "minils/analysis/clocking.ml" 281 11410 11412 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 281 11410 11416 "minils/analysis/clocking.ml" 281 11410 11418
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h0 "minils/analysis/clocking.ml" 282 11458 11460 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 281 11410 11421 "minils/analysis/clocking.ml" 281 11410 11431
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref append_env "minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+)
+"minils/analysis/clocking.ml" 281 11410 11432 "minils/analysis/clocking.ml" 281 11410 11441
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"minils/analysis/clocking.ml" 281 11410 11442 "minils/analysis/clocking.ml" 281 11410 11446
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 281 11410 11442 "minils/analysis/clocking.ml" 281 11410 11454
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 281 11410 11421 "minils/analysis/clocking.ml" 281 11410 11454
+call(
+  stack
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 282 11458 11464 "minils/analysis/clocking.ml" 282 11458 11466
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h0 "minils/analysis/clocking.ml" 283 11500 11502 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 282 11458 11469 "minils/analysis/clocking.ml" 282 11458 11479
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref append_env "minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+)
+"minils/analysis/clocking.ml" 282 11458 11480 "minils/analysis/clocking.ml" 282 11458 11482
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h0 "minils/analysis/clocking.ml" 281 11410 11416 "minils/analysis/clocking.ml" 281 11410 11418
+)
+"minils/analysis/clocking.ml" 282 11458 11483 "minils/analysis/clocking.ml" 282 11458 11487
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 282 11458 11483 "minils/analysis/clocking.ml" 282 11458 11496
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 282 11458 11469 "minils/analysis/clocking.ml" 282 11458 11496
+call(
+  stack
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 283 11500 11506 "minils/analysis/clocking.ml" 283 11500 11507
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 284 11540 11542 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 283 11500 11510 "minils/analysis/clocking.ml" 283 11500 11520
+type(
+  Clocks.ck Idents.Env.t -> Minils.var_dec list -> Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref append_env "minils/analysis/clocking.ml" 254 10506 10510 "minils/analysis/clocking.ml" 254 10506 10520
+)
+"minils/analysis/clocking.ml" 283 11500 11521 "minils/analysis/clocking.ml" 283 11500 11523
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h0 "minils/analysis/clocking.ml" 282 11458 11464 "minils/analysis/clocking.ml" 282 11458 11466
+)
+"minils/analysis/clocking.ml" 283 11500 11524 "minils/analysis/clocking.ml" 283 11500 11528
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 283 11500 11524 "minils/analysis/clocking.ml" 283 11500 11536
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 283 11500 11510 "minils/analysis/clocking.ml" 283 11500 11536
+call(
+  stack
+)
+type(
+  Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 284 11540 11546 "minils/analysis/clocking.ml" 284 11540 11554
+type(
+  Minils.contract option
+)
+ident(
+  def contract "minils/analysis/clocking.ml" 286 11647 11649 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 284 11540 11556 "minils/analysis/clocking.ml" 284 11540 11557
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  def h "minils/analysis/clocking.ml" 286 11647 11649 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 284 11540 11546 "minils/analysis/clocking.ml" 284 11540 11557
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 284 11540 11560 "minils/analysis/clocking.ml" 284 11540 11575
+type(
+  Clocks.ck Idents.Env.t ->
+  Clocks.ck Idents.Env.t ->
+  Minils.contract option -> Minils.contract option * Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref typing_contract "minils/analysis/clocking.ml" 258 10610 10614 "minils/analysis/clocking.ml" 258 10610 10629
+)
+"minils/analysis/clocking.ml" 284 11540 11576 "minils/analysis/clocking.ml" 284 11540 11578
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h0 "minils/analysis/clocking.ml" 282 11458 11464 "minils/analysis/clocking.ml" 282 11458 11466
+)
+"minils/analysis/clocking.ml" 284 11540 11579 "minils/analysis/clocking.ml" 284 11540 11580
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 283 11500 11506 "minils/analysis/clocking.ml" 283 11500 11507
+)
+"minils/analysis/clocking.ml" 284 11540 11581 "minils/analysis/clocking.ml" 284 11540 11585
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 284 11540 11581 "minils/analysis/clocking.ml" 284 11540 11596
+type(
+  Minils.contract option
+)
+"minils/analysis/clocking.ml" 284 11540 11560 "minils/analysis/clocking.ml" 284 11540 11596
+call(
+  stack
+)
+type(
+  Minils.contract option * Clocks.ck Idents.Env.t
+)
+"minils/analysis/clocking.ml" 286 11647 11653 "minils/analysis/clocking.ml" 286 11647 11657
+type(
+  Minils.eq list
+)
+ident(
+  def equs "minils/analysis/clocking.ml" 288 11775 11777 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 286 11647 11660 "minils/analysis/clocking.ml" 286 11647 11670
+type(
+  Clocks.ck Idents.Env.t -> Minils.eq list -> Minils.eq list
+)
+ident(
+  int_ref typing_eqs "minils/analysis/clocking.ml" 252 10447 10451 "minils/analysis/clocking.ml" 252 10447 10461
+)
+"minils/analysis/clocking.ml" 286 11647 11671 "minils/analysis/clocking.ml" 286 11647 11672
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 284 11540 11556 "minils/analysis/clocking.ml" 284 11540 11557
+)
+"minils/analysis/clocking.ml" 286 11647 11673 "minils/analysis/clocking.ml" 286 11647 11677
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 286 11647 11673 "minils/analysis/clocking.ml" 286 11647 11684
+type(
+  Minils.eq list
+)
+"minils/analysis/clocking.ml" 286 11647 11660 "minils/analysis/clocking.ml" 286 11647 11684
+call(
+  stack
+)
+type(
+  Minils.eq list
+)
+"minils/analysis/clocking.ml" 288 11775 11777 "minils/analysis/clocking.ml" 288 11775 11785
+type(
+  (Idents.Env.key -> Clocks.ck -> unit) -> Clocks.ck Idents.Env.t -> unit
+)
+ident(
+  ext_ref Idents.Env.iter
+)
+"minils/analysis/clocking.ml" 288 11775 11791 "minils/analysis/clocking.ml" 288 11775 11792
+type(
+  Idents.Env.key
+)
+"minils/analysis/clocking.ml" 288 11775 11793 "minils/analysis/clocking.ml" 288 11775 11795
+type(
+  Clocks.ck
+)
+ident(
+  def ck "minils/analysis/clocking.ml" 288 11775 11799 "minils/analysis/clocking.ml" 288 11775 11836
+)
+"minils/analysis/clocking.ml" 288 11775 11799 "minils/analysis/clocking.ml" 288 11775 11807
+type(
+  Clocks.ck -> Clocks.ck -> unit
+)
+ident(
+  ext_ref Clocks.unify_ck
+)
+"minils/analysis/clocking.ml" 288 11775 11808 "minils/analysis/clocking.ml" 288 11775 11820
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 288 11775 11822 "minils/analysis/clocking.ml" 288 11775 11832
+type(
+  Clocks.ck -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.root_ck_of
+)
+"minils/analysis/clocking.ml" 288 11775 11833 "minils/analysis/clocking.ml" 288 11775 11835
+type(
+  Clocks.ck
+)
+ident(
+  int_ref ck "minils/analysis/clocking.ml" 288 11775 11793 "minils/analysis/clocking.ml" 288 11775 11795
+)
+"minils/analysis/clocking.ml" 288 11775 11821 "minils/analysis/clocking.ml" 288 11775 11836
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 288 11775 11799 "minils/analysis/clocking.ml" 288 11775 11836
+call(
+  tail
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 288 11775 11786 "minils/analysis/clocking.ml" 288 11775 11837
+type(
+  Idents.Env.key -> Clocks.ck -> unit
+)
+"minils/analysis/clocking.ml" 288 11775 11838 "minils/analysis/clocking.ml" 288 11775 11840
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h0 "minils/analysis/clocking.ml" 282 11458 11464 "minils/analysis/clocking.ml" 282 11458 11466
+)
+"minils/analysis/clocking.ml" 288 11775 11777 "minils/analysis/clocking.ml" 288 11775 11840
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 290 11893 11899 "minils/analysis/clocking.ml" 290 11893 11908
+type(
+  Minils.var_dec -> Minils.var_dec
+)
+ident(
+  def set_clock "minils/analysis/clocking.ml" 291 11971 11973 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 290 11893 11909 "minils/analysis/clocking.ml" 290 11893 11911
+type(
+  Minils.var_dec
+)
+ident(
+  def vd "minils/analysis/clocking.ml" 290 11893 11914 "minils/analysis/clocking.ml" 290 11893 11967
+)
+"minils/analysis/clocking.ml" 290 11893 11916 "minils/analysis/clocking.ml" 290 11893 11918
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/analysis/clocking.ml" 290 11893 11909 "minils/analysis/clocking.ml" 290 11893 11911
+)
+"minils/analysis/clocking.ml" 290 11893 11934 "minils/analysis/clocking.ml" 290 11893 11941
+type(
+  Clocks.ck -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.ck_repr
+)
+"minils/analysis/clocking.ml" 290 11893 11943 "minils/analysis/clocking.ml" 290 11893 11951
+type(
+  Idents.Env.key -> Clocks.ck Idents.Env.t -> Clocks.ck
+)
+ident(
+  ext_ref Idents.Env.find
+)
+"minils/analysis/clocking.ml" 290 11893 11952 "minils/analysis/clocking.ml" 290 11893 11954
+type(
+  Minils.var_dec
+)
+ident(
+  int_ref vd "minils/analysis/clocking.ml" 290 11893 11909 "minils/analysis/clocking.ml" 290 11893 11911
+)
+"minils/analysis/clocking.ml" 290 11893 11952 "minils/analysis/clocking.ml" 290 11893 11962
+type(
+  Idents.var_ident
+)
+"minils/analysis/clocking.ml" 290 11893 11963 "minils/analysis/clocking.ml" 290 11893 11964
+type(
+  Clocks.ck Idents.Env.t
+)
+ident(
+  int_ref h "minils/analysis/clocking.ml" 284 11540 11556 "minils/analysis/clocking.ml" 284 11540 11557
+)
+"minils/analysis/clocking.ml" 290 11893 11942 "minils/analysis/clocking.ml" 290 11893 11965
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 290 11893 11934 "minils/analysis/clocking.ml" 290 11893 11965
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+"minils/analysis/clocking.ml" 290 11893 11914 "minils/analysis/clocking.ml" 290 11893 11967
+type(
+  Minils.var_dec
+)
+"minils/analysis/clocking.ml" 291 11971 11977 "minils/analysis/clocking.ml" 291 11971 11981
+type(
+  Minils.node_dec
+)
+ident(
+  def node "minils/analysis/clocking.ml" 297 12272 12274 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 291 11971 11986 "minils/analysis/clocking.ml" 291 11971 11990
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 291 11971 12006 "minils/analysis/clocking.ml" 291 11971 12014
+type(
+  (Minils.var_dec -> Minils.var_dec) ->
+  Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 291 11971 12015 "minils/analysis/clocking.ml" 291 11971 12024
+type(
+  Minils.var_dec -> Minils.var_dec
+)
+ident(
+  int_ref set_clock "minils/analysis/clocking.ml" 290 11893 11899 "minils/analysis/clocking.ml" 290 11893 11908
+)
+"minils/analysis/clocking.ml" 291 11971 12025 "minils/analysis/clocking.ml" 291 11971 12029
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 291 11971 12025 "minils/analysis/clocking.ml" 291 11971 12037
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 291 11971 12006 "minils/analysis/clocking.ml" 291 11971 12037
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 292 12039 12075 "minils/analysis/clocking.ml" 292 12039 12083
+type(
+  (Minils.var_dec -> Minils.var_dec) ->
+  Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 292 12039 12084 "minils/analysis/clocking.ml" 292 12039 12093
+type(
+  Minils.var_dec -> Minils.var_dec
+)
+ident(
+  int_ref set_clock "minils/analysis/clocking.ml" 290 11893 11899 "minils/analysis/clocking.ml" 290 11893 11908
+)
+"minils/analysis/clocking.ml" 292 12039 12094 "minils/analysis/clocking.ml" 292 12039 12098
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 292 12039 12094 "minils/analysis/clocking.ml" 292 12039 12107
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 292 12039 12075 "minils/analysis/clocking.ml" 292 12039 12107
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 293 12109 12144 "minils/analysis/clocking.ml" 293 12109 12152
+type(
+  (Minils.var_dec -> Minils.var_dec) ->
+  Minils.var_dec list -> Minils.var_dec list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 293 12109 12153 "minils/analysis/clocking.ml" 293 12109 12162
+type(
+  Minils.var_dec -> Minils.var_dec
+)
+ident(
+  int_ref set_clock "minils/analysis/clocking.ml" 290 11893 11899 "minils/analysis/clocking.ml" 290 11893 11908
+)
+"minils/analysis/clocking.ml" 293 12109 12163 "minils/analysis/clocking.ml" 293 12109 12167
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 280 11387 11403 "minils/analysis/clocking.ml" 280 11387 11407
+)
+"minils/analysis/clocking.ml" 293 12109 12163 "minils/analysis/clocking.ml" 293 12109 12175
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 293 12109 12144 "minils/analysis/clocking.ml" 293 12109 12175
+call(
+  stack
+)
+type(
+  Minils.var_dec list
+)
+"minils/analysis/clocking.ml" 294 12177 12211 "minils/analysis/clocking.ml" 294 12177 12215
+type(
+  Minils.eq list
+)
+ident(
+  int_ref equs "minils/analysis/clocking.ml" 286 11647 11653 "minils/analysis/clocking.ml" 286 11647 11657
+)
+"minils/analysis/clocking.ml" 295 12217 12255 "minils/analysis/clocking.ml" 295 12217 12263
+type(
+  Minils.contract option
+)
+ident(
+  int_ref contract "minils/analysis/clocking.ml" 284 11540 11546 "minils/analysis/clocking.ml" 284 11540 11554
+)
+"minils/analysis/clocking.ml" 291 11971 11984 "minils/analysis/clocking.ml" 295 12217 12266
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 297 12272 12278 "minils/analysis/clocking.ml" 297 12272 12282
+type(
+  Signature.node
+)
+ident(
+  def sign "minils/analysis/clocking.ml" 298 12321 12323 "minils/analysis/clocking.ml" 300 12403 12409
+)
+"minils/analysis/clocking.ml" 297 12272 12285 "minils/analysis/clocking.ml" 297 12272 12312
+type(
+  Minils.node_dec -> Signature.node
+)
+ident(
+  ext_ref Mls_utils.signature_of_node
+)
+"minils/analysis/clocking.ml" 297 12272 12313 "minils/analysis/clocking.ml" 297 12272 12317
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 291 11971 11977 "minils/analysis/clocking.ml" 291 11971 11981
+)
+"minils/analysis/clocking.ml" 297 12272 12285 "minils/analysis/clocking.ml" 297 12272 12317
+call(
+  stack
+)
+type(
+  Signature.node
+)
+"minils/analysis/clocking.ml" 298 12321 12323 "minils/analysis/clocking.ml" 298 12321 12354
+type(
+  Signature.node -> unit
+)
+ident(
+  ext_ref Check_signature.check_signature
+)
+"minils/analysis/clocking.ml" 298 12321 12355 "minils/analysis/clocking.ml" 298 12321 12359
+type(
+  Signature.node
+)
+ident(
+  int_ref sign "minils/analysis/clocking.ml" 297 12272 12278 "minils/analysis/clocking.ml" 297 12272 12282
+)
+"minils/analysis/clocking.ml" 298 12321 12323 "minils/analysis/clocking.ml" 298 12321 12359
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 299 12361 12363 "minils/analysis/clocking.ml" 299 12361 12384
+type(
+  Names.QualEnv.key -> Signature.node -> unit
+)
+ident(
+  ext_ref Modules.replace_value
+)
+"minils/analysis/clocking.ml" 299 12361 12385 "minils/analysis/clocking.ml" 299 12361 12389
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 291 11971 11977 "minils/analysis/clocking.ml" 291 11971 11981
+)
+"minils/analysis/clocking.ml" 299 12361 12385 "minils/analysis/clocking.ml" 299 12361 12396
+type(
+  Names.QualEnv.key
+)
+"minils/analysis/clocking.ml" 299 12361 12397 "minils/analysis/clocking.ml" 299 12361 12401
+type(
+  Signature.node
+)
+ident(
+  int_ref sign "minils/analysis/clocking.ml" 297 12272 12278 "minils/analysis/clocking.ml" 297 12272 12282
+)
+"minils/analysis/clocking.ml" 299 12361 12363 "minils/analysis/clocking.ml" 299 12361 12401
+call(
+  stack
+)
+type(
+  unit
+)
+"minils/analysis/clocking.ml" 300 12403 12405 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref node "minils/analysis/clocking.ml" 291 11971 11977 "minils/analysis/clocking.ml" 291 11971 11981
+)
+"minils/analysis/clocking.ml" 299 12361 12363 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 298 12321 12323 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 297 12272 12274 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 291 11971 11973 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 290 11893 11895 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 288 11775 11777 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 286 11647 11649 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 284 11540 11542 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 283 11500 11502 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 282 11458 11460 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 281 11410 11412 "minils/analysis/clocking.ml" 300 12403 12409
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 302 12411 12415 "minils/analysis/clocking.ml" 302 12411 12422
+type(
+  Minils.program -> Minils.program
+)
+ident(
+  def program "minils/analysis/clocking.ml" 307 12525 12580 "minils/analysis/clocking.ml" 1 0 -1
+)
+"minils/analysis/clocking.ml" 302 12411 12423 "minils/analysis/clocking.ml" 302 12411 12424
+type(
+  Minils.program
+)
+ident(
+  def p "minils/analysis/clocking.ml" 303 12427 12429 "minils/analysis/clocking.ml" 307 12525 12580
+)
+"minils/analysis/clocking.ml" 303 12427 12433 "minils/analysis/clocking.ml" 303 12427 12445
+type(
+  Minils.program_desc -> Minils.program_desc
+)
+ident(
+  def program_desc "minils/analysis/clocking.ml" 307 12525 12529 "minils/analysis/clocking.ml" 307 12525 12580
+)
+"minils/analysis/clocking.ml" 303 12427 12446 "minils/analysis/clocking.ml" 303 12427 12448
+type(
+  Minils.program_desc
+)
+ident(
+  def pd "minils/analysis/clocking.ml" 303 12427 12451 "minils/analysis/clocking.ml" 305 12506 12519
+)
+"minils/analysis/clocking.ml" 303 12427 12457 "minils/analysis/clocking.ml" 303 12427 12459
+type(
+  Minils.program_desc
+)
+ident(
+  int_ref pd "minils/analysis/clocking.ml" 303 12427 12446 "minils/analysis/clocking.ml" 303 12427 12448
+)
+"minils/analysis/clocking.ml" 304 12465 12477 "minils/analysis/clocking.ml" 304 12465 12479
+type(
+  Minils.node_dec
+)
+ident(
+  def nd "minils/analysis/clocking.ml" 304 12465 12483 "minils/analysis/clocking.ml" 304 12465 12505
+)
+"minils/analysis/clocking.ml" 304 12465 12471 "minils/analysis/clocking.ml" 304 12465 12479
+type(
+  Minils.program_desc
+)
+"minils/analysis/clocking.ml" 304 12465 12490 "minils/analysis/clocking.ml" 304 12465 12501
+type(
+  Minils.node_dec -> Minils.node_dec
+)
+ident(
+  int_ref typing_node "minils/analysis/clocking.ml" 280 11387 11391 "minils/analysis/clocking.ml" 280 11387 11402
+)
+"minils/analysis/clocking.ml" 304 12465 12502 "minils/analysis/clocking.ml" 304 12465 12504
+type(
+  Minils.node_dec
+)
+ident(
+  int_ref nd "minils/analysis/clocking.ml" 304 12465 12477 "minils/analysis/clocking.ml" 304 12465 12479
+)
+"minils/analysis/clocking.ml" 304 12465 12489 "minils/analysis/clocking.ml" 304 12465 12505
+call(
+  stack
+)
+type(
+  Minils.node_dec
+)
+"minils/analysis/clocking.ml" 304 12465 12483 "minils/analysis/clocking.ml" 304 12465 12505
+type(
+  Minils.program_desc
+)
+"minils/analysis/clocking.ml" 305 12506 12512 "minils/analysis/clocking.ml" 305 12506 12513
+type(
+  Minils.program_desc
+)
+"minils/analysis/clocking.ml" 305 12506 12517 "minils/analysis/clocking.ml" 305 12506 12519
+type(
+  Minils.program_desc
+)
+ident(
+  int_ref pd "minils/analysis/clocking.ml" 303 12427 12446 "minils/analysis/clocking.ml" 303 12427 12448
+)
+"minils/analysis/clocking.ml" 303 12427 12451 "minils/analysis/clocking.ml" 305 12506 12519
+type(
+  Minils.program_desc
+)
+"minils/analysis/clocking.ml" 307 12525 12531 "minils/analysis/clocking.ml" 307 12525 12532
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/analysis/clocking.ml" 302 12411 12423 "minils/analysis/clocking.ml" 302 12411 12424
+)
+"minils/analysis/clocking.ml" 307 12525 12547 "minils/analysis/clocking.ml" 307 12525 12555
+type(
+  (Minils.program_desc -> Minils.program_desc) ->
+  Minils.program_desc list -> Minils.program_desc list
+)
+ident(
+  ext_ref List.map
+)
+"minils/analysis/clocking.ml" 307 12525 12556 "minils/analysis/clocking.ml" 307 12525 12568
+type(
+  Minils.program_desc -> Minils.program_desc
+)
+ident(
+  int_ref program_desc "minils/analysis/clocking.ml" 303 12427 12433 "minils/analysis/clocking.ml" 303 12427 12445
+)
+"minils/analysis/clocking.ml" 307 12525 12569 "minils/analysis/clocking.ml" 307 12525 12570
+type(
+  Minils.program
+)
+ident(
+  int_ref p "minils/analysis/clocking.ml" 302 12411 12423 "minils/analysis/clocking.ml" 302 12411 12424
+)
+"minils/analysis/clocking.ml" 307 12525 12569 "minils/analysis/clocking.ml" 307 12525 12577
+type(
+  Minils.program_desc list
+)
+"minils/analysis/clocking.ml" 307 12525 12547 "minils/analysis/clocking.ml" 307 12525 12577
+call(
+  stack
+)
+type(
+  Minils.program_desc list
+)
+"minils/analysis/clocking.ml" 307 12525 12529 "minils/analysis/clocking.ml" 307 12525 12580
+type(
+  Minils.program
+)
+"minils/analysis/clocking.ml" 303 12427 12429 "minils/analysis/clocking.ml" 307 12525 12580
+type(
+  Minils.program
+)

@@ -1,0 +1,23 @@
+% -*- Latex -*-
+\chapter{Les modèles}
+\section{Modèles des signaux}
+Le language \signal utilisé dans cet outil d'aide à la conception d'automatismes
+logiques, décrit des ensembles de signaux. Un signal est une suite infinie d'éléments
+d'un domaine qui peut étre les booléens, les entiers, les réels ou tout type construit
+à l'aide de constructeurs fournis par le langage. Dans ce modèle, l'indice $n$ d'un 
+élément $x_n$ d'une suite $X=(x_i)_{i\in N}$ indique simplement un numéro d'ordre dans
+la suite mais ne doit, en aucun cas, être interprété, a priori, 
+ comme un top d'une horloge. Une
+horloge pourra d'ailleur être modélisée comme une suite $H$ de $top$ par exemple. 
+
+Maintenant que nous disposons d'un signal $X$ que nous pouvons supposer à valeurs 
+numériques pour fixer les idées, et d'un autre signal à valeurs dans $\{ top \}$, nous
+aimerions dire que le second est l'horloge d'émission du premier. Ceci signifie tout
+simplement que les valeurs des signaux $X$ et $H$ apparaissent simultanément et plus
+précisément la nieme valeur de $X$ et la nieme valeur de $H$ apparaissent simultanément.
+
+Si au contraire nous ne connaissons aucune relation entre les apparitions de $X$ et
+de $H$, nous devons admettre qu'un nombre fini quelconque de valeurs de $X$ peuvent
+être émises entre les apparitions de deux valeurs successives de $H$ et vice-versa.
+Bien entendu, nous admettons également la possibilité d'émissions simultané de valeurs
+pour les deux signaux. 

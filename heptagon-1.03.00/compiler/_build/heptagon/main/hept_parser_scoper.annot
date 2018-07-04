@@ -1,0 +1,703 @@
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2134 "heptagon/main/hept_parser_scoper.ml" 34 2130 2136
+type(
+  Heptagon.program -> unit
+)
+ident(
+  def pp "heptagon/main/hept_parser_scoper.ml" 36 2187 2187 "heptagon/main/hept_parser_scoper.ml" 1 0 -1
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2137 "heptagon/main/hept_parser_scoper.ml" 34 2130 2138
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/main/hept_parser_scoper.ml" 34 2130 2141 "heptagon/main/hept_parser_scoper.ml" 34 2130 2185
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2144 "heptagon/main/hept_parser_scoper.ml" 34 2130 2145
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2145 "heptagon/main/hept_parser_scoper.ml" 34 2130 2152
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.verbose
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2144 "heptagon/main/hept_parser_scoper.ml" 34 2130 2152
+type(
+  bool
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2158 "heptagon/main/hept_parser_scoper.ml" 34 2130 2176
+type(
+  out_channel -> Heptagon.program -> unit
+)
+ident(
+  ext_ref Hept_printer.print
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2177 "heptagon/main/hept_parser_scoper.ml" 34 2130 2183
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2184 "heptagon/main/hept_parser_scoper.ml" 34 2130 2185
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/main/hept_parser_scoper.ml" 34 2130 2137 "heptagon/main/hept_parser_scoper.ml" 34 2130 2138
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2158 "heptagon/main/hept_parser_scoper.ml" 34 2130 2185
+call(
+  tail
+)
+type(
+  unit
+)
+"heptagon/main/hept_parser_scoper.ml" 34 2130 2141 "heptagon/main/hept_parser_scoper.ml" 34 2130 2185
+type(
+  unit
+)
+"heptagon/main/hept_parser_scoper.ml" 36 2187 2191 "heptagon/main/hept_parser_scoper.ml" 36 2187 2196
+type(
+  ((Lexing.lexbuf -> Hept_parser.token) -> Lexing.lexbuf -> 'a) ->
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def parse "heptagon/main/hept_parser_scoper.ml" 49 2563 2563 "heptagon/main/hept_parser_scoper.ml" 1 0 -1
+)
+"heptagon/main/hept_parser_scoper.ml" 36 2187 2197 "heptagon/main/hept_parser_scoper.ml" 36 2187 2208
+type(
+  (Lexing.lexbuf -> Hept_parser.token) -> Lexing.lexbuf -> 'a
+)
+ident(
+  def parsing_fun "heptagon/main/hept_parser_scoper.ml" 36 2187 2209 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+)
+"heptagon/main/hept_parser_scoper.ml" 36 2187 2209 "heptagon/main/hept_parser_scoper.ml" 36 2187 2215
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/main/hept_parser_scoper.ml" 37 2218 2220 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+)
+"heptagon/main/hept_parser_scoper.ml" 38 2224 2228 "heptagon/main/hept_parser_scoper.ml" 38 2224 2239
+type(
+  (Lexing.lexbuf -> Hept_parser.token) -> Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref parsing_fun "heptagon/main/hept_parser_scoper.ml" 36 2187 2197 "heptagon/main/hept_parser_scoper.ml" 36 2187 2208
+)
+"heptagon/main/hept_parser_scoper.ml" 38 2224 2240 "heptagon/main/hept_parser_scoper.ml" 38 2224 2256
+type(
+  Lexing.lexbuf -> Hept_parser.token
+)
+ident(
+  ext_ref Hept_lexer.token
+)
+"heptagon/main/hept_parser_scoper.ml" 38 2224 2257 "heptagon/main/hept_parser_scoper.ml" 38 2224 2263
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/main/hept_parser_scoper.ml" 36 2187 2209 "heptagon/main/hept_parser_scoper.ml" 36 2187 2215
+)
+"heptagon/main/hept_parser_scoper.ml" 38 2224 2228 "heptagon/main/hept_parser_scoper.ml" 38 2224 2263
+call(
+  stack
+)
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 40 2271 2302 "heptagon/main/hept_parser_scoper.ml" 40 2271 2305
+type(
+  Compiler_utils.lexical_error
+)
+ident(
+  def err "heptagon/main/hept_parser_scoper.ml" 41 2313 2321 "heptagon/main/hept_parser_scoper.ml" 41 2313 2340
+)
+"heptagon/main/hept_parser_scoper.ml" 40 2271 2307 "heptagon/main/hept_parser_scoper.ml" 40 2271 2308
+type(
+  Location.location
+)
+ident(
+  def l "heptagon/main/hept_parser_scoper.ml" 41 2313 2321 "heptagon/main/hept_parser_scoper.ml" 41 2313 2340
+)
+"heptagon/main/hept_parser_scoper.ml" 40 2271 2277 "heptagon/main/hept_parser_scoper.ml" 40 2271 2309
+type(
+  exn
+)
+"heptagon/main/hept_parser_scoper.ml" 41 2313 2321 "heptagon/main/hept_parser_scoper.ml" 41 2313 2334
+type(
+  Compiler_utils.lexical_error -> Location.location -> 'a
+)
+ident(
+  ext_ref Compiler_utils.lexical_error
+)
+"heptagon/main/hept_parser_scoper.ml" 41 2313 2335 "heptagon/main/hept_parser_scoper.ml" 41 2313 2338
+type(
+  Compiler_utils.lexical_error
+)
+ident(
+  int_ref err "heptagon/main/hept_parser_scoper.ml" 40 2271 2302 "heptagon/main/hept_parser_scoper.ml" 40 2271 2305
+)
+"heptagon/main/hept_parser_scoper.ml" 41 2313 2339 "heptagon/main/hept_parser_scoper.ml" 41 2313 2340
+type(
+  Location.location
+)
+ident(
+  int_ref l "heptagon/main/hept_parser_scoper.ml" 40 2271 2307 "heptagon/main/hept_parser_scoper.ml" 40 2271 2308
+)
+"heptagon/main/hept_parser_scoper.ml" 41 2313 2321 "heptagon/main/hept_parser_scoper.ml" 41 2313 2340
+call(
+  tail
+)
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 42 2341 2347 "heptagon/main/hept_parser_scoper.ml" 42 2341 2364
+type(
+  exn
+)
+"heptagon/main/hept_parser_scoper.ml" 43 2368 2380 "heptagon/main/hept_parser_scoper.ml" 43 2368 2384
+type(
+  Lexing.position
+)
+ident(
+  def pos1 "heptagon/main/hept_parser_scoper.ml" 45 2465 2473 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+)
+"heptagon/main/hept_parser_scoper.ml" 43 2368 2387 "heptagon/main/hept_parser_scoper.ml" 43 2368 2408
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"heptagon/main/hept_parser_scoper.ml" 43 2368 2409 "heptagon/main/hept_parser_scoper.ml" 43 2368 2415
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/main/hept_parser_scoper.ml" 36 2187 2209 "heptagon/main/hept_parser_scoper.ml" 36 2187 2215
+)
+"heptagon/main/hept_parser_scoper.ml" 43 2368 2387 "heptagon/main/hept_parser_scoper.ml" 43 2368 2415
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/main/hept_parser_scoper.ml" 44 2416 2428 "heptagon/main/hept_parser_scoper.ml" 44 2416 2432
+type(
+  Lexing.position
+)
+ident(
+  def pos2 "heptagon/main/hept_parser_scoper.ml" 45 2465 2473 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+)
+"heptagon/main/hept_parser_scoper.ml" 44 2416 2435 "heptagon/main/hept_parser_scoper.ml" 44 2416 2454
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"heptagon/main/hept_parser_scoper.ml" 44 2416 2455 "heptagon/main/hept_parser_scoper.ml" 44 2416 2461
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/main/hept_parser_scoper.ml" 36 2187 2209 "heptagon/main/hept_parser_scoper.ml" 36 2187 2215
+)
+"heptagon/main/hept_parser_scoper.ml" 44 2416 2435 "heptagon/main/hept_parser_scoper.ml" 44 2416 2461
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"heptagon/main/hept_parser_scoper.ml" 45 2465 2477 "heptagon/main/hept_parser_scoper.ml" 45 2465 2478
+type(
+  Location.location
+)
+ident(
+  def l "heptagon/main/hept_parser_scoper.ml" 46 2499 2507 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+)
+"heptagon/main/hept_parser_scoper.ml" 45 2465 2485 "heptagon/main/hept_parser_scoper.ml" 45 2465 2489
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos1 "heptagon/main/hept_parser_scoper.ml" 43 2368 2380 "heptagon/main/hept_parser_scoper.ml" 43 2368 2384
+)
+"heptagon/main/hept_parser_scoper.ml" 45 2465 2490 "heptagon/main/hept_parser_scoper.ml" 45 2465 2494
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos2 "heptagon/main/hept_parser_scoper.ml" 44 2416 2428 "heptagon/main/hept_parser_scoper.ml" 44 2416 2432
+)
+"heptagon/main/hept_parser_scoper.ml" 45 2465 2481 "heptagon/main/hept_parser_scoper.ml" 45 2465 2495
+type(
+  Location.location
+)
+"heptagon/main/hept_parser_scoper.ml" 46 2499 2507 "heptagon/main/hept_parser_scoper.ml" 46 2499 2519
+type(
+  Location.location -> 'a
+)
+ident(
+  ext_ref Compiler_utils.syntax_error
+)
+"heptagon/main/hept_parser_scoper.ml" 46 2499 2520 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+type(
+  Location.location
+)
+ident(
+  int_ref l "heptagon/main/hept_parser_scoper.ml" 45 2465 2477 "heptagon/main/hept_parser_scoper.ml" 45 2465 2478
+)
+"heptagon/main/hept_parser_scoper.ml" 46 2499 2507 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+call(
+  tail
+)
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 45 2465 2473 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 43 2368 2376 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 37 2218 2220 "heptagon/main/hept_parser_scoper.ml" 46 2499 2521
+type(
+  'a
+)
+"heptagon/main/hept_parser_scoper.ml" 49 2563 2567 "heptagon/main/hept_parser_scoper.ml" 49 2563 2580
+type(
+  Hept_parsetree.dec_name -> Lexing.lexbuf -> Heptagon.program
+)
+ident(
+  def parse_program "heptagon/main/hept_parser_scoper.ml" 63 3024 3024 "heptagon/main/hept_parser_scoper.ml" 1 0 -1
+)
+"heptagon/main/hept_parser_scoper.ml" 49 2563 2581 "heptagon/main/hept_parser_scoper.ml" 49 2563 2588
+type(
+  Hept_parsetree.dec_name
+)
+ident(
+  def modname "heptagon/main/hept_parser_scoper.ml" 49 2563 2589 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 49 2563 2589 "heptagon/main/hept_parser_scoper.ml" 49 2563 2595
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/main/hept_parser_scoper.ml" 51 2626 2628 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2632 "heptagon/main/hept_parser_scoper.ml" 51 2626 2633
+type(
+  Hept_parsetree.program
+)
+ident(
+  def p "heptagon/main/hept_parser_scoper.ml" 52 2699 2701 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2636 "heptagon/main/hept_parser_scoper.ml" 51 2626 2650
+type(
+  string ->
+  (Lexing.lexbuf -> Hept_parsetree.program) ->
+  Lexing.lexbuf -> Hept_parsetree.program
+)
+ident(
+  ext_ref Compiler_utils.do_silent_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2651 "heptagon/main/hept_parser_scoper.ml" 51 2626 2660
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2662 "heptagon/main/hept_parser_scoper.ml" 51 2626 2667
+type(
+  ((Lexing.lexbuf -> Hept_parser.token) ->
+   Lexing.lexbuf -> Hept_parsetree.program) ->
+  Lexing.lexbuf -> Hept_parsetree.program
+)
+ident(
+  int_ref parse "heptagon/main/hept_parser_scoper.ml" 36 2187 2191 "heptagon/main/hept_parser_scoper.ml" 36 2187 2196
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2668 "heptagon/main/hept_parser_scoper.ml" 51 2626 2687
+type(
+  (Lexing.lexbuf -> Hept_parser.token) ->
+  Lexing.lexbuf -> Hept_parsetree.program
+)
+ident(
+  ext_ref Hept_parser.program
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2661 "heptagon/main/hept_parser_scoper.ml" 51 2626 2688
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Hept_parsetree.program
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2689 "heptagon/main/hept_parser_scoper.ml" 51 2626 2695
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/main/hept_parser_scoper.ml" 49 2563 2589 "heptagon/main/hept_parser_scoper.ml" 49 2563 2595
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2636 "heptagon/main/hept_parser_scoper.ml" 51 2626 2695
+call(
+  stack
+)
+type(
+  Hept_parsetree.program
+)
+"heptagon/main/hept_parser_scoper.ml" 52 2699 2705 "heptagon/main/hept_parser_scoper.ml" 52 2699 2706
+type(
+  Hept_parsetree.program
+)
+ident(
+  def p "heptagon/main/hept_parser_scoper.ml" 56 2794 2796 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 52 2699 2711 "heptagon/main/hept_parser_scoper.ml" 52 2699 2712
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/main/hept_parser_scoper.ml" 51 2626 2632 "heptagon/main/hept_parser_scoper.ml" 51 2626 2633
+)
+"heptagon/main/hept_parser_scoper.ml" 52 2699 2745 "heptagon/main/hept_parser_scoper.ml" 52 2699 2752
+type(
+  Hept_parsetree.dec_name
+)
+ident(
+  int_ref modname "heptagon/main/hept_parser_scoper.ml" 49 2563 2581 "heptagon/main/hept_parser_scoper.ml" 49 2563 2588
+)
+"heptagon/main/hept_parser_scoper.ml" 52 2699 2709 "heptagon/main/hept_parser_scoper.ml" 52 2699 2754
+type(
+  Hept_parsetree.program
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2800 "heptagon/main/hept_parser_scoper.ml" 56 2794 2801
+type(
+  Hept_parsetree.program
+)
+ident(
+  def p "heptagon/main/hept_parser_scoper.ml" 59 2917 2919 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2804 "heptagon/main/hept_parser_scoper.ml" 56 2794 2818
+type(
+  string ->
+  (Hept_parsetree.program -> Hept_parsetree.program) ->
+  Hept_parsetree.program -> Hept_parsetree.program
+)
+ident(
+  ext_ref Compiler_utils.do_silent_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2819 "heptagon/main/hept_parser_scoper.ml" 56 2794 2835
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2836 "heptagon/main/hept_parser_scoper.ml" 56 2794 2863
+type(
+  Hept_parsetree.program -> Hept_parsetree.program
+)
+ident(
+  ext_ref Hept_static_scoping.program
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2864 "heptagon/main/hept_parser_scoper.ml" 56 2794 2865
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/main/hept_parser_scoper.ml" 52 2699 2705 "heptagon/main/hept_parser_scoper.ml" 52 2699 2706
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2804 "heptagon/main/hept_parser_scoper.ml" 56 2794 2865
+call(
+  stack
+)
+type(
+  Hept_parsetree.program
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2923 "heptagon/main/hept_parser_scoper.ml" 59 2917 2924
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/main/hept_parser_scoper.ml" 60 2984 2986 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2927 "heptagon/main/hept_parser_scoper.ml" 59 2917 2934
+type(
+  string ->
+  (Hept_parsetree.program -> Heptagon.program) ->
+  Hept_parsetree.program -> (Heptagon.program -> unit) -> Heptagon.program
+)
+ident(
+  ext_ref Compiler_utils.do_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2935 "heptagon/main/hept_parser_scoper.ml" 59 2917 2944
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2945 "heptagon/main/hept_parser_scoper.ml" 59 2917 2975
+type(
+  Hept_parsetree.program -> Heptagon.program
+)
+ident(
+  ext_ref Hept_scoping.translate_program
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2976 "heptagon/main/hept_parser_scoper.ml" 59 2917 2977
+type(
+  Hept_parsetree.program
+)
+ident(
+  int_ref p "heptagon/main/hept_parser_scoper.ml" 56 2794 2800 "heptagon/main/hept_parser_scoper.ml" 56 2794 2801
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2978 "heptagon/main/hept_parser_scoper.ml" 59 2917 2980
+type(
+  Heptagon.program -> unit
+)
+ident(
+  int_ref pp "heptagon/main/hept_parser_scoper.ml" 34 2130 2134 "heptagon/main/hept_parser_scoper.ml" 34 2130 2136
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2927 "heptagon/main/hept_parser_scoper.ml" 59 2917 2980
+call(
+  stack
+)
+type(
+  Heptagon.program
+)
+"heptagon/main/hept_parser_scoper.ml" 60 2984 2986 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/main/hept_parser_scoper.ml" 59 2917 2923 "heptagon/main/hept_parser_scoper.ml" 59 2917 2924
+)
+"heptagon/main/hept_parser_scoper.ml" 59 2917 2919 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+type(
+  Heptagon.program
+)
+"heptagon/main/hept_parser_scoper.ml" 56 2794 2796 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+type(
+  Heptagon.program
+)
+"heptagon/main/hept_parser_scoper.ml" 52 2699 2701 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+type(
+  Heptagon.program
+)
+"heptagon/main/hept_parser_scoper.ml" 51 2626 2628 "heptagon/main/hept_parser_scoper.ml" 60 2984 2987
+type(
+  Heptagon.program
+)
+"heptagon/main/hept_parser_scoper.ml" 63 3024 3028 "heptagon/main/hept_parser_scoper.ml" 63 3024 3043
+type(
+  Hept_parsetree.dec_name -> Lexing.lexbuf -> Heptagon.interface
+)
+ident(
+  def parse_interface "heptagon/main/hept_parser_scoper.ml" 73 3456 3459 "heptagon/main/hept_parser_scoper.ml" 1 0 -1
+)
+"heptagon/main/hept_parser_scoper.ml" 63 3024 3044 "heptagon/main/hept_parser_scoper.ml" 63 3024 3051
+type(
+  Hept_parsetree.dec_name
+)
+ident(
+  def modname "heptagon/main/hept_parser_scoper.ml" 63 3024 3052 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 63 3024 3052 "heptagon/main/hept_parser_scoper.ml" 63 3024 3058
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "heptagon/main/hept_parser_scoper.ml" 65 3089 3091 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3095 "heptagon/main/hept_parser_scoper.ml" 65 3089 3096
+type(
+  Hept_parsetree.interface
+)
+ident(
+  def i "heptagon/main/hept_parser_scoper.ml" 66 3164 3166 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3099 "heptagon/main/hept_parser_scoper.ml" 65 3089 3113
+type(
+  string ->
+  (Lexing.lexbuf -> Hept_parsetree.interface) ->
+  Lexing.lexbuf -> Hept_parsetree.interface
+)
+ident(
+  ext_ref Compiler_utils.do_silent_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3114 "heptagon/main/hept_parser_scoper.ml" 65 3089 3123
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3125 "heptagon/main/hept_parser_scoper.ml" 65 3089 3130
+type(
+  ((Lexing.lexbuf -> Hept_parser.token) ->
+   Lexing.lexbuf -> Hept_parsetree.interface) ->
+  Lexing.lexbuf -> Hept_parsetree.interface
+)
+ident(
+  int_ref parse "heptagon/main/hept_parser_scoper.ml" 36 2187 2191 "heptagon/main/hept_parser_scoper.ml" 36 2187 2196
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3131 "heptagon/main/hept_parser_scoper.ml" 65 3089 3152
+type(
+  (Lexing.lexbuf -> Hept_parser.token) ->
+  Lexing.lexbuf -> Hept_parsetree.interface
+)
+ident(
+  ext_ref Hept_parser.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3124 "heptagon/main/hept_parser_scoper.ml" 65 3089 3153
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Hept_parsetree.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3154 "heptagon/main/hept_parser_scoper.ml" 65 3089 3160
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "heptagon/main/hept_parser_scoper.ml" 63 3024 3052 "heptagon/main/hept_parser_scoper.ml" 63 3024 3058
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3099 "heptagon/main/hept_parser_scoper.ml" 65 3089 3160
+call(
+  stack
+)
+type(
+  Hept_parsetree.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 66 3164 3170 "heptagon/main/hept_parser_scoper.ml" 66 3164 3171
+type(
+  Hept_parsetree.interface
+)
+ident(
+  def i "heptagon/main/hept_parser_scoper.ml" 69 3258 3260 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 66 3164 3176 "heptagon/main/hept_parser_scoper.ml" 66 3164 3177
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/main/hept_parser_scoper.ml" 65 3089 3095 "heptagon/main/hept_parser_scoper.ml" 65 3089 3096
+)
+"heptagon/main/hept_parser_scoper.ml" 66 3164 3210 "heptagon/main/hept_parser_scoper.ml" 66 3164 3217
+type(
+  Hept_parsetree.dec_name
+)
+ident(
+  int_ref modname "heptagon/main/hept_parser_scoper.ml" 63 3024 3044 "heptagon/main/hept_parser_scoper.ml" 63 3024 3051
+)
+"heptagon/main/hept_parser_scoper.ml" 66 3164 3174 "heptagon/main/hept_parser_scoper.ml" 66 3164 3219
+type(
+  Hept_parsetree.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3264 "heptagon/main/hept_parser_scoper.ml" 69 3258 3265
+type(
+  Hept_parsetree.interface
+)
+ident(
+  def i "heptagon/main/hept_parser_scoper.ml" 72 3383 3385 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3268 "heptagon/main/hept_parser_scoper.ml" 69 3258 3282
+type(
+  string ->
+  (Hept_parsetree.interface -> Hept_parsetree.interface) ->
+  Hept_parsetree.interface -> Hept_parsetree.interface
+)
+ident(
+  ext_ref Compiler_utils.do_silent_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3283 "heptagon/main/hept_parser_scoper.ml" 69 3258 3299
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3300 "heptagon/main/hept_parser_scoper.ml" 69 3258 3329
+type(
+  Hept_parsetree.interface -> Hept_parsetree.interface
+)
+ident(
+  ext_ref Hept_static_scoping.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3330 "heptagon/main/hept_parser_scoper.ml" 69 3258 3331
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/main/hept_parser_scoper.ml" 66 3164 3170 "heptagon/main/hept_parser_scoper.ml" 66 3164 3171
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3268 "heptagon/main/hept_parser_scoper.ml" 69 3258 3331
+call(
+  stack
+)
+type(
+  Hept_parsetree.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3389 "heptagon/main/hept_parser_scoper.ml" 72 3383 3390
+type(
+  Heptagon.interface
+)
+ident(
+  def i "heptagon/main/hept_parser_scoper.ml" 73 3456 3458 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3393 "heptagon/main/hept_parser_scoper.ml" 72 3383 3407
+type(
+  string ->
+  (Hept_parsetree.interface -> Heptagon.interface) ->
+  Hept_parsetree.interface -> Heptagon.interface
+)
+ident(
+  ext_ref Compiler_utils.do_silent_pass
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3408 "heptagon/main/hept_parser_scoper.ml" 72 3383 3417
+type(
+  string
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3418 "heptagon/main/hept_parser_scoper.ml" 72 3383 3450
+type(
+  Hept_parsetree.interface -> Heptagon.interface
+)
+ident(
+  ext_ref Hept_scoping.translate_interface
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3451 "heptagon/main/hept_parser_scoper.ml" 72 3383 3452
+type(
+  Hept_parsetree.interface
+)
+ident(
+  int_ref i "heptagon/main/hept_parser_scoper.ml" 69 3258 3264 "heptagon/main/hept_parser_scoper.ml" 69 3258 3265
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3393 "heptagon/main/hept_parser_scoper.ml" 72 3383 3452
+call(
+  stack
+)
+type(
+  Heptagon.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 73 3456 3458 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+type(
+  Heptagon.interface
+)
+ident(
+  int_ref i "heptagon/main/hept_parser_scoper.ml" 72 3383 3389 "heptagon/main/hept_parser_scoper.ml" 72 3383 3390
+)
+"heptagon/main/hept_parser_scoper.ml" 72 3383 3385 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+type(
+  Heptagon.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 69 3258 3260 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+type(
+  Heptagon.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 66 3164 3166 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+type(
+  Heptagon.interface
+)
+"heptagon/main/hept_parser_scoper.ml" 65 3089 3091 "heptagon/main/hept_parser_scoper.ml" 73 3456 3459
+type(
+  Heptagon.interface
+)

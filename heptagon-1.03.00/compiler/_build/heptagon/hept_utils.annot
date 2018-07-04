@@ -1,0 +1,2190 @@
+"heptagon/hept_utils.ml" 41 2318 2322 "heptagon/hept_utils.ml" 41 2318 2328
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  def mk_exp "heptagon/hept_utils.ml" 45 2538 2538 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 41 2318 2329 "heptagon/hept_utils.ml" 41 2318 2333
+type(
+  Heptagon.desc
+)
+ident(
+  def desc "heptagon/hept_utils.ml" 41 2318 2334 "heptagon/hept_utils.ml" 43 2495 2536
+)
+"heptagon/hept_utils.ml" 41 2318 2336 "heptagon/hept_utils.ml" 41 2318 2344
+type(
+  Clocks.ck
+)
+"heptagon/hept_utils.ml" 41 2318 2347 "heptagon/hept_utils.ml" 41 2318 2359
+type(
+  Clocks.ck
+)
+type(
+  Clocks.ck
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 41 2318 2347 "heptagon/hept_utils.ml" 41 2318 2359
+)
+type(
+  Clocks.ck option
+)
+type(
+  Clocks.ck option
+)
+type(
+  Clocks.ck
+)
+"heptagon/hept_utils.ml" 41 2318 2363 "heptagon/hept_utils.ml" 41 2318 2371
+type(
+  Clocks.ct option
+)
+"heptagon/hept_utils.ml" 41 2318 2374 "heptagon/hept_utils.ml" 41 2318 2378
+type(
+  Clocks.ct option
+)
+type(
+  Clocks.ct option
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 41 2318 2374 "heptagon/hept_utils.ml" 41 2318 2378
+)
+type(
+  Clocks.ct option option
+)
+type(
+  Clocks.ct option option
+)
+type(
+  Clocks.ct option
+)
+"heptagon/hept_utils.ml" 41 2318 2382 "heptagon/hept_utils.ml" 41 2318 2385
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 41 2318 2388 "heptagon/hept_utils.ml" 41 2318 2399
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 41 2318 2388 "heptagon/hept_utils.ml" 41 2318 2399
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 41 2318 2401 "heptagon/hept_utils.ml" 41 2318 2403
+type(
+  Types.ty
+)
+ident(
+  def ty "heptagon/hept_utils.ml" 41 2318 2404 "heptagon/hept_utils.ml" 43 2495 2536
+)
+"heptagon/hept_utils.ml" 41 2318 2405 "heptagon/hept_utils.ml" 41 2318 2414
+type(
+  Linearity.linearity
+)
+ident(
+  def linearity "heptagon/hept_utils.ml" 42 2417 2419 "heptagon/hept_utils.ml" 43 2495 2536
+)
+"heptagon/hept_utils.ml" 42 2417 2430 "heptagon/hept_utils.ml" 42 2417 2434
+type(
+  Heptagon.desc
+)
+ident(
+  int_ref desc "heptagon/hept_utils.ml" 41 2318 2329 "heptagon/hept_utils.ml" 41 2318 2333
+)
+"heptagon/hept_utils.ml" 42 2417 2443 "heptagon/hept_utils.ml" 42 2417 2445
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "heptagon/hept_utils.ml" 41 2318 2401 "heptagon/hept_utils.ml" 41 2318 2403
+)
+"heptagon/hept_utils.ml" 42 2417 2460 "heptagon/hept_utils.ml" 42 2417 2468
+type(
+  Clocks.ct option
+)
+ident(
+  int_ref ct_annot "heptagon/hept_utils.ml" 41 2318 2363 "heptagon/hept_utils.ml" 41 2318 2371
+)
+"heptagon/hept_utils.ml" 42 2417 2484 "heptagon/hept_utils.ml" 42 2417 2493
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref linearity "heptagon/hept_utils.ml" 41 2318 2405 "heptagon/hept_utils.ml" 41 2318 2414
+)
+"heptagon/hept_utils.ml" 43 2495 2512 "heptagon/hept_utils.ml" 43 2495 2520
+type(
+  Clocks.ck
+)
+ident(
+  int_ref level_ck "heptagon/hept_utils.ml" 41 2318 2336 "heptagon/hept_utils.ml" 41 2318 2344
+)
+"heptagon/hept_utils.ml" 43 2495 2530 "heptagon/hept_utils.ml" 43 2495 2533
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/hept_utils.ml" 41 2318 2382 "heptagon/hept_utils.ml" 41 2318 2385
+)
+"heptagon/hept_utils.ml" 42 2417 2419 "heptagon/hept_utils.ml" 43 2495 2536
+type(
+  Heptagon.exp
+)
+"heptagon/hept_utils.ml" 45 2538 2542 "heptagon/hept_utils.ml" 45 2538 2548
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool -> ?inlined:bool -> Heptagon.op -> Heptagon.app
+)
+ident(
+  def mk_app "heptagon/hept_utils.ml" 48 2676 2676 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 45 2538 2551 "heptagon/hept_utils.ml" 45 2538 2557
+type(
+  Types.static_exp list
+)
+"heptagon/hept_utils.ml" 45 2538 2558 "heptagon/hept_utils.ml" 45 2538 2560
+type(
+  Types.static_exp list
+)
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 45 2538 2558 "heptagon/hept_utils.ml" 45 2538 2560
+)
+type(
+  Types.static_exp list option
+)
+type(
+  Types.static_exp list option
+)
+type(
+  Types.static_exp list
+)
+"heptagon/hept_utils.ml" 45 2538 2564 "heptagon/hept_utils.ml" 45 2538 2570
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 45 2538 2571 "heptagon/hept_utils.ml" 45 2538 2576
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 45 2538 2571 "heptagon/hept_utils.ml" 45 2538 2576
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 45 2538 2580 "heptagon/hept_utils.ml" 45 2538 2587
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 45 2538 2588 "heptagon/hept_utils.ml" 45 2538 2593
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 45 2538 2588 "heptagon/hept_utils.ml" 45 2538 2593
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 45 2538 2595 "heptagon/hept_utils.ml" 45 2538 2597
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/hept_utils.ml" 46 2600 2602 "heptagon/hept_utils.ml" 46 2600 2674
+)
+"heptagon/hept_utils.ml" 46 2600 2611 "heptagon/hept_utils.ml" 46 2600 2613
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/hept_utils.ml" 45 2538 2595 "heptagon/hept_utils.ml" 45 2538 2597
+)
+"heptagon/hept_utils.ml" 46 2600 2626 "heptagon/hept_utils.ml" 46 2600 2632
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref params "heptagon/hept_utils.ml" 45 2538 2551 "heptagon/hept_utils.ml" 45 2538 2557
+)
+"heptagon/hept_utils.ml" 46 2600 2645 "heptagon/hept_utils.ml" 46 2600 2651
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/hept_utils.ml" 45 2538 2564 "heptagon/hept_utils.ml" 45 2538 2570
+)
+"heptagon/hept_utils.ml" 46 2600 2665 "heptagon/hept_utils.ml" 46 2600 2672
+type(
+  bool
+)
+ident(
+  int_ref inlined "heptagon/hept_utils.ml" 45 2538 2580 "heptagon/hept_utils.ml" 45 2538 2587
+)
+"heptagon/hept_utils.ml" 46 2600 2602 "heptagon/hept_utils.ml" 46 2600 2674
+type(
+  Heptagon.app
+)
+"heptagon/hept_utils.ml" 48 2676 2680 "heptagon/hept_utils.ml" 48 2676 2689
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  def mk_op_app "heptagon/hept_utils.ml" 51 2805 2805 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 48 2676 2692 "heptagon/hept_utils.ml" 48 2676 2698
+type(
+  Types.static_exp list
+)
+"heptagon/hept_utils.ml" 48 2676 2699 "heptagon/hept_utils.ml" 48 2676 2701
+type(
+  Types.static_exp list
+)
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 48 2676 2699 "heptagon/hept_utils.ml" 48 2676 2701
+)
+type(
+  Types.static_exp list option
+)
+type(
+  Types.static_exp list option
+)
+type(
+  Types.static_exp list
+)
+"heptagon/hept_utils.ml" 48 2676 2705 "heptagon/hept_utils.ml" 48 2676 2711
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 48 2676 2712 "heptagon/hept_utils.ml" 48 2676 2717
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 48 2676 2712 "heptagon/hept_utils.ml" 48 2676 2717
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 48 2676 2721 "heptagon/hept_utils.ml" 48 2676 2726
+type(
+  Heptagon.exp option
+)
+"heptagon/hept_utils.ml" 48 2676 2727 "heptagon/hept_utils.ml" 48 2676 2731
+type(
+  Heptagon.exp option
+)
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 48 2676 2727 "heptagon/hept_utils.ml" 48 2676 2731
+)
+type(
+  Heptagon.exp option option
+)
+type(
+  Heptagon.exp option option
+)
+type(
+  Heptagon.exp option
+)
+"heptagon/hept_utils.ml" 48 2676 2733 "heptagon/hept_utils.ml" 48 2676 2735
+type(
+  Heptagon.op
+)
+ident(
+  def op "heptagon/hept_utils.ml" 48 2676 2736 "heptagon/hept_utils.ml" 49 2743 2803
+)
+"heptagon/hept_utils.ml" 48 2676 2736 "heptagon/hept_utils.ml" 48 2676 2740
+type(
+  Heptagon.exp list
+)
+ident(
+  def args "heptagon/hept_utils.ml" 49 2743 2745 "heptagon/hept_utils.ml" 49 2743 2803
+)
+"heptagon/hept_utils.ml" 49 2743 2750 "heptagon/hept_utils.ml" 49 2743 2756
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool -> ?inlined:bool -> Heptagon.op -> Heptagon.app
+)
+ident(
+  int_ref mk_app "heptagon/hept_utils.ml" 45 2538 2542 "heptagon/hept_utils.ml" 45 2538 2548
+)
+"heptagon/hept_utils.ml" 49 2743 2765 "heptagon/hept_utils.ml" 49 2743 2771
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref params "heptagon/hept_utils.ml" 48 2676 2692 "heptagon/hept_utils.ml" 48 2676 2698
+)
+"heptagon/hept_utils.ml" 49 2743 2780 "heptagon/hept_utils.ml" 49 2743 2786
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/hept_utils.ml" 48 2676 2705 "heptagon/hept_utils.ml" 48 2676 2711
+)
+"heptagon/hept_utils.ml" 49 2743 2787 "heptagon/hept_utils.ml" 49 2743 2789
+type(
+  Heptagon.op
+)
+ident(
+  int_ref op "heptagon/hept_utils.ml" 48 2676 2733 "heptagon/hept_utils.ml" 48 2676 2735
+)
+"heptagon/hept_utils.ml" 49 2743 2750 "heptagon/hept_utils.ml" 49 2743 2789
+call(
+  stack
+)
+type(
+  Heptagon.app
+)
+"heptagon/hept_utils.ml" 49 2743 2791 "heptagon/hept_utils.ml" 49 2743 2795
+type(
+  Heptagon.exp list
+)
+ident(
+  int_ref args "heptagon/hept_utils.ml" 48 2676 2736 "heptagon/hept_utils.ml" 48 2676 2740
+)
+"heptagon/hept_utils.ml" 49 2743 2797 "heptagon/hept_utils.ml" 49 2743 2802
+type(
+  Heptagon.exp option
+)
+ident(
+  int_ref reset "heptagon/hept_utils.ml" 48 2676 2721 "heptagon/hept_utils.ml" 48 2676 2726
+)
+"heptagon/hept_utils.ml" 49 2743 2745 "heptagon/hept_utils.ml" 49 2743 2803
+type(
+  Heptagon.desc
+)
+"heptagon/hept_utils.ml" 51 2805 2809 "heptagon/hept_utils.ml" 51 2805 2820
+type(
+  Names.qualname -> Heptagon.type_dec_desc -> Heptagon.type_dec
+)
+ident(
+  def mk_type_dec "heptagon/hept_utils.ml" 54 2891 2891 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 51 2805 2821 "heptagon/hept_utils.ml" 51 2805 2825
+type(
+  Names.qualname
+)
+ident(
+  def name "heptagon/hept_utils.ml" 51 2805 2826 "heptagon/hept_utils.ml" 52 2833 2889
+)
+"heptagon/hept_utils.ml" 51 2805 2826 "heptagon/hept_utils.ml" 51 2805 2830
+type(
+  Heptagon.type_dec_desc
+)
+ident(
+  def desc "heptagon/hept_utils.ml" 52 2833 2835 "heptagon/hept_utils.ml" 52 2833 2889
+)
+"heptagon/hept_utils.ml" 52 2833 2846 "heptagon/hept_utils.ml" 52 2833 2850
+type(
+  Names.qualname
+)
+ident(
+  int_ref name "heptagon/hept_utils.ml" 51 2805 2821 "heptagon/hept_utils.ml" 51 2805 2825
+)
+"heptagon/hept_utils.ml" 52 2833 2861 "heptagon/hept_utils.ml" 52 2833 2865
+type(
+  Heptagon.type_dec_desc
+)
+ident(
+  int_ref desc "heptagon/hept_utils.ml" 51 2805 2826 "heptagon/hept_utils.ml" 51 2805 2830
+)
+"heptagon/hept_utils.ml" 52 2833 2875 "heptagon/hept_utils.ml" 52 2833 2886
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+"heptagon/hept_utils.ml" 52 2833 2835 "heptagon/hept_utils.ml" 52 2833 2889
+type(
+  Heptagon.type_dec
+)
+"heptagon/hept_utils.ml" 54 2891 2895 "heptagon/hept_utils.ml" 54 2891 2906
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  def mk_equation "heptagon/hept_utils.ml" 61 3077 3077 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 54 2891 2909 "heptagon/hept_utils.ml" 54 2891 2912
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 54 2891 2913 "heptagon/hept_utils.ml" 54 2891 2924
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 54 2891 2913 "heptagon/hept_utils.ml" 54 2891 2924
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 54 2891 2926 "heptagon/hept_utils.ml" 54 2891 2930
+type(
+  Heptagon.eqdesc
+)
+ident(
+  def desc "heptagon/hept_utils.ml" 55 2933 2935 "heptagon/hept_utils.ml" 59 3056 3075
+)
+"heptagon/hept_utils.ml" 55 2933 2939 "heptagon/hept_utils.ml" 55 2933 2940
+type(
+  Heptagon.eqdesc
+)
+"heptagon/hept_utils.ml" 55 2933 2942 "heptagon/hept_utils.ml" 55 2933 2943
+type(
+  bool
+)
+ident(
+  def s "heptagon/hept_utils.ml" 56 2990 2992 "heptagon/hept_utils.ml" 59 3056 3075
+)
+"heptagon/hept_utils.ml" 55 2933 2939 "heptagon/hept_utils.ml" 55 2933 2943
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/hept_utils.ml" 55 2933 2946 "heptagon/hept_utils.ml" 55 2933 2961
+type(
+  bool Hept_mapfold.hept_it_funs ->
+  bool -> Heptagon.eqdesc -> Heptagon.eqdesc * bool
+)
+ident(
+  ext_ref Stateful.eqdesc
+)
+"heptagon/hept_utils.ml" 55 2933 2962 "heptagon/hept_utils.ml" 55 2933 2975
+type(
+  bool Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Stateful.funs
+)
+"heptagon/hept_utils.ml" 55 2933 2976 "heptagon/hept_utils.ml" 55 2933 2981
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 55 2933 2982 "heptagon/hept_utils.ml" 55 2933 2986
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref desc "heptagon/hept_utils.ml" 54 2891 2926 "heptagon/hept_utils.ml" 54 2891 2930
+)
+"heptagon/hept_utils.ml" 55 2933 2946 "heptagon/hept_utils.ml" 55 2933 2986
+call(
+  stack
+)
+type(
+  Heptagon.eqdesc * bool
+)
+"heptagon/hept_utils.ml" 56 2990 3004 "heptagon/hept_utils.ml" 56 2990 3008
+type(
+  Heptagon.eqdesc
+)
+ident(
+  int_ref desc "heptagon/hept_utils.ml" 54 2891 2926 "heptagon/hept_utils.ml" 54 2891 2930
+)
+"heptagon/hept_utils.ml" 57 3010 3028 "heptagon/hept_utils.ml" 57 3010 3029
+type(
+  bool
+)
+ident(
+  int_ref s "heptagon/hept_utils.ml" 55 2933 2942 "heptagon/hept_utils.ml" 55 2933 2943
+)
+"heptagon/hept_utils.ml" 58 3031 3046 "heptagon/hept_utils.ml" 58 3031 3054
+type(
+  Linearity.init
+)
+"heptagon/hept_utils.ml" 59 3056 3069 "heptagon/hept_utils.ml" 59 3056 3072
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/hept_utils.ml" 54 2891 2909 "heptagon/hept_utils.ml" 54 2891 2912
+)
+"heptagon/hept_utils.ml" 56 2990 2992 "heptagon/hept_utils.ml" 59 3056 3075
+type(
+  Heptagon.eq
+)
+"heptagon/hept_utils.ml" 55 2933 2935 "heptagon/hept_utils.ml" 59 3056 3075
+type(
+  Heptagon.eq
+)
+"heptagon/hept_utils.ml" 61 3077 3081 "heptagon/hept_utils.ml" 61 3077 3091
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  def mk_var_dec "heptagon/hept_utils.ml" 65 3269 3269 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 61 3077 3094 "heptagon/hept_utils.ml" 61 3077 3098
+type(
+  Heptagon.last
+)
+"heptagon/hept_utils.ml" 61 3077 3101 "heptagon/hept_utils.ml" 61 3077 3104
+type(
+  Heptagon.last
+)
+type(
+  Heptagon.last
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 61 3077 3101 "heptagon/hept_utils.ml" 61 3077 3104
+)
+type(
+  Heptagon.last option
+)
+type(
+  Heptagon.last option
+)
+type(
+  Heptagon.last
+)
+"heptagon/hept_utils.ml" 61 3077 3108 "heptagon/hept_utils.ml" 61 3077 3113
+type(
+  Clocks.ck
+)
+"heptagon/hept_utils.ml" 61 3077 3116 "heptagon/hept_utils.ml" 61 3077 3127
+type(
+  unit -> Clocks.ck
+)
+ident(
+  ext_ref Clocks.fresh_clock
+)
+"heptagon/hept_utils.ml" 61 3077 3127 "heptagon/hept_utils.ml" 61 3077 3129
+type(
+  unit
+)
+"heptagon/hept_utils.ml" 61 3077 3116 "heptagon/hept_utils.ml" 61 3077 3129
+call(
+  stack
+)
+type(
+  Clocks.ck
+)
+type(
+  Clocks.ck
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 61 3077 3116 "heptagon/hept_utils.ml" 61 3077 3129
+)
+type(
+  Clocks.ck option
+)
+type(
+  Clocks.ck option
+)
+type(
+  Clocks.ck
+)
+"heptagon/hept_utils.ml" 61 3077 3131 "heptagon/hept_utils.ml" 61 3077 3135
+type(
+  Idents.var_ident
+)
+ident(
+  def name "heptagon/hept_utils.ml" 61 3077 3136 "heptagon/hept_utils.ml" 63 3227 3267
+)
+"heptagon/hept_utils.ml" 61 3077 3136 "heptagon/hept_utils.ml" 61 3077 3138
+type(
+  Types.ty
+)
+ident(
+  def ty "heptagon/hept_utils.ml" 61 3077 3139 "heptagon/hept_utils.ml" 63 3227 3267
+)
+"heptagon/hept_utils.ml" 61 3077 3140 "heptagon/hept_utils.ml" 61 3077 3149
+type(
+  Linearity.linearity
+)
+ident(
+  def linearity "heptagon/hept_utils.ml" 62 3152 3154 "heptagon/hept_utils.ml" 63 3227 3267
+)
+"heptagon/hept_utils.ml" 62 3152 3166 "heptagon/hept_utils.ml" 62 3152 3170
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref name "heptagon/hept_utils.ml" 61 3077 3131 "heptagon/hept_utils.ml" 61 3077 3135
+)
+"heptagon/hept_utils.ml" 62 3152 3181 "heptagon/hept_utils.ml" 62 3152 3183
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "heptagon/hept_utils.ml" 61 3077 3136 "heptagon/hept_utils.ml" 61 3077 3138
+)
+"heptagon/hept_utils.ml" 62 3152 3199 "heptagon/hept_utils.ml" 62 3152 3208
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref linearity "heptagon/hept_utils.ml" 61 3077 3140 "heptagon/hept_utils.ml" 61 3077 3149
+)
+"heptagon/hept_utils.ml" 62 3152 3220 "heptagon/hept_utils.ml" 62 3152 3225
+type(
+  Clocks.ck
+)
+ident(
+  int_ref clock "heptagon/hept_utils.ml" 61 3077 3108 "heptagon/hept_utils.ml" 61 3077 3113
+)
+"heptagon/hept_utils.ml" 63 3227 3240 "heptagon/hept_utils.ml" 63 3227 3244
+type(
+  Heptagon.last
+)
+ident(
+  int_ref last "heptagon/hept_utils.ml" 61 3077 3094 "heptagon/hept_utils.ml" 61 3077 3098
+)
+"heptagon/hept_utils.ml" 63 3227 3254 "heptagon/hept_utils.ml" 63 3227 3265
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+"heptagon/hept_utils.ml" 62 3152 3154 "heptagon/hept_utils.ml" 63 3227 3267
+type(
+  Heptagon.var_dec
+)
+"heptagon/hept_utils.ml" 65 3269 3273 "heptagon/hept_utils.ml" 65 3269 3281
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  def mk_block "heptagon/hept_utils.ml" 69 3456 3456 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 65 3269 3284 "heptagon/hept_utils.ml" 65 3269 3292
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 65 3269 3295 "heptagon/hept_utils.ml" 65 3269 3299
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 65 3269 3295 "heptagon/hept_utils.ml" 65 3269 3299
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 65 3269 3303 "heptagon/hept_utils.ml" 65 3269 3311
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/hept_utils.ml" 65 3269 3314 "heptagon/hept_utils.ml" 65 3269 3323
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 65 3269 3314 "heptagon/hept_utils.ml" 65 3269 3323
+)
+type(
+  Heptagon.var_dec Idents.Env.t option
+)
+type(
+  Heptagon.var_dec Idents.Env.t option
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/hept_utils.ml" 65 3269 3327 "heptagon/hept_utils.ml" 65 3269 3333
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 65 3269 3336 "heptagon/hept_utils.ml" 65 3269 3338
+type(
+  Heptagon.var_dec list
+)
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 65 3269 3336 "heptagon/hept_utils.ml" 65 3269 3338
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 65 3269 3340 "heptagon/hept_utils.ml" 65 3269 3343
+type(
+  Heptagon.eq list
+)
+ident(
+  def eqs "heptagon/hept_utils.ml" 66 3346 3348 "heptagon/hept_utils.ml" 67 3405 3454
+)
+"heptagon/hept_utils.ml" 66 3346 3360 "heptagon/hept_utils.ml" 66 3346 3366
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref locals "heptagon/hept_utils.ml" 65 3269 3327 "heptagon/hept_utils.ml" 65 3269 3333
+)
+"heptagon/hept_utils.ml" 66 3346 3377 "heptagon/hept_utils.ml" 66 3346 3380
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eqs "heptagon/hept_utils.ml" 65 3269 3340 "heptagon/hept_utils.ml" 65 3269 3343
+)
+"heptagon/hept_utils.ml" 66 3346 3395 "heptagon/hept_utils.ml" 66 3346 3403
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/hept_utils.ml" 65 3269 3303 "heptagon/hept_utils.ml" 65 3269 3311
+)
+"heptagon/hept_utils.ml" 67 3405 3422 "heptagon/hept_utils.ml" 67 3405 3430
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/hept_utils.ml" 65 3269 3284 "heptagon/hept_utils.ml" 65 3269 3292
+)
+"heptagon/hept_utils.ml" 67 3405 3440 "heptagon/hept_utils.ml" 67 3405 3451
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+"heptagon/hept_utils.ml" 66 3346 3348 "heptagon/hept_utils.ml" 67 3405 3454
+type(
+  Heptagon.block
+)
+"heptagon/hept_utils.ml" 69 3456 3460 "heptagon/hept_utils.ml" 69 3456 3466
+type(
+  Heptagon.exp
+)
+ident(
+  def dfalse "heptagon/hept_utils.ml" 71 3546 3546 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 70 3469 3471 "heptagon/hept_utils.ml" 70 3469 3477
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp "heptagon/hept_utils.ml" 41 2318 2322 "heptagon/hept_utils.ml" 41 2318 2328
+)
+"heptagon/hept_utils.ml" 70 3469 3487 "heptagon/hept_utils.ml" 70 3469 3501
+type(
+  bool -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_bool
+)
+"heptagon/hept_utils.ml" 70 3469 3502 "heptagon/hept_utils.ml" 70 3469 3507
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 70 3469 3486 "heptagon/hept_utils.ml" 70 3469 3508
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/hept_utils.ml" 70 3469 3478 "heptagon/hept_utils.ml" 70 3469 3509
+type(
+  Heptagon.desc
+)
+"heptagon/hept_utils.ml" 70 3469 3515 "heptagon/hept_utils.ml" 70 3469 3528
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/hept_utils.ml" 70 3469 3510 "heptagon/hept_utils.ml" 70 3469 3529
+type(
+  Types.ty
+)
+"heptagon/hept_utils.ml" 70 3469 3541 "heptagon/hept_utils.ml" 70 3469 3545
+type(
+  Linearity.linearity
+)
+"heptagon/hept_utils.ml" 70 3469 3471 "heptagon/hept_utils.ml" 70 3469 3545
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/hept_utils.ml" 71 3546 3550 "heptagon/hept_utils.ml" 71 3546 3555
+type(
+  Heptagon.exp
+)
+ident(
+  def dtrue "heptagon/hept_utils.ml" 74 3635 3635 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 72 3558 3560 "heptagon/hept_utils.ml" 72 3558 3566
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp "heptagon/hept_utils.ml" 41 2318 2322 "heptagon/hept_utils.ml" 41 2318 2328
+)
+"heptagon/hept_utils.ml" 72 3558 3576 "heptagon/hept_utils.ml" 72 3558 3590
+type(
+  bool -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_bool
+)
+"heptagon/hept_utils.ml" 72 3558 3591 "heptagon/hept_utils.ml" 72 3558 3595
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 72 3558 3575 "heptagon/hept_utils.ml" 72 3558 3596
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/hept_utils.ml" 72 3558 3567 "heptagon/hept_utils.ml" 72 3558 3597
+type(
+  Heptagon.desc
+)
+"heptagon/hept_utils.ml" 72 3558 3603 "heptagon/hept_utils.ml" 72 3558 3616
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/hept_utils.ml" 72 3558 3598 "heptagon/hept_utils.ml" 72 3558 3617
+type(
+  Types.ty
+)
+"heptagon/hept_utils.ml" 72 3558 3629 "heptagon/hept_utils.ml" 72 3558 3633
+type(
+  Linearity.linearity
+)
+"heptagon/hept_utils.ml" 72 3558 3560 "heptagon/hept_utils.ml" 72 3558 3633
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/hept_utils.ml" 74 3635 3639 "heptagon/hept_utils.ml" 74 3635 3652
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def mk_ifthenelse "heptagon/hept_utils.ml" 77 3723 3723 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 74 3635 3653 "heptagon/hept_utils.ml" 74 3635 3655
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/hept_utils.ml" 74 3635 3656 "heptagon/hept_utils.ml" 75 3664 3721
+)
+"heptagon/hept_utils.ml" 74 3635 3656 "heptagon/hept_utils.ml" 74 3635 3658
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/hept_utils.ml" 74 3635 3659 "heptagon/hept_utils.ml" 75 3664 3721
+)
+"heptagon/hept_utils.ml" 74 3635 3659 "heptagon/hept_utils.ml" 74 3635 3661
+type(
+  Heptagon.exp
+)
+ident(
+  def e3 "heptagon/hept_utils.ml" 75 3664 3666 "heptagon/hept_utils.ml" 75 3664 3721
+)
+"heptagon/hept_utils.ml" 75 3664 3668 "heptagon/hept_utils.ml" 75 3664 3670
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e3 "heptagon/hept_utils.ml" 74 3635 3659 "heptagon/hept_utils.ml" 74 3635 3661
+)
+"heptagon/hept_utils.ml" 75 3664 3685 "heptagon/hept_utils.ml" 75 3664 3694
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  int_ref mk_op_app "heptagon/hept_utils.ml" 48 2676 2680 "heptagon/hept_utils.ml" 48 2676 2689
+)
+"heptagon/hept_utils.ml" 75 3664 3695 "heptagon/hept_utils.ml" 75 3664 3706
+type(
+  Heptagon.op
+)
+"heptagon/hept_utils.ml" 75 3664 3708 "heptagon/hept_utils.ml" 75 3664 3710
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/hept_utils.ml" 74 3635 3653 "heptagon/hept_utils.ml" 74 3635 3655
+)
+"heptagon/hept_utils.ml" 75 3664 3712 "heptagon/hept_utils.ml" 75 3664 3714
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/hept_utils.ml" 74 3635 3656 "heptagon/hept_utils.ml" 74 3635 3658
+)
+"heptagon/hept_utils.ml" 75 3664 3716 "heptagon/hept_utils.ml" 75 3664 3718
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e3 "heptagon/hept_utils.ml" 74 3635 3659 "heptagon/hept_utils.ml" 74 3635 3661
+)
+"heptagon/hept_utils.ml" 75 3664 3707 "heptagon/hept_utils.ml" 75 3664 3719
+type(
+  Heptagon.exp list
+)
+"heptagon/hept_utils.ml" 75 3664 3685 "heptagon/hept_utils.ml" 75 3664 3719
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/hept_utils.ml" 75 3664 3666 "heptagon/hept_utils.ml" 75 3664 3721
+type(
+  Heptagon.exp
+)
+"heptagon/hept_utils.ml" 77 3723 3727 "heptagon/hept_utils.ml" 77 3723 3745
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  def mk_simple_equation "heptagon/hept_utils.ml" 80 3783 3783 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 77 3723 3746 "heptagon/hept_utils.ml" 77 3723 3749
+type(
+  Heptagon.pat
+)
+ident(
+  def pat "heptagon/hept_utils.ml" 77 3723 3750 "heptagon/hept_utils.ml" 78 3754 3781
+)
+"heptagon/hept_utils.ml" 77 3723 3750 "heptagon/hept_utils.ml" 77 3723 3751
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/hept_utils.ml" 78 3754 3756 "heptagon/hept_utils.ml" 78 3754 3781
+)
+"heptagon/hept_utils.ml" 78 3754 3756 "heptagon/hept_utils.ml" 78 3754 3767
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  int_ref mk_equation "heptagon/hept_utils.ml" 54 2891 2895 "heptagon/hept_utils.ml" 54 2891 2906
+)
+"heptagon/hept_utils.ml" 78 3754 3773 "heptagon/hept_utils.ml" 78 3754 3776
+type(
+  Heptagon.pat
+)
+ident(
+  int_ref pat "heptagon/hept_utils.ml" 77 3723 3746 "heptagon/hept_utils.ml" 77 3723 3749
+)
+"heptagon/hept_utils.ml" 78 3754 3778 "heptagon/hept_utils.ml" 78 3754 3779
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/hept_utils.ml" 77 3723 3750 "heptagon/hept_utils.ml" 77 3723 3751
+)
+"heptagon/hept_utils.ml" 78 3754 3768 "heptagon/hept_utils.ml" 78 3754 3781
+type(
+  Heptagon.eqdesc
+)
+"heptagon/hept_utils.ml" 78 3754 3756 "heptagon/hept_utils.ml" 78 3754 3781
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/hept_utils.ml" 80 3783 3787 "heptagon/hept_utils.ml" 80 3783 3805
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  def mk_switch_equation "heptagon/hept_utils.ml" 83 3844 3844 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 80 3783 3806 "heptagon/hept_utils.ml" 80 3783 3807
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/hept_utils.ml" 80 3783 3808 "heptagon/hept_utils.ml" 81 3812 3842
+)
+"heptagon/hept_utils.ml" 80 3783 3808 "heptagon/hept_utils.ml" 80 3783 3809
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def l "heptagon/hept_utils.ml" 81 3812 3814 "heptagon/hept_utils.ml" 81 3812 3842
+)
+"heptagon/hept_utils.ml" 81 3812 3814 "heptagon/hept_utils.ml" 81 3812 3825
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  int_ref mk_equation "heptagon/hept_utils.ml" 54 2891 2895 "heptagon/hept_utils.ml" 54 2891 2906
+)
+"heptagon/hept_utils.ml" 81 3812 3836 "heptagon/hept_utils.ml" 81 3812 3837
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/hept_utils.ml" 80 3783 3806 "heptagon/hept_utils.ml" 80 3783 3807
+)
+"heptagon/hept_utils.ml" 81 3812 3839 "heptagon/hept_utils.ml" 81 3812 3840
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref l "heptagon/hept_utils.ml" 80 3783 3808 "heptagon/hept_utils.ml" 80 3783 3809
+)
+"heptagon/hept_utils.ml" 81 3812 3826 "heptagon/hept_utils.ml" 81 3812 3842
+type(
+  Heptagon.eqdesc
+)
+"heptagon/hept_utils.ml" 81 3812 3814 "heptagon/hept_utils.ml" 81 3812 3842
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/hept_utils.ml" 83 3844 3848 "heptagon/hept_utils.ml" 83 3844 3860
+type(
+  Names.qualname ->
+  extern:bool ->
+  Signature.arg list ->
+  Signature.arg list ->
+  bool ->
+  Signature.param list ->
+  Signature.constrnt list -> Location.location -> Heptagon.signature
+)
+ident(
+  def mk_signature "heptagon/hept_utils.ml" 93 4127 4127 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 83 3844 3861 "heptagon/hept_utils.ml" 83 3844 3865
+type(
+  Names.qualname
+)
+ident(
+  def name "heptagon/hept_utils.ml" 83 3844 3866 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3867 "heptagon/hept_utils.ml" 83 3844 3873
+type(
+  bool
+)
+ident(
+  def extern "heptagon/hept_utils.ml" 83 3844 3874 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3874 "heptagon/hept_utils.ml" 83 3844 3877
+type(
+  Signature.arg list
+)
+ident(
+  def ins "heptagon/hept_utils.ml" 83 3844 3878 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3878 "heptagon/hept_utils.ml" 83 3844 3882
+type(
+  Signature.arg list
+)
+ident(
+  def outs "heptagon/hept_utils.ml" 83 3844 3883 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3883 "heptagon/hept_utils.ml" 83 3844 3891
+type(
+  bool
+)
+ident(
+  def stateful "heptagon/hept_utils.ml" 83 3844 3892 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3892 "heptagon/hept_utils.ml" 83 3844 3898
+type(
+  Signature.param list
+)
+ident(
+  def params "heptagon/hept_utils.ml" 83 3844 3899 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3899 "heptagon/hept_utils.ml" 83 3844 3910
+type(
+  Signature.constrnt list
+)
+ident(
+  def constraints "heptagon/hept_utils.ml" 83 3844 3911 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 83 3844 3911 "heptagon/hept_utils.ml" 83 3844 3914
+type(
+  Location.location
+)
+ident(
+  def loc "heptagon/hept_utils.ml" 84 3917 3919 "heptagon/hept_utils.ml" 91 4106 4125
+)
+"heptagon/hept_utils.ml" 84 3917 3932 "heptagon/hept_utils.ml" 84 3917 3936
+type(
+  Names.qualname
+)
+ident(
+  int_ref name "heptagon/hept_utils.ml" 83 3844 3861 "heptagon/hept_utils.ml" 83 3844 3865
+)
+"heptagon/hept_utils.ml" 85 3938 3955 "heptagon/hept_utils.ml" 85 3938 3958
+type(
+  Signature.arg list
+)
+ident(
+  int_ref ins "heptagon/hept_utils.ml" 83 3844 3874 "heptagon/hept_utils.ml" 83 3844 3877
+)
+"heptagon/hept_utils.ml" 86 3960 3979 "heptagon/hept_utils.ml" 86 3960 3987
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/hept_utils.ml" 83 3844 3883 "heptagon/hept_utils.ml" 83 3844 3891
+)
+"heptagon/hept_utils.ml" 87 3989 4007 "heptagon/hept_utils.ml" 87 3989 4011
+type(
+  Signature.arg list
+)
+ident(
+  int_ref outs "heptagon/hept_utils.ml" 83 3844 3878 "heptagon/hept_utils.ml" 83 3844 3882
+)
+"heptagon/hept_utils.ml" 88 4013 4030 "heptagon/hept_utils.ml" 88 4013 4036
+type(
+  Signature.param list
+)
+ident(
+  int_ref params "heptagon/hept_utils.ml" 83 3844 3892 "heptagon/hept_utils.ml" 83 3844 3898
+)
+"heptagon/hept_utils.ml" 89 4038 4066 "heptagon/hept_utils.ml" 89 4038 4077
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref constraints "heptagon/hept_utils.ml" 83 3844 3899 "heptagon/hept_utils.ml" 83 3844 3910
+)
+"heptagon/hept_utils.ml" 90 4079 4098 "heptagon/hept_utils.ml" 90 4079 4104
+type(
+  bool
+)
+ident(
+  int_ref extern "heptagon/hept_utils.ml" 83 3844 3867 "heptagon/hept_utils.ml" 83 3844 3873
+)
+"heptagon/hept_utils.ml" 91 4106 4120 "heptagon/hept_utils.ml" 91 4106 4123
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/hept_utils.ml" 83 3844 3911 "heptagon/hept_utils.ml" 83 3844 3914
+)
+"heptagon/hept_utils.ml" 84 3917 3919 "heptagon/hept_utils.ml" 91 4106 4125
+type(
+  Heptagon.signature
+)
+"heptagon/hept_utils.ml" 93 4127 4131 "heptagon/hept_utils.ml" 93 4127 4138
+type(
+  ?input:Heptagon.var_dec list ->
+  ?output:Heptagon.var_dec list ->
+  ?contract:Heptagon.contract option ->
+  ?stateful:bool ->
+  ?unsafe:bool ->
+  ?loc:Location.location ->
+  ?param:Signature.param list ->
+  ?constraints:Signature.constrnt list ->
+  Names.qualname -> Heptagon.block -> Heptagon.node_dec
+)
+ident(
+  def mk_node "heptagon/hept_utils.ml" 109 4599 4599 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 94 4139 4145 "heptagon/hept_utils.ml" 94 4139 4150
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 94 4139 4153 "heptagon/hept_utils.ml" 94 4139 4155
+type(
+  Heptagon.var_dec list
+)
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 94 4139 4153 "heptagon/hept_utils.ml" 94 4139 4155
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 94 4139 4159 "heptagon/hept_utils.ml" 94 4139 4165
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 94 4139 4168 "heptagon/hept_utils.ml" 94 4139 4170
+type(
+  Heptagon.var_dec list
+)
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 94 4139 4168 "heptagon/hept_utils.ml" 94 4139 4170
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list option
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 94 4139 4174 "heptagon/hept_utils.ml" 94 4139 4182
+type(
+  Heptagon.contract option
+)
+"heptagon/hept_utils.ml" 94 4139 4185 "heptagon/hept_utils.ml" 94 4139 4189
+type(
+  Heptagon.contract option
+)
+type(
+  Heptagon.contract option
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 94 4139 4185 "heptagon/hept_utils.ml" 94 4139 4189
+)
+type(
+  Heptagon.contract option option
+)
+type(
+  Heptagon.contract option option
+)
+type(
+  Heptagon.contract option
+)
+"heptagon/hept_utils.ml" 95 4191 4197 "heptagon/hept_utils.ml" 95 4191 4205
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 95 4191 4208 "heptagon/hept_utils.ml" 95 4191 4212
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 95 4191 4208 "heptagon/hept_utils.ml" 95 4191 4212
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 95 4191 4216 "heptagon/hept_utils.ml" 95 4191 4222
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 95 4191 4225 "heptagon/hept_utils.ml" 95 4191 4230
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 95 4191 4225 "heptagon/hept_utils.ml" 95 4191 4230
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 95 4191 4234 "heptagon/hept_utils.ml" 95 4191 4237
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 95 4191 4240 "heptagon/hept_utils.ml" 95 4191 4251
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 95 4191 4240 "heptagon/hept_utils.ml" 95 4191 4251
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 95 4191 4255 "heptagon/hept_utils.ml" 95 4191 4260
+type(
+  Signature.param list
+)
+"heptagon/hept_utils.ml" 95 4191 4263 "heptagon/hept_utils.ml" 95 4191 4265
+type(
+  Signature.param list
+)
+type(
+  Signature.param list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 95 4191 4263 "heptagon/hept_utils.ml" 95 4191 4265
+)
+type(
+  Signature.param list option
+)
+type(
+  Signature.param list option
+)
+type(
+  Signature.param list
+)
+"heptagon/hept_utils.ml" 95 4191 4269 "heptagon/hept_utils.ml" 95 4191 4280
+type(
+  Signature.constrnt list
+)
+"heptagon/hept_utils.ml" 95 4191 4283 "heptagon/hept_utils.ml" 95 4191 4285
+type(
+  Signature.constrnt list
+)
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref *sth* "heptagon/hept_utils.ml" 95 4191 4283 "heptagon/hept_utils.ml" 95 4191 4285
+)
+type(
+  Signature.constrnt list option
+)
+type(
+  Signature.constrnt list option
+)
+type(
+  Signature.constrnt list
+)
+"heptagon/hept_utils.ml" 96 4287 4291 "heptagon/hept_utils.ml" 96 4287 4295
+type(
+  Names.qualname
+)
+ident(
+  def name "heptagon/hept_utils.ml" 96 4287 4296 "heptagon/hept_utils.ml" 106 4504 4543
+)
+"heptagon/hept_utils.ml" 96 4287 4296 "heptagon/hept_utils.ml" 96 4287 4301
+type(
+  Heptagon.block
+)
+ident(
+  def block "heptagon/hept_utils.ml" 97 4304 4306 "heptagon/hept_utils.ml" 106 4504 4543
+)
+"heptagon/hept_utils.ml" 97 4304 4317 "heptagon/hept_utils.ml" 97 4304 4321
+type(
+  Names.qualname
+)
+ident(
+  int_ref name "heptagon/hept_utils.ml" 96 4287 4291 "heptagon/hept_utils.ml" 96 4287 4295
+)
+"heptagon/hept_utils.ml" 98 4323 4340 "heptagon/hept_utils.ml" 98 4323 4348
+type(
+  bool
+)
+ident(
+  int_ref stateful "heptagon/hept_utils.ml" 95 4191 4197 "heptagon/hept_utils.ml" 95 4191 4205
+)
+"heptagon/hept_utils.ml" 99 4350 4365 "heptagon/hept_utils.ml" 99 4350 4371
+type(
+  bool
+)
+ident(
+  int_ref unsafe "heptagon/hept_utils.ml" 95 4191 4216 "heptagon/hept_utils.ml" 95 4191 4222
+)
+"heptagon/hept_utils.ml" 100 4373 4387 "heptagon/hept_utils.ml" 100 4373 4392
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref input "heptagon/hept_utils.ml" 94 4139 4145 "heptagon/hept_utils.ml" 94 4139 4150
+)
+"heptagon/hept_utils.ml" 101 4394 4409 "heptagon/hept_utils.ml" 101 4394 4415
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref output "heptagon/hept_utils.ml" 94 4139 4159 "heptagon/hept_utils.ml" 94 4139 4165
+)
+"heptagon/hept_utils.ml" 102 4417 4434 "heptagon/hept_utils.ml" 102 4417 4442
+type(
+  Heptagon.contract option
+)
+ident(
+  int_ref contract "heptagon/hept_utils.ml" 94 4139 4174 "heptagon/hept_utils.ml" 94 4139 4182
+)
+"heptagon/hept_utils.ml" 103 4444 4458 "heptagon/hept_utils.ml" 103 4444 4463
+type(
+  Heptagon.block
+)
+ident(
+  int_ref block "heptagon/hept_utils.ml" 96 4287 4296 "heptagon/hept_utils.ml" 96 4287 4301
+)
+"heptagon/hept_utils.ml" 104 4465 4477 "heptagon/hept_utils.ml" 104 4465 4480
+type(
+  Location.location
+)
+ident(
+  int_ref loc "heptagon/hept_utils.ml" 95 4191 4234 "heptagon/hept_utils.ml" 95 4191 4237
+)
+"heptagon/hept_utils.ml" 105 4482 4497 "heptagon/hept_utils.ml" 105 4482 4502
+type(
+  Signature.param list
+)
+ident(
+  int_ref param "heptagon/hept_utils.ml" 95 4191 4255 "heptagon/hept_utils.ml" 95 4191 4260
+)
+"heptagon/hept_utils.ml" 106 4504 4530 "heptagon/hept_utils.ml" 106 4504 4541
+type(
+  Signature.constrnt list
+)
+ident(
+  int_ref constraints "heptagon/hept_utils.ml" 95 4191 4269 "heptagon/hept_utils.ml" 95 4191 4280
+)
+"heptagon/hept_utils.ml" 97 4304 4306 "heptagon/hept_utils.ml" 106 4504 4543
+type(
+  Heptagon.node_dec
+)
+"heptagon/hept_utils.ml" 109 4599 4603 "heptagon/hept_utils.ml" 109 4599 4611
+type(
+  Heptagon.pat -> Idents.IdentSet.t
+)
+ident(
+  def vars_pat "heptagon/hept_utils.ml" 120 4993 4993 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 109 4599 4612 "heptagon/hept_utils.ml" 109 4599 4615
+type(
+  Heptagon.pat
+)
+ident(
+  def pat "heptagon/hept_utils.ml" 110 4618 4620 "heptagon/hept_utils.ml" 116 4862 4910
+)
+"heptagon/hept_utils.ml" 110 4618 4628 "heptagon/hept_utils.ml" 110 4618 4637
+type(
+  Idents.IdentSet.t -> Idents.IdentSet.t -> Heptagon.pat -> Idents.IdentSet.t
+)
+ident(
+  def _vars_pat "heptagon/hept_utils.ml" 110 4618 4620 "heptagon/hept_utils.ml" 116 4862 4910
+)
+"heptagon/hept_utils.ml" 110 4618 4638 "heptagon/hept_utils.ml" 110 4618 4644
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def locals "heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 115 4787 4861
+)
+"heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 110 4618 4648
+type(
+  Idents.IdentSet.t
+)
+ident(
+  def acc "heptagon/hept_utils.ml" 110 4618 4651 "heptagon/hept_utils.ml" 115 4787 4861
+)
+"heptagon/hept_utils.ml" 111 4660 4674 "heptagon/hept_utils.ml" 111 4660 4675
+type(
+  Idents.var_ident
+)
+ident(
+  def x "heptagon/hept_utils.ml" 112 4679 4687 "heptagon/hept_utils.ml" 114 4755 4786
+)
+"heptagon/hept_utils.ml" 111 4660 4666 "heptagon/hept_utils.ml" 111 4660 4675
+type(
+  Heptagon.pat
+)
+"heptagon/hept_utils.ml" 112 4679 4691 "heptagon/hept_utils.ml" 112 4679 4703
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> bool
+)
+ident(
+  ext_ref Idents.IdentSet.mem
+)
+"heptagon/hept_utils.ml" 112 4679 4704 "heptagon/hept_utils.ml" 112 4679 4705
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/hept_utils.ml" 111 4660 4674 "heptagon/hept_utils.ml" 111 4660 4675
+)
+"heptagon/hept_utils.ml" 112 4679 4706 "heptagon/hept_utils.ml" 112 4679 4712
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref locals "heptagon/hept_utils.ml" 110 4618 4638 "heptagon/hept_utils.ml" 110 4618 4644
+)
+"heptagon/hept_utils.ml" 112 4679 4690 "heptagon/hept_utils.ml" 112 4679 4713
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 112 4679 4714 "heptagon/hept_utils.ml" 112 4679 4716
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/hept_utils.ml" 112 4679 4718 "heptagon/hept_utils.ml" 112 4679 4730
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> bool
+)
+ident(
+  ext_ref Idents.IdentSet.mem
+)
+"heptagon/hept_utils.ml" 112 4679 4731 "heptagon/hept_utils.ml" 112 4679 4732
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/hept_utils.ml" 111 4660 4674 "heptagon/hept_utils.ml" 111 4660 4675
+)
+"heptagon/hept_utils.ml" 112 4679 4733 "heptagon/hept_utils.ml" 112 4679 4736
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref acc "heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 110 4618 4648
+)
+"heptagon/hept_utils.ml" 112 4679 4717 "heptagon/hept_utils.ml" 112 4679 4737
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 112 4679 4690 "heptagon/hept_utils.ml" 112 4679 4737
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 113 4738 4751 "heptagon/hept_utils.ml" 113 4738 4754
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref acc "heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 110 4618 4648
+)
+"heptagon/hept_utils.ml" 114 4755 4768 "heptagon/hept_utils.ml" 114 4755 4780
+type(
+  Idents.IdentSet.elt -> Idents.IdentSet.t -> Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.add
+)
+"heptagon/hept_utils.ml" 114 4755 4781 "heptagon/hept_utils.ml" 114 4755 4782
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "heptagon/hept_utils.ml" 111 4660 4674 "heptagon/hept_utils.ml" 111 4660 4675
+)
+"heptagon/hept_utils.ml" 114 4755 4783 "heptagon/hept_utils.ml" 114 4755 4786
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref acc "heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 110 4618 4648
+)
+"heptagon/hept_utils.ml" 114 4755 4768 "heptagon/hept_utils.ml" 114 4755 4786
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 112 4679 4687 "heptagon/hept_utils.ml" 114 4755 4786
+type(
+  Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 115 4787 4803 "heptagon/hept_utils.ml" 115 4787 4811
+type(
+  Heptagon.pat list
+)
+ident(
+  def pat_list "heptagon/hept_utils.ml" 115 4787 4815 "heptagon/hept_utils.ml" 115 4787 4861
+)
+"heptagon/hept_utils.ml" 115 4787 4793 "heptagon/hept_utils.ml" 115 4787 4811
+type(
+  Heptagon.pat
+)
+"heptagon/hept_utils.ml" 115 4787 4815 "heptagon/hept_utils.ml" 115 4787 4829
+type(
+  (Idents.IdentSet.t -> Heptagon.pat -> Idents.IdentSet.t) ->
+  Idents.IdentSet.t -> Heptagon.pat list -> Idents.IdentSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/hept_utils.ml" 115 4787 4831 "heptagon/hept_utils.ml" 115 4787 4840
+type(
+  Idents.IdentSet.t -> Idents.IdentSet.t -> Heptagon.pat -> Idents.IdentSet.t
+)
+ident(
+  int_ref _vars_pat "heptagon/hept_utils.ml" 110 4618 4628 "heptagon/hept_utils.ml" 110 4618 4637
+)
+"heptagon/hept_utils.ml" 115 4787 4841 "heptagon/hept_utils.ml" 115 4787 4847
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref locals "heptagon/hept_utils.ml" 110 4618 4638 "heptagon/hept_utils.ml" 110 4618 4644
+)
+"heptagon/hept_utils.ml" 115 4787 4830 "heptagon/hept_utils.ml" 115 4787 4848
+call(
+  stack
+)
+type(
+  Idents.IdentSet.t -> Heptagon.pat -> Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 115 4787 4849 "heptagon/hept_utils.ml" 115 4787 4852
+type(
+  Idents.IdentSet.t
+)
+ident(
+  int_ref acc "heptagon/hept_utils.ml" 110 4618 4645 "heptagon/hept_utils.ml" 110 4618 4648
+)
+"heptagon/hept_utils.ml" 115 4787 4853 "heptagon/hept_utils.ml" 115 4787 4861
+type(
+  Heptagon.pat list
+)
+ident(
+  int_ref pat_list "heptagon/hept_utils.ml" 115 4787 4803 "heptagon/hept_utils.ml" 115 4787 4811
+)
+"heptagon/hept_utils.ml" 115 4787 4815 "heptagon/hept_utils.ml" 115 4787 4861
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 110 4618 4651 "heptagon/hept_utils.ml" 115 4787 4861
+type(
+  Heptagon.pat -> Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 116 4862 4867 "heptagon/hept_utils.ml" 116 4862 4876
+type(
+  Idents.IdentSet.t -> Idents.IdentSet.t -> Heptagon.pat -> Idents.IdentSet.t
+)
+ident(
+  int_ref _vars_pat "heptagon/hept_utils.ml" 110 4618 4628 "heptagon/hept_utils.ml" 110 4618 4637
+)
+"heptagon/hept_utils.ml" 116 4862 4877 "heptagon/hept_utils.ml" 116 4862 4891
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"heptagon/hept_utils.ml" 116 4862 4892 "heptagon/hept_utils.ml" 116 4862 4906
+type(
+  Idents.IdentSet.t
+)
+ident(
+  ext_ref Idents.IdentSet.empty
+)
+"heptagon/hept_utils.ml" 116 4862 4907 "heptagon/hept_utils.ml" 116 4862 4910
+type(
+  Heptagon.pat
+)
+ident(
+  int_ref pat "heptagon/hept_utils.ml" 109 4599 4612 "heptagon/hept_utils.ml" 109 4599 4615
+)
+"heptagon/hept_utils.ml" 116 4862 4867 "heptagon/hept_utils.ml" 116 4862 4910
+call(
+  tail
+)
+type(
+  Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 110 4618 4620 "heptagon/hept_utils.ml" 116 4862 4910
+type(
+  Idents.IdentSet.t
+)
+"heptagon/hept_utils.ml" 120 4993 5001 "heptagon/hept_utils.ml" 120 4993 5007
+type(
+  Idents.var_ident -> Heptagon.var_dec list -> bool
+)
+ident(
+  def vd_mem "heptagon/hept_utils.ml" 120 4993 4993 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 120 4993 5008 "heptagon/hept_utils.ml" 120 4993 5009
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/hept_utils.ml" 120 4993 5012 "heptagon/hept_utils.ml" 122 5037 5080
+)
+"heptagon/hept_utils.ml" 121 5021 5025 "heptagon/hept_utils.ml" 121 5021 5027
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 121 5021 5031 "heptagon/hept_utils.ml" 121 5021 5036
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 122 5037 5041 "heptagon/hept_utils.ml" 122 5037 5043
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5080
+)
+"heptagon/hept_utils.ml" 122 5037 5045 "heptagon/hept_utils.ml" 122 5037 5046
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def l "heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5080
+)
+"heptagon/hept_utils.ml" 122 5037 5041 "heptagon/hept_utils.ml" 122 5037 5046
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5052
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/hept_utils.ml" 122 5037 5041 "heptagon/hept_utils.ml" 122 5037 5043
+)
+"heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5060
+type(
+  Idents.var_ident
+)
+"heptagon/hept_utils.ml" 122 5037 5061 "heptagon/hept_utils.ml" 122 5037 5062
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/hept_utils.ml" 122 5037 5063 "heptagon/hept_utils.ml" 122 5037 5064
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 120 4993 5008 "heptagon/hept_utils.ml" 120 4993 5009
+)
+"heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5064
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 122 5037 5065 "heptagon/hept_utils.ml" 122 5037 5067
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"heptagon/hept_utils.ml" 122 5037 5069 "heptagon/hept_utils.ml" 122 5037 5075
+type(
+  Idents.var_ident -> Heptagon.var_dec list -> bool
+)
+ident(
+  int_ref vd_mem "heptagon/hept_utils.ml" 120 4993 5001 "heptagon/hept_utils.ml" 120 4993 5007
+)
+"heptagon/hept_utils.ml" 122 5037 5076 "heptagon/hept_utils.ml" 122 5037 5077
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 120 4993 5008 "heptagon/hept_utils.ml" 120 4993 5009
+)
+"heptagon/hept_utils.ml" 122 5037 5078 "heptagon/hept_utils.ml" 122 5037 5079
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref l "heptagon/hept_utils.ml" 122 5037 5045 "heptagon/hept_utils.ml" 122 5037 5046
+)
+"heptagon/hept_utils.ml" 122 5037 5068 "heptagon/hept_utils.ml" 122 5037 5080
+call(
+  tail
+)
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 122 5037 5050 "heptagon/hept_utils.ml" 122 5037 5080
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 120 4993 5012 "heptagon/hept_utils.ml" 122 5037 5080
+type(
+  Heptagon.var_dec list -> bool
+)
+"heptagon/hept_utils.ml" 124 5082 5086 "heptagon/hept_utils.ml" 124 5082 5102
+type(
+  Heptagon.var_dec list -> Signature.arg list
+)
+ident(
+  def args_of_var_decs "heptagon/hept_utils.ml" 130 5351 5351 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 126 5169 5170 "heptagon/hept_utils.ml" 126 5169 5178
+type(
+  (Heptagon.var_dec -> Signature.arg) ->
+  Heptagon.var_dec list -> Signature.arg list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/hept_utils.ml" 127 5179 5187 "heptagon/hept_utils.ml" 127 5179 5189
+type(
+  Heptagon.var_dec
+)
+ident(
+  def vd "heptagon/hept_utils.ml" 127 5179 5193 "heptagon/hept_utils.ml" 128 5249 5348
+)
+"heptagon/hept_utils.ml" 127 5179 5193 "heptagon/hept_utils.ml" 127 5179 5209
+type(
+  Names.name option ->
+  Types.ty -> Linearity.linearity -> Signature.ck -> Signature.arg
+)
+ident(
+  ext_ref Signature.mk_arg
+)
+"heptagon/hept_utils.ml" 127 5179 5217 "heptagon/hept_utils.ml" 127 5179 5235
+type(
+  Idents.var_ident -> Names.name
+)
+ident(
+  ext_ref Idents.source_name
+)
+"heptagon/hept_utils.ml" 127 5179 5236 "heptagon/hept_utils.ml" 127 5179 5238
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/hept_utils.ml" 127 5179 5187 "heptagon/hept_utils.ml" 127 5179 5189
+)
+"heptagon/hept_utils.ml" 127 5179 5236 "heptagon/hept_utils.ml" 127 5179 5246
+type(
+  Idents.var_ident
+)
+"heptagon/hept_utils.ml" 127 5179 5216 "heptagon/hept_utils.ml" 127 5179 5247
+call(
+  stack
+)
+type(
+  Names.name
+)
+"heptagon/hept_utils.ml" 127 5179 5210 "heptagon/hept_utils.ml" 127 5179 5248
+type(
+  Names.name option
+)
+"heptagon/hept_utils.ml" 128 5249 5280 "heptagon/hept_utils.ml" 128 5249 5282
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/hept_utils.ml" 127 5179 5187 "heptagon/hept_utils.ml" 127 5179 5189
+)
+"heptagon/hept_utils.ml" 128 5249 5280 "heptagon/hept_utils.ml" 128 5249 5289
+type(
+  Types.ty
+)
+"heptagon/hept_utils.ml" 128 5249 5291 "heptagon/hept_utils.ml" 128 5249 5316
+type(
+  Linearity.linearity -> Linearity.linearity
+)
+ident(
+  ext_ref Linearity.check_linearity
+)
+"heptagon/hept_utils.ml" 128 5249 5317 "heptagon/hept_utils.ml" 128 5249 5319
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref vd "heptagon/hept_utils.ml" 127 5179 5187 "heptagon/hept_utils.ml" 127 5179 5189
+)
+"heptagon/hept_utils.ml" 128 5249 5317 "heptagon/hept_utils.ml" 128 5249 5331
+type(
+  Linearity.linearity
+)
+"heptagon/hept_utils.ml" 128 5249 5290 "heptagon/hept_utils.ml" 128 5249 5332
+call(
+  stack
+)
+type(
+  Linearity.linearity
+)
+"heptagon/hept_utils.ml" 128 5249 5333 "heptagon/hept_utils.ml" 128 5249 5348
+type(
+  Signature.ck
+)
+"heptagon/hept_utils.ml" 127 5179 5193 "heptagon/hept_utils.ml" 128 5249 5348
+call(
+  tail
+)
+type(
+  Signature.arg
+)
+"heptagon/hept_utils.ml" 127 5179 5182 "heptagon/hept_utils.ml" 128 5249 5349
+type(
+  Heptagon.var_dec -> Signature.arg
+)
+"heptagon/hept_utils.ml" 126 5169 5170 "heptagon/hept_utils.ml" 128 5249 5349
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list -> Signature.arg list
+)
+"heptagon/hept_utils.ml" 130 5351 5355 "heptagon/hept_utils.ml" 130 5351 5372
+type(
+  Heptagon.node_dec -> Signature.node
+)
+ident(
+  def signature_of_node "heptagon/hept_utils.ml" 138 5659 5685 "heptagon/hept_utils.ml" 1 0 -1
+)
+"heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+type(
+  Heptagon.node_dec
+)
+ident(
+  def n "heptagon/hept_utils.ml" 131 5377 5381 "heptagon/hept_utils.ml" 138 5659 5685
+)
+"heptagon/hept_utils.ml" 131 5377 5397 "heptagon/hept_utils.ml" 131 5377 5413
+type(
+  Heptagon.var_dec list -> Signature.arg list
+)
+ident(
+  int_ref args_of_var_decs "heptagon/hept_utils.ml" 124 5082 5086 "heptagon/hept_utils.ml" 124 5082 5102
+)
+"heptagon/hept_utils.ml" 131 5377 5414 "heptagon/hept_utils.ml" 131 5377 5415
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 131 5377 5414 "heptagon/hept_utils.ml" 131 5377 5423
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 131 5377 5397 "heptagon/hept_utils.ml" 131 5377 5423
+call(
+  stack
+)
+type(
+  Signature.arg list
+)
+"heptagon/hept_utils.ml" 132 5425 5447 "heptagon/hept_utils.ml" 132 5425 5463
+type(
+  Heptagon.var_dec list -> Signature.arg list
+)
+ident(
+  int_ref args_of_var_decs "heptagon/hept_utils.ml" 124 5082 5086 "heptagon/hept_utils.ml" 124 5082 5102
+)
+"heptagon/hept_utils.ml" 132 5425 5464 "heptagon/hept_utils.ml" 132 5425 5465
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 132 5425 5464 "heptagon/hept_utils.ml" 132 5425 5474
+type(
+  Heptagon.var_dec list
+)
+"heptagon/hept_utils.ml" 132 5425 5447 "heptagon/hept_utils.ml" 132 5425 5474
+call(
+  stack
+)
+type(
+  Signature.arg list
+)
+"heptagon/hept_utils.ml" 133 5476 5498 "heptagon/hept_utils.ml" 133 5476 5499
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 133 5476 5498 "heptagon/hept_utils.ml" 133 5476 5510
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 134 5512 5532 "heptagon/hept_utils.ml" 134 5512 5533
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 134 5512 5532 "heptagon/hept_utils.ml" 134 5512 5542
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 135 5544 5564 "heptagon/hept_utils.ml" 135 5544 5565
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 135 5544 5564 "heptagon/hept_utils.ml" 135 5544 5574
+type(
+  Signature.param list
+)
+"heptagon/hept_utils.ml" 136 5576 5607 "heptagon/hept_utils.ml" 136 5576 5608
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 136 5576 5607 "heptagon/hept_utils.ml" 136 5576 5628
+type(
+  Signature.constrnt list
+)
+"heptagon/hept_utils.ml" 137 5630 5652 "heptagon/hept_utils.ml" 137 5630 5657
+type(
+  bool
+)
+"heptagon/hept_utils.ml" 138 5659 5676 "heptagon/hept_utils.ml" 138 5659 5677
+type(
+  Heptagon.node_dec
+)
+ident(
+  int_ref n "heptagon/hept_utils.ml" 130 5351 5373 "heptagon/hept_utils.ml" 130 5351 5374
+)
+"heptagon/hept_utils.ml" 138 5659 5676 "heptagon/hept_utils.ml" 138 5659 5683
+type(
+  Location.location
+)
+"heptagon/hept_utils.ml" 131 5377 5381 "heptagon/hept_utils.ml" 138 5659 5685
+type(
+  Signature.node
+)

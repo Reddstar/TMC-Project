@@ -1,0 +1,148 @@
+% -*- Latex -*-
+\section{Le Résolveur}
+Le résolveur est le module du simulateur qui assure la résolution des équations
+sur horloges et signaux booléens. Il accepte des équations sous forme partiellement
+résolue et guide leur résolution à travers un dialogue itératif avec l'utilisateur.
+Pendant ce dialogue la solution est choisie variable par variable. L'instanciation 
+d'une variable entraine de nouvelles contraintes sur les variables restantes.
+Un mode automatique 
+est également prévu, basé sur le même algorithme où le choix de l'utilisateur est
+remplacé par un tirage aléatoire pour chaque variable à déterminer.
+
+\subsection{Les équations}
+Une équation partiellement résolue est une liste de fonctions polynomiales
+\[
+\begin{array}{ccc}
+x_k &=& f_1(x_{k+1}, ... , x_n,p_1, ... , p_m)\\
+&... & \\
+x_1 &=& f_1(x_2, ... , x_n,p_1, ... , p_m) 
+\end{array}
+\]
+représentant la partie triangularisée d'une équation et une équation résiduelle:
+\[
+\begin{array}{ccc}
+Q(x_{k+1},..., x_n, p_1, ... , p_m)& =& 0
+\end{array}
+\]
+Les $x_i$ sont les inconnues et les $p_j$ représentent les paramêtres. Une équation
+résiduelle ne peut être résolue que si tous ses paramêtres sont instanciés.
+
+Le résolveur peut gérer plusieurs équations de ce type. 
+
+\subsection{Les variables}
+Le résolveur gère un certain nombre de variables représentant des paramètres d'équations, 
+des arguments de fonctions, des inconnues ou des états. Certaines variables peuvent 
+changer de statut en fonction de l'équation partiellement résolue qui est 
+en cours de résolution. 
+
+Aux variables peuvent être associées une ou plusieurs valeurs dans $Z/3Z$. La gestion de ces
+valeurs est différente suivant le status de la variable. Une variable non rémanente
+peut être dans un état {\bf indeterminé} s'il n'y a pas de valeur associée; 
+{\bf pré-instanciée} si plusieurs valeurs sont associées et enfin {\bf instanciée} si
+une seule valeur est associée. Une variable non-rémanente, dans l'état instancié, ne peut
+changer de valeur ni même d'état en dehors d'un {\bf raz} de toutes les variables non-rémanentes.
+ Une tentative de réinstanciation d'une variable instanciée amène une erreur fatale.
+
+Par contre, une variable rémanente est toujours {\bf instanciée} mais sa valeur peut
+être modifiée.
+
+Les variables sont globales et donc visibles par toutes les configurations. Leur état
+peut changer de manière interne lors de résolutions ou par appel à une méthode publique
+permettant de les instancier de l'extérieur. Afin d'assurer la liaison entre variables
+symboliques et valeurs, des ensembles standards de variables sont définis: les états,
+les incontrolables ou mesures, les conditions et les inconnues.
+
+Les méthodes {\em set\_etats}, {\em set\_conditions} , {\em set\_mesures} permettent d'instancier
+globalement les variables correspondantes. La méthode {\em set\_inconnue} permet d'instantier
+une par une les sorties de la configuration courante.
+
+La méthode {\em get\_valperm} donne un ensemble de valeurs possibles pour les variables
+de sortie de la configuration courante alors que {\em get\_solution} donne une solution
+de l'équation.
+
+Enfin la méthode {\em raz} désinstancie toutes les variables non rémanentes. Cette méthode
+doit obligatoirement être invoquée au début d'un nouveau cycle de résolution. Les paramètres de
+l'équation résiduelle doivent également être instanciés. Ceci est assuré par la méthode
+{\em init\_resolution}. Cette méthode évalue les fonctions dans l'ordre où elles ont
+été déclarées puis instancie les paramétres de l'équation. Cette stratégie permet
+de résoudre des systèmes partiellement triangularisés et d'utiliser les évaluations
+des fonctions pour instancier les paramétres de l'équation résiduelle. Combinée avec 
+l'utilisation de variables rémanentes elle permet d'implémenter certains reconstructeurs
+d'états.
+
+\subsection{Les configurations}
+Une configuration est l'association d'une équation non résolue, d'une liste de fonctions et
+d'une liste de variables. Les deux premiers éléments peuvent constituer une équation 
+partiellement triangularisée mais la partie fonctionnelle peut également servir au calcul
+de paramêtres ou contenir des équations d'êvolution d'état. La liste de variables représente
+les sorties de la configuration. Les variables exprimées fonctionnellement peuvent en faire
+partie. Les inconnues de l'équation résolue y figurent obligatoirement. Cette liste peut
+comprendre des variables qui n'appartiennent à aucune des catégories que nous venons 
+d'énumérer: ce sont des variables non contraintes par la configuration mais qui devrons
+être instanciées lors de la résolution.
+
+Plusieurs configurations peuvent être gérées simultanément. Elle sont désignées par leur
+numéro d'ordre dans le fichier de description {\em xxx.res}. La méthode {\em set\_config}
+permet de positionner la configuration courante.
+
+Une résolution se fait toujours sur une configuration. Elle commence par l'évaluation
+des fonctions dans l'ordre de la liste. Les arguments des fonctions doivent avoir été
+instanciés préalablement au calcul de la fonction. Un manquement à cette règle entraine 
+une erreur fatale. La méthode {\em init\_resolution} assure cette phase initiale sur
+la configuration courante.
+
+La détermination des autres variables de sortie se poursuit alors
+par résolution interactive ou automatique de l'équation. Dans les deux cas la valeur
+d'une variable est choisie parmis celles autorisées par l'équation. Cette valeur est
+substituée dans l'équation et un nouveau choix est proposé pour les inconnues restant
+dans la nouvelle équation. Le mode automatique simule, par un tirage aléatoire, les choix
+sucessifs d'un utilisateur. Si une variable de sortie ne figure pas comme résultat
+d'une évaluation de fonction ou comme inconnue, elle est considérée comme totalement libre.
+
+\subsection{Les fichiers de description}
+La mise en oeuvre du résolveur doit résoudre le problème des liaisons entre les variables
+symboliques des polynomes utilisés pour représenter les équations et les valeurs des variables
+du programme C généré par le compilateur {\sc Signal}. La solution retenue est d'ordonner
+les variables symboliques et de mettre le même ordre sur les variables C correspondantes.
+La correspondance symbolique/valeurs se fait de manière analogue à la correspondance 
+paramètres formels/paramètres effectifs dans les appels de procédures usuels. Ces 
+correspondances sont décrites dans deux fichiers générés par {\sc Sigali}:
+{\em xxx.sim} et {\em xxx.res}. La génération en parallèle de ces deux fichiers 
+par {\sc Sigali} assure
+les liaisons. Le fichier {\em xxx.sim} est utilisé par le programme de génération
+de simulateurs pour engendrer les interfaces entre le programme utilisateur et le résolveur.
+Le fichier {\em xxx.res} contient la liste des configurations ainsi que les variables
+{\bf etats, mesures, conditions} qui seront instanciées à partir de cette interface.
+Par exemple les états seront énumérés dans {\em xxx.res} sous la forme (les variables 
+symboliques sont codées par des entiers):
+\begin{verbatim}
+$E 1 3 4 6 9 13 15 17 19 22 35 36 37 38 39 40 41 42 43 44 45 46
+\end{verbatim}
+et dans {\em xxx.sim}:
+\begin{verbatim}
+$E Z_Souris_Piece_1  Z_Souris_Porte_3  Z_Souris_Piece_3  Z_Souris_Porte_6 
+   Z_Souis_Piece_0  Z_Souris_Porte_1  Z_Souris_Porte_4 Z_Chat_Piece_2 
+   Z_Chat_Porte_3 Z_Chat_Piece_4  Z_Chat_Porte_6 Z_Chat_Piece_0 
+   Z_Chat_Porte_1 Z_Chat_Porte_4 Z_Souris_Piece_2  Z_Souris_Porte_2
+   Z_Chat_Piece_1 Z_Chat_Porte_2  Z_Chat_Piece_3 Z_Souris_Piece_4 
+   Z_Souris_Porte_5 Z_Chat_Porte_5 
+\end{verbatim}
+
+Le fichier {\em xxx.res} contient également les TDD implémentant fonctions et 
+équations sous un format externe compacté. Le résolveur comprend un package TDD permettant
+la lecture et le stockage des équations ainsi que des fonctions de substitution et
+résolution. Le chargement du fichier {\em xxx.res} doit être fait en début de simulation
+en utilisant la méthode {\em chargement}.
+\subsection{Utilisation}
+Les descriptions des équations à résoudre ainsi que les états initiaux des éventuelles
+variables rémanentes ayant été chargés, un cycle de résolution a la forme:
+\begin{itemize}
+\item {\em raz}: toutes les variables non rémanentes sont mises dans l'état non-instancié.
+\item {set\_config}: choix de l'équation partiellement résolue à résoudre.
+\item {init\_resolution}: calcul des fonctions et instanciation des paramètres de l'équation.
+\item cycle {\em get\_valperm/set\_inconnue} proposant des valeurs autorisées et instanciant
+la variable choisie par l'utilisateur. La méthode  {\em get\_valperm} émet un message quand
+l'équation est résolue.
+\item A tout moment le cycle précédent peut être interrompu par un appel à {\em get\_solution}
+qui complète la solution partielle pour les variables non instanciées.
+\end{itemize}

@@ -1,0 +1,6094 @@
+"obc/obc_printer.ml" 35 2139 2143 "obc/obc_printer.ml" 35 2139 2151
+type(
+  Format.formatter -> Obc.var_dec -> unit
+)
+ident(
+  def print_vd "obc/obc_printer.ml" 44 2326 2326 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 35 2139 2155 "obc/obc_printer.ml" 42 2307 2324
+)
+"obc/obc_printer.ml" 35 2139 2155 "obc/obc_printer.ml" 35 2139 2157
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/obc_printer.ml" 36 2160 2162 "obc/obc_printer.ml" 42 2307 2324
+)
+"obc/obc_printer.ml" 36 2160 2162 "obc/obc_printer.ml" 36 2160 2169
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 36 2160 2170 "obc/obc_printer.ml" 36 2160 2172
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 36 2160 2173 "obc/obc_printer.ml" 36 2160 2180
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 36 2160 2162 "obc/obc_printer.ml" 36 2160 2180
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 37 2182 2187 "obc/obc_printer.ml" 37 2182 2189
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_printer.ml" 35 2139 2155 "obc/obc_printer.ml" 35 2139 2157
+)
+"obc/obc_printer.ml" 37 2182 2187 "obc/obc_printer.ml" 37 2182 2199
+type(
+  bool
+)
+"obc/obc_printer.ml" 38 2205 2209 "obc/obc_printer.ml" 38 2205 2216
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 38 2205 2217 "obc/obc_printer.ml" 38 2205 2219
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 38 2205 2220 "obc/obc_printer.ml" 38 2205 2230
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 38 2205 2209 "obc/obc_printer.ml" 38 2205 2230
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 37 2182 2184 "obc/obc_printer.ml" 38 2205 2230
+type(
+  unit
+)
+"obc/obc_printer.ml" 39 2232 2234 "obc/obc_printer.ml" 39 2232 2245
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 39 2232 2246 "obc/obc_printer.ml" 39 2232 2248
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 39 2232 2249 "obc/obc_printer.ml" 39 2232 2251
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_printer.ml" 35 2139 2155 "obc/obc_printer.ml" 35 2139 2157
+)
+"obc/obc_printer.ml" 39 2232 2249 "obc/obc_printer.ml" 39 2232 2259
+type(
+  Idents.var_ident
+)
+"obc/obc_printer.ml" 39 2232 2234 "obc/obc_printer.ml" 39 2232 2259
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 40 2261 2263 "obc/obc_printer.ml" 40 2261 2270
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 40 2261 2271 "obc/obc_printer.ml" 40 2261 2273
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 40 2261 2274 "obc/obc_printer.ml" 40 2261 2278
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 40 2261 2263 "obc/obc_printer.ml" 40 2261 2278
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 41 2280 2282 "obc/obc_printer.ml" 41 2280 2292
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  ext_ref Global_printer.print_type
+)
+"obc/obc_printer.ml" 41 2280 2293 "obc/obc_printer.ml" 41 2280 2295
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 41 2280 2296 "obc/obc_printer.ml" 41 2280 2298
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_printer.ml" 35 2139 2155 "obc/obc_printer.ml" 35 2139 2157
+)
+"obc/obc_printer.ml" 41 2280 2296 "obc/obc_printer.ml" 41 2280 2305
+type(
+  Types.ty
+)
+"obc/obc_printer.ml" 41 2280 2282 "obc/obc_printer.ml" 41 2280 2305
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 42 2307 2309 "obc/obc_printer.ml" 42 2307 2316
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 42 2307 2317 "obc/obc_printer.ml" 42 2307 2319
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 35 2139 2152 "obc/obc_printer.ml" 35 2139 2154
+)
+"obc/obc_printer.ml" 42 2307 2320 "obc/obc_printer.ml" 42 2307 2324
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 42 2307 2309 "obc/obc_printer.ml" 42 2307 2324
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 41 2280 2282 "obc/obc_printer.ml" 42 2307 2324
+type(
+  unit
+)
+"obc/obc_printer.ml" 40 2261 2263 "obc/obc_printer.ml" 42 2307 2324
+type(
+  unit
+)
+"obc/obc_printer.ml" 39 2232 2234 "obc/obc_printer.ml" 42 2307 2324
+type(
+  unit
+)
+"obc/obc_printer.ml" 37 2182 2184 "obc/obc_printer.ml" 42 2307 2324
+type(
+  unit
+)
+"obc/obc_printer.ml" 36 2160 2162 "obc/obc_printer.ml" 42 2307 2324
+type(
+  unit
+)
+"obc/obc_printer.ml" 44 2326 2330 "obc/obc_printer.ml" 44 2326 2339
+type(
+  Format.formatter -> Obc.obj_dec -> unit
+)
+ident(
+  def print_obj "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 51 2650 2667
+)
+"obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 44 2326 2344
+type(
+  Obc.obj_dec
+)
+ident(
+  def o "obc/obc_printer.ml" 45 2347 2349 "obc/obc_printer.ml" 51 2650 2667
+)
+"obc/obc_printer.ml" 45 2347 2349 "obc/obc_printer.ml" 45 2347 2356
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 45 2347 2357 "obc/obc_printer.ml" 45 2347 2359
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 45 2347 2360 "obc/obc_printer.ml" 45 2347 2367
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 45 2347 2349 "obc/obc_printer.ml" 45 2347 2367
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 45 2347 2369 "obc/obc_printer.ml" 45 2347 2380
+type(
+  Format.formatter -> Obc.obj_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 45 2347 2381 "obc/obc_printer.ml" 45 2347 2383
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 45 2347 2384 "obc/obc_printer.ml" 45 2347 2385
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 44 2326 2344
+)
+"obc/obc_printer.ml" 45 2347 2384 "obc/obc_printer.ml" 45 2347 2393
+type(
+  Obc.obj_ident
+)
+"obc/obc_printer.ml" 45 2347 2369 "obc/obc_printer.ml" 45 2347 2393
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 46 2395 2397 "obc/obc_printer.ml" 46 2395 2404
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 46 2395 2405 "obc/obc_printer.ml" 46 2395 2407
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 46 2395 2408 "obc/obc_printer.ml" 46 2395 2413
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 46 2395 2397 "obc/obc_printer.ml" 46 2395 2413
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 46 2395 2415 "obc/obc_printer.ml" 46 2395 2429
+type(
+  Format.formatter -> Obc.class_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 46 2395 2430 "obc/obc_printer.ml" 46 2395 2432
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 46 2395 2433 "obc/obc_printer.ml" 46 2395 2434
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 44 2326 2344
+)
+"obc/obc_printer.ml" 46 2395 2433 "obc/obc_printer.ml" 46 2395 2442
+type(
+  Obc.class_name
+)
+"obc/obc_printer.ml" 46 2395 2415 "obc/obc_printer.ml" 46 2395 2442
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 47 2444 2446 "obc/obc_printer.ml" 47 2444 2453
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 47 2444 2454 "obc/obc_printer.ml" 47 2444 2456
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 47 2444 2457 "obc/obc_printer.ml" 47 2444 2468
+type(
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 47 2444 2470 "obc/obc_printer.ml" 47 2444 2482
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 47 2444 2483 "obc/obc_printer.ml" 47 2444 2499
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Global_printer.print_static_exp
+)
+"obc/obc_printer.ml" 47 2444 2500 "obc/obc_printer.ml" 47 2444 2504
+type(
+  string
+)
+"obc/obc_printer.ml" 47 2444 2504 "obc/obc_printer.ml" 47 2444 2507
+type(
+  string
+)
+"obc/obc_printer.ml" 47 2444 2507 "obc/obc_printer.ml" 47 2444 2511
+type(
+  string
+)
+"obc/obc_printer.ml" 47 2444 2469 "obc/obc_printer.ml" 47 2444 2512
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"obc/obc_printer.ml" 47 2444 2513 "obc/obc_printer.ml" 47 2444 2514
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 44 2326 2344
+)
+"obc/obc_printer.ml" 47 2444 2513 "obc/obc_printer.ml" 47 2444 2523
+type(
+  Types.static_exp list
+)
+"obc/obc_printer.ml" 47 2444 2446 "obc/obc_printer.ml" 47 2444 2523
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 48 2525 2534 "obc/obc_printer.ml" 48 2525 2535
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 44 2326 2343 "obc/obc_printer.ml" 44 2326 2344
+)
+"obc/obc_printer.ml" 48 2525 2534 "obc/obc_printer.ml" 48 2525 2542
+type(
+  Types.static_exp list option
+)
+"obc/obc_printer.ml" 49 2548 2560 "obc/obc_printer.ml" 49 2548 2562
+type(
+  Types.static_exp list
+)
+ident(
+  def se "obc/obc_printer.ml" 49 2548 2566 "obc/obc_printer.ml" 49 2548 2629
+)
+"obc/obc_printer.ml" 49 2548 2555 "obc/obc_printer.ml" 49 2548 2562
+type(
+  Types.static_exp list option
+)
+"obc/obc_printer.ml" 49 2548 2566 "obc/obc_printer.ml" 49 2548 2573
+type(
+  Format.formatter ->
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.static_exp list -> unit) ->
+  Types.static_exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 49 2548 2574 "obc/obc_printer.ml" 49 2548 2576
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 49 2548 2577 "obc/obc_printer.ml" 49 2548 2581
+type(
+  ((Format.formatter -> Types.static_exp list -> unit) ->
+   Types.static_exp list -> unit, Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 49 2548 2583 "obc/obc_printer.ml" 49 2548 2595
+type(
+  (Format.formatter -> Types.static_exp -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Types.static_exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 49 2548 2596 "obc/obc_printer.ml" 49 2548 2612
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Global_printer.print_static_exp
+)
+"obc/obc_printer.ml" 49 2548 2613 "obc/obc_printer.ml" 49 2548 2616
+type(
+  string
+)
+"obc/obc_printer.ml" 49 2548 2617 "obc/obc_printer.ml" 49 2548 2621
+type(
+  string
+)
+"obc/obc_printer.ml" 49 2548 2622 "obc/obc_printer.ml" 49 2548 2625
+type(
+  string
+)
+"obc/obc_printer.ml" 49 2548 2582 "obc/obc_printer.ml" 49 2548 2626
+call(
+  stack
+)
+type(
+  Format.formatter -> Types.static_exp list -> unit
+)
+"obc/obc_printer.ml" 49 2548 2627 "obc/obc_printer.ml" 49 2548 2629
+type(
+  Types.static_exp list
+)
+ident(
+  int_ref se "obc/obc_printer.ml" 49 2548 2560 "obc/obc_printer.ml" 49 2548 2562
+)
+"obc/obc_printer.ml" 49 2548 2566 "obc/obc_printer.ml" 49 2548 2629
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 50 2630 2637 "obc/obc_printer.ml" 50 2630 2641
+type(
+  Types.static_exp list option
+)
+"obc/obc_printer.ml" 50 2630 2645 "obc/obc_printer.ml" 50 2630 2647
+type(
+  unit
+)
+"obc/obc_printer.ml" 48 2525 2527 "obc/obc_printer.ml" 50 2630 2648
+type(
+  unit
+)
+"obc/obc_printer.ml" 51 2650 2652 "obc/obc_printer.ml" 51 2650 2659
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 51 2650 2660 "obc/obc_printer.ml" 51 2650 2662
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 44 2326 2340 "obc/obc_printer.ml" 44 2326 2342
+)
+"obc/obc_printer.ml" 51 2650 2663 "obc/obc_printer.ml" 51 2650 2667
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 51 2650 2652 "obc/obc_printer.ml" 51 2650 2667
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 48 2525 2527 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 47 2444 2446 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 46 2395 2415 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 46 2395 2397 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 45 2347 2369 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 45 2347 2349 "obc/obc_printer.ml" 51 2650 2667
+type(
+  unit
+)
+"obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  def print_lhs "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 53 2669 2690 "obc/obc_printer.ml" 62 2987 3009
+)
+"obc/obc_printer.ml" 53 2669 2690 "obc/obc_printer.ml" 53 2669 2691
+type(
+  Obc.pattern
+)
+ident(
+  def e "obc/obc_printer.ml" 54 2694 2696 "obc/obc_printer.ml" 62 2987 3009
+)
+"obc/obc_printer.ml" 54 2694 2702 "obc/obc_printer.ml" 54 2694 2703
+type(
+  Obc.pattern
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 53 2669 2690 "obc/obc_printer.ml" 53 2669 2691
+)
+"obc/obc_printer.ml" 54 2694 2702 "obc/obc_printer.ml" 54 2694 2712
+type(
+  Obc.pat_desc
+)
+"obc/obc_printer.ml" 55 2718 2729 "obc/obc_printer.ml" 55 2718 2730
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_printer.ml" 55 2718 2734 "obc/obc_printer.ml" 55 2718 2750
+)
+"obc/obc_printer.ml" 55 2718 2724 "obc/obc_printer.ml" 55 2718 2730
+type(
+  Obc.pat_desc
+)
+"obc/obc_printer.ml" 55 2718 2734 "obc/obc_printer.ml" 55 2718 2745
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 55 2718 2746 "obc/obc_printer.ml" 55 2718 2748
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 55 2718 2749 "obc/obc_printer.ml" 55 2718 2750
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 55 2718 2729 "obc/obc_printer.ml" 55 2718 2730
+)
+"obc/obc_printer.ml" 55 2718 2734 "obc/obc_printer.ml" 55 2718 2750
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 56 2751 2762 "obc/obc_printer.ml" 56 2751 2763
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_printer.ml" 56 2751 2767 "obc/obc_printer.ml" 56 2751 2818
+)
+"obc/obc_printer.ml" 56 2751 2757 "obc/obc_printer.ml" 56 2751 2763
+type(
+  Obc.pat_desc
+)
+"obc/obc_printer.ml" 56 2751 2767 "obc/obc_printer.ml" 56 2751 2774
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 56 2751 2775 "obc/obc_printer.ml" 56 2751 2777
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 56 2751 2778 "obc/obc_printer.ml" 56 2751 2784
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 56 2751 2767 "obc/obc_printer.ml" 56 2751 2784
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 56 2751 2786 "obc/obc_printer.ml" 56 2751 2797
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 56 2751 2798 "obc/obc_printer.ml" 56 2751 2800
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 56 2751 2801 "obc/obc_printer.ml" 56 2751 2802
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 56 2751 2762 "obc/obc_printer.ml" 56 2751 2763
+)
+"obc/obc_printer.ml" 56 2751 2786 "obc/obc_printer.ml" 56 2751 2802
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 56 2751 2804 "obc/obc_printer.ml" 56 2751 2811
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 56 2751 2812 "obc/obc_printer.ml" 56 2751 2814
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 56 2751 2815 "obc/obc_printer.ml" 56 2751 2818
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 56 2751 2804 "obc/obc_printer.ml" 56 2751 2818
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 56 2751 2786 "obc/obc_printer.ml" 56 2751 2818
+type(
+  unit
+)
+"obc/obc_printer.ml" 56 2751 2767 "obc/obc_printer.ml" 56 2751 2818
+type(
+  unit
+)
+"obc/obc_printer.ml" 57 2819 2833 "obc/obc_printer.ml" 57 2819 2834
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/obc_printer.ml" 57 2819 2842 "obc/obc_printer.ml" 57 2819 2888
+)
+"obc/obc_printer.ml" 57 2819 2836 "obc/obc_printer.ml" 57 2819 2837
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/obc_printer.ml" 57 2819 2842 "obc/obc_printer.ml" 57 2819 2888
+)
+"obc/obc_printer.ml" 57 2819 2825 "obc/obc_printer.ml" 57 2819 2838
+type(
+  Obc.pat_desc
+)
+"obc/obc_printer.ml" 57 2819 2842 "obc/obc_printer.ml" 57 2819 2851
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  int_ref print_lhs "obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+)
+"obc/obc_printer.ml" 57 2819 2852 "obc/obc_printer.ml" 57 2819 2854
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 57 2819 2855 "obc/obc_printer.ml" 57 2819 2856
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/obc_printer.ml" 57 2819 2833 "obc/obc_printer.ml" 57 2819 2834
+)
+"obc/obc_printer.ml" 57 2819 2842 "obc/obc_printer.ml" 57 2819 2856
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 57 2819 2858 "obc/obc_printer.ml" 57 2819 2865
+type(
+  Format.formatter ->
+  (Names.name -> unit, Format.formatter, unit) format -> Names.name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 57 2819 2866 "obc/obc_printer.ml" 57 2819 2868
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 57 2819 2869 "obc/obc_printer.ml" 57 2819 2874
+type(
+  (Names.name -> unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 57 2819 2876 "obc/obc_printer.ml" 57 2819 2885
+type(
+  Names.field_name -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"obc/obc_printer.ml" 57 2819 2886 "obc/obc_printer.ml" 57 2819 2887
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/obc_printer.ml" 57 2819 2836 "obc/obc_printer.ml" 57 2819 2837
+)
+"obc/obc_printer.ml" 57 2819 2875 "obc/obc_printer.ml" 57 2819 2888
+call(
+  stack
+)
+type(
+  Names.name
+)
+"obc/obc_printer.ml" 57 2819 2858 "obc/obc_printer.ml" 57 2819 2888
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 57 2819 2842 "obc/obc_printer.ml" 57 2819 2888
+type(
+  unit
+)
+"obc/obc_printer.ml" 58 2889 2902 "obc/obc_printer.ml" 58 2889 2903
+type(
+  Obc.pattern
+)
+ident(
+  def x "obc/obc_printer.ml" 59 2913 2921 "obc/obc_printer.ml" 62 2987 3009
+)
+"obc/obc_printer.ml" 58 2889 2905 "obc/obc_printer.ml" 58 2889 2908
+type(
+  Obc.exp
+)
+ident(
+  def idx "obc/obc_printer.ml" 59 2913 2921 "obc/obc_printer.ml" 62 2987 3009
+)
+"obc/obc_printer.ml" 58 2889 2895 "obc/obc_printer.ml" 58 2889 2909
+type(
+  Obc.pat_desc
+)
+"obc/obc_printer.ml" 59 2913 2921 "obc/obc_printer.ml" 59 2913 2930
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  int_ref print_lhs "obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+)
+"obc/obc_printer.ml" 59 2913 2931 "obc/obc_printer.ml" 59 2913 2933
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 59 2913 2934 "obc/obc_printer.ml" 59 2913 2935
+type(
+  Obc.pattern
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 58 2889 2902 "obc/obc_printer.ml" 58 2889 2903
+)
+"obc/obc_printer.ml" 59 2913 2921 "obc/obc_printer.ml" 59 2913 2935
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 60 2937 2945 "obc/obc_printer.ml" 60 2937 2952
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 60 2937 2953 "obc/obc_printer.ml" 60 2937 2955
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 60 2937 2956 "obc/obc_printer.ml" 60 2937 2959
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 60 2937 2945 "obc/obc_printer.ml" 60 2937 2959
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 61 2961 2969 "obc/obc_printer.ml" 61 2961 2978
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 61 2961 2979 "obc/obc_printer.ml" 61 2961 2981
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 61 2961 2982 "obc/obc_printer.ml" 61 2961 2985
+type(
+  Obc.exp
+)
+ident(
+  int_ref idx "obc/obc_printer.ml" 58 2889 2905 "obc/obc_printer.ml" 58 2889 2908
+)
+"obc/obc_printer.ml" 61 2961 2969 "obc/obc_printer.ml" 61 2961 2985
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 62 2987 2995 "obc/obc_printer.ml" 62 2987 3002
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 62 2987 3003 "obc/obc_printer.ml" 62 2987 3005
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 53 2669 2687 "obc/obc_printer.ml" 53 2669 2689
+)
+"obc/obc_printer.ml" 62 2987 3006 "obc/obc_printer.ml" 62 2987 3009
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 62 2987 2995 "obc/obc_printer.ml" 62 2987 3009
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 61 2961 2969 "obc/obc_printer.ml" 62 2987 3009
+type(
+  unit
+)
+"obc/obc_printer.ml" 60 2937 2945 "obc/obc_printer.ml" 62 2987 3009
+type(
+  unit
+)
+"obc/obc_printer.ml" 59 2913 2921 "obc/obc_printer.ml" 62 2987 3009
+type(
+  unit
+)
+"obc/obc_printer.ml" 54 2694 2696 "obc/obc_printer.ml" 62 2987 3009
+type(
+  unit
+)
+"obc/obc_printer.ml" 64 3011 3015 "obc/obc_printer.ml" 64 3011 3030
+type(
+  Format.formatter -> Obc.ext_value -> unit
+)
+ident(
+  def print_ext_value "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 64 3011 3034 "obc/obc_printer.ml" 73 3357 3375
+)
+"obc/obc_printer.ml" 64 3011 3034 "obc/obc_printer.ml" 64 3011 3035
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/obc_printer.ml" 64 3011 3038 "obc/obc_printer.ml" 73 3357 3375
+)
+"obc/obc_printer.ml" 64 3011 3044 "obc/obc_printer.ml" 64 3011 3045
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/obc_printer.ml" 64 3011 3034 "obc/obc_printer.ml" 64 3011 3035
+)
+"obc/obc_printer.ml" 64 3011 3044 "obc/obc_printer.ml" 64 3011 3052
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 65 3058 3067 "obc/obc_printer.ml" 65 3058 3068
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_printer.ml" 65 3058 3072 "obc/obc_printer.ml" 65 3058 3088
+)
+"obc/obc_printer.ml" 65 3058 3062 "obc/obc_printer.ml" 65 3058 3068
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 65 3058 3072 "obc/obc_printer.ml" 65 3058 3083
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 65 3058 3084 "obc/obc_printer.ml" 65 3058 3086
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 65 3058 3087 "obc/obc_printer.ml" 65 3058 3088
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 65 3058 3067 "obc/obc_printer.ml" 65 3058 3068
+)
+"obc/obc_printer.ml" 65 3058 3072 "obc/obc_printer.ml" 65 3058 3088
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 66 3089 3100 "obc/obc_printer.ml" 66 3089 3101
+type(
+  Types.static_exp
+)
+ident(
+  def c "obc/obc_printer.ml" 66 3089 3105 "obc/obc_printer.ml" 66 3089 3126
+)
+"obc/obc_printer.ml" 66 3089 3093 "obc/obc_printer.ml" 66 3089 3101
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 66 3089 3105 "obc/obc_printer.ml" 66 3089 3121
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Global_printer.print_static_exp
+)
+"obc/obc_printer.ml" 66 3089 3122 "obc/obc_printer.ml" 66 3089 3124
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 66 3089 3125 "obc/obc_printer.ml" 66 3089 3126
+type(
+  Types.static_exp
+)
+ident(
+  int_ref c "obc/obc_printer.ml" 66 3089 3100 "obc/obc_printer.ml" 66 3089 3101
+)
+"obc/obc_printer.ml" 66 3089 3105 "obc/obc_printer.ml" 66 3089 3126
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 67 3127 3136 "obc/obc_printer.ml" 67 3127 3137
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_printer.ml" 67 3127 3141 "obc/obc_printer.ml" 67 3127 3192
+)
+"obc/obc_printer.ml" 67 3127 3131 "obc/obc_printer.ml" 67 3127 3137
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 67 3127 3141 "obc/obc_printer.ml" 67 3127 3148
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 67 3127 3149 "obc/obc_printer.ml" 67 3127 3151
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 67 3127 3152 "obc/obc_printer.ml" 67 3127 3158
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 67 3127 3141 "obc/obc_printer.ml" 67 3127 3158
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 67 3127 3160 "obc/obc_printer.ml" 67 3127 3171
+type(
+  Format.formatter -> Idents.var_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 67 3127 3172 "obc/obc_printer.ml" 67 3127 3174
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 67 3127 3175 "obc/obc_printer.ml" 67 3127 3176
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 67 3127 3136 "obc/obc_printer.ml" 67 3127 3137
+)
+"obc/obc_printer.ml" 67 3127 3160 "obc/obc_printer.ml" 67 3127 3176
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 67 3127 3178 "obc/obc_printer.ml" 67 3127 3185
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 67 3127 3186 "obc/obc_printer.ml" 67 3127 3188
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 67 3127 3189 "obc/obc_printer.ml" 67 3127 3192
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 67 3127 3178 "obc/obc_printer.ml" 67 3127 3192
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 67 3127 3160 "obc/obc_printer.ml" 67 3127 3192
+type(
+  unit
+)
+"obc/obc_printer.ml" 67 3127 3141 "obc/obc_printer.ml" 67 3127 3192
+type(
+  unit
+)
+"obc/obc_printer.ml" 68 3193 3205 "obc/obc_printer.ml" 68 3193 3206
+type(
+  Obc.ext_value
+)
+ident(
+  def l "obc/obc_printer.ml" 68 3193 3214 "obc/obc_printer.ml" 68 3193 3266
+)
+"obc/obc_printer.ml" 68 3193 3208 "obc/obc_printer.ml" 68 3193 3209
+type(
+  Names.field_name
+)
+ident(
+  def f "obc/obc_printer.ml" 68 3193 3214 "obc/obc_printer.ml" 68 3193 3266
+)
+"obc/obc_printer.ml" 68 3193 3197 "obc/obc_printer.ml" 68 3193 3210
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 68 3193 3214 "obc/obc_printer.ml" 68 3193 3229
+type(
+  Format.formatter -> Obc.ext_value -> unit
+)
+ident(
+  int_ref print_ext_value "obc/obc_printer.ml" 64 3011 3015 "obc/obc_printer.ml" 64 3011 3030
+)
+"obc/obc_printer.ml" 68 3193 3230 "obc/obc_printer.ml" 68 3193 3232
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 68 3193 3233 "obc/obc_printer.ml" 68 3193 3234
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref l "obc/obc_printer.ml" 68 3193 3205 "obc/obc_printer.ml" 68 3193 3206
+)
+"obc/obc_printer.ml" 68 3193 3214 "obc/obc_printer.ml" 68 3193 3234
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 68 3193 3236 "obc/obc_printer.ml" 68 3193 3243
+type(
+  Format.formatter ->
+  (Names.name -> unit, Format.formatter, unit) format -> Names.name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 68 3193 3244 "obc/obc_printer.ml" 68 3193 3246
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 68 3193 3247 "obc/obc_printer.ml" 68 3193 3252
+type(
+  (Names.name -> unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 68 3193 3254 "obc/obc_printer.ml" 68 3193 3263
+type(
+  Names.field_name -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"obc/obc_printer.ml" 68 3193 3264 "obc/obc_printer.ml" 68 3193 3265
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "obc/obc_printer.ml" 68 3193 3208 "obc/obc_printer.ml" 68 3193 3209
+)
+"obc/obc_printer.ml" 68 3193 3253 "obc/obc_printer.ml" 68 3193 3266
+call(
+  stack
+)
+type(
+  Names.name
+)
+"obc/obc_printer.ml" 68 3193 3236 "obc/obc_printer.ml" 68 3193 3266
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 68 3193 3214 "obc/obc_printer.ml" 68 3193 3266
+type(
+  unit
+)
+"obc/obc_printer.ml" 69 3267 3278 "obc/obc_printer.ml" 69 3267 3279
+type(
+  Obc.ext_value
+)
+ident(
+  def x "obc/obc_printer.ml" 70 3289 3293 "obc/obc_printer.ml" 73 3357 3375
+)
+"obc/obc_printer.ml" 69 3267 3281 "obc/obc_printer.ml" 69 3267 3284
+type(
+  Obc.exp
+)
+ident(
+  def idx "obc/obc_printer.ml" 70 3289 3293 "obc/obc_printer.ml" 73 3357 3375
+)
+"obc/obc_printer.ml" 69 3267 3271 "obc/obc_printer.ml" 69 3267 3285
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_printer.ml" 70 3289 3293 "obc/obc_printer.ml" 70 3289 3308
+type(
+  Format.formatter -> Obc.ext_value -> unit
+)
+ident(
+  int_ref print_ext_value "obc/obc_printer.ml" 64 3011 3015 "obc/obc_printer.ml" 64 3011 3030
+)
+"obc/obc_printer.ml" 70 3289 3309 "obc/obc_printer.ml" 70 3289 3311
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 70 3289 3312 "obc/obc_printer.ml" 70 3289 3313
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 69 3267 3278 "obc/obc_printer.ml" 69 3267 3279
+)
+"obc/obc_printer.ml" 70 3289 3293 "obc/obc_printer.ml" 70 3289 3313
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 71 3315 3319 "obc/obc_printer.ml" 71 3315 3326
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 71 3315 3327 "obc/obc_printer.ml" 71 3315 3329
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 71 3315 3330 "obc/obc_printer.ml" 71 3315 3333
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 71 3315 3319 "obc/obc_printer.ml" 71 3315 3333
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 72 3335 3339 "obc/obc_printer.ml" 72 3335 3348
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 72 3335 3349 "obc/obc_printer.ml" 72 3335 3351
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 72 3335 3352 "obc/obc_printer.ml" 72 3335 3355
+type(
+  Obc.exp
+)
+ident(
+  int_ref idx "obc/obc_printer.ml" 69 3267 3281 "obc/obc_printer.ml" 69 3267 3284
+)
+"obc/obc_printer.ml" 72 3335 3339 "obc/obc_printer.ml" 72 3335 3355
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 73 3357 3361 "obc/obc_printer.ml" 73 3357 3368
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 73 3357 3369 "obc/obc_printer.ml" 73 3357 3371
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 64 3011 3031 "obc/obc_printer.ml" 64 3011 3033
+)
+"obc/obc_printer.ml" 73 3357 3372 "obc/obc_printer.ml" 73 3357 3375
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 73 3357 3361 "obc/obc_printer.ml" 73 3357 3375
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 72 3335 3339 "obc/obc_printer.ml" 73 3357 3375
+type(
+  unit
+)
+"obc/obc_printer.ml" 71 3315 3319 "obc/obc_printer.ml" 73 3357 3375
+type(
+  unit
+)
+"obc/obc_printer.ml" 70 3289 3293 "obc/obc_printer.ml" 73 3357 3375
+type(
+  unit
+)
+"obc/obc_printer.ml" 64 3011 3038 "obc/obc_printer.ml" 73 3357 3375
+type(
+  unit
+)
+"obc/obc_printer.ml" 76 3378 3382 "obc/obc_printer.ml" 76 3378 3392
+type(
+  Format.formatter -> Obc.exp list -> unit
+)
+ident(
+  def print_exps "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 76 3378 3393 "obc/obc_printer.ml" 76 3378 3395
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 76 3378 3396 "obc/obc_printer.ml" 76 3378 3447
+)
+"obc/obc_printer.ml" 76 3378 3396 "obc/obc_printer.ml" 76 3378 3402
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/obc_printer.ml" 76 3378 3405 "obc/obc_printer.ml" 76 3378 3447
+)
+"obc/obc_printer.ml" 76 3378 3405 "obc/obc_printer.ml" 76 3378 3417
+type(
+  (Format.formatter -> Obc.exp -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 76 3378 3418 "obc/obc_printer.ml" 76 3378 3427
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 76 3378 3428 "obc/obc_printer.ml" 76 3378 3430
+type(
+  string
+)
+"obc/obc_printer.ml" 76 3378 3431 "obc/obc_printer.ml" 76 3378 3434
+type(
+  string
+)
+"obc/obc_printer.ml" 76 3378 3435 "obc/obc_printer.ml" 76 3378 3437
+type(
+  string
+)
+"obc/obc_printer.ml" 76 3378 3438 "obc/obc_printer.ml" 76 3378 3440
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 76 3378 3393 "obc/obc_printer.ml" 76 3378 3395
+)
+"obc/obc_printer.ml" 76 3378 3441 "obc/obc_printer.ml" 76 3378 3447
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/obc_printer.ml" 76 3378 3396 "obc/obc_printer.ml" 76 3378 3402
+)
+"obc/obc_printer.ml" 76 3378 3405 "obc/obc_printer.ml" 76 3378 3447
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  def print_exp "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 78 3449 3466 "obc/obc_printer.ml" 92 3929 3952
+)
+"obc/obc_printer.ml" 78 3449 3466 "obc/obc_printer.ml" 78 3449 3467
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_printer.ml" 79 3470 3472 "obc/obc_printer.ml" 92 3929 3952
+)
+"obc/obc_printer.ml" 79 3470 3478 "obc/obc_printer.ml" 79 3470 3479
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 78 3449 3466 "obc/obc_printer.ml" 78 3449 3467
+)
+"obc/obc_printer.ml" 79 3470 3478 "obc/obc_printer.ml" 79 3470 3486
+type(
+  Obc.exp_desc
+)
+"obc/obc_printer.ml" 80 3492 3508 "obc/obc_printer.ml" 80 3492 3511
+type(
+  Obc.ext_value
+)
+ident(
+  def lhs "obc/obc_printer.ml" 80 3492 3515 "obc/obc_printer.ml" 80 3492 3537
+)
+"obc/obc_printer.ml" 80 3492 3498 "obc/obc_printer.ml" 80 3492 3511
+type(
+  Obc.exp_desc
+)
+"obc/obc_printer.ml" 80 3492 3515 "obc/obc_printer.ml" 80 3492 3530
+type(
+  Format.formatter -> Obc.ext_value -> unit
+)
+ident(
+  int_ref print_ext_value "obc/obc_printer.ml" 64 3011 3015 "obc/obc_printer.ml" 64 3011 3030
+)
+"obc/obc_printer.ml" 80 3492 3531 "obc/obc_printer.ml" 80 3492 3533
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 80 3492 3534 "obc/obc_printer.ml" 80 3492 3537
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref lhs "obc/obc_printer.ml" 80 3492 3508 "obc/obc_printer.ml" 80 3492 3511
+)
+"obc/obc_printer.ml" 80 3492 3515 "obc/obc_printer.ml" 80 3492 3537
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 81 3538 3548 "obc/obc_printer.ml" 81 3538 3550
+type(
+  Obc.op_name
+)
+ident(
+  def op "obc/obc_printer.ml" 81 3538 3563 "obc/obc_printer.ml" 81 3538 3584
+)
+"obc/obc_printer.ml" 81 3538 3552 "obc/obc_printer.ml" 81 3538 3558
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/obc_printer.ml" 81 3538 3563 "obc/obc_printer.ml" 81 3538 3584
+)
+"obc/obc_printer.ml" 81 3538 3544 "obc/obc_printer.ml" 81 3538 3559
+type(
+  Obc.exp_desc
+)
+"obc/obc_printer.ml" 81 3538 3563 "obc/obc_printer.ml" 81 3538 3571
+type(
+  Format.formatter -> Obc.op_name -> Obc.exp list -> unit
+)
+ident(
+  int_ref print_op "obc/obc_printer.ml" 94 3954 3958 "obc/obc_printer.ml" 94 3954 3966
+)
+"obc/obc_printer.ml" 81 3538 3572 "obc/obc_printer.ml" 81 3538 3574
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 81 3538 3575 "obc/obc_printer.ml" 81 3538 3577
+type(
+  Obc.op_name
+)
+ident(
+  int_ref op "obc/obc_printer.ml" 81 3538 3548 "obc/obc_printer.ml" 81 3538 3550
+)
+"obc/obc_printer.ml" 81 3538 3578 "obc/obc_printer.ml" 81 3538 3584
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/obc_printer.ml" 81 3538 3552 "obc/obc_printer.ml" 81 3538 3558
+)
+"obc/obc_printer.ml" 81 3538 3563 "obc/obc_printer.ml" 81 3538 3584
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 82 3585 3599 "obc/obc_printer.ml" 82 3585 3600
+type(
+  Names.type_name
+)
+"obc/obc_printer.ml" 82 3585 3601 "obc/obc_printer.ml" 82 3585 3609
+type(
+  (Names.field_name * Obc.exp) list
+)
+ident(
+  def f_e_list "obc/obc_printer.ml" 83 3614 3622 "obc/obc_printer.ml" 88 3803 3826
+)
+"obc/obc_printer.ml" 82 3585 3591 "obc/obc_printer.ml" 82 3585 3610
+type(
+  Obc.exp_desc
+)
+"obc/obc_printer.ml" 83 3614 3622 "obc/obc_printer.ml" 83 3614 3629
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 83 3614 3630 "obc/obc_printer.ml" 83 3614 3632
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 83 3614 3633 "obc/obc_printer.ml" 83 3614 3642
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 83 3614 3622 "obc/obc_printer.ml" 83 3614 3642
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 84 3644 3652 "obc/obc_printer.ml" 84 3644 3664
+type(
+  (Format.formatter -> Names.field_name * Obc.exp -> unit) ->
+  string ->
+  string ->
+  string -> Format.formatter -> (Names.field_name * Obc.exp) list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 85 3665 3680 "obc/obc_printer.ml" 85 3665 3682
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 85 3665 3683 "obc/obc_printer.ml" 86 3739 3766
+)
+"obc/obc_printer.ml" 85 3665 3684 "obc/obc_printer.ml" 85 3665 3689
+type(
+  Names.field_name
+)
+ident(
+  def field "obc/obc_printer.ml" 85 3665 3697 "obc/obc_printer.ml" 86 3739 3766
+)
+"obc/obc_printer.ml" 85 3665 3691 "obc/obc_printer.ml" 85 3665 3692
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_printer.ml" 85 3665 3697 "obc/obc_printer.ml" 86 3739 3766
+)
+"obc/obc_printer.ml" 85 3665 3683 "obc/obc_printer.ml" 85 3665 3693
+type(
+  Names.field_name * Obc.exp
+)
+"obc/obc_printer.ml" 85 3665 3697 "obc/obc_printer.ml" 85 3665 3711
+type(
+  Format.formatter -> Names.field_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 85 3665 3712 "obc/obc_printer.ml" 85 3665 3714
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 85 3665 3680 "obc/obc_printer.ml" 85 3665 3682
+)
+"obc/obc_printer.ml" 85 3665 3715 "obc/obc_printer.ml" 85 3665 3720
+type(
+  Names.field_name
+)
+ident(
+  int_ref field "obc/obc_printer.ml" 85 3665 3684 "obc/obc_printer.ml" 85 3665 3689
+)
+"obc/obc_printer.ml" 85 3665 3697 "obc/obc_printer.ml" 85 3665 3720
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 85 3665 3721 "obc/obc_printer.ml" 85 3665 3728
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 85 3665 3729 "obc/obc_printer.ml" 85 3665 3731
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 85 3665 3680 "obc/obc_printer.ml" 85 3665 3682
+)
+"obc/obc_printer.ml" 85 3665 3732 "obc/obc_printer.ml" 85 3665 3737
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 85 3665 3721 "obc/obc_printer.ml" 85 3665 3737
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 86 3739 3752 "obc/obc_printer.ml" 86 3739 3761
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 86 3739 3762 "obc/obc_printer.ml" 86 3739 3764
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 85 3665 3680 "obc/obc_printer.ml" 85 3665 3682
+)
+"obc/obc_printer.ml" 86 3739 3765 "obc/obc_printer.ml" 86 3739 3766
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 85 3665 3691 "obc/obc_printer.ml" 85 3665 3692
+)
+"obc/obc_printer.ml" 86 3739 3752 "obc/obc_printer.ml" 86 3739 3766
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 85 3665 3721 "obc/obc_printer.ml" 86 3739 3766
+type(
+  unit
+)
+"obc/obc_printer.ml" 85 3665 3697 "obc/obc_printer.ml" 86 3739 3766
+type(
+  unit
+)
+"obc/obc_printer.ml" 85 3665 3675 "obc/obc_printer.ml" 86 3739 3767
+type(
+  Format.formatter -> Names.field_name * Obc.exp -> unit
+)
+"obc/obc_printer.ml" 87 3768 3778 "obc/obc_printer.ml" 87 3768 3781
+type(
+  string
+)
+"obc/obc_printer.ml" 87 3768 3782 "obc/obc_printer.ml" 87 3768 3785
+type(
+  string
+)
+"obc/obc_printer.ml" 87 3768 3786 "obc/obc_printer.ml" 87 3768 3789
+type(
+  string
+)
+"obc/obc_printer.ml" 87 3768 3790 "obc/obc_printer.ml" 87 3768 3792
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 87 3768 3793 "obc/obc_printer.ml" 87 3768 3801
+type(
+  (Names.field_name * Obc.exp) list
+)
+ident(
+  int_ref f_e_list "obc/obc_printer.ml" 82 3585 3601 "obc/obc_printer.ml" 82 3585 3609
+)
+"obc/obc_printer.ml" 84 3644 3652 "obc/obc_printer.ml" 87 3768 3801
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 88 3803 3811 "obc/obc_printer.ml" 88 3803 3818
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 88 3803 3819 "obc/obc_printer.ml" 88 3803 3821
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 88 3803 3822 "obc/obc_printer.ml" 88 3803 3826
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 88 3803 3811 "obc/obc_printer.ml" 88 3803 3826
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 84 3644 3652 "obc/obc_printer.ml" 88 3803 3826
+type(
+  unit
+)
+"obc/obc_printer.ml" 83 3614 3622 "obc/obc_printer.ml" 88 3803 3826
+type(
+  unit
+)
+"obc/obc_printer.ml" 89 3827 3840 "obc/obc_printer.ml" 89 3827 3846
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/obc_printer.ml" 90 3850 3858 "obc/obc_printer.ml" 92 3929 3952
+)
+"obc/obc_printer.ml" 89 3827 3833 "obc/obc_printer.ml" 89 3827 3846
+type(
+  Obc.exp_desc
+)
+"obc/obc_printer.ml" 90 3850 3858 "obc/obc_printer.ml" 90 3850 3865
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 90 3850 3866 "obc/obc_printer.ml" 90 3850 3868
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 90 3850 3869 "obc/obc_printer.ml" 90 3850 3873
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 90 3850 3858 "obc/obc_printer.ml" 90 3850 3873
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 91 3875 3883 "obc/obc_printer.ml" 91 3875 3895
+type(
+  (Format.formatter -> Obc.exp -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 91 3875 3896 "obc/obc_printer.ml" 91 3875 3905
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 91 3875 3906 "obc/obc_printer.ml" 91 3875 3909
+type(
+  string
+)
+"obc/obc_printer.ml" 91 3875 3910 "obc/obc_printer.ml" 91 3875 3913
+type(
+  string
+)
+"obc/obc_printer.ml" 91 3875 3914 "obc/obc_printer.ml" 91 3875 3917
+type(
+  string
+)
+"obc/obc_printer.ml" 91 3875 3918 "obc/obc_printer.ml" 91 3875 3920
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 91 3875 3921 "obc/obc_printer.ml" 91 3875 3927
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/obc_printer.ml" 89 3827 3840 "obc/obc_printer.ml" 89 3827 3846
+)
+"obc/obc_printer.ml" 91 3875 3883 "obc/obc_printer.ml" 91 3875 3927
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 92 3929 3937 "obc/obc_printer.ml" 92 3929 3944
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 92 3929 3945 "obc/obc_printer.ml" 92 3929 3947
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 78 3449 3463 "obc/obc_printer.ml" 78 3449 3465
+)
+"obc/obc_printer.ml" 92 3929 3948 "obc/obc_printer.ml" 92 3929 3952
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 92 3929 3937 "obc/obc_printer.ml" 92 3929 3952
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 91 3875 3883 "obc/obc_printer.ml" 92 3929 3952
+type(
+  unit
+)
+"obc/obc_printer.ml" 90 3850 3858 "obc/obc_printer.ml" 92 3929 3952
+type(
+  unit
+)
+"obc/obc_printer.ml" 79 3470 3472 "obc/obc_printer.ml" 92 3929 3952
+type(
+  unit
+)
+"obc/obc_printer.ml" 94 3954 3958 "obc/obc_printer.ml" 94 3954 3966
+type(
+  Format.formatter -> Obc.op_name -> Obc.exp list -> unit
+)
+ident(
+  def print_op "obc/obc_printer.ml" 53 2669 2669 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 94 3954 3967 "obc/obc_printer.ml" 94 3954 3969
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 94 3954 3970 "obc/obc_printer.ml" 99 4128 4178
+)
+"obc/obc_printer.ml" 94 3954 3970 "obc/obc_printer.ml" 94 3954 3972
+type(
+  Obc.op_name
+)
+ident(
+  def op "obc/obc_printer.ml" 94 3954 3973 "obc/obc_printer.ml" 99 4128 4178
+)
+"obc/obc_printer.ml" 94 3954 3973 "obc/obc_printer.ml" 94 3954 3979
+type(
+  Obc.exp list
+)
+ident(
+  def e_list "obc/obc_printer.ml" 94 3954 3982 "obc/obc_printer.ml" 99 4128 4178
+)
+"obc/obc_printer.ml" 94 3954 3988 "obc/obc_printer.ml" 94 3954 3994
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/obc_printer.ml" 94 3954 3973 "obc/obc_printer.ml" 94 3954 3979
+)
+"obc/obc_printer.ml" 95 4000 4005 "obc/obc_printer.ml" 95 4000 4006
+type(
+  Obc.exp
+)
+ident(
+  def l "obc/obc_printer.ml" 96 4014 4020 "obc/obc_printer.ml" 96 4014 4090
+)
+"obc/obc_printer.ml" 95 4000 4008 "obc/obc_printer.ml" 95 4000 4009
+type(
+  Obc.exp
+)
+ident(
+  def r "obc/obc_printer.ml" 96 4014 4020 "obc/obc_printer.ml" 96 4014 4090
+)
+"obc/obc_printer.ml" 95 4000 4004 "obc/obc_printer.ml" 95 4000 4010
+type(
+  Obc.exp list
+)
+"obc/obc_printer.ml" 96 4014 4020 "obc/obc_printer.ml" 96 4014 4027
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.op_name -> unit) ->
+   Obc.op_name ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp -> (Format.formatter -> Obc.exp -> unit) -> Obc.exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.op_name -> unit) ->
+  Obc.op_name ->
+  (Format.formatter -> Obc.exp -> unit) ->
+  Obc.exp -> (Format.formatter -> Obc.exp -> unit) -> Obc.exp -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 96 4014 4028 "obc/obc_printer.ml" 96 4014 4030
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 94 3954 3967 "obc/obc_printer.ml" 94 3954 3969
+)
+"obc/obc_printer.ml" 96 4014 4031 "obc/obc_printer.ml" 96 4014 4048
+type(
+  ((Format.formatter -> Obc.op_name -> unit) ->
+   Obc.op_name ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp -> (Format.formatter -> Obc.exp -> unit) -> Obc.exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 96 4014 4049 "obc/obc_printer.ml" 96 4014 4063
+type(
+  Format.formatter -> Obc.op_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 96 4014 4064 "obc/obc_printer.ml" 96 4014 4066
+type(
+  Obc.op_name
+)
+ident(
+  int_ref op "obc/obc_printer.ml" 94 3954 3970 "obc/obc_printer.ml" 94 3954 3972
+)
+"obc/obc_printer.ml" 96 4014 4067 "obc/obc_printer.ml" 96 4014 4076
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 96 4014 4077 "obc/obc_printer.ml" 96 4014 4078
+type(
+  Obc.exp
+)
+ident(
+  int_ref l "obc/obc_printer.ml" 95 4000 4005 "obc/obc_printer.ml" 95 4000 4006
+)
+"obc/obc_printer.ml" 96 4014 4079 "obc/obc_printer.ml" 96 4014 4088
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 96 4014 4089 "obc/obc_printer.ml" 96 4014 4090
+type(
+  Obc.exp
+)
+ident(
+  int_ref r "obc/obc_printer.ml" 95 4000 4008 "obc/obc_printer.ml" 95 4000 4009
+)
+"obc/obc_printer.ml" 96 4014 4020 "obc/obc_printer.ml" 96 4014 4090
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 97 4091 4095 "obc/obc_printer.ml" 97 4091 4096
+type(
+  Obc.exp list
+)
+"obc/obc_printer.ml" 98 4100 4106 "obc/obc_printer.ml" 98 4100 4120
+type(
+  Format.formatter -> Obc.op_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 98 4100 4121 "obc/obc_printer.ml" 98 4100 4123
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 94 3954 3967 "obc/obc_printer.ml" 94 3954 3969
+)
+"obc/obc_printer.ml" 98 4100 4124 "obc/obc_printer.ml" 98 4100 4126
+type(
+  Obc.op_name
+)
+ident(
+  int_ref op "obc/obc_printer.ml" 94 3954 3970 "obc/obc_printer.ml" 94 3954 3972
+)
+"obc/obc_printer.ml" 98 4100 4106 "obc/obc_printer.ml" 98 4100 4126
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 99 4128 4134 "obc/obc_printer.ml" 99 4128 4146
+type(
+  (Format.formatter -> Obc.exp -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.exp list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_l
+)
+"obc/obc_printer.ml" 99 4128 4147 "obc/obc_printer.ml" 99 4128 4156
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 99 4128 4157 "obc/obc_printer.ml" 99 4128 4160
+type(
+  string
+)
+"obc/obc_printer.ml" 99 4128 4161 "obc/obc_printer.ml" 99 4128 4164
+type(
+  string
+)
+"obc/obc_printer.ml" 99 4128 4165 "obc/obc_printer.ml" 99 4128 4168
+type(
+  string
+)
+"obc/obc_printer.ml" 99 4128 4169 "obc/obc_printer.ml" 99 4128 4171
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 94 3954 3967 "obc/obc_printer.ml" 94 3954 3969
+)
+"obc/obc_printer.ml" 99 4128 4172 "obc/obc_printer.ml" 99 4128 4178
+type(
+  Obc.exp list
+)
+ident(
+  int_ref e_list "obc/obc_printer.ml" 94 3954 3973 "obc/obc_printer.ml" 94 3954 3979
+)
+"obc/obc_printer.ml" 99 4128 4134 "obc/obc_printer.ml" 99 4128 4178
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 98 4100 4106 "obc/obc_printer.ml" 99 4128 4178
+type(
+  unit
+)
+"obc/obc_printer.ml" 94 3954 3982 "obc/obc_printer.ml" 99 4128 4178
+type(
+  unit
+)
+"obc/obc_printer.ml" 101 4180 4184 "obc/obc_printer.ml" 101 4180 4194
+type(
+  Format.formatter -> string -> Obc.pattern -> Obc.exp -> unit
+)
+ident(
+  def print_asgn "obc/obc_printer.ml" 106 4340 4340 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 101 4180 4198 "obc/obc_printer.ml" 104 4321 4338
+)
+"obc/obc_printer.ml" 101 4180 4198 "obc/obc_printer.ml" 101 4180 4202
+type(
+  string
+)
+ident(
+  def pref "obc/obc_printer.ml" 101 4180 4203 "obc/obc_printer.ml" 104 4321 4338
+)
+"obc/obc_printer.ml" 101 4180 4203 "obc/obc_printer.ml" 101 4180 4204
+type(
+  Obc.pattern
+)
+ident(
+  def x "obc/obc_printer.ml" 101 4180 4205 "obc/obc_printer.ml" 104 4321 4338
+)
+"obc/obc_printer.ml" 101 4180 4205 "obc/obc_printer.ml" 101 4180 4206
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_printer.ml" 102 4209 4211 "obc/obc_printer.ml" 104 4321 4338
+)
+"obc/obc_printer.ml" 102 4209 4211 "obc/obc_printer.ml" 102 4209 4218
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 102 4209 4219 "obc/obc_printer.ml" 102 4209 4221
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 102 4209 4222 "obc/obc_printer.ml" 102 4209 4228
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 102 4209 4229 "obc/obc_printer.ml" 102 4209 4233
+type(
+  string
+)
+ident(
+  int_ref pref "obc/obc_printer.ml" 101 4180 4198 "obc/obc_printer.ml" 101 4180 4202
+)
+"obc/obc_printer.ml" 102 4209 4211 "obc/obc_printer.ml" 102 4209 4233
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 102 4209 4235 "obc/obc_printer.ml" 102 4209 4244
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  int_ref print_lhs "obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+)
+"obc/obc_printer.ml" 102 4209 4245 "obc/obc_printer.ml" 102 4209 4247
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 102 4209 4248 "obc/obc_printer.ml" 102 4209 4249
+type(
+  Obc.pattern
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 101 4180 4203 "obc/obc_printer.ml" 101 4180 4204
+)
+"obc/obc_printer.ml" 102 4209 4235 "obc/obc_printer.ml" 102 4209 4249
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 102 4209 4251 "obc/obc_printer.ml" 102 4209 4258
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 102 4209 4259 "obc/obc_printer.ml" 102 4209 4261
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 102 4209 4262 "obc/obc_printer.ml" 102 4209 4267
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 102 4209 4251 "obc/obc_printer.ml" 102 4209 4267
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4271 "obc/obc_printer.ml" 103 4269 4278
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 103 4269 4279 "obc/obc_printer.ml" 103 4269 4281
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 103 4269 4282 "obc/obc_printer.ml" 103 4269 4286
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 103 4269 4271 "obc/obc_printer.ml" 103 4269 4286
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4288 "obc/obc_printer.ml" 103 4269 4297
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 103 4269 4298 "obc/obc_printer.ml" 103 4269 4300
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 103 4269 4301 "obc/obc_printer.ml" 103 4269 4302
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 101 4180 4205 "obc/obc_printer.ml" 101 4180 4206
+)
+"obc/obc_printer.ml" 103 4269 4288 "obc/obc_printer.ml" 103 4269 4302
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4304 "obc/obc_printer.ml" 103 4269 4311
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 103 4269 4312 "obc/obc_printer.ml" 103 4269 4314
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 103 4269 4315 "obc/obc_printer.ml" 103 4269 4319
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 103 4269 4304 "obc/obc_printer.ml" 103 4269 4319
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 104 4321 4323 "obc/obc_printer.ml" 104 4321 4330
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 104 4321 4331 "obc/obc_printer.ml" 104 4321 4333
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 101 4180 4195 "obc/obc_printer.ml" 101 4180 4197
+)
+"obc/obc_printer.ml" 104 4321 4334 "obc/obc_printer.ml" 104 4321 4338
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 104 4321 4323 "obc/obc_printer.ml" 104 4321 4338
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4304 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4288 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 103 4269 4271 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 102 4209 4251 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 102 4209 4235 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 102 4209 4211 "obc/obc_printer.ml" 104 4321 4338
+type(
+  unit
+)
+"obc/obc_printer.ml" 106 4340 4344 "obc/obc_printer.ml" 106 4340 4358
+type(
+  Format.formatter -> Obc.obj_ref -> unit
+)
+ident(
+  def print_obj_call "obc/obc_printer.ml" 113 4520 4520 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 106 4340 4359 "obc/obc_printer.ml" 106 4340 4361
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 106 4340 4364 "obc/obc_printer.ml" 111 4471 4518
+)
+"obc/obc_printer.ml" 107 4373 4382 "obc/obc_printer.ml" 107 4373 4383
+type(
+  Obc.obj_ident
+)
+ident(
+  def o "obc/obc_printer.ml" 107 4373 4387 "obc/obc_printer.ml" 107 4373 4403
+)
+"obc/obc_printer.ml" 107 4373 4377 "obc/obc_printer.ml" 107 4373 4383
+type(
+  Obc.obj_ref
+)
+"obc/obc_printer.ml" 107 4373 4387 "obc/obc_printer.ml" 107 4373 4398
+type(
+  Format.formatter -> Obc.obj_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 107 4373 4399 "obc/obc_printer.ml" 107 4373 4401
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 106 4340 4359 "obc/obc_printer.ml" 106 4340 4361
+)
+"obc/obc_printer.ml" 107 4373 4402 "obc/obc_printer.ml" 107 4373 4403
+type(
+  Obc.obj_ident
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 107 4373 4382 "obc/obc_printer.ml" 107 4373 4383
+)
+"obc/obc_printer.ml" 107 4373 4387 "obc/obc_printer.ml" 107 4373 4403
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 108 4404 4416 "obc/obc_printer.ml" 108 4404 4417
+type(
+  Obc.obj_ident
+)
+ident(
+  def o "obc/obc_printer.ml" 109 4425 4431 "obc/obc_printer.ml" 111 4471 4518
+)
+"obc/obc_printer.ml" 108 4404 4419 "obc/obc_printer.ml" 108 4404 4420
+type(
+  Obc.pattern list
+)
+ident(
+  def i "obc/obc_printer.ml" 109 4425 4431 "obc/obc_printer.ml" 111 4471 4518
+)
+"obc/obc_printer.ml" 108 4404 4408 "obc/obc_printer.ml" 108 4404 4421
+type(
+  Obc.obj_ref
+)
+"obc/obc_printer.ml" 109 4425 4431 "obc/obc_printer.ml" 109 4425 4438
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.obj_ident -> unit) ->
+   Obc.obj_ident ->
+   (Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.obj_ident -> unit) ->
+  Obc.obj_ident ->
+  (Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 109 4425 4439 "obc/obc_printer.ml" 109 4425 4441
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 106 4340 4359 "obc/obc_printer.ml" 106 4340 4361
+)
+"obc/obc_printer.ml" 109 4425 4442 "obc/obc_printer.ml" 109 4425 4448
+type(
+  ((Format.formatter -> Obc.obj_ident -> unit) ->
+   Obc.obj_ident ->
+   (Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 110 4449 4457 "obc/obc_printer.ml" 110 4449 4468
+type(
+  Format.formatter -> Obc.obj_ident -> unit
+)
+ident(
+  ext_ref Global_printer.print_ident
+)
+"obc/obc_printer.ml" 110 4449 4469 "obc/obc_printer.ml" 110 4449 4470
+type(
+  Obc.obj_ident
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 108 4404 4416 "obc/obc_printer.ml" 108 4404 4417
+)
+"obc/obc_printer.ml" 111 4471 4480 "obc/obc_printer.ml" 111 4471 4492
+type(
+  (Format.formatter -> Obc.pattern -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.pattern list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 111 4471 4493 "obc/obc_printer.ml" 111 4471 4502
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  int_ref print_lhs "obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+)
+"obc/obc_printer.ml" 111 4471 4503 "obc/obc_printer.ml" 111 4471 4506
+type(
+  string
+)
+"obc/obc_printer.ml" 111 4471 4507 "obc/obc_printer.ml" 111 4471 4511
+type(
+  string
+)
+"obc/obc_printer.ml" 111 4471 4512 "obc/obc_printer.ml" 111 4471 4515
+type(
+  string
+)
+"obc/obc_printer.ml" 111 4471 4479 "obc/obc_printer.ml" 111 4471 4516
+call(
+  stack
+)
+type(
+  Format.formatter -> Obc.pattern list -> unit
+)
+"obc/obc_printer.ml" 111 4471 4517 "obc/obc_printer.ml" 111 4471 4518
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref i "obc/obc_printer.ml" 108 4404 4419 "obc/obc_printer.ml" 108 4404 4420
+)
+"obc/obc_printer.ml" 109 4425 4431 "obc/obc_printer.ml" 111 4471 4518
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 106 4340 4364 "obc/obc_printer.ml" 111 4471 4518
+type(
+  Obc.obj_ref -> unit
+)
+"obc/obc_printer.ml" 113 4520 4524 "obc/obc_printer.ml" 113 4520 4541
+type(
+  Format.formatter -> Obc.method_name -> unit
+)
+ident(
+  def print_method_name "obc/obc_printer.ml" 118 4622 4622 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 113 4520 4542 "obc/obc_printer.ml" 113 4520 4544
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 113 4520 4547 "obc/obc_printer.ml" 115 4587 4619
+)
+"obc/obc_printer.ml" 114 4556 4560 "obc/obc_printer.ml" 114 4556 4565
+type(
+  Obc.method_name
+)
+"obc/obc_printer.ml" 114 4556 4569 "obc/obc_printer.ml" 114 4556 4576
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 114 4556 4577 "obc/obc_printer.ml" 114 4556 4579
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 113 4520 4542 "obc/obc_printer.ml" 113 4520 4544
+)
+"obc/obc_printer.ml" 114 4556 4580 "obc/obc_printer.ml" 114 4556 4586
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 114 4556 4569 "obc/obc_printer.ml" 114 4556 4586
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 115 4587 4591 "obc/obc_printer.ml" 115 4587 4597
+type(
+  Obc.method_name
+)
+"obc/obc_printer.ml" 115 4587 4601 "obc/obc_printer.ml" 115 4587 4608
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 115 4587 4609 "obc/obc_printer.ml" 115 4587 4611
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 113 4520 4542 "obc/obc_printer.ml" 113 4520 4544
+)
+"obc/obc_printer.ml" 115 4587 4612 "obc/obc_printer.ml" 115 4587 4619
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 115 4587 4601 "obc/obc_printer.ml" 115 4587 4619
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 113 4520 4547 "obc/obc_printer.ml" 115 4587 4619
+type(
+  Obc.method_name -> unit
+)
+"obc/obc_printer.ml" 118 4622 4630 "obc/obc_printer.ml" 118 4622 4639
+type(
+  Format.formatter -> Obc.act -> unit
+)
+ident(
+  def print_act "obc/obc_printer.ml" 118 4622 4622 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 118 4622 4643 "obc/obc_printer.ml" 144 5514 5565
+)
+"obc/obc_printer.ml" 118 4622 4643 "obc/obc_printer.ml" 118 4622 4644
+type(
+  Obc.act
+)
+ident(
+  def a "obc/obc_printer.ml" 119 4647 4649 "obc/obc_printer.ml" 144 5514 5565
+)
+"obc/obc_printer.ml" 119 4647 4653 "obc/obc_printer.ml" 119 4647 4668
+type(
+  Format.formatter -> Obc.pattern list -> unit
+)
+ident(
+  def print_lhs_tuple "obc/obc_printer.ml" 122 4800 4802 "obc/obc_printer.ml" 144 5514 5565
+)
+"obc/obc_printer.ml" 119 4647 4669 "obc/obc_printer.ml" 119 4647 4671
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 119 4647 4672 "obc/obc_printer.ml" 121 4718 4796
+)
+"obc/obc_printer.ml" 119 4647 4672 "obc/obc_printer.ml" 119 4647 4680
+type(
+  Obc.pattern list
+)
+ident(
+  def var_list "obc/obc_printer.ml" 119 4647 4683 "obc/obc_printer.ml" 121 4718 4796
+)
+"obc/obc_printer.ml" 119 4647 4689 "obc/obc_printer.ml" 119 4647 4697
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref var_list "obc/obc_printer.ml" 119 4647 4672 "obc/obc_printer.ml" 119 4647 4680
+)
+"obc/obc_printer.ml" 120 4703 4709 "obc/obc_printer.ml" 120 4703 4711
+type(
+  Obc.pattern list
+)
+"obc/obc_printer.ml" 120 4703 4715 "obc/obc_printer.ml" 120 4703 4717
+type(
+  unit
+)
+"obc/obc_printer.ml" 121 4718 4724 "obc/obc_printer.ml" 121 4718 4725
+type(
+  Obc.pattern list
+)
+"obc/obc_printer.ml" 121 4718 4729 "obc/obc_printer.ml" 121 4718 4736
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 121 4718 4737 "obc/obc_printer.ml" 121 4718 4739
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 119 4647 4669 "obc/obc_printer.ml" 119 4647 4671
+)
+"obc/obc_printer.ml" 121 4718 4740 "obc/obc_printer.ml" 121 4718 4754
+type(
+  ((Format.formatter -> Obc.pattern list -> unit) -> Obc.pattern list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 121 4718 4756 "obc/obc_printer.ml" 121 4718 4766
+type(
+  (Format.formatter -> Obc.pattern -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.pattern list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list
+)
+"obc/obc_printer.ml" 121 4718 4767 "obc/obc_printer.ml" 121 4718 4776
+type(
+  Format.formatter -> Obc.pattern -> unit
+)
+ident(
+  int_ref print_lhs "obc/obc_printer.ml" 53 2669 2677 "obc/obc_printer.ml" 53 2669 2686
+)
+"obc/obc_printer.ml" 121 4718 4777 "obc/obc_printer.ml" 121 4718 4779
+type(
+  string
+)
+"obc/obc_printer.ml" 121 4718 4780 "obc/obc_printer.ml" 121 4718 4783
+type(
+  string
+)
+"obc/obc_printer.ml" 121 4718 4784 "obc/obc_printer.ml" 121 4718 4786
+type(
+  string
+)
+"obc/obc_printer.ml" 121 4718 4755 "obc/obc_printer.ml" 121 4718 4787
+call(
+  stack
+)
+type(
+  Format.formatter -> Obc.pattern list -> unit
+)
+"obc/obc_printer.ml" 121 4718 4788 "obc/obc_printer.ml" 121 4718 4796
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref var_list "obc/obc_printer.ml" 119 4647 4672 "obc/obc_printer.ml" 119 4647 4680
+)
+"obc/obc_printer.ml" 121 4718 4729 "obc/obc_printer.ml" 121 4718 4796
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 119 4647 4683 "obc/obc_printer.ml" 121 4718 4796
+type(
+  unit
+)
+"obc/obc_printer.ml" 122 4800 4808 "obc/obc_printer.ml" 122 4800 4809
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/obc_printer.ml" 118 4622 4643 "obc/obc_printer.ml" 118 4622 4644
+)
+"obc/obc_printer.ml" 123 4815 4829 "obc/obc_printer.ml" 123 4815 4830
+type(
+  Obc.pattern
+)
+ident(
+  def x "obc/obc_printer.ml" 123 4815 4838 "obc/obc_printer.ml" 123 4815 4858
+)
+"obc/obc_printer.ml" 123 4815 4832 "obc/obc_printer.ml" 123 4815 4833
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_printer.ml" 123 4815 4838 "obc/obc_printer.ml" 123 4815 4858
+)
+"obc/obc_printer.ml" 123 4815 4821 "obc/obc_printer.ml" 123 4815 4834
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 123 4815 4838 "obc/obc_printer.ml" 123 4815 4848
+type(
+  Format.formatter -> string -> Obc.pattern -> Obc.exp -> unit
+)
+ident(
+  int_ref print_asgn "obc/obc_printer.ml" 101 4180 4184 "obc/obc_printer.ml" 101 4180 4194
+)
+"obc/obc_printer.ml" 123 4815 4849 "obc/obc_printer.ml" 123 4815 4851
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 123 4815 4852 "obc/obc_printer.ml" 123 4815 4854
+type(
+  string
+)
+"obc/obc_printer.ml" 123 4815 4855 "obc/obc_printer.ml" 123 4815 4856
+type(
+  Obc.pattern
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 123 4815 4829 "obc/obc_printer.ml" 123 4815 4830
+)
+"obc/obc_printer.ml" 123 4815 4857 "obc/obc_printer.ml" 123 4815 4858
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 123 4815 4832 "obc/obc_printer.ml" 123 4815 4833
+)
+"obc/obc_printer.ml" 123 4815 4838 "obc/obc_printer.ml" 123 4815 4858
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 124 4859 4871 "obc/obc_printer.ml" 124 4859 4872
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_printer.ml" 125 4891 4899 "obc/obc_printer.ml" 128 5022 5050
+)
+"obc/obc_printer.ml" 124 4859 4874 "obc/obc_printer.ml" 124 4859 4886
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def tag_act_list "obc/obc_printer.ml" 125 4891 4899 "obc/obc_printer.ml" 128 5022 5050
+)
+"obc/obc_printer.ml" 124 4859 4865 "obc/obc_printer.ml" 124 4859 4887
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 125 4891 4899 "obc/obc_printer.ml" 125 4891 4906
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 125 4891 4907 "obc/obc_printer.ml" 125 4891 4909
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 125 4891 4910 "obc/obc_printer.ml" 125 4891 4932
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 125 4891 4899 "obc/obc_printer.ml" 125 4891 4932
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 126 4934 4942 "obc/obc_printer.ml" 126 4934 4951
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 126 4934 4952 "obc/obc_printer.ml" 126 4934 4954
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 126 4934 4955 "obc/obc_printer.ml" 126 4934 4956
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_printer.ml" 124 4859 4871 "obc/obc_printer.ml" 124 4859 4872
+)
+"obc/obc_printer.ml" 126 4934 4942 "obc/obc_printer.ml" 126 4934 4956
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 126 4934 4958 "obc/obc_printer.ml" 126 4934 4965
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 126 4934 4966 "obc/obc_printer.ml" 126 4934 4968
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 126 4934 4969 "obc/obc_printer.ml" 126 4934 4976
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 126 4934 4958 "obc/obc_printer.ml" 126 4934 4976
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 127 4978 4986 "obc/obc_printer.ml" 127 4978 5004
+type(
+  Format.formatter -> (Names.constructor_name * Obc.block) list -> unit
+)
+ident(
+  int_ref print_tag_act_list "obc/obc_printer.ml" 157 5883 5887 "obc/obc_printer.ml" 157 5883 5905
+)
+"obc/obc_printer.ml" 127 4978 5005 "obc/obc_printer.ml" 127 4978 5007
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 127 4978 5008 "obc/obc_printer.ml" 127 4978 5020
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref tag_act_list "obc/obc_printer.ml" 124 4859 4874 "obc/obc_printer.ml" 124 4859 4886
+)
+"obc/obc_printer.ml" 127 4978 4986 "obc/obc_printer.ml" 127 4978 5020
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 128 5022 5030 "obc/obc_printer.ml" 128 5022 5037
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 128 5022 5038 "obc/obc_printer.ml" 128 5022 5040
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 128 5022 5041 "obc/obc_printer.ml" 128 5022 5050
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 128 5022 5030 "obc/obc_printer.ml" 128 5022 5050
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 127 4978 4986 "obc/obc_printer.ml" 128 5022 5050
+type(
+  unit
+)
+"obc/obc_printer.ml" 126 4934 4958 "obc/obc_printer.ml" 128 5022 5050
+type(
+  unit
+)
+"obc/obc_printer.ml" 126 4934 4942 "obc/obc_printer.ml" 128 5022 5050
+type(
+  unit
+)
+"obc/obc_printer.ml" 125 4891 4899 "obc/obc_printer.ml" 128 5022 5050
+type(
+  unit
+)
+"obc/obc_printer.ml" 129 5051 5062 "obc/obc_printer.ml" 129 5051 5063
+type(
+  Obc.var_dec
+)
+ident(
+  def x "obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 134 5219 5249
+)
+"obc/obc_printer.ml" 129 5051 5065 "obc/obc_printer.ml" 129 5051 5067
+type(
+  Obc.exp
+)
+ident(
+  def i1 "obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 134 5219 5249
+)
+"obc/obc_printer.ml" 129 5051 5069 "obc/obc_printer.ml" 129 5051 5071
+type(
+  Obc.exp
+)
+ident(
+  def i2 "obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 134 5219 5249
+)
+"obc/obc_printer.ml" 129 5051 5073 "obc/obc_printer.ml" 129 5051 5081
+type(
+  Obc.block
+)
+ident(
+  def act_list "obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 134 5219 5249
+)
+"obc/obc_printer.ml" 129 5051 5057 "obc/obc_printer.ml" 129 5051 5082
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 130 5086 5101
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.var_dec -> unit) ->
+   Obc.var_dec ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp -> (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.var_dec -> unit) ->
+  Obc.var_dec ->
+  (Format.formatter -> Obc.exp -> unit) ->
+  Obc.exp ->
+  (Format.formatter -> Obc.exp -> unit) ->
+  Obc.exp -> (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 130 5086 5102 "obc/obc_printer.ml" 130 5086 5104
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 130 5086 5105 "obc/obc_printer.ml" 130 5086 5151
+type(
+  ((Format.formatter -> Obc.var_dec -> unit) ->
+   Obc.var_dec ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp ->
+   (Format.formatter -> Obc.exp -> unit) ->
+   Obc.exp -> (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 131 5152 5162 "obc/obc_printer.ml" 131 5152 5170
+type(
+  Format.formatter -> Obc.var_dec -> unit
+)
+ident(
+  int_ref print_vd "obc/obc_printer.ml" 35 2139 2143 "obc/obc_printer.ml" 35 2139 2151
+)
+"obc/obc_printer.ml" 131 5152 5171 "obc/obc_printer.ml" 131 5152 5172
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref x "obc/obc_printer.ml" 129 5051 5062 "obc/obc_printer.ml" 129 5051 5063
+)
+"obc/obc_printer.ml" 132 5173 5183 "obc/obc_printer.ml" 132 5173 5192
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 132 5173 5193 "obc/obc_printer.ml" 132 5173 5195
+type(
+  Obc.exp
+)
+ident(
+  int_ref i1 "obc/obc_printer.ml" 129 5051 5065 "obc/obc_printer.ml" 129 5051 5067
+)
+"obc/obc_printer.ml" 133 5196 5206 "obc/obc_printer.ml" 133 5196 5215
+type(
+  Format.formatter -> Obc.exp -> unit
+)
+ident(
+  int_ref print_exp "obc/obc_printer.ml" 78 3449 3453 "obc/obc_printer.ml" 78 3449 3462
+)
+"obc/obc_printer.ml" 133 5196 5216 "obc/obc_printer.ml" 133 5196 5218
+type(
+  Obc.exp
+)
+ident(
+  int_ref i2 "obc/obc_printer.ml" 129 5051 5069 "obc/obc_printer.ml" 129 5051 5071
+)
+"obc/obc_printer.ml" 134 5219 5229 "obc/obc_printer.ml" 134 5219 5240
+type(
+  Format.formatter -> Obc.block -> unit
+)
+ident(
+  int_ref print_block "obc/obc_printer.ml" 152 5750 5754 "obc/obc_printer.ml" 152 5750 5765
+)
+"obc/obc_printer.ml" 134 5219 5241 "obc/obc_printer.ml" 134 5219 5249
+type(
+  Obc.block
+)
+ident(
+  int_ref act_list "obc/obc_printer.ml" 129 5051 5073 "obc/obc_printer.ml" 129 5051 5081
+)
+"obc/obc_printer.ml" 130 5086 5094 "obc/obc_printer.ml" 134 5219 5249
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 135 5250 5261 "obc/obc_printer.ml" 135 5250 5263
+type(
+  Obc.op_name
+)
+ident(
+  def op "obc/obc_printer.ml" 136 5272 5280 "obc/obc_printer.ml" 136 5272 5297
+)
+"obc/obc_printer.ml" 135 5250 5265 "obc/obc_printer.ml" 135 5250 5267
+type(
+  Obc.exp list
+)
+ident(
+  def es "obc/obc_printer.ml" 136 5272 5280 "obc/obc_printer.ml" 136 5272 5297
+)
+"obc/obc_printer.ml" 135 5250 5256 "obc/obc_printer.ml" 135 5250 5268
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 136 5272 5280 "obc/obc_printer.ml" 136 5272 5288
+type(
+  Format.formatter -> Obc.op_name -> Obc.exp list -> unit
+)
+ident(
+  int_ref print_op "obc/obc_printer.ml" 94 3954 3958 "obc/obc_printer.ml" 94 3954 3966
+)
+"obc/obc_printer.ml" 136 5272 5289 "obc/obc_printer.ml" 136 5272 5291
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 136 5272 5292 "obc/obc_printer.ml" 136 5272 5294
+type(
+  Obc.op_name
+)
+ident(
+  int_ref op "obc/obc_printer.ml" 135 5250 5261 "obc/obc_printer.ml" 135 5250 5263
+)
+"obc/obc_printer.ml" 136 5272 5295 "obc/obc_printer.ml" 136 5272 5297
+type(
+  Obc.exp list
+)
+ident(
+  int_ref es "obc/obc_printer.ml" 135 5250 5265 "obc/obc_printer.ml" 135 5250 5267
+)
+"obc/obc_printer.ml" 136 5272 5280 "obc/obc_printer.ml" 136 5272 5297
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 137 5298 5311 "obc/obc_printer.ml" 137 5298 5319
+type(
+  Obc.pattern list
+)
+ident(
+  def var_list "obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 142 5472 5495
+)
+"obc/obc_printer.ml" 137 5298 5321 "obc/obc_printer.ml" 137 5298 5322
+type(
+  Obc.obj_ref
+)
+ident(
+  def o "obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 142 5472 5495
+)
+"obc/obc_printer.ml" 137 5298 5324 "obc/obc_printer.ml" 137 5298 5328
+type(
+  Obc.method_name
+)
+ident(
+  def meth "obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 142 5472 5495
+)
+"obc/obc_printer.ml" 137 5298 5330 "obc/obc_printer.ml" 137 5298 5332
+type(
+  Obc.exp list
+)
+ident(
+  def es "obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 142 5472 5495
+)
+"obc/obc_printer.ml" 137 5298 5304 "obc/obc_printer.ml" 137 5298 5333
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 138 5337 5352
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.pattern list -> unit) ->
+   Obc.pattern list ->
+   (Format.formatter -> Obc.obj_ref -> unit) ->
+   Obc.obj_ref ->
+   (Format.formatter -> Obc.method_name -> unit) ->
+   Obc.method_name ->
+   (Format.formatter -> Obc.exp list -> unit) -> Obc.exp list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.pattern list -> unit) ->
+  Obc.pattern list ->
+  (Format.formatter -> Obc.obj_ref -> unit) ->
+  Obc.obj_ref ->
+  (Format.formatter -> Obc.method_name -> unit) ->
+  Obc.method_name ->
+  (Format.formatter -> Obc.exp list -> unit) -> Obc.exp list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 138 5337 5353 "obc/obc_printer.ml" 138 5337 5355
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 138 5337 5356 "obc/obc_printer.ml" 138 5337 5376
+type(
+  ((Format.formatter -> Obc.pattern list -> unit) ->
+   Obc.pattern list ->
+   (Format.formatter -> Obc.obj_ref -> unit) ->
+   Obc.obj_ref ->
+   (Format.formatter -> Obc.method_name -> unit) ->
+   Obc.method_name ->
+   (Format.formatter -> Obc.exp list -> unit) -> Obc.exp list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 139 5377 5387 "obc/obc_printer.ml" 139 5377 5402
+type(
+  Format.formatter -> Obc.pattern list -> unit
+)
+ident(
+  int_ref print_lhs_tuple "obc/obc_printer.ml" 119 4647 4653 "obc/obc_printer.ml" 119 4647 4668
+)
+"obc/obc_printer.ml" 139 5377 5403 "obc/obc_printer.ml" 139 5377 5411
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref var_list "obc/obc_printer.ml" 137 5298 5311 "obc/obc_printer.ml" 137 5298 5319
+)
+"obc/obc_printer.ml" 140 5412 5422 "obc/obc_printer.ml" 140 5412 5436
+type(
+  Format.formatter -> Obc.obj_ref -> unit
+)
+ident(
+  int_ref print_obj_call "obc/obc_printer.ml" 106 4340 4344 "obc/obc_printer.ml" 106 4340 4358
+)
+"obc/obc_printer.ml" 140 5412 5437 "obc/obc_printer.ml" 140 5412 5438
+type(
+  Obc.obj_ref
+)
+ident(
+  int_ref o "obc/obc_printer.ml" 137 5298 5321 "obc/obc_printer.ml" 137 5298 5322
+)
+"obc/obc_printer.ml" 141 5439 5449 "obc/obc_printer.ml" 141 5439 5466
+type(
+  Format.formatter -> Obc.method_name -> unit
+)
+ident(
+  int_ref print_method_name "obc/obc_printer.ml" 113 4520 4524 "obc/obc_printer.ml" 113 4520 4541
+)
+"obc/obc_printer.ml" 141 5439 5467 "obc/obc_printer.ml" 141 5439 5471
+type(
+  Obc.method_name
+)
+ident(
+  int_ref meth "obc/obc_printer.ml" 137 5298 5324 "obc/obc_printer.ml" 137 5298 5328
+)
+"obc/obc_printer.ml" 142 5472 5482 "obc/obc_printer.ml" 142 5472 5492
+type(
+  Format.formatter -> Obc.exp list -> unit
+)
+ident(
+  int_ref print_exps "obc/obc_printer.ml" 76 3378 3382 "obc/obc_printer.ml" 76 3378 3392
+)
+"obc/obc_printer.ml" 142 5472 5493 "obc/obc_printer.ml" 142 5472 5495
+type(
+  Obc.exp list
+)
+ident(
+  int_ref es "obc/obc_printer.ml" 137 5298 5330 "obc/obc_printer.ml" 137 5298 5332
+)
+"obc/obc_printer.ml" 138 5337 5345 "obc/obc_printer.ml" 142 5472 5495
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 143 5496 5509 "obc/obc_printer.ml" 143 5496 5510
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_printer.ml" 144 5514 5522 "obc/obc_printer.ml" 144 5514 5565
+)
+"obc/obc_printer.ml" 143 5496 5502 "obc/obc_printer.ml" 143 5496 5510
+type(
+  Obc.act
+)
+"obc/obc_printer.ml" 144 5514 5522 "obc/obc_printer.ml" 144 5514 5529
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 144 5514 5530 "obc/obc_printer.ml" 144 5514 5532
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 118 4622 4640 "obc/obc_printer.ml" 118 4622 4642
+)
+"obc/obc_printer.ml" 144 5514 5533 "obc/obc_printer.ml" 144 5514 5551
+type(
+  ((Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 144 5514 5552 "obc/obc_printer.ml" 144 5514 5563
+type(
+  Format.formatter -> Obc.block -> unit
+)
+ident(
+  int_ref print_block "obc/obc_printer.ml" 152 5750 5754 "obc/obc_printer.ml" 152 5750 5765
+)
+"obc/obc_printer.ml" 144 5514 5564 "obc/obc_printer.ml" 144 5514 5565
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_printer.ml" 143 5496 5509 "obc/obc_printer.ml" 143 5496 5510
+)
+"obc/obc_printer.ml" 144 5514 5522 "obc/obc_printer.ml" 144 5514 5565
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 122 4800 4802 "obc/obc_printer.ml" 144 5514 5565
+type(
+  unit
+)
+"obc/obc_printer.ml" 119 4647 4649 "obc/obc_printer.ml" 144 5514 5565
+type(
+  unit
+)
+"obc/obc_printer.ml" 146 5567 5571 "obc/obc_printer.ml" 146 5567 5589
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  def print_var_dec_list "obc/obc_printer.ml" 118 4622 4622 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 146 5567 5590 "obc/obc_printer.ml" 146 5567 5592
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 146 5567 5593 "obc/obc_printer.ml" 150 5689 5748
+)
+"obc/obc_printer.ml" 146 5567 5593 "obc/obc_printer.ml" 146 5567 5605
+type(
+  Obc.var_dec list
+)
+ident(
+  def var_dec_list "obc/obc_printer.ml" 146 5567 5608 "obc/obc_printer.ml" 150 5689 5748
+)
+"obc/obc_printer.ml" 146 5567 5614 "obc/obc_printer.ml" 146 5567 5626
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref var_dec_list "obc/obc_printer.ml" 146 5567 5593 "obc/obc_printer.ml" 146 5567 5605
+)
+"obc/obc_printer.ml" 147 5632 5636 "obc/obc_printer.ml" 147 5632 5638
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 147 5632 5642 "obc/obc_printer.ml" 147 5632 5644
+type(
+  unit
+)
+"obc/obc_printer.ml" 148 5645 5649 "obc/obc_printer.ml" 148 5645 5650
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 149 5654 5660 "obc/obc_printer.ml" 149 5654 5667
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 149 5654 5668 "obc/obc_printer.ml" 149 5654 5670
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 146 5567 5590 "obc/obc_printer.ml" 146 5567 5592
+)
+"obc/obc_printer.ml" 149 5654 5671 "obc/obc_printer.ml" 149 5654 5688
+type(
+  ((Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 150 5689 5698 "obc/obc_printer.ml" 150 5689 5710
+type(
+  (Format.formatter -> Obc.var_dec -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 150 5689 5711 "obc/obc_printer.ml" 150 5689 5719
+type(
+  Format.formatter -> Obc.var_dec -> unit
+)
+ident(
+  int_ref print_vd "obc/obc_printer.ml" 35 2139 2143 "obc/obc_printer.ml" 35 2139 2151
+)
+"obc/obc_printer.ml" 150 5689 5720 "obc/obc_printer.ml" 150 5689 5726
+type(
+  string
+)
+"obc/obc_printer.ml" 150 5689 5727 "obc/obc_printer.ml" 150 5689 5730
+type(
+  string
+)
+"obc/obc_printer.ml" 150 5689 5731 "obc/obc_printer.ml" 150 5689 5734
+type(
+  string
+)
+"obc/obc_printer.ml" 150 5689 5697 "obc/obc_printer.ml" 150 5689 5735
+call(
+  stack
+)
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+"obc/obc_printer.ml" 150 5689 5736 "obc/obc_printer.ml" 150 5689 5748
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref var_dec_list "obc/obc_printer.ml" 146 5567 5593 "obc/obc_printer.ml" 146 5567 5605
+)
+"obc/obc_printer.ml" 149 5654 5660 "obc/obc_printer.ml" 150 5689 5748
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 146 5567 5608 "obc/obc_printer.ml" 150 5689 5748
+type(
+  unit
+)
+"obc/obc_printer.ml" 152 5750 5754 "obc/obc_printer.ml" 152 5750 5765
+type(
+  Format.formatter -> Obc.block -> unit
+)
+ident(
+  def print_block "obc/obc_printer.ml" 118 4622 4622 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 152 5750 5766 "obc/obc_printer.ml" 152 5750 5768
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 152 5750 5769 "obc/obc_printer.ml" 155 5834 5881
+)
+"obc/obc_printer.ml" 152 5750 5769 "obc/obc_printer.ml" 152 5750 5770
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_printer.ml" 153 5773 5775 "obc/obc_printer.ml" 155 5834 5881
+)
+"obc/obc_printer.ml" 153 5773 5775 "obc/obc_printer.ml" 153 5773 5782
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.act list -> unit) -> Obc.act list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.var_dec list -> unit) ->
+  Obc.var_dec list ->
+  (Format.formatter -> Obc.act list -> unit) -> Obc.act list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 153 5773 5783 "obc/obc_printer.ml" 153 5773 5785
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 152 5750 5766 "obc/obc_printer.ml" 152 5750 5768
+)
+"obc/obc_printer.ml" 153 5773 5786 "obc/obc_printer.ml" 153 5773 5799
+type(
+  ((Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.act list -> unit) -> Obc.act list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 154 5800 5804 "obc/obc_printer.ml" 154 5800 5822
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  int_ref print_var_dec_list "obc/obc_printer.ml" 146 5567 5571 "obc/obc_printer.ml" 146 5567 5589
+)
+"obc/obc_printer.ml" 154 5800 5823 "obc/obc_printer.ml" 154 5800 5824
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_printer.ml" 152 5750 5769 "obc/obc_printer.ml" 152 5750 5770
+)
+"obc/obc_printer.ml" 154 5800 5823 "obc/obc_printer.ml" 154 5800 5833
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 155 5834 5839 "obc/obc_printer.ml" 155 5834 5851
+type(
+  (Format.formatter -> Obc.act -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.act list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 155 5834 5852 "obc/obc_printer.ml" 155 5834 5861
+type(
+  Format.formatter -> Obc.act -> unit
+)
+ident(
+  int_ref print_act "obc/obc_printer.ml" 118 4622 4630 "obc/obc_printer.ml" 118 4622 4639
+)
+"obc/obc_printer.ml" 155 5834 5862 "obc/obc_printer.ml" 155 5834 5864
+type(
+  string
+)
+"obc/obc_printer.ml" 155 5834 5865 "obc/obc_printer.ml" 155 5834 5868
+type(
+  string
+)
+"obc/obc_printer.ml" 155 5834 5869 "obc/obc_printer.ml" 155 5834 5871
+type(
+  string
+)
+"obc/obc_printer.ml" 155 5834 5838 "obc/obc_printer.ml" 155 5834 5872
+call(
+  stack
+)
+type(
+  Format.formatter -> Obc.act list -> unit
+)
+"obc/obc_printer.ml" 155 5834 5873 "obc/obc_printer.ml" 155 5834 5874
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_printer.ml" 152 5750 5769 "obc/obc_printer.ml" 152 5750 5770
+)
+"obc/obc_printer.ml" 155 5834 5873 "obc/obc_printer.ml" 155 5834 5881
+type(
+  Obc.act list
+)
+"obc/obc_printer.ml" 153 5773 5775 "obc/obc_printer.ml" 155 5834 5881
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 157 5883 5887 "obc/obc_printer.ml" 157 5883 5905
+type(
+  Format.formatter -> (Names.constructor_name * Obc.block) list -> unit
+)
+ident(
+  def print_tag_act_list "obc/obc_printer.ml" 118 4622 4622 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 157 5883 5906 "obc/obc_printer.ml" 157 5883 5908
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 157 5883 5909 "obc/obc_printer.ml" 163 6055 6083
+)
+"obc/obc_printer.ml" 157 5883 5909 "obc/obc_printer.ml" 157 5883 5921
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def tag_act_list "obc/obc_printer.ml" 158 5924 5926 "obc/obc_printer.ml" 163 6055 6083
+)
+"obc/obc_printer.ml" 158 5924 5926 "obc/obc_printer.ml" 158 5924 5936
+type(
+  (Format.formatter -> Names.constructor_name * Obc.block -> unit) ->
+  string ->
+  string ->
+  string ->
+  Format.formatter -> (Names.constructor_name * Obc.block) list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list
+)
+"obc/obc_printer.ml" 159 5937 5946 "obc/obc_printer.ml" 159 5937 5948
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 159 5937 5949 "obc/obc_printer.ml" 162 6031 6053
+)
+"obc/obc_printer.ml" 159 5937 5950 "obc/obc_printer.ml" 159 5937 5953
+type(
+  Names.constructor_name
+)
+ident(
+  def tag "obc/obc_printer.ml" 160 5961 5968 "obc/obc_printer.ml" 162 6031 6053
+)
+"obc/obc_printer.ml" 159 5937 5955 "obc/obc_printer.ml" 159 5937 5956
+type(
+  Obc.block
+)
+ident(
+  def a "obc/obc_printer.ml" 160 5961 5968 "obc/obc_printer.ml" 162 6031 6053
+)
+"obc/obc_printer.ml" 159 5937 5949 "obc/obc_printer.ml" 159 5937 5957
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/obc_printer.ml" 160 5961 5968 "obc/obc_printer.ml" 160 5961 5975
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.constructor_name -> unit) ->
+  Names.constructor_name ->
+  (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 160 5961 5976 "obc/obc_printer.ml" 160 5961 5978
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 159 5937 5946 "obc/obc_printer.ml" 159 5937 5948
+)
+"obc/obc_printer.ml" 160 5961 5979 "obc/obc_printer.ml" 160 5961 6002
+type(
+  ((Format.formatter -> Names.constructor_name -> unit) ->
+   Names.constructor_name ->
+   (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 161 6003 6012 "obc/obc_printer.ml" 161 6003 6026
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 161 6003 6027 "obc/obc_printer.ml" 161 6003 6030
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref tag "obc/obc_printer.ml" 159 5937 5950 "obc/obc_printer.ml" 159 5937 5953
+)
+"obc/obc_printer.ml" 162 6031 6040 "obc/obc_printer.ml" 162 6031 6051
+type(
+  Format.formatter -> Obc.block -> unit
+)
+ident(
+  int_ref print_block "obc/obc_printer.ml" 152 5750 5754 "obc/obc_printer.ml" 152 5750 5765
+)
+"obc/obc_printer.ml" 162 6031 6052 "obc/obc_printer.ml" 162 6031 6053
+type(
+  Obc.block
+)
+ident(
+  int_ref a "obc/obc_printer.ml" 159 5937 5955 "obc/obc_printer.ml" 159 5937 5956
+)
+"obc/obc_printer.ml" 160 5961 5968 "obc/obc_printer.ml" 162 6031 6053
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 159 5937 5941 "obc/obc_printer.ml" 162 6031 6054
+type(
+  Format.formatter -> Names.constructor_name * Obc.block -> unit
+)
+"obc/obc_printer.ml" 163 6055 6059 "obc/obc_printer.ml" 163 6055 6061
+type(
+  string
+)
+"obc/obc_printer.ml" 163 6055 6062 "obc/obc_printer.ml" 163 6055 6064
+type(
+  string
+)
+"obc/obc_printer.ml" 163 6055 6065 "obc/obc_printer.ml" 163 6055 6067
+type(
+  string
+)
+"obc/obc_printer.ml" 163 6055 6068 "obc/obc_printer.ml" 163 6055 6070
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 157 5883 5906 "obc/obc_printer.ml" 157 5883 5908
+)
+"obc/obc_printer.ml" 163 6055 6071 "obc/obc_printer.ml" 163 6055 6083
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref tag_act_list "obc/obc_printer.ml" 157 5883 5909 "obc/obc_printer.ml" 157 5883 5921
+)
+"obc/obc_printer.ml" 158 5924 5926 "obc/obc_printer.ml" 163 6055 6083
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 165 6085 6089 "obc/obc_printer.ml" 165 6085 6106
+type(
+  Format.formatter -> Obc.method_name -> unit
+)
+ident(
+  def print_method_name "obc/obc_printer.ml" 169 6186 6186 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 165 6085 6107 "obc/obc_printer.ml" 165 6085 6109
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 165 6085 6112 "obc/obc_printer.ml" 167 6154 6184
+)
+"obc/obc_printer.ml" 166 6121 6125 "obc/obc_printer.ml" 166 6121 6131
+type(
+  Obc.method_name
+)
+"obc/obc_printer.ml" 166 6121 6135 "obc/obc_printer.ml" 166 6121 6142
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 166 6121 6143 "obc/obc_printer.ml" 166 6121 6145
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 165 6085 6107 "obc/obc_printer.ml" 165 6085 6109
+)
+"obc/obc_printer.ml" 166 6121 6146 "obc/obc_printer.ml" 166 6121 6153
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 166 6121 6135 "obc/obc_printer.ml" 166 6121 6153
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 167 6154 6158 "obc/obc_printer.ml" 167 6154 6163
+type(
+  Obc.method_name
+)
+"obc/obc_printer.ml" 167 6154 6167 "obc/obc_printer.ml" 167 6154 6174
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 167 6154 6175 "obc/obc_printer.ml" 167 6154 6177
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 165 6085 6107 "obc/obc_printer.ml" 165 6085 6109
+)
+"obc/obc_printer.ml" 167 6154 6178 "obc/obc_printer.ml" 167 6154 6184
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 167 6154 6167 "obc/obc_printer.ml" 167 6154 6184
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 165 6085 6112 "obc/obc_printer.ml" 167 6154 6184
+type(
+  Obc.method_name -> unit
+)
+"obc/obc_printer.ml" 169 6186 6190 "obc/obc_printer.ml" 169 6186 6204
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  def print_arg_list "obc/obc_printer.ml" 172 6287 6287 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 169 6186 6205 "obc/obc_printer.ml" 169 6186 6207
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 169 6186 6208 "obc/obc_printer.ml" 170 6219 6285
+)
+"obc/obc_printer.ml" 169 6186 6208 "obc/obc_printer.ml" 169 6186 6216
+type(
+  Obc.var_dec list
+)
+ident(
+  def var_list "obc/obc_printer.ml" 170 6219 6221 "obc/obc_printer.ml" 170 6219 6285
+)
+"obc/obc_printer.ml" 170 6219 6221 "obc/obc_printer.ml" 170 6219 6228
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 170 6219 6229 "obc/obc_printer.ml" 170 6219 6231
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 169 6186 6205 "obc/obc_printer.ml" 169 6186 6207
+)
+"obc/obc_printer.ml" 170 6219 6232 "obc/obc_printer.ml" 170 6219 6242
+type(
+  ((Format.formatter -> Obc.var_dec list -> unit) -> Obc.var_dec list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 170 6219 6244 "obc/obc_printer.ml" 170 6219 6256
+type(
+  (Format.formatter -> Obc.var_dec -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 170 6219 6257 "obc/obc_printer.ml" 170 6219 6265
+type(
+  Format.formatter -> Obc.var_dec -> unit
+)
+ident(
+  int_ref print_vd "obc/obc_printer.ml" 35 2139 2143 "obc/obc_printer.ml" 35 2139 2151
+)
+"obc/obc_printer.ml" 170 6219 6266 "obc/obc_printer.ml" 170 6219 6268
+type(
+  string
+)
+"obc/obc_printer.ml" 170 6219 6269 "obc/obc_printer.ml" 170 6219 6272
+type(
+  string
+)
+"obc/obc_printer.ml" 170 6219 6273 "obc/obc_printer.ml" 170 6219 6275
+type(
+  string
+)
+"obc/obc_printer.ml" 170 6219 6243 "obc/obc_printer.ml" 170 6219 6276
+call(
+  stack
+)
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+"obc/obc_printer.ml" 170 6219 6277 "obc/obc_printer.ml" 170 6219 6285
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref var_list "obc/obc_printer.ml" 169 6186 6208 "obc/obc_printer.ml" 169 6186 6216
+)
+"obc/obc_printer.ml" 170 6219 6221 "obc/obc_printer.ml" 170 6219 6285
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 172 6287 6291 "obc/obc_printer.ml" 172 6287 6303
+type(
+  Format.formatter -> Obc.method_def -> unit
+)
+ident(
+  def print_method "obc/obc_printer.ml" 179 6489 6489 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 172 6287 6304 "obc/obc_printer.ml" 172 6287 6306
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 177 6462 6487
+)
+"obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 172 6287 6309
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/obc_printer.ml" 173 6312 6314 "obc/obc_printer.ml" 177 6462 6487
+)
+"obc/obc_printer.ml" 173 6312 6314 "obc/obc_printer.ml" 173 6312 6321
+type(
+  Format.formatter ->
+  ((Format.formatter -> Obc.method_name -> unit) ->
+   Obc.method_name ->
+   (Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Obc.method_name -> unit) ->
+  Obc.method_name ->
+  (Format.formatter -> Obc.var_dec list -> unit) ->
+  Obc.var_dec list ->
+  (Format.formatter -> Obc.var_dec list -> unit) ->
+  Obc.var_dec list ->
+  (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 173 6312 6322 "obc/obc_printer.ml" 173 6312 6324
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 172 6287 6304 "obc/obc_printer.ml" 172 6287 6306
+)
+"obc/obc_printer.ml" 173 6312 6325 "obc/obc_printer.ml" 173 6312 6366
+type(
+  ((Format.formatter -> Obc.method_name -> unit) ->
+   Obc.method_name ->
+   (Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.var_dec list -> unit) ->
+   Obc.var_dec list ->
+   (Format.formatter -> Obc.block -> unit) -> Obc.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 174 6367 6371 "obc/obc_printer.ml" 174 6367 6388
+type(
+  Format.formatter -> Obc.method_name -> unit
+)
+ident(
+  int_ref print_method_name "obc/obc_printer.ml" 165 6085 6089 "obc/obc_printer.ml" 165 6085 6106
+)
+"obc/obc_printer.ml" 174 6367 6389 "obc/obc_printer.ml" 174 6367 6391
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 172 6287 6309
+)
+"obc/obc_printer.ml" 174 6367 6389 "obc/obc_printer.ml" 174 6367 6398
+type(
+  Obc.method_name
+)
+"obc/obc_printer.ml" 175 6399 6403 "obc/obc_printer.ml" 175 6399 6417
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  int_ref print_arg_list "obc/obc_printer.ml" 169 6186 6190 "obc/obc_printer.ml" 169 6186 6204
+)
+"obc/obc_printer.ml" 175 6399 6418 "obc/obc_printer.ml" 175 6399 6420
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 172 6287 6309
+)
+"obc/obc_printer.ml" 175 6399 6418 "obc/obc_printer.ml" 175 6399 6429
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 176 6430 6434 "obc/obc_printer.ml" 176 6430 6448
+type(
+  Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  int_ref print_arg_list "obc/obc_printer.ml" 169 6186 6190 "obc/obc_printer.ml" 169 6186 6204
+)
+"obc/obc_printer.ml" 176 6430 6449 "obc/obc_printer.ml" 176 6430 6451
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 172 6287 6309
+)
+"obc/obc_printer.ml" 176 6430 6449 "obc/obc_printer.ml" 176 6430 6461
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 177 6462 6466 "obc/obc_printer.ml" 177 6462 6477
+type(
+  Format.formatter -> Obc.block -> unit
+)
+ident(
+  int_ref print_block "obc/obc_printer.ml" 152 5750 5754 "obc/obc_printer.ml" 152 5750 5765
+)
+"obc/obc_printer.ml" 177 6462 6478 "obc/obc_printer.ml" 177 6462 6480
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_printer.ml" 172 6287 6307 "obc/obc_printer.ml" 172 6287 6309
+)
+"obc/obc_printer.ml" 177 6462 6478 "obc/obc_printer.ml" 177 6462 6487
+type(
+  Obc.block
+)
+"obc/obc_printer.ml" 173 6312 6314 "obc/obc_printer.ml" 177 6462 6487
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 179 6489 6493 "obc/obc_printer.ml" 179 6489 6508
+type(
+  Format.formatter -> Obc.class_def -> unit
+)
+ident(
+  def print_class_def "obc/obc_printer.ml" 209 7260 7260 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 180 6512 6518 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 180 6512 6530 "obc/obc_printer.ml" 180 6512 6532
+type(
+  Obc.class_name
+)
+ident(
+  def id "obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 181 6534 6552 "obc/obc_printer.ml" 181 6534 6555
+type(
+  Obc.var_dec list
+)
+ident(
+  def mem "obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 182 6557 6575 "obc/obc_printer.ml" 182 6557 6579
+type(
+  Obc.obj_dec list
+)
+ident(
+  def objs "obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 183 6581 6601 "obc/obc_printer.ml" 183 6581 6607
+type(
+  Signature.param list
+)
+ident(
+  def params "obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 184 6609 6630 "obc/obc_printer.ml" 184 6609 6636
+type(
+  Obc.method_def list
+)
+ident(
+  def m_list "obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+)
+"obc/obc_printer.ml" 180 6512 6518 "obc/obc_printer.ml" 185 6638 6645
+type(
+  Obc.class_def
+)
+"obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 186 6648 6657
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 186 6648 6658 "obc/obc_printer.ml" 186 6648 6660
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 186 6648 6661 "obc/obc_printer.ml" 186 6648 6678
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 186 6648 6678
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 186 6648 6680 "obc/obc_printer.ml" 186 6648 6694
+type(
+  Format.formatter -> Obc.class_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 186 6648 6695 "obc/obc_printer.ml" 186 6648 6697
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 186 6648 6698 "obc/obc_printer.ml" 186 6648 6700
+type(
+  Obc.class_name
+)
+ident(
+  int_ref id "obc/obc_printer.ml" 180 6512 6530 "obc/obc_printer.ml" 180 6512 6532
+)
+"obc/obc_printer.ml" 186 6648 6680 "obc/obc_printer.ml" 186 6648 6700
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 187 6702 6707 "obc/obc_printer.ml" 187 6702 6713
+type(
+  Signature.param list
+)
+ident(
+  int_ref params "obc/obc_printer.ml" 183 6581 6601 "obc/obc_printer.ml" 183 6581 6607
+)
+"obc/obc_printer.ml" 187 6702 6714 "obc/obc_printer.ml" 187 6702 6716
+type(
+  Signature.param list -> Signature.param list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/obc_printer.ml" 187 6702 6717 "obc/obc_printer.ml" 187 6702 6719
+type(
+  Signature.param list
+)
+"obc/obc_printer.ml" 187 6702 6707 "obc/obc_printer.ml" 187 6702 6719
+type(
+  bool
+)
+"obc/obc_printer.ml" 189 6735 6741 "obc/obc_printer.ml" 189 6735 6748
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 189 6735 6749 "obc/obc_printer.ml" 189 6735 6751
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 189 6735 6752 "obc/obc_printer.ml" 189 6735 6763
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 189 6735 6741 "obc/obc_printer.ml" 189 6735 6763
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 190 6765 6771 "obc/obc_printer.ml" 190 6765 6783
+type(
+  (Format.formatter -> Signature.param -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Signature.param list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 190 6765 6784 "obc/obc_printer.ml" 190 6765 6795
+type(
+  Format.formatter -> Signature.param -> unit
+)
+ident(
+  ext_ref Global_printer.print_param
+)
+"obc/obc_printer.ml" 190 6765 6796 "obc/obc_printer.ml" 190 6765 6800
+type(
+  string
+)
+"obc/obc_printer.ml" 190 6765 6801 "obc/obc_printer.ml" 190 6765 6804
+type(
+  string
+)
+"obc/obc_printer.ml" 190 6765 6805 "obc/obc_printer.ml" 190 6765 6809
+type(
+  string
+)
+"obc/obc_printer.ml" 190 6765 6810 "obc/obc_printer.ml" 190 6765 6812
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 190 6765 6813 "obc/obc_printer.ml" 190 6765 6819
+type(
+  Signature.param list
+)
+ident(
+  int_ref params "obc/obc_printer.ml" 183 6581 6601 "obc/obc_printer.ml" 183 6581 6607
+)
+"obc/obc_printer.ml" 190 6765 6771 "obc/obc_printer.ml" 190 6765 6819
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 191 6821 6827 "obc/obc_printer.ml" 191 6821 6834
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 191 6821 6835 "obc/obc_printer.ml" 191 6821 6837
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 191 6821 6838 "obc/obc_printer.ml" 191 6821 6842
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 191 6821 6827 "obc/obc_printer.ml" 191 6821 6843
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 190 6765 6771 "obc/obc_printer.ml" 191 6821 6843
+type(
+  unit
+)
+"obc/obc_printer.ml" 188 6725 6729 "obc/obc_printer.ml" 192 6844 6851
+type(
+  unit
+)
+"obc/obc_printer.ml" 187 6702 6704 "obc/obc_printer.ml" 192 6844 6851
+type(
+  unit
+)
+"obc/obc_printer.ml" 193 6853 6855 "obc/obc_printer.ml" 193 6853 6862
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 193 6853 6863 "obc/obc_printer.ml" 193 6853 6865
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 193 6853 6866 "obc/obc_printer.ml" 193 6853 6872
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 193 6853 6855 "obc/obc_printer.ml" 193 6853 6872
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 194 6874 6879 "obc/obc_printer.ml" 194 6874 6882
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref mem "obc/obc_printer.ml" 181 6534 6552 "obc/obc_printer.ml" 181 6534 6555
+)
+"obc/obc_printer.ml" 194 6874 6883 "obc/obc_printer.ml" 194 6874 6885
+type(
+  Obc.var_dec list -> Obc.var_dec list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/obc_printer.ml" 194 6874 6886 "obc/obc_printer.ml" 194 6874 6888
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 194 6874 6879 "obc/obc_printer.ml" 194 6874 6888
+type(
+  bool
+)
+"obc/obc_printer.ml" 195 6900 6904 "obc/obc_printer.ml" 195 6900 6911
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 195 6900 6912 "obc/obc_printer.ml" 195 6900 6914
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 195 6900 6915 "obc/obc_printer.ml" 195 6900 6930
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 195 6900 6904 "obc/obc_printer.ml" 195 6900 6930
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 196 6932 6936 "obc/obc_printer.ml" 196 6932 6948
+type(
+  (Format.formatter -> Obc.var_dec -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.var_dec list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 196 6932 6949 "obc/obc_printer.ml" 196 6932 6957
+type(
+  Format.formatter -> Obc.var_dec -> unit
+)
+ident(
+  int_ref print_vd "obc/obc_printer.ml" 35 2139 2143 "obc/obc_printer.ml" 35 2139 2151
+)
+"obc/obc_printer.ml" 196 6932 6958 "obc/obc_printer.ml" 196 6932 6960
+type(
+  string
+)
+"obc/obc_printer.ml" 196 6932 6961 "obc/obc_printer.ml" 196 6932 6964
+type(
+  string
+)
+"obc/obc_printer.ml" 196 6932 6965 "obc/obc_printer.ml" 196 6932 6967
+type(
+  string
+)
+"obc/obc_printer.ml" 196 6932 6968 "obc/obc_printer.ml" 196 6932 6970
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 196 6932 6971 "obc/obc_printer.ml" 196 6932 6974
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref mem "obc/obc_printer.ml" 181 6534 6552 "obc/obc_printer.ml" 181 6534 6555
+)
+"obc/obc_printer.ml" 196 6932 6936 "obc/obc_printer.ml" 196 6932 6974
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 197 6976 6980 "obc/obc_printer.ml" 197 6976 6987
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 197 6976 6988 "obc/obc_printer.ml" 197 6976 6990
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 197 6976 6991 "obc/obc_printer.ml" 197 6976 6998
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 197 6976 6980 "obc/obc_printer.ml" 197 6976 6998
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 196 6932 6936 "obc/obc_printer.ml" 197 6976 6998
+type(
+  unit
+)
+"obc/obc_printer.ml" 194 6874 6894 "obc/obc_printer.ml" 198 6999 7004
+type(
+  unit
+)
+"obc/obc_printer.ml" 194 6874 6876 "obc/obc_printer.ml" 198 6999 7004
+type(
+  unit
+)
+"obc/obc_printer.ml" 199 7006 7011 "obc/obc_printer.ml" 199 7006 7015
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref objs "obc/obc_printer.ml" 182 6557 6575 "obc/obc_printer.ml" 182 6557 6579
+)
+"obc/obc_printer.ml" 199 7006 7016 "obc/obc_printer.ml" 199 7006 7018
+type(
+  Obc.obj_dec list -> Obc.obj_dec list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/obc_printer.ml" 199 7006 7019 "obc/obc_printer.ml" 199 7006 7021
+type(
+  Obc.obj_dec list
+)
+"obc/obc_printer.ml" 199 7006 7011 "obc/obc_printer.ml" 199 7006 7021
+type(
+  bool
+)
+"obc/obc_printer.ml" 200 7033 7037 "obc/obc_printer.ml" 200 7033 7044
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 200 7033 7045 "obc/obc_printer.ml" 200 7033 7047
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 200 7033 7048 "obc/obc_printer.ml" 200 7033 7063
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 200 7033 7037 "obc/obc_printer.ml" 200 7033 7063
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 201 7065 7069 "obc/obc_printer.ml" 201 7065 7079
+type(
+  (Format.formatter -> Obc.obj_dec -> unit) ->
+  string -> string -> string -> Format.formatter -> Obc.obj_dec list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list
+)
+"obc/obc_printer.ml" 201 7065 7080 "obc/obc_printer.ml" 201 7065 7089
+type(
+  Format.formatter -> Obc.obj_dec -> unit
+)
+ident(
+  int_ref print_obj "obc/obc_printer.ml" 44 2326 2330 "obc/obc_printer.ml" 44 2326 2339
+)
+"obc/obc_printer.ml" 201 7065 7090 "obc/obc_printer.ml" 201 7065 7092
+type(
+  string
+)
+"obc/obc_printer.ml" 201 7065 7093 "obc/obc_printer.ml" 201 7065 7096
+type(
+  string
+)
+"obc/obc_printer.ml" 201 7065 7097 "obc/obc_printer.ml" 201 7065 7099
+type(
+  string
+)
+"obc/obc_printer.ml" 201 7065 7100 "obc/obc_printer.ml" 201 7065 7102
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 201 7065 7103 "obc/obc_printer.ml" 201 7065 7107
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref objs "obc/obc_printer.ml" 182 6557 6575 "obc/obc_printer.ml" 182 6557 6579
+)
+"obc/obc_printer.ml" 201 7065 7069 "obc/obc_printer.ml" 201 7065 7107
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 202 7109 7113 "obc/obc_printer.ml" 202 7109 7120
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 202 7109 7121 "obc/obc_printer.ml" 202 7109 7123
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 202 7109 7124 "obc/obc_printer.ml" 202 7109 7131
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 202 7109 7113 "obc/obc_printer.ml" 202 7109 7131
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 201 7065 7069 "obc/obc_printer.ml" 202 7109 7131
+type(
+  unit
+)
+"obc/obc_printer.ml" 199 7006 7027 "obc/obc_printer.ml" 203 7132 7137
+type(
+  unit
+)
+"obc/obc_printer.ml" 199 7006 7008 "obc/obc_printer.ml" 203 7132 7137
+type(
+  unit
+)
+"obc/obc_printer.ml" 204 7139 7144 "obc/obc_printer.ml" 204 7139 7147
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref mem "obc/obc_printer.ml" 181 6534 6552 "obc/obc_printer.ml" 181 6534 6555
+)
+"obc/obc_printer.ml" 204 7139 7148 "obc/obc_printer.ml" 204 7139 7150
+type(
+  Obc.var_dec list -> Obc.var_dec list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/obc_printer.ml" 204 7139 7151 "obc/obc_printer.ml" 204 7139 7153
+type(
+  Obc.var_dec list
+)
+"obc/obc_printer.ml" 204 7139 7144 "obc/obc_printer.ml" 204 7139 7153
+type(
+  bool
+)
+"obc/obc_printer.ml" 204 7139 7154 "obc/obc_printer.ml" 204 7139 7156
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/obc_printer.ml" 204 7139 7157 "obc/obc_printer.ml" 204 7139 7161
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref objs "obc/obc_printer.ml" 182 6557 6575 "obc/obc_printer.ml" 182 6557 6579
+)
+"obc/obc_printer.ml" 204 7139 7162 "obc/obc_printer.ml" 204 7139 7164
+type(
+  Obc.obj_dec list -> Obc.obj_dec list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"obc/obc_printer.ml" 204 7139 7165 "obc/obc_printer.ml" 204 7139 7167
+type(
+  Obc.obj_dec list
+)
+"obc/obc_printer.ml" 204 7139 7157 "obc/obc_printer.ml" 204 7139 7167
+type(
+  bool
+)
+"obc/obc_printer.ml" 204 7139 7144 "obc/obc_printer.ml" 204 7139 7167
+type(
+  bool
+)
+"obc/obc_printer.ml" 204 7139 7173 "obc/obc_printer.ml" 204 7139 7180
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 204 7139 7181 "obc/obc_printer.ml" 204 7139 7183
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 204 7139 7184 "obc/obc_printer.ml" 204 7139 7188
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 204 7139 7173 "obc/obc_printer.ml" 204 7139 7188
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 204 7139 7141 "obc/obc_printer.ml" 204 7139 7188
+type(
+  unit
+)
+"obc/obc_printer.ml" 205 7190 7192 "obc/obc_printer.ml" 205 7190 7204
+type(
+  (Format.formatter -> Obc.method_def -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Obc.method_def list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 205 7190 7205 "obc/obc_printer.ml" 205 7190 7217
+type(
+  Format.formatter -> Obc.method_def -> unit
+)
+ident(
+  int_ref print_method "obc/obc_printer.ml" 172 6287 6291 "obc/obc_printer.ml" 172 6287 6303
+)
+"obc/obc_printer.ml" 205 7190 7218 "obc/obc_printer.ml" 205 7190 7220
+type(
+  string
+)
+"obc/obc_printer.ml" 205 7190 7221 "obc/obc_printer.ml" 205 7190 7225
+type(
+  string
+)
+"obc/obc_printer.ml" 205 7190 7226 "obc/obc_printer.ml" 205 7190 7228
+type(
+  string
+)
+"obc/obc_printer.ml" 205 7190 7229 "obc/obc_printer.ml" 205 7190 7231
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 205 7190 7232 "obc/obc_printer.ml" 205 7190 7238
+type(
+  Obc.method_def list
+)
+ident(
+  int_ref m_list "obc/obc_printer.ml" 184 6609 6630 "obc/obc_printer.ml" 184 6609 6636
+)
+"obc/obc_printer.ml" 205 7190 7192 "obc/obc_printer.ml" 205 7190 7238
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 206 7240 7242 "obc/obc_printer.ml" 206 7240 7249
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 206 7240 7250 "obc/obc_printer.ml" 206 7240 7252
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 179 6489 6509 "obc/obc_printer.ml" 179 6489 6511
+)
+"obc/obc_printer.ml" 206 7240 7253 "obc/obc_printer.ml" 206 7240 7257
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 206 7240 7242 "obc/obc_printer.ml" 206 7240 7257
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 205 7190 7192 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 204 7139 7141 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 199 7006 7008 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 194 6874 6876 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 193 6853 6855 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 187 6702 6704 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 186 6648 6680 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 186 6648 6650 "obc/obc_printer.ml" 206 7240 7257
+type(
+  unit
+)
+"obc/obc_printer.ml" 209 7260 7264 "obc/obc_printer.ml" 209 7260 7278
+type(
+  Format.formatter -> Obc.type_dec -> unit
+)
+ident(
+  def print_type_def "obc/obc_printer.ml" 228 8047 8047 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 209 7260 7282 "obc/obc_printer.ml" 226 8018 8045
+)
+"obc/obc_printer.ml" 209 7260 7293 "obc/obc_printer.ml" 209 7260 7297
+type(
+  Names.type_name
+)
+ident(
+  def name "obc/obc_printer.ml" 210 7318 7320 "obc/obc_printer.ml" 226 8018 8045
+)
+"obc/obc_printer.ml" 209 7260 7308 "obc/obc_printer.ml" 209 7260 7313
+type(
+  Obc.tdesc
+)
+ident(
+  def tdesc "obc/obc_printer.ml" 210 7318 7320 "obc/obc_printer.ml" 226 8018 8045
+)
+"obc/obc_printer.ml" 209 7260 7282 "obc/obc_printer.ml" 209 7260 7315
+type(
+  Obc.type_dec
+)
+"obc/obc_printer.ml" 210 7318 7326 "obc/obc_printer.ml" 210 7318 7331
+type(
+  Obc.tdesc
+)
+ident(
+  int_ref tdesc "obc/obc_printer.ml" 209 7260 7308 "obc/obc_printer.ml" 209 7260 7313
+)
+"obc/obc_printer.ml" 211 7337 7343 "obc/obc_printer.ml" 211 7337 7351
+type(
+  Obc.tdesc
+)
+"obc/obc_printer.ml" 211 7337 7355 "obc/obc_printer.ml" 211 7337 7362
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 211 7337 7363 "obc/obc_printer.ml" 211 7337 7365
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 211 7337 7366 "obc/obc_printer.ml" 211 7337 7382
+type(
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 211 7337 7383 "obc/obc_printer.ml" 211 7337 7397
+type(
+  Format.formatter -> Names.type_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 211 7337 7398 "obc/obc_printer.ml" 211 7337 7402
+type(
+  Names.type_name
+)
+ident(
+  int_ref name "obc/obc_printer.ml" 209 7260 7293 "obc/obc_printer.ml" 209 7260 7297
+)
+"obc/obc_printer.ml" 211 7337 7355 "obc/obc_printer.ml" 211 7337 7402
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 212 7403 7420 "obc/obc_printer.ml" 212 7403 7422
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_printer.ml" 213 7426 7434 "obc/obc_printer.ml" 213 7426 7503
+)
+"obc/obc_printer.ml" 212 7403 7409 "obc/obc_printer.ml" 212 7403 7422
+type(
+  Obc.tdesc
+)
+"obc/obc_printer.ml" 213 7426 7434 "obc/obc_printer.ml" 213 7426 7441
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.type_name -> unit) ->
+   Names.type_name ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.type_name -> unit) ->
+  Names.type_name ->
+  (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 213 7426 7442 "obc/obc_printer.ml" 213 7426 7444
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 213 7426 7446 "obc/obc_printer.ml" 213 7426 7468
+type(
+  ((Format.formatter -> Names.type_name -> unit) ->
+   Names.type_name ->
+   (Format.formatter -> Types.ty -> unit) -> Types.ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 213 7426 7469 "obc/obc_printer.ml" 213 7426 7483
+type(
+  Format.formatter -> Names.type_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 213 7426 7484 "obc/obc_printer.ml" 213 7426 7488
+type(
+  Names.type_name
+)
+ident(
+  int_ref name "obc/obc_printer.ml" 209 7260 7293 "obc/obc_printer.ml" 209 7260 7297
+)
+"obc/obc_printer.ml" 213 7426 7490 "obc/obc_printer.ml" 213 7426 7500
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  ext_ref Global_printer.print_type
+)
+"obc/obc_printer.ml" 213 7426 7501 "obc/obc_printer.ml" 213 7426 7503
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_printer.ml" 212 7403 7420 "obc/obc_printer.ml" 212 7403 7422
+)
+"obc/obc_printer.ml" 213 7426 7434 "obc/obc_printer.ml" 213 7426 7503
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 214 7504 7520 "obc/obc_printer.ml" 214 7504 7533
+ident(
+  def tag_name_list "obc/obc_printer.ml" 215 7538 7546 "obc/obc_printer.ml" 217 7657 7683
+)
+"obc/obc_printer.ml" 214 7504 7519 "obc/obc_printer.ml" 214 7504 7534
+type(
+  Names.constructor_name list
+)
+"obc/obc_printer.ml" 214 7504 7510 "obc/obc_printer.ml" 214 7504 7534
+type(
+  Obc.tdesc
+)
+"obc/obc_printer.ml" 215 7538 7546 "obc/obc_printer.ml" 215 7538 7553
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 215 7538 7554 "obc/obc_printer.ml" 215 7538 7556
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 215 7538 7557 "obc/obc_printer.ml" 215 7538 7571
+type(
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 215 7538 7572 "obc/obc_printer.ml" 215 7538 7586
+type(
+  Format.formatter -> Names.type_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 215 7538 7587 "obc/obc_printer.ml" 215 7538 7591
+type(
+  Names.type_name
+)
+ident(
+  int_ref name "obc/obc_printer.ml" 209 7260 7293 "obc/obc_printer.ml" 209 7260 7297
+)
+"obc/obc_printer.ml" 215 7538 7546 "obc/obc_printer.ml" 215 7538 7591
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 216 7593 7601 "obc/obc_printer.ml" 216 7593 7613
+type(
+  (Format.formatter -> Names.constructor_name -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Names.constructor_name list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/obc_printer.ml" 216 7593 7614 "obc/obc_printer.ml" 216 7593 7628
+type(
+  Format.formatter -> Names.constructor_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 216 7593 7629 "obc/obc_printer.ml" 216 7593 7631
+type(
+  string
+)
+"obc/obc_printer.ml" 216 7593 7632 "obc/obc_printer.ml" 216 7593 7635
+type(
+  string
+)
+"obc/obc_printer.ml" 216 7593 7636 "obc/obc_printer.ml" 216 7593 7638
+type(
+  string
+)
+"obc/obc_printer.ml" 216 7593 7639 "obc/obc_printer.ml" 216 7593 7641
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 216 7593 7642 "obc/obc_printer.ml" 216 7593 7655
+type(
+  Names.constructor_name list
+)
+ident(
+  int_ref tag_name_list "obc/obc_printer.ml" 214 7504 7519 "obc/obc_printer.ml" 214 7504 7534
+)
+"obc/obc_printer.ml" 216 7593 7601 "obc/obc_printer.ml" 216 7593 7655
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 217 7657 7665 "obc/obc_printer.ml" 217 7657 7672
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 217 7657 7673 "obc/obc_printer.ml" 217 7657 7675
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 217 7657 7676 "obc/obc_printer.ml" 217 7657 7683
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 217 7657 7665 "obc/obc_printer.ml" 217 7657 7683
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 216 7593 7601 "obc/obc_printer.ml" 217 7657 7683
+type(
+  unit
+)
+"obc/obc_printer.ml" 215 7538 7546 "obc/obc_printer.ml" 217 7657 7683
+type(
+  unit
+)
+"obc/obc_printer.ml" 218 7684 7702 "obc/obc_printer.ml" 218 7684 7711
+ident(
+  def f_ty_list "obc/obc_printer.ml" 219 7716 7724 "obc/obc_printer.ml" 226 8018 8045
+)
+"obc/obc_printer.ml" 218 7684 7701 "obc/obc_printer.ml" 218 7684 7712
+type(
+  Signature.structure
+)
+"obc/obc_printer.ml" 218 7684 7690 "obc/obc_printer.ml" 218 7684 7712
+type(
+  Obc.tdesc
+)
+"obc/obc_printer.ml" 219 7716 7724 "obc/obc_printer.ml" 219 7716 7731
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 219 7716 7732 "obc/obc_printer.ml" 219 7716 7734
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 219 7716 7735 "obc/obc_printer.ml" 219 7716 7749
+type(
+  ((Format.formatter -> Names.type_name -> unit) -> Names.type_name -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 219 7716 7750 "obc/obc_printer.ml" 219 7716 7764
+type(
+  Format.formatter -> Names.type_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 219 7716 7765 "obc/obc_printer.ml" 219 7716 7769
+type(
+  Names.type_name
+)
+ident(
+  int_ref name "obc/obc_printer.ml" 209 7260 7293 "obc/obc_printer.ml" 209 7260 7297
+)
+"obc/obc_printer.ml" 219 7716 7724 "obc/obc_printer.ml" 219 7716 7769
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 220 7771 7779 "obc/obc_printer.ml" 220 7771 7786
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 220 7771 7787 "obc/obc_printer.ml" 220 7771 7789
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 220 7771 7790 "obc/obc_printer.ml" 220 7771 7799
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 220 7771 7779 "obc/obc_printer.ml" 220 7771 7799
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 221 7801 7809 "obc/obc_printer.ml" 221 7801 7819
+type(
+  (Format.formatter -> Signature.field -> unit) ->
+  string ->
+  string -> string -> Format.formatter -> Signature.structure -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list
+)
+"obc/obc_printer.ml" 222 7820 7835 "obc/obc_printer.ml" 222 7820 7837
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 222 7820 7838 "obc/obc_printer.ml" 225 7961 7990
+)
+"obc/obc_printer.ml" 222 7820 7859 "obc/obc_printer.ml" 222 7820 7864
+type(
+  Names.field_name
+)
+ident(
+  def field "obc/obc_printer.ml" 223 7893 7906 "obc/obc_printer.ml" 225 7961 7990
+)
+"obc/obc_printer.ml" 222 7820 7885 "obc/obc_printer.ml" 222 7820 7887
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_printer.ml" 223 7893 7906 "obc/obc_printer.ml" 225 7961 7990
+)
+"obc/obc_printer.ml" 222 7820 7838 "obc/obc_printer.ml" 222 7820 7889
+type(
+  Signature.field
+)
+"obc/obc_printer.ml" 223 7893 7906 "obc/obc_printer.ml" 223 7893 7920
+type(
+  Format.formatter -> Names.field_name -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 223 7893 7921 "obc/obc_printer.ml" 223 7893 7923
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 222 7820 7835 "obc/obc_printer.ml" 222 7820 7837
+)
+"obc/obc_printer.ml" 223 7893 7924 "obc/obc_printer.ml" 223 7893 7929
+type(
+  Names.field_name
+)
+ident(
+  int_ref field "obc/obc_printer.ml" 222 7820 7859 "obc/obc_printer.ml" 222 7820 7864
+)
+"obc/obc_printer.ml" 223 7893 7906 "obc/obc_printer.ml" 223 7893 7929
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 224 7931 7944 "obc/obc_printer.ml" 224 7931 7951
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 224 7931 7952 "obc/obc_printer.ml" 224 7931 7954
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 222 7820 7835 "obc/obc_printer.ml" 222 7820 7837
+)
+"obc/obc_printer.ml" 224 7931 7955 "obc/obc_printer.ml" 224 7931 7959
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 224 7931 7944 "obc/obc_printer.ml" 224 7931 7959
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 225 7961 7974 "obc/obc_printer.ml" 225 7961 7984
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  ext_ref Global_printer.print_type
+)
+"obc/obc_printer.ml" 225 7961 7985 "obc/obc_printer.ml" 225 7961 7987
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 222 7820 7835 "obc/obc_printer.ml" 222 7820 7837
+)
+"obc/obc_printer.ml" 225 7961 7988 "obc/obc_printer.ml" 225 7961 7990
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_printer.ml" 222 7820 7885 "obc/obc_printer.ml" 222 7820 7887
+)
+"obc/obc_printer.ml" 225 7961 7974 "obc/obc_printer.ml" 225 7961 7990
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 224 7931 7944 "obc/obc_printer.ml" 225 7961 7990
+type(
+  unit
+)
+"obc/obc_printer.ml" 223 7893 7906 "obc/obc_printer.ml" 225 7961 7990
+type(
+  unit
+)
+"obc/obc_printer.ml" 222 7820 7830 "obc/obc_printer.ml" 225 7961 7991
+type(
+  Format.formatter -> Signature.field -> unit
+)
+"obc/obc_printer.ml" 225 7961 7992 "obc/obc_printer.ml" 225 7961 7995
+type(
+  string
+)
+"obc/obc_printer.ml" 225 7961 7996 "obc/obc_printer.ml" 225 7961 7999
+type(
+  string
+)
+"obc/obc_printer.ml" 225 7961 8000 "obc/obc_printer.ml" 225 7961 8003
+type(
+  string
+)
+"obc/obc_printer.ml" 225 7961 8004 "obc/obc_printer.ml" 225 7961 8006
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 225 7961 8007 "obc/obc_printer.ml" 225 7961 8016
+type(
+  Signature.structure
+)
+ident(
+  int_ref f_ty_list "obc/obc_printer.ml" 218 7684 7701 "obc/obc_printer.ml" 218 7684 7712
+)
+"obc/obc_printer.ml" 221 7801 7809 "obc/obc_printer.ml" 225 7961 8016
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 226 8018 8026 "obc/obc_printer.ml" 226 8018 8033
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 226 8018 8034 "obc/obc_printer.ml" 226 8018 8036
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 209 7260 7279 "obc/obc_printer.ml" 209 7260 7281
+)
+"obc/obc_printer.ml" 226 8018 8037 "obc/obc_printer.ml" 226 8018 8045
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 226 8018 8026 "obc/obc_printer.ml" 226 8018 8045
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 221 7801 7809 "obc/obc_printer.ml" 226 8018 8045
+type(
+  unit
+)
+"obc/obc_printer.ml" 220 7771 7779 "obc/obc_printer.ml" 226 8018 8045
+type(
+  unit
+)
+"obc/obc_printer.ml" 219 7716 7724 "obc/obc_printer.ml" 226 8018 8045
+type(
+  unit
+)
+"obc/obc_printer.ml" 210 7318 7320 "obc/obc_printer.ml" 226 8018 8045
+type(
+  unit
+)
+"obc/obc_printer.ml" 228 8047 8051 "obc/obc_printer.ml" 228 8047 8068
+type(
+  Format.formatter -> Names.modul -> unit
+)
+ident(
+  def print_open_module "obc/obc_printer.ml" 231 8128 8128 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 228 8047 8069 "obc/obc_printer.ml" 228 8047 8071
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 228 8047 8072 "obc/obc_printer.ml" 229 8079 8126
+)
+"obc/obc_printer.ml" 228 8047 8072 "obc/obc_printer.ml" 228 8047 8076
+type(
+  Names.modul
+)
+ident(
+  def name "obc/obc_printer.ml" 229 8079 8081 "obc/obc_printer.ml" 229 8079 8126
+)
+"obc/obc_printer.ml" 229 8079 8081 "obc/obc_printer.ml" 229 8079 8088
+type(
+  Format.formatter ->
+  (Names.module_name -> unit, Format.formatter, unit) format ->
+  Names.module_name -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 229 8079 8089 "obc/obc_printer.ml" 229 8079 8091
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 228 8047 8069 "obc/obc_printer.ml" 228 8047 8071
+)
+"obc/obc_printer.ml" 229 8079 8092 "obc/obc_printer.ml" 229 8079 8103
+type(
+  (Names.module_name -> unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 229 8079 8105 "obc/obc_printer.ml" 229 8079 8120
+type(
+  Names.modul -> Names.module_name
+)
+ident(
+  ext_ref Names.modul_to_string
+)
+"obc/obc_printer.ml" 229 8079 8121 "obc/obc_printer.ml" 229 8079 8125
+type(
+  Names.modul
+)
+ident(
+  int_ref name "obc/obc_printer.ml" 228 8047 8072 "obc/obc_printer.ml" 228 8047 8076
+)
+"obc/obc_printer.ml" 229 8079 8104 "obc/obc_printer.ml" 229 8079 8126
+call(
+  stack
+)
+type(
+  Names.module_name
+)
+"obc/obc_printer.ml" 229 8079 8081 "obc/obc_printer.ml" 229 8079 8126
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 231 8128 8132 "obc/obc_printer.ml" 231 8128 8147
+type(
+  Format.formatter -> Obc.const_dec -> unit
+)
+ident(
+  def print_const_dec "obc/obc_printer.ml" 235 8242 8242 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 231 8128 8148 "obc/obc_printer.ml" 231 8128 8150
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 231 8128 8151 "obc/obc_printer.ml" 233 8210 8240
+)
+"obc/obc_printer.ml" 231 8128 8151 "obc/obc_printer.ml" 231 8128 8152
+type(
+  Obc.const_dec
+)
+ident(
+  def c "obc/obc_printer.ml" 232 8155 8157 "obc/obc_printer.ml" 233 8210 8240
+)
+"obc/obc_printer.ml" 232 8155 8157 "obc/obc_printer.ml" 232 8155 8164
+type(
+  Format.formatter ->
+  ((Format.formatter -> Names.qualname -> unit) ->
+   Names.qualname ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Names.qualname -> unit) ->
+  Names.qualname ->
+  (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 232 8155 8165 "obc/obc_printer.ml" 232 8155 8167
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 231 8128 8148 "obc/obc_printer.ml" 231 8128 8150
+)
+"obc/obc_printer.ml" 232 8155 8168 "obc/obc_printer.ml" 232 8155 8185
+type(
+  ((Format.formatter -> Names.qualname -> unit) ->
+   Names.qualname ->
+   (Format.formatter -> Types.static_exp -> unit) -> Types.static_exp -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/obc_printer.ml" 232 8155 8186 "obc/obc_printer.ml" 232 8155 8200
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  ext_ref Global_printer.print_qualname
+)
+"obc/obc_printer.ml" 232 8155 8201 "obc/obc_printer.ml" 232 8155 8202
+type(
+  Obc.const_dec
+)
+ident(
+  int_ref c "obc/obc_printer.ml" 231 8128 8151 "obc/obc_printer.ml" 231 8128 8152
+)
+"obc/obc_printer.ml" 232 8155 8201 "obc/obc_printer.ml" 232 8155 8209
+type(
+  Names.qualname
+)
+"obc/obc_printer.ml" 233 8210 8214 "obc/obc_printer.ml" 233 8210 8230
+type(
+  Format.formatter -> Types.static_exp -> unit
+)
+ident(
+  ext_ref Global_printer.print_static_exp
+)
+"obc/obc_printer.ml" 233 8210 8231 "obc/obc_printer.ml" 233 8210 8232
+type(
+  Obc.const_dec
+)
+ident(
+  int_ref c "obc/obc_printer.ml" 231 8128 8151 "obc/obc_printer.ml" 231 8128 8152
+)
+"obc/obc_printer.ml" 233 8210 8231 "obc/obc_printer.ml" 233 8210 8240
+type(
+  Types.static_exp
+)
+"obc/obc_printer.ml" 232 8155 8157 "obc/obc_printer.ml" 233 8210 8240
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 235 8242 8246 "obc/obc_printer.ml" 235 8242 8261
+type(
+  Format.formatter -> Obc.program_desc -> unit
+)
+ident(
+  def print_prog_desc "obc/obc_printer.ml" 240 8421 8421 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 235 8242 8262 "obc/obc_printer.ml" 235 8242 8264
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 235 8242 8265 "obc/obc_printer.ml" 238 8383 8419
+)
+"obc/obc_printer.ml" 235 8242 8265 "obc/obc_printer.ml" 235 8242 8267
+type(
+  Obc.program_desc
+)
+ident(
+  def pd "obc/obc_printer.ml" 235 8242 8270 "obc/obc_printer.ml" 238 8383 8419
+)
+"obc/obc_printer.ml" 235 8242 8276 "obc/obc_printer.ml" 235 8242 8278
+type(
+  Obc.program_desc
+)
+ident(
+  int_ref pd "obc/obc_printer.ml" 235 8242 8265 "obc/obc_printer.ml" 235 8242 8267
+)
+"obc/obc_printer.ml" 236 8284 8295 "obc/obc_printer.ml" 236 8284 8297
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/obc_printer.ml" 236 8284 8301 "obc/obc_printer.ml" 236 8284 8343
+)
+"obc/obc_printer.ml" 236 8284 8288 "obc/obc_printer.ml" 236 8284 8297
+type(
+  Obc.program_desc
+)
+"obc/obc_printer.ml" 236 8284 8301 "obc/obc_printer.ml" 236 8284 8316
+type(
+  Format.formatter -> Obc.class_def -> unit
+)
+ident(
+  int_ref print_class_def "obc/obc_printer.ml" 179 6489 6493 "obc/obc_printer.ml" 179 6489 6508
+)
+"obc/obc_printer.ml" 236 8284 8317 "obc/obc_printer.ml" 236 8284 8319
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 235 8242 8262 "obc/obc_printer.ml" 235 8242 8264
+)
+"obc/obc_printer.ml" 236 8284 8320 "obc/obc_printer.ml" 236 8284 8322
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_printer.ml" 236 8284 8295 "obc/obc_printer.ml" 236 8284 8297
+)
+"obc/obc_printer.ml" 236 8284 8301 "obc/obc_printer.ml" 236 8284 8322
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 236 8284 8324 "obc/obc_printer.ml" 236 8284 8331
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 236 8284 8332 "obc/obc_printer.ml" 236 8284 8334
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 235 8242 8262 "obc/obc_printer.ml" 235 8242 8264
+)
+"obc/obc_printer.ml" 236 8284 8335 "obc/obc_printer.ml" 236 8284 8343
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 236 8284 8324 "obc/obc_printer.ml" 236 8284 8343
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 236 8284 8301 "obc/obc_printer.ml" 236 8284 8343
+type(
+  unit
+)
+"obc/obc_printer.ml" 237 8344 8355 "obc/obc_printer.ml" 237 8344 8357
+type(
+  Obc.const_dec
+)
+ident(
+  def cd "obc/obc_printer.ml" 237 8344 8361 "obc/obc_printer.ml" 237 8344 8382
+)
+"obc/obc_printer.ml" 237 8344 8348 "obc/obc_printer.ml" 237 8344 8357
+type(
+  Obc.program_desc
+)
+"obc/obc_printer.ml" 237 8344 8361 "obc/obc_printer.ml" 237 8344 8376
+type(
+  Format.formatter -> Obc.const_dec -> unit
+)
+ident(
+  int_ref print_const_dec "obc/obc_printer.ml" 231 8128 8132 "obc/obc_printer.ml" 231 8128 8147
+)
+"obc/obc_printer.ml" 237 8344 8377 "obc/obc_printer.ml" 237 8344 8379
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 235 8242 8262 "obc/obc_printer.ml" 235 8242 8264
+)
+"obc/obc_printer.ml" 237 8344 8380 "obc/obc_printer.ml" 237 8344 8382
+type(
+  Obc.const_dec
+)
+ident(
+  int_ref cd "obc/obc_printer.ml" 237 8344 8355 "obc/obc_printer.ml" 237 8344 8357
+)
+"obc/obc_printer.ml" 237 8344 8361 "obc/obc_printer.ml" 237 8344 8382
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 238 8383 8393 "obc/obc_printer.ml" 238 8383 8395
+type(
+  Obc.type_dec
+)
+ident(
+  def td "obc/obc_printer.ml" 238 8383 8399 "obc/obc_printer.ml" 238 8383 8419
+)
+"obc/obc_printer.ml" 238 8383 8387 "obc/obc_printer.ml" 238 8383 8395
+type(
+  Obc.program_desc
+)
+"obc/obc_printer.ml" 238 8383 8399 "obc/obc_printer.ml" 238 8383 8413
+type(
+  Format.formatter -> Obc.type_dec -> unit
+)
+ident(
+  int_ref print_type_def "obc/obc_printer.ml" 209 7260 7264 "obc/obc_printer.ml" 209 7260 7278
+)
+"obc/obc_printer.ml" 238 8383 8414 "obc/obc_printer.ml" 238 8383 8416
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 235 8242 8262 "obc/obc_printer.ml" 235 8242 8264
+)
+"obc/obc_printer.ml" 238 8383 8417 "obc/obc_printer.ml" 238 8383 8419
+type(
+  Obc.type_dec
+)
+ident(
+  int_ref td "obc/obc_printer.ml" 238 8383 8393 "obc/obc_printer.ml" 238 8383 8395
+)
+"obc/obc_printer.ml" 238 8383 8399 "obc/obc_printer.ml" 238 8383 8419
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 235 8242 8270 "obc/obc_printer.ml" 238 8383 8419
+type(
+  unit
+)
+"obc/obc_printer.ml" 240 8421 8425 "obc/obc_printer.ml" 240 8421 8435
+type(
+  Format.formatter -> Obc.program -> unit
+)
+ident(
+  def print_prog "obc/obc_printer.ml" 244 8564 8564 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 240 8421 8436 "obc/obc_printer.ml" 240 8421 8438
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 240 8421 8439 "obc/obc_printer.ml" 242 8524 8562
+)
+"obc/obc_printer.ml" 240 8421 8452 "obc/obc_printer.ml" 240 8421 8459
+type(
+  Names.modul list
+)
+ident(
+  def modules "obc/obc_printer.ml" 241 8480 8482 "obc/obc_printer.ml" 242 8524 8562
+)
+"obc/obc_printer.ml" 240 8421 8470 "obc/obc_printer.ml" 240 8421 8475
+type(
+  Obc.program_desc list
+)
+ident(
+  def descs "obc/obc_printer.ml" 241 8480 8482 "obc/obc_printer.ml" 242 8524 8562
+)
+"obc/obc_printer.ml" 240 8421 8439 "obc/obc_printer.ml" 240 8421 8477
+type(
+  Obc.program
+)
+"obc/obc_printer.ml" 241 8480 8482 "obc/obc_printer.ml" 241 8480 8491
+type(
+  (Names.modul -> unit) -> Names.modul list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/obc_printer.ml" 241 8480 8493 "obc/obc_printer.ml" 241 8480 8510
+type(
+  Format.formatter -> Names.modul -> unit
+)
+ident(
+  int_ref print_open_module "obc/obc_printer.ml" 228 8047 8051 "obc/obc_printer.ml" 228 8047 8068
+)
+"obc/obc_printer.ml" 241 8480 8511 "obc/obc_printer.ml" 241 8480 8513
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 240 8421 8436 "obc/obc_printer.ml" 240 8421 8438
+)
+"obc/obc_printer.ml" 241 8480 8492 "obc/obc_printer.ml" 241 8480 8514
+call(
+  stack
+)
+type(
+  Names.modul -> unit
+)
+"obc/obc_printer.ml" 241 8480 8515 "obc/obc_printer.ml" 241 8480 8522
+type(
+  Names.modul list
+)
+ident(
+  int_ref modules "obc/obc_printer.ml" 240 8421 8452 "obc/obc_printer.ml" 240 8421 8459
+)
+"obc/obc_printer.ml" 241 8480 8482 "obc/obc_printer.ml" 241 8480 8522
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 242 8524 8526 "obc/obc_printer.ml" 242 8524 8535
+type(
+  (Obc.program_desc -> unit) -> Obc.program_desc list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/obc_printer.ml" 242 8524 8537 "obc/obc_printer.ml" 242 8524 8552
+type(
+  Format.formatter -> Obc.program_desc -> unit
+)
+ident(
+  int_ref print_prog_desc "obc/obc_printer.ml" 235 8242 8246 "obc/obc_printer.ml" 235 8242 8261
+)
+"obc/obc_printer.ml" 242 8524 8553 "obc/obc_printer.ml" 242 8524 8555
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 240 8421 8436 "obc/obc_printer.ml" 240 8421 8438
+)
+"obc/obc_printer.ml" 242 8524 8536 "obc/obc_printer.ml" 242 8524 8556
+call(
+  stack
+)
+type(
+  Obc.program_desc -> unit
+)
+"obc/obc_printer.ml" 242 8524 8557 "obc/obc_printer.ml" 242 8524 8562
+type(
+  Obc.program_desc list
+)
+ident(
+  int_ref descs "obc/obc_printer.ml" 240 8421 8470 "obc/obc_printer.ml" 240 8421 8475
+)
+"obc/obc_printer.ml" 242 8524 8526 "obc/obc_printer.ml" 242 8524 8562
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 241 8480 8482 "obc/obc_printer.ml" 242 8524 8562
+type(
+  unit
+)
+"obc/obc_printer.ml" 244 8564 8568 "obc/obc_printer.ml" 244 8564 8573
+type(
+  out_channel -> Obc.program -> unit
+)
+ident(
+  def print "obc/obc_printer.ml" 247 8687 8745 "obc/obc_printer.ml" 1 0 -1
+)
+"obc/obc_printer.ml" 244 8564 8574 "obc/obc_printer.ml" 244 8564 8576
+type(
+  out_channel
+)
+ident(
+  def oc "obc/obc_printer.ml" 244 8564 8577 "obc/obc_printer.ml" 247 8687 8745
+)
+"obc/obc_printer.ml" 244 8564 8577 "obc/obc_printer.ml" 244 8564 8578
+type(
+  Obc.program
+)
+ident(
+  def p "obc/obc_printer.ml" 245 8581 8583 "obc/obc_printer.ml" 247 8687 8745
+)
+"obc/obc_printer.ml" 245 8581 8587 "obc/obc_printer.ml" 245 8581 8589
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/obc_printer.ml" 246 8623 8625 "obc/obc_printer.ml" 247 8687 8745
+)
+"obc/obc_printer.ml" 245 8581 8592 "obc/obc_printer.ml" 245 8581 8616
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"obc/obc_printer.ml" 245 8581 8617 "obc/obc_printer.ml" 245 8581 8619
+type(
+  out_channel
+)
+ident(
+  int_ref oc "obc/obc_printer.ml" 244 8564 8574 "obc/obc_printer.ml" 244 8564 8576
+)
+"obc/obc_printer.ml" 245 8581 8592 "obc/obc_printer.ml" 245 8581 8619
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"obc/obc_printer.ml" 246 8623 8625 "obc/obc_printer.ml" 246 8623 8632
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 246 8623 8633 "obc/obc_printer.ml" 246 8623 8635
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 245 8581 8587 "obc/obc_printer.ml" 245 8581 8589
+)
+"obc/obc_printer.ml" 246 8623 8636 "obc/obc_printer.ml" 246 8623 8685
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 246 8623 8625 "obc/obc_printer.ml" 246 8623 8685
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 247 8687 8689 "obc/obc_printer.ml" 247 8687 8696
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 247 8687 8697 "obc/obc_printer.ml" 247 8687 8699
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 245 8581 8587 "obc/obc_printer.ml" 245 8581 8589
+)
+"obc/obc_printer.ml" 247 8687 8700 "obc/obc_printer.ml" 247 8687 8707
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 247 8687 8689 "obc/obc_printer.ml" 247 8687 8707
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 247 8687 8709 "obc/obc_printer.ml" 247 8687 8719
+type(
+  Format.formatter -> Obc.program -> unit
+)
+ident(
+  int_ref print_prog "obc/obc_printer.ml" 240 8421 8425 "obc/obc_printer.ml" 240 8421 8435
+)
+"obc/obc_printer.ml" 247 8687 8720 "obc/obc_printer.ml" 247 8687 8722
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 245 8581 8587 "obc/obc_printer.ml" 245 8581 8589
+)
+"obc/obc_printer.ml" 247 8687 8723 "obc/obc_printer.ml" 247 8687 8724
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/obc_printer.ml" 244 8564 8577 "obc/obc_printer.ml" 244 8564 8578
+)
+"obc/obc_printer.ml" 247 8687 8709 "obc/obc_printer.ml" 247 8687 8724
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 247 8687 8726 "obc/obc_printer.ml" 247 8687 8733
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/obc_printer.ml" 247 8687 8734 "obc/obc_printer.ml" 247 8687 8736
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/obc_printer.ml" 245 8581 8587 "obc/obc_printer.ml" 245 8581 8589
+)
+"obc/obc_printer.ml" 247 8687 8737 "obc/obc_printer.ml" 247 8687 8745
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/obc_printer.ml" 247 8687 8726 "obc/obc_printer.ml" 247 8687 8745
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/obc_printer.ml" 247 8687 8709 "obc/obc_printer.ml" 247 8687 8745
+type(
+  unit
+)
+"obc/obc_printer.ml" 247 8687 8689 "obc/obc_printer.ml" 247 8687 8745
+type(
+  unit
+)
+"obc/obc_printer.ml" 246 8623 8625 "obc/obc_printer.ml" 247 8687 8745
+type(
+  unit
+)
+"obc/obc_printer.ml" 245 8581 8583 "obc/obc_printer.ml" 247 8687 8745
+type(
+  unit
+)

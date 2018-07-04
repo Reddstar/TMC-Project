@@ -1,0 +1,4559 @@
+"heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  def fresh "heptagon/transformations/automata.ml" 45 2408 2408 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 42 2293 2305 "heptagon/transformations/automata.ml" 42 2293 2321
+type(
+  string -> (var -> string) -> ?reset:bool -> var -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_fresh
+)
+"heptagon/transformations/automata.ml" 42 2293 2322 "heptagon/transformations/automata.ml" 42 2293 2332
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2345 "heptagon/transformations/automata.ml" 43 2333 2346
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 43 2333 2350 "heptagon/transformations/automata.ml" 43 2333 2353
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2356 "heptagon/transformations/automata.ml" 43 2333 2358
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 43 2333 2362 "heptagon/transformations/automata.ml" 43 2333 2366
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2369 "heptagon/transformations/automata.ml" 43 2333 2370
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 43 2333 2374 "heptagon/transformations/automata.ml" 43 2333 2377
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2380 "heptagon/transformations/automata.ml" 43 2333 2382
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 43 2333 2386 "heptagon/transformations/automata.ml" 43 2333 2390
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2393 "heptagon/transformations/automata.ml" 43 2333 2396
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 43 2333 2400 "heptagon/transformations/automata.ml" 43 2333 2405
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 43 2333 2335 "heptagon/transformations/automata.ml" 43 2333 2406
+type(
+  var -> string
+)
+"heptagon/transformations/automata.ml" 42 2293 2305 "heptagon/transformations/automata.ml" 43 2333 2406
+call(
+  stack
+)
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+"heptagon/transformations/automata.ml" 45 2408 2412 "heptagon/transformations/automata.ml" 45 2408 2422
+type(
+  Idents.var_ident -> Types.ty -> Heptagon.exp
+)
+ident(
+  def mk_var_exp "heptagon/transformations/automata.ml" 48 2478 2478 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 45 2408 2423 "heptagon/transformations/automata.ml" 45 2408 2424
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 45 2408 2425 "heptagon/transformations/automata.ml" 46 2430 2476
+)
+"heptagon/transformations/automata.ml" 45 2408 2425 "heptagon/transformations/automata.ml" 45 2408 2427
+type(
+  Types.ty
+)
+ident(
+  def ty "heptagon/transformations/automata.ml" 46 2430 2432 "heptagon/transformations/automata.ml" 46 2430 2476
+)
+"heptagon/transformations/automata.ml" 46 2430 2432 "heptagon/transformations/automata.ml" 46 2430 2438
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/automata.ml" 46 2430 2445 "heptagon/transformations/automata.ml" 46 2430 2446
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 45 2408 2423 "heptagon/transformations/automata.ml" 45 2408 2424
+)
+"heptagon/transformations/automata.ml" 46 2430 2439 "heptagon/transformations/automata.ml" 46 2430 2447
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/automata.ml" 46 2430 2448 "heptagon/transformations/automata.ml" 46 2430 2450
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "heptagon/transformations/automata.ml" 45 2408 2425 "heptagon/transformations/automata.ml" 45 2408 2427
+)
+"heptagon/transformations/automata.ml" 46 2430 2462 "heptagon/transformations/automata.ml" 46 2430 2476
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 46 2430 2432 "heptagon/transformations/automata.ml" 46 2430 2476
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 48 2478 2482 "heptagon/transformations/automata.ml" 48 2478 2489
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def mk_pair "heptagon/transformations/automata.ml" 52 2629 2629 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 48 2478 2490 "heptagon/transformations/automata.ml" 48 2478 2492
+type(
+  Heptagon.exp
+)
+ident(
+  def e1 "heptagon/transformations/automata.ml" 48 2478 2493 "heptagon/transformations/automata.ml" 50 2561 2627
+)
+"heptagon/transformations/automata.ml" 48 2478 2493 "heptagon/transformations/automata.ml" 48 2478 2495
+type(
+  Heptagon.exp
+)
+ident(
+  def e2 "heptagon/transformations/automata.ml" 49 2498 2500 "heptagon/transformations/automata.ml" 50 2561 2627
+)
+"heptagon/transformations/automata.ml" 49 2498 2500 "heptagon/transformations/automata.ml" 49 2498 2506
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/automata.ml" 49 2498 2508 "heptagon/transformations/automata.ml" 49 2498 2517
+type(
+  ?params:Types.static_exp list ->
+  ?unsafe:bool ->
+  ?reset:Heptagon.exp option ->
+  Heptagon.op -> Heptagon.exp list -> Heptagon.desc
+)
+ident(
+  ext_ref Hept_utils.mk_op_app
+)
+"heptagon/transformations/automata.ml" 49 2498 2518 "heptagon/transformations/automata.ml" 49 2498 2524
+type(
+  Heptagon.op
+)
+"heptagon/transformations/automata.ml" 49 2498 2526 "heptagon/transformations/automata.ml" 49 2498 2528
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/automata.ml" 48 2478 2490 "heptagon/transformations/automata.ml" 48 2478 2492
+)
+"heptagon/transformations/automata.ml" 49 2498 2529 "heptagon/transformations/automata.ml" 49 2498 2531
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/automata.ml" 48 2478 2493 "heptagon/transformations/automata.ml" 48 2478 2495
+)
+"heptagon/transformations/automata.ml" 49 2498 2525 "heptagon/transformations/automata.ml" 49 2498 2532
+type(
+  Heptagon.exp list
+)
+"heptagon/transformations/automata.ml" 49 2498 2507 "heptagon/transformations/automata.ml" 49 2498 2533
+call(
+  stack
+)
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/automata.ml" 49 2498 2542 "heptagon/transformations/automata.ml" 49 2498 2544
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e1 "heptagon/transformations/automata.ml" 48 2478 2490 "heptagon/transformations/automata.ml" 48 2478 2492
+)
+"heptagon/transformations/automata.ml" 49 2498 2542 "heptagon/transformations/automata.ml" 49 2498 2549
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 49 2498 2551 "heptagon/transformations/automata.ml" 49 2498 2553
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e2 "heptagon/transformations/automata.ml" 48 2478 2493 "heptagon/transformations/automata.ml" 48 2478 2495
+)
+"heptagon/transformations/automata.ml" 49 2498 2551 "heptagon/transformations/automata.ml" 49 2498 2558
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 49 2498 2541 "heptagon/transformations/automata.ml" 49 2498 2559
+type(
+  Types.ty list
+)
+"heptagon/transformations/automata.ml" 49 2498 2534 "heptagon/transformations/automata.ml" 49 2498 2560
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 50 2561 2595 "heptagon/transformations/automata.ml" 50 2561 2609
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 50 2561 2611 "heptagon/transformations/automata.ml" 50 2561 2625
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 50 2561 2594 "heptagon/transformations/automata.ml" 50 2561 2626
+type(
+  Linearity.linearity list
+)
+"heptagon/transformations/automata.ml" 50 2561 2576 "heptagon/transformations/automata.ml" 50 2561 2627
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 49 2498 2500 "heptagon/transformations/automata.ml" 50 2561 2627
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 52 2629 2633 "heptagon/transformations/automata.ml" 52 2629 2650
+type(
+  Heptagon.eq list -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  def mk_reset_equation "heptagon/transformations/automata.ml" 55 2709 2709 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 52 2629 2651 "heptagon/transformations/automata.ml" 52 2629 2658
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/automata.ml" 52 2629 2659 "heptagon/transformations/automata.ml" 53 2663 2707
+)
+"heptagon/transformations/automata.ml" 52 2629 2659 "heptagon/transformations/automata.ml" 52 2629 2660
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/automata.ml" 53 2663 2665 "heptagon/transformations/automata.ml" 53 2663 2707
+)
+"heptagon/transformations/automata.ml" 53 2663 2665 "heptagon/transformations/automata.ml" 53 2663 2676
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/automata.ml" 53 2663 2686 "heptagon/transformations/automata.ml" 53 2663 2694
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/automata.ml" 53 2663 2695 "heptagon/transformations/automata.ml" 53 2663 2702
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 52 2629 2651 "heptagon/transformations/automata.ml" 52 2629 2658
+)
+"heptagon/transformations/automata.ml" 53 2663 2686 "heptagon/transformations/automata.ml" 53 2663 2702
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 53 2663 2704 "heptagon/transformations/automata.ml" 53 2663 2705
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 52 2629 2659 "heptagon/transformations/automata.ml" 52 2629 2660
+)
+"heptagon/transformations/automata.ml" 53 2663 2677 "heptagon/transformations/automata.ml" 53 2663 2707
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/automata.ml" 53 2663 2665 "heptagon/transformations/automata.ml" 53 2663 2707
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 55 2709 2713 "heptagon/transformations/automata.ml" 55 2709 2731
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  def mk_switch_equation "heptagon/transformations/automata.ml" 58 2770 2770 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 55 2709 2732 "heptagon/transformations/automata.ml" 55 2709 2733
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/automata.ml" 55 2709 2734 "heptagon/transformations/automata.ml" 56 2738 2768
+)
+"heptagon/transformations/automata.ml" 55 2709 2734 "heptagon/transformations/automata.ml" 55 2709 2735
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def l "heptagon/transformations/automata.ml" 56 2738 2740 "heptagon/transformations/automata.ml" 56 2738 2768
+)
+"heptagon/transformations/automata.ml" 56 2738 2740 "heptagon/transformations/automata.ml" 56 2738 2751
+type(
+  ?loc:Location.location -> Heptagon.eqdesc -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_equation
+)
+"heptagon/transformations/automata.ml" 56 2738 2762 "heptagon/transformations/automata.ml" 56 2738 2763
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 55 2709 2732 "heptagon/transformations/automata.ml" 55 2709 2733
+)
+"heptagon/transformations/automata.ml" 56 2738 2765 "heptagon/transformations/automata.ml" 56 2738 2766
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref l "heptagon/transformations/automata.ml" 55 2709 2734 "heptagon/transformations/automata.ml" 55 2709 2735
+)
+"heptagon/transformations/automata.ml" 56 2738 2752 "heptagon/transformations/automata.ml" 56 2738 2768
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/automata.ml" 56 2738 2740 "heptagon/transformations/automata.ml" 56 2738 2768
+call(
+  tail
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 58 2770 2774 "heptagon/transformations/automata.ml" 58 2770 2790
+type(
+  Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def mk_exp_fby_false "heptagon/transformations/automata.ml" 62 2895 2895 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 58 2770 2791 "heptagon/transformations/automata.ml" 58 2770 2792
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/automata.ml" 59 2795 2797 "heptagon/transformations/automata.ml" 60 2844 2893
+)
+"heptagon/transformations/automata.ml" 59 2795 2797 "heptagon/transformations/automata.ml" 59 2795 2803
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/automata.ml" 59 2795 2817 "heptagon/transformations/automata.ml" 59 2795 2831
+type(
+  bool -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_bool
+)
+"heptagon/transformations/automata.ml" 59 2795 2832 "heptagon/transformations/automata.ml" 59 2795 2837
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 59 2795 2816 "heptagon/transformations/automata.ml" 59 2795 2838
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/automata.ml" 59 2795 2811 "heptagon/transformations/automata.ml" 59 2795 2838
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/automata.ml" 59 2795 2840 "heptagon/transformations/automata.ml" 59 2795 2841
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 58 2770 2791 "heptagon/transformations/automata.ml" 58 2770 2792
+)
+"heptagon/transformations/automata.ml" 59 2795 2804 "heptagon/transformations/automata.ml" 59 2795 2843
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/automata.ml" 60 2844 2853 "heptagon/transformations/automata.ml" 60 2844 2866
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 60 2844 2848 "heptagon/transformations/automata.ml" 60 2844 2867
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 60 2844 2879 "heptagon/transformations/automata.ml" 60 2844 2893
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 59 2795 2797 "heptagon/transformations/automata.ml" 60 2844 2893
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 62 2895 2899 "heptagon/transformations/automata.ml" 62 2895 2913
+type(
+  Names.constructor_name -> Types.ty -> Types.static_exp
+)
+ident(
+  def mk_constructor "heptagon/transformations/automata.ml" 66 3045 3045 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 62 2895 2914 "heptagon/transformations/automata.ml" 62 2895 2920
+type(
+  Names.constructor_name
+)
+ident(
+  def constr "heptagon/transformations/automata.ml" 62 2895 2921 "heptagon/transformations/automata.ml" 63 2926 2966
+)
+"heptagon/transformations/automata.ml" 62 2895 2921 "heptagon/transformations/automata.ml" 62 2895 2923
+type(
+  Types.ty
+)
+ident(
+  def ty "heptagon/transformations/automata.ml" 63 2926 2928 "heptagon/transformations/automata.ml" 63 2926 2966
+)
+"heptagon/transformations/automata.ml" 63 2926 2928 "heptagon/transformations/automata.ml" 63 2926 2941
+type(
+  ?loc:Location.location ->
+  Types.ty -> Types.static_exp_desc -> Types.static_exp
+)
+ident(
+  ext_ref Types.mk_static_exp
+)
+"heptagon/transformations/automata.ml" 63 2926 2942 "heptagon/transformations/automata.ml" 63 2926 2944
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "heptagon/transformations/automata.ml" 62 2895 2921 "heptagon/transformations/automata.ml" 62 2895 2923
+)
+"heptagon/transformations/automata.ml" 63 2926 2959 "heptagon/transformations/automata.ml" 63 2926 2965
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref constr "heptagon/transformations/automata.ml" 62 2895 2914 "heptagon/transformations/automata.ml" 62 2895 2920
+)
+"heptagon/transformations/automata.ml" 63 2926 2945 "heptagon/transformations/automata.ml" 63 2926 2966
+type(
+  Types.static_exp_desc
+)
+"heptagon/transformations/automata.ml" 63 2926 2928 "heptagon/transformations/automata.ml" 63 2926 2966
+call(
+  tail
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/automata.ml" 66 3045 3049 "heptagon/transformations/automata.ml" 66 3045 3065
+type(
+  Names.constructor_name -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def mk_exp_fby_state "heptagon/transformations/automata.ml" 70 3214 3214 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 66 3045 3066 "heptagon/transformations/automata.ml" 66 3045 3073
+type(
+  Names.constructor_name
+)
+ident(
+  def initial "heptagon/transformations/automata.ml" 66 3045 3074 "heptagon/transformations/automata.ml" 67 3078 3146
+)
+"heptagon/transformations/automata.ml" 66 3045 3074 "heptagon/transformations/automata.ml" 66 3045 3075
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/automata.ml" 67 3078 3080 "heptagon/transformations/automata.ml" 67 3078 3146
+)
+"heptagon/transformations/automata.ml" 67 3078 3082 "heptagon/transformations/automata.ml" 67 3078 3083
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 66 3045 3074 "heptagon/transformations/automata.ml" 66 3045 3075
+)
+"heptagon/transformations/automata.ml" 67 3078 3110 "heptagon/transformations/automata.ml" 67 3078 3124
+type(
+  Names.constructor_name -> Types.ty -> Types.static_exp
+)
+ident(
+  int_ref mk_constructor "heptagon/transformations/automata.ml" 62 2895 2899 "heptagon/transformations/automata.ml" 62 2895 2913
+)
+"heptagon/transformations/automata.ml" 67 3078 3125 "heptagon/transformations/automata.ml" 67 3078 3132
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref initial "heptagon/transformations/automata.ml" 66 3045 3066 "heptagon/transformations/automata.ml" 66 3045 3073
+)
+"heptagon/transformations/automata.ml" 67 3078 3133 "heptagon/transformations/automata.ml" 67 3078 3134
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 66 3045 3074 "heptagon/transformations/automata.ml" 66 3045 3075
+)
+"heptagon/transformations/automata.ml" 67 3078 3133 "heptagon/transformations/automata.ml" 67 3078 3139
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 67 3078 3109 "heptagon/transformations/automata.ml" 67 3078 3140
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/automata.ml" 67 3078 3104 "heptagon/transformations/automata.ml" 67 3078 3140
+type(
+  Types.static_exp option
+)
+"heptagon/transformations/automata.ml" 67 3078 3142 "heptagon/transformations/automata.ml" 67 3078 3143
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 66 3045 3074 "heptagon/transformations/automata.ml" 66 3045 3075
+)
+"heptagon/transformations/automata.ml" 67 3078 3098 "heptagon/transformations/automata.ml" 67 3078 3144
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/automata.ml" 67 3078 3080 "heptagon/transformations/automata.ml" 67 3078 3146
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 70 3214 3218 "heptagon/transformations/automata.ml" 70 3214 3237
+type(
+  Heptagon.program_desc list ref
+)
+ident(
+  def state_type_dec_list "heptagon/transformations/automata.ml" 74 3328 3328 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 70 3214 3240 "heptagon/transformations/automata.ml" 70 3214 3243
+type(
+  Heptagon.program_desc list -> Heptagon.program_desc list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"heptagon/transformations/automata.ml" 70 3214 3244 "heptagon/transformations/automata.ml" 70 3214 3246
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 70 3214 3240 "heptagon/transformations/automata.ml" 70 3214 3246
+type(
+  Heptagon.program_desc list ref
+)
+"heptagon/transformations/automata.ml" 74 3328 3332 "heptagon/transformations/automata.ml" 74 3328 3350
+type(
+  Names.qualname ->
+  Names.NamesEnv.key ->
+  Names.qualname Names.NamesEnv.t -> Names.qualname Names.NamesEnv.t
+)
+ident(
+  def intro_state_constr "heptagon/transformations/automata.ml" 81 3673 3673 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 74 3328 3351 "heptagon/transformations/automata.ml" 74 3328 3360
+type(
+  Names.qualname
+)
+ident(
+  def type_name "heptagon/transformations/automata.ml" 74 3328 3361 "heptagon/transformations/automata.ml" 77 3499 3564
+)
+"heptagon/transformations/automata.ml" 74 3328 3361 "heptagon/transformations/automata.ml" 74 3328 3366
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def state "heptagon/transformations/automata.ml" 74 3328 3367 "heptagon/transformations/automata.ml" 77 3499 3564
+)
+"heptagon/transformations/automata.ml" 74 3328 3367 "heptagon/transformations/automata.ml" 74 3328 3376
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  def state_env "heptagon/transformations/automata.ml" 75 3379 3381 "heptagon/transformations/automata.ml" 77 3499 3564
+)
+"heptagon/transformations/automata.ml" 75 3379 3385 "heptagon/transformations/automata.ml" 75 3379 3386
+type(
+  string
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 76 3452 3454 "heptagon/transformations/automata.ml" 77 3499 3564
+)
+"heptagon/transformations/automata.ml" 75 3379 3389 "heptagon/transformations/automata.ml" 75 3379 3406
+type(
+  Names.name -> string
+)
+ident(
+  ext_ref String.capitalize
+)
+"heptagon/transformations/automata.ml" 75 3379 3408 "heptagon/transformations/automata.ml" 75 3379 3423
+type(
+  Names.qualname -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"heptagon/transformations/automata.ml" 75 3379 3424 "heptagon/transformations/automata.ml" 75 3379 3433
+type(
+  Names.qualname
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 74 3328 3351 "heptagon/transformations/automata.ml" 74 3328 3360
+)
+"heptagon/transformations/automata.ml" 75 3379 3407 "heptagon/transformations/automata.ml" 75 3379 3434
+call(
+  stack
+)
+type(
+  Names.name
+)
+"heptagon/transformations/automata.ml" 75 3379 3389 "heptagon/transformations/automata.ml" 75 3379 3434
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 75 3379 3435 "heptagon/transformations/automata.ml" 75 3379 3436
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"heptagon/transformations/automata.ml" 75 3379 3437 "heptagon/transformations/automata.ml" 75 3379 3440
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 75 3379 3441 "heptagon/transformations/automata.ml" 75 3379 3442
+type(
+  string -> Names.NamesEnv.key -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"heptagon/transformations/automata.ml" 75 3379 3443 "heptagon/transformations/automata.ml" 75 3379 3448
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref state "heptagon/transformations/automata.ml" 74 3328 3361 "heptagon/transformations/automata.ml" 74 3328 3366
+)
+"heptagon/transformations/automata.ml" 75 3379 3437 "heptagon/transformations/automata.ml" 75 3379 3448
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 75 3379 3389 "heptagon/transformations/automata.ml" 75 3379 3448
+call(
+  stack
+)
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 76 3452 3458 "heptagon/transformations/automata.ml" 76 3452 3459
+type(
+  Names.qualname
+)
+ident(
+  def c "heptagon/transformations/automata.ml" 77 3499 3501 "heptagon/transformations/automata.ml" 77 3499 3564
+)
+"heptagon/transformations/automata.ml" 76 3452 3462 "heptagon/transformations/automata.ml" 76 3452 3482
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.fresh_constr
+)
+"heptagon/transformations/automata.ml" 76 3452 3483 "heptagon/transformations/automata.ml" 76 3452 3493
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 76 3452 3494 "heptagon/transformations/automata.ml" 76 3452 3495
+type(
+  Names.name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 75 3379 3385 "heptagon/transformations/automata.ml" 75 3379 3386
+)
+"heptagon/transformations/automata.ml" 76 3452 3462 "heptagon/transformations/automata.ml" 76 3452 3495
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/automata.ml" 77 3499 3501 "heptagon/transformations/automata.ml" 77 3499 3520
+type(
+  Names.QualEnv.key -> Names.qualname -> unit
+)
+ident(
+  ext_ref Modules.add_constrs
+)
+"heptagon/transformations/automata.ml" 77 3499 3521 "heptagon/transformations/automata.ml" 77 3499 3522
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref c "heptagon/transformations/automata.ml" 76 3452 3458 "heptagon/transformations/automata.ml" 76 3452 3459
+)
+"heptagon/transformations/automata.ml" 77 3499 3523 "heptagon/transformations/automata.ml" 77 3499 3532
+type(
+  Names.qualname
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 74 3328 3351 "heptagon/transformations/automata.ml" 74 3328 3360
+)
+"heptagon/transformations/automata.ml" 77 3499 3501 "heptagon/transformations/automata.ml" 77 3499 3532
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 77 3499 3534 "heptagon/transformations/automata.ml" 77 3499 3546
+type(
+  Names.NamesEnv.key ->
+  Names.qualname ->
+  Names.qualname Names.NamesEnv.t -> Names.qualname Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.add
+)
+"heptagon/transformations/automata.ml" 77 3499 3547 "heptagon/transformations/automata.ml" 77 3499 3552
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref state "heptagon/transformations/automata.ml" 74 3328 3361 "heptagon/transformations/automata.ml" 74 3328 3366
+)
+"heptagon/transformations/automata.ml" 77 3499 3553 "heptagon/transformations/automata.ml" 77 3499 3554
+type(
+  Names.qualname
+)
+ident(
+  int_ref c "heptagon/transformations/automata.ml" 76 3452 3458 "heptagon/transformations/automata.ml" 76 3452 3459
+)
+"heptagon/transformations/automata.ml" 77 3499 3555 "heptagon/transformations/automata.ml" 77 3499 3564
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  int_ref state_env "heptagon/transformations/automata.ml" 74 3328 3367 "heptagon/transformations/automata.ml" 74 3328 3376
+)
+"heptagon/transformations/automata.ml" 77 3499 3534 "heptagon/transformations/automata.ml" 77 3499 3564
+call(
+  tail
+)
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 77 3499 3501 "heptagon/transformations/automata.ml" 77 3499 3564
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 76 3452 3454 "heptagon/transformations/automata.ml" 77 3499 3564
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 75 3379 3381 "heptagon/transformations/automata.ml" 77 3499 3564
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 81 3673 3677 "heptagon/transformations/automata.ml" 81 3673 3687
+type(
+  Names.QualEnv.key -> Names.constructor_name Names.NamesEnv.t -> unit
+)
+ident(
+  def intro_type "heptagon/transformations/automata.ml" 92 4181 4181 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 81 3673 3688 "heptagon/transformations/automata.ml" 81 3673 3697
+type(
+  Names.QualEnv.key
+)
+ident(
+  def type_name "heptagon/transformations/automata.ml" 81 3673 3698 "heptagon/transformations/automata.ml" 87 3965 4048
+)
+"heptagon/transformations/automata.ml" 81 3673 3698 "heptagon/transformations/automata.ml" 81 3673 3707
+type(
+  Names.constructor_name Names.NamesEnv.t
+)
+ident(
+  def state_env "heptagon/transformations/automata.ml" 82 3710 3712 "heptagon/transformations/automata.ml" 87 3965 4048
+)
+"heptagon/transformations/automata.ml" 82 3710 3716 "heptagon/transformations/automata.ml" 82 3710 3729
+type(
+  Names.constructor_name list
+)
+ident(
+  def state_constrs "heptagon/transformations/automata.ml" 84 3822 3824 "heptagon/transformations/automata.ml" 87 3965 4048
+)
+"heptagon/transformations/automata.ml" 82 3710 3732 "heptagon/transformations/automata.ml" 82 3710 3745
+type(
+  (Names.NamesEnv.key ->
+   Names.constructor_name ->
+   Names.constructor_name list -> Names.constructor_name list) ->
+  Names.constructor_name Names.NamesEnv.t ->
+  Names.constructor_name list -> Names.constructor_name list
+)
+ident(
+  ext_ref Names.NamesEnv.fold
+)
+"heptagon/transformations/automata.ml" 82 3710 3751 "heptagon/transformations/automata.ml" 82 3710 3752
+type(
+  Names.NamesEnv.key
+)
+"heptagon/transformations/automata.ml" 82 3710 3753 "heptagon/transformations/automata.ml" 82 3710 3754
+type(
+  Names.constructor_name
+)
+ident(
+  def c "heptagon/transformations/automata.ml" 82 3710 3755 "heptagon/transformations/automata.ml" 82 3710 3768
+)
+"heptagon/transformations/automata.ml" 82 3710 3755 "heptagon/transformations/automata.ml" 82 3710 3758
+type(
+  Names.constructor_name list
+)
+ident(
+  def c_l "heptagon/transformations/automata.ml" 82 3710 3762 "heptagon/transformations/automata.ml" 82 3710 3768
+)
+"heptagon/transformations/automata.ml" 82 3710 3762 "heptagon/transformations/automata.ml" 82 3710 3763
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref c "heptagon/transformations/automata.ml" 82 3710 3753 "heptagon/transformations/automata.ml" 82 3710 3754
+)
+"heptagon/transformations/automata.ml" 82 3710 3765 "heptagon/transformations/automata.ml" 82 3710 3768
+type(
+  Names.constructor_name list
+)
+ident(
+  int_ref c_l "heptagon/transformations/automata.ml" 82 3710 3755 "heptagon/transformations/automata.ml" 82 3710 3758
+)
+"heptagon/transformations/automata.ml" 82 3710 3762 "heptagon/transformations/automata.ml" 82 3710 3768
+type(
+  Names.constructor_name list
+)
+"heptagon/transformations/automata.ml" 82 3710 3746 "heptagon/transformations/automata.ml" 82 3710 3769
+type(
+  Names.NamesEnv.key ->
+  Names.constructor_name ->
+  Names.constructor_name list -> Names.constructor_name list
+)
+"heptagon/transformations/automata.ml" 82 3710 3770 "heptagon/transformations/automata.ml" 82 3710 3779
+type(
+  Names.constructor_name Names.NamesEnv.t
+)
+ident(
+  int_ref state_env "heptagon/transformations/automata.ml" 81 3673 3698 "heptagon/transformations/automata.ml" 81 3673 3707
+)
+"heptagon/transformations/automata.ml" 82 3710 3780 "heptagon/transformations/automata.ml" 82 3710 3782
+type(
+  Names.constructor_name list
+)
+"heptagon/transformations/automata.ml" 82 3710 3732 "heptagon/transformations/automata.ml" 82 3710 3782
+call(
+  stack
+)
+type(
+  Names.constructor_name list
+)
+"heptagon/transformations/automata.ml" 84 3822 3824 "heptagon/transformations/automata.ml" 84 3822 3840
+type(
+  Names.QualEnv.key -> Signature.type_def -> unit
+)
+ident(
+  ext_ref Modules.add_type
+)
+"heptagon/transformations/automata.ml" 84 3822 3841 "heptagon/transformations/automata.ml" 84 3822 3850
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 81 3673 3688 "heptagon/transformations/automata.ml" 81 3673 3697
+)
+"heptagon/transformations/automata.ml" 84 3822 3868 "heptagon/transformations/automata.ml" 84 3822 3881
+type(
+  Names.constructor_name list
+)
+ident(
+  int_ref state_constrs "heptagon/transformations/automata.ml" 82 3710 3716 "heptagon/transformations/automata.ml" 82 3710 3729
+)
+"heptagon/transformations/automata.ml" 84 3822 3851 "heptagon/transformations/automata.ml" 84 3822 3882
+type(
+  Signature.type_def
+)
+"heptagon/transformations/automata.ml" 84 3822 3824 "heptagon/transformations/automata.ml" 84 3822 3882
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 86 3940 3942 "heptagon/transformations/automata.ml" 86 3940 3961
+type(
+  Heptagon.program_desc list ref
+)
+ident(
+  int_ref state_type_dec_list "heptagon/transformations/automata.ml" 70 3214 3218 "heptagon/transformations/automata.ml" 70 3214 3237
+)
+"heptagon/transformations/automata.ml" 86 3940 3962 "heptagon/transformations/automata.ml" 86 3940 3964
+type(
+  Heptagon.program_desc list ref -> Heptagon.program_desc list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"heptagon/transformations/automata.ml" 87 3965 3976 "heptagon/transformations/automata.ml" 87 3965 3987
+type(
+  Names.QualEnv.key -> Heptagon.type_dec_desc -> Heptagon.type_dec
+)
+ident(
+  ext_ref Hept_utils.mk_type_dec
+)
+"heptagon/transformations/automata.ml" 87 3965 3988 "heptagon/transformations/automata.ml" 87 3965 3997
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 81 3673 3688 "heptagon/transformations/automata.ml" 81 3673 3697
+)
+"heptagon/transformations/automata.ml" 87 3965 4009 "heptagon/transformations/automata.ml" 87 3965 4022
+type(
+  Names.constructor_name list
+)
+ident(
+  int_ref state_constrs "heptagon/transformations/automata.ml" 82 3710 3716 "heptagon/transformations/automata.ml" 82 3710 3729
+)
+"heptagon/transformations/automata.ml" 87 3965 3998 "heptagon/transformations/automata.ml" 87 3965 4023
+type(
+  Heptagon.type_dec_desc
+)
+"heptagon/transformations/automata.ml" 87 3965 3975 "heptagon/transformations/automata.ml" 87 3965 4024
+call(
+  stack
+)
+type(
+  Heptagon.type_dec
+)
+"heptagon/transformations/automata.ml" 87 3965 3969 "heptagon/transformations/automata.ml" 87 3965 4024
+type(
+  Heptagon.program_desc
+)
+"heptagon/transformations/automata.ml" 87 3965 4028 "heptagon/transformations/automata.ml" 87 3965 4029
+type(
+  Heptagon.program_desc list ref -> Heptagon.program_desc list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/automata.ml" 87 3965 4029 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  Heptagon.program_desc list ref
+)
+ident(
+  int_ref state_type_dec_list "heptagon/transformations/automata.ml" 70 3214 3218 "heptagon/transformations/automata.ml" 70 3214 3237
+)
+"heptagon/transformations/automata.ml" 87 3965 4028 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 87 3965 3969 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 86 3940 3942 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 84 3822 3824 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 82 3710 3712 "heptagon/transformations/automata.ml" 87 3965 4048
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 92 4181 4185 "heptagon/transformations/automata.ml" 92 4181 4205
+type(
+  Heptagon.state_handler list -> bool
+)
+ident(
+  def no_strong_transition "heptagon/transformations/automata.ml" 97 4338 4338 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 92 4181 4206 "heptagon/transformations/automata.ml" 92 4181 4220
+type(
+  Heptagon.state_handler list
+)
+ident(
+  def state_handlers "heptagon/transformations/automata.ml" 93 4223 4225 "heptagon/transformations/automata.ml" 94 4291 4335
+)
+"heptagon/transformations/automata.ml" 93 4223 4229 "heptagon/transformations/automata.ml" 93 4223 4236
+type(
+  bool -> Heptagon.state_handler -> bool
+)
+ident(
+  def handler "heptagon/transformations/automata.ml" 94 4291 4293 "heptagon/transformations/automata.ml" 94 4291 4335
+)
+"heptagon/transformations/automata.ml" 93 4223 4237 "heptagon/transformations/automata.ml" 93 4223 4246
+type(
+  bool
+)
+ident(
+  def no_strong "heptagon/transformations/automata.ml" 93 4223 4247 "heptagon/transformations/automata.ml" 93 4223 4287
+)
+"heptagon/transformations/automata.ml" 93 4223 4260 "heptagon/transformations/automata.ml" 93 4223 4261
+type(
+  Heptagon.escape list
+)
+ident(
+  def l "heptagon/transformations/automata.ml" 93 4223 4266 "heptagon/transformations/automata.ml" 93 4223 4287
+)
+"heptagon/transformations/automata.ml" 93 4223 4247 "heptagon/transformations/automata.ml" 93 4223 4263
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 93 4223 4266 "heptagon/transformations/automata.ml" 93 4223 4275
+type(
+  bool
+)
+ident(
+  int_ref no_strong "heptagon/transformations/automata.ml" 93 4223 4237 "heptagon/transformations/automata.ml" 93 4223 4246
+)
+"heptagon/transformations/automata.ml" 93 4223 4276 "heptagon/transformations/automata.ml" 93 4223 4278
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"heptagon/transformations/automata.ml" 93 4223 4280 "heptagon/transformations/automata.ml" 93 4223 4281
+type(
+  Heptagon.escape list
+)
+ident(
+  int_ref l "heptagon/transformations/automata.ml" 93 4223 4260 "heptagon/transformations/automata.ml" 93 4223 4261
+)
+"heptagon/transformations/automata.ml" 93 4223 4282 "heptagon/transformations/automata.ml" 93 4223 4283
+type(
+  Heptagon.escape list -> Heptagon.escape list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heptagon/transformations/automata.ml" 93 4223 4284 "heptagon/transformations/automata.ml" 93 4223 4286
+type(
+  Heptagon.escape list
+)
+"heptagon/transformations/automata.ml" 93 4223 4279 "heptagon/transformations/automata.ml" 93 4223 4287
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 93 4223 4266 "heptagon/transformations/automata.ml" 93 4223 4287
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 94 4291 4293 "heptagon/transformations/automata.ml" 94 4291 4307
+type(
+  (bool -> Heptagon.state_handler -> bool) ->
+  bool -> Heptagon.state_handler list -> bool
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/transformations/automata.ml" 94 4291 4308 "heptagon/transformations/automata.ml" 94 4291 4315
+type(
+  bool -> Heptagon.state_handler -> bool
+)
+ident(
+  int_ref handler "heptagon/transformations/automata.ml" 93 4223 4229 "heptagon/transformations/automata.ml" 93 4223 4236
+)
+"heptagon/transformations/automata.ml" 94 4291 4316 "heptagon/transformations/automata.ml" 94 4291 4320
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 94 4291 4321 "heptagon/transformations/automata.ml" 94 4291 4335
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref state_handlers "heptagon/transformations/automata.ml" 92 4181 4206 "heptagon/transformations/automata.ml" 92 4181 4220
+)
+"heptagon/transformations/automata.ml" 94 4291 4293 "heptagon/transformations/automata.ml" 94 4291 4335
+call(
+  tail
+)
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 93 4223 4225 "heptagon/transformations/automata.ml" 94 4291 4335
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 97 4338 4342 "heptagon/transformations/automata.ml" 97 4338 4361
+type(
+  Heptagon.var_dec list ->
+  Heptagon.eq list ->
+  Heptagon.state_handler list -> Heptagon.var_dec list * Heptagon.eq list
+)
+ident(
+  def translate_automaton "heptagon/transformations/automata.ml" 196 8793 8793 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 97 4338 4362 "heptagon/transformations/automata.ml" 97 4338 4363
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 97 4338 4364 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 97 4338 4364 "heptagon/transformations/automata.ml" 97 4338 4371
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+type(
+  Heptagon.state_handler list
+)
+ident(
+  def handlers "heptagon/transformations/automata.ml" 98 4383 4385 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 98 4383 4389 "heptagon/transformations/automata.ml" 98 4383 4398
+type(
+  Names.qualname
+)
+ident(
+  def type_name "heptagon/transformations/automata.ml" 100 4505 4507 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 98 4383 4401 "heptagon/transformations/automata.ml" 98 4383 4419
+type(
+  string -> Names.name -> Names.qualname
+)
+ident(
+  ext_ref Modules.fresh_type
+)
+"heptagon/transformations/automata.ml" 98 4383 4420 "heptagon/transformations/automata.ml" 98 4383 4430
+type(
+  string
+)
+"heptagon/transformations/automata.ml" 98 4383 4431 "heptagon/transformations/automata.ml" 98 4383 4435
+type(
+  Names.name
+)
+"heptagon/transformations/automata.ml" 98 4383 4401 "heptagon/transformations/automata.ml" 98 4383 4435
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/automata.ml" 100 4505 4511 "heptagon/transformations/automata.ml" 100 4505 4520
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  def state_env "heptagon/transformations/automata.ml" 104 4645 4647 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 101 4523 4527 "heptagon/transformations/automata.ml" 101 4523 4541
+type(
+  (Names.qualname Names.NamesEnv.t ->
+   Heptagon.state_handler -> Names.qualname Names.NamesEnv.t) ->
+  Names.qualname Names.NamesEnv.t ->
+  Heptagon.state_handler list -> Names.qualname Names.NamesEnv.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"heptagon/transformations/automata.ml" 102 4542 4553 "heptagon/transformations/automata.ml" 102 4542 4556
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  def env "heptagon/transformations/automata.ml" 102 4542 4557 "heptagon/transformations/automata.ml" 102 4542 4610
+)
+"heptagon/transformations/automata.ml" 102 4542 4569 "heptagon/transformations/automata.ml" 102 4542 4570
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 102 4542 4576 "heptagon/transformations/automata.ml" 102 4542 4610
+)
+"heptagon/transformations/automata.ml" 102 4542 4557 "heptagon/transformations/automata.ml" 102 4542 4572
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 102 4542 4576 "heptagon/transformations/automata.ml" 102 4542 4594
+type(
+  Names.qualname ->
+  Names.NamesEnv.key ->
+  Names.qualname Names.NamesEnv.t -> Names.qualname Names.NamesEnv.t
+)
+ident(
+  int_ref intro_state_constr "heptagon/transformations/automata.ml" 74 3328 3332 "heptagon/transformations/automata.ml" 74 3328 3350
+)
+"heptagon/transformations/automata.ml" 102 4542 4595 "heptagon/transformations/automata.ml" 102 4542 4604
+type(
+  Names.qualname
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 98 4383 4389 "heptagon/transformations/automata.ml" 98 4383 4398
+)
+"heptagon/transformations/automata.ml" 102 4542 4605 "heptagon/transformations/automata.ml" 102 4542 4606
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 102 4542 4569 "heptagon/transformations/automata.ml" 102 4542 4570
+)
+"heptagon/transformations/automata.ml" 102 4542 4607 "heptagon/transformations/automata.ml" 102 4542 4610
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  int_ref env "heptagon/transformations/automata.ml" 102 4542 4553 "heptagon/transformations/automata.ml" 102 4542 4556
+)
+"heptagon/transformations/automata.ml" 102 4542 4576 "heptagon/transformations/automata.ml" 102 4542 4610
+call(
+  tail
+)
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 102 4542 4548 "heptagon/transformations/automata.ml" 102 4542 4611
+type(
+  Names.qualname Names.NamesEnv.t ->
+  Heptagon.state_handler -> Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 103 4612 4618 "heptagon/transformations/automata.ml" 103 4612 4632
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  ext_ref Names.NamesEnv.empty
+)
+"heptagon/transformations/automata.ml" 103 4612 4633 "heptagon/transformations/automata.ml" 103 4612 4641
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 101 4523 4527 "heptagon/transformations/automata.ml" 103 4612 4641
+call(
+  stack
+)
+type(
+  Names.qualname Names.NamesEnv.t
+)
+"heptagon/transformations/automata.ml" 104 4645 4647 "heptagon/transformations/automata.ml" 104 4645 4657
+type(
+  Names.QualEnv.key -> Names.constructor_name Names.NamesEnv.t -> unit
+)
+ident(
+  int_ref intro_type "heptagon/transformations/automata.ml" 81 3673 3677 "heptagon/transformations/automata.ml" 81 3673 3687
+)
+"heptagon/transformations/automata.ml" 104 4645 4658 "heptagon/transformations/automata.ml" 104 4645 4667
+type(
+  Names.QualEnv.key
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 98 4383 4389 "heptagon/transformations/automata.ml" 98 4383 4398
+)
+"heptagon/transformations/automata.ml" 104 4645 4668 "heptagon/transformations/automata.ml" 104 4645 4677
+type(
+  Names.constructor_name Names.NamesEnv.t
+)
+ident(
+  int_ref state_env "heptagon/transformations/automata.ml" 100 4505 4511 "heptagon/transformations/automata.ml" 100 4505 4520
+)
+"heptagon/transformations/automata.ml" 104 4645 4647 "heptagon/transformations/automata.ml" 104 4645 4677
+call(
+  stack
+)
+type(
+  unit
+)
+"heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+type(
+  Types.ty
+)
+ident(
+  def tstatetype "heptagon/transformations/automata.ml" 108 4754 4756 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 105 4679 4702 "heptagon/transformations/automata.ml" 105 4679 4711
+type(
+  Names.type_name
+)
+ident(
+  int_ref type_name "heptagon/transformations/automata.ml" 98 4383 4389 "heptagon/transformations/automata.ml" 98 4383 4398
+)
+"heptagon/transformations/automata.ml" 105 4679 4698 "heptagon/transformations/automata.ml" 105 4679 4711
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 108 4754 4760 "heptagon/transformations/automata.ml" 108 4754 4767
+type(
+  Names.qualname
+)
+ident(
+  def initial "heptagon/transformations/automata.ml" 110 4827 4829 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 108 4754 4771 "heptagon/transformations/automata.ml" 108 4754 4784
+type(
+  Names.NamesEnv.key -> Names.qualname Names.NamesEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.NamesEnv.find
+)
+"heptagon/transformations/automata.ml" 108 4754 4786 "heptagon/transformations/automata.ml" 108 4754 4793
+type(
+  Heptagon.state_handler list -> Heptagon.state_handler
+)
+ident(
+  ext_ref List.hd
+)
+"heptagon/transformations/automata.ml" 108 4754 4794 "heptagon/transformations/automata.ml" 108 4754 4802
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 108 4754 4785 "heptagon/transformations/automata.ml" 108 4754 4803
+call(
+  stack
+)
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 108 4754 4785 "heptagon/transformations/automata.ml" 108 4754 4811
+type(
+  Heptagon.state_name
+)
+"heptagon/transformations/automata.ml" 108 4754 4812 "heptagon/transformations/automata.ml" 108 4754 4821
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  int_ref state_env "heptagon/transformations/automata.ml" 100 4505 4511 "heptagon/transformations/automata.ml" 100 4505 4520
+)
+"heptagon/transformations/automata.ml" 108 4754 4770 "heptagon/transformations/automata.ml" 108 4754 4822
+call(
+  stack
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+type(
+  Idents.ident
+)
+ident(
+  def statename "heptagon/transformations/automata.ml" 111 4856 4858 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 110 4827 4845 "heptagon/transformations/automata.ml" 110 4827 4850
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+)
+"heptagon/transformations/automata.ml" 110 4827 4851 "heptagon/transformations/automata.ml" 110 4827 4852
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 110 4827 4845 "heptagon/transformations/automata.ml" 110 4827 4852
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+type(
+  Idents.ident
+)
+ident(
+  def next_statename "heptagon/transformations/automata.ml" 112 4891 4893 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 111 4856 4879 "heptagon/transformations/automata.ml" 111 4856 4884
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+)
+"heptagon/transformations/automata.ml" 111 4856 4885 "heptagon/transformations/automata.ml" 111 4856 4887
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 111 4856 4879 "heptagon/transformations/automata.ml" 111 4856 4887
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+type(
+  Idents.ident
+)
+ident(
+  def resetname "heptagon/transformations/automata.ml" 113 4920 4922 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 112 4891 4909 "heptagon/transformations/automata.ml" 112 4891 4914
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+)
+"heptagon/transformations/automata.ml" 112 4891 4915 "heptagon/transformations/automata.ml" 112 4891 4916
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 112 4891 4909 "heptagon/transformations/automata.ml" 112 4891 4916
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+type(
+  Idents.ident
+)
+ident(
+  def next_resetname "heptagon/transformations/automata.ml" 114 4955 4957 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 113 4920 4943 "heptagon/transformations/automata.ml" 113 4920 4948
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+)
+"heptagon/transformations/automata.ml" 113 4920 4949 "heptagon/transformations/automata.ml" 113 4920 4951
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 113 4920 4943 "heptagon/transformations/automata.ml" 113 4920 4951
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+type(
+  Idents.ident
+)
+ident(
+  def pre_next_resetname "heptagon/transformations/automata.ml" 116 4996 4998 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 114 4955 4982 "heptagon/transformations/automata.ml" 114 4955 4987
+type(
+  ?reset:bool -> var -> Idents.ident
+)
+ident(
+  int_ref fresh "heptagon/transformations/automata.ml" 42 2293 2297 "heptagon/transformations/automata.ml" 42 2293 2302
+)
+"heptagon/transformations/automata.ml" 114 4955 4988 "heptagon/transformations/automata.ml" 114 4955 4991
+type(
+  var
+)
+"heptagon/transformations/automata.ml" 114 4955 4982 "heptagon/transformations/automata.ml" 114 4955 4991
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"heptagon/transformations/automata.ml" 116 4996 5002 "heptagon/transformations/automata.ml" 116 4996 5006
+type(
+  Names.NamesEnv.key -> Names.qualname
+)
+ident(
+  def name "heptagon/transformations/automata.ml" 117 5040 5042 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 116 4996 5007 "heptagon/transformations/automata.ml" 116 4996 5008
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 116 4996 5011 "heptagon/transformations/automata.ml" 116 4996 5036
+)
+"heptagon/transformations/automata.ml" 116 4996 5011 "heptagon/transformations/automata.ml" 116 4996 5024
+type(
+  Names.NamesEnv.key -> Names.qualname Names.NamesEnv.t -> Names.qualname
+)
+ident(
+  ext_ref Names.NamesEnv.find
+)
+"heptagon/transformations/automata.ml" 116 4996 5025 "heptagon/transformations/automata.ml" 116 4996 5026
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 116 4996 5007 "heptagon/transformations/automata.ml" 116 4996 5008
+)
+"heptagon/transformations/automata.ml" 116 4996 5027 "heptagon/transformations/automata.ml" 116 4996 5036
+type(
+  Names.qualname Names.NamesEnv.t
+)
+ident(
+  int_ref state_env "heptagon/transformations/automata.ml" 100 4505 4511 "heptagon/transformations/automata.ml" 100 4505 4520
+)
+"heptagon/transformations/automata.ml" 116 4996 5011 "heptagon/transformations/automata.ml" 116 4996 5036
+call(
+  tail
+)
+type(
+  Names.qualname
+)
+"heptagon/transformations/automata.ml" 117 5040 5046 "heptagon/transformations/automata.ml" 117 5040 5051
+type(
+  Names.NamesEnv.key -> Heptagon.exp
+)
+ident(
+  def state "heptagon/transformations/automata.ml" 120 5155 5157 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 117 5040 5052 "heptagon/transformations/automata.ml" 117 5040 5053
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 118 5056 5060 "heptagon/transformations/automata.ml" 118 5056 5149
+)
+"heptagon/transformations/automata.ml" 118 5056 5060 "heptagon/transformations/automata.ml" 118 5056 5066
+type(
+  Heptagon.desc ->
+  ?level_ck:Clocks.ck ->
+  ?ct_annot:Clocks.ct option ->
+  ?loc:Location.location ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_exp
+)
+"heptagon/transformations/automata.ml" 118 5056 5076 "heptagon/transformations/automata.ml" 118 5056 5090
+type(
+  Names.constructor_name -> Types.ty -> Types.static_exp
+)
+ident(
+  int_ref mk_constructor "heptagon/transformations/automata.ml" 62 2895 2899 "heptagon/transformations/automata.ml" 62 2895 2913
+)
+"heptagon/transformations/automata.ml" 118 5056 5092 "heptagon/transformations/automata.ml" 118 5056 5096
+type(
+  Names.NamesEnv.key -> Names.constructor_name
+)
+ident(
+  int_ref name "heptagon/transformations/automata.ml" 116 4996 5002 "heptagon/transformations/automata.ml" 116 4996 5006
+)
+"heptagon/transformations/automata.ml" 118 5056 5097 "heptagon/transformations/automata.ml" 118 5056 5098
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 117 5040 5052 "heptagon/transformations/automata.ml" 117 5040 5053
+)
+"heptagon/transformations/automata.ml" 118 5056 5091 "heptagon/transformations/automata.ml" 118 5056 5099
+call(
+  stack
+)
+type(
+  Names.constructor_name
+)
+"heptagon/transformations/automata.ml" 118 5056 5100 "heptagon/transformations/automata.ml" 118 5056 5110
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 118 5056 5075 "heptagon/transformations/automata.ml" 118 5056 5111
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"heptagon/transformations/automata.ml" 118 5056 5067 "heptagon/transformations/automata.ml" 118 5056 5112
+type(
+  Heptagon.desc
+)
+"heptagon/transformations/automata.ml" 118 5056 5113 "heptagon/transformations/automata.ml" 118 5056 5123
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 118 5056 5135 "heptagon/transformations/automata.ml" 118 5056 5149
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 118 5056 5060 "heptagon/transformations/automata.ml" 118 5056 5149
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 120 5155 5161 "heptagon/transformations/automata.ml" 120 5155 5169
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  def statevar "heptagon/transformations/automata.ml" 121 5201 5203 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 120 5155 5170 "heptagon/transformations/automata.ml" 120 5155 5171
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 120 5155 5174 "heptagon/transformations/automata.ml" 120 5155 5197
+)
+"heptagon/transformations/automata.ml" 120 5155 5174 "heptagon/transformations/automata.ml" 120 5155 5184
+type(
+  Idents.var_ident -> Types.ty -> Heptagon.exp
+)
+ident(
+  int_ref mk_var_exp "heptagon/transformations/automata.ml" 45 2408 2412 "heptagon/transformations/automata.ml" 45 2408 2422
+)
+"heptagon/transformations/automata.ml" 120 5155 5185 "heptagon/transformations/automata.ml" 120 5155 5186
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 120 5155 5170 "heptagon/transformations/automata.ml" 120 5155 5171
+)
+"heptagon/transformations/automata.ml" 120 5155 5187 "heptagon/transformations/automata.ml" 120 5155 5197
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 120 5155 5174 "heptagon/transformations/automata.ml" 120 5155 5197
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  def boolvar "heptagon/transformations/automata.ml" 123 5256 5258 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 121 5201 5215 "heptagon/transformations/automata.ml" 121 5201 5216
+type(
+  Idents.var_ident
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 121 5201 5219 "heptagon/transformations/automata.ml" 121 5201 5251
+)
+"heptagon/transformations/automata.ml" 121 5201 5219 "heptagon/transformations/automata.ml" 121 5201 5229
+type(
+  Idents.var_ident -> Types.ty -> Heptagon.exp
+)
+ident(
+  int_ref mk_var_exp "heptagon/transformations/automata.ml" 45 2408 2412 "heptagon/transformations/automata.ml" 45 2408 2422
+)
+"heptagon/transformations/automata.ml" 121 5201 5230 "heptagon/transformations/automata.ml" 121 5201 5231
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 121 5201 5215 "heptagon/transformations/automata.ml" 121 5201 5216
+)
+"heptagon/transformations/automata.ml" 121 5201 5237 "heptagon/transformations/automata.ml" 121 5201 5250
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 121 5201 5232 "heptagon/transformations/automata.ml" 121 5201 5251
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 121 5201 5219 "heptagon/transformations/automata.ml" 121 5201 5251
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 123 5256 5262 "heptagon/transformations/automata.ml" 123 5256 5269
+type(
+  Names.NamesEnv.key -> Heptagon.escape list -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def escapes "heptagon/transformations/automata.ml" 130 5495 5497 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 123 5256 5270 "heptagon/transformations/automata.ml" 123 5256 5271
+type(
+  Names.NamesEnv.key
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 123 5256 5272 "heptagon/transformations/automata.ml" 127 5434 5488
+)
+"heptagon/transformations/automata.ml" 123 5256 5272 "heptagon/transformations/automata.ml" 123 5256 5273
+type(
+  Heptagon.escape list
+)
+ident(
+  def s "heptagon/transformations/automata.ml" 123 5256 5274 "heptagon/transformations/automata.ml" 127 5434 5488
+)
+"heptagon/transformations/automata.ml" 123 5256 5274 "heptagon/transformations/automata.ml" 123 5256 5279
+type(
+  Heptagon.exp
+)
+ident(
+  def rcont "heptagon/transformations/automata.ml" 124 5282 5286 "heptagon/transformations/automata.ml" 127 5434 5488
+)
+"heptagon/transformations/automata.ml" 124 5282 5290 "heptagon/transformations/automata.ml" 124 5282 5296
+type(
+  Heptagon.escape -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  def escape "heptagon/transformations/automata.ml" 127 5434 5438 "heptagon/transformations/automata.ml" 127 5434 5488
+)
+"heptagon/transformations/automata.ml" 124 5282 5308 "heptagon/transformations/automata.ml" 124 5282 5309
+type(
+  Heptagon.exp
+)
+ident(
+  def e "heptagon/transformations/automata.ml" 124 5282 5343 "heptagon/transformations/automata.ml" 125 5350 5426
+)
+"heptagon/transformations/automata.ml" 124 5282 5321 "heptagon/transformations/automata.ml" 124 5282 5322
+type(
+  bool
+)
+ident(
+  def r "heptagon/transformations/automata.ml" 124 5282 5343 "heptagon/transformations/automata.ml" 125 5350 5426
+)
+"heptagon/transformations/automata.ml" 124 5282 5339 "heptagon/transformations/automata.ml" 124 5282 5340
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 124 5282 5343 "heptagon/transformations/automata.ml" 125 5350 5426
+)
+"heptagon/transformations/automata.ml" 124 5282 5297 "heptagon/transformations/automata.ml" 124 5282 5342
+type(
+  Heptagon.escape
+)
+"heptagon/transformations/automata.ml" 124 5282 5343 "heptagon/transformations/automata.ml" 124 5282 5347
+type(
+  Heptagon.exp
+)
+ident(
+  def cont "heptagon/transformations/automata.ml" 125 5350 5356 "heptagon/transformations/automata.ml" 125 5350 5426
+)
+"heptagon/transformations/automata.ml" 125 5350 5356 "heptagon/transformations/automata.ml" 125 5350 5369
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.mk_ifthenelse
+)
+"heptagon/transformations/automata.ml" 125 5350 5370 "heptagon/transformations/automata.ml" 125 5350 5371
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref e "heptagon/transformations/automata.ml" 124 5282 5308 "heptagon/transformations/automata.ml" 124 5282 5309
+)
+"heptagon/transformations/automata.ml" 125 5350 5373 "heptagon/transformations/automata.ml" 125 5350 5380
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_pair "heptagon/transformations/automata.ml" 48 2478 2482 "heptagon/transformations/automata.ml" 48 2478 2489
+)
+"heptagon/transformations/automata.ml" 125 5350 5382 "heptagon/transformations/automata.ml" 125 5350 5387
+type(
+  Names.NamesEnv.key -> Heptagon.exp
+)
+ident(
+  int_ref state "heptagon/transformations/automata.ml" 117 5040 5046 "heptagon/transformations/automata.ml" 117 5040 5051
+)
+"heptagon/transformations/automata.ml" 125 5350 5388 "heptagon/transformations/automata.ml" 125 5350 5389
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 124 5282 5339 "heptagon/transformations/automata.ml" 124 5282 5340
+)
+"heptagon/transformations/automata.ml" 125 5350 5381 "heptagon/transformations/automata.ml" 125 5350 5390
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 125 5350 5395 "heptagon/transformations/automata.ml" 125 5350 5396
+type(
+  bool
+)
+ident(
+  int_ref r "heptagon/transformations/automata.ml" 124 5282 5321 "heptagon/transformations/automata.ml" 124 5282 5322
+)
+"heptagon/transformations/automata.ml" 125 5350 5402 "heptagon/transformations/automata.ml" 125 5350 5407
+type(
+  Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.dtrue
+)
+"heptagon/transformations/automata.ml" 125 5350 5413 "heptagon/transformations/automata.ml" 125 5350 5419
+type(
+  Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.dfalse
+)
+"heptagon/transformations/automata.ml" 125 5350 5391 "heptagon/transformations/automata.ml" 125 5350 5420
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 125 5350 5372 "heptagon/transformations/automata.ml" 125 5350 5421
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 125 5350 5422 "heptagon/transformations/automata.ml" 125 5350 5426
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref cont "heptagon/transformations/automata.ml" 124 5282 5343 "heptagon/transformations/automata.ml" 124 5282 5347
+)
+"heptagon/transformations/automata.ml" 125 5350 5356 "heptagon/transformations/automata.ml" 125 5350 5426
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 127 5434 5438 "heptagon/transformations/automata.ml" 127 5434 5453
+type(
+  (Heptagon.escape -> Heptagon.exp -> Heptagon.exp) ->
+  Heptagon.escape list -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  ext_ref List.fold_right
+)
+"heptagon/transformations/automata.ml" 127 5434 5454 "heptagon/transformations/automata.ml" 127 5434 5460
+type(
+  Heptagon.escape -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref escape "heptagon/transformations/automata.ml" 124 5282 5290 "heptagon/transformations/automata.ml" 124 5282 5296
+)
+"heptagon/transformations/automata.ml" 127 5434 5461 "heptagon/transformations/automata.ml" 127 5434 5462
+type(
+  Heptagon.escape list
+)
+ident(
+  int_ref s "heptagon/transformations/automata.ml" 123 5256 5272 "heptagon/transformations/automata.ml" 123 5256 5273
+)
+"heptagon/transformations/automata.ml" 127 5434 5464 "heptagon/transformations/automata.ml" 127 5434 5471
+type(
+  Heptagon.exp -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_pair "heptagon/transformations/automata.ml" 48 2478 2482 "heptagon/transformations/automata.ml" 48 2478 2489
+)
+"heptagon/transformations/automata.ml" 127 5434 5473 "heptagon/transformations/automata.ml" 127 5434 5478
+type(
+  Names.NamesEnv.key -> Heptagon.exp
+)
+ident(
+  int_ref state "heptagon/transformations/automata.ml" 117 5040 5046 "heptagon/transformations/automata.ml" 117 5040 5051
+)
+"heptagon/transformations/automata.ml" 127 5434 5479 "heptagon/transformations/automata.ml" 127 5434 5480
+type(
+  Names.NamesEnv.key
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 123 5256 5270 "heptagon/transformations/automata.ml" 123 5256 5271
+)
+"heptagon/transformations/automata.ml" 127 5434 5472 "heptagon/transformations/automata.ml" 127 5434 5481
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 127 5434 5482 "heptagon/transformations/automata.ml" 127 5434 5487
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref rcont "heptagon/transformations/automata.ml" 123 5256 5274 "heptagon/transformations/automata.ml" 123 5256 5279
+)
+"heptagon/transformations/automata.ml" 127 5434 5463 "heptagon/transformations/automata.ml" 127 5434 5488
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 127 5434 5438 "heptagon/transformations/automata.ml" 127 5434 5488
+call(
+  tail
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 124 5282 5286 "heptagon/transformations/automata.ml" 127 5434 5488
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 130 5495 5501 "heptagon/transformations/automata.ml" 130 5495 5507
+type(
+  Heptagon.state_handler -> Heptagon.block
+)
+ident(
+  def strong "heptagon/transformations/automata.ml" 142 6099 6101 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 130 5495 5520 "heptagon/transformations/automata.ml" 130 5495 5521
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 131 5541 5545 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 130 5495 5534 "heptagon/transformations/automata.ml" 130 5495 5536
+type(
+  Heptagon.escape list
+)
+ident(
+  def su "heptagon/transformations/automata.ml" 131 5541 5545 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 130 5495 5508 "heptagon/transformations/automata.ml" 130 5495 5538
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 131 5541 5549 "heptagon/transformations/automata.ml" 131 5541 5555
+type(
+  Heptagon.var_dec
+)
+ident(
+  def rst_vd "heptagon/transformations/automata.ml" 132 5628 5632 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 131 5541 5558 "heptagon/transformations/automata.ml" 131 5541 5568
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 131 5541 5569 "heptagon/transformations/automata.ml" 131 5541 5578
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 131 5541 5584 "heptagon/transformations/automata.ml" 131 5541 5597
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 131 5541 5579 "heptagon/transformations/automata.ml" 131 5541 5598
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 131 5541 5610 "heptagon/transformations/automata.ml" 131 5541 5624
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 131 5541 5558 "heptagon/transformations/automata.ml" 131 5541 5624
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 132 5628 5636 "heptagon/transformations/automata.ml" 132 5628 5644
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/automata.ml" 133 5685 5689 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 132 5628 5647 "heptagon/transformations/automata.ml" 132 5628 5654
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/automata.ml" 132 5628 5655 "heptagon/transformations/automata.ml" 132 5628 5664
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 132 5628 5665 "heptagon/transformations/automata.ml" 132 5628 5671
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref rst_vd "heptagon/transformations/automata.ml" 131 5541 5549 "heptagon/transformations/automata.ml" 131 5541 5555
+)
+"heptagon/transformations/automata.ml" 132 5628 5672 "heptagon/transformations/automata.ml" 132 5628 5681
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.empty
+)
+"heptagon/transformations/automata.ml" 132 5628 5647 "heptagon/transformations/automata.ml" 132 5628 5681
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/automata.ml" 133 5685 5693 "heptagon/transformations/automata.ml" 133 5685 5701
+type(
+  Heptagon.var_dec
+)
+ident(
+  def state_vd "heptagon/transformations/automata.ml" 134 5765 5769 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 133 5685 5704 "heptagon/transformations/automata.ml" 133 5685 5714
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 133 5685 5715 "heptagon/transformations/automata.ml" 133 5685 5724
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref statename "heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+)
+"heptagon/transformations/automata.ml" 133 5685 5725 "heptagon/transformations/automata.ml" 133 5685 5735
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 133 5685 5747 "heptagon/transformations/automata.ml" 133 5685 5761
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 133 5685 5704 "heptagon/transformations/automata.ml" 133 5685 5761
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 134 5765 5773 "heptagon/transformations/automata.ml" 134 5765 5781
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/automata.ml" 135 5823 5827 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 134 5765 5784 "heptagon/transformations/automata.ml" 134 5765 5791
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/automata.ml" 134 5765 5792 "heptagon/transformations/automata.ml" 134 5765 5801
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref statename "heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+)
+"heptagon/transformations/automata.ml" 134 5765 5802 "heptagon/transformations/automata.ml" 134 5765 5810
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref state_vd "heptagon/transformations/automata.ml" 133 5685 5693 "heptagon/transformations/automata.ml" 133 5685 5701
+)
+"heptagon/transformations/automata.ml" 134 5765 5811 "heptagon/transformations/automata.ml" 134 5765 5819
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/automata.ml" 132 5628 5636 "heptagon/transformations/automata.ml" 132 5628 5644
+)
+"heptagon/transformations/automata.ml" 134 5765 5784 "heptagon/transformations/automata.ml" 134 5765 5819
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/automata.ml" 135 5823 5831 "heptagon/transformations/automata.ml" 135 5823 5836
+type(
+  Heptagon.eq
+)
+ident(
+  def st_eq "heptagon/transformations/automata.ml" 138 5969 5973 "heptagon/transformations/automata.ml" 139 6028 6092
+)
+"heptagon/transformations/automata.ml" 135 5823 5839 "heptagon/transformations/automata.ml" 135 5823 5857
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_simple_equation
+)
+"heptagon/transformations/automata.ml" 136 5858 5882 "heptagon/transformations/automata.ml" 136 5858 5893
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref statename "heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+)
+"heptagon/transformations/automata.ml" 136 5858 5875 "heptagon/transformations/automata.ml" 136 5858 5893
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 136 5858 5902 "heptagon/transformations/automata.ml" 136 5858 5913
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 136 5858 5895 "heptagon/transformations/automata.ml" 136 5858 5913
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 136 5858 5874 "heptagon/transformations/automata.ml" 136 5858 5914
+type(
+  Heptagon.pat list
+)
+"heptagon/transformations/automata.ml" 136 5858 5864 "heptagon/transformations/automata.ml" 136 5858 5915
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 137 5916 5923 "heptagon/transformations/automata.ml" 137 5916 5930
+type(
+  Names.NamesEnv.key -> Heptagon.escape list -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref escapes "heptagon/transformations/automata.ml" 123 5256 5262 "heptagon/transformations/automata.ml" 123 5256 5269
+)
+"heptagon/transformations/automata.ml" 137 5916 5931 "heptagon/transformations/automata.ml" 137 5916 5932
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 130 5495 5520 "heptagon/transformations/automata.ml" 130 5495 5521
+)
+"heptagon/transformations/automata.ml" 137 5916 5933 "heptagon/transformations/automata.ml" 137 5916 5935
+type(
+  Heptagon.escape list
+)
+ident(
+  int_ref su "heptagon/transformations/automata.ml" 130 5495 5534 "heptagon/transformations/automata.ml" 130 5495 5536
+)
+"heptagon/transformations/automata.ml" 137 5916 5937 "heptagon/transformations/automata.ml" 137 5916 5944
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 137 5916 5945 "heptagon/transformations/automata.ml" 137 5916 5963
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 137 5916 5936 "heptagon/transformations/automata.ml" 137 5916 5964
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 137 5916 5922 "heptagon/transformations/automata.ml" 137 5916 5965
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 135 5823 5839 "heptagon/transformations/automata.ml" 137 5916 5965
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 138 5969 5973 "heptagon/transformations/automata.ml" 138 5969 5981
+type(
+  ?stateful:bool ->
+  ?defnames:Heptagon.var_dec Idents.Env.t ->
+  ?locals:Heptagon.var_dec list -> Heptagon.eq list -> Heptagon.block
+)
+ident(
+  ext_ref Hept_utils.mk_block
+)
+"heptagon/transformations/automata.ml" 138 5969 5992 "heptagon/transformations/automata.ml" 138 5969 6000
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/automata.ml" 134 5765 5773 "heptagon/transformations/automata.ml" 134 5765 5781
+)
+"heptagon/transformations/automata.ml" 138 5969 6002 "heptagon/transformations/automata.ml" 138 5969 6019
+type(
+  Heptagon.eq list -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  int_ref mk_reset_equation "heptagon/transformations/automata.ml" 52 2629 2633 "heptagon/transformations/automata.ml" 52 2629 2650
+)
+"heptagon/transformations/automata.ml" 138 5969 6021 "heptagon/transformations/automata.ml" 138 5969 6026
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref st_eq "heptagon/transformations/automata.ml" 135 5823 5831 "heptagon/transformations/automata.ml" 135 5823 5836
+)
+"heptagon/transformations/automata.ml" 138 5969 6020 "heptagon/transformations/automata.ml" 138 5969 6027
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 139 6028 6064 "heptagon/transformations/automata.ml" 139 6028 6071
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 139 6028 6072 "heptagon/transformations/automata.ml" 139 6028 6090
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 139 6028 6063 "heptagon/transformations/automata.ml" 139 6028 6091
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 138 5969 6002 "heptagon/transformations/automata.ml" 139 6028 6091
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 138 5969 6001 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 138 5969 5973 "heptagon/transformations/automata.ml" 139 6028 6092
+call(
+  tail
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 135 5823 5827 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 134 5765 5769 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 133 5685 5689 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 132 5628 5632 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 131 5541 5545 "heptagon/transformations/automata.ml" 139 6028 6092
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 142 6099 6105 "heptagon/transformations/automata.ml" 142 6099 6109
+type(
+  Heptagon.state_handler -> Heptagon.block
+)
+ident(
+  def weak "heptagon/transformations/automata.ml" 157 6815 6817 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 142 6099 6122 "heptagon/transformations/automata.ml" 142 6099 6123
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 143 6155 6159 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 142 6099 6135 "heptagon/transformations/automata.ml" 142 6099 6136
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/automata.ml" 143 6155 6159 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 142 6099 6148 "heptagon/transformations/automata.ml" 142 6099 6150
+type(
+  Heptagon.escape list
+)
+ident(
+  def su "heptagon/transformations/automata.ml" 143 6155 6159 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 142 6099 6110 "heptagon/transformations/automata.ml" 142 6099 6152
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 143 6155 6163 "heptagon/transformations/automata.ml" 143 6155 6173
+type(
+  Heptagon.var_dec
+)
+ident(
+  def nextrst_vd "heptagon/transformations/automata.ml" 144 6251 6255 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 143 6155 6176 "heptagon/transformations/automata.ml" 143 6155 6186
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 143 6155 6187 "heptagon/transformations/automata.ml" 143 6155 6201
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 143 6155 6207 "heptagon/transformations/automata.ml" 143 6155 6220
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 143 6155 6202 "heptagon/transformations/automata.ml" 143 6155 6221
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 143 6155 6233 "heptagon/transformations/automata.ml" 143 6155 6247
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 143 6155 6176 "heptagon/transformations/automata.ml" 143 6155 6247
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 144 6251 6259 "heptagon/transformations/automata.ml" 144 6251 6267
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/automata.ml" 145 6320 6324 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 144 6251 6270 "heptagon/transformations/automata.ml" 144 6251 6277
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/automata.ml" 144 6251 6278 "heptagon/transformations/automata.ml" 144 6251 6292
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 144 6251 6293 "heptagon/transformations/automata.ml" 144 6251 6303
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref nextrst_vd "heptagon/transformations/automata.ml" 143 6155 6163 "heptagon/transformations/automata.ml" 143 6155 6173
+)
+"heptagon/transformations/automata.ml" 144 6251 6304 "heptagon/transformations/automata.ml" 144 6251 6305
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 142 6099 6135 "heptagon/transformations/automata.ml" 142 6099 6136
+)
+"heptagon/transformations/automata.ml" 144 6251 6304 "heptagon/transformations/automata.ml" 144 6251 6316
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/automata.ml" 144 6251 6270 "heptagon/transformations/automata.ml" 144 6251 6316
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/automata.ml" 145 6320 6328 "heptagon/transformations/automata.ml" 145 6320 6340
+type(
+  Heptagon.var_dec
+)
+ident(
+  def nextstate_vd "heptagon/transformations/automata.ml" 146 6409 6413 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 145 6320 6343 "heptagon/transformations/automata.ml" 145 6320 6353
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 145 6320 6354 "heptagon/transformations/automata.ml" 145 6320 6368
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 145 6320 6369 "heptagon/transformations/automata.ml" 145 6320 6379
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 145 6320 6391 "heptagon/transformations/automata.ml" 145 6320 6405
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 145 6320 6343 "heptagon/transformations/automata.ml" 145 6320 6405
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 146 6409 6417 "heptagon/transformations/automata.ml" 146 6409 6425
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  def defnames "heptagon/transformations/automata.ml" 147 6476 6480 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 146 6409 6428 "heptagon/transformations/automata.ml" 146 6409 6435
+type(
+  Idents.Env.key ->
+  Heptagon.var_dec ->
+  Heptagon.var_dec Idents.Env.t -> Heptagon.var_dec Idents.Env.t
+)
+ident(
+  ext_ref Idents.Env.add
+)
+"heptagon/transformations/automata.ml" 146 6409 6436 "heptagon/transformations/automata.ml" 146 6409 6450
+type(
+  Idents.Env.key
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 146 6409 6451 "heptagon/transformations/automata.ml" 146 6409 6463
+type(
+  Heptagon.var_dec
+)
+ident(
+  int_ref nextstate_vd "heptagon/transformations/automata.ml" 145 6320 6328 "heptagon/transformations/automata.ml" 145 6320 6340
+)
+"heptagon/transformations/automata.ml" 146 6409 6464 "heptagon/transformations/automata.ml" 146 6409 6472
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/automata.ml" 144 6251 6259 "heptagon/transformations/automata.ml" 144 6251 6267
+)
+"heptagon/transformations/automata.ml" 146 6409 6428 "heptagon/transformations/automata.ml" 146 6409 6472
+call(
+  stack
+)
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+"heptagon/transformations/automata.ml" 147 6476 6484 "heptagon/transformations/automata.ml" 147 6476 6489
+type(
+  Heptagon.eq
+)
+ident(
+  def ns_eq "heptagon/transformations/automata.ml" 150 6610 6614 "heptagon/transformations/automata.ml" 154 6803 6808
+)
+"heptagon/transformations/automata.ml" 147 6476 6492 "heptagon/transformations/automata.ml" 147 6476 6510
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_simple_equation
+)
+"heptagon/transformations/automata.ml" 148 6511 6535 "heptagon/transformations/automata.ml" 148 6511 6551
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 148 6511 6528 "heptagon/transformations/automata.ml" 148 6511 6551
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 148 6511 6560 "heptagon/transformations/automata.ml" 148 6511 6576
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 148 6511 6553 "heptagon/transformations/automata.ml" 148 6511 6576
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 148 6511 6527 "heptagon/transformations/automata.ml" 148 6511 6577
+type(
+  Heptagon.pat list
+)
+"heptagon/transformations/automata.ml" 148 6511 6517 "heptagon/transformations/automata.ml" 148 6511 6578
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 149 6579 6586 "heptagon/transformations/automata.ml" 149 6579 6593
+type(
+  Names.NamesEnv.key -> Heptagon.escape list -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref escapes "heptagon/transformations/automata.ml" 123 5256 5262 "heptagon/transformations/automata.ml" 123 5256 5269
+)
+"heptagon/transformations/automata.ml" 149 6579 6594 "heptagon/transformations/automata.ml" 149 6579 6595
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 142 6099 6122 "heptagon/transformations/automata.ml" 142 6099 6123
+)
+"heptagon/transformations/automata.ml" 149 6579 6596 "heptagon/transformations/automata.ml" 149 6579 6598
+type(
+  Heptagon.escape list
+)
+ident(
+  int_ref su "heptagon/transformations/automata.ml" 142 6099 6148 "heptagon/transformations/automata.ml" 142 6099 6150
+)
+"heptagon/transformations/automata.ml" 149 6579 6599 "heptagon/transformations/automata.ml" 149 6579 6605
+type(
+  Heptagon.exp
+)
+ident(
+  ext_ref Hept_utils.dfalse
+)
+"heptagon/transformations/automata.ml" 149 6579 6585 "heptagon/transformations/automata.ml" 149 6579 6606
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 147 6476 6492 "heptagon/transformations/automata.ml" 149 6579 6606
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 150 6610 6616 "heptagon/transformations/automata.ml" 150 6610 6617
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 142 6099 6135 "heptagon/transformations/automata.ml" 142 6099 6136
+)
+"heptagon/transformations/automata.ml" 151 6632 6641 "heptagon/transformations/automata.ml" 151 6632 6658
+type(
+  Heptagon.eq list -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  int_ref mk_reset_equation "heptagon/transformations/automata.ml" 52 2629 2633 "heptagon/transformations/automata.ml" 52 2629 2650
+)
+"heptagon/transformations/automata.ml" 151 6632 6660 "heptagon/transformations/automata.ml" 151 6632 6665
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref ns_eq "heptagon/transformations/automata.ml" 147 6476 6484 "heptagon/transformations/automata.ml" 147 6476 6489
+)
+"heptagon/transformations/automata.ml" 151 6632 6667 "heptagon/transformations/automata.ml" 151 6632 6668
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 142 6099 6135 "heptagon/transformations/automata.ml" 142 6099 6136
+)
+"heptagon/transformations/automata.ml" 151 6632 6667 "heptagon/transformations/automata.ml" 151 6632 6675
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 151 6632 6659 "heptagon/transformations/automata.ml" 151 6632 6676
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 151 6632 6678 "heptagon/transformations/automata.ml" 151 6632 6685
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 151 6632 6686 "heptagon/transformations/automata.ml" 151 6632 6695
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 151 6632 6677 "heptagon/transformations/automata.ml" 151 6632 6696
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 151 6632 6641 "heptagon/transformations/automata.ml" 151 6632 6696
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 151 6632 6640 "heptagon/transformations/automata.ml" 151 6632 6697
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 153 6772 6793 "heptagon/transformations/automata.ml" 153 6772 6801
+type(
+  Heptagon.var_dec Idents.Env.t
+)
+ident(
+  int_ref defnames "heptagon/transformations/automata.ml" 146 6409 6417 "heptagon/transformations/automata.ml" 146 6409 6425
+)
+"heptagon/transformations/automata.ml" 150 6610 6614 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 147 6476 6480 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 146 6409 6413 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 145 6320 6324 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 144 6251 6255 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 143 6155 6159 "heptagon/transformations/automata.ml" 154 6803 6808
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 157 6815 6821 "heptagon/transformations/automata.ml" 157 6815 6822
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 162 7150 7152 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 158 6825 6830 "heptagon/transformations/automata.ml" 158 6825 6840
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 158 6825 6841 "heptagon/transformations/automata.ml" 158 6825 6855
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 158 6825 6856 "heptagon/transformations/automata.ml" 158 6825 6866
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 158 6825 6878 "heptagon/transformations/automata.ml" 158 6825 6892
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 158 6825 6829 "heptagon/transformations/automata.ml" 158 6825 6893
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 159 6897 6904 "heptagon/transformations/automata.ml" 159 6897 6914
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 159 6897 6915 "heptagon/transformations/automata.ml" 159 6897 6924
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 159 6897 6930 "heptagon/transformations/automata.ml" 159 6897 6943
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 159 6897 6925 "heptagon/transformations/automata.ml" 159 6897 6944
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 159 6897 6956 "heptagon/transformations/automata.ml" 159 6897 6970
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 159 6897 6903 "heptagon/transformations/automata.ml" 159 6897 6971
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 160 6975 6982 "heptagon/transformations/automata.ml" 160 6975 6992
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 160 6975 6993 "heptagon/transformations/automata.ml" 160 6975 7007
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 160 6975 7013 "heptagon/transformations/automata.ml" 160 6975 7026
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 160 6975 7008 "heptagon/transformations/automata.ml" 160 6975 7027
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 160 6975 7039 "heptagon/transformations/automata.ml" 160 6975 7053
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 160 6975 6981 "heptagon/transformations/automata.ml" 160 6975 7054
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 161 7058 7065 "heptagon/transformations/automata.ml" 161 7058 7075
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 161 7058 7076 "heptagon/transformations/automata.ml" 161 7058 7094
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 161 7058 7100 "heptagon/transformations/automata.ml" 161 7058 7113
+type(
+  Names.type_name
+)
+ident(
+  ext_ref Initial.pbool
+)
+"heptagon/transformations/automata.ml" 161 7058 7095 "heptagon/transformations/automata.ml" 161 7058 7114
+type(
+  Types.ty
+)
+"heptagon/transformations/automata.ml" 161 7058 7126 "heptagon/transformations/automata.ml" 161 7058 7140
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 161 7058 7064 "heptagon/transformations/automata.ml" 161 7058 7141
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 161 7058 7145 "heptagon/transformations/automata.ml" 161 7058 7146
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 97 4338 4362 "heptagon/transformations/automata.ml" 97 4338 4363
+)
+"heptagon/transformations/automata.ml" 161 7058 7064 "heptagon/transformations/automata.ml" 161 7058 7146
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 160 6975 6981 "heptagon/transformations/automata.ml" 161 7058 7146
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 159 6897 6903 "heptagon/transformations/automata.ml" 161 7058 7146
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 158 6825 6829 "heptagon/transformations/automata.ml" 161 7058 7146
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 162 7150 7155 "heptagon/transformations/automata.ml" 162 7150 7175
+type(
+  Heptagon.state_handler list -> bool
+)
+ident(
+  int_ref no_strong_transition "heptagon/transformations/automata.ml" 92 4181 4185 "heptagon/transformations/automata.ml" 92 4181 4205
+)
+"heptagon/transformations/automata.ml" 162 7150 7176 "heptagon/transformations/automata.ml" 162 7150 7184
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 162 7150 7155 "heptagon/transformations/automata.ml" 162 7150 7184
+call(
+  stack
+)
+type(
+  bool
+)
+"heptagon/transformations/automata.ml" 164 7241 7249 "heptagon/transformations/automata.ml" 164 7241 7257
+type(
+  Heptagon.exp
+)
+ident(
+  def switch_e "heptagon/transformations/automata.ml" 165 7314 7318 "heptagon/transformations/automata.ml" 175 7781 7827
+)
+"heptagon/transformations/automata.ml" 164 7241 7260 "heptagon/transformations/automata.ml" 164 7241 7276
+type(
+  Names.constructor_name -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp_fby_state "heptagon/transformations/automata.ml" 66 3045 3049 "heptagon/transformations/automata.ml" 66 3045 3065
+)
+"heptagon/transformations/automata.ml" 164 7241 7277 "heptagon/transformations/automata.ml" 164 7241 7284
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref initial "heptagon/transformations/automata.ml" 108 4754 4760 "heptagon/transformations/automata.ml" 108 4754 4767
+)
+"heptagon/transformations/automata.ml" 164 7241 7286 "heptagon/transformations/automata.ml" 164 7241 7294
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref statevar "heptagon/transformations/automata.ml" 120 5155 5161 "heptagon/transformations/automata.ml" 120 5155 5169
+)
+"heptagon/transformations/automata.ml" 164 7241 7295 "heptagon/transformations/automata.ml" 164 7241 7309
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 164 7241 7285 "heptagon/transformations/automata.ml" 164 7241 7310
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 164 7241 7260 "heptagon/transformations/automata.ml" 164 7241 7310
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 165 7314 7322 "heptagon/transformations/automata.ml" 165 7314 7337
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def switch_handlers "heptagon/transformations/automata.ml" 169 7476 7480 "heptagon/transformations/automata.ml" 175 7781 7827
+)
+"heptagon/transformations/automata.ml" 166 7340 7346 "heptagon/transformations/automata.ml" 166 7340 7354
+type(
+  (Heptagon.state_handler -> Heptagon.switch_handler) ->
+  Heptagon.state_handler list -> Heptagon.switch_handler list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/automata.ml" 166 7340 7373 "heptagon/transformations/automata.ml" 166 7340 7374
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 167 7389 7407 "heptagon/transformations/automata.ml" 167 7389 7447
+)
+"heptagon/transformations/automata.ml" 166 7340 7361 "heptagon/transformations/automata.ml" 166 7340 7376
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 166 7340 7380 "heptagon/transformations/automata.ml" 166 7340 7384
+ident(
+  def case "heptagon/transformations/automata.ml" 167 7389 7407 "heptagon/transformations/automata.ml" 167 7389 7447
+)
+"heptagon/transformations/automata.ml" 166 7340 7360 "heptagon/transformations/automata.ml" 166 7340 7385
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 167 7389 7418 "heptagon/transformations/automata.ml" 167 7389 7422
+type(
+  Names.NamesEnv.key -> Names.constructor_name
+)
+ident(
+  int_ref name "heptagon/transformations/automata.ml" 116 4996 5002 "heptagon/transformations/automata.ml" 116 4996 5006
+)
+"heptagon/transformations/automata.ml" 167 7389 7423 "heptagon/transformations/automata.ml" 167 7389 7424
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 166 7340 7373 "heptagon/transformations/automata.ml" 166 7340 7374
+)
+"heptagon/transformations/automata.ml" 167 7389 7418 "heptagon/transformations/automata.ml" 167 7389 7424
+call(
+  stack
+)
+type(
+  Names.constructor_name
+)
+"heptagon/transformations/automata.ml" 167 7389 7436 "heptagon/transformations/automata.ml" 167 7389 7440
+type(
+  Heptagon.state_handler -> Heptagon.block
+)
+ident(
+  int_ref weak "heptagon/transformations/automata.ml" 142 6099 6105 "heptagon/transformations/automata.ml" 142 6099 6109
+)
+"heptagon/transformations/automata.ml" 167 7389 7441 "heptagon/transformations/automata.ml" 167 7389 7445
+type(
+  Heptagon.state_handler
+)
+ident(
+  int_ref case "heptagon/transformations/automata.ml" 166 7340 7360 "heptagon/transformations/automata.ml" 166 7340 7385
+)
+"heptagon/transformations/automata.ml" 167 7389 7436 "heptagon/transformations/automata.ml" 167 7389 7445
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 167 7389 7407 "heptagon/transformations/automata.ml" 167 7389 7447
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 166 7340 7355 "heptagon/transformations/automata.ml" 167 7389 7448
+type(
+  Heptagon.state_handler -> Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 168 7449 7464 "heptagon/transformations/automata.ml" 168 7449 7472
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 166 7340 7346 "heptagon/transformations/automata.ml" 168 7449 7472
+call(
+  stack
+)
+type(
+  Heptagon.switch_handler list
+)
+"heptagon/transformations/automata.ml" 169 7476 7484 "heptagon/transformations/automata.ml" 169 7476 7493
+type(
+  Heptagon.eq
+)
+ident(
+  def switch_eq "heptagon/transformations/automata.ml" 170 7543 7547 "heptagon/transformations/automata.ml" 175 7781 7827
+)
+"heptagon/transformations/automata.ml" 169 7476 7496 "heptagon/transformations/automata.ml" 169 7476 7514
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  int_ref mk_switch_equation "heptagon/transformations/automata.ml" 55 2709 2713 "heptagon/transformations/automata.ml" 55 2709 2731
+)
+"heptagon/transformations/automata.ml" 169 7476 7515 "heptagon/transformations/automata.ml" 169 7476 7523
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref switch_e "heptagon/transformations/automata.ml" 164 7241 7249 "heptagon/transformations/automata.ml" 164 7241 7257
+)
+"heptagon/transformations/automata.ml" 169 7476 7524 "heptagon/transformations/automata.ml" 169 7476 7539
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref switch_handlers "heptagon/transformations/automata.ml" 165 7314 7322 "heptagon/transformations/automata.ml" 165 7314 7337
+)
+"heptagon/transformations/automata.ml" 169 7476 7496 "heptagon/transformations/automata.ml" 169 7476 7539
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 170 7543 7551 "heptagon/transformations/automata.ml" 170 7543 7556
+type(
+  Heptagon.eq
+)
+ident(
+  def nr_eq "heptagon/transformations/automata.ml" 173 7687 7691 "heptagon/transformations/automata.ml" 175 7781 7827
+)
+"heptagon/transformations/automata.ml" 171 7559 7565 "heptagon/transformations/automata.ml" 171 7559 7583
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_simple_equation
+)
+"heptagon/transformations/automata.ml" 171 7559 7593 "heptagon/transformations/automata.ml" 171 7559 7611
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 171 7559 7584 "heptagon/transformations/automata.ml" 171 7559 7612
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 172 7613 7639 "heptagon/transformations/automata.ml" 172 7613 7655
+type(
+  Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp_fby_false "heptagon/transformations/automata.ml" 58 2770 2774 "heptagon/transformations/automata.ml" 58 2770 2790
+)
+"heptagon/transformations/automata.ml" 172 7613 7657 "heptagon/transformations/automata.ml" 172 7613 7664
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 172 7613 7665 "heptagon/transformations/automata.ml" 172 7613 7681
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 172 7613 7656 "heptagon/transformations/automata.ml" 172 7613 7682
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 172 7613 7638 "heptagon/transformations/automata.ml" 172 7613 7683
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 171 7559 7565 "heptagon/transformations/automata.ml" 172 7613 7683
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 173 7687 7695 "heptagon/transformations/automata.ml" 173 7687 7701
+type(
+  Heptagon.eq
+)
+ident(
+  def pnr_eq "heptagon/transformations/automata.ml" 175 7781 7785 "heptagon/transformations/automata.ml" 175 7781 7827
+)
+"heptagon/transformations/automata.ml" 174 7704 7710 "heptagon/transformations/automata.ml" 174 7704 7728
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_simple_equation
+)
+"heptagon/transformations/automata.ml" 174 7704 7738 "heptagon/transformations/automata.ml" 174 7704 7747
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref resetname "heptagon/transformations/automata.ml" 112 4891 4897 "heptagon/transformations/automata.ml" 112 4891 4906
+)
+"heptagon/transformations/automata.ml" 174 7704 7729 "heptagon/transformations/automata.ml" 174 7704 7748
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 174 7704 7750 "heptagon/transformations/automata.ml" 174 7704 7757
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 174 7704 7758 "heptagon/transformations/automata.ml" 174 7704 7776
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 174 7704 7749 "heptagon/transformations/automata.ml" 174 7704 7777
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 174 7704 7710 "heptagon/transformations/automata.ml" 174 7704 7777
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 175 7781 7785 "heptagon/transformations/automata.ml" 175 7781 7786
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 157 6815 6821 "heptagon/transformations/automata.ml" 157 6815 6822
+)
+"heptagon/transformations/automata.ml" 175 7781 7788 "heptagon/transformations/automata.ml" 175 7781 7797
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref switch_eq "heptagon/transformations/automata.ml" 169 7476 7484 "heptagon/transformations/automata.ml" 169 7476 7493
+)
+"heptagon/transformations/automata.ml" 175 7781 7801 "heptagon/transformations/automata.ml" 175 7781 7806
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref nr_eq "heptagon/transformations/automata.ml" 170 7543 7551 "heptagon/transformations/automata.ml" 170 7543 7556
+)
+"heptagon/transformations/automata.ml" 175 7781 7810 "heptagon/transformations/automata.ml" 175 7781 7816
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref pnr_eq "heptagon/transformations/automata.ml" 173 7687 7695 "heptagon/transformations/automata.ml" 173 7687 7701
+)
+"heptagon/transformations/automata.ml" 175 7781 7820 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 97 4338 4364 "heptagon/transformations/automata.ml" 97 4338 4371
+)
+"heptagon/transformations/automata.ml" 175 7781 7810 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 175 7781 7801 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 175 7781 7788 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 175 7781 7785 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 173 7687 7691 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 170 7543 7547 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 169 7476 7480 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 165 7314 7318 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 164 7241 7245 "heptagon/transformations/automata.ml" 175 7781 7827
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 178 7924 7932 "heptagon/transformations/automata.ml" 178 7924 7933
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 179 8004 8008 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 178 7924 7937 "heptagon/transformations/automata.ml" 178 7924 7947
+type(
+  ?last:Heptagon.last ->
+  ?clock:Clocks.ck ->
+  Idents.var_ident ->
+  Types.ty -> linearity:Linearity.linearity -> Heptagon.var_dec
+)
+ident(
+  ext_ref Hept_utils.mk_var_dec
+)
+"heptagon/transformations/automata.ml" 178 7924 7948 "heptagon/transformations/automata.ml" 178 7924 7957
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref statename "heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+)
+"heptagon/transformations/automata.ml" 178 7924 7958 "heptagon/transformations/automata.ml" 178 7924 7968
+type(
+  Types.ty
+)
+ident(
+  int_ref tstatetype "heptagon/transformations/automata.ml" 105 4679 4685 "heptagon/transformations/automata.ml" 105 4679 4695
+)
+"heptagon/transformations/automata.ml" 178 7924 7980 "heptagon/transformations/automata.ml" 178 7924 7994
+type(
+  Linearity.linearity
+)
+"heptagon/transformations/automata.ml" 178 7924 7936 "heptagon/transformations/automata.ml" 178 7924 7995
+call(
+  stack
+)
+type(
+  Heptagon.var_dec
+)
+"heptagon/transformations/automata.ml" 178 7924 7999 "heptagon/transformations/automata.ml" 178 7924 8000
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 157 6815 6821 "heptagon/transformations/automata.ml" 157 6815 6822
+)
+"heptagon/transformations/automata.ml" 178 7924 7936 "heptagon/transformations/automata.ml" 178 7924 8000
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 179 8004 8012 "heptagon/transformations/automata.ml" 179 8004 8023
+type(
+  Heptagon.exp
+)
+ident(
+  def ns_switch_e "heptagon/transformations/automata.ml" 180 8080 8084 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 179 8004 8026 "heptagon/transformations/automata.ml" 179 8004 8042
+type(
+  Names.constructor_name -> Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp_fby_state "heptagon/transformations/automata.ml" 66 3045 3049 "heptagon/transformations/automata.ml" 66 3045 3065
+)
+"heptagon/transformations/automata.ml" 179 8004 8043 "heptagon/transformations/automata.ml" 179 8004 8050
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref initial "heptagon/transformations/automata.ml" 108 4754 4760 "heptagon/transformations/automata.ml" 108 4754 4767
+)
+"heptagon/transformations/automata.ml" 179 8004 8052 "heptagon/transformations/automata.ml" 179 8004 8060
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref statevar "heptagon/transformations/automata.ml" 120 5155 5161 "heptagon/transformations/automata.ml" 120 5155 5169
+)
+"heptagon/transformations/automata.ml" 179 8004 8061 "heptagon/transformations/automata.ml" 179 8004 8075
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_statename "heptagon/transformations/automata.ml" 111 4856 4862 "heptagon/transformations/automata.ml" 111 4856 4876
+)
+"heptagon/transformations/automata.ml" 179 8004 8051 "heptagon/transformations/automata.ml" 179 8004 8076
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 179 8004 8026 "heptagon/transformations/automata.ml" 179 8004 8076
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 180 8080 8088 "heptagon/transformations/automata.ml" 180 8080 8106
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def ns_switch_handlers "heptagon/transformations/automata.ml" 184 8247 8251 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 181 8109 8115 "heptagon/transformations/automata.ml" 181 8109 8123
+type(
+  (Heptagon.state_handler -> Heptagon.switch_handler) ->
+  Heptagon.state_handler list -> Heptagon.switch_handler list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/automata.ml" 181 8109 8142 "heptagon/transformations/automata.ml" 181 8109 8143
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 182 8158 8176 "heptagon/transformations/automata.ml" 182 8158 8218
+)
+"heptagon/transformations/automata.ml" 181 8109 8130 "heptagon/transformations/automata.ml" 181 8109 8145
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 181 8109 8149 "heptagon/transformations/automata.ml" 181 8109 8153
+ident(
+  def case "heptagon/transformations/automata.ml" 182 8158 8176 "heptagon/transformations/automata.ml" 182 8158 8218
+)
+"heptagon/transformations/automata.ml" 181 8109 8129 "heptagon/transformations/automata.ml" 181 8109 8154
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 182 8158 8187 "heptagon/transformations/automata.ml" 182 8158 8191
+type(
+  Names.NamesEnv.key -> Names.constructor_name
+)
+ident(
+  int_ref name "heptagon/transformations/automata.ml" 116 4996 5002 "heptagon/transformations/automata.ml" 116 4996 5006
+)
+"heptagon/transformations/automata.ml" 182 8158 8192 "heptagon/transformations/automata.ml" 182 8158 8193
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 181 8109 8142 "heptagon/transformations/automata.ml" 181 8109 8143
+)
+"heptagon/transformations/automata.ml" 182 8158 8187 "heptagon/transformations/automata.ml" 182 8158 8193
+call(
+  stack
+)
+type(
+  Names.constructor_name
+)
+"heptagon/transformations/automata.ml" 182 8158 8205 "heptagon/transformations/automata.ml" 182 8158 8211
+type(
+  Heptagon.state_handler -> Heptagon.block
+)
+ident(
+  int_ref strong "heptagon/transformations/automata.ml" 130 5495 5501 "heptagon/transformations/automata.ml" 130 5495 5507
+)
+"heptagon/transformations/automata.ml" 182 8158 8212 "heptagon/transformations/automata.ml" 182 8158 8216
+type(
+  Heptagon.state_handler
+)
+ident(
+  int_ref case "heptagon/transformations/automata.ml" 181 8109 8129 "heptagon/transformations/automata.ml" 181 8109 8154
+)
+"heptagon/transformations/automata.ml" 182 8158 8205 "heptagon/transformations/automata.ml" 182 8158 8216
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 182 8158 8176 "heptagon/transformations/automata.ml" 182 8158 8218
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 181 8109 8124 "heptagon/transformations/automata.ml" 182 8158 8219
+type(
+  Heptagon.state_handler -> Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 183 8220 8235 "heptagon/transformations/automata.ml" 183 8220 8243
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 181 8109 8115 "heptagon/transformations/automata.ml" 183 8220 8243
+call(
+  stack
+)
+type(
+  Heptagon.switch_handler list
+)
+"heptagon/transformations/automata.ml" 184 8247 8255 "heptagon/transformations/automata.ml" 184 8247 8267
+type(
+  Heptagon.eq
+)
+ident(
+  def ns_switch_eq "heptagon/transformations/automata.ml" 185 8323 8327 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 184 8247 8270 "heptagon/transformations/automata.ml" 184 8247 8288
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  int_ref mk_switch_equation "heptagon/transformations/automata.ml" 55 2709 2713 "heptagon/transformations/automata.ml" 55 2709 2731
+)
+"heptagon/transformations/automata.ml" 184 8247 8289 "heptagon/transformations/automata.ml" 184 8247 8300
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref ns_switch_e "heptagon/transformations/automata.ml" 179 8004 8012 "heptagon/transformations/automata.ml" 179 8004 8023
+)
+"heptagon/transformations/automata.ml" 184 8247 8301 "heptagon/transformations/automata.ml" 184 8247 8319
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref ns_switch_handlers "heptagon/transformations/automata.ml" 180 8080 8088 "heptagon/transformations/automata.ml" 180 8080 8106
+)
+"heptagon/transformations/automata.ml" 184 8247 8270 "heptagon/transformations/automata.ml" 184 8247 8319
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 185 8323 8331 "heptagon/transformations/automata.ml" 185 8323 8339
+type(
+  Heptagon.exp
+)
+ident(
+  def switch_e "heptagon/transformations/automata.ml" 186 8364 8368 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 185 8323 8342 "heptagon/transformations/automata.ml" 185 8323 8350
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref statevar "heptagon/transformations/automata.ml" 120 5155 5161 "heptagon/transformations/automata.ml" 120 5155 5169
+)
+"heptagon/transformations/automata.ml" 185 8323 8351 "heptagon/transformations/automata.ml" 185 8323 8360
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref statename "heptagon/transformations/automata.ml" 110 4827 4833 "heptagon/transformations/automata.ml" 110 4827 4842
+)
+"heptagon/transformations/automata.ml" 185 8323 8342 "heptagon/transformations/automata.ml" 185 8323 8360
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 186 8364 8372 "heptagon/transformations/automata.ml" 186 8364 8387
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  def switch_handlers "heptagon/transformations/automata.ml" 190 8526 8530 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 187 8390 8396 "heptagon/transformations/automata.ml" 187 8390 8404
+type(
+  (Heptagon.state_handler -> Heptagon.switch_handler) ->
+  Heptagon.state_handler list -> Heptagon.switch_handler list
+)
+ident(
+  ext_ref List.map
+)
+"heptagon/transformations/automata.ml" 187 8390 8423 "heptagon/transformations/automata.ml" 187 8390 8424
+type(
+  Heptagon.state_name
+)
+ident(
+  def n "heptagon/transformations/automata.ml" 188 8439 8457 "heptagon/transformations/automata.ml" 188 8439 8497
+)
+"heptagon/transformations/automata.ml" 187 8390 8411 "heptagon/transformations/automata.ml" 187 8390 8426
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 187 8390 8430 "heptagon/transformations/automata.ml" 187 8390 8434
+ident(
+  def case "heptagon/transformations/automata.ml" 188 8439 8457 "heptagon/transformations/automata.ml" 188 8439 8497
+)
+"heptagon/transformations/automata.ml" 187 8390 8410 "heptagon/transformations/automata.ml" 187 8390 8435
+type(
+  Heptagon.state_handler
+)
+"heptagon/transformations/automata.ml" 188 8439 8468 "heptagon/transformations/automata.ml" 188 8439 8472
+type(
+  Names.NamesEnv.key -> Names.constructor_name
+)
+ident(
+  int_ref name "heptagon/transformations/automata.ml" 116 4996 5002 "heptagon/transformations/automata.ml" 116 4996 5006
+)
+"heptagon/transformations/automata.ml" 188 8439 8473 "heptagon/transformations/automata.ml" 188 8439 8474
+type(
+  Heptagon.state_name
+)
+ident(
+  int_ref n "heptagon/transformations/automata.ml" 187 8390 8423 "heptagon/transformations/automata.ml" 187 8390 8424
+)
+"heptagon/transformations/automata.ml" 188 8439 8468 "heptagon/transformations/automata.ml" 188 8439 8474
+call(
+  stack
+)
+type(
+  Names.constructor_name
+)
+"heptagon/transformations/automata.ml" 188 8439 8486 "heptagon/transformations/automata.ml" 188 8439 8490
+type(
+  Heptagon.state_handler -> Heptagon.block
+)
+ident(
+  int_ref weak "heptagon/transformations/automata.ml" 142 6099 6105 "heptagon/transformations/automata.ml" 142 6099 6109
+)
+"heptagon/transformations/automata.ml" 188 8439 8491 "heptagon/transformations/automata.ml" 188 8439 8495
+type(
+  Heptagon.state_handler
+)
+ident(
+  int_ref case "heptagon/transformations/automata.ml" 187 8390 8410 "heptagon/transformations/automata.ml" 187 8390 8435
+)
+"heptagon/transformations/automata.ml" 188 8439 8486 "heptagon/transformations/automata.ml" 188 8439 8495
+call(
+  stack
+)
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 188 8439 8457 "heptagon/transformations/automata.ml" 188 8439 8497
+type(
+  Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 187 8390 8405 "heptagon/transformations/automata.ml" 188 8439 8498
+type(
+  Heptagon.state_handler -> Heptagon.switch_handler
+)
+"heptagon/transformations/automata.ml" 189 8499 8514 "heptagon/transformations/automata.ml" 189 8499 8522
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref handlers "heptagon/transformations/automata.ml" 97 4338 4372 "heptagon/transformations/automata.ml" 97 4338 4380
+)
+"heptagon/transformations/automata.ml" 187 8390 8396 "heptagon/transformations/automata.ml" 189 8499 8522
+call(
+  stack
+)
+type(
+  Heptagon.switch_handler list
+)
+"heptagon/transformations/automata.ml" 190 8526 8534 "heptagon/transformations/automata.ml" 190 8526 8543
+type(
+  Heptagon.eq
+)
+ident(
+  def switch_eq "heptagon/transformations/automata.ml" 191 8593 8597 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 190 8526 8546 "heptagon/transformations/automata.ml" 190 8526 8564
+type(
+  Heptagon.exp -> Heptagon.switch_handler list -> Heptagon.eq
+)
+ident(
+  int_ref mk_switch_equation "heptagon/transformations/automata.ml" 55 2709 2713 "heptagon/transformations/automata.ml" 55 2709 2731
+)
+"heptagon/transformations/automata.ml" 190 8526 8565 "heptagon/transformations/automata.ml" 190 8526 8573
+type(
+  Heptagon.exp
+)
+ident(
+  int_ref switch_e "heptagon/transformations/automata.ml" 185 8323 8331 "heptagon/transformations/automata.ml" 185 8323 8339
+)
+"heptagon/transformations/automata.ml" 190 8526 8574 "heptagon/transformations/automata.ml" 190 8526 8589
+type(
+  Heptagon.switch_handler list
+)
+ident(
+  int_ref switch_handlers "heptagon/transformations/automata.ml" 186 8364 8372 "heptagon/transformations/automata.ml" 186 8364 8387
+)
+"heptagon/transformations/automata.ml" 190 8526 8546 "heptagon/transformations/automata.ml" 190 8526 8589
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 191 8593 8601 "heptagon/transformations/automata.ml" 191 8593 8607
+type(
+  Heptagon.eq
+)
+ident(
+  def pnr_eq "heptagon/transformations/automata.ml" 194 8738 8742 "heptagon/transformations/automata.ml" 194 8738 8791
+)
+"heptagon/transformations/automata.ml" 192 8610 8616 "heptagon/transformations/automata.ml" 192 8610 8634
+type(
+  Heptagon.pat -> Heptagon.exp -> Heptagon.eq
+)
+ident(
+  ext_ref Hept_utils.mk_simple_equation
+)
+"heptagon/transformations/automata.ml" 192 8610 8644 "heptagon/transformations/automata.ml" 192 8610 8662
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref pre_next_resetname "heptagon/transformations/automata.ml" 114 4955 4961 "heptagon/transformations/automata.ml" 114 4955 4979
+)
+"heptagon/transformations/automata.ml" 192 8610 8635 "heptagon/transformations/automata.ml" 192 8610 8663
+type(
+  Heptagon.pat
+)
+"heptagon/transformations/automata.ml" 193 8664 8690 "heptagon/transformations/automata.ml" 193 8664 8706
+type(
+  Heptagon.exp -> Heptagon.exp
+)
+ident(
+  int_ref mk_exp_fby_false "heptagon/transformations/automata.ml" 58 2770 2774 "heptagon/transformations/automata.ml" 58 2770 2790
+)
+"heptagon/transformations/automata.ml" 193 8664 8708 "heptagon/transformations/automata.ml" 193 8664 8715
+type(
+  Idents.var_ident -> Heptagon.exp
+)
+ident(
+  int_ref boolvar "heptagon/transformations/automata.ml" 121 5201 5207 "heptagon/transformations/automata.ml" 121 5201 5214
+)
+"heptagon/transformations/automata.ml" 193 8664 8716 "heptagon/transformations/automata.ml" 193 8664 8732
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref next_resetname "heptagon/transformations/automata.ml" 113 4920 4926 "heptagon/transformations/automata.ml" 113 4920 4940
+)
+"heptagon/transformations/automata.ml" 193 8664 8707 "heptagon/transformations/automata.ml" 193 8664 8733
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 193 8664 8689 "heptagon/transformations/automata.ml" 193 8664 8734
+call(
+  stack
+)
+type(
+  Heptagon.exp
+)
+"heptagon/transformations/automata.ml" 192 8610 8616 "heptagon/transformations/automata.ml" 193 8664 8734
+call(
+  stack
+)
+type(
+  Heptagon.eq
+)
+"heptagon/transformations/automata.ml" 194 8738 8742 "heptagon/transformations/automata.ml" 194 8738 8743
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 178 7924 7932 "heptagon/transformations/automata.ml" 178 7924 7933
+)
+"heptagon/transformations/automata.ml" 194 8738 8745 "heptagon/transformations/automata.ml" 194 8738 8757
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref ns_switch_eq "heptagon/transformations/automata.ml" 184 8247 8255 "heptagon/transformations/automata.ml" 184 8247 8267
+)
+"heptagon/transformations/automata.ml" 194 8738 8761 "heptagon/transformations/automata.ml" 194 8738 8770
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref switch_eq "heptagon/transformations/automata.ml" 190 8526 8534 "heptagon/transformations/automata.ml" 190 8526 8543
+)
+"heptagon/transformations/automata.ml" 194 8738 8774 "heptagon/transformations/automata.ml" 194 8738 8780
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref pnr_eq "heptagon/transformations/automata.ml" 191 8593 8601 "heptagon/transformations/automata.ml" 191 8593 8607
+)
+"heptagon/transformations/automata.ml" 194 8738 8784 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 97 4338 4364 "heptagon/transformations/automata.ml" 97 4338 4371
+)
+"heptagon/transformations/automata.ml" 194 8738 8774 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 194 8738 8761 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 194 8738 8745 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 194 8738 8742 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 191 8593 8597 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 190 8526 8530 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 186 8364 8368 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 185 8323 8327 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 184 8247 8251 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 180 8080 8084 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 179 8004 8008 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 178 7924 7928 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 162 7150 7152 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 157 6815 6817 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 142 6099 6101 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 130 5495 5497 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 123 5256 5258 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 121 5201 5203 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 120 5155 5157 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 117 5040 5042 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 116 4996 4998 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 114 4955 4957 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 113 4920 4922 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 112 4891 4893 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 111 4856 4858 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 110 4827 4829 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 108 4754 4756 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 105 4679 4681 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 104 4645 4647 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 100 4505 4507 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 98 4383 4385 "heptagon/transformations/automata.ml" 194 8738 8791
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 196 8793 8797 "heptagon/transformations/automata.ml" 196 8793 8799
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.eq -> Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  def eq "heptagon/transformations/automata.ml" 203 9045 9045 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 196 8793 8800 "heptagon/transformations/automata.ml" 196 8793 8804
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/automata.ml" 196 8793 8805 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 196 8793 8806 "heptagon/transformations/automata.ml" 196 8793 8807
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 196 8793 8818 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 196 8793 8809 "heptagon/transformations/automata.ml" 196 8793 8816
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/automata.ml" 196 8793 8818 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 196 8793 8805 "heptagon/transformations/automata.ml" 196 8793 8817
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 196 8793 8818 "heptagon/transformations/automata.ml" 196 8793 8820
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/automata.ml" 197 8823 8825 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8831
+type(
+  Heptagon.eq
+)
+ident(
+  def eq "heptagon/transformations/automata.ml" 198 8888 8892 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 197 8823 8834 "heptagon/transformations/automata.ml" 197 8823 8835
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 198 8888 8892 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 197 8823 8837 "heptagon/transformations/automata.ml" 197 8823 8844
+type(
+  Heptagon.eq list
+)
+ident(
+  def eq_list "heptagon/transformations/automata.ml" 198 8888 8892 "heptagon/transformations/automata.ml" 201 9010 9043
+)
+"heptagon/transformations/automata.ml" 197 8823 8833 "heptagon/transformations/automata.ml" 197 8823 8845
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8845
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 197 8823 8848 "heptagon/transformations/automata.ml" 197 8823 8863
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.eq -> Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.eq
+)
+"heptagon/transformations/automata.ml" 197 8823 8864 "heptagon/transformations/automata.ml" 197 8823 8868
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/automata.ml" 196 8793 8800 "heptagon/transformations/automata.ml" 196 8793 8804
+)
+"heptagon/transformations/automata.ml" 197 8823 8870 "heptagon/transformations/automata.ml" 197 8823 8871
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 196 8793 8806 "heptagon/transformations/automata.ml" 196 8793 8807
+)
+"heptagon/transformations/automata.ml" 197 8823 8873 "heptagon/transformations/automata.ml" 197 8823 8880
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 196 8793 8809 "heptagon/transformations/automata.ml" 196 8793 8816
+)
+"heptagon/transformations/automata.ml" 197 8823 8869 "heptagon/transformations/automata.ml" 197 8823 8881
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 197 8823 8882 "heptagon/transformations/automata.ml" 197 8823 8884
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 196 8793 8818 "heptagon/transformations/automata.ml" 196 8793 8820
+)
+"heptagon/transformations/automata.ml" 197 8823 8848 "heptagon/transformations/automata.ml" 197 8823 8884
+call(
+  stack
+)
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 198 8888 8898 "heptagon/transformations/automata.ml" 198 8888 8900
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8831
+)
+"heptagon/transformations/automata.ml" 198 8888 8898 "heptagon/transformations/automata.ml" 198 8888 8908
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/automata.ml" 199 8914 8933 "heptagon/transformations/automata.ml" 199 8914 8947
+type(
+  Heptagon.state_handler list
+)
+ident(
+  def state_handlers "heptagon/transformations/automata.ml" 200 8951 8961 "heptagon/transformations/automata.ml" 200 8951 9009
+)
+"heptagon/transformations/automata.ml" 199 8914 8922 "heptagon/transformations/automata.ml" 199 8914 8947
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/automata.ml" 200 8951 8961 "heptagon/transformations/automata.ml" 200 8951 8963
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8831
+)
+"heptagon/transformations/automata.ml" 200 8951 8965 "heptagon/transformations/automata.ml" 200 8951 8984
+type(
+  Heptagon.var_dec list ->
+  Heptagon.eq list ->
+  Heptagon.state_handler list -> Heptagon.var_dec list * Heptagon.eq list
+)
+ident(
+  int_ref translate_automaton "heptagon/transformations/automata.ml" 97 4338 4342 "heptagon/transformations/automata.ml" 97 4338 4361
+)
+"heptagon/transformations/automata.ml" 200 8951 8985 "heptagon/transformations/automata.ml" 200 8951 8986
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 197 8823 8834 "heptagon/transformations/automata.ml" 197 8823 8835
+)
+"heptagon/transformations/automata.ml" 200 8951 8987 "heptagon/transformations/automata.ml" 200 8951 8994
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 197 8823 8837 "heptagon/transformations/automata.ml" 197 8823 8844
+)
+"heptagon/transformations/automata.ml" 200 8951 8995 "heptagon/transformations/automata.ml" 200 8951 9009
+type(
+  Heptagon.state_handler list
+)
+ident(
+  int_ref state_handlers "heptagon/transformations/automata.ml" 199 8914 8933 "heptagon/transformations/automata.ml" 199 8914 8947
+)
+"heptagon/transformations/automata.ml" 200 8951 8965 "heptagon/transformations/automata.ml" 200 8951 9009
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 200 8951 8961 "heptagon/transformations/automata.ml" 200 8951 9009
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 201 9010 9018 "heptagon/transformations/automata.ml" 201 9010 9019
+type(
+  Heptagon.eqdesc
+)
+"heptagon/transformations/automata.ml" 201 9010 9023 "heptagon/transformations/automata.ml" 201 9010 9025
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8831
+)
+"heptagon/transformations/automata.ml" 201 9010 9028 "heptagon/transformations/automata.ml" 201 9010 9029
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 197 8823 8834 "heptagon/transformations/automata.ml" 197 8823 8835
+)
+"heptagon/transformations/automata.ml" 201 9010 9031 "heptagon/transformations/automata.ml" 201 9010 9033
+type(
+  Heptagon.eq
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 197 8823 8829 "heptagon/transformations/automata.ml" 197 8823 8831
+)
+"heptagon/transformations/automata.ml" 201 9010 9035 "heptagon/transformations/automata.ml" 201 9010 9042
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref eq_list "heptagon/transformations/automata.ml" 197 8823 8837 "heptagon/transformations/automata.ml" 197 8823 8844
+)
+"heptagon/transformations/automata.ml" 201 9010 9031 "heptagon/transformations/automata.ml" 201 9010 9042
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 201 9010 9027 "heptagon/transformations/automata.ml" 201 9010 9043
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 201 9010 9023 "heptagon/transformations/automata.ml" 201 9010 9043
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 198 8888 8892 "heptagon/transformations/automata.ml" 201 9010 9043
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 197 8823 8825 "heptagon/transformations/automata.ml" 201 9010 9043
+type(
+  Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 203 9045 9049 "heptagon/transformations/automata.ml" 203 9045 9054
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  'a -> Heptagon.block -> Heptagon.block * 'a
+)
+ident(
+  def block "heptagon/transformations/automata.ml" 207 9201 9201 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 203 9045 9055 "heptagon/transformations/automata.ml" 203 9045 9059
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/automata.ml" 203 9045 9060 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 203 9045 9060 "heptagon/transformations/automata.ml" 203 9045 9063
+type(
+  'a
+)
+ident(
+  def acc "heptagon/transformations/automata.ml" 203 9045 9064 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 203 9045 9064 "heptagon/transformations/automata.ml" 203 9045 9065
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/automata.ml" 204 9068 9070 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 204 9068 9074 "heptagon/transformations/automata.ml" 204 9068 9075
+type(
+  Heptagon.block
+)
+ident(
+  def b "heptagon/transformations/automata.ml" 205 9134 9138 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 204 9068 9078 "heptagon/transformations/automata.ml" 204 9068 9079
+type(
+  Heptagon.var_dec list
+)
+ident(
+  def v "heptagon/transformations/automata.ml" 205 9134 9138 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 204 9068 9081 "heptagon/transformations/automata.ml" 204 9068 9092
+type(
+  Heptagon.eq list
+)
+ident(
+  def acc_eq_list "heptagon/transformations/automata.ml" 205 9134 9138 "heptagon/transformations/automata.ml" 205 9134 9199
+)
+"heptagon/transformations/automata.ml" 204 9068 9077 "heptagon/transformations/automata.ml" 204 9068 9093
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 204 9068 9074 "heptagon/transformations/automata.ml" 204 9068 9093
+type(
+  Heptagon.block * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 204 9068 9096 "heptagon/transformations/automata.ml" 204 9068 9114
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.block ->
+  Heptagon.block * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.block
+)
+"heptagon/transformations/automata.ml" 204 9068 9115 "heptagon/transformations/automata.ml" 204 9068 9119
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/automata.ml" 203 9045 9055 "heptagon/transformations/automata.ml" 203 9045 9059
+)
+"heptagon/transformations/automata.ml" 204 9068 9121 "heptagon/transformations/automata.ml" 204 9068 9123
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 204 9068 9125 "heptagon/transformations/automata.ml" 204 9068 9127
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 204 9068 9120 "heptagon/transformations/automata.ml" 204 9068 9128
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 204 9068 9129 "heptagon/transformations/automata.ml" 204 9068 9130
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 203 9045 9064 "heptagon/transformations/automata.ml" 203 9045 9065
+)
+"heptagon/transformations/automata.ml" 204 9068 9096 "heptagon/transformations/automata.ml" 204 9068 9130
+call(
+  stack
+)
+type(
+  Heptagon.block * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 205 9134 9140 "heptagon/transformations/automata.ml" 205 9134 9141
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 204 9068 9074 "heptagon/transformations/automata.ml" 204 9068 9075
+)
+"heptagon/transformations/automata.ml" 205 9134 9157 "heptagon/transformations/automata.ml" 205 9134 9158
+type(
+  Heptagon.var_dec list
+)
+ident(
+  int_ref v "heptagon/transformations/automata.ml" 204 9068 9078 "heptagon/transformations/automata.ml" 204 9068 9079
+)
+"heptagon/transformations/automata.ml" 205 9134 9159 "heptagon/transformations/automata.ml" 205 9134 9160
+type(
+  Heptagon.var_dec list -> Heptagon.var_dec list -> Heptagon.var_dec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/automata.ml" 205 9134 9161 "heptagon/transformations/automata.ml" 205 9134 9162
+type(
+  Heptagon.block
+)
+ident(
+  int_ref b "heptagon/transformations/automata.ml" 204 9068 9074 "heptagon/transformations/automata.ml" 204 9068 9075
+)
+"heptagon/transformations/automata.ml" 205 9134 9161 "heptagon/transformations/automata.ml" 205 9134 9170
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 205 9134 9157 "heptagon/transformations/automata.ml" 205 9134 9170
+call(
+  stack
+)
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 205 9134 9181 "heptagon/transformations/automata.ml" 205 9134 9192
+type(
+  Heptagon.eq list
+)
+ident(
+  int_ref acc_eq_list "heptagon/transformations/automata.ml" 204 9068 9081 "heptagon/transformations/automata.ml" 204 9068 9092
+)
+"heptagon/transformations/automata.ml" 205 9134 9138 "heptagon/transformations/automata.ml" 205 9134 9194
+type(
+  Heptagon.block
+)
+"heptagon/transformations/automata.ml" 205 9134 9196 "heptagon/transformations/automata.ml" 205 9134 9199
+type(
+  'a
+)
+ident(
+  int_ref acc "heptagon/transformations/automata.ml" 203 9045 9060 "heptagon/transformations/automata.ml" 203 9045 9063
+)
+"heptagon/transformations/automata.ml" 205 9134 9138 "heptagon/transformations/automata.ml" 205 9134 9199
+type(
+  Heptagon.block * 'a
+)
+"heptagon/transformations/automata.ml" 204 9068 9070 "heptagon/transformations/automata.ml" 205 9134 9199
+type(
+  Heptagon.block * 'a
+)
+"heptagon/transformations/automata.ml" 207 9201 9205 "heptagon/transformations/automata.ml" 207 9201 9212
+type(
+  Heptagon.program -> Heptagon.program
+)
+ident(
+  def program "heptagon/transformations/automata.ml" 211 9357 9412 "heptagon/transformations/automata.ml" 1 0 -1
+)
+"heptagon/transformations/automata.ml" 207 9201 9213 "heptagon/transformations/automata.ml" 207 9201 9214
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/automata.ml" 208 9217 9219 "heptagon/transformations/automata.ml" 211 9357 9412
+)
+"heptagon/transformations/automata.ml" 208 9217 9223 "heptagon/transformations/automata.ml" 208 9217 9227
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  def funs "heptagon/transformations/automata.ml" 210 9302 9304 "heptagon/transformations/automata.ml" 211 9357 9412
+)
+"heptagon/transformations/automata.ml" 208 9217 9232 "heptagon/transformations/automata.ml" 208 9217 9253
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  ext_ref Hept_mapfold.defaults
+)
+"heptagon/transformations/automata.ml" 209 9254 9279 "heptagon/transformations/automata.ml" 209 9254 9281
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.eq -> Heptagon.eq * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  int_ref eq "heptagon/transformations/automata.ml" 196 8793 8797 "heptagon/transformations/automata.ml" 196 8793 8799
+)
+"heptagon/transformations/automata.ml" 209 9254 9291 "heptagon/transformations/automata.ml" 209 9254 9296
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.block ->
+  Heptagon.block * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  int_ref block "heptagon/transformations/automata.ml" 203 9045 9049 "heptagon/transformations/automata.ml" 203 9045 9054
+)
+"heptagon/transformations/automata.ml" 208 9217 9230 "heptagon/transformations/automata.ml" 209 9254 9298
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+"heptagon/transformations/automata.ml" 210 9302 9308 "heptagon/transformations/automata.ml" 210 9302 9309
+type(
+  Heptagon.program
+)
+ident(
+  def p "heptagon/transformations/automata.ml" 211 9357 9361 "heptagon/transformations/automata.ml" 211 9357 9412
+)
+"heptagon/transformations/automata.ml" 210 9302 9311 "heptagon/transformations/automata.ml" 210 9302 9312
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 210 9302 9308 "heptagon/transformations/automata.ml" 210 9302 9312
+type(
+  Heptagon.program * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 210 9302 9315 "heptagon/transformations/automata.ml" 210 9302 9338
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs ->
+  Heptagon.var_dec list * Heptagon.eq list ->
+  Heptagon.program ->
+  Heptagon.program * (Heptagon.var_dec list * Heptagon.eq list)
+)
+ident(
+  ext_ref Hept_mapfold.program_it
+)
+"heptagon/transformations/automata.ml" 210 9302 9339 "heptagon/transformations/automata.ml" 210 9302 9343
+type(
+  (Heptagon.var_dec list * Heptagon.eq list) Hept_mapfold.hept_it_funs
+)
+ident(
+  int_ref funs "heptagon/transformations/automata.ml" 208 9217 9223 "heptagon/transformations/automata.ml" 208 9217 9227
+)
+"heptagon/transformations/automata.ml" 210 9302 9345 "heptagon/transformations/automata.ml" 210 9302 9347
+type(
+  Heptagon.var_dec list
+)
+"heptagon/transformations/automata.ml" 210 9302 9348 "heptagon/transformations/automata.ml" 210 9302 9350
+type(
+  Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 210 9302 9344 "heptagon/transformations/automata.ml" 210 9302 9351
+type(
+  Heptagon.var_dec list * Heptagon.eq list
+)
+"heptagon/transformations/automata.ml" 210 9302 9352 "heptagon/transformations/automata.ml" 210 9302 9353
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/automata.ml" 207 9201 9213 "heptagon/transformations/automata.ml" 207 9201 9214
+)
+"heptagon/transformations/automata.ml" 210 9302 9315 "heptagon/transformations/automata.ml" 210 9302 9353
+call(
+  stack
+)
+type(
+  Heptagon.program * (Heptagon.var_dec list * Heptagon.eq list)
+)
+"heptagon/transformations/automata.ml" 211 9357 9363 "heptagon/transformations/automata.ml" 211 9357 9364
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/automata.ml" 210 9302 9308 "heptagon/transformations/automata.ml" 210 9302 9309
+)
+"heptagon/transformations/automata.ml" 211 9357 9379 "heptagon/transformations/automata.ml" 211 9357 9380
+type(
+  Heptagon.program_desc list ref -> Heptagon.program_desc list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"heptagon/transformations/automata.ml" 211 9357 9380 "heptagon/transformations/automata.ml" 211 9357 9399
+type(
+  Heptagon.program_desc list ref
+)
+ident(
+  int_ref state_type_dec_list "heptagon/transformations/automata.ml" 70 3214 3218 "heptagon/transformations/automata.ml" 70 3214 3237
+)
+"heptagon/transformations/automata.ml" 211 9357 9379 "heptagon/transformations/automata.ml" 211 9357 9399
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 211 9357 9400 "heptagon/transformations/automata.ml" 211 9357 9401
+type(
+  Heptagon.program_desc list ->
+  Heptagon.program_desc list -> Heptagon.program_desc list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"heptagon/transformations/automata.ml" 211 9357 9402 "heptagon/transformations/automata.ml" 211 9357 9403
+type(
+  Heptagon.program
+)
+ident(
+  int_ref p "heptagon/transformations/automata.ml" 210 9302 9308 "heptagon/transformations/automata.ml" 210 9302 9309
+)
+"heptagon/transformations/automata.ml" 211 9357 9402 "heptagon/transformations/automata.ml" 211 9357 9410
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 211 9357 9379 "heptagon/transformations/automata.ml" 211 9357 9410
+call(
+  stack
+)
+type(
+  Heptagon.program_desc list
+)
+"heptagon/transformations/automata.ml" 211 9357 9361 "heptagon/transformations/automata.ml" 211 9357 9412
+type(
+  Heptagon.program
+)
+"heptagon/transformations/automata.ml" 210 9302 9304 "heptagon/transformations/automata.ml" 211 9357 9412
+type(
+  Heptagon.program
+)
+"heptagon/transformations/automata.ml" 208 9217 9219 "heptagon/transformations/automata.ml" 211 9357 9412
+type(
+  Heptagon.program
+)

@@ -1,0 +1,5677 @@
+"obc/obc_utils.ml" 39 2183 2187 "obc/obc_utils.ml" 39 2183 2197
+type(
+  ?loc:Location.location ->
+  ?linearity:Linearity.linearity ->
+  ?mut:bool -> ?alias:bool -> Idents.var_ident -> Types.ty -> Obc.var_dec
+)
+ident(
+  def mk_var_dec "obc/obc_utils.ml" 43 2388 2388 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 39 2183 2200 "obc/obc_utils.ml" 39 2183 2203
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 39 2183 2204 "obc/obc_utils.ml" 39 2183 2215
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 39 2183 2204 "obc/obc_utils.ml" 39 2183 2215
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 39 2183 2219 "obc/obc_utils.ml" 39 2183 2228
+type(
+  Linearity.linearity
+)
+"obc/obc_utils.ml" 39 2183 2231 "obc/obc_utils.ml" 39 2183 2235
+type(
+  Linearity.linearity
+)
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 39 2183 2231 "obc/obc_utils.ml" 39 2183 2235
+)
+type(
+  Linearity.linearity option
+)
+type(
+  Linearity.linearity option
+)
+type(
+  Linearity.linearity
+)
+"obc/obc_utils.ml" 39 2183 2239 "obc/obc_utils.ml" 39 2183 2242
+type(
+  bool
+)
+"obc/obc_utils.ml" 39 2183 2243 "obc/obc_utils.ml" 39 2183 2248
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 39 2183 2243 "obc/obc_utils.ml" 39 2183 2248
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"obc/obc_utils.ml" 39 2183 2252 "obc/obc_utils.ml" 39 2183 2257
+type(
+  bool
+)
+"obc/obc_utils.ml" 39 2183 2258 "obc/obc_utils.ml" 39 2183 2263
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 39 2183 2258 "obc/obc_utils.ml" 39 2183 2263
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"obc/obc_utils.ml" 39 2183 2265 "obc/obc_utils.ml" 39 2183 2270
+type(
+  Idents.var_ident
+)
+ident(
+  def ident "obc/obc_utils.ml" 39 2183 2271 "obc/obc_utils.ml" 41 2335 2386
+)
+"obc/obc_utils.ml" 39 2183 2271 "obc/obc_utils.ml" 39 2183 2273
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 40 2276 2278 "obc/obc_utils.ml" 41 2335 2386
+)
+"obc/obc_utils.ml" 40 2276 2290 "obc/obc_utils.ml" 40 2276 2295
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref ident "obc/obc_utils.ml" 39 2183 2265 "obc/obc_utils.ml" 39 2183 2270
+)
+"obc/obc_utils.ml" 40 2276 2306 "obc/obc_utils.ml" 40 2276 2308
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 39 2183 2271 "obc/obc_utils.ml" 39 2183 2273
+)
+"obc/obc_utils.ml" 40 2276 2324 "obc/obc_utils.ml" 40 2276 2333
+type(
+  Linearity.linearity
+)
+ident(
+  int_ref linearity "obc/obc_utils.ml" 39 2183 2219 "obc/obc_utils.ml" 39 2183 2228
+)
+"obc/obc_utils.ml" 41 2335 2349 "obc/obc_utils.ml" 41 2335 2354
+type(
+  bool
+)
+ident(
+  int_ref alias "obc/obc_utils.ml" 39 2183 2252 "obc/obc_utils.ml" 39 2183 2257
+)
+"obc/obc_utils.ml" 41 2335 2368 "obc/obc_utils.ml" 41 2335 2371
+type(
+  bool
+)
+ident(
+  int_ref mut "obc/obc_utils.ml" 39 2183 2239 "obc/obc_utils.ml" 39 2183 2242
+)
+"obc/obc_utils.ml" 41 2335 2381 "obc/obc_utils.ml" 41 2335 2384
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 39 2183 2200 "obc/obc_utils.ml" 39 2183 2203
+)
+"obc/obc_utils.ml" 40 2276 2278 "obc/obc_utils.ml" 41 2335 2386
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  def mk_ext_value "obc/obc_utils.ml" 46 2480 2480 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 43 2388 2407 "obc/obc_utils.ml" 43 2388 2410
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 43 2388 2411 "obc/obc_utils.ml" 43 2388 2422
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 43 2388 2411 "obc/obc_utils.ml" 43 2388 2422
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 43 2388 2424 "obc/obc_utils.ml" 43 2388 2426
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 43 2388 2427 "obc/obc_utils.ml" 44 2434 2478
+)
+"obc/obc_utils.ml" 43 2388 2427 "obc/obc_utils.ml" 43 2388 2431
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 44 2434 2436 "obc/obc_utils.ml" 44 2434 2478
+)
+"obc/obc_utils.ml" 44 2434 2447 "obc/obc_utils.ml" 44 2434 2451
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 43 2388 2427 "obc/obc_utils.ml" 43 2388 2431
+)
+"obc/obc_utils.ml" 44 2434 2460 "obc/obc_utils.ml" 44 2434 2462
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 43 2388 2424 "obc/obc_utils.ml" 43 2388 2426
+)
+"obc/obc_utils.ml" 44 2434 2472 "obc/obc_utils.ml" 44 2434 2475
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 43 2388 2407 "obc/obc_utils.ml" 43 2388 2410
+)
+"obc/obc_utils.ml" 44 2434 2436 "obc/obc_utils.ml" 44 2434 2478
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 46 2480 2484 "obc/obc_utils.ml" 46 2480 2500
+type(
+  ?loc:Location.location -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  def mk_ext_value_int "obc/obc_utils.ml" 49 2570 2570 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 46 2480 2503 "obc/obc_utils.ml" 46 2480 2506
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 46 2480 2507 "obc/obc_utils.ml" 46 2480 2518
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 46 2480 2507 "obc/obc_utils.ml" 46 2480 2518
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 46 2480 2520 "obc/obc_utils.ml" 46 2480 2524
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 47 2527 2529 "obc/obc_utils.ml" 47 2527 2568
+)
+"obc/obc_utils.ml" 47 2527 2529 "obc/obc_utils.ml" 47 2527 2541
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value "obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+)
+"obc/obc_utils.ml" 47 2527 2547 "obc/obc_utils.ml" 47 2527 2550
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 46 2480 2503 "obc/obc_utils.ml" 46 2480 2506
+)
+"obc/obc_utils.ml" 47 2527 2551 "obc/obc_utils.ml" 47 2527 2563
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 47 2527 2564 "obc/obc_utils.ml" 47 2527 2568
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 46 2480 2520 "obc/obc_utils.ml" 46 2480 2524
+)
+"obc/obc_utils.ml" 47 2527 2529 "obc/obc_utils.ml" 47 2527 2568
+call(
+  tail
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 49 2570 2574 "obc/obc_utils.ml" 49 2570 2591
+type(
+  ?loc:Location.location -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  def mk_ext_value_bool "obc/obc_utils.ml" 52 2662 2662 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 49 2570 2594 "obc/obc_utils.ml" 49 2570 2597
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 49 2570 2598 "obc/obc_utils.ml" 49 2570 2609
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 49 2570 2598 "obc/obc_utils.ml" 49 2570 2609
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 49 2570 2611 "obc/obc_utils.ml" 49 2570 2615
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 50 2618 2620 "obc/obc_utils.ml" 50 2618 2660
+)
+"obc/obc_utils.ml" 50 2618 2620 "obc/obc_utils.ml" 50 2618 2632
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value "obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+)
+"obc/obc_utils.ml" 50 2618 2638 "obc/obc_utils.ml" 50 2618 2641
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 49 2570 2594 "obc/obc_utils.ml" 49 2570 2597
+)
+"obc/obc_utils.ml" 50 2618 2642 "obc/obc_utils.ml" 50 2618 2655
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tbool
+)
+"obc/obc_utils.ml" 50 2618 2656 "obc/obc_utils.ml" 50 2618 2660
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 49 2570 2611 "obc/obc_utils.ml" 49 2570 2615
+)
+"obc/obc_utils.ml" 50 2618 2620 "obc/obc_utils.ml" 50 2618 2660
+call(
+  tail
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 52 2662 2666 "obc/obc_utils.ml" 52 2662 2672
+type(
+  ?loc:Location.location -> Types.ty -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  def mk_exp "obc/obc_utils.ml" 55 2747 2747 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 52 2662 2675 "obc/obc_utils.ml" 52 2662 2678
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 52 2662 2679 "obc/obc_utils.ml" 52 2662 2690
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 52 2662 2679 "obc/obc_utils.ml" 52 2662 2690
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 52 2662 2692 "obc/obc_utils.ml" 52 2662 2694
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 52 2662 2695 "obc/obc_utils.ml" 53 2702 2745
+)
+"obc/obc_utils.ml" 52 2662 2695 "obc/obc_utils.ml" 52 2662 2699
+type(
+  Obc.exp_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 53 2702 2704 "obc/obc_utils.ml" 53 2702 2745
+)
+"obc/obc_utils.ml" 53 2702 2715 "obc/obc_utils.ml" 53 2702 2719
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 52 2662 2695 "obc/obc_utils.ml" 52 2662 2699
+)
+"obc/obc_utils.ml" 53 2702 2728 "obc/obc_utils.ml" 53 2702 2730
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 52 2662 2692 "obc/obc_utils.ml" 52 2662 2694
+)
+"obc/obc_utils.ml" 53 2702 2740 "obc/obc_utils.ml" 53 2702 2743
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 52 2662 2675 "obc/obc_utils.ml" 52 2662 2678
+)
+"obc/obc_utils.ml" 53 2702 2704 "obc/obc_utils.ml" 53 2702 2745
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 55 2747 2751 "obc/obc_utils.ml" 55 2747 2761
+type(
+  ?loc:Location.location -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  def mk_exp_int "obc/obc_utils.ml" 58 2825 2825 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 55 2747 2764 "obc/obc_utils.ml" 55 2747 2767
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 55 2747 2768 "obc/obc_utils.ml" 55 2747 2779
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 55 2747 2768 "obc/obc_utils.ml" 55 2747 2779
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 55 2747 2781 "obc/obc_utils.ml" 55 2747 2785
+type(
+  Obc.exp_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 56 2788 2790 "obc/obc_utils.ml" 56 2788 2823
+)
+"obc/obc_utils.ml" 56 2788 2790 "obc/obc_utils.ml" 56 2788 2796
+type(
+  ?loc:Location.location -> Types.ty -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  int_ref mk_exp "obc/obc_utils.ml" 52 2662 2666 "obc/obc_utils.ml" 52 2662 2672
+)
+"obc/obc_utils.ml" 56 2788 2802 "obc/obc_utils.ml" 56 2788 2805
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 55 2747 2764 "obc/obc_utils.ml" 55 2747 2767
+)
+"obc/obc_utils.ml" 56 2788 2806 "obc/obc_utils.ml" 56 2788 2818
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 56 2788 2819 "obc/obc_utils.ml" 56 2788 2823
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 55 2747 2781 "obc/obc_utils.ml" 55 2747 2785
+)
+"obc/obc_utils.ml" 56 2788 2790 "obc/obc_utils.ml" 56 2788 2823
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 58 2825 2829 "obc/obc_utils.ml" 58 2825 2846
+type(
+  ?loc:Location.location -> Types.static_exp -> Obc.exp
+)
+ident(
+  def mk_exp_static_int "obc/obc_utils.ml" 61 2937 2937 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 58 2825 2849 "obc/obc_utils.ml" 58 2825 2852
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 58 2825 2853 "obc/obc_utils.ml" 58 2825 2864
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 58 2825 2853 "obc/obc_utils.ml" 58 2825 2864
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 58 2825 2866 "obc/obc_utils.ml" 58 2825 2868
+type(
+  Types.static_exp
+)
+ident(
+  def se "obc/obc_utils.ml" 59 2871 2873 "obc/obc_utils.ml" 59 2871 2935
+)
+"obc/obc_utils.ml" 59 2871 2873 "obc/obc_utils.ml" 59 2871 2883
+type(
+  ?loc:Location.location -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  int_ref mk_exp_int "obc/obc_utils.ml" 55 2747 2751 "obc/obc_utils.ml" 55 2747 2761
+)
+"obc/obc_utils.ml" 59 2871 2889 "obc/obc_utils.ml" 59 2871 2892
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 58 2825 2849 "obc/obc_utils.ml" 58 2825 2852
+)
+"obc/obc_utils.ml" 59 2871 2905 "obc/obc_utils.ml" 59 2871 2921
+type(
+  ?loc:Location.location -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value_int "obc/obc_utils.ml" 46 2480 2484 "obc/obc_utils.ml" 46 2480 2500
+)
+"obc/obc_utils.ml" 59 2871 2930 "obc/obc_utils.ml" 59 2871 2932
+type(
+  Types.static_exp
+)
+ident(
+  int_ref se "obc/obc_utils.ml" 58 2825 2866 "obc/obc_utils.ml" 58 2825 2868
+)
+"obc/obc_utils.ml" 59 2871 2922 "obc/obc_utils.ml" 59 2871 2933
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 59 2871 2904 "obc/obc_utils.ml" 59 2871 2934
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 59 2871 2893 "obc/obc_utils.ml" 59 2871 2935
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 59 2871 2873 "obc/obc_utils.ml" 59 2871 2935
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 61 2937 2941 "obc/obc_utils.ml" 61 2937 2957
+type(
+  ?loc:Location.location -> int -> Obc.exp
+)
+ident(
+  def mk_exp_const_int "obc/obc_utils.ml" 64 3037 3037 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 61 2937 2960 "obc/obc_utils.ml" 61 2937 2963
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 61 2937 2964 "obc/obc_utils.ml" 61 2937 2975
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 61 2937 2964 "obc/obc_utils.ml" 61 2937 2975
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 61 2937 2977 "obc/obc_utils.ml" 61 2937 2978
+type(
+  int
+)
+ident(
+  def i "obc/obc_utils.ml" 62 2981 2983 "obc/obc_utils.ml" 62 2981 3035
+)
+"obc/obc_utils.ml" 62 2981 2983 "obc/obc_utils.ml" 62 2981 3000
+type(
+  ?loc:Location.location -> Types.static_exp -> Obc.exp
+)
+ident(
+  int_ref mk_exp_static_int "obc/obc_utils.ml" 58 2825 2829 "obc/obc_utils.ml" 58 2825 2846
+)
+"obc/obc_utils.ml" 62 2981 3006 "obc/obc_utils.ml" 62 2981 3009
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 61 2937 2960 "obc/obc_utils.ml" 61 2937 2963
+)
+"obc/obc_utils.ml" 62 2981 3011 "obc/obc_utils.ml" 62 2981 3032
+type(
+  int -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_int
+)
+"obc/obc_utils.ml" 62 2981 3033 "obc/obc_utils.ml" 62 2981 3034
+type(
+  int
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 61 2937 2977 "obc/obc_utils.ml" 61 2937 2978
+)
+"obc/obc_utils.ml" 62 2981 3010 "obc/obc_utils.ml" 62 2981 3035
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"obc/obc_utils.ml" 62 2981 2983 "obc/obc_utils.ml" 62 2981 3035
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 64 3037 3041 "obc/obc_utils.ml" 64 3037 3052
+type(
+  ?loc:Location.location -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  def mk_exp_bool "obc/obc_utils.ml" 67 3135 3135 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 64 3037 3055 "obc/obc_utils.ml" 64 3037 3058
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 64 3037 3059 "obc/obc_utils.ml" 64 3037 3070
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 64 3037 3059 "obc/obc_utils.ml" 64 3037 3070
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 64 3037 3072 "obc/obc_utils.ml" 64 3037 3076
+type(
+  Obc.exp_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 65 3079 3081 "obc/obc_utils.ml" 65 3079 3133
+)
+"obc/obc_utils.ml" 65 3079 3092 "obc/obc_utils.ml" 65 3079 3096
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 64 3037 3072 "obc/obc_utils.ml" 64 3037 3076
+)
+"obc/obc_utils.ml" 65 3079 3105 "obc/obc_utils.ml" 65 3079 3118
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tbool
+)
+"obc/obc_utils.ml" 65 3079 3128 "obc/obc_utils.ml" 65 3079 3131
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 64 3037 3055 "obc/obc_utils.ml" 64 3037 3058
+)
+"obc/obc_utils.ml" 65 3079 3081 "obc/obc_utils.ml" 65 3079 3133
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 67 3135 3139 "obc/obc_utils.ml" 67 3135 3149
+type(
+  ?loc:Location.location -> Types.ty -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  def mk_pattern "obc/obc_utils.ml" 70 3230 3230 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 67 3135 3152 "obc/obc_utils.ml" 67 3135 3155
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 67 3135 3156 "obc/obc_utils.ml" 67 3135 3167
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 67 3135 3156 "obc/obc_utils.ml" 67 3135 3167
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 67 3135 3169 "obc/obc_utils.ml" 67 3135 3171
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 67 3135 3172 "obc/obc_utils.ml" 68 3179 3228
+)
+"obc/obc_utils.ml" 67 3135 3172 "obc/obc_utils.ml" 67 3135 3176
+type(
+  Obc.pat_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 68 3179 3181 "obc/obc_utils.ml" 68 3179 3228
+)
+"obc/obc_utils.ml" 68 3179 3194 "obc/obc_utils.ml" 68 3179 3198
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 67 3135 3172 "obc/obc_utils.ml" 67 3135 3176
+)
+"obc/obc_utils.ml" 68 3179 3209 "obc/obc_utils.ml" 68 3179 3211
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 67 3135 3169 "obc/obc_utils.ml" 67 3135 3171
+)
+"obc/obc_utils.ml" 68 3179 3223 "obc/obc_utils.ml" 68 3179 3226
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 67 3135 3152 "obc/obc_utils.ml" 67 3135 3155
+)
+"obc/obc_utils.ml" 68 3179 3181 "obc/obc_utils.ml" 68 3179 3228
+type(
+  Obc.pattern
+)
+"obc/obc_utils.ml" 70 3230 3234 "obc/obc_utils.ml" 70 3230 3248
+type(
+  ?loc:Location.location -> Obc.pat_desc -> Obc.pattern
+)
+ident(
+  def mk_pattern_int "obc/obc_utils.ml" 73 3336 3336 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 70 3230 3251 "obc/obc_utils.ml" 70 3230 3254
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 70 3230 3255 "obc/obc_utils.ml" 70 3230 3266
+type(
+  Location.location
+)
+ident(
+  ext_ref Location.no_location
+)
+type(
+  Location.location
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 70 3230 3255 "obc/obc_utils.ml" 70 3230 3266
+)
+type(
+  Location.location option
+)
+type(
+  Location.location option
+)
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 70 3230 3268 "obc/obc_utils.ml" 70 3230 3272
+type(
+  Obc.pat_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 71 3275 3277 "obc/obc_utils.ml" 71 3275 3334
+)
+"obc/obc_utils.ml" 71 3275 3290 "obc/obc_utils.ml" 71 3275 3294
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 70 3230 3268 "obc/obc_utils.ml" 70 3230 3272
+)
+"obc/obc_utils.ml" 71 3275 3305 "obc/obc_utils.ml" 71 3275 3317
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 71 3275 3329 "obc/obc_utils.ml" 71 3275 3332
+type(
+  Location.location
+)
+ident(
+  int_ref loc "obc/obc_utils.ml" 70 3230 3251 "obc/obc_utils.ml" 70 3230 3254
+)
+"obc/obc_utils.ml" 71 3275 3277 "obc/obc_utils.ml" 71 3275 3334
+type(
+  Obc.pattern
+)
+"obc/obc_utils.ml" 73 3336 3340 "obc/obc_utils.ml" 73 3336 3356
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  def mk_ext_value_exp "obc/obc_utils.ml" 77 3428 3428 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 73 3336 3357 "obc/obc_utils.ml" 73 3336 3359
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 73 3336 3360 "obc/obc_utils.ml" 75 3401 3426
+)
+"obc/obc_utils.ml" 73 3336 3360 "obc/obc_utils.ml" 73 3336 3364
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 74 3367 3369 "obc/obc_utils.ml" 75 3401 3426
+)
+"obc/obc_utils.ml" 74 3367 3373 "obc/obc_utils.ml" 74 3367 3374
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/obc_utils.ml" 75 3401 3403 "obc/obc_utils.ml" 75 3401 3426
+)
+"obc/obc_utils.ml" 74 3367 3377 "obc/obc_utils.ml" 74 3367 3389
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value "obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+)
+"obc/obc_utils.ml" 74 3367 3390 "obc/obc_utils.ml" 74 3367 3392
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 73 3336 3357 "obc/obc_utils.ml" 73 3336 3359
+)
+"obc/obc_utils.ml" 74 3367 3393 "obc/obc_utils.ml" 74 3367 3397
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 73 3336 3360 "obc/obc_utils.ml" 73 3336 3364
+)
+"obc/obc_utils.ml" 74 3367 3377 "obc/obc_utils.ml" 74 3367 3397
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 75 3401 3403 "obc/obc_utils.ml" 75 3401 3409
+type(
+  ?loc:Location.location -> Types.ty -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  int_ref mk_exp "obc/obc_utils.ml" 52 2662 2666 "obc/obc_utils.ml" 52 2662 2672
+)
+"obc/obc_utils.ml" 75 3401 3410 "obc/obc_utils.ml" 75 3401 3412
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 73 3336 3357 "obc/obc_utils.ml" 73 3336 3359
+)
+"obc/obc_utils.ml" 75 3401 3424 "obc/obc_utils.ml" 75 3401 3425
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/obc_utils.ml" 74 3367 3373 "obc/obc_utils.ml" 74 3367 3374
+)
+"obc/obc_utils.ml" 75 3401 3413 "obc/obc_utils.ml" 75 3401 3426
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 75 3401 3403 "obc/obc_utils.ml" 75 3401 3426
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 74 3367 3369 "obc/obc_utils.ml" 75 3401 3426
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 77 3428 3432 "obc/obc_utils.ml" 77 3428 3452
+type(
+  Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  def mk_ext_value_exp_int "obc/obc_utils.ml" 79 3496 3496 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 77 3428 3453 "obc/obc_utils.ml" 77 3428 3457
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 77 3428 3460 "obc/obc_utils.ml" 77 3428 3494
+)
+"obc/obc_utils.ml" 77 3428 3460 "obc/obc_utils.ml" 77 3428 3476
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  int_ref mk_ext_value_exp "obc/obc_utils.ml" 73 3336 3340 "obc/obc_utils.ml" 73 3336 3356
+)
+"obc/obc_utils.ml" 77 3428 3477 "obc/obc_utils.ml" 77 3428 3489
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 77 3428 3490 "obc/obc_utils.ml" 77 3428 3494
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 77 3428 3453 "obc/obc_utils.ml" 77 3428 3457
+)
+"obc/obc_utils.ml" 77 3428 3460 "obc/obc_utils.ml" 77 3428 3494
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 79 3496 3500 "obc/obc_utils.ml" 79 3496 3521
+type(
+  Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  def mk_ext_value_exp_bool "obc/obc_utils.ml" 81 3566 3566 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 79 3496 3522 "obc/obc_utils.ml" 79 3496 3526
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 79 3496 3529 "obc/obc_utils.ml" 79 3496 3564
+)
+"obc/obc_utils.ml" 79 3496 3529 "obc/obc_utils.ml" 79 3496 3545
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  int_ref mk_ext_value_exp "obc/obc_utils.ml" 73 3336 3340 "obc/obc_utils.ml" 73 3336 3356
+)
+"obc/obc_utils.ml" 79 3496 3546 "obc/obc_utils.ml" 79 3496 3559
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tbool
+)
+"obc/obc_utils.ml" 79 3496 3560 "obc/obc_utils.ml" 79 3496 3564
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 79 3496 3522 "obc/obc_utils.ml" 79 3496 3526
+)
+"obc/obc_utils.ml" 79 3496 3529 "obc/obc_utils.ml" 79 3496 3564
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 81 3566 3570 "obc/obc_utils.ml" 81 3566 3593
+type(
+  Types.ty -> Types.static_exp -> Obc.exp
+)
+ident(
+  def mk_ext_value_exp_static "obc/obc_utils.ml" 83 3637 3637 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 81 3566 3594 "obc/obc_utils.ml" 81 3566 3596
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 81 3566 3597 "obc/obc_utils.ml" 81 3566 3635
+)
+"obc/obc_utils.ml" 81 3566 3597 "obc/obc_utils.ml" 81 3566 3600
+type(
+  Types.static_exp
+)
+ident(
+  def sed "obc/obc_utils.ml" 81 3566 3603 "obc/obc_utils.ml" 81 3566 3635
+)
+"obc/obc_utils.ml" 81 3566 3603 "obc/obc_utils.ml" 81 3566 3619
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  int_ref mk_ext_value_exp "obc/obc_utils.ml" 73 3336 3340 "obc/obc_utils.ml" 73 3336 3356
+)
+"obc/obc_utils.ml" 81 3566 3620 "obc/obc_utils.ml" 81 3566 3622
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 81 3566 3594 "obc/obc_utils.ml" 81 3566 3596
+)
+"obc/obc_utils.ml" 81 3566 3631 "obc/obc_utils.ml" 81 3566 3634
+type(
+  Types.static_exp
+)
+ident(
+  int_ref sed "obc/obc_utils.ml" 81 3566 3597 "obc/obc_utils.ml" 81 3566 3600
+)
+"obc/obc_utils.ml" 81 3566 3623 "obc/obc_utils.ml" 81 3566 3635
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 81 3566 3603 "obc/obc_utils.ml" 81 3566 3635
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 83 3637 3641 "obc/obc_utils.ml" 83 3637 3663
+type(
+  int -> Obc.ext_value
+)
+ident(
+  def mk_ext_value_const_int "obc/obc_utils.ml" 85 3730 3730 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 83 3637 3664 "obc/obc_utils.ml" 83 3637 3665
+type(
+  int
+)
+ident(
+  def i "obc/obc_utils.ml" 83 3637 3668 "obc/obc_utils.ml" 83 3637 3728
+)
+"obc/obc_utils.ml" 83 3637 3668 "obc/obc_utils.ml" 83 3637 3680
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value "obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+)
+"obc/obc_utils.ml" 83 3637 3681 "obc/obc_utils.ml" 83 3637 3693
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 83 3637 3703 "obc/obc_utils.ml" 83 3637 3724
+type(
+  int -> Types.static_exp
+)
+ident(
+  ext_ref Initial.mk_static_int
+)
+"obc/obc_utils.ml" 83 3637 3725 "obc/obc_utils.ml" 83 3637 3726
+type(
+  int
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 83 3637 3664 "obc/obc_utils.ml" 83 3637 3665
+)
+"obc/obc_utils.ml" 83 3637 3702 "obc/obc_utils.ml" 83 3637 3727
+call(
+  stack
+)
+type(
+  Types.static_exp
+)
+"obc/obc_utils.ml" 83 3637 3694 "obc/obc_utils.ml" 83 3637 3728
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 83 3637 3668 "obc/obc_utils.ml" 83 3637 3728
+call(
+  tail
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 85 3730 3734 "obc/obc_utils.ml" 85 3730 3741
+type(
+  Types.ty -> Idents.var_ident -> Obc.exp
+)
+ident(
+  def mk_evar "obc/obc_utils.ml" 88 3783 3783 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 85 3730 3742 "obc/obc_utils.ml" 85 3730 3744
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 85 3730 3745 "obc/obc_utils.ml" 86 3750 3781
+)
+"obc/obc_utils.ml" 85 3730 3745 "obc/obc_utils.ml" 85 3730 3747
+type(
+  Idents.var_ident
+)
+ident(
+  def id "obc/obc_utils.ml" 86 3750 3752 "obc/obc_utils.ml" 86 3750 3781
+)
+"obc/obc_utils.ml" 86 3750 3752 "obc/obc_utils.ml" 86 3750 3768
+type(
+  Types.ty -> Obc.ext_value_desc -> Obc.exp
+)
+ident(
+  int_ref mk_ext_value_exp "obc/obc_utils.ml" 73 3336 3340 "obc/obc_utils.ml" 73 3336 3356
+)
+"obc/obc_utils.ml" 86 3750 3769 "obc/obc_utils.ml" 86 3750 3771
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 85 3730 3742 "obc/obc_utils.ml" 85 3730 3744
+)
+"obc/obc_utils.ml" 86 3750 3778 "obc/obc_utils.ml" 86 3750 3780
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 85 3730 3745 "obc/obc_utils.ml" 85 3730 3747
+)
+"obc/obc_utils.ml" 86 3750 3772 "obc/obc_utils.ml" 86 3750 3781
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 86 3750 3752 "obc/obc_utils.ml" 86 3750 3781
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 88 3783 3787 "obc/obc_utils.ml" 88 3783 3798
+type(
+  Idents.var_ident -> Obc.exp
+)
+ident(
+  def mk_evar_int "obc/obc_utils.ml" 91 3831 3831 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 88 3783 3799 "obc/obc_utils.ml" 88 3783 3801
+type(
+  Idents.var_ident
+)
+ident(
+  def id "obc/obc_utils.ml" 89 3804 3806 "obc/obc_utils.ml" 89 3804 3829
+)
+"obc/obc_utils.ml" 89 3804 3806 "obc/obc_utils.ml" 89 3804 3813
+type(
+  Types.ty -> Idents.var_ident -> Obc.exp
+)
+ident(
+  int_ref mk_evar "obc/obc_utils.ml" 85 3730 3734 "obc/obc_utils.ml" 85 3730 3741
+)
+"obc/obc_utils.ml" 89 3804 3814 "obc/obc_utils.ml" 89 3804 3826
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 89 3804 3827 "obc/obc_utils.ml" 89 3804 3829
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 88 3783 3799 "obc/obc_utils.ml" 88 3783 3801
+)
+"obc/obc_utils.ml" 89 3804 3806 "obc/obc_utils.ml" 89 3804 3829
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 91 3831 3835 "obc/obc_utils.ml" 91 3831 3843
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  def mk_block "obc/obc_utils.ml" 95 3914 3914 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 91 3831 3846 "obc/obc_utils.ml" 91 3831 3852
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 91 3831 3853 "obc/obc_utils.ml" 91 3831 3855
+type(
+  Obc.var_dec list
+)
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref *sth* "obc/obc_utils.ml" 91 3831 3853 "obc/obc_utils.ml" 91 3831 3855
+)
+type(
+  Obc.var_dec list option
+)
+type(
+  Obc.var_dec list option
+)
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 91 3831 3857 "obc/obc_utils.ml" 91 3831 3864
+type(
+  Obc.act list
+)
+ident(
+  def eq_list "obc/obc_utils.ml" 92 3867 3869 "obc/obc_utils.ml" 93 3890 3912
+)
+"obc/obc_utils.ml" 92 3867 3882 "obc/obc_utils.ml" 92 3867 3888
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref locals "obc/obc_utils.ml" 91 3831 3846 "obc/obc_utils.ml" 91 3831 3852
+)
+"obc/obc_utils.ml" 93 3890 3903 "obc/obc_utils.ml" 93 3890 3910
+type(
+  Obc.act list
+)
+ident(
+  int_ref eq_list "obc/obc_utils.ml" 91 3831 3857 "obc/obc_utils.ml" 91 3831 3864
+)
+"obc/obc_utils.ml" 92 3867 3869 "obc/obc_utils.ml" 93 3890 3912
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 95 3914 3918 "obc/obc_utils.ml" 95 3914 3931
+type(
+  Obc.exp -> Obc.act list -> Obc.act list -> Obc.act
+)
+ident(
+  def mk_ifthenelse "obc/obc_utils.ml" 98 4048 4048 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 95 3914 3932 "obc/obc_utils.ml" 95 3914 3936
+type(
+  Obc.exp
+)
+ident(
+  def cond "obc/obc_utils.ml" 95 3914 3937 "obc/obc_utils.ml" 96 3958 4046
+)
+"obc/obc_utils.ml" 95 3914 3937 "obc/obc_utils.ml" 95 3914 3945
+type(
+  Obc.act list
+)
+ident(
+  def true_act "obc/obc_utils.ml" 95 3914 3946 "obc/obc_utils.ml" 96 3958 4046
+)
+"obc/obc_utils.ml" 95 3914 3946 "obc/obc_utils.ml" 95 3914 3955
+type(
+  Obc.act list
+)
+ident(
+  def false_act "obc/obc_utils.ml" 96 3958 3960 "obc/obc_utils.ml" 96 3958 4046
+)
+"obc/obc_utils.ml" 96 3958 3967 "obc/obc_utils.ml" 96 3958 3971
+type(
+  Obc.exp
+)
+ident(
+  int_ref cond "obc/obc_utils.ml" 95 3914 3932 "obc/obc_utils.ml" 95 3914 3936
+)
+"obc/obc_utils.ml" 96 3958 3975 "obc/obc_utils.ml" 96 3958 3988
+type(
+  Names.constructor_name
+)
+ident(
+  ext_ref Initial.ptrue
+)
+"obc/obc_utils.ml" 96 3958 3990 "obc/obc_utils.ml" 96 3958 3998
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  int_ref mk_block "obc/obc_utils.ml" 91 3831 3835 "obc/obc_utils.ml" 91 3831 3843
+)
+"obc/obc_utils.ml" 96 3958 3999 "obc/obc_utils.ml" 96 3958 4007
+type(
+  Obc.act list
+)
+ident(
+  int_ref true_act "obc/obc_utils.ml" 95 3914 3937 "obc/obc_utils.ml" 95 3914 3945
+)
+"obc/obc_utils.ml" 96 3958 3990 "obc/obc_utils.ml" 96 3958 4007
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 96 3958 3975 "obc/obc_utils.ml" 96 3958 4007
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/obc_utils.ml" 96 3958 4009 "obc/obc_utils.ml" 96 3958 4023
+type(
+  Names.constructor_name
+)
+ident(
+  ext_ref Initial.pfalse
+)
+"obc/obc_utils.ml" 96 3958 4025 "obc/obc_utils.ml" 96 3958 4033
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  int_ref mk_block "obc/obc_utils.ml" 91 3831 3835 "obc/obc_utils.ml" 91 3831 3843
+)
+"obc/obc_utils.ml" 96 3958 4034 "obc/obc_utils.ml" 96 3958 4043
+type(
+  Obc.act list
+)
+ident(
+  int_ref false_act "obc/obc_utils.ml" 95 3914 3946 "obc/obc_utils.ml" 95 3914 3955
+)
+"obc/obc_utils.ml" 96 3958 4025 "obc/obc_utils.ml" 96 3958 4043
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 96 3958 4009 "obc/obc_utils.ml" 96 3958 4043
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/obc_utils.ml" 96 3958 3973 "obc/obc_utils.ml" 96 3958 4045
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/obc_utils.ml" 96 3958 3960 "obc/obc_utils.ml" 96 3958 4046
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 98 4048 4052 "obc/obc_utils.ml" 98 4048 4057
+type(
+  Obc.exp -> Obc.act list -> Obc.act
+)
+ident(
+  def mk_if "obc/obc_utils.ml" 101 4126 4126 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 98 4048 4058 "obc/obc_utils.ml" 98 4048 4062
+type(
+  Obc.exp
+)
+ident(
+  def cond "obc/obc_utils.ml" 98 4048 4063 "obc/obc_utils.ml" 99 4074 4124
+)
+"obc/obc_utils.ml" 98 4048 4063 "obc/obc_utils.ml" 98 4048 4071
+type(
+  Obc.act list
+)
+ident(
+  def true_act "obc/obc_utils.ml" 99 4074 4076 "obc/obc_utils.ml" 99 4074 4124
+)
+"obc/obc_utils.ml" 99 4074 4083 "obc/obc_utils.ml" 99 4074 4087
+type(
+  Obc.exp
+)
+ident(
+  int_ref cond "obc/obc_utils.ml" 98 4048 4058 "obc/obc_utils.ml" 98 4048 4062
+)
+"obc/obc_utils.ml" 99 4074 4090 "obc/obc_utils.ml" 99 4074 4103
+type(
+  Names.constructor_name
+)
+ident(
+  ext_ref Initial.ptrue
+)
+"obc/obc_utils.ml" 99 4074 4105 "obc/obc_utils.ml" 99 4074 4113
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  int_ref mk_block "obc/obc_utils.ml" 91 3831 3835 "obc/obc_utils.ml" 91 3831 3843
+)
+"obc/obc_utils.ml" 99 4074 4114 "obc/obc_utils.ml" 99 4074 4122
+type(
+  Obc.act list
+)
+ident(
+  int_ref true_act "obc/obc_utils.ml" 98 4048 4063 "obc/obc_utils.ml" 98 4048 4071
+)
+"obc/obc_utils.ml" 99 4074 4105 "obc/obc_utils.ml" 99 4074 4122
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 99 4074 4090 "obc/obc_utils.ml" 99 4074 4122
+type(
+  Names.constructor_name * Obc.block
+)
+"obc/obc_utils.ml" 99 4074 4089 "obc/obc_utils.ml" 99 4074 4123
+type(
+  (Names.constructor_name * Obc.block) list
+)
+"obc/obc_utils.ml" 99 4074 4076 "obc/obc_utils.ml" 99 4074 4124
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 101 4126 4134 "obc/obc_utils.ml" 101 4126 4142
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  def var_name "obc/obc_utils.ml" 101 4126 4126 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 101 4126 4143 "obc/obc_utils.ml" 101 4126 4144
+type(
+  Obc.pattern
+)
+ident(
+  def x "obc/obc_utils.ml" 102 4147 4149 "obc/obc_utils.ml" 106 4243 4275
+)
+"obc/obc_utils.ml" 102 4147 4155 "obc/obc_utils.ml" 102 4147 4156
+type(
+  Obc.pattern
+)
+ident(
+  int_ref x "obc/obc_utils.ml" 101 4126 4143 "obc/obc_utils.ml" 101 4126 4144
+)
+"obc/obc_utils.ml" 102 4147 4155 "obc/obc_utils.ml" 102 4147 4165
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 103 4171 4186 "obc/obc_utils.ml" 103 4171 4187
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_utils.ml" 103 4171 4191 "obc/obc_utils.ml" 103 4171 4192
+)
+"obc/obc_utils.ml" 103 4171 4177 "obc/obc_utils.ml" 103 4171 4187
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 103 4171 4191 "obc/obc_utils.ml" 103 4171 4192
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_utils.ml" 103 4171 4186 "obc/obc_utils.ml" 103 4171 4187
+)
+"obc/obc_utils.ml" 104 4193 4204 "obc/obc_utils.ml" 104 4193 4205
+type(
+  Idents.var_ident
+)
+ident(
+  def x "obc/obc_utils.ml" 104 4193 4209 "obc/obc_utils.ml" 104 4193 4210
+)
+"obc/obc_utils.ml" 104 4193 4199 "obc/obc_utils.ml" 104 4193 4205
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 104 4193 4209 "obc/obc_utils.ml" 104 4193 4210
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref x "obc/obc_utils.ml" 104 4193 4204 "obc/obc_utils.ml" 104 4193 4205
+)
+"obc/obc_utils.ml" 105 4211 4224 "obc/obc_utils.ml" 105 4211 4225
+type(
+  Obc.pattern
+)
+ident(
+  def x "obc/obc_utils.ml" 105 4211 4232 "obc/obc_utils.ml" 105 4211 4242
+)
+"obc/obc_utils.ml" 105 4211 4226 "obc/obc_utils.ml" 105 4211 4227
+type(
+  Names.field_name
+)
+"obc/obc_utils.ml" 105 4211 4217 "obc/obc_utils.ml" 105 4211 4228
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 105 4211 4232 "obc/obc_utils.ml" 105 4211 4240
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  int_ref var_name "obc/obc_utils.ml" 101 4126 4134 "obc/obc_utils.ml" 101 4126 4142
+)
+"obc/obc_utils.ml" 105 4211 4241 "obc/obc_utils.ml" 105 4211 4242
+type(
+  Obc.pattern
+)
+ident(
+  int_ref x "obc/obc_utils.ml" 105 4211 4224 "obc/obc_utils.ml" 105 4211 4225
+)
+"obc/obc_utils.ml" 105 4211 4232 "obc/obc_utils.ml" 105 4211 4242
+call(
+  tail
+)
+type(
+  Idents.var_ident
+)
+"obc/obc_utils.ml" 106 4243 4256 "obc/obc_utils.ml" 106 4243 4257
+type(
+  Obc.pattern
+)
+ident(
+  def l "obc/obc_utils.ml" 106 4243 4265 "obc/obc_utils.ml" 106 4243 4275
+)
+"obc/obc_utils.ml" 106 4243 4259 "obc/obc_utils.ml" 106 4243 4260
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 106 4243 4249 "obc/obc_utils.ml" 106 4243 4261
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 106 4243 4265 "obc/obc_utils.ml" 106 4243 4273
+type(
+  Obc.pattern -> Idents.var_ident
+)
+ident(
+  int_ref var_name "obc/obc_utils.ml" 101 4126 4134 "obc/obc_utils.ml" 101 4126 4142
+)
+"obc/obc_utils.ml" 106 4243 4274 "obc/obc_utils.ml" 106 4243 4275
+type(
+  Obc.pattern
+)
+ident(
+  int_ref l "obc/obc_utils.ml" 106 4243 4256 "obc/obc_utils.ml" 106 4243 4257
+)
+"obc/obc_utils.ml" 106 4243 4265 "obc/obc_utils.ml" 106 4243 4275
+call(
+  tail
+)
+type(
+  Idents.var_ident
+)
+"obc/obc_utils.ml" 102 4147 4149 "obc/obc_utils.ml" 106 4243 4275
+type(
+  Idents.var_ident
+)
+"obc/obc_utils.ml" 110 4354 4362 "obc/obc_utils.ml" 110 4354 4368
+type(
+  Idents.var_ident -> Obc.var_dec list -> bool
+)
+ident(
+  def vd_mem "obc/obc_utils.ml" 110 4354 4354 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 110 4354 4369 "obc/obc_utils.ml" 110 4354 4370
+type(
+  Idents.var_ident
+)
+ident(
+  def n "obc/obc_utils.ml" 110 4354 4373 "obc/obc_utils.ml" 112 4398 4441
+)
+"obc/obc_utils.ml" 111 4382 4386 "obc/obc_utils.ml" 111 4382 4388
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 111 4382 4392 "obc/obc_utils.ml" 111 4382 4397
+type(
+  bool
+)
+"obc/obc_utils.ml" 112 4398 4402 "obc/obc_utils.ml" 112 4398 4404
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4441
+)
+"obc/obc_utils.ml" 112 4398 4406 "obc/obc_utils.ml" 112 4398 4407
+type(
+  Obc.var_dec list
+)
+ident(
+  def l "obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4441
+)
+"obc/obc_utils.ml" 112 4398 4402 "obc/obc_utils.ml" 112 4398 4407
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4413
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_utils.ml" 112 4398 4402 "obc/obc_utils.ml" 112 4398 4404
+)
+"obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4421
+type(
+  Idents.var_ident
+)
+"obc/obc_utils.ml" 112 4398 4422 "obc/obc_utils.ml" 112 4398 4423
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 112 4398 4424 "obc/obc_utils.ml" 112 4398 4425
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "obc/obc_utils.ml" 110 4354 4369 "obc/obc_utils.ml" 110 4354 4370
+)
+"obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4425
+type(
+  bool
+)
+"obc/obc_utils.ml" 112 4398 4426 "obc/obc_utils.ml" 112 4398 4428
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"obc/obc_utils.ml" 112 4398 4430 "obc/obc_utils.ml" 112 4398 4436
+type(
+  Idents.var_ident -> Obc.var_dec list -> bool
+)
+ident(
+  int_ref vd_mem "obc/obc_utils.ml" 110 4354 4362 "obc/obc_utils.ml" 110 4354 4368
+)
+"obc/obc_utils.ml" 112 4398 4437 "obc/obc_utils.ml" 112 4398 4438
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "obc/obc_utils.ml" 110 4354 4369 "obc/obc_utils.ml" 110 4354 4370
+)
+"obc/obc_utils.ml" 112 4398 4439 "obc/obc_utils.ml" 112 4398 4440
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref l "obc/obc_utils.ml" 112 4398 4406 "obc/obc_utils.ml" 112 4398 4407
+)
+"obc/obc_utils.ml" 112 4398 4429 "obc/obc_utils.ml" 112 4398 4441
+call(
+  tail
+)
+type(
+  bool
+)
+"obc/obc_utils.ml" 112 4398 4411 "obc/obc_utils.ml" 112 4398 4441
+type(
+  bool
+)
+"obc/obc_utils.ml" 110 4354 4373 "obc/obc_utils.ml" 112 4398 4441
+type(
+  Obc.var_dec list -> bool
+)
+"obc/obc_utils.ml" 116 4531 4539 "obc/obc_utils.ml" 116 4531 4546
+type(
+  Idents.var_ident -> Obc.var_dec list -> Obc.var_dec
+)
+ident(
+  def vd_find "obc/obc_utils.ml" 116 4531 4531 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 116 4531 4547 "obc/obc_utils.ml" 116 4531 4548
+type(
+  Idents.var_ident
+)
+ident(
+  def n "obc/obc_utils.ml" 116 4531 4551 "obc/obc_utils.ml" 119 4645 4693
+)
+"obc/obc_utils.ml" 117 4560 4564 "obc/obc_utils.ml" 117 4560 4566
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 117 4560 4570 "obc/obc_utils.ml" 117 4560 4584
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"obc/obc_utils.ml" 117 4560 4585 "obc/obc_utils.ml" 117 4560 4605
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/obc_utils.ml" 117 4560 4607 "obc/obc_utils.ml" 117 4560 4611
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"obc/obc_utils.ml" 117 4560 4612 "obc/obc_utils.ml" 117 4560 4613
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "obc/obc_utils.ml" 116 4531 4547 "obc/obc_utils.ml" 116 4531 4548
+)
+"obc/obc_utils.ml" 117 4560 4606 "obc/obc_utils.ml" 117 4560 4614
+call(
+  stack
+)
+type(
+  string
+)
+"obc/obc_utils.ml" 117 4560 4570 "obc/obc_utils.ml" 117 4560 4614
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/obc_utils.ml" 117 4560 4616 "obc/obc_utils.ml" 117 4560 4621
+type(
+  exn -> Obc.var_dec
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 117 4560 4622 "obc/obc_utils.ml" 117 4560 4631
+type(
+  exn
+)
+"obc/obc_utils.ml" 117 4560 4616 "obc/obc_utils.ml" 117 4560 4631
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 117 4560 4570 "obc/obc_utils.ml" 117 4560 4631
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 118 4632 4636 "obc/obc_utils.ml" 118 4632 4638
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/obc_utils.ml" 119 4645 4651 "obc/obc_utils.ml" 119 4645 4693
+)
+"obc/obc_utils.ml" 118 4632 4640 "obc/obc_utils.ml" 118 4632 4641
+type(
+  Obc.var_dec list
+)
+ident(
+  def l "obc/obc_utils.ml" 119 4645 4651 "obc/obc_utils.ml" 119 4645 4693
+)
+"obc/obc_utils.ml" 118 4632 4636 "obc/obc_utils.ml" 118 4632 4641
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 119 4645 4654 "obc/obc_utils.ml" 119 4645 4656
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_utils.ml" 118 4632 4636 "obc/obc_utils.ml" 118 4632 4638
+)
+"obc/obc_utils.ml" 119 4645 4654 "obc/obc_utils.ml" 119 4645 4664
+type(
+  Idents.var_ident
+)
+"obc/obc_utils.ml" 119 4645 4665 "obc/obc_utils.ml" 119 4645 4666
+type(
+  Idents.var_ident -> Idents.var_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 119 4645 4667 "obc/obc_utils.ml" 119 4645 4668
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "obc/obc_utils.ml" 116 4531 4547 "obc/obc_utils.ml" 116 4531 4548
+)
+"obc/obc_utils.ml" 119 4645 4654 "obc/obc_utils.ml" 119 4645 4668
+type(
+  bool
+)
+"obc/obc_utils.ml" 119 4645 4674 "obc/obc_utils.ml" 119 4645 4676
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_utils.ml" 118 4632 4636 "obc/obc_utils.ml" 118 4632 4638
+)
+"obc/obc_utils.ml" 119 4645 4682 "obc/obc_utils.ml" 119 4645 4689
+type(
+  Idents.var_ident -> Obc.var_dec list -> Obc.var_dec
+)
+ident(
+  int_ref vd_find "obc/obc_utils.ml" 116 4531 4539 "obc/obc_utils.ml" 116 4531 4546
+)
+"obc/obc_utils.ml" 119 4645 4690 "obc/obc_utils.ml" 119 4645 4691
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref n "obc/obc_utils.ml" 116 4531 4547 "obc/obc_utils.ml" 116 4531 4548
+)
+"obc/obc_utils.ml" 119 4645 4692 "obc/obc_utils.ml" 119 4645 4693
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref l "obc/obc_utils.ml" 118 4632 4640 "obc/obc_utils.ml" 118 4632 4641
+)
+"obc/obc_utils.ml" 119 4645 4682 "obc/obc_utils.ml" 119 4645 4693
+call(
+  tail
+)
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 119 4645 4651 "obc/obc_utils.ml" 119 4645 4693
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 116 4531 4551 "obc/obc_utils.ml" 119 4645 4693
+type(
+  Obc.var_dec list -> Obc.var_dec
+)
+"obc/obc_utils.ml" 122 4739 4743 "obc/obc_utils.ml" 122 4739 4758
+type(
+  Obc.var_dec list -> Types.ty
+)
+ident(
+  def vd_list_to_type "obc/obc_utils.ml" 126 4858 4858 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 122 4739 4759 "obc/obc_utils.ml" 122 4739 4763
+type(
+  Obc.var_dec list
+)
+ident(
+  def vd_l "obc/obc_utils.ml" 122 4739 4766 "obc/obc_utils.ml" 124 4804 4856
+)
+"obc/obc_utils.ml" 122 4739 4772 "obc/obc_utils.ml" 122 4739 4776
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref vd_l "obc/obc_utils.ml" 122 4739 4759 "obc/obc_utils.ml" 122 4739 4763
+)
+"obc/obc_utils.ml" 123 4782 4787 "obc/obc_utils.ml" 123 4782 4789
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/obc_utils.ml" 123 4782 4794 "obc/obc_utils.ml" 123 4782 4803
+)
+"obc/obc_utils.ml" 123 4782 4786 "obc/obc_utils.ml" 123 4782 4790
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 123 4782 4794 "obc/obc_utils.ml" 123 4782 4796
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_utils.ml" 123 4782 4787 "obc/obc_utils.ml" 123 4782 4789
+)
+"obc/obc_utils.ml" 123 4782 4794 "obc/obc_utils.ml" 123 4782 4803
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 124 4804 4808 "obc/obc_utils.ml" 124 4804 4809
+type(
+  Obc.var_dec list
+)
+"obc/obc_utils.ml" 124 4804 4820 "obc/obc_utils.ml" 124 4804 4828
+type(
+  (Obc.var_dec -> Types.ty) -> Obc.var_dec list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"obc/obc_utils.ml" 124 4804 4834 "obc/obc_utils.ml" 124 4804 4836
+type(
+  Obc.var_dec
+)
+ident(
+  def vd "obc/obc_utils.ml" 124 4804 4840 "obc/obc_utils.ml" 124 4804 4849
+)
+"obc/obc_utils.ml" 124 4804 4840 "obc/obc_utils.ml" 124 4804 4842
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref vd "obc/obc_utils.ml" 124 4804 4834 "obc/obc_utils.ml" 124 4804 4836
+)
+"obc/obc_utils.ml" 124 4804 4840 "obc/obc_utils.ml" 124 4804 4849
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 124 4804 4829 "obc/obc_utils.ml" 124 4804 4850
+type(
+  Obc.var_dec -> Types.ty
+)
+"obc/obc_utils.ml" 124 4804 4851 "obc/obc_utils.ml" 124 4804 4855
+type(
+  Obc.var_dec list
+)
+ident(
+  int_ref vd_l "obc/obc_utils.ml" 122 4739 4759 "obc/obc_utils.ml" 122 4739 4763
+)
+"obc/obc_utils.ml" 124 4804 4819 "obc/obc_utils.ml" 124 4804 4856
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"obc/obc_utils.ml" 124 4804 4813 "obc/obc_utils.ml" 124 4804 4856
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 122 4739 4766 "obc/obc_utils.ml" 124 4804 4856
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 126 4858 4862 "obc/obc_utils.ml" 126 4858 4882
+type(
+  Obc.pattern list -> Types.ty
+)
+ident(
+  def pattern_list_to_type "obc/obc_utils.ml" 130 4975 4975 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 126 4858 4883 "obc/obc_utils.ml" 126 4858 4886
+type(
+  Obc.pattern list
+)
+ident(
+  def p_l "obc/obc_utils.ml" 126 4858 4889 "obc/obc_utils.ml" 128 4924 4973
+)
+"obc/obc_utils.ml" 126 4858 4895 "obc/obc_utils.ml" 126 4858 4898
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref p_l "obc/obc_utils.ml" 126 4858 4883 "obc/obc_utils.ml" 126 4858 4886
+)
+"obc/obc_utils.ml" 127 4904 4909 "obc/obc_utils.ml" 127 4904 4910
+type(
+  Obc.pattern
+)
+ident(
+  def p "obc/obc_utils.ml" 127 4904 4915 "obc/obc_utils.ml" 127 4904 4923
+)
+"obc/obc_utils.ml" 127 4904 4908 "obc/obc_utils.ml" 127 4904 4911
+type(
+  Obc.pattern list
+)
+"obc/obc_utils.ml" 127 4904 4915 "obc/obc_utils.ml" 127 4904 4916
+type(
+  Obc.pattern
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 127 4904 4909 "obc/obc_utils.ml" 127 4904 4910
+)
+"obc/obc_utils.ml" 127 4904 4915 "obc/obc_utils.ml" 127 4904 4923
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 128 4924 4928 "obc/obc_utils.ml" 128 4924 4929
+type(
+  Obc.pattern list
+)
+"obc/obc_utils.ml" 128 4924 4940 "obc/obc_utils.ml" 128 4924 4948
+type(
+  (Obc.pattern -> Types.ty) -> Obc.pattern list -> Types.ty list
+)
+ident(
+  ext_ref List.map
+)
+"obc/obc_utils.ml" 128 4924 4954 "obc/obc_utils.ml" 128 4924 4955
+type(
+  Obc.pattern
+)
+ident(
+  def p "obc/obc_utils.ml" 128 4924 4959 "obc/obc_utils.ml" 128 4924 4967
+)
+"obc/obc_utils.ml" 128 4924 4959 "obc/obc_utils.ml" 128 4924 4960
+type(
+  Obc.pattern
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 128 4924 4954 "obc/obc_utils.ml" 128 4924 4955
+)
+"obc/obc_utils.ml" 128 4924 4959 "obc/obc_utils.ml" 128 4924 4967
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 128 4924 4949 "obc/obc_utils.ml" 128 4924 4968
+type(
+  Obc.pattern -> Types.ty
+)
+"obc/obc_utils.ml" 128 4924 4969 "obc/obc_utils.ml" 128 4924 4972
+type(
+  Obc.pattern list
+)
+ident(
+  int_ref p_l "obc/obc_utils.ml" 126 4858 4883 "obc/obc_utils.ml" 126 4858 4886
+)
+"obc/obc_utils.ml" 128 4924 4939 "obc/obc_utils.ml" 128 4924 4973
+call(
+  stack
+)
+type(
+  Types.ty list
+)
+"obc/obc_utils.ml" 128 4924 4933 "obc/obc_utils.ml" 128 4924 4973
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 126 4858 4889 "obc/obc_utils.ml" 128 4924 4973
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 130 4975 4979 "obc/obc_utils.ml" 130 4975 4995
+type(
+  Obc.exp -> Obc.ext_value
+)
+ident(
+  def ext_value_of_exp "obc/obc_utils.ml" 134 5064 5064 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 130 4975 4996 "obc/obc_utils.ml" 130 4975 4997
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_utils.ml" 130 4975 5000 "obc/obc_utils.ml" 132 5041 5062
+)
+"obc/obc_utils.ml" 130 4975 5006 "obc/obc_utils.ml" 130 4975 5007
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_utils.ml" 130 4975 4996 "obc/obc_utils.ml" 130 4975 4997
+)
+"obc/obc_utils.ml" 130 4975 5006 "obc/obc_utils.ml" 130 4975 5014
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 131 5020 5034 "obc/obc_utils.ml" 131 5020 5035
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/obc_utils.ml" 131 5020 5039 "obc/obc_utils.ml" 131 5020 5040
+)
+"obc/obc_utils.ml" 131 5020 5024 "obc/obc_utils.ml" 131 5020 5035
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 131 5020 5039 "obc/obc_utils.ml" 131 5020 5040
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/obc_utils.ml" 131 5020 5034 "obc/obc_utils.ml" 131 5020 5035
+)
+"obc/obc_utils.ml" 132 5041 5045 "obc/obc_utils.ml" 132 5041 5046
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 132 5041 5057 "obc/obc_utils.ml" 132 5041 5062
+type(
+  bool
+)
+"obc/obc_utils.ml" 132 5041 5050 "obc/obc_utils.ml" 132 5041 5062
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 130 4975 5000 "obc/obc_utils.ml" 132 5041 5062
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 134 5064 5068 "obc/obc_utils.ml" 134 5064 5084
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  def find_step_method "obc/obc_utils.ml" 136 5144 5144 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 134 5064 5085 "obc/obc_utils.ml" 134 5064 5087
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/obc_utils.ml" 135 5090 5092 "obc/obc_utils.ml" 135 5090 5143
+)
+"obc/obc_utils.ml" 135 5090 5092 "obc/obc_utils.ml" 135 5090 5101
+type(
+  (Obc.method_def -> bool) -> Obc.method_def list -> Obc.method_def
+)
+ident(
+  ext_ref List.find
+)
+"obc/obc_utils.ml" 135 5090 5107 "obc/obc_utils.ml" 135 5090 5108
+type(
+  Obc.method_def
+)
+ident(
+  def m "obc/obc_utils.ml" 135 5090 5112 "obc/obc_utils.ml" 135 5090 5128
+)
+"obc/obc_utils.ml" 135 5090 5112 "obc/obc_utils.ml" 135 5090 5113
+type(
+  Obc.method_def
+)
+ident(
+  int_ref m "obc/obc_utils.ml" 135 5090 5107 "obc/obc_utils.ml" 135 5090 5108
+)
+"obc/obc_utils.ml" 135 5090 5112 "obc/obc_utils.ml" 135 5090 5120
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 135 5090 5121 "obc/obc_utils.ml" 135 5090 5122
+type(
+  Obc.method_name -> Obc.method_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 135 5090 5123 "obc/obc_utils.ml" 135 5090 5128
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 135 5090 5112 "obc/obc_utils.ml" 135 5090 5128
+type(
+  bool
+)
+"obc/obc_utils.ml" 135 5090 5102 "obc/obc_utils.ml" 135 5090 5129
+type(
+  Obc.method_def -> bool
+)
+"obc/obc_utils.ml" 135 5090 5130 "obc/obc_utils.ml" 135 5090 5132
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_utils.ml" 134 5064 5085 "obc/obc_utils.ml" 134 5064 5087
+)
+"obc/obc_utils.ml" 135 5090 5130 "obc/obc_utils.ml" 135 5090 5143
+type(
+  Obc.method_def list
+)
+"obc/obc_utils.ml" 135 5090 5092 "obc/obc_utils.ml" 135 5090 5143
+call(
+  tail
+)
+type(
+  Obc.method_def
+)
+"obc/obc_utils.ml" 136 5144 5148 "obc/obc_utils.ml" 136 5144 5165
+type(
+  Obc.class_def -> Obc.method_def
+)
+ident(
+  def find_reset_method "obc/obc_utils.ml" 139 5227 5227 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 136 5144 5166 "obc/obc_utils.ml" 136 5144 5168
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/obc_utils.ml" 137 5171 5173 "obc/obc_utils.ml" 137 5171 5225
+)
+"obc/obc_utils.ml" 137 5171 5173 "obc/obc_utils.ml" 137 5171 5182
+type(
+  (Obc.method_def -> bool) -> Obc.method_def list -> Obc.method_def
+)
+ident(
+  ext_ref List.find
+)
+"obc/obc_utils.ml" 137 5171 5188 "obc/obc_utils.ml" 137 5171 5189
+type(
+  Obc.method_def
+)
+ident(
+  def m "obc/obc_utils.ml" 137 5171 5193 "obc/obc_utils.ml" 137 5171 5210
+)
+"obc/obc_utils.ml" 137 5171 5193 "obc/obc_utils.ml" 137 5171 5194
+type(
+  Obc.method_def
+)
+ident(
+  int_ref m "obc/obc_utils.ml" 137 5171 5188 "obc/obc_utils.ml" 137 5171 5189
+)
+"obc/obc_utils.ml" 137 5171 5193 "obc/obc_utils.ml" 137 5171 5201
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 137 5171 5202 "obc/obc_utils.ml" 137 5171 5203
+type(
+  Obc.method_name -> Obc.method_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 137 5171 5204 "obc/obc_utils.ml" 137 5171 5210
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 137 5171 5193 "obc/obc_utils.ml" 137 5171 5210
+type(
+  bool
+)
+"obc/obc_utils.ml" 137 5171 5183 "obc/obc_utils.ml" 137 5171 5211
+type(
+  Obc.method_def -> bool
+)
+"obc/obc_utils.ml" 137 5171 5212 "obc/obc_utils.ml" 137 5171 5214
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_utils.ml" 136 5144 5166 "obc/obc_utils.ml" 136 5144 5168
+)
+"obc/obc_utils.ml" 137 5171 5212 "obc/obc_utils.ml" 137 5171 5225
+type(
+  Obc.method_def list
+)
+"obc/obc_utils.ml" 137 5171 5173 "obc/obc_utils.ml" 137 5171 5225
+call(
+  tail
+)
+type(
+  Obc.method_def
+)
+"obc/obc_utils.ml" 139 5227 5231 "obc/obc_utils.ml" 139 5227 5250
+type(
+  Obc.method_def -> Obc.class_def -> Obc.class_def
+)
+ident(
+  def replace_step_method "obc/obc_utils.ml" 143 5367 5367 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 139 5227 5251 "obc/obc_utils.ml" 139 5227 5253
+type(
+  Obc.method_def
+)
+ident(
+  def st "obc/obc_utils.ml" 139 5227 5254 "obc/obc_utils.ml" 141 5312 5365
+)
+"obc/obc_utils.ml" 139 5227 5254 "obc/obc_utils.ml" 139 5227 5256
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/obc_utils.ml" 140 5259 5261 "obc/obc_utils.ml" 141 5312 5365
+)
+"obc/obc_utils.ml" 140 5259 5265 "obc/obc_utils.ml" 140 5259 5266
+type(
+  Obc.method_def -> Obc.method_def
+)
+ident(
+  def f "obc/obc_utils.ml" 141 5312 5316 "obc/obc_utils.ml" 141 5312 5365
+)
+"obc/obc_utils.ml" 140 5259 5267 "obc/obc_utils.ml" 140 5259 5269
+type(
+  Obc.method_def
+)
+ident(
+  def md "obc/obc_utils.ml" 140 5259 5272 "obc/obc_utils.ml" 140 5259 5308
+)
+"obc/obc_utils.ml" 140 5259 5275 "obc/obc_utils.ml" 140 5259 5277
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_utils.ml" 140 5259 5267 "obc/obc_utils.ml" 140 5259 5269
+)
+"obc/obc_utils.ml" 140 5259 5275 "obc/obc_utils.ml" 140 5259 5284
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 140 5259 5285 "obc/obc_utils.ml" 140 5259 5286
+type(
+  Obc.method_name -> Obc.method_name -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 140 5259 5287 "obc/obc_utils.ml" 140 5259 5292
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 140 5259 5275 "obc/obc_utils.ml" 140 5259 5292
+type(
+  bool
+)
+"obc/obc_utils.ml" 140 5259 5298 "obc/obc_utils.ml" 140 5259 5300
+type(
+  Obc.method_def
+)
+ident(
+  int_ref st "obc/obc_utils.ml" 139 5227 5251 "obc/obc_utils.ml" 139 5227 5253
+)
+"obc/obc_utils.ml" 140 5259 5306 "obc/obc_utils.ml" 140 5259 5308
+type(
+  Obc.method_def
+)
+ident(
+  int_ref md "obc/obc_utils.ml" 140 5259 5267 "obc/obc_utils.ml" 140 5259 5269
+)
+"obc/obc_utils.ml" 140 5259 5272 "obc/obc_utils.ml" 140 5259 5308
+type(
+  Obc.method_def
+)
+"obc/obc_utils.ml" 141 5312 5318 "obc/obc_utils.ml" 141 5312 5320
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_utils.ml" 139 5227 5254 "obc/obc_utils.ml" 139 5227 5256
+)
+"obc/obc_utils.ml" 141 5312 5339 "obc/obc_utils.ml" 141 5312 5347
+type(
+  (Obc.method_def -> Obc.method_def) ->
+  Obc.method_def list -> Obc.method_def list
+)
+ident(
+  ext_ref List.map
+)
+"obc/obc_utils.ml" 141 5312 5348 "obc/obc_utils.ml" 141 5312 5349
+type(
+  Obc.method_def -> Obc.method_def
+)
+ident(
+  int_ref f "obc/obc_utils.ml" 140 5259 5265 "obc/obc_utils.ml" 140 5259 5266
+)
+"obc/obc_utils.ml" 141 5312 5350 "obc/obc_utils.ml" 141 5312 5352
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_utils.ml" 139 5227 5254 "obc/obc_utils.ml" 139 5227 5256
+)
+"obc/obc_utils.ml" 141 5312 5350 "obc/obc_utils.ml" 141 5312 5363
+type(
+  Obc.method_def list
+)
+"obc/obc_utils.ml" 141 5312 5339 "obc/obc_utils.ml" 141 5312 5363
+call(
+  stack
+)
+type(
+  Obc.method_def list
+)
+"obc/obc_utils.ml" 141 5312 5316 "obc/obc_utils.ml" 141 5312 5365
+type(
+  Obc.class_def
+)
+"obc/obc_utils.ml" 140 5259 5261 "obc/obc_utils.ml" 141 5312 5365
+type(
+  Obc.class_def
+)
+"obc/obc_utils.ml" 143 5367 5371 "obc/obc_utils.ml" 143 5367 5383
+type(
+  Obc.obj_ref -> Obc.obj_ident
+)
+ident(
+  def obj_ref_name "obc/obc_utils.ml" 148 5448 5448 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 143 5367 5384 "obc/obc_utils.ml" 143 5367 5385
+type(
+  Obc.obj_ref
+)
+ident(
+  def o "obc/obc_utils.ml" 144 5388 5390 "obc/obc_utils.ml" 146 5418 5446
+)
+"obc/obc_utils.ml" 144 5388 5396 "obc/obc_utils.ml" 144 5388 5397
+type(
+  Obc.obj_ref
+)
+ident(
+  int_ref o "obc/obc_utils.ml" 143 5367 5384 "obc/obc_utils.ml" 143 5367 5385
+)
+"obc/obc_utils.ml" 145 5403 5414 "obc/obc_utils.ml" 145 5403 5417
+type(
+  Obc.obj_ident
+)
+ident(
+  def obj "obc/obc_utils.ml" 146 5418 5443 "obc/obc_utils.ml" 146 5418 5446
+)
+"obc/obc_utils.ml" 145 5403 5409 "obc/obc_utils.ml" 145 5403 5417
+type(
+  Obc.obj_ref
+)
+"obc/obc_utils.ml" 146 5418 5432 "obc/obc_utils.ml" 146 5418 5435
+type(
+  Obc.obj_ident
+)
+ident(
+  def obj "obc/obc_utils.ml" 146 5418 5443 "obc/obc_utils.ml" 146 5418 5446
+)
+"obc/obc_utils.ml" 146 5418 5437 "obc/obc_utils.ml" 146 5418 5438
+type(
+  Obc.pattern list
+)
+"obc/obc_utils.ml" 146 5418 5424 "obc/obc_utils.ml" 146 5418 5439
+type(
+  Obc.obj_ref
+)
+"obc/obc_utils.ml" 145 5403 5409 "obc/obc_utils.ml" 146 5418 5439
+type(
+  Obc.obj_ref
+)
+"obc/obc_utils.ml" 146 5418 5443 "obc/obc_utils.ml" 146 5418 5446
+type(
+  Obc.obj_ident
+)
+ident(
+  int_ref obj "obc/obc_utils.ml" 145 5403 5414 "obc/obc_utils.ml" 145 5403 5417
+)
+"obc/obc_utils.ml" 144 5388 5390 "obc/obc_utils.ml" 146 5418 5446
+type(
+  Obc.obj_ident
+)
+"obc/obc_utils.ml" 148 5448 5456 "obc/obc_utils.ml" 148 5448 5464
+type(
+  Obc.obj_ident -> Obc.obj_dec list -> Signature.node
+)
+ident(
+  def find_obj "obc/obc_utils.ml" 148 5448 5448 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 148 5448 5465 "obc/obc_utils.ml" 148 5448 5466
+type(
+  Obc.obj_ident
+)
+ident(
+  def o "obc/obc_utils.ml" 148 5448 5467 "obc/obc_utils.ml" 154 5595 5613
+)
+"obc/obc_utils.ml" 148 5448 5467 "obc/obc_utils.ml" 148 5448 5468
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/obc_utils.ml" 148 5448 5471 "obc/obc_utils.ml" 154 5595 5613
+)
+"obc/obc_utils.ml" 148 5448 5477 "obc/obc_utils.ml" 148 5448 5478
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/obc_utils.ml" 148 5448 5467 "obc/obc_utils.ml" 148 5448 5468
+)
+"obc/obc_utils.ml" 149 5484 5488 "obc/obc_utils.ml" 149 5484 5490
+type(
+  Obc.obj_dec list
+)
+"obc/obc_utils.ml" 149 5484 5501 "obc/obc_utils.ml" 149 5484 5506
+type(
+  bool
+)
+"obc/obc_utils.ml" 149 5484 5494 "obc/obc_utils.ml" 149 5484 5506
+type(
+  Signature.node
+)
+"obc/obc_utils.ml" 150 5507 5511 "obc/obc_utils.ml" 150 5507 5514
+type(
+  Obc.obj_dec
+)
+ident(
+  def obj "obc/obc_utils.ml" 151 5521 5525 "obc/obc_utils.ml" 154 5595 5613
+)
+"obc/obc_utils.ml" 150 5507 5516 "obc/obc_utils.ml" 150 5507 5517
+type(
+  Obc.obj_dec list
+)
+ident(
+  def j "obc/obc_utils.ml" 151 5521 5525 "obc/obc_utils.ml" 154 5595 5613
+)
+"obc/obc_utils.ml" 150 5507 5511 "obc/obc_utils.ml" 150 5507 5517
+type(
+  Obc.obj_dec list
+)
+"obc/obc_utils.ml" 151 5521 5528 "obc/obc_utils.ml" 151 5521 5529
+type(
+  Obc.obj_ident
+)
+ident(
+  int_ref o "obc/obc_utils.ml" 148 5448 5465 "obc/obc_utils.ml" 148 5448 5466
+)
+"obc/obc_utils.ml" 151 5521 5530 "obc/obc_utils.ml" 151 5521 5531
+type(
+  Obc.obj_ident -> Obc.obj_ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"obc/obc_utils.ml" 151 5521 5532 "obc/obc_utils.ml" 151 5521 5535
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref obj "obc/obc_utils.ml" 150 5507 5511 "obc/obc_utils.ml" 150 5507 5514
+)
+"obc/obc_utils.ml" 151 5521 5532 "obc/obc_utils.ml" 151 5521 5543
+type(
+  Obc.obj_ident
+)
+"obc/obc_utils.ml" 151 5521 5528 "obc/obc_utils.ml" 151 5521 5543
+type(
+  bool
+)
+"obc/obc_utils.ml" 152 5549 5555 "obc/obc_utils.ml" 152 5549 5573
+type(
+  Names.QualEnv.key -> Signature.node
+)
+ident(
+  ext_ref Modules.find_value
+)
+"obc/obc_utils.ml" 152 5549 5574 "obc/obc_utils.ml" 152 5549 5577
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref obj "obc/obc_utils.ml" 150 5507 5511 "obc/obc_utils.ml" 150 5507 5514
+)
+"obc/obc_utils.ml" 152 5549 5574 "obc/obc_utils.ml" 152 5549 5585
+type(
+  Obc.class_name
+)
+"obc/obc_utils.ml" 152 5549 5555 "obc/obc_utils.ml" 152 5549 5585
+call(
+  tail
+)
+type(
+  Signature.node
+)
+"obc/obc_utils.ml" 154 5595 5601 "obc/obc_utils.ml" 154 5595 5609
+type(
+  Obc.obj_ident -> Obc.obj_dec list -> Signature.node
+)
+ident(
+  int_ref find_obj "obc/obc_utils.ml" 148 5448 5456 "obc/obc_utils.ml" 148 5448 5464
+)
+"obc/obc_utils.ml" 154 5595 5610 "obc/obc_utils.ml" 154 5595 5611
+type(
+  Obc.obj_ident
+)
+ident(
+  int_ref o "obc/obc_utils.ml" 148 5448 5465 "obc/obc_utils.ml" 148 5448 5466
+)
+"obc/obc_utils.ml" 154 5595 5612 "obc/obc_utils.ml" 154 5595 5613
+type(
+  Obc.obj_dec list
+)
+ident(
+  int_ref j "obc/obc_utils.ml" 150 5507 5516 "obc/obc_utils.ml" 150 5507 5517
+)
+"obc/obc_utils.ml" 154 5595 5601 "obc/obc_utils.ml" 154 5595 5613
+call(
+  tail
+)
+type(
+  Signature.node
+)
+"obc/obc_utils.ml" 151 5521 5525 "obc/obc_utils.ml" 154 5595 5613
+type(
+  Signature.node
+)
+"obc/obc_utils.ml" 148 5448 5471 "obc/obc_utils.ml" 154 5595 5613
+type(
+  Signature.node
+)
+"obc/obc_utils.ml" 157 5687 5691 "obc/obc_utils.ml" 157 5687 5704
+type(
+  Obc.block -> Obc.block
+)
+ident(
+  def remove_resets "obc/obc_utils.ml" 172 6065 6065 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 157 5687 5705 "obc/obc_utils.ml" 157 5687 5706
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_utils.ml" 158 5709 5711 "obc/obc_utils.ml" 169 6059 6062
+)
+"obc/obc_utils.ml" 158 5709 5715 "obc/obc_utils.ml" 158 5709 5720
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.block -> Obc.block * unit
+)
+ident(
+  def block "obc/obc_utils.ml" 167 5965 5967 "obc/obc_utils.ml" 169 6059 6062
+)
+"obc/obc_utils.ml" 158 5709 5721 "obc/obc_utils.ml" 158 5709 5725
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 158 5709 5726 "obc/obc_utils.ml" 165 5950 5959
+)
+"obc/obc_utils.ml" 158 5709 5726 "obc/obc_utils.ml" 158 5709 5728
+type(
+  unit
+)
+"obc/obc_utils.ml" 158 5709 5729 "obc/obc_utils.ml" 158 5709 5730
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_utils.ml" 159 5733 5737 "obc/obc_utils.ml" 165 5950 5959
+)
+"obc/obc_utils.ml" 159 5733 5741 "obc/obc_utils.ml" 159 5733 5742
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_utils.ml" 160 5780 5784 "obc/obc_utils.ml" 165 5950 5959
+)
+"obc/obc_utils.ml" 159 5733 5744 "obc/obc_utils.ml" 159 5733 5746
+type(
+  unit
+)
+"obc/obc_utils.ml" 159 5733 5741 "obc/obc_utils.ml" 159 5733 5746
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 159 5733 5749 "obc/obc_utils.ml" 159 5733 5766
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.block -> Obc.block * unit
+)
+ident(
+  ext_ref Obc_mapfold.block
+)
+"obc/obc_utils.ml" 159 5733 5767 "obc/obc_utils.ml" 159 5733 5771
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 158 5709 5721 "obc/obc_utils.ml" 158 5709 5725
+)
+"obc/obc_utils.ml" 159 5733 5772 "obc/obc_utils.ml" 159 5733 5774
+type(
+  unit
+)
+"obc/obc_utils.ml" 159 5733 5775 "obc/obc_utils.ml" 159 5733 5776
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 158 5709 5729 "obc/obc_utils.ml" 158 5709 5730
+)
+"obc/obc_utils.ml" 159 5733 5749 "obc/obc_utils.ml" 159 5733 5776
+call(
+  stack
+)
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 160 5780 5788 "obc/obc_utils.ml" 160 5780 5800
+type(
+  Obc.act -> bool
+)
+ident(
+  def is_not_reset "obc/obc_utils.ml" 164 5881 5885 "obc/obc_utils.ml" 165 5950 5959
+)
+"obc/obc_utils.ml" 160 5780 5801 "obc/obc_utils.ml" 160 5780 5802
+type(
+  Obc.act
+)
+ident(
+  def a "obc/obc_utils.ml" 160 5780 5805 "obc/obc_utils.ml" 162 5856 5873
+)
+"obc/obc_utils.ml" 160 5780 5811 "obc/obc_utils.ml" 160 5780 5812
+type(
+  Obc.act
+)
+ident(
+  int_ref a "obc/obc_utils.ml" 160 5780 5801 "obc/obc_utils.ml" 160 5780 5802
+)
+"obc/obc_utils.ml" 161 5818 5833 "obc/obc_utils.ml" 161 5818 5834
+type(
+  Obc.pattern list
+)
+"obc/obc_utils.ml" 161 5818 5835 "obc/obc_utils.ml" 161 5818 5836
+type(
+  Obc.obj_ref
+)
+"obc/obc_utils.ml" 161 5818 5837 "obc/obc_utils.ml" 161 5818 5843
+type(
+  Obc.method_name
+)
+"obc/obc_utils.ml" 161 5818 5844 "obc/obc_utils.ml" 161 5818 5845
+type(
+  Obc.exp list
+)
+"obc/obc_utils.ml" 161 5818 5826 "obc/obc_utils.ml" 161 5818 5846
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 161 5818 5850 "obc/obc_utils.ml" 161 5818 5855
+type(
+  bool
+)
+"obc/obc_utils.ml" 162 5856 5864 "obc/obc_utils.ml" 162 5856 5865
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 162 5856 5869 "obc/obc_utils.ml" 162 5856 5873
+type(
+  bool
+)
+"obc/obc_utils.ml" 160 5780 5805 "obc/obc_utils.ml" 162 5856 5873
+type(
+  bool
+)
+"obc/obc_utils.ml" 164 5881 5889 "obc/obc_utils.ml" 164 5881 5890
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_utils.ml" 165 5950 5954 "obc/obc_utils.ml" 165 5950 5959
+)
+"obc/obc_utils.ml" 164 5881 5895 "obc/obc_utils.ml" 164 5881 5896
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 159 5733 5741 "obc/obc_utils.ml" 159 5733 5742
+)
+"obc/obc_utils.ml" 164 5881 5911 "obc/obc_utils.ml" 164 5881 5922
+type(
+  (Obc.act -> bool) -> Obc.act list -> Obc.act list
+)
+ident(
+  ext_ref List.filter
+)
+"obc/obc_utils.ml" 164 5881 5923 "obc/obc_utils.ml" 164 5881 5935
+type(
+  Obc.act -> bool
+)
+ident(
+  int_ref is_not_reset "obc/obc_utils.ml" 160 5780 5788 "obc/obc_utils.ml" 160 5780 5800
+)
+"obc/obc_utils.ml" 164 5881 5936 "obc/obc_utils.ml" 164 5881 5937
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 159 5733 5741 "obc/obc_utils.ml" 159 5733 5742
+)
+"obc/obc_utils.ml" 164 5881 5936 "obc/obc_utils.ml" 164 5881 5944
+type(
+  Obc.act list
+)
+"obc/obc_utils.ml" 164 5881 5911 "obc/obc_utils.ml" 164 5881 5944
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/obc_utils.ml" 164 5881 5893 "obc/obc_utils.ml" 164 5881 5946
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 165 5950 5954 "obc/obc_utils.ml" 165 5950 5955
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 164 5881 5889 "obc/obc_utils.ml" 164 5881 5890
+)
+"obc/obc_utils.ml" 165 5950 5957 "obc/obc_utils.ml" 165 5950 5959
+type(
+  unit
+)
+"obc/obc_utils.ml" 165 5950 5954 "obc/obc_utils.ml" 165 5950 5959
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 164 5881 5885 "obc/obc_utils.ml" 165 5950 5959
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 160 5780 5784 "obc/obc_utils.ml" 165 5950 5959
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 159 5733 5737 "obc/obc_utils.ml" 165 5950 5959
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 167 5965 5971 "obc/obc_utils.ml" 167 5965 5975
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 168 6025 6027 "obc/obc_utils.ml" 169 6059 6062
+)
+"obc/obc_utils.ml" 167 5965 5980 "obc/obc_utils.ml" 167 5965 6000
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/obc_utils.ml" 167 5965 6014 "obc/obc_utils.ml" 167 5965 6019
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.block -> Obc.block * unit
+)
+ident(
+  int_ref block "obc/obc_utils.ml" 158 5709 5715 "obc/obc_utils.ml" 158 5709 5720
+)
+"obc/obc_utils.ml" 167 5965 5978 "obc/obc_utils.ml" 167 5965 6021
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+"obc/obc_utils.ml" 168 6025 6031 "obc/obc_utils.ml" 168 6025 6032
+type(
+  Obc.block
+)
+ident(
+  def b "obc/obc_utils.ml" 169 6059 6061 "obc/obc_utils.ml" 169 6059 6062
+)
+"obc/obc_utils.ml" 168 6025 6033 "obc/obc_utils.ml" 168 6025 6034
+type(
+  unit
+)
+"obc/obc_utils.ml" 168 6025 6031 "obc/obc_utils.ml" 168 6025 6034
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 168 6025 6037 "obc/obc_utils.ml" 168 6025 6045
+type(
+  unit Obc_mapfold.obc_it_funs -> unit -> Obc.block -> Obc.block * unit
+)
+ident(
+  ext_ref Obc_mapfold.block_it
+)
+"obc/obc_utils.ml" 168 6025 6046 "obc/obc_utils.ml" 168 6025 6050
+type(
+  unit Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 167 5965 5971 "obc/obc_utils.ml" 167 5965 5975
+)
+"obc/obc_utils.ml" 168 6025 6051 "obc/obc_utils.ml" 168 6025 6053
+type(
+  unit
+)
+"obc/obc_utils.ml" 168 6025 6054 "obc/obc_utils.ml" 168 6025 6055
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 157 5687 5705 "obc/obc_utils.ml" 157 5687 5706
+)
+"obc/obc_utils.ml" 168 6025 6037 "obc/obc_utils.ml" 168 6025 6055
+call(
+  stack
+)
+type(
+  Obc.block * unit
+)
+"obc/obc_utils.ml" 169 6059 6061 "obc/obc_utils.ml" 169 6059 6062
+type(
+  Obc.block
+)
+ident(
+  int_ref b "obc/obc_utils.ml" 168 6025 6031 "obc/obc_utils.ml" 168 6025 6032
+)
+"obc/obc_utils.ml" 168 6025 6027 "obc/obc_utils.ml" 169 6059 6062
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 167 5965 5967 "obc/obc_utils.ml" 169 6059 6062
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 158 5709 5711 "obc/obc_utils.ml" 169 6059 6062
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+type(
+  Names.ModulSet.t -> Names.qualname -> Names.ModulSet.t
+)
+ident(
+  def deps_longname "obc/obc_utils.ml" 179 6212 6214 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 175 6087 6107 "obc/obc_utils.ml" 175 6087 6111
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 175 6087 6112 "obc/obc_utils.ml" 177 6195 6210
+)
+"obc/obc_utils.ml" 175 6087 6112 "obc/obc_utils.ml" 175 6087 6114
+type(
+  Names.qualname
+)
+ident(
+  def qn "obc/obc_utils.ml" 175 6087 6117 "obc/obc_utils.ml" 177 6195 6210
+)
+"obc/obc_utils.ml" 175 6087 6123 "obc/obc_utils.ml" 175 6087 6125
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/obc_utils.ml" 175 6087 6112 "obc/obc_utils.ml" 175 6087 6114
+)
+"obc/obc_utils.ml" 175 6087 6123 "obc/obc_utils.ml" 175 6087 6130
+type(
+  Names.modul
+)
+"obc/obc_utils.ml" 176 6136 6149 "obc/obc_utils.ml" 176 6136 6150
+type(
+  Names.module_name
+)
+"obc/obc_utils.ml" 176 6136 6142 "obc/obc_utils.ml" 176 6136 6150
+type(
+  Names.modul
+)
+"obc/obc_utils.ml" 176 6136 6164 "obc/obc_utils.ml" 176 6136 6165
+type(
+  Names.qualname
+)
+"obc/obc_utils.ml" 176 6136 6153 "obc/obc_utils.ml" 176 6136 6165
+type(
+  Names.modul
+)
+"obc/obc_utils.ml" 176 6136 6142 "obc/obc_utils.ml" 176 6136 6165
+type(
+  Names.modul
+)
+"obc/obc_utils.ml" 176 6136 6169 "obc/obc_utils.ml" 176 6136 6181
+type(
+  Names.ModulSet.elt -> Names.ModulSet.t -> Names.ModulSet.t
+)
+ident(
+  ext_ref Names.ModulSet.add
+)
+"obc/obc_utils.ml" 176 6136 6182 "obc/obc_utils.ml" 176 6136 6184
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/obc_utils.ml" 175 6087 6112 "obc/obc_utils.ml" 175 6087 6114
+)
+"obc/obc_utils.ml" 176 6136 6182 "obc/obc_utils.ml" 176 6136 6189
+type(
+  Names.ModulSet.elt
+)
+"obc/obc_utils.ml" 176 6136 6190 "obc/obc_utils.ml" 176 6136 6194
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 175 6087 6107 "obc/obc_utils.ml" 175 6087 6111
+)
+"obc/obc_utils.ml" 176 6136 6169 "obc/obc_utils.ml" 176 6136 6194
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 177 6195 6201 "obc/obc_utils.ml" 177 6195 6202
+type(
+  Names.modul
+)
+"obc/obc_utils.ml" 177 6195 6206 "obc/obc_utils.ml" 177 6195 6210
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 175 6087 6107 "obc/obc_utils.ml" 175 6087 6111
+)
+"obc/obc_utils.ml" 175 6087 6117 "obc/obc_utils.ml" 177 6195 6210
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 179 6212 6218 "obc/obc_utils.ml" 179 6212 6225
+type(
+  'a -> Names.ModulSet.t -> Types.ty -> Types.ty * Names.ModulSet.t
+)
+ident(
+  def deps_ty "obc/obc_utils.ml" 183 6328 6330 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 179 6212 6226 "obc/obc_utils.ml" 179 6212 6227
+type(
+  'a
+)
+"obc/obc_utils.ml" 179 6212 6228 "obc/obc_utils.ml" 179 6212 6232
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 179 6212 6233 "obc/obc_utils.ml" 181 6294 6326
+)
+"obc/obc_utils.ml" 179 6212 6233 "obc/obc_utils.ml" 179 6212 6235
+type(
+  Types.ty
+)
+ident(
+  def ty "obc/obc_utils.ml" 179 6212 6238 "obc/obc_utils.ml" 181 6294 6326
+)
+"obc/obc_utils.ml" 179 6212 6244 "obc/obc_utils.ml" 179 6212 6246
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 179 6212 6233 "obc/obc_utils.ml" 179 6212 6235
+)
+"obc/obc_utils.ml" 180 6252 6262 "obc/obc_utils.ml" 180 6252 6264
+type(
+  Names.type_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 180 6252 6268 "obc/obc_utils.ml" 180 6252 6293
+)
+"obc/obc_utils.ml" 180 6252 6258 "obc/obc_utils.ml" 180 6252 6264
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 180 6252 6268 "obc/obc_utils.ml" 180 6252 6270
+type(
+  Types.ty
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 179 6212 6233 "obc/obc_utils.ml" 179 6212 6235
+)
+"obc/obc_utils.ml" 180 6252 6272 "obc/obc_utils.ml" 180 6252 6285
+type(
+  Names.ModulSet.t -> Names.type_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 180 6252 6286 "obc/obc_utils.ml" 180 6252 6290
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 179 6212 6228 "obc/obc_utils.ml" 179 6212 6232
+)
+"obc/obc_utils.ml" 180 6252 6291 "obc/obc_utils.ml" 180 6252 6293
+type(
+  Names.type_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 180 6252 6262 "obc/obc_utils.ml" 180 6252 6264
+)
+"obc/obc_utils.ml" 180 6252 6272 "obc/obc_utils.ml" 180 6252 6293
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 180 6252 6268 "obc/obc_utils.ml" 180 6252 6293
+type(
+  Types.ty * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 181 6294 6300 "obc/obc_utils.ml" 181 6294 6301
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 181 6294 6305 "obc/obc_utils.ml" 181 6294 6310
+type(
+  exn -> Types.ty * Names.ModulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 181 6294 6311 "obc/obc_utils.ml" 181 6294 6326
+type(
+  exn
+)
+"obc/obc_utils.ml" 181 6294 6305 "obc/obc_utils.ml" 181 6294 6326
+type(
+  Types.ty * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 179 6212 6238 "obc/obc_utils.ml" 181 6294 6326
+type(
+  Types.ty * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 183 6328 6334 "obc/obc_utils.ml" 183 6328 6354
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t ->
+  Types.static_exp_desc -> Types.static_exp_desc * Names.ModulSet.t
+)
+ident(
+  def deps_static_exp_desc "obc/obc_utils.ml" 194 6800 6802 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 183 6328 6355 "obc/obc_utils.ml" 183 6328 6359
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 183 6328 6360 "obc/obc_utils.ml" 192 6764 6798
+)
+"obc/obc_utils.ml" 183 6328 6360 "obc/obc_utils.ml" 183 6328 6364
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 183 6328 6365 "obc/obc_utils.ml" 192 6764 6798
+)
+"obc/obc_utils.ml" 183 6328 6365 "obc/obc_utils.ml" 183 6328 6371
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sedesc "obc/obc_utils.ml" 184 6374 6378 "obc/obc_utils.ml" 192 6764 6798
+)
+"obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+type(
+  Types.static_exp_desc
+)
+ident(
+  def sedesc "obc/obc_utils.ml" 185 6450 6454 "obc/obc_utils.ml" 192 6764 6798
+)
+"obc/obc_utils.ml" 184 6374 6391 "obc/obc_utils.ml" 184 6374 6395
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 185 6450 6454 "obc/obc_utils.ml" 192 6764 6798
+)
+"obc/obc_utils.ml" 184 6374 6382 "obc/obc_utils.ml" 184 6374 6396
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 184 6374 6399 "obc/obc_utils.ml" 184 6374 6429
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t ->
+  Types.static_exp_desc -> Types.static_exp_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Global_mapfold.static_exp_desc
+)
+"obc/obc_utils.ml" 184 6374 6430 "obc/obc_utils.ml" 184 6374 6434
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 183 6328 6355 "obc/obc_utils.ml" 183 6328 6359
+)
+"obc/obc_utils.ml" 184 6374 6435 "obc/obc_utils.ml" 184 6374 6439
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 183 6328 6360 "obc/obc_utils.ml" 183 6328 6364
+)
+"obc/obc_utils.ml" 184 6374 6440 "obc/obc_utils.ml" 184 6374 6446
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 183 6328 6365 "obc/obc_utils.ml" 183 6328 6371
+)
+"obc/obc_utils.ml" 184 6374 6399 "obc/obc_utils.ml" 184 6374 6446
+call(
+  stack
+)
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 185 6450 6460 "obc/obc_utils.ml" 185 6450 6466
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+)
+"obc/obc_utils.ml" 186 6472 6485 "obc/obc_utils.ml" 186 6472 6487
+type(
+  Names.constant_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 186 6472 6491 "obc/obc_utils.ml" 186 6472 6522
+)
+"obc/obc_utils.ml" 186 6472 6480 "obc/obc_utils.ml" 186 6472 6487
+type(
+  Types.static_exp_desc
+)
+"obc/obc_utils.ml" 186 6472 6492 "obc/obc_utils.ml" 186 6472 6498
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+)
+"obc/obc_utils.ml" 186 6472 6500 "obc/obc_utils.ml" 186 6472 6513
+type(
+  Names.ModulSet.t -> Names.constant_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 186 6472 6514 "obc/obc_utils.ml" 186 6472 6518
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 184 6374 6391 "obc/obc_utils.ml" 184 6374 6395
+)
+"obc/obc_utils.ml" 186 6472 6519 "obc/obc_utils.ml" 186 6472 6521
+type(
+  Names.constant_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 186 6472 6485 "obc/obc_utils.ml" 186 6472 6487
+)
+"obc/obc_utils.ml" 186 6472 6500 "obc/obc_utils.ml" 186 6472 6521
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 186 6472 6491 "obc/obc_utils.ml" 186 6472 6522
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 187 6523 6544 "obc/obc_utils.ml" 187 6523 6546
+type(
+  Names.constructor_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 187 6523 6550 "obc/obc_utils.ml" 187 6523 6581
+)
+"obc/obc_utils.ml" 187 6523 6531 "obc/obc_utils.ml" 187 6523 6546
+type(
+  Types.static_exp_desc
+)
+"obc/obc_utils.ml" 187 6523 6551 "obc/obc_utils.ml" 187 6523 6557
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+)
+"obc/obc_utils.ml" 187 6523 6559 "obc/obc_utils.ml" 187 6523 6572
+type(
+  Names.ModulSet.t -> Names.constructor_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 187 6523 6573 "obc/obc_utils.ml" 187 6523 6577
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 184 6374 6391 "obc/obc_utils.ml" 184 6374 6395
+)
+"obc/obc_utils.ml" 187 6523 6578 "obc/obc_utils.ml" 187 6523 6580
+type(
+  Names.constructor_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 187 6523 6544 "obc/obc_utils.ml" 187 6523 6546
+)
+"obc/obc_utils.ml" 187 6523 6559 "obc/obc_utils.ml" 187 6523 6580
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 187 6523 6550 "obc/obc_utils.ml" 187 6523 6581
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 188 6582 6598 "obc/obc_utils.ml" 188 6582 6602
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  def fnel "obc/obc_utils.ml" 189 6606 6614 "obc/obc_utils.ml" 190 6662 6708
+)
+"obc/obc_utils.ml" 188 6582 6590 "obc/obc_utils.ml" 188 6582 6602
+type(
+  Types.static_exp_desc
+)
+"obc/obc_utils.ml" 189 6606 6618 "obc/obc_utils.ml" 189 6606 6621
+type(
+  Names.ModulSet.t -> Names.qualname * 'b -> Names.ModulSet.t
+)
+ident(
+  def add "obc/obc_utils.ml" 190 6662 6670 "obc/obc_utils.ml" 190 6662 6708
+)
+"obc/obc_utils.ml" 189 6606 6622 "obc/obc_utils.ml" 189 6606 6626
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 189 6606 6627 "obc/obc_utils.ml" 189 6606 6658
+)
+"obc/obc_utils.ml" 189 6606 6628 "obc/obc_utils.ml" 189 6606 6630
+type(
+  Names.qualname
+)
+ident(
+  def ln "obc/obc_utils.ml" 189 6606 6637 "obc/obc_utils.ml" 189 6606 6658
+)
+"obc/obc_utils.ml" 189 6606 6632 "obc/obc_utils.ml" 189 6606 6633
+type(
+  'b
+)
+"obc/obc_utils.ml" 189 6606 6627 "obc/obc_utils.ml" 189 6606 6634
+type(
+  Names.qualname * 'b
+)
+"obc/obc_utils.ml" 189 6606 6637 "obc/obc_utils.ml" 189 6606 6650
+type(
+  Names.ModulSet.t -> Names.qualname -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 189 6606 6651 "obc/obc_utils.ml" 189 6606 6655
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 189 6606 6622 "obc/obc_utils.ml" 189 6606 6626
+)
+"obc/obc_utils.ml" 189 6606 6656 "obc/obc_utils.ml" 189 6606 6658
+type(
+  Names.qualname
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 189 6606 6628 "obc/obc_utils.ml" 189 6606 6630
+)
+"obc/obc_utils.ml" 189 6606 6637 "obc/obc_utils.ml" 189 6606 6658
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 190 6662 6671 "obc/obc_utils.ml" 190 6662 6677
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+)
+"obc/obc_utils.ml" 190 6662 6679 "obc/obc_utils.ml" 190 6662 6693
+type(
+  (Names.ModulSet.t ->
+   Names.field_name * Types.static_exp -> Names.ModulSet.t) ->
+  Names.ModulSet.t ->
+  (Names.field_name * Types.static_exp) list -> Names.ModulSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/obc_utils.ml" 190 6662 6694 "obc/obc_utils.ml" 190 6662 6697
+type(
+  Names.ModulSet.t -> Names.field_name * Types.static_exp -> Names.ModulSet.t
+)
+ident(
+  int_ref add "obc/obc_utils.ml" 189 6606 6618 "obc/obc_utils.ml" 189 6606 6621
+)
+"obc/obc_utils.ml" 190 6662 6698 "obc/obc_utils.ml" 190 6662 6702
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 184 6374 6391 "obc/obc_utils.ml" 184 6374 6395
+)
+"obc/obc_utils.ml" 190 6662 6703 "obc/obc_utils.ml" 190 6662 6707
+type(
+  (Names.field_name * Types.static_exp) list
+)
+ident(
+  int_ref fnel "obc/obc_utils.ml" 188 6582 6598 "obc/obc_utils.ml" 188 6582 6602
+)
+"obc/obc_utils.ml" 190 6662 6679 "obc/obc_utils.ml" 190 6662 6707
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 190 6662 6670 "obc/obc_utils.ml" 190 6662 6708
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 189 6606 6614 "obc/obc_utils.ml" 190 6662 6708
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 191 6709 6722 "obc/obc_utils.ml" 191 6709 6724
+type(
+  Names.fun_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 191 6709 6732 "obc/obc_utils.ml" 191 6709 6763
+)
+"obc/obc_utils.ml" 191 6709 6726 "obc/obc_utils.ml" 191 6709 6727
+type(
+  Types.static_exp list
+)
+"obc/obc_utils.ml" 191 6709 6717 "obc/obc_utils.ml" 191 6709 6728
+type(
+  Types.static_exp_desc
+)
+"obc/obc_utils.ml" 191 6709 6733 "obc/obc_utils.ml" 191 6709 6739
+type(
+  Types.static_exp_desc
+)
+ident(
+  int_ref sedesc "obc/obc_utils.ml" 184 6374 6383 "obc/obc_utils.ml" 184 6374 6389
+)
+"obc/obc_utils.ml" 191 6709 6741 "obc/obc_utils.ml" 191 6709 6754
+type(
+  Names.ModulSet.t -> Names.fun_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 191 6709 6755 "obc/obc_utils.ml" 191 6709 6759
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 184 6374 6391 "obc/obc_utils.ml" 184 6374 6395
+)
+"obc/obc_utils.ml" 191 6709 6760 "obc/obc_utils.ml" 191 6709 6762
+type(
+  Names.fun_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 191 6709 6722 "obc/obc_utils.ml" 191 6709 6724
+)
+"obc/obc_utils.ml" 191 6709 6741 "obc/obc_utils.ml" 191 6709 6762
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 191 6709 6732 "obc/obc_utils.ml" 191 6709 6763
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 192 6764 6772 "obc/obc_utils.ml" 192 6764 6773
+type(
+  Types.static_exp_desc
+)
+"obc/obc_utils.ml" 192 6764 6777 "obc/obc_utils.ml" 192 6764 6782
+type(
+  exn -> Types.static_exp_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 192 6764 6783 "obc/obc_utils.ml" 192 6764 6798
+type(
+  exn
+)
+"obc/obc_utils.ml" 192 6764 6777 "obc/obc_utils.ml" 192 6764 6798
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 185 6450 6454 "obc/obc_utils.ml" 192 6764 6798
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 184 6374 6378 "obc/obc_utils.ml" 192 6764 6798
+type(
+  Types.static_exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 194 6800 6806 "obc/obc_utils.ml" 194 6800 6818
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.pat_desc -> Obc.pat_desc * Names.ModulSet.t
+)
+ident(
+  def deps_lhsdesc "obc/obc_utils.ml" 200 7014 7016 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 194 6800 6819 "obc/obc_utils.ml" 194 6800 6823
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 194 6800 6824 "obc/obc_utils.ml" 198 6978 7012
+)
+"obc/obc_utils.ml" 194 6800 6824 "obc/obc_utils.ml" 194 6800 6828
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 194 6800 6829 "obc/obc_utils.ml" 198 6978 7012
+)
+"obc/obc_utils.ml" 194 6800 6829 "obc/obc_utils.ml" 194 6800 6834
+type(
+  Obc.pat_desc
+)
+ident(
+  def ldesc "obc/obc_utils.ml" 195 6837 6841 "obc/obc_utils.ml" 198 6978 7012
+)
+"obc/obc_utils.ml" 195 6837 6846 "obc/obc_utils.ml" 195 6837 6851
+type(
+  Obc.pat_desc
+)
+ident(
+  def ldesc "obc/obc_utils.ml" 196 6900 6904 "obc/obc_utils.ml" 198 6978 7012
+)
+"obc/obc_utils.ml" 195 6837 6853 "obc/obc_utils.ml" 195 6837 6857
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 196 6900 6904 "obc/obc_utils.ml" 198 6978 7012
+)
+"obc/obc_utils.ml" 195 6837 6845 "obc/obc_utils.ml" 195 6837 6858
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 195 6837 6861 "obc/obc_utils.ml" 195 6837 6880
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.pat_desc -> Obc.pat_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.lhsdesc
+)
+"obc/obc_utils.ml" 195 6837 6881 "obc/obc_utils.ml" 195 6837 6885
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 194 6800 6819 "obc/obc_utils.ml" 194 6800 6823
+)
+"obc/obc_utils.ml" 195 6837 6886 "obc/obc_utils.ml" 195 6837 6890
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 194 6800 6824 "obc/obc_utils.ml" 194 6800 6828
+)
+"obc/obc_utils.ml" 195 6837 6891 "obc/obc_utils.ml" 195 6837 6896
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ldesc "obc/obc_utils.ml" 194 6800 6829 "obc/obc_utils.ml" 194 6800 6834
+)
+"obc/obc_utils.ml" 195 6837 6861 "obc/obc_utils.ml" 195 6837 6896
+call(
+  stack
+)
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 196 6900 6910 "obc/obc_utils.ml" 196 6900 6915
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ldesc "obc/obc_utils.ml" 195 6837 6846 "obc/obc_utils.ml" 195 6837 6851
+)
+"obc/obc_utils.ml" 197 6921 6937 "obc/obc_utils.ml" 197 6921 6938
+type(
+  Obc.pattern
+)
+"obc/obc_utils.ml" 197 6921 6940 "obc/obc_utils.ml" 197 6921 6942
+type(
+  Names.field_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 197 6921 6947 "obc/obc_utils.ml" 197 6921 6977
+)
+"obc/obc_utils.ml" 197 6921 6929 "obc/obc_utils.ml" 197 6921 6943
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 197 6921 6948 "obc/obc_utils.ml" 197 6921 6953
+type(
+  Obc.pat_desc
+)
+ident(
+  int_ref ldesc "obc/obc_utils.ml" 195 6837 6846 "obc/obc_utils.ml" 195 6837 6851
+)
+"obc/obc_utils.ml" 197 6921 6955 "obc/obc_utils.ml" 197 6921 6968
+type(
+  Names.ModulSet.t -> Names.field_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 197 6921 6969 "obc/obc_utils.ml" 197 6921 6973
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 195 6837 6853 "obc/obc_utils.ml" 195 6837 6857
+)
+"obc/obc_utils.ml" 197 6921 6974 "obc/obc_utils.ml" 197 6921 6976
+type(
+  Names.field_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 197 6921 6940 "obc/obc_utils.ml" 197 6921 6942
+)
+"obc/obc_utils.ml" 197 6921 6955 "obc/obc_utils.ml" 197 6921 6976
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 197 6921 6947 "obc/obc_utils.ml" 197 6921 6977
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 198 6978 6986 "obc/obc_utils.ml" 198 6978 6987
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 198 6978 6991 "obc/obc_utils.ml" 198 6978 6996
+type(
+  exn -> Obc.pat_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 198 6978 6997 "obc/obc_utils.ml" 198 6978 7012
+type(
+  exn
+)
+"obc/obc_utils.ml" 198 6978 6991 "obc/obc_utils.ml" 198 6978 7012
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 196 6900 6904 "obc/obc_utils.ml" 198 6978 7012
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 195 6837 6841 "obc/obc_utils.ml" 198 6978 7012
+type(
+  Obc.pat_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 200 7014 7020 "obc/obc_utils.ml" 200 7014 7030
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.exp_desc -> Obc.exp_desc * Names.ModulSet.t
+)
+ident(
+  def deps_edesc "obc/obc_utils.ml" 209 7372 7374 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 200 7014 7031 "obc/obc_utils.ml" 200 7014 7035
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 200 7014 7036 "obc/obc_utils.ml" 207 7336 7370
+)
+"obc/obc_utils.ml" 200 7014 7036 "obc/obc_utils.ml" 200 7014 7040
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 200 7014 7041 "obc/obc_utils.ml" 207 7336 7370
+)
+"obc/obc_utils.ml" 200 7014 7041 "obc/obc_utils.ml" 200 7014 7046
+type(
+  Obc.exp_desc
+)
+ident(
+  def edesc "obc/obc_utils.ml" 201 7049 7053 "obc/obc_utils.ml" 207 7336 7370
+)
+"obc/obc_utils.ml" 201 7049 7058 "obc/obc_utils.ml" 201 7049 7063
+type(
+  Obc.exp_desc
+)
+ident(
+  def edesc "obc/obc_utils.ml" 202 7110 7114 "obc/obc_utils.ml" 207 7336 7370
+)
+"obc/obc_utils.ml" 201 7049 7065 "obc/obc_utils.ml" 201 7049 7069
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 202 7110 7114 "obc/obc_utils.ml" 207 7336 7370
+)
+"obc/obc_utils.ml" 201 7049 7057 "obc/obc_utils.ml" 201 7049 7070
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 201 7049 7073 "obc/obc_utils.ml" 201 7049 7090
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.exp_desc -> Obc.exp_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.edesc
+)
+"obc/obc_utils.ml" 201 7049 7091 "obc/obc_utils.ml" 201 7049 7095
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 200 7014 7031 "obc/obc_utils.ml" 200 7014 7035
+)
+"obc/obc_utils.ml" 201 7049 7096 "obc/obc_utils.ml" 201 7049 7100
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 200 7014 7036 "obc/obc_utils.ml" 200 7014 7040
+)
+"obc/obc_utils.ml" 201 7049 7101 "obc/obc_utils.ml" 201 7049 7106
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref edesc "obc/obc_utils.ml" 200 7014 7041 "obc/obc_utils.ml" 200 7014 7046
+)
+"obc/obc_utils.ml" 201 7049 7073 "obc/obc_utils.ml" 201 7049 7106
+call(
+  stack
+)
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 202 7110 7120 "obc/obc_utils.ml" 202 7110 7125
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref edesc "obc/obc_utils.ml" 201 7049 7058 "obc/obc_utils.ml" 201 7049 7063
+)
+"obc/obc_utils.ml" 203 7131 7144 "obc/obc_utils.ml" 203 7131 7146
+type(
+  Obc.op_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 203 7131 7154 "obc/obc_utils.ml" 203 7131 7184
+)
+"obc/obc_utils.ml" 203 7131 7148 "obc/obc_utils.ml" 203 7131 7149
+type(
+  Obc.exp list
+)
+"obc/obc_utils.ml" 203 7131 7139 "obc/obc_utils.ml" 203 7131 7150
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 203 7131 7155 "obc/obc_utils.ml" 203 7131 7160
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref edesc "obc/obc_utils.ml" 201 7049 7058 "obc/obc_utils.ml" 201 7049 7063
+)
+"obc/obc_utils.ml" 203 7131 7162 "obc/obc_utils.ml" 203 7131 7175
+type(
+  Names.ModulSet.t -> Obc.op_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 203 7131 7176 "obc/obc_utils.ml" 203 7131 7180
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 201 7049 7065 "obc/obc_utils.ml" 201 7049 7069
+)
+"obc/obc_utils.ml" 203 7131 7181 "obc/obc_utils.ml" 203 7131 7183
+type(
+  Obc.op_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 203 7131 7144 "obc/obc_utils.ml" 203 7131 7146
+)
+"obc/obc_utils.ml" 203 7131 7162 "obc/obc_utils.ml" 203 7131 7183
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 203 7131 7154 "obc/obc_utils.ml" 203 7131 7184
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 204 7185 7202 "obc/obc_utils.ml" 204 7185 7204
+type(
+  Names.type_name
+)
+ident(
+  def ln "obc/obc_utils.ml" 205 7215 7223 "obc/obc_utils.ml" 206 7271 7335
+)
+"obc/obc_utils.ml" 204 7185 7206 "obc/obc_utils.ml" 204 7185 7210
+type(
+  (Names.field_name * Obc.exp) list
+)
+ident(
+  def fnel "obc/obc_utils.ml" 205 7215 7223 "obc/obc_utils.ml" 206 7271 7335
+)
+"obc/obc_utils.ml" 204 7185 7193 "obc/obc_utils.ml" 204 7185 7211
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 205 7215 7227 "obc/obc_utils.ml" 205 7215 7230
+type(
+  Names.ModulSet.t -> Names.qualname * 'c -> Names.ModulSet.t
+)
+ident(
+  def add "obc/obc_utils.ml" 206 7271 7279 "obc/obc_utils.ml" 206 7271 7335
+)
+"obc/obc_utils.ml" 205 7215 7231 "obc/obc_utils.ml" 205 7215 7235
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 205 7215 7236 "obc/obc_utils.ml" 205 7215 7267
+)
+"obc/obc_utils.ml" 205 7215 7237 "obc/obc_utils.ml" 205 7215 7239
+type(
+  Names.qualname
+)
+ident(
+  def ln "obc/obc_utils.ml" 205 7215 7246 "obc/obc_utils.ml" 205 7215 7267
+)
+"obc/obc_utils.ml" 205 7215 7241 "obc/obc_utils.ml" 205 7215 7242
+type(
+  'c
+)
+"obc/obc_utils.ml" 205 7215 7236 "obc/obc_utils.ml" 205 7215 7243
+type(
+  Names.qualname * 'c
+)
+"obc/obc_utils.ml" 205 7215 7246 "obc/obc_utils.ml" 205 7215 7259
+type(
+  Names.ModulSet.t -> Names.qualname -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 205 7215 7260 "obc/obc_utils.ml" 205 7215 7264
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 205 7215 7231 "obc/obc_utils.ml" 205 7215 7235
+)
+"obc/obc_utils.ml" 205 7215 7265 "obc/obc_utils.ml" 205 7215 7267
+type(
+  Names.qualname
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 205 7215 7237 "obc/obc_utils.ml" 205 7215 7239
+)
+"obc/obc_utils.ml" 205 7215 7246 "obc/obc_utils.ml" 205 7215 7267
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 206 7271 7280 "obc/obc_utils.ml" 206 7271 7285
+type(
+  Obc.exp_desc
+)
+ident(
+  int_ref edesc "obc/obc_utils.ml" 201 7049 7058 "obc/obc_utils.ml" 201 7049 7063
+)
+"obc/obc_utils.ml" 206 7271 7287 "obc/obc_utils.ml" 206 7271 7301
+type(
+  (Names.ModulSet.t -> Names.field_name * Obc.exp -> Names.ModulSet.t) ->
+  Names.ModulSet.t -> (Names.field_name * Obc.exp) list -> Names.ModulSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/obc_utils.ml" 206 7271 7302 "obc/obc_utils.ml" 206 7271 7305
+type(
+  Names.ModulSet.t -> Names.field_name * Obc.exp -> Names.ModulSet.t
+)
+ident(
+  int_ref add "obc/obc_utils.ml" 205 7215 7227 "obc/obc_utils.ml" 205 7215 7230
+)
+"obc/obc_utils.ml" 206 7271 7307 "obc/obc_utils.ml" 206 7271 7320
+type(
+  Names.ModulSet.t -> Names.type_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 206 7271 7321 "obc/obc_utils.ml" 206 7271 7325
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 201 7049 7065 "obc/obc_utils.ml" 201 7049 7069
+)
+"obc/obc_utils.ml" 206 7271 7326 "obc/obc_utils.ml" 206 7271 7328
+type(
+  Names.type_name
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 204 7185 7202 "obc/obc_utils.ml" 204 7185 7204
+)
+"obc/obc_utils.ml" 206 7271 7306 "obc/obc_utils.ml" 206 7271 7329
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 206 7271 7330 "obc/obc_utils.ml" 206 7271 7334
+type(
+  (Names.field_name * Obc.exp) list
+)
+ident(
+  int_ref fnel "obc/obc_utils.ml" 204 7185 7206 "obc/obc_utils.ml" 204 7185 7210
+)
+"obc/obc_utils.ml" 206 7271 7287 "obc/obc_utils.ml" 206 7271 7334
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 206 7271 7279 "obc/obc_utils.ml" 206 7271 7335
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 205 7215 7223 "obc/obc_utils.ml" 206 7271 7335
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 207 7336 7344 "obc/obc_utils.ml" 207 7336 7345
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 207 7336 7349 "obc/obc_utils.ml" 207 7336 7354
+type(
+  exn -> Obc.exp_desc * Names.ModulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 207 7336 7355 "obc/obc_utils.ml" 207 7336 7370
+type(
+  exn
+)
+"obc/obc_utils.ml" 207 7336 7349 "obc/obc_utils.ml" 207 7336 7370
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 202 7110 7114 "obc/obc_utils.ml" 207 7336 7370
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 201 7049 7053 "obc/obc_utils.ml" 207 7336 7370
+type(
+  Obc.exp_desc * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 209 7372 7378 "obc/obc_utils.ml" 209 7372 7386
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.act -> Obc.act * Names.ModulSet.t
+)
+ident(
+  def deps_act "obc/obc_utils.ml" 217 7638 7640 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 209 7372 7387 "obc/obc_utils.ml" 209 7372 7391
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 209 7372 7392 "obc/obc_utils.ml" 215 7602 7636
+)
+"obc/obc_utils.ml" 209 7372 7392 "obc/obc_utils.ml" 209 7372 7396
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 209 7372 7397 "obc/obc_utils.ml" 215 7602 7636
+)
+"obc/obc_utils.ml" 209 7372 7397 "obc/obc_utils.ml" 209 7372 7400
+type(
+  Obc.act
+)
+ident(
+  def act "obc/obc_utils.ml" 210 7403 7407 "obc/obc_utils.ml" 215 7602 7636
+)
+"obc/obc_utils.ml" 210 7403 7412 "obc/obc_utils.ml" 210 7403 7415
+type(
+  Obc.act
+)
+ident(
+  def act "obc/obc_utils.ml" 211 7458 7462 "obc/obc_utils.ml" 215 7602 7636
+)
+"obc/obc_utils.ml" 210 7403 7417 "obc/obc_utils.ml" 210 7403 7421
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 211 7458 7462 "obc/obc_utils.ml" 215 7602 7636
+)
+"obc/obc_utils.ml" 210 7403 7411 "obc/obc_utils.ml" 210 7403 7422
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 210 7403 7425 "obc/obc_utils.ml" 210 7403 7440
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.act -> Obc.act * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.act
+)
+"obc/obc_utils.ml" 210 7403 7441 "obc/obc_utils.ml" 210 7403 7445
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 209 7372 7387 "obc/obc_utils.ml" 209 7372 7391
+)
+"obc/obc_utils.ml" 210 7403 7446 "obc/obc_utils.ml" 210 7403 7450
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 209 7372 7392 "obc/obc_utils.ml" 209 7372 7396
+)
+"obc/obc_utils.ml" 210 7403 7451 "obc/obc_utils.ml" 210 7403 7454
+type(
+  Obc.act
+)
+ident(
+  int_ref act "obc/obc_utils.ml" 209 7372 7397 "obc/obc_utils.ml" 209 7372 7400
+)
+"obc/obc_utils.ml" 210 7403 7425 "obc/obc_utils.ml" 210 7403 7454
+call(
+  stack
+)
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 211 7458 7468 "obc/obc_utils.ml" 211 7458 7471
+type(
+  Obc.act
+)
+ident(
+  int_ref act "obc/obc_utils.ml" 210 7403 7412 "obc/obc_utils.ml" 210 7403 7415
+)
+"obc/obc_utils.ml" 212 7477 7492 "obc/obc_utils.ml" 212 7477 7493
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 212 7477 7495 "obc/obc_utils.ml" 212 7477 7498
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  def cbl "obc/obc_utils.ml" 213 7503 7511 "obc/obc_utils.ml" 214 7559 7601
+)
+"obc/obc_utils.ml" 212 7477 7485 "obc/obc_utils.ml" 212 7477 7499
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 213 7503 7515 "obc/obc_utils.ml" 213 7503 7518
+type(
+  Names.ModulSet.t -> Names.qualname * 'd -> Names.ModulSet.t
+)
+ident(
+  def add "obc/obc_utils.ml" 214 7559 7567 "obc/obc_utils.ml" 214 7559 7601
+)
+"obc/obc_utils.ml" 213 7503 7519 "obc/obc_utils.ml" 213 7503 7523
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 213 7503 7524 "obc/obc_utils.ml" 213 7503 7555
+)
+"obc/obc_utils.ml" 213 7503 7525 "obc/obc_utils.ml" 213 7503 7527
+type(
+  Names.qualname
+)
+ident(
+  def ln "obc/obc_utils.ml" 213 7503 7534 "obc/obc_utils.ml" 213 7503 7555
+)
+"obc/obc_utils.ml" 213 7503 7529 "obc/obc_utils.ml" 213 7503 7530
+type(
+  'd
+)
+"obc/obc_utils.ml" 213 7503 7524 "obc/obc_utils.ml" 213 7503 7531
+type(
+  Names.qualname * 'd
+)
+"obc/obc_utils.ml" 213 7503 7534 "obc/obc_utils.ml" 213 7503 7547
+type(
+  Names.ModulSet.t -> Names.qualname -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 213 7503 7548 "obc/obc_utils.ml" 213 7503 7552
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 213 7503 7519 "obc/obc_utils.ml" 213 7503 7523
+)
+"obc/obc_utils.ml" 213 7503 7553 "obc/obc_utils.ml" 213 7503 7555
+type(
+  Names.qualname
+)
+ident(
+  int_ref ln "obc/obc_utils.ml" 213 7503 7525 "obc/obc_utils.ml" 213 7503 7527
+)
+"obc/obc_utils.ml" 213 7503 7534 "obc/obc_utils.ml" 213 7503 7555
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 214 7559 7568 "obc/obc_utils.ml" 214 7559 7571
+type(
+  Obc.act
+)
+ident(
+  int_ref act "obc/obc_utils.ml" 210 7403 7412 "obc/obc_utils.ml" 210 7403 7415
+)
+"obc/obc_utils.ml" 214 7559 7573 "obc/obc_utils.ml" 214 7559 7587
+type(
+  (Names.ModulSet.t -> Names.constructor_name * Obc.block -> Names.ModulSet.t) ->
+  Names.ModulSet.t ->
+  (Names.constructor_name * Obc.block) list -> Names.ModulSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"obc/obc_utils.ml" 214 7559 7588 "obc/obc_utils.ml" 214 7559 7591
+type(
+  Names.ModulSet.t -> Names.constructor_name * Obc.block -> Names.ModulSet.t
+)
+ident(
+  int_ref add "obc/obc_utils.ml" 213 7503 7515 "obc/obc_utils.ml" 213 7503 7518
+)
+"obc/obc_utils.ml" 214 7559 7592 "obc/obc_utils.ml" 214 7559 7596
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 210 7403 7417 "obc/obc_utils.ml" 210 7403 7421
+)
+"obc/obc_utils.ml" 214 7559 7597 "obc/obc_utils.ml" 214 7559 7600
+type(
+  (Names.constructor_name * Obc.block) list
+)
+ident(
+  int_ref cbl "obc/obc_utils.ml" 212 7477 7495 "obc/obc_utils.ml" 212 7477 7498
+)
+"obc/obc_utils.ml" 214 7559 7573 "obc/obc_utils.ml" 214 7559 7600
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 214 7559 7567 "obc/obc_utils.ml" 214 7559 7601
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 213 7503 7511 "obc/obc_utils.ml" 214 7559 7601
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 215 7602 7610 "obc/obc_utils.ml" 215 7602 7611
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 215 7602 7615 "obc/obc_utils.ml" 215 7602 7620
+type(
+  exn -> Obc.act * Names.ModulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"obc/obc_utils.ml" 215 7602 7621 "obc/obc_utils.ml" 215 7602 7636
+type(
+  exn
+)
+"obc/obc_utils.ml" 215 7602 7615 "obc/obc_utils.ml" 215 7602 7636
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 211 7458 7462 "obc/obc_utils.ml" 215 7602 7636
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 210 7403 7407 "obc/obc_utils.ml" 215 7602 7636
+type(
+  Obc.act * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 217 7638 7644 "obc/obc_utils.ml" 217 7638 7656
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.obj_dec -> Obc.obj_dec * Names.ModulSet.t
+)
+ident(
+  def deps_obj_dec "obc/obc_utils.ml" 221 7770 7772 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 217 7638 7657 "obc/obc_utils.ml" 217 7638 7661
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 217 7638 7662 "obc/obc_utils.ml" 219 7729 7768
+)
+"obc/obc_utils.ml" 217 7638 7662 "obc/obc_utils.ml" 217 7638 7666
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 217 7638 7667 "obc/obc_utils.ml" 219 7729 7768
+)
+"obc/obc_utils.ml" 217 7638 7667 "obc/obc_utils.ml" 217 7638 7669
+type(
+  Obc.obj_dec
+)
+ident(
+  def od "obc/obc_utils.ml" 218 7672 7676 "obc/obc_utils.ml" 219 7729 7768
+)
+"obc/obc_utils.ml" 218 7672 7681 "obc/obc_utils.ml" 218 7672 7683
+type(
+  Obc.obj_dec
+)
+ident(
+  def od "obc/obc_utils.ml" 219 7729 7733 "obc/obc_utils.ml" 219 7729 7768
+)
+"obc/obc_utils.ml" 218 7672 7685 "obc/obc_utils.ml" 218 7672 7689
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 219 7729 7733 "obc/obc_utils.ml" 219 7729 7768
+)
+"obc/obc_utils.ml" 218 7672 7680 "obc/obc_utils.ml" 218 7672 7690
+type(
+  Obc.obj_dec * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 218 7672 7693 "obc/obc_utils.ml" 218 7672 7712
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.obj_dec -> Obc.obj_dec * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.obj_dec
+)
+"obc/obc_utils.ml" 218 7672 7713 "obc/obc_utils.ml" 218 7672 7717
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 217 7638 7657 "obc/obc_utils.ml" 217 7638 7661
+)
+"obc/obc_utils.ml" 218 7672 7718 "obc/obc_utils.ml" 218 7672 7722
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 217 7638 7662 "obc/obc_utils.ml" 217 7638 7666
+)
+"obc/obc_utils.ml" 218 7672 7723 "obc/obc_utils.ml" 218 7672 7725
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref od "obc/obc_utils.ml" 217 7638 7667 "obc/obc_utils.ml" 217 7638 7669
+)
+"obc/obc_utils.ml" 218 7672 7693 "obc/obc_utils.ml" 218 7672 7725
+call(
+  stack
+)
+type(
+  Obc.obj_dec * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 219 7729 7734 "obc/obc_utils.ml" 219 7729 7736
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref od "obc/obc_utils.ml" 218 7672 7681 "obc/obc_utils.ml" 218 7672 7683
+)
+"obc/obc_utils.ml" 219 7729 7738 "obc/obc_utils.ml" 219 7729 7751
+type(
+  Names.ModulSet.t -> Obc.class_name -> Names.ModulSet.t
+)
+ident(
+  int_ref deps_longname "obc/obc_utils.ml" 175 6087 6093 "obc/obc_utils.ml" 175 6087 6106
+)
+"obc/obc_utils.ml" 219 7729 7752 "obc/obc_utils.ml" 219 7729 7756
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 218 7672 7685 "obc/obc_utils.ml" 218 7672 7689
+)
+"obc/obc_utils.ml" 219 7729 7757 "obc/obc_utils.ml" 219 7729 7759
+type(
+  Obc.obj_dec
+)
+ident(
+  int_ref od "obc/obc_utils.ml" 218 7672 7681 "obc/obc_utils.ml" 218 7672 7683
+)
+"obc/obc_utils.ml" 219 7729 7757 "obc/obc_utils.ml" 219 7729 7767
+type(
+  Obc.class_name
+)
+"obc/obc_utils.ml" 219 7729 7738 "obc/obc_utils.ml" 219 7729 7767
+call(
+  stack
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 219 7729 7733 "obc/obc_utils.ml" 219 7729 7768
+type(
+  Obc.obj_dec * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 218 7672 7676 "obc/obc_utils.ml" 219 7729 7768
+type(
+  Obc.obj_dec * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 221 7770 7776 "obc/obc_utils.ml" 221 7770 7788
+type(
+  Obc.program -> Names.ModulSet.t
+)
+ident(
+  def deps_program "obc/obc_utils.ml" 234 8211 8213 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 221 7770 7789 "obc/obc_utils.ml" 221 7770 7790
+type(
+  Obc.program
+)
+ident(
+  def p "obc/obc_utils.ml" 222 7793 7797 "obc/obc_utils.ml" 232 8173 8209
+)
+"obc/obc_utils.ml" 222 7793 7801 "obc/obc_utils.ml" 222 7793 7805
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 231 8108 8112 "obc/obc_utils.ml" 232 8173 8209
+)
+"obc/obc_utils.ml" 222 7793 7810 "obc/obc_utils.ml" 222 7793 7830
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/obc_utils.ml" 223 7836 7858 "obc/obc_utils.ml" 223 7836 7881
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"obc/obc_utils.ml" 224 7887 7929 "obc/obc_utils.ml" 224 7887 7949
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t ->
+  Types.static_exp_desc -> Types.static_exp_desc * Names.ModulSet.t
+)
+ident(
+  int_ref deps_static_exp_desc "obc/obc_utils.ml" 183 6328 6334 "obc/obc_utils.ml" 183 6328 6354
+)
+"obc/obc_utils.ml" 225 7951 7980 "obc/obc_utils.ml" 225 7951 7987
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t -> Types.ty -> Types.ty * Names.ModulSet.t
+)
+ident(
+  int_ref deps_ty "obc/obc_utils.ml" 179 6212 6218 "obc/obc_utils.ml" 179 6212 6225
+)
+"obc/obc_utils.ml" 223 7836 7856 "obc/obc_utils.ml" 225 7951 7989
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+"obc/obc_utils.ml" 226 7991 8007 "obc/obc_utils.ml" 226 7991 8019
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.pat_desc -> Obc.pat_desc * Names.ModulSet.t
+)
+ident(
+  int_ref deps_lhsdesc "obc/obc_utils.ml" 194 6800 6806 "obc/obc_utils.ml" 194 6800 6818
+)
+"obc/obc_utils.ml" 227 8021 8035 "obc/obc_utils.ml" 227 8021 8045
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.exp_desc -> Obc.exp_desc * Names.ModulSet.t
+)
+ident(
+  int_ref deps_edesc "obc/obc_utils.ml" 200 7014 7020 "obc/obc_utils.ml" 200 7014 7030
+)
+"obc/obc_utils.ml" 228 8047 8059 "obc/obc_utils.ml" 228 8047 8067
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.act -> Obc.act * Names.ModulSet.t
+)
+ident(
+  int_ref deps_act "obc/obc_utils.ml" 209 7372 7378 "obc/obc_utils.ml" 209 7372 7386
+)
+"obc/obc_utils.ml" 229 8069 8085 "obc/obc_utils.ml" 229 8069 8097
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.obj_dec -> Obc.obj_dec * Names.ModulSet.t
+)
+ident(
+  int_ref deps_obj_dec "obc/obc_utils.ml" 217 7638 7644 "obc/obc_utils.ml" 217 7638 7656
+)
+"obc/obc_utils.ml" 222 7793 7808 "obc/obc_utils.ml" 230 8099 8104
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+"obc/obc_utils.ml" 231 8108 8117 "obc/obc_utils.ml" 231 8108 8118
+type(
+  Obc.program
+)
+"obc/obc_utils.ml" 231 8108 8120 "obc/obc_utils.ml" 231 8108 8124
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 232 8173 8177 "obc/obc_utils.ml" 232 8173 8209
+)
+"obc/obc_utils.ml" 231 8108 8116 "obc/obc_utils.ml" 231 8108 8125
+type(
+  Obc.program * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 231 8108 8128 "obc/obc_utils.ml" 231 8108 8147
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.program -> Obc.program * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.program
+)
+"obc/obc_utils.ml" 231 8108 8148 "obc/obc_utils.ml" 231 8108 8152
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 222 7793 7801 "obc/obc_utils.ml" 222 7793 7805
+)
+"obc/obc_utils.ml" 231 8108 8153 "obc/obc_utils.ml" 231 8108 8167
+type(
+  Names.ModulSet.t
+)
+ident(
+  ext_ref Names.ModulSet.empty
+)
+"obc/obc_utils.ml" 231 8108 8168 "obc/obc_utils.ml" 231 8108 8169
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 221 7770 7789 "obc/obc_utils.ml" 221 7770 7790
+)
+"obc/obc_utils.ml" 231 8108 8128 "obc/obc_utils.ml" 231 8108 8169
+call(
+  stack
+)
+type(
+  Obc.program * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 232 8173 8177 "obc/obc_utils.ml" 232 8173 8192
+type(
+  Names.ModulSet.elt -> Names.ModulSet.t -> Names.ModulSet.t
+)
+ident(
+  ext_ref Names.ModulSet.remove
+)
+"obc/obc_utils.ml" 232 8173 8193 "obc/obc_utils.ml" 232 8173 8194
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 221 7770 7789 "obc/obc_utils.ml" 221 7770 7790
+)
+"obc/obc_utils.ml" 232 8173 8193 "obc/obc_utils.ml" 232 8173 8204
+type(
+  Names.ModulSet.elt
+)
+"obc/obc_utils.ml" 232 8173 8205 "obc/obc_utils.ml" 232 8173 8209
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 231 8108 8120 "obc/obc_utils.ml" 231 8108 8124
+)
+"obc/obc_utils.ml" 232 8173 8177 "obc/obc_utils.ml" 232 8173 8209
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 231 8108 8112 "obc/obc_utils.ml" 232 8173 8209
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 222 7793 7797 "obc/obc_utils.ml" 232 8173 8209
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 234 8211 8217 "obc/obc_utils.ml" 234 8211 8231
+type(
+  Obc.interface -> Names.ModulSet.t
+)
+ident(
+  def deps_interface "obc/obc_utils.ml" 241 8510 8546 "obc/obc_utils.ml" 242 8547 8550
+)
+"obc/obc_utils.ml" 234 8211 8232 "obc/obc_utils.ml" 234 8211 8233
+type(
+  Obc.interface
+)
+ident(
+  def i "obc/obc_utils.ml" 235 8236 8240 "obc/obc_utils.ml" 241 8510 8546
+)
+"obc/obc_utils.ml" 235 8236 8244 "obc/obc_utils.ml" 235 8236 8248
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  def funs "obc/obc_utils.ml" 240 8443 8447 "obc/obc_utils.ml" 241 8510 8546
+)
+"obc/obc_utils.ml" 235 8236 8253 "obc/obc_utils.ml" 235 8236 8273
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  ext_ref Obc_mapfold.defaults
+)
+"obc/obc_utils.ml" 236 8279 8301 "obc/obc_utils.ml" 236 8279 8324
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+ident(
+  ext_ref Global_mapfold.defaults
+)
+"obc/obc_utils.ml" 237 8330 8372 "obc/obc_utils.ml" 237 8330 8392
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t ->
+  Types.static_exp_desc -> Types.static_exp_desc * Names.ModulSet.t
+)
+ident(
+  int_ref deps_static_exp_desc "obc/obc_utils.ml" 183 6328 6334 "obc/obc_utils.ml" 183 6328 6354
+)
+"obc/obc_utils.ml" 238 8394 8423 "obc/obc_utils.ml" 238 8394 8430
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs ->
+  Names.ModulSet.t -> Types.ty -> Types.ty * Names.ModulSet.t
+)
+ident(
+  int_ref deps_ty "obc/obc_utils.ml" 179 6212 6218 "obc/obc_utils.ml" 179 6212 6225
+)
+"obc/obc_utils.ml" 236 8279 8299 "obc/obc_utils.ml" 238 8394 8432
+type(
+  Names.ModulSet.t Global_mapfold.global_it_funs
+)
+"obc/obc_utils.ml" 235 8236 8251 "obc/obc_utils.ml" 239 8434 8439
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+"obc/obc_utils.ml" 240 8443 8452 "obc/obc_utils.ml" 240 8443 8453
+type(
+  Obc.interface
+)
+"obc/obc_utils.ml" 240 8443 8455 "obc/obc_utils.ml" 240 8443 8459
+type(
+  Names.ModulSet.t
+)
+ident(
+  def deps "obc/obc_utils.ml" 241 8510 8514 "obc/obc_utils.ml" 241 8510 8546
+)
+"obc/obc_utils.ml" 240 8443 8451 "obc/obc_utils.ml" 240 8443 8460
+type(
+  Obc.interface * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 240 8443 8463 "obc/obc_utils.ml" 240 8443 8484
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs ->
+  Names.ModulSet.t -> Obc.interface -> Obc.interface * Names.ModulSet.t
+)
+ident(
+  ext_ref Obc_mapfold.interface
+)
+"obc/obc_utils.ml" 240 8443 8485 "obc/obc_utils.ml" 240 8443 8489
+type(
+  Names.ModulSet.t Obc_mapfold.obc_it_funs
+)
+ident(
+  int_ref funs "obc/obc_utils.ml" 235 8236 8244 "obc/obc_utils.ml" 235 8236 8248
+)
+"obc/obc_utils.ml" 240 8443 8490 "obc/obc_utils.ml" 240 8443 8504
+type(
+  Names.ModulSet.t
+)
+ident(
+  ext_ref Names.ModulSet.empty
+)
+"obc/obc_utils.ml" 240 8443 8505 "obc/obc_utils.ml" 240 8443 8506
+type(
+  Obc.interface
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 234 8211 8232 "obc/obc_utils.ml" 234 8211 8233
+)
+"obc/obc_utils.ml" 240 8443 8463 "obc/obc_utils.ml" 240 8443 8506
+call(
+  stack
+)
+type(
+  Obc.interface * Names.ModulSet.t
+)
+"obc/obc_utils.ml" 241 8510 8514 "obc/obc_utils.ml" 241 8510 8529
+type(
+  Names.ModulSet.elt -> Names.ModulSet.t -> Names.ModulSet.t
+)
+ident(
+  ext_ref Names.ModulSet.remove
+)
+"obc/obc_utils.ml" 241 8510 8530 "obc/obc_utils.ml" 241 8510 8531
+type(
+  Obc.interface
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 234 8211 8232 "obc/obc_utils.ml" 234 8211 8233
+)
+"obc/obc_utils.ml" 241 8510 8530 "obc/obc_utils.ml" 241 8510 8541
+type(
+  Names.ModulSet.elt
+)
+"obc/obc_utils.ml" 241 8510 8542 "obc/obc_utils.ml" 241 8510 8546
+type(
+  Names.ModulSet.t
+)
+ident(
+  int_ref deps "obc/obc_utils.ml" 240 8443 8455 "obc/obc_utils.ml" 240 8443 8459
+)
+"obc/obc_utils.ml" 241 8510 8514 "obc/obc_utils.ml" 241 8510 8546
+call(
+  tail
+)
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 240 8443 8447 "obc/obc_utils.ml" 241 8510 8546
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 235 8236 8240 "obc/obc_utils.ml" 241 8510 8546
+type(
+  Names.ModulSet.t
+)
+"obc/obc_utils.ml" 246 8675 8679 "obc/obc_utils.ml" 246 8675 8688
+type(
+  string -> Obc.exp -> Obc.exp -> (Obc.exp -> Obc.act list) -> Obc.act
+)
+ident(
+  def fresh_for "obc/obc_utils.ml" 266 9261 9261 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 246 8675 8689 "obc/obc_utils.ml" 246 8675 8693
+type(
+  string
+)
+ident(
+  def pass "obc/obc_utils.ml" 246 8675 8694 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 246 8675 8694 "obc/obc_utils.ml" 246 8675 8698
+type(
+  Obc.exp
+)
+ident(
+  def down "obc/obc_utils.ml" 246 8675 8699 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 246 8675 8699 "obc/obc_utils.ml" 246 8675 8701
+type(
+  Obc.exp
+)
+ident(
+  def up "obc/obc_utils.ml" 246 8675 8702 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 246 8675 8702 "obc/obc_utils.ml" 246 8675 8706
+type(
+  Obc.exp -> Obc.act list
+)
+ident(
+  def body "obc/obc_utils.ml" 247 8709 8711 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 247 8709 8715 "obc/obc_utils.ml" 247 8709 8716
+type(
+  Idents.ident
+)
+ident(
+  def i "obc/obc_utils.ml" 248 8746 8748 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 247 8709 8719 "obc/obc_utils.ml" 247 8709 8733
+type(
+  string -> ?reset:bool -> string -> Idents.ident
+)
+ident(
+  ext_ref Idents.gen_var
+)
+"obc/obc_utils.ml" 247 8709 8734 "obc/obc_utils.ml" 247 8709 8738
+type(
+  string
+)
+ident(
+  int_ref pass "obc/obc_utils.ml" 246 8675 8689 "obc/obc_utils.ml" 246 8675 8693
+)
+"obc/obc_utils.ml" 247 8709 8739 "obc/obc_utils.ml" 247 8709 8742
+type(
+  string
+)
+"obc/obc_utils.ml" 247 8709 8719 "obc/obc_utils.ml" 247 8709 8742
+call(
+  stack
+)
+type(
+  Idents.ident
+)
+"obc/obc_utils.ml" 248 8746 8752 "obc/obc_utils.ml" 248 8746 8754
+type(
+  Obc.var_dec
+)
+ident(
+  def id "obc/obc_utils.ml" 249 8786 8788 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 248 8746 8757 "obc/obc_utils.ml" 248 8746 8767
+type(
+  ?loc:Location.location ->
+  ?linearity:Linearity.linearity ->
+  ?mut:bool -> ?alias:bool -> Idents.var_ident -> Types.ty -> Obc.var_dec
+)
+ident(
+  int_ref mk_var_dec "obc/obc_utils.ml" 39 2183 2187 "obc/obc_utils.ml" 39 2183 2197
+)
+"obc/obc_utils.ml" 248 8746 8768 "obc/obc_utils.ml" 248 8746 8769
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 247 8709 8715 "obc/obc_utils.ml" 247 8709 8716
+)
+"obc/obc_utils.ml" 248 8746 8770 "obc/obc_utils.ml" 248 8746 8782
+type(
+  Types.ty
+)
+ident(
+  ext_ref Initial.tint
+)
+"obc/obc_utils.ml" 248 8746 8757 "obc/obc_utils.ml" 248 8746 8782
+call(
+  stack
+)
+type(
+  Obc.var_dec
+)
+"obc/obc_utils.ml" 249 8786 8792 "obc/obc_utils.ml" 249 8786 8794
+type(
+  Obc.exp
+)
+ident(
+  def ei "obc/obc_utils.ml" 250 8814 8818 "obc/obc_utils.ml" 250 8814 8857
+)
+"obc/obc_utils.ml" 249 8786 8797 "obc/obc_utils.ml" 249 8786 8808
+type(
+  Idents.var_ident -> Obc.exp
+)
+ident(
+  int_ref mk_evar_int "obc/obc_utils.ml" 88 3783 3787 "obc/obc_utils.ml" 88 3783 3798
+)
+"obc/obc_utils.ml" 249 8786 8809 "obc/obc_utils.ml" 249 8786 8810
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 247 8709 8715 "obc/obc_utils.ml" 247 8709 8716
+)
+"obc/obc_utils.ml" 249 8786 8797 "obc/obc_utils.ml" 249 8786 8810
+call(
+  stack
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 250 8814 8824 "obc/obc_utils.ml" 250 8814 8826
+type(
+  Obc.var_dec
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 248 8746 8752 "obc/obc_utils.ml" 248 8746 8754
+)
+"obc/obc_utils.ml" 250 8814 8828 "obc/obc_utils.ml" 250 8814 8832
+type(
+  Obc.exp
+)
+ident(
+  int_ref down "obc/obc_utils.ml" 246 8675 8694 "obc/obc_utils.ml" 246 8675 8698
+)
+"obc/obc_utils.ml" 250 8814 8834 "obc/obc_utils.ml" 250 8814 8836
+type(
+  Obc.exp
+)
+ident(
+  int_ref up "obc/obc_utils.ml" 246 8675 8699 "obc/obc_utils.ml" 246 8675 8701
+)
+"obc/obc_utils.ml" 250 8814 8838 "obc/obc_utils.ml" 250 8814 8846
+type(
+  ?locals:Obc.var_dec list -> Obc.act list -> Obc.block
+)
+ident(
+  int_ref mk_block "obc/obc_utils.ml" 91 3831 3835 "obc/obc_utils.ml" 91 3831 3843
+)
+"obc/obc_utils.ml" 250 8814 8848 "obc/obc_utils.ml" 250 8814 8852
+type(
+  Obc.exp -> Obc.act list
+)
+ident(
+  int_ref body "obc/obc_utils.ml" 246 8675 8702 "obc/obc_utils.ml" 246 8675 8706
+)
+"obc/obc_utils.ml" 250 8814 8853 "obc/obc_utils.ml" 250 8814 8855
+type(
+  Obc.exp
+)
+ident(
+  int_ref ei "obc/obc_utils.ml" 249 8786 8792 "obc/obc_utils.ml" 249 8786 8794
+)
+"obc/obc_utils.ml" 250 8814 8847 "obc/obc_utils.ml" 250 8814 8856
+call(
+  stack
+)
+type(
+  Obc.act list
+)
+"obc/obc_utils.ml" 250 8814 8838 "obc/obc_utils.ml" 250 8814 8856
+call(
+  stack
+)
+type(
+  Obc.block
+)
+"obc/obc_utils.ml" 250 8814 8818 "obc/obc_utils.ml" 250 8814 8857
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 249 8786 8788 "obc/obc_utils.ml" 250 8814 8857
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 248 8746 8748 "obc/obc_utils.ml" 250 8814 8857
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 247 8709 8711 "obc/obc_utils.ml" 250 8814 8857
+type(
+  Obc.act
+)
+"obc/obc_utils.ml" 266 9261 9265 "obc/obc_utils.ml" 266 9261 9278
+type(
+  Obc.program -> Obc.type_dec list
+)
+ident(
+  def program_types "obc/obc_utils.ml" 273 9411 9411 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 266 9261 9279 "obc/obc_utils.ml" 266 9261 9280
+type(
+  Obc.program
+)
+ident(
+  def p "obc/obc_utils.ml" 267 9283 9285 "obc/obc_utils.ml" 271 9369 9409
+)
+"obc/obc_utils.ml" 267 9283 9289 "obc/obc_utils.ml" 267 9283 9297
+type(
+  Obc.program_desc -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  def add_type "obc/obc_utils.ml" 271 9369 9373 "obc/obc_utils.ml" 271 9369 9409
+)
+"obc/obc_utils.ml" 267 9283 9298 "obc/obc_utils.ml" 267 9283 9300
+type(
+  Obc.program_desc
+)
+ident(
+  def pd "obc/obc_utils.ml" 267 9283 9301 "obc/obc_utils.ml" 269 9349 9363
+)
+"obc/obc_utils.ml" 267 9283 9301 "obc/obc_utils.ml" 267 9283 9304
+type(
+  Obc.type_dec list
+)
+ident(
+  def acc "obc/obc_utils.ml" 267 9283 9307 "obc/obc_utils.ml" 269 9349 9363
+)
+"obc/obc_utils.ml" 267 9283 9313 "obc/obc_utils.ml" 267 9283 9315
+type(
+  Obc.program_desc
+)
+ident(
+  int_ref pd "obc/obc_utils.ml" 267 9283 9298 "obc/obc_utils.ml" 267 9283 9300
+)
+"obc/obc_utils.ml" 268 9321 9333 "obc/obc_utils.ml" 268 9321 9335
+type(
+  Obc.type_dec
+)
+ident(
+  def ty "obc/obc_utils.ml" 268 9321 9339 "obc/obc_utils.ml" 268 9321 9348
+)
+"obc/obc_utils.ml" 268 9321 9327 "obc/obc_utils.ml" 268 9321 9335
+type(
+  Obc.program_desc
+)
+"obc/obc_utils.ml" 268 9321 9339 "obc/obc_utils.ml" 268 9321 9341
+type(
+  Obc.type_dec
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 268 9321 9333 "obc/obc_utils.ml" 268 9321 9335
+)
+"obc/obc_utils.ml" 268 9321 9345 "obc/obc_utils.ml" 268 9321 9348
+type(
+  Obc.type_dec list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 267 9283 9301 "obc/obc_utils.ml" 267 9283 9304
+)
+"obc/obc_utils.ml" 268 9321 9339 "obc/obc_utils.ml" 268 9321 9348
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 269 9349 9355 "obc/obc_utils.ml" 269 9349 9356
+type(
+  Obc.program_desc
+)
+"obc/obc_utils.ml" 269 9349 9360 "obc/obc_utils.ml" 269 9349 9363
+type(
+  Obc.type_dec list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 267 9283 9301 "obc/obc_utils.ml" 267 9283 9304
+)
+"obc/obc_utils.ml" 267 9283 9307 "obc/obc_utils.ml" 269 9349 9363
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 271 9369 9373 "obc/obc_utils.ml" 271 9369 9388
+type(
+  (Obc.program_desc -> Obc.type_dec list -> Obc.type_dec list) ->
+  Obc.program_desc list -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  ext_ref List.fold_right
+)
+"obc/obc_utils.ml" 271 9369 9389 "obc/obc_utils.ml" 271 9369 9397
+type(
+  Obc.program_desc -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  int_ref add_type "obc/obc_utils.ml" 267 9283 9289 "obc/obc_utils.ml" 267 9283 9297
+)
+"obc/obc_utils.ml" 271 9369 9398 "obc/obc_utils.ml" 271 9369 9399
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 266 9261 9279 "obc/obc_utils.ml" 266 9261 9280
+)
+"obc/obc_utils.ml" 271 9369 9398 "obc/obc_utils.ml" 271 9369 9406
+type(
+  Obc.program_desc list
+)
+"obc/obc_utils.ml" 271 9369 9407 "obc/obc_utils.ml" 271 9369 9409
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 271 9369 9373 "obc/obc_utils.ml" 271 9369 9409
+call(
+  tail
+)
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 267 9283 9285 "obc/obc_utils.ml" 271 9369 9409
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 273 9411 9415 "obc/obc_utils.ml" 273 9411 9430
+type(
+  Obc.program -> Obc.class_def list
+)
+ident(
+  def program_classes "obc/obc_utils.ml" 280 9566 9566 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 273 9411 9431 "obc/obc_utils.ml" 273 9411 9432
+type(
+  Obc.program
+)
+ident(
+  def p "obc/obc_utils.ml" 274 9435 9437 "obc/obc_utils.ml" 278 9523 9564
+)
+"obc/obc_utils.ml" 274 9435 9441 "obc/obc_utils.ml" 274 9435 9450
+type(
+  Obc.program_desc -> Obc.class_def list -> Obc.class_def list
+)
+ident(
+  def add_class "obc/obc_utils.ml" 278 9523 9527 "obc/obc_utils.ml" 278 9523 9564
+)
+"obc/obc_utils.ml" 274 9435 9451 "obc/obc_utils.ml" 274 9435 9453
+type(
+  Obc.program_desc
+)
+ident(
+  def pd "obc/obc_utils.ml" 274 9435 9454 "obc/obc_utils.ml" 276 9503 9517
+)
+"obc/obc_utils.ml" 274 9435 9454 "obc/obc_utils.ml" 274 9435 9457
+type(
+  Obc.class_def list
+)
+ident(
+  def acc "obc/obc_utils.ml" 274 9435 9460 "obc/obc_utils.ml" 276 9503 9517
+)
+"obc/obc_utils.ml" 274 9435 9466 "obc/obc_utils.ml" 274 9435 9468
+type(
+  Obc.program_desc
+)
+ident(
+  int_ref pd "obc/obc_utils.ml" 274 9435 9451 "obc/obc_utils.ml" 274 9435 9453
+)
+"obc/obc_utils.ml" 275 9474 9487 "obc/obc_utils.ml" 275 9474 9489
+type(
+  Obc.class_def
+)
+ident(
+  def cd "obc/obc_utils.ml" 275 9474 9493 "obc/obc_utils.ml" 275 9474 9502
+)
+"obc/obc_utils.ml" 275 9474 9480 "obc/obc_utils.ml" 275 9474 9489
+type(
+  Obc.program_desc
+)
+"obc/obc_utils.ml" 275 9474 9493 "obc/obc_utils.ml" 275 9474 9495
+type(
+  Obc.class_def
+)
+ident(
+  int_ref cd "obc/obc_utils.ml" 275 9474 9487 "obc/obc_utils.ml" 275 9474 9489
+)
+"obc/obc_utils.ml" 275 9474 9499 "obc/obc_utils.ml" 275 9474 9502
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 274 9435 9454 "obc/obc_utils.ml" 274 9435 9457
+)
+"obc/obc_utils.ml" 275 9474 9493 "obc/obc_utils.ml" 275 9474 9502
+type(
+  Obc.class_def list
+)
+"obc/obc_utils.ml" 276 9503 9509 "obc/obc_utils.ml" 276 9503 9510
+type(
+  Obc.program_desc
+)
+"obc/obc_utils.ml" 276 9503 9514 "obc/obc_utils.ml" 276 9503 9517
+type(
+  Obc.class_def list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 274 9435 9454 "obc/obc_utils.ml" 274 9435 9457
+)
+"obc/obc_utils.ml" 274 9435 9460 "obc/obc_utils.ml" 276 9503 9517
+type(
+  Obc.class_def list
+)
+"obc/obc_utils.ml" 278 9523 9527 "obc/obc_utils.ml" 278 9523 9542
+type(
+  (Obc.program_desc -> Obc.class_def list -> Obc.class_def list) ->
+  Obc.program_desc list -> Obc.class_def list -> Obc.class_def list
+)
+ident(
+  ext_ref List.fold_right
+)
+"obc/obc_utils.ml" 278 9523 9543 "obc/obc_utils.ml" 278 9523 9552
+type(
+  Obc.program_desc -> Obc.class_def list -> Obc.class_def list
+)
+ident(
+  int_ref add_class "obc/obc_utils.ml" 274 9435 9441 "obc/obc_utils.ml" 274 9435 9450
+)
+"obc/obc_utils.ml" 278 9523 9553 "obc/obc_utils.ml" 278 9523 9554
+type(
+  Obc.program
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 273 9411 9431 "obc/obc_utils.ml" 273 9411 9432
+)
+"obc/obc_utils.ml" 278 9523 9553 "obc/obc_utils.ml" 278 9523 9561
+type(
+  Obc.program_desc list
+)
+"obc/obc_utils.ml" 278 9523 9562 "obc/obc_utils.ml" 278 9523 9564
+type(
+  Obc.class_def list
+)
+"obc/obc_utils.ml" 278 9523 9527 "obc/obc_utils.ml" 278 9523 9564
+call(
+  tail
+)
+type(
+  Obc.class_def list
+)
+"obc/obc_utils.ml" 274 9435 9437 "obc/obc_utils.ml" 278 9523 9564
+type(
+  Obc.class_def list
+)
+"obc/obc_utils.ml" 280 9566 9570 "obc/obc_utils.ml" 280 9566 9585
+type(
+  Obc.interface -> Obc.type_dec list
+)
+ident(
+  def interface_types "obc/obc_utils.ml" 287 9721 9721 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 280 9566 9586 "obc/obc_utils.ml" 280 9566 9587
+type(
+  Obc.interface
+)
+ident(
+  def i "obc/obc_utils.ml" 281 9590 9592 "obc/obc_utils.ml" 285 9679 9719
+)
+"obc/obc_utils.ml" 281 9590 9596 "obc/obc_utils.ml" 281 9590 9604
+type(
+  Obc.interface_desc -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  def add_type "obc/obc_utils.ml" 285 9679 9683 "obc/obc_utils.ml" 285 9679 9719
+)
+"obc/obc_utils.ml" 281 9590 9605 "obc/obc_utils.ml" 281 9590 9607
+type(
+  Obc.interface_desc
+)
+ident(
+  def id "obc/obc_utils.ml" 281 9590 9608 "obc/obc_utils.ml" 283 9659 9673
+)
+"obc/obc_utils.ml" 281 9590 9608 "obc/obc_utils.ml" 281 9590 9611
+type(
+  Obc.type_dec list
+)
+ident(
+  def acc "obc/obc_utils.ml" 281 9590 9614 "obc/obc_utils.ml" 283 9659 9673
+)
+"obc/obc_utils.ml" 281 9590 9620 "obc/obc_utils.ml" 281 9590 9622
+type(
+  Obc.interface_desc
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 281 9590 9605 "obc/obc_utils.ml" 281 9590 9607
+)
+"obc/obc_utils.ml" 282 9628 9643 "obc/obc_utils.ml" 282 9628 9645
+type(
+  Obc.type_dec
+)
+ident(
+  def ty "obc/obc_utils.ml" 282 9628 9649 "obc/obc_utils.ml" 282 9628 9658
+)
+"obc/obc_utils.ml" 282 9628 9634 "obc/obc_utils.ml" 282 9628 9645
+type(
+  Obc.interface_desc
+)
+"obc/obc_utils.ml" 282 9628 9649 "obc/obc_utils.ml" 282 9628 9651
+type(
+  Obc.type_dec
+)
+ident(
+  int_ref ty "obc/obc_utils.ml" 282 9628 9643 "obc/obc_utils.ml" 282 9628 9645
+)
+"obc/obc_utils.ml" 282 9628 9655 "obc/obc_utils.ml" 282 9628 9658
+type(
+  Obc.type_dec list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 281 9590 9608 "obc/obc_utils.ml" 281 9590 9611
+)
+"obc/obc_utils.ml" 282 9628 9649 "obc/obc_utils.ml" 282 9628 9658
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 283 9659 9665 "obc/obc_utils.ml" 283 9659 9666
+type(
+  Obc.interface_desc
+)
+"obc/obc_utils.ml" 283 9659 9670 "obc/obc_utils.ml" 283 9659 9673
+type(
+  Obc.type_dec list
+)
+ident(
+  int_ref acc "obc/obc_utils.ml" 281 9590 9608 "obc/obc_utils.ml" 281 9590 9611
+)
+"obc/obc_utils.ml" 281 9590 9614 "obc/obc_utils.ml" 283 9659 9673
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 285 9679 9683 "obc/obc_utils.ml" 285 9679 9698
+type(
+  (Obc.interface_desc -> Obc.type_dec list -> Obc.type_dec list) ->
+  Obc.interface_desc list -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  ext_ref List.fold_right
+)
+"obc/obc_utils.ml" 285 9679 9699 "obc/obc_utils.ml" 285 9679 9707
+type(
+  Obc.interface_desc -> Obc.type_dec list -> Obc.type_dec list
+)
+ident(
+  int_ref add_type "obc/obc_utils.ml" 281 9590 9596 "obc/obc_utils.ml" 281 9590 9604
+)
+"obc/obc_utils.ml" 285 9679 9708 "obc/obc_utils.ml" 285 9679 9709
+type(
+  Obc.interface
+)
+ident(
+  int_ref i "obc/obc_utils.ml" 280 9566 9586 "obc/obc_utils.ml" 280 9566 9587
+)
+"obc/obc_utils.ml" 285 9679 9708 "obc/obc_utils.ml" 285 9679 9716
+type(
+  Obc.interface_desc list
+)
+"obc/obc_utils.ml" 285 9679 9717 "obc/obc_utils.ml" 285 9679 9719
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 285 9679 9683 "obc/obc_utils.ml" 285 9679 9719
+call(
+  tail
+)
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 281 9590 9592 "obc/obc_utils.ml" 285 9679 9719
+type(
+  Obc.type_dec list
+)
+"obc/obc_utils.ml" 287 9721 9729 "obc/obc_utils.ml" 287 9721 9749
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  def ext_value_of_pattern "obc/obc_utils.ml" 287 9721 9721 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 287 9721 9750 "obc/obc_utils.ml" 287 9721 9754
+type(
+  Obc.pattern
+)
+ident(
+  def patt "obc/obc_utils.ml" 288 9757 9759 "obc/obc_utils.ml" 293 9970 10019
+)
+"obc/obc_utils.ml" 288 9757 9763 "obc/obc_utils.ml" 288 9757 9767
+type(
+  Obc.ext_value_desc
+)
+ident(
+  def desc "obc/obc_utils.ml" 293 9970 9972 "obc/obc_utils.ml" 293 9970 10019
+)
+"obc/obc_utils.ml" 288 9757 9776 "obc/obc_utils.ml" 288 9757 9780
+type(
+  Obc.pattern
+)
+ident(
+  int_ref patt "obc/obc_utils.ml" 287 9721 9750 "obc/obc_utils.ml" 287 9721 9754
+)
+"obc/obc_utils.ml" 288 9757 9776 "obc/obc_utils.ml" 288 9757 9789
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 289 9795 9810 "obc/obc_utils.ml" 289 9795 9812
+type(
+  Idents.var_ident
+)
+ident(
+  def id "obc/obc_utils.ml" 289 9795 9816 "obc/obc_utils.ml" 289 9795 9823
+)
+"obc/obc_utils.ml" 289 9795 9801 "obc/obc_utils.ml" 289 9795 9812
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 289 9795 9821 "obc/obc_utils.ml" 289 9795 9823
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 289 9795 9810 "obc/obc_utils.ml" 289 9795 9812
+)
+"obc/obc_utils.ml" 289 9795 9816 "obc/obc_utils.ml" 289 9795 9823
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 290 9824 9835 "obc/obc_utils.ml" 290 9824 9837
+type(
+  Idents.var_ident
+)
+ident(
+  def id "obc/obc_utils.ml" 290 9824 9841 "obc/obc_utils.ml" 290 9824 9848
+)
+"obc/obc_utils.ml" 290 9824 9830 "obc/obc_utils.ml" 290 9824 9837
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 290 9824 9846 "obc/obc_utils.ml" 290 9824 9848
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "obc/obc_utils.ml" 290 9824 9835 "obc/obc_utils.ml" 290 9824 9837
+)
+"obc/obc_utils.ml" 290 9824 9841 "obc/obc_utils.ml" 290 9824 9848
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 291 9849 9863 "obc/obc_utils.ml" 291 9849 9864
+type(
+  Obc.pattern
+)
+ident(
+  def p "obc/obc_utils.ml" 291 9849 9873 "obc/obc_utils.ml" 291 9849 9908
+)
+"obc/obc_utils.ml" 291 9849 9866 "obc/obc_utils.ml" 291 9849 9868
+type(
+  Names.field_name
+)
+ident(
+  def fn "obc/obc_utils.ml" 291 9849 9873 "obc/obc_utils.ml" 291 9849 9908
+)
+"obc/obc_utils.ml" 291 9849 9855 "obc/obc_utils.ml" 291 9849 9869
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 291 9849 9881 "obc/obc_utils.ml" 291 9849 9901
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  int_ref ext_value_of_pattern "obc/obc_utils.ml" 287 9721 9729 "obc/obc_utils.ml" 287 9721 9749
+)
+"obc/obc_utils.ml" 291 9849 9902 "obc/obc_utils.ml" 291 9849 9903
+type(
+  Obc.pattern
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 291 9849 9863 "obc/obc_utils.ml" 291 9849 9864
+)
+"obc/obc_utils.ml" 291 9849 9881 "obc/obc_utils.ml" 291 9849 9903
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 291 9849 9905 "obc/obc_utils.ml" 291 9849 9907
+type(
+  Names.field_name
+)
+ident(
+  int_ref fn "obc/obc_utils.ml" 291 9849 9866 "obc/obc_utils.ml" 291 9849 9868
+)
+"obc/obc_utils.ml" 291 9849 9873 "obc/obc_utils.ml" 291 9849 9908
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 292 9909 9923 "obc/obc_utils.ml" 292 9909 9924
+type(
+  Obc.pattern
+)
+ident(
+  def p "obc/obc_utils.ml" 292 9909 9932 "obc/obc_utils.ml" 292 9909 9966
+)
+"obc/obc_utils.ml" 292 9909 9926 "obc/obc_utils.ml" 292 9909 9927
+type(
+  Obc.exp
+)
+ident(
+  def e "obc/obc_utils.ml" 292 9909 9932 "obc/obc_utils.ml" 292 9909 9966
+)
+"obc/obc_utils.ml" 292 9909 9915 "obc/obc_utils.ml" 292 9909 9928
+type(
+  Obc.pat_desc
+)
+"obc/obc_utils.ml" 292 9909 9940 "obc/obc_utils.ml" 292 9909 9960
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  int_ref ext_value_of_pattern "obc/obc_utils.ml" 287 9721 9729 "obc/obc_utils.ml" 287 9721 9749
+)
+"obc/obc_utils.ml" 292 9909 9961 "obc/obc_utils.ml" 292 9909 9962
+type(
+  Obc.pattern
+)
+ident(
+  int_ref p "obc/obc_utils.ml" 292 9909 9923 "obc/obc_utils.ml" 292 9909 9924
+)
+"obc/obc_utils.ml" 292 9909 9940 "obc/obc_utils.ml" 292 9909 9962
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 292 9909 9964 "obc/obc_utils.ml" 292 9909 9965
+type(
+  Obc.exp
+)
+ident(
+  int_ref e "obc/obc_utils.ml" 292 9909 9926 "obc/obc_utils.ml" 292 9909 9927
+)
+"obc/obc_utils.ml" 292 9909 9932 "obc/obc_utils.ml" 292 9909 9966
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 288 9757 9770 "obc/obc_utils.ml" 292 9909 9966
+type(
+  Obc.ext_value_desc
+)
+"obc/obc_utils.ml" 293 9970 9972 "obc/obc_utils.ml" 293 9970 9984
+type(
+  ?loc:Location.location -> Types.ty -> Obc.ext_value_desc -> Obc.ext_value
+)
+ident(
+  int_ref mk_ext_value "obc/obc_utils.ml" 43 2388 2392 "obc/obc_utils.ml" 43 2388 2404
+)
+"obc/obc_utils.ml" 293 9970 9990 "obc/obc_utils.ml" 293 9970 9994
+type(
+  Obc.pattern
+)
+ident(
+  int_ref patt "obc/obc_utils.ml" 287 9721 9750 "obc/obc_utils.ml" 287 9721 9754
+)
+"obc/obc_utils.ml" 293 9970 9990 "obc/obc_utils.ml" 293 9970 10002
+type(
+  Location.location
+)
+"obc/obc_utils.ml" 293 9970 10003 "obc/obc_utils.ml" 293 9970 10007
+type(
+  Obc.pattern
+)
+ident(
+  int_ref patt "obc/obc_utils.ml" 287 9721 9750 "obc/obc_utils.ml" 287 9721 9754
+)
+"obc/obc_utils.ml" 293 9970 10003 "obc/obc_utils.ml" 293 9970 10014
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 293 9970 10015 "obc/obc_utils.ml" 293 9970 10019
+type(
+  Obc.ext_value_desc
+)
+ident(
+  int_ref desc "obc/obc_utils.ml" 288 9757 9763 "obc/obc_utils.ml" 288 9757 9767
+)
+"obc/obc_utils.ml" 293 9970 9972 "obc/obc_utils.ml" 293 9970 10019
+call(
+  tail
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 288 9757 9759 "obc/obc_utils.ml" 293 9970 10019
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 295 10021 10025 "obc/obc_utils.ml" 295 10021 10039
+type(
+  Obc.pattern -> Obc.exp
+)
+ident(
+  def exp_of_pattern "obc/obc_utils.ml" 297 10086 10115 "obc/obc_utils.ml" 1 0 -1
+)
+"obc/obc_utils.ml" 295 10021 10040 "obc/obc_utils.ml" 295 10021 10044
+type(
+  Obc.pattern
+)
+ident(
+  def patt "obc/obc_utils.ml" 296 10047 10049 "obc/obc_utils.ml" 297 10086 10115
+)
+"obc/obc_utils.ml" 296 10047 10053 "obc/obc_utils.ml" 296 10047 10054
+type(
+  Obc.ext_value
+)
+ident(
+  def w "obc/obc_utils.ml" 297 10086 10088 "obc/obc_utils.ml" 297 10086 10115
+)
+"obc/obc_utils.ml" 296 10047 10057 "obc/obc_utils.ml" 296 10047 10077
+type(
+  Obc.pattern -> Obc.ext_value
+)
+ident(
+  int_ref ext_value_of_pattern "obc/obc_utils.ml" 287 9721 9729 "obc/obc_utils.ml" 287 9721 9749
+)
+"obc/obc_utils.ml" 296 10047 10078 "obc/obc_utils.ml" 296 10047 10082
+type(
+  Obc.pattern
+)
+ident(
+  int_ref patt "obc/obc_utils.ml" 295 10021 10040 "obc/obc_utils.ml" 295 10021 10044
+)
+"obc/obc_utils.ml" 296 10047 10057 "obc/obc_utils.ml" 296 10047 10082
+call(
+  stack
+)
+type(
+  Obc.ext_value
+)
+"obc/obc_utils.ml" 297 10086 10088 "obc/obc_utils.ml" 297 10086 10094
+type(
+  ?loc:Location.location -> Types.ty -> Obc.exp_desc -> Obc.exp
+)
+ident(
+  int_ref mk_exp "obc/obc_utils.ml" 52 2662 2666 "obc/obc_utils.ml" 52 2662 2672
+)
+"obc/obc_utils.ml" 297 10086 10095 "obc/obc_utils.ml" 297 10086 10096
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/obc_utils.ml" 296 10047 10053 "obc/obc_utils.ml" 296 10047 10054
+)
+"obc/obc_utils.ml" 297 10086 10095 "obc/obc_utils.ml" 297 10086 10101
+type(
+  Types.ty
+)
+"obc/obc_utils.ml" 297 10086 10113 "obc/obc_utils.ml" 297 10086 10114
+type(
+  Obc.ext_value
+)
+ident(
+  int_ref w "obc/obc_utils.ml" 296 10047 10053 "obc/obc_utils.ml" 296 10047 10054
+)
+"obc/obc_utils.ml" 297 10086 10102 "obc/obc_utils.ml" 297 10086 10115
+type(
+  Obc.exp_desc
+)
+"obc/obc_utils.ml" 297 10086 10088 "obc/obc_utils.ml" 297 10086 10115
+call(
+  tail
+)
+type(
+  Obc.exp
+)
+"obc/obc_utils.ml" 296 10047 10049 "obc/obc_utils.ml" 297 10086 10115
+type(
+  Obc.exp
+)

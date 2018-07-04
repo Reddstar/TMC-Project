@@ -1,0 +1,22 @@
+
+node f(x:bool) returns (y:bool)
+
+contract
+  attractive y
+  with (c:bool)
+
+let
+  automaton
+    state A
+      do y = false
+      until c then B
+    state B
+      do y = true
+      until c then C
+    state C
+      do y = true
+    state D
+      do y = false
+      until x then A
+  end
+tel

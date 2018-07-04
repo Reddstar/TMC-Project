@@ -1,0 +1,2574 @@
+"utilities/global/compiler_utils.ml" 40 2246 2250 "utilities/global/compiler_utils.ml" 40 2246 2263
+type(
+  lexical_error -> Location.location -> 'a
+)
+ident(
+  def lexical_error "utilities/global/compiler_utils.ml" 49 2602 2602 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 40 2246 2264 "utilities/global/compiler_utils.ml" 40 2246 2267
+type(
+  lexical_error
+)
+ident(
+  def err "utilities/global/compiler_utils.ml" 40 2246 2268 "utilities/global/compiler_utils.ml" 47 2580 2600
+)
+"utilities/global/compiler_utils.ml" 40 2246 2268 "utilities/global/compiler_utils.ml" 40 2246 2271
+type(
+  Location.location
+)
+ident(
+  def loc "utilities/global/compiler_utils.ml" 41 2274 2276 "utilities/global/compiler_utils.ml" 47 2580 2600
+)
+"utilities/global/compiler_utils.ml" 41 2274 2276 "utilities/global/compiler_utils.ml" 41 2274 2290
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/global/compiler_utils.ml" 41 2274 2298 "utilities/global/compiler_utils.ml" 41 2274 2301
+type(
+  lexical_error
+)
+ident(
+  int_ref err "utilities/global/compiler_utils.ml" 40 2246 2264 "utilities/global/compiler_utils.ml" 40 2246 2267
+)
+"utilities/global/compiler_utils.ml" 42 2307 2313 "utilities/global/compiler_utils.ml" 42 2307 2330
+type(
+  lexical_error
+)
+"utilities/global/compiler_utils.ml" 42 2307 2334 "utilities/global/compiler_utils.ml" 42 2307 2361
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit, unit, unit, unit)
+  format6 ->
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit, unit, unit, unit)
+  format6
+)
+ident(
+  ext_ref Pervasives.format_of_string
+)
+"utilities/global/compiler_utils.ml" 42 2307 2362 "utilities/global/compiler_utils.ml" 42 2307 2386
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit, unit, unit, unit)
+  format6
+)
+"utilities/global/compiler_utils.ml" 42 2307 2334 "utilities/global/compiler_utils.ml" 42 2307 2386
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit, unit, unit, unit)
+  format6
+)
+"utilities/global/compiler_utils.ml" 43 2387 2393 "utilities/global/compiler_utils.ml" 43 2387 2413
+type(
+  lexical_error
+)
+"utilities/global/compiler_utils.ml" 43 2387 2417 "utilities/global/compiler_utils.ml" 43 2387 2444
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 44 2445 2451 "utilities/global/compiler_utils.ml" 44 2445 2468
+type(
+  lexical_error
+)
+"utilities/global/compiler_utils.ml" 44 2445 2472 "utilities/global/compiler_utils.ml" 44 2445 2496
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 45 2497 2503 "utilities/global/compiler_utils.ml" 45 2497 2522
+type(
+  lexical_error
+)
+"utilities/global/compiler_utils.ml" 45 2497 2526 "utilities/global/compiler_utils.ml" 45 2497 2552
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 41 2274 2291 "utilities/global/compiler_utils.ml" 46 2553 2559
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 46 2553 2560 "utilities/global/compiler_utils.ml" 46 2553 2574
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"utilities/global/compiler_utils.ml" 46 2553 2575 "utilities/global/compiler_utils.ml" 46 2553 2578
+type(
+  Location.location
+)
+ident(
+  int_ref loc "utilities/global/compiler_utils.ml" 40 2246 2268 "utilities/global/compiler_utils.ml" 40 2246 2271
+)
+"utilities/global/compiler_utils.ml" 41 2274 2276 "utilities/global/compiler_utils.ml" 46 2553 2578
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 47 2580 2582 "utilities/global/compiler_utils.ml" 47 2580 2587
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/compiler_utils.ml" 47 2580 2588 "utilities/global/compiler_utils.ml" 47 2580 2600
+type(
+  exn
+)
+"utilities/global/compiler_utils.ml" 47 2580 2582 "utilities/global/compiler_utils.ml" 47 2580 2600
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 41 2274 2276 "utilities/global/compiler_utils.ml" 47 2580 2600
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 49 2602 2606 "utilities/global/compiler_utils.ml" 49 2602 2618
+type(
+  Location.location -> 'a
+)
+ident(
+  def syntax_error "utilities/global/compiler_utils.ml" 53 2704 2704 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 49 2602 2619 "utilities/global/compiler_utils.ml" 49 2602 2622
+type(
+  Location.location
+)
+ident(
+  def loc "utilities/global/compiler_utils.ml" 50 2625 2627 "utilities/global/compiler_utils.ml" 51 2682 2702
+)
+"utilities/global/compiler_utils.ml" 50 2625 2627 "utilities/global/compiler_utils.ml" 50 2625 2641
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.location -> unit) ->
+  Location.location -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/global/compiler_utils.ml" 50 2625 2642 "utilities/global/compiler_utils.ml" 50 2625 2661
+type(
+  ((Format.formatter -> Location.location -> unit) ->
+   Location.location -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 50 2625 2662 "utilities/global/compiler_utils.ml" 50 2625 2676
+type(
+  Format.formatter -> Location.location -> unit
+)
+ident(
+  ext_ref Location.print_location
+)
+"utilities/global/compiler_utils.ml" 50 2625 2677 "utilities/global/compiler_utils.ml" 50 2625 2680
+type(
+  Location.location
+)
+ident(
+  int_ref loc "utilities/global/compiler_utils.ml" 49 2602 2619 "utilities/global/compiler_utils.ml" 49 2602 2622
+)
+"utilities/global/compiler_utils.ml" 50 2625 2627 "utilities/global/compiler_utils.ml" 50 2625 2680
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 51 2682 2684 "utilities/global/compiler_utils.ml" 51 2682 2689
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/compiler_utils.ml" 51 2682 2690 "utilities/global/compiler_utils.ml" 51 2682 2702
+type(
+  exn
+)
+"utilities/global/compiler_utils.ml" 51 2682 2684 "utilities/global/compiler_utils.ml" 51 2682 2702
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 50 2625 2627 "utilities/global/compiler_utils.ml" 51 2682 2702
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 53 2704 2708 "utilities/global/compiler_utils.ml" 53 2704 2722
+type(
+  string -> unit
+)
+ident(
+  def language_error "utilities/global/compiler_utils.ml" 56 2781 2781 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 53 2704 2723 "utilities/global/compiler_utils.ml" 53 2704 2727
+type(
+  string
+)
+ident(
+  def lang "utilities/global/compiler_utils.ml" 54 2730 2732 "utilities/global/compiler_utils.ml" 54 2730 2779
+)
+"utilities/global/compiler_utils.ml" 54 2730 2732 "utilities/global/compiler_utils.ml" 54 2730 2746
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"utilities/global/compiler_utils.ml" 54 2730 2747 "utilities/global/compiler_utils.ml" 54 2730 2774
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 54 2730 2775 "utilities/global/compiler_utils.ml" 54 2730 2779
+type(
+  string
+)
+ident(
+  int_ref lang "utilities/global/compiler_utils.ml" 53 2704 2723 "utilities/global/compiler_utils.ml" 53 2704 2727
+)
+"utilities/global/compiler_utils.ml" 54 2730 2732 "utilities/global/compiler_utils.ml" 54 2730 2779
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 56 2781 2785 "utilities/global/compiler_utils.ml" 56 2781 2795
+type(
+  string
+)
+ident(
+  def separateur "utilities/global/compiler_utils.ml" 59 2894 2894 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 56 2781 2798 "utilities/global/compiler_utils.ml" 57 2848 2892
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 59 2894 2898 "utilities/global/compiler_utils.ml" 59 2894 2905
+type(
+  ?sep:string -> string -> unit
+)
+ident(
+  def comment "utilities/global/compiler_utils.ml" 62 2977 2977 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 59 2894 2908 "utilities/global/compiler_utils.ml" 59 2894 2911
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 59 2894 2912 "utilities/global/compiler_utils.ml" 59 2894 2922
+type(
+  string
+)
+ident(
+  int_ref separateur "utilities/global/compiler_utils.ml" 56 2781 2785 "utilities/global/compiler_utils.ml" 56 2781 2795
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "utilities/global/compiler_utils.ml" 59 2894 2912 "utilities/global/compiler_utils.ml" 59 2894 2922
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 59 2894 2924 "utilities/global/compiler_utils.ml" 59 2894 2925
+type(
+  string
+)
+ident(
+  def s "utilities/global/compiler_utils.ml" 60 2928 2930 "utilities/global/compiler_utils.ml" 60 2928 2975
+)
+"utilities/global/compiler_utils.ml" 60 2928 2933 "utilities/global/compiler_utils.ml" 60 2928 2934
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_utils.ml" 60 2928 2934 "utilities/global/compiler_utils.ml" 60 2928 2941
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.verbose
+)
+"utilities/global/compiler_utils.ml" 60 2928 2933 "utilities/global/compiler_utils.ml" 60 2928 2941
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 60 2928 2947 "utilities/global/compiler_utils.ml" 60 2928 2960
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"utilities/global/compiler_utils.ml" 60 2928 2961 "utilities/global/compiler_utils.ml" 60 2928 2969
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 60 2928 2970 "utilities/global/compiler_utils.ml" 60 2928 2973
+type(
+  string
+)
+ident(
+  int_ref sep "utilities/global/compiler_utils.ml" 59 2894 2908 "utilities/global/compiler_utils.ml" 59 2894 2911
+)
+"utilities/global/compiler_utils.ml" 60 2928 2974 "utilities/global/compiler_utils.ml" 60 2928 2975
+type(
+  string
+)
+ident(
+  int_ref s "utilities/global/compiler_utils.ml" 59 2894 2924 "utilities/global/compiler_utils.ml" 59 2894 2925
+)
+"utilities/global/compiler_utils.ml" 60 2928 2947 "utilities/global/compiler_utils.ml" 60 2928 2975
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 60 2928 2930 "utilities/global/compiler_utils.ml" 60 2928 2975
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 62 2977 2981 "utilities/global/compiler_utils.ml" 62 2977 2985
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  def info "utilities/global/compiler_utils.ml" 68 3181 3181 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 62 2977 3035 "utilities/global/compiler_utils.ml" 62 2977 3036
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 63 3040 3042 "utilities/global/compiler_utils.ml" 66 3148 3179
+)
+"utilities/global/compiler_utils.ml" 63 3040 3045 "utilities/global/compiler_utils.ml" 63 3040 3046
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_utils.ml" 63 3040 3046 "utilities/global/compiler_utils.ml" 63 3040 3053
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.verbose
+)
+"utilities/global/compiler_utils.ml" 63 3040 3045 "utilities/global/compiler_utils.ml" 63 3040 3053
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 64 3059 3063 "utilities/global/compiler_utils.ml" 64 3059 3071
+type(
+  (Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a) ->
+  Format.formatter ->
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4 -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 64 3059 3073 "utilities/global/compiler_utils.ml" 64 3059 3081
+type(
+  (Format.formatter -> unit) ->
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 64 3059 3087 "utilities/global/compiler_utils.ml" 64 3059 3090
+type(
+  Format.formatter
+)
+ident(
+  def fmt "utilities/global/compiler_utils.ml" 64 3059 3094 "utilities/global/compiler_utils.ml" 64 3059 3112
+)
+"utilities/global/compiler_utils.ml" 64 3059 3094 "utilities/global/compiler_utils.ml" 64 3059 3101
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 64 3059 3102 "utilities/global/compiler_utils.ml" 64 3059 3105
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "utilities/global/compiler_utils.ml" 64 3059 3087 "utilities/global/compiler_utils.ml" 64 3059 3090
+)
+"utilities/global/compiler_utils.ml" 64 3059 3106 "utilities/global/compiler_utils.ml" 64 3059 3112
+type(
+  (unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 64 3059 3094 "utilities/global/compiler_utils.ml" 64 3059 3112
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 64 3059 3082 "utilities/global/compiler_utils.ml" 64 3059 3113
+type(
+  Format.formatter -> unit
+)
+"utilities/global/compiler_utils.ml" 64 3059 3072 "utilities/global/compiler_utils.ml" 64 3059 3114
+call(
+  stack
+)
+type(
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 64 3059 3115 "utilities/global/compiler_utils.ml" 64 3059 3128
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"utilities/global/compiler_utils.ml" 65 3129 3135 "utilities/global/compiler_utils.ml" 65 3129 3145
+type(
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4
+)
+"utilities/global/compiler_utils.ml" 65 3129 3146 "utilities/global/compiler_utils.ml" 65 3129 3147
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 62 2977 3035 "utilities/global/compiler_utils.ml" 62 2977 3036
+)
+"utilities/global/compiler_utils.ml" 64 3059 3063 "utilities/global/compiler_utils.ml" 65 3129 3147
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 66 3148 3155 "utilities/global/compiler_utils.ml" 66 3148 3163
+type(
+  Format.formatter -> ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  ext_ref Format.ifprintf
+)
+"utilities/global/compiler_utils.ml" 66 3148 3164 "utilities/global/compiler_utils.ml" 66 3148 3177
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"utilities/global/compiler_utils.ml" 66 3148 3178 "utilities/global/compiler_utils.ml" 66 3148 3179
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 62 2977 3035 "utilities/global/compiler_utils.ml" 62 2977 3036
+)
+"utilities/global/compiler_utils.ml" 66 3148 3155 "utilities/global/compiler_utils.ml" 66 3148 3179
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 63 3040 3042 "utilities/global/compiler_utils.ml" 66 3148 3179
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 62 2977 3031 "utilities/global/compiler_utils.ml" 66 3148 3179
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 68 3181 3185 "utilities/global/compiler_utils.ml" 68 3181 3189
+type(
+  ?cond:bool -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  def warn "utilities/global/compiler_utils.ml" 74 3399 3399 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 68 3181 3192 "utilities/global/compiler_utils.ml" 68 3181 3196
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 68 3181 3199 "utilities/global/compiler_utils.ml" 68 3181 3203
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "utilities/global/compiler_utils.ml" 68 3181 3199 "utilities/global/compiler_utils.ml" 68 3181 3203
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 68 3181 3254 "utilities/global/compiler_utils.ml" 68 3181 3255
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 69 3259 3261 "utilities/global/compiler_utils.ml" 72 3366 3397
+)
+"utilities/global/compiler_utils.ml" 69 3259 3264 "utilities/global/compiler_utils.ml" 69 3259 3268
+type(
+  bool
+)
+ident(
+  int_ref cond "utilities/global/compiler_utils.ml" 68 3181 3192 "utilities/global/compiler_utils.ml" 68 3181 3196
+)
+"utilities/global/compiler_utils.ml" 70 3274 3278 "utilities/global/compiler_utils.ml" 70 3274 3286
+type(
+  (Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a) ->
+  Format.formatter ->
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4 -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 70 3274 3288 "utilities/global/compiler_utils.ml" 70 3274 3296
+type(
+  (Format.formatter -> unit) ->
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 70 3274 3302 "utilities/global/compiler_utils.ml" 70 3274 3305
+type(
+  Format.formatter
+)
+ident(
+  def fmt "utilities/global/compiler_utils.ml" 70 3274 3309 "utilities/global/compiler_utils.ml" 70 3274 3327
+)
+"utilities/global/compiler_utils.ml" 70 3274 3309 "utilities/global/compiler_utils.ml" 70 3274 3316
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 70 3274 3317 "utilities/global/compiler_utils.ml" 70 3274 3320
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "utilities/global/compiler_utils.ml" 70 3274 3302 "utilities/global/compiler_utils.ml" 70 3274 3305
+)
+"utilities/global/compiler_utils.ml" 70 3274 3321 "utilities/global/compiler_utils.ml" 70 3274 3327
+type(
+  (unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 70 3274 3309 "utilities/global/compiler_utils.ml" 70 3274 3327
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 70 3274 3297 "utilities/global/compiler_utils.ml" 70 3274 3328
+type(
+  Format.formatter -> unit
+)
+"utilities/global/compiler_utils.ml" 70 3274 3287 "utilities/global/compiler_utils.ml" 70 3274 3329
+call(
+  stack
+)
+type(
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 70 3274 3330 "utilities/global/compiler_utils.ml" 70 3274 3343
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"utilities/global/compiler_utils.ml" 71 3344 3350 "utilities/global/compiler_utils.ml" 71 3344 3363
+type(
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4
+)
+"utilities/global/compiler_utils.ml" 71 3344 3364 "utilities/global/compiler_utils.ml" 71 3344 3365
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 68 3181 3254 "utilities/global/compiler_utils.ml" 68 3181 3255
+)
+"utilities/global/compiler_utils.ml" 70 3274 3278 "utilities/global/compiler_utils.ml" 71 3344 3365
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 72 3366 3373 "utilities/global/compiler_utils.ml" 72 3366 3381
+type(
+  Format.formatter -> ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  ext_ref Format.ifprintf
+)
+"utilities/global/compiler_utils.ml" 72 3366 3382 "utilities/global/compiler_utils.ml" 72 3366 3395
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"utilities/global/compiler_utils.ml" 72 3366 3396 "utilities/global/compiler_utils.ml" 72 3366 3397
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 68 3181 3254 "utilities/global/compiler_utils.ml" 68 3181 3255
+)
+"utilities/global/compiler_utils.ml" 72 3366 3373 "utilities/global/compiler_utils.ml" 72 3366 3397
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 69 3259 3261 "utilities/global/compiler_utils.ml" 72 3366 3397
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 68 3181 3250 "utilities/global/compiler_utils.ml" 72 3366 3397
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 74 3399 3403 "utilities/global/compiler_utils.ml" 74 3399 3408
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  def error "utilities/global/compiler_utils.ml" 78 3550 3550 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 74 3399 3458 "utilities/global/compiler_utils.ml" 74 3399 3459
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 75 3463 3465 "utilities/global/compiler_utils.ml" 76 3531 3548
+)
+"utilities/global/compiler_utils.ml" 75 3463 3465 "utilities/global/compiler_utils.ml" 75 3463 3473
+type(
+  (Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a) ->
+  Format.formatter ->
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4 -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 75 3463 3475 "utilities/global/compiler_utils.ml" 75 3463 3483
+type(
+  (Format.formatter -> unit) ->
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"utilities/global/compiler_utils.ml" 75 3463 3489 "utilities/global/compiler_utils.ml" 75 3463 3492
+type(
+  Format.formatter
+)
+ident(
+  def fmt "utilities/global/compiler_utils.ml" 75 3463 3496 "utilities/global/compiler_utils.ml" 75 3463 3514
+)
+"utilities/global/compiler_utils.ml" 75 3463 3496 "utilities/global/compiler_utils.ml" 75 3463 3503
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 75 3463 3504 "utilities/global/compiler_utils.ml" 75 3463 3507
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "utilities/global/compiler_utils.ml" 75 3463 3489 "utilities/global/compiler_utils.ml" 75 3463 3492
+)
+"utilities/global/compiler_utils.ml" 75 3463 3508 "utilities/global/compiler_utils.ml" 75 3463 3514
+type(
+  (unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 75 3463 3496 "utilities/global/compiler_utils.ml" 75 3463 3514
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 75 3463 3484 "utilities/global/compiler_utils.ml" 75 3463 3515
+type(
+  Format.formatter -> unit
+)
+"utilities/global/compiler_utils.ml" 75 3463 3474 "utilities/global/compiler_utils.ml" 75 3463 3516
+call(
+  stack
+)
+type(
+  Format.formatter -> ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 75 3463 3517 "utilities/global/compiler_utils.ml" 75 3463 3530
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"utilities/global/compiler_utils.ml" 76 3531 3535 "utilities/global/compiler_utils.ml" 76 3531 3546
+type(
+  (('a, Format.formatter, unit, unit) format4 -> 'a, Format.formatter, 
+   unit, ('a, Format.formatter, unit, unit) format4 -> 'a)
+  format4
+)
+"utilities/global/compiler_utils.ml" 76 3531 3547 "utilities/global/compiler_utils.ml" 76 3531 3548
+type(
+  ('a, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 74 3399 3458 "utilities/global/compiler_utils.ml" 74 3399 3459
+)
+"utilities/global/compiler_utils.ml" 75 3463 3465 "utilities/global/compiler_utils.ml" 76 3531 3548
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 74 3399 3454 "utilities/global/compiler_utils.ml" 76 3531 3548
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+type(
+  ('a, Format.formatter, unit, unit) format4 -> 'a
+)
+"utilities/global/compiler_utils.ml" 78 3550 3554 "utilities/global/compiler_utils.ml" 78 3550 3561
+type(
+  string -> ('a -> 'b) -> 'a -> ('b -> 'c) -> 'b
+)
+ident(
+  def do_pass "utilities/global/compiler_utils.ml" 87 3773 3773 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 78 3550 3562 "utilities/global/compiler_utils.ml" 78 3550 3563
+type(
+  string
+)
+ident(
+  def d "utilities/global/compiler_utils.ml" 78 3550 3564 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 78 3550 3564 "utilities/global/compiler_utils.ml" 78 3550 3565
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 78 3550 3566 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 78 3550 3566 "utilities/global/compiler_utils.ml" 78 3550 3567
+type(
+  'a
+)
+ident(
+  def p "utilities/global/compiler_utils.ml" 78 3550 3568 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 78 3550 3568 "utilities/global/compiler_utils.ml" 78 3550 3570
+type(
+  'b -> 'c
+)
+ident(
+  def pp "utilities/global/compiler_utils.ml" 79 3573 3575 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 79 3573 3575 "utilities/global/compiler_utils.ml" 79 3573 3582
+type(
+  ?sep:string -> string -> unit
+)
+ident(
+  int_ref comment "utilities/global/compiler_utils.ml" 59 2894 2898 "utilities/global/compiler_utils.ml" 59 2894 2905
+)
+"utilities/global/compiler_utils.ml" 79 3573 3584 "utilities/global/compiler_utils.ml" 79 3573 3585
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 78 3550 3562 "utilities/global/compiler_utils.ml" 78 3550 3563
+)
+"utilities/global/compiler_utils.ml" 79 3573 3586 "utilities/global/compiler_utils.ml" 79 3573 3587
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/compiler_utils.ml" 79 3573 3588 "utilities/global/compiler_utils.ml" 79 3573 3596
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 79 3573 3583 "utilities/global/compiler_utils.ml" 79 3573 3597
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 79 3573 3575 "utilities/global/compiler_utils.ml" 79 3573 3597
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 80 3599 3605 "utilities/global/compiler_utils.ml" 80 3599 3611
+type(
+  float
+)
+ident(
+  def _start "utilities/global/compiler_utils.ml" 81 3638 3640 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 80 3599 3614 "utilities/global/compiler_utils.ml" 80 3599 3631
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_utils.ml" 80 3599 3632 "utilities/global/compiler_utils.ml" 80 3599 3634
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 80 3599 3614 "utilities/global/compiler_utils.ml" 80 3599 3634
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_utils.ml" 81 3638 3644 "utilities/global/compiler_utils.ml" 81 3638 3645
+type(
+  'b
+)
+ident(
+  def r "utilities/global/compiler_utils.ml" 82 3684 3686 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 81 3638 3648 "utilities/global/compiler_utils.ml" 81 3638 3674
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  ext_ref Compiler_timings.time_pass
+)
+"utilities/global/compiler_utils.ml" 81 3638 3675 "utilities/global/compiler_utils.ml" 81 3638 3676
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 78 3550 3562 "utilities/global/compiler_utils.ml" 78 3550 3563
+)
+"utilities/global/compiler_utils.ml" 81 3638 3677 "utilities/global/compiler_utils.ml" 81 3638 3678
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 78 3550 3564 "utilities/global/compiler_utils.ml" 78 3550 3565
+)
+"utilities/global/compiler_utils.ml" 81 3638 3679 "utilities/global/compiler_utils.ml" 81 3638 3680
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 78 3550 3566 "utilities/global/compiler_utils.ml" 78 3550 3567
+)
+"utilities/global/compiler_utils.ml" 81 3638 3648 "utilities/global/compiler_utils.ml" 81 3638 3680
+call(
+  stack
+)
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 82 3684 3690 "utilities/global/compiler_utils.ml" 82 3684 3695
+type(
+  float
+)
+ident(
+  def _stop "utilities/global/compiler_utils.ml" 83 3722 3724 "utilities/global/compiler_utils.ml" 85 3768 3771
+)
+"utilities/global/compiler_utils.ml" 82 3684 3698 "utilities/global/compiler_utils.ml" 82 3684 3715
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"utilities/global/compiler_utils.ml" 82 3684 3716 "utilities/global/compiler_utils.ml" 82 3684 3718
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 82 3684 3698 "utilities/global/compiler_utils.ml" 82 3684 3718
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_utils.ml" 83 3722 3724 "utilities/global/compiler_utils.ml" 83 3722 3726
+type(
+  'b -> 'c
+)
+ident(
+  int_ref pp "utilities/global/compiler_utils.ml" 78 3550 3568 "utilities/global/compiler_utils.ml" 78 3550 3570
+)
+"utilities/global/compiler_utils.ml" 83 3722 3727 "utilities/global/compiler_utils.ml" 83 3722 3728
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/global/compiler_utils.ml" 81 3638 3644 "utilities/global/compiler_utils.ml" 81 3638 3645
+)
+"utilities/global/compiler_utils.ml" 83 3722 3724 "utilities/global/compiler_utils.ml" 83 3722 3728
+call(
+  stack
+)
+type(
+  'c
+)
+"utilities/global/compiler_utils.ml" 84 3730 3732 "utilities/global/compiler_utils.ml" 84 3730 3739
+type(
+  ?sep:string -> string -> unit
+)
+ident(
+  int_ref comment "utilities/global/compiler_utils.ml" 59 2894 2898 "utilities/global/compiler_utils.ml" 59 2894 2905
+)
+"utilities/global/compiler_utils.ml" 84 3730 3745 "utilities/global/compiler_utils.ml" 84 3730 3751
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 84 3730 3753 "utilities/global/compiler_utils.ml" 84 3730 3754
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 78 3550 3562 "utilities/global/compiler_utils.ml" 78 3550 3563
+)
+"utilities/global/compiler_utils.ml" 84 3730 3755 "utilities/global/compiler_utils.ml" 84 3730 3756
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/global/compiler_utils.ml" 84 3730 3757 "utilities/global/compiler_utils.ml" 84 3730 3765
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 84 3730 3752 "utilities/global/compiler_utils.ml" 84 3730 3766
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 84 3730 3732 "utilities/global/compiler_utils.ml" 84 3730 3766
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 85 3768 3770 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+ident(
+  int_ref r "utilities/global/compiler_utils.ml" 81 3638 3644 "utilities/global/compiler_utils.ml" 81 3638 3645
+)
+"utilities/global/compiler_utils.ml" 84 3730 3732 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 83 3722 3724 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 82 3684 3686 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 81 3638 3640 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 80 3599 3601 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 79 3573 3575 "utilities/global/compiler_utils.ml" 85 3768 3771
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 87 3773 3777 "utilities/global/compiler_utils.ml" 87 3773 3791
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def do_silent_pass "utilities/global/compiler_utils.ml" 89 3829 3829 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 87 3773 3792 "utilities/global/compiler_utils.ml" 87 3773 3793
+type(
+  string
+)
+ident(
+  def d "utilities/global/compiler_utils.ml" 87 3773 3794 "utilities/global/compiler_utils.ml" 87 3773 3827
+)
+"utilities/global/compiler_utils.ml" 87 3773 3794 "utilities/global/compiler_utils.ml" 87 3773 3795
+type(
+  'a -> 'b
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 87 3773 3796 "utilities/global/compiler_utils.ml" 87 3773 3827
+)
+"utilities/global/compiler_utils.ml" 87 3773 3796 "utilities/global/compiler_utils.ml" 87 3773 3797
+type(
+  'a
+)
+ident(
+  def p "utilities/global/compiler_utils.ml" 87 3773 3800 "utilities/global/compiler_utils.ml" 87 3773 3827
+)
+"utilities/global/compiler_utils.ml" 87 3773 3800 "utilities/global/compiler_utils.ml" 87 3773 3807
+type(
+  string -> ('a -> 'b) -> 'a -> ('b -> unit) -> 'b
+)
+ident(
+  int_ref do_pass "utilities/global/compiler_utils.ml" 78 3550 3554 "utilities/global/compiler_utils.ml" 78 3550 3561
+)
+"utilities/global/compiler_utils.ml" 87 3773 3808 "utilities/global/compiler_utils.ml" 87 3773 3809
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 87 3773 3792 "utilities/global/compiler_utils.ml" 87 3773 3793
+)
+"utilities/global/compiler_utils.ml" 87 3773 3810 "utilities/global/compiler_utils.ml" 87 3773 3811
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 87 3773 3794 "utilities/global/compiler_utils.ml" 87 3773 3795
+)
+"utilities/global/compiler_utils.ml" 87 3773 3812 "utilities/global/compiler_utils.ml" 87 3773 3813
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 87 3773 3796 "utilities/global/compiler_utils.ml" 87 3773 3797
+)
+"utilities/global/compiler_utils.ml" 87 3773 3819 "utilities/global/compiler_utils.ml" 87 3773 3820
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 87 3773 3824 "utilities/global/compiler_utils.ml" 87 3773 3826
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 87 3773 3814 "utilities/global/compiler_utils.ml" 87 3773 3827
+type(
+  'b -> unit
+)
+"utilities/global/compiler_utils.ml" 87 3773 3800 "utilities/global/compiler_utils.ml" 87 3773 3827
+call(
+  tail
+)
+type(
+  'b
+)
+"utilities/global/compiler_utils.ml" 89 3829 3833 "utilities/global/compiler_utils.ml" 89 3829 3837
+type(
+  string -> bool -> ('a -> 'a) -> 'a -> ('a -> 'b) -> 'a
+)
+ident(
+  def pass "utilities/global/compiler_utils.ml" 94 3904 3904 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 89 3829 3838 "utilities/global/compiler_utils.ml" 89 3829 3839
+type(
+  string
+)
+ident(
+  def d "utilities/global/compiler_utils.ml" 89 3829 3840 "utilities/global/compiler_utils.ml" 92 3894 3902
+)
+"utilities/global/compiler_utils.ml" 89 3829 3840 "utilities/global/compiler_utils.ml" 89 3829 3847
+type(
+  bool
+)
+ident(
+  def enabled "utilities/global/compiler_utils.ml" 89 3829 3848 "utilities/global/compiler_utils.ml" 92 3894 3902
+)
+"utilities/global/compiler_utils.ml" 89 3829 3848 "utilities/global/compiler_utils.ml" 89 3829 3849
+type(
+  'a -> 'a
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 89 3829 3850 "utilities/global/compiler_utils.ml" 92 3894 3902
+)
+"utilities/global/compiler_utils.ml" 89 3829 3850 "utilities/global/compiler_utils.ml" 89 3829 3851
+type(
+  'a
+)
+ident(
+  def p "utilities/global/compiler_utils.ml" 89 3829 3852 "utilities/global/compiler_utils.ml" 92 3894 3902
+)
+"utilities/global/compiler_utils.ml" 89 3829 3852 "utilities/global/compiler_utils.ml" 89 3829 3854
+type(
+  'a -> 'b
+)
+ident(
+  def pp "utilities/global/compiler_utils.ml" 90 3857 3859 "utilities/global/compiler_utils.ml" 92 3894 3902
+)
+"utilities/global/compiler_utils.ml" 90 3857 3862 "utilities/global/compiler_utils.ml" 90 3857 3869
+type(
+  bool
+)
+ident(
+  int_ref enabled "utilities/global/compiler_utils.ml" 89 3829 3840 "utilities/global/compiler_utils.ml" 89 3829 3847
+)
+"utilities/global/compiler_utils.ml" 91 3870 3877 "utilities/global/compiler_utils.ml" 91 3870 3884
+type(
+  string -> ('a -> 'a) -> 'a -> ('a -> 'b) -> 'a
+)
+ident(
+  int_ref do_pass "utilities/global/compiler_utils.ml" 78 3550 3554 "utilities/global/compiler_utils.ml" 78 3550 3561
+)
+"utilities/global/compiler_utils.ml" 91 3870 3885 "utilities/global/compiler_utils.ml" 91 3870 3886
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 89 3829 3838 "utilities/global/compiler_utils.ml" 89 3829 3839
+)
+"utilities/global/compiler_utils.ml" 91 3870 3887 "utilities/global/compiler_utils.ml" 91 3870 3888
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 89 3829 3848 "utilities/global/compiler_utils.ml" 89 3829 3849
+)
+"utilities/global/compiler_utils.ml" 91 3870 3889 "utilities/global/compiler_utils.ml" 91 3870 3890
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 89 3829 3850 "utilities/global/compiler_utils.ml" 89 3829 3851
+)
+"utilities/global/compiler_utils.ml" 91 3870 3891 "utilities/global/compiler_utils.ml" 91 3870 3893
+type(
+  'a -> 'b
+)
+ident(
+  int_ref pp "utilities/global/compiler_utils.ml" 89 3829 3852 "utilities/global/compiler_utils.ml" 89 3829 3854
+)
+"utilities/global/compiler_utils.ml" 91 3870 3877 "utilities/global/compiler_utils.ml" 91 3870 3893
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 92 3894 3901 "utilities/global/compiler_utils.ml" 92 3894 3902
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 89 3829 3850 "utilities/global/compiler_utils.ml" 89 3829 3851
+)
+"utilities/global/compiler_utils.ml" 90 3857 3859 "utilities/global/compiler_utils.ml" 92 3894 3902
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 94 3904 3908 "utilities/global/compiler_utils.ml" 94 3904 3919
+type(
+  string -> bool -> ('a -> 'a) -> 'a -> 'a
+)
+ident(
+  def silent_pass "utilities/global/compiler_utils.ml" 99 3987 3987 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 94 3904 3920 "utilities/global/compiler_utils.ml" 94 3904 3921
+type(
+  string
+)
+ident(
+  def d "utilities/global/compiler_utils.ml" 94 3904 3922 "utilities/global/compiler_utils.ml" 97 3977 3985
+)
+"utilities/global/compiler_utils.ml" 94 3904 3922 "utilities/global/compiler_utils.ml" 94 3904 3929
+type(
+  bool
+)
+ident(
+  def enabled "utilities/global/compiler_utils.ml" 94 3904 3930 "utilities/global/compiler_utils.ml" 97 3977 3985
+)
+"utilities/global/compiler_utils.ml" 94 3904 3930 "utilities/global/compiler_utils.ml" 94 3904 3931
+type(
+  'a -> 'a
+)
+ident(
+  def f "utilities/global/compiler_utils.ml" 94 3904 3932 "utilities/global/compiler_utils.ml" 97 3977 3985
+)
+"utilities/global/compiler_utils.ml" 94 3904 3932 "utilities/global/compiler_utils.ml" 94 3904 3933
+type(
+  'a
+)
+ident(
+  def p "utilities/global/compiler_utils.ml" 95 3936 3938 "utilities/global/compiler_utils.ml" 97 3977 3985
+)
+"utilities/global/compiler_utils.ml" 95 3936 3941 "utilities/global/compiler_utils.ml" 95 3936 3948
+type(
+  bool
+)
+ident(
+  int_ref enabled "utilities/global/compiler_utils.ml" 94 3904 3922 "utilities/global/compiler_utils.ml" 94 3904 3929
+)
+"utilities/global/compiler_utils.ml" 96 3949 3956 "utilities/global/compiler_utils.ml" 96 3949 3970
+type(
+  string -> ('a -> 'a) -> 'a -> 'a
+)
+ident(
+  int_ref do_silent_pass "utilities/global/compiler_utils.ml" 87 3773 3777 "utilities/global/compiler_utils.ml" 87 3773 3791
+)
+"utilities/global/compiler_utils.ml" 96 3949 3971 "utilities/global/compiler_utils.ml" 96 3949 3972
+type(
+  string
+)
+ident(
+  int_ref d "utilities/global/compiler_utils.ml" 94 3904 3920 "utilities/global/compiler_utils.ml" 94 3904 3921
+)
+"utilities/global/compiler_utils.ml" 96 3949 3973 "utilities/global/compiler_utils.ml" 96 3949 3974
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "utilities/global/compiler_utils.ml" 94 3904 3930 "utilities/global/compiler_utils.ml" 94 3904 3931
+)
+"utilities/global/compiler_utils.ml" 96 3949 3975 "utilities/global/compiler_utils.ml" 96 3949 3976
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 94 3904 3932 "utilities/global/compiler_utils.ml" 94 3904 3933
+)
+"utilities/global/compiler_utils.ml" 96 3949 3956 "utilities/global/compiler_utils.ml" 96 3949 3976
+call(
+  tail
+)
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 97 3977 3984 "utilities/global/compiler_utils.ml" 97 3977 3985
+type(
+  'a
+)
+ident(
+  int_ref p "utilities/global/compiler_utils.ml" 94 3904 3932 "utilities/global/compiler_utils.ml" 94 3904 3933
+)
+"utilities/global/compiler_utils.ml" 95 3936 3938 "utilities/global/compiler_utils.ml" 97 3977 3985
+type(
+  'a
+)
+"utilities/global/compiler_utils.ml" 99 3987 3991 "utilities/global/compiler_utils.ml" 99 3987 4007
+type(
+  string -> string
+)
+ident(
+  def filename_of_name "utilities/global/compiler_utils.ml" 102 4037 4037 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 99 3987 4008 "utilities/global/compiler_utils.ml" 99 3987 4009
+type(
+  string
+)
+ident(
+  def n "utilities/global/compiler_utils.ml" 100 4012 4014 "utilities/global/compiler_utils.ml" 100 4012 4035
+)
+"utilities/global/compiler_utils.ml" 100 4012 4014 "utilities/global/compiler_utils.ml" 100 4012 4033
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"utilities/global/compiler_utils.ml" 100 4012 4034 "utilities/global/compiler_utils.ml" 100 4012 4035
+type(
+  string
+)
+ident(
+  int_ref n "utilities/global/compiler_utils.ml" 99 3987 4008 "utilities/global/compiler_utils.ml" 99 3987 4009
+)
+"utilities/global/compiler_utils.ml" 100 4012 4014 "utilities/global/compiler_utils.ml" 100 4012 4035
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 102 4037 4041 "utilities/global/compiler_utils.ml" 102 4037 4051
+type(
+  string -> string
+)
+ident(
+  def build_path "utilities/global/compiler_utils.ml" 107 4147 4147 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 102 4037 4052 "utilities/global/compiler_utils.ml" 102 4037 4055
+type(
+  string
+)
+ident(
+  def suf "utilities/global/compiler_utils.ml" 103 4058 4060 "utilities/global/compiler_utils.ml" 105 4102 4145
+)
+"utilities/global/compiler_utils.ml" 103 4058 4066 "utilities/global/compiler_utils.ml" 103 4058 4067
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_utils.ml" 103 4058 4067 "utilities/global/compiler_utils.ml" 103 4058 4078
+type(
+  string option ref
+)
+ident(
+  ext_ref Compiler_options.target_path
+)
+"utilities/global/compiler_utils.ml" 103 4058 4066 "utilities/global/compiler_utils.ml" 103 4058 4078
+type(
+  string option
+)
+"utilities/global/compiler_utils.ml" 104 4084 4090 "utilities/global/compiler_utils.ml" 104 4084 4094
+type(
+  string option
+)
+"utilities/global/compiler_utils.ml" 104 4084 4098 "utilities/global/compiler_utils.ml" 104 4084 4101
+type(
+  string
+)
+ident(
+  int_ref suf "utilities/global/compiler_utils.ml" 102 4037 4052 "utilities/global/compiler_utils.ml" 102 4037 4055
+)
+"utilities/global/compiler_utils.ml" 105 4102 4113 "utilities/global/compiler_utils.ml" 105 4102 4117
+type(
+  string
+)
+ident(
+  def path "utilities/global/compiler_utils.ml" 105 4102 4121 "utilities/global/compiler_utils.ml" 105 4102 4145
+)
+"utilities/global/compiler_utils.ml" 105 4102 4108 "utilities/global/compiler_utils.ml" 105 4102 4117
+type(
+  string option
+)
+"utilities/global/compiler_utils.ml" 105 4102 4121 "utilities/global/compiler_utils.ml" 105 4102 4136
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"utilities/global/compiler_utils.ml" 105 4102 4137 "utilities/global/compiler_utils.ml" 105 4102 4141
+type(
+  string
+)
+ident(
+  int_ref path "utilities/global/compiler_utils.ml" 105 4102 4113 "utilities/global/compiler_utils.ml" 105 4102 4117
+)
+"utilities/global/compiler_utils.ml" 105 4102 4142 "utilities/global/compiler_utils.ml" 105 4102 4145
+type(
+  string
+)
+ident(
+  int_ref suf "utilities/global/compiler_utils.ml" 102 4037 4052 "utilities/global/compiler_utils.ml" 102 4037 4055
+)
+"utilities/global/compiler_utils.ml" 105 4102 4121 "utilities/global/compiler_utils.ml" 105 4102 4145
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 103 4058 4060 "utilities/global/compiler_utils.ml" 105 4102 4145
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 107 4147 4151 "utilities/global/compiler_utils.ml" 107 4147 4160
+type(
+  string -> string
+)
+ident(
+  def clean_dir "utilities/global/compiler_utils.ml" 115 4385 4385 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+type(
+  string
+)
+ident(
+  def dir "utilities/global/compiler_utils.ml" 108 4167 4169 "utilities/global/compiler_utils.ml" 113 4378 4383
+)
+"utilities/global/compiler_utils.ml" 108 4167 4172 "utilities/global/compiler_utils.ml" 108 4167 4187
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"utilities/global/compiler_utils.ml" 108 4167 4188 "utilities/global/compiler_utils.ml" 108 4167 4191
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 108 4167 4172 "utilities/global/compiler_utils.ml" 108 4167 4191
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 108 4167 4192 "utilities/global/compiler_utils.ml" 108 4167 4194
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"utilities/global/compiler_utils.ml" 108 4167 4195 "utilities/global/compiler_utils.ml" 108 4167 4211
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"utilities/global/compiler_utils.ml" 108 4167 4212 "utilities/global/compiler_utils.ml" 108 4167 4215
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 108 4167 4195 "utilities/global/compiler_utils.ml" 108 4167 4215
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 108 4167 4172 "utilities/global/compiler_utils.ml" 108 4167 4215
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 110 4229 4237 "utilities/global/compiler_utils.ml" 110 4229 4251
+type(
+  string -> unit
+)
+ident(
+  def rm_file_in_dir "utilities/global/compiler_utils.ml" 111 4296 4300 "utilities/global/compiler_utils.ml" 111 4296 4344
+)
+"utilities/global/compiler_utils.ml" 110 4229 4252 "utilities/global/compiler_utils.ml" 110 4229 4254
+type(
+  string
+)
+ident(
+  def fn "utilities/global/compiler_utils.ml" 110 4229 4257 "utilities/global/compiler_utils.ml" 110 4229 4292
+)
+"utilities/global/compiler_utils.ml" 110 4229 4257 "utilities/global/compiler_utils.ml" 110 4229 4267
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"utilities/global/compiler_utils.ml" 110 4229 4269 "utilities/global/compiler_utils.ml" 110 4229 4284
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"utilities/global/compiler_utils.ml" 110 4229 4285 "utilities/global/compiler_utils.ml" 110 4229 4288
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 110 4229 4289 "utilities/global/compiler_utils.ml" 110 4229 4291
+type(
+  string
+)
+ident(
+  int_ref fn "utilities/global/compiler_utils.ml" 110 4229 4252 "utilities/global/compiler_utils.ml" 110 4229 4254
+)
+"utilities/global/compiler_utils.ml" 110 4229 4268 "utilities/global/compiler_utils.ml" 110 4229 4292
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 110 4229 4257 "utilities/global/compiler_utils.ml" 110 4229 4292
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 111 4296 4300 "utilities/global/compiler_utils.ml" 111 4296 4310
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"utilities/global/compiler_utils.ml" 111 4296 4311 "utilities/global/compiler_utils.ml" 111 4296 4325
+type(
+  string -> unit
+)
+ident(
+  int_ref rm_file_in_dir "utilities/global/compiler_utils.ml" 110 4229 4237 "utilities/global/compiler_utils.ml" 110 4229 4251
+)
+"utilities/global/compiler_utils.ml" 111 4296 4327 "utilities/global/compiler_utils.ml" 111 4296 4338
+type(
+  string -> string array
+)
+ident(
+  ext_ref Sys.readdir
+)
+"utilities/global/compiler_utils.ml" 111 4296 4339 "utilities/global/compiler_utils.ml" 111 4296 4342
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 111 4296 4326 "utilities/global/compiler_utils.ml" 111 4296 4343
+type(
+  string array
+)
+"utilities/global/compiler_utils.ml" 111 4296 4300 "utilities/global/compiler_utils.ml" 111 4296 4344
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 109 4216 4223 "utilities/global/compiler_utils.ml" 112 4345 4350
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 112 4345 4356 "utilities/global/compiler_utils.ml" 112 4345 4366
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"utilities/global/compiler_utils.ml" 112 4345 4367 "utilities/global/compiler_utils.ml" 112 4345 4370
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 112 4345 4371 "utilities/global/compiler_utils.ml" 112 4345 4376
+type(
+  Unix.file_perm
+)
+"utilities/global/compiler_utils.ml" 112 4345 4356 "utilities/global/compiler_utils.ml" 112 4345 4376
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 108 4167 4169 "utilities/global/compiler_utils.ml" 112 4345 4376
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 113 4378 4380 "utilities/global/compiler_utils.ml" 113 4378 4383
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 107 4147 4161 "utilities/global/compiler_utils.ml" 107 4147 4164
+)
+"utilities/global/compiler_utils.ml" 108 4167 4169 "utilities/global/compiler_utils.ml" 113 4378 4383
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 115 4385 4389 "utilities/global/compiler_utils.ml" 115 4385 4399
+type(
+  string -> unit
+)
+ident(
+  def ensure_dir "utilities/global/compiler_utils.ml" 121 4492 4492 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 115 4385 4400 "utilities/global/compiler_utils.ml" 115 4385 4403
+type(
+  string
+)
+ident(
+  def dir "utilities/global/compiler_utils.ml" 116 4406 4408 "utilities/global/compiler_utils.ml" 117 4461 4488
+)
+"utilities/global/compiler_utils.ml" 116 4406 4411 "utilities/global/compiler_utils.ml" 116 4406 4414
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utilities/global/compiler_utils.ml" 116 4406 4416 "utilities/global/compiler_utils.ml" 116 4406 4431
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"utilities/global/compiler_utils.ml" 116 4406 4432 "utilities/global/compiler_utils.ml" 116 4406 4435
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 115 4385 4400 "utilities/global/compiler_utils.ml" 115 4385 4403
+)
+"utilities/global/compiler_utils.ml" 116 4406 4416 "utilities/global/compiler_utils.ml" 116 4406 4435
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 116 4406 4436 "utilities/global/compiler_utils.ml" 116 4406 4438
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"utilities/global/compiler_utils.ml" 116 4406 4439 "utilities/global/compiler_utils.ml" 116 4406 4455
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"utilities/global/compiler_utils.ml" 116 4406 4456 "utilities/global/compiler_utils.ml" 116 4406 4459
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 115 4385 4400 "utilities/global/compiler_utils.ml" 115 4385 4403
+)
+"utilities/global/compiler_utils.ml" 116 4406 4439 "utilities/global/compiler_utils.ml" 116 4406 4459
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 116 4406 4415 "utilities/global/compiler_utils.ml" 116 4406 4460
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 116 4406 4411 "utilities/global/compiler_utils.ml" 116 4406 4460
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 117 4461 4468 "utilities/global/compiler_utils.ml" 117 4461 4478
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"utilities/global/compiler_utils.ml" 117 4461 4479 "utilities/global/compiler_utils.ml" 117 4461 4482
+type(
+  string
+)
+ident(
+  int_ref dir "utilities/global/compiler_utils.ml" 115 4385 4400 "utilities/global/compiler_utils.ml" 115 4385 4403
+)
+"utilities/global/compiler_utils.ml" 117 4461 4483 "utilities/global/compiler_utils.ml" 117 4461 4488
+type(
+  Unix.file_perm
+)
+"utilities/global/compiler_utils.ml" 117 4461 4468 "utilities/global/compiler_utils.ml" 117 4461 4488
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 116 4406 4408 "utilities/global/compiler_utils.ml" 117 4461 4488
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 123 4530 4534 "utilities/global/compiler_utils.ml" 123 4530 4542
+type(
+  string -> string
+)
+ident(
+  def findfile "utilities/global/compiler_utils.ml" 136 4915 4915 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+type(
+  string
+)
+ident(
+  def filename "utilities/global/compiler_utils.ml" 124 4554 4556 "utilities/global/compiler_utils.ml" 134 4894 4913
+)
+"utilities/global/compiler_utils.ml" 124 4554 4559 "utilities/global/compiler_utils.ml" 124 4554 4574
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"utilities/global/compiler_utils.ml" 124 4554 4575 "utilities/global/compiler_utils.ml" 124 4554 4583
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 124 4554 4559 "utilities/global/compiler_utils.ml" 124 4554 4583
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 125 4589 4593 "utilities/global/compiler_utils.ml" 125 4589 4601
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 126 4602 4612 "utilities/global/compiler_utils.ml" 126 4602 4615
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utilities/global/compiler_utils.ml" 126 4602 4616 "utilities/global/compiler_utils.ml" 126 4602 4636
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"utilities/global/compiler_utils.ml" 126 4602 4637 "utilities/global/compiler_utils.ml" 126 4602 4645
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 126 4602 4615 "utilities/global/compiler_utils.ml" 126 4602 4646
+call(
+  stack
+)
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 126 4602 4612 "utilities/global/compiler_utils.ml" 126 4602 4646
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 127 4652 4656 "utilities/global/compiler_utils.ml" 127 4652 4661
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/compiler_utils.ml" 127 4652 4679 "utilities/global/compiler_utils.ml" 127 4652 4687
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 127 4652 4661 "utilities/global/compiler_utils.ml" 127 4652 4688
+type(
+  exn
+)
+"utilities/global/compiler_utils.ml" 127 4652 4656 "utilities/global/compiler_utils.ml" 127 4652 4688
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 129 4696 4708 "utilities/global/compiler_utils.ml" 129 4696 4712
+type(
+  string list -> string
+)
+ident(
+  def find "utilities/global/compiler_utils.ml" 129 4696 4700 "utilities/global/compiler_utils.ml" 134 4894 4913
+)
+"utilities/global/compiler_utils.ml" 130 4724 4732 "utilities/global/compiler_utils.ml" 130 4724 4734
+type(
+  string list
+)
+"utilities/global/compiler_utils.ml" 130 4724 4738 "utilities/global/compiler_utils.ml" 130 4724 4743
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utilities/global/compiler_utils.ml" 130 4724 4761 "utilities/global/compiler_utils.ml" 130 4724 4769
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 130 4724 4743 "utilities/global/compiler_utils.ml" 130 4724 4770
+type(
+  exn
+)
+"utilities/global/compiler_utils.ml" 130 4724 4738 "utilities/global/compiler_utils.ml" 130 4724 4770
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 131 4771 4779 "utilities/global/compiler_utils.ml" 131 4771 4780
+type(
+  string
+)
+ident(
+  def a "utilities/global/compiler_utils.ml" 132 4790 4800 "utilities/global/compiler_utils.ml" 133 4838 4890
+)
+"utilities/global/compiler_utils.ml" 131 4771 4782 "utilities/global/compiler_utils.ml" 131 4771 4786
+type(
+  string list
+)
+ident(
+  def rest "utilities/global/compiler_utils.ml" 132 4790 4800 "utilities/global/compiler_utils.ml" 133 4838 4890
+)
+"utilities/global/compiler_utils.ml" 131 4771 4779 "utilities/global/compiler_utils.ml" 131 4771 4786
+type(
+  string list
+)
+"utilities/global/compiler_utils.ml" 132 4790 4804 "utilities/global/compiler_utils.ml" 132 4790 4805
+type(
+  string
+)
+ident(
+  def b "utilities/global/compiler_utils.ml" 133 4838 4848 "utilities/global/compiler_utils.ml" 133 4838 4890
+)
+"utilities/global/compiler_utils.ml" 132 4790 4808 "utilities/global/compiler_utils.ml" 132 4790 4823
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"utilities/global/compiler_utils.ml" 132 4790 4824 "utilities/global/compiler_utils.ml" 132 4790 4825
+type(
+  string
+)
+ident(
+  int_ref a "utilities/global/compiler_utils.ml" 131 4771 4779 "utilities/global/compiler_utils.ml" 131 4771 4780
+)
+"utilities/global/compiler_utils.ml" 132 4790 4826 "utilities/global/compiler_utils.ml" 132 4790 4834
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/global/compiler_utils.ml" 123 4530 4543 "utilities/global/compiler_utils.ml" 123 4530 4551
+)
+"utilities/global/compiler_utils.ml" 132 4790 4808 "utilities/global/compiler_utils.ml" 132 4790 4834
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 133 4838 4851 "utilities/global/compiler_utils.ml" 133 4838 4866
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"utilities/global/compiler_utils.ml" 133 4838 4867 "utilities/global/compiler_utils.ml" 133 4838 4868
+type(
+  string
+)
+ident(
+  int_ref b "utilities/global/compiler_utils.ml" 132 4790 4804 "utilities/global/compiler_utils.ml" 132 4790 4805
+)
+"utilities/global/compiler_utils.ml" 133 4838 4851 "utilities/global/compiler_utils.ml" 133 4838 4868
+type(
+  bool
+)
+"utilities/global/compiler_utils.ml" 133 4838 4874 "utilities/global/compiler_utils.ml" 133 4838 4875
+type(
+  string
+)
+ident(
+  int_ref b "utilities/global/compiler_utils.ml" 132 4790 4804 "utilities/global/compiler_utils.ml" 132 4790 4805
+)
+"utilities/global/compiler_utils.ml" 133 4838 4881 "utilities/global/compiler_utils.ml" 133 4838 4885
+type(
+  string list -> string
+)
+ident(
+  int_ref find "utilities/global/compiler_utils.ml" 129 4696 4708 "utilities/global/compiler_utils.ml" 129 4696 4712
+)
+"utilities/global/compiler_utils.ml" 133 4838 4886 "utilities/global/compiler_utils.ml" 133 4838 4890
+type(
+  string list
+)
+ident(
+  int_ref rest "utilities/global/compiler_utils.ml" 131 4771 4782 "utilities/global/compiler_utils.ml" 131 4771 4786
+)
+"utilities/global/compiler_utils.ml" 133 4838 4881 "utilities/global/compiler_utils.ml" 133 4838 4890
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 133 4838 4848 "utilities/global/compiler_utils.ml" 133 4838 4890
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 132 4790 4800 "utilities/global/compiler_utils.ml" 133 4838 4890
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 129 4696 4715 "utilities/global/compiler_utils.ml" 133 4838 4890
+type(
+  string list -> string
+)
+"utilities/global/compiler_utils.ml" 134 4894 4898 "utilities/global/compiler_utils.ml" 134 4894 4902
+type(
+  string list -> string
+)
+ident(
+  int_ref find "utilities/global/compiler_utils.ml" 129 4696 4708 "utilities/global/compiler_utils.ml" 129 4696 4712
+)
+"utilities/global/compiler_utils.ml" 134 4894 4903 "utilities/global/compiler_utils.ml" 134 4894 4904
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/global/compiler_utils.ml" 134 4894 4904 "utilities/global/compiler_utils.ml" 134 4894 4913
+type(
+  string list ref
+)
+ident(
+  ext_ref Compiler_options.load_path
+)
+"utilities/global/compiler_utils.ml" 134 4894 4903 "utilities/global/compiler_utils.ml" 134 4894 4913
+type(
+  string list
+)
+"utilities/global/compiler_utils.ml" 134 4894 4898 "utilities/global/compiler_utils.ml" 134 4894 4913
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 129 4696 4700 "utilities/global/compiler_utils.ml" 134 4894 4913
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 126 4602 4609 "utilities/global/compiler_utils.ml" 134 4894 4913
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 124 4554 4556 "utilities/global/compiler_utils.ml" 134 4894 4913
+type(
+  string
+)
+"utilities/global/compiler_utils.ml" 136 4915 4919 "utilities/global/compiler_utils.ml" 136 4915 4935
+type(
+  string -> in_channel * Lexing.lexbuf
+)
+ident(
+  def lexbuf_from_file "utilities/global/compiler_utils.ml" 143 5135 5135 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 136 4915 4936 "utilities/global/compiler_utils.ml" 136 4915 4945
+type(
+  string
+)
+ident(
+  def file_name "utilities/global/compiler_utils.ml" 137 4948 4950 "utilities/global/compiler_utils.ml" 141 5121 5133
+)
+"utilities/global/compiler_utils.ml" 137 4948 4954 "utilities/global/compiler_utils.ml" 137 4948 4956
+type(
+  in_channel
+)
+ident(
+  def ic "utilities/global/compiler_utils.ml" 138 4980 4982 "utilities/global/compiler_utils.ml" 141 5121 5133
+)
+"utilities/global/compiler_utils.ml" 137 4948 4959 "utilities/global/compiler_utils.ml" 137 4948 4966
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"utilities/global/compiler_utils.ml" 137 4948 4967 "utilities/global/compiler_utils.ml" 137 4948 4976
+type(
+  string
+)
+ident(
+  int_ref file_name "utilities/global/compiler_utils.ml" 136 4915 4936 "utilities/global/compiler_utils.ml" 136 4915 4945
+)
+"utilities/global/compiler_utils.ml" 137 4948 4959 "utilities/global/compiler_utils.ml" 137 4948 4976
+call(
+  stack
+)
+type(
+  in_channel
+)
+"utilities/global/compiler_utils.ml" 138 4980 4986 "utilities/global/compiler_utils.ml" 138 4980 4992
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "utilities/global/compiler_utils.ml" 139 5021 5023 "utilities/global/compiler_utils.ml" 141 5121 5133
+)
+"utilities/global/compiler_utils.ml" 138 4980 4995 "utilities/global/compiler_utils.ml" 138 4980 5014
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"utilities/global/compiler_utils.ml" 138 4980 5015 "utilities/global/compiler_utils.ml" 138 4980 5017
+type(
+  in_channel
+)
+ident(
+  int_ref ic "utilities/global/compiler_utils.ml" 137 4948 4954 "utilities/global/compiler_utils.ml" 137 4948 4956
+)
+"utilities/global/compiler_utils.ml" 138 4980 4995 "utilities/global/compiler_utils.ml" 138 4980 5017
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"utilities/global/compiler_utils.ml" 139 5021 5023 "utilities/global/compiler_utils.ml" 139 5021 5029
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "utilities/global/compiler_utils.ml" 138 4980 4986 "utilities/global/compiler_utils.ml" 138 4980 4992
+)
+"utilities/global/compiler_utils.ml" 140 5051 5059 "utilities/global/compiler_utils.ml" 140 5051 5065
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "utilities/global/compiler_utils.ml" 138 4980 4986 "utilities/global/compiler_utils.ml" 138 4980 4992
+)
+"utilities/global/compiler_utils.ml" 140 5051 5059 "utilities/global/compiler_utils.ml" 140 5051 5083
+type(
+  Lexing.position
+)
+"utilities/global/compiler_utils.ml" 140 5051 5108 "utilities/global/compiler_utils.ml" 140 5051 5117
+type(
+  string
+)
+ident(
+  int_ref file_name "utilities/global/compiler_utils.ml" 136 4915 4936 "utilities/global/compiler_utils.ml" 136 4915 4945
+)
+"utilities/global/compiler_utils.ml" 140 5051 5057 "utilities/global/compiler_utils.ml" 140 5051 5119
+type(
+  Lexing.position
+)
+"utilities/global/compiler_utils.ml" 139 5021 5023 "utilities/global/compiler_utils.ml" 140 5051 5119
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 141 5121 5123 "utilities/global/compiler_utils.ml" 141 5121 5125
+type(
+  in_channel
+)
+ident(
+  int_ref ic "utilities/global/compiler_utils.ml" 137 4948 4954 "utilities/global/compiler_utils.ml" 137 4948 4956
+)
+"utilities/global/compiler_utils.ml" 141 5121 5127 "utilities/global/compiler_utils.ml" 141 5121 5133
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "utilities/global/compiler_utils.ml" 138 4980 4986 "utilities/global/compiler_utils.ml" 138 4980 4992
+)
+"utilities/global/compiler_utils.ml" 141 5121 5123 "utilities/global/compiler_utils.ml" 141 5121 5133
+type(
+  in_channel * Lexing.lexbuf
+)
+"utilities/global/compiler_utils.ml" 139 5021 5023 "utilities/global/compiler_utils.ml" 141 5121 5133
+type(
+  in_channel * Lexing.lexbuf
+)
+"utilities/global/compiler_utils.ml" 138 4980 4982 "utilities/global/compiler_utils.ml" 141 5121 5133
+type(
+  in_channel * Lexing.lexbuf
+)
+"utilities/global/compiler_utils.ml" 137 4948 4950 "utilities/global/compiler_utils.ml" 141 5121 5133
+type(
+  in_channel * Lexing.lexbuf
+)
+"utilities/global/compiler_utils.ml" 143 5135 5139 "utilities/global/compiler_utils.ml" 143 5135 5156
+type(
+  Format.formatter -> string -> string -> unit
+)
+ident(
+  def print_header_info "utilities/global/compiler_utils.ml" 156 5620 5620 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 143 5135 5157 "utilities/global/compiler_utils.ml" 143 5135 5159
+type(
+  Format.formatter
+)
+ident(
+  def ff "utilities/global/compiler_utils.ml" 143 5135 5160 "utilities/global/compiler_utils.ml" 154 5610 5618
+)
+"utilities/global/compiler_utils.ml" 143 5135 5160 "utilities/global/compiler_utils.ml" 143 5135 5164
+type(
+  string
+)
+ident(
+  def cbeg "utilities/global/compiler_utils.ml" 143 5135 5165 "utilities/global/compiler_utils.ml" 154 5610 5618
+)
+"utilities/global/compiler_utils.ml" 143 5135 5165 "utilities/global/compiler_utils.ml" 143 5135 5169
+type(
+  string
+)
+ident(
+  def cend "utilities/global/compiler_utils.ml" 144 5172 5174 "utilities/global/compiler_utils.ml" 154 5610 5618
+)
+"utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+type(
+  Unix.tm
+)
+ident(
+  def tm "utilities/global/compiler_utils.ml" 145 5216 5218 "utilities/global/compiler_utils.ml" 154 5610 5618
+)
+"utilities/global/compiler_utils.ml" 144 5172 5183 "utilities/global/compiler_utils.ml" 144 5172 5197
+type(
+  float -> Unix.tm
+)
+ident(
+  ext_ref Unix.localtime
+)
+"utilities/global/compiler_utils.ml" 144 5172 5199 "utilities/global/compiler_utils.ml" 144 5172 5208
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"utilities/global/compiler_utils.ml" 144 5172 5209 "utilities/global/compiler_utils.ml" 144 5172 5211
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 144 5172 5198 "utilities/global/compiler_utils.ml" 144 5172 5212
+call(
+  stack
+)
+type(
+  float
+)
+"utilities/global/compiler_utils.ml" 144 5172 5183 "utilities/global/compiler_utils.ml" 144 5172 5212
+call(
+  stack
+)
+type(
+  Unix.tm
+)
+"utilities/global/compiler_utils.ml" 145 5216 5218 "utilities/global/compiler_utils.ml" 145 5216 5225
+type(
+  Format.formatter ->
+  (string -> int -> int -> int -> int -> int -> string -> unit,
+   Format.formatter, unit)
+  format -> string -> int -> int -> int -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 145 5216 5226 "utilities/global/compiler_utils.ml" 145 5216 5228
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "utilities/global/compiler_utils.ml" 143 5135 5157 "utilities/global/compiler_utils.ml" 143 5135 5159
+)
+"utilities/global/compiler_utils.ml" 145 5216 5229 "utilities/global/compiler_utils.ml" 145 5216 5279
+type(
+  (string -> int -> int -> int -> int -> int -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 146 5280 5284 "utilities/global/compiler_utils.ml" 146 5280 5288
+type(
+  string
+)
+ident(
+  int_ref cbeg "utilities/global/compiler_utils.ml" 143 5135 5160 "utilities/global/compiler_utils.ml" 143 5135 5164
+)
+"utilities/global/compiler_utils.ml" 146 5280 5289 "utilities/global/compiler_utils.ml" 146 5280 5291
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+)
+"utilities/global/compiler_utils.ml" 146 5280 5289 "utilities/global/compiler_utils.ml" 146 5280 5299
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5301 "utilities/global/compiler_utils.ml" 146 5280 5303
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+)
+"utilities/global/compiler_utils.ml" 146 5280 5301 "utilities/global/compiler_utils.ml" 146 5280 5310
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5310 "utilities/global/compiler_utils.ml" 146 5280 5311
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/compiler_utils.ml" 146 5280 5311 "utilities/global/compiler_utils.ml" 146 5280 5312
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5300 "utilities/global/compiler_utils.ml" 146 5280 5313
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5315 "utilities/global/compiler_utils.ml" 146 5280 5317
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+)
+"utilities/global/compiler_utils.ml" 146 5280 5315 "utilities/global/compiler_utils.ml" 146 5280 5325
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5326 "utilities/global/compiler_utils.ml" 146 5280 5327
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/global/compiler_utils.ml" 146 5280 5328 "utilities/global/compiler_utils.ml" 146 5280 5332
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5314 "utilities/global/compiler_utils.ml" 146 5280 5333
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5334 "utilities/global/compiler_utils.ml" 146 5280 5336
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+)
+"utilities/global/compiler_utils.ml" 146 5280 5334 "utilities/global/compiler_utils.ml" 146 5280 5344
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5345 "utilities/global/compiler_utils.ml" 146 5280 5347
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "utilities/global/compiler_utils.ml" 144 5172 5178 "utilities/global/compiler_utils.ml" 144 5172 5180
+)
+"utilities/global/compiler_utils.ml" 146 5280 5345 "utilities/global/compiler_utils.ml" 146 5280 5354
+type(
+  int
+)
+"utilities/global/compiler_utils.ml" 146 5280 5355 "utilities/global/compiler_utils.ml" 146 5280 5359
+type(
+  string
+)
+ident(
+  int_ref cend "utilities/global/compiler_utils.ml" 143 5135 5165 "utilities/global/compiler_utils.ml" 143 5135 5169
+)
+"utilities/global/compiler_utils.ml" 145 5216 5218 "utilities/global/compiler_utils.ml" 146 5280 5359
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 147 5361 5363 "utilities/global/compiler_utils.ml" 147 5361 5370
+type(
+  Format.formatter ->
+  (string -> string -> string -> string -> unit, Format.formatter, unit)
+  format -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 147 5361 5371 "utilities/global/compiler_utils.ml" 147 5361 5373
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "utilities/global/compiler_utils.ml" 143 5135 5157 "utilities/global/compiler_utils.ml" 143 5135 5159
+)
+"utilities/global/compiler_utils.ml" 147 5361 5374 "utilities/global/compiler_utils.ml" 147 5361 5436
+type(
+  (string -> string -> string -> string -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 148 5437 5441 "utilities/global/compiler_utils.ml" 148 5437 5445
+type(
+  string
+)
+ident(
+  int_ref cbeg "utilities/global/compiler_utils.ml" 143 5135 5160 "utilities/global/compiler_utils.ml" 143 5135 5164
+)
+"utilities/global/compiler_utils.ml" 148 5437 5446 "utilities/global/compiler_utils.ml" 148 5437 5453
+type(
+  string
+)
+ident(
+  ext_ref Compiler_options.version
+)
+"utilities/global/compiler_utils.ml" 148 5437 5454 "utilities/global/compiler_utils.ml" 148 5437 5458
+type(
+  string
+)
+ident(
+  ext_ref Compiler_options.date
+)
+"utilities/global/compiler_utils.ml" 148 5437 5459 "utilities/global/compiler_utils.ml" 148 5437 5463
+type(
+  string
+)
+ident(
+  int_ref cend "utilities/global/compiler_utils.ml" 143 5135 5165 "utilities/global/compiler_utils.ml" 143 5135 5169
+)
+"utilities/global/compiler_utils.ml" 147 5361 5363 "utilities/global/compiler_utils.ml" 148 5437 5463
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 149 5465 5467 "utilities/global/compiler_utils.ml" 149 5465 5474
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> string array -> unit) ->
+   string array -> string -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> string array -> unit) ->
+  string array -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 149 5465 5475 "utilities/global/compiler_utils.ml" 149 5465 5477
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "utilities/global/compiler_utils.ml" 143 5135 5157 "utilities/global/compiler_utils.ml" 143 5135 5159
+)
+"utilities/global/compiler_utils.ml" 149 5465 5478 "utilities/global/compiler_utils.ml" 149 5465 5515
+type(
+  (string ->
+   (Format.formatter -> string array -> unit) ->
+   string array -> string -> unit, Format.formatter, unit)
+  format
+)
+"utilities/global/compiler_utils.ml" 150 5516 5520 "utilities/global/compiler_utils.ml" 150 5516 5524
+type(
+  string
+)
+ident(
+  int_ref cbeg "utilities/global/compiler_utils.ml" 143 5135 5160 "utilities/global/compiler_utils.ml" 143 5135 5164
+)
+"utilities/global/compiler_utils.ml" 151 5525 5534 "utilities/global/compiler_utils.ml" 151 5525 5536
+type(
+  Format.formatter
+)
+ident(
+  def ff "utilities/global/compiler_utils.ml" 151 5525 5537 "utilities/global/compiler_utils.ml" 152 5542 5595
+)
+"utilities/global/compiler_utils.ml" 151 5525 5537 "utilities/global/compiler_utils.ml" 151 5525 5538
+type(
+  string array
+)
+ident(
+  def a "utilities/global/compiler_utils.ml" 152 5542 5549 "utilities/global/compiler_utils.ml" 152 5542 5595
+)
+"utilities/global/compiler_utils.ml" 152 5542 5549 "utilities/global/compiler_utils.ml" 152 5542 5559
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"utilities/global/compiler_utils.ml" 152 5542 5565 "utilities/global/compiler_utils.ml" 152 5542 5568
+type(
+  string
+)
+ident(
+  def arg "utilities/global/compiler_utils.ml" 152 5542 5572 "utilities/global/compiler_utils.ml" 152 5542 5592
+)
+"utilities/global/compiler_utils.ml" 152 5542 5572 "utilities/global/compiler_utils.ml" 152 5542 5579
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/global/compiler_utils.ml" 152 5542 5580 "utilities/global/compiler_utils.ml" 152 5542 5582
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "utilities/global/compiler_utils.ml" 151 5525 5534 "utilities/global/compiler_utils.ml" 151 5525 5536
+)
+"utilities/global/compiler_utils.ml" 152 5542 5583 "utilities/global/compiler_utils.ml" 152 5542 5588
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utilities/global/compiler_utils.ml" 152 5542 5589 "utilities/global/compiler_utils.ml" 152 5542 5592
+type(
+  string
+)
+ident(
+  int_ref arg "utilities/global/compiler_utils.ml" 152 5542 5565 "utilities/global/compiler_utils.ml" 152 5542 5568
+)
+"utilities/global/compiler_utils.ml" 152 5542 5572 "utilities/global/compiler_utils.ml" 152 5542 5592
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 152 5542 5560 "utilities/global/compiler_utils.ml" 152 5542 5593
+type(
+  string -> unit
+)
+"utilities/global/compiler_utils.ml" 152 5542 5594 "utilities/global/compiler_utils.ml" 152 5542 5595
+type(
+  string array
+)
+ident(
+  int_ref a "utilities/global/compiler_utils.ml" 151 5525 5537 "utilities/global/compiler_utils.ml" 151 5525 5538
+)
+"utilities/global/compiler_utils.ml" 152 5542 5549 "utilities/global/compiler_utils.ml" 152 5542 5595
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 151 5525 5529 "utilities/global/compiler_utils.ml" 152 5542 5596
+type(
+  Format.formatter -> string array -> unit
+)
+"utilities/global/compiler_utils.ml" 153 5597 5601 "utilities/global/compiler_utils.ml" 153 5597 5609
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"utilities/global/compiler_utils.ml" 154 5610 5614 "utilities/global/compiler_utils.ml" 154 5610 5618
+type(
+  string
+)
+ident(
+  int_ref cend "utilities/global/compiler_utils.ml" 143 5135 5165 "utilities/global/compiler_utils.ml" 143 5135 5169
+)
+"utilities/global/compiler_utils.ml" 149 5465 5467 "utilities/global/compiler_utils.ml" 154 5610 5618
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 147 5361 5363 "utilities/global/compiler_utils.ml" 154 5610 5618
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 145 5216 5218 "utilities/global/compiler_utils.ml" 154 5610 5618
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 144 5172 5174 "utilities/global/compiler_utils.ml" 154 5610 5618
+type(
+  unit
+)
+"utilities/global/compiler_utils.ml" 156 5620 5624 "utilities/global/compiler_utils.ml" 156 5620 5630
+type(
+  string
+)
+ident(
+  def errmsg "utilities/global/compiler_utils.ml" 156 5620 5647 "utilities/global/compiler_utils.ml" 1 0 -1
+)
+"utilities/global/compiler_utils.ml" 156 5620 5633 "utilities/global/compiler_utils.ml" 156 5620 5647
+type(
+  string
+)

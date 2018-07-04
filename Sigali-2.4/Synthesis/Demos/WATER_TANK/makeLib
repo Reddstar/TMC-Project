@@ -1,0 +1,35 @@
+#!/bin/csh -f
+
+# ----------------------------------------------------------------------
+# Producing the dynamical library for the simulation of the application 
+# It will be loaded by java.
+# ----------------------------------------------------------------------
+
+if ( ! $?LD_RES) source ../SynthesisEnv
+
+setenv ADR_EXPORT_RES $LD_RES/export
+
+setenv ADR_liaison $LD_DEMO/demo/Liaison.dir
+setenv ADR_JavaCodeDemo $LD_DEMO/demo/Classes.dir
+setenv ADR_spec_liaison $PWD/Spec_Liaison.dir
+
+echo javac -deprecation -d ${ADR_JavaCodeDemo} ${ADR_JavaCodeDemo}/JAVA.dir/*.java
+javac -deprecation -d ${ADR_JavaCodeDemo} ${ADR_JavaCodeDemo}/JAVA.dir/*.java
+
+echo javac -deprecation -classpath Demo:${ADR_JavaCodeDemo} -d Demo Demo/vt.java
+javac -deprecation -classpath Demo:${ADR_JavaCodeDemo} -d Demo Demo/vt.java
+
+# System dependent
+if ( "$CURRENTOS" == "Darwin") then
+    set suff=jnilib
+    set mk_file=Makefile_MacOs
+else
+    set suff=so
+    set mk_file=Makefile
+endif
+
+setenv DEMOLIB libVTAGVLIB.${suff}
+echo " Building ${DEMOLIB}"
+echo " "
+
+make -i -s $1 -f ${mk_file}

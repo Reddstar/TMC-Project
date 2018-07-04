@@ -1,0 +1,7481 @@
+"obc/c/c.ml" 34 2107 2111 "obc/c/c.ml" 34 2107 2121
+type(
+  Format.formatter ->
+  (Format.formatter -> 'a -> unit) -> string -> 'a list -> unit
+)
+ident(
+  def print_list "obc/c/c.ml" 38 2309 2309 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 34 2107 2122 "obc/c/c.ml" 34 2107 2124
+type(
+  Format.formatter
+)
+ident(
+  def ff "obc/c/c.ml" 34 2107 2125 "obc/c/c.ml" 34 2107 2181
+)
+"obc/c/c.ml" 34 2107 2125 "obc/c/c.ml" 34 2107 2130
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print "obc/c/c.ml" 34 2107 2131 "obc/c/c.ml" 34 2107 2181
+)
+"obc/c/c.ml" 34 2107 2131 "obc/c/c.ml" 34 2107 2134
+type(
+  string
+)
+ident(
+  def sep "obc/c/c.ml" 34 2107 2135 "obc/c/c.ml" 34 2107 2181
+)
+"obc/c/c.ml" 34 2107 2135 "obc/c/c.ml" 34 2107 2136
+type(
+  'a list
+)
+ident(
+  def l "obc/c/c.ml" 34 2107 2139 "obc/c/c.ml" 34 2107 2181
+)
+"obc/c/c.ml" 34 2107 2139 "obc/c/c.ml" 34 2107 2160
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> string -> string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  ext_ref Pp_tools.print_list_r
+)
+"obc/c/c.ml" 34 2107 2161 "obc/c/c.ml" 34 2107 2166
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print "obc/c/c.ml" 34 2107 2125 "obc/c/c.ml" 34 2107 2130
+)
+"obc/c/c.ml" 34 2107 2167 "obc/c/c.ml" 34 2107 2169
+type(
+  string
+)
+"obc/c/c.ml" 34 2107 2170 "obc/c/c.ml" 34 2107 2173
+type(
+  string
+)
+ident(
+  int_ref sep "obc/c/c.ml" 34 2107 2131 "obc/c/c.ml" 34 2107 2134
+)
+"obc/c/c.ml" 34 2107 2174 "obc/c/c.ml" 34 2107 2176
+type(
+  string
+)
+"obc/c/c.ml" 34 2107 2177 "obc/c/c.ml" 34 2107 2179
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "obc/c/c.ml" 34 2107 2122 "obc/c/c.ml" 34 2107 2124
+)
+"obc/c/c.ml" 34 2107 2180 "obc/c/c.ml" 34 2107 2181
+type(
+  'a list
+)
+ident(
+  int_ref l "obc/c/c.ml" 34 2107 2135 "obc/c/c.ml" 34 2107 2136
+)
+"obc/c/c.ml" 34 2107 2139 "obc/c/c.ml" 34 2107 2181
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 38 2309 2313 "obc/c/c.ml" 38 2309 2326
+type(
+  string -> string
+)
+ident(
+  def cname_of_name "obc/c/c.ml" 54 2785 2785 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 38 2309 2327 "obc/c/c.ml" 38 2309 2331
+type(
+  string
+)
+ident(
+  def name "obc/c/c.ml" 39 2334 2336 "obc/c/c.ml" 50 2728 2749
+)
+"obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+type(
+  Buffer.t
+)
+ident(
+  def buf "obc/c/c.ml" 40 2384 2386 "obc/c/c.ml" 50 2728 2749
+)
+"obc/c/c.ml" 39 2334 2346 "obc/c/c.ml" 39 2334 2359
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"obc/c/c.ml" 39 2334 2361 "obc/c/c.ml" 39 2334 2374
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"obc/c/c.ml" 39 2334 2375 "obc/c/c.ml" 39 2334 2379
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/c.ml" 38 2309 2327 "obc/c/c.ml" 38 2309 2331
+)
+"obc/c/c.ml" 39 2334 2360 "obc/c/c.ml" 39 2334 2380
+type(
+  int
+)
+"obc/c/c.ml" 39 2334 2346 "obc/c/c.ml" 39 2334 2380
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"obc/c/c.ml" 40 2384 2390 "obc/c/c.ml" 40 2384 2397
+type(
+  char -> unit
+)
+ident(
+  def convert "obc/c/c.ml" 49 2700 2702 "obc/c/c.ml" 50 2728 2749
+)
+"obc/c/c.ml" 40 2384 2398 "obc/c/c.ml" 40 2384 2399
+type(
+  char
+)
+ident(
+  def c "obc/c/c.ml" 41 2402 2406 "obc/c/c.ml" 48 2661 2696
+)
+"obc/c/c.ml" 41 2402 2412 "obc/c/c.ml" 41 2402 2413
+type(
+  char
+)
+ident(
+  int_ref c "obc/c/c.ml" 40 2384 2398 "obc/c/c.ml" 40 2384 2399
+)
+"obc/c/c.ml" 42 2419 2427 "obc/c/c.ml" 42 2419 2435
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2438 "obc/c/c.ml" 42 2419 2446
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2427 "obc/c/c.ml" 42 2419 2446
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2449 "obc/c/c.ml" 42 2419 2457
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2427 "obc/c/c.ml" 42 2419 2457
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2460 "obc/c/c.ml" 42 2419 2463
+type(
+  char
+)
+"obc/c/c.ml" 42 2419 2427 "obc/c/c.ml" 42 2419 2463
+type(
+  char
+)
+"obc/c/c.ml" 43 2467 2477 "obc/c/c.ml" 43 2467 2492
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"obc/c/c.ml" 43 2467 2493 "obc/c/c.ml" 43 2467 2496
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 43 2467 2497 "obc/c/c.ml" 43 2467 2498
+type(
+  char
+)
+ident(
+  int_ref c "obc/c/c.ml" 40 2384 2398 "obc/c/c.ml" 40 2384 2399
+)
+"obc/c/c.ml" 43 2467 2477 "obc/c/c.ml" 43 2467 2498
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 44 2499 2507 "obc/c/c.ml" 44 2499 2511
+type(
+  char
+)
+"obc/c/c.ml" 44 2499 2515 "obc/c/c.ml" 44 2499 2532
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"obc/c/c.ml" 44 2499 2533 "obc/c/c.ml" 44 2499 2536
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 44 2499 2537 "obc/c/c.ml" 44 2499 2545
+type(
+  string
+)
+"obc/c/c.ml" 44 2499 2515 "obc/c/c.ml" 44 2499 2545
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 45 2546 2554 "obc/c/c.ml" 45 2546 2555
+type(
+  char
+)
+"obc/c/c.ml" 46 2559 2569 "obc/c/c.ml" 46 2559 2586
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"obc/c/c.ml" 46 2559 2587 "obc/c/c.ml" 46 2559 2590
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 46 2559 2591 "obc/c/c.ml" 46 2559 2596
+type(
+  string
+)
+"obc/c/c.ml" 46 2559 2569 "obc/c/c.ml" 46 2559 2596
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 47 2598 2608 "obc/c/c.ml" 47 2598 2625
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"obc/c/c.ml" 47 2598 2626 "obc/c/c.ml" 47 2598 2629
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 47 2598 2631 "obc/c/c.ml" 47 2598 2644
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"obc/c/c.ml" 47 2598 2646 "obc/c/c.ml" 47 2598 2655
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"obc/c/c.ml" 47 2598 2656 "obc/c/c.ml" 47 2598 2657
+type(
+  char
+)
+ident(
+  int_ref c "obc/c/c.ml" 40 2384 2398 "obc/c/c.ml" 40 2384 2399
+)
+"obc/c/c.ml" 47 2598 2645 "obc/c/c.ml" 47 2598 2658
+type(
+  int
+)
+"obc/c/c.ml" 47 2598 2630 "obc/c/c.ml" 47 2598 2659
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 47 2598 2608 "obc/c/c.ml" 47 2598 2659
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 48 2661 2671 "obc/c/c.ml" 48 2661 2688
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"obc/c/c.ml" 48 2661 2689 "obc/c/c.ml" 48 2661 2692
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 48 2661 2693 "obc/c/c.ml" 48 2661 2696
+type(
+  string
+)
+"obc/c/c.ml" 48 2661 2671 "obc/c/c.ml" 48 2661 2696
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 47 2598 2608 "obc/c/c.ml" 48 2661 2696
+type(
+  unit
+)
+"obc/c/c.ml" 46 2559 2569 "obc/c/c.ml" 48 2661 2696
+type(
+  unit
+)
+"obc/c/c.ml" 41 2402 2406 "obc/c/c.ml" 48 2661 2696
+type(
+  unit
+)
+"obc/c/c.ml" 49 2700 2702 "obc/c/c.ml" 49 2700 2713
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"obc/c/c.ml" 49 2700 2714 "obc/c/c.ml" 49 2700 2721
+type(
+  char -> unit
+)
+ident(
+  int_ref convert "obc/c/c.ml" 40 2384 2390 "obc/c/c.ml" 40 2384 2397
+)
+"obc/c/c.ml" 49 2700 2722 "obc/c/c.ml" 49 2700 2726
+type(
+  string
+)
+ident(
+  int_ref name "obc/c/c.ml" 38 2309 2327 "obc/c/c.ml" 38 2309 2331
+)
+"obc/c/c.ml" 49 2700 2702 "obc/c/c.ml" 49 2700 2726
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 50 2728 2730 "obc/c/c.ml" 50 2728 2745
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"obc/c/c.ml" 50 2728 2746 "obc/c/c.ml" 50 2728 2749
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "obc/c/c.ml" 39 2334 2340 "obc/c/c.ml" 39 2334 2343
+)
+"obc/c/c.ml" 50 2728 2730 "obc/c/c.ml" 50 2728 2749
+call(
+  tail
+)
+type(
+  string
+)
+"obc/c/c.ml" 49 2700 2702 "obc/c/c.ml" 50 2728 2749
+type(
+  string
+)
+"obc/c/c.ml" 40 2384 2386 "obc/c/c.ml" 50 2728 2749
+type(
+  string
+)
+"obc/c/c.ml" 39 2334 2336 "obc/c/c.ml" 50 2728 2749
+type(
+  string
+)
+"obc/c/c.ml" 151 7358 7362 "obc/c/c.ml" 151 7358 7378
+type(
+  cdef -> cdecl
+)
+ident(
+  def cdecl_of_cfundef "obc/c/c.ml" 157 7622 7622 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 151 7358 7379 "obc/c/c.ml" 151 7358 7382
+type(
+  cdef
+)
+ident(
+  def cfd "obc/c/c.ml" 151 7358 7385 "obc/c/c.ml" 153 7472 7511
+)
+"obc/c/c.ml" 151 7358 7391 "obc/c/c.ml" 151 7358 7394
+type(
+  cdef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 151 7358 7379 "obc/c/c.ml" 151 7358 7382
+)
+"obc/c/c.ml" 152 7400 7412 "obc/c/c.ml" 152 7400 7415
+type(
+  cfundef
+)
+ident(
+  def cfd "obc/c/c.ml" 152 7400 7419 "obc/c/c.ml" 152 7400 7471
+)
+"obc/c/c.ml" 152 7400 7404 "obc/c/c.ml" 152 7400 7415
+type(
+  cdef
+)
+"obc/c/c.ml" 152 7400 7435 "obc/c/c.ml" 152 7400 7438
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 152 7400 7412 "obc/c/c.ml" 152 7400 7415
+)
+"obc/c/c.ml" 152 7400 7435 "obc/c/c.ml" 152 7400 7445
+type(
+  string
+)
+"obc/c/c.ml" 152 7400 7447 "obc/c/c.ml" 152 7400 7450
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 152 7400 7412 "obc/c/c.ml" 152 7400 7415
+)
+"obc/c/c.ml" 152 7400 7447 "obc/c/c.ml" 152 7400 7458
+type(
+  cty
+)
+"obc/c/c.ml" 152 7400 7460 "obc/c/c.ml" 152 7400 7463
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 152 7400 7412 "obc/c/c.ml" 152 7400 7415
+)
+"obc/c/c.ml" 152 7400 7460 "obc/c/c.ml" 152 7400 7470
+type(
+  (string * cty) list
+)
+"obc/c/c.ml" 152 7400 7419 "obc/c/c.ml" 152 7400 7471
+type(
+  cdecl
+)
+"obc/c/c.ml" 153 7472 7476 "obc/c/c.ml" 153 7472 7477
+type(
+  cdef
+)
+"obc/c/c.ml" 153 7472 7481 "obc/c/c.ml" 153 7472 7492
+type(
+  string -> cdecl
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"obc/c/c.ml" 153 7472 7493 "obc/c/c.ml" 153 7472 7511
+type(
+  string
+)
+"obc/c/c.ml" 153 7472 7481 "obc/c/c.ml" 153 7472 7511
+call(
+  tail
+)
+type(
+  cdecl
+)
+"obc/c/c.ml" 151 7358 7385 "obc/c/c.ml" 153 7472 7511
+type(
+  cdecl
+)
+"obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def pp_list1 "obc/c/c.ml" 170 8084 8084 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 170 8084 8101 "obc/c/c.ml" 170 8084 8102
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "obc/c/c.ml" 170 8084 8103 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 170 8084 8103 "obc/c/c.ml" 170 8084 8106
+type(
+  string
+)
+ident(
+  def sep "obc/c/c.ml" 170 8084 8107 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 170 8084 8107 "obc/c/c.ml" 170 8084 8110
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 170 8084 8111 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 170 8084 8111 "obc/c/c.ml" 170 8084 8112
+type(
+  'a list
+)
+ident(
+  def l "obc/c/c.ml" 170 8084 8115 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 170 8084 8121 "obc/c/c.ml" 170 8084 8122
+type(
+  'a list
+)
+ident(
+  int_ref l "obc/c/c.ml" 170 8084 8111 "obc/c/c.ml" 170 8084 8112
+)
+"obc/c/c.ml" 171 8128 8132 "obc/c/c.ml" 171 8128 8134
+type(
+  'a list
+)
+"obc/c/c.ml" 171 8128 8138 "obc/c/c.ml" 171 8128 8140
+type(
+  unit
+)
+"obc/c/c.ml" 172 8141 8146 "obc/c/c.ml" 172 8141 8147
+type(
+  'a
+)
+ident(
+  def x "obc/c/c.ml" 172 8141 8152 "obc/c/c.ml" 172 8141 8172
+)
+"obc/c/c.ml" 172 8141 8145 "obc/c/c.ml" 172 8141 8148
+type(
+  'a list
+)
+"obc/c/c.ml" 172 8141 8152 "obc/c/c.ml" 172 8141 8159
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 172 8141 8160 "obc/c/c.ml" 172 8141 8163
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 170 8084 8107 "obc/c/c.ml" 170 8084 8110
+)
+"obc/c/c.ml" 172 8141 8164 "obc/c/c.ml" 172 8141 8168
+type(
+  ((Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 172 8141 8169 "obc/c/c.ml" 172 8141 8170
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "obc/c/c.ml" 170 8084 8101 "obc/c/c.ml" 170 8084 8102
+)
+"obc/c/c.ml" 172 8141 8171 "obc/c/c.ml" 172 8141 8172
+type(
+  'a
+)
+ident(
+  int_ref x "obc/c/c.ml" 172 8141 8146 "obc/c/c.ml" 172 8141 8147
+)
+"obc/c/c.ml" 172 8141 8152 "obc/c/c.ml" 172 8141 8172
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 173 8173 8177 "obc/c/c.ml" 173 8173 8178
+type(
+  'a
+)
+ident(
+  def h "obc/c/c.ml" 173 8173 8187 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 173 8173 8182 "obc/c/c.ml" 173 8173 8183
+type(
+  'a list
+)
+ident(
+  def t "obc/c/c.ml" 173 8173 8187 "obc/c/c.ml" 173 8173 8236
+)
+"obc/c/c.ml" 173 8173 8177 "obc/c/c.ml" 173 8173 8183
+type(
+  'a list
+)
+"obc/c/c.ml" 173 8173 8187 "obc/c/c.ml" 173 8173 8194
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 173 8173 8195 "obc/c/c.ml" 173 8173 8198
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 170 8084 8107 "obc/c/c.ml" 170 8084 8110
+)
+"obc/c/c.ml" 173 8173 8199 "obc/c/c.ml" 173 8173 8209
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 173 8173 8210 "obc/c/c.ml" 173 8173 8211
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "obc/c/c.ml" 170 8084 8101 "obc/c/c.ml" 170 8084 8102
+)
+"obc/c/c.ml" 173 8173 8212 "obc/c/c.ml" 173 8173 8213
+type(
+  'a
+)
+ident(
+  int_ref h "obc/c/c.ml" 173 8173 8177 "obc/c/c.ml" 173 8173 8178
+)
+"obc/c/c.ml" 173 8173 8214 "obc/c/c.ml" 173 8173 8217
+type(
+  string
+)
+ident(
+  int_ref sep "obc/c/c.ml" 170 8084 8103 "obc/c/c.ml" 170 8084 8106
+)
+"obc/c/c.ml" 173 8173 8219 "obc/c/c.ml" 173 8173 8227
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 173 8173 8228 "obc/c/c.ml" 173 8173 8229
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "obc/c/c.ml" 170 8084 8101 "obc/c/c.ml" 170 8084 8102
+)
+"obc/c/c.ml" 173 8173 8230 "obc/c/c.ml" 173 8173 8233
+type(
+  string
+)
+ident(
+  int_ref sep "obc/c/c.ml" 170 8084 8103 "obc/c/c.ml" 170 8084 8106
+)
+"obc/c/c.ml" 173 8173 8218 "obc/c/c.ml" 173 8173 8234
+call(
+  stack
+)
+type(
+  Format.formatter -> 'a list -> unit
+)
+"obc/c/c.ml" 173 8173 8235 "obc/c/c.ml" 173 8173 8236
+type(
+  'a list
+)
+ident(
+  int_ref t "obc/c/c.ml" 173 8173 8182 "obc/c/c.ml" 173 8173 8183
+)
+"obc/c/c.ml" 173 8173 8187 "obc/c/c.ml" 173 8173 8236
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 170 8084 8115 "obc/c/c.ml" 173 8173 8236
+type(
+  unit
+)
+"obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def pp_list "obc/c/c.ml" 175 8238 8238 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 175 8238 8254 "obc/c/c.ml" 175 8238 8255
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "obc/c/c.ml" 175 8238 8256 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 175 8238 8256 "obc/c/c.ml" 175 8238 8259
+type(
+  string
+)
+ident(
+  def sep "obc/c/c.ml" 175 8238 8260 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 175 8238 8260 "obc/c/c.ml" 175 8238 8263
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 175 8238 8264 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 175 8238 8264 "obc/c/c.ml" 175 8238 8265
+type(
+  'a list
+)
+ident(
+  def l "obc/c/c.ml" 175 8238 8268 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 175 8238 8274 "obc/c/c.ml" 175 8238 8275
+type(
+  'a list
+)
+ident(
+  int_ref l "obc/c/c.ml" 175 8238 8264 "obc/c/c.ml" 175 8238 8265
+)
+"obc/c/c.ml" 176 8281 8285 "obc/c/c.ml" 176 8281 8287
+type(
+  'a list
+)
+"obc/c/c.ml" 176 8281 8291 "obc/c/c.ml" 176 8281 8293
+type(
+  unit
+)
+"obc/c/c.ml" 177 8294 8298 "obc/c/c.ml" 177 8294 8299
+type(
+  'a
+)
+ident(
+  def h "obc/c/c.ml" 177 8294 8308 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 177 8294 8303 "obc/c/c.ml" 177 8294 8304
+type(
+  'a list
+)
+ident(
+  def t "obc/c/c.ml" 177 8294 8308 "obc/c/c.ml" 177 8294 8356
+)
+"obc/c/c.ml" 177 8294 8298 "obc/c/c.ml" 177 8294 8304
+type(
+  'a list
+)
+"obc/c/c.ml" 177 8294 8308 "obc/c/c.ml" 177 8294 8315
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 177 8294 8316 "obc/c/c.ml" 177 8294 8319
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 175 8238 8260 "obc/c/c.ml" 175 8238 8263
+)
+"obc/c/c.ml" 177 8294 8320 "obc/c/c.ml" 177 8294 8330
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 177 8294 8331 "obc/c/c.ml" 177 8294 8332
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "obc/c/c.ml" 175 8238 8254 "obc/c/c.ml" 175 8238 8255
+)
+"obc/c/c.ml" 177 8294 8333 "obc/c/c.ml" 177 8294 8334
+type(
+  'a
+)
+ident(
+  int_ref h "obc/c/c.ml" 177 8294 8298 "obc/c/c.ml" 177 8294 8299
+)
+"obc/c/c.ml" 177 8294 8335 "obc/c/c.ml" 177 8294 8338
+type(
+  string
+)
+ident(
+  int_ref sep "obc/c/c.ml" 175 8238 8256 "obc/c/c.ml" 175 8238 8259
+)
+"obc/c/c.ml" 177 8294 8340 "obc/c/c.ml" 177 8294 8347
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref pp_list "obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+)
+"obc/c/c.ml" 177 8294 8348 "obc/c/c.ml" 177 8294 8349
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "obc/c/c.ml" 175 8238 8254 "obc/c/c.ml" 175 8238 8255
+)
+"obc/c/c.ml" 177 8294 8350 "obc/c/c.ml" 177 8294 8353
+type(
+  string
+)
+ident(
+  int_ref sep "obc/c/c.ml" 175 8238 8256 "obc/c/c.ml" 175 8238 8259
+)
+"obc/c/c.ml" 177 8294 8339 "obc/c/c.ml" 177 8294 8354
+call(
+  stack
+)
+type(
+  Format.formatter -> 'a list -> unit
+)
+"obc/c/c.ml" 177 8294 8355 "obc/c/c.ml" 177 8294 8356
+type(
+  'a list
+)
+ident(
+  int_ref t "obc/c/c.ml" 177 8294 8303 "obc/c/c.ml" 177 8294 8304
+)
+"obc/c/c.ml" 177 8294 8308 "obc/c/c.ml" 177 8294 8356
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 175 8238 8268 "obc/c/c.ml" 177 8294 8356
+type(
+  unit
+)
+"obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def pp_string "obc/c/c.ml" 182 8418 8418 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 179 8358 8372 "obc/c/c.ml" 179 8358 8375
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 179 8358 8376 "obc/c/c.ml" 180 8380 8416
+)
+"obc/c/c.ml" 179 8358 8376 "obc/c/c.ml" 179 8358 8377
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 180 8380 8382 "obc/c/c.ml" 180 8380 8416
+)
+"obc/c/c.ml" 180 8380 8382 "obc/c/c.ml" 180 8380 8389
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 180 8380 8390 "obc/c/c.ml" 180 8380 8393
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 179 8358 8372 "obc/c/c.ml" 179 8358 8375
+)
+"obc/c/c.ml" 180 8380 8394 "obc/c/c.ml" 180 8380 8398
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 180 8380 8400 "obc/c/c.ml" 180 8380 8413
+type(
+  string -> string
+)
+ident(
+  int_ref cname_of_name "obc/c/c.ml" 38 2309 2313 "obc/c/c.ml" 38 2309 2326
+)
+"obc/c/c.ml" 180 8380 8414 "obc/c/c.ml" 180 8380 8415
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 179 8358 8376 "obc/c/c.ml" 179 8358 8377
+)
+"obc/c/c.ml" 180 8380 8399 "obc/c/c.ml" 180 8380 8416
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 180 8380 8382 "obc/c/c.ml" 180 8380 8416
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 182 8418 8426 "obc/c/c.ml" 182 8418 8440
+type(
+  Names.modul -> string
+)
+ident(
+  def modul_to_cname "obc/c/c.ml" 182 8418 8418 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 182 8418 8441 "obc/c/c.ml" 182 8418 8442
+type(
+  Names.modul
+)
+ident(
+  def q "obc/c/c.ml" 182 8418 8445 "obc/c/c.ml" 186 8559 8590
+)
+"obc/c/c.ml" 182 8418 8451 "obc/c/c.ml" 182 8418 8452
+type(
+  Names.modul
+)
+ident(
+  int_ref q "obc/c/c.ml" 182 8418 8441 "obc/c/c.ml" 182 8418 8442
+)
+"obc/c/c.ml" 183 8458 8462 "obc/c/c.ml" 183 8458 8472
+type(
+  Names.modul
+)
+"obc/c/c.ml" 183 8458 8475 "obc/c/c.ml" 183 8458 8486
+type(
+  Names.modul
+)
+"obc/c/c.ml" 183 8458 8462 "obc/c/c.ml" 183 8458 8486
+type(
+  Names.modul
+)
+"obc/c/c.ml" 183 8458 8490 "obc/c/c.ml" 183 8458 8492
+type(
+  string
+)
+"obc/c/c.ml" 184 8493 8504 "obc/c/c.ml" 184 8493 8505
+type(
+  Names.module_name
+)
+ident(
+  def m "obc/c/c.ml" 184 8493 8509 "obc/c/c.ml" 184 8493 8517
+)
+"obc/c/c.ml" 184 8493 8497 "obc/c/c.ml" 184 8493 8505
+type(
+  Names.modul
+)
+"obc/c/c.ml" 184 8493 8509 "obc/c/c.ml" 184 8493 8510
+type(
+  Names.module_name
+)
+ident(
+  int_ref m "obc/c/c.ml" 184 8493 8504 "obc/c/c.ml" 184 8493 8505
+)
+"obc/c/c.ml" 184 8493 8511 "obc/c/c.ml" 184 8493 8512
+type(
+  Names.module_name -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/c.ml" 184 8493 8513 "obc/c/c.ml" 184 8493 8517
+type(
+  string
+)
+"obc/c/c.ml" 184 8493 8509 "obc/c/c.ml" 184 8493 8517
+call(
+  tail
+)
+type(
+  string
+)
+"obc/c/c.ml" 185 8518 8542 "obc/c/c.ml" 185 8518 8543
+type(
+  Names.modul
+)
+ident(
+  def q "obc/c/c.ml" 186 8559 8565 "obc/c/c.ml" 186 8559 8590
+)
+"obc/c/c.ml" 185 8518 8552 "obc/c/c.ml" 185 8518 8553
+type(
+  Names.name
+)
+ident(
+  def n "obc/c/c.ml" 186 8559 8565 "obc/c/c.ml" 186 8559 8590
+)
+"obc/c/c.ml" 185 8518 8533 "obc/c/c.ml" 185 8518 8555
+type(
+  Names.qualname
+)
+"obc/c/c.ml" 185 8518 8522 "obc/c/c.ml" 185 8518 8555
+type(
+  Names.modul
+)
+"obc/c/c.ml" 186 8559 8566 "obc/c/c.ml" 186 8559 8580
+type(
+  Names.modul -> string
+)
+ident(
+  int_ref modul_to_cname "obc/c/c.ml" 182 8418 8426 "obc/c/c.ml" 182 8418 8440
+)
+"obc/c/c.ml" 186 8559 8581 "obc/c/c.ml" 186 8559 8582
+type(
+  Names.modul
+)
+ident(
+  int_ref q "obc/c/c.ml" 185 8518 8542 "obc/c/c.ml" 185 8518 8543
+)
+"obc/c/c.ml" 186 8559 8565 "obc/c/c.ml" 186 8559 8583
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 186 8559 8583 "obc/c/c.ml" 186 8559 8584
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/c.ml" 186 8559 8584 "obc/c/c.ml" 186 8559 8585
+type(
+  Names.name
+)
+ident(
+  int_ref n "obc/c/c.ml" 185 8518 8552 "obc/c/c.ml" 185 8518 8553
+)
+"obc/c/c.ml" 186 8559 8585 "obc/c/c.ml" 186 8559 8586
+type(
+  Names.name -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/c.ml" 186 8559 8586 "obc/c/c.ml" 186 8559 8590
+type(
+  string
+)
+"obc/c/c.ml" 186 8559 8584 "obc/c/c.ml" 186 8559 8590
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 186 8559 8565 "obc/c/c.ml" 186 8559 8590
+call(
+  tail
+)
+type(
+  string
+)
+"obc/c/c.ml" 182 8418 8445 "obc/c/c.ml" 186 8559 8590
+type(
+  string
+)
+"obc/c/c.ml" 188 8592 8596 "obc/c/c.ml" 188 8592 8607
+type(
+  Names.qualname -> string
+)
+ident(
+  def cname_of_qn "obc/c/c.ml" 191 8651 8651 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 188 8592 8608 "obc/c/c.ml" 188 8592 8610
+type(
+  Names.qualname
+)
+ident(
+  def qn "obc/c/c.ml" 189 8613 8615 "obc/c/c.ml" 189 8613 8649
+)
+"obc/c/c.ml" 189 8613 8616 "obc/c/c.ml" 189 8613 8630
+type(
+  Names.modul -> string
+)
+ident(
+  int_ref modul_to_cname "obc/c/c.ml" 182 8418 8426 "obc/c/c.ml" 182 8418 8440
+)
+"obc/c/c.ml" 189 8613 8631 "obc/c/c.ml" 189 8613 8633
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/c/c.ml" 188 8592 8608 "obc/c/c.ml" 188 8592 8610
+)
+"obc/c/c.ml" 189 8613 8631 "obc/c/c.ml" 189 8613 8638
+type(
+  Names.modul
+)
+"obc/c/c.ml" 189 8613 8615 "obc/c/c.ml" 189 8613 8639
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 189 8613 8640 "obc/c/c.ml" 189 8613 8641
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/c.ml" 189 8613 8642 "obc/c/c.ml" 189 8613 8644
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/c/c.ml" 188 8592 8608 "obc/c/c.ml" 188 8592 8610
+)
+"obc/c/c.ml" 189 8613 8642 "obc/c/c.ml" 189 8613 8649
+type(
+  Names.name
+)
+"obc/c/c.ml" 189 8613 8615 "obc/c/c.ml" 189 8613 8649
+call(
+  tail
+)
+type(
+  string
+)
+"obc/c/c.ml" 191 8651 8655 "obc/c/c.ml" 191 8651 8666
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def pp_qualname "obc/c/c.ml" 194 8708 8708 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 191 8651 8667 "obc/c/c.ml" 191 8651 8670
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 191 8651 8671 "obc/c/c.ml" 192 8675 8706
+)
+"obc/c/c.ml" 191 8651 8671 "obc/c/c.ml" 191 8651 8672
+type(
+  Names.qualname
+)
+ident(
+  def q "obc/c/c.ml" 192 8675 8677 "obc/c/c.ml" 192 8675 8706
+)
+"obc/c/c.ml" 192 8675 8677 "obc/c/c.ml" 192 8675 8686
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 192 8675 8687 "obc/c/c.ml" 192 8675 8690
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 191 8651 8667 "obc/c/c.ml" 191 8651 8670
+)
+"obc/c/c.ml" 192 8675 8692 "obc/c/c.ml" 192 8675 8703
+type(
+  Names.qualname -> string
+)
+ident(
+  int_ref cname_of_qn "obc/c/c.ml" 188 8592 8596 "obc/c/c.ml" 188 8592 8607
+)
+"obc/c/c.ml" 192 8675 8704 "obc/c/c.ml" 192 8675 8705
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "obc/c/c.ml" 191 8651 8671 "obc/c/c.ml" 191 8651 8672
+)
+"obc/c/c.ml" 192 8675 8691 "obc/c/c.ml" 192 8675 8706
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 192 8675 8677 "obc/c/c.ml" 192 8675 8706
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 194 8708 8712 "obc/c/c.ml" 194 8708 8724
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  def pp_shortname "obc/c/c.ml" 197 8757 8757 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 194 8708 8725 "obc/c/c.ml" 194 8708 8728
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 194 8708 8729 "obc/c/c.ml" 195 8733 8755
+)
+"obc/c/c.ml" 194 8708 8729 "obc/c/c.ml" 194 8708 8730
+type(
+  Names.qualname
+)
+ident(
+  def q "obc/c/c.ml" 195 8733 8735 "obc/c/c.ml" 195 8733 8755
+)
+"obc/c/c.ml" 195 8733 8735 "obc/c/c.ml" 195 8733 8744
+type(
+  Format.formatter -> Names.name -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 195 8733 8745 "obc/c/c.ml" 195 8733 8748
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 194 8708 8725 "obc/c/c.ml" 194 8708 8728
+)
+"obc/c/c.ml" 195 8733 8749 "obc/c/c.ml" 195 8733 8750
+type(
+  Names.qualname
+)
+ident(
+  int_ref q "obc/c/c.ml" 194 8708 8729 "obc/c/c.ml" 194 8708 8730
+)
+"obc/c/c.ml" 195 8733 8749 "obc/c/c.ml" 195 8733 8755
+type(
+  Names.name
+)
+"obc/c/c.ml" 195 8733 8735 "obc/c/c.ml" 195 8733 8755
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  def pp_cty "obc/c/c.ml" 197 8757 8757 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 197 8757 8776 "obc/c/c.ml" 204 9046 9080
+)
+"obc/c/c.ml" 197 8757 8776 "obc/c/c.ml" 197 8757 8779
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 197 8757 8782 "obc/c/c.ml" 204 9046 9080
+)
+"obc/c/c.ml" 197 8757 8788 "obc/c/c.ml" 197 8757 8791
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 197 8757 8776 "obc/c/c.ml" 197 8757 8779
+)
+"obc/c/c.ml" 198 8797 8801 "obc/c/c.ml" 198 8797 8808
+type(
+  cty
+)
+"obc/c/c.ml" 198 8797 8812 "obc/c/c.ml" 198 8797 8819
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 198 8797 8820 "obc/c/c.ml" 198 8797 8823
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 198 8797 8824 "obc/c/c.ml" 198 8797 8829
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 198 8797 8812 "obc/c/c.ml" 198 8797 8829
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 199 8830 8834 "obc/c/c.ml" 199 8830 8843
+type(
+  cty
+)
+"obc/c/c.ml" 199 8830 8847 "obc/c/c.ml" 199 8830 8854
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 199 8830 8855 "obc/c/c.ml" 199 8830 8858
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 199 8830 8859 "obc/c/c.ml" 199 8830 8866
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 199 8830 8847 "obc/c/c.ml" 199 8830 8866
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 200 8867 8871 "obc/c/c.ml" 200 8867 8879
+type(
+  cty
+)
+"obc/c/c.ml" 200 8867 8883 "obc/c/c.ml" 200 8867 8890
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 200 8867 8891 "obc/c/c.ml" 200 8867 8894
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 200 8867 8895 "obc/c/c.ml" 200 8867 8901
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 200 8867 8883 "obc/c/c.ml" 200 8867 8901
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 201 8902 8913 "obc/c/c.ml" 201 8902 8914
+type(
+  Names.qualname
+)
+ident(
+  def s "obc/c/c.ml" 201 8902 8918 "obc/c/c.ml" 201 8902 8935
+)
+"obc/c/c.ml" 201 8902 8906 "obc/c/c.ml" 201 8902 8914
+type(
+  cty
+)
+"obc/c/c.ml" 201 8902 8918 "obc/c/c.ml" 201 8902 8929
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref pp_qualname "obc/c/c.ml" 191 8651 8655 "obc/c/c.ml" 191 8651 8666
+)
+"obc/c/c.ml" 201 8902 8930 "obc/c/c.ml" 201 8902 8933
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 201 8902 8934 "obc/c/c.ml" 201 8902 8935
+type(
+  Names.qualname
+)
+ident(
+  int_ref s "obc/c/c.ml" 201 8902 8913 "obc/c/c.ml" 201 8902 8914
+)
+"obc/c/c.ml" 201 8902 8918 "obc/c/c.ml" 201 8902 8935
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 202 8936 8948 "obc/c/c.ml" 202 8936 8952
+type(
+  cty
+)
+ident(
+  def cty' "obc/c/c.ml" 202 8936 8956 "obc/c/c.ml" 202 8936 8985
+)
+"obc/c/c.ml" 202 8936 8940 "obc/c/c.ml" 202 8936 8952
+type(
+  cty
+)
+"obc/c/c.ml" 202 8936 8956 "obc/c/c.ml" 202 8936 8963
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) -> cty -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> cty -> unit) -> cty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 202 8936 8964 "obc/c/c.ml" 202 8936 8967
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 202 8936 8968 "obc/c/c.ml" 202 8936 8973
+type(
+  ((Format.formatter -> cty -> unit) -> cty -> unit, Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 202 8936 8974 "obc/c/c.ml" 202 8936 8980
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 202 8936 8981 "obc/c/c.ml" 202 8936 8985
+type(
+  cty
+)
+ident(
+  int_ref cty' "obc/c/c.ml" 202 8936 8948 "obc/c/c.ml" 202 8936 8952
+)
+"obc/c/c.ml" 202 8936 8956 "obc/c/c.ml" 202 8936 8985
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 203 8986 8999 "obc/c/c.ml" 203 8986 9000
+type(
+  int
+)
+ident(
+  def n "obc/c/c.ml" 203 8986 9011 "obc/c/c.ml" 203 8986 9045
+)
+"obc/c/c.ml" 203 8986 9002 "obc/c/c.ml" 203 8986 9006
+type(
+  cty
+)
+ident(
+  def cty' "obc/c/c.ml" 203 8986 9011 "obc/c/c.ml" 203 8986 9045
+)
+"obc/c/c.ml" 203 8986 8990 "obc/c/c.ml" 203 8986 9007
+type(
+  cty
+)
+"obc/c/c.ml" 203 8986 9011 "obc/c/c.ml" 203 8986 9018
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) -> cty -> int -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> cty -> unit) -> cty -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 203 8986 9019 "obc/c/c.ml" 203 8986 9022
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 203 8986 9023 "obc/c/c.ml" 203 8986 9031
+type(
+  ((Format.formatter -> cty -> unit) -> cty -> int -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 203 8986 9032 "obc/c/c.ml" 203 8986 9038
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 203 8986 9039 "obc/c/c.ml" 203 8986 9043
+type(
+  cty
+)
+ident(
+  int_ref cty' "obc/c/c.ml" 203 8986 9002 "obc/c/c.ml" 203 8986 9006
+)
+"obc/c/c.ml" 203 8986 9044 "obc/c/c.ml" 203 8986 9045
+type(
+  int
+)
+ident(
+  int_ref n "obc/c/c.ml" 203 8986 8999 "obc/c/c.ml" 203 8986 9000
+)
+"obc/c/c.ml" 203 8986 9011 "obc/c/c.ml" 203 8986 9045
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 204 9046 9050 "obc/c/c.ml" 204 9046 9058
+type(
+  cty
+)
+"obc/c/c.ml" 204 9046 9062 "obc/c/c.ml" 204 9046 9069
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 204 9046 9070 "obc/c/c.ml" 204 9046 9073
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 197 8757 8772 "obc/c/c.ml" 197 8757 8775
+)
+"obc/c/c.ml" 204 9046 9074 "obc/c/c.ml" 204 9046 9080
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 204 9046 9062 "obc/c/c.ml" 204 9046 9080
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 197 8757 8782 "obc/c/c.ml" 204 9046 9080
+type(
+  unit
+)
+"obc/c/c.ml" 208 9193 9201 "obc/c/c.ml" 208 9193 9214
+type(
+  cty -> cty * string
+)
+ident(
+  def pp_array_decl "obc/c/c.ml" 208 9193 9193 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 208 9193 9215 "obc/c/c.ml" 208 9193 9218
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 209 9221 9223 "obc/c/c.ml" 213 9339 9357
+)
+"obc/c/c.ml" 209 9221 9229 "obc/c/c.ml" 209 9221 9232
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 208 9193 9215 "obc/c/c.ml" 208 9193 9218
+)
+"obc/c/c.ml" 210 9238 9252 "obc/c/c.ml" 210 9238 9253
+type(
+  int
+)
+ident(
+  def n "obc/c/c.ml" 211 9264 9272 "obc/c/c.ml" 212 9306 9338
+)
+"obc/c/c.ml" 210 9238 9255 "obc/c/c.ml" 210 9238 9259
+type(
+  cty
+)
+ident(
+  def cty' "obc/c/c.ml" 211 9264 9272 "obc/c/c.ml" 212 9306 9338
+)
+"obc/c/c.ml" 210 9238 9244 "obc/c/c.ml" 210 9238 9260
+type(
+  cty
+)
+"obc/c/c.ml" 211 9264 9276 "obc/c/c.ml" 211 9264 9278
+type(
+  cty
+)
+ident(
+  def ty "obc/c/c.ml" 212 9306 9314 "obc/c/c.ml" 212 9306 9338
+)
+"obc/c/c.ml" 211 9264 9280 "obc/c/c.ml" 211 9264 9281
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 212 9306 9314 "obc/c/c.ml" 212 9306 9338
+)
+"obc/c/c.ml" 211 9264 9276 "obc/c/c.ml" 211 9264 9281
+type(
+  cty * string
+)
+"obc/c/c.ml" 211 9264 9284 "obc/c/c.ml" 211 9264 9297
+type(
+  cty -> cty * string
+)
+ident(
+  int_ref pp_array_decl "obc/c/c.ml" 208 9193 9201 "obc/c/c.ml" 208 9193 9214
+)
+"obc/c/c.ml" 211 9264 9298 "obc/c/c.ml" 211 9264 9302
+type(
+  cty
+)
+ident(
+  int_ref cty' "obc/c/c.ml" 210 9238 9255 "obc/c/c.ml" 210 9238 9259
+)
+"obc/c/c.ml" 211 9264 9284 "obc/c/c.ml" 211 9264 9302
+call(
+  stack
+)
+type(
+  cty * string
+)
+"obc/c/c.ml" 212 9306 9314 "obc/c/c.ml" 212 9306 9316
+type(
+  cty
+)
+ident(
+  int_ref ty "obc/c/c.ml" 211 9264 9276 "obc/c/c.ml" 211 9264 9278
+)
+"obc/c/c.ml" 212 9306 9318 "obc/c/c.ml" 212 9306 9325
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"obc/c/c.ml" 212 9306 9326 "obc/c/c.ml" 212 9306 9334
+type(
+  (int -> string -> string, unit, string) format
+)
+"obc/c/c.ml" 212 9306 9335 "obc/c/c.ml" 212 9306 9336
+type(
+  int
+)
+ident(
+  int_ref n "obc/c/c.ml" 210 9238 9252 "obc/c/c.ml" 210 9238 9253
+)
+"obc/c/c.ml" 212 9306 9337 "obc/c/c.ml" 212 9306 9338
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 211 9264 9280 "obc/c/c.ml" 211 9264 9281
+)
+"obc/c/c.ml" 212 9306 9318 "obc/c/c.ml" 212 9306 9338
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 212 9306 9314 "obc/c/c.ml" 212 9306 9338
+type(
+  cty * string
+)
+"obc/c/c.ml" 211 9264 9272 "obc/c/c.ml" 212 9306 9338
+type(
+  cty * string
+)
+"obc/c/c.ml" 213 9339 9345 "obc/c/c.ml" 213 9339 9346
+type(
+  cty
+)
+"obc/c/c.ml" 213 9339 9350 "obc/c/c.ml" 213 9339 9353
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 208 9193 9215 "obc/c/c.ml" 208 9193 9218
+)
+"obc/c/c.ml" 213 9339 9355 "obc/c/c.ml" 213 9339 9357
+type(
+  string
+)
+"obc/c/c.ml" 213 9339 9350 "obc/c/c.ml" 213 9339 9357
+type(
+  cty * string
+)
+"obc/c/c.ml" 209 9221 9223 "obc/c/c.ml" 213 9339 9357
+type(
+  cty * string
+)
+"obc/c/c.ml" 215 9359 9367 "obc/c/c.ml" 215 9359 9379
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  def pp_param_cty "obc/c/c.ml" 215 9359 9359 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 215 9359 9380 "obc/c/c.ml" 215 9359 9383
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 215 9359 9386 "obc/c/c.ml" 218 9467 9494
+)
+"obc/c/c.ml" 216 9395 9409 "obc/c/c.ml" 216 9395 9410
+type(
+  int
+)
+"obc/c/c.ml" 216 9395 9412 "obc/c/c.ml" 216 9395 9416
+type(
+  cty
+)
+ident(
+  def cty' "obc/c/c.ml" 217 9421 9431 "obc/c/c.ml" 217 9421 9466
+)
+"obc/c/c.ml" 216 9395 9401 "obc/c/c.ml" 216 9395 9417
+type(
+  cty
+)
+"obc/c/c.ml" 217 9421 9431 "obc/c/c.ml" 217 9421 9438
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) -> cty -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> cty -> unit) -> cty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 217 9421 9439 "obc/c/c.ml" 217 9421 9442
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 215 9359 9380 "obc/c/c.ml" 215 9359 9383
+)
+"obc/c/c.ml" 217 9421 9443 "obc/c/c.ml" 217 9421 9448
+type(
+  ((Format.formatter -> cty -> unit) -> cty -> unit, Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 217 9421 9449 "obc/c/c.ml" 217 9421 9461
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_param_cty "obc/c/c.ml" 215 9359 9367 "obc/c/c.ml" 215 9359 9379
+)
+"obc/c/c.ml" 217 9421 9462 "obc/c/c.ml" 217 9421 9466
+type(
+  cty
+)
+ident(
+  int_ref cty' "obc/c/c.ml" 216 9395 9412 "obc/c/c.ml" 216 9395 9416
+)
+"obc/c/c.ml" 217 9421 9431 "obc/c/c.ml" 217 9421 9466
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 218 9467 9473 "obc/c/c.ml" 218 9467 9476
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 218 9467 9480 "obc/c/c.ml" 218 9467 9494
+)
+"obc/c/c.ml" 218 9467 9480 "obc/c/c.ml" 218 9467 9486
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 218 9467 9487 "obc/c/c.ml" 218 9467 9490
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 215 9359 9380 "obc/c/c.ml" 215 9359 9383
+)
+"obc/c/c.ml" 218 9467 9491 "obc/c/c.ml" 218 9467 9494
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 218 9467 9473 "obc/c/c.ml" 218 9467 9476
+)
+"obc/c/c.ml" 218 9467 9480 "obc/c/c.ml" 218 9467 9494
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 215 9359 9386 "obc/c/c.ml" 218 9467 9494
+type(
+  cty -> unit
+)
+"obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  def pp_vardecl "obc/c/c.ml" 222 9586 9586 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 222 9586 9605 "obc/c/c.ml" 222 9586 9608
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 222 9586 9609 "obc/c/c.ml" 226 9756 9808
+)
+"obc/c/c.ml" 222 9586 9610 "obc/c/c.ml" 222 9586 9611
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 222 9586 9620 "obc/c/c.ml" 226 9756 9808
+)
+"obc/c/c.ml" 222 9586 9613 "obc/c/c.ml" 222 9586 9616
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 222 9586 9620 "obc/c/c.ml" 226 9756 9808
+)
+"obc/c/c.ml" 222 9586 9609 "obc/c/c.ml" 222 9586 9617
+type(
+  string * cty
+)
+"obc/c/c.ml" 222 9586 9626 "obc/c/c.ml" 222 9586 9629
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 222 9586 9613 "obc/c/c.ml" 222 9586 9616
+)
+"obc/c/c.ml" 223 9635 9647 "obc/c/c.ml" 223 9635 9648
+type(
+  cty
+)
+type(
+  int
+)
+"obc/c/c.ml" 223 9635 9639 "obc/c/c.ml" 223 9635 9648
+type(
+  cty
+)
+"obc/c/c.ml" 224 9652 9662 "obc/c/c.ml" 224 9652 9664
+type(
+  cty
+)
+ident(
+  def ty "obc/c/c.ml" 225 9697 9703 "obc/c/c.ml" 225 9697 9755
+)
+"obc/c/c.ml" 224 9652 9666 "obc/c/c.ml" 224 9652 9673
+type(
+  string
+)
+ident(
+  def indices "obc/c/c.ml" 225 9697 9703 "obc/c/c.ml" 225 9697 9755
+)
+"obc/c/c.ml" 224 9652 9662 "obc/c/c.ml" 224 9652 9673
+type(
+  cty * string
+)
+"obc/c/c.ml" 224 9652 9676 "obc/c/c.ml" 224 9652 9689
+type(
+  cty -> cty * string
+)
+ident(
+  int_ref pp_array_decl "obc/c/c.ml" 208 9193 9201 "obc/c/c.ml" 208 9193 9214
+)
+"obc/c/c.ml" 224 9652 9690 "obc/c/c.ml" 224 9652 9693
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 222 9586 9613 "obc/c/c.ml" 222 9586 9616
+)
+"obc/c/c.ml" 224 9652 9676 "obc/c/c.ml" 224 9652 9693
+call(
+  stack
+)
+type(
+  cty * string
+)
+"obc/c/c.ml" 225 9697 9703 "obc/c/c.ml" 225 9697 9710
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cty -> unit) ->
+  cty -> (Format.formatter -> string -> unit) -> string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 225 9697 9711 "obc/c/c.ml" 225 9697 9714
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 222 9586 9605 "obc/c/c.ml" 222 9586 9608
+)
+"obc/c/c.ml" 225 9697 9715 "obc/c/c.ml" 225 9697 9724
+type(
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 225 9697 9725 "obc/c/c.ml" 225 9697 9731
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 225 9697 9732 "obc/c/c.ml" 225 9697 9734
+type(
+  cty
+)
+ident(
+  int_ref ty "obc/c/c.ml" 224 9652 9662 "obc/c/c.ml" 224 9652 9664
+)
+"obc/c/c.ml" 225 9697 9736 "obc/c/c.ml" 225 9697 9745
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 225 9697 9746 "obc/c/c.ml" 225 9697 9747
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 222 9586 9610 "obc/c/c.ml" 222 9586 9611
+)
+"obc/c/c.ml" 225 9697 9748 "obc/c/c.ml" 225 9697 9755
+type(
+  string
+)
+ident(
+  int_ref indices "obc/c/c.ml" 224 9652 9666 "obc/c/c.ml" 224 9652 9673
+)
+"obc/c/c.ml" 225 9697 9703 "obc/c/c.ml" 225 9697 9755
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 224 9652 9658 "obc/c/c.ml" 225 9697 9755
+type(
+  unit
+)
+"obc/c/c.ml" 226 9756 9760 "obc/c/c.ml" 226 9756 9761
+type(
+  cty
+)
+"obc/c/c.ml" 226 9756 9765 "obc/c/c.ml" 226 9756 9772
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cty -> unit) ->
+  cty -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 226 9756 9773 "obc/c/c.ml" 226 9756 9776
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 222 9586 9605 "obc/c/c.ml" 222 9586 9608
+)
+"obc/c/c.ml" 226 9756 9777 "obc/c/c.ml" 226 9756 9784
+type(
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 226 9756 9785 "obc/c/c.ml" 226 9756 9791
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 226 9756 9792 "obc/c/c.ml" 226 9756 9795
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 222 9586 9613 "obc/c/c.ml" 222 9586 9616
+)
+"obc/c/c.ml" 226 9756 9797 "obc/c/c.ml" 226 9756 9806
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 226 9756 9807 "obc/c/c.ml" 226 9756 9808
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 222 9586 9610 "obc/c/c.ml" 222 9586 9611
+)
+"obc/c/c.ml" 226 9756 9765 "obc/c/c.ml" 226 9756 9808
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 222 9586 9620 "obc/c/c.ml" 226 9756 9808
+type(
+  unit
+)
+"obc/c/c.ml" 227 9809 9813 "obc/c/c.ml" 227 9809 9826
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  def pp_param_list "obc/c/c.ml" 222 9586 9586 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 227 9809 9827 "obc/c/c.ml" 227 9809 9830
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 227 9809 9831 "obc/c/c.ml" 227 9809 9864
+)
+"obc/c/c.ml" 227 9809 9831 "obc/c/c.ml" 227 9809 9832
+type(
+  (string * cty) list
+)
+ident(
+  def l "obc/c/c.ml" 227 9809 9835 "obc/c/c.ml" 227 9809 9864
+)
+"obc/c/c.ml" 227 9809 9835 "obc/c/c.ml" 227 9809 9843
+type(
+  (Format.formatter -> string * cty -> unit) ->
+  string -> Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 227 9809 9844 "obc/c/c.ml" 227 9809 9854
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 227 9809 9855 "obc/c/c.ml" 227 9809 9858
+type(
+  string
+)
+"obc/c/c.ml" 227 9809 9859 "obc/c/c.ml" 227 9809 9862
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 227 9809 9827 "obc/c/c.ml" 227 9809 9830
+)
+"obc/c/c.ml" 227 9809 9863 "obc/c/c.ml" 227 9809 9864
+type(
+  (string * cty) list
+)
+ident(
+  int_ref l "obc/c/c.ml" 227 9809 9831 "obc/c/c.ml" 227 9809 9832
+)
+"obc/c/c.ml" 227 9809 9835 "obc/c/c.ml" 227 9809 9864
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 228 9865 9869 "obc/c/c.ml" 228 9865 9880
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  def pp_var_list "obc/c/c.ml" 222 9586 9586 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 228 9865 9881 "obc/c/c.ml" 228 9865 9884
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 228 9865 9885 "obc/c/c.ml" 228 9865 9917
+)
+"obc/c/c.ml" 228 9865 9885 "obc/c/c.ml" 228 9865 9886
+type(
+  (string * cty) list
+)
+ident(
+  def l "obc/c/c.ml" 228 9865 9889 "obc/c/c.ml" 228 9865 9917
+)
+"obc/c/c.ml" 228 9865 9889 "obc/c/c.ml" 228 9865 9896
+type(
+  (Format.formatter -> string * cty -> unit) ->
+  string -> Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_list "obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+)
+"obc/c/c.ml" 228 9865 9897 "obc/c/c.ml" 228 9865 9907
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 228 9865 9908 "obc/c/c.ml" 228 9865 9911
+type(
+  string
+)
+"obc/c/c.ml" 228 9865 9912 "obc/c/c.ml" 228 9865 9915
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 228 9865 9881 "obc/c/c.ml" 228 9865 9884
+)
+"obc/c/c.ml" 228 9865 9916 "obc/c/c.ml" 228 9865 9917
+type(
+  (string * cty) list
+)
+ident(
+  int_ref l "obc/c/c.ml" 228 9865 9885 "obc/c/c.ml" 228 9865 9886
+)
+"obc/c/c.ml" 228 9865 9889 "obc/c/c.ml" 228 9865 9917
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 230 9919 9927 "obc/c/c.ml" 230 9919 9936
+type(
+  Format.formatter -> cblock -> unit
+)
+ident(
+  def pp_cblock "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 230 9919 9937 "obc/c/c.ml" 230 9919 9940
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 230 9919 9941 "obc/c/c.ml" 232 9991 10062
+)
+"obc/c/c.ml" 230 9919 9941 "obc/c/c.ml" 230 9919 9943
+type(
+  cblock
+)
+ident(
+  def cb "obc/c/c.ml" 231 9946 9948 "obc/c/c.ml" 232 9991 10062
+)
+"obc/c/c.ml" 231 9946 9952 "obc/c/c.ml" 231 9946 9962
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  def pp_varlist "obc/c/c.ml" 232 9991 9993 "obc/c/c.ml" 232 9991 10062
+)
+"obc/c/c.ml" 231 9946 9965 "obc/c/c.ml" 231 9946 9972
+type(
+  (Format.formatter -> string * cty -> unit) ->
+  string -> Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_list "obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+)
+"obc/c/c.ml" 231 9946 9973 "obc/c/c.ml" 231 9946 9983
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 231 9946 9984 "obc/c/c.ml" 231 9946 9987
+type(
+  string
+)
+"obc/c/c.ml" 231 9946 9965 "obc/c/c.ml" 231 9946 9987
+call(
+  stack
+)
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+"obc/c/c.ml" 232 9991 9993 "obc/c/c.ml" 232 9991 10000
+type(
+  Format.formatter ->
+  ((Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list ->
+   (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> (string * cty) list -> unit) ->
+  (string * cty) list ->
+  (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 232 9991 10001 "obc/c/c.ml" 232 9991 10004
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 230 9919 9937 "obc/c/c.ml" 230 9919 9940
+)
+"obc/c/c.ml" 232 9991 10005 "obc/c/c.ml" 232 9991 10011
+type(
+  ((Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list ->
+   (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 232 9991 10012 "obc/c/c.ml" 232 9991 10022
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_varlist "obc/c/c.ml" 231 9946 9952 "obc/c/c.ml" 231 9946 9962
+)
+"obc/c/c.ml" 232 9991 10023 "obc/c/c.ml" 232 9991 10025
+type(
+  cblock
+)
+ident(
+  int_ref cb "obc/c/c.ml" 230 9919 9941 "obc/c/c.ml" 230 9919 9943
+)
+"obc/c/c.ml" 232 9991 10023 "obc/c/c.ml" 232 9991 10035
+type(
+  (string * cty) list
+)
+"obc/c/c.ml" 232 9991 10036 "obc/c/c.ml" 232 9991 10048
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 232 9991 10049 "obc/c/c.ml" 232 9991 10051
+type(
+  cblock
+)
+ident(
+  int_ref cb "obc/c/c.ml" 230 9919 9941 "obc/c/c.ml" 230 9919 9943
+)
+"obc/c/c.ml" 232 9991 10049 "obc/c/c.ml" 232 9991 10062
+type(
+  cstm list
+)
+"obc/c/c.ml" 232 9991 9993 "obc/c/c.ml" 232 9991 10062
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 231 9946 9948 "obc/c/c.ml" 232 9991 10062
+type(
+  unit
+)
+"obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  def pp_cstm_list "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 233 10063 10080 "obc/c/c.ml" 233 10063 10083
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 233 10063 10084 "obc/c/c.ml" 233 10063 10119
+)
+"obc/c/c.ml" 233 10063 10084 "obc/c/c.ml" 233 10063 10088
+type(
+  cstm list
+)
+ident(
+  def stml "obc/c/c.ml" 233 10063 10091 "obc/c/c.ml" 233 10063 10119
+)
+"obc/c/c.ml" 233 10063 10091 "obc/c/c.ml" 233 10063 10098
+type(
+  (Format.formatter -> cstm -> unit) ->
+  string -> Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_list "obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+)
+"obc/c/c.ml" 233 10063 10099 "obc/c/c.ml" 233 10063 10106
+type(
+  Format.formatter -> cstm -> unit
+)
+ident(
+  int_ref pp_cstm "obc/c/c.ml" 234 10120 10124 "obc/c/c.ml" 234 10120 10131
+)
+"obc/c/c.ml" 233 10063 10107 "obc/c/c.ml" 233 10063 10110
+type(
+  string
+)
+"obc/c/c.ml" 233 10063 10111 "obc/c/c.ml" 233 10063 10114
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 233 10063 10080 "obc/c/c.ml" 233 10063 10083
+)
+"obc/c/c.ml" 233 10063 10115 "obc/c/c.ml" 233 10063 10119
+type(
+  cstm list
+)
+ident(
+  int_ref stml "obc/c/c.ml" 233 10063 10084 "obc/c/c.ml" 233 10063 10088
+)
+"obc/c/c.ml" 233 10063 10091 "obc/c/c.ml" 233 10063 10119
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 234 10120 10124 "obc/c/c.ml" 234 10120 10131
+type(
+  Format.formatter -> cstm -> unit
+)
+ident(
+  def pp_cstm "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 234 10120 10136 "obc/c/c.ml" 261 11255 11306
+)
+"obc/c/c.ml" 234 10120 10136 "obc/c/c.ml" 234 10120 10139
+type(
+  cstm
+)
+ident(
+  def stm "obc/c/c.ml" 234 10120 10142 "obc/c/c.ml" 261 11255 11306
+)
+"obc/c/c.ml" 234 10120 10148 "obc/c/c.ml" 234 10120 10151
+type(
+  cstm
+)
+ident(
+  int_ref stm "obc/c/c.ml" 234 10120 10136 "obc/c/c.ml" 234 10120 10139
+)
+"obc/c/c.ml" 235 10157 10168 "obc/c/c.ml" 235 10157 10169
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 235 10157 10173 "obc/c/c.ml" 235 10157 10200
+)
+"obc/c/c.ml" 235 10157 10161 "obc/c/c.ml" 235 10157 10169
+type(
+  cstm
+)
+"obc/c/c.ml" 235 10157 10173 "obc/c/c.ml" 235 10157 10180
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 235 10157 10181 "obc/c/c.ml" 235 10157 10184
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 235 10157 10185 "obc/c/c.ml" 235 10157 10189
+type(
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 235 10157 10190 "obc/c/c.ml" 235 10157 10198
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 235 10157 10199 "obc/c/c.ml" 235 10157 10200
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 235 10157 10168 "obc/c/c.ml" 235 10157 10169
+)
+"obc/c/c.ml" 235 10157 10173 "obc/c/c.ml" 235 10157 10200
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 236 10201 10214 "obc/c/c.ml" 236 10201 10215
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 237 10224 10230 "obc/c/c.ml" 242 10462 10506
+)
+"obc/c/c.ml" 236 10201 10217 "obc/c/c.ml" 236 10201 10219
+type(
+  (string * cstm list) list
+)
+ident(
+  def cl "obc/c/c.ml" 237 10224 10230 "obc/c/c.ml" 242 10462 10506
+)
+"obc/c/c.ml" 236 10201 10205 "obc/c/c.ml" 236 10201 10220
+type(
+  cstm
+)
+"obc/c/c.ml" 237 10224 10234 "obc/c/c.ml" 237 10224 10243
+type(
+  Format.formatter -> string * cstm list -> unit
+)
+ident(
+  def pp_clause "obc/c/c.ml" 240 10372 10378 "obc/c/c.ml" 242 10462 10506
+)
+"obc/c/c.ml" 237 10224 10244 "obc/c/c.ml" 237 10224 10247
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 237 10224 10248 "obc/c/c.ml" 239 10312 10368
+)
+"obc/c/c.ml" 237 10224 10249 "obc/c/c.ml" 237 10224 10252
+type(
+  string
+)
+ident(
+  def tag "obc/c/c.ml" 238 10262 10270 "obc/c/c.ml" 239 10312 10368
+)
+"obc/c/c.ml" 237 10224 10254 "obc/c/c.ml" 237 10224 10258
+type(
+  cstm list
+)
+ident(
+  def stml "obc/c/c.ml" 238 10262 10270 "obc/c/c.ml" 239 10312 10368
+)
+"obc/c/c.ml" 237 10224 10248 "obc/c/c.ml" 237 10224 10259
+type(
+  string * cstm list
+)
+"obc/c/c.ml" 238 10262 10270 "obc/c/c.ml" 238 10262 10277
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 238 10262 10278 "obc/c/c.ml" 238 10262 10281
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 237 10224 10244 "obc/c/c.ml" 237 10224 10247
+)
+"obc/c/c.ml" 238 10262 10282 "obc/c/c.ml" 238 10262 10311
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 239 10312 10322 "obc/c/c.ml" 239 10312 10330
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 239 10312 10345 "obc/c/c.ml" 239 10312 10348
+type(
+  string
+)
+ident(
+  int_ref tag "obc/c/c.ml" 237 10224 10249 "obc/c/c.ml" 237 10224 10252
+)
+"obc/c/c.ml" 239 10312 10339 "obc/c/c.ml" 239 10312 10349
+type(
+  cconst
+)
+"obc/c/c.ml" 239 10312 10331 "obc/c/c.ml" 239 10312 10350
+type(
+  cexpr
+)
+"obc/c/c.ml" 239 10312 10351 "obc/c/c.ml" 239 10312 10363
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 239 10312 10364 "obc/c/c.ml" 239 10312 10368
+type(
+  cstm list
+)
+ident(
+  int_ref stml "obc/c/c.ml" 237 10224 10254 "obc/c/c.ml" 237 10224 10258
+)
+"obc/c/c.ml" 238 10262 10270 "obc/c/c.ml" 239 10312 10368
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 240 10372 10378 "obc/c/c.ml" 240 10372 10385
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> (string * cstm list) list -> unit) ->
+   (string * cstm list) list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> (string * cstm list) list -> unit) ->
+  (string * cstm list) list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 240 10372 10386 "obc/c/c.ml" 240 10372 10389
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 241 10390 10398 "obc/c/c.ml" 241 10390 10461
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> (string * cstm list) list -> unit) ->
+   (string * cstm list) list -> unit, Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 242 10462 10470 "obc/c/c.ml" 242 10462 10478
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 242 10462 10479 "obc/c/c.ml" 242 10462 10480
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 236 10201 10214 "obc/c/c.ml" 236 10201 10215
+)
+"obc/c/c.ml" 242 10462 10482 "obc/c/c.ml" 242 10462 10489
+type(
+  (Format.formatter -> string * cstm list -> unit) ->
+  string -> Format.formatter -> (string * cstm list) list -> unit
+)
+ident(
+  int_ref pp_list "obc/c/c.ml" 175 8238 8246 "obc/c/c.ml" 175 8238 8253
+)
+"obc/c/c.ml" 242 10462 10490 "obc/c/c.ml" 242 10462 10499
+type(
+  Format.formatter -> string * cstm list -> unit
+)
+ident(
+  int_ref pp_clause "obc/c/c.ml" 237 10224 10234 "obc/c/c.ml" 237 10224 10243
+)
+"obc/c/c.ml" 242 10462 10500 "obc/c/c.ml" 242 10462 10502
+type(
+  string
+)
+"obc/c/c.ml" 242 10462 10481 "obc/c/c.ml" 242 10462 10503
+call(
+  stack
+)
+type(
+  Format.formatter -> (string * cstm list) list -> unit
+)
+"obc/c/c.ml" 242 10462 10504 "obc/c/c.ml" 242 10462 10506
+type(
+  (string * cstm list) list
+)
+ident(
+  int_ref cl "obc/c/c.ml" 236 10201 10217 "obc/c/c.ml" 236 10201 10219
+)
+"obc/c/c.ml" 240 10372 10378 "obc/c/c.ml" 242 10462 10506
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 237 10224 10230 "obc/c/c.ml" 242 10462 10506
+type(
+  unit
+)
+"obc/c/c.ml" 243 10507 10520 "obc/c/c.ml" 243 10507 10523
+type(
+  clhs
+)
+ident(
+  def lhs "obc/c/c.ml" 244 10531 10537 "obc/c/c.ml" 244 10531 10581
+)
+"obc/c/c.ml" 243 10507 10525 "obc/c/c.ml" 243 10507 10526
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 244 10531 10537 "obc/c/c.ml" 244 10531 10581
+)
+"obc/c/c.ml" 243 10507 10511 "obc/c/c.ml" 243 10507 10527
+type(
+  cstm
+)
+"obc/c/c.ml" 244 10531 10537 "obc/c/c.ml" 244 10531 10544
+type(
+  Format.formatter ->
+  ((Format.formatter -> clhs -> unit) ->
+   clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> clhs -> unit) ->
+  clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 244 10531 10545 "obc/c/c.ml" 244 10531 10548
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 244 10531 10549 "obc/c/c.ml" 244 10531 10558
+type(
+  ((Format.formatter -> clhs -> unit) ->
+   clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 244 10531 10559 "obc/c/c.ml" 244 10531 10566
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  int_ref pp_clhs "obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+)
+"obc/c/c.ml" 244 10531 10567 "obc/c/c.ml" 244 10531 10570
+type(
+  clhs
+)
+ident(
+  int_ref lhs "obc/c/c.ml" 243 10507 10520 "obc/c/c.ml" 243 10507 10523
+)
+"obc/c/c.ml" 244 10531 10571 "obc/c/c.ml" 244 10531 10579
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 244 10531 10580 "obc/c/c.ml" 244 10531 10581
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 243 10507 10525 "obc/c/c.ml" 243 10507 10526
+)
+"obc/c/c.ml" 244 10531 10537 "obc/c/c.ml" 244 10531 10581
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 245 10582 10591 "obc/c/c.ml" 245 10582 10592
+type(
+  cexpr
+)
+ident(
+  def c "obc/c/c.ml" 246 10604 10610 "obc/c/c.ml" 247 10655 10688
+)
+"obc/c/c.ml" 245 10582 10594 "obc/c/c.ml" 245 10582 10595
+type(
+  cstm list
+)
+ident(
+  def t "obc/c/c.ml" 246 10604 10610 "obc/c/c.ml" 247 10655 10688
+)
+"obc/c/c.ml" 245 10582 10597 "obc/c/c.ml" 245 10582 10599
+type(
+  cstm list
+)
+"obc/c/c.ml" 245 10582 10586 "obc/c/c.ml" 245 10582 10600
+type(
+  cstm
+)
+"obc/c/c.ml" 246 10604 10610 "obc/c/c.ml" 246 10604 10617
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 246 10604 10618 "obc/c/c.ml" 246 10604 10621
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 246 10604 10622 "obc/c/c.ml" 246 10604 10654
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 247 10655 10663 "obc/c/c.ml" 247 10655 10671
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 247 10655 10672 "obc/c/c.ml" 247 10655 10673
+type(
+  cexpr
+)
+ident(
+  int_ref c "obc/c/c.ml" 245 10582 10591 "obc/c/c.ml" 245 10582 10592
+)
+"obc/c/c.ml" 247 10655 10674 "obc/c/c.ml" 247 10655 10686
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 247 10655 10687 "obc/c/c.ml" 247 10655 10688
+type(
+  cstm list
+)
+ident(
+  int_ref t "obc/c/c.ml" 245 10582 10594 "obc/c/c.ml" 245 10582 10595
+)
+"obc/c/c.ml" 246 10604 10610 "obc/c/c.ml" 247 10655 10688
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 248 10689 10698 "obc/c/c.ml" 248 10689 10699
+type(
+  cexpr
+)
+ident(
+  def c "obc/c/c.ml" 249 10710 10716 "obc/c/c.ml" 250 10782 10830
+)
+"obc/c/c.ml" 248 10689 10701 "obc/c/c.ml" 248 10689 10702
+type(
+  cstm list
+)
+ident(
+  def t "obc/c/c.ml" 249 10710 10716 "obc/c/c.ml" 250 10782 10830
+)
+"obc/c/c.ml" 248 10689 10704 "obc/c/c.ml" 248 10689 10705
+type(
+  cstm list
+)
+ident(
+  def e "obc/c/c.ml" 249 10710 10716 "obc/c/c.ml" 250 10782 10830
+)
+"obc/c/c.ml" 248 10689 10693 "obc/c/c.ml" 248 10689 10706
+type(
+  cstm
+)
+"obc/c/c.ml" 249 10710 10716 "obc/c/c.ml" 249 10710 10723
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> cstm list -> unit) ->
+   cstm list -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> cstm list -> unit) ->
+  cstm list -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 249 10710 10724 "obc/c/c.ml" 249 10710 10727
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 249 10710 10728 "obc/c/c.ml" 249 10710 10781
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> cstm list -> unit) ->
+   cstm list -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 250 10782 10790 "obc/c/c.ml" 250 10782 10798
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 250 10782 10799 "obc/c/c.ml" 250 10782 10800
+type(
+  cexpr
+)
+ident(
+  int_ref c "obc/c/c.ml" 248 10689 10698 "obc/c/c.ml" 248 10689 10699
+)
+"obc/c/c.ml" 250 10782 10801 "obc/c/c.ml" 250 10782 10813
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 250 10782 10814 "obc/c/c.ml" 250 10782 10815
+type(
+  cstm list
+)
+ident(
+  int_ref t "obc/c/c.ml" 248 10689 10701 "obc/c/c.ml" 248 10689 10702
+)
+"obc/c/c.ml" 250 10782 10816 "obc/c/c.ml" 250 10782 10828
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 250 10782 10829 "obc/c/c.ml" 250 10782 10830
+type(
+  cstm list
+)
+ident(
+  int_ref e "obc/c/c.ml" 248 10689 10704 "obc/c/c.ml" 248 10689 10705
+)
+"obc/c/c.ml" 249 10710 10716 "obc/c/c.ml" 250 10782 10830
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 251 10831 10840 "obc/c/c.ml" 251 10831 10841
+type(
+  string
+)
+ident(
+  def x "obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 256 11039 11090
+)
+"obc/c/c.ml" 251 10831 10843 "obc/c/c.ml" 251 10831 10848
+type(
+  cexpr
+)
+ident(
+  def lower "obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 256 11039 11090
+)
+"obc/c/c.ml" 251 10831 10850 "obc/c/c.ml" 251 10831 10855
+type(
+  cexpr
+)
+ident(
+  def upper "obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 256 11039 11090
+)
+"obc/c/c.ml" 251 10831 10857 "obc/c/c.ml" 251 10831 10858
+type(
+  cstm list
+)
+ident(
+  def e "obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 256 11039 11090
+)
+"obc/c/c.ml" 251 10831 10835 "obc/c/c.ml" 251 10831 10859
+type(
+  cstm
+)
+"obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 252 10863 10876
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 252 10863 10877 "obc/c/c.ml" 252 10863 10880
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 253 10881 10889 "obc/c/c.ml" 253 10881 10969
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 254 10970 10978 "obc/c/c.ml" 254 10970 10987
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 254 10970 10988 "obc/c/c.ml" 254 10970 10989
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/c.ml" 251 10831 10840 "obc/c/c.ml" 251 10831 10841
+)
+"obc/c/c.ml" 255 10990 10998 "obc/c/c.ml" 255 10990 11007
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 255 10990 11008 "obc/c/c.ml" 255 10990 11009
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/c.ml" 251 10831 10840 "obc/c/c.ml" 251 10831 10841
+)
+"obc/c/c.ml" 255 10990 11011 "obc/c/c.ml" 255 10990 11019
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 255 10990 11020 "obc/c/c.ml" 255 10990 11025
+type(
+  cexpr
+)
+ident(
+  int_ref lower "obc/c/c.ml" 251 10831 10843 "obc/c/c.ml" 251 10831 10848
+)
+"obc/c/c.ml" 255 10990 11027 "obc/c/c.ml" 255 10990 11036
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 255 10990 11037 "obc/c/c.ml" 255 10990 11038
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/c.ml" 251 10831 10840 "obc/c/c.ml" 251 10831 10841
+)
+"obc/c/c.ml" 256 11039 11047 "obc/c/c.ml" 256 11039 11055
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 256 11039 11056 "obc/c/c.ml" 256 11039 11061
+type(
+  cexpr
+)
+ident(
+  int_ref upper "obc/c/c.ml" 251 10831 10850 "obc/c/c.ml" 251 10831 10855
+)
+"obc/c/c.ml" 256 11039 11063 "obc/c/c.ml" 256 11039 11072
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 256 11039 11073 "obc/c/c.ml" 256 11039 11074
+type(
+  string
+)
+ident(
+  int_ref x "obc/c/c.ml" 251 10831 10840 "obc/c/c.ml" 251 10831 10841
+)
+"obc/c/c.ml" 256 11039 11076 "obc/c/c.ml" 256 11039 11088
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 256 11039 11089 "obc/c/c.ml" 256 11039 11090
+type(
+  cstm list
+)
+ident(
+  int_ref e "obc/c/c.ml" 251 10831 10857 "obc/c/c.ml" 251 10831 10858
+)
+"obc/c/c.ml" 252 10863 10869 "obc/c/c.ml" 256 11039 11090
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 257 11091 11103 "obc/c/c.ml" 257 11091 11104
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 258 11112 11118 "obc/c/c.ml" 258 11112 11191
+)
+"obc/c/c.ml" 257 11091 11106 "obc/c/c.ml" 257 11091 11107
+type(
+  cstm list
+)
+ident(
+  def b "obc/c/c.ml" 258 11112 11118 "obc/c/c.ml" 258 11112 11191
+)
+"obc/c/c.ml" 257 11091 11095 "obc/c/c.ml" 257 11091 11108
+type(
+  cstm
+)
+"obc/c/c.ml" 258 11112 11118 "obc/c/c.ml" 258 11112 11125
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 258 11112 11126 "obc/c/c.ml" 258 11112 11129
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 258 11112 11130 "obc/c/c.ml" 258 11112 11165
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cstm list -> unit) -> cstm list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 258 11112 11166 "obc/c/c.ml" 258 11112 11174
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 258 11112 11175 "obc/c/c.ml" 258 11112 11176
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 257 11091 11103 "obc/c/c.ml" 257 11091 11104
+)
+"obc/c/c.ml" 258 11112 11177 "obc/c/c.ml" 258 11112 11189
+type(
+  Format.formatter -> cstm list -> unit
+)
+ident(
+  int_ref pp_cstm_list "obc/c/c.ml" 233 10063 10067 "obc/c/c.ml" 233 10063 10079
+)
+"obc/c/c.ml" 258 11112 11190 "obc/c/c.ml" 258 11112 11191
+type(
+  cstm list
+)
+ident(
+  int_ref b "obc/c/c.ml" 257 11091 11106 "obc/c/c.ml" 257 11091 11107
+)
+"obc/c/c.ml" 258 11112 11118 "obc/c/c.ml" 258 11112 11191
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 259 11192 11204 "obc/c/c.ml" 259 11192 11206
+type(
+  cblock
+)
+ident(
+  def cb "obc/c/c.ml" 259 11192 11210 "obc/c/c.ml" 259 11192 11226
+)
+"obc/c/c.ml" 259 11192 11196 "obc/c/c.ml" 259 11192 11206
+type(
+  cstm
+)
+"obc/c/c.ml" 259 11192 11210 "obc/c/c.ml" 259 11192 11219
+type(
+  Format.formatter -> cblock -> unit
+)
+ident(
+  int_ref pp_cblock "obc/c/c.ml" 230 9919 9927 "obc/c/c.ml" 230 9919 9936
+)
+"obc/c/c.ml" 259 11192 11220 "obc/c/c.ml" 259 11192 11223
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 259 11192 11224 "obc/c/c.ml" 259 11192 11226
+type(
+  cblock
+)
+ident(
+  int_ref cb "obc/c/c.ml" 259 11192 11204 "obc/c/c.ml" 259 11192 11206
+)
+"obc/c/c.ml" 259 11192 11210 "obc/c/c.ml" 259 11192 11226
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 260 11227 11231 "obc/c/c.ml" 260 11227 11236
+type(
+  cstm
+)
+"obc/c/c.ml" 260 11227 11240 "obc/c/c.ml" 260 11227 11247
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 260 11227 11248 "obc/c/c.ml" 260 11227 11251
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 260 11227 11252 "obc/c/c.ml" 260 11227 11254
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 260 11227 11240 "obc/c/c.ml" 260 11227 11254
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 261 11255 11267 "obc/c/c.ml" 261 11255 11268
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 261 11255 11272 "obc/c/c.ml" 261 11255 11306
+)
+"obc/c/c.ml" 261 11255 11259 "obc/c/c.ml" 261 11255 11268
+type(
+  cstm
+)
+"obc/c/c.ml" 261 11255 11272 "obc/c/c.ml" 261 11255 11279
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 261 11255 11280 "obc/c/c.ml" 261 11255 11283
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 234 10120 10132 "obc/c/c.ml" 234 10120 10135
+)
+"obc/c/c.ml" 261 11255 11284 "obc/c/c.ml" 261 11255 11295
+type(
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 261 11255 11296 "obc/c/c.ml" 261 11255 11304
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 261 11255 11305 "obc/c/c.ml" 261 11255 11306
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 261 11255 11267 "obc/c/c.ml" 261 11255 11268
+)
+"obc/c/c.ml" 261 11255 11272 "obc/c/c.ml" 261 11255 11306
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 234 10120 10142 "obc/c/c.ml" 261 11255 11306
+type(
+  unit
+)
+"obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  def pp_cexpr "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 262 11307 11324 "obc/c/c.ml" 279 12150 12217
+)
+"obc/c/c.ml" 262 11307 11324 "obc/c/c.ml" 262 11307 11326
+type(
+  cexpr
+)
+ident(
+  def ce "obc/c/c.ml" 262 11307 11329 "obc/c/c.ml" 279 12150 12217
+)
+"obc/c/c.ml" 262 11307 11335 "obc/c/c.ml" 262 11307 11337
+type(
+  cexpr
+)
+ident(
+  int_ref ce "obc/c/c.ml" 262 11307 11324 "obc/c/c.ml" 262 11307 11326
+)
+"obc/c/c.ml" 263 11343 11353 "obc/c/c.ml" 263 11343 11354
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 263 11343 11362 "obc/c/c.ml" 263 11343 11396
+)
+"obc/c/c.ml" 263 11343 11356 "obc/c/c.ml" 263 11343 11357
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 263 11343 11362 "obc/c/c.ml" 263 11343 11396
+)
+"obc/c/c.ml" 263 11343 11347 "obc/c/c.ml" 263 11343 11358
+type(
+  cexpr
+)
+"obc/c/c.ml" 263 11343 11362 "obc/c/c.ml" 263 11343 11369
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 263 11343 11370 "obc/c/c.ml" 263 11343 11373
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 263 11343 11374 "obc/c/c.ml" 263 11343 11382
+type(
+  (string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 263 11343 11383 "obc/c/c.ml" 263 11343 11384
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 263 11343 11353 "obc/c/c.ml" 263 11343 11354
+)
+"obc/c/c.ml" 263 11343 11386 "obc/c/c.ml" 263 11343 11394
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 263 11343 11395 "obc/c/c.ml" 263 11343 11396
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 263 11343 11356 "obc/c/c.ml" 263 11343 11357
+)
+"obc/c/c.ml" 263 11343 11362 "obc/c/c.ml" 263 11343 11396
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 264 11397 11407 "obc/c/c.ml" 264 11397 11408
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 264 11397 11419 "obc/c/c.ml" 264 11397 11465
+)
+"obc/c/c.ml" 264 11397 11410 "obc/c/c.ml" 264 11397 11411
+type(
+  cexpr
+)
+ident(
+  def l "obc/c/c.ml" 264 11397 11419 "obc/c/c.ml" 264 11397 11465
+)
+"obc/c/c.ml" 264 11397 11413 "obc/c/c.ml" 264 11397 11414
+type(
+  cexpr
+)
+ident(
+  def r "obc/c/c.ml" 264 11397 11419 "obc/c/c.ml" 264 11397 11465
+)
+"obc/c/c.ml" 264 11397 11401 "obc/c/c.ml" 264 11397 11415
+type(
+  cexpr
+)
+"obc/c/c.ml" 264 11397 11419 "obc/c/c.ml" 264 11397 11426
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr -> string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 264 11397 11427 "obc/c/c.ml" 264 11397 11430
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 264 11397 11431 "obc/c/c.ml" 264 11397 11441
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> string -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 264 11397 11442 "obc/c/c.ml" 264 11397 11450
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 264 11397 11451 "obc/c/c.ml" 264 11397 11452
+type(
+  cexpr
+)
+ident(
+  int_ref l "obc/c/c.ml" 264 11397 11410 "obc/c/c.ml" 264 11397 11411
+)
+"obc/c/c.ml" 264 11397 11453 "obc/c/c.ml" 264 11397 11454
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 264 11397 11407 "obc/c/c.ml" 264 11397 11408
+)
+"obc/c/c.ml" 264 11397 11455 "obc/c/c.ml" 264 11397 11463
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 264 11397 11464 "obc/c/c.ml" 264 11397 11465
+type(
+  cexpr
+)
+ident(
+  int_ref r "obc/c/c.ml" 264 11397 11413 "obc/c/c.ml" 264 11397 11414
+)
+"obc/c/c.ml" 264 11397 11419 "obc/c/c.ml" 264 11397 11465
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 265 11466 11481 "obc/c/c.ml" 265 11466 11482
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 266 11491 11497 "obc/c/c.ml" 266 11491 11562
+)
+"obc/c/c.ml" 265 11466 11484 "obc/c/c.ml" 265 11466 11486
+type(
+  cexpr list
+)
+ident(
+  def el "obc/c/c.ml" 266 11491 11497 "obc/c/c.ml" 266 11491 11562
+)
+"obc/c/c.ml" 265 11466 11470 "obc/c/c.ml" 265 11466 11487
+type(
+  cexpr
+)
+"obc/c/c.ml" 266 11491 11497 "obc/c/c.ml" 266 11491 11504
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 266 11491 11505 "obc/c/c.ml" 266 11491 11508
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 266 11491 11509 "obc/c/c.ml" 266 11491 11521
+type(
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 266 11491 11523 "obc/c/c.ml" 266 11491 11532
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 266 11491 11533 "obc/c/c.ml" 266 11491 11534
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 265 11466 11481 "obc/c/c.ml" 265 11466 11482
+)
+"obc/c/c.ml" 266 11491 11537 "obc/c/c.ml" 266 11491 11545
+type(
+  (Format.formatter -> cexpr -> unit) ->
+  string -> Format.formatter -> cexpr list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 266 11491 11546 "obc/c/c.ml" 266 11491 11554
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 266 11491 11555 "obc/c/c.ml" 266 11491 11558
+type(
+  string
+)
+"obc/c/c.ml" 266 11491 11536 "obc/c/c.ml" 266 11491 11559
+call(
+  stack
+)
+type(
+  Format.formatter -> cexpr list -> unit
+)
+"obc/c/c.ml" 266 11491 11560 "obc/c/c.ml" 266 11491 11562
+type(
+  cexpr list
+)
+ident(
+  int_ref el "obc/c/c.ml" 265 11466 11484 "obc/c/c.ml" 265 11466 11486
+)
+"obc/c/c.ml" 266 11491 11497 "obc/c/c.ml" 266 11491 11562
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 267 11563 11583 "obc/c/c.ml" 267 11563 11584
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 267 11563 11589 "obc/c/c.ml" 267 11563 11603
+)
+"obc/c/c.ml" 267 11563 11575 "obc/c/c.ml" 267 11563 11585
+type(
+  cexpr
+)
+"obc/c/c.ml" 267 11563 11567 "obc/c/c.ml" 267 11563 11585
+type(
+  cexpr
+)
+"obc/c/c.ml" 267 11563 11589 "obc/c/c.ml" 267 11563 11597
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 267 11563 11598 "obc/c/c.ml" 267 11563 11601
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 267 11563 11602 "obc/c/c.ml" 267 11563 11603
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 267 11563 11583 "obc/c/c.ml" 267 11563 11584
+)
+"obc/c/c.ml" 267 11563 11589 "obc/c/c.ml" 267 11563 11603
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 268 11604 11624 "obc/c/c.ml" 268 11604 11625
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 268 11604 11630 "obc/c/c.ml" 268 11604 11644
+)
+"obc/c/c.ml" 268 11604 11615 "obc/c/c.ml" 268 11604 11626
+type(
+  cexpr
+)
+"obc/c/c.ml" 268 11604 11608 "obc/c/c.ml" 268 11604 11626
+type(
+  cexpr
+)
+"obc/c/c.ml" 268 11604 11630 "obc/c/c.ml" 268 11604 11638
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 268 11604 11639 "obc/c/c.ml" 268 11604 11642
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 268 11604 11643 "obc/c/c.ml" 268 11604 11644
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 268 11604 11624 "obc/c/c.ml" 268 11604 11625
+)
+"obc/c/c.ml" 268 11604 11630 "obc/c/c.ml" 268 11604 11644
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 269 11645 11657 "obc/c/c.ml" 269 11645 11658
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 269 11645 11662 "obc/c/c.ml" 269 11645 11690
+)
+"obc/c/c.ml" 269 11645 11649 "obc/c/c.ml" 269 11645 11658
+type(
+  cexpr
+)
+"obc/c/c.ml" 269 11645 11662 "obc/c/c.ml" 269 11645 11669
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 269 11645 11670 "obc/c/c.ml" 269 11645 11673
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 269 11645 11674 "obc/c/c.ml" 269 11645 11679
+type(
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 269 11645 11680 "obc/c/c.ml" 269 11645 11688
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 269 11645 11689 "obc/c/c.ml" 269 11645 11690
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 269 11645 11657 "obc/c/c.ml" 269 11645 11658
+)
+"obc/c/c.ml" 269 11645 11662 "obc/c/c.ml" 269 11645 11690
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 270 11691 11707 "obc/c/c.ml" 270 11691 11708
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 271 11717 11723 "obc/c/c.ml" 271 11717 11788
+)
+"obc/c/c.ml" 270 11691 11710 "obc/c/c.ml" 270 11691 11712
+type(
+  cexpr list
+)
+ident(
+  def el "obc/c/c.ml" 271 11717 11723 "obc/c/c.ml" 271 11717 11788
+)
+"obc/c/c.ml" 270 11691 11695 "obc/c/c.ml" 270 11691 11713
+type(
+  cexpr
+)
+"obc/c/c.ml" 271 11717 11723 "obc/c/c.ml" 271 11717 11730
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 271 11717 11731 "obc/c/c.ml" 271 11717 11734
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 271 11717 11735 "obc/c/c.ml" 271 11717 11749
+type(
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 271 11717 11750 "obc/c/c.ml" 271 11717 11759
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 271 11717 11760 "obc/c/c.ml" 271 11717 11761
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 270 11691 11707 "obc/c/c.ml" 270 11691 11708
+)
+"obc/c/c.ml" 271 11717 11763 "obc/c/c.ml" 271 11717 11771
+type(
+  (Format.formatter -> cexpr -> unit) ->
+  string -> Format.formatter -> cexpr list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 271 11717 11772 "obc/c/c.ml" 271 11717 11780
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 271 11717 11781 "obc/c/c.ml" 271 11717 11784
+type(
+  string
+)
+"obc/c/c.ml" 271 11717 11762 "obc/c/c.ml" 271 11717 11785
+call(
+  stack
+)
+type(
+  Format.formatter -> cexpr list -> unit
+)
+"obc/c/c.ml" 271 11717 11786 "obc/c/c.ml" 271 11717 11788
+type(
+  cexpr list
+)
+ident(
+  int_ref el "obc/c/c.ml" 270 11691 11710 "obc/c/c.ml" 270 11691 11712
+)
+"obc/c/c.ml" 271 11717 11723 "obc/c/c.ml" 271 11717 11788
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 272 11789 11803 "obc/c/c.ml" 272 11789 11805
+type(
+  cexpr list
+)
+ident(
+  def el "obc/c/c.ml" 273 11835 11841 "obc/c/c.ml" 273 11835 11900
+)
+"obc/c/c.ml" 272 11789 11793 "obc/c/c.ml" 272 11789 11805
+type(
+  cexpr
+)
+"obc/c/c.ml" 273 11835 11841 "obc/c/c.ml" 273 11835 11848
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 273 11835 11849 "obc/c/c.ml" 273 11835 11852
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 273 11835 11853 "obc/c/c.ml" 273 11835 11873
+type(
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 273 11835 11875 "obc/c/c.ml" 273 11835 11883
+type(
+  (Format.formatter -> cexpr -> unit) ->
+  string -> Format.formatter -> cexpr list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 273 11835 11884 "obc/c/c.ml" 273 11835 11892
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 273 11835 11893 "obc/c/c.ml" 273 11835 11896
+type(
+  string
+)
+"obc/c/c.ml" 273 11835 11874 "obc/c/c.ml" 273 11835 11897
+call(
+  stack
+)
+type(
+  Format.formatter -> cexpr list -> unit
+)
+"obc/c/c.ml" 273 11835 11898 "obc/c/c.ml" 273 11835 11900
+type(
+  cexpr list
+)
+ident(
+  int_ref el "obc/c/c.ml" 272 11789 11803 "obc/c/c.ml" 272 11789 11805
+)
+"obc/c/c.ml" 273 11835 11841 "obc/c/c.ml" 273 11835 11900
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 274 11901 11912 "obc/c/c.ml" 274 11901 11913
+type(
+  cconst
+)
+ident(
+  def c "obc/c/c.ml" 274 11901 11917 "obc/c/c.ml" 274 11901 11932
+)
+"obc/c/c.ml" 274 11901 11905 "obc/c/c.ml" 274 11901 11913
+type(
+  cexpr
+)
+"obc/c/c.ml" 274 11901 11917 "obc/c/c.ml" 274 11901 11926
+type(
+  Format.formatter -> cconst -> unit
+)
+ident(
+  int_ref pp_cconst "obc/c/c.ml" 298 12822 12826 "obc/c/c.ml" 298 12822 12835
+)
+"obc/c/c.ml" 274 11901 11927 "obc/c/c.ml" 274 11901 11930
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 274 11901 11931 "obc/c/c.ml" 274 11901 11932
+type(
+  cconst
+)
+ident(
+  int_ref c "obc/c/c.ml" 274 11901 11912 "obc/c/c.ml" 274 11901 11913
+)
+"obc/c/c.ml" 274 11901 11917 "obc/c/c.ml" 274 11901 11932
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 275 11933 11942 "obc/c/c.ml" 275 11933 11943
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 275 11933 11947 "obc/c/c.ml" 275 11933 11962
+)
+"obc/c/c.ml" 275 11933 11937 "obc/c/c.ml" 275 11933 11943
+type(
+  cexpr
+)
+"obc/c/c.ml" 275 11933 11947 "obc/c/c.ml" 275 11933 11956
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 275 11933 11957 "obc/c/c.ml" 275 11933 11960
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 275 11933 11961 "obc/c/c.ml" 275 11933 11962
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 275 11933 11942 "obc/c/c.ml" 275 11933 11943
+)
+"obc/c/c.ml" 275 11933 11947 "obc/c/c.ml" 275 11933 11962
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 276 11963 11974 "obc/c/c.ml" 276 11963 11975
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 276 11963 11979 "obc/c/c.ml" 276 11963 12007
+)
+"obc/c/c.ml" 276 11963 11967 "obc/c/c.ml" 276 11963 11975
+type(
+  cexpr
+)
+"obc/c/c.ml" 276 11963 11979 "obc/c/c.ml" 276 11963 11986
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 276 11963 11987 "obc/c/c.ml" 276 11963 11990
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 276 11963 11991 "obc/c/c.ml" 276 11963 11996
+type(
+  ((Format.formatter -> cexpr -> unit) -> cexpr -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 276 11963 11997 "obc/c/c.ml" 276 11963 12005
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 276 11963 12006 "obc/c/c.ml" 276 11963 12007
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 276 11963 11974 "obc/c/c.ml" 276 11963 11975
+)
+"obc/c/c.ml" 276 11963 11979 "obc/c/c.ml" 276 11963 12007
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 277 12008 12027 "obc/c/c.ml" 277 12008 12028
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 277 12008 12036 "obc/c/c.ml" 277 12008 12082
+)
+"obc/c/c.ml" 277 12008 12020 "obc/c/c.ml" 277 12008 12028
+type(
+  cexpr
+)
+"obc/c/c.ml" 277 12008 12030 "obc/c/c.ml" 277 12008 12031
+type(
+  Names.qualname
+)
+ident(
+  def f "obc/c/c.ml" 277 12008 12036 "obc/c/c.ml" 277 12008 12082
+)
+"obc/c/c.ml" 277 12008 12012 "obc/c/c.ml" 277 12008 12032
+type(
+  cexpr
+)
+"obc/c/c.ml" 277 12008 12036 "obc/c/c.ml" 277 12008 12043
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 277 12008 12044 "obc/c/c.ml" 277 12008 12047
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 277 12008 12048 "obc/c/c.ml" 277 12008 12056
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 277 12008 12057 "obc/c/c.ml" 277 12008 12065
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 277 12008 12066 "obc/c/c.ml" 277 12008 12067
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 277 12008 12027 "obc/c/c.ml" 277 12008 12028
+)
+"obc/c/c.ml" 277 12008 12068 "obc/c/c.ml" 277 12008 12080
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref pp_shortname "obc/c/c.ml" 194 8708 8712 "obc/c/c.ml" 194 8708 8724
+)
+"obc/c/c.ml" 277 12008 12081 "obc/c/c.ml" 277 12008 12082
+type(
+  Names.qualname
+)
+ident(
+  int_ref f "obc/c/c.ml" 277 12008 12030 "obc/c/c.ml" 277 12008 12031
+)
+"obc/c/c.ml" 277 12008 12036 "obc/c/c.ml" 277 12008 12082
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 278 12083 12095 "obc/c/c.ml" 278 12083 12096
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 278 12083 12104 "obc/c/c.ml" 278 12083 12149
+)
+"obc/c/c.ml" 278 12083 12098 "obc/c/c.ml" 278 12083 12099
+type(
+  Names.qualname
+)
+ident(
+  def f "obc/c/c.ml" 278 12083 12104 "obc/c/c.ml" 278 12083 12149
+)
+"obc/c/c.ml" 278 12083 12087 "obc/c/c.ml" 278 12083 12100
+type(
+  cexpr
+)
+"obc/c/c.ml" 278 12083 12104 "obc/c/c.ml" 278 12083 12111
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr ->
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 278 12083 12112 "obc/c/c.ml" 278 12083 12115
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 278 12083 12116 "obc/c/c.ml" 278 12083 12123
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 278 12083 12124 "obc/c/c.ml" 278 12083 12132
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 278 12083 12133 "obc/c/c.ml" 278 12083 12134
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 278 12083 12095 "obc/c/c.ml" 278 12083 12096
+)
+"obc/c/c.ml" 278 12083 12135 "obc/c/c.ml" 278 12083 12147
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref pp_shortname "obc/c/c.ml" 194 8708 8712 "obc/c/c.ml" 194 8708 8724
+)
+"obc/c/c.ml" 278 12083 12148 "obc/c/c.ml" 278 12083 12149
+type(
+  Names.qualname
+)
+ident(
+  int_ref f "obc/c/c.ml" 278 12083 12098 "obc/c/c.ml" 278 12083 12099
+)
+"obc/c/c.ml" 278 12083 12104 "obc/c/c.ml" 278 12083 12149
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 279 12150 12162 "obc/c/c.ml" 279 12150 12164
+type(
+  cexpr
+)
+ident(
+  def e1 "obc/c/c.ml" 279 12150 12173 "obc/c/c.ml" 279 12150 12217
+)
+"obc/c/c.ml" 279 12150 12166 "obc/c/c.ml" 279 12150 12168
+type(
+  cexpr
+)
+ident(
+  def e2 "obc/c/c.ml" 279 12150 12173 "obc/c/c.ml" 279 12150 12217
+)
+"obc/c/c.ml" 279 12150 12154 "obc/c/c.ml" 279 12150 12169
+type(
+  cexpr
+)
+"obc/c/c.ml" 279 12150 12173 "obc/c/c.ml" 279 12150 12180
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cexpr -> unit) ->
+  cexpr -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 279 12150 12181 "obc/c/c.ml" 279 12150 12184
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 262 11307 11320 "obc/c/c.ml" 262 11307 11323
+)
+"obc/c/c.ml" 279 12150 12185 "obc/c/c.ml" 279 12150 12193
+type(
+  ((Format.formatter -> cexpr -> unit) ->
+   cexpr -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 279 12150 12194 "obc/c/c.ml" 279 12150 12202
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 279 12150 12203 "obc/c/c.ml" 279 12150 12205
+type(
+  cexpr
+)
+ident(
+  int_ref e1 "obc/c/c.ml" 279 12150 12162 "obc/c/c.ml" 279 12150 12164
+)
+"obc/c/c.ml" 279 12150 12206 "obc/c/c.ml" 279 12150 12214
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 279 12150 12215 "obc/c/c.ml" 279 12150 12217
+type(
+  cexpr
+)
+ident(
+  int_ref e2 "obc/c/c.ml" 279 12150 12166 "obc/c/c.ml" 279 12150 12168
+)
+"obc/c/c.ml" 279 12150 12173 "obc/c/c.ml" 279 12150 12217
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 262 11307 11329 "obc/c/c.ml" 279 12150 12217
+type(
+  unit
+)
+"obc/c/c.ml" 281 12219 12223 "obc/c/c.ml" 281 12219 12237
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  def pp_cconst_expr "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 281 12219 12238 "obc/c/c.ml" 281 12219 12241
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 281 12219 12242 "obc/c/c.ml" 286 12431 12455
+)
+"obc/c/c.ml" 281 12219 12242 "obc/c/c.ml" 281 12219 12244
+type(
+  cexpr
+)
+ident(
+  def ce "obc/c/c.ml" 281 12219 12247 "obc/c/c.ml" 286 12431 12455
+)
+"obc/c/c.ml" 281 12219 12253 "obc/c/c.ml" 281 12219 12255
+type(
+  cexpr
+)
+ident(
+  int_ref ce "obc/c/c.ml" 281 12219 12242 "obc/c/c.ml" 281 12219 12244
+)
+"obc/c/c.ml" 282 12261 12277 "obc/c/c.ml" 282 12261 12278
+type(
+  string
+)
+"obc/c/c.ml" 282 12261 12280 "obc/c/c.ml" 282 12261 12282
+type(
+  cexpr list
+)
+ident(
+  def el "obc/c/c.ml" 283 12287 12293 "obc/c/c.ml" 283 12287 12348
+)
+"obc/c/c.ml" 282 12261 12265 "obc/c/c.ml" 282 12261 12283
+type(
+  cexpr
+)
+"obc/c/c.ml" 283 12287 12293 "obc/c/c.ml" 283 12287 12300
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 283 12287 12301 "obc/c/c.ml" 283 12287 12304
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 281 12219 12238 "obc/c/c.ml" 281 12219 12241
+)
+"obc/c/c.ml" 283 12287 12305 "obc/c/c.ml" 283 12287 12315
+type(
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 283 12287 12317 "obc/c/c.ml" 283 12287 12325
+type(
+  (Format.formatter -> cexpr -> unit) ->
+  string -> Format.formatter -> cexpr list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 283 12287 12326 "obc/c/c.ml" 283 12287 12340
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cconst_expr "obc/c/c.ml" 281 12219 12223 "obc/c/c.ml" 281 12219 12237
+)
+"obc/c/c.ml" 283 12287 12341 "obc/c/c.ml" 283 12287 12344
+type(
+  string
+)
+"obc/c/c.ml" 283 12287 12316 "obc/c/c.ml" 283 12287 12345
+call(
+  stack
+)
+type(
+  Format.formatter -> cexpr list -> unit
+)
+"obc/c/c.ml" 283 12287 12346 "obc/c/c.ml" 283 12287 12348
+type(
+  cexpr list
+)
+ident(
+  int_ref el "obc/c/c.ml" 282 12261 12280 "obc/c/c.ml" 282 12261 12282
+)
+"obc/c/c.ml" 283 12287 12293 "obc/c/c.ml" 283 12287 12348
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 284 12349 12363 "obc/c/c.ml" 284 12349 12365
+type(
+  cexpr list
+)
+ident(
+  def el "obc/c/c.ml" 285 12369 12375 "obc/c/c.ml" 285 12369 12430
+)
+"obc/c/c.ml" 284 12349 12353 "obc/c/c.ml" 284 12349 12365
+type(
+  cexpr
+)
+"obc/c/c.ml" 285 12369 12375 "obc/c/c.ml" 285 12369 12382
+type(
+  Format.formatter ->
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> cexpr list -> unit) -> cexpr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 285 12369 12383 "obc/c/c.ml" 285 12369 12386
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 281 12219 12238 "obc/c/c.ml" 281 12219 12241
+)
+"obc/c/c.ml" 285 12369 12387 "obc/c/c.ml" 285 12369 12397
+type(
+  ((Format.formatter -> cexpr list -> unit) -> cexpr list -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 285 12369 12399 "obc/c/c.ml" 285 12369 12407
+type(
+  (Format.formatter -> cexpr -> unit) ->
+  string -> Format.formatter -> cexpr list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 285 12369 12408 "obc/c/c.ml" 285 12369 12422
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cconst_expr "obc/c/c.ml" 281 12219 12223 "obc/c/c.ml" 281 12219 12237
+)
+"obc/c/c.ml" 285 12369 12423 "obc/c/c.ml" 285 12369 12426
+type(
+  string
+)
+"obc/c/c.ml" 285 12369 12398 "obc/c/c.ml" 285 12369 12427
+call(
+  stack
+)
+type(
+  Format.formatter -> cexpr list -> unit
+)
+"obc/c/c.ml" 285 12369 12428 "obc/c/c.ml" 285 12369 12430
+type(
+  cexpr list
+)
+ident(
+  int_ref el "obc/c/c.ml" 284 12349 12363 "obc/c/c.ml" 284 12349 12365
+)
+"obc/c/c.ml" 285 12369 12375 "obc/c/c.ml" 285 12369 12430
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 286 12431 12435 "obc/c/c.ml" 286 12431 12436
+type(
+  cexpr
+)
+"obc/c/c.ml" 286 12431 12440 "obc/c/c.ml" 286 12431 12448
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 286 12431 12449 "obc/c/c.ml" 286 12431 12452
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 281 12219 12238 "obc/c/c.ml" 281 12219 12241
+)
+"obc/c/c.ml" 286 12431 12453 "obc/c/c.ml" 286 12431 12455
+type(
+  cexpr
+)
+ident(
+  int_ref ce "obc/c/c.ml" 281 12219 12242 "obc/c/c.ml" 281 12219 12244
+)
+"obc/c/c.ml" 286 12431 12440 "obc/c/c.ml" 286 12431 12455
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 281 12219 12247 "obc/c/c.ml" 286 12431 12455
+type(
+  unit
+)
+"obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  def pp_clhs "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 288 12457 12473 "obc/c/c.ml" 296 12802 12820
+)
+"obc/c/c.ml" 288 12457 12473 "obc/c/c.ml" 288 12457 12477
+type(
+  clhs
+)
+ident(
+  def clhs "obc/c/c.ml" 288 12457 12480 "obc/c/c.ml" 296 12802 12820
+)
+"obc/c/c.ml" 288 12457 12486 "obc/c/c.ml" 288 12457 12490
+type(
+  clhs
+)
+ident(
+  int_ref clhs "obc/c/c.ml" 288 12457 12473 "obc/c/c.ml" 288 12457 12477
+)
+"obc/c/c.ml" 289 12496 12506 "obc/c/c.ml" 289 12496 12507
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 289 12496 12511 "obc/c/c.ml" 289 12496 12526
+)
+"obc/c/c.ml" 289 12496 12500 "obc/c/c.ml" 289 12496 12507
+type(
+  clhs
+)
+"obc/c/c.ml" 289 12496 12511 "obc/c/c.ml" 289 12496 12520
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 289 12496 12521 "obc/c/c.ml" 289 12496 12524
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+)
+"obc/c/c.ml" 289 12496 12525 "obc/c/c.ml" 289 12496 12526
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 289 12496 12506 "obc/c/c.ml" 289 12496 12507
+)
+"obc/c/c.ml" 289 12496 12511 "obc/c/c.ml" 289 12496 12526
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 290 12527 12539 "obc/c/c.ml" 290 12527 12543
+type(
+  clhs
+)
+ident(
+  def lhs' "obc/c/c.ml" 290 12527 12547 "obc/c/c.ml" 290 12527 12577
+)
+"obc/c/c.ml" 290 12527 12531 "obc/c/c.ml" 290 12527 12543
+type(
+  clhs
+)
+"obc/c/c.ml" 290 12527 12547 "obc/c/c.ml" 290 12527 12554
+type(
+  Format.formatter ->
+  ((Format.formatter -> clhs -> unit) -> clhs -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> clhs -> unit) -> clhs -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 290 12527 12555 "obc/c/c.ml" 290 12527 12558
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+)
+"obc/c/c.ml" 290 12527 12559 "obc/c/c.ml" 290 12527 12564
+type(
+  ((Format.formatter -> clhs -> unit) -> clhs -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 290 12527 12565 "obc/c/c.ml" 290 12527 12572
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  int_ref pp_clhs "obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+)
+"obc/c/c.ml" 290 12527 12573 "obc/c/c.ml" 290 12527 12577
+type(
+  clhs
+)
+ident(
+  int_ref lhs' "obc/c/c.ml" 290 12527 12539 "obc/c/c.ml" 290 12527 12543
+)
+"obc/c/c.ml" 290 12527 12547 "obc/c/c.ml" 290 12527 12577
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 291 12578 12599 "obc/c/c.ml" 291 12578 12602
+type(
+  clhs
+)
+ident(
+  def lhs "obc/c/c.ml" 291 12578 12610 "obc/c/c.ml" 291 12578 12658
+)
+"obc/c/c.ml" 291 12578 12591 "obc/c/c.ml" 291 12578 12602
+type(
+  clhs
+)
+"obc/c/c.ml" 291 12578 12604 "obc/c/c.ml" 291 12578 12605
+type(
+  Names.qualname
+)
+ident(
+  def f "obc/c/c.ml" 291 12578 12610 "obc/c/c.ml" 291 12578 12658
+)
+"obc/c/c.ml" 291 12578 12582 "obc/c/c.ml" 291 12578 12606
+type(
+  clhs
+)
+"obc/c/c.ml" 291 12578 12610 "obc/c/c.ml" 291 12578 12617
+type(
+  Format.formatter ->
+  ((Format.formatter -> clhs -> unit) ->
+   clhs ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> clhs -> unit) ->
+  clhs ->
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 291 12578 12618 "obc/c/c.ml" 291 12578 12621
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+)
+"obc/c/c.ml" 291 12578 12622 "obc/c/c.ml" 291 12578 12630
+type(
+  ((Format.formatter -> clhs -> unit) ->
+   clhs ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 291 12578 12631 "obc/c/c.ml" 291 12578 12638
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  int_ref pp_clhs "obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+)
+"obc/c/c.ml" 291 12578 12639 "obc/c/c.ml" 291 12578 12642
+type(
+  clhs
+)
+ident(
+  int_ref lhs "obc/c/c.ml" 291 12578 12599 "obc/c/c.ml" 291 12578 12602
+)
+"obc/c/c.ml" 291 12578 12644 "obc/c/c.ml" 291 12578 12656
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref pp_shortname "obc/c/c.ml" 194 8708 8712 "obc/c/c.ml" 194 8708 8724
+)
+"obc/c/c.ml" 291 12578 12657 "obc/c/c.ml" 291 12578 12658
+type(
+  Names.qualname
+)
+ident(
+  int_ref f "obc/c/c.ml" 291 12578 12604 "obc/c/c.ml" 291 12578 12605
+)
+"obc/c/c.ml" 291 12578 12610 "obc/c/c.ml" 291 12578 12658
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 292 12659 12672 "obc/c/c.ml" 292 12659 12675
+type(
+  clhs
+)
+ident(
+  def lhs "obc/c/c.ml" 292 12659 12683 "obc/c/c.ml" 292 12659 12730
+)
+"obc/c/c.ml" 292 12659 12677 "obc/c/c.ml" 292 12659 12678
+type(
+  Names.qualname
+)
+ident(
+  def f "obc/c/c.ml" 292 12659 12683 "obc/c/c.ml" 292 12659 12730
+)
+"obc/c/c.ml" 292 12659 12663 "obc/c/c.ml" 292 12659 12679
+type(
+  clhs
+)
+"obc/c/c.ml" 292 12659 12683 "obc/c/c.ml" 292 12659 12690
+type(
+  Format.formatter ->
+  ((Format.formatter -> clhs -> unit) ->
+   clhs ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> clhs -> unit) ->
+  clhs ->
+  (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 292 12659 12691 "obc/c/c.ml" 292 12659 12694
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+)
+"obc/c/c.ml" 292 12659 12695 "obc/c/c.ml" 292 12659 12702
+type(
+  ((Format.formatter -> clhs -> unit) ->
+   clhs ->
+   (Format.formatter -> Names.qualname -> unit) -> Names.qualname -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 292 12659 12703 "obc/c/c.ml" 292 12659 12710
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  int_ref pp_clhs "obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+)
+"obc/c/c.ml" 292 12659 12711 "obc/c/c.ml" 292 12659 12714
+type(
+  clhs
+)
+ident(
+  int_ref lhs "obc/c/c.ml" 292 12659 12672 "obc/c/c.ml" 292 12659 12675
+)
+"obc/c/c.ml" 292 12659 12716 "obc/c/c.ml" 292 12659 12728
+type(
+  Format.formatter -> Names.qualname -> unit
+)
+ident(
+  int_ref pp_shortname "obc/c/c.ml" 194 8708 8712 "obc/c/c.ml" 194 8708 8724
+)
+"obc/c/c.ml" 292 12659 12729 "obc/c/c.ml" 292 12659 12730
+type(
+  Names.qualname
+)
+ident(
+  int_ref f "obc/c/c.ml" 292 12659 12677 "obc/c/c.ml" 292 12659 12678
+)
+"obc/c/c.ml" 292 12659 12683 "obc/c/c.ml" 292 12659 12730
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 293 12731 12744 "obc/c/c.ml" 293 12731 12747
+type(
+  clhs
+)
+ident(
+  def lhs "obc/c/c.ml" 294 12755 12761 "obc/c/c.ml" 296 12802 12820
+)
+"obc/c/c.ml" 293 12731 12749 "obc/c/c.ml" 293 12731 12750
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 294 12755 12761 "obc/c/c.ml" 296 12802 12820
+)
+"obc/c/c.ml" 293 12731 12735 "obc/c/c.ml" 293 12731 12751
+type(
+  clhs
+)
+"obc/c/c.ml" 294 12755 12761 "obc/c/c.ml" 294 12755 12768
+type(
+  Format.formatter ->
+  ((Format.formatter -> clhs -> unit) ->
+   clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> clhs -> unit) ->
+  clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 294 12755 12769 "obc/c/c.ml" 294 12755 12772
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 288 12457 12469 "obc/c/c.ml" 288 12457 12472
+)
+"obc/c/c.ml" 294 12755 12773 "obc/c/c.ml" 294 12755 12781
+type(
+  ((Format.formatter -> clhs -> unit) ->
+   clhs -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 295 12782 12790 "obc/c/c.ml" 295 12782 12797
+type(
+  Format.formatter -> clhs -> unit
+)
+ident(
+  int_ref pp_clhs "obc/c/c.ml" 288 12457 12461 "obc/c/c.ml" 288 12457 12468
+)
+"obc/c/c.ml" 295 12782 12798 "obc/c/c.ml" 295 12782 12801
+type(
+  clhs
+)
+ident(
+  int_ref lhs "obc/c/c.ml" 293 12731 12744 "obc/c/c.ml" 293 12731 12747
+)
+"obc/c/c.ml" 296 12802 12810 "obc/c/c.ml" 296 12802 12818
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cexpr "obc/c/c.ml" 262 11307 11311 "obc/c/c.ml" 262 11307 11319
+)
+"obc/c/c.ml" 296 12802 12819 "obc/c/c.ml" 296 12802 12820
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 293 12731 12749 "obc/c/c.ml" 293 12731 12750
+)
+"obc/c/c.ml" 294 12755 12761 "obc/c/c.ml" 296 12802 12820
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 288 12457 12480 "obc/c/c.ml" 296 12802 12820
+type(
+  unit
+)
+"obc/c/c.ml" 298 12822 12826 "obc/c/c.ml" 298 12822 12835
+type(
+  Format.formatter -> cconst -> unit
+)
+ident(
+  def pp_cconst "obc/c/c.ml" 230 9919 9919 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 298 12822 12836 "obc/c/c.ml" 298 12822 12839
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 298 12822 12840 "obc/c/c.ml" 302 12967 13023
+)
+"obc/c/c.ml" 298 12822 12840 "obc/c/c.ml" 298 12822 12846
+type(
+  cconst
+)
+ident(
+  def cconst "obc/c/c.ml" 298 12822 12849 "obc/c/c.ml" 302 12967 13023
+)
+"obc/c/c.ml" 298 12822 12855 "obc/c/c.ml" 298 12822 12861
+type(
+  cconst
+)
+ident(
+  int_ref cconst "obc/c/c.ml" 298 12822 12840 "obc/c/c.ml" 298 12822 12846
+)
+"obc/c/c.ml" 299 12867 12877 "obc/c/c.ml" 299 12867 12878
+type(
+  int
+)
+ident(
+  def i "obc/c/c.ml" 299 12867 12882 "obc/c/c.ml" 299 12867 12900
+)
+"obc/c/c.ml" 299 12867 12871 "obc/c/c.ml" 299 12867 12878
+type(
+  cconst
+)
+"obc/c/c.ml" 299 12867 12882 "obc/c/c.ml" 299 12867 12889
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 299 12867 12890 "obc/c/c.ml" 299 12867 12893
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 298 12822 12836 "obc/c/c.ml" 298 12822 12839
+)
+"obc/c/c.ml" 299 12867 12894 "obc/c/c.ml" 299 12867 12898
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 299 12867 12899 "obc/c/c.ml" 299 12867 12900
+type(
+  int
+)
+ident(
+  int_ref i "obc/c/c.ml" 299 12867 12877 "obc/c/c.ml" 299 12867 12878
+)
+"obc/c/c.ml" 299 12867 12882 "obc/c/c.ml" 299 12867 12900
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 300 12901 12913 "obc/c/c.ml" 300 12901 12914
+type(
+  float
+)
+ident(
+  def f "obc/c/c.ml" 300 12901 12918 "obc/c/c.ml" 300 12901 12936
+)
+"obc/c/c.ml" 300 12901 12905 "obc/c/c.ml" 300 12901 12914
+type(
+  cconst
+)
+"obc/c/c.ml" 300 12901 12918 "obc/c/c.ml" 300 12901 12925
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 300 12901 12926 "obc/c/c.ml" 300 12901 12929
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 298 12822 12836 "obc/c/c.ml" 298 12822 12839
+)
+"obc/c/c.ml" 300 12901 12930 "obc/c/c.ml" 300 12901 12934
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 300 12901 12935 "obc/c/c.ml" 300 12901 12936
+type(
+  float
+)
+ident(
+  int_ref f "obc/c/c.ml" 300 12901 12913 "obc/c/c.ml" 300 12901 12914
+)
+"obc/c/c.ml" 300 12901 12918 "obc/c/c.ml" 300 12901 12936
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 301 12937 12946 "obc/c/c.ml" 301 12937 12947
+type(
+  string
+)
+ident(
+  def t "obc/c/c.ml" 301 12937 12951 "obc/c/c.ml" 301 12937 12966
+)
+"obc/c/c.ml" 301 12937 12941 "obc/c/c.ml" 301 12937 12947
+type(
+  cconst
+)
+"obc/c/c.ml" 301 12937 12951 "obc/c/c.ml" 301 12937 12960
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 301 12937 12961 "obc/c/c.ml" 301 12937 12964
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 298 12822 12836 "obc/c/c.ml" 298 12822 12839
+)
+"obc/c/c.ml" 301 12937 12965 "obc/c/c.ml" 301 12937 12966
+type(
+  string
+)
+ident(
+  int_ref t "obc/c/c.ml" 301 12937 12946 "obc/c/c.ml" 301 12937 12947
+)
+"obc/c/c.ml" 301 12937 12951 "obc/c/c.ml" 301 12937 12966
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 302 12967 12979 "obc/c/c.ml" 302 12967 12980
+type(
+  string
+)
+ident(
+  def t "obc/c/c.ml" 302 12967 12984 "obc/c/c.ml" 302 12967 13023
+)
+"obc/c/c.ml" 302 12967 12971 "obc/c/c.ml" 302 12967 12980
+type(
+  cconst
+)
+"obc/c/c.ml" 302 12967 12984 "obc/c/c.ml" 302 12967 12991
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 302 12967 12992 "obc/c/c.ml" 302 12967 12995
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 298 12822 12836 "obc/c/c.ml" 298 12822 12839
+)
+"obc/c/c.ml" 302 12967 12996 "obc/c/c.ml" 302 12967 13004
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 302 12967 13006 "obc/c/c.ml" 302 12967 13020
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"obc/c/c.ml" 302 12967 13021 "obc/c/c.ml" 302 12967 13022
+type(
+  string
+)
+ident(
+  int_ref t "obc/c/c.ml" 302 12967 12979 "obc/c/c.ml" 302 12967 12980
+)
+"obc/c/c.ml" 302 12967 13005 "obc/c/c.ml" 302 12967 13023
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 302 12967 12984 "obc/c/c.ml" 302 12967 13023
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 298 12822 12849 "obc/c/c.ml" 302 12967 13023
+type(
+  unit
+)
+"obc/c/c.ml" 304 13025 13029 "obc/c/c.ml" 304 13025 13037
+type(
+  Format.formatter -> cdecl -> unit
+)
+ident(
+  def pp_cdecl "obc/c/c.ml" 324 13863 13863 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 304 13025 13042 "obc/c/c.ml" 322 13815 13861
+)
+"obc/c/c.ml" 304 13025 13042 "obc/c/c.ml" 304 13025 13047
+type(
+  cdecl
+)
+ident(
+  def cdecl "obc/c/c.ml" 304 13025 13050 "obc/c/c.ml" 322 13815 13861
+)
+"obc/c/c.ml" 304 13025 13056 "obc/c/c.ml" 304 13025 13061
+type(
+  cdecl
+)
+ident(
+  int_ref cdecl "obc/c/c.ml" 304 13025 13042 "obc/c/c.ml" 304 13025 13047
+)
+"obc/c/c.ml" 305 13067 13083 "obc/c/c.ml" 305 13067 13084
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 306 13093 13099 "obc/c/c.ml" 307 13160 13208
+)
+"obc/c/c.ml" 305 13067 13086 "obc/c/c.ml" 305 13067 13088
+type(
+  string list
+)
+ident(
+  def sl "obc/c/c.ml" 306 13093 13099 "obc/c/c.ml" 307 13160 13208
+)
+"obc/c/c.ml" 305 13067 13071 "obc/c/c.ml" 305 13067 13089
+type(
+  cdecl
+)
+"obc/c/c.ml" 306 13093 13099 "obc/c/c.ml" 306 13093 13106
+type(
+  Format.formatter ->
+  ((Format.formatter -> string list -> unit) ->
+   string list -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string list -> unit) ->
+  string list -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 306 13093 13107 "obc/c/c.ml" 306 13093 13110
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 306 13093 13111 "obc/c/c.ml" 306 13093 13159
+type(
+  ((Format.formatter -> string list -> unit) ->
+   string list -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 307 13160 13169 "obc/c/c.ml" 307 13160 13177
+type(
+  (Format.formatter -> string -> unit) ->
+  string -> Format.formatter -> string list -> unit
+)
+ident(
+  int_ref pp_list1 "obc/c/c.ml" 170 8084 8092 "obc/c/c.ml" 170 8084 8100
+)
+"obc/c/c.ml" 307 13160 13178 "obc/c/c.ml" 307 13160 13187
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 307 13160 13188 "obc/c/c.ml" 307 13160 13191
+type(
+  string
+)
+"obc/c/c.ml" 307 13160 13168 "obc/c/c.ml" 307 13160 13192
+call(
+  stack
+)
+type(
+  Format.formatter -> string list -> unit
+)
+"obc/c/c.ml" 307 13160 13193 "obc/c/c.ml" 307 13160 13195
+type(
+  string list
+)
+ident(
+  int_ref sl "obc/c/c.ml" 305 13067 13086 "obc/c/c.ml" 305 13067 13088
+)
+"obc/c/c.ml" 307 13160 13197 "obc/c/c.ml" 307 13160 13206
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 307 13160 13207 "obc/c/c.ml" 307 13160 13208
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 305 13067 13083 "obc/c/c.ml" 305 13067 13084
+)
+"obc/c/c.ml" 306 13093 13099 "obc/c/c.ml" 307 13160 13208
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 308 13209 13228 "obc/c/c.ml" 308 13209 13231
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 309 13239 13245 "obc/c/c.ml" 310 13290 13317
+)
+"obc/c/c.ml" 308 13209 13233 "obc/c/c.ml" 308 13209 13234
+type(
+  string
+)
+ident(
+  def n "obc/c/c.ml" 309 13239 13245 "obc/c/c.ml" 310 13290 13317
+)
+"obc/c/c.ml" 308 13209 13213 "obc/c/c.ml" 308 13209 13235
+type(
+  cdecl
+)
+"obc/c/c.ml" 309 13239 13245 "obc/c/c.ml" 309 13239 13252
+type(
+  Format.formatter ->
+  ((Format.formatter -> string * cty -> unit) -> string * cty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string * cty -> unit) -> string * cty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 309 13239 13253 "obc/c/c.ml" 309 13239 13256
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 309 13239 13257 "obc/c/c.ml" 309 13239 13289
+type(
+  ((Format.formatter -> string * cty -> unit) -> string * cty -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 310 13290 13298 "obc/c/c.ml" 310 13290 13308
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 310 13290 13310 "obc/c/c.ml" 310 13290 13311
+type(
+  string
+)
+ident(
+  int_ref n "obc/c/c.ml" 308 13209 13233 "obc/c/c.ml" 308 13209 13234
+)
+"obc/c/c.ml" 310 13290 13313 "obc/c/c.ml" 310 13290 13316
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 308 13209 13228 "obc/c/c.ml" 308 13209 13231
+)
+"obc/c/c.ml" 310 13290 13309 "obc/c/c.ml" 310 13290 13317
+type(
+  string * cty
+)
+"obc/c/c.ml" 309 13239 13245 "obc/c/c.ml" 310 13290 13317
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 311 13318 13336 "obc/c/c.ml" 311 13318 13337
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 312 13346 13352 "obc/c/c.ml" 316 13531 13580
+)
+"obc/c/c.ml" 311 13318 13339 "obc/c/c.ml" 311 13318 13341
+type(
+  (string * cty) list
+)
+ident(
+  def fl "obc/c/c.ml" 312 13346 13352 "obc/c/c.ml" 316 13531 13580
+)
+"obc/c/c.ml" 311 13318 13322 "obc/c/c.ml" 311 13318 13342
+type(
+  cdecl
+)
+"obc/c/c.ml" 312 13346 13356 "obc/c/c.ml" 312 13346 13364
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  def pp_field "obc/c/c.ml" 314 13430 13436 "obc/c/c.ml" 316 13531 13580
+)
+"obc/c/c.ml" 312 13346 13365 "obc/c/c.ml" 312 13346 13368
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 312 13346 13369 "obc/c/c.ml" 313 13380 13426
+)
+"obc/c/c.ml" 312 13346 13370 "obc/c/c.ml" 312 13346 13371
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 313 13380 13388 "obc/c/c.ml" 313 13380 13426
+)
+"obc/c/c.ml" 312 13346 13373 "obc/c/c.ml" 312 13346 13376
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 313 13380 13388 "obc/c/c.ml" 313 13380 13426
+)
+"obc/c/c.ml" 312 13346 13369 "obc/c/c.ml" 312 13346 13377
+type(
+  string * cty
+)
+"obc/c/c.ml" 313 13380 13388 "obc/c/c.ml" 313 13380 13395
+type(
+  Format.formatter ->
+  ((Format.formatter -> string * cty -> unit) -> string * cty -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string * cty -> unit) -> string * cty -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 313 13380 13396 "obc/c/c.ml" 313 13380 13399
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 312 13346 13365 "obc/c/c.ml" 312 13346 13368
+)
+"obc/c/c.ml" 313 13380 13400 "obc/c/c.ml" 313 13380 13407
+type(
+  ((Format.formatter -> string * cty -> unit) -> string * cty -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 313 13380 13408 "obc/c/c.ml" 313 13380 13418
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 313 13380 13420 "obc/c/c.ml" 313 13380 13421
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 312 13346 13370 "obc/c/c.ml" 312 13346 13371
+)
+"obc/c/c.ml" 313 13380 13422 "obc/c/c.ml" 313 13380 13425
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 312 13346 13373 "obc/c/c.ml" 312 13346 13376
+)
+"obc/c/c.ml" 313 13380 13419 "obc/c/c.ml" 313 13380 13426
+type(
+  string * cty
+)
+"obc/c/c.ml" 313 13380 13388 "obc/c/c.ml" 313 13380 13426
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 314 13430 13436 "obc/c/c.ml" 314 13430 13443
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 314 13430 13444 "obc/c/c.ml" 314 13430 13447
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 314 13430 13448 "obc/c/c.ml" 314 13430 13481
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 314 13430 13483 "obc/c/c.ml" 314 13430 13492
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 314 13430 13493 "obc/c/c.ml" 314 13430 13494
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 311 13318 13336 "obc/c/c.ml" 311 13318 13337
+)
+"obc/c/c.ml" 314 13430 13436 "obc/c/c.ml" 314 13430 13494
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 315 13496 13502 "obc/c/c.ml" 315 13496 13511
+type(
+  (string * cty -> unit) -> (string * cty) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/c/c.ml" 315 13496 13513 "obc/c/c.ml" 315 13496 13521
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_field "obc/c/c.ml" 312 13346 13356 "obc/c/c.ml" 312 13346 13364
+)
+"obc/c/c.ml" 315 13496 13522 "obc/c/c.ml" 315 13496 13525
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 315 13496 13512 "obc/c/c.ml" 315 13496 13526
+call(
+  stack
+)
+type(
+  string * cty -> unit
+)
+"obc/c/c.ml" 315 13496 13527 "obc/c/c.ml" 315 13496 13529
+type(
+  (string * cty) list
+)
+ident(
+  int_ref fl "obc/c/c.ml" 311 13318 13339 "obc/c/c.ml" 311 13318 13341
+)
+"obc/c/c.ml" 315 13496 13502 "obc/c/c.ml" 315 13496 13529
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 316 13531 13537 "obc/c/c.ml" 316 13531 13544
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 316 13531 13545 "obc/c/c.ml" 316 13531 13548
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 316 13531 13549 "obc/c/c.ml" 316 13531 13567
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 316 13531 13569 "obc/c/c.ml" 316 13531 13578
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 316 13531 13579 "obc/c/c.ml" 316 13531 13580
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 311 13318 13336 "obc/c/c.ml" 311 13318 13337
+)
+"obc/c/c.ml" 316 13531 13537 "obc/c/c.ml" 316 13531 13580
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 315 13496 13502 "obc/c/c.ml" 316 13531 13580
+type(
+  unit
+)
+"obc/c/c.ml" 314 13430 13436 "obc/c/c.ml" 316 13531 13580
+type(
+  unit
+)
+"obc/c/c.ml" 312 13346 13352 "obc/c/c.ml" 316 13531 13580
+type(
+  unit
+)
+"obc/c/c.ml" 317 13581 13601 "obc/c/c.ml" 317 13581 13602
+type(
+  string
+)
+ident(
+  def n "obc/c/c.ml" 318 13620 13626 "obc/c/c.ml" 319 13672 13725
+)
+"obc/c/c.ml" 317 13581 13604 "obc/c/c.ml" 317 13581 13609
+type(
+  cty
+)
+ident(
+  def retty "obc/c/c.ml" 318 13620 13626 "obc/c/c.ml" 319 13672 13725
+)
+"obc/c/c.ml" 317 13581 13611 "obc/c/c.ml" 317 13581 13615
+type(
+  (string * cty) list
+)
+ident(
+  def args "obc/c/c.ml" 318 13620 13626 "obc/c/c.ml" 319 13672 13725
+)
+"obc/c/c.ml" 317 13581 13585 "obc/c/c.ml" 317 13581 13616
+type(
+  cdecl
+)
+"obc/c/c.ml" 318 13620 13626 "obc/c/c.ml" 318 13620 13633
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) ->
+   cty ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> cty -> unit) ->
+  cty ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> (string * cty) list -> unit) ->
+  (string * cty) list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 318 13620 13634 "obc/c/c.ml" 318 13620 13637
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 318 13620 13638 "obc/c/c.ml" 318 13620 13671
+type(
+  ((Format.formatter -> cty -> unit) ->
+   cty ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list -> unit, Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 319 13672 13680 "obc/c/c.ml" 319 13672 13686
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 319 13672 13687 "obc/c/c.ml" 319 13672 13692
+type(
+  cty
+)
+ident(
+  int_ref retty "obc/c/c.ml" 317 13581 13604 "obc/c/c.ml" 317 13581 13609
+)
+"obc/c/c.ml" 319 13672 13694 "obc/c/c.ml" 319 13672 13703
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 319 13672 13704 "obc/c/c.ml" 319 13672 13705
+type(
+  string
+)
+ident(
+  int_ref n "obc/c/c.ml" 317 13581 13601 "obc/c/c.ml" 317 13581 13602
+)
+"obc/c/c.ml" 319 13672 13707 "obc/c/c.ml" 319 13672 13720
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_param_list "obc/c/c.ml" 227 9809 9813 "obc/c/c.ml" 227 9809 9826
+)
+"obc/c/c.ml" 319 13672 13721 "obc/c/c.ml" 319 13672 13725
+type(
+  (string * cty) list
+)
+ident(
+  int_ref args "obc/c/c.ml" 317 13581 13611 "obc/c/c.ml" 317 13581 13615
+)
+"obc/c/c.ml" 318 13620 13626 "obc/c/c.ml" 319 13672 13725
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 320 13726 13746 "obc/c/c.ml" 320 13726 13747
+type(
+  string
+)
+ident(
+  def n "obc/c/c.ml" 321 13761 13767 "obc/c/c.ml" 322 13815 13861
+)
+"obc/c/c.ml" 320 13726 13749 "obc/c/c.ml" 320 13726 13752
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 321 13761 13767 "obc/c/c.ml" 322 13815 13861
+)
+"obc/c/c.ml" 320 13726 13754 "obc/c/c.ml" 320 13726 13756
+type(
+  cexpr
+)
+ident(
+  def ce "obc/c/c.ml" 321 13761 13767 "obc/c/c.ml" 322 13815 13861
+)
+"obc/c/c.ml" 320 13726 13730 "obc/c/c.ml" 320 13726 13757
+type(
+  cdecl
+)
+"obc/c/c.ml" 321 13761 13767 "obc/c/c.ml" 321 13761 13774
+type(
+  Format.formatter ->
+  ((Format.formatter -> string * cty -> unit) ->
+   string * cty -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string * cty -> unit) ->
+  string * cty -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 321 13761 13775 "obc/c/c.ml" 321 13761 13778
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 304 13025 13038 "obc/c/c.ml" 304 13025 13041
+)
+"obc/c/c.ml" 321 13761 13779 "obc/c/c.ml" 321 13761 13814
+type(
+  ((Format.formatter -> string * cty -> unit) ->
+   string * cty -> (Format.formatter -> cexpr -> unit) -> cexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 322 13815 13823 "obc/c/c.ml" 322 13815 13833
+type(
+  Format.formatter -> string * cty -> unit
+)
+ident(
+  int_ref pp_vardecl "obc/c/c.ml" 222 9586 9594 "obc/c/c.ml" 222 9586 9604
+)
+"obc/c/c.ml" 322 13815 13835 "obc/c/c.ml" 322 13815 13836
+type(
+  string
+)
+ident(
+  int_ref n "obc/c/c.ml" 320 13726 13746 "obc/c/c.ml" 320 13726 13747
+)
+"obc/c/c.ml" 322 13815 13838 "obc/c/c.ml" 322 13815 13841
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 320 13726 13749 "obc/c/c.ml" 320 13726 13752
+)
+"obc/c/c.ml" 322 13815 13834 "obc/c/c.ml" 322 13815 13842
+type(
+  string * cty
+)
+"obc/c/c.ml" 322 13815 13844 "obc/c/c.ml" 322 13815 13858
+type(
+  Format.formatter -> cexpr -> unit
+)
+ident(
+  int_ref pp_cconst_expr "obc/c/c.ml" 281 12219 12223 "obc/c/c.ml" 281 12219 12237
+)
+"obc/c/c.ml" 322 13815 13859 "obc/c/c.ml" 322 13815 13861
+type(
+  cexpr
+)
+ident(
+  int_ref ce "obc/c/c.ml" 320 13726 13754 "obc/c/c.ml" 320 13726 13756
+)
+"obc/c/c.ml" 321 13761 13767 "obc/c/c.ml" 322 13815 13861
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 304 13025 13050 "obc/c/c.ml" 322 13815 13861
+type(
+  unit
+)
+"obc/c/c.ml" 324 13863 13867 "obc/c/c.ml" 324 13863 13874
+type(
+  Format.formatter -> cdef -> unit
+)
+ident(
+  def pp_cdef "obc/c/c.ml" 332 14173 14173 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 324 13863 13875 "obc/c/c.ml" 324 13863 13878
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 324 13863 13879 "obc/c/c.ml" 330 14100 14171
+)
+"obc/c/c.ml" 324 13863 13879 "obc/c/c.ml" 324 13863 13883
+type(
+  cdef
+)
+ident(
+  def cdef "obc/c/c.ml" 324 13863 13886 "obc/c/c.ml" 330 14100 14171
+)
+"obc/c/c.ml" 324 13863 13892 "obc/c/c.ml" 324 13863 13896
+type(
+  cdef
+)
+ident(
+  int_ref cdef "obc/c/c.ml" 324 13863 13879 "obc/c/c.ml" 324 13863 13883
+)
+"obc/c/c.ml" 325 13902 13914 "obc/c/c.ml" 325 13902 13917
+type(
+  cfundef
+)
+ident(
+  def cfd "obc/c/c.ml" 326 13921 13927 "obc/c/c.ml" 329 14071 14099
+)
+"obc/c/c.ml" 325 13902 13906 "obc/c/c.ml" 325 13902 13917
+type(
+  cdef
+)
+"obc/c/c.ml" 326 13921 13927 "obc/c/c.ml" 326 13921 13934
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) ->
+   cty ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list ->
+   (Format.formatter -> cblock -> unit) -> cblock -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> cty -> unit) ->
+  cty ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> (string * cty) list -> unit) ->
+  (string * cty) list ->
+  (Format.formatter -> cblock -> unit) -> cblock -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 326 13921 13935 "obc/c/c.ml" 326 13921 13938
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 324 13863 13875 "obc/c/c.ml" 324 13863 13878
+)
+"obc/c/c.ml" 327 13939 13947 "obc/c/c.ml" 327 13939 13995
+type(
+  ((Format.formatter -> cty -> unit) ->
+   cty ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * cty) list -> unit) ->
+   (string * cty) list ->
+   (Format.formatter -> cblock -> unit) -> cblock -> unit, Format.formatter,
+   unit)
+  format
+)
+"obc/c/c.ml" 328 13996 14004 "obc/c/c.ml" 328 13996 14010
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 328 13996 14011 "obc/c/c.ml" 328 13996 14014
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 325 13902 13914 "obc/c/c.ml" 325 13902 13917
+)
+"obc/c/c.ml" 328 13996 14011 "obc/c/c.ml" 328 13996 14022
+type(
+  cty
+)
+"obc/c/c.ml" 328 13996 14024 "obc/c/c.ml" 328 13996 14033
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 328 13996 14034 "obc/c/c.ml" 328 13996 14037
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 325 13902 13914 "obc/c/c.ml" 325 13902 13917
+)
+"obc/c/c.ml" 328 13996 14034 "obc/c/c.ml" 328 13996 14044
+type(
+  string
+)
+"obc/c/c.ml" 328 13996 14046 "obc/c/c.ml" 328 13996 14059
+type(
+  Format.formatter -> (string * cty) list -> unit
+)
+ident(
+  int_ref pp_param_list "obc/c/c.ml" 227 9809 9813 "obc/c/c.ml" 227 9809 9826
+)
+"obc/c/c.ml" 328 13996 14060 "obc/c/c.ml" 328 13996 14063
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 325 13902 13914 "obc/c/c.ml" 325 13902 13917
+)
+"obc/c/c.ml" 328 13996 14060 "obc/c/c.ml" 328 13996 14070
+type(
+  (string * cty) list
+)
+"obc/c/c.ml" 329 14071 14079 "obc/c/c.ml" 329 14071 14088
+type(
+  Format.formatter -> cblock -> unit
+)
+ident(
+  int_ref pp_cblock "obc/c/c.ml" 230 9919 9927 "obc/c/c.ml" 230 9919 9936
+)
+"obc/c/c.ml" 329 14071 14089 "obc/c/c.ml" 329 14071 14092
+type(
+  cfundef
+)
+ident(
+  int_ref cfd "obc/c/c.ml" 325 13902 13914 "obc/c/c.ml" 325 13902 13917
+)
+"obc/c/c.ml" 329 14071 14089 "obc/c/c.ml" 329 14071 14099
+type(
+  cblock
+)
+"obc/c/c.ml" 326 13921 13927 "obc/c/c.ml" 329 14071 14099
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 330 14100 14113 "obc/c/c.ml" 330 14100 14114
+type(
+  string
+)
+ident(
+  def s "obc/c/c.ml" 330 14100 14124 "obc/c/c.ml" 330 14100 14171
+)
+"obc/c/c.ml" 330 14100 14116 "obc/c/c.ml" 330 14100 14119
+type(
+  cty
+)
+ident(
+  def cty "obc/c/c.ml" 330 14100 14124 "obc/c/c.ml" 330 14100 14171
+)
+"obc/c/c.ml" 330 14100 14104 "obc/c/c.ml" 330 14100 14120
+type(
+  cdef
+)
+"obc/c/c.ml" 330 14100 14124 "obc/c/c.ml" 330 14100 14131
+type(
+  Format.formatter ->
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> cty -> unit) ->
+  cty -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 330 14100 14132 "obc/c/c.ml" 330 14100 14135
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 324 13863 13875 "obc/c/c.ml" 324 13863 13878
+)
+"obc/c/c.ml" 330 14100 14136 "obc/c/c.ml" 330 14100 14147
+type(
+  ((Format.formatter -> cty -> unit) ->
+   cty -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"obc/c/c.ml" 330 14100 14148 "obc/c/c.ml" 330 14100 14154
+type(
+  Format.formatter -> cty -> unit
+)
+ident(
+  int_ref pp_cty "obc/c/c.ml" 197 8757 8765 "obc/c/c.ml" 197 8757 8771
+)
+"obc/c/c.ml" 330 14100 14155 "obc/c/c.ml" 330 14100 14158
+type(
+  cty
+)
+ident(
+  int_ref cty "obc/c/c.ml" 330 14100 14116 "obc/c/c.ml" 330 14100 14119
+)
+"obc/c/c.ml" 330 14100 14160 "obc/c/c.ml" 330 14100 14169
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref pp_string "obc/c/c.ml" 179 8358 8362 "obc/c/c.ml" 179 8358 8371
+)
+"obc/c/c.ml" 330 14100 14170 "obc/c/c.ml" 330 14100 14171
+type(
+  string
+)
+ident(
+  int_ref s "obc/c/c.ml" 330 14100 14113 "obc/c/c.ml" 330 14100 14114
+)
+"obc/c/c.ml" 330 14100 14124 "obc/c/c.ml" 330 14100 14171
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 324 13863 13886 "obc/c/c.ml" 330 14100 14171
+type(
+  unit
+)
+"obc/c/c.ml" 332 14173 14177 "obc/c/c.ml" 332 14173 14190
+type(
+  Format.formatter -> string -> cfile_desc -> unit
+)
+ident(
+  def pp_cfile_desc "obc/c/c.ml" 358 15295 15295 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 332 14173 14195 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 332 14173 14195 "obc/c/c.ml" 332 14173 14200
+type(
+  string
+)
+ident(
+  def filen "obc/c/c.ml" 332 14173 14201 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 332 14173 14201 "obc/c/c.ml" 332 14173 14206
+type(
+  cfile_desc
+)
+ident(
+  def cfile "obc/c/c.ml" 334 14275 14277 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 334 14275 14281 "obc/c/c.ml" 334 14275 14293
+type(
+  string
+)
+ident(
+  def filen_wo_ext "obc/c/c.ml" 335 14344 14346 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 334 14275 14296 "obc/c/c.ml" 334 14275 14306
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"obc/c/c.ml" 334 14275 14307 "obc/c/c.ml" 334 14275 14312
+type(
+  string
+)
+ident(
+  int_ref filen "obc/c/c.ml" 332 14173 14195 "obc/c/c.ml" 332 14173 14200
+)
+"obc/c/c.ml" 334 14275 14313 "obc/c/c.ml" 334 14275 14314
+type(
+  int
+)
+"obc/c/c.ml" 334 14275 14316 "obc/c/c.ml" 334 14275 14329
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"obc/c/c.ml" 334 14275 14330 "obc/c/c.ml" 334 14275 14335
+type(
+  string
+)
+ident(
+  int_ref filen "obc/c/c.ml" 332 14173 14195 "obc/c/c.ml" 332 14173 14200
+)
+"obc/c/c.ml" 334 14275 14316 "obc/c/c.ml" 334 14275 14335
+type(
+  int
+)
+"obc/c/c.ml" 334 14275 14336 "obc/c/c.ml" 334 14275 14337
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"obc/c/c.ml" 334 14275 14338 "obc/c/c.ml" 334 14275 14339
+type(
+  int
+)
+"obc/c/c.ml" 334 14275 14315 "obc/c/c.ml" 334 14275 14340
+type(
+  int
+)
+"obc/c/c.ml" 334 14275 14296 "obc/c/c.ml" 334 14275 14340
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 335 14344 14352 "obc/c/c.ml" 335 14344 14357
+type(
+  cfile_desc
+)
+ident(
+  int_ref cfile "obc/c/c.ml" 332 14173 14201 "obc/c/c.ml" 332 14173 14206
+)
+"obc/c/c.ml" 336 14363 14378 "obc/c/c.ml" 336 14363 14382
+type(
+  string list
+)
+ident(
+  def deps "obc/c/c.ml" 337 14395 14403 "obc/c/c.ml" 344 14734 14789
+)
+"obc/c/c.ml" 336 14363 14384 "obc/c/c.ml" 336 14363 14390
+type(
+  cdecl list
+)
+ident(
+  def cdecls "obc/c/c.ml" 337 14395 14403 "obc/c/c.ml" 344 14734 14789
+)
+"obc/c/c.ml" 336 14363 14369 "obc/c/c.ml" 336 14363 14391
+type(
+  cfile_desc
+)
+"obc/c/c.ml" 337 14395 14407 "obc/c/c.ml" 337 14395 14420
+type(
+  string
+)
+ident(
+  def headern_macro "obc/c/c.ml" 338 14456 14464 "obc/c/c.ml" 344 14734 14789
+)
+"obc/c/c.ml" 337 14395 14423 "obc/c/c.ml" 337 14395 14439
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uppercase
+)
+"obc/c/c.ml" 337 14395 14440 "obc/c/c.ml" 337 14395 14452
+type(
+  string
+)
+ident(
+  int_ref filen_wo_ext "obc/c/c.ml" 334 14275 14281 "obc/c/c.ml" 334 14275 14293
+)
+"obc/c/c.ml" 337 14395 14423 "obc/c/c.ml" 337 14395 14452
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 338 14456 14464 "obc/c/c.ml" 338 14456 14496
+type(
+  Format.formatter -> string -> string -> unit
+)
+ident(
+  ext_ref Compiler_utils.print_header_info
+)
+"obc/c/c.ml" 338 14456 14497 "obc/c/c.ml" 338 14456 14500
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 338 14456 14501 "obc/c/c.ml" 338 14456 14505
+type(
+  string
+)
+"obc/c/c.ml" 338 14456 14506 "obc/c/c.ml" 338 14456 14510
+type(
+  string
+)
+"obc/c/c.ml" 338 14456 14464 "obc/c/c.ml" 338 14456 14510
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 339 14512 14520 "obc/c/c.ml" 339 14512 14527
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 339 14512 14528 "obc/c/c.ml" 339 14512 14531
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 339 14512 14532 "obc/c/c.ml" 339 14512 14549
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 339 14512 14550 "obc/c/c.ml" 339 14512 14563
+type(
+  string
+)
+ident(
+  int_ref headern_macro "obc/c/c.ml" 337 14395 14407 "obc/c/c.ml" 337 14395 14420
+)
+"obc/c/c.ml" 339 14512 14520 "obc/c/c.ml" 339 14512 14563
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 340 14565 14573 "obc/c/c.ml" 340 14565 14580
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 340 14565 14581 "obc/c/c.ml" 340 14565 14584
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 340 14565 14585 "obc/c/c.ml" 340 14565 14605
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 340 14565 14606 "obc/c/c.ml" 340 14565 14619
+type(
+  string
+)
+ident(
+  int_ref headern_macro "obc/c/c.ml" 337 14395 14407 "obc/c/c.ml" 337 14395 14420
+)
+"obc/c/c.ml" 340 14565 14573 "obc/c/c.ml" 340 14565 14619
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 341 14621 14629 "obc/c/c.ml" 341 14621 14633
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/c/c.ml" 341 14621 14639 "obc/c/c.ml" 341 14621 14640
+type(
+  string
+)
+ident(
+  def d "obc/c/c.ml" 341 14621 14644 "obc/c/c.ml" 341 14621 14680
+)
+"obc/c/c.ml" 341 14621 14644 "obc/c/c.ml" 341 14621 14651
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 341 14621 14652 "obc/c/c.ml" 341 14621 14655
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 341 14621 14656 "obc/c/c.ml" 341 14621 14678
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 341 14621 14679 "obc/c/c.ml" 341 14621 14680
+type(
+  string
+)
+ident(
+  int_ref d "obc/c/c.ml" 341 14621 14639 "obc/c/c.ml" 341 14621 14640
+)
+"obc/c/c.ml" 341 14621 14644 "obc/c/c.ml" 341 14621 14680
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 341 14621 14634 "obc/c/c.ml" 341 14621 14681
+type(
+  string -> unit
+)
+"obc/c/c.ml" 342 14682 14692 "obc/c/c.ml" 342 14682 14696
+type(
+  string list
+)
+ident(
+  int_ref deps "obc/c/c.ml" 336 14363 14378 "obc/c/c.ml" 336 14363 14382
+)
+"obc/c/c.ml" 341 14621 14629 "obc/c/c.ml" 342 14682 14696
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 343 14698 14706 "obc/c/c.ml" 343 14698 14710
+type(
+  (cdecl -> unit) -> cdecl list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/c/c.ml" 343 14698 14712 "obc/c/c.ml" 343 14698 14720
+type(
+  Format.formatter -> cdecl -> unit
+)
+ident(
+  int_ref pp_cdecl "obc/c/c.ml" 304 13025 13029 "obc/c/c.ml" 304 13025 13037
+)
+"obc/c/c.ml" 343 14698 14721 "obc/c/c.ml" 343 14698 14724
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 343 14698 14711 "obc/c/c.ml" 343 14698 14725
+call(
+  stack
+)
+type(
+  cdecl -> unit
+)
+"obc/c/c.ml" 343 14698 14726 "obc/c/c.ml" 343 14698 14732
+type(
+  cdecl list
+)
+ident(
+  int_ref cdecls "obc/c/c.ml" 336 14363 14384 "obc/c/c.ml" 336 14363 14390
+)
+"obc/c/c.ml" 343 14698 14706 "obc/c/c.ml" 343 14698 14732
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 344 14734 14742 "obc/c/c.ml" 344 14734 14749
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 344 14734 14750 "obc/c/c.ml" 344 14734 14753
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 344 14734 14754 "obc/c/c.ml" 344 14734 14775
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 344 14734 14776 "obc/c/c.ml" 344 14734 14789
+type(
+  string
+)
+ident(
+  int_ref headern_macro "obc/c/c.ml" 337 14395 14407 "obc/c/c.ml" 337 14395 14420
+)
+"obc/c/c.ml" 344 14734 14742 "obc/c/c.ml" 344 14734 14789
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 343 14698 14706 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 341 14621 14629 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 340 14565 14573 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 339 14512 14520 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 338 14456 14464 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 337 14395 14403 "obc/c/c.ml" 344 14734 14789
+type(
+  unit
+)
+"obc/c/c.ml" 345 14790 14804 "obc/c/c.ml" 345 14790 14809
+type(
+  cdef list
+)
+ident(
+  def cdefs "obc/c/c.ml" 346 14813 14821 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 345 14790 14796 "obc/c/c.ml" 345 14790 14809
+type(
+  cfile_desc
+)
+"obc/c/c.ml" 346 14813 14825 "obc/c/c.ml" 346 14813 14832
+type(
+  string
+)
+ident(
+  def headern "obc/c/c.ml" 347 14858 14866 "obc/c/c.ml" 352 15104 15136
+)
+"obc/c/c.ml" 346 14813 14835 "obc/c/c.ml" 346 14813 14847
+type(
+  string
+)
+ident(
+  int_ref filen_wo_ext "obc/c/c.ml" 334 14275 14281 "obc/c/c.ml" 334 14275 14293
+)
+"obc/c/c.ml" 346 14813 14848 "obc/c/c.ml" 346 14813 14849
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"obc/c/c.ml" 346 14813 14850 "obc/c/c.ml" 346 14813 14854
+type(
+  string
+)
+"obc/c/c.ml" 346 14813 14835 "obc/c/c.ml" 346 14813 14854
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 347 14858 14866 "obc/c/c.ml" 347 14858 14898
+type(
+  Format.formatter -> string -> string -> unit
+)
+ident(
+  ext_ref Compiler_utils.print_header_info
+)
+"obc/c/c.ml" 347 14858 14899 "obc/c/c.ml" 347 14858 14902
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 347 14858 14903 "obc/c/c.ml" 347 14858 14907
+type(
+  string
+)
+"obc/c/c.ml" 347 14858 14908 "obc/c/c.ml" 347 14858 14912
+type(
+  string
+)
+"obc/c/c.ml" 347 14858 14866 "obc/c/c.ml" 347 14858 14912
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 348 14914 14922 "obc/c/c.ml" 348 14914 14929
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 348 14914 14930 "obc/c/c.ml" 348 14914 14933
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 348 14914 14934 "obc/c/c.ml" 348 14914 14957
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 348 14914 14922 "obc/c/c.ml" 348 14914 14957
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 349 14959 14967 "obc/c/c.ml" 349 14959 14974
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 349 14959 14975 "obc/c/c.ml" 349 14959 14978
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 349 14959 14979 "obc/c/c.ml" 349 14959 15003
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 349 14959 14967 "obc/c/c.ml" 349 14959 15003
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 350 15005 15013 "obc/c/c.ml" 350 15005 15020
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 350 15005 15021 "obc/c/c.ml" 350 15005 15024
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 350 15005 15025 "obc/c/c.ml" 350 15005 15049
+type(
+  (unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 350 15005 15013 "obc/c/c.ml" 350 15005 15049
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 351 15051 15059 "obc/c/c.ml" 351 15051 15066
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"obc/c/c.ml" 351 15051 15067 "obc/c/c.ml" 351 15051 15070
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 351 15051 15071 "obc/c/c.ml" 351 15051 15094
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 351 15051 15095 "obc/c/c.ml" 351 15051 15102
+type(
+  string
+)
+ident(
+  int_ref headern "obc/c/c.ml" 346 14813 14825 "obc/c/c.ml" 346 14813 14832
+)
+"obc/c/c.ml" 351 15051 15059 "obc/c/c.ml" 351 15051 15102
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 352 15104 15112 "obc/c/c.ml" 352 15104 15116
+type(
+  (cdef -> unit) -> cdef list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/c/c.ml" 352 15104 15118 "obc/c/c.ml" 352 15104 15125
+type(
+  Format.formatter -> cdef -> unit
+)
+ident(
+  int_ref pp_cdef "obc/c/c.ml" 324 13863 13867 "obc/c/c.ml" 324 13863 13874
+)
+"obc/c/c.ml" 352 15104 15126 "obc/c/c.ml" 352 15104 15129
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 332 14173 14191 "obc/c/c.ml" 332 14173 14194
+)
+"obc/c/c.ml" 352 15104 15117 "obc/c/c.ml" 352 15104 15130
+call(
+  stack
+)
+type(
+  cdef -> unit
+)
+"obc/c/c.ml" 352 15104 15131 "obc/c/c.ml" 352 15104 15136
+type(
+  cdef list
+)
+ident(
+  int_ref cdefs "obc/c/c.ml" 345 14790 14804 "obc/c/c.ml" 345 14790 14809
+)
+"obc/c/c.ml" 352 15104 15112 "obc/c/c.ml" 352 15104 15136
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 351 15051 15059 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 350 15005 15013 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 349 14959 14967 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 348 14914 14922 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 347 14858 14866 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 346 14813 14821 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 335 14344 14346 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 334 14275 14277 "obc/c/c.ml" 352 15104 15136
+type(
+  unit
+)
+"obc/c/c.ml" 358 15295 15299 "obc/c/c.ml" 358 15295 15311
+type(
+  string -> string * cfile_desc -> unit
+)
+ident(
+  def output_cfile "obc/c/c.ml" 367 15609 15609 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 358 15295 15312 "obc/c/c.ml" 358 15295 15315
+type(
+  string
+)
+ident(
+  def dir "obc/c/c.ml" 358 15295 15316 "obc/c/c.ml" 365 15593 15607
+)
+"obc/c/c.ml" 358 15295 15317 "obc/c/c.ml" 358 15295 15322
+type(
+  string
+)
+ident(
+  def filen "obc/c/c.ml" 359 15338 15340 "obc/c/c.ml" 365 15593 15607
+)
+"obc/c/c.ml" 358 15295 15324 "obc/c/c.ml" 358 15295 15334
+type(
+  cfile_desc
+)
+ident(
+  def cfile_desc "obc/c/c.ml" 359 15338 15340 "obc/c/c.ml" 365 15593 15607
+)
+"obc/c/c.ml" 358 15295 15316 "obc/c/c.ml" 358 15295 15335
+type(
+  string * cfile_desc
+)
+"obc/c/c.ml" 359 15338 15343 "obc/c/c.ml" 359 15338 15344
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"obc/c/c.ml" 359 15338 15344 "obc/c/c.ml" 359 15338 15368
+type(
+  bool ref
+)
+ident(
+  ext_ref Compiler_options.verbose
+)
+"obc/c/c.ml" 359 15338 15343 "obc/c/c.ml" 359 15338 15368
+type(
+  bool
+)
+"obc/c/c.ml" 360 15374 15378 "obc/c/c.ml" 360 15374 15391
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"obc/c/c.ml" 360 15374 15392 "obc/c/c.ml" 360 15374 15417
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"obc/c/c.ml" 360 15374 15418 "obc/c/c.ml" 360 15374 15421
+type(
+  string
+)
+ident(
+  int_ref dir "obc/c/c.ml" 358 15295 15312 "obc/c/c.ml" 358 15295 15315
+)
+"obc/c/c.ml" 360 15374 15422 "obc/c/c.ml" 360 15374 15427
+type(
+  string
+)
+ident(
+  int_ref filen "obc/c/c.ml" 358 15295 15317 "obc/c/c.ml" 358 15295 15322
+)
+"obc/c/c.ml" 360 15374 15378 "obc/c/c.ml" 360 15374 15427
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 359 15338 15340 "obc/c/c.ml" 360 15374 15427
+type(
+  unit
+)
+"obc/c/c.ml" 361 15429 15435 "obc/c/c.ml" 361 15429 15437
+type(
+  out_channel
+)
+ident(
+  def oc "obc/c/c.ml" 362 15480 15482 "obc/c/c.ml" 365 15593 15607
+)
+"obc/c/c.ml" 361 15429 15440 "obc/c/c.ml" 361 15429 15448
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"obc/c/c.ml" 361 15429 15450 "obc/c/c.ml" 361 15429 15465
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"obc/c/c.ml" 361 15429 15466 "obc/c/c.ml" 361 15429 15469
+type(
+  string
+)
+ident(
+  int_ref dir "obc/c/c.ml" 358 15295 15312 "obc/c/c.ml" 358 15295 15315
+)
+"obc/c/c.ml" 361 15429 15470 "obc/c/c.ml" 361 15429 15475
+type(
+  string
+)
+ident(
+  int_ref filen "obc/c/c.ml" 358 15295 15317 "obc/c/c.ml" 358 15295 15322
+)
+"obc/c/c.ml" 361 15429 15449 "obc/c/c.ml" 361 15429 15476
+call(
+  stack
+)
+type(
+  string
+)
+"obc/c/c.ml" 361 15429 15440 "obc/c/c.ml" 361 15429 15476
+call(
+  stack
+)
+type(
+  out_channel
+)
+"obc/c/c.ml" 362 15480 15486 "obc/c/c.ml" 362 15480 15489
+type(
+  Format.formatter
+)
+ident(
+  def fmt "obc/c/c.ml" 363 15530 15532 "obc/c/c.ml" 365 15593 15607
+)
+"obc/c/c.ml" 362 15480 15492 "obc/c/c.ml" 362 15480 15523
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"obc/c/c.ml" 362 15480 15524 "obc/c/c.ml" 362 15480 15526
+type(
+  out_channel
+)
+ident(
+  int_ref oc "obc/c/c.ml" 361 15429 15435 "obc/c/c.ml" 361 15429 15437
+)
+"obc/c/c.ml" 362 15480 15492 "obc/c/c.ml" 362 15480 15526
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"obc/c/c.ml" 363 15530 15532 "obc/c/c.ml" 363 15530 15545
+type(
+  Format.formatter -> string -> cfile_desc -> unit
+)
+ident(
+  int_ref pp_cfile_desc "obc/c/c.ml" 332 14173 14177 "obc/c/c.ml" 332 14173 14190
+)
+"obc/c/c.ml" 363 15530 15546 "obc/c/c.ml" 363 15530 15549
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 362 15480 15486 "obc/c/c.ml" 362 15480 15489
+)
+"obc/c/c.ml" 363 15530 15550 "obc/c/c.ml" 363 15530 15555
+type(
+  string
+)
+ident(
+  int_ref filen "obc/c/c.ml" 358 15295 15317 "obc/c/c.ml" 358 15295 15322
+)
+"obc/c/c.ml" 363 15530 15556 "obc/c/c.ml" 363 15530 15566
+type(
+  cfile_desc
+)
+ident(
+  int_ref cfile_desc "obc/c/c.ml" 358 15295 15324 "obc/c/c.ml" 358 15295 15334
+)
+"obc/c/c.ml" 363 15530 15532 "obc/c/c.ml" 363 15530 15566
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 364 15568 15570 "obc/c/c.ml" 364 15568 15584
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"obc/c/c.ml" 364 15568 15585 "obc/c/c.ml" 364 15568 15588
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "obc/c/c.ml" 362 15480 15486 "obc/c/c.ml" 362 15480 15489
+)
+"obc/c/c.ml" 364 15568 15589 "obc/c/c.ml" 364 15568 15591
+type(
+  unit
+)
+"obc/c/c.ml" 364 15568 15570 "obc/c/c.ml" 364 15568 15591
+call(
+  stack
+)
+type(
+  unit
+)
+"obc/c/c.ml" 365 15593 15595 "obc/c/c.ml" 365 15593 15604
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"obc/c/c.ml" 365 15593 15605 "obc/c/c.ml" 365 15593 15607
+type(
+  out_channel
+)
+ident(
+  int_ref oc "obc/c/c.ml" 361 15429 15435 "obc/c/c.ml" 361 15429 15437
+)
+"obc/c/c.ml" 365 15593 15595 "obc/c/c.ml" 365 15593 15607
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 364 15568 15570 "obc/c/c.ml" 365 15593 15607
+type(
+  unit
+)
+"obc/c/c.ml" 363 15530 15532 "obc/c/c.ml" 365 15593 15607
+type(
+  unit
+)
+"obc/c/c.ml" 362 15480 15482 "obc/c/c.ml" 365 15593 15607
+type(
+  unit
+)
+"obc/c/c.ml" 361 15429 15431 "obc/c/c.ml" 365 15593 15607
+type(
+  unit
+)
+"obc/c/c.ml" 359 15338 15340 "obc/c/c.ml" 365 15593 15607
+type(
+  unit
+)
+"obc/c/c.ml" 367 15609 15613 "obc/c/c.ml" 367 15609 15619
+type(
+  string -> (string * cfile_desc) list -> unit
+)
+ident(
+  def output "obc/c/c.ml" 371 15714 15714 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 367 15609 15620 "obc/c/c.ml" 367 15609 15623
+type(
+  string
+)
+ident(
+  def dir "obc/c/c.ml" 367 15609 15624 "obc/c/c.ml" 368 15632 15668
+)
+"obc/c/c.ml" 367 15609 15624 "obc/c/c.ml" 367 15609 15629
+type(
+  (string * cfile_desc) list
+)
+ident(
+  def cprog "obc/c/c.ml" 368 15632 15634 "obc/c/c.ml" 368 15632 15668
+)
+"obc/c/c.ml" 368 15632 15634 "obc/c/c.ml" 368 15632 15643
+type(
+  (string * cfile_desc -> unit) -> (string * cfile_desc) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"obc/c/c.ml" 368 15632 15645 "obc/c/c.ml" 368 15632 15657
+type(
+  string -> string * cfile_desc -> unit
+)
+ident(
+  int_ref output_cfile "obc/c/c.ml" 358 15295 15299 "obc/c/c.ml" 358 15295 15311
+)
+"obc/c/c.ml" 368 15632 15658 "obc/c/c.ml" 368 15632 15661
+type(
+  string
+)
+ident(
+  int_ref dir "obc/c/c.ml" 367 15609 15620 "obc/c/c.ml" 367 15609 15623
+)
+"obc/c/c.ml" 368 15632 15644 "obc/c/c.ml" 368 15632 15662
+call(
+  stack
+)
+type(
+  string * cfile_desc -> unit
+)
+"obc/c/c.ml" 368 15632 15663 "obc/c/c.ml" 368 15632 15668
+type(
+  (string * cfile_desc) list
+)
+ident(
+  int_ref cprog "obc/c/c.ml" 367 15609 15624 "obc/c/c.ml" 367 15609 15629
+)
+"obc/c/c.ml" 368 15632 15634 "obc/c/c.ml" 368 15632 15668
+call(
+  tail
+)
+type(
+  unit
+)
+"obc/c/c.ml" 371 15714 15718 "obc/c/c.ml" 371 15714 15733
+type(
+  cty -> bool
+)
+ident(
+  def is_pointer_type "obc/c/c.ml" 378 15969 15969 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 372 15745 15757 "obc/c/c.ml" 372 15745 15758
+type(
+  cty
+)
+type(
+  int
+)
+"obc/c/c.ml" 372 15745 15749 "obc/c/c.ml" 372 15745 15758
+type(
+  cty
+)
+"obc/c/c.ml" 372 15745 15769 "obc/c/c.ml" 372 15745 15770
+type(
+  cty
+)
+"obc/c/c.ml" 372 15745 15761 "obc/c/c.ml" 372 15745 15770
+type(
+  cty
+)
+"obc/c/c.ml" 372 15745 15749 "obc/c/c.ml" 372 15745 15770
+type(
+  cty
+)
+"obc/c/c.ml" 372 15745 15774 "obc/c/c.ml" 372 15745 15778
+type(
+  bool
+)
+"obc/c/c.ml" 373 15779 15783 "obc/c/c.ml" 373 15779 15784
+type(
+  cty
+)
+"obc/c/c.ml" 373 15779 15788 "obc/c/c.ml" 373 15779 15793
+type(
+  bool
+)
+"obc/c/c.ml" 371 15714 15736 "obc/c/c.ml" 373 15779 15793
+type(
+  cty -> bool
+)
+"obc/c/c.ml" 378 15969 15977 "obc/c/c.ml" 378 15969 15993
+type(
+  cty -> 'a list -> cty
+)
+ident(
+  def array_base_ctype "obc/c/c.ml" 378 15969 15969 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 378 15969 15994 "obc/c/c.ml" 378 15969 15996
+type(
+  cty
+)
+ident(
+  def ty "obc/c/c.ml" 378 15969 15997 "obc/c/c.ml" 383 16145 16163
+)
+"obc/c/c.ml" 378 15969 15997 "obc/c/c.ml" 378 15969 16005
+type(
+  'a list
+)
+ident(
+  def idx_list "obc/c/c.ml" 379 16008 16010 "obc/c/c.ml" 383 16145 16163
+)
+"obc/c/c.ml" 379 16008 16016 "obc/c/c.ml" 379 16008 16018
+type(
+  cty
+)
+ident(
+  int_ref ty "obc/c/c.ml" 378 15969 15994 "obc/c/c.ml" 378 15969 15996
+)
+"obc/c/c.ml" 379 16008 16020 "obc/c/c.ml" 379 16008 16028
+type(
+  'a list
+)
+ident(
+  int_ref idx_list "obc/c/c.ml" 378 15969 15997 "obc/c/c.ml" 378 15969 16005
+)
+"obc/c/c.ml" 379 16008 16016 "obc/c/c.ml" 379 16008 16028
+type(
+  cty * 'a list
+)
+"obc/c/c.ml" 380 16034 16049 "obc/c/c.ml" 380 16034 16050
+type(
+  int
+)
+"obc/c/c.ml" 380 16034 16052 "obc/c/c.ml" 380 16034 16054
+type(
+  cty
+)
+ident(
+  def ty "obc/c/c.ml" 380 16034 16064 "obc/c/c.ml" 380 16034 16066
+)
+"obc/c/c.ml" 380 16034 16040 "obc/c/c.ml" 380 16034 16055
+type(
+  cty
+)
+"obc/c/c.ml" 380 16034 16058 "obc/c/c.ml" 380 16034 16059
+type(
+  'a
+)
+"obc/c/c.ml" 380 16034 16057 "obc/c/c.ml" 380 16034 16060
+type(
+  'a list
+)
+"obc/c/c.ml" 380 16034 16040 "obc/c/c.ml" 380 16034 16060
+type(
+  cty * 'a list
+)
+"obc/c/c.ml" 380 16034 16064 "obc/c/c.ml" 380 16034 16066
+type(
+  cty
+)
+ident(
+  int_ref ty "obc/c/c.ml" 380 16034 16052 "obc/c/c.ml" 380 16034 16054
+)
+"obc/c/c.ml" 381 16067 16082 "obc/c/c.ml" 381 16067 16083
+type(
+  int
+)
+"obc/c/c.ml" 381 16067 16085 "obc/c/c.ml" 381 16067 16087
+type(
+  cty
+)
+ident(
+  def ty "obc/c/c.ml" 381 16067 16105 "obc/c/c.ml" 381 16067 16133
+)
+"obc/c/c.ml" 381 16067 16073 "obc/c/c.ml" 381 16067 16088
+type(
+  cty
+)
+"obc/c/c.ml" 381 16067 16090 "obc/c/c.ml" 381 16067 16091
+type(
+  'a
+)
+"obc/c/c.ml" 381 16067 16093 "obc/c/c.ml" 381 16067 16101
+type(
+  'a list
+)
+ident(
+  def idx_list "obc/c/c.ml" 381 16067 16105 "obc/c/c.ml" 381 16067 16133
+)
+"obc/c/c.ml" 381 16067 16090 "obc/c/c.ml" 381 16067 16101
+type(
+  'a list
+)
+"obc/c/c.ml" 381 16067 16073 "obc/c/c.ml" 381 16067 16101
+type(
+  cty * 'a list
+)
+"obc/c/c.ml" 381 16067 16105 "obc/c/c.ml" 381 16067 16121
+type(
+  cty -> 'a list -> cty
+)
+ident(
+  int_ref array_base_ctype "obc/c/c.ml" 378 15969 15977 "obc/c/c.ml" 378 15969 15993
+)
+"obc/c/c.ml" 381 16067 16122 "obc/c/c.ml" 381 16067 16124
+type(
+  cty
+)
+ident(
+  int_ref ty "obc/c/c.ml" 381 16067 16085 "obc/c/c.ml" 381 16067 16087
+)
+"obc/c/c.ml" 381 16067 16125 "obc/c/c.ml" 381 16067 16133
+type(
+  'a list
+)
+ident(
+  int_ref idx_list "obc/c/c.ml" 381 16067 16093 "obc/c/c.ml" 381 16067 16101
+)
+"obc/c/c.ml" 381 16067 16105 "obc/c/c.ml" 381 16067 16133
+call(
+  tail
+)
+type(
+  cty
+)
+"obc/c/c.ml" 382 16134 16140 "obc/c/c.ml" 382 16134 16141
+type(
+  cty * 'a list
+)
+"obc/c/c.ml" 383 16145 16158 "obc/c/c.ml" 383 16145 16163
+type(
+  bool
+)
+"obc/c/c.ml" 383 16145 16151 "obc/c/c.ml" 383 16145 16163
+type(
+  cty
+)
+"obc/c/c.ml" 379 16008 16010 "obc/c/c.ml" 383 16145 16163
+type(
+  cty
+)
+"obc/c/c.ml" 386 16211 16219 "obc/c/c.ml" 386 16211 16232
+type(
+  cexpr -> clhs
+)
+ident(
+  def clhs_of_cexpr "obc/c/c.ml" 386 16211 16211 "obc/c/c.ml" 1 0 -1
+)
+"obc/c/c.ml" 386 16211 16233 "obc/c/c.ml" 386 16211 16238
+type(
+  cexpr
+)
+ident(
+  def cexpr "obc/c/c.ml" 387 16241 16243 "obc/c/c.ml" 392 16429 16486
+)
+"obc/c/c.ml" 387 16241 16249 "obc/c/c.ml" 387 16241 16254
+type(
+  cexpr
+)
+ident(
+  int_ref cexpr "obc/c/c.ml" 386 16211 16233 "obc/c/c.ml" 386 16211 16238
+)
+"obc/c/c.ml" 388 16260 16269 "obc/c/c.ml" 388 16260 16270
+type(
+  string
+)
+ident(
+  def v "obc/c/c.ml" 388 16260 16274 "obc/c/c.ml" 388 16260 16281
+)
+"obc/c/c.ml" 388 16260 16264 "obc/c/c.ml" 388 16260 16270
+type(
+  cexpr
+)
+"obc/c/c.ml" 388 16260 16280 "obc/c/c.ml" 388 16260 16281
+type(
+  string
+)
+ident(
+  int_ref v "obc/c/c.ml" 388 16260 16269 "obc/c/c.ml" 388 16260 16270
+)
+"obc/c/c.ml" 388 16260 16274 "obc/c/c.ml" 388 16260 16281
+type(
+  clhs
+)
+"obc/c/c.ml" 389 16282 16293 "obc/c/c.ml" 389 16282 16294
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 389 16282 16298 "obc/c/c.ml" 389 16282 16323
+)
+"obc/c/c.ml" 389 16282 16286 "obc/c/c.ml" 389 16282 16294
+type(
+  cexpr
+)
+"obc/c/c.ml" 389 16282 16307 "obc/c/c.ml" 389 16282 16320
+type(
+  cexpr -> clhs
+)
+ident(
+  int_ref clhs_of_cexpr "obc/c/c.ml" 386 16211 16219 "obc/c/c.ml" 386 16211 16232
+)
+"obc/c/c.ml" 389 16282 16321 "obc/c/c.ml" 389 16282 16322
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 389 16282 16293 "obc/c/c.ml" 389 16282 16294
+)
+"obc/c/c.ml" 389 16282 16306 "obc/c/c.ml" 389 16282 16323
+call(
+  stack
+)
+type(
+  clhs
+)
+"obc/c/c.ml" 389 16282 16298 "obc/c/c.ml" 389 16282 16323
+type(
+  clhs
+)
+"obc/c/c.ml" 390 16325 16337 "obc/c/c.ml" 390 16325 16338
+type(
+  cexpr
+)
+ident(
+  def e "obc/c/c.ml" 390 16325 16346 "obc/c/c.ml" 390 16325 16375
+)
+"obc/c/c.ml" 390 16325 16339 "obc/c/c.ml" 390 16325 16341
+type(
+  Names.qualname
+)
+ident(
+  def qn "obc/c/c.ml" 390 16325 16346 "obc/c/c.ml" 390 16325 16375
+)
+"obc/c/c.ml" 390 16325 16329 "obc/c/c.ml" 390 16325 16342
+type(
+  cexpr
+)
+"obc/c/c.ml" 390 16325 16355 "obc/c/c.ml" 390 16325 16368
+type(
+  cexpr -> clhs
+)
+ident(
+  int_ref clhs_of_cexpr "obc/c/c.ml" 386 16211 16219 "obc/c/c.ml" 386 16211 16232
+)
+"obc/c/c.ml" 390 16325 16369 "obc/c/c.ml" 390 16325 16370
+type(
+  cexpr
+)
+ident(
+  int_ref e "obc/c/c.ml" 390 16325 16337 "obc/c/c.ml" 390 16325 16338
+)
+"obc/c/c.ml" 390 16325 16355 "obc/c/c.ml" 390 16325 16370
+call(
+  stack
+)
+type(
+  clhs
+)
+"obc/c/c.ml" 390 16325 16372 "obc/c/c.ml" 390 16325 16374
+type(
+  Names.qualname
+)
+ident(
+  int_ref qn "obc/c/c.ml" 390 16325 16339 "obc/c/c.ml" 390 16325 16341
+)
+"obc/c/c.ml" 390 16325 16346 "obc/c/c.ml" 390 16325 16375
+type(
+  clhs
+)
+"obc/c/c.ml" 391 16376 16388 "obc/c/c.ml" 391 16376 16390
+type(
+  cexpr
+)
+ident(
+  def e1 "obc/c/c.ml" 391 16376 16398 "obc/c/c.ml" 391 16376 16428
+)
+"obc/c/c.ml" 391 16376 16391 "obc/c/c.ml" 391 16376 16393
+type(
+  cexpr
+)
+ident(
+  def e2 "obc/c/c.ml" 391 16376 16398 "obc/c/c.ml" 391 16376 16428
+)
+"obc/c/c.ml" 391 16376 16380 "obc/c/c.ml" 391 16376 16394
+type(
+  cexpr
+)
+"obc/c/c.ml" 391 16376 16407 "obc/c/c.ml" 391 16376 16420
+type(
+  cexpr -> clhs
+)
+ident(
+  int_ref clhs_of_cexpr "obc/c/c.ml" 386 16211 16219 "obc/c/c.ml" 386 16211 16232
+)
+"obc/c/c.ml" 391 16376 16421 "obc/c/c.ml" 391 16376 16423
+type(
+  cexpr
+)
+ident(
+  int_ref e1 "obc/c/c.ml" 391 16376 16388 "obc/c/c.ml" 391 16376 16390
+)
+"obc/c/c.ml" 391 16376 16407 "obc/c/c.ml" 391 16376 16423
+call(
+  stack
+)
+type(
+  clhs
+)
+"obc/c/c.ml" 391 16376 16425 "obc/c/c.ml" 391 16376 16427
+type(
+  cexpr
+)
+ident(
+  int_ref e2 "obc/c/c.ml" 391 16376 16391 "obc/c/c.ml" 391 16376 16393
+)
+"obc/c/c.ml" 391 16376 16398 "obc/c/c.ml" 391 16376 16428
+type(
+  clhs
+)
+"obc/c/c.ml" 392 16429 16433 "obc/c/c.ml" 392 16429 16434
+type(
+  cexpr
+)
+"obc/c/c.ml" 392 16429 16438 "obc/c/c.ml" 392 16429 16446
+type(
+  string -> clhs
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"obc/c/c.ml" 392 16429 16446 "obc/c/c.ml" 392 16429 16486
+type(
+  string
+)
+"obc/c/c.ml" 392 16429 16438 "obc/c/c.ml" 392 16429 16486
+call(
+  tail
+)
+type(
+  clhs
+)
+"obc/c/c.ml" 387 16241 16243 "obc/c/c.ml" 392 16429 16486
+type(
+  clhs
+)

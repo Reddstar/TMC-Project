@@ -1,0 +1,1025 @@
+"utilities/minils/interference2dot.ml" 37 2159 2165 "utilities/minils/interference2dot.ml" 37 2159 2169
+type(
+  string ref
+)
+ident(
+  def name "utilities/minils/interference2dot.ml" 39 2180 2182 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 37 2159 2172 "utilities/minils/interference2dot.ml" 37 2159 2175
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utilities/minils/interference2dot.ml" 37 2159 2176 "utilities/minils/interference2dot.ml" 37 2159 2178
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 37 2159 2172 "utilities/minils/interference2dot.ml" 37 2159 2178
+type(
+  string ref
+)
+"utilities/minils/interference2dot.ml" 39 2180 2186 "utilities/minils/interference2dot.ml" 39 2180 2209
+type(
+  int -> int
+)
+ident(
+  def color_to_graphviz_color "utilities/minils/interference2dot.ml" 44 2310 2312 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 39 2180 2210 "utilities/minils/interference2dot.ml" 39 2180 2211
+type(
+  int
+)
+ident(
+  def i "utilities/minils/interference2dot.ml" 41 2253 2257 "utilities/minils/interference2dot.ml" 41 2253 2268
+)
+"utilities/minils/interference2dot.ml" 41 2253 2258 "utilities/minils/interference2dot.ml" 41 2253 2259
+type(
+  int
+)
+ident(
+  int_ref i "utilities/minils/interference2dot.ml" 39 2180 2210 "utilities/minils/interference2dot.ml" 39 2180 2211
+)
+"utilities/minils/interference2dot.ml" 41 2253 2260 "utilities/minils/interference2dot.ml" 41 2253 2261
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"utilities/minils/interference2dot.ml" 41 2253 2262 "utilities/minils/interference2dot.ml" 41 2253 2263
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 41 2253 2258 "utilities/minils/interference2dot.ml" 41 2253 2263
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 41 2253 2264 "utilities/minils/interference2dot.ml" 41 2253 2265
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utilities/minils/interference2dot.ml" 41 2253 2266 "utilities/minils/interference2dot.ml" 41 2253 2267
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 41 2253 2257 "utilities/minils/interference2dot.ml" 41 2253 2268
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 44 2310 2316 "utilities/minils/interference2dot.ml" 44 2310 2341
+type(
+  'a -> 'b list
+)
+ident(
+  def default_vertex_attributes "utilities/minils/interference2dot.ml" 45 2349 2351 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 44 2310 2342 "utilities/minils/interference2dot.ml" 44 2310 2343
+type(
+  'a
+)
+"utilities/minils/interference2dot.ml" 44 2310 2346 "utilities/minils/interference2dot.ml" 44 2310 2348
+type(
+  'b list
+)
+"utilities/minils/interference2dot.ml" 45 2349 2355 "utilities/minils/interference2dot.ml" 45 2349 2378
+type(
+  'c -> 'd list
+)
+ident(
+  def default_edge_attributes "utilities/minils/interference2dot.ml" 46 2386 2388 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 45 2349 2379 "utilities/minils/interference2dot.ml" 45 2349 2380
+type(
+  'c
+)
+"utilities/minils/interference2dot.ml" 45 2349 2383 "utilities/minils/interference2dot.ml" 45 2349 2385
+type(
+  'd list
+)
+"utilities/minils/interference2dot.ml" 46 2386 2392 "utilities/minils/interference2dot.ml" 46 2386 2404
+type(
+  'e -> 'f option
+)
+ident(
+  def get_subgraph "utilities/minils/interference2dot.ml" 48 2415 2417 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 46 2386 2405 "utilities/minils/interference2dot.ml" 46 2386 2406
+type(
+  'e
+)
+"utilities/minils/interference2dot.ml" 46 2386 2409 "utilities/minils/interference2dot.ml" 46 2386 2413
+type(
+  'f option
+)
+"utilities/minils/interference2dot.ml" 48 2415 2421 "utilities/minils/interference2dot.ml" 48 2415 2437
+type(
+  'g -> [> `Label of string ] list
+)
+ident(
+  def graph_attributes "utilities/minils/interference2dot.ml" 51 2462 2464 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 48 2415 2438 "utilities/minils/interference2dot.ml" 48 2415 2439
+type(
+  'g
+)
+"utilities/minils/interference2dot.ml" 49 2442 2454 "utilities/minils/interference2dot.ml" 49 2442 2455
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/minils/interference2dot.ml" 49 2442 2455 "utilities/minils/interference2dot.ml" 49 2442 2459
+type(
+  string ref
+)
+ident(
+  int_ref name "utilities/minils/interference2dot.ml" 37 2159 2165 "utilities/minils/interference2dot.ml" 37 2159 2169
+)
+"utilities/minils/interference2dot.ml" 49 2442 2454 "utilities/minils/interference2dot.ml" 49 2442 2459
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 49 2442 2447 "utilities/minils/interference2dot.ml" 49 2442 2459
+type(
+  [> `Label of string ] as 'h
+)
+"utilities/minils/interference2dot.ml" 49 2442 2446 "utilities/minils/interference2dot.ml" 49 2442 2460
+type(
+  'h list
+)
+"utilities/minils/interference2dot.ml" 51 2462 2468 "utilities/minils/interference2dot.ml" 51 2462 2479
+type(
+  V.t -> string
+)
+ident(
+  def vertex_name "utilities/minils/interference2dot.ml" 61 2788 2790 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 51 2462 2480 "utilities/minils/interference2dot.ml" 51 2462 2481
+type(
+  V.t
+)
+ident(
+  def v "utilities/minils/interference2dot.ml" 52 2484 2488 "utilities/minils/interference2dot.ml" 59 2725 2786
+)
+"utilities/minils/interference2dot.ml" 52 2484 2496 "utilities/minils/interference2dot.ml" 52 2484 2505
+type(
+  Interference_graph.ivar -> string
+)
+ident(
+  def ivar_name "utilities/minils/interference2dot.ml" 52 2484 2488 "utilities/minils/interference2dot.ml" 59 2725 2786
+)
+"utilities/minils/interference2dot.ml" 52 2484 2506 "utilities/minils/interference2dot.ml" 52 2484 2508
+type(
+  Interference_graph.ivar
+)
+ident(
+  def iv "utilities/minils/interference2dot.ml" 53 2511 2517 "utilities/minils/interference2dot.ml" 57 2684 2717
+)
+"utilities/minils/interference2dot.ml" 53 2511 2523 "utilities/minils/interference2dot.ml" 53 2511 2525
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref iv "utilities/minils/interference2dot.ml" 52 2484 2506 "utilities/minils/interference2dot.ml" 52 2484 2508
+)
+"utilities/minils/interference2dot.ml" 54 2531 2546 "utilities/minils/interference2dot.ml" 54 2531 2548
+type(
+  Idents.var_ident
+)
+ident(
+  def id "utilities/minils/interference2dot.ml" 54 2531 2552 "utilities/minils/interference2dot.ml" 54 2531 2566
+)
+"utilities/minils/interference2dot.ml" 54 2531 2541 "utilities/minils/interference2dot.ml" 54 2531 2548
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 54 2531 2552 "utilities/minils/interference2dot.ml" 54 2531 2563
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"utilities/minils/interference2dot.ml" 54 2531 2564 "utilities/minils/interference2dot.ml" 54 2531 2566
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "utilities/minils/interference2dot.ml" 54 2531 2546 "utilities/minils/interference2dot.ml" 54 2531 2548
+)
+"utilities/minils/interference2dot.ml" 54 2531 2552 "utilities/minils/interference2dot.ml" 54 2531 2566
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 55 2567 2584 "utilities/minils/interference2dot.ml" 55 2567 2588
+type(
+  Interference_graph.ivar
+)
+ident(
+  def ivar "utilities/minils/interference2dot.ml" 55 2567 2596 "utilities/minils/interference2dot.ml" 55 2567 2636
+)
+"utilities/minils/interference2dot.ml" 55 2567 2590 "utilities/minils/interference2dot.ml" 55 2567 2591
+type(
+  Names.field_name
+)
+ident(
+  def f "utilities/minils/interference2dot.ml" 55 2567 2596 "utilities/minils/interference2dot.ml" 55 2567 2636
+)
+"utilities/minils/interference2dot.ml" 55 2567 2577 "utilities/minils/interference2dot.ml" 55 2567 2592
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 55 2567 2597 "utilities/minils/interference2dot.ml" 55 2567 2606
+type(
+  Interference_graph.ivar -> string
+)
+ident(
+  int_ref ivar_name "utilities/minils/interference2dot.ml" 52 2484 2496 "utilities/minils/interference2dot.ml" 52 2484 2505
+)
+"utilities/minils/interference2dot.ml" 55 2567 2607 "utilities/minils/interference2dot.ml" 55 2567 2611
+type(
+  Interference_graph.ivar
+)
+ident(
+  int_ref ivar "utilities/minils/interference2dot.ml" 55 2567 2584 "utilities/minils/interference2dot.ml" 55 2567 2588
+)
+"utilities/minils/interference2dot.ml" 55 2567 2596 "utilities/minils/interference2dot.ml" 55 2567 2612
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 55 2567 2612 "utilities/minils/interference2dot.ml" 55 2567 2613
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 55 2567 2613 "utilities/minils/interference2dot.ml" 55 2567 2616
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 55 2567 2616 "utilities/minils/interference2dot.ml" 55 2567 2617
+type(
+  string -> Names.name -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 55 2567 2618 "utilities/minils/interference2dot.ml" 55 2567 2633
+type(
+  Names.field_name -> Names.name
+)
+ident(
+  ext_ref Names.shortname
+)
+"utilities/minils/interference2dot.ml" 55 2567 2634 "utilities/minils/interference2dot.ml" 55 2567 2635
+type(
+  Names.field_name
+)
+ident(
+  int_ref f "utilities/minils/interference2dot.ml" 55 2567 2590 "utilities/minils/interference2dot.ml" 55 2567 2591
+)
+"utilities/minils/interference2dot.ml" 55 2567 2617 "utilities/minils/interference2dot.ml" 55 2567 2636
+call(
+  stack
+)
+type(
+  Names.name
+)
+"utilities/minils/interference2dot.ml" 55 2567 2613 "utilities/minils/interference2dot.ml" 55 2567 2636
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 55 2567 2596 "utilities/minils/interference2dot.ml" 55 2567 2636
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 56 2637 2652 "utilities/minils/interference2dot.ml" 56 2637 2654
+type(
+  Idents.var_ident
+)
+ident(
+  def id "utilities/minils/interference2dot.ml" 56 2637 2658 "utilities/minils/interference2dot.ml" 56 2637 2683
+)
+"utilities/minils/interference2dot.ml" 56 2637 2647 "utilities/minils/interference2dot.ml" 56 2637 2654
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 56 2637 2658 "utilities/minils/interference2dot.ml" 56 2637 2664
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 56 2637 2664 "utilities/minils/interference2dot.ml" 56 2637 2665
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 56 2637 2665 "utilities/minils/interference2dot.ml" 56 2637 2676
+type(
+  Idents.var_ident -> string
+)
+ident(
+  ext_ref Idents.name
+)
+"utilities/minils/interference2dot.ml" 56 2637 2677 "utilities/minils/interference2dot.ml" 56 2637 2679
+type(
+  Idents.var_ident
+)
+ident(
+  int_ref id "utilities/minils/interference2dot.ml" 56 2637 2652 "utilities/minils/interference2dot.ml" 56 2637 2654
+)
+"utilities/minils/interference2dot.ml" 56 2637 2665 "utilities/minils/interference2dot.ml" 56 2637 2679
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 56 2637 2679 "utilities/minils/interference2dot.ml" 56 2637 2680
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 56 2637 2680 "utilities/minils/interference2dot.ml" 56 2637 2683
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 56 2637 2665 "utilities/minils/interference2dot.ml" 56 2637 2683
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 56 2637 2658 "utilities/minils/interference2dot.ml" 56 2637 2683
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 57 2684 2700 "utilities/minils/interference2dot.ml" 57 2684 2701
+type(
+  Clocks.ck
+)
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 57 2684 2694 "utilities/minils/interference2dot.ml" 57 2684 2701
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 57 2684 2712 "utilities/minils/interference2dot.ml" 57 2684 2717
+type(
+  bool
+)
+"utilities/minils/interference2dot.ml" 57 2684 2705 "utilities/minils/interference2dot.ml" 57 2684 2717
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 53 2511 2517 "utilities/minils/interference2dot.ml" 57 2684 2717
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 59 2725 2731 "utilities/minils/interference2dot.ml" 59 2725 2751
+type(
+  string -> string
+)
+ident(
+  ext_ref Misc.sanitize_string
+)
+"utilities/minils/interference2dot.ml" 59 2725 2753 "utilities/minils/interference2dot.ml" 59 2725 2762
+type(
+  Interference_graph.ivar -> string
+)
+ident(
+  int_ref ivar_name "utilities/minils/interference2dot.ml" 52 2484 2496 "utilities/minils/interference2dot.ml" 52 2484 2505
+)
+"utilities/minils/interference2dot.ml" 59 2725 2764 "utilities/minils/interference2dot.ml" 59 2725 2771
+type(
+  Interference_graph.ivar list -> Interference_graph.ivar
+)
+ident(
+  ext_ref List.hd
+)
+"utilities/minils/interference2dot.ml" 59 2725 2772 "utilities/minils/interference2dot.ml" 59 2725 2773
+type(
+  V.label -> Interference_graph.ivar list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/minils/interference2dot.ml" 59 2725 2774 "utilities/minils/interference2dot.ml" 59 2725 2781
+type(
+  V.t -> V.label
+)
+ident(
+  ext_ref V.label
+)
+"utilities/minils/interference2dot.ml" 59 2725 2782 "utilities/minils/interference2dot.ml" 59 2725 2783
+type(
+  V.t
+)
+ident(
+  int_ref v "utilities/minils/interference2dot.ml" 51 2462 2480 "utilities/minils/interference2dot.ml" 51 2462 2481
+)
+"utilities/minils/interference2dot.ml" 59 2725 2773 "utilities/minils/interference2dot.ml" 59 2725 2784
+call(
+  stack
+)
+type(
+  V.label
+)
+"utilities/minils/interference2dot.ml" 59 2725 2772 "utilities/minils/interference2dot.ml" 59 2725 2784
+type(
+  Interference_graph.ivar list
+)
+"utilities/minils/interference2dot.ml" 59 2725 2763 "utilities/minils/interference2dot.ml" 59 2725 2785
+call(
+  stack
+)
+type(
+  Interference_graph.ivar
+)
+"utilities/minils/interference2dot.ml" 59 2725 2752 "utilities/minils/interference2dot.ml" 59 2725 2786
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 59 2725 2731 "utilities/minils/interference2dot.ml" 59 2725 2786
+call(
+  tail
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 52 2484 2488 "utilities/minils/interference2dot.ml" 59 2725 2786
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 61 2788 2794 "utilities/minils/interference2dot.ml" 61 2788 2811
+type(
+  V.t -> [> `Color of int | `Label of string ] list
+)
+ident(
+  def vertex_attributes "utilities/minils/interference2dot.ml" 66 3001 3003 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 61 2788 2812 "utilities/minils/interference2dot.ml" 61 2788 2813
+type(
+  V.t
+)
+ident(
+  def v "utilities/minils/interference2dot.ml" 62 2816 2820 "utilities/minils/interference2dot.ml" 64 2936 2999
+)
+"utilities/minils/interference2dot.ml" 62 2816 2820 "utilities/minils/interference2dot.ml" 62 2816 2834
+type(
+  Format.formatter ->
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Interference_graph.ivar list -> unit) ->
+  Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"utilities/minils/interference2dot.ml" 62 2816 2835 "utilities/minils/interference2dot.ml" 62 2816 2855
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.str_formatter
+)
+"utilities/minils/interference2dot.ml" 62 2816 2856 "utilities/minils/interference2dot.ml" 62 2816 2860
+type(
+  ((Format.formatter -> Interference_graph.ivar list -> unit) ->
+   Interference_graph.ivar list -> unit, Format.formatter, unit)
+  format
+)
+"utilities/minils/interference2dot.ml" 62 2816 2861 "utilities/minils/interference2dot.ml" 62 2816 2876
+type(
+  Format.formatter -> Interference_graph.ivar list -> unit
+)
+ident(
+  ext_ref Interference_graph.print_ivar_list
+)
+"utilities/minils/interference2dot.ml" 62 2816 2877 "utilities/minils/interference2dot.ml" 62 2816 2878
+type(
+  V.label -> Interference_graph.ivar list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utilities/minils/interference2dot.ml" 62 2816 2879 "utilities/minils/interference2dot.ml" 62 2816 2886
+type(
+  V.t -> V.label
+)
+ident(
+  ext_ref V.label
+)
+"utilities/minils/interference2dot.ml" 62 2816 2887 "utilities/minils/interference2dot.ml" 62 2816 2888
+type(
+  V.t
+)
+ident(
+  int_ref v "utilities/minils/interference2dot.ml" 61 2788 2812 "utilities/minils/interference2dot.ml" 61 2788 2813
+)
+"utilities/minils/interference2dot.ml" 62 2816 2878 "utilities/minils/interference2dot.ml" 62 2816 2889
+call(
+  stack
+)
+type(
+  V.label
+)
+"utilities/minils/interference2dot.ml" 62 2816 2877 "utilities/minils/interference2dot.ml" 62 2816 2889
+type(
+  Interference_graph.ivar list
+)
+"utilities/minils/interference2dot.ml" 62 2816 2820 "utilities/minils/interference2dot.ml" 62 2816 2889
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 63 2891 2899 "utilities/minils/interference2dot.ml" 63 2891 2900
+type(
+  string
+)
+ident(
+  def s "utilities/minils/interference2dot.ml" 64 2936 2942 "utilities/minils/interference2dot.ml" 64 2936 2999
+)
+"utilities/minils/interference2dot.ml" 63 2891 2903 "utilities/minils/interference2dot.ml" 63 2891 2929
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"utilities/minils/interference2dot.ml" 63 2891 2930 "utilities/minils/interference2dot.ml" 63 2891 2932
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 63 2891 2903 "utilities/minils/interference2dot.ml" 63 2891 2932
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 64 2936 2950 "utilities/minils/interference2dot.ml" 64 2936 2951
+type(
+  string
+)
+ident(
+  int_ref s "utilities/minils/interference2dot.ml" 63 2891 2899 "utilities/minils/interference2dot.ml" 63 2891 2900
+)
+"utilities/minils/interference2dot.ml" 64 2936 2943 "utilities/minils/interference2dot.ml" 64 2936 2951
+type(
+  [> `Color of int | `Label of string ] as 'i
+)
+"utilities/minils/interference2dot.ml" 64 2936 2961 "utilities/minils/interference2dot.ml" 64 2936 2984
+type(
+  int -> int
+)
+ident(
+  int_ref color_to_graphviz_color "utilities/minils/interference2dot.ml" 39 2180 2186 "utilities/minils/interference2dot.ml" 39 2180 2209
+)
+"utilities/minils/interference2dot.ml" 64 2936 2986 "utilities/minils/interference2dot.ml" 64 2936 2994
+type(
+  Mark.vertex -> int
+)
+ident(
+  ext_ref Mark.get
+)
+"utilities/minils/interference2dot.ml" 64 2936 2995 "utilities/minils/interference2dot.ml" 64 2936 2996
+type(
+  V.t
+)
+ident(
+  int_ref v "utilities/minils/interference2dot.ml" 61 2788 2812 "utilities/minils/interference2dot.ml" 61 2788 2813
+)
+"utilities/minils/interference2dot.ml" 64 2936 2985 "utilities/minils/interference2dot.ml" 64 2936 2997
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 64 2936 2960 "utilities/minils/interference2dot.ml" 64 2936 2998
+call(
+  stack
+)
+type(
+  int
+)
+"utilities/minils/interference2dot.ml" 64 2936 2953 "utilities/minils/interference2dot.ml" 64 2936 2998
+type(
+  'i
+)
+"utilities/minils/interference2dot.ml" 64 2936 2942 "utilities/minils/interference2dot.ml" 64 2936 2999
+type(
+  'i list
+)
+"utilities/minils/interference2dot.ml" 63 2891 2895 "utilities/minils/interference2dot.ml" 64 2936 2999
+type(
+  'i list
+)
+"utilities/minils/interference2dot.ml" 62 2816 2820 "utilities/minils/interference2dot.ml" 64 2936 2999
+type(
+  'i list
+)
+"utilities/minils/interference2dot.ml" 66 3001 3007 "utilities/minils/interference2dot.ml" 66 3001 3022
+type(
+  E.t ->
+  [> `Dir of [> `None ] | `Style of [> `Dashed | `Dotted | `Solid ] ] list
+)
+ident(
+  def edge_attributes "utilities/minils/interference2dot.ml" 73 3175 3207 "utilities/minils/interference2dot.ml" 74 3208 3211
+)
+"utilities/minils/interference2dot.ml" 66 3001 3023 "utilities/minils/interference2dot.ml" 66 3001 3024
+type(
+  E.t
+)
+ident(
+  def e "utilities/minils/interference2dot.ml" 67 3027 3031 "utilities/minils/interference2dot.ml" 73 3175 3207
+)
+"utilities/minils/interference2dot.ml" 67 3027 3035 "utilities/minils/interference2dot.ml" 67 3027 3040
+type(
+  [> `Dashed | `Dotted | `Solid ]
+)
+ident(
+  def style "utilities/minils/interference2dot.ml" 73 3175 3181 "utilities/minils/interference2dot.ml" 73 3175 3207
+)
+"utilities/minils/interference2dot.ml" 68 3043 3055 "utilities/minils/interference2dot.ml" 68 3043 3062
+type(
+  E.t -> E.label
+)
+ident(
+  ext_ref E.label
+)
+"utilities/minils/interference2dot.ml" 68 3043 3063 "utilities/minils/interference2dot.ml" 68 3043 3064
+type(
+  E.t
+)
+ident(
+  int_ref e "utilities/minils/interference2dot.ml" 66 3001 3023 "utilities/minils/interference2dot.ml" 66 3001 3024
+)
+"utilities/minils/interference2dot.ml" 68 3043 3055 "utilities/minils/interference2dot.ml" 68 3043 3064
+call(
+  stack
+)
+type(
+  E.label
+)
+"utilities/minils/interference2dot.ml" 69 3070 3080 "utilities/minils/interference2dot.ml" 69 3070 3093
+type(
+  E.label
+)
+"utilities/minils/interference2dot.ml" 69 3070 3097 "utilities/minils/interference2dot.ml" 69 3070 3103
+type(
+  [> `Dashed | `Dotted | `Solid ] as 'j
+)
+"utilities/minils/interference2dot.ml" 70 3104 3114 "utilities/minils/interference2dot.ml" 70 3104 3123
+type(
+  E.label
+)
+"utilities/minils/interference2dot.ml" 70 3104 3127 "utilities/minils/interference2dot.ml" 70 3104 3134
+type(
+  'j
+)
+"utilities/minils/interference2dot.ml" 71 3135 3145 "utilities/minils/interference2dot.ml" 71 3135 3156
+type(
+  E.label
+)
+"utilities/minils/interference2dot.ml" 71 3135 3160 "utilities/minils/interference2dot.ml" 71 3135 3167
+type(
+  'j
+)
+"utilities/minils/interference2dot.ml" 68 3043 3049 "utilities/minils/interference2dot.ml" 71 3135 3167
+type(
+  'j
+)
+"utilities/minils/interference2dot.ml" 73 3175 3189 "utilities/minils/interference2dot.ml" 73 3175 3194
+type(
+  [> `Dashed | `Dotted | `Solid ] as 'k
+)
+ident(
+  int_ref style "utilities/minils/interference2dot.ml" 67 3027 3035 "utilities/minils/interference2dot.ml" 67 3027 3040
+)
+"utilities/minils/interference2dot.ml" 73 3175 3182 "utilities/minils/interference2dot.ml" 73 3175 3194
+type(
+  [> `Dir of [> `None ] | `Style of 'k ] as 'l
+)
+"utilities/minils/interference2dot.ml" 73 3175 3201 "utilities/minils/interference2dot.ml" 73 3175 3206
+type(
+  [> `None ] as 'm
+)
+"utilities/minils/interference2dot.ml" 73 3175 3196 "utilities/minils/interference2dot.ml" 73 3175 3206
+type(
+  'l
+)
+"utilities/minils/interference2dot.ml" 73 3175 3181 "utilities/minils/interference2dot.ml" 73 3175 3207
+type(
+  'l list
+)
+"utilities/minils/interference2dot.ml" 67 3027 3031 "utilities/minils/interference2dot.ml" 73 3175 3207
+type(
+  'l list
+)
+"utilities/minils/interference2dot.ml" 76 3213 3231 "utilities/minils/interference2dot.ml" 76 3213 3249
+call(
+  stack
+)
+"utilities/minils/interference2dot.ml" 78 3251 3255 "utilities/minils/interference2dot.ml" 78 3251 3266
+type(
+  string -> string -> Interference_graph.interference_graph -> unit
+)
+ident(
+  def print_graph "utilities/minils/interference2dot.ml" 84 3511 3527 "utilities/minils/interference2dot.ml" 1 0 -1
+)
+"utilities/minils/interference2dot.ml" 78 3251 3267 "utilities/minils/interference2dot.ml" 78 3251 3272
+type(
+  string
+)
+ident(
+  def label "utilities/minils/interference2dot.ml" 78 3251 3273 "utilities/minils/interference2dot.ml" 84 3511 3527
+)
+"utilities/minils/interference2dot.ml" 78 3251 3273 "utilities/minils/interference2dot.ml" 78 3251 3281
+type(
+  string
+)
+ident(
+  def filename "utilities/minils/interference2dot.ml" 78 3251 3282 "utilities/minils/interference2dot.ml" 84 3511 3527
+)
+"utilities/minils/interference2dot.ml" 78 3251 3282 "utilities/minils/interference2dot.ml" 78 3251 3283
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  def g "utilities/minils/interference2dot.ml" 79 3286 3288 "utilities/minils/interference2dot.ml" 84 3511 3527
+)
+"utilities/minils/interference2dot.ml" 79 3286 3288 "utilities/minils/interference2dot.ml" 79 3286 3313
+type(
+  Format.formatter -> Types.ty -> unit
+)
+ident(
+  ext_ref Global_printer.print_type
+)
+"utilities/minils/interference2dot.ml" 79 3286 3314 "utilities/minils/interference2dot.ml" 79 3286 3334
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.str_formatter
+)
+"utilities/minils/interference2dot.ml" 79 3286 3335 "utilities/minils/interference2dot.ml" 79 3286 3336
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  int_ref g "utilities/minils/interference2dot.ml" 78 3251 3282 "utilities/minils/interference2dot.ml" 78 3251 3283
+)
+"utilities/minils/interference2dot.ml" 79 3286 3335 "utilities/minils/interference2dot.ml" 79 3286 3343
+type(
+  Types.ty
+)
+"utilities/minils/interference2dot.ml" 79 3286 3288 "utilities/minils/interference2dot.ml" 79 3286 3343
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 80 3345 3351 "utilities/minils/interference2dot.ml" 80 3345 3357
+type(
+  string
+)
+ident(
+  def ty_str "utilities/minils/interference2dot.ml" 81 3393 3395 "utilities/minils/interference2dot.ml" 84 3511 3527
+)
+"utilities/minils/interference2dot.ml" 80 3345 3360 "utilities/minils/interference2dot.ml" 80 3345 3386
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"utilities/minils/interference2dot.ml" 80 3345 3387 "utilities/minils/interference2dot.ml" 80 3345 3389
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 80 3345 3360 "utilities/minils/interference2dot.ml" 80 3345 3389
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 81 3393 3395 "utilities/minils/interference2dot.ml" 81 3393 3404
+type(
+  string ref
+)
+ident(
+  int_ref DotG.name "utilities/minils/interference2dot.ml" 37 2159 2165 "utilities/minils/interference2dot.ml" 37 2159 2169
+)
+"utilities/minils/interference2dot.ml" 81 3393 3405 "utilities/minils/interference2dot.ml" 81 3393 3407
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utilities/minils/interference2dot.ml" 81 3393 3408 "utilities/minils/interference2dot.ml" 81 3393 3413
+type(
+  string
+)
+ident(
+  int_ref label "utilities/minils/interference2dot.ml" 78 3251 3267 "utilities/minils/interference2dot.ml" 78 3251 3272
+)
+"utilities/minils/interference2dot.ml" 81 3393 3413 "utilities/minils/interference2dot.ml" 81 3393 3414
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 81 3393 3414 "utilities/minils/interference2dot.ml" 81 3393 3419
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 81 3393 3419 "utilities/minils/interference2dot.ml" 81 3393 3420
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 81 3393 3420 "utilities/minils/interference2dot.ml" 81 3393 3426
+type(
+  string
+)
+ident(
+  int_ref ty_str "utilities/minils/interference2dot.ml" 80 3345 3351 "utilities/minils/interference2dot.ml" 80 3345 3357
+)
+"utilities/minils/interference2dot.ml" 81 3393 3414 "utilities/minils/interference2dot.ml" 81 3393 3426
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 81 3393 3408 "utilities/minils/interference2dot.ml" 81 3393 3426
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 81 3393 3395 "utilities/minils/interference2dot.ml" 81 3393 3426
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 82 3428 3434 "utilities/minils/interference2dot.ml" 82 3428 3436
+type(
+  out_channel
+)
+ident(
+  def oc "utilities/minils/interference2dot.ml" 83 3471 3475 "utilities/minils/interference2dot.ml" 84 3511 3527
+)
+"utilities/minils/interference2dot.ml" 82 3428 3439 "utilities/minils/interference2dot.ml" 82 3428 3447
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"utilities/minils/interference2dot.ml" 82 3428 3449 "utilities/minils/interference2dot.ml" 82 3428 3457
+type(
+  string
+)
+ident(
+  int_ref filename "utilities/minils/interference2dot.ml" 78 3251 3273 "utilities/minils/interference2dot.ml" 78 3251 3281
+)
+"utilities/minils/interference2dot.ml" 82 3428 3458 "utilities/minils/interference2dot.ml" 82 3428 3459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utilities/minils/interference2dot.ml" 82 3428 3460 "utilities/minils/interference2dot.ml" 82 3428 3466
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 82 3428 3448 "utilities/minils/interference2dot.ml" 82 3428 3467
+call(
+  stack
+)
+type(
+  string
+)
+"utilities/minils/interference2dot.ml" 82 3428 3439 "utilities/minils/interference2dot.ml" 82 3428 3467
+call(
+  stack
+)
+type(
+  out_channel
+)
+"utilities/minils/interference2dot.ml" 83 3471 3475 "utilities/minils/interference2dot.ml" 83 3471 3496
+type(
+  out_channel -> DotG.t -> unit
+)
+ident(
+  ext_ref DotPrint.output_graph
+)
+"utilities/minils/interference2dot.ml" 83 3471 3497 "utilities/minils/interference2dot.ml" 83 3471 3499
+type(
+  out_channel
+)
+ident(
+  int_ref oc "utilities/minils/interference2dot.ml" 82 3428 3434 "utilities/minils/interference2dot.ml" 82 3428 3436
+)
+"utilities/minils/interference2dot.ml" 83 3471 3500 "utilities/minils/interference2dot.ml" 83 3471 3501
+type(
+  Interference_graph.interference_graph
+)
+ident(
+  int_ref g "utilities/minils/interference2dot.ml" 78 3251 3282 "utilities/minils/interference2dot.ml" 78 3251 3283
+)
+"utilities/minils/interference2dot.ml" 83 3471 3500 "utilities/minils/interference2dot.ml" 83 3471 3509
+type(
+  Interference_graph.G.t
+)
+"utilities/minils/interference2dot.ml" 83 3471 3475 "utilities/minils/interference2dot.ml" 83 3471 3509
+call(
+  stack
+)
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 84 3511 3515 "utilities/minils/interference2dot.ml" 84 3511 3524
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"utilities/minils/interference2dot.ml" 84 3511 3525 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  out_channel
+)
+ident(
+  int_ref oc "utilities/minils/interference2dot.ml" 82 3428 3434 "utilities/minils/interference2dot.ml" 82 3428 3436
+)
+"utilities/minils/interference2dot.ml" 84 3511 3515 "utilities/minils/interference2dot.ml" 84 3511 3527
+call(
+  tail
+)
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 83 3471 3475 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 82 3428 3430 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 81 3393 3395 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 80 3345 3347 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  unit
+)
+"utilities/minils/interference2dot.ml" 79 3286 3288 "utilities/minils/interference2dot.ml" 84 3511 3527
+type(
+  unit
+)

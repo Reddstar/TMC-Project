@@ -9,7 +9,7 @@ let
 	    
 	    state Occupied do
 	    	has_presence = true;
-	    unless not presence then Empty
+	    unless presence then Empty
 
     end 
 tel
@@ -20,11 +20,25 @@ let
 
 		state Off do
 			is_on_l1 = false;
-		unless (turn_on_l1 & c_l1) or c_l2 then On
+		unless (turn_on_l1 & c_l1) then On
 
 		state On do
 			is_on_l1 = true;
 		unless (turn_on_l1 & c_l1) or c_l2 then Off
+	end
+tel
+
+node room_lamp(turn_on_l, c_l1, c_l2: bool) returns (is_on_l: bool)
+let
+	automaton
+
+		state Off do
+			is_on_l = false;
+		unless (turn_on_l & c_l1) then On
+
+		state On do
+			is_on_l = true;
+		unless (turn_on_l & c_l1) or c_l2 then Off
 	end
 tel
 
@@ -34,25 +48,11 @@ let
 
 		state On do
 			is_on_rl = true;
-		unless not turn_on_rl then Off
+		unless turn_on_rl then Off
 
 		state Off do
 			is_on_rl = false;
 		unless turn_on_rl then On
-	end
-tel
-
-node room_lamp(turn_on_l, c_l: bool) returns (is_on_l: bool)
-let
-	automaton
-
-		state On do
-			is_on_l = true;
-		unless (not turn_on_l & not c_l) or not c_l then Off
-
-		state Off do
-			is_on_l = false;
-		unless (turn_on_l & c_l) or c_l then On
 	end
 tel
 
@@ -62,14 +62,14 @@ let
 
 		state Off do
 			working_state_rac = 0;
-		unless turn_on_rac & c_rac then On | turn_on_rac & not c_rac then Wait
+		unless turn_on_rac & c_rac then On | turn_on_rac & c_rac then Wait
 
 		state On do
-			working_state_rac = 1;
-		unless not turn_on_rac then Off | not c_rac then Wait
+			working_state_rac = 2;
+		unless turn_on_rac then Off | c_rac then Wait
 
 		state Wait do
-			working_state_rac = 2;
+			working_state_rac = 1;
 		unless c_rac then On
 	end
 tel
@@ -83,11 +83,11 @@ let
 		unless turn_on_lac & c_lac then On | turn_on_lac & not c_lac then Wait
 
 		state On do
-			working_state_lac = 1;
-		unless not turn_on_lac then Off | not c_lac then Wait
+			working_state_lac = 2;
+		unless turn_on_lac then Off | not c_lac then Wait
 
 		state Wait do
-			working_state_lac = 2;
+			working_state_lac = 1;
 		unless c_lac then On
 	end
 tel
@@ -95,42 +95,39 @@ tel
 node tv(turn_on_tv: bool) returns (is_tv_on: bool)
 let
 	automaton
-
-		state On do
-			is_tv_on = true;
-		unless not turn_on_tv then Off
-
 		state Off do
 			is_tv_on = false;
 		unless turn_on_tv then On
+
+		state On do
+			is_tv_on = true;
+		unless turn_on_tv then Off
 	end
 tel
 
 node washing_machine(turn_on_wm: bool) returns (is_working_wm: bool)
 let
 	automaton
-
-		state Washing do
-			is_working_wm = true;
-		unless not turn_on_wm then Off
-
 		state Off do
 			is_working_wm = false;
 		unless turn_on_wm then Washing
+
+		state Washing do
+			is_working_wm = true;
+		unless turn_on_wm then Off
 	end
 tel
 
 node window(do_open: bool) returns (is_w_opened: bool)
 let
 	automaton
-
-		state Opened do
-			is_w_opened = true;
-		unless not do_open then Closed
-
 		state Closed do
 			is_w_opened = false;
 		unless do_open then Opened
+
+		state Opened do
+			is_w_opened = true;
+		unless do_open then Closed
 	end
 tel
 
@@ -140,26 +137,26 @@ node supervisor(presence, turn_on_l1, turn_on_l2, turn_on_rl, turn_on_l, turn_on
 			working_state_rac, working_state_lac: int;)
 
     contract
-    	var rule1 (*, rule2, rule3, rule5, rule6 *): bool;
+    	var rule1, rule2, rule3, rule4, rule5, rule6: bool;
 
     let
     	rule1 = not (is_on_l1 & is_on_l2);
-    	(* rule2 = not (working_state_rac + working_state_lac > 1);
+    	rule2 = not (working_state_rac + working_state_lac > 1);
     	rule3 = not (is_on_rl & is_on_l);
-    	(* rule4 = not (is_working_wm & (working_state_lac + working_state_rac > 0)) *)
+    	rule4 = not (is_working_wm & (working_state_lac + working_state_rac > 2));
     	rule5 = not (is_w_opened & (working_state_lac + working_state_rac > 0));
-    	rule6 = not ((has_presence & (not is_tv_on)) & (not is_on_l1 & not is_on_l2));*)
+    	rule6 = not ((has_presence & (not is_tv_on)) & (not is_on_l1 & not is_on_l2));
     tel
 
-    enforce (rule1 (* & rule2 & rule3 & rule5 & rule6 *))
-		 with (c_l1, c_l2, c_l3, c_l4, c_l, c_rac, c_lac: bool)
+    enforce (rule1 & rule2 & rule3 & rule5 & rule6)
+		 with (c_l1, c_l2, c_l3, c_l4,c_l5, c_l, c_rac, c_lac: bool)
 
 	let
 		has_presence = inlined living_room_presence(presence);
 		is_on_l1 = inlined living_room_lamp_1(turn_on_l1,c_l1, c_l2);
 		is_on_l2 = inlined living_room_lamp_1(turn_on_l2,c_l3, c_l4);
 		is_on_rl = inlined room_reading_lamp(turn_on_rl);
-		is_on_l = inlined room_lamp(turn_on_l, c_l);
+		is_on_l = inlined room_lamp(turn_on_l, c_l, c_l5);
 		is_tv_on = inlined tv(turn_on_tv);
 		is_working_wm = inlined washing_machine(turn_on_wm);
 		is_w_opened = inlined window(do_open);

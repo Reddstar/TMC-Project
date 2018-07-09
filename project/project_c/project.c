@@ -1,5 +1,5 @@
-/* --- Generated the 4/7/2018 at 11:9 --- */
-/* --- heptagon compiler, version 1.03.00 (compiled thu. may. 3 2:35:29 CET 2018) --- */
+/* --- Generated the 8/7/2018 at 22:17 --- */
+/* --- heptagon compiler, version 1.03.00 (compiled mon. jun. 11 20:42:30 CET 2018) --- */
 /* --- Command line: /usr/local/bin/heptc -target c -target z3z -s supervisor project.ept --- */
 
 #include <stdio.h>
@@ -23,7 +23,6 @@ void Project__living_room_presence_step(int presence,
   int ns_St_Empty_1;
   int has_presence_St_Empty;
   int ck_1_1;
-  int v;
   int r_St_Occupied;
   int s_St_Occupied_1;
   int r_St_Empty;
@@ -43,14 +42,13 @@ void Project__living_room_presence_step(int presence,
     r = r_St_Empty;
     s_1 = s_St_Empty_1;
   } else {
-    v = !(presence);
-    if (v) {
+    if (presence) {
       r_St_Occupied = true;
     } else {
       r_St_Occupied = self->pnr;
     };
     r = r_St_Occupied;
-    if (v) {
+    if (presence) {
       s_St_Occupied_1 = true;
     } else {
       s_St_Occupied_1 = false;
@@ -93,7 +91,6 @@ void Project__living_room_lamp_1_step(int turn_on_l1, int c_l1, int c_l2,
   int ns_St_1_Off_1;
   int is_on_l1_St_1_Off;
   int ck_2_1;
-  int v_3;
   int v_2;
   int v_1;
   int v;
@@ -107,8 +104,7 @@ void Project__living_room_lamp_1_step(int turn_on_l1, int c_l1, int c_l2,
   int nr;
   if (self->ck_1) {
     v_2 = (turn_on_l1&&c_l1);
-    v_3 = (v_2||c_l2);
-    if (v_3) {
+    if (v_2) {
       r_St_1_Off = true;
       s_St_1_Off_1 = false;
     } else {
@@ -153,6 +149,80 @@ void Project__living_room_lamp_1_step(int turn_on_l1, int c_l1, int c_l2,
   self->ck_1 = ns_1;;
 }
 
+void Project__room_lamp_reset(Project__room_lamp_mem* self) {
+  self->pnr = false;
+  self->ck_1 = true;
+}
+
+void Project__room_lamp_step(int turn_on_l, int c_l1, int c_l2,
+                             Project__room_lamp_out* _out,
+                             Project__room_lamp_mem* self) {
+  
+  int nr_St_2_On;
+  int ns_St_2_On_1;
+  int is_on_l_St_2_On;
+  int nr_St_2_Off;
+  int ns_St_2_Off_1;
+  int is_on_l_St_2_Off;
+  int ck_3_1;
+  int v_4;
+  int v_3;
+  int v;
+  int r_St_2_On;
+  int s_St_2_On_1;
+  int r_St_2_Off;
+  int s_St_2_Off_1;
+  int s_1;
+  int ns_1;
+  int r;
+  int nr;
+  if (self->ck_1) {
+    v_4 = (turn_on_l&&c_l1);
+    if (v_4) {
+      r_St_2_Off = true;
+      s_St_2_Off_1 = false;
+    } else {
+      r_St_2_Off = self->pnr;
+      s_St_2_Off_1 = true;
+    };
+    r = r_St_2_Off;
+    s_1 = s_St_2_Off_1;
+  } else {
+    v = (turn_on_l&&c_l1);
+    v_3 = (v||c_l2);
+    if (v_3) {
+      r_St_2_On = true;
+    } else {
+      r_St_2_On = self->pnr;
+    };
+    r = r_St_2_On;
+    if (v_3) {
+      s_St_2_On_1 = true;
+    } else {
+      s_St_2_On_1 = false;
+    };
+    s_1 = s_St_2_On_1;
+  };
+  ck_3_1 = s_1;
+  if (ck_3_1) {
+    is_on_l_St_2_Off = false;
+    nr_St_2_Off = false;
+    ns_St_2_Off_1 = true;
+    _out->is_on_l = is_on_l_St_2_Off;
+    nr = nr_St_2_Off;
+    ns_1 = ns_St_2_Off_1;
+  } else {
+    is_on_l_St_2_On = true;
+    _out->is_on_l = is_on_l_St_2_On;
+    nr_St_2_On = false;
+    nr = nr_St_2_On;
+    ns_St_2_On_1 = false;
+    ns_1 = ns_St_2_On_1;
+  };
+  self->pnr = nr;
+  self->ck_1 = ns_1;;
+}
+
 void Project__room_reading_lamp_reset(Project__room_reading_lamp_mem* self) {
   self->pnr = false;
   self->ck_1 = false;
@@ -162,90 +232,13 @@ void Project__room_reading_lamp_step(int turn_on_rl,
                                      Project__room_reading_lamp_out* _out,
                                      Project__room_reading_lamp_mem* self) {
   
-  int nr_St_2_Off;
-  int ns_St_2_Off_1;
-  int is_on_rl_St_2_Off;
-  int nr_St_2_On;
-  int ns_St_2_On_1;
-  int is_on_rl_St_2_On;
-  int ck_3_1;
-  int v;
-  int r_St_2_Off;
-  int s_St_2_Off_1;
-  int r_St_2_On;
-  int s_St_2_On_1;
-  int s_1;
-  int ns_1;
-  int r;
-  int nr;
-  if (self->ck_1) {
-    if (turn_on_rl) {
-      r_St_2_Off = true;
-    } else {
-      r_St_2_Off = self->pnr;
-    };
-    r = r_St_2_Off;
-    if (turn_on_rl) {
-      s_St_2_Off_1 = false;
-    } else {
-      s_St_2_Off_1 = true;
-    };
-    s_1 = s_St_2_Off_1;
-  } else {
-    v = !(turn_on_rl);
-    if (v) {
-      r_St_2_On = true;
-      s_St_2_On_1 = true;
-    } else {
-      r_St_2_On = self->pnr;
-      s_St_2_On_1 = false;
-    };
-    r = r_St_2_On;
-    s_1 = s_St_2_On_1;
-  };
-  ck_3_1 = s_1;
-  if (ck_3_1) {
-    is_on_rl_St_2_Off = false;
-    _out->is_on_rl = is_on_rl_St_2_Off;
-    nr_St_2_Off = false;
-    nr = nr_St_2_Off;
-    ns_St_2_Off_1 = true;
-    ns_1 = ns_St_2_Off_1;
-  } else {
-    is_on_rl_St_2_On = true;
-    nr_St_2_On = false;
-    ns_St_2_On_1 = false;
-    _out->is_on_rl = is_on_rl_St_2_On;
-    nr = nr_St_2_On;
-    ns_1 = ns_St_2_On_1;
-  };
-  self->pnr = nr;
-  self->ck_1 = ns_1;;
-}
-
-void Project__room_lamp_reset(Project__room_lamp_mem* self) {
-  self->pnr = false;
-  self->ck_1 = false;
-}
-
-void Project__room_lamp_step(int turn_on_l, int c_l,
-                             Project__room_lamp_out* _out,
-                             Project__room_lamp_mem* self) {
-  
   int nr_St_3_Off;
   int ns_St_3_Off_1;
-  int is_on_l_St_3_Off;
+  int is_on_rl_St_3_Off;
   int nr_St_3_On;
   int ns_St_3_On_1;
-  int is_on_l_St_3_On;
+  int is_on_rl_St_3_On;
   int ck_4_1;
-  int v_9;
-  int v_8;
-  int v_7;
-  int v_6;
-  int v_5;
-  int v_4;
-  int v;
   int r_St_3_Off;
   int s_St_3_Off_1;
   int r_St_3_On;
@@ -255,27 +248,20 @@ void Project__room_lamp_step(int turn_on_l, int c_l,
   int r;
   int nr;
   if (self->ck_1) {
-    v = (turn_on_l&&c_l);
-    v_4 = (v||c_l);
-    if (v_4) {
+    if (turn_on_rl) {
       r_St_3_Off = true;
     } else {
       r_St_3_Off = self->pnr;
     };
     r = r_St_3_Off;
-    if (v_4) {
+    if (turn_on_rl) {
       s_St_3_Off_1 = false;
     } else {
       s_St_3_Off_1 = true;
     };
     s_1 = s_St_3_Off_1;
   } else {
-    v_8 = !(c_l);
-    v_6 = !(c_l);
-    v_5 = !(turn_on_l);
-    v_7 = (v_5&&v_6);
-    v_9 = (v_7||v_8);
-    if (v_9) {
+    if (turn_on_rl) {
       r_St_3_On = true;
       s_St_3_On_1 = true;
     } else {
@@ -287,17 +273,17 @@ void Project__room_lamp_step(int turn_on_l, int c_l,
   };
   ck_4_1 = s_1;
   if (ck_4_1) {
-    is_on_l_St_3_Off = false;
-    _out->is_on_l = is_on_l_St_3_Off;
+    is_on_rl_St_3_Off = false;
+    _out->is_on_rl = is_on_rl_St_3_Off;
     nr_St_3_Off = false;
     nr = nr_St_3_Off;
     ns_St_3_Off_1 = true;
     ns_1 = ns_St_3_Off_1;
   } else {
-    is_on_l_St_3_On = true;
+    is_on_rl_St_3_On = true;
     nr_St_3_On = false;
     ns_St_3_On_1 = false;
-    _out->is_on_l = is_on_l_St_3_On;
+    _out->is_on_rl = is_on_rl_St_3_On;
     nr = nr_St_3_On;
     ns_1 = ns_St_3_On_1;
   };
@@ -307,22 +293,22 @@ void Project__room_lamp_step(int turn_on_l, int c_l,
 
 void Project__room_air_conditioner_reset(Project__room_air_conditioner_mem* self) {
   self->pnr = false;
-  self->v_72 = true;
-  self->v_73 = true;
+  self->v_67 = true;
+  self->v_68 = true;
 }
 
 void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
                                         Project__room_air_conditioner_out* _out,
                                         Project__room_air_conditioner_mem* self) {
   
-  int v_71;
-  int v_70;
-  int v_69;
-  int v_68;
-  int v_67;
   int v_66;
   int v_65;
   int v_64;
+  int v_63;
+  int v_62;
+  int v_61;
+  int v_60;
+  int v_59;
   int ns_St_4_Wait_2_0;
   int ns_St_4_Wait_2_1;
   int ns_St_4_On_2_0;
@@ -345,27 +331,24 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
   int working_state_rac_St_4_Off;
   int ck_5_2;
   int ck_5_1;
-  int v_16_2_0;
-  int v_16_2_1;
-  int v_17;
-  int v_16_2;
-  int v_16_1;
-  int v_15;
-  int v_14;
-  int v_13;
-  int v_11_2_0;
-  int v_11_2_1;
-  int v_12;
-  int v_11_2;
-  int v_11_1;
-  int v_10;
-  int v;
-  int v_79;
-  int v_78;
-  int v_77;
-  int v_76;
-  int v_75;
+  int v_8_2_0;
+  int v_8_2_1;
+  int v_9;
+  int v_8_2;
+  int v_8_1;
+  int v_7;
+  int v_6;
+  int v_2_0;
+  int v_2_1;
+  int v_5;
+  int v_2;
+  int v_1;
   int v_74;
+  int v_73;
+  int v_72;
+  int v_71;
+  int v_70;
+  int v_69;
   int s_St_4_Wait_2_0;
   int s_St_4_Wait_2_1;
   int s_St_4_On_2_0;
@@ -395,39 +378,38 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
   int ns_1;
   int r;
   int nr;
-  ck_1 = self->v_72;
-  ck_2 = self->v_73;
+  ck_1 = self->v_67;
+  ck_2 = self->v_68;
   if (ck_1) {
     ck_2_1 = ck_2;
     if (ck_2_1) {
-      v_14 = !(c_rac);
-      v_15 = (turn_on_rac&&v_14);
-      if (v_15) {
-        v_17 = true;
-        v_16_1 = false;
-        v_16_2 = false;
+      v_7 = (turn_on_rac&&c_rac);
+      if (v_7) {
+        v_9 = true;
+        v_8_1 = false;
+        v_8_2 = false;
       } else {
-        v_17 = self->pnr;
-        v_16_1 = true;
-        v_16_2 = true;
+        v_9 = self->pnr;
+        v_8_1 = true;
+        v_8_2 = true;
       };
-      v_13 = (turn_on_rac&&c_rac);
-      if (v_13) {
+      v_6 = (turn_on_rac&&c_rac);
+      if (v_6) {
         r_St_4_Off = true;
         s_St_4_Off_1 = true;
         s_St_4_Off_2 = false;
       } else {
-        r_St_4_Off = v_17;
-        s_St_4_Off_1 = v_16_1;
-        s_St_4_Off_2 = v_16_2;
+        r_St_4_Off = v_9;
+        s_St_4_Off_1 = v_8_1;
+        s_St_4_Off_2 = v_8_2;
       };
-      v_78 = r_St_4_Off;
-      v_74 = s_St_4_Off_1;
-      v_75 = s_St_4_Off_2;
-      if (v_16_1) {
-        v_16_2_1 = v_16_2;
+      v_73 = r_St_4_Off;
+      v_69 = s_St_4_Off_1;
+      v_70 = s_St_4_Off_2;
+      if (v_8_1) {
+        v_8_2_1 = v_8_2;
       } else {
-        v_16_2_0 = v_16_2;
+        v_8_2_0 = v_8_2;
       };
       if (s_St_4_Off_1) {
         s_St_4_Off_2_1 = s_St_4_Off_2;
@@ -435,39 +417,43 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
         s_St_4_Off_2_0 = s_St_4_Off_2;
       };
     } else {
-      v_10 = !(c_rac);
-      if (v_10) {
-        v_12 = true;
-        v_11_1 = false;
-        v_11_2 = false;
+      if (c_rac) {
+        v_5 = true;
       } else {
-        v_12 = self->pnr;
-        v_11_1 = true;
-        v_11_2 = false;
+        v_5 = self->pnr;
       };
-      v = !(turn_on_rac);
-      if (v) {
+      if (turn_on_rac) {
         r_St_4_On = true;
       } else {
-        r_St_4_On = v_12;
+        r_St_4_On = v_5;
       };
-      v_78 = r_St_4_On;
-      if (v) {
+      v_73 = r_St_4_On;
+      if (c_rac) {
+        v_1 = false;
+      } else {
+        v_1 = true;
+      };
+      if (turn_on_rac) {
         s_St_4_On_1 = true;
       } else {
-        s_St_4_On_1 = v_11_1;
+        s_St_4_On_1 = v_1;
       };
-      v_74 = s_St_4_On_1;
-      if (v) {
+      v_69 = s_St_4_On_1;
+      if (c_rac) {
+        v_2 = false;
+      } else {
+        v_2 = false;
+      };
+      if (turn_on_rac) {
         s_St_4_On_2 = true;
       } else {
-        s_St_4_On_2 = v_11_2;
+        s_St_4_On_2 = v_2;
       };
-      v_75 = s_St_4_On_2;
-      if (v_11_1) {
-        v_11_2_1 = v_11_2;
+      v_70 = s_St_4_On_2;
+      if (v_1) {
+        v_2_1 = v_2;
       } else {
-        v_11_2_0 = v_11_2;
+        v_2_0 = v_2;
       };
       if (s_St_4_On_1) {
         s_St_4_On_2_1 = s_St_4_On_2;
@@ -475,38 +461,38 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
         s_St_4_On_2_0 = s_St_4_On_2;
       };
     };
-    s_1 = v_74;
-    s_2 = v_75;
-    r = v_78;
+    s_1 = v_69;
+    s_2 = v_70;
+    r = v_73;
   } else {
     ck_2_0 = ck_2;
     if (ck_2_0) {
-      v_79 = true;
-      v_76 = true;
-      v_77 = true;
+      v_74 = true;
+      v_71 = true;
+      v_72 = true;
     } else {
       if (c_rac) {
         r_St_4_Wait = true;
       } else {
         r_St_4_Wait = self->pnr;
       };
-      v_79 = r_St_4_Wait;
+      v_74 = r_St_4_Wait;
       if (c_rac) {
         s_St_4_Wait_1 = true;
       } else {
         s_St_4_Wait_1 = false;
       };
-      v_76 = s_St_4_Wait_1;
+      v_71 = s_St_4_Wait_1;
       if (c_rac) {
         s_St_4_Wait_2 = false;
       } else {
         s_St_4_Wait_2 = false;
       };
-      v_77 = s_St_4_Wait_2;
+      v_72 = s_St_4_Wait_2;
     };
-    s_1 = v_76;
-    s_2 = v_77;
-    r = v_79;
+    s_1 = v_71;
+    s_2 = v_72;
+    r = v_74;
   };
   ck_5_1 = s_1;
   ck_5_2 = s_2;
@@ -517,55 +503,55 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
       nr_St_4_Off = false;
       ns_St_4_Off_1 = true;
       ns_St_4_Off_2 = true;
-      v_64 = working_state_rac_St_4_Off;
-      v_70 = nr_St_4_Off;
-      v_66 = ns_St_4_Off_1;
-      v_67 = ns_St_4_Off_2;
+      v_59 = working_state_rac_St_4_Off;
+      v_65 = nr_St_4_Off;
+      v_61 = ns_St_4_Off_1;
+      v_62 = ns_St_4_Off_2;
       if (ns_St_4_Off_1) {
         ns_St_4_Off_2_1 = ns_St_4_Off_2;
       } else {
         ns_St_4_Off_2_0 = ns_St_4_Off_2;
       };
     } else {
-      working_state_rac_St_4_On = 1;
-      v_64 = working_state_rac_St_4_On;
+      working_state_rac_St_4_On = 2;
+      v_59 = working_state_rac_St_4_On;
       nr_St_4_On = false;
-      v_70 = nr_St_4_On;
+      v_65 = nr_St_4_On;
       ns_St_4_On_1 = true;
-      v_66 = ns_St_4_On_1;
+      v_61 = ns_St_4_On_1;
       ns_St_4_On_2 = false;
-      v_67 = ns_St_4_On_2;
+      v_62 = ns_St_4_On_2;
       if (ns_St_4_On_1) {
         ns_St_4_On_2_1 = ns_St_4_On_2;
       } else {
         ns_St_4_On_2_0 = ns_St_4_On_2;
       };
     };
-    _out->working_state_rac = v_64;
-    ns_1 = v_66;
-    ns_2 = v_67;
-    nr = v_70;
+    _out->working_state_rac = v_59;
+    ns_1 = v_61;
+    ns_2 = v_62;
+    nr = v_65;
   } else {
     ck_5_2_0 = ck_5_2;
     if (ck_5_2_0) {
-      v_65 = 0;
-      v_71 = true;
-      v_68 = true;
-      v_69 = true;
+      v_60 = 0;
+      v_66 = true;
+      v_63 = true;
+      v_64 = true;
     } else {
-      working_state_rac_St_4_Wait = 2;
-      v_65 = working_state_rac_St_4_Wait;
+      working_state_rac_St_4_Wait = 1;
+      v_60 = working_state_rac_St_4_Wait;
       nr_St_4_Wait = false;
-      v_71 = nr_St_4_Wait;
+      v_66 = nr_St_4_Wait;
       ns_St_4_Wait_1 = false;
-      v_68 = ns_St_4_Wait_1;
+      v_63 = ns_St_4_Wait_1;
       ns_St_4_Wait_2 = false;
-      v_69 = ns_St_4_Wait_2;
+      v_64 = ns_St_4_Wait_2;
     };
-    _out->working_state_rac = v_65;
-    ns_1 = v_68;
-    ns_2 = v_69;
-    nr = v_71;
+    _out->working_state_rac = v_60;
+    ns_1 = v_63;
+    ns_2 = v_64;
+    nr = v_66;
   };
   if (ns_1) {
     ns_2_1 = ns_2;
@@ -596,28 +582,28 @@ void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
     };
   };
   self->pnr = nr;
-  self->v_72 = ns_1;
-  self->v_73 = ns_2;;
+  self->v_67 = ns_1;
+  self->v_68 = ns_2;;
 }
 
 void Project__living_room_air_conditioner_reset(Project__living_room_air_conditioner_mem* self) {
   self->pnr = false;
-  self->v_88 = true;
-  self->v_89 = true;
+  self->v_83 = true;
+  self->v_84 = true;
 }
 
 void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
                                                Project__living_room_air_conditioner_out* _out,
                                                Project__living_room_air_conditioner_mem* self) {
   
-  int v_87;
-  int v_86;
-  int v_85;
-  int v_84;
-  int v_83;
   int v_82;
   int v_81;
   int v_80;
+  int v_79;
+  int v_78;
+  int v_77;
+  int v_76;
+  int v_75;
   int ns_St_5_Wait_2_0;
   int ns_St_5_Wait_2_1;
   int ns_St_5_On_2_0;
@@ -640,27 +626,26 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
   int working_state_lac_St_5_Off;
   int ck_6_2;
   int ck_6_1;
-  int v_24_2_0;
-  int v_24_2_1;
-  int v_25;
-  int v_24_2;
-  int v_24_1;
-  int v_23;
-  int v_22;
-  int v_21;
-  int v_19_2_0;
-  int v_19_2_1;
-  int v_20;
-  int v_19_2;
-  int v_19_1;
-  int v_18;
+  int v_15_2_0;
+  int v_15_2_1;
+  int v_16;
+  int v_15_2;
+  int v_15_1;
+  int v_14;
+  int v_13;
+  int v_12;
+  int v_10_2_0;
+  int v_10_2_1;
+  int v_11;
+  int v_10_2;
+  int v_10_1;
   int v;
-  int v_95;
-  int v_94;
-  int v_93;
-  int v_92;
-  int v_91;
   int v_90;
+  int v_89;
+  int v_88;
+  int v_87;
+  int v_86;
+  int v_85;
   int s_St_5_Wait_2_0;
   int s_St_5_Wait_2_1;
   int s_St_5_On_2_0;
@@ -690,39 +675,39 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
   int ns_1;
   int r;
   int nr;
-  ck_1 = self->v_88;
-  ck_2 = self->v_89;
+  ck_1 = self->v_83;
+  ck_2 = self->v_84;
   if (ck_1) {
     ck_2_1 = ck_2;
     if (ck_2_1) {
-      v_22 = !(c_lac);
-      v_23 = (turn_on_lac&&v_22);
-      if (v_23) {
-        v_25 = true;
-        v_24_1 = false;
-        v_24_2 = false;
+      v_13 = !(c_lac);
+      v_14 = (turn_on_lac&&v_13);
+      if (v_14) {
+        v_16 = true;
+        v_15_1 = false;
+        v_15_2 = false;
       } else {
-        v_25 = self->pnr;
-        v_24_1 = true;
-        v_24_2 = true;
+        v_16 = self->pnr;
+        v_15_1 = true;
+        v_15_2 = true;
       };
-      v_21 = (turn_on_lac&&c_lac);
-      if (v_21) {
+      v_12 = (turn_on_lac&&c_lac);
+      if (v_12) {
         r_St_5_Off = true;
         s_St_5_Off_1 = true;
         s_St_5_Off_2 = false;
       } else {
-        r_St_5_Off = v_25;
-        s_St_5_Off_1 = v_24_1;
-        s_St_5_Off_2 = v_24_2;
+        r_St_5_Off = v_16;
+        s_St_5_Off_1 = v_15_1;
+        s_St_5_Off_2 = v_15_2;
       };
-      v_94 = r_St_5_Off;
-      v_90 = s_St_5_Off_1;
-      v_91 = s_St_5_Off_2;
-      if (v_24_1) {
-        v_24_2_1 = v_24_2;
+      v_89 = r_St_5_Off;
+      v_85 = s_St_5_Off_1;
+      v_86 = s_St_5_Off_2;
+      if (v_15_1) {
+        v_15_2_1 = v_15_2;
       } else {
-        v_24_2_0 = v_24_2;
+        v_15_2_0 = v_15_2;
       };
       if (s_St_5_Off_1) {
         s_St_5_Off_2_1 = s_St_5_Off_2;
@@ -730,39 +715,44 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
         s_St_5_Off_2_0 = s_St_5_Off_2;
       };
     } else {
-      v_18 = !(c_lac);
-      if (v_18) {
-        v_20 = true;
-        v_19_1 = false;
-        v_19_2 = false;
-      } else {
-        v_20 = self->pnr;
-        v_19_1 = true;
-        v_19_2 = false;
-      };
-      v = !(turn_on_lac);
+      v = !(c_lac);
       if (v) {
+        v_11 = true;
+      } else {
+        v_11 = self->pnr;
+      };
+      if (turn_on_lac) {
         r_St_5_On = true;
       } else {
-        r_St_5_On = v_20;
+        r_St_5_On = v_11;
       };
-      v_94 = r_St_5_On;
+      v_89 = r_St_5_On;
       if (v) {
+        v_10_1 = false;
+      } else {
+        v_10_1 = true;
+      };
+      if (turn_on_lac) {
         s_St_5_On_1 = true;
       } else {
-        s_St_5_On_1 = v_19_1;
+        s_St_5_On_1 = v_10_1;
       };
-      v_90 = s_St_5_On_1;
+      v_85 = s_St_5_On_1;
       if (v) {
+        v_10_2 = false;
+      } else {
+        v_10_2 = false;
+      };
+      if (turn_on_lac) {
         s_St_5_On_2 = true;
       } else {
-        s_St_5_On_2 = v_19_2;
+        s_St_5_On_2 = v_10_2;
       };
-      v_91 = s_St_5_On_2;
-      if (v_19_1) {
-        v_19_2_1 = v_19_2;
+      v_86 = s_St_5_On_2;
+      if (v_10_1) {
+        v_10_2_1 = v_10_2;
       } else {
-        v_19_2_0 = v_19_2;
+        v_10_2_0 = v_10_2;
       };
       if (s_St_5_On_1) {
         s_St_5_On_2_1 = s_St_5_On_2;
@@ -770,38 +760,38 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
         s_St_5_On_2_0 = s_St_5_On_2;
       };
     };
-    s_1 = v_90;
-    s_2 = v_91;
-    r = v_94;
+    s_1 = v_85;
+    s_2 = v_86;
+    r = v_89;
   } else {
     ck_2_0 = ck_2;
     if (ck_2_0) {
-      v_95 = true;
-      v_92 = true;
-      v_93 = true;
+      v_90 = true;
+      v_87 = true;
+      v_88 = true;
     } else {
       if (c_lac) {
         r_St_5_Wait = true;
       } else {
         r_St_5_Wait = self->pnr;
       };
-      v_95 = r_St_5_Wait;
+      v_90 = r_St_5_Wait;
       if (c_lac) {
         s_St_5_Wait_1 = true;
       } else {
         s_St_5_Wait_1 = false;
       };
-      v_92 = s_St_5_Wait_1;
+      v_87 = s_St_5_Wait_1;
       if (c_lac) {
         s_St_5_Wait_2 = false;
       } else {
         s_St_5_Wait_2 = false;
       };
-      v_93 = s_St_5_Wait_2;
+      v_88 = s_St_5_Wait_2;
     };
-    s_1 = v_92;
-    s_2 = v_93;
-    r = v_95;
+    s_1 = v_87;
+    s_2 = v_88;
+    r = v_90;
   };
   ck_6_1 = s_1;
   ck_6_2 = s_2;
@@ -812,55 +802,55 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
       nr_St_5_Off = false;
       ns_St_5_Off_1 = true;
       ns_St_5_Off_2 = true;
-      v_80 = working_state_lac_St_5_Off;
-      v_86 = nr_St_5_Off;
-      v_82 = ns_St_5_Off_1;
-      v_83 = ns_St_5_Off_2;
+      v_75 = working_state_lac_St_5_Off;
+      v_81 = nr_St_5_Off;
+      v_77 = ns_St_5_Off_1;
+      v_78 = ns_St_5_Off_2;
       if (ns_St_5_Off_1) {
         ns_St_5_Off_2_1 = ns_St_5_Off_2;
       } else {
         ns_St_5_Off_2_0 = ns_St_5_Off_2;
       };
     } else {
-      working_state_lac_St_5_On = 1;
-      v_80 = working_state_lac_St_5_On;
+      working_state_lac_St_5_On = 2;
+      v_75 = working_state_lac_St_5_On;
       nr_St_5_On = false;
-      v_86 = nr_St_5_On;
+      v_81 = nr_St_5_On;
       ns_St_5_On_1 = true;
-      v_82 = ns_St_5_On_1;
+      v_77 = ns_St_5_On_1;
       ns_St_5_On_2 = false;
-      v_83 = ns_St_5_On_2;
+      v_78 = ns_St_5_On_2;
       if (ns_St_5_On_1) {
         ns_St_5_On_2_1 = ns_St_5_On_2;
       } else {
         ns_St_5_On_2_0 = ns_St_5_On_2;
       };
     };
-    _out->working_state_lac = v_80;
-    ns_1 = v_82;
-    ns_2 = v_83;
-    nr = v_86;
+    _out->working_state_lac = v_75;
+    ns_1 = v_77;
+    ns_2 = v_78;
+    nr = v_81;
   } else {
     ck_6_2_0 = ck_6_2;
     if (ck_6_2_0) {
-      v_81 = 0;
-      v_87 = true;
-      v_84 = true;
-      v_85 = true;
+      v_76 = 0;
+      v_82 = true;
+      v_79 = true;
+      v_80 = true;
     } else {
-      working_state_lac_St_5_Wait = 2;
-      v_81 = working_state_lac_St_5_Wait;
+      working_state_lac_St_5_Wait = 1;
+      v_76 = working_state_lac_St_5_Wait;
       nr_St_5_Wait = false;
-      v_87 = nr_St_5_Wait;
+      v_82 = nr_St_5_Wait;
       ns_St_5_Wait_1 = false;
-      v_84 = ns_St_5_Wait_1;
+      v_79 = ns_St_5_Wait_1;
       ns_St_5_Wait_2 = false;
-      v_85 = ns_St_5_Wait_2;
+      v_80 = ns_St_5_Wait_2;
     };
-    _out->working_state_lac = v_81;
-    ns_1 = v_84;
-    ns_2 = v_85;
-    nr = v_87;
+    _out->working_state_lac = v_76;
+    ns_1 = v_79;
+    ns_2 = v_80;
+    nr = v_82;
   };
   if (ns_1) {
     ns_2_1 = ns_2;
@@ -891,30 +881,29 @@ void Project__living_room_air_conditioner_step(int turn_on_lac, int c_lac,
     };
   };
   self->pnr = nr;
-  self->v_88 = ns_1;
-  self->v_89 = ns_2;;
+  self->v_83 = ns_1;
+  self->v_84 = ns_2;;
 }
 
 void Project__tv_reset(Project__tv_mem* self) {
   self->pnr = false;
-  self->ck_1 = false;
+  self->ck_1 = true;
 }
 
 void Project__tv_step(int turn_on_tv, Project__tv_out* _out,
                       Project__tv_mem* self) {
   
-  int nr_St_6_Off;
-  int ns_St_6_Off_1;
-  int is_tv_on_St_6_Off;
   int nr_St_6_On;
   int ns_St_6_On_1;
   int is_tv_on_St_6_On;
+  int nr_St_6_Off;
+  int ns_St_6_Off_1;
+  int is_tv_on_St_6_Off;
   int ck_7_1;
-  int v;
-  int r_St_6_Off;
-  int s_St_6_Off_1;
   int r_St_6_On;
   int s_St_6_On_1;
+  int r_St_6_Off;
+  int s_St_6_Off_1;
   int s_1;
   int ns_1;
   int r;
@@ -922,42 +911,41 @@ void Project__tv_step(int turn_on_tv, Project__tv_out* _out,
   if (self->ck_1) {
     if (turn_on_tv) {
       r_St_6_Off = true;
-    } else {
-      r_St_6_Off = self->pnr;
-    };
-    r = r_St_6_Off;
-    if (turn_on_tv) {
       s_St_6_Off_1 = false;
     } else {
+      r_St_6_Off = self->pnr;
       s_St_6_Off_1 = true;
     };
+    r = r_St_6_Off;
     s_1 = s_St_6_Off_1;
   } else {
-    v = !(turn_on_tv);
-    if (v) {
+    if (turn_on_tv) {
       r_St_6_On = true;
-      s_St_6_On_1 = true;
     } else {
       r_St_6_On = self->pnr;
-      s_St_6_On_1 = false;
     };
     r = r_St_6_On;
+    if (turn_on_tv) {
+      s_St_6_On_1 = true;
+    } else {
+      s_St_6_On_1 = false;
+    };
     s_1 = s_St_6_On_1;
   };
   ck_7_1 = s_1;
   if (ck_7_1) {
     is_tv_on_St_6_Off = false;
-    _out->is_tv_on = is_tv_on_St_6_Off;
     nr_St_6_Off = false;
-    nr = nr_St_6_Off;
     ns_St_6_Off_1 = true;
+    _out->is_tv_on = is_tv_on_St_6_Off;
+    nr = nr_St_6_Off;
     ns_1 = ns_St_6_Off_1;
   } else {
     is_tv_on_St_6_On = true;
-    nr_St_6_On = false;
-    ns_St_6_On_1 = false;
     _out->is_tv_on = is_tv_on_St_6_On;
+    nr_St_6_On = false;
     nr = nr_St_6_On;
+    ns_St_6_On_1 = false;
     ns_1 = ns_St_6_On_1;
   };
   self->pnr = nr;
@@ -966,25 +954,24 @@ void Project__tv_step(int turn_on_tv, Project__tv_out* _out,
 
 void Project__washing_machine_reset(Project__washing_machine_mem* self) {
   self->pnr = false;
-  self->ck_1 = false;
+  self->ck_1 = true;
 }
 
 void Project__washing_machine_step(int turn_on_wm,
                                    Project__washing_machine_out* _out,
                                    Project__washing_machine_mem* self) {
   
-  int nr_St_7_Off;
-  int ns_St_7_Off_1;
-  int is_working_wm_St_7_Off;
   int nr_St_7_Washing;
   int ns_St_7_Washing_1;
   int is_working_wm_St_7_Washing;
+  int nr_St_7_Off;
+  int ns_St_7_Off_1;
+  int is_working_wm_St_7_Off;
   int ck_8_1;
-  int v;
-  int r_St_7_Off;
-  int s_St_7_Off_1;
   int r_St_7_Washing;
   int s_St_7_Washing_1;
+  int r_St_7_Off;
+  int s_St_7_Off_1;
   int s_1;
   int ns_1;
   int r;
@@ -992,42 +979,41 @@ void Project__washing_machine_step(int turn_on_wm,
   if (self->ck_1) {
     if (turn_on_wm) {
       r_St_7_Off = true;
-    } else {
-      r_St_7_Off = self->pnr;
-    };
-    r = r_St_7_Off;
-    if (turn_on_wm) {
       s_St_7_Off_1 = false;
     } else {
+      r_St_7_Off = self->pnr;
       s_St_7_Off_1 = true;
     };
+    r = r_St_7_Off;
     s_1 = s_St_7_Off_1;
   } else {
-    v = !(turn_on_wm);
-    if (v) {
+    if (turn_on_wm) {
       r_St_7_Washing = true;
-      s_St_7_Washing_1 = true;
     } else {
       r_St_7_Washing = self->pnr;
-      s_St_7_Washing_1 = false;
     };
     r = r_St_7_Washing;
+    if (turn_on_wm) {
+      s_St_7_Washing_1 = true;
+    } else {
+      s_St_7_Washing_1 = false;
+    };
     s_1 = s_St_7_Washing_1;
   };
   ck_8_1 = s_1;
   if (ck_8_1) {
     is_working_wm_St_7_Off = false;
-    _out->is_working_wm = is_working_wm_St_7_Off;
     nr_St_7_Off = false;
-    nr = nr_St_7_Off;
     ns_St_7_Off_1 = true;
+    _out->is_working_wm = is_working_wm_St_7_Off;
+    nr = nr_St_7_Off;
     ns_1 = ns_St_7_Off_1;
   } else {
     is_working_wm_St_7_Washing = true;
-    nr_St_7_Washing = false;
-    ns_St_7_Washing_1 = false;
     _out->is_working_wm = is_working_wm_St_7_Washing;
+    nr_St_7_Washing = false;
     nr = nr_St_7_Washing;
+    ns_St_7_Washing_1 = false;
     ns_1 = ns_St_7_Washing_1;
   };
   self->pnr = nr;
@@ -1036,24 +1022,23 @@ void Project__washing_machine_step(int turn_on_wm,
 
 void Project__window_reset(Project__window_mem* self) {
   self->pnr = false;
-  self->ck_1 = false;
+  self->ck_1 = true;
 }
 
 void Project__window_step(int do_open, Project__window_out* _out,
                           Project__window_mem* self) {
   
-  int nr_St_8_Closed;
-  int ns_St_8_Closed_1;
-  int is_w_opened_St_8_Closed;
   int nr_St_8_Opened;
   int ns_St_8_Opened_1;
   int is_w_opened_St_8_Opened;
+  int nr_St_8_Closed;
+  int ns_St_8_Closed_1;
+  int is_w_opened_St_8_Closed;
   int ck_9_1;
-  int v;
-  int r_St_8_Closed;
-  int s_St_8_Closed_1;
   int r_St_8_Opened;
   int s_St_8_Opened_1;
+  int r_St_8_Closed;
+  int s_St_8_Closed_1;
   int s_1;
   int ns_1;
   int r;
@@ -1061,42 +1046,41 @@ void Project__window_step(int do_open, Project__window_out* _out,
   if (self->ck_1) {
     if (do_open) {
       r_St_8_Closed = true;
-    } else {
-      r_St_8_Closed = self->pnr;
-    };
-    r = r_St_8_Closed;
-    if (do_open) {
       s_St_8_Closed_1 = false;
     } else {
+      r_St_8_Closed = self->pnr;
       s_St_8_Closed_1 = true;
     };
+    r = r_St_8_Closed;
     s_1 = s_St_8_Closed_1;
   } else {
-    v = !(do_open);
-    if (v) {
+    if (do_open) {
       r_St_8_Opened = true;
-      s_St_8_Opened_1 = true;
     } else {
       r_St_8_Opened = self->pnr;
-      s_St_8_Opened_1 = false;
     };
     r = r_St_8_Opened;
+    if (do_open) {
+      s_St_8_Opened_1 = true;
+    } else {
+      s_St_8_Opened_1 = false;
+    };
     s_1 = s_St_8_Opened_1;
   };
   ck_9_1 = s_1;
   if (ck_9_1) {
     is_w_opened_St_8_Closed = false;
-    _out->is_w_opened = is_w_opened_St_8_Closed;
     nr_St_8_Closed = false;
-    nr = nr_St_8_Closed;
     ns_St_8_Closed_1 = true;
+    _out->is_w_opened = is_w_opened_St_8_Closed;
+    nr = nr_St_8_Closed;
     ns_1 = ns_St_8_Closed_1;
   } else {
     is_w_opened_St_8_Opened = true;
-    nr_St_8_Opened = false;
-    ns_St_8_Opened_1 = false;
     _out->is_w_opened = is_w_opened_St_8_Opened;
+    nr_St_8_Opened = false;
     nr = nr_St_8_Opened;
+    ns_St_8_Opened_1 = false;
     ns_1 = ns_St_8_Opened_1;
   };
   self->pnr = nr;
@@ -1105,19 +1089,19 @@ void Project__window_step(int do_open, Project__window_out* _out,
 
 void Project__supervisor_reset(Project__supervisor_mem* self) {
   self->pnr = false;
-  self->v_104 = true;
-  self->v_105 = true;
+  self->v_99 = true;
+  self->v_100 = true;
   self->pnr_1 = false;
-  self->v_120 = true;
-  self->v_121 = true;
+  self->v_115 = true;
+  self->v_116 = true;
   self->pnr_2 = false;
-  self->ck_23_1 = false;
+  self->ck_23_1 = true;
   self->pnr_3 = false;
-  self->ck_21_1 = false;
+  self->ck_21_1 = true;
   self->pnr_4 = false;
-  self->ck_19_1 = false;
+  self->ck_19_1 = true;
   self->pnr_5 = false;
-  self->ck_17_1 = false;
+  self->ck_17_1 = true;
   self->pnr_6 = false;
   self->ck_15_1 = false;
   self->pnr_7 = false;
@@ -1136,14 +1120,14 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
                               Project__supervisor_mem* self) {
   Supervisor_controller__supervisor_controller_out Supervisor_controller__supervisor_controller_out_st;
   
-  int v_103;
-  int v_102;
-  int v_101;
-  int v_100;
-  int v_99;
   int v_98;
   int v_97;
   int v_96;
+  int v_95;
+  int v_94;
+  int v_93;
+  int v_92;
+  int v_91;
   int ns_St_9_Wait_2_0;
   int ns_St_9_Wait_2_1;
   int ns_St_9_On_2_0;
@@ -1166,14 +1150,6 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int working_state_lac_1_St_9_Off;
   int ck_28_2;
   int ck_28_1;
-  int v_62_2_0;
-  int v_62_2_1;
-  int v_63;
-  int v_62_2;
-  int v_62_1;
-  int v_61;
-  int v_60;
-  int v_59;
   int v_57_2_0;
   int v_57_2_1;
   int v_58;
@@ -1181,12 +1157,19 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int v_57_1;
   int v_56;
   int v_55;
-  int v_111;
-  int v_110;
-  int v_109;
-  int v_108;
-  int v_107;
+  int v_54;
+  int v_52_2_0;
+  int v_52_2_1;
+  int v_53;
+  int v_52_2;
+  int v_52_1;
+  int v_51;
   int v_106;
+  int v_105;
+  int v_104;
+  int v_103;
+  int v_102;
+  int v_101;
   int s_St_9_Wait_2_0;
   int s_St_9_Wait_2_1;
   int s_St_9_On_2_0;
@@ -1206,14 +1189,14 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int s_St_9_Off_1;
   int ck_27_2;
   int ck_27_1;
-  int v_119;
-  int v_118;
-  int v_117;
-  int v_116;
-  int v_115;
   int v_114;
   int v_113;
   int v_112;
+  int v_111;
+  int v_110;
+  int v_109;
+  int v_108;
+  int v_107;
   int ns_1_St_10_Wait_2_0;
   int ns_1_St_10_Wait_2_1;
   int ns_1_St_10_On_2_0;
@@ -1236,27 +1219,24 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int working_state_rac_1_St_10_Off;
   int ck_26_2;
   int ck_26_1;
-  int v_53_2_0;
-  int v_53_2_1;
-  int v_54;
-  int v_53_2;
-  int v_53_1;
-  int v_52;
-  int v_51;
+  int v_49_2_0;
+  int v_49_2_1;
   int v_50;
-  int v_48_2_0;
-  int v_48_2_1;
-  int v_49;
-  int v_48_2;
-  int v_48_1;
+  int v_49_2;
+  int v_49_1;
+  int v_48;
   int v_47;
+  int v_45_2_0;
+  int v_45_2_1;
   int v_46;
-  int v_127;
-  int v_126;
-  int v_125;
-  int v_124;
-  int v_123;
+  int v_45_2;
+  int v_45_1;
   int v_122;
+  int v_121;
+  int v_120;
+  int v_119;
+  int v_118;
+  int v_117;
   int s_1_St_10_Wait_2_0;
   int s_1_St_10_Wait_2_1;
   int s_1_St_10_On_2_0;
@@ -1276,60 +1256,53 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int s_1_St_10_Off_1;
   int ck_25_2;
   int ck_25_1;
-  int nr_2_St_11_Closed;
-  int ns_2_St_11_Closed_1;
-  int is_w_opened_1_St_11_Closed;
   int nr_2_St_11_Opened;
   int ns_2_St_11_Opened_1;
   int is_w_opened_1_St_11_Opened;
+  int nr_2_St_11_Closed;
+  int ns_2_St_11_Closed_1;
+  int is_w_opened_1_St_11_Closed;
   int ck_24_1;
-  int v_45;
-  int r_2_St_11_Closed;
-  int s_2_St_11_Closed_1;
   int r_2_St_11_Opened;
   int s_2_St_11_Opened_1;
-  int nr_3_St_12_Off;
-  int ns_3_St_12_Off_1;
-  int is_working_wm_1_St_12_Off;
+  int r_2_St_11_Closed;
+  int s_2_St_11_Closed_1;
   int nr_3_St_12_Washing;
   int ns_3_St_12_Washing_1;
   int is_working_wm_1_St_12_Washing;
+  int nr_3_St_12_Off;
+  int ns_3_St_12_Off_1;
+  int is_working_wm_1_St_12_Off;
   int ck_22_1;
-  int v_44;
-  int r_3_St_12_Off;
-  int s_3_St_12_Off_1;
   int r_3_St_12_Washing;
   int s_3_St_12_Washing_1;
-  int nr_4_St_13_Off;
-  int ns_4_St_13_Off_1;
-  int is_tv_on_1_St_13_Off;
+  int r_3_St_12_Off;
+  int s_3_St_12_Off_1;
   int nr_4_St_13_On;
   int ns_4_St_13_On_1;
   int is_tv_on_1_St_13_On;
+  int nr_4_St_13_Off;
+  int ns_4_St_13_Off_1;
+  int is_tv_on_1_St_13_Off;
   int ck_20_1;
-  int v_43;
-  int r_4_St_13_Off;
-  int s_4_St_13_Off_1;
   int r_4_St_13_On;
   int s_4_St_13_On_1;
-  int nr_5_St_14_Off;
-  int ns_5_St_14_Off_1;
-  int is_on_l_1_St_14_Off;
+  int r_4_St_13_Off;
+  int s_4_St_13_Off_1;
   int nr_5_St_14_On;
   int ns_5_St_14_On_1;
   int is_on_l_1_St_14_On;
+  int nr_5_St_14_Off;
+  int ns_5_St_14_Off_1;
+  int is_on_l_1_St_14_Off;
   int ck_18_1;
+  int v_44;
+  int v_43;
   int v_42;
-  int v_41;
-  int v_40;
-  int v_39;
-  int v_38;
-  int v_37;
-  int v_36;
-  int r_5_St_14_Off;
-  int s_5_St_14_Off_1;
   int r_5_St_14_On;
   int s_5_St_14_On_1;
+  int r_5_St_14_Off;
+  int s_5_St_14_Off_1;
   int nr_6_St_15_Off;
   int ns_6_St_15_Off_1;
   int is_on_rl_1_St_15_Off;
@@ -1337,7 +1310,6 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int ns_6_St_15_On_1;
   int is_on_rl_1_St_15_On;
   int ck_16_1;
-  int v_35;
   int r_6_St_15_Off;
   int s_6_St_15_Off_1;
   int r_6_St_15_On;
@@ -1349,10 +1321,9 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int ns_7_St_16_Off_1;
   int is_on_l1_2_St_16_Off;
   int ck_14_1;
-  int v_34;
-  int v_33;
-  int v_32;
-  int v_31;
+  int v_41;
+  int v_40;
+  int v_39;
   int r_7_St_16_On;
   int s_7_St_16_On_1;
   int r_7_St_16_Off;
@@ -1364,10 +1335,9 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int ns_8_St_17_Off_1;
   int is_on_l1_1_St_17_Off;
   int ck_12_1;
-  int v_30;
-  int v_29;
-  int v_28;
-  int v_27;
+  int v_38;
+  int v_37;
+  int v_36;
   int r_8_St_17_On;
   int s_8_St_17_On_1;
   int r_8_St_17_Off;
@@ -1379,7 +1349,6 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int ns_9_St_18_Empty_1;
   int has_presence_1_St_18_Empty;
   int ck_10_1;
-  int v_26;
   int r_9_St_18_Occupied;
   int s_9_St_18_Occupied_1;
   int r_9_St_18_Empty;
@@ -1449,7 +1418,8 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int turn_on_tv_1;
   int is_tv_on_1;
   int turn_on_l_1;
-  int c_l_1;
+  int c_l1_3;
+  int c_l2_3;
   int is_on_l_1;
   int turn_on_rl_1;
   int is_on_rl_1;
@@ -1463,21 +1433,46 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   int is_on_l1_1;
   int presence_1;
   int has_presence_1;
+  int rule6;
+  int rule5;
+  int rule4;
+  int rule3;
+  int rule2;
   int rule1;
   int v;
+  int v_17;
+  int v_18;
+  int v_19;
+  int v_20;
+  int v_21;
+  int v_22;
+  int v_23;
+  int v_24;
+  int v_25;
+  int v_26;
+  int v_27;
+  int v_28;
+  int v_29;
+  int v_30;
+  int v_31;
+  int v_32;
+  int v_33;
+  int v_34;
+  int v_35;
   int c_lac;
   int c_rac;
   int c_l;
+  int c_l5;
   int c_l4;
   int c_l3;
   int c_l2;
   int c_l1;
   turn_on_lac_1 = turn_on_lac;
-  ck_27_1 = self->v_104;
-  ck_27_2 = self->v_105;
+  ck_27_1 = self->v_99;
+  ck_27_2 = self->v_100;
   turn_on_rac_1 = turn_on_rac;
-  ck_25_1 = self->v_120;
-  ck_25_2 = self->v_121;
+  ck_25_1 = self->v_115;
+  ck_25_2 = self->v_116;
   do_open_1 = do_open;
   turn_on_wm_1 = turn_on_wm;
   turn_on_tv_1 = turn_on_tv;
@@ -1505,23 +1500,25 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
                                                     self->ck_21_1,
                                                     self->pnr_3,
                                                     self->ck_23_1,
-                                                    self->pnr_2, self->v_121,
-                                                    self->v_120, self->pnr_1,
-                                                    self->v_105, self->v_104,
+                                                    self->pnr_2, self->v_116,
+                                                    self->v_115, self->pnr_1,
+                                                    self->v_100, self->v_99,
                                                     self->pnr, true, true,
                                                     true, true, true, true,
-                                                    true,
+                                                    true, true,
                                                     &Supervisor_controller__supervisor_controller_out_st);
   c_lac = Supervisor_controller__supervisor_controller_out_st.supervisor_c_lac;
   c_rac = Supervisor_controller__supervisor_controller_out_st.supervisor_c_rac;
   c_l = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l;
+  c_l5 = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l5;
   c_l4 = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l4;
   c_l3 = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l3;
   c_l2 = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l2;
   c_l1 = Supervisor_controller__supervisor_controller_out_st.supervisor_c_l1;
   c_lac_1 = c_lac;
   c_rac_1 = c_rac;
-  c_l_1 = c_l;
+  c_l1_3 = c_l;
+  c_l2_3 = c_l5;
   c_l1_2 = c_l3;
   c_l2_2 = c_l4;
   c_l1_1 = c_l1;
@@ -1529,42 +1526,8 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   if (ck_27_1) {
     ck_27_2_1 = ck_27_2;
     if (ck_27_2_1) {
-      v_60 = !(c_lac_1);
-      v_61 = (turn_on_lac_1&&v_60);
-      if (v_61) {
-        v_63 = true;
-        v_62_1 = false;
-        v_62_2 = false;
-      } else {
-        v_63 = self->pnr;
-        v_62_1 = true;
-        v_62_2 = true;
-      };
-      v_59 = (turn_on_lac_1&&c_lac_1);
-      if (v_59) {
-        r_St_9_Off = true;
-        s_St_9_Off_1 = true;
-        s_St_9_Off_2 = false;
-      } else {
-        r_St_9_Off = v_63;
-        s_St_9_Off_1 = v_62_1;
-        s_St_9_Off_2 = v_62_2;
-      };
-      v_110 = r_St_9_Off;
-      v_106 = s_St_9_Off_1;
-      v_107 = s_St_9_Off_2;
-      if (v_62_1) {
-        v_62_2_1 = v_62_2;
-      } else {
-        v_62_2_0 = v_62_2;
-      };
-      if (s_St_9_Off_1) {
-        s_St_9_Off_2_1 = s_St_9_Off_2;
-      } else {
-        s_St_9_Off_2_0 = s_St_9_Off_2;
-      };
-    } else {
-      v_56 = !(c_lac_1);
+      v_55 = !(c_lac_1);
+      v_56 = (turn_on_lac_1&&v_55);
       if (v_56) {
         v_58 = true;
         v_57_1 = false;
@@ -1572,31 +1535,70 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
       } else {
         v_58 = self->pnr;
         v_57_1 = true;
-        v_57_2 = false;
+        v_57_2 = true;
       };
-      v_55 = !(turn_on_lac_1);
-      if (v_55) {
-        r_St_9_On = true;
+      v_54 = (turn_on_lac_1&&c_lac_1);
+      if (v_54) {
+        r_St_9_Off = true;
+        s_St_9_Off_1 = true;
+        s_St_9_Off_2 = false;
       } else {
-        r_St_9_On = v_58;
+        r_St_9_Off = v_58;
+        s_St_9_Off_1 = v_57_1;
+        s_St_9_Off_2 = v_57_2;
       };
-      v_110 = r_St_9_On;
-      if (v_55) {
-        s_St_9_On_1 = true;
-      } else {
-        s_St_9_On_1 = v_57_1;
-      };
-      v_106 = s_St_9_On_1;
-      if (v_55) {
-        s_St_9_On_2 = true;
-      } else {
-        s_St_9_On_2 = v_57_2;
-      };
-      v_107 = s_St_9_On_2;
+      v_105 = r_St_9_Off;
+      v_101 = s_St_9_Off_1;
+      v_102 = s_St_9_Off_2;
       if (v_57_1) {
         v_57_2_1 = v_57_2;
       } else {
         v_57_2_0 = v_57_2;
+      };
+      if (s_St_9_Off_1) {
+        s_St_9_Off_2_1 = s_St_9_Off_2;
+      } else {
+        s_St_9_Off_2_0 = s_St_9_Off_2;
+      };
+    } else {
+      v_51 = !(c_lac_1);
+      if (v_51) {
+        v_53 = true;
+      } else {
+        v_53 = self->pnr;
+      };
+      if (turn_on_lac_1) {
+        r_St_9_On = true;
+      } else {
+        r_St_9_On = v_53;
+      };
+      v_105 = r_St_9_On;
+      if (v_51) {
+        v_52_1 = false;
+      } else {
+        v_52_1 = true;
+      };
+      if (turn_on_lac_1) {
+        s_St_9_On_1 = true;
+      } else {
+        s_St_9_On_1 = v_52_1;
+      };
+      v_101 = s_St_9_On_1;
+      if (v_51) {
+        v_52_2 = false;
+      } else {
+        v_52_2 = false;
+      };
+      if (turn_on_lac_1) {
+        s_St_9_On_2 = true;
+      } else {
+        s_St_9_On_2 = v_52_2;
+      };
+      v_102 = s_St_9_On_2;
+      if (v_52_1) {
+        v_52_2_1 = v_52_2;
+      } else {
+        v_52_2_0 = v_52_2;
       };
       if (s_St_9_On_1) {
         s_St_9_On_2_1 = s_St_9_On_2;
@@ -1604,38 +1606,38 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
         s_St_9_On_2_0 = s_St_9_On_2;
       };
     };
-    s_1_3 = v_106;
-    s_2_2 = v_107;
-    r = v_110;
+    s_1_3 = v_101;
+    s_2_2 = v_102;
+    r = v_105;
   } else {
     ck_27_2_0 = ck_27_2;
     if (ck_27_2_0) {
-      v_111 = true;
-      v_108 = true;
-      v_109 = true;
+      v_106 = true;
+      v_103 = true;
+      v_104 = true;
     } else {
       if (c_lac_1) {
         r_St_9_Wait = true;
       } else {
         r_St_9_Wait = self->pnr;
       };
-      v_111 = r_St_9_Wait;
+      v_106 = r_St_9_Wait;
       if (c_lac_1) {
         s_St_9_Wait_1 = true;
       } else {
         s_St_9_Wait_1 = false;
       };
-      v_108 = s_St_9_Wait_1;
+      v_103 = s_St_9_Wait_1;
       if (c_lac_1) {
         s_St_9_Wait_2 = false;
       } else {
         s_St_9_Wait_2 = false;
       };
-      v_109 = s_St_9_Wait_2;
+      v_104 = s_St_9_Wait_2;
     };
-    s_1_3 = v_108;
-    s_2_2 = v_109;
-    r = v_111;
+    s_1_3 = v_103;
+    s_2_2 = v_104;
+    r = v_106;
   };
   ck_28_1 = s_1_3;
   ck_28_2 = s_2_2;
@@ -1646,55 +1648,55 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
       nr_St_9_Off = false;
       ns_St_9_Off_1 = true;
       ns_St_9_Off_2 = true;
-      v_96 = working_state_lac_1_St_9_Off;
-      v_102 = nr_St_9_Off;
-      v_98 = ns_St_9_Off_1;
-      v_99 = ns_St_9_Off_2;
+      v_91 = working_state_lac_1_St_9_Off;
+      v_97 = nr_St_9_Off;
+      v_93 = ns_St_9_Off_1;
+      v_94 = ns_St_9_Off_2;
       if (ns_St_9_Off_1) {
         ns_St_9_Off_2_1 = ns_St_9_Off_2;
       } else {
         ns_St_9_Off_2_0 = ns_St_9_Off_2;
       };
     } else {
-      working_state_lac_1_St_9_On = 1;
-      v_96 = working_state_lac_1_St_9_On;
+      working_state_lac_1_St_9_On = 2;
+      v_91 = working_state_lac_1_St_9_On;
       nr_St_9_On = false;
-      v_102 = nr_St_9_On;
+      v_97 = nr_St_9_On;
       ns_St_9_On_1 = true;
-      v_98 = ns_St_9_On_1;
+      v_93 = ns_St_9_On_1;
       ns_St_9_On_2 = false;
-      v_99 = ns_St_9_On_2;
+      v_94 = ns_St_9_On_2;
       if (ns_St_9_On_1) {
         ns_St_9_On_2_1 = ns_St_9_On_2;
       } else {
         ns_St_9_On_2_0 = ns_St_9_On_2;
       };
     };
-    working_state_lac_1 = v_96;
-    ns_1_3 = v_98;
-    ns_2_2 = v_99;
-    nr = v_102;
+    working_state_lac_1 = v_91;
+    ns_1_3 = v_93;
+    ns_2_2 = v_94;
+    nr = v_97;
   } else {
     ck_28_2_0 = ck_28_2;
     if (ck_28_2_0) {
-      v_97 = 0;
-      v_103 = true;
-      v_100 = true;
-      v_101 = true;
+      v_92 = 0;
+      v_98 = true;
+      v_95 = true;
+      v_96 = true;
     } else {
-      working_state_lac_1_St_9_Wait = 2;
-      v_97 = working_state_lac_1_St_9_Wait;
+      working_state_lac_1_St_9_Wait = 1;
+      v_92 = working_state_lac_1_St_9_Wait;
       nr_St_9_Wait = false;
-      v_103 = nr_St_9_Wait;
+      v_98 = nr_St_9_Wait;
       ns_St_9_Wait_1 = false;
-      v_100 = ns_St_9_Wait_1;
+      v_95 = ns_St_9_Wait_1;
       ns_St_9_Wait_2 = false;
-      v_101 = ns_St_9_Wait_2;
+      v_96 = ns_St_9_Wait_2;
     };
-    working_state_lac_1 = v_97;
-    ns_1_3 = v_100;
-    ns_2_2 = v_101;
-    nr = v_103;
+    working_state_lac_1 = v_92;
+    ns_1_3 = v_95;
+    ns_2_2 = v_96;
+    nr = v_98;
   };
   _out->working_state_lac = working_state_lac_1;
   if (ns_1_3) {
@@ -1728,34 +1730,33 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   if (ck_25_1) {
     ck_25_2_1 = ck_25_2;
     if (ck_25_2_1) {
-      v_51 = !(c_rac_1);
-      v_52 = (turn_on_rac_1&&v_51);
-      if (v_52) {
-        v_54 = true;
-        v_53_1 = false;
-        v_53_2 = false;
+      v_48 = (turn_on_rac_1&&c_rac_1);
+      if (v_48) {
+        v_50 = true;
+        v_49_1 = false;
+        v_49_2 = false;
       } else {
-        v_54 = self->pnr_1;
-        v_53_1 = true;
-        v_53_2 = true;
+        v_50 = self->pnr_1;
+        v_49_1 = true;
+        v_49_2 = true;
       };
-      v_50 = (turn_on_rac_1&&c_rac_1);
-      if (v_50) {
+      v_47 = (turn_on_rac_1&&c_rac_1);
+      if (v_47) {
         r_1_St_10_Off = true;
         s_1_St_10_Off_1 = true;
         s_1_St_10_Off_2 = false;
       } else {
-        r_1_St_10_Off = v_54;
-        s_1_St_10_Off_1 = v_53_1;
-        s_1_St_10_Off_2 = v_53_2;
+        r_1_St_10_Off = v_50;
+        s_1_St_10_Off_1 = v_49_1;
+        s_1_St_10_Off_2 = v_49_2;
       };
-      v_126 = r_1_St_10_Off;
-      v_122 = s_1_St_10_Off_1;
-      v_123 = s_1_St_10_Off_2;
-      if (v_53_1) {
-        v_53_2_1 = v_53_2;
+      v_121 = r_1_St_10_Off;
+      v_117 = s_1_St_10_Off_1;
+      v_118 = s_1_St_10_Off_2;
+      if (v_49_1) {
+        v_49_2_1 = v_49_2;
       } else {
-        v_53_2_0 = v_53_2;
+        v_49_2_0 = v_49_2;
       };
       if (s_1_St_10_Off_1) {
         s_1_St_10_Off_2_1 = s_1_St_10_Off_2;
@@ -1763,39 +1764,43 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
         s_1_St_10_Off_2_0 = s_1_St_10_Off_2;
       };
     } else {
-      v_47 = !(c_rac_1);
-      if (v_47) {
-        v_49 = true;
-        v_48_1 = false;
-        v_48_2 = false;
+      if (c_rac_1) {
+        v_46 = true;
       } else {
-        v_49 = self->pnr_1;
-        v_48_1 = true;
-        v_48_2 = false;
+        v_46 = self->pnr_1;
       };
-      v_46 = !(turn_on_rac_1);
-      if (v_46) {
+      if (turn_on_rac_1) {
         r_1_St_10_On = true;
       } else {
-        r_1_St_10_On = v_49;
+        r_1_St_10_On = v_46;
       };
-      v_126 = r_1_St_10_On;
-      if (v_46) {
+      v_121 = r_1_St_10_On;
+      if (c_rac_1) {
+        v_45_1 = false;
+      } else {
+        v_45_1 = true;
+      };
+      if (turn_on_rac_1) {
         s_1_St_10_On_1 = true;
       } else {
-        s_1_St_10_On_1 = v_48_1;
+        s_1_St_10_On_1 = v_45_1;
       };
-      v_122 = s_1_St_10_On_1;
-      if (v_46) {
+      v_117 = s_1_St_10_On_1;
+      if (c_rac_1) {
+        v_45_2 = false;
+      } else {
+        v_45_2 = false;
+      };
+      if (turn_on_rac_1) {
         s_1_St_10_On_2 = true;
       } else {
-        s_1_St_10_On_2 = v_48_2;
+        s_1_St_10_On_2 = v_45_2;
       };
-      v_123 = s_1_St_10_On_2;
-      if (v_48_1) {
-        v_48_2_1 = v_48_2;
+      v_118 = s_1_St_10_On_2;
+      if (v_45_1) {
+        v_45_2_1 = v_45_2;
       } else {
-        v_48_2_0 = v_48_2;
+        v_45_2_0 = v_45_2;
       };
       if (s_1_St_10_On_1) {
         s_1_St_10_On_2_1 = s_1_St_10_On_2;
@@ -1803,38 +1808,38 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
         s_1_St_10_On_2_0 = s_1_St_10_On_2;
       };
     };
-    s_1_1 = v_122;
-    s_1_2 = v_123;
-    r_1 = v_126;
+    s_1_1 = v_117;
+    s_1_2 = v_118;
+    r_1 = v_121;
   } else {
     ck_25_2_0 = ck_25_2;
     if (ck_25_2_0) {
-      v_127 = true;
-      v_124 = true;
-      v_125 = true;
+      v_122 = true;
+      v_119 = true;
+      v_120 = true;
     } else {
       if (c_rac_1) {
         r_1_St_10_Wait = true;
       } else {
         r_1_St_10_Wait = self->pnr_1;
       };
-      v_127 = r_1_St_10_Wait;
+      v_122 = r_1_St_10_Wait;
       if (c_rac_1) {
         s_1_St_10_Wait_1 = true;
       } else {
         s_1_St_10_Wait_1 = false;
       };
-      v_124 = s_1_St_10_Wait_1;
+      v_119 = s_1_St_10_Wait_1;
       if (c_rac_1) {
         s_1_St_10_Wait_2 = false;
       } else {
         s_1_St_10_Wait_2 = false;
       };
-      v_125 = s_1_St_10_Wait_2;
+      v_120 = s_1_St_10_Wait_2;
     };
-    s_1_1 = v_124;
-    s_1_2 = v_125;
-    r_1 = v_127;
+    s_1_1 = v_119;
+    s_1_2 = v_120;
+    r_1 = v_122;
   };
   ck_26_1 = s_1_1;
   ck_26_2 = s_1_2;
@@ -1845,57 +1850,64 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
       nr_1_St_10_Off = false;
       ns_1_St_10_Off_1 = true;
       ns_1_St_10_Off_2 = true;
-      v_112 = working_state_rac_1_St_10_Off;
-      v_118 = nr_1_St_10_Off;
-      v_114 = ns_1_St_10_Off_1;
-      v_115 = ns_1_St_10_Off_2;
+      v_107 = working_state_rac_1_St_10_Off;
+      v_113 = nr_1_St_10_Off;
+      v_109 = ns_1_St_10_Off_1;
+      v_110 = ns_1_St_10_Off_2;
       if (ns_1_St_10_Off_1) {
         ns_1_St_10_Off_2_1 = ns_1_St_10_Off_2;
       } else {
         ns_1_St_10_Off_2_0 = ns_1_St_10_Off_2;
       };
     } else {
-      working_state_rac_1_St_10_On = 1;
-      v_112 = working_state_rac_1_St_10_On;
+      working_state_rac_1_St_10_On = 2;
+      v_107 = working_state_rac_1_St_10_On;
       nr_1_St_10_On = false;
-      v_118 = nr_1_St_10_On;
+      v_113 = nr_1_St_10_On;
       ns_1_St_10_On_1 = true;
-      v_114 = ns_1_St_10_On_1;
+      v_109 = ns_1_St_10_On_1;
       ns_1_St_10_On_2 = false;
-      v_115 = ns_1_St_10_On_2;
+      v_110 = ns_1_St_10_On_2;
       if (ns_1_St_10_On_1) {
         ns_1_St_10_On_2_1 = ns_1_St_10_On_2;
       } else {
         ns_1_St_10_On_2_0 = ns_1_St_10_On_2;
       };
     };
-    working_state_rac_1 = v_112;
-    ns_1_1 = v_114;
-    ns_1_2 = v_115;
-    nr_1 = v_118;
+    working_state_rac_1 = v_107;
+    ns_1_1 = v_109;
+    ns_1_2 = v_110;
+    nr_1 = v_113;
   } else {
     ck_26_2_0 = ck_26_2;
     if (ck_26_2_0) {
-      v_113 = 0;
-      v_119 = true;
-      v_116 = true;
-      v_117 = true;
+      v_108 = 0;
+      v_114 = true;
+      v_111 = true;
+      v_112 = true;
     } else {
-      working_state_rac_1_St_10_Wait = 2;
-      v_113 = working_state_rac_1_St_10_Wait;
+      working_state_rac_1_St_10_Wait = 1;
+      v_108 = working_state_rac_1_St_10_Wait;
       nr_1_St_10_Wait = false;
-      v_119 = nr_1_St_10_Wait;
+      v_114 = nr_1_St_10_Wait;
       ns_1_St_10_Wait_1 = false;
-      v_116 = ns_1_St_10_Wait_1;
+      v_111 = ns_1_St_10_Wait_1;
       ns_1_St_10_Wait_2 = false;
-      v_117 = ns_1_St_10_Wait_2;
+      v_112 = ns_1_St_10_Wait_2;
     };
-    working_state_rac_1 = v_113;
-    ns_1_1 = v_116;
-    ns_1_2 = v_117;
-    nr_1 = v_119;
+    working_state_rac_1 = v_108;
+    ns_1_1 = v_111;
+    ns_1_2 = v_112;
+    nr_1 = v_114;
   };
   _out->working_state_rac = working_state_rac_1;
+  v_22 = (_out->working_state_lac+_out->working_state_rac);
+  v_23 = (v_22>0);
+  v_25 = (_out->working_state_lac+_out->working_state_rac);
+  v_26 = (v_25>2);
+  v_29 = (_out->working_state_rac+_out->working_state_lac);
+  v_30 = (v_29>1);
+  rule2 = !(v_30);
   if (ns_1_1) {
     ns_1_2_1 = ns_1_2;
   } else {
@@ -1927,174 +1939,172 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
   if (self->ck_23_1) {
     if (do_open_1) {
       r_2_St_11_Closed = true;
-    } else {
-      r_2_St_11_Closed = self->pnr_2;
-    };
-    r_2 = r_2_St_11_Closed;
-    if (do_open_1) {
       s_2_St_11_Closed_1 = false;
     } else {
+      r_2_St_11_Closed = self->pnr_2;
       s_2_St_11_Closed_1 = true;
     };
+    r_2 = r_2_St_11_Closed;
     s_2_1 = s_2_St_11_Closed_1;
   } else {
-    v_45 = !(do_open_1);
-    if (v_45) {
+    if (do_open_1) {
       r_2_St_11_Opened = true;
-      s_2_St_11_Opened_1 = true;
     } else {
       r_2_St_11_Opened = self->pnr_2;
-      s_2_St_11_Opened_1 = false;
     };
     r_2 = r_2_St_11_Opened;
+    if (do_open_1) {
+      s_2_St_11_Opened_1 = true;
+    } else {
+      s_2_St_11_Opened_1 = false;
+    };
     s_2_1 = s_2_St_11_Opened_1;
   };
   ck_24_1 = s_2_1;
   if (ck_24_1) {
     is_w_opened_1_St_11_Closed = false;
-    is_w_opened_1 = is_w_opened_1_St_11_Closed;
     nr_2_St_11_Closed = false;
-    nr_2 = nr_2_St_11_Closed;
     ns_2_St_11_Closed_1 = true;
+    is_w_opened_1 = is_w_opened_1_St_11_Closed;
+    nr_2 = nr_2_St_11_Closed;
     ns_2_1 = ns_2_St_11_Closed_1;
   } else {
     is_w_opened_1_St_11_Opened = true;
-    nr_2_St_11_Opened = false;
-    ns_2_St_11_Opened_1 = false;
     is_w_opened_1 = is_w_opened_1_St_11_Opened;
+    nr_2_St_11_Opened = false;
     nr_2 = nr_2_St_11_Opened;
+    ns_2_St_11_Opened_1 = false;
     ns_2_1 = ns_2_St_11_Opened_1;
   };
   _out->is_w_opened = is_w_opened_1;
+  v_24 = (_out->is_w_opened&&v_23);
+  rule5 = !(v_24);
   if (self->ck_21_1) {
     if (turn_on_wm_1) {
       r_3_St_12_Off = true;
-    } else {
-      r_3_St_12_Off = self->pnr_3;
-    };
-    r_3 = r_3_St_12_Off;
-    if (turn_on_wm_1) {
       s_3_St_12_Off_1 = false;
     } else {
+      r_3_St_12_Off = self->pnr_3;
       s_3_St_12_Off_1 = true;
     };
+    r_3 = r_3_St_12_Off;
     s_3_1 = s_3_St_12_Off_1;
   } else {
-    v_44 = !(turn_on_wm_1);
-    if (v_44) {
+    if (turn_on_wm_1) {
       r_3_St_12_Washing = true;
-      s_3_St_12_Washing_1 = true;
     } else {
       r_3_St_12_Washing = self->pnr_3;
-      s_3_St_12_Washing_1 = false;
     };
     r_3 = r_3_St_12_Washing;
+    if (turn_on_wm_1) {
+      s_3_St_12_Washing_1 = true;
+    } else {
+      s_3_St_12_Washing_1 = false;
+    };
     s_3_1 = s_3_St_12_Washing_1;
   };
   ck_22_1 = s_3_1;
   if (ck_22_1) {
     is_working_wm_1_St_12_Off = false;
-    is_working_wm_1 = is_working_wm_1_St_12_Off;
     nr_3_St_12_Off = false;
-    nr_3 = nr_3_St_12_Off;
     ns_3_St_12_Off_1 = true;
+    is_working_wm_1 = is_working_wm_1_St_12_Off;
+    nr_3 = nr_3_St_12_Off;
     ns_3_1 = ns_3_St_12_Off_1;
   } else {
     is_working_wm_1_St_12_Washing = true;
-    nr_3_St_12_Washing = false;
-    ns_3_St_12_Washing_1 = false;
     is_working_wm_1 = is_working_wm_1_St_12_Washing;
+    nr_3_St_12_Washing = false;
     nr_3 = nr_3_St_12_Washing;
+    ns_3_St_12_Washing_1 = false;
     ns_3_1 = ns_3_St_12_Washing_1;
   };
   _out->is_working_wm = is_working_wm_1;
+  v_27 = (_out->is_working_wm&&v_26);
+  rule4 = !(v_27);
   if (self->ck_19_1) {
     if (turn_on_tv_1) {
       r_4_St_13_Off = true;
-    } else {
-      r_4_St_13_Off = self->pnr_4;
-    };
-    r_4 = r_4_St_13_Off;
-    if (turn_on_tv_1) {
       s_4_St_13_Off_1 = false;
     } else {
+      r_4_St_13_Off = self->pnr_4;
       s_4_St_13_Off_1 = true;
     };
+    r_4 = r_4_St_13_Off;
     s_4_1 = s_4_St_13_Off_1;
   } else {
-    v_43 = !(turn_on_tv_1);
-    if (v_43) {
+    if (turn_on_tv_1) {
       r_4_St_13_On = true;
-      s_4_St_13_On_1 = true;
     } else {
       r_4_St_13_On = self->pnr_4;
-      s_4_St_13_On_1 = false;
     };
     r_4 = r_4_St_13_On;
+    if (turn_on_tv_1) {
+      s_4_St_13_On_1 = true;
+    } else {
+      s_4_St_13_On_1 = false;
+    };
     s_4_1 = s_4_St_13_On_1;
   };
   ck_20_1 = s_4_1;
   if (ck_20_1) {
     is_tv_on_1_St_13_Off = false;
-    is_tv_on_1 = is_tv_on_1_St_13_Off;
     nr_4_St_13_Off = false;
-    nr_4 = nr_4_St_13_Off;
     ns_4_St_13_Off_1 = true;
+    is_tv_on_1 = is_tv_on_1_St_13_Off;
+    nr_4 = nr_4_St_13_Off;
     ns_4_1 = ns_4_St_13_Off_1;
   } else {
     is_tv_on_1_St_13_On = true;
-    nr_4_St_13_On = false;
-    ns_4_St_13_On_1 = false;
     is_tv_on_1 = is_tv_on_1_St_13_On;
+    nr_4_St_13_On = false;
     nr_4 = nr_4_St_13_On;
+    ns_4_St_13_On_1 = false;
     ns_4_1 = ns_4_St_13_On_1;
   };
   _out->is_tv_on = is_tv_on_1;
+  v = !(_out->is_tv_on);
   if (self->ck_17_1) {
-    v_36 = (turn_on_l_1&&c_l_1);
-    v_37 = (v_36||c_l_1);
-    if (v_37) {
+    v_44 = (turn_on_l_1&&c_l1_3);
+    if (v_44) {
       r_5_St_14_Off = true;
-    } else {
-      r_5_St_14_Off = self->pnr_5;
-    };
-    r_5 = r_5_St_14_Off;
-    if (v_37) {
       s_5_St_14_Off_1 = false;
     } else {
+      r_5_St_14_Off = self->pnr_5;
       s_5_St_14_Off_1 = true;
     };
+    r_5 = r_5_St_14_Off;
     s_5_1 = s_5_St_14_Off_1;
   } else {
-    v_41 = !(c_l_1);
-    v_39 = !(c_l_1);
-    v_38 = !(turn_on_l_1);
-    v_40 = (v_38&&v_39);
-    v_42 = (v_40||v_41);
-    if (v_42) {
+    v_42 = (turn_on_l_1&&c_l1_3);
+    v_43 = (v_42||c_l2_3);
+    if (v_43) {
       r_5_St_14_On = true;
-      s_5_St_14_On_1 = true;
     } else {
       r_5_St_14_On = self->pnr_5;
-      s_5_St_14_On_1 = false;
     };
     r_5 = r_5_St_14_On;
+    if (v_43) {
+      s_5_St_14_On_1 = true;
+    } else {
+      s_5_St_14_On_1 = false;
+    };
     s_5_1 = s_5_St_14_On_1;
   };
   ck_18_1 = s_5_1;
   if (ck_18_1) {
     is_on_l_1_St_14_Off = false;
-    is_on_l_1 = is_on_l_1_St_14_Off;
     nr_5_St_14_Off = false;
-    nr_5 = nr_5_St_14_Off;
     ns_5_St_14_Off_1 = true;
+    is_on_l_1 = is_on_l_1_St_14_Off;
+    nr_5 = nr_5_St_14_Off;
     ns_5_1 = ns_5_St_14_Off_1;
   } else {
     is_on_l_1_St_14_On = true;
-    nr_5_St_14_On = false;
-    ns_5_St_14_On_1 = false;
     is_on_l_1 = is_on_l_1_St_14_On;
+    nr_5_St_14_On = false;
     nr_5 = nr_5_St_14_On;
+    ns_5_St_14_On_1 = false;
     ns_5_1 = ns_5_St_14_On_1;
   };
   _out->is_on_l = is_on_l_1;
@@ -2112,8 +2122,7 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     };
     s_6_1 = s_6_St_15_Off_1;
   } else {
-    v_35 = !(turn_on_rl_1);
-    if (v_35) {
+    if (turn_on_rl_1) {
       r_6_St_15_On = true;
       s_6_St_15_On_1 = true;
     } else {
@@ -2140,10 +2149,11 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     ns_6_1 = ns_6_St_15_On_1;
   };
   _out->is_on_rl = is_on_rl_1;
+  v_28 = (_out->is_on_rl&&_out->is_on_l);
+  rule3 = !(v_28);
   if (self->ck_13_1) {
-    v_33 = (turn_on_l1_2&&c_l1_2);
-    v_34 = (v_33||c_l2_2);
-    if (v_34) {
+    v_41 = (turn_on_l1_2&&c_l1_2);
+    if (v_41) {
       r_7_St_16_Off = true;
       s_7_St_16_Off_1 = false;
     } else {
@@ -2153,15 +2163,15 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     r_7 = r_7_St_16_Off;
     s_7_1 = s_7_St_16_Off_1;
   } else {
-    v_31 = (turn_on_l1_2&&c_l1_2);
-    v_32 = (v_31||c_l2_2);
-    if (v_32) {
+    v_39 = (turn_on_l1_2&&c_l1_2);
+    v_40 = (v_39||c_l2_2);
+    if (v_40) {
       r_7_St_16_On = true;
     } else {
       r_7_St_16_On = self->pnr_7;
     };
     r_7 = r_7_St_16_On;
-    if (v_32) {
+    if (v_40) {
       s_7_St_16_On_1 = true;
     } else {
       s_7_St_16_On_1 = false;
@@ -2185,10 +2195,10 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     ns_7_1 = ns_7_St_16_On_1;
   };
   _out->is_on_l2 = is_on_l1_2;
+  v_19 = !(_out->is_on_l2);
   if (self->ck_11_1) {
-    v_29 = (turn_on_l1_1&&c_l1_1);
-    v_30 = (v_29||c_l2_1);
-    if (v_30) {
+    v_38 = (turn_on_l1_1&&c_l1_1);
+    if (v_38) {
       r_8_St_17_Off = true;
       s_8_St_17_Off_1 = false;
     } else {
@@ -2198,15 +2208,15 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     r_8 = r_8_St_17_Off;
     s_8_1 = s_8_St_17_Off_1;
   } else {
-    v_27 = (turn_on_l1_1&&c_l1_1);
-    v_28 = (v_27||c_l2_1);
-    if (v_28) {
+    v_36 = (turn_on_l1_1&&c_l1_1);
+    v_37 = (v_36||c_l2_1);
+    if (v_37) {
       r_8_St_17_On = true;
     } else {
       r_8_St_17_On = self->pnr_8;
     };
     r_8 = r_8_St_17_On;
-    if (v_28) {
+    if (v_37) {
       s_8_St_17_On_1 = true;
     } else {
       s_8_St_17_On_1 = false;
@@ -2230,8 +2240,13 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     ns_8_1 = ns_8_St_17_On_1;
   };
   _out->is_on_l1 = is_on_l1_1;
-  v = (_out->is_on_l1&&_out->is_on_l2);
-  rule1 = !(v);
+  v_18 = !(_out->is_on_l1);
+  v_20 = (v_18&&v_19);
+  v_31 = (_out->is_on_l1&&_out->is_on_l2);
+  rule1 = !(v_31);
+  v_32 = (rule1&&rule2);
+  v_33 = (v_32&&rule3);
+  v_34 = (v_33&&rule5);
   if (self->ck_1) {
     if (presence_1) {
       r_9_St_18_Empty = true;
@@ -2243,14 +2258,13 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     r_9 = r_9_St_18_Empty;
     s_9_1 = s_9_St_18_Empty_1;
   } else {
-    v_26 = !(presence_1);
-    if (v_26) {
+    if (presence_1) {
       r_9_St_18_Occupied = true;
     } else {
       r_9_St_18_Occupied = self->pnr_9;
     };
     r_9 = r_9_St_18_Occupied;
-    if (v_26) {
+    if (presence_1) {
       s_9_St_18_Occupied_1 = true;
     } else {
       s_9_St_18_Occupied_1 = false;
@@ -2274,12 +2288,16 @@ void Project__supervisor_step(int presence, int turn_on_l1, int turn_on_l2,
     ns_9_1 = ns_9_St_18_Occupied_1;
   };
   _out->has_presence = has_presence_1;
+  v_17 = (_out->has_presence&&v);
+  v_21 = (v_17&&v_20);
+  rule6 = !(v_21);
+  v_35 = (v_34&&rule6);
   self->pnr = nr;
-  self->v_104 = ns_1_3;
-  self->v_105 = ns_2_2;
+  self->v_99 = ns_1_3;
+  self->v_100 = ns_2_2;
   self->pnr_1 = nr_1;
-  self->v_120 = ns_1_1;
-  self->v_121 = ns_1_2;
+  self->v_115 = ns_1_1;
+  self->v_116 = ns_1_2;
   self->pnr_2 = nr_2;
   self->ck_23_1 = ns_2_1;
   self->pnr_3 = nr_3;

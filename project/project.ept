@@ -20,11 +20,11 @@ let
 
 		state Off do
 			is_on_l1 = false;
-		unless (turn_on_l1 & c_l1) then On
+		unless (turn_on_l1 & not c_l1) or not c_l2 then On
 
 		state On do
 			is_on_l1 = true;
-		unless (turn_on_l1 & c_l1) or c_l2 then Off
+		unless (turn_on_l1 & not c_l1) or not c_l2 then Off
 	end
 tel
 
@@ -34,25 +34,24 @@ let
 
 		state Off do
 			is_on_l = false;
-		unless (turn_on_l & c_l1) then On
+		unless (turn_on_l & not c_l1) then On
 
 		state On do
 			is_on_l = true;
-		unless (turn_on_l & c_l1) or c_l2 then Off
+		unless (turn_on_l & not c_l1) or not c_l2 then Off
 	end
 tel
 
 node room_reading_lamp(turn_on_rl: bool) returns (is_on_rl: bool)
 let
 	automaton
+		state Off do
+			is_on_rl = false;
+		unless turn_on_rl then On
 
 		state On do
 			is_on_rl = true;
 		unless turn_on_rl then Off
-
-		state Off do
-			is_on_rl = false;
-		unless turn_on_rl then On
 	end
 tel
 
@@ -62,11 +61,11 @@ let
 
 		state Off do
 			working_state_rac = 0;
-		unless turn_on_rac & c_rac then On | turn_on_rac & c_rac then Wait
+		unless turn_on_rac & c_rac then On | turn_on_rac & not c_rac then Wait
 
 		state On do
 			working_state_rac = 2;
-		unless turn_on_rac then Off | c_rac then Wait
+		unless turn_on_rac then Off | not c_rac then Wait
 
 		state Wait do
 			working_state_rac = 1;
@@ -74,21 +73,21 @@ let
 	end
 tel
 
-node living_room_air_conditioner(turn_on_lac, c_lac: bool) returns (working_state_lac: int)
+node living_room_air_conditioner(turn_on_lac, c_lac, c2_lac: bool) returns (working_state_lac: int)
 let
 	automaton
 
 		state Off do
 			working_state_lac = 0;
-		unless turn_on_lac & c_lac then On | turn_on_lac & not c_lac then Wait
+		unless turn_on_lac & c_lac & c2_lac then On | turn_on_lac & not c2_lac then Wait
 
 		state On do
 			working_state_lac = 2;
-		unless turn_on_lac then Off | not c_lac then Wait
+		unless turn_on_lac then Off | not c2_lac then Wait
 
 		state Wait do
 			working_state_lac = 1;
-		unless c_lac then On
+		unless c2_lac then On
 	end
 tel
 
@@ -141,15 +140,15 @@ node supervisor(presence, turn_on_l1, turn_on_l2, turn_on_rl, turn_on_l, turn_on
 
     let
     	rule1 = not (is_on_l1 & is_on_l2);
-    	rule2 = not (working_state_rac + working_state_lac > 1);
+    	rule2 = not (working_state_rac > 0 & working_state_lac > 0);
     	rule3 = not (is_on_rl & is_on_l);
-    	rule4 = not (is_working_wm & (working_state_lac + working_state_rac > 2));
+    	rule4 = not (is_working_wm & (working_state_lac + working_state_rac > 1));
     	rule5 = not (is_w_opened & (working_state_lac + working_state_rac > 0));
     	rule6 = not ((has_presence & (not is_tv_on)) & (not is_on_l1 & not is_on_l2));
     tel
 
-    enforce (rule1 & rule2 & rule3 & rule5 & rule6)
-		 with (c_l1, c_l2, c_l3, c_l4,c_l5, c_l, c_rac, c_lac: bool)
+    enforce (rule1& rule2 & rule3 & rule4 & rule5 & rule6)
+		 with (c_l1, c_l2, c_l3, c_l4,c_l5, c_l, c_rac, c_lac, c2_rac, c2_lac: bool)
 
 	let
 		has_presence = inlined living_room_presence(presence);
@@ -160,6 +159,6 @@ node supervisor(presence, turn_on_l1, turn_on_l2, turn_on_rl, turn_on_l, turn_on
 		is_tv_on = inlined tv(turn_on_tv);
 		is_working_wm = inlined washing_machine(turn_on_wm);
 		is_w_opened = inlined window(do_open);
-		working_state_rac = inlined room_air_conditioner(turn_on_rac, c_rac);
-		working_state_lac = inlined living_room_air_conditioner(turn_on_lac, c_lac)
+		working_state_rac = inlined living_room_air_conditioner(turn_on_rac, c_rac, c2_rac);
+		working_state_lac = inlined living_room_air_conditioner(turn_on_lac, c_lac, c2_lac)
 	tel

@@ -12,7 +12,7 @@
 #include "_main.h"
 
 #define PORT 8082
-#define n 57
+#define n 12
 
 Project__supervisor_mem mem;
 int glob_cnt = 0;
@@ -118,7 +118,7 @@ answer_to_connection (void *cls, struct MHD_Connection *connection,
     printf("%s, %s\n",dict[i].key, dict[i].value);
   }  
   
-  Global2__global_step(presence, turn_on_l1, turn_on_l2, turn_on_rl, turn_on_l, turn_on_rac, turn_on_lac, turn_on_tv, turn_on_wm, do_open, &_res, &mem);
+  Project__supervisor_step(presence, turn_on_l1, turn_on_l2, turn_on_rl, turn_on_l, turn_on_rac, turn_on_lac, turn_on_tv, turn_on_wm, do_open, &_res, &mem);
 
   char aux[1];
   

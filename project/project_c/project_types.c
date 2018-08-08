@@ -1,4 +1,4 @@
-/* --- Generated the 6/8/2018 at 10:53 --- */
+/* --- Generated the 8/8/2018 at 10:52 --- */
 /* --- heptagon compiler, version 1.03.00 (compiled thu. may. 3 2:35:29 CET 2018) --- */
 /* --- Command line: /usr/local/bin/heptc -target c -target z3z -s supervisor project.ept --- */
 
@@ -7,45 +7,22 @@
 #include <stdlib.h>
 #include "project_types.h"
 
-Project__st_18 Project__st_18_of_string(char* s) {
-  if ((strcmp(s, "St_18_Occupied")==0)) {
-    return Project__St_18_Occupied;
-  };
-  if ((strcmp(s, "St_18_Empty")==0)) {
-    return Project__St_18_Empty;
-  };
-}
-
-char* string_of_Project__st_18(Project__st_18 x, char* buf) {
-  switch (x) {
-    case Project__St_18_Occupied:
-      strcpy(buf, "St_18_Occupied");
-      break;
-    case Project__St_18_Empty:
-      strcpy(buf, "St_18_Empty");
-      break;
-    default:
-      break;
-  };
-  return buf;
-}
-
 Project__st_17 Project__st_17_of_string(char* s) {
-  if ((strcmp(s, "St_17_On")==0)) {
-    return Project__St_17_On;
+  if ((strcmp(s, "St_17_Occupied")==0)) {
+    return Project__St_17_Occupied;
   };
-  if ((strcmp(s, "St_17_Off")==0)) {
-    return Project__St_17_Off;
+  if ((strcmp(s, "St_17_Empty")==0)) {
+    return Project__St_17_Empty;
   };
 }
 
 char* string_of_Project__st_17(Project__st_17 x, char* buf) {
   switch (x) {
-    case Project__St_17_On:
-      strcpy(buf, "St_17_On");
+    case Project__St_17_Occupied:
+      strcpy(buf, "St_17_Occupied");
       break;
-    case Project__St_17_Off:
-      strcpy(buf, "St_17_Off");
+    case Project__St_17_Empty:
+      strcpy(buf, "St_17_Empty");
       break;
     default:
       break;
@@ -146,8 +123,8 @@ char* string_of_Project__st_13(Project__st_13 x, char* buf) {
 }
 
 Project__st_12 Project__st_12_of_string(char* s) {
-  if ((strcmp(s, "St_12_Washing")==0)) {
-    return Project__St_12_Washing;
+  if ((strcmp(s, "St_12_On")==0)) {
+    return Project__St_12_On;
   };
   if ((strcmp(s, "St_12_Off")==0)) {
     return Project__St_12_Off;
@@ -156,8 +133,8 @@ Project__st_12 Project__st_12_of_string(char* s) {
 
 char* string_of_Project__st_12(Project__st_12 x, char* buf) {
   switch (x) {
-    case Project__St_12_Washing:
-      strcpy(buf, "St_12_Washing");
+    case Project__St_12_On:
+      strcpy(buf, "St_12_On");
       break;
     case Project__St_12_Off:
       strcpy(buf, "St_12_Off");
@@ -169,21 +146,21 @@ char* string_of_Project__st_12(Project__st_12 x, char* buf) {
 }
 
 Project__st_11 Project__st_11_of_string(char* s) {
-  if ((strcmp(s, "St_11_Opened")==0)) {
-    return Project__St_11_Opened;
+  if ((strcmp(s, "St_11_Washing")==0)) {
+    return Project__St_11_Washing;
   };
-  if ((strcmp(s, "St_11_Closed")==0)) {
-    return Project__St_11_Closed;
+  if ((strcmp(s, "St_11_Off")==0)) {
+    return Project__St_11_Off;
   };
 }
 
 char* string_of_Project__st_11(Project__st_11 x, char* buf) {
   switch (x) {
-    case Project__St_11_Opened:
-      strcpy(buf, "St_11_Opened");
+    case Project__St_11_Washing:
+      strcpy(buf, "St_11_Washing");
       break;
-    case Project__St_11_Closed:
-      strcpy(buf, "St_11_Closed");
+    case Project__St_11_Off:
+      strcpy(buf, "St_11_Off");
       break;
     default:
       break;
@@ -192,27 +169,21 @@ char* string_of_Project__st_11(Project__st_11 x, char* buf) {
 }
 
 Project__st_10 Project__st_10_of_string(char* s) {
-  if ((strcmp(s, "St_10_Wait")==0)) {
-    return Project__St_10_Wait;
+  if ((strcmp(s, "St_10_Opened")==0)) {
+    return Project__St_10_Opened;
   };
-  if ((strcmp(s, "St_10_On")==0)) {
-    return Project__St_10_On;
-  };
-  if ((strcmp(s, "St_10_Off")==0)) {
-    return Project__St_10_Off;
+  if ((strcmp(s, "St_10_Closed")==0)) {
+    return Project__St_10_Closed;
   };
 }
 
 char* string_of_Project__st_10(Project__st_10 x, char* buf) {
   switch (x) {
-    case Project__St_10_Wait:
-      strcpy(buf, "St_10_Wait");
+    case Project__St_10_Opened:
+      strcpy(buf, "St_10_Opened");
       break;
-    case Project__St_10_On:
-      strcpy(buf, "St_10_On");
-      break;
-    case Project__St_10_Off:
-      strcpy(buf, "St_10_Off");
+    case Project__St_10_Closed:
+      strcpy(buf, "St_10_Closed");
       break;
     default:
       break;
@@ -250,21 +221,27 @@ char* string_of_Project__st_9(Project__st_9 x, char* buf) {
 }
 
 Project__st_8 Project__st_8_of_string(char* s) {
-  if ((strcmp(s, "St_8_Opened")==0)) {
-    return Project__St_8_Opened;
+  if ((strcmp(s, "St_8_Wait")==0)) {
+    return Project__St_8_Wait;
   };
-  if ((strcmp(s, "St_8_Closed")==0)) {
-    return Project__St_8_Closed;
+  if ((strcmp(s, "St_8_On")==0)) {
+    return Project__St_8_On;
+  };
+  if ((strcmp(s, "St_8_Off")==0)) {
+    return Project__St_8_Off;
   };
 }
 
 char* string_of_Project__st_8(Project__st_8 x, char* buf) {
   switch (x) {
-    case Project__St_8_Opened:
-      strcpy(buf, "St_8_Opened");
+    case Project__St_8_Wait:
+      strcpy(buf, "St_8_Wait");
       break;
-    case Project__St_8_Closed:
-      strcpy(buf, "St_8_Closed");
+    case Project__St_8_On:
+      strcpy(buf, "St_8_On");
+      break;
+    case Project__St_8_Off:
+      strcpy(buf, "St_8_Off");
       break;
     default:
       break;
@@ -273,21 +250,21 @@ char* string_of_Project__st_8(Project__st_8 x, char* buf) {
 }
 
 Project__st_7 Project__st_7_of_string(char* s) {
-  if ((strcmp(s, "St_7_Washing")==0)) {
-    return Project__St_7_Washing;
+  if ((strcmp(s, "St_7_Opened")==0)) {
+    return Project__St_7_Opened;
   };
-  if ((strcmp(s, "St_7_Off")==0)) {
-    return Project__St_7_Off;
+  if ((strcmp(s, "St_7_Closed")==0)) {
+    return Project__St_7_Closed;
   };
 }
 
 char* string_of_Project__st_7(Project__st_7 x, char* buf) {
   switch (x) {
-    case Project__St_7_Washing:
-      strcpy(buf, "St_7_Washing");
+    case Project__St_7_Opened:
+      strcpy(buf, "St_7_Opened");
       break;
-    case Project__St_7_Off:
-      strcpy(buf, "St_7_Off");
+    case Project__St_7_Closed:
+      strcpy(buf, "St_7_Closed");
       break;
     default:
       break;
@@ -296,8 +273,8 @@ char* string_of_Project__st_7(Project__st_7 x, char* buf) {
 }
 
 Project__st_6 Project__st_6_of_string(char* s) {
-  if ((strcmp(s, "St_6_On")==0)) {
-    return Project__St_6_On;
+  if ((strcmp(s, "St_6_Washing")==0)) {
+    return Project__St_6_Washing;
   };
   if ((strcmp(s, "St_6_Off")==0)) {
     return Project__St_6_Off;
@@ -306,8 +283,8 @@ Project__st_6 Project__st_6_of_string(char* s) {
 
 char* string_of_Project__st_6(Project__st_6 x, char* buf) {
   switch (x) {
-    case Project__St_6_On:
-      strcpy(buf, "St_6_On");
+    case Project__St_6_Washing:
+      strcpy(buf, "St_6_Washing");
       break;
     case Project__St_6_Off:
       strcpy(buf, "St_6_Off");
@@ -319,9 +296,6 @@ char* string_of_Project__st_6(Project__st_6 x, char* buf) {
 }
 
 Project__st_5 Project__st_5_of_string(char* s) {
-  if ((strcmp(s, "St_5_Wait")==0)) {
-    return Project__St_5_Wait;
-  };
   if ((strcmp(s, "St_5_On")==0)) {
     return Project__St_5_On;
   };
@@ -332,9 +306,6 @@ Project__st_5 Project__st_5_of_string(char* s) {
 
 char* string_of_Project__st_5(Project__st_5 x, char* buf) {
   switch (x) {
-    case Project__St_5_Wait:
-      strcpy(buf, "St_5_Wait");
-      break;
     case Project__St_5_On:
       strcpy(buf, "St_5_On");
       break;

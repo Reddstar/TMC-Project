@@ -1,4 +1,4 @@
-/* --- Generated the 6/8/2018 at 10:53 --- */
+/* --- Generated the 8/8/2018 at 10:52 --- */
 /* --- heptagon compiler, version 1.03.00 (compiled thu. may. 3 2:35:29 CET 2018) --- */
 /* --- Command line: /usr/local/bin/heptc -target c -target z3z -s supervisor project.ept --- */
 
@@ -67,25 +67,9 @@ void Project__room_reading_lamp_step(int turn_on_rl,
                                      Project__room_reading_lamp_out* _out,
                                      Project__room_reading_lamp_mem* self);
 
-typedef struct Project__room_air_conditioner_mem {
-  int v_98;
-  int v_97;
-  int pnr;
-} Project__room_air_conditioner_mem;
-
-typedef struct Project__room_air_conditioner_out {
-  int working_state_rac;
-} Project__room_air_conditioner_out;
-
-void Project__room_air_conditioner_reset(Project__room_air_conditioner_mem* self);
-
-void Project__room_air_conditioner_step(int turn_on_rac, int c_rac,
-                                        Project__room_air_conditioner_out* _out,
-                                        Project__room_air_conditioner_mem* self);
-
 typedef struct Project__living_room_air_conditioner_mem {
-  int v_114;
-  int v_113;
+  int v_96;
+  int v_95;
   int pnr;
 } Project__living_room_air_conditioner_mem;
 
@@ -144,17 +128,17 @@ void Project__window_step(int do_open, Project__window_out* _out,
                           Project__window_mem* self);
 
 typedef struct Project__supervisor_mem {
-  int v_130;
-  int v_129;
-  int v_146;
-  int v_145;
-  int ck_23_1;
-  int ck_21_1;
-  int ck_19_1;
-  int ck_17_1;
-  int ck_15_1;
-  int ck_13_1;
-  int ck_11_1;
+  int v_112;
+  int v_111;
+  int v_128;
+  int v_127;
+  int ck_22_1;
+  int ck_20_1;
+  int ck_18_1;
+  int ck_16_1;
+  int ck_14_1;
+  int ck_12_1;
+  int ck_10_1;
   int ck_1;
   int pnr_9;
   int pnr_8;
